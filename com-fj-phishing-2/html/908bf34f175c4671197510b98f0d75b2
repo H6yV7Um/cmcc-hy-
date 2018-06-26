@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en" class=" js flexbox canvas canvastext webgl touch geolocation postmessage websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent no-video no-audio no-localstorage no-sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>众信云计费 - 登录</title>
+    <link href="http://banks.8zcf.com/Public/Front/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://banks.8zcf.com/Public/Front/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" src="http://banks.8zcf.com/Public/Front/bootstrapvalidator/css/bootstrapValidator.min.css">
+    <link href="http://banks.8zcf.com/Public/Front/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://banks.8zcf.com/Public/Front/login/css/style.css">
+    <script src="http://banks.8zcf.com/Public/Front/login/js/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html"/>
+    <![endif]-->
+    <script>
+        if (window.top !== window.self) {
+            window.top.location = window.location;
+        }
+    </script>
+<meta name="__hash__" content="89ff97fc74bd701d69a1fdc1f7c0ea23_3ef9ff2ebbadfda9deba89dff3f7dd3a"></head>
+<body class="style-3">
+
+<div class="container">
+    <div class="row col-hidden-xs">
+        <div class="mt-50"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-push-8">
+
+            <form class="fh5co-form animate-box form-horizontal" data-animate-effect="fadeInRight" id="formlogin" method="post" role="form" action="/user_Login_checklogin.html">
+            <div class="form-group"><h2>账号登录</h2>  </div>
+            <div class="form-group">
+                <label for="username" class="sr-only">用户名</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="用户名" required="" minlength="2" aria-required="true" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="password" class="sr-only">密码</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="密码" required="" aria-required="true" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <span class="col-sm-4 mp-nm"><input type="text" class="form-control" id="verification" name="varification" placeholder="验证码" required="" aria-required="true" autocomplete="off" ajaxurl="/agent_Login_checkverify.html"></span>
+                <label class="userverification col-sm-8"><img class="verifyimg" alt="点击刷新验证码" src="/agent_Login_verifycode.html" style="cursor:pointer;" onclick="getCode()" title="点击刷新验证码"></label>
+
+            </div>
+
+            <div class="form-group">
+                <label for="remember"><input type="checkbox" id="remember"> 记住我</label>
+            </div>
+            <div class="form-group">
+                <p>还不是会员? 点击 <a href="/agent_Login_register.html">注册账号</a> | <a href="/agent_Login_forgetpwd.html">忘记密码?</a></p>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary">点击登录</button>
+            </div>
+            <input type="hidden" name="__hash__" value="89ff97fc74bd701d69a1fdc1f7c0ea23_3ef9ff2ebbadfda9deba89dff3f7dd3a"></form>
+            <!-- END Sign In Form -->
+        </div>
+    </div>
+    <div class="row" style="padding-top: 60px; clear: both;">
+        <div class="col-md-12 text-center"><p><small>© 众信云计费 All Rights Reserved.  </small></p></div>
+    </div>
+</div>
+<script src="http://banks.8zcf.com/Public/Front/js/jquery.min.js"></script>
+<script src="http://banks.8zcf.com/Public/Front/js/bootstrap.min.js"></script>
+<script src="http://banks.8zcf.com/Public/Front/bootstrapvalidator/js/bootstrapValidator.min.js"></script>
+
+<div style="display:none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261742514'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1261742514' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1261742514"><a href="http://www.cnzz.com/stat/website.php?web_id=1261742514" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s11.cnzz.com/stat.php?id=1261742514" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1261742514&amp;t=z" charset="utf-8" type="text/javascript"></script></div>
+
+<script type="text/javascript">
+    function getCode(){
+        $(".verifyimg").attr("src","/agent_Login_verifycode?a=" + Math.random());
+    }
+</script></body></html>

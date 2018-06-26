@@ -1,0 +1,988 @@
+<!DOCTYPE html><html lang="zh-CN"><head><link rel="stylesheet" type="text/css" href="http://webapi.amap.com/theme/v1.3/style1503546983737.css">
+        <title>手机维修 - 专业的手机、平板维修平台</title>
+        <meta charset="utf-8">
+		<link rel="shortcut icon" href="/Public/Home/images/coins/logoIcon.png">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=Edge">
+		<meta name="Keywords" content="手机维修,平板维修,苹果手机维修,草包网">
+		<meta name="Description" content="国内专业的手机维修、平板维修平台，以地区和官方在线报价并为客户提供快速上门维修、到店维修、邮寄维修服务。手机维修、平板维修首选草包网，统一真实报价、安全可靠、原厂配件。">
+		<meta name="baidu-site-verification" content="2x3g9fsDlz">
+		<meta name="applicable-device" content="pc">
+		<link rel="stylesheet" type="text/css" href="/Public/Home/css/same.css">
+		<link rel="stylesheet" type="text/css" href="/Public/Plugins/xcConfirm/css/xcConfirm.css">
+		<!-- <link rel="stylesheet" href="/Public/Home/css/header.css" /> -->
+        <!-- 自定义CSS文件 部分 -->
+		
+    <link rel="stylesheet" href="/Public/Home/css/index.css">
+
+		<!-- 自定义CSS文件 结束 -->
+		
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="/Public/Home/js/jquery-1.11.1.min.js"></script>
+		<script src="/Public/Home/page-js/html5shiv.min.js"></script>
+		
+		<!-- 自定义顶部js文件 部分 -->
+		
+	<script type="text/javascript" src="/Public/Home/js/jquery.lazyload.min.js"></script>
+	<script type="text/javascript" src="/Public/Home/js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="/Public/Plugins/jquery.cookie.js"></script>
+
+		<!-- 自定义顶部js文件 结束 -->
+		
+	<style type="text/css">.amap-container{cursor:url(http://webapi.amap.com/theme/v1.3/openhand.cur),default;}.amap-drag{cursor:url(http://webapi.amap.com/theme/v1.3/closedhand.cur),default;}</style></head>
+	<body>
+		<!-- 头部部分 开始 -->
+		<div class="header">
+			<div class="header-out">
+				<div class="header_top wrap">
+					<div class="select-city">
+						<p class="city">[<span title="嘉兴市" alt="嘉兴市">嘉兴市</span>]</p>
+						<p class="change"><a href="/index/citys.html">切换城市</a></p>
+					</div>
+					<link rel="stylesheet" type="text/css" href="/Public/Home/css/widget-user.css">
+<div class="tabnav">
+		<ul class="tabbd">
+		<!-- <li class="by"><a href="/buy/cart.html"><i class="buycar"></i><span>(0)</span></a></li> -->
+		<li class="login tabbdli"><a rel="nofollow" href="/users/login.html">登录</a></li>
+		<li class="line tabbdli">|</li>
+		<!--<li><a rel="nofollow" href="/users/regist.html">注册</a></li>-->
+		<li class="tabbdli"><a rel="nofollow" href="/users/login/type/weixin.html">注册</a></li>
+			</ul>
+</div>
+
+<script type="text/javascript">
+	$(".quote-notice").hover(function(){                               // 维修师抢单通知
+		var _this = $(this);
+		var type  = _this.attr('data-type');
+		$.post('/Index/loadUserOffer', {'type':type}, function(d){
+			var data = JSON.parse(d);
+			if(data || data != ''){
+				if(type == 'repair'){
+					var html = '';
+					for(var a = 0;a < data.length;a++){
+						html += '<li>';
+						html += '	<a href="http://www.caobao.com/offer/'+data[a]['order_id']+'-'+data[a]['shop_id']+'.html" class="clearfix">';
+						html += '		<div class="pic">';
+						html += '			<img src="/Public/User/'+data[a]['thumb']+'" onerror="javascript:this.src=\'/Public/User/default.jpg\';" />';
+						html += '		</div>';
+						html += '		<div class="content">';
+						html += '			<div class="user-need">';
+						if(data[a]['order_type'] == 1){
+							html += '			<p>用户<span>'+data[a]['uname']+'</span>发表了一条维修订单</p>';
+						}else{
+							html += '			<p>用户<span>'+data[a]['uname']+'</span>发表了一条回收订单</p>';
+						}
+						html += '			</div>';
+						html += '			<div class="need-detial clearfix">';
+						html += '				<p>【详情】'+data[a]['details']+'</p>';
+						html += '				<time>'+data[a]['show_time']+'</time>';
+						html += '			</div>';
+						html += '		</div>';
+						html += '	</a>';
+						html += '</li>';
+					}
+				}else{
+					var html = '';
+					for(var a = 0;a < data.length;a++){
+						var url = "http://www.caobao.com/repair/server/id/"+data[a]['order_id']+".html";
+						if(data[a]['order_type'] == 2){
+							var url = "http://www.caobao.com/recovery/server/id/"+data[a]['order_id']+".html";
+						}
+						html += '<li>';
+						html += '	<a href="'+url+'" class="clearfix">';
+						html += '		<div class="pic">';
+						html += '			<img src="/Public/User/'+data[a]['logo_image']+'" onerror="javascript:this.src=\'/Public/Home/images/2016/picc.png\';" />';
+						html += '		</div>';
+						html += '		<div class="content">';
+						html += '			<div class="user-need">';
+						html += '			<p>维修店<span>'+data[a]['shop_name']+'</span>对您发布的订单报价了</p>';
+						html += '			</div>';
+						html += '			<div class="need-detial clearfix">';
+						html += '				<p>【详情】'+data[a]['details']+'</p>';
+						html += '				<time>'+data[a]['show_time']+'</time>';
+						html += '			</div>';
+						html += '		</div>';
+						html += '	</a>';
+						html += '</li>';
+					}
+				}
+				$(".notice-list-ul").empty().append(html);
+				_this.find(".notice-list").stop().slideDown(300);
+			}
+		});
+		
+	},function(){
+		$(this).find(".notice-list").stop().slideUp(300);
+	});
+	$(".user-name").hover(function(){ // 维修师抢单通知
+		var _this = $(this);
+		_this.find(".drop-down").stop().slideDown(300);
+	},function(){
+		var _this = $(this);
+		_this.find(".drop-down").stop().slideUp(300);
+	});
+</script>				</div>
+			</div>
+			<div class="navbg">
+				<div class="header-btm wrap">
+					<div class="logo">
+					   <p class="h1">
+							<a href="http://www.caobao.com"></a>
+						</p> 
+					</div>
+					<ul class="nav clearfix">
+						<li class="first"><a href="http://www.caobao.com/repair/select.html">设备维修</a></li>
+						<li class="two"><a href="http://www.caobao.com/recovery/select.html">旧机回收</a></li>
+						<li class="three"><a href="http://www.caobao.com/product/">草包商城</a></li>
+						<li class="four"><a href="http://www.caobao.com/video/">维修视频</a></li>
+						<li class="five"><a href="http://bbs.caobao.com">问题解答</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 头部部分 结束 -->
+		
+		<!-- 主体部分 开始 -->
+		
+    <div class="con">
+		<!-- 品牌型号弹出模块 -->
+		<div class="wrap idea">
+			<div class="service">
+				<div class="Slst">
+					<div class="Slst-bd num1">
+						<p class="tit">手机维修</p>
+						<p class="tit-bd">
+							<span><a href="http://www.caobao.com/repair/10-29.html" title="苹果">苹果</a></span><span><a href="http://www.caobao.com/repair/10-54.html" title="三星">三星</a></span><span><a href="http://www.caobao.com/repair/10-56.html" title="小米">小米</a></span><span><a href="http://www.caobao.com/repair/10-57.html" title="华为">华为</a></span>						</p>
+						<span class="right"></span>
+					</div>
+					<div class="extend">
+						<div class="extent-b clearfix">
+							<ol>
+								<li class="clearfix">
+									<a href="http://www.caobao.com/repair/10-29.html" class="left" title="苹果"><img src="/Public/Product/icon/2016-01-11/569366d1787bd.png" title="苹果"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/10-29-260.html" title="iphone 8">iphone 8</a><a href="http://www.caobao.com/repair/10-29-172.html" title="iPhone 7 Plus">iPhone 7 Plus</a><a href="http://www.caobao.com/repair/10-29-171.html" title="iPhone 7">iPhone 7</a><a href="http://www.caobao.com/repair/10-29-25.html" title="iPhone 6S Plus">iPhone 6S Plus</a><a href="http://www.caobao.com/repair/10-29-24.html" title="iPhone 6S">iPhone 6S</a><a href="http://www.caobao.com/repair/10-29-150.html" title="iPhone SE">iPhone SE</a><a href="http://www.caobao.com/repair/10-29-9.html" title="iPhone 6 Plus">iPhone 6 Plus</a><a href="http://www.caobao.com/repair/10-29-8.html" title="iPhone 6">iPhone 6</a><a href="http://www.caobao.com/repair/10-29-7.html" title="iPhone 5S">iPhone 5S</a><a href="http://www.caobao.com/repair/10-29-6.html" title="iPhone 5C">iPhone 5C</a><a href="http://www.caobao.com/repair/10-29-3.html" title="iPhone 5">iPhone 5</a>									</p>
+									<a href="http://www.caobao.com/repair/10-29.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/repair/10-54.html" class="left" title="三星"><img src="/Public/Product/icon/2016-01-12/5694bb4b75b1a.png" title="三星"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/10-54-257.html" title="Galaxy   s8">Galaxy   s8</a><a href="http://www.caobao.com/repair/10-54-213.html" title="Galaxy A9">Galaxy A9</a><a href="http://www.caobao.com/repair/10-54-170.html" title="Galaxy C5">Galaxy C5</a><a href="http://www.caobao.com/repair/10-54-168.html" title="Galaxy On7(2016版)">Galaxy On7(2016版)</a><a href="http://www.caobao.com/repair/10-54-62.html" title="Galaxy A8">Galaxy A8</a><a href="http://www.caobao.com/repair/10-54-60.html" title="Galaxy A7(2016版)">Galaxy A7(2016版)</a><a href="http://www.caobao.com/repair/10-54-58.html" title="Galaxy A5(2016版)">Galaxy A5(2016版)</a><a href="http://www.caobao.com/repair/10-54-183.html" title="S7 Edge">S7 Edge</a><a href="http://www.caobao.com/repair/10-54-182.html" title="S7">S7</a><a href="http://www.caobao.com/repair/10-54-83.html" title="Galaxy S6 Edge+ ">Galaxy S6 Edge+ </a><a href="http://www.caobao.com/repair/10-54-101.html" title="Galaxy S6 Edge">Galaxy S6 Edge</a><a href="http://www.caobao.com/repair/10-54-79.html" title="Galaxy S6">Galaxy S6</a><a href="http://www.caobao.com/repair/10-54-41.html" title="NOTE5">NOTE5</a><a href="http://www.caobao.com/repair/10-54-229.html" title="Galaxy C7">Galaxy C7</a><a href="http://www.caobao.com/repair/10-54-230.html" title="Galaxy C5pro">Galaxy C5pro</a><a href="http://www.caobao.com/repair/10-54-231.html" title="Galaxy C7pro">Galaxy C7pro</a><a href="http://www.caobao.com/repair/10-54-232.html" title="Galaxy C9pro">Galaxy C9pro</a><a href="http://www.caobao.com/repair/10-54-233.html" title="Galaxy J7(2016版)">Galaxy J7(2016版)</a><a href="http://www.caobao.com/repair/10-54-234.html" title="note edge">note edge</a>									</p>
+									<a href="http://www.caobao.com/repair/10-54.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/repair/10-56.html" class="left" title="小米"><img src="/Public/Product/icon/2016-01-11/569366de15f3d.png" title="小米"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/10-56-173.html" title="小米Max">小米Max</a><a href="http://www.caobao.com/repair/10-56-46.html" title="小米NOTE">小米NOTE</a><a href="http://www.caobao.com/repair/10-56-118.html" title="小米5">小米5</a><a href="http://www.caobao.com/repair/10-56-152.html" title="小米4S">小米4S</a><a href="http://www.caobao.com/repair/10-56-49.html" title="小米 4C">小米 4C</a><a href="http://www.caobao.com/repair/10-56-120.html" title="红米 NOTE3">红米 NOTE3</a><a href="http://www.caobao.com/repair/10-56-50.html" title="红米NOTE2">红米NOTE2</a><a href="http://www.caobao.com/repair/10-56-119.html" title="红米3">红米3</a><a href="http://www.caobao.com/repair/10-56-48.html" title="红米2">红米2</a><a href="http://www.caobao.com/repair/10-56-253.html" title="红米 NOTE4">红米 NOTE4</a><a href="http://www.caobao.com/repair/10-56-196.html" title="小米5S">小米5S</a><a href="http://www.caobao.com/repair/10-56-203.html" title="红米PRO">红米PRO</a><a href="http://www.caobao.com/repair/10-56-236.html" title="红米4X">红米4X</a><a href="http://www.caobao.com/repair/10-56-237.html" title="红米NOTE4X">红米NOTE4X</a>									</p>
+									<a href="http://www.caobao.com/repair/10-56.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/repair/10-57.html" class="left" title="华为"><img src="/Public/Product/icon/2016-01-12/5694bb527b264.png" title="华为"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/10-57-126.html" title="P9">P9</a><a href="http://www.caobao.com/repair/10-57-127.html" title="P9 plus">P9 plus</a><a href="http://www.caobao.com/repair/10-57-209.html" title="mate9">mate9</a><a href="http://www.caobao.com/repair/10-57-130.html" title="G9">G9</a><a href="http://www.caobao.com/repair/10-57-51.html" title="P8 青春版">P8 青春版</a><a href="http://www.caobao.com/repair/10-57-117.html" title="P8 标准版">P8 标准版</a><a href="http://www.caobao.com/repair/10-57-129.html" title="P8 max">P8 max</a><a href="http://www.caobao.com/repair/10-57-53.html" title="荣耀7">荣耀7</a><a href="http://www.caobao.com/repair/10-57-56.html" title="mate 8">mate 8</a><a href="http://www.caobao.com/repair/10-57-54.html" title="荣耀7i">荣耀7i</a><a href="http://www.caobao.com/repair/10-57-55.html" title="mate 7">mate 7</a><a href="http://www.caobao.com/repair/10-57-128.html" title="mate S">mate S</a><a href="http://www.caobao.com/repair/10-57-124.html" title="荣耀畅玩5X">荣耀畅玩5X</a><a href="http://www.caobao.com/repair/10-57-131.html" title="畅享5S">畅享5S</a><a href="http://www.caobao.com/repair/10-57-133.html" title="麦芒4">麦芒4</a><a href="http://www.caobao.com/repair/10-57-122.html" title="荣耀V8">荣耀V8</a><a href="http://www.caobao.com/repair/10-57-206.html" title="畅玩6X">畅玩6X</a><a href="http://www.caobao.com/repair/10-57-210.html" title="nova">nova</a><a href="http://www.caobao.com/repair/10-57-211.html" title="G9 plus">G9 plus</a><a href="http://www.caobao.com/repair/10-57-217.html" title="荣耀畅玩4C">荣耀畅玩4C</a><a href="http://www.caobao.com/repair/10-57-225.html" title="畅享6">畅享6</a><a href="http://www.caobao.com/repair/10-57-226.html" title="畅享6S">畅享6S</a><a href="http://www.caobao.com/repair/10-57-238.html" title="mate9 pro">mate9 pro</a><a href="http://www.caobao.com/repair/10-57-240.html" title="麦芒5">麦芒5</a>									</p>
+									<a href="http://www.caobao.com/repair/10-57.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/repair/10-59.html" class="left" title="OPPO"><img src="/Public/Product/icon/2016-01-22/56a1f0fec7e2d.png" title="OPPO"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/10-59-256.html" title="R11 plus">R11 plus</a><a href="http://www.caobao.com/repair/10-59-255.html" title="R11">R11</a><a href="http://www.caobao.com/repair/10-59-136.html" title="R9">R9</a><a href="http://www.caobao.com/repair/10-59-185.html" title="R9S">R9S</a><a href="http://www.caobao.com/repair/10-59-186.html" title="R9S plus">R9S plus</a><a href="http://www.caobao.com/repair/10-59-137.html" title="R9plus">R9plus</a><a href="http://www.caobao.com/repair/10-59-222.html" title="A59S">A59S</a><a href="http://www.caobao.com/repair/10-59-92.html" title="R7S">R7S</a><a href="http://www.caobao.com/repair/10-59-91.html" title="R7">R7</a><a href="http://www.caobao.com/repair/10-59-93.html" title="R7 Plus">R7 Plus</a><a href="http://www.caobao.com/repair/10-59-166.html" title="A59">A59</a><a href="http://www.caobao.com/repair/10-59-139.html" title="A53">A53</a><a href="http://www.caobao.com/repair/10-59-138.html" title="A37">A37</a><a href="http://www.caobao.com/repair/10-59-165.html" title="A51">A51</a><a href="http://www.caobao.com/repair/10-59-241.html" title="A57">A57</a>									</p>
+									<a href="http://www.caobao.com/repair/10-59.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/repair/10-69.html" class="left" title="VIVO"><img src="/Public/Product/icon/2016-01-22/56a1f11b29a6f.png" title="VIVO"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/10-69-259.html" title="x9s Plus">x9s Plus</a><a href="http://www.caobao.com/repair/10-69-258.html" title="X9S">X9S</a><a href="http://www.caobao.com/repair/10-69-242.html" title="X9 plus">X9 plus</a><a href="http://www.caobao.com/repair/10-69-187.html" title="X9">X9</a><a href="http://www.caobao.com/repair/10-69-218.html" title="X7 plus">X7 plus</a><a href="http://www.caobao.com/repair/10-69-243.html" title="Xplay6">Xplay6</a><a href="http://www.caobao.com/repair/10-69-160.html" title="X7">X7</a><a href="http://www.caobao.com/repair/10-69-142.html" title="xplay5">xplay5</a><a href="http://www.caobao.com/repair/10-69-144.html" title="X6splus">X6splus</a><a href="http://www.caobao.com/repair/10-69-143.html" title="X6S">X6S</a><a href="http://www.caobao.com/repair/10-69-105.html" title="X6Plus">X6Plus</a><a href="http://www.caobao.com/repair/10-69-103.html" title="X6">X6</a><a href="http://www.caobao.com/repair/10-69-162.html" title="X5max+">X5max+</a><a href="http://www.caobao.com/repair/10-69-109.html" title="X5Pro">X5Pro</a><a href="http://www.caobao.com/repair/10-69-141.html" title="V3max">V3max</a><a href="http://www.caobao.com/repair/10-69-145.html" title="V3">V3</a><a href="http://www.caobao.com/repair/10-69-140.html" title="Y51A">Y51A</a><a href="http://www.caobao.com/repair/10-69-108.html" title="Y35">Y35</a><a href="http://www.caobao.com/repair/10-69-161.html" title="Y37">Y37</a><a href="http://www.caobao.com/repair/10-69-244.html" title="Y55">Y55</a><a href="http://www.caobao.com/repair/10-69-245.html" title="Y66">Y66</a><a href="http://www.caobao.com/repair/10-69-246.html" title="Y67">Y67</a>									</p>
+									<a href="http://www.caobao.com/repair/10-69.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/repair/10-70.html" class="left" title="魅族"><img src="/Public/Product/icon/2016-01-27/56a87140919a0.png" title="魅族"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/10-70-189.html" title="MX6">MX6</a><a href="http://www.caobao.com/repair/10-70-146.html" title="PRO6">PRO6</a><a href="http://www.caobao.com/repair/10-70-147.html" title="PRO5">PRO5</a><a href="http://www.caobao.com/repair/10-70-221.html" title="魅蓝 note5">魅蓝 note5</a><a href="http://www.caobao.com/repair/10-70-110.html" title="MX5">MX5</a><a href="http://www.caobao.com/repair/10-70-149.html" title="魅蓝metal">魅蓝metal</a><a href="http://www.caobao.com/repair/10-70-148.html" title="魅蓝note3">魅蓝note3</a><a href="http://www.caobao.com/repair/10-70-113.html" title="魅蓝 note2">魅蓝 note2</a><a href="http://www.caobao.com/repair/10-70-156.html" title="魅蓝3">魅蓝3</a><a href="http://www.caobao.com/repair/10-70-155.html" title="魅蓝2">魅蓝2</a><a href="http://www.caobao.com/repair/10-70-190.html" title="PRO6 plus">PRO6 plus</a><a href="http://www.caobao.com/repair/10-70-191.html" title="PRO6s">PRO6s</a><a href="http://www.caobao.com/repair/10-70-193.html" title="魅蓝5">魅蓝5</a><a href="http://www.caobao.com/repair/10-70-194.html" title="魅蓝Max">魅蓝Max</a><a href="http://www.caobao.com/repair/10-70-212.html" title="魅蓝3S">魅蓝3S</a><a href="http://www.caobao.com/repair/10-70-247.html" title="魅蓝 5S">魅蓝 5S</a><a href="http://www.caobao.com/repair/10-70-248.html" title="魅蓝 X">魅蓝 X</a><a href="http://www.caobao.com/repair/10-70-250.html" title="魅蓝 U20">魅蓝 U20</a>									</p>
+									<a href="http://www.caobao.com/repair/10-70.html" class="moremodel">更多&gt;</a>
+								</li>							</ol>
+						</div>
+						<div class="morebrand"><a href="http://www.caobao.com/repair/10.html">更多维修品牌&gt;</a></div>
+					</div>
+				</div><div class="Slst">
+					<div class="Slst-bd num2">
+						<p class="tit">平板维修</p>
+						<p class="tit-bd">
+							<span><a href="http://www.caobao.com/repair/11-30.html" title="苹果">苹果</a></span>						</p>
+						<span class="right"></span>
+					</div>
+					<div class="extend">
+						<div class="extent-b clearfix">
+							<ol>
+								<li class="clearfix">
+									<a href="http://www.caobao.com/repair/11-30.html" class="left" title="苹果"><img src="/Public/Product/icon/2016-01-11/569366e8a7599.png" title="苹果"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/repair/11-30-87.html" title="mini 4">mini 4</a><a href="http://www.caobao.com/repair/11-30-84.html" title=" mini 3"> mini 3</a><a href="http://www.caobao.com/repair/11-30-16.html" title="mini 2">mini 2</a><a href="http://www.caobao.com/repair/11-30-15.html" title=" mini"> mini</a><a href="http://www.caobao.com/repair/11-30-14.html" title="Air 2">Air 2</a><a href="http://www.caobao.com/repair/11-30-13.html" title="Air">Air</a><a href="http://www.caobao.com/repair/11-30-12.html" title="iPad 4">iPad 4</a><a href="http://www.caobao.com/repair/11-30-11.html" title="iPad 3">iPad 3</a><a href="http://www.caobao.com/repair/11-30-10.html" title="iPad 2">iPad 2</a>									</p>
+									<a href="http://www.caobao.com/repair/11-30.html" class="moremodel">更多&gt;</a>
+								</li>							</ol>
+						</div>
+						<div class="morebrand"><a href="http://www.caobao.com/repair/11.html">更多维修品牌&gt;</a></div>
+					</div>
+				</div>				<div class="Slst">
+					<div class="Slst-bd num3">
+						<p class="tit">手机回收</p>
+						<p class="tit-bd">
+							<span><a href="http://www.caobao.com/recovery/10-29.html" title="苹果">苹果</a></span><span><a href="http://www.caobao.com/recovery/10-54.html" title="三星">三星</a></span><span><a href="http://www.caobao.com/recovery/10-56.html" title="小米">小米</a></span><span><a href="http://www.caobao.com/recovery/10-57.html" title="华为">华为</a></span>						</p>
+						<span class="right"></span>
+					</div>
+					<div class="extend">
+						<div class="extent-b clearfix">
+							<ol>
+								<li class="clearfix">
+									<a href="http://www.caobao.com/recovery/10-29.html" class="left" title="苹果"><img src="/Public/Product/icon/2016-01-11/569366d1787bd.png" title="苹果"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/10-29-260.html" title="iphone 8">iphone 8</a><a href="http://www.caobao.com/recovery/10-29-172.html" title="iPhone 7 Plus">iPhone 7 Plus</a><a href="http://www.caobao.com/recovery/10-29-171.html" title="iPhone 7">iPhone 7</a><a href="http://www.caobao.com/recovery/10-29-25.html" title="iPhone 6S Plus">iPhone 6S Plus</a><a href="http://www.caobao.com/recovery/10-29-24.html" title="iPhone 6S">iPhone 6S</a><a href="http://www.caobao.com/recovery/10-29-150.html" title="iPhone SE">iPhone SE</a><a href="http://www.caobao.com/recovery/10-29-9.html" title="iPhone 6 Plus">iPhone 6 Plus</a><a href="http://www.caobao.com/recovery/10-29-8.html" title="iPhone 6">iPhone 6</a><a href="http://www.caobao.com/recovery/10-29-7.html" title="iPhone 5S">iPhone 5S</a><a href="http://www.caobao.com/recovery/10-29-6.html" title="iPhone 5C">iPhone 5C</a><a href="http://www.caobao.com/recovery/10-29-3.html" title="iPhone 5">iPhone 5</a>									</p>
+									<a href="http://www.caobao.com/recovery/10-29.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/recovery/10-54.html" class="left" title="三星"><img src="/Public/Product/icon/2016-01-12/5694bb4b75b1a.png" title="三星"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/10-54-257.html" title="Galaxy   s8">Galaxy   s8</a><a href="http://www.caobao.com/recovery/10-54-213.html" title="Galaxy A9">Galaxy A9</a><a href="http://www.caobao.com/recovery/10-54-170.html" title="Galaxy C5">Galaxy C5</a><a href="http://www.caobao.com/recovery/10-54-168.html" title="Galaxy On7(2016版)">Galaxy On7(2016版)</a><a href="http://www.caobao.com/recovery/10-54-62.html" title="Galaxy A8">Galaxy A8</a><a href="http://www.caobao.com/recovery/10-54-60.html" title="Galaxy A7(2016版)">Galaxy A7(2016版)</a><a href="http://www.caobao.com/recovery/10-54-58.html" title="Galaxy A5(2016版)">Galaxy A5(2016版)</a><a href="http://www.caobao.com/recovery/10-54-183.html" title="S7 Edge">S7 Edge</a><a href="http://www.caobao.com/recovery/10-54-182.html" title="S7">S7</a><a href="http://www.caobao.com/recovery/10-54-83.html" title="Galaxy S6 Edge+ ">Galaxy S6 Edge+ </a><a href="http://www.caobao.com/recovery/10-54-101.html" title="Galaxy S6 Edge">Galaxy S6 Edge</a><a href="http://www.caobao.com/recovery/10-54-79.html" title="Galaxy S6">Galaxy S6</a><a href="http://www.caobao.com/recovery/10-54-41.html" title="NOTE5">NOTE5</a><a href="http://www.caobao.com/recovery/10-54-229.html" title="Galaxy C7">Galaxy C7</a><a href="http://www.caobao.com/recovery/10-54-230.html" title="Galaxy C5pro">Galaxy C5pro</a><a href="http://www.caobao.com/recovery/10-54-231.html" title="Galaxy C7pro">Galaxy C7pro</a><a href="http://www.caobao.com/recovery/10-54-232.html" title="Galaxy C9pro">Galaxy C9pro</a><a href="http://www.caobao.com/recovery/10-54-233.html" title="Galaxy J7(2016版)">Galaxy J7(2016版)</a><a href="http://www.caobao.com/recovery/10-54-234.html" title="note edge">note edge</a>									</p>
+									<a href="http://www.caobao.com/recovery/10-54.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/recovery/10-56.html" class="left" title="小米"><img src="/Public/Product/icon/2016-01-11/569366de15f3d.png" title="小米"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/10-56-173.html" title="小米Max">小米Max</a><a href="http://www.caobao.com/recovery/10-56-46.html" title="小米NOTE">小米NOTE</a><a href="http://www.caobao.com/recovery/10-56-118.html" title="小米5">小米5</a><a href="http://www.caobao.com/recovery/10-56-152.html" title="小米4S">小米4S</a><a href="http://www.caobao.com/recovery/10-56-49.html" title="小米 4C">小米 4C</a><a href="http://www.caobao.com/recovery/10-56-120.html" title="红米 NOTE3">红米 NOTE3</a><a href="http://www.caobao.com/recovery/10-56-50.html" title="红米NOTE2">红米NOTE2</a><a href="http://www.caobao.com/recovery/10-56-119.html" title="红米3">红米3</a><a href="http://www.caobao.com/recovery/10-56-48.html" title="红米2">红米2</a><a href="http://www.caobao.com/recovery/10-56-253.html" title="红米 NOTE4">红米 NOTE4</a><a href="http://www.caobao.com/recovery/10-56-196.html" title="小米5S">小米5S</a><a href="http://www.caobao.com/recovery/10-56-203.html" title="红米PRO">红米PRO</a><a href="http://www.caobao.com/recovery/10-56-236.html" title="红米4X">红米4X</a><a href="http://www.caobao.com/recovery/10-56-237.html" title="红米NOTE4X">红米NOTE4X</a>									</p>
+									<a href="http://www.caobao.com/recovery/10-56.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/recovery/10-57.html" class="left" title="华为"><img src="/Public/Product/icon/2016-01-12/5694bb527b264.png" title="华为"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/10-57-126.html" title="P9">P9</a><a href="http://www.caobao.com/recovery/10-57-127.html" title="P9 plus">P9 plus</a><a href="http://www.caobao.com/recovery/10-57-209.html" title="mate9">mate9</a><a href="http://www.caobao.com/recovery/10-57-130.html" title="G9">G9</a><a href="http://www.caobao.com/recovery/10-57-51.html" title="P8 青春版">P8 青春版</a><a href="http://www.caobao.com/recovery/10-57-117.html" title="P8 标准版">P8 标准版</a><a href="http://www.caobao.com/recovery/10-57-129.html" title="P8 max">P8 max</a><a href="http://www.caobao.com/recovery/10-57-53.html" title="荣耀7">荣耀7</a><a href="http://www.caobao.com/recovery/10-57-56.html" title="mate 8">mate 8</a><a href="http://www.caobao.com/recovery/10-57-54.html" title="荣耀7i">荣耀7i</a><a href="http://www.caobao.com/recovery/10-57-55.html" title="mate 7">mate 7</a><a href="http://www.caobao.com/recovery/10-57-128.html" title="mate S">mate S</a><a href="http://www.caobao.com/recovery/10-57-124.html" title="荣耀畅玩5X">荣耀畅玩5X</a><a href="http://www.caobao.com/recovery/10-57-131.html" title="畅享5S">畅享5S</a><a href="http://www.caobao.com/recovery/10-57-133.html" title="麦芒4">麦芒4</a><a href="http://www.caobao.com/recovery/10-57-122.html" title="荣耀V8">荣耀V8</a><a href="http://www.caobao.com/recovery/10-57-206.html" title="畅玩6X">畅玩6X</a><a href="http://www.caobao.com/recovery/10-57-210.html" title="nova">nova</a><a href="http://www.caobao.com/recovery/10-57-211.html" title="G9 plus">G9 plus</a><a href="http://www.caobao.com/recovery/10-57-217.html" title="荣耀畅玩4C">荣耀畅玩4C</a><a href="http://www.caobao.com/recovery/10-57-225.html" title="畅享6">畅享6</a><a href="http://www.caobao.com/recovery/10-57-226.html" title="畅享6S">畅享6S</a><a href="http://www.caobao.com/recovery/10-57-238.html" title="mate9 pro">mate9 pro</a><a href="http://www.caobao.com/recovery/10-57-240.html" title="麦芒5">麦芒5</a>									</p>
+									<a href="http://www.caobao.com/recovery/10-57.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/recovery/10-59.html" class="left" title="OPPO"><img src="/Public/Product/icon/2016-01-22/56a1f0fec7e2d.png" title="OPPO"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/10-59-256.html" title="R11 plus">R11 plus</a><a href="http://www.caobao.com/recovery/10-59-255.html" title="R11">R11</a><a href="http://www.caobao.com/recovery/10-59-136.html" title="R9">R9</a><a href="http://www.caobao.com/recovery/10-59-185.html" title="R9S">R9S</a><a href="http://www.caobao.com/recovery/10-59-186.html" title="R9S plus">R9S plus</a><a href="http://www.caobao.com/recovery/10-59-137.html" title="R9plus">R9plus</a><a href="http://www.caobao.com/recovery/10-59-222.html" title="A59S">A59S</a><a href="http://www.caobao.com/recovery/10-59-92.html" title="R7S">R7S</a><a href="http://www.caobao.com/recovery/10-59-91.html" title="R7">R7</a><a href="http://www.caobao.com/recovery/10-59-93.html" title="R7 Plus">R7 Plus</a><a href="http://www.caobao.com/recovery/10-59-166.html" title="A59">A59</a><a href="http://www.caobao.com/recovery/10-59-139.html" title="A53">A53</a><a href="http://www.caobao.com/recovery/10-59-138.html" title="A37">A37</a><a href="http://www.caobao.com/recovery/10-59-165.html" title="A51">A51</a><a href="http://www.caobao.com/recovery/10-59-241.html" title="A57">A57</a>									</p>
+									<a href="http://www.caobao.com/recovery/10-59.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/recovery/10-69.html" class="left" title="VIVO"><img src="/Public/Product/icon/2016-01-22/56a1f11b29a6f.png" title="VIVO"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/10-69-259.html" title="x9s Plus">x9s Plus</a><a href="http://www.caobao.com/recovery/10-69-258.html" title="X9S">X9S</a><a href="http://www.caobao.com/recovery/10-69-242.html" title="X9 plus">X9 plus</a><a href="http://www.caobao.com/recovery/10-69-187.html" title="X9">X9</a><a href="http://www.caobao.com/recovery/10-69-218.html" title="X7 plus">X7 plus</a><a href="http://www.caobao.com/recovery/10-69-243.html" title="Xplay6">Xplay6</a><a href="http://www.caobao.com/recovery/10-69-160.html" title="X7">X7</a><a href="http://www.caobao.com/recovery/10-69-142.html" title="xplay5">xplay5</a><a href="http://www.caobao.com/recovery/10-69-144.html" title="X6splus">X6splus</a><a href="http://www.caobao.com/recovery/10-69-143.html" title="X6S">X6S</a><a href="http://www.caobao.com/recovery/10-69-105.html" title="X6Plus">X6Plus</a><a href="http://www.caobao.com/recovery/10-69-103.html" title="X6">X6</a><a href="http://www.caobao.com/recovery/10-69-162.html" title="X5max+">X5max+</a><a href="http://www.caobao.com/recovery/10-69-109.html" title="X5Pro">X5Pro</a><a href="http://www.caobao.com/recovery/10-69-141.html" title="V3max">V3max</a><a href="http://www.caobao.com/recovery/10-69-145.html" title="V3">V3</a><a href="http://www.caobao.com/recovery/10-69-140.html" title="Y51A">Y51A</a><a href="http://www.caobao.com/recovery/10-69-108.html" title="Y35">Y35</a><a href="http://www.caobao.com/recovery/10-69-161.html" title="Y37">Y37</a><a href="http://www.caobao.com/recovery/10-69-244.html" title="Y55">Y55</a><a href="http://www.caobao.com/recovery/10-69-245.html" title="Y66">Y66</a><a href="http://www.caobao.com/recovery/10-69-246.html" title="Y67">Y67</a>									</p>
+									<a href="http://www.caobao.com/recovery/10-69.html" class="moremodel">更多&gt;</a>
+								</li><li class="clearfix">
+									<a href="http://www.caobao.com/recovery/10-70.html" class="left" title="魅族"><img src="/Public/Product/icon/2016-01-27/56a87140919a0.png" title="魅族"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/10-70-189.html" title="MX6">MX6</a><a href="http://www.caobao.com/recovery/10-70-146.html" title="PRO6">PRO6</a><a href="http://www.caobao.com/recovery/10-70-147.html" title="PRO5">PRO5</a><a href="http://www.caobao.com/recovery/10-70-221.html" title="魅蓝 note5">魅蓝 note5</a><a href="http://www.caobao.com/recovery/10-70-110.html" title="MX5">MX5</a><a href="http://www.caobao.com/recovery/10-70-149.html" title="魅蓝metal">魅蓝metal</a><a href="http://www.caobao.com/recovery/10-70-148.html" title="魅蓝note3">魅蓝note3</a><a href="http://www.caobao.com/recovery/10-70-113.html" title="魅蓝 note2">魅蓝 note2</a><a href="http://www.caobao.com/recovery/10-70-156.html" title="魅蓝3">魅蓝3</a><a href="http://www.caobao.com/recovery/10-70-155.html" title="魅蓝2">魅蓝2</a><a href="http://www.caobao.com/recovery/10-70-190.html" title="PRO6 plus">PRO6 plus</a><a href="http://www.caobao.com/recovery/10-70-191.html" title="PRO6s">PRO6s</a><a href="http://www.caobao.com/recovery/10-70-193.html" title="魅蓝5">魅蓝5</a><a href="http://www.caobao.com/recovery/10-70-194.html" title="魅蓝Max">魅蓝Max</a><a href="http://www.caobao.com/recovery/10-70-212.html" title="魅蓝3S">魅蓝3S</a><a href="http://www.caobao.com/recovery/10-70-247.html" title="魅蓝 5S">魅蓝 5S</a><a href="http://www.caobao.com/recovery/10-70-248.html" title="魅蓝 X">魅蓝 X</a><a href="http://www.caobao.com/recovery/10-70-250.html" title="魅蓝 U20">魅蓝 U20</a>									</p>
+									<a href="http://www.caobao.com/recovery/10-70.html" class="moremodel">更多&gt;</a>
+								</li>							</ol>
+						</div>
+						<div class="morebrand"><a href="http://www.caobao.com/recovery/10.html">更多回收品牌&gt;</a></div>
+					</div>
+				</div><div class="Slst">
+					<div class="Slst-bd num4">
+						<p class="tit">平板回收</p>
+						<p class="tit-bd">
+							<span><a href="http://www.caobao.com/recovery/11-30.html" title="苹果">苹果</a></span>						</p>
+						<span class="right"></span>
+					</div>
+					<div class="extend">
+						<div class="extent-b clearfix">
+							<ol>
+								<li class="clearfix">
+									<a href="http://www.caobao.com/recovery/11-30.html" class="left" title="苹果"><img src="/Public/Product/icon/2016-01-11/569366e8a7599.png" title="苹果"></a>
+									<p class="right">
+										<a href="http://www.caobao.com/recovery/11-30-87.html" title="mini 4">mini 4</a><a href="http://www.caobao.com/recovery/11-30-84.html" title=" mini 3"> mini 3</a><a href="http://www.caobao.com/recovery/11-30-16.html" title="mini 2">mini 2</a><a href="http://www.caobao.com/recovery/11-30-15.html" title=" mini"> mini</a><a href="http://www.caobao.com/recovery/11-30-14.html" title="Air 2">Air 2</a><a href="http://www.caobao.com/recovery/11-30-13.html" title="Air">Air</a><a href="http://www.caobao.com/recovery/11-30-12.html" title="iPad 4">iPad 4</a><a href="http://www.caobao.com/recovery/11-30-11.html" title="iPad 3">iPad 3</a><a href="http://www.caobao.com/recovery/11-30-10.html" title="iPad 2">iPad 2</a>									</p>
+									<a href="http://www.caobao.com/recovery/11-30.html" class="moremodel">更多&gt;</a>
+								</li>							</ol>
+						</div>
+						<div class="morebrand"><a href="http://www.caobao.com/recovery/11.html">更多回收品牌&gt;</a></div>
+					</div>
+				</div>			</div>
+		</div>
+		<!-- Banner -->
+        <div class="topArea clearfix">
+			<div id="slideBoxs" class="slideBox" style="width: 1024px;">
+                <div class="hd">
+                    <ul>
+        				<li class="on"></li><li></li><li></li>        			</ul>
+                </div>
+                <div class="bd">
+                    <ul style="margin: 0px auto; width: 1920px; position: relative; height: 430px;">
+        				<li style="position: absolute; width: 1920px; left: 0px; top: 0px;"><a href="http://www.caobao.com/repair/select.html" target="_blank"><img src="/Public/Imgadv/201703/58d0f666280d5.jpg" alt="手机维修"></a></li><li style="position: absolute; width: 1920px; left: 0px; top: 0px; display: none;"><a href="http://www.caobao.com/index/special.html" target="_blank"><img src="/Public/Imgadv/201703/58d0f6617fe0c.jpg" alt="全国招募"></a></li><li style="position: absolute; width: 1920px; left: 0px; top: 0px; display: none;"><a href="http://bbs.caobao.com" target="_blank"><img src="/Public/Imgadv/201703/58d0f6573ecb1.jpg" alt="维修论坛"></a></li>                    </ul>
+                </div>
+                <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+                <a class="prev" href="javascript:void(0)"></a>
+                <a class="next" href="javascript:void(0)"></a>
+            </div>
+        </div>
+        <!-- 首页维修店 -->
+        <div class="repair_store wrap">
+            <h2><a href="http://www.caobao.com/repairer_list/90.html">嘉兴市维修店</a></h2>
+            <div class="nav_bar clearfix">
+                <dl class="clearfix">
+                    <dt><i></i>嘉兴市</dt>
+					<dd class="current">桐乡市</dd><dd>平湖市</dd><dd>南湖区</dd><dd>嘉善县</dd><dd>海盐县</dd><dd>海宁市</dd><dd>秀洲区</dd>                </dl>
+                <a href="javascript:void(0);" class="more-city" id="moreCity">更多<i class="icon-arrow"></i></a>
+            </div>
+			            <div class="store_lst clearfix current">
+                <div class="small_pic">
+                    <ul class="clearfix">
+						<li class="clearfix first">
+                            <div class="small"><a href="http://www.caobao.com/repairer/901.html"><img src="/Public/User/201703/58c7484824fb3.jpeg" width="93" alt="乌镇果粉汇手机店" onerror="javascript:this.src='/Public/Home/images/2016/picc.png';"></a></div>
+                            <div class="pic_bd">
+                                <p class="store_name">
+									<a href="http://www.caobao.com/repairer/901.html">乌镇果粉汇手机店</a>
+									<b><img src="/Public/Home/images/level/rankicon1.png" width="16" title="1级" alt="1级"></b>								</p>
+								<p>
+									<span class="Authentication id_icon">认证</span>
+																		<!--<span class="custemers id_icon">售后</span>
+									<span class="guarantee id_icon">担保</span>-->
+								</p>
+                                <p>主修：苹果</p>
+                                <p><span class="address_detial">地址：隆源路156号</span><span class="map_icon" data-deg="120.490118,30.742864"></span></p>
+                            </div>
+                        </li>                    </ul>
+                </div>
+            </div>            <div class="store_lst clearfix ">
+                <div class="small_pic">
+                    <ul class="clearfix">
+						<li class="clearfix first">
+                            <div class="small"><a href="http://www.caobao.com/repairer/2013.html"><img src="/Public/Home/images/2016/picc.png" width="93" alt="正阳通讯" onerror="javascript:this.src='/Public/Home/images/2016/picc.png';"></a></div>
+                            <div class="pic_bd">
+                                <p class="store_name">
+									<a href="http://www.caobao.com/repairer/2013.html">正阳通讯</a>
+									<b><img src="/Public/Home/images/level/rankicon1.png" width="16" title="1级" alt="1级"></b>								</p>
+								<p>
+									<span class="Authentication id_icon">认证</span>
+																		<!--<span class="custemers id_icon">售后</span>
+									<span class="guarantee id_icon">担保</span>-->
+								</p>
+                                <p></p>
+                                <p><span class="address_detial">地址：当湖街道城南西路235号 正阳通讯</span><span class="map_icon" data-deg="121.008675,30.695669"></span></p>
+                            </div>
+                        </li>                    </ul>
+                </div>
+            </div>            <div class="store_lst clearfix ">
+                <div class="small_pic">
+                    <ul class="clearfix">
+						<li class="clearfix first">
+                            <div class="small"><a href="http://www.caobao.com/repairer/1878.html"><img src="/Public/Home/images/2016/picc.png" width="93" alt="UC通迅" onerror="javascript:this.src='/Public/Home/images/2016/picc.png';"></a></div>
+                            <div class="pic_bd">
+                                <p class="store_name">
+									<a href="http://www.caobao.com/repairer/1878.html">UC通迅</a>
+									<b><img src="/Public/Home/images/level/rankicon1.png" width="16" title="1级" alt="1级"></b>								</p>
+								<p>
+									<span class="Authentication id_icon">认证</span>
+																		<!--<span class="custemers id_icon">售后</span>
+									<span class="guarantee id_icon">担保</span>-->
+								</p>
+                                <p>主修：苹果</p>
+                                <p><span class="address_detial">地址：浙江嘉兴南湖大桥镇天香花苑</span><span class="map_icon" data-deg="120.851093,30.746702"></span></p>
+                            </div>
+                        </li>                    </ul>
+                </div>
+            </div><div class="none store_lst clearfix ">
+				<a href="/index/special.html" target="_blank"><img src="/Public/Home/images/2016/long.jpg" title="赶紧加入我们吧"></a>
+            </div>
+			<div class="none store_lst clearfix ">
+				<a href="/index/special.html" target="_blank"><img src="/Public/Home/images/2016/long.jpg" title="赶紧加入我们吧"></a>
+            </div>
+			<div class="none store_lst clearfix ">
+				<a href="/index/special.html" target="_blank"><img src="/Public/Home/images/2016/long.jpg" title="赶紧加入我们吧"></a>
+            </div>
+			<div class="none store_lst clearfix ">
+				<a href="/index/special.html" target="_blank"><img src="/Public/Home/images/2016/long.jpg" title="赶紧加入我们吧"></a>
+            </div>
+			        </div>
+		<!-- 维修师加盟 -->
+		<div class="join_us wrap">
+			<div class="hgrop">
+				<h3>维修师加盟</h3><h4>草包网专业维修平台</h4>
+			</div>
+			<a href="/index/special.html"><span class="shadow">立即加盟</span></a>
+		</div>
+        <!-- 商城 -->
+        <div class="store wrap">
+            <h2><a href="http://www.caobao.com/product/">配件商城</a></h2>
+            <div class="hdul clearfix" id="index_pro">
+                <ul>
+					<li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/354.html" title="苹果7P  iPhone 7 Plus 后置摄像头 "><img src="/Public/Product/thumb/201706/595464a49af54.jpg" alt="苹果7P  iPhone 7 Plus 后置摄像头 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/354.html" title="苹果7P  iPhone 7 Plus 后置摄像头 ">苹果7P  iPhone 7 Plus 后置摄像头 </a></p>
+                        <p class="price"><span>￥</span>440.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/83.html" title="苹果7 iPhone 7尾插排线 "><img src="/Public/Product/thumb/201705/5907ef5598069.jpg" alt="苹果7 iPhone 7尾插排线 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/83.html" title="苹果7 iPhone 7尾插排线 ">苹果7 iPhone 7尾插排线 </a></p>
+                        <p class="price"><span>￥</span>180.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/171.html" title="苹果7 iPhone 7 电池 "><img src="/Public/Product/thumb/201705/5907ef734fafc.jpg" alt="苹果7 iPhone 7 电池 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/171.html" title="苹果7 iPhone 7 电池 ">苹果7 iPhone 7 电池 </a></p>
+                        <p class="price"><span>￥</span>170.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/172.html" title="苹果7 iPhone7 后置摄像头 "><img src="/Public/Product/thumb/201705/5907f2b07a06e.jpg" alt="苹果7 iPhone7 后置摄像头 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/172.html" title="苹果7 iPhone7 后置摄像头 ">苹果7 iPhone7 后置摄像头 </a></p>
+                        <p class="price"><span>￥</span>245.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/335.html" title="苹果7   iPhone 7 显示屏"><img src="/Public/Product/thumb/201706/5950b917caee2.jpg" alt="苹果7   iPhone 7 显示屏"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/335.html" title="苹果7   iPhone 7 显示屏">苹果7   iPhone 7 显示屏</a></p>
+                        <p class="price"><span>￥</span>750.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/88.html" title="苹果7 iPhone7 振动器"><img src="/Public/Product/thumb/201705/5907f23f331be.jpg" alt="苹果7 iPhone7 振动器"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/88.html" title="苹果7 iPhone7 振动器">苹果7 iPhone7 振动器</a></p>
+                        <p class="price"><span>￥</span>160.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/86.html" title="苹果7 iPhone 7 前置摄像头 "><img src="/Public/Product/thumb/201705/5907f0ec3e7d3.jpg" alt="苹果7 iPhone 7 前置摄像头 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/86.html" title="苹果7 iPhone 7 前置摄像头 ">苹果7 iPhone 7 前置摄像头 </a></p>
+                        <p class="price"><span>￥</span>210.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/39.html" title="OPPO原装闪充数据线"><img src="/Public/Product/thumb/201705/59099fc544cde.jpg" alt="OPPO原装闪充数据线"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/39.html" title="OPPO原装闪充数据线">OPPO原装闪充数据线</a></p>
+                        <p class="price"><span>￥</span>30.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/89.html" title="苹果7 iPhone 7 听筒"><img src="/Public/Product/thumb/201705/5907f301b6bb5.jpg" alt="苹果7 iPhone 7 听筒"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/89.html" title="苹果7 iPhone 7 听筒">苹果7 iPhone 7 听筒</a></p>
+                        <p class="price"><span>￥</span>96.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/90.html" title="苹果7 iPhone 7 扬声器 "><img src="/Public/Product/thumb/201705/59197225741a2.jpg" alt="苹果7 iPhone 7 扬声器 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/90.html" title="苹果7 iPhone 7 扬声器 ">苹果7 iPhone 7 扬声器 </a></p>
+                        <p class="price"><span>￥</span>150.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/17.html" title="小米Type-C数据线"><img src="/Public/Product/thumb/201705/59099d5525a0c.jpg" alt="小米Type-C数据线"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/17.html" title="小米Type-C数据线">小米Type-C数据线</a></p>
+                        <p class="price"><span>￥</span>26.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/87.html" title="苹果7 iPhone 7 开机音量排线 "><img src="/Public/Product/thumb/201705/5907f13717403.jpg" alt="苹果7 iPhone 7 开机音量排线 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/87.html" title="苹果7 iPhone 7 开机音量排线 ">苹果7 iPhone 7 开机音量排线 </a></p>
+                        <p class="price"><span>￥</span>190.00</p>
+                    </li>					<li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/354.html" title="苹果7P  iPhone 7 Plus 后置摄像头 "><img src="/Public/Product/thumb/201706/595464a49af54.jpg" alt="苹果7P  iPhone 7 Plus 后置摄像头 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/354.html" title="苹果7P  iPhone 7 Plus 后置摄像头 ">苹果7P  iPhone 7 Plus 后置摄像头 </a></p>
+                        <p class="price"><span>￥</span>440.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/83.html" title="苹果7 iPhone 7尾插排线 "><img src="/Public/Product/thumb/201705/5907ef5598069.jpg" alt="苹果7 iPhone 7尾插排线 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/83.html" title="苹果7 iPhone 7尾插排线 ">苹果7 iPhone 7尾插排线 </a></p>
+                        <p class="price"><span>￥</span>180.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/171.html" title="苹果7 iPhone 7 电池 "><img src="/Public/Product/thumb/201705/5907ef734fafc.jpg" alt="苹果7 iPhone 7 电池 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/171.html" title="苹果7 iPhone 7 电池 ">苹果7 iPhone 7 电池 </a></p>
+                        <p class="price"><span>￥</span>170.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/172.html" title="苹果7 iPhone7 后置摄像头 "><img src="/Public/Product/thumb/201705/5907f2b07a06e.jpg" alt="苹果7 iPhone7 后置摄像头 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/172.html" title="苹果7 iPhone7 后置摄像头 ">苹果7 iPhone7 后置摄像头 </a></p>
+                        <p class="price"><span>￥</span>245.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/335.html" title="苹果7   iPhone 7 显示屏"><img src="/Public/Product/thumb/201706/5950b917caee2.jpg" alt="苹果7   iPhone 7 显示屏"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/335.html" title="苹果7   iPhone 7 显示屏">苹果7   iPhone 7 显示屏</a></p>
+                        <p class="price"><span>￥</span>750.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/88.html" title="苹果7 iPhone7 振动器"><img src="/Public/Product/thumb/201705/5907f23f331be.jpg" alt="苹果7 iPhone7 振动器"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/88.html" title="苹果7 iPhone7 振动器">苹果7 iPhone7 振动器</a></p>
+                        <p class="price"><span>￥</span>160.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/86.html" title="苹果7 iPhone 7 前置摄像头 "><img src="/Public/Product/thumb/201705/5907f0ec3e7d3.jpg" alt="苹果7 iPhone 7 前置摄像头 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/86.html" title="苹果7 iPhone 7 前置摄像头 ">苹果7 iPhone 7 前置摄像头 </a></p>
+                        <p class="price"><span>￥</span>210.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/39.html" title="OPPO原装闪充数据线"><img src="/Public/Product/thumb/201705/59099fc544cde.jpg" alt="OPPO原装闪充数据线"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/39.html" title="OPPO原装闪充数据线">OPPO原装闪充数据线</a></p>
+                        <p class="price"><span>￥</span>30.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/89.html" title="苹果7 iPhone 7 听筒"><img src="/Public/Product/thumb/201705/5907f301b6bb5.jpg" alt="苹果7 iPhone 7 听筒"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/89.html" title="苹果7 iPhone 7 听筒">苹果7 iPhone 7 听筒</a></p>
+                        <p class="price"><span>￥</span>96.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/90.html" title="苹果7 iPhone 7 扬声器 "><img src="/Public/Product/thumb/201705/59197225741a2.jpg" alt="苹果7 iPhone 7 扬声器 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/90.html" title="苹果7 iPhone 7 扬声器 ">苹果7 iPhone 7 扬声器 </a></p>
+                        <p class="price"><span>￥</span>150.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/17.html" title="小米Type-C数据线"><img src="/Public/Product/thumb/201705/59099d5525a0c.jpg" alt="小米Type-C数据线"></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/17.html" title="小米Type-C数据线">小米Type-C数据线</a></p>
+                        <p class="price"><span>￥</span>26.00</p>
+                    </li><li>
+                        <p class="pic"><a href="http://www.caobao.com/detail/87.html" title="苹果7 iPhone 7 开机音量排线 "><img src="/Public/Product/thumb/201705/5907f13717403.jpg" alt="苹果7 iPhone 7 开机音量排线 "></a></p>
+                        <p class="tit"><a href="http://www.caobao.com/detail/87.html" title="苹果7 iPhone 7 开机音量排线 ">苹果7 iPhone 7 开机音量排线 </a></p>
+                        <p class="price"><span>￥</span>190.00</p>
+                    </li>                </ul>
+            </div>
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+		<!-- 维修指南 -->
+        <div class="skill wrap">
+            <h2><a href="http://bbs.caobao.com/jiqiao.html" rel="nofollow">维修指南</a></h2>
+            <div class="clearfix">
+				<div class="skillbd clearfix current">
+                    <div class="skpic">
+						<a href="http://bbs.caobao.com/view/33.html" rel="nofollow"><img src="/Public/bbs/attachment/201604/b80158258b1fb.jpeg"></a>
+					</div>
+                    <div class="skpicbd">
+                        <h4>iPhone5s手机换屏幕详细操作教程</h4>
+                        <time>2016-04-22</time>
+                        <div class="cbd_i">
+							<p>iPhone5s更换屏幕的技巧分享，步骤非常详细，详细到小鱼自己都怕了，教大家一步步拆机与完成屏幕更换。</p>
+							<p>（1）维修您的设备可能造成设备的损坏，数据的丢失，开始维 </p><p>（2）小鱼建议
+------------------- </p><p>（3）关机
+
+注意：如果屏幕功能不正常，您可以通
+ </p><p>（4）移除2颗位于充电插口五角螺丝。 </p><p>（5）把吸盘安置在返回键的上方。（注意：如果您的手机屏幕 </p><p>（6）在屏幕和手机主框之前插入撬棍（注意：当你撬起屏幕1 </p><p>（7）慢慢的屏幕向上拉起，让开机排线暴露出来。 </p><p>（8）用拆机撬棒的尖端提起排线保护罩的边缘角，排线保护罩 </p><p>（9）使用拆机撬棒的尖端拆除Home键排线。 </p><p>（10）慢慢的拉起屏幕直到与主框90度夹角。（注意：不要试 </p><p>（11）移除2颗位于电池固定片上的十字口螺丝，然后取出电池 </p><p>（12）使用手机撬棒的平口端，慢慢托起电池连接器然后移除。 </p><p>（13）移除主板上4颗固定EMI(电磁屏蔽)罩的十字螺丝， </p><p>（14）使用手机撬棒的尖端，移除3个排线。 </p><p>（15）从主框上移除屏幕。（注意：不要丢弃您损坏的屏幕，这 </p><p>（16）移除屏幕上的额2颗固定扬声器&amp;摄像头的十字 </p><p>（17）使用撬棒移除固定支架，使用过程要力度适中，完全取出 </p><p>（18）移除听筒，放置在一边准备回装。 </p><p>（19）用撬棒的尖端慢慢剥落排线。（注意：排线下面是用胶粘 </p><p>（20）取出黄色副麦克风。（注意：前摄像头&amp;感光灯 </p><p>（21）移除感应灯支架，放置在一旁准备回装（如果没有发现支 </p><p>（22）移除返回键排线上十字螺丝。（注意：移除这里的螺丝需 </p><p>（23）移除两颗固定在返回键上的十字螺丝，取出固定片放置一 </p><p>（24）使用手机撬棍的平口小心地剥落返回键排线，不能用力过 </p><p>（25）平放屏幕正面朝上，使用平口撬棒往下轻按，小心翼翼的 </p><p>（26）将取下的返回键放置在一旁，准备回装。（注意：返回键 </p><p>（27）移除四颗固定屏幕的十字螺丝（每边两个）。 </p><p>（28）移除固定液晶总成铁片的十字螺丝。 </p><p>（29）移除液晶总成铁片，放置一旁准备回装。 </p><p>（30）移除防静电贴膜。 </p><p>（31）把液晶总成铁片固定在新的屏幕上，然后固定右上角的十 </p><p>（32）固定液晶总成铁片上的4颗十字螺丝。（注意：铁片上四 </p><p>（33）把返回键正确放置在新屏幕的位置，方向与校准针一致， </p><p>（34）安放好返回键铁片，然后拧上两颗十字螺丝，松紧适中。 </p><p>（35）把返回键排线翻转180°与十字螺丝孔对齐上紧。
+ </p><p>（36）将如图所示的黄色部分，插入摄像头透明支架下方的圆形 </p><p>（37）请注意一下回装部件的正确位置
+1，前摄像头支架
+ </p><p>（38）1，将摄像头排线上校准孔对准校准针 （如图1,2） </p><p>（39）图就是成功组装摄像头排线。 </p><p>（40）将拆卸下来的听筒，按照上图正确安装，和两颗校准针对 </p><p>（41）如图所示把听筒铁片安置在听筒上方,然后上好螺丝。 </p><p>（42）将新屏幕摄像头部以90°夹角放置在主框上。 </p><p>（43）连接上3条排线。
+1,触摸排线
+2,显示排线
+ </p><p>（44）回装显示屏接口盖，螺丝不要拧的太紧。（注意：千万不 </p><p>（45）扣好电池排线扣。 </p><p>（46）扣好电池扣铁片，上紧两颗十字螺丝。（一只手向上抓住 </p><p>（47）平放手机，开机测试手机是否正常，检查一下功能。
+ </p><p>（48）让显示屏和中框成一定角度，高度大概3-5厘米。以便 </p><p>（49）扣上返回键排线。 </p><p>（50）将返回键排线扣用镊子放入如图所示位置,用撬棒扣上。 </p><p>（51）将上图3个白色卡口扣在主框里面。 </p><p>（52）将屏幕慢慢用力合上（力度适中）。 </p><p>（53）如图所示，安置排线。确保排线方向正确，不被挤压。 </p><p>（54）平放手机，用手指轻按屏幕确保屏幕完全合上。 </p><p>（55）屏幕完全合上后，拧上五角螺丝。然后开机测试功能。 </p><p>（56）散花，谢谢观看！小鱼爱你们哦。 </p>                        </div>
+                        <span class="more"><a href="http://bbs.caobao.com/view/33.html" rel="nofollow">详细&gt;</a></span>
+                   </div>
+                </div><div class="skillbd clearfix ">
+                    <div class="skpic">
+						<a href="http://bbs.caobao.com/view/512.html" rel="nofollow"><img src="/Public/Forum/images/nopic.jpg"></a>
+					</div>
+                    <div class="skpicbd">
+                        <h4>手机老自动关机开机</h4>
+                        <time>2016-07-13</time>
+                        <div class="cbd_i">
+							<p></p>
+							                        </div>
+                        <span class="more"><a href="http://bbs.caobao.com/view/512.html" rel="nofollow">详细&gt;</a></span>
+                   </div>
+                </div><div class="skillbd clearfix ">
+                    <div class="skpic">
+						<a href="http://bbs.caobao.com/view/97.html" rel="nofollow"><img src="/Public/bbs/attachment/201604/c7e4e51083880.jpeg"></a>
+					</div>
+                    <div class="skpicbd">
+                        <h4>iPhone6S怎么更换屏幕？图解iPh</h4>
+                        <time>2016-04-27</time>
+                        <div class="cbd_i">
+							<p>iPhone6S更换屏幕的详细步骤。</p>
+							<p>（1）维修您的设备可能造成设备的损坏，数据的丢失，开始维 </p><p>（2）小鱼建议 -------------------- </p><p>（3）一点注意事项，仔细看看吧。 </p><p>（4）关机 --注意：如果屏幕功能不正常，您可以通 过同 </p><p>（5）移除2颗位于充电插口旁边的五角螺丝。PS：千万不要 </p><p>（6）使用电吹风（有条件的可以使用风枪），适当加热手机边 </p><p>（7）在返回键上方放置吸盘，轻轻拉起一条缝隙，然后将指甲 </p><p>（8）然后在将三角片插入缝隙中，用三角片沿着周边划开。 </p><p>（9）显示屏总成与中框总成之间是有排线连接的，不要直接用 </p><p>（10）为减少损伤，先断电。使用十字螺丝刀，移除电池扣铁片 </p><p>（11）使用手机撬棒的平口端，慢慢托起电池连接器然后移除。 </p><p>（12）移除主板上的固定EMI(电磁屏蔽)罩的十字螺丝，然 </p><p>（13）为防止安装时，装错螺丝导致配件损坏，建议新手朋友使 </p><p>（14）使用手机撬棒的尖端，移除这里的排线。PS：轻轻用力 </p><p>（15）OK，成功将显示屏总成分离。 </p><p>（16）为了防止，购买到的显示屏存在质量问题，别拆封，先测 </p><p>（17）开机检测显示屏的功能，触摸，以及显示问题，是否存在 </p><p>（18）如果一切正常，请断开电池排线连接，以及显示屏排线的 </p><p>（19）回到旧显示屏总成上，移除听筒固定支架的十字螺丝，并 </p><p>（20）移除听筒。 </p><p>（21）移除前置摄像头排线。PS：如果排线的胶粘黏的过紧， </p><p>（22）移除液晶总成后盖上的固定螺丝。PS：螺丝比较多，不 </p><p>（23）然后将液晶总成铁片掀起，不要急，继续往下面看。 </p><p>（24）液晶总成支架上还有胶粘黏的，里外都有。外部的图就不 </p><p>（25）OK，下面移除返回键铁片上面的螺丝，并且将返回键铁 </p><p>（26）将返回键排线铲下来，记得温柔点。铲断了排线，您将失 </p><p>（27）然后用手指抠掉就可以了。PS：图片拍的不是很清楚， </p><p>（28）全部拆下来后，开始安装了。将新屏幕上的保护膜撕下来 </p><p>（29）安装液晶总成铁片。PS：将这个往里面扣进去。 </p><p>（30）然后安装十字固定螺丝。PS：螺丝有点多，不要急。 </p><p>（31）安装前置摄像头排线。PS：怎么拆怎么装，位置要准。 </p><p>（32）安装听筒。PS：对准好螺丝孔。 </p><p>（33）安装听筒固定支架，并且安装固定螺丝。 </p><p>（34）贴上防水胶。PS：要对准位置哦。 </p><p>（35）粘贴好，请撕掉保护膜。 </p><p>（36）OK，小配件安装到新屏幕上了。下面安装到中框总成上 </p><p>（37）然后连接电池排线。 </p><p>（38）平放手机，开机测试手机是否正常，检查一下功能。 - </p><p>（39）确认没问题后，安装固定EMI(电磁屏蔽)罩，以及上 </p><p>（40）安装电池扣铁片，已经上面的固定螺丝。 </p><p>（41）合下屏幕轻轻往箭头方向推，然后往下扣下去。PS：如 </p><p>（42）安装最后的两颗五角螺丝。PS：按捺住激动的心。 </p><p>（43）OK，更换完成！开机看看有没有问题。小鱼此刻内心是 </p>                        </div>
+                        <span class="more"><a href="http://bbs.caobao.com/view/97.html" rel="nofollow">详细&gt;</a></span>
+                   </div>
+                </div><div class="skillbd clearfix ">
+                    <div class="skpic">
+						<a href="http://bbs.caobao.com/view/871.html" rel="nofollow"><img src="/Public/bbs/attachment/201609/a26d9c39fcaac.jpeg"></a>
+					</div>
+                    <div class="skpicbd">
+                        <h4>iPhone 6s掉水里怎么办？手机进水</h4>
+                        <time>2016-09-01</time>
+                        <div class="cbd_i">
+							<p>我们在使用手机的过程中，难免会不小心让手机沾到水，或掉进水中，尤其是现在智能手机的价格都不便宜，如果你的iPhone 6s手机进水了，相信很多用户都会非常的心痛吧。相对于</p>
+							<p>（1）首先，iPhone6S手机进水了，切记不要立即开机 </p><p>（2）擦干机身，比如iPhone6S身上的水渍，SIM卡 </p><p>（3）把iPhone 6S放在大米袋子里面，家庭储存大米 </p><p>（4）前面我们只是处理了手机中的水，其实，那种级别的干燥 </p><p>（5）只要是其中一个标变红，苹果的售后大门将不再对您开放 </p><p>（6）苹果手机的主板和排线很多都是金属元件来的，所以进了 </p><p>（7）再看看有些位置，都已经发霉了，特别是指纹排线之类的 </p>                        </div>
+                        <span class="more"><a href="http://bbs.caobao.com/view/871.html" rel="nofollow">详细&gt;</a></span>
+                   </div>
+                </div><div class="skillbd clearfix ">
+                    <div class="skpic">
+						<a href="http://bbs.caobao.com/view/1117.html" rel="nofollow"><img src="/Public/bbs/attachment/201610/b27371ef1f08d.png"></a>
+					</div>
+                    <div class="skpicbd">
+                        <h4>iPhone系列提升充电速度的5大技巧</h4>
+                        <time>2016-10-14</time>
+                        <div class="cbd_i">
+							<p>现在，手机已经不仅仅只是一个通讯工具了，它已经成为了人们生活中不可或缺的一部分，可能你身边的朋友很久没见，你都不觉得想念，但是手机一离手，你就会觉得不舒适。出门必带手机，</p>
+							<p>（1）使用iPad的充电器来给iPhone充电。  </p><p>（2）在充电时，打开飞行模式，然后进行充电，这样也会加快 </p><p>（3）同样在你没有特别的需求时，把手机关机再进行充电，这 </p><p>（4）温度问题。在一些地方，如北方一些比较寒冷的地方，在 </p><p>（5）清理灰尘。经常出现充电慢而且充不进去，换过数据线和 </p>                        </div>
+                        <span class="more"><a href="http://bbs.caobao.com/view/1117.html" rel="nofollow">详细&gt;</a></span>
+                   </div>
+                </div>                <div class="news-links">
+                    <ul>
+						<li class="current">iPhone5s手机换屏幕详细操作教程</li><li>手机老自动关机开机</li><li>iPhone6S怎么更换屏幕？图解iPhone6S换屏幕教程</li><li>iPhone 6s掉水里怎么办？手机进水的处理方法</li><li>iPhone系列提升充电速度的5大技巧</li>                    </ul>
+                </div>
+            </div>
+        </div>
+		<!-- 维修视频 -->
+        <div class="videos wrap">
+            <h2><a href="http://www.caobao.com/video/">维修视频</a></h2>
+            <div class="skill-detial">
+                   <ul class="clearfix">
+                       <li>
+                           <div class="pic">
+                               <a href="http://www.caobao.com/video/308.html" title="oppo R11拆机换尾插排线-充电接口 教程"><img src="/Public/Home/images/product/lazy.jpg" data-original="/Public/Video/201710/59eea7f6364ea.jpg" width="278" alt="oppo R11拆机换尾插排线-充电接口 教程"></a>
+                               <span>oppo R11拆机换尾插排线-充电接口 教程</span>
+                           </div>
+						   <span class="play_icon"><a href="http://www.caobao.com/video/308.html" title="oppo R11拆机换尾插排线-充电接口 教程"><img src="/Public/Home/images/2016/video.png"></a></span>
+                       </li><li class="middle">
+                           <div class="pic">
+                               <a href="http://www.caobao.com/video/307.html" title="oppoR11拆机换音量排线教程"><img src="/Public/Home/images/product/lazy.jpg" data-original="/Public/Video/201710/59eea7a032e69.jpg" width="278" alt="oppoR11拆机换音量排线教程"></a>
+                               <span>oppoR11拆机换音量排线教程</span>
+                           </div>
+						   <span class="play_icon"><a href="http://www.caobao.com/video/307.html" title="oppoR11拆机换音量排线教程"><img src="/Public/Home/images/2016/video.png"></a></span>
+                       </li><li>
+                           <div class="pic">
+                               <a href="http://www.caobao.com/video/306.html" title="oppoR11拆机换扬声器模块教程"><img src="/Public/Home/images/product/lazy.jpg" data-original="/Public/Video/201710/59eea751ecf99.jpg" width="278" alt="oppoR11拆机换扬声器模块教程"></a>
+                               <span>oppoR11拆机换扬声器模块教程</span>
+                           </div>
+						   <span class="play_icon"><a href="http://www.caobao.com/video/306.html" title="oppoR11拆机换扬声器模块教程"><img src="/Public/Home/images/2016/video.png"></a></span>
+                       </li><li>
+                           <div class="pic">
+                               <a href="http://www.caobao.com/video/305.html" title="oppoR11拆机换听筒教程"><img src="/Public/Home/images/product/lazy.jpg" data-original="/Public/Video/201710/59eea6eab1e1d.jpg" width="278" alt="oppoR11拆机换听筒教程"></a>
+                               <span>oppoR11拆机换听筒教程</span>
+                           </div>
+						   <span class="play_icon"><a href="http://www.caobao.com/video/305.html" title="oppoR11拆机换听筒教程"><img src="/Public/Home/images/2016/video.png"></a></span>
+                       </li>                   </ul>
+               </div>
+        </div>
+		<!-- 维修流程介绍 -->
+		<div class="repair_step wrap">
+			<div class="repair_step_wrap">
+				<!-- 用户五步 -->
+				<div class="repair">
+					<h3> 用户轻松 <strong>5</strong> 步，下单维修</h3>
+					<div class="five_step clearfix">
+						<div class="step stepone clearfix">
+							<div class="content_s">
+								<h4>1.品牌机型</h4>
+								<p>选择需要维修的设备型号及颜色</p>
+							</div>
+							<span class="next_icon icon"></span>
+						</div>
+						<div class="step steptwo clearfix">
+							<div class="content_s">
+								<h4>2.描述故障</h4>
+								<p>选择故障现象或者描述故障详情</p>
+							</div>
+							<span class="next_icon icon"></span>
+						</div>
+						<div class="step stepthree clearfix">
+							<div class="content_s">
+								<h4>3.等待维修店报价</h4>
+								<p>等待附近维修店针对故障描述进行报价</p>
+							</div>
+							<span class="next_icon icon"></span>
+						</div>
+						<div class="step stepfour clearfix">
+							<div class="content_s">
+								<h4>4.选择维修</h4>
+								<p>选择已报价店铺维修或</p>
+								<p>邮寄至官方或官方连锁店维修</p>
+							</div>
+							<span class="next_icon icon"></span>
+						</div>
+						<div class="step stepfive clearfix">
+							<div class="content_s">
+								<h4>5.在线支付</h4>
+								<p>维修完成在线支付维修款</p>
+								<p>享受更多售后保障</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 维修师四步 -->
+				<div class="master">
+					<h3>维修师 <strong>4</strong> 步操作，维修无忧</h3>
+					<div class="four_step clearfix">
+						<div class="step stepone clearfix">
+							<div class="content_s">
+								<h4>1.关注草包网微信公号接收微信报价提示</h4>
+								<p><span class="icon icon-erweima"></span></p>
+							</div>
+							<span class="next_icon icon"></span>
+						</div>
+						<div class="step steptwo clearfix">
+							<div class="content_s">
+								<h4>2.维修报价</h4>
+								<p>点击报价链接</p>
+								<p>根据消费者故障描述报价</p>
+							</div>
+							<span class="next_icon icon"></span>
+						</div>
+						<div class="step stepthree clearfix">
+							<div class="content_s">
+								<h4>3.等待用户选择维修</h4>
+								<p>用户选中维修后获取用户联系信息</p>
+								<p>及时与用户联系维修</p>
+							</div>
+							<span class="next_icon icon"></span>
+						</div>
+						<div class="step stepfour clearfix">
+							<div class="content_s">
+								<h4> 4.完成维修</h4>
+								<p>提醒用户通过草包网平台当面在线支付</p>
+								<p>及对您的维修进行评价</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 快捷栏目 -->
+        <div class="customer-service wrap">
+            <ul class="clearfix">
+                <li class="first">
+                    <p><a href="http://bbs.caobao.com/wenda.html">问题解答</a></p>
+                    <p class="bottom"><a href="http://bbs.caobao.com/jiqiao.html">技巧分享</a></p>
+                </li>
+                <li class="second">
+                    <p><a href="http://www.caobao.com/article/35.html">消费保障</a></p>
+                    <span><a href="http://www.caobao.com/article/35.html">价格保护</a><a href="http://www.caobao.com/article/31.html">退换货</a></span>
+                </li>
+                <li class="third">
+                    <p><a href="http://www.caobao.com/article/13.html">新手指南</a></p>
+                    <span><a href="http://www.caobao.com/article/40.html">维修店加入流程</a><a href="http://www.caobao.com/article/37.html">折价换屏</a></span>
+                </li>
+                <li class="last">
+                    <p><a href="http://www.caobao.com/article/38.html">关于我们</a></p>
+                    <span><a href="http://www.caobao.com/article/39.html">联系我们</a><a href="http://www.caobao.com/article/42.html">人才招聘</a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+	<!-- 地图 -->
+	<div class="dark"></div>
+	<div class="bigbox posF" style="height:500px;width:700px;">
+		<span class="posA off">&nbsp;</span>
+		<div id="mapBx" style="height:500px;width:700px;"></div>
+	</div>
+	<div id="map" style="display:none;"></div>
+	<script name="baidu-koubei-verification" src="//ikoubei.baidu.com/embed/b8b3e2020fe53dcaa8e81dd0816ba1a8"></script>
+
+		<!-- 主体部分 结束 -->
+		
+		
+		<!-- 页脚部分 开始 -->
+		<link rel="stylesheet" type="text/css" href="/Public/Home/css/footer.css">
+
+<!--页脚 开始-->
+<div class="FF">
+	<div class="footer wrap">
+		<div class="row-fluids clearfix">
+			<div class="span7">
+				<h3>故障分类：</h3>
+				<ul class="clearfix">
+					<li class="nLi">
+							<h4>屏幕</h4>
+							<ol>
+								<li><a target="_blank" href="http://www.caobao.com/fault/1.html" title="屏碎 显示正常">屏碎 显示正常</a></li><li><a target="_blank" href="http://www.caobao.com/fault/2.html" title="手机屏幕失灵">手机屏幕失灵</a></li>							</ol>
+						</li><li class="nLi">
+							<h4>电池/充电/开机</h4>
+							<ol>
+								<li><a target="_blank" href="http://www.caobao.com/fault/3.html" title="续航时间不足">续航时间不足</a></li><li><a target="_blank" href="http://www.caobao.com/fault/7.html" title="手机不能开机">手机不能开机</a></li><li><a target="_blank" href="http://www.caobao.com/fault/8.html" title="不充电不联机">不充电不联机</a></li>							</ol>
+						</li><li class="nLi">
+							<h4>按键</h4>
+							<ol>
+								<li><a target="_blank" href="http://www.caobao.com/fault/4.html" title="按开机键不能开机">按开机键不能开机</a></li><li><a target="_blank" href="http://www.caobao.com/fault/9.html" title="手机HOME键失灵">手机HOME键失灵</a></li>							</ol>
+						</li><li class="nLi">
+							<h4>声音/震动</h4>
+							<ol>
+								<li><a target="_blank" href="http://www.caobao.com/fault/5.html" title="手机听筒没有声音">手机听筒没有声音</a></li><li><a target="_blank" href="http://www.caobao.com/fault/6.html" title="播放音乐没有声音">播放音乐没有声音</a></li><li><a target="_blank" href="http://www.caobao.com/fault/10.html" title="无法调节音量大小">无法调节音量大小</a></li>							</ol>
+						</li><li class="nLi">
+							<h4>拍照/录像</h4>
+							<ol>
+								<li><a target="_blank" href="http://www.caobao.com/fault/11.html" title="切换前摄像头黑屏">切换前摄像头黑屏</a></li><li><a target="_blank" href="http://www.caobao.com/fault/12.html" title="手机拍照模糊不清">手机拍照模糊不清</a></li>							</ol>
+						</li><li class="nLi">
+							<h4>外壳/边框</h4>
+							<ol>
+								<li><a target="_blank" href="http://www.caobao.com/fault/14.html" title="后壳磨损变形">后壳磨损变形</a></li><li><a target="_blank" href="http://www.caobao.com/fault/15.html" title="手机中框变形">手机中框变形</a></li>							</ol>
+						</li><li class="nLi">
+							<h4>进水/主板</h4>
+							<ol>
+								<li><a target="_blank" href="http://www.caobao.com/fault/13.html" title="手机进水">手机进水</a></li>							</ol>
+						</li>				</ul>			</div><!-- span7 --> 
+			<div class="span30">
+				<dl class="clearfix">
+					<dt class="img fl"></dt>
+					<dd class="fl">
+						<h4>客服热线</h4>
+						<p class="tel">400-850-6838</p>
+						<p class="supp">仅收市话费用</p>
+						<p class="workTime">(周一至周日 9:00-18:00)</p>
+					</dd>
+				</dl>
+			</div>
+			<!-- <div class="span20"> -->
+				<!-- <span class="masterLogin"><a rel="nofollow" href="/system/login.html" target="_blank">维修店登录&gt</a></span> -->
+			<!-- </div> -->
+		</div><!-- row-fluids -->
+		<!-- 友情链接 -->
+		<div class="frdLink wrap">
+			<dl class="clearfix frdLink">
+				<dd>
+					友情链接：
+					<a href="http://www.caobao.com/" target="_blank">手机维修</a><a href="http://bbs.eastsea.com.cn" target="_blank">东海论坛</a><a href="http://www.rootbbs.com" target="_blank">机轩手机维修论坛</a><a href="http://www.caobao.com/video/" target="_blank">手机维修视频</a><a href="http://www.szlande.com" target="_blank">兰德手机培训</a><a href="http://news.aitaocui.cn/" target="_blank">翡翠</a><a href="http://www.shuajizhushou.cn" target="_blank">刷机助手</a><a href="http://www.juyouhuishou.com" target="_blank">手机回收网</a><a href="http://bbs.caobao.com/" target="_blank">手机维修论坛</a><a href="http://bbs.cnmo.com/" target="_blank">手机中国</a><a href="http://www.159shouji.com" target="_blank">手机批发</a><a href="http://mobile.qudong.com" target="_blank">手机资讯</a><a href="http://www.veryol.com/" target="_blank">非常在线</a><a href="http://www.shouji10086.com/" target="_blank">性价比高的手机</a><a href="http://www.lifesense.com/" target="_blank">智能手环</a><a href="http://www.360zhuti.com/" target="_blank">360安卓主题</a>					<a href="/link/links.html" target="_blank" alt="草包友链" title="草包友链">友链申请</a>
+				</dd>
+			</dl>
+		</div>		<div class="row-fluids safeInfo">
+			<a rel="nofollow" target="_blank" href="http://61.144.227.239:9002/"><img src="/Public/Home/images/2016/sznet110.jpg" height="34" alt="深圳网络警察报警平台"></a>
+			<a rel="nofollow" target="_blank" href="http://www.cyberpolice.cn/wfjb/"><img src="/Public/Home/images/2016/cyberpolice.jpg" height="34" alt="公共信息安全网络监察"></a>
+			<a rel="nofollow" key="56777671efbfb07fa5f91f9e" logo_size="124x47" logo_type="business" href="http://www.anquan.org/authenticate/cert/?site=www.caobao.com&amp;at=business" target="_blank"><img src="http://static.pinpaibao.com.cn/static/kiss_page/outer/image/hy_124x47.png" alt="安全联盟认证" height="34" style="border: none;"></a>
+			<a rel="nofollow" target="_blank" id="_pingansec_bottomimagelarge_shiming" href="http://si.trustutn.org/info?sn=868170109026620625771&amp;certType=1"><img src="http://v.trustutn.org/images/cert/bottom_large_img.png" height="34"></a>
+		</div>
+		<div class="row-fluids">
+			<p class="CR">Copyright © 2016 深圳草包网络科技有限公司 版权所有 粤ICP备15009083号-1</p>
+		</div>
+	</div>
+</div>
+<!--页脚 结束-->        <!-- 页脚部分 结束 -->  
+		
+		<!-- 侧边栏 开始 -->  
+		<link rel="stylesheet" type="text/css" href="/Public/Home/css/sidebar.css">
+
+<!--侧栏 开始-->
+<div class="cb_sidebar" style="top: 57px;">
+	<span class="open"></span>
+	<div class="cb_sidebar_bg" style="display: none;"></div>
+	<div class="cb_sidebar_tabs">
+		<ul>
+			<li class="cbwlogo" style="display: none;">
+				<a href="http://www.caobao.com" title="草包网">
+					<i></i>
+				</a>
+			</li>
+			<li class="cart" style="border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(238, 238, 238); border-left-color: rgb(238, 238, 238);">
+				<a href="/buy/cart.html" title="购物车">
+					<span class="cart_num">0</span>
+					<i></i>
+					<p class="icon-text">购物车</p>
+				</a>
+			</li>
+			<li class="linekefu open_kefu" style="display: none;">
+				<a href="javascript:void(0);" title="在线客服">
+					<i></i>
+					<p class="icon-text">客服</p>
+				</a>
+			</li>
+			<li class="weixin" style="display: none;">
+				<a href="javascript:void(0);" title="关注微信">
+					<img src="/Public/Home/images/2016/erweima.jpg" alt="" class="erweima_">
+					<i></i>
+					<p class="icon-text">微信</p>
+				</a>
+			</li>
+			<li class="app" style="display: none;">
+				<a href="javascript:void(0);" title="APP下载">
+					<i></i>
+					<p style="width:17px;" class="icon-text">APP</p>
+					<div class="clearfix" id="App_code">
+						<div class="android-code app-code">
+							<img src="/Public/Home/images/2016/Android.png">
+							<p>Android下载</p>
+						</div>
+						<div class="iphone-code app-code">
+							<img src="/Public/Home/images/2016/ios.png">
+							<p>IOS下载</p>
+						</div>
+						<em></em>
+					</div>
+				</a>
+			</li>
+			<li class="weibo" style="display: none;">
+				<a href="http://weibo.com/u/5394332979" target="_blank" title="关注微博">
+					<i></i>
+					<p class="icon-text">微博</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="scrollUp">
+		<a href="javascript:void(0);" title="返回顶部">
+			<i></i>
+		</a>
+	</div>
+</div>
+<!--侧栏 结束-->
+
+<script type="text/javascript">	
+	// 侧栏
+	$(".cb_sidebar .scrollUp").click(function(event) {
+		$('html,body').animate({scrollTop:0},600);
+	});
+	$(".cb_sidebar li.weixin").hover(function() {
+		$('.erweima_').stop().animate({"left":-153});
+	}, function() {
+		$('.erweima_').stop().animate({"left":51});
+	});
+	$(".cb_sidebar li.app").hover(function() {
+		$('#App_code').stop().animate({"left":-338});
+	}, function() {
+		$('#App_code').stop().animate({"left":51});
+	});
+	smallScreen();
+	$(window).on("resize",function(){
+		smallScreen();
+	});
+	function smallScreen(){
+		if($(window).width() < 1350){
+			smallHide()
+			$(".cb_sidebar").hover(function() {
+				bigShow()
+			}, function() {
+				smallHide()
+			});
+		}else{
+			bigShow()
+			$(".cb_sidebar").hover(function() {
+				bigShow()
+			}, function() {
+				bigShow()
+			});
+		}
+	};
+	function smallHide(){
+		$(".cb_sidebar_tabs ul li:not(.cart)").hide();
+		$(".cb_sidebar_tabs ul li.cart").css({"border-bottom":"1px solid #eee","border-left-color":"#eee"})
+		$(".cb_sidebar_bg").hide();
+		$(".cb_sidebar").css("top","57px");
+	};
+	function bigShow(){
+		$(".cb_sidebar_tabs ul li").show();
+		$(".cb_sidebar_tabs ul li.cart").css({"border-bottom":"0 none","border-left-color":"#cdcdcd"})
+		$(".cb_sidebar_bg").show();
+		$(".cb_sidebar").css("top","0px");
+	};
+</script>		<!-- 侧边栏 结束 -->  
+		
+		<!-- 全局js文件 -->
+		<script type="text/javascript" src="/Public/Home/page-js/common.js"></script>
+		<script type="text/javascript" src="/Public/Plugins/xcConfirm/js/xcConfirm.js"></script>
+		
+		
+		<!-- js文件部分 开始 -->
+		
+	<script type="text/javascript" src="/Public/Home/page-js/index.js"></script>
+	<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&amp;key=9b2ce5f14f80d8d3bfba270fa2ee8915"></script><script id="amap_main_js" src="http://webapi.amap.com/maps/main?v=1.3&amp;key=9b2ce5f14f80d8d3bfba270fa2ee8915&amp;m=http,map,anip,layers,overlay0,brender,mrender,touch,mouse,vectorlayer,overlay,cmng,cgl,sync&amp;vrs=1503546983737" type="text/javascript"></script>
+	<script type="text/javascript" src="/Public/Home/page-js/webapi-amap.js"></script>
+
+		<!-- js文件部分 结束 -->
+
+		
+		<!-- 底部JS执行区域 开始 -->
+		
+	<script type="text/javascript">
+		//图片懒加载
+		$(function() {
+			$("img").lazyload({
+				placeholder : "images/loading.gif",
+				effect: "fadeIn"
+			});
+		});
+	</script>
+
+		<!-- 底部JS执行区域 结束 -->
+		
+
+		<!--[if lt IE 9]>
+		<script src="/Public/Home/page-js/jquery.placeholder.min.js"></script>
+		<script type="text/javascript" >
+			$(function(){ $('input[type="text"], textarea').placeholder(); });
+		</script>
+		<![endif]-->
+		<script>	
+			var _APP_        = "";
+			var _PUBLIC_     = "/Public";
+			var _CONTROLLER_ = "/Index";
+			var _URL_        = "http://www.caobao.com";
+			var _USERS_      = "";
+		</script>
+		<script type="text/javascript">
+			// 站长统计
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cspan id='cnzz_stat_icon_1256186537'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1256186537' type='text/javascript'%3E%3C/script%3E"));
+			document.getElementById("cnzz_stat_icon_1256186537").style.display = "none";
+			
+		</script><span id="cnzz_stat_icon_1256186537" style="display: none;"><a href="http://www.cnzz.com/stat/website.php?web_id=1256186537" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s4.cnzz.com/z_stat.php?id=1256186537" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1256186537&amp;t=z" charset="utf-8" type="text/javascript"></script>
+		<!--
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				// 百度统计
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?29a1cca7e1b64621484ca52400e2bfb1";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+				
+				// 百度站长
+				var bp = document.createElement('script');
+				bp.src = '//push.zhanzhang.baidu.com/push.js';
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(bp, s);
+			})();
+		</script>
+		-->
+		
+	
+</body></html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+	<meta name="Keywords" content=" 1号店">
+	<meta name="author" content="m.yhd.com">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate,max-age=0,post-check=0, pre-check=0,false">   
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <title>系统异常</title>
+	<link rel="canonical" href="//shop.m.yhd.com/?shopId=">
+	<script type="text/javascript">
+		var rTimeArr = [];
+		rTimeArr[0] = {time : new Date()};
+		document.addEventListener("DOMContentLoaded", function(){
+			rTimeArr[1] = {time : new Date(), sTime : "0"};
+		});
+		
+		window.addEventListener("load", function(){
+			rTimeArr[2] = {time : new Date(), sTime : "0"};
+			var time = new R_Time();
+			var timeObj = time.calculateTime(rTimeArr);
+			var sid = time.urlParse("sid") || "";
+			var page_global_shopid = time.urlParse("shopId") || "";
+			var param = time.extend({id : "144", flag : "5", sid : sid}, timeObj);
+			time.sendTime(param);
+		});
+    </script>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link href="/skin/nj_base.css?v=20180529-1100" type="text/css" rel="stylesheet">
+    <link href="/js/jquery.toast/jquery.toast.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.tap.min.js"></script>
+
+	<script type="text/javascript" src="/js/jquery.toast/jquery.toast.min.js"></script>
+    <script type="text/javascript" src="/js/min_js/common.js?v=20180529-1100"></script>
+
+<link rel="stylesheet" type="text/css" charset="utf-8" href="//st.360buyimg.com/common/commonH_B/css/header.css?v=2.1"></head> <body>
+	<div id="m_common_tip"></div>
+<!-- header-section start-->
+<div id="m_common_header" style="min-height:45px"><header class="jd-header">    <div class="jd-header-bar">        <div report-eventid="MCommonHead_Back" id="m_common_header_goback" class="jd-header-icon-back J_ping"><span></span></div>        <div class="jd-header-title">系统异常</div>        <div report-eventid="MCommonHead_NavigateButton" report-eventparam="" page_name="" id="m_common_header_jdkey" class="jd-header-icon-shortcut J_ping"><span></span></div>    </div>    <ul id="m_common_header_shortcut" class="jd-header-shortcut" style="display: none">        <li id="m_common_header_shortcut_m_index">            <a class="J_ping" report-eventid="MCommonHead_home" report-eventparam="" page_name="" href="//shop.m.yhd.com/?shopId=null">                <span class="shortcut-home"></span>                <strong>店铺首页</strong>            </a>        </li>        <li class="J_ping" report-eventid="MCommonHead_CategorySearch" report-eventparam="" page_name="" id="m_common_header_shortcut_category_search">            <a href="javascript:void(0);">                <span class="shortcut-categories"></span>                <strong>分类搜索</strong>            </a>        </li>        <li class="J_ping" report-eventid="MCommonHead_Cart" report-eventparam="" page_name="" id="m_common_header_shortcut_p_cart">            <a href="javascript:void(0);" id="html5_cart">                <span class="shortcut-cart"></span>                <strong>购物车</strong>            </a>        </li>        <li id="m_common_header_shortcut_h_home" class=" current">            <a class="J_ping" report-eventid="MCommonHead_MYJD" report-eventparam="" page_name="" href="javascript:void(0);">                <span class="shortcut-my-account"></span>                <strong>我的1号店</strong>            </a>        </li>    </ul></header></div>
+<!-- header-section end-->
+<input type="hidden" id="page" name="page" value="1">
+<input type="hidden" id="shopId" name="shopId" value="">
+<input type="hidden" id="vendorId" name="vendorId" value="">
+<input type="hidden" id="venderType" name="venderType" value="">
+<input type="hidden" id="scrollTop" name="scrollTop">
+
+<div id="J-gotop" class="goTop hide"></div>
+
+<div class="loading-minipage hide">
+    <div class="loading-page-box">0<em>/</em>0</div>
+</div>
+<script type="text/javascript" src="/js/min_js/shopCommon.js?v=20180529-1100"></script><div class="error-wrapper">
+    <div class="error-cnt">
+        <i class="error-icon"></i>
+        <span class="sorry-text">参数不正确！</span>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+    var hetght = $(window).height();
+	$(".jd-error").css("height",hetght);
+});
+</script>
+	<div id="m_common_bottom"></div>
+<script type="text/javascript">
+	rTimeArr[4] = {sTime : new Date()};
+</script>
+<script type="text/javascript" src="/js/min_js/bottom.js?v=20180529-1100"></script>
+<script type="text/javascript" src="//wl.jd.com/unify.min.js"></script>
+<script type="text/javascript">
+	rTimeArr[4].time = new Date();
+</script>
+<script type="text/javascript" src="/js/H5toNative.js"></script>
+<script type="text/javascript" src="/js/min_js/m_common2.1.js?v=20180529-1100"></script>
+<script type="text/javascript" src="/js/min_js/m_common_header_bottom2.1.js?v=20180529-1100"></script>
+
+<script type="text/javascript">
+$(function(){
+    var mchb = new MCommonHeaderBottom();
+        var headerArg = {hrederId : 'm_common_header',title: '系统异常' , sid : '', isShowShortCut : false, selectedShortCut : '4'};
+    mchb.header(headerArg);
+        
+    });
+</script>
+
+<script type="text/javascript">
+	rTimeArr[5] = {time : new Date(), sTime : "4"};
+</script>
+
+<script type="text/javascript" src="//h5.m.jd.com/active/reporttime/reportTime.min.js"></script>
+ 
+</body></html>

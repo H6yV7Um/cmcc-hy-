@@ -1,0 +1,467 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=10,IE=9,IE=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>淘财经-题材挖掘机</title>
+<link rel="Shortcut Icon" href="favicon.ico">
+<script src="https://hm.baidu.com/hm.js?9286a82f775db991e3aa598f22a06712"></script><script>
+window._deel = {
+    name: '淘财经',
+    url: 'http://www.taoguba.com/wp-content/themes/D8',
+    rss: '',
+    ajaxpager: 'on',
+    maillist: '',
+    maillistCode: '',
+    commenton: 0,
+    roll: [0,0],
+    tougaoContentmin: 100,
+    tougaoContentmax: 5000,
+    appkey: {
+    	tqq: '801494063',
+    	tsina: '1106777879',
+    	t163: '',
+    	tsohu: ''
+    }
+}
+</script>
+<link rel="stylesheet" id="style-css" href="http://www.taoguba.com/wp-content/themes/D8/style.css?ver=3.0" type="text/css" media="all">
+<script type="text/javascript" src="http://www.taoguba.com/wp-content/themes/D8/js/jquery.js?ver=3.0"></script>
+<script type="text/javascript" src="http://www.taoguba.com/wp-content/plugins/wp-ueditor2/ueditor/third-party/SyntaxHighlighter/shCore.js"></script><link type="text/css" rel="stylesheet" href=" http://www.taoguba.com/wp-content/plugins/wp-ueditor2/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css"><meta name="keywords" content="淘财经微博  事件驱动 股票论坛 炒股高手 淘股吧融胜">
+<meta name="description" content="淘股吧 融胜 淘财经">
+<style>.article-content{font-size: 16px;line-height:27px;}.article-content p{}@media (max-width:640px){.article-content{font-size:16px}}@media (max-width:767px){.banner{display:none}}</style><!--[if lt IE 9]><script src="http://www.taoguba.com/wp-content/themes/D8/js/html5.js"></script><![endif]-->
+</head>
+<body class="home blog">
+<div class="navbar-wrap">
+<div class="navbar">
+		<h1 class="logo"><a href="http://www.taoguba.com" title="淘财经--题材挖掘机">淘财经</a></h1>
+		<ul class="nav">
+			<li id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60"><a title="理想论坛" target="_blank" href="http://www.55188.com">理想论坛</a></li>
+<li id="menu-item-4982" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4982"><a title="理想股市直播间" target="_blank" href="http://live.55188.com">股市直播</a></li>
+<li id="menu-item-11777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11777"><a title="行情中心" target="_blank" href="http://hangqing.55188.com/">行情中心</a></li>
+        </ul><div class="screen-mini"><button data-type="screen-nav" class="btn btn-inverse screen-nav"><i class="icon-tasks icon-white"></i></button></div>
+		<div class="menu pull-right">
+			<form method="get" class="dropdown search-form" action="http://www.taoguba.com/">
+				<input class="search-input" name="s" type="text" placeholder="输入关键字搜索" x-webkit-speech=""><input class="btn btn-success search-submit" type="submit" value="搜索">
+				<ul class="dropdown-menu search-suggest"></ul>
+			</form>
+			<div class="btn-group pull-left">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#feed">订阅</button>
+							</div>
+		</div>
+</div>
+</div>
+<header class="header">
+	<div class="speedbar">
+				<div class="toptip"><strong class="text-success">最新消息：</strong><font color="blue">本站所有内容，仅供学习交流，不构成买卖的依据，据此操作，风险自担。</font>请记住我们的永久域名：<font color="red">www.taoguba.com</font></div>
+	</div>
+</header>
+<section class="container">
+	<div class="content-wrap">
+	<div class="content">
+	<h2 class="title" id="guanjianzibox">最新发布</h2><style>
+.shengyin{position:absolute;right:0;top:0;padding:8px 11px;height:20px;line-height:20px;}
+.shengyin input{margin-top:0}
+.shengyin .label1{display:inline-block;padding:0 6px 0 25px;font-size:14px;vertical-align:middle;background:url(/wp-content/themes/D8/img/shengyin.gif) no-repeat center left;}
+.shengyin .label2{display:inline-block;padding:0 6px 0 10px;font-size:14px;vertical-align:middle;}
+</style>
+<div class="shengyin">
+    <div style="display:none">
+        <div id="jquery_jplayer_1" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_0" preload="metadata" src="http://taoguba.com/wp-includes/news/msg.mp3"></audio></div>
+        <div id="jp_container_1"> <button id="news-jp-play" class="jp-play" style="display:none">Play</button> </div>
+    </div>
+    <label for="news-sound-on" class="label1">声音提醒</label>
+    <input type="checkbox" name="news-sound-on" id="news-sound-on" onclick="toogle_news_sound_on()" checked="checked">
+    <label for="news-notice-on" class="label2">弹窗通知</label>
+    <input type="checkbox" name="news-notice-on" id="news-notice-on" onclick="toogle_news_notice_on()">
+</div>
+
+<script src="/wp-includes/news/jquery.jplayer.min.js"></script>
+<script type="text/javascript">
+
+	//设置cookie
+    function setCookie(c_name,value,expiredays){
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate()+expiredays);
+        document.cookie = c_name+"="+escape(value)+
+        ((expiredays==null)?"":";expires="+exdate.toGMTString());
+    }
+	
+	//获取cookie
+    function getCookie(c_name){
+        if(document.cookie.length>0){
+			c_start = document.cookie.indexOf(c_name+"=");
+			if(c_start!=-1){ 
+				c_start = c_start+c_name.length+1;
+				c_end = document.cookie.indexOf(";",c_start);
+				if(c_end==-1){
+					c_end = document.cookie.length;
+				}
+				return unescape(document.cookie.substring(c_start,c_end));
+			}
+		}
+        return "";
+    }
+	
+    //存储是否勾选声音的cookie
+    function toogle_news_sound_on(){
+        if(jQuery("#news-sound-on").prop('checked')){
+			//有提示音
+            setCookie('news-sound-on',true,3600);
+        }else{
+			//无提示音
+            setCookie('news-sound-on',false,3600);
+        }
+    }
+	
+	//存储是否勾选弹窗的cookie
+    function toogle_news_notice_on(){
+        if(jQuery("#news-notice-on").prop('checked')){
+			//有弹窗
+            setCookie('news-notice-on',true,3600);
+			//设置允许通知
+			if(window.Notification){
+				Notification.requestPermission();
+				popNotice('测试弹窗通知','你见到此消息弹出来，即证明你浏览器支持消息推送','/');
+			}
+        }else{
+			//无弹窗
+            setCookie('news-notice-on',false,3600);
+        }
+    }
+	
+	//页面加载时执行
+    jQuery(document).ready(function(){
+        jQuery("#jquery_jplayer_1").jPlayer({
+			ready:function(){
+				jQuery(this).jPlayer("setMedia",{
+					mp3: "/wp-includes/news/msg.mp3"
+				});
+			},
+			swfPath: "/wp-includes/news/jplayer",
+			supplied: "mp3"
+        });
+        if(getCookie('news-sound-once')=='true'){
+			//有新更新后,第一次刷新,播放声音
+            setCookie('news-sound-once',false,-1);
+            setTimeout(function(){
+                jQuery("#news-jp-play").trigger("click");
+            },1000);
+        }
+    });
+	
+	//获取当前最新的新闻id
+    var recent_post = 0;
+    jQuery.get("/recent_post.id?"+(new Date).getTime(),function(data){
+        recent_post = parseInt(data);
+    });
+	
+	//Notification弹窗桌面通知
+	if (window.Notification){
+		function popNotice(title,cont,url){
+			if(Notification.permission == "granted"){
+				var notification = new Notification(
+					title, 
+					{
+						body: cont,
+						icon: '/wp-content/themes/D8/img/nlogo.png',
+						tag: "testTag",
+						renotify: 'true'//当前标记的通知只会出现一个。
+					}
+				);
+				notification.onclick = function(){
+					window.open(url,"_blank");
+					notification.close();    
+				};
+				//当通知显示的时候被触发 30秒后关闭通知
+				notification.onshow = function(){
+					setTimeout(function(){
+						notification.close();
+					},30000);
+				}
+			}else{
+				Notification.requestPermission();//设置允许通知
+			}
+		};	
+	}
+	
+	
+    setInterval(function(){
+        jQuery.get("/recent_post.id?"+(new Date).getTime(),function(data){
+            if (recent_post==0){
+                recent_post = parseInt(data);
+            }else{
+                if(recent_post<parseInt(data)){
+                    if(jQuery("#news-sound-on").prop('checked')){
+                        setCookie('news-sound-once',true,1);
+                    }
+                    recent_post = parseInt(data);
+					
+					//在这里得到新闻内容
+					jQuery.get("/getrecent.php?nid="+recent_post,function(data){
+						
+						//拼接内容代码
+						var content = '<article class="excerpt excerpt-nothumbnail">'+
+											'<header>'+
+												'<a class="label label-important" href="/?cat='+data["term_id"]+'">'+data["term_name"]+'<i class="label-arrow"></i></a>'+
+												'<h2><a href="/?p='+data["id"]+'" title="'+data["title"]+'">'+data["title"]+'</a></h2>'+
+											'</header>'+
+											'<p>'+
+												'<span class="muted"><i class="icon-user icon12"></i><a href="/?author='+data["authorid"]+'">'+data["author"]+'</a></span>'+
+												'<span class="muted"><i class="icon-time icon12"></i>'+data["createtime"]+'</span>'+			
+											'</p>'+	
+											'<div class="note">'+data["content"]+'<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p></div>'+
+										'</article>';
+						
+						//触发play按钮
+						jQuery("#news-jp-play").trigger("click");
+						
+						//追加内容
+						$('#cstart').after(content);
+						
+						if(data['excerpt']!='' && data['excerpt']!=null){
+							$('#showexcerpt-a').attr('href','/?p='+data['id']);
+							$('#showexcerpt').html(data['excerpt']);
+						}
+						
+						//执行弹窗通知
+						popNotice(data["title"],data["content_y"],'/?p='+data["id"]);
+						
+						//追加关键字
+						var pop = '<span class="guanjianzi">'+data["keyword"]+'</span>';
+						$('#guanjianzibox').append(pop);
+						
+						//定时删除关键字提示
+						setTimeout("$('.guanjianzi').remove()",30000);
+					});
+                }
+            }
+        });
+    },10000);
+</script><div id="cstart" style="display:none;"></div><article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14095" title="芯链测试链Q1发布直播周二晚19:30举行 即将改变行业现状！ - 淘财经">芯链测试链Q1发布直播周二晚19:30举行 即将改变行业现状！</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=11">Tao</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2018-01-09 8:56:04</span>    </p>
+	<div class="note">
+		<p>HPB芯链测试链即将在2018年一季度上线测试，芯链迎来发展史上一次重大的里程碑事件。HPB创始人汪晓明特邀国泰君安首席数字货币专家，畅谈芯链测试链即将上线大事件。由共享财经知名美女主播秋文主持，展望区块链行业蓬勃发展的2018年。本次直播主要介绍芯链在区块链公链方向探索的进展。芯链在经过一年的技术研发创新，取得了突破性进步。伴随着2018年Q1测试链即将发布，芯链是否能改变行业现状？2018还有哪些大动作？更有神秘嘉宾现场互动，请大家敬请期待！</p>
+<p>时间：本周二1月9日晚 19:30-20:30；主讲人：芯链创始人汪晓明；直播地址：<a href="http://www.itdks.com/liveevent/detail/9628">http://www.itdks.com/liveevent/detail/9628</a> </p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/13.png" style="float:none" title="1.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/22.png" style="float:none" title="2.png"></p>
+<p></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14089" title="利欧股份（002131）率先布局区块链技术应用 入驻小米“营销数据链”平台 - 淘财经">利欧股份（002131）率先布局区块链技术应用 入驻小米“营销数据链”平台</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=11">Tao</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2018-01-08 14:15:48</span>    </p>
+	<div class="note">
+		<p>利欧数字官网报道，中科院法学研究所、中法学研究会、腾讯集团数据与隐私保护中心联合发起的“2017大数据合作与合规峰会”在北京举办。<strong>利欧股份（002131）</strong>旗下子公司利欧数字产品研发中心副总经理周崧弢就“区块链技术在互联网广告交易透明化和数据使用合规上的探索”为题展开演讲与讨论。</p>
+<p><strong>利欧数字希望未来3-5年内，能够与行业内的诸多公司一起推动区块链技术在数字营销领域的全方位应用落地，建立起面向数字营销领域的联盟链</strong>，最终解决当前互联网广告业面临的用户信息安全、数据孤岛、交易透明度、数据可信和审计、广告合规监管等问题。</p>
+<p><strong>2017年12月26日，</strong><strong>利欧数字旗下的聚胜万合（MediaV）加入到小米推出的“营销数据链”平台，并完成了首次测试联调</strong>。探索如何利用区块链技术解决程序化广告数据交换和使用中遇到的问题。这是利欧数字旗下单位展开的又一个区块链技术在数字营销领域的探索。</p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/12.png" style="float:none" title="1.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/21.png" style="float:none" title="2.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/3.png" style="float:none" title="3.png"></p>
+<p></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14087" title="法国总统府马克龙访华行程已定 将签阿海珐集团的核能协议等多个大单 - 淘财经">法国总统府马克龙访华行程已定 将签阿海珐集团的核能协议等多个大单</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=11">Tao</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2018-01-05 14:50:52</span>    </p>
+	<div class="note">
+		<p>法国总统府4日宣布，法国总统马克龙将于当地时间7日飞往中国，于1月8日至10日对中国进行国事访问。总统府表示，空客和赛峰发动机的销售、阿海珐集团的核能协议、欧洲最大的养老康复集团欧葆庭集团(ORPEA)在中国建造养老院以及农业方面的合作等消息都将在此次访问期间宣布，并将签订多个经济文化大单。</p>
+<p>中核集团与阿海珐集团签署了《关于产业和商业合作框架协议》。标志着中核集团与新阿海珐进一步深化在核燃料循环全产业链的全面合作，并欢迎中核参与阿海珐集团重组。</p>
+<p><strong>中核相关个股：</strong>中核科技（000777）、中国核建（601611）、中国核电（601985）</p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14083" title="钼铁价格持续上涨 已突破三年新高 - 淘财经">钼铁价格持续上涨 已突破三年新高</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=11">Tao</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2018-01-05 13:07:18</span>    </p>
+	<div class="note">
+		<p>近日钼铁价格随着国际钼价持续上涨，国内钼铁价格已经突破三年新高达到10.5万元/吨,国内钼铁主流报价10.4-10.8万元/吨，个别工厂报10.7-10.9万元/吨。部分工厂已经惜售暂停对外报价。加上元旦节后国际钼价走势表现强劲，价格大幅上涨，给了国内市场更大的涨价信心。</p>
+<p><strong>金钼股份（601958）</strong>公司为全球前三位的钼金属生产运营商，公司及其子公司正在运营两座世界级钼矿山。</p>
+<p><strong>新华龙（603399）</strong>公司是一家国内大型钼业企业，拥有焙烧、冶炼、钼化工、钼金属深加工等一体化的生产能力， 拥有钼矿采矿权和探矿权，并逐步向钼矿采选发展。</p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/11.png" title="1.png"></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14079" title="原油价格创近三年来新高 海越股份（600387）10亿收购北方石油 - 淘财经">原油价格创近三年来新高 海越股份（600387）10亿收购北方石油</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=17">niu</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2018-01-04 14:32:00</span>    </p>
+	<div class="note">
+		<p>1月4日，美国WTI原油期货主力合约触及每桶62.13美元，创2015年5月以来最高水平；布伦特原油期货主力合约涨至每桶68.16美元，亦为2015年5月来最高。近期伊朗社会动荡令市场担心伊朗原油供应骤降以及全球原油库存持续减少，从而激发对冲基金买涨。截至去年12月26日当周，对冲基金持有的WTI原油期货期权净多头头寸较上周增加7.3%，至411972张，逼近去年2月创下的纪录高点，其中，对冲基金多头头寸增加5.3%，空头头寸则骤降11%。</p>
+<p><strong>海越股份（600387）</strong>2017年12月，向海航云商投资有限公司、萍乡中天创富企业管理合伙企业（有限合伙）、天津惠宝生科技有限公司发行股份购买其合计持有的天津北方石油有限公司100.00%股权，估值10.4亿。天津北方石油有限公司在中国天津港地区已建成并投入运营的原油、成品油及化工产品库区已逾85万立方米，在建项目全部完工后，总库容将达到近200万立方米，并拥有5万吨级专业石化码头。</p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/32.png" title="32.png"></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14074" title="石墨电极大涨近14%逼近历史高位 合盛硅业（603260）石墨电极10.5万吨/年 - 淘财经">石墨电极大涨近14%逼近历史高位 合盛硅业（603260）石墨电极10.5万吨/年</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=11">Tao</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2018-01-02 14:09:26</span>    </p>
+	<div class="note">
+		<p>据百川资讯消息，2018年1月2日石墨电极报价由87095元/吨上涨到10595元/吨，单日大涨13.85%，其中超高功率石墨电极价格达到130000-180000元，已经逼近此前的最高点200000元。<br><strong>合盛硅业（603260）</strong>互动平台表示，公司目前新疆西部合盛石墨电极产能为3万吨/年，鄯善隆盛碳素项目达产后产能为7.5万吨/年，达产后合计总产能10.5万吨/年。而行业龙头方大炭素石墨电极产能为17.5万吨，仅次于方大炭素。</p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/1.png" style="float:none" title="1.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2018/01/2.png" style="float:none" title="2.png"></p>
+<p></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14060" title="科莱恩、巴斯夫颜料巨头全球性涨价 国内颜料黄、红系列应声暴涨​！ - 淘财经">科莱恩、巴斯夫颜料巨头全球性涨价 国内颜料黄、红系列应声暴涨​！</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=11">Tao</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2017-12-28 14:05:39</span>    </p>
+	<div class="note">
+		<p>全球专业化学品龙头企业瑞士科莱恩（Clariant）公司宣布，对其部分颜料产品实施全球性涨价。并于2018年1月15日生效。 涉及此次涨价的产品主要包括二恶嗪紫系列和二芳基黄系列：PV23(二恶嗪紫)和PO34将提价15%；PY83将提价14%；PY12、PY13、PY14、PY174以及PY176将提价5%。</p>
+<p>巴斯夫宣布其颜料成品在全球范围内涨价15%，涨价决定立即生效或依合同执行。国内的知名企业北美颜料昨日宣布其颜料产品价格暴涨。</p>
+<p><strong>百合花（603823）</strong>两年次新股，国内颜料行业龙头，颜料产品供应科莱恩，目前公司产品永固黄与永固红系列颜料占主营超过50%。</p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/18.png" style="float:none" title="1.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/23.png" style="float:none" title="2.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/3.jpg" style="float:none" title="3.jpg"></p>
+<p></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14058" title="多因素共振 支撑金价反弹 - 淘财经">多因素共振 支撑金价反弹</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=17">niu</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2017-12-26 9:08:48</span>    </p>
+	<div class="note">
+		<p>美国方面压力减弱。12月21日众议院顺利通过了最终版税改法案，特朗普收获了他的首个立法胜利。此次税改虽利多美国经济，但并非史上最大规模，刺激效应不会很大，刺激效果至少需要1年之后才能显现。税改之后，1年左右通胀会抬头，时间上不会促使美联储在2018年加速加息。短时而言，由于前期市场已消化了这一预期，预计对金价的压制力度呈边际递减。另外，美国国会共和党助理称，共和党众议员料将推迟对临时支出法案的投票 ，因议员们的争执进一步升级。消息称，众议院领导将寻求支持外国情报监视法与儿童医保法案，作为支持美国政府运作至1月19日的权宜法案中的部分内容。不过两党仍未达成共识，政府停摆风险将进一步加大，在这一问题得到有效解决前，预计美元仍会受到一定打压，而金价可能获得支撑。同时，近日美联储官员讲话总体偏鸽，包括美国达拉斯联储主席卡普兰、明尼阿波利斯联储主席卡什卡利、芝加哥联储主席埃文斯均对收益率曲线平坦化或通胀问题产生了疑虑。当前市场对加息话题的炒作氛围并不浓烈，金价短时下行压力减弱。</p>
+<p>英国脱欧出现新变数。据英国独立报上周五报道，英国政府目前仍面临最高法院取消里斯本50条约的风险，导致此前所有谈判努力功亏一篑。据悉，周五最高院一份文件透露显示英国素来并无脱欧打算。留欧派人士表示去年公投的结果并未受到议会确认，因此为无效。然而在首相梅触发里斯本50时，并无有反对表示议会是否有权决定脱欧。在最早伦敦金融城人士Gina Miller联合组织提出政府是否有权单方面公布脱欧决定，就已暗示最高法院对这一公投结果没有约束力，只有议会有权最终对此进行表决。然而留欧派人士将这一案例拿到最高法院来表示如果议会最终不赞成脱欧协议，还能有回旋的可能。</p>
+<p>地缘危机复燃。西班牙加泰罗尼亚议会选举结果出炉，独立派组成的议会团体在大区议会的135个议席中，获得70个多数席位，这对加泰罗尼亚独立活动的西班牙首相拉霍伊造成了不小的打击。不过，对前加泰罗尼亚主席普伊格蒙特来说，这堪称是他个人的一场胜利。外媒报道称，拉霍伊将与内阁讨论下步行动，该事件将在一段时间内发酵，相关不确定性料打压风险偏好，时常避险情绪再度升温，从而提振黄金价格。此外，据新华社消息，联合国安理会22日一致通过涉朝鲜的第2397号决议。决议认为，朝鲜不顾国际社会反对，11月29日再次进行洲际弹道导弹试射，安理会决定对朝鲜实施新的制裁措施。</p>
+<p>虚拟货币暴跌。比特币自上市以来，其疯狂的涨势是金银等避险资产望尘莫及的，让人们一度产生其可以代替黄金的错觉。然而，黄金之所以拥有非凡的保值功能，是因为人类无法创造更多黄金，或是无法更轻易的获取黄金，因此黄金拥有稀缺性的优势。然而，人类却可以以某种方式创造更多的比特币。不料，噩耗突袭，本周比特币遭遇滑铁卢。据Bitfinex数据显示，比特币价格本周自19175美元暴跌逾8000美元，最低跌至10700美元，最大周跌幅高达44.2%。因比特币暴跌，资金纷纷从比特币市场出逃，投入黄金市场。</p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14054" title="颠覆你的想象！中科曙光（603019）人工智能今晚登陆央视CCTV1 - 淘财经">颠覆你的想象！中科曙光（603019）人工智能今晚登陆央视CCTV1</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=11">Tao</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2017-12-22 14:48:22</span>    </p>
+	<div class="note">
+		<p>中科曙光（603019）官网消息，由中科曙光联合健培、中科大共同“孕育”的“阅片机器人”今晚就要登上央视的舞台，亮相国内首档原创聚焦人工智能的科学挑战类节目——《机智过人》，和15位顶尖医生团同台PK。人机大战即将开始，CCTV-1央视综合频道12月22日21:00《机智过人》敬请期待！&nbsp;</p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/17.png" title="1.png"></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<article class="excerpt excerpt-nothumbnail">
+		<header>
+		<a class="label label-important" href="http://www.taoguba.com/?cat=3">题材事件<i class="label-arrow"></i></a>		<h2><a href="http://www.taoguba.com/?p=14047" title="股价大涨逾50%！智能卡巨头金雅拓将被超300亿元收购 为澄天伟业（300689）第一大客户 - 淘财经">股价大涨逾50%！智能卡巨头金雅拓将被超300亿元收购 为澄天伟业（300689）第一大客户</a></h2>
+	</header>
+	<p>
+			<span class="muted"><i class="icon-user icon12"></i> <a href="http://www.taoguba.com/?author=17">niu</a></span>
+		<span class="muted"><i class="icon-time icon12"></i> 2017-12-22 11:07:02</span>    </p>
+	<div class="note">
+		<p>腾讯网报道 近日，泰雷兹（巴黎泛欧证券交易所代码：HO）和金雅拓（阿姆斯特丹和巴黎泛欧证券交易所代码：GTO）宣布，双方已经达成合并协议，前者以每股51欧元（含股息）的价格全现金收购金雅拓所有已发行在外流通普通股。据悉，泰雷兹总出资额为56亿欧元。金雅拓公司于2006年6月由全球最大的两家智能卡厂商Axalto（雅斯拓）和Gemplus（金普斯）合并成立。是数字安全领域的全球领先企业，2016年营业收入达31亿欧元，在48个国家设有119家办事处、研究中心和服务中心，员工总数达15,000人。</p>
+<p><strong>澄天伟业（300689）</strong>的主要客户群体为金雅拓、欧贝特、莫弗、捷德等全球领先的智能卡供应企业，同时为国内最终应用市场为电力石化领域、社保及身份识别领域的智能卡供应企业提供磁条卡及IC 卡产品。公司致力于成为移动通信、金融支付、公共事业等领域领先的智能卡产品和应用安全系统解决方案服务商。</p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/012.png" style="float:none" title="01.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/021.png" style="float:none" title="02.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/031.png" style="float:none" title="03.png"></p>
+<p><img src="http://www.taoguba.com/wp-content/uploads/2017/12/04.png" style="float:none" title="04.png"></p>
+<p></p>
+<p></p>
+<p class="plast">【淘财经友情提示：本站资讯仅作题材总结，不做推荐，切勿盲目跟风】</p>	</div>
+</article>
+<div class="pagination" style="display: none;"><ul><li class="prev-page"></li><li class="active"><span>1</span></li><li><a href="http://www.taoguba.com/?paged=2">2</a></li><li><a href="http://www.taoguba.com/?paged=3">3</a></li><li><a href="http://www.taoguba.com/?paged=4">4</a></li><li><a href="http://www.taoguba.com/?paged=5">5</a></li><li><span> ... </span></li><li class="next-page"><a href="http://www.taoguba.com/?paged=2">下一页</a></li></ul></div>	</div>
+</div>
+<aside class="sidebar">
+		
+		<!-- 第一时间 -->
+	<div class="widget d_textbanner" style="display:none;">
+		<a class="style01" id="showexcerpt-a" href="http://www.taoguba.com/?p=11777" target="_blank">
+			<strong></strong>
+			<div id="showexcerpt">行情中心</div>
+			<!-- <div id="showexcerpt-date">2017-10-11 10:31:24</div> -->
+			<div class="fm">点击查看更多精彩内容&gt;&gt;</div>
+		</a>
+	</div>
+	<!-- /第一时间 -->
+		<div class="widget d_textbanner"><a class="style01" href=""><strong></strong><h2>【淘财经】</h2><p>【淘财经】仅仅是题材概念总结类网站，所载内容都源于互联网，并不能够作为买卖、跟风依据，这是您在阅读我们内容前必须意识到并接受的，对此产生的一切后果与【淘财经】无关。
+<br>无论是什么样类型的网站或者股票软件 都只是为投资者提供行情信息和学习交流的平台，真正的决策者是投资者自己。
+<br>股市有风险，投资需谨慎，只有认清市场准确判断才能真正在市场中获得利益。
+<br></p></a></div><div class="widget widget_calendar"><h3 class="widget_tit">【淘财经日历】</h3><div id="calendar_wrap"><table id="wp-calendar">
+	<caption>2018年一月</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="星期一">一</th>
+		<th scope="col" title="星期二">二</th>
+		<th scope="col" title="星期三">三</th>
+		<th scope="col" title="星期四">四</th>
+		<th scope="col" title="星期五">五</th>
+		<th scope="col" title="星期六">六</th>
+		<th scope="col" title="星期日">日</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://www.taoguba.com/?m=201712">« 十二</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr><td>1</td><td><a href="http://www.taoguba.com/?m=20180102" title="石墨电极大涨近14%逼近历史高位 合盛硅业（603260）石墨电极10.5万吨/年">2</a></td><td>3</td><td><a href="http://www.taoguba.com/?m=20180104" title="原油价格创近三年来新高 海越股份（600387）10亿收购北方石油">4</a></td><td><a href="http://www.taoguba.com/?m=20180105" title="钼铁价格持续上涨 已突破三年新高
+法国总统府马克龙访华行程已定 将签阿海珐集团的核能协议等多个大单">5</a></td><td>6</td><td>7</td>
+	</tr>
+	<tr>
+		<td><a href="http://www.taoguba.com/?m=20180108" title="利欧股份（002131）率先布局区块链技术应用 入驻小米“营销数据链”平台">8</a></td><td id="today"><a href="http://www.taoguba.com/?m=20180109" title="芯链测试链Q1发布直播周二晚19:30举行 即将改变行业现状！">9</a></td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+	</tr>
+	<tr>
+		<td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+	</tr>
+	<tr>
+		<td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+	</tr>
+	<tr>
+		<td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="4">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div></aside>﻿</section>
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="copyright pull-left">
+            Copyright © 2018 <a href="http://www.taoguba.com">淘财经</a> All Rights Reserved
+            <br><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备15035364号-6</a>
+        </div>
+        <div class="trackcode pull-right">
+            <!-- 百度统计 -->
+            <script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?9286a82f775db991e3aa598f22a06712";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			</script>
+            <!-- /百度统计 -->
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<div class="modal hide fade" id="feed" tabindex="-1" style="width:400px;margin-left:-200px;"><div class="modal-header"><button type="button" class="close" data-dismiss="modal">×</button><h3>订阅淘财经</h3></div><div class="modal-body"><p><strong>订阅地址</strong><br><input type="text" class="input-block-level" value="" readonly=""></p></div></div><div class="rollto"><button class="btn btn-inverse" data-type="totop" title="回顶部"><i class="icon-eject icon-white"></i></button></div></body></html>

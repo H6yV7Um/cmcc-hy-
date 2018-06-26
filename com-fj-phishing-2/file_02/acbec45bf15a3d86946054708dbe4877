@@ -1,0 +1,301 @@
+<!DOCTYPE html><html class="ui-mobile"><head><base href="http://m.tonbao.com/">
+<meta charset="UTF-8">
+<title>通宝网</title>
+<meta name="keywords" content="通宝网,电子商务网站,电子商务平台,批发,代理,b2b">
+<meta name="description" content="通宝网-中国知名的B2B电子商务网站，是产品批发销售B2B电子商务平台提供商-通宝网让你买卖更方便，快速开网店。">
+<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="通宝网">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="128x128" href="apple-touch-icon-precomposed.png">
+<meta name="msapplication-TileImage" content="apple-touch-icon-precomposed.png">
+<meta name="msapplication-TileColor" content="#007AFF">
+<link rel="shortcut icon" type="image/x-icon" href="http://www.tonbao.com/favicon.ico">
+<link rel="bookmark" type="image/x-icon" href="http://www.tonbao.com/favicon.ico">
+<link rel="stylesheet" type="text/css" href="static/lib/jquery/jquery.mobile.custom.structure.min.css">
+<link rel="stylesheet" type="text/css" href="static/style.css">
+<script type="text/javascript" async="" src="http://pos.baidu.com/gcpm?di=u2540104&amp;dri=1&amp;dis=0&amp;dai=2&amp;ps=0x0&amp;coa=at%3D3%26rsi0%3D420%26rsi1%3D350%26pat%3D2%26tn%3DbaiduCustNativeAD%26rss1%3D%2523FFFFFF%26conBW%3D0%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D90%26piw%3D190%26pih%3D125%26ptp%3D0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515479700619&amp;ti=%E9%80%9A%E5%AE%9D%E7%BD%91&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x767&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=UTF-8&amp;tlm=1515479700&amp;rw=768&amp;ltu=http%3A%2F%2Fm.tonbao.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515479701"></script><script type="text/javascript" async="" src="http://pos.baidu.com/gcpm?di=u2540104&amp;dri=0&amp;dis=0&amp;dai=1&amp;ps=0x0&amp;coa=at%3D3%26rsi0%3D420%26rsi1%3D350%26pat%3D2%26tn%3DbaiduCustNativeAD%26rss1%3D%2523FFFFFF%26conBW%3D0%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D90%26piw%3D190%26pih%3D125%26ptp%3D0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515479700619&amp;ti=%E9%80%9A%E5%AE%9D%E7%BD%91&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x767&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=UTF-8&amp;tlm=1515479700&amp;rw=768&amp;ltu=http%3A%2F%2Fm.tonbao.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515479701"></script><script type="text/javascript" src="static/lib/jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+$(document).bind("mobileinit", function() {
+　　$.mobile.defaultPageTransition = 'slide';
+});
+var AJPath = 'ajax.php';
+var Dbrowser = '';
+if(!('ontouchend' in document) && window.location.href.indexOf('device.php') == -1) window.location='device.php';
+</script>
+<script type="text/javascript" src="static/lib/jquery/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="static/js/common.js"></script>
+<script type="text/javascript" src="static/js/fix.js"></script><style type="text/css"></style>
+</head>
+<body class="ui-mobile-viewport ui-overlay-a"><div id="BAIDU_DUP_fp_wrapper" style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;"><iframe id="BAIDU_DUP_fp_iframe" src="https://pos.baidu.com/wh/o.htm?ltr=" style="width: 0px; height: 0px; visibility: hidden; display: none;"></iframe></div>
+<div data-role="page" data-url="/" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="">
+<div class="ui-toast"></div>
+<div class="ui-mask"></div>
+<div class="ui-sheet"></div>
+<div class="head-bar-fix"></div>
+<script type="text/javascript">
+var cpro_id="u2540104";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"420",rsi1:"350",pat:"2",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"0",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"",rss2:"#000000",titSU:"0",ptbg:"90",piw:"190",pih:"125",ptp:"0"}
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script><div id="BAIDU_SSP__wrapper_u2540104_0"><iframe id="iframeu2540104_0" name="iframeu2540104_0" src="http://pos.baidu.com/gcpm?conwid=420&amp;conhei=350&amp;rdid=2540104&amp;dc=3&amp;di=u2540104&amp;dri=0&amp;dis=0&amp;dai=1&amp;ps=0x0&amp;coa=at%3D3%26rsi0%3D420%26rsi1%3D350%26pat%3D2%26tn%3DbaiduCustNativeAD%26rss1%3D%2523FFFFFF%26conBW%3D0%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D90%26piw%3D190%26pih%3D125%26ptp%3D0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=HTML_POST&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515479700619&amp;ti=%E9%80%9A%E5%AE%9D%E7%BD%91&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x767&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=UTF-8&amp;tlm=1515479700&amp;rw=768&amp;ltu=http%3A%2F%2Fm.tonbao.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515479701&amp;qn=07256651edf57030&amp;tt=1515479700604.17.84.86" width="420" height="350" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:420px;height:350px" allowtransparency="true"></iframe></div><style type="text/css">
+.slide {width:100%;height:160px;background:#FAFAFA;overflow:hidden;}
+.quick {height:70px;background:#FFFFFF;text-align:center;padding:15px 0;}
+.quick li {width:25%;float:left;}
+.quick img {width:46px;margin:0 0 6px 0;}
+.quick span {display:block;font-size:12px;}
+.quick em {font-style:normal;font-size:12px;color:#FFFFFF;z-index:8;position:relative;display:block;width:22px;height:22px;line-height:22px;left:50%;margin:-74px 0 0 8px;background:#FF0000;border-radius:50%;text-align:center;}
+.channel {background:#FFFFFF url('static/img/bg-channel.png') repeat-x 0 bottom;height:44px;overflow-x:auto;margin-top:10px;font-size:16px;}
+.channel ul {width:10000px;}
+.channel li {height:42px;line-height:42px;padding:0 10px;border-bottom:#EFEFF4 2px solid;float:left;}
+.channel .on {border-bottom:#007AFF 2px solid;color:#007AFF;}
+.channel_fix {position:fixed;z-index:9;left:0;top:38px;right:0;border-top:#A7A7AA 0.5px solid;}
+#main {background:#FFFFFF;}
+.spin-more,.spin-load {height:44px;background:#FFFFFF url('static/img/spinner.gif') no-repeat center center;background-size:16px 16px;display:none;}
+.home-search {text-align:center;padding:10px;}
+.home-search div {height:28px;line-height:28px;background:#FFFFFF;border-radius:4px;}
+.home-search img {width:16px;height:16px;vertical-align:top;padding-top:6px;padding-right:8px;}
+.home-search span {color:#8E8E93;font-size:14px;font-weight:normal;}
+.home-goto {background:#FFFFFF;padding:8px 8px 16px 8px;text-align:center;display:none;}
+.home-goto div {background:#007AFF;padding:8px;border-radius:4px;font-size:16px;color:#FFFFFF;}
+.list-txt {border-top:none;}
+</style>
+<div id="head-bar">
+<div class="head-bar">
+<div class="head-bar-left">
+<a href="channel.php"><img src="static/img/icon-sort.png" width="24" height="24"></a>
+</div>
+<div class="head-bar-title">通宝网</div>
+<div class="head-bar-right">
+<a href="setting.php"><img src="static/img/icon-setting.png" width="24" height="24"></a>
+</div>
+</div>
+<div class="head-bar-fixad"></div>
+</div>
+
+<div class="home-search">
+<div><a href="search.php"><img src="static/img/ico-search.png"><span>输入关键词搜索</span></a></div>
+</div>
+<div class="quick">
+<ul>
+<li><a href="my.php"><img src="static/img/home-member.png" width="46" height="46"><span>会员中心</span></a></li>
+<li><a href="my.php?action=info"><img src="static/img/home-post.png" width="46" height="46"><span>发布信息</span></a></li>
+<li><a href="my.php?action=trade"><img src="static/img/home-order.png" width="46" height="46"><span>订单中心</span></a></li>
+<li><a href="cart.php"><img src="static/img/home-cart.png" width="46" height="46"><span>购物车</span></a></li>
+</ul>
+</div>
+<div id="segment"></div>
+<div class="channel" id="channel">
+<ul>
+<li class="on" id="m_5" onclick="Dmenu(5);">供应</li>
+<li id="m_6" onclick="Dmenu(6);">求购</li>
+<li id="m_4" onclick="Dmenu(4);">公司</li>
+<li id="m_21" onclick="Dmenu(21);">资讯</li>
+</ul>
+</div>
+<div class="spin-load" onclick="window.location.reload();" style="display: none;"></div>
+<div id="main"><div class="list-img">
+<a href="5-0-37637808-1.html"><img src="http://img.tonbao.com/img/201801/09/14/143433693988830.jpg.thumb.jpg" width="60" height="60" alt="" onerror="this.src='static/img/nopic-60.png';"></a>
+<ul>
+<li><a href="5-0-37637808-1.html"><strong>【泽轩服装】烟台童装批发烟台童装一件代发烟台童装</strong></a></li>
+<li><em>2018-01-09 14:34</em></li>
+<li><a href="index.php?moduleid=4&amp;username=zexuanyongpin29"><span></span></a></li>
+</ul>
+</div>
+<div class="list-img">
+<a href="5-0-37637807-1.html"><img src="http://img.tonbao.com/img/201801/09/14/143344856790619.jpg.thumb.jpg" width="60" height="60" alt="" onerror="this.src='static/img/nopic-60.png';"></a>
+<ul>
+<li><a href="5-0-37637807-1.html"><strong>传菜梯钱怎么样|大朗传菜机</strong></a></li>
+<li><em>2018-01-09 14:34</em></li>
+<li><a href="index.php?moduleid=4&amp;username=jsjx2071"><span>东莞市继伸机械设备有限公司</span></a></li>
+</ul>
+</div>
+<div class="list-img">
+<a href="5-0-37637806-1.html"><img src="http://img.tonbao.com/img/201801/09/14/143111206789465.jpg.thumb.jpg" width="60" height="60" alt="" onerror="this.src='static/img/nopic-60.png';"></a>
+<ul>
+<li><a href="5-0-37637806-1.html"><strong>乌鲁木齐格划算的新疆模块化机房推荐，新疆模块化机房哪里有</strong></a></li>
+<li><em>2018-01-09 14:32</em></li>
+<li><a href="index.php?moduleid=4&amp;username=rjy81887"><span>新疆瑞杰鑫源电子科技有限公司</span></a></li>
+</ul>
+</div>
+<div class="list-img">
+<a href="5-0-37637805-1.html"><img src="http://img.tonbao.com/img/201801/09/14/141715556791391.jpg.thumb.jpg" width="60" height="60" alt="" onerror="this.src='static/img/nopic-60.png';"></a>
+<ul>
+<li><a href="5-0-37637805-1.html"><strong>量子内裤供应商，推荐览未量子科技|保健内裤OEM</strong></a></li>
+<li><em>2018-01-09 14:31</em></li>
+<li><a href="index.php?moduleid=4&amp;username=lwlz1933"><span>浙江览未量子科技有限公司</span></a></li>
+</ul>
+</div>
+<div class="list-img">
+<a href="5-0-37637804-1.html"><img src="http://img.tonbao.com/img/201801/09/14/142722446791460.jpg.thumb.jpg" width="60" height="60" alt="" onerror="this.src='static/img/nopic-60.png';"></a>
+<ul>
+<li><a href="5-0-37637804-1.html"><strong>兰州槽钢拉弯厂家推荐_庆阳槽钢拉弯</strong></a></li>
+<li><em>2018-01-09 14:27</em></li>
+<li><a href="index.php?moduleid=4&amp;username=zryh2229"><span>兰州自然圆弧拉弯加工厂</span></a></li>
+</ul>
+</div>
+</div>
+<div class="spin-more" onclick="window.location.reload();" style="display: block;"></div>
+<div class="home-goto"><a href="channel.php"><div>进入频道</div></a></div>
+<script type="text/javascript">
+var C = 5;
+var P = 1;
+function Dmenu(i) {
+if(i == C) return;
+$('.spin-more').show();
+$('.spin-load').show();
+$('.home-goto').hide();
+$('#m_'+C).removeClass('on');
+C = i;
+$('#m_'+C).addClass('on');
+P = 1;
+$('html, body').animate({scrollTop:$('#segment').offset().top-88}, 500);
+$('#channel').addClass('channel_fix');
+Dload();
+}
+function Dstop() {
+$('.spin-more').hide();
+$('.spin-load').hide();
+$('.home-goto a').attr('href', 'index.php?moduleid='+C);
+$('.home-goto div').html('进入'+$('#m_'+C).html()+'频道');
+$('.home-goto').show('slow');
+}
+function Dload() {
+if(P > 3) {
+Dstop();
+return;
+}
+$.get('index.php?action=ajax&moduleid='+C+'&page='+P, function(result){
+$('.spin-load').hide();
+if(result && result.indexOf('list-empty') == -1) {
+P == 1 ?  $('#main').html(result) : $('#main').append(result);
+} else {
+if(P == 1) $('#main').html('<br/><br/><center>暂无信息</center><br/><br/>');
+P = 4;
+Dstop();
+}
+});
+}
+function dslide(id, time) {
+var _this = this;
+this.w = $(document).width();
+this.h = $('#'+id).height();
+this.c = 0;
+this.src = [];
+this.url = [];
+this.alt = [];
+this.tar = [];
+$('#'+id).find('a').each(function(i) {
+_this.src.push($(this).find('img')[0].src);
+_this.alt.push($(this).find('img')[0].alt);
+_this.url.push(this.href);
+_this.tar.push(this.target);
+});
+if(!this.src[0]) return;
+this.max = this.src.length;
+this.htm = '<ul id="'+id+'_ul" style="position:relative;width:'+this.w*(this.max+1)+'px;height:'+this.h+'px;z-index:1;overflow:hidden;">';
+for(var i = 0; i < this.max; i++) {
+this.htm += '<li style="float:left;"><a href="'+this.url[i]+'" target="'+this.tar[i]+'"><img src="'+this.src[i]+'" width="'+this.w+'"/></a></li>';
+}
+this.htm += '</ul><div style="clear:both;"></div>';
+if(this.alt[0]) this.htm += '<div style="width:'+this.w+'px;height:24px;line-height:24px;overflow:hidden;z-index:2;position:relative;top:-24px;background:#384349;filter:Alpha(Opacity=80);opacity:0.8;"> </div>';
+if(this.alt[0]) this.htm += '<div id="'+id+'_alt" style="width:'+(this.w-12)+'px;height:24px;line-height:24px;overflow:hidden;z-index:3;position:relative;top:-48px;padding:0 6px 0 6px;font-weight:bold;color:#FFFFFF;">'+this.alt[0]+'</div>';
+this.htm += '<div style="width:'+this.w+'px;height:20px;overflow:hidden;z-index:4;position:relative;top:-'+(this.alt[0] ? 68 : 30)+'px;text-align:center;padding-left:6px;">';
+for(var i = 0; i < this.max; i++) {
+this.htm += '<span id="'+id+'_no_'+i+'" style="display:inline-block;width:6px;height:6px;border:1px solid #FFFFFF;border-radius:6px;margin-right:6px;'+(i == this.c ? 'background:#007AFF;' : 'background:#FFFFFF;')+'"></span>';
+}
+this.htm += '</div>';
+$('#'+id).html(this.htm);
+if(this.max == 1) return;
+this.t;
+this.p = 0;
+$('#'+id).mouseover(function() {_this.p=1;});
+$('#'+id).mouseout(function() {_this.p=0;});
+$('#'+id).find('span').each(function(i) {
+$(this).mouseover(function() {
+_this.slide(i);
+});
+});
+this.slide = function(o) {
+if(o == this.c) return;
+if(o < 0 || o >= this.max) return;
+if(o == 0 && this.c == this.max - 1) {
+$('#'+id+'_ul').append($('#'+id+'_ul li:first').clone());
+$('#'+id+'_ul').animate({'left':-this.w*this.max},500,function() {
+$('#'+id+'_ul').css('left','0');
+$('#'+id+'_ul li:last').remove();
+});
+} else {
+$('#'+id+'_ul').animate({'left':-o*this.w},500);
+}
+$('#'+id+'_no_'+this.c).css('background','#FFFFFF');
+$('#'+id+'_no_'+o).css('background','#007AFF');
+if(this.alt[0]) $('#'+id+'_alt').html(this.alt[o]);
+this.c = o;
+}
+this.start = function() {
+if(this.p) return;
+if(this.c == this.max - 1) {
+this.slide(0);
+} else {
+this.slide(this.c+1);
+}
+}
+if(!time) time = 5000;
+this.t = setInterval(function() {_this.start();}, time);
+}
+$(document).on('pageinit', function(event) {
+//$(document).ready(function() {
+$('.spin-more').show();
+Dload();
+$('#main').on('scrollstop',function(event){
+var cmh2 = $(window).height();
+var cmh1 = $('.spin-more').offset().top;
+if($(document).scrollTop() + cmh2 >= cmh1-100) {
+P++;
+Dload();
+}
+//if($(document).scrollTop() > T-44) {
+if($(document).scrollTop() > $('#segment').offset().top) {
+$('#channel').addClass('channel_fix');
+} else {
+$('#channel').removeClass('channel_fix');
+}
+});
+var ds = new dslide('mobile-slide');
+$('#mobile-slide').on('swipeleft',function(){
+ds.slide(ds.c+1);
+});
+$('#mobile-slide').on('swiperight',function(){
+ds.slide(ds.c-1);
+});
+$(window).bind('orientationchange.slide', function(e){
+ds.w = $(document).width();
+$('#mobile-slide').find('ul').css('width', ds.w*(ds.max+1));
+$('#mobile-slide').find('img').css('width', ds.w);
+$('#mobile-slide').find('div').css('width', ds.w);
+});
+});
+</script>
+<script type="text/javascript">
+var cpro_id="u2540104";
+(window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"420",rsi1:"350",pat:"2",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"0",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"",rss2:"#000000",titSU:"0",ptbg:"90",piw:"190",pih:"125",ptp:"0"}
+</script>
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script><div id="BAIDU_SSP__wrapper_u2540104_1"><iframe id="iframeu2540104_1" name="iframeu2540104_1" src="http://pos.baidu.com/gcpm?conwid=420&amp;conhei=350&amp;rdid=2540104&amp;dc=3&amp;di=u2540104&amp;dri=1&amp;dis=0&amp;dai=2&amp;ps=0x0&amp;coa=at%3D3%26rsi0%3D420%26rsi1%3D350%26pat%3D2%26tn%3DbaiduCustNativeAD%26rss1%3D%2523FFFFFF%26conBW%3D0%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D90%26piw%3D190%26pih%3D125%26ptp%3D0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=HTML_POST&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515479700619&amp;ti=%E9%80%9A%E5%AE%9D%E7%BD%91&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x767&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=UTF-8&amp;tlm=1515479700&amp;rw=768&amp;ltu=http%3A%2F%2Fm.tonbao.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515479701&amp;qn=ba67f2b15c91bd6a&amp;tt=1515479700604.35.154.155" width="420" height="350" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:420px;height:350px" allowtransparency="true"></iframe></div><div class="foot-bar-fix"></div>
+<div class="foot-bar">
+<ul>
+<li class="icon-home-on"><a href="index.php" data-transition="none" data-ajax="false"><span>首页</span></a></li>
+<li class="icon-channel"><a href="channel.php" data-transition="none"><span>频道</span></a></li>
+<li class="icon-my"><a href="my.php" data-transition="none"><span>我的</span></a></li>
+<li class="icon-more"><a href="more.php" data-transition="none"><span>更多</span></a></li>
+</ul>
+</div>
+</div>
+<script type="text/javascript" id="speedup_test" src="//idm-su.baidu.com/su_new2.js"></script>
+
+
+
+<div style="display:none"><script src="http://s17.cnzz.com/stat.php?id=1890490&amp;web_id=1890490" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=1890490&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1890490" target="_blank" title="站长统计">站长统计</a></div><div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body></html>

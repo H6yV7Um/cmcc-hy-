@@ -1,0 +1,155 @@
+<!DOCTYPE html><html data-dpr="1" style="font-size: 104.16666666666666px;"><head>
+    <title>中国移动和包(原手机支付)官方网站|中移电子商务有限公司</title>
+    <meta name="apple-itunes-app" content="app-id=477927812">
+    <meta http-equiv="Content-type" content="text/html; charset=GBK">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script type="text/javascript" src="/touchpad/js/autoScreenAdaptor.js"></script><meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="/touchpad/css/common/global.css">
+    <link type="text/css" rel="stylesheet" href="/touchpad/css/home.css">
+    <meta http-equiv="Pragma" content="no-cache">
+  </head>
+  <body>
+  
+    <div id="index" class="">
+    <div class="header">
+        <img class="ml30 mt15 img_clogo" src="/touchpad/images/logo/wlogo1.png" alt="和包">
+    
+    
+        <div class="unlogin db fr mr30 mt15 tc">
+            <a class="white f36" href="/ptw/msg_login.xhtml">登录</a>
+        </div>
+    
+    
+    
+    </div>
+    <!-- 已登录 -->
+    
+    <!-- 广告位 -->
+    <div class="h330 mb30" id="slider" style="overflow: hidden; visibility: visible;">
+        <ul style="list-style: none; width: 3072px; transition: 0ms; -webkit-transition: 0ms; transform: translate3d(0px, 0px, 0px);">
+            <li style="width: 1024px; display: table-cell; vertical-align: top;"><a href="https://www.cmpay.com/info/version3/mkm/Seven_act/sevenact.html"><img src="/touchpad/images/other/g6.jpg" alt="" class="img_gg"></a></li>
+            <li style="width: 1024px; display: table-cell; vertical-align: top;"><a href="http://m.gzxygs.com/"><img src="/touchpad/images/other/g2.jpg" alt="" class="img_gg"></a></li>
+            <li style="width: 1024px; display: table-cell; vertical-align: top;"><a href="https://cmf.cmpay.com/usr/index.html?hjbh5_id=wap"><img src="/touchpad/images/other/g4.jpg" alt="" class="img_gg"></a></li>
+        </ul>
+   </div>
+   <div class="pagination" style="display:none;">
+        <ul class="page_on">
+            <li class="">1</li>
+            <li class="">2</li>
+            <li class="">3</li>
+        </ul>
+    </div>
+    <!-- 功能位 -->
+     
+    
+        
+<!-- 未登录功能位 -->
+    <div class="clear bgc1 f30">
+        <ul>
+            <li class="items tc mt30 mb30">
+                <a href="/ptw/topay.xhtml" title="充话费" class="">
+                    <img src="/touchpad/images/items/chf1.png" alt="和包充流量" class="img_items">
+                    <span class="db mt20 black">充话费</span>
+                </a>
+            </li>
+            <li class="items tc mt30 mb30">
+                <a href="/ptw/tocharge_flow.xhtml" title="充流量" class="">
+                    <img src="/touchpad/images/items/cll1.png" alt="和包充流量" class="img_items">
+                    <span class="db mt20 black">充流量</span>
+                </a>
+            </li>
+            <li class="items tc mt30 mb30">
+                <a href="https://www.cmpay.com/mkmweb/produce_wap_home.xhtml?viewCode=html" title="和包券" class="">
+                    <img src="/touchpad/images/items/dzq1.png" alt="和包券" class="img_items">
+                    <span class="db mt20 black">和包券</span>
+                </a>
+            </li>
+            <li class="items tc mt30 mb30">
+                <a href="https://cmf.cmpay.com/usr/applogin.html?&amp;clientid=02569" title="和聚宝" class="">
+                    <img src="/touchpad/images/items/hjb1.png" alt="和包和聚宝" class="img_items">
+                    <span class="db mt20 black">和聚宝</span>
+                </a>
+            </li>
+            <li class="items tc mt30 mb30">
+                <a href="/ptw/msg_login.xhtml?REDIRECTURL=/ptw/tam_homepage.xhtml" title="转账" class="">
+                    <img src="/touchpad/images/items/zz1.png" alt="和包转账" class="img_items">
+                    <span class="db mt20 black">转账</span>
+                </a>
+            </li>
+            <li class="items tc mt30 mb30">
+                <a href="/jf/" title="生活缴费" class="">
+                    <img src="/touchpad/images/items/shjf1.png" alt="和包生活缴费" class="img_items">
+                    <span class="db mt20 black">生活缴费</span>
+                </a>
+            </li>
+            <li class="items tc mt30 mb30">
+                <a href="https://p.10086.cn/nfc" title="NFC" class="">
+                    <img src="/touchpad/images/items/nfc1.png" alt="和包NFC" class="img_items">
+                    <span class="db mt20 black">NFC</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    
+    
+    <div id="errHint" class="error"></div>
+    <!-- 转账弹框 start-->
+    <input type="hidden" id="REL_FLG" value=""><!-- 实名标识:0：未实名；1：实名已认证；2：实名未认证；-->
+    <div class="mask" id="mask" style="display:none;"></div>
+    <div id="pop_box" class="pop-up_box" style="display:none;">
+        <div class="box_title">提示</div>
+        <div class="box_info"><span id="warmtips">您的和包尚未实名认证，请按照指引进行快捷卡实名，是否立即去认证？</span></div>
+        <div class="box_bnt1"><span class="tip-a" onclick="cancel()">取消</span></div>
+        <div class="box_bnt2"><a class="tip-a" href="/ptw/addKJ_homepage.xhtml?SUC_GOTO=/ptw/tam_homepage.xhtml&amp;SOURCE_PAGE=1">确定</a></div>
+    </div>
+    <!-- 转账弹框 end-->
+    <!-- 实名提示弹框 start-->
+    <div class="maskSm" id="maskSm">
+        <div class="pop-up_box3">
+            <div class="chadiv"><img id="pop_box_Sm" src="/touchpad/images/other/cha.png" class="chaImg" onclick="shimingHide()"></div>
+            <img src="/touchpad/images/other/shimingbg.png" class="shimingImg">
+        </div>
+    </div>
+    <!-- 实名提示弹框 end-->
+    <div id="pop" class="pop" style="display: block;">
+        <div class="pop-content">
+            <div class="pop-main">
+                <div class="downclient">
+                <div class="downclient-title">更优惠更安全<br>尽在和包APP</div>
+                <div class="downclient-btn" id="openAPP">立即体验</div>
+                <div class="close" id="close_pop">X</div>
+                <img class="downclient-img" src="/touchpad/images/logo/wlogo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<footer>
+    <p>湘ICP备14004136号 </p>
+    <p>中移电子商务有限公司版权所有</p>
+</footer>
+<script type="text/javascript">
+	window.EX_TIME="90";
+	window.EX_TIME_STR="90秒";
+</script>
+<script type="text/javascript" language="javascript" src="/info/wap/scripts/common/dcs_tag.js"></script>
+    </div>
+
+    <script type="text/javascript" src="/touchpad/js/zepto.min.js"></script>
+    <script type="text/javascript" src="/touchpad/js/swipe.min.js"></script>
+    <script type="text/javascript" src="/touchpad/js/footer.js"></script>
+    <script type="text/javascript" src="/touchpad/js/home.js"></script>
+    <script type="text/javascript" language="javascript" src="/info/wap/scripts/common/dcs_tag.js"></script>
+    <script>
+     window.urls = {
+          transAccounts:"/ptw/tam_homepage.xhtml"
+      }
+    </script>
+    
+
+
+</body></html>

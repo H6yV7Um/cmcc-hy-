@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+<meta charset="gbk">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-TGideas">
+<meta name="copyright" content="Tencent">
+<meta name="description" content="疯狂动物城手游官网">
+<meta name="keywords" content="疯狂动物城手游官网">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<title>疯狂动物城：筑梦日记-腾讯游戏</title>
+<!-- 设计：黑米 | 重构：小强| 创建：2017/10/23 -->
+<script>
+if (/iphone|ios|android|mini|mobile|mobi|Nokia|Symbian|iPod|iPad|Windows\s+Phone|MQQBrowser|wp7|wp8|UCBrowser7|UCWEB|360\s+Aphone\s+Browser|blackberry/i.test(navigator.userAgent)) {
+	location.href = '/index_m.html';
+}
+</script>
+
+<link href="//game.gtimg.cn/images/js/topfiles/ost1410/ost.min.css?ran=0.005784937232222398" rel="stylesheet" type="text/css"></head>
+<body style="padding-top: 42px;">
+<div class="wrap" id="scene" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;">
+	<div class="lfsider">
+    	<h1 class="hidden logoImg logo"><a href="//f.qq.com/">疯狂动物城</a></h1>
+        <div class="video">
+        	<h2>疯狂动物城官方合作手游</h2>
+            <div id="fadeTab" class="tab" onclick="playVideo('tip_vid','z050203ragu');">
+                <div class="bd">
+                     <img src="//game.gtimg.cn/images/f/v1.jpg" width="377" height="212" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="news" class="news fade">
+            <div class="hd-new">
+            	<a href="javascript:;" class="newmore">更多+</a>
+                 <ul>
+                      <li class=" on"><a href="javascript:;">综合</a></li>
+                      <li><a href="javascript:;">新闻</a></li>
+                      <li><a href="javascript:;">公告</a></li>
+                 </ul>
+             </div>
+             <div class="bd-new">
+                 <div class="new-panel dis2">
+                 	  <ul>
+                      		    <li><a href="javascript:;" data-src="/webplat/info/news_version3/32717/32718/32721/m19123/201711/655786.shtml" class="comm"><span class="date">11/10</span><span class="type">公告</span><span class="title">欢迎来到疯狂动物城！</span></a></li>
+    <li><a href="javascript:;" data-src="/webplat/info/news_version3/32717/32718/32720/m19123/201711/655666.shtml" class="comm"><span class="date">11/10</span><span class="type">新闻</span><span class="title">腾讯手游《疯狂动物城》玩法精彩 值得体验</span></a></li>
+    <li><a href="javascript:;" data-src="/webplat/info/news_version3/32717/32718/32720/m19123/201711/655664.shtml" class="comm"><span class="date">11/10</span><span class="type">新闻</span><span class="title">腾讯手游《疯狂动物城：筑梦日记》带来无限乐趣</span></a></li>
+
+                      </ul>
+                 </div>
+                 <div class="new-panel">
+                 	  <ul>
+                      		    <li><a href="javascript:;" data-src="/webplat/info/news_version3/32717/32718/32720/m19123/201711/655666.shtml" class="comm"><span class="date">11/10</span><span class="type">新闻</span><span class="title">腾讯手游《疯狂动物城》玩法精彩 值得体验</span></a></li>
+    <li><a href="javascript:;" data-src="/webplat/info/news_version3/32717/32718/32720/m19123/201711/655664.shtml" class="comm"><span class="date">11/10</span><span class="type">新闻</span><span class="title">腾讯手游《疯狂动物城：筑梦日记》带来无限乐趣</span></a></li>
+    <li><a href="javascript:;" data-src="/webplat/info/news_version3/32717/32718/32720/m19123/201711/655650.shtml" class="comm"><span class="date">11/10</span><span class="type">新闻</span><span class="title">腾讯旗下三消养成手游《疯狂动物城》即将上线</span></a></li>
+
+                      </ul>
+                 </div>
+                 <div class="new-panel">
+                 	  <ul>
+                      		    <li><a href="javascript:;" data-src="/webplat/info/news_version3/32717/32718/32721/m19123/201711/655786.shtml" class="comm"><span class="date">11/10</span><span class="type">公告</span><span class="title">欢迎来到疯狂动物城！</span></a></li>
+
+                      </ul>
+                 </div>
+              </div>
+         </div>
+         <!--a href="javascript:;" class="comm playbtn on">关闭音乐</a-->
+    </div>
+    <div class="rtsider">
+    	<div class="sns">
+        	<ul>
+            	<li class="gzh"><a href="javascript:;" class="comm"><span class="ewm"><em class="comm"></em><img src="//game.gtimg.cn/images/f/common/qr_gongzhong.png" width="126" height="126"><i class="comm">扫二维码关注</i></span></a><span>公众号</span></li>
+                <li class="wxqz"><a href="javascript:;" class="comm"><span class="ewm"><em class="comm"></em><img src="//game.gtimg.cn/images/f/common/qr_quanzi.png" width="126" height="126"><i class="comm">扫二维码关注</i></span></a><span>微信圈子</span></li>
+                <li class="xqbl"><a href="https://buluo.qq.com/p/barindex.html?bid=395293" class="comm"><span class="ewm"><em class="comm"></em><img src="//game.gtimg.cn/images/f/common/qr_buluo.png" width="126" height="126"><i class="comm">扫二维码关注</i></span></a><span>兴趣部落</span></li>
+            </ul>
+        </div>
+        <div class="rtpart">
+        	<div class="rtlogo hidden logoImg"></div>
+            <div class="xzewm comm"></div>
+            <div class="nav">
+            	<ul>
+                	<li class="navlist n1"><a href="javascript:;" class="on" onclick="PTTSendClick('nav','index','官网首页');">官网首页<em>HOME</em><i></i></a></li>
+                    <li class="navlist n2"><a href="javascript:;" onclick="PTTSendClick('nav','news','新闻资讯');">新闻资讯<em>NEWS</em><i></i></a></li>
+                    <li class="navlist n3"><a href="javascript:;" onclick="PTTSendClick('nav','featrue','游戏特色');">游戏特色<em>FEATURE</em><i></i></a></li>
+                    <li><a href="http://bbs.g.qq.com/forum.php?mod=forumdisplay&amp;fid=57806&amp;ADTAG=game.web.fkdwczmrj" target="_blank" onclick="PTTSendClick('nav','forum','官方论坛');">官方论坛<em>FORUM</em><i></i></a></li>
+                </ul>
+            </div>
+            <!--a href="javascript:;" class="comm morebtn">更多精彩</a-->
+        </div>
+    
+    </div>
+	<div class="indexPage pagego">
+    	<div class="an1 layer" data-depth-x="0.10" style="position: relative; display: block; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;">
+        	<div class="light">
+            	<div class="pao1"></div>
+                <div class="pao2"></div>
+                <div class="pao3"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="newsPage pagego">
+    	<div class="zz2 layer" data-depth-x="0.15" style="position: absolute; display: block; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;">
+        	<div class="an2 layer" data-depth-x="0.10" style="position: absolute; display: block; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;"></div>
+        </div>
+        <div class="new_content">
+        	<h3 class="comm hidden tt_new">新闻</h3>
+            <div class="line"></div>
+            <div class="newTxt">
+            	<div id="content">
+                      <div class="new_menu" id="new_menu">
+                            <ul>
+                                   <li class="active"><a href="javascript:newtype(0,0);">综合</a></li>
+                                   <li class=""><a href="javascript:newtype(32720,1);">新闻</a></li>
+                                   <li class=""><a href="javascript:newtype(32721,2);">公告</a></li>
+                            </ul>
+                      </div>
+                      <ul class="new_list" id="newlist"><li><a data-src="http://f.qq.com/webplat/info/news_version3/32717/32718/32721/m19123/201711/655786.shtml" href="javascript:;"><span class="newdate">11/10</span><span class="tp">[公告]</span><span class="tl">欢迎来到疯狂动物城！</span></a></li><li><a data-src="http://f.qq.com/webplat/info/news_version3/32717/32718/32720/m19123/201711/655666.shtml" href="javascript:;"><span class="newdate">11/10</span><span class="tp">[新闻]</span><span class="tl">腾讯手游《疯狂动物城》玩法精彩 值得体验</span></a></li><li><a data-src="http://f.qq.com/webplat/info/news_version3/32717/32718/32720/m19123/201711/655664.shtml" href="javascript:;"><span class="newdate">11/10</span><span class="tp">[新闻]</span><span class="tl">腾讯手游《疯狂动物城：筑梦日记》带来无限乐趣</span></a></li><li><a data-src="http://f.qq.com/webplat/info/news_version3/32717/32718/32720/m19123/201711/655650.shtml" href="javascript:;"><span class="newdate">11/10</span><span class="tp">[新闻]</span><span class="tl">腾讯旗下三消养成手游《疯狂动物城》即将上线</span></a></li><li><a data-src="http://f.qq.com/webplat/info/news_version3/32717/32718/32720/m19123/201711/655622.shtml" href="javascript:;"><span class="newdate">11/10</span><span class="tp">[新闻]</span><span class="tl">备受期待 《疯狂动物城：筑梦日记》手游来袭</span></a></li><li><a data-src="http://f.qq.com/webplat/info/news_version3/32717/32718/32720/m19123/201711/655496.shtml" href="javascript:;"><span class="newdate">11/10</span><span class="tp">[新闻]</span><span class="tl">《疯狂动物城：筑梦日记》不日上线 画风极佳</span></a></li></ul>
+                     <div id="listPage"> <span class="c3">1/1页</span> <a href="javascript:;" class="pageprenone previouspageone" title="当前已经是第一页">上一页</a><span class="pageprenone pagenow">1</span><a href="javascript:;" class="pagenextnone" title=" 当前已经是最后一页">下一页</a> 第<input size="4" onkeydown="if(event.keyCode==13) AjaxPage_listPage_1515479370426.to(this.value)" value="1" style="width:20px">页 <a href="#h" class="pagejump" onclick="AjaxPage_listPage_1515479370426.to(this.parentNode.getElementsByTagName('input')[0].value);" style="cursor:pointer" align="absmiddle">GO</a></div>
+                </div>
+                <div id="content2"></div>
+            </div>
+            
+        </div>
+    	
+    </div>
+    <div class="featurePage pagego">
+    	<div class="zz3 layer" data-depth-x="0.15" style="position: absolute; display: block; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;">
+        	<div class="an3 layer" data-depth-x="0.10" style="position: absolute; display: block; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;"></div>
+        </div>
+        
+        <div class="feature_content">
+        	<h3 class="comm hidden tt_ft">新闻</h3>
+            <div class="line"></div>
+            <div id="box">
+                    <div id="box_container">
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                    <div class="item" title="无网闯关，不用流量也能玩" style="width: 380px; height: 194px; top: 41px;">
+                            <img src="//game.gtimg.cn/images/f/f-6.jpg" alt="无网闯关，不用流量也能玩">
+                          </div><div class="item" title="特色炸弹，打造超爽三消" style="left: 41px; top: 20px; z-index: 2;">
+                            <img src="//game.gtimg.cn/images/f/f-7.jpg" alt="特色炸弹，打造超爽三消">
+                          </div><div class="item" title="迪士尼正版授权，疯狂动物城官方合作手游" style="width: 380px; height: 194px; left: 166px; top: 41px;">
+                            <img src="//game.gtimg.cn/images/f/f-8.jpg" alt="迪士尼正版授权，疯狂动物城官方合作手游">
+                          </div><div class="item" title="世界地图，开启筑梦之旅" style="width: 380px; height: 194px; left: 83px; top: 41px;">
+                            <img src="//game.gtimg.cn/images/f/f-1.jpg" alt="世界地图，开启筑梦之旅">
+                          </div><div class="item" title="海量关卡，挑战与乐趣并存" style="width: 380px; height: 194px; left: 83px; top: 41px;">
+                            <img src="//game.gtimg.cn/images/f/f-2.jpg" alt="海量关卡，挑战与乐趣并存">
+                          </div><div class="item" title="多元建设，领略梦幻风情" style="width: 380px; height: 194px; left: 83px; top: 41px;">
+                            <img src="//game.gtimg.cn/images/f/f-3.jpg" alt="多元建设，领略梦幻风情">
+                          </div><div class="item" title="解锁角色，动物城大集结" style="width: 380px; height: 194px; left: 83px; top: 41px;">
+                            <img src="//game.gtimg.cn/images/f/f-4.jpg" alt="解锁角色，动物城大集结">
+                          </div><div class="item" title="沉浸式剧情，探索电影外的故事" style="width: 380px; height: 194px; left: 83px; top: 41px;">
+                            <img src="//game.gtimg.cn/images/f/f-5.jpg" alt="沉浸式剧情，探索电影外的故事">
+                          </div></div>
+                    <div id="control"><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class=""></span><span class="active"></span></div>
+                    <div id="ms"><span>特色炸弹，打造超爽三消</span></div>
+             </div>
+        </div>
+        
+        
+        
+    </div>
+	<div class="contr comm">
+    	<a href="javascript:;" class="prevPage hidden">上一页</a>
+        <a href="javascript:;" class="nextPage hidden">下一页</a>
+    </div>
+</div>
+<div id="tip_vid" style="display:none">
+    	<a href="javascript:videoHide();" class="closebtn" title="关闭">×</a>
+  		<div id="showplayer"></div>
+</div>
+<script src="//ossweb-img.qq.com/images/js/title.js"></script><div class="ost_box ost_bg" id="ost_box" style="position: absolute;"><ul class="ost_inner ost_lsn"><li class="ost_logo ost_h40 ost_fl ost_bg"><a href="//game.qq.com/?ADTAG=IED.InnerCop.gameWeb.topNav target=" _blank"="" class="ost_blnk ost_hdn" title="腾讯游戏logo">腾讯游戏logo</a></li><li id="ost_g" class="ost_ad ost_h40 ost_fl"><img class="ost_nb" id="ost_go" src="http://itea-cdn.qq.com/file/o2/20180102/13312318281895722095151487820123040.1514878203.c1ac01d774539544516aa81c48d2f8db.230x40_7478.jpg" alt=""></li><li class="ost_total ost_ml10 ost_fr"><h3 class="ost_czsh ost_h40"><a target="_blank" href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbanner">成长守护平台</a></h3><h3 class="ost_title ost_h40" id="ost_t">腾讯游戏排行榜<i class="ost_icon_arrow ost_bg"></i><sup class="ost_icon_reddot" id="ost_rank_v"></sup></h3><div class="ost_pop" id="ost_p"></div></li><li class="ost_fr ost_log ost_bg" id="ost_log"></li></ul><div id="ost_d" class="ost_big"></div></div>
+<script src="//ossweb-img.qq.com/images/js/foot.js"></script><div id="footer_ied"><div class="wrap_ied"><p><a href="//ieg.tencent.com" target="_blank">腾讯互动娱乐</a> | <a href="//game.qq.com/contract.shtml" target="_blank">服务条款</a> | <a href="//adver.qq.com/" target="_blank">广告服务</a> | <a href="//game.qq.com/hr/" target="_blank">腾讯游戏招聘</a> | <a href="//service.qq.com/" target="_blank">腾讯游戏客服</a> | <a href="//game.qq.com/gnav" target="_blank">游戏地图</a> | <a href="//tgact.qq.com/" target="_blank">游戏活动</a> | <a href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbottom" target="_blank">成长守护平台</a> | <a href="//game.qq.com/brand/business.htm" target="_blank">商务合作</a> | <a href="//www.qq.com/map/" target="_blank">网站导航</a></p><p class="e">COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</p><p><a href="//www.tencent.com/law/mo_law.shtml?/law/copyright.htm" target="_blank">腾讯公司 版权所有</a></p></div></div><script src="//ossweb-img.qq.com/images/js/dr/dr.js" type="text/javascript"></script>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.10.1.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/milo/milo-min.js"></script>
+<script src="//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js" charset="utf-8"></script>
+<script src="//f.qq.com/webplat/info/news_version3/32717/32718/m19121/index.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script><script src="//ossweb-img.qq.com/images/js/eas/eas.js" type="text/javascript"></script><script src="//dr.game.qq.com/dr.php" type="text/javascript"></script>
+<script src="js/nav.js"></script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script type="text/javascript">
+////
+var setSite={ //设置网站属性
+ siteType:"os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+ pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+ pageName:"首页", //必填项:页面中文名
+ osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+ ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+ stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
+}
+if(typeof(pgvMain)=='function')pgvMain();
+</script>
+
+</body></html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html><html><head>
+<title>新振网-提供游戏点卡Api接口|棋牌游戏|全国招商 支付宝扫码,微信扫码支付</title>
+<meta charset="gb2312">
+<meta name="keywords" content="棋牌游戏,游戏点卡 网银支付 点卡回收 点卡兑换 网银卡类支付 Api接口,投资理财,支付宝,微信">
+<meta name="Copyright" content="公司将通过强大的研发能力、优秀的运营能力、人性化的客户服务为用户带来精彩愉快的网上支付体验。">
+<meta name="Description" content="网银支付费率低 支持国内16家银行的借记卡和信用卡个人网银支付 充值卡兑换95% 神州行、联通、电信充值卡及游戏类卡在线支付点卡兑换提现 每天自动结算！">
+<meta name="Author" content="棋牌游戏,游戏点卡 网银支付 点卡回收 点卡兑换 网银卡类支付 Api接口,投资理财,支付宝,微信">
+<meta name="robots" content="index, follow">
+<meta content="IE=7" http-equiv="X-UA-Compatible">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href="/css/home.css?v=2" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+<!--
+function checkform(){
+if(form1.loginName.value==""){alert("请输入会员帐号！");form1.loginName.focus();return false;}
+if(form1.loginPass.value==""){alert("请输入会员密码！");form1.loginPass.focus();return false;}
+if(form1.checkCode.value==""){alert("请输入验证码！");form1.checkCode.focus();return false;}
+SetCookie("LoginName", form1.LoginName.value); 
+SetCookie("loginPass", form1.loginPass.value);
+SetCookie("checkCode", form1.checkCode.value);
+}
+-->
+</script>
+</head>
+
+<body>
+<!--导航开始-->
+
+<div class="Topmvie">
+ <div class="Topmvie1">
+  <div class="top_tbe"><div id="top_icon"></div>
+  电话：400-6872879</div>
+  <div id="top_tbecon"></div>
+  <div class="top_tbes"><div class="top_line"> </div><a href="javascript:">新振社区</a></div>
+  <div class="top_tbes"><div class="top_line1"></div><a href="inf_a.asp">安全保障</a></div>
+  <div class="top_tbes"><div class="top_line2"></div><a href="news.asp">新手任务</a></div>
+  <div class="top_tbes"><div class="top_line3"></div><a href="login.asp">登录</a></div>
+  <div class="top_tbes"><div class="top_line4"></div><a href="reg.asp">免费注册</a></div>
+ </div></div>
+ <div id="topbang">
+   <div id="topbant"><a href="/"><div id="logobg"></div></a>
+   <div id="lfet"><a href="inf_w.asp">联系我们</a></div>
+   <div id="lfet"><a href="news.asp">动态新闻</a></div>
+   <div id="lfet"><a href="inf_z.asp">支持卡种</a></div>
+   <div id="lfet"><a href="inf_d.asp">订单查询</a></div>
+    <div id="lfet"><a href="/">本站首页</a></div>
+  </div>
+ </div>
+<!--导航结束-->
+
+<!--图片切换-->
+
+<div class="wrap">
+	<div class="banner-show" id="js_ban_content">
+		<div class="cell bns-01">
+			<div class="con">
+			</div>
+		</div>
+		<div class="cell bns-02" style="display:none;">
+			<div class="con">
+				<a href="http://sc.chinaz.com" target="_blank" class="banner-link">
+				<i>圈子</i></a> </div>
+		</div>
+		<div class="cell bns-03" style="display:none;">
+			<div class="con">
+				<a href="http://sc.chinaz.com" target="_blank" class="banner-link">
+				<i>企业云</i></a> </div>
+		</div>
+	</div>
+
+	<div class="banner-control" id="js_ban_button_box">
+		<a href="javascript:;" class="left">左</a>
+		<a href="javascript:;" class="right">右</a> </div>
+	<script type="text/javascript">
+                ;(function(){
+                    
+                    var defaultInd = 0;
+                    var list = $('#js_ban_content').children();
+                    var count = 0;
+                    var change = function(newInd, callback){
+                        if(count) return;
+                        count = 2;
+                        $(list[defaultInd]).fadeOut(400, function(){
+                            count--;
+                            if(count <= 0){
+                                if(start.timer) window.clearTimeout(start.timer);
+                                callback && callback();
+                            }
+                        });
+                        $(list[newInd]).fadeIn(400, function(){
+                            defaultInd = newInd;
+                            count--;
+                            if(count <= 0){
+                                if(start.timer) window.clearTimeout(start.timer);
+                                callback && callback();
+                            }
+                        });
+                    }
+                    
+                    var next = function(callback){
+                        var newInd = defaultInd + 1;
+                        if(newInd >= list.length){
+                            newInd = 0;
+                        }
+                        change(newInd, callback);
+                    }
+                    
+                    var start = function(){
+                        if(start.timer) window.clearTimeout(start.timer);
+                        start.timer = window.setTimeout(function(){
+                            next(function(){
+                                start();
+                            });
+                        }, 8000);
+                    }
+                    
+                    start();
+                    
+                    $('#js_ban_button_box').on('click', 'a', function(){
+                        var btn = $(this);
+                        if(btn.hasClass('right')){
+                            //next
+                            next(function(){
+                                start();
+                            });
+                        }
+                        else{
+                            //prev
+                            var newInd = defaultInd - 1;
+                            if(newInd < 0){
+                                newInd = list.length - 1;
+                            }
+                            change(newInd, function(){
+                                start();
+                            });
+                        }
+                        return false;
+                    });
+                    
+                })();
+            </script>
+<!--图片切换-->
+<form id="form1" onsubmit="return checkform()" method="post" name="form1" action="http://www.pmccb.com/user/chkLogin.asp" target="myFrame">
+
+	<div class="container">
+		<div class="register-box">
+			<div class="reg-slogan">
+				商户登录</div>
+			<div class="reg-form" id="js-form-mobile">
+				<div class="cell">
+					<label for="js-mobile_ipt"></label>
+					<input type="text" name="loginName" id="loginName" placeholder="帐号" class="text" maxlength="20">
+				</div>
+				<div class="cell">
+					<label for="js-mobile_pwd_ipt"></label>
+					<input type="password" name="loginPass" id="loginPass" placeholder="密码" class="text">
+					</div>
+
+				<!-- 验证码 -->
+				<div class="cell vcode">
+					<label for="js-mobile_vcode_ipt"></label>
+					<input type="text" name="checkCode" id="checkCode" class="text" maxlength="5">					 
+					<img id="vcImage" src="/inc/code.asp" style="cursor: pointer; border: none; height: 30px; 
+                                width: 80px" onclick="javascript:changeImage()">
+                            <script type="text/javascript">
+                                function changeImage() {
+                                    document.getElementById("vcImage").src = "/inc/code.asp?" + Math.random();
+                                }
+                            </script> </div>
+				<div class="bottom">				
+			<input type="submit" name="Submit" value="立即登录" id="js-mobile_btn" class="button btn-green"></div>	
+			</div>
+			
+		</div>
+	</div>
+</form></div>
+<iframe height="0" width="0" frameborder="0" scrolling="no" name="myFrame" id="myFrame"></iframe>
+<!--hflkd-->
+
+			
+
+
+
+
+<div id="vanet">
+<div id="vane"><div id="vanetimg"><img src="/images/tb2.png" width="66" height="65"></div>
+<div id="vatr"><div id="vatb">网银支付</div><div id="vatc">支持国内16家银行的借记卡和信用卡个人网银支付 </div></div></div>
+<div id="vane"><div id="vanetimg"><img src="/images/tb.jpg" width="66" height="65"></div>
+<div id="vatr"><div id="vatb">充值卡兑换</div><div id="vatc">神州行、联通、电信充值卡及游戏类卡在线支付点卡兑换提现</div></div></div>
+<div id="vane"><div id="vanetimg"><img src="/images/tb1.jpg" width="66" height="65"></div>
+<div id="vatr"><div id="vatb">每天自动结算</div><div id="vatc">系统批量提交结算 ,批量代付款、自助资金结算服务、让您省时省力</div></div></div>
+</div>
+<div id="vanet">
+<div id="vane">
+  <div id="vanetiml">产品服务</div><div id="vanetiml3">收款产品 | 付款产品 | 结算产品 </div>
+</div>
+<div id="vane">
+  <div id="vanetiml1">商户接入</div><div id="vanetiml3">提交资料 | 选择产品 | 资质审核 | 对接接口 </div>
+</div>
+<div id="vane">
+  <div id="vanetiml2">7x24小时安全保障</div><div id="vanetiml3">威认证 | 安全策略 | 资金保障 </div>
+</div>
+</div>
+<!--footen-->
+
+<div class="footen">
+	<div class="foten" id="foten"><div id="febt"></div>
+<div class="fotena">友情链接： <a href="news.asp">网站公告</a> | <a href="javascript:">客服中心</a> | <a href="javascript:">网银支付</a> | <a href="javascript:">充值卡兑换</a> | <a href="javascript:">业务扩展</a> | <a href="javascript:">公司招聘</a> | <a href="javascript:">合作伙伴</a> | <a href="javascript:">媒体报道</a></div>
+<div class="copall">湖北新振电子商务有限公司 Copyright @ 新振点卡支付 All rights reserved. ICP证：鄂ICP备13006074号-2 电话：400-6872879 </div>
+	 <div class="fotenimg">
+	 <a href="https://ss.knet.cn/verifyseal.dll?sn=e14061942030050221jmlq000000&amp;ct=df&amp;a=1&amp;pa=0.23170772949171253" target="_blank"><div id="imfet"></div></a>
+	 <a href="http://webscan.360.cn/index/checkwebsite/url/www.xzpay.com" target="_blank"><div id="imfet360"></div></a>
+	 <a href="http://www.anquan.org/authenticate/cert/?site=www.xzpay.com&amp;at=realname" target="_blank"><div id="imfetkx"></div></a>
+	 <a href="http://www.anquan.org/authenticate/cert/?site=www.xzpay.com&amp;at=realname" target="_blank"><div id="imfetac"></div></a>
+	 </div>
+	 <div class="meok"></div>		
+ </div>
+</div>
+<!--联系QQ代码-->
+<script language="javascript">
+qqkf="804031885;804031885";  //QQ客服号码设置，多个用 ; 隔开
+dlkf="1220965533"    //技术支持 代理加盟客服，多个用 ; 隔开
+telkf="4006872879";   //电话客服，多个用 ; 隔开
+</script>
+<script language="javascript" src="/qqkf/api.js"></script><style type="text/css">
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+
+/* online */
+#online_qq_tab a,.onlineMenu h3,.onlineMenu li.tli,.newpage{background:url(/qqkf/float_s.gif) no-repeat;}
+#onlineService,.onlineMenu,.btmbg{background:url(/qqkf/float_bg.gif) no-repeat;}
+
+#online_qq_layer{z-index:9999;position:fixed;right:0px;top:0;margin:150px 0 0 0;}
+*html,*html body{background-image:url(about:blank);background-attachment:fixed;}
+*html #online_qq_layer{position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+
+#online_qq_tab{width:28px;float:left;margin:120px 0 0 0;position:relative;z-index:9;}
+#online_qq_tab a{display:block;height:118px;line-height:999em;overflow:hidden;}
+#online_qq_tab a#floatShow{background-position:-30px -374px;}
+#online_qq_tab a#floatHide{background-position:0 -374px;}
+
+#onlineService{display:inline;margin-left:-1px;float:left;width:130px;display:none;background-position:0 0;padding:10px 0 0 0;}
+.onlineMenu{background-position:-262px 0;background-repeat:repeat-y;padding:0 15px;}
+.onlineMenu h3{height:36px;line-height:999em;overflow:hidden;border-bottom:solid 1px #ACE5F9;}
+.onlineMenu h3.tQQ{background-position:0 10px;}
+.onlineMenu h3.tele{background-position:0 -47px;}
+.onlineMenu li{height:36px;line-height:36px;border-bottom:solid 1px #E6E5E4;text-align:center;}
+.onlineMenu li.tli{padding:0 0 0 28px;font-size:12px;text-align:left;}
+.onlineMenu li.zixun{background-position:0px -131px;}
+.onlineMenu li.fufei{background-position:0px -190px;}
+.onlineMenu li.phone{background-position:0px -244px;}
+.onlineMenu li a.newpage{display:block;height:36px;line-height:999em;overflow:hidden;background-position:5px -100px;}
+.onlineMenu li img{margin:8px 0 0 0;}
+.onlineMenu li.last{border:0;}
+
+.wyzx{padding:8px 0 0 5px;height:57px;overflow:hidden;background:url(/qqkf/webZx_bg.jpg) no-repeat;}
+
+.btmbg{height:12px;overflow:hidden;background-position:-131px 0;}
+</style>
+
+<div id="online_qq_layer">
+	<div id="online_qq_tab">
+		<a id="floatShow" style="display:block;" href="javascript:void(0);">收缩</a> 
+		<a id="floatHide" style="display:none;" href="javascript:void(0);">展开</a>
+	</div>
+	<div id="onlineService">
+		<div class="onlineMenu">
+			<h3 class="tQQ">QQ在线客服</h3>
+			<ul>
+				<li class="tli zixun">在线咨询</li>
+				<li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=804031885&amp;site=qq&amp;menu=yes"><img src="/qqkf/pa.gif" width="74" height="22" alt="客服"></a></li>
+				<li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=804031885&amp;site=qq&amp;menu=yes"><img src="/qqkf/pa.gif" width="74" height="22" alt="客服"></a></li>
+				<li class="tli fufei">技术支持</li>
+				<li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1220965533&amp;site=qq&amp;menu=yes"><img src="/qqkf/pa.gif" width="74" height="22" alt="客服"></a></li>
+			</ul>
+		</div>
+		<div class="onlineMenu">
+			<h3 class="tele">电话客服</h3>
+			<ul>
+				<li class="tli phone">4006872879</li>
+				
+			</ul>
+		</div>
+		<div class="btmbg"></div>
+	</div>
+</div>
+
+<!--footend-->
+
+
+</body></html>

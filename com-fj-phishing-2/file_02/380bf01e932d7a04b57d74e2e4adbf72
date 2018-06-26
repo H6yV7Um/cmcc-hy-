@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>
+	西门子SIMATIC WinCC官方网站
+</title><link rel="stylesheet" type="text/css" href="css/base.css"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/siemensstyle.css">
+<script src="//hm.baidu.com/hm.js?aefd87e6bd53f3f698e17ace5370fca1"></script><script type="text/javascript">
+function opendenglu()
+{
+    var left=(document.body.clientWidth)/2-150;   
+    var top=(document.body.clientHeight)/2-100;   
+    window.open ('loginbar.aspx','newwindow','height=150,width=276,top=0,left=0,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no,left='+left+',top='+top);
+    window.location.reload(); 
+}
+</script>
+</head>
+
+<body>
+<div class="top_wrap">
+<div class="top_content">
+      <div class="top_content_l"><img src="images/syc_banner.jpg"></div>
+      <div class="top_content_r">
+      <div class="Login"> 
+           <a href="reguser.aspx" target="_blank" class="link" style="line-height:19px; color:#fff; padding-right:8px;"><img src="images/icon-arrow.gif"> 注册</a><a href="javascript:void(0)" onclick="opendenglu()" class="link" style="line-height:19px; color:#fff;"><img src="images/icon-arrow.gif"> 登录</a> 
+		</div> 
+	    <div class="content_bt">
+		<h1>SIMATIC WinCC简介</h1>
+     <p>SIMATIC WinCC(Windows Control Center)--视窗控制中心， 它是西门子最经典的过程监视系统，业已成为市场的领导者，乃至业界遵循的标准。WinCC能为工业领域提供完备的监控与数据采集（SCADA）功能，涵盖单用户系统直到支持冗余服务器和远程 Web 服务器解决方案的多用户系统。SIMATIC WinCC 是公司垂直集成交换信息的基础，具有良好的开放性和灵活性，它采用了工厂智能，助力用户实现更大程度的生产过程透明化。</p>   
+        </div>	
+		 <div style="float:left; padding-left:10px;"><a href="https://www.industry.siemens.com.cn/automation/cn/zh/automation-systems/automationsoftware/software-for-simatic-hmi/Pages/Default.aspx" target="_blank"><img src="images/icon-more.gif"></a></div>
+
+	  </div>
+</div>
+</div>
+<!--------------------------------------------------------------------导航开始-------------------------------------------------------------->
+<div id="nav_warp">
+    <span class="nav_01"><img src="images/china.jpg"><span style="color:#FFFFFF;">西门子中国</span></span>
+     <span class="nav_02"><a href="customer-contact.aspx" style="color:#FFFFFF"><img src="images/icon-jiantou.gif"> 联系我们</a></span>
+	 <span class="nav_03"><img src="images/icon-jiantou.gif"> <a href="http://www.ad.siemens.com.cn/club/bbs/bbs.aspx?b_id=5" target="_blank"> <span style="color:#FFFFFF;">WinCC 官方论坛</span></a>
+		</span>
+</div>	 
+<!--------------------------------------------------------------------内容开始-------------------------------------------------------------->
+<div class="content_wrap">
+   <div class="content_mkt">
+   <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?aefd87e6bd53f3f698e17ace5370fca1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<ul class="SiemensNav">
+        <li class="SiemensNavList"><a href="http://www.industry.siemens.com.cn/home/cn/zh/Pages/industry.aspx" target="_blank"><img src="images/icon-arrow.gif">&nbsp;&nbsp;西门子工业业务领域 </a> 
+		
+		<ul>
+		<li style="border-top: 1px solid #999999;"><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;工业自动化</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//drives/cn/zh/">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;驱动技术</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//services/cn/zh/">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;工业服务</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//industrysolutions/cn/zh/metals/">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;冶金技术</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//verticals/cn/zh">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;行业市场解决方案</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//topics/cn/zh">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;西门子工业业务领域主题网站</a></li>
+		   </ul>
+		</li>
+        <li class="SiemensNavList"><a href="http://www.industry.siemens.com.cn/automation/cn/zh/Pages/Default.aspx" target="_blank"><img src="images/icon-arrow.gif">&nbsp;&nbsp;工业自动化</a>
+            <ul>
+			<li style="border-top: 1px solid #999999;"><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/automation-systems/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;自动化与控制系统</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/human-machine-interface/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;HMI操作设备及SCADA系统</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/identification-systems/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;识别系统</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/industrial-communications/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;工业通讯</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/industrial-controls/Pages/default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;低压控制与保护产品</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/manufacturing-execution-system-mes/Pages/Siemens_MES.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;制造执行系统</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/pc-based-automation/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;基于PC的自动化</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/process-controlsystems/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;过程控制系统</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/product-lifecycle-management-plm/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;产品生命周期管理软件</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/sensor-systems/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;仪表和传感器</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/power-supplies/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;电源</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn//automation/cn/zh/siplus/Pages/Default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;SIPLUS特殊应用需求产品</a></li>
+          <li><a rel="internal" target="_blank" href="http://www.industry.siemens.com.cn/topics/cn/zh/industrial-security/Pages/default.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;工业信息安全</a></li>
+				
+				
+            </ul>
+        </li>
+        <li class="SiemensNavList"><a href="index.aspx"><img src="images/icon-arrow.gif">&nbsp;&nbsp;WinCC</a>
+            <ul>
+                <li style="border-top: 1px solid #999999;"><a href="news.asp">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;新闻公告</a></li>
+            <li><a href="zxjc.aspx?type=2">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;工厂智能及能源管理专栏</a></li>
+      <li><a href="wincclogin.aspx?zaixian=1">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;在线体验系统</a></li>
+      <li><a href="zxjc.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;在线教程</a></li>
+       <li><a href="rjzsk.aspx?type=1">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;软件及示例项目下载</a></li>
+       <li><a href="rjzsk.aspx?type=2">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;常用文档</a></li>
+	  <li><a href="yyal.asp">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;WinCC应用案例</a></li>
+	   <li><a href="wyzdwincc.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;“另眼”看WinCC</a></li>
+	   <li><a href="zhengbanlogin.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;正版WinCC软件信息注册</a></li>
+	   <li><a href="hd_index.aspx">&nbsp;&nbsp;<img src="images/icon-arrow.gif">&nbsp;&nbsp;WinCC“美图秀秀”</a></li>
+            </ul>
+        </li>
+        
+        </ul>
+   </div>
+<!---------------------模块1-------------------->
+
+   <div class="content_mk01">
+   	  <span style="font-weight:bold; line-height:26px;">WinCC</span>
+      <ul style="margin-bottom:200px;">
+      <li><a href="news.asp">新闻公告</a></li>
+         <li><a href="zxjc.aspx?type=2">工厂智能及能源管理专栏</a></li>
+      <li><a href="zxtyxt.aspx">在线体验系统&nbsp;<img src="images/new.gif"></a></li>
+      <li><a href="zxjc.aspx">在线教程&nbsp;<img src="images/new.gif"></a></li>
+      <li><a href="rjzsk.aspx?type=1">软件及示例项目下载</a></li>
+            <li><a href="rjzsk.aspx?type=2">常用文档</a></li>
+	  <li><a href="yyal.asp">WinCC应用案例</a></li>
+	  <li><a href="wyzdwincc.aspx">“另眼”看WinCC</a></li>
+    <li><a href="zhengbanlogin.aspx">正版WinCC软件信息注册&nbsp;<img src="images/new.gif"></a></li>
+     <li><a href="hd_index.aspx">WinCC“美图秀秀”</a></li>
+	  </ul>
+	   <div>
+        <img src="images/11.png" alt="">
+    </div>
+    </div>
+   
+<!---------------------模块2-------------------->
+<div class="content_mk02">
+        
+         <!------------列表2-------------->
+        <div class="mk02_ct">
+		<span style="font-size:13; font-weight:bold">西门子WinCC V7.4 新特性介绍</span>
+        <div class="mk02_list">
+        <div class="mk02_list_l"><img src="http://nfs.gongkong.com/Upload/video/201611/20161103111335678_min.gif" width="102" border="0"></div>
+        <div class="mk02_list_r">大家好，欢迎您来到西门子WinCC在线学习课程，在本节课程中，我们将为大家介绍西门子WinCC V7.4 新特性介绍。 </div>
+        </div>
+		<div class="mk02_more" align="right"><img src="images/icon-arrow.gif"> <a href="xxym.aspx?id=12704" target="_blank"><span style="color:#990000">查看</span></a></div>
+		</div>
+		
+         <!------------列表3-------------->
+        <div class="mk02_ct">
+		<span style="font-size:13; font-weight:bold;">西门子全集成能源管理系统</span>
+        <div class="mk02_list">
+        <div class="mk02_list_l"><img src="http://nfs.gongkong.com/Upload/video/201409/20140917130102515_min.JPG" width="102"></div>
+        <div class="mk02_list_r">西门子全集成能源管理系统。</div>
+        </div>
+		<div class="mk02_more" align="right"><img src="images/icon-arrow.gif"> <a href="xxym.aspx?id=12676" target="_blank"><span style="color:#990000">查看</span></a></div>
+		</div>
+        <!------------列表1-------------->
+		<div class="mk02_ct">
+		<span style="font-size:13; font-weight:bold;">WinCC 多点触控技术</span>
+        <div class="mk02_list">
+        <div class="mk02_list_l"><img src="http://nfs.gongkong.com/Upload/video/201509/20150923155100903_min.jpg" width="102"></div>
+        <div class="mk02_list_r">动动手指就可以在wincc运行系统中放大、缩小、任意切换画面！ 这就是wincc v7.2 炫酷的多点触控功能!</div>
+        </div>
+		<div class="mk02_more" align="right"><img src="images/icon-arrow.gif"> <a href="xxym.aspx?id=12692" target="_blank"><span style="color:#990000">查看</span></a></div>
+		</div>
+		<!------------列表1-------------->
+		<div class="mk02_ct">
+		<span style="font-size:13; font-weight:bold;">WinCC系统化、智能化的设备管理维护(PM-Maint)</span>
+        <div class="mk02_list">
+        <div class="mk02_list_l"><img src="http://nfs.gongkong.com/Upload/video/201507/20150703105644062_min.jpg" width="102"></div>
+        <div class="mk02_list_r">介绍了智能化的故障诊断以及系统化的设备管理</div>
+        </div>
+		<div class="mk02_more" align="right"><img src="images/icon-arrow.gif"> <a href="xxym.aspx?id=12678" target="_blank"><span style="color:#990000">查看</span></a></div>
+		</div>
+        <!------------列表1-------------->
+        <div class="mk02_ct">
+		<span style="font-size:13; font-weight:bold">WinCC生产关键绩效指标(KPI)计算分析(PerformanceMonitor) </span>
+        <div class="mk02_list">
+        <div class="mk02_list_l"><img src="http://nfs.gongkong.com/Upload/video/201409/20140917124416640_min.JPG" width="102"></div>
+        <div class="mk02_list_r">介绍了WinCC PerformanceMonitor关键绩效指标(KPI)计算分析选件，通过生产 KPI 数据的透明化和可视化帮助生产管理决策者清晰掌握生产状况并作出相应决策。</div>
+        </div>
+		<div class="mk02_more" align="right"><img src="images/icon-arrow.gif"> <a href="xxym.aspx?id=12677" target="_blank"><span style="color:#990000">查看</span></a></div>
+		</div>
+</div>
+<!---------------------模块3-------------------->
+
+	       	     
+            <iframe src="LoginInfo.aspx" style="border:0px;height:630px; " frameborder="0" scrolling="no"></iframe>
+
+<!---------------------------------------------底部内容------------------------------------------------->
+<div id="bottom_warp"><span style="font-family:Arial, Helvetica, sans-serif">© Siemens AG </span>1996-2014西门子（中国）有限公司 - 企业信息隐私政策法律条款京ICP备06054295号</div>
+
+
+</div></body></html>

@@ -1,0 +1,4 @@
+<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">PHP Notice:  Undefined variable: data in D:\wwwroot\eiray\wwwroot\includes\lib_base.php on line 1268
+PHP Warning:  require(D:/wwwroot/eiray/wwwroot/languages//common.php): failed to open stream: No such file or directory in D:\wwwroot\eiray\wwwroot\includes\init.php on line 120
+PHP Fatal error:  require(): Failed opening required 'D:/wwwroot/eiray/wwwroot/languages//common.php' (include_path='.;D:/wwwroot/eiray/wwwroot/') in D:\wwwroot\eiray\wwwroot\includes\init.php on line 120
+</pre></body></html>

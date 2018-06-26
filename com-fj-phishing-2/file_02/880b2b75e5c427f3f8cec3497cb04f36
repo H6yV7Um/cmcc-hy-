@@ -1,0 +1,1012 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>圈子金融-竞标式社交金融-</title>
+    <meta name="keywords" content="圈子金融,竞标式金融,社交金融,标会,理财平台">
+    <meta name="description" content="全球首个互联网竞标式金融平台，打造最安全的理财平台，引领民间资本转型">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+
+        <link href="http://img.qqzi.com/MyJS/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme01/css/platform.css" rel="stylesheet">
+    <link href="http://img.qqzi.com/MyJS/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
+    <link href="http://img.qqzi.com/MyJS/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="http://img.qqzi.com/MyJS/css/erp.public.css" rel="stylesheet">
+    <link href="/theme01/css/hzw-city -picker.css" rel="stylesheet">
+    <style>
+        .header-wrap {
+            width: 100%;
+            height: 46px;
+            background-color: #000;
+        }
+        .header-top-right {
+            margin-top:15px;   
+        }
+         .header-wrap li  {
+            display: inline-block;
+            list-style: none;
+            margin-left: 30px;
+        }
+        .menu li {
+            list-style: none;
+            font-size: 2rem;
+            margin-left: 4%;
+        }
+        .menu {
+            width: 100%;
+            display:flex;
+            flex-direction:row;
+            justify-content:flex-end;
+            margin-top: 30px;
+            padding:0;
+        }
+
+        .menu > li > a {
+            color: #000;
+        }
+            .menu > li > a:hover, .menu > .active > a:hover {
+                color: #0a6def;
+                cursor: pointer;
+                text-decoration: none;
+                background-color: #fff;
+            }
+            .menu > .active > a:focus, .menu > .active > a {
+                color: #0f8cf0;
+                background-color: #fff;
+            }
+       #CustomServices > li > a:hover, .links> li > a:hover {
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .header-logo-nav {
+            background-color: #fff;
+            border-bottom: none;
+            min-height: 106px;
+        }
+        .header-top-right li a, .tel {
+            color: #bdbcc1;
+            font-size: 16px;
+
+        }
+        
+        .header-width {
+
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1366px;
+        }
+        .line {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .nav-bg {
+            width: 800px;
+            background-color: #fff;
+            border-bottom: 0px;
+            float:right;
+        }
+         .panel-qqzi .panel-heading {
+            border-bottom: 1px solid #EFEDEB;
+        }
+        .main {
+            background-color: #f6f7fb;
+            
+        }
+        .main-width {
+            width: 80%;
+            margin:0 auto;
+            max-width: 1366px;
+        }
+        .footer{
+            background-color:#000;
+        }
+        h4  {
+            color: #929fb0;
+            font-weight:bold;
+        }
+        .links > li > a {
+            color: #929fb0;
+            font-size: 16px;
+        } 
+        .links {
+            padding: 0;
+        }
+        .links > li {
+            list-style: none;
+            margin-top:20px;
+        }
+        .last {
+            color: #929fb0;
+            font-size: 16px;
+            padding:30px 0 30px 0;
+        }
+        .footer-right {
+            display: flex;
+            flex-direction: row;
+        }
+        .QRcode {
+            text-align: center;
+            margin-left: 40px;
+        }
+     
+        .footer-phone {
+            text-align:right;
+            min-width:200px;
+        }
+        .footer-right > div > p {
+            color: #929fb0;
+            font-size: 16px;
+            margin-top:20px;
+        }
+    </style>
+    
+<link href="/Content/themes/base/autocomplete.css" rel="stylesheet">
+<link href="/theme01/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!--[if lt IE 9]>
+    <style>
+     HomeList-Head {display: inline-block;}
+    </style>
+
+   <![endif]-->
+
+<!--[if lt IE 8]>
+   <style>
+    .carousel .item img {height:251px;}
+   </style>
+  <![endif]-->
+    <style>
+        #joinAdd{margin-top:5px}
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/Scripts/html5shiv.js"></script>
+      <script src="/Scripts/respond.min.js"></script>
+      <script src="http://img.qqzi.com/MyJS/js/json.js"></script>
+
+    <![endif]-->
+
+    <script src="http://img.qqzi.com/MyJS/js/jquery.min.js"></script>
+    <script src="http://img.qqzi.com/MyJS/js/bootstrap.js"></script>
+    <script src="http://img.qqzi.com/MyJS/js/bootstrap-paginator.js"></script>
+    <script src="/Scripts/platform.js"></script>
+    <script src="http://img.qqzi.com/MyJS/js/erp.public.js?v=1.0.14.0.14"></script>
+
+    <script src="/Scripts/public.js?v=1.0.14.0.14"></script>
+
+    
+
+
+<script src="/Scripts/autocomplete.js"></script>
+<script>
+    window.addEventListener("joinstatement-agree", function (e) {
+        if (e.detail == true) {
+            
+            ShowJoinDialogWeb(cf);
+        } else {
+            return;
+        }
+    });
+    var cf;
+    //关闭对话框并触发事件
+    function ClosePage(dialogId, eventName, data) {
+        CloseDialog(dialogId);
+        var event = document.createEvent('HTMLEvents');
+        event.initEvent(eventName, true, true);
+        event.detail = data;
+        window.dispatchEvent(event);
+    }
+    clientEx.serviceUrl = "/Home/";
+    $(document).ready(function () {
+
+        InitDialog(["结婚筹备"," 医疗保健"," 子女教育"," 个人创业"," 个人投资"," 资金周转"," 培训深造"," 购房建房"," 购置物品"," 购买保险"," 旅游休假"," 家居装潢"," 其他用途"]);       //初始化列表
+
+        //var owl = $("#owl-demo");
+
+        //owl.owlCarousel({
+
+        //    items: 4, //10 items above 1000px browser width
+        //    itemsDesktop: [1000, 4], //5 items between 1000px and 901px
+        //    itemsDesktopSmall: [900, 3], // 3 items betweem 900px and 601px
+        //    itemsTablet: [600, 2], //2 items between 600 and 0;
+        //    itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+
+        //});
+
+        //// Custom Navigation Events
+        //$(".next").click(function () {
+        //    owl.trigger('owl.next');
+        //})
+        //$(".prev").click(function () {
+        //    owl.trigger('owl.prev');
+        //})
+        var CityId = '';
+        if (CityId == '') CityId = '-1';
+        loadIndexList(function(d){
+            var html = biao(d);
+            $("#tyList").append(html);
+        },function(d){
+            var html = biao(d);
+            $("#List").append(html);
+        },function(){
+        }, CityId, function (d) {
+            var html = biao(d);
+            $("#DtbList").append(html);
+        });
+
+        ////最新圈子
+        //var whereJson = { status: 5, money: 0, period: 0, tel: "", pageSize: 8, name: "", pageIndex: 1, Experience: "0" };
+        //$.getJSON("/Home/QueryCFList", whereJson, function (d) {
+
+        //});
+        ////体验圈
+        //whereJson = { status: 5, money: 4, period: 0, tel: "", pageSize: 4, name: "", pageIndex: 1, Experience: "1" };
+
+        //$.getJSON("/Home/QueryCFList", whereJson, function (d) {
+
+        //});
+
+        $.getJSON("/News/GetHomeList", function (d) {
+            var times = "";
+            for (var i = 0; i < d.Result.Company.length; i++) {
+                if (d.Result.Company[i].dTimeAdd == null) { times = "" } else { times = d.Result.Company[i].dTimeAdd.substring(0, 10) }
+                $("#dynamic").append(' <li><span>' + times + '</span><a title="' + d.Result.Company[i].sTitle + '" href="/News/ViewNews/' + d.Result.Company[i].Autocode + '" target="_blank">' + d.Result.Company[i].sTitle + '</a></li>');
+            }
+            for (var i = 0; i < d.Result.Industry.length; i++) {
+                if (d.Result.Industry[i].dTimeAdd == null) { times = "" } else { times = d.Result.Industry[i].dTimeAdd.substring(0, 10) }
+                $("#industry").append(' <li><span>' + times + '</span><a title="' + d.Result.Industry[i].sTitle + '" href="/News/ViewNews/' + d.Result.Industry[i].Autocode + '" target="_blank">' + d.Result.Industry[i].sTitle + '</a></li>');
+            }
+        });
+    });
+
+    function biao(d) {
+
+        var mydate = new Date();
+        var listContainer =$("<div></div>");
+
+        for (var i = 0; i < d.Result.length; i++) {
+            //html += '<div class="col-md-3">';
+            var item = $('<div class="news-grid" ></div>');
+            var html = '   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="' + d.Result[i].Name + '">' + d.Result[i].Name + '</div>';
+            html += '  <div class="color-9 fs-16 finnumber">';
+            html += '       <div class="fdiv">   <span class="col">' + d.Result[i].JoinNum + '</span> /' + d.Result[i].Period + '人    <br>  <span>参与人数</span>  </div>';
+            html += '<div class="ediv">' + d.Result[i].FinishNum + ' -' + d.Result[i].Period + '个月<br>       项目期限     </div>';
+            //html += ' </div>';
+
+
+            var ValidityDate = new Date(d.Result[i].CreateTime.replace("T", " "));  //生效时间
+            var CreateTime = new Date(d.Result[i].CreateTime.replace("T", " "));  //开始时间
+            var Seconds = parseFloat(ValidityDate.getTime()) - parseFloat(mydate.getTime());   //生效时间跟 当前时间比较 取出毫秒数
+            if (isNaN(Seconds)) {
+                ValidityDate = new Date(d.Result[i].ValidityDate);  //生效时间
+                CreateTime = new Date(d.Result[i].CreateTime);  //开始时间
+                Seconds = ValidityDate.getTime() - mydate.getTime();
+            }
+            var baifen = (parseFloat(d.Result[i].JoinNum) / parseFloat(d.Result[i].Period)) * 100;
+            var shengyu = 100 - baifen;
+            html += '<div class="color-9 fs-16 surplustime">';
+            html += '<div class="jdt1" style=" width : ' + baifen + '%;"></div>';
+            html += '<div class="jdt2" style=" width :' + shengyu + '%;"></div>';
+            html += '</div>';
+            if (Seconds > 0) {
+                var Seconds1 = ValidityDate.getTime() - CreateTime.getTime();   //生效时间跟 开始时间比较 相当于总数
+
+                //var baifen = (parseFloat(Seconds) / parseFloat(Seconds1)) * 100;
+                //var shengyu = 100 - baifen;
+                var days = Math.floor(parseFloat(Seconds) / 1000 / 60 / 60 / 24);
+                var house = Math.floor(parseFloat(Seconds) / 1000 / 60 / 60) - parseFloat(days) * 24;
+                var minute = Math.floor(parseFloat(Seconds) / 1000 / 60) - parseFloat(house) * 60 - parseFloat(days) * 24 * 60;
+
+                html += '<div class="color-9 fs-16 "><span>剩余时间：</span><span>' + days + '日' + house + '时' + minute + '分</span></div>';
+            }
+            else {
+                html += '<div class="color-9 fs-16 "><span>剩余时间：</span><span>0日0时0分</span></div>';
+            }
+            //<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 secondaryOne"><div><span class="secondary-top-blue">' + d.Result[i].PerMoney + '</span></div><div><span class="line-title">每期金额</span></div></div>'
+            html += '<div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥' + d.Result[i].TotalMoney + '   </span></div>';
+            html += '<div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥' + d.Result[i].PerMoney + '</span></div>';
+            if (d.Result[i].BusinessId == '10') {
+                html += '<div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>固定利息：</span><span class="color-secondary">￥' + d.Result[i].FixInterest + '</span></div>';
+            }
+            else {
+                html += '<div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥' + d.Result[i].ApplyMin + '</span></div>';
+                html += '<div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥' + d.Result[i].ApplyMax + '</span></div>';
+
+            }
+            html += '<div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">' + d.Result[i].PayDay + '日</span></div>';
+            html += '<div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">' + d.Result[i].CFType + '   </span></div>';
+          
+
+
+            html += '<div>';
+            html += '<div style=" text-align: center;">';
+
+
+
+            if (d.Result[i].Status == 0) {
+                if (d.Result[i].JoinNum == d.Result[i].Period)
+                {
+                    html += '<a cid="' + d.Result[i].Id + '"  class="btn   awarning2" onclick=" add(this)">满 员</a>';
+                }
+                else
+                {
+                    html += '<a cid="' + d.Result[i].Id + '"  class="btn  awarning" onclick=" add(this)">加 入</a>';
+                }
+            }
+            else if (d.Result[i].Status == 1) {
+                html += '<a cid="' + d.Result[i].Id + '" class="btn  awarning2"  onclick=" add(this)"  >进行中</a>';
+            }
+            else if (d.Result[i].Status == -1) {
+                html += '<a cid="' + d.Result[i].Id + '" class="btn awarning2"   onclick=" add(this)"  >招募失败</a>';
+            }
+            else if (d.Result[i].Status == 2) {
+                html += '<a cid="' + d.Result[i].Id + '" class="btn awarning2"   onclick=" add(this)"  >圆满成功</a>';
+            }
+
+            html += '</div>';
+            html += '</div>';
+            html += ' </div>';
+            item.html(html);
+            item[0].cf=d.Result[i];
+            listContainer.append(item);
+        }
+        return listContainer;
+    }
+
+    function add(sender) {
+        //if ("False" != "True") { window.location = "/Home/login?backUrl=/Home/Index"; return; }
+        
+        if (isApp) {
+            if (!isLogin()) {
+                CallAppLogin();
+                return;
+            }
+        }
+            var id = $(sender).attr('cid');
+            goToUrl("/UserCenter/InvitationId?cache=0&id=" + id);
+            //cf = $(sender).closest(".news-grid");
+            // ShowPage("/UserCenter/JoinStatement");
+    }
+
+</script>
+
+
+</head>
+
+<body>
+
+
+    <!-- Start Header -->
+    <div class="header-wrap">
+        <div class="header-width line">
+            <p class="tel" style="margin-top: 15px;"> <i class=" fa fa-comments"></i> 客服热线：4000-888-919</p>
+            <div class="header-top-right">
+                <ul id="CustomServices">
+                    <li>
+                        <a href="/Home/GetApp" class="fa-customservices" data-placement="bottom" data-original-title="" title="">客户端下载</a>
+                    </li>
+
+                    <li class="open">
+                        <a class="fa-customservices" data-placement="bottom" data-original-title="" title=""><i class="fa fa-comments"></i> 在线客服 </a>
+                    </li>
+                        <li>
+                            <a href="/Home/Login" id="loginButton"><span>登录</span></a>
+                            <span style="color:#bdbcc1;font-size:18px;">|</span>
+                            <a id="registButton"><span>注册</span></a>
+                        </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="header-logo-nav row">
+        <div class="header-width container" style="padding-top: 20px;">
+            <div class="col-xs-4" style="margin-top:20px;padding-left:0;"><img src="/theme01/images/logo切片.png" class="img-responsive" width="367" height="54"></div>
+            <div class="col-xs-8" style="padding:0">
+                <ul class="menu">
+                    <li style="margin:0;" class="active"><a href="/">首页</a></li>
+                    <li><a href="/Home/Financial"> 金融大厅</a></li>
+                    <li><a href="/Home/Transfer"> 转让交易</a></li>
+                    <li><a href="/Home/AboutMe">信息披露</a></li><!-- "Information", "News"-->
+                    <li><a href="/Home/SafeGuard">安全保障</a></li>
+                    <li><a href="/UserCenter/MyIndex">个人中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- End Header -->
+    <!-- Start Main Content -->
+
+    <div class="main">
+        <div class="main-width">
+        
+<div class="header-banner">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="&quot;action&quot;"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+
+
+        </ol>
+        <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href=""> <img src="http://img.qqzi.com/Content/Upload/2017/11/03/342ef36e-0ef6-4180-be16-749a1d5b1022.jpg" width="100%"></a>
+                </div>
+                <div class="item">
+                    <a href=""> <img src="http://img.qqzi.com/Content/Upload/2017/11/03/d2df1fb2-6a59-4c1c-93ba-ee29ae84c79e.jpg" width="100%"></a>
+                </div>
+                <div class="item">
+                    <a href=""> <img src="http://img.qqzi.com/Content/Upload/2017/11/03/6d1693cf-ee92-43d7-b840-99e85b7bd34d.jpg" width="100%"></a>
+                </div>
+        </div>
+
+        
+    </div>
+
+</div>
+<style>
+    .cf-name {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+    }
+    .header-banner {
+        position: relative;
+        min-height: 100px;
+    }
+    .ui-panel-head-title {
+        color: #000;
+        float: left;
+        line-height: 50px;
+        margin-bottom: 0;
+        padding-left: 45px;
+    }
+
+    .ui-panel-head-more {
+        color: #000;
+        float: right;
+        font-size: 16px;
+        margin-bottom: 0;
+        padding-top: 12px;
+        padding-right: 35px;
+    }
+    .HomeList {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .HomeList-Head {
+        position: relative;
+        border-top: 1px solid #C8C8C8;
+        border-bottom: 1px solid #C8C8C8;
+    }
+    .ui-grid-News-l {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #fff;
+        border-color: -moz-use-text-color;
+    }
+
+    .ui-grid-News-r {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #fff;
+        border-color: -moz-use-text-color;
+        position: relative;
+        margin-top: 10px;
+        border: 1px solid #C8C8C8;
+    }
+
+    .ui-grid-News-title {
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #fff;
+        border-color: -moz-use-text-color;
+        font-size: 20px;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .ui-grid-News-content {
+      
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #fff;
+        border-color: -moz-use-text-color;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        border-bottom: 1px solid #C8C8C8;
+        border-top: 1px solid #C8C8C8;
+    }
+
+        .ui-grid-News-content .list {
+            margin-left: 20px;
+            margin-top: 10px;
+            color: #ff6400;
+        }
+
+            .ui-grid-News-content .list li {
+                width: 100%;
+                height: 35px;
+            }
+
+                .ui-grid-News-content .list li span {
+                    height: 20px;
+                    line-height: 20px;
+                    float: right;
+                    margin-right: 10px;
+                    color: #b2b2b2;
+                    font-size: 12px;
+                }
+
+                .ui-grid-News-content .list li a {
+                    color: #555;
+                    height: 27px;
+                    line-height: 27px; /*标题长度截断*/
+                    display: block;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap; /*标题长度截断*/
+                }
+
+                    .ui-grid-News-content .list li a:hover {
+                        text-decoration: none;
+                        color: #999;
+                    }
+
+                .ui-grid-News-content .list li.over {
+                    color: #555;
+                }
+
+                .ui-grid-News-content .list li.out {
+                    background: #FFF;
+                }
+    .main-width{
+        width:auto;
+        max-width:initial;
+    }
+    .img100 {
+        width: 100%;
+      
+    }
+    .surplustime {
+        width: 100%;
+        float: left;
+        margin: 10px 0;
+    }
+    .surplustime {
+        width: 100%;
+        float: left;
+        margin: 10px 0;
+    }
+
+    .finnumber {
+        margin: 10px;
+    }
+
+    .fdiv {
+        display: inline-block;
+        border-right: 1px solid #808080;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .ediv {
+        display: inline-block;
+    }
+    .news-grid {
+        margin: 1%;
+        background: #FFF;
+        border: 1px solid #f2f2f2;
+        padding: 0 2%;
+        border-bottom: 4px solid #e0e0e0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -o-border-radius: 10px;
+        -moz-border-radius: 10px;
+        width: 23%;
+        float: left;
+        min-width: 240px;
+    }
+
+        .news-grid img {
+            max-width: 100%;
+            display: block;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+            -webkit-border-radius: 10px 10px 0px 0px;
+            -moz-border-radius: 10px 10px 0px 0px;
+            -o-border-radius: 10px 10px 0px 0px;
+        }
+
+    .news-grid-middle {
+        margin: 0 2%;
+    }
+
+    .news-grid h2 {
+        margin: 25px 0 10px 0;
+        font-size: 20px;
+    }
+
+    .news-grid p {
+        font-size: 13px;
+        color: #7f8c8c;
+        line-height: 1.6em;
+    }
+
+    .news-grid a.read-more {
+        font-size: 12px;
+        color: #77a1a0;
+        font-style: italic;
+        margin: 15px 0;
+        display: inline-block;
+        text-transform: lowercase;
+        font-weight: 600;
+    }
+
+    .news-grid-middle {
+        margin: 15px auto;
+    }
+    .jdt1 {
+        background: #0e8dee;
+        float: left;
+        height: 5px;
+    }
+
+    .jdt2 {
+        background: #eee;
+        float: left;
+        height: 5px;
+    }
+
+    .awarning {
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px 0;
+        background-color: #0e8dee;
+        color:#fff;
+    }
+    .awarning2 {
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px 0;
+        background-color: #9bcdfa;
+        color: #fff;
+    }
+        .awarning:hover, .awarning2:hover {
+            color: #fff;
+            cursor: pointer;
+            z-index: 2;
+            -webkit-box-shadow: 2px 2px 10px #b0ddff;
+            box-shadow: 2px 2px 10px #b0ddff;
+            -webkit-transform: translate3d(0,-1px,0);
+        }
+
+    .surplusShow {
+        display: none;
+    }
+
+    .titleHide {
+        display: none;
+    }
+    .topTitle {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 10px 0 10px;
+    }
+</style>
+<div style="width: 80%; max-width: 1366px; margin: 0 auto;">
+<div class="wrap">
+  
+
+
+    <div class="support">
+
+    </div>
+
+</div>
+
+<div class="wrap">
+
+
+
+    <div class="row HomeList-Head">
+        <div class="ui-panel-head-title"> <h2>定投宝</h2></div>
+        <div class="ui-panel-head-more"> <a href="/Home/Financial?id=10">更多<i class="iconfont "></i> </a></div>
+
+    </div>
+    <div class="HomeList" id="DtbList">
+    <div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="定投宝2017B12002">定投宝2017B12002</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">12</span> /12人    <br>  <span>参与人数</span>  </div><div class="ediv">10 -12个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 100%;"></div><div class="jdt2" style=" width :0%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日0时0分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥11000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥1000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>固定利息：</span><span class="color-secondary">￥120</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">6日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="888" class="btn  awarning2" onclick=" add(this)">进行中</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="定投宝2016B12007">定投宝2016B12007</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">12</span> /12人    <br>  <span>参与人数</span>  </div><div class="ediv">11 -12个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 100%;"></div><div class="jdt2" style=" width :0%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日0时0分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥11000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥1000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>固定利息：</span><span class="color-secondary">￥120</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">7日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="712" class="btn  awarning2" onclick=" add(this)">进行中</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="定投宝2017B12001">定投宝2017B12001</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">12</span> /12人    <br>  <span>参与人数</span>  </div><div class="ediv">9 -12个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 100%;"></div><div class="jdt2" style=" width :0%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日0时0分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥11000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥1000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>固定利息：</span><span class="color-secondary">￥120</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">14日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="695" class="btn  awarning2" onclick=" add(this)">进行中</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="定投宝2017B12004">定投宝2017B12004</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">10</span> /12人    <br>  <span>参与人数</span>  </div><div class="ediv">8 -12个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 83.33333333333334%;"></div><div class="jdt2" style=" width :16.666666666666657%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日0时0分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥11000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥1000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>固定利息：</span><span class="color-secondary">￥120</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">20日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1021" class="btn  awarning2" onclick=" add(this)">进行中</a></div></div> </div></div></div></div>
+
+</div>
+
+<div class="wrap">
+
+    
+   
+    <div class="row HomeList-Head">
+        <div class="ui-panel-head-title"> <h2>自由筹</h2></div>
+        <div class="ui-panel-head-more"> <a href="/Home/Financial?id=9">更多<i class="iconfont "></i> </a></div>
+       
+    </div>
+    <div class="HomeList" id="tyList">
+    <div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="创业筹M3W005">创业筹M3W005</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">15</span> /26人    <br>  <span>参与人数</span>  </div><div class="ediv">0 -26个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 57.692307692307686%;"></div><div class="jdt2" style=" width :42.307692307692314%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日7时59分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥75000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥3000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥300</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥1000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">0日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1613" class="btn  awarning" onclick=" add(this)">加 入</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="工薪筹M1W014（季度加标）">工薪筹M1W014（季度加标）</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">13</span> /31人    <br>  <span>参与人数</span>  </div><div class="ediv">0 -31个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 41.935483870967744%;"></div><div class="jdt2" style=" width :58.064516129032256%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日7时59分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥30000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥1000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥100</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥400</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">0日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1657" class="btn  awarning" onclick=" add(this)">加 入</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="精英筹M2W008">精英筹M2W008</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">6</span> /26人    <br>  <span>参与人数</span>  </div><div class="ediv">0 -26个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 23.076923076923077%;"></div><div class="jdt2" style=" width :76.92307692307692%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日7时59分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥50000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥2000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥200</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥650</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">0日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1656" class="btn  awarning" onclick=" add(this)">加 入</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="自由筹2017A10W003">自由筹2017A10W003</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">10</span> /10人    <br>  <span>参与人数</span>  </div><div class="ediv">8 -10个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 100%;"></div><div class="jdt2" style=" width :0%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日0时0分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥2700   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥300</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥7</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥34</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">9日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1030" class="btn  awarning2" onclick=" add(this)">进行中</a></div></div> </div></div></div></div>
+
+</div>
+
+<div class="wrap">
+    <div class="row HomeList-Head">
+        <div class="ui-panel-head-title">
+            <h2>人脉宝</h2>
+        </div><div class="ui-panel-head-more"><a href="/Home/Financial?id=3"> 更多<i class="iconfont "></i></a></div>
+    </div>
+    <div class="HomeList" id="List">
+    <div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="互助储蓄罐">互助储蓄罐</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">2</span> /11人    <br>  <span>参与人数</span>  </div><div class="ediv">0 -11个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 18.181818181818183%;"></div><div class="jdt2" style=" width :81.81818181818181%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>15日10时51分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥3000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥300</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥10</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥30</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">0日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1172" class="btn  awarning" onclick=" add(this)">加 入</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="从小奋斗">从小奋斗</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">1</span> /7人    <br>  <span>参与人数</span>  </div><div class="ediv">0 -7个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 14.285714285714285%;"></div><div class="jdt2" style=" width :85.71428571428572%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>12日5时25分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥3000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥500</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥8</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥38</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">0日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1644" class="btn  awarning" onclick=" add(this)">加 入</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="一起存点零花钱">一起存点零花钱</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">1</span> /11人    <br>  <span>参与人数</span>  </div><div class="ediv">0 -11个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 9.090909090909092%;"></div><div class="jdt2" style=" width :90.9090909090909%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>11日2时23分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥3000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥300</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥8</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥38</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">0日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">外标   </span></div><div><div style=" text-align: center;"><a cid="1640" class="btn  awarning" onclick=" add(this)">加 入</a></div></div> </div></div><div class="news-grid">   <div class="m-t-20 color-xmbh fs-18 color-secondary topTitle" title="蒸蒸日上">蒸蒸日上</div>  <div class="color-9 fs-16 finnumber">       <div class="fdiv">   <span class="col">34</span> /37人    <br>  <span>参与人数</span>  </div><div class="ediv">0 -37个月<br>       项目期限     </div><div class="color-9 fs-16 surplustime"><div class="jdt1" style=" width : 91.8918918918919%;"></div><div class="jdt2" style=" width :8.108108108108098%;"></div></div><div class="color-9 fs-16 "><span>剩余时间：</span><span>0日7时59分</span></div><div class="m-l-20 m-t-20 color-9 t-a-l  fs-14"><span>项目总额：</span><span class="color-secondary">￥36000   </span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>项目金额：</span><span class="color-secondary">￥1000</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>底 标 价：</span><span class="color-secondary">￥83</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>顶 标 价：</span><span class="color-secondary">￥310</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>缴 款 日：</span><span class="color-secondary">0日</span></div><div class="m-l-20 m-t-5 color-9 t-a-l  fs-14"><span>竞标类型：</span><span class="color-secondary">内标   </span></div><div><div style=" text-align: center;"><a cid="1624" class="btn  awarning" onclick=" add(this)">加 入</a></div></div> </div></div></div></div>
+</div>
+    <div class="news">
+        <div class="wrap">
+
+            <div class="row">
+                <div class="col-lg-6 ui-grid-News-l">
+
+                    <a href="/News/Information?newsCls=01">
+                        <div style=" text-align:left" class="ui-grid-News-title color-secondary">
+                            <span><i class="fa fa-arrow-circle-right "></i>&nbsp;企业动态</span>
+                            <span style=" float: right;">更多</span>
+                        </div>
+                    </a>
+
+                    <div style=" text-align:left" class="ui-grid-News-content">
+
+                        <ul class="list" id="dynamic">
+
+                         <li><span>2018-01-05</span><a title="中国农业银行系统维护通知" href="/News/ViewNews/443" target="_blank">中国农业银行系统维护通知</a></li> <li><span>2018-01-02</span><a title="即时取现功能恢复通知" href="/News/ViewNews/442" target="_blank">即时取现功能恢复通知</a></li> <li><span>2018-01-02</span><a title="普通取现功能恢复通知" href="/News/ViewNews/441" target="_blank">普通取现功能恢复通知</a></li> <li><span>2017-12-29</span><a title="取现功能关闭" href="/News/ViewNews/440" target="_blank">取现功能关闭</a></li> <li><span>2017-12-16</span><a title="圈子金服双旦狂欢" href="/News/ViewNews/439" target="_blank">圈子金服双旦狂欢</a></li></ul>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 ui-grid-News-l">
+
+                    <a href="/News/Information?newsCls=03">
+                        <div style=" text-align:left" class="ui-grid-News-title color-secondary">
+                            <span><i class="fa fa-arrow-circle-right "></i>&nbsp;行业资讯</span>
+                            <span style=" float: right;">更多</span>
+                        </div>
+                    </a>
+
+                    <div style=" text-align:left" class="ui-grid-News-content">
+
+                        <ul class="list" id="industry">
+                         <li><span>2017-06-28</span><a title="银监会限额网贷“20万、100万” 某些省正制定条例拟突破" href="/News/ViewNews/385" target="_blank">银监会限额网贷“20万、100万” 某些省正制定条例拟突破</a></li> <li><span>2017-06-08</span><a title="房贷利率狂涨41% 就算你想买房都难下手了！" href="/News/ViewNews/375" target="_blank">房贷利率狂涨41% 就算你想买房都难下手了！</a></li> <li><span>2017-05-26</span><a title="红岭腐败案最新：8笔逾期涉1400余万 开除2人" href="/News/ViewNews/365" target="_blank">红岭腐败案最新：8笔逾期涉1400余万 开除2人</a></li> <li><span>2017-05-16</span><a title="马云取代王健林成内地首富" href="/News/ViewNews/359" target="_blank">马云取代王健林成内地首富</a></li> <li><span>2017-05-09</span><a title="史玉柱澄清并非绿能宝股东 与SPI属债务关系" href="/News/ViewNews/354" target="_blank">史玉柱澄清并非绿能宝股东 与SPI属债务关系</a></li></ul>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+<div class="wrap">
+    <div class="">
+        <div class="row " style="background-color:#fff;padding:45px 0">
+            <div class="col-lg-3 col-xs-12 col-sm-3 col-md-3 ui-grid-News-l" style="text-align:center">
+                <img src="/theme01/images/partnership2.png" class="img100">
+            </div>
+
+            <div class="col-lg-3 col-xs-12 col-sm-3 col-md-3 ui-grid-News-l" style="text-align: center;">
+                <img src="/theme01/images/partnership1.png" class="img100" style="height:100%">
+            </div>
+
+            <div class="col-lg-3 col-xs-12 col-sm-3 col-md-3 ui-grid-News-l" style="text-align:center">
+                <img src="/theme01/images/partnership4.png" class="img100">
+            </div>
+
+            <div class="col-lg-3 col-xs-12 col-sm-3 col-md-3 ui-grid-News-l" style="text-align:center">
+                <img src="/theme01/images/partnership3.png" class="img100">
+            </div>
+        </div>
+    </div>
+ </div>
+    </div>
+
+            </div>
+    </div>
+
+    <div class="footer" style="border-bottom: 1px solid #5b6571">
+        <div class="header-width row" style="padding:40px 0 40px 0;">
+            <div class="col-lg-6 col-md-12">
+                <div class="col-xs-4">
+                    <h4>关于我们</h4>
+                    <ul class="links">
+                        <li><a href="/Home/AboutMe">公司简介</a> /</li>
+                        <li><a href="/Home/AboutMe">团队和服务</a> /</li>
+                        <li><a href="#">客户服务</a> /</li>
+                        <li><a href="/News/Information?newsCls=01">公司新闻</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <h4>帮助中心</h4>
+                    <ul class="links">
+                        <li><a href="http://www.qqzi.com/News/ViewNews/12"> 注册及认证 </a></li>
+                        <li><a href="http://www.qqzi.com/News/ViewNews/14"> 投资操作  </a></li>
+                        <li><a href="http://www.qqzi.com/News/ViewNews/23"> 转让操作</a></li>
+                        <li><a href="/Home/UserGuide"> 新手必读 </a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4">
+                    <h4>安全保障</h4>
+                    <ul class="links">
+                        <li><a href="/Home/SafeGuard#huifu"> 投资安全</a></li>
+                        <li><a href="/Home/SafeGuard#cerdit"> 征信系统 </a></li>
+                        <li><a href="/Home/SafeGuard#DataSafe"> 数据及信息</a></li>
+                        <li><a href="/Home/SafeGuard#RiskMargin"> 风险控制</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 footer-right">
+                <div class="footer-phone">
+                    <p style="margin:0;font-size:30px">4000-888-919</p>
+                    <p><i class="fa fa-comments"></i> 在线客服</p>
+                    <p>服务时间：9：00 - 18：00</p>
+                </div>
+                <div class="QRcode">
+                    <img src="/theme01/images/erweima.jpg" height="150" width="150">
+                    <p>微信公众号</p>
+                </div>
+                <div class="QRcode">
+                    <img src="/theme01/images/app.png" height="150" width="150">
+                    <p>客户端下载</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="header-width">
+            <p class="last">Copyright © 2015.福建圈子互联网金融服务有限公司 All rights reserved. 闽ICP备15016435号-2 服务热线：400-867-8899</p>
+        </div>
+    </div>
+
+    <script src="/Scripts/Calculator.js"></script>
+    <script type="text/javascript">
+        var web_islogin = false;
+        var postWeiXin = false;
+        if(postWeiXin){
+            $.post("/WeiXin/WeixinCallBack",{data: "FdxxsfG/662wj4W/6STRKg=="},function(d){
+                if(d.Message){ showTip(d.Message); }
+            },"json");
+        }
+        function closeCalculator () {
+            $("#Calculator").fadeOut();
+        }
+        $(function(){
+            CustomService();
+
+            //var htmls = $.ShowCalculator();
+            $("#lixi").Calculator();
+
+
+
+            $("#registButton").click(function () {
+                if (window.isMobile) {
+                    location.href = "/Home/Regist";
+                }
+                else
+                {
+                    location.href = "/Home/Agreement";
+                }
+            })
+
+            var topNum = parseInt($(".tools_side").css("top") + "");
+            //$(window).scroll(function () {
+            //    var scrollTopNum = $(window).scrollTop(); //获取网页被卷去的高
+            //    scrollTopNum > 100 ? $(".returnTop").fadeIn(200).css("display", "block") : $(".returnTop").fadeOut(200);
+            //    $(".tools_side").stop(true, true).delay(0).animate({ top: scrollTopNum + topNum }, "slow");
+            //})
+
+
+            var VdxDiv = $("#dxDiv").is(":visible"); //是否可见
+            if (VdxDiv) { $("#sel").val("dx"); } else {
+
+                $("#sel").val("nb");
+            }
+
+
+
+
+            $("#sel").change(function () { calculate(); });
+
+            $("#money1").keyup(function () {
+                calculate();
+            });
+            $("#yyyte").keyup(function () {
+                calculate();
+            });
+            $("#allmoney").keyup(function () {
+                calculate();
+            });
+            $("#kkk").change(function () {
+                calculate();
+            });
+
+
+            $(".kefu").click(function () {
+                $(".tools_list").animate({ "marginRight": "-80px" }, 500, 'swing', function () {
+                    $(".tools_list").css('display', 'none');
+                    $(".kefuContent").css('display', 'block');
+                    $(".kefuContent").animate({ "marginRight": "0px" }, 500);
+                });
+            })
+            $(".kefuContent .close").click(function () {
+                $(".kefuContent").animate({ "marginRight": "-153px" }, 500, 'swing', function () {
+                    $(".kefuContent").css('display', 'none');
+                    $(".tools_list").css('display', 'block');
+                    $(".tools_list").animate({ "marginRight": "0px" }, 500);
+                });
+            });
+            $(".lixi").click(function () {
+                $(".tools_list").animate({ "marginRight": "-80px" }, 500, 'swing', function () {
+                    $(".tools_list").css('display', 'none');
+                    $(".lixiContent").css('display', 'block');
+                    $(".lixiContent").animate({ "marginRight": "0px" }, 500);
+                });
+            })
+            $(".xszy").click(function () {
+                window.location.href = "/Home/UserGuide";
+            })
+            $(".returnTop").click(function () {
+                window.location.href = "#";
+            })
+
+
+            $(".lixiContent .closeCal").click(function () {
+                $(".lixiContent").animate({ "marginRight": "-218px" }, 500, 'swing', function () {
+                    $(".lixiContent").css('display', 'none');
+                    $(".tools_list").css('display', 'block');
+                    $(".tools_list").animate({ "marginRight": "0px" }, 500);
+                });
+            });
+
+            $("#weixin").hover(function () {
+                $(".tools_side").css("overflow", "visible");
+                $(".weixinImg").css('display', 'block');
+            }, function () {
+                $(".weixinImg").css('display', 'none');
+                $(".tools_side").css("overflow", "hidden");
+            }
+            );
+        });
+
+    </script>
+
+
+
+</body></html>

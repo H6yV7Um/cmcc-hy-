@@ -1,0 +1,336 @@
+<!DOCTYPE html><html><head><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="renderer" content="webkit">
+<meta name="browsermode" content="application">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+<title>10085官方网站</title>
+<link rel="stylesheet" href="../assets/css/mall.min.3e2b18a0.css">
+</head><body><div class="web_mean"><!-- 头部导航 start -->
+<div id="common_header" class="web_index_top">
+    <div class="web_index_top_l"><a href="../index/index.html"><img src="../assets/img/web85/logo.e655369a.jpg"></a></div>
+    <div class="web_index_top_m">
+      <form id="J_search_form">
+        <div class="web_search">
+            <div class="web_search_l">
+                  <input id="J_search_input" type="text" placeholder="请输入商品名称或关键字">
+                  <span><a href="javascript:"><img src="../assets/img/web85/clear.12b7d121.png"></a></span>
+            </div>
+            <div class="web_search_r"><input type="button"></div>
+        </div>
+      </form>
+    </div>
+    <div class="web_index_top_r">
+        <a href="javascript:;" id="head_kefu"><span class="hd_kefu"><small class="kf"></small>客服</span></a>
+        <span>
+          <a href="../login/login.html">登录</a> | 
+          <a href="../register/register.html">注册</a>
+        </span>
+    </div>
+</div>
+
+
+<script id="common_header_template" type="text/x-handlebars-template">
+  <span><a href="../user-center/user-center.html"><b></b>{{userLoginId}}</a></span>
+  <i class="web_center" style="margin:0 10px;"><a href="../user-center/user-center.html">个人中心 <img src="../assets/img/web85/jt.b1b6047b.png"></a></i>
+  <span><a href="javascript:;" id="J_in_headkf"><span class="hd_kefu" style="margin-right:15px;"><small class="kf"></small>客服</span></a></span>
+  <div class="web_center_list">
+      <ul>
+        <li><a href="../order/all-orders.html">我的订单</a></li>
+        <li><a href="../user-center/my_collect.html">我的收藏</a></li>
+        <li id="quitBtn"><a href="javascript:">退出</a></li>
+      </ul>
+  </div>
+  <em class="my_order" style="margin-left:0;"><a href="../cart/shopping.html"><i class="iconfont icon-gouwuche"></i>购物车(<span id="J_cart_count">0</span>)</a></em>
+</script>  
+<!-- 头部导航 end --><div class="web_banner"><div class="fullSlide"><div class="bd" id="banner"><script id="swiper-wrapper" type="text/x-handlebars-template"><ul style="height:422px !important;"> {{#each beans}} <li> <a href="{{TRGR_URL_ADDR}}"><img src="{{MAIN_PIC_SRC}}" alt=""></a> </li> {{/each}} </ul></script></div><div class="hd"><ul></ul></div></div></div><div class="web_card" id="hot-porduct"><script id="hot-porduct-wrap" type="text/x-handlebars-template"><div class="web_card_l"> <a href="{{this.[0].TRGR_URL_ADDR}}"><img src="{{this.[0].MAIN_PIC_SRC}}"></a> </div> <div class="web_card_m"> <a href="{{this.[1].TRGR_URL_ADDR}}"><img src="{{this.[1].MAIN_PIC_SRC}}"></a> </div> <div class="web_card_r"> <a href="{{this.[2].TRGR_URL_ADDR}}"><img src="{{this.[2].MAIN_PIC_SRC}}"></a> </div></script></div><div id="J_area_list_1" class="web_starProduct"><script id="J_area_list_tpl_1" type="text/x-handlebars-template"><div id="J_area_{{id}}" class="web_starProduct_t" style="display:none;"> <div class="web_starPtitle_l"> <span class="color_red"></span>{{name}} </div> <div class="web_starPtitle_r box"> <div class="web_switch"> <em class="border_l prev"><a href="javascript:"><img src="../assets/img/web85/left1.8f7a6c2b.png"></a></em> <em class="border_r border_1px next"><a href="javascript:"><img src="../assets/img/web85/right.502050d6.png"></a></em> </div> </div> </div> <div class="web_starProduct_m box"> <ul class="roll" id="J_area_item_list_{{id}}"> </ul> </div></script></div><script id="J_area_item_list_tpl_1" type="text/x-handlebars-template">{{#each beans}} <li class="border_color{{loopFor4 @index}}"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}"> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}"> {{/compare}} <img src="{{mcdsPicUrl}}" alt=""></a> <h3 class="title"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} </h3> <p class="price"> {{#compare lowPrice '==' topPrice}} {{lowPrice}}<span>元</span> {{else}} {{lowPrice}}<span>元起</span> {{/compare}} </p> </li> {{/each}}</script></div><div id="J_area_list_2" class="web_starProduct web_margin20"><script id="J_area_list_tpl_2" type="text/x-handlebars-template"><div id="J_area_{{id}}" class="web_starProduct_t" style="display:none;"> <div class="web_starPtitle_l"> <span class="color_org"></span>{{name}} </div> <div class="web_starPtitle_r"><a href="javascript:gotoArea('area','{{name}}','{{id}}')">查看全部<span></span></a></div> </div> <div class="web_starProduct_m web_proList"> <ul id="J_area_item_list_{{id}}"> </ul> </div></script></div><script id="J_area_item_list_tpl_2" type="text/x-handlebars-template"><!--第1个广告位1 --> <li class="img_recom"> <a href="javascript:"><img src="../assets/img/web85/ad1.696aff35.jpg"></a> </li> {{#each beans}} <li> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}"> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}"> {{/compare}} <img src="{{mcdsPicUrl}}" alt=""></a> <h3 class="title"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} </h3> <p class="price"> {{#compare lowPrice '==' topPrice}} {{lowPrice}}<span>元</span> {{else}} {{lowPrice}}<span>元起</span> {{/compare}} </p> <p class="hide_buy"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}">立即购买</a> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}">立即购买</a> {{/compare}} </p> </li> {{/each}}</script><div id="J_area_list_3" class="web_starProduct web_margin20"><script id="J_area_list_tpl_3" type="text/x-handlebars-template"><div id="J_area_{{id}}" class="web_starProduct_t" style="display:none;"> <div class="web_starPtitle_l"> <span class="color_org"></span>{{name}} </div> <div class="web_starPtitle_r"><a href="javascript:gotoArea('area','{{name}}','{{id}}')">查看全部<span></span></a></div> </div> <div class="web_starProduct_m web_proList"> <ul id="J_area_item_list_{{id}}"> </ul> </div></script></div><script id="J_area_item_list_tpl_3" type="text/x-handlebars-template"><!--第2个广告位2 --> <li class="img_recom"> <a href="javascript:"><img src="../assets/img/web85/ad2.88089537.jpg"></a> </li> {{#each beans}} <li> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}"> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}"> {{/compare}} <img src="{{mcdsPicUrl}}" alt=""></a> <h3 class="title"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} </h3> <p class="price"> {{#compare lowPrice '==' topPrice}} {{lowPrice}}<span>元</span> {{else}} {{lowPrice}}<span>元起</span> {{/compare}} </p> <p class="hide_buy"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}">立即购买</a> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}">立即购买</a> {{/compare}} </p> </li> {{/each}}</script><div id="J_area_list_4" class="web_starProduct web_margin20"><script id="J_area_list_tpl_4" type="text/x-handlebars-template"><div id="J_area_{{id}}" class="web_starProduct_t" style="display:none;"> <div class="web_starPtitle_l"> <span class="color_org"></span>{{name}} </div> <div class="web_starPtitle_r"><a href="javascript:goto('area','{{name}}','{{id}}')">查看全部<span></span></a></div> </div> <div class="web_starProduct_m web_proList"> <ul id="J_area_item_list_{{id}}"> </ul> </div></script></div><script id="J_area_item_list_tpl_4" type="text/x-handlebars-template">{{#each beans}} <li> <a href="../commodity-details/shrz-details.html?productId={{mcdsId}}"> <img src="{{mcdsPicUrl}}" alt=""></a> <h3 class="title"><a href="../commodity-details/shrz-details.html?productId={{mcdsId}}">{{mcdsNm}}</a></h3> <p class="price"> {{#compare lowPrice '==' topPrice}} {{lowPrice}}<span>元</span> {{else}} {{lowPrice}}<span>元起</span> {{/compare}} </p> <p class="hide_buy"><a href="../commodity-details/shrz-details.html?productId={{mcdsId}}">立即购买</a></p> </li> {{/each}}</script><div class="web_b_banner"><a href="javascript:"><img src="../assets/img/web85/ad3.6e420441.jpg"></a></div><div id="J_area_list" class="web_starProduct web_margin20"><script id="J_area_list_tpl" type="text/x-handlebars-template">{{#each this}} <div id="J_area_{{id}}" class="web_starProduct_t" style="display:none;"> <div class="web_starPtitle_l"> <span class="color_green"></span>{{name}} </div> <div class="web_starPtitle_r"> <a href="javascript:gotoArea('area','{{name}}','{{id}}')">查看全部<span></span></a> </div> </div> <div class="web_starProduct_m web_proList"> <ul id="J_area_item_list_{{id}}"> </ul> </div> {{/each}}</script></div><script id="J_area_item_list_tpl" type="text/x-handlebars-template">{{#each beans}} <li> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}"> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}"> {{/compare}} <img src="{{mcdsPicUrl}}" alt=""></a> <h3 class="title"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}">{{mcdsNm}}</a> {{/compare}} </h3> <p class="price"> {{#compare lowPrice '==' topPrice}} {{lowPrice}}<span>元</span> {{else}} {{lowPrice}}<span>元起</span> {{/compare}} </p> <p class="hide_buy"> {{#compare mcdsUnitSubclsTypeCd '==' '01'}} <a href="../commodity-details/commodity-details.html?productId={{mcdsId}}">立即购买</a> {{/compare}} {{#compare mcdsUnitSubclsTypeCd '==' 'X004'}} <a href="../commodity-details/parts-details.html?productId={{mcdsId}}">立即购买</a> {{/compare}} </p> </li> {{/each}}</script><script src="../assets/common/mall.min.be9f7253.js"></script><!-- 底部导航 start -->
+<div class="web_bottom">
+    <div class="web_bottom_assure" style="border:0;">
+        <ul>
+          <li><span class="b1"></span>官方认证渠道</li>
+          <li><span class="b2"></span>正品保障正规发票</li>
+          <li><span class="b3"></span>品牌厂家优势货品</li>
+          <li><span class="b4"></span>新品上市同步发售</li>
+          <li class="borderNone"><span class="b5"></span>全场商品无忧退换</li>
+        </ul>
+    </div>
+    <!-- <div class="web_bottom_about">
+        <ul>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="../assets/img/web85/home.159f796b.jpg" alt="">
+                    <p>中移在线员工之家</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="../assets/img/web85/culture.0d1172db.jpg" alt="">
+                    <p>中移在线企业文化</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="../assets/img/web85/team.e7a092cc.jpg" alt="">
+                    <p>中移在线团队介绍</p>
+                </a>
+            </li>
+        </ul>
+    </div> -->
+</div>
+
+<div class="web_btnav">
+        <div class="web_bottom_nav">
+            <dl>
+                <dt>购物指南</dt>
+                <dd><a href="../help/buyRead.html">买家必读</a></dd>
+                <dd><a href="../help/buyProcess.html">购物流程</a></dd>
+                <dd><a href="../help/orderQuery.html">订单查询</a></dd>
+            </dl>
+            <dl>
+                <dt>支付方式</dt>
+                <dd><a href="../help/onlinePay.html">在线支付</a></dd>
+            </dl>
+            <dl>
+                <dt>配送方式</dt>
+                <dd><a href="../help/distribution.html">快递配送</a></dd>
+                <dd><a href="../help/signTips.html">签收提示</a></dd>
+            </dl>
+            <dl>
+                <dt>售后服务</dt>
+                <dd><a href="../help/refundExplain.html">退款说明</a></dd>
+                <dd><a href="../help/refundPrinciple.html">退换货原则</a></dd>
+            </dl>
+            <dl style="margin-left:0;">
+              <div class="wx_185 fl">
+                  <img src="../assets/img/web85/ewm.4e44efe7.jpg"><br>
+                  更多精彩，请您微信扫一扫！
+              </div>
+              <div class="wx_186 fr">
+                  <img src="../assets/img/web85/ewm1.93a0f741.jpg"><br>
+                  更多精彩，请您微信扫一扫！
+              </div>
+            </dl>
+            <dl class="borderNone">
+	            <img src="../assets/img/web85/b_tel.f733a4a5.png"><br>
+	            <a class="b_kf" href="#"><img src="../assets/img/web85/b_kf.6c6c92bd.png"></a>
+            </dl>
+        </div>
+    </div>
+
+<div class="web_copy">
+    <p></p> 
+    <p><a target="_blank" href="http://wj.haaic.gov.cn/TopICRS/certificateAction.do?id=201603090000013430"><img src="../assets/img/web85/wj.23bb31a9.jpg" width="35" height="35"></a>Copyright@2016 中移在线服务有限公司 版权所有</p> 
+    <p>备案许可证号：豫ICP备15016518号</p>
+</div>
+
+<!-- 返回顶部 -->
+<script type="text/javascript" src="../assets/lib/backtop.7ebbbaeb.js"></script>
+<script type="text/javascript" src="../assets/lib/placeholder.d984e9d4.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var userLoginId = getUserLoginId();
+		srvMap.add("cart-count", "", "front/sh/shopCart!queryCountByCustId?custId=8888&uid=sc002");
+	    srvMap.add("user-count", "../../assets/data/order/all.json","front/sh/order!querySubOrderCountForWeChat?uid=o004&odrStsCd=1042");
+		if(userLoginId){
+			Util.ajax.postJson(srvMap.get("cart-count"), "", function(data, flag){
+				if(data && data.bean && data.bean.totalMcds){
+					var count = data.bean.totalMcds;
+					if(count>0){
+						$('#J_cart_count').html(count).show();
+					}
+				}
+			});
+		}
+
+		
+		//生成一个11开头的19位的用户随机唯一标识
+		var phoneNum = userLoginId || "11"+Math.random()*100000000000000000;
+		var cityNm = "";//市名称
+		var provinceCode = "";//省编码
+		var province = "";//省名称
+		var cityCode = "";//市编码
+		var urlParams = "";//加密参数
+		srvMap.add("onlineServiceUrlEncode", "", "front/sh/active!onlineServiceUrlEncode?uid=x001");//在线客服url参数加密接口
+		srvMap.add("queryAddrByTel","","front/sh/login!queryAddrByTel?uid=w001");//获取省级代码和市名字
+		Util.ajax.postJsonSync(srvMap.get("queryAddrByTel"), {"tel_num":phoneNum}, function(data, flag) {
+			if(data.returnCode == 0){
+				//成功
+				province = data.bean.province;
+				cityNm = data.bean.cityNm;
+			} else {
+				Util.Tips.warning("系统异常，请刷新后重试！", 'bottom', true);
+				return false;
+			}
+		});
+		Util.ajax.postJsonSync("/web85/assets_data/data/region/online-service-prov-code.json", "", function(data, flag) {//在线客服省代码json
+			if(data){
+				if(data[province]){
+					provinceCode = data[province];
+				}else{
+					provinceCode = "000";//不存在写000
+				}
+			}			
+		});
+		Util.ajax.postJsonSync("/web85/assets_data/data/region/online-service-region-code.json", "", function(data, flag) {//在线客服市代码json
+			if(data){
+				if(data[cityNm]){
+					cityCode = data[cityNm];
+				}else{
+					cityCode = "000";//如不存在 写000
+				}
+			}
+		});
+		var urlEncodeParams = {
+			"phone" : phoneNum,
+			"source" : "110407",
+			"cc" : cityCode,
+			"pc" : provinceCode
+		}
+		Util.ajax.postJsonSync(srvMap.get("onlineServiceUrlEncode"), urlEncodeParams, function(data, flag) {//获取加密参数
+			if(data.bean){
+				urlParams = data.bean.urlParams;
+				$('#head_kefu').attr('href','http://kf.cmcc-cs.cn:20980/ngmmgw/channelapi/web/index/'+data.bean.urlParams);
+				$('.borderNone a').attr('href','http://kf.cmcc-cs.cn:20980/ngmmgw/channelapi/web/index/'+data.bean.urlParams);
+			}
+		});
+		
+
+		//判断用户是否登陆，登陆后页面公共头部变化
+	    if(userLoginId!=''){
+	    	if($("#common_header").length>0){
+		        $("#common_header").addClass("web_loginIn");
+		        var headerHandle = Handlebars.compile($("#common_header_template").html());
+		        userLoginId = userLoginId.substring(0,3)+"****"+userLoginId.substring(7,11);
+		        var user = {
+		            "userLoginId" : userLoginId
+		        };
+		        var common_header_content = headerHandle(user);
+		        $(".web_index_top_r").html(common_header_content);
+				//登陆成功 为公共头文件接入客服功能(已登陆情况下)
+				$('#J_in_headkf').attr('href','http://kf.cmcc-cs.cn:20980/ngmmgw/channelapi/web/index/'+urlParams);
+	    	}
+	    }
+
+
+	    //退出登陆功能
+	    srvMap.add("quitseesion","","front/sh/login!initSession?uid=w001");
+	    $("#quitBtn").click(function(){
+	        Util.ajax.postJson(srvMap.get("quitseesion"),"uid=w001",quit);
+	    });
+
+	    function quit(data,flag){
+	        if(data!=null){
+	            if(data.state=='0'){
+	                //alert('退出成功');
+	                Util.Tips.success("退出成功", 'bottom', true);
+	                //退出成功，清除用户记住密码localstorage中信息
+	                localStorage.removeItem('cookieUserName');
+	                localStorage.removeItem('encryPassword');
+	                localStorage.removeItem('cookieUuid');
+	                //清除sessionStorage中returnUrl
+	                sessionStorage.removeItem('returnUrl');
+	                document.location.href="../index/index.html";
+	            }else{
+	                //alert('退出失败，请重新退出');
+	                Util.Tips.warning("退出失败，请重新退出", 'bottom', true);
+	            }
+	        }
+	    }
+
+
+	    //公共头部商品搜索
+	    function globalsearch() {
+	        var search = $("#J_search_input").val();
+	        var type = GetQueryString('type');
+	        var id = GetQueryString('id');
+	        var param = "";
+	        if(type!=null){
+	            param += "&type="+type;
+	        }
+	        if(id!=null){
+	            param += "&id="+id;
+	        }
+	        var searchName = $('#J_search_input').attr('placeholder');
+	        console.log(searchName);
+	        if(searchName=='商户入驻专区'){
+	        	window.location.href = '../search/searchESB-filter.html?search=' + escape(search) + param;        	
+	        }else{
+	        	window.location.href = '../search/search-filter.html?search=' + escape(search) + param;	        	
+	        }	        
+	    }
+	    //URL中搜索参数放入搜索输入框中
+	    var searchContent = GetQueryString('search');
+	    if(searchContent != null || searchContent != ''){
+	    	JPlaceHolder.init(1); 
+	    }
+	    $('#J_search_input').val(searchContent)
+	    $('#J_search_form').submit(function() {
+	        globalsearch();
+	        var searchName = $('#J_search_input').val();
+	        if(searchName!==''&&searchName!==null&&searchName!==undefined){
+	        	 Util.ajax.postJson('insertHotSearch',{
+					searchName:searchName
+					},function(data,flag){		
+				})
+	        }		       
+	        return false;
+	    });
+	    $(".web_search_r input").click(function() {
+	        globalsearch();
+	    });
+
+	    //头部-商品搜索
+	    $(".web_search_l input").focus(function(){
+	        $(".web_search_l span").show();
+	    });
+	    $(".web_search_l span").click(function(){
+	        $(".web_search_l input").val("");
+	        $(".web_search_l span").hide();
+	    });
+	    // 个人中心下拉
+        $(".web_center,.web_center_list").mouseover(function(){
+            $(".web_center_list").show();
+            $(".web_center").css("border-color","#e0e0e0");
+        });
+        $(".web_center,.web_center_list").mouseout(function(){
+            $(".web_center_list").hide();
+            $(".web_center").css("border-color","#fff");
+        });
+	    
+	    //产品块动画
+	    var webAnimation = $(".web_proList ul li");
+	    $(webAnimation).mouseover(function(){
+	      $(this).addClass("web-active");
+	    });
+	    $(webAnimation).mouseout(function(){
+	      $(this).removeClass("web-active");
+	    });
+
+	    // 产品鼠标经过显示购买按钮
+	    $(".web_proList ul li").mousemove(function(){
+	        $(this).children("p.hide_buy").show();
+	        $(this).children("p.price").hide();
+	    });
+	    $(".web_proList ul li").mouseout(function(){
+	        $(this).children("p.hide_buy").hide();
+	        $(this).children("p.price").show();
+	    });
+		
+		//个人中心左半部菜单增加样式
+		var left_val = GetQueryString('left_menu');
+		//console.log(left_val);
+		if(left_val!=null){
+			var left_menus=$(".web_Usercenter_left dl dd");
+			//console.log(left_menus.length);
+			$.each(left_menus,function(){
+				if($(this).attr("id")==left_val)
+				{
+					$(this).addClass("center_cur");
+				}
+			});
+		}
+		
+	 });
+</script>
+<!-- 底部导航 end -->
+<script type="text/javascript" src="../assets/lib/superslide.2.1.798bacb3.js"></script><script src="../js/index/index.8db85a5b.js"></script><div id="tips-div" style="text-align:center;position:fixed;margin:0 auto;bottom:90px;left:10%;width:80%;z-index:99999999;"></div></body></html>

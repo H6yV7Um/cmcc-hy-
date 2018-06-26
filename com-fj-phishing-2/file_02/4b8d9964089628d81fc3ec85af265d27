@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=gb2312"><meta http-equiv="pragma" content="no-cache"><title>E部落--厦门交友、厦门户外、厦门活动、自助游、厦门论坛、厦门婚恋--专注交友与活动，每周上百个各类活动</title><meta name="Keywords" content="e部落,厦门户外,自助游,厦门交友,厦门活动,厦门旅游,泉州交友,泉州户外,漳州交友,漳州户外,福州交友,福州户外"><meta name="Description" content="E部落，厦门最具影响力的专业交友、活动平台，规范的活动发布体系，每周上百个各类活动；数以万计的会员生活照，给单身会员万里挑一的选择"><script src="//hm.baidu.com/hm.js?38ee5d141c0bd3183cc57f7dded6002c"></script><script src="//hm.baidu.com/hm.js?38ee5d141c0bd3183cc57f7dded6002c"></script><script type="text/javascript" src="/Quote/Public/js/function.js"></script><script type="text/javascript" src="/Quote/Public/js/jquery-1.9.1.js"></script><script type="text/javascript" src="/Quote/Public/js/layer_slider.js"></script><script type="text/javascript" src="/Quote/Public/js/slidernav.js"></script><link href="/css/ei-style-20170815.css" rel="stylesheet" type="text/css"></head><body style="background:#e2f2f2"><div class="broadcast" style="display:none">	<div class="title">		<div class="user">			<span>您好，E部落访客！			</span>		</div>		<div class="close" title="关闭" onclick="$('.broadcast').hide();"><span>&nbsp;</span></div>	</div>	<div class="b_content">		<div class="img"></div>		<div class="b_info" id="b_info">		</div>	</div></div><div class="ebar">	<div class="ebar_inner">		<div class="uicon">			<div class="uzn">				<a href="/Personal/" rel="external nofollow" class="ui-link login-layerbox" target="_top">个人空间</a>			</div>			<div class="msg">				<div class="m-list msg-float layer-none">					<i></i>					<a href="javascript:;" class="msg-fclose"></a>					<ul id="i-list">						<li>暂无任何提示信息</li>					</ul>				</div>				<a href="/Mail/" rel="external nofollow" class="ui-link login-layerbox" target="_top">站内信箱</a>			</div><script>
+	 $(document).ready(function(){
+		   $('.msg-float').smartFloat(23);
+		   $('.msg-float').find('.msg-fclose').click( function(){
+			 $('.msg-float').addClass('layer-none');
+			 return false;
+		});
+	 });
+</script>
+			<div class="ufrd">				<a href="/Search/whoson.asp" class="ui-link" target="_top">在线会员</a>			</div>			<div class="set">				<a href="/Personal/ParaSet.asp" rel="external nofollow" class="ui-link login-layerbox" target="_top">隐私设置</a>			</div>		</div>		<div class="uib">			<ul class="user-llist">			<li>欢迎来到E部落，您当前状态：游客。</li>			<li><a href="javascript:;" rel="external nofollow" class="login-layerbox">登录</a>&nbsp;|&nbsp;<a href="/script/mReg_Step1.asp">注册</a></li>				<li style="float:right"><span class="u-lvn" id="online">当前登录上线会员202人</span></li>			</ul>		</div>	</div></div><div class="ebar_b"></div>	<div class="header">		<div class="header_inner">			<div class="logoarea">			<div class="elogo">			<a href="http://www.ECL.com.cn/" class="logo"><img src="/images/elogo.png"></a>			</div>			</div>			<div class="h-search">				<form name="sch_f" id="sch_f" method="post" target="_blank">				<div class="s-slecet">					<i class="s-class">活动</i>					<div class="s-textl" style="display:none">						<ul>							<li search-class="1" search-target="_blank" search-hint="可输入活动关键词/景点/组织者 进行搜索">活动</li>							<li search-class="2" search-target="_self" search-hint="请输入要查询的会员用户名">会员</li>							<li search-class="3" search-target="_self" search-hint="请输入要查询的贴子关键词" style="border:0px;border-radius:0px 0px 0px 3px;">帖子</li>						</ul>					</div>					<select name="Q_Type" id="Q_Type" class="s-inp" style="display:none">						<option value="1">活动</option>						<option value="2">会员</option>						<option value="3">帖子</option>					</select>				</div><script>
+	var sv=$('.s-textl li').attr('search-hint');
+    $(document).ready(function(){
+		$(document).bind('click',function(e){
+			var obj = e.srcElement ? e.srcElement : e.target;
+            var target  = $(obj);
+            if(target.attr('class') == 's-class')
+			{
+				$('.s-textl').toggle();
+			}
+			if(target.attr('class') != 's-class' && target.attr('class') != 's-textl')
+			{
+				$('.s-textl').hide();
+			}
+		});
+		$('.s-textl li').on('click',function(){
+			$('.s-inp').val($(this).attr('search-class'));
+			$('.s-class').text($(this).text());
+			$('.inp-txt').val($(this).attr('search-hint'));
+			$('#sch_f').attr('target',$(this).attr('search-target'));
+			sv=$(this).attr('search-hint');
+			$('.s-textl').hide();
+		});
+	});
+</script>
+			<div class="s-stext">				<input type="text" name="Q" id="Q" maxlength="40" value="可输入活动关键词/景点/组织者 进行搜索" class="inp-txt" onfocus="if(this.value==sv){this.value='';}" onblur="if(this.value==''){this.value=sv;}" autocomplete="off"><input type="text" size="0" style="display:none">			</div>			<input type="button" class="s-submit" value="" onclick="chkSearch();return false;">			</form>			<script>
+			function chkSearch()
+			{
+				if(trim(sch_f.Q.value,0)=='' || trim(sch_f.Q.value,0)==sv[sch_f.Q_Type.value]){alert('请输入查询内容');return false;}
+				sch_f.Q_Type.value==1?sch_f.action='/JHD/index.asp':sch_f.Q_Type.value==2?sch_f.action='/Search/Query.asp':sch_f.action='/bbs/SeekResult.asp';
+				sch_f.Q.value=sch_f.Q.value.replace("'","′");
+				sch_f.submit();
+			}
+			</script>
+		</div>	</div>	<div class="emenu">			<div class="hnav">			<ul>				<li><a href="http://www.ECL.com.cn/" class="on" target="_top">首页</a></li>				<li><a href="/JHD/" target="_blank" title="当前共28个活动报名中，下拉查看首页展示活动">聚活动</a></li>				<li><a href="/Personal/Album.asp" title="共29462名会员上传照片" target="_top">会员相册</a></li>				<li><a href="/bbs/" rel="external nofollow" class="lt-url" target="_top">论坛</a></li>				<li><a href="/Personal/MyPoints.asp" target="_top">积分</a></li>			</ul>			<div class="wx">				<a href="/bbs/postshow.asp?id=15825501" target="_blank">关注微信公众号“厦门E部落”，活动、交友、论坛全部功能随身在握 »</a>			</div>		</div>	</div></div><div class="wrapper">	<div class="content">		<div class="hd">			<div class="bd-p">				<div class="inf">				<div class="bd">					<div id="banner">						<div id="banner_bg"></div>						<div id="banner_info">【大闽】诏安红星梅花园+悬钟古城一日游</div>						<ul id="banner_nub">					<li class="on"><span>1</span></li>					<li><span>2</span></li>					<li><span>3</span></li>							<li><span>…</span></li>						</ul>						<div id="banner_list">					<a href="/SysAd/ShowAd.asp?id=5300" target="_blank"><img src="/123/201801082215067Rk2Er.jpg" alt="【大闽】诏安红星梅花园+悬钟古城一日游" width="320" height="270"></a>					<a href="/SysAd/ShowAd.asp?id=5301" target="_blank" style="display: none;"><img src="/123/201801082218528Rs1Uc.jpg" alt="同安前格赏花德安古堡野炊寻幽八怪谷草莓采" width="320" height="270"></a>					<a href="/SysAd/ShowAd.asp?id=5299" target="_blank" style="display: none;"><img src="/123/201801041601526Vv8Fq.jpg" alt="【山鹰】戴云山溯溪、攀岩、看云海雾松" width="320" height="270"></a>							<a href="/JHD/" target="_blank" style="display: none;"><img src="/images/qr_ad.png" alt="扫描关注微信公众号" width="320" height="270"></a>						</div>					</div><script type="text/javascript">
+	var t = n = 0, count;
+	$(document).ready(function(){
+		count=$('#banner_list a').length;
+		$('#banner_list a:not(:first-child)').hide();
+		$('#banner_info').html($('#banner_list a:first-child').find('img').attr('alt'));
+		$('#banner_info').click(function(){window.open($('#banner_list a:first-child').attr('href'), '_blank')});
+		$('#banner_nub li').click(function() {
+			var i = $('#banner_nub li').index($(this)[0]);
+			n = i;
+			if (i >= count) return;
+			$('#banner_info').html($('#banner_list a').eq(i).find('img').attr('alt'));
+			$('#banner_info').unbind().click(function(){window.open($('#banner_list a').eq(i).attr('href'), '_blank')})
+			$('#banner_list a').filter(':visible').fadeOut(500).parent().children().eq(i).fadeIn(1000);
+			document.getElementById('banner').style.background='';
+			$(this).toggleClass('on');
+			$(this).siblings().removeAttr('class');
+		});
+		t = setInterval('showAuto()', 4000);
+		$('#banner').hover(function(){clearInterval(t)}, function(){t = setInterval('showAuto()', 4000);});
+	})
+	function showAuto()
+	{
+		n = n >=(count - 1) ? 0 : ++n;
+		i = n;
+		if (i >= count) return;
+		$('#banner_info').html($('#banner_list a').eq(i).find('img').attr('alt'));
+		$('#banner_info').unbind().click(function(){window.open($('#banner_list a').eq(i).attr('href'), '_blank')})
+		$('#banner_list a').filter(':visible').fadeOut(500).parent().children().eq(i).fadeIn(1000);
+		document.getElementById('banner').style.background='';
+		$('#banner li').removeAttr('class');
+		$('#banner li').eq(i).addClass('on');
+	}
+</script>
+				</div>				<div class="bd b_bd">
+					<div class="inner_xl clearfix">
+			<div class="s_tl clearfix">
+				<ul>
+<li>
+<a href="/Personal/Info.asp?username=%CF%C4%B8%F1%C0%AD%CB%B9" class="u" target="_blank">夏格拉斯</a>
+<span>[推荐]</span><a href="/bbs/PostShow.asp?id=15836347" target="_blank">厦门原创漫画《夏格拉斯》</a></li>
+<li class="dl">
+<a href="/Personal/Info.asp?username=%BA%EC%B8%DF%C1%BA" class="u" target="_blank">红高梁</a>
+<span>[推荐]</span><a href="/bbs/PostShow.asp?id=15836247" target="_blank" title="厦门国王航拍作品(2017年)高清桌面">厦门国王航拍作品(2017年)高…</a></li>
+<li>
+<a href="/Personal/Info.asp?username=%D0%A1%D0%A1%BB%D4" class="u" target="_blank">小小辉</a>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15837568" target="_blank" class="s">2018建发厦门马拉松</a></li>
+<li>
+<a href="/Personal/Info.asp?username=rimy" class="u" target="_blank">rimy</a>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15837521" target="_blank" class="s">关系如何建立？</a></li>
+<li>
+<a href="/Personal/Info.asp?username=E%B2%BF%C2%E4" class="u" target="_blank">E部落</a>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15837458" target="_blank" class="s" title="来宜之约：在您最希望靠岸的时间，为您找一个停泊的港湾">来宜之约：在您最希望靠岸的时间，为您找…</a></li>
+<li>
+<a href="/Personal/Info.asp?username=sunshinesn" class="u" target="_blank">sunshinesn</a>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15837403" target="_blank" class="s">院子，慢慢成为关于家的一个联想词</a></li>
+<li>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15836066" target="_blank" class="s" title="告诉孩子们守护我们平安的是边防军人！而不是什么圣诞老人！">告诉孩子们守护我们平安的是边防军人！而不是…</a></li>
+<li>
+<a href="/Personal/Info.asp?username=950331ldy" class="u" target="_blank">950331ldy</a>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15836062" target="_blank" class="s">从停车看素质而注定是否开什么车？</a></li>
+<li>
+<a href="/Personal/Info.asp?username=%C3%BB%D3%D0%BC%D9%C8%E7" class="u" target="_blank">没有假如</a>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15836043" target="_blank" class="s">这几个月的画</a></li>
+<li>
+<a href="/Personal/Info.asp?username=sunshinesn" class="u" target="_blank">sunshinesn</a>
+<span class="n">[新贴]</span><a href="/bbs/PostShow.asp?id=15835921" target="_blank" class="s" title="年过半百的老屋焕然一新，媳妇看了舍不得走">年过半百的老屋焕然一新，媳妇看了…</a></li>
+<li>
+<span class="h">[热贴]</span><a href="/bbs/PostShow.asp?id=15836298" target="_blank" class="s">追求自己想要的生活，有错吗？</a></li>
+				</ul>
+			</div>
+					</div>
+				</div>				</div>				<div class="memphoto clearfix">					<div class="title">						<div class="l">							<span>会员形象展示</span>						</div>						<div class="r">							<span>共<font color="#FF6600"><strong>29462</strong></font>名会员展示生活照 [<a href="/Personal/MyPhoto.asp" class="p login-layerbox">上传照片</a>]</span>						<a href="/Personal/Album.asp" class="go">会员相册</a>						</div>					</div>				<div class="mplist clearfix">					<ul>					<li>						<div class="photo">							<div class="pchk"></div>							<div class="psame">35岁/177cm/未婚							</div><a href="/Personal/Info.asp?username=%B9%C2%B6%C0%CE%DE%C7%E9" target="_blank" class="empty login-layerbox"><img src="/MemPic/M_201211121843081Fw4Im1Yg.jpg" border="0" width="120" height="150"></a>						</div>						<div class="username">							<a href="/Personal/Info.asp?username=%B9%C2%B6%C0%CE%DE%C7%E9" target="_blank" class="empty login-layerbox">孤独无情</a><img src="/images/vmem.gif" title="已经过身份证认证" class="vm">						</div>					</li>					<li>						<div class="photo">							<div class="pchk"></div>							<div class="psame">49岁/176cm/离异							</div><a href="/Personal/Info.asp?username=%C8%E7%B8%E8%B5%C4%D0%D0%B0%E5" target="_blank" class="empty login-layerbox"><img src="/MemPic/M_201606121416141Ft2Li7Tx.jpg" border="0" width="120" height="150"></a>						</div>						<div class="username">							<a href="/Personal/Info.asp?username=%C8%E7%B8%E8%B5%C4%D0%D0%B0%E5" target="_blank" class="empty login-layerbox">如歌的行板</a>						</div>					</li>					<li>						<div class="photo">							<div class="pchk"></div>							<div class="psame">34岁/163cm/未婚							</div><a href="/Personal/Info.asp?username=%D0%A1%BE%F8%C7%E9%A4%D7" target="_blank" class="empty login-layerbox"><img src="/MemPic/M_200909241731249Lz4Kf0Vx.jpg" border="0" width="120" height="150"></a>						</div>						<div class="username">							<a href="/Personal/Info.asp?username=%D0%A1%BE%F8%C7%E9%A4%D7" target="_blank" class="empty login-layerbox">小绝情ぷ</a>						</div>					</li>					<li>						<div class="photo">							<div class="pchk"></div>							<div class="psame">36岁/174cm/未婚							</div><a href="/Personal/Info.asp?username=magicer" target="_blank" class="empty login-layerbox"><img src="/MemPic/M_201608212306342Ho4Xo3Xp.jpg" border="0" width="120" height="150"></a>						</div>						<div class="username">							<a href="/Personal/Info.asp?username=magicer" target="_blank" class="empty login-layerbox">magicer</a>						</div>					</li>					<li>						<div class="photo">							<div class="pchk"></div>							<div class="psame">38岁/170cm/未婚							</div><a href="/Personal/Info.asp?username=lomocn" target="_blank" class="empty login-layerbox"><img src="/MemPic/M_201711131250111Lg2Ka2Dx.jpg" border="0" width="120" height="150"></a>						</div>						<div class="username">							<a href="/Personal/Info.asp?username=lomocn" target="_blank" class="empty login-layerbox">lomocn</a><img src="/images/vmem.gif" title="已经过身份证认证" class="vm">						</div>					</li>					</ul>				</div>				<div class="clearer"></div>				</div>			</div><div class="bdr m-bd">	<div class="u-login-b">		<div class="l-btn clearfix">			<a href="javascript:;" rel="external nofollow" class="l login-layerbox">登 录</a><a href="/script/mReg_Step1.asp" class="r">注 册</a>		</div>		<div class="l-msg">您当前的状态:游客，您尚未登录<a href="/script/getPsw_Step1.asp">忘记密码»</a></div>	</div>	<div class="m-news">		<div class="m-news-c">			<ul>				<li class="msg on">公告</li>			</ul>		</div>		<div class="m-news-t">			<ul class="msg">				<li>·<a href="/JHD/rule.asp" target="_blank">聚活动栏目规章制度</a>　·<a href="/BBS/PostShow.asp?id=15317526" target="_blank">新组织者如何成长？</a></li>				<li>·<a href="/Personal/jy_rule.asp" target="_blank">部落交友服务规则</a>　　·<a href="/help/love/01.asp" target="_blank">部落交友服务常见问答</a></li>			</ul>		</div>	</div><script>
+     $(document).ready(function(){
+		 $('.m-news-c li').on('mouseenter',function(){
+		      $('.m-news-c li').removeClass('on');
+			  $('.m-news-t ul').hide();
+			  $(".m-news-t ul[class='"+$(this).attr('class') +"']").show();
+			  $(this).addClass('on');
+		 });
+	 });
+</script>
+		<div class="t-action">			<div class="t-icon"></div>			<div class="msg-t">				<h2 class="b-tl">开放式活动发布平台</h2>				<p class="s-tl">免费发布　严格审核　规范透明　公平竞争</p>				<p class="a-ing"><a href="/JHD/index.asp" target="_blank" title="往下查看首页展示活动">正在报名的活动<span>28</span>个，<span>113</span>人报名</a></p>			</div>			<div class="add-btn">			<a href="javascript:;" rel="external nofollow" class="login-layerbox">立即发布活动</a>			</div>			<div class="add-hlp clearfix">				<dl>					<dd><a href="/JHD/help_sj.asp" target="_blank">商家如何使用聚活动</a></dd>					<dd><a href="/JHD/help_gr.asp" target="_blank">个人如何发布活动</a></dd>					<dd><a href="/JHD/help_sy.asp" target="_blank">活动如何上首页显示</a></dd>					<dd><a href="/JHD/help.asp#zf" target="_blank">如何结算平台服务费</a></dd>					<dd><a href="/JHD/help.asp#yq" target="_blank">活动如何延期或取消</a></dd>					<dd><a href="/JHD/help.asp#qt" target="_blank">如何清退报名会员</a></dd>					<dd><a href="/JHD/help.asp#xy" target="_blank">组织者如何评定信用</a></dd>					<dd><a href="/JHD/help.asp#my" target="_blank">参与者如何评定满意度</a></dd>				</dl>			</div>		</div>	</div>	<div class="clearer"></div></div><div class="hd">
+	<div class="bt" style="background:url(/images/gray-bg.jpg);border-top:3px solid #99cc33;border-left:1px solid #a2b6c5;border-right:1px solid #a2b6c5;border-bottom:0px">
+		<h3>首页展示活动</h3>
+		<div class="ac-c">
+			<div class="p"><a href="/JHD/actImage.asp" target="_blank">活动图文</a></div>			<ul class="clearfix">
+				<li class="c">
+					<span class="more">更多活动 » </span>
+				</li>				<li class="c">
+					<span class="catalog">分类</span>
+					<div class="s" style="display:none">
+<div class="c-l">	<div class="c-n"><span>旅游</span><i class="ly"></i>	</div>	<div class="c-i"><span><a href="/JHD/index.asp?cid=240&amp;sid=252" target="_blank">厦门游<i>(10)</i></a></span>
+<span><a href="/JHD/index.asp?cid=240&amp;sid=253" target="_blank">福建游<i>(5)</i></a></span>
+<span><a href="/JHD/index.asp?cid=240&amp;sid=254" target="_blank">国内游<i>(9)</i></a></span>
+<span><a href="/JHD/index.asp?cid=240&amp;sid=255" target="_blank">国外游<i>(1)</i></a></span>
+<span><a href="/JHD/index.asp?cid=240&amp;sid=288" target="_blank">户外拓展<i>(1)</i></a></span>
+<span><a href="/JHD/index.asp?cid=240&amp;sid=318" target="_blank" class="none">自驾游<i class="none">(0)</i></a></span>
+	</div></div><hr size="1" color="#e7e7e7"><div class="c-l">	<div class="c-n"><span>休闲</span><i class="xx"></i>	</div>	<div class="c-i"><span><a href="/JHD/index.asp?cid=241&amp;sid=256" target="_blank" class="none">相亲会<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=259" target="_blank" class="none">茶话会<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=260" target="_blank" class="none">舞蹈<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=261" target="_blank" class="none">美食<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=262" target="_blank" class="none">棋牌<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=263" target="_blank" class="none">摄影<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=264" target="_blank" class="none">垂钓<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=265" target="_blank" class="none">手工<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=266" target="_blank" class="none">益智<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=295" target="_blank" class="none">亲子<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=296" target="_blank" class="none">宠物<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=297" target="_blank" class="none">环保<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=298" target="_blank" class="none">公益<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=299" target="_blank" class="none">瑜伽<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=319" target="_blank" class="none">骑行<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=241&amp;sid=332" target="_blank" class="none">泡吧<i class="none">(0)</i></a></span>
+	</div></div><hr size="1" color="#e7e7e7"><div class="c-l">	<div class="c-n"><span>文艺</span><i class="wy"></i>	</div>	<div class="c-i"><span><a href="/JHD/index.asp?cid=242&amp;sid=257" target="_blank" class="none">K歌<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=242&amp;sid=258" target="_blank" class="none">电影<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=242&amp;sid=267" target="_blank" class="none">派对<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=242&amp;sid=269" target="_blank">音乐<i>(1)</i></a></span>
+<span><a href="/JHD/index.asp?cid=242&amp;sid=270" target="_blank" class="none">美术书法<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=242&amp;sid=271" target="_blank" class="none">读书会<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=242&amp;sid=357" target="_blank" class="none">讲座<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=242&amp;sid=359" target="_blank" class="none">外语<i class="none">(0)</i></a></span>
+	</div></div><hr size="1" color="#e7e7e7"><div class="c-l">	<div class="c-n"><span>体育</span><i class="ty"></i>	</div>	<div class="c-i"><span><a href="/JHD/index.asp?cid=244&amp;sid=279" target="_blank" class="none">足球<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=280" target="_blank" class="none">篮球<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=281" target="_blank" class="none">羽毛球<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=282" target="_blank" class="none">乒乓球<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=283" target="_blank" class="none">网球<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=284" target="_blank" class="none">保龄球<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=285" target="_blank" class="none">台球<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=286" target="_blank" class="none">游泳<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=287" target="_blank" class="none">电子竞技<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=320" target="_blank" class="none">跑步<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=321" target="_blank" class="none">武术<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=244&amp;sid=328" target="_blank" class="none">其它运动<i class="none">(0)</i></a></span>
+	</div></div><hr size="1" color="#e7e7e7"><div class="c-l">	<div class="c-n"><span>团购</span><i class="tg"></i>	</div>	<div class="c-i"><span><a href="/JHD/index.asp?cid=245&amp;sid=289" target="_blank" class="none">婚纱写真<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=245&amp;sid=290" target="_blank" class="none">购物消费<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=245&amp;sid=291" target="_blank">教育培训<i>(1)</i></a></span>
+<span><a href="/JHD/index.asp?cid=245&amp;sid=292" target="_blank" class="none">美容美体<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=245&amp;sid=293" target="_blank" class="none">楼盘车市<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=245&amp;sid=294" target="_blank" class="none">家居装饰<i class="none">(0)</i></a></span>
+<span><a href="/JHD/index.asp?cid=245&amp;sid=317" target="_blank" class="none">其它服务<i class="none">(0)</i></a></span>
+	</div></div>					</div>
+				</li>
+				<li class="c">
+					<span><a href="/JHD/" target="_blank">全部</a></span>
+				</li>				<li class="c">
+					<span><a href="/JHD/index.asp?OrderBy=t" target="_blank">最新</a></span>
+				</li>			</ul>
+<script>
+    $(document).ready(function(){
+	   $('.ac-c .c').on('mouseenter',function(){
+		      $(this).find('.s').show();
+			  $(this).find('.catalog').addClass('on');
+		 }).on('mouseleave',function(){
+		      $(this).find('.s').hide();
+			  $(this).find('.catalog').removeClass('on');
+		});
+  	})
+</script>
+		</div>
+	</div>
+	<div class="bn">
+		<div class="d-ac">
+	<div class="news-ac-box ly">
+		<ul class="ac-l l-l">
+				<li><i class=" ly">周 六</i><a target="_blank" href="/JHD/ActInfo.asp?id=49144" class="empty" title="【山鹰】戴云山溯溪、攀岩、看云海雾松">【山鹰】戴云山溯溪、攀岩、看云海雾松</a><span>9人</span></li>
+				<li><i class=" ly">周 六</i><a target="_blank" href="/JHD/ActInfo.asp?id=49133" class="empty" title="周八◆格赏花海-茶马古道，前格村摄影游">周八◆格赏花海-茶马古道，前格村摄影游</a><span>0人</span></li>
+				<li><i class=" ly">周 六</i><a target="_blank" href="/JHD/ActInfo.asp?id=49134" class="empty" title="【大闽】赏格桑花◆漫走茶马古道◆ 古龙">【大闽】赏格桑花◆漫走茶马古道◆ 古龙</a><span>0人</span></li>
+				<li><i class=" ly">周 日</i><a target="_blank" href="/JHD/ActInfo.asp?id=49132" class="empty">茶马古道格桑花</a><span>0人</span></li>
+				<li><i class=" ly">周 日</i><a target="_blank" href="/JHD/ActInfo.asp?id=49083" class="empty" title="晴天◆镇海角，南太武野炊一日游">晴天◆镇海角，南太武野炊一日游</a><span class="red">14人</span></li>
+				<li><i class="overthisweek ly">1-21</i><a target="_blank" href="/JHD/ActInfo.asp?id=49105" class="empty" title="晴天◆登厦最高峰云顶！相约三界碑一日">晴天◆登厦最高峰云顶！相约三界碑一日</a><span class="red">19人</span></li>
+				<li><i class="overthisweek ly">1-26</i><a target="_blank" href="/JHD/ActInfo.asp?id=49050" class="empty" title="周八◆元旦哈尔滨长白山雪乡纯玩六日游">周八◆元旦哈尔滨长白山雪乡纯玩六日游</a><span>2人</span></li>
+				<li><i class="overthisweek ly">1-27</i><a target="_blank" href="/JHD/ActInfo.asp?id=49101" class="empty" title="周八◆冠豸山长汀凤凰古城，客家美食跨年游">周八◆冠豸山长汀凤凰古城，客家美食跨年游</a><span>0人</span></li>
+				<li><i class="overthisweek ly">1-27</i><a target="_blank" href="/JHD/ActInfo.asp?id=49127" class="empty" title="阿青带★陪伴亲子东北游，伏尔加庄园5日">阿青带★陪伴亲子东北游，伏尔加庄园5日</a><span class="red">11人</span></li>
+				<li><i class="overthisweek ly">2-4</i><a target="_blank" href="/JHD/ActInfo.asp?id=49058" class="empty" title="纯玩东北游★雪乡，滑雪，长白山7日">纯玩东北游★雪乡，滑雪，长白山7日</a><span class="red">13人</span></li>
+				<li><i class="overthisweek ly">2-18</i><a target="_blank" href="/JHD/ActInfo.asp?id=49055" class="empty" title="周八◆乌镇西塘苏杭-千古宋城跨年元旦游">周八◆乌镇西塘苏杭-千古宋城跨年元旦游</a><span>6人</span></li>
+				<li><i class="overthisweek ly">2-18</i><a target="_blank" href="/JHD/ActInfo.asp?id=49023" class="empty" title="周八◆元旦哈尔滨长白山雪乡七日游2980">周八◆元旦哈尔滨长白山雪乡七日游2980</a><span>6人</span></li>
+		</ul>
+	</div>
+		</div>	</div></div><div class="hd" id="m02">	<div class="bt" style="background:url(/images/gray-bg.jpg);border-top:3px solid #29a6b3;border-left:1px solid #a2b6c5;border-right:1px solid #a2b6c5;border-bottom:0px">		<h3>部落交友</h3>	</div>	<div class="bn clearfix" style="border-left:1px solid #a2b6c5;border-right:1px solid #a2b6c5;border-bottom:1px solid #a2b6c5;">		<div class="f-search">			<form name="f1" action="/Search/Query.asp" method="post">			<div class="fs-l">				<div class="s-c">					<div class="t">性&nbsp;&nbsp;&nbsp;&nbsp;别 </div>					<div class="b f-shlist">						<ul class="l-select" style="display:none">							<li sf-class="">不限</li>							<li sf-class="1">男</li>							<li sf-class="0">女</li>						</ul>						<span>不限</span>						<select name="Gender" id="Gender" style="display:none">							<option value="">不限</option>							<option value="1">男</option>							<option value="0">女</option>						</select>					</div>				</div>				<div class="s-c">					<div class="t">年&nbsp;&nbsp;&nbsp;&nbsp;龄 </div>					<div class="s">						<input name="MinAge" id="MinAge" type="text" maxlength="2/">					</div>					<div class="v">						至					</div>					<div class="s">						<input name="MaxAge" id="MaxAge" type="text" maxlength="2/">					</div>					<div class="v">						岁					</div>				</div>				<div class="s-c">					<div class="t">身&nbsp;&nbsp;&nbsp;&nbsp;高 </div>					<div class="s">						<input name="MinHeight" id="MinHeight" type="text" maxlength="3/">					</div>					<div class="v">						至					</div>					<div class="s">						<input name="MaxHeight" id="MaxHeight" type="text" maxlength="3/">					</div>					<div class="v">						厘米					</div>				</div>				<div class="s-c">					<div class="t">类&nbsp;&nbsp;&nbsp;&nbsp;型 </div>					<div class="b f-shlist">						<ul class="l-select" style="display:none">							<li sf-class="">不限</li>							<li sf-class="1">普通会员</li>							<li sf-class="2">身份证认证(V会员)</li>						</ul>						<span>不限</span>						<select name="MemType" id="MemType" style="display:none">							<option value="">不限</option>							<option value="1">普通会员</option>							<option value="2">身份证认证(V会员)</option>						</select>					</div>				</div>				<div class="s-c">					<div class="t">婚&nbsp;&nbsp;&nbsp;&nbsp;姻 </div>					<div class="b f-shlist">						<ul class="l-select" style="display:none">							<li sf-class="">不限</li>							<li sf-class="0">未婚</li>							<li sf-class="2">离异</li>							<li sf-class="4">丧偶</li>						</ul>						<span>不限</span>						<select name="MarryStatus" id="MarryStatus" style="display:none">							<option value="">不限</option>							<option value="0">未婚</option>							<option value="2">离异</option>							<option value="4">丧偶</option>						</select>					</div>				</div>				<div class="s-c">					<div class="t">收&nbsp;&nbsp;&nbsp;&nbsp;入 </div>					<div class="b f-shlist">						<ul class="l-select" style="display:none">							<li sf-class="0">不限</li>							<li sf-class="3">≥2000元</li>							<li sf-class="4">≥3000元</li>							<li sf-class="5">≥4000元</li>							<li sf-class="6">≥6000元</li>							<li sf-class="7">≥8000元</li>							<li sf-class="8">≥12000元</li>						</ul>						<span>不限</span>						<select name="Income" id="Income" style="display:none">							<option value="0">不限</option>							<option value="3">≥2000元</option>							<option value="4">≥3000元</option>							<option value="5">≥4000元</option>							<option value="6">≥6000元</option>							<option value="7">≥8000元</option>							<option value="8">≥12000元</option>						</select>					</div>				</div>				<div class="s-c">					<div class="t">学&nbsp;&nbsp;&nbsp;&nbsp;历 </div>					<div class="b f-shlist">						<ul class="l-select" style="display:none">							<li sf-class="0">不限</li>							<li sf-class="3">高中及以上</li>							<li sf-class="5">大专及以上</li>							<li sf-class="6">本科及以上</li>							<li sf-class="7">硕士及以上</li>						</ul>						<span>不限</span>						<select name="Education" id="Education" style="display:none">							<option value="0">不限</option>							<option value="3">高中及以上</option>							<option value="5">大专及以上</option>							<option value="6">本科及以上</option>							<option value="7">硕士及以上</option>						</select>					</div>				</div>				<div class="s-c">					<div class="t">照&nbsp;&nbsp;&nbsp;&nbsp;片 </div>					<div class="b f-shlist">						<ul class="l-select" style="display:none">							<li sf-class="0">不限</li>							<li sf-class="1">有照片</li>						</ul>						<span>不限</span>						<select name="Photo" id="Photo" style="display:none">							<option value="0">不限</option>							<option value="1">有照片</option>						</select>					</div>				</div>				<div class="s-c">				<input type="submit" class="sf-sbtn login-layerbox" value="">				</div>				<script>
+     $(document).ready(function(){
+		   $(document).bind('click',function(e){
+			     var obj = e.srcElement ? e.srcElement : e.target;
+                 var target  = $(obj);
+				  if(!target.hasClass('f-shlist'))
+				  {
+					  $('.f-shlist .l-select').hide();
+				  }
+           });
+		   $('.f-shlist').on('click',function(event){
+			     event.stopPropagation()
+			     $(this).find('.l-select').toggle();
+				 $(this).parent().siblings().find('.l-select').hide();
+		   });
+		   $('.l-select li').on('click',function(){
+			     $(this).parents('.b').find('select').val($(this).attr('sf-class'));
+				 $(this).parents('.b').find('span').text($(this).text());
+			});
+	 });
+</script>
+<script language="javascript">
+function chkInfo()
+{
+	f1.MinAge.value=fnumh(f1.MinAge.value);
+	if(trim(f1.MinAge.value,0)!='' && !isNum(trim(f1.MinAge.value,0)))
+	{
+		alert('年龄只能输入整数！');
+		f1.MinAge.select();
+		return false;
+	}
+	f1.MaxAge.value=fnumh(f1.MaxAge.value);
+	if(trim(f1.MaxAge.value,0)!='' && !isNum(trim(f1.MaxAge.value,0)))
+	{
+		alert('年龄只能输入整数！');
+		f1.MaxAge.select();
+		return false;
+	}
+	f1.MinHeight.value=fnumh(f1.MinHeight.value);
+	if(trim(f1.MinHeight.value,0)!='' && !isNum(trim(f1.MinHeight.value,0)))
+	{
+		alert('身高只能输入整数！');
+		f1.MinHeight.select();
+		return false;
+	}
+	f1.MaxHeight.value=fnumh(f1.MaxHeight.value);
+	if(trim(f1.MaxHeight.value,0)!='' && !isNum(trim(f1.MaxHeight.value,0)))
+	{
+		alert('身高只能输入整数！');
+		f1.MaxHeight.select();
+		return false;
+	}
+	f1.submit();
+}
+</script>
+				</div></form>			</div>			<div class="u-set">				<div class="set-list">					<a href="/personal/album.asp" class="tst"></a>					<a href="/Search/WhoViewMyInfo.asp" class="see login-layerbox"></a>					<a href="/Search/whoson.asp" class="pht"></a>					<a href="/Mail/" target="mail" class="msg login-layerbox"></a>					<a href="/Mail/default.asp?p=Friends.asp" target="_blank" class="fsb login-layerbox"></a>					<a href="/Mail/default.asp?p=BlackList.asp" target="_blank" class="bck login-layerbox"></a>					<a href="/Personal/BInfoMod.asp" class="myt login-layerbox"></a>					<a href="/Personal/ParaSet.asp" class="pow login-layerbox"></a>				</div>				<div class="ts-list">					<div class="t">						安全保护体系					</div>					<table border="0" width="98%" align="center" cellspacing="0" cellpadding="0" class="tn">						<tbody><tr>							<td width="33%"><a href="/help/love/01.asp" target="_blank">交友服务常见问答</a></td>							<td width="33%"><a href="/help/love/02.asp" target="_blank">部落交友防骚扰功能</a></td>							<td width="33%"><a href="/help/love/03.asp" target="_blank">恋爱关系指示功能介绍</a></td>						</tr>						<tr>							<td width="33%"><a href="/help/love/04.asp" target="_blank">女会员约会防狼手册</a></td>						</tr>					</tbody></table>				</div>			</div>			<div class="love-test">				<div class="t">					<a href="/Action/LoveTest/" target="_blank">查看考场</a>					<span>爱情大考场</span>				</div>				<div class="l">				<ul>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13024" target="_blank" class="empty login-layerbox">独立自主的女生会给你什么样的感..</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13023" target="_blank" class="empty login-layerbox">怎么开始一场感情</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13022" target="_blank" class="empty login-layerbox">家常菜最爱吃什么？</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13021" target="_blank" class="empty login-layerbox">宅女是不是没有爱情</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13020" target="_blank" class="empty login-layerbox">关心问候，真的会给女生很大的压..</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13018" target="_blank" class="empty login-layerbox">现在的人外貌协会严重，还是现在..</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13017" target="_blank" class="empty login-layerbox">女生会喜欢不主动的男的吗？</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13016" target="_blank" class="empty login-layerbox">25岁以后还能遇到爱情吗？</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13015" target="_blank" class="empty login-layerbox">你认为什么类型的男生/女生适合..</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13014" target="_blank" class="empty login-layerbox">身高真的很重要吗？娇小的女生不..</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13008" target="_blank" class="empty login-layerbox">女生远嫁会幸福吗</a></li>				<li><a href="/Action/LoveTest/ShowPaper.asp?id=13007" target="_blank" class="empty login-layerbox">谁喜欢吃空心菜的来回答下</a></li>				</ul>				</div>			</div>		</div>		<div class="clearer"></div>	</div><div class="ad_2_l"></div></div><iframe width="0" name="msgf" id="msgf" height="0" src="/script/Online_New.asp" style="display:none"></iframe><div style="display:none"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?38ee5d141c0bd3183cc57f7dded6002c";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<table border="0" width="100%" height="0" cellspacing="0" cellpadding="0" style="table-layout:fixed"><tbody><tr><td bgcolor="#5E5E5E"><script src="http://s31.cnzz.com/stat.php?id=105078&amp;web_id=105078&amp;online=1&amp;show=line" language="JavaScript" charset="gb2312"></script><script src="http://c.cnzz.com/core.php?web_id=105078&amp;show=line&amp;online=1&amp;t=z" charset="utf-8" type="text/javascript"></script><script src="http://online.cnzz.com/online/online_v3.php?id=105078&amp;h=hzs12.cnzz.com&amp;on=1&amp;s=line" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=105078" target="_blank">站长统计</a></td></tr></tbody></table></div>	<iframe name="hf" width="0" height="0" style="display:none"></iframe><div class="login-box" style="display: none; left: 292px; top: 234px;">	<div class="t">		<span>会员登录</span>		<a href="javascript:;" rel="external nofollow" class="layerbox_close bx-close"></a>	</div>	<form name="f_Login" method="post" target="hf">	<div class="l">		<ul>			<li>				<div class="f">用户名：</div>				<div class="inp">					<input name="txtUserName" type="text" placeholder="请输入用户名或手机号码">				</div>			</li>			<li>				<div class="f">密　码：</div>				<div class="inp">					<input name="txtPassword" type="password" placeholder="请输入密码">					<input type="hidden" name="cc" value="d41d8cd98f00b204e9800998ecf8427e">					<input type="hidden" name="url" value="/index.asp">				</div>			</li>		</ul>	</div>	<div class="b clearfix">		<button class="login-smt" onclick="chkLogin();return false;" ondblclick="return false;">登录</button>		<label for="zd-check" class="l-check"><input type="checkbox" name="chkAutoLogin" value="1" class="ld-check" id="zd-check" autocomplete="off"><span>一周之内自动登录</span></label>		<span class="log_option"><a href="/script/getPsw_Step1.asp" rel="external nofollow" class="psw-wj">忘记密码</a>&nbsp;&nbsp;<a href="/script/mReg_Step1.asp" class="psw-wj">注册会员</a></span>	</div>	</form></div>
+<script>
+$(function(){
+scrollDiv('.login-box',220,150);
+$('.login-layerbox').on('click',function(){
+$('.login-box').show();
+$('body,html').animate({scrollTop:0},200);
+return false;
+});
+});
+function chkLogin(){	if(trim(f_Login.txtUserName.value,0)=='')	{		alert('请输入用户名或手机号码');		f_Login.txtUserName.focus();		return false;	}	if(trim(f_Login.txtPassword.value,0)=='')	{		alert('请输入登录密码');		f_Login.txtPassword.focus();		return false;	}	f_Login.txtPassword.value=fnumh(trim(f_Login.txtPassword.value,0));	f_Login.action='/NewLogin.asp';	f_Login.submit();}	</script><div class="footer">	<div class="footer_main">		<div class="footer_left">			<span>- <a href="http://www.miitbeian.gov.cn/" target="_blank">闽ICP备05006990号</a> - <a href="http://www.beian.gov.cn/" target="_blank">公安部备案号:35020002073322</a> -</span>			<span>Copyright <font style="font-family:Arial">©</font> 2003-2018&nbsp;&nbsp;厦门来宜网络科技有限公司 版权所有&nbsp;&nbsp;法律顾问：何浩娟&nbsp;&nbsp;15160090925</span>		</div>		<div class="footer_right">			<span class="police"><a href="http://www.fj.cyberpolice.cn/" class="pol" target="_blank">网络报警处置中心</a></span>			<span class="cn12377"><a href="http://www.12377.cn/" class="cn1" target="_blank">违法和不良信息举报中心</a></span>		</div>	</div></div><div style="display:none"><table border="0" width="100%" height="0" cellspacing="0" cellpadding="0" style="table-layout:fixed"><tbody><tr><td bgcolor="#5E5E5E"></td><td bgcolor="#5E5E5E"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement('script');
+  hm.src = '//hm.baidu.com/hm.js?38ee5d141c0bd3183cc57f7dded6002c';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="http://s31.cnzz.com/stat.php?id=105078&amp;web_id=105078&amp;online=1&amp;show=line" language="JavaScript" charset="gb2312"></script><script src="http://c.cnzz.com/core.php?web_id=105078&amp;show=line&amp;online=1&amp;t=z" charset="utf-8" type="text/javascript"></script><script src="http://online.cnzz.com/online/online_v3.php?id=105078&amp;h=hzs12.cnzz.com&amp;on=1&amp;s=line" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=105078" target="_blank">站长统计</a></td></tr></tbody></table></div><div class="friendlylink">	<div class="fl_c">		<div class="dt">友情链接：</div>			<div class="dd">			<a href="http://www.fjxmrt.com" target="_blank">厦门蓝天救援队</a>			<a href="http://www.xmpig.com/" target="_blank">厦门小猪社区</a>			<a href="" target="_blank"></a>		</div>	</div></div><div class="u-services">	 <div class="services-list">		  <div class="services-qqlist" style="display:none">			   <table border="0" cellspacing="0" cellpadding="2" width="100%">			   <tbody>			   <tr>				  <td colspan="3" align="left"><strong>在线咨询</strong></td>			   </tr>			   <tr>			   <td width="62" align="center" height="35">客服电话：</td>			   <td>0592-2230770</td>			   <td>				 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=740150890&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:740150890:41"></a>			   </td>			   </tr>			   <tr>			   <td align="center" height="35">活动合作：</td>			   <td>0592-2239891</td>			   <td>				  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=740150890&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:740150890:41"></a>			   </td>			   </tr>			   <tr>			   <td align="center" height="35">广告投放：</td>			   <td>0592-2239891</td>			   <td>				  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=827733216&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:827733216:41"></a>			   </td>			   </tr>			   </tbody>			   </table>		  </div>		  <span>联系E部落</span>	 </div>	<div class="qrcode">		<span>微信公众号</span><img src="/images/weixin_qr.jpg">	</div></div>
+<script type="text/javascript">
+	 $(document).ready(function(){
+		 $('.services-list').on('mouseenter',function(){
+			  $('.services-qqlist').show();
+		}).on('mouseleave',function(){
+			  $('.services-qqlist').hide();
+		});
+	 });
+</script>
+</div></body></html>

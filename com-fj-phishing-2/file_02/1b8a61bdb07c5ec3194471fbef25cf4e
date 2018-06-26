@@ -1,0 +1,1653 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>中国消防产品信息网</title>
+<link href="net/css/style.css" rel="stylesheet" type="text/css">
+<style>
+.shakeimage{
+position:relative
+}
+.extraTable{border:1px solid #91b1fa; background:#daedfe; color:#0c2d64; font-size:12px;}
+.extraTable img{border:none;}
+.columnImg{width:65px; text-align:center; height:58px; padding-top:2px; float:left;}
+.columnDiv{float:left;padding-top:6px;}
+.columnDiv p{height:28px; line-height:28px; padding:0; margin:0; _padding-top:5px; _height:16px;}
+.hotLine{width:310px; padding-left:8px; height:44px; padding-top:16px; float:left; background:url(net/images/hotLine.gif) 0px 2px no-repeat; margin-left:20px; display:inline;}
+.imgLink{ height:55px; padding:5px 0 0 20px; _padding:5px 0 0 0;}
+.imgLink img{margin-left:5px; _margin:0; display:inline;}
+
+.input1{color:#555; font-family:Arial, "宋体"; font-size:12px;}
+.mid{vertical-align:middle;}
+.cpml{line-height: 20px;padding-right: 6px;}
+</style>
+<script src="//hm.baidu.com/hm.js?8b09cd1ce77519bec46855c2d4d179a9"></script><script src="//hm.baidu.com/hm.js?8b09cd1ce77519bec46855c2d4d179a9"></script><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?8b09cd1ce77519bec46855c2d4d179a9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script charset="gb2312" type="Text/JavaScript" language="JavaScript"> 
+//查询
+function queryData(){
+	if(document.all.lableCode.value == ""||document.all.lableCode.value == "请输入如图红框内14位明码"){
+		alert("请填写标签明码");
+		return false;
+	}else{
+		window.open("http://lxxx.cccf.com.cn/lableFind.jsp?lableCode=" + document.all.lableCode.value);
+	}
+}
+function resetValue(){
+	document.all.svalue.value="请输入关键字";
+	}
+function checkForm(){
+    if(document.all.stype.value == "0"){
+		alert("请选择查询类别");
+		return false;
+	}
+	if(document.all.svalue.value == ""||document.all.svalue.value == "请输入关键字"){
+		alert("请输入查询条件");
+		return false;
+	}
+	//window.open("http://localhost/search/searchProduct.do?target=combinationSearch&stype=" + document.all.stype.value+"&svalue="+document.all.svalue.value+"&from=center");
+		myform.submit();
+	}
+function subWebSearch(){
+	webSearch.submit();
+	}
+</script></head>
+
+<body>
+ <!--<script type="text/javascript" src="net/ad.js"></script> -->
+
+
+
+<title>中国消防产品信息网</title>
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td><img src="/net/images/xfcp_01.gif" width="990" height="156"></td>
+  </tr>
+</tbody></table>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="http://cccf.com.cn:80/net/css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://cccf.com.cn:80/system/js/all.js"></script><script type="text/javascript" language="javascript" src="http://cccf.com.cn/system/js/util.js"></script><script type="text/javascript" language="javascript" charset="utf-8" src="http://cccf.com.cn/system/js/calendar.js"></script><div onclick="bShow=true" id="calendar" style="z-index:+999; background-color: #FFFFFF; position:absolute;visibility:hidden;"><table width="250" style="font-family:arial;font-size:11px;border-width:1px;border-style:solid;border-color:#a0a0a0; background-color: #FFFFFF;" bgcolor="#ffffff"><tbody><tr bgcolor="#0000aa"><td style="border:0px; padding:0px; background-color:#0000AA; line-height:20px;"><table width="248" style="background-color: #0000AA;"><tbody><tr><td style="padding:2px; font-family:arial; font-size:11px; line-height:20px; border:0px; padding:0px; background-color:#0000AA;"><font color="#ffffff"><b><span id="caption"></span></b></font></td><td align="right" style="border:0px; padding:0px; background-color:#0000AA; font-size:12px;"><a href="javascript:cleanCalendar()" title="清除"><b style="color:#ffffff;text-decoration: none;">清除</b></a>&nbsp;&nbsp;<a href="javascript:hideCalendar()" title="关闭"><b style="color:#ffffff;text-decoration: none;">关闭</b></a></td></tr></tbody></table></td></tr><tr><td style="padding:5px; border:0px; padding:0px; background-color:#FFFFFF; line-height:18px;" bgcolor="#ffffff;"><span id="content"></span></td></tr><tr bgcolor="#abdcf6"><td style="padding:5px; border:0px; padding:0px; background-color:#ABDCF6; line-height:23px; color:#000000;" align="center"><span id="lblToday"></span></td></tr></tbody></table></div><div id="selectMonth" style="z-index:+999;position:absolute;visibility:hidden;"></div><div id="selectYear" style="z-index:+999;position:absolute;visibility:hidden;"></div><script type="text/javascript" language="javascript" src="http://cccf.com.cn/system/js/loading.js"></script><div id="loadingPop" name="loadingPop" style="position:absolute; width:200px; height:50px; z-index:2001; left: 10px; top: 10px; background-image: url(http://cccf.com.cn/system/js/loading.gif); background-repeat: no-repeat; padding-left:65px; padding-top:20px; background-color: #FFFFFF; font-size: 14px; border: 1px solid #cccccc; background-position: 10px center; font-weight:bold; display: none;">数据加载中...</div><div id="loadPop" name="loadPop" style="position:absolute; width:100%; height:500px; z-index: 2000; left: 0; top: 0; background-color: #000000; filter: Alpha(Opacity=50); opacity:0.5; display:none;"></div><div id="loading_mini" style="position: absolute; top: 3px; left: 3px; z-index: 10000; background-color: rgb(255, 255, 204); background-image: url(http://cccf.com.cn/system/js/loading_mini.gif); border: 1px solid rgb(118, 151, 210); font-size: 12px; color: rgb(0, 0, 0); padding: 5px 5px 5px 25px; display: none; background-position: 5px 50%; background-repeat: no-repeat no-repeat;">数据加载中，请稍候...</div><script type="text/javascript" language="javascript" src="http://cccf.com.cn/system/js/majax.js"></script><script type="text/javascript" language="javascript" src="http://cccf.com.cn/system/js/validate.js"></script><script type="text/javascript" language="javascript" src="http://cccf.com.cn/system/js/encode.js"></script>
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td width="62" height="30" class="top_menu"><a href="http://cccf.com.cn:80/getIndex.do">首 页</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/search/searchProductCatalogy.do?enterCertDto.catalogyType=4" target="_blank">产品信息</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/getMoreNewsList.do?netDto.gotoColumnCode=quality_aviso&amp;netDto.columnName=监管通报&amp;netDto.gotoPage=pub_news_page">监管通报</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/getMoreNewsList.do?netDto.gotoColumnCode=news_center&amp;netDto.columnName=新闻动态&amp;netDto.gotoPage=pub_news_page">新闻动态</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/getMoreNewsList.do?netDto.gotoColumnCode=give_notice&amp;netDto.columnName=公告通知&amp;netDto.gotoPage=pub_news_page">公告通知</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/getMoreNewsList.do?netDto.gotoColumnCode=policy_statute&amp;netDto.columnName=政策法规&amp;netDto.gotoPage=pub_news_page">政策法规</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/getPageStandardRuleList.do">认证规则</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/getMoreNewsList.do?netDto.gotoColumnCode=fire_science&amp;netDto.columnName=消防科技&amp;netDto.gotoPage=pub_news_page">消防科技</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/net/pages/complaint.jsp">建议投诉</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://www.cccf.net.cn">业务受理</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <td width="70" class="top_menu"><a href="http://cccf.com.cn:80/net/pages/netmaps.jsp">网站地图</a></td>
+    <td width="8" class="top_menu"><div align="center"><img src="http://cccf.com.cn:80/net/images/xfcp_03.gif" width="2" height="16"></div></td>
+    <!--<td width="70" class="top_menu"><a href="http://cccf.com.cn:80/net/pages/contactus/contactus.jsp">联系我们</a> </td>-->
+	<td width="70" class="top_menu"><a href="http://cccf.com.cn:80/net/pages/contactus/contactus.jsp">联系我们</a> </td>
+    </tr> 
+</tbody></table>
+
+
+
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="5" background="http://cccf.com.cn:80/net/images/top_01.gif" bgcolor="#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td height="5" bgcolor="#FFFFFF"></td>
+  </tr>
+</tbody></table>
+
+
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tbody><tr>
+    <td width="673" height="154">
+
+	<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="280" bgcolor="DAEDFF"><table width="655" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td width="645" align="left">&nbsp;&nbsp;<img src="net/images/xfcp_06.gif" width="225" height="30">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href="search/searchProductCatalogy.do?enterCertDto.catalogyType=4" target="_blank"><img src="net/images/xfcp_11.gif" width="32" height="10" border="0"></a> </td>
+          </tr>
+        </tbody></table>
+              <table width="98%" height="240" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="91B2FA">
+                <tbody><tr>
+                  <td background="net/images/xfcp_12.gif" bgcolor="#FFFFFF"><table width="590" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tbody><tr>
+                        <td width="590" height="220">
+                         <br>
+                         <table width="192" border="0" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                              <td width="192" height="32" align="center" background="net/images/xfcp_07.gif" class="top_product">
+                              <a href="net/qzxrzxxgb.jsp" target="_blank" class="top_product">强制性认证产品信息</a>
+                              </td>
+                            </tr>
+                          </tbody></table>
+                            <table height="30" border="0" cellpadding="0" cellspacing="0">
+                              <tbody><tr>
+                                <td>
+                                <b>
+                                
+								<a href="net/qzxrzxxgb.jsp?c=01" target="_blank" class="top_product_ml">火灾报警产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=02" target="_blank" class="top_product_ml">消防水带</a>
+								<a href="net/qzxrzxxgb.jsp?c=03" target="_blank" class="top_product_ml">喷水灭火产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=04" target="_blank" class="top_product_ml">消防车</a>
+								<a href="net/qzxrzxxgb.jsp?c=05" target="_blank" class="top_product_ml">灭火剂</a>
+								<a href="net/qzxrzxxgb.jsp?c=06" target="_blank" class="top_product_ml">建筑耐火构件</a>
+								<a href="net/qzxrzxxgb.jsp?c=07" target="_blank" class="top_product_ml">泡沫灭火设备产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=08" target="_blank" class="top_product_ml">消防装备产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=09" target="_blank" class="top_product_ml">火灾防护产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=10" target="_blank" class="top_product_ml">灭火器</a>
+								<a href="net/qzxrzxxgb.jsp?c=11" target="_blank" class="top_product_ml">消防给水设备产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=12" target="_blank" class="top_product_ml">气体灭火设备产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=13" target="_blank" class="top_product_ml">干粉灭火设备产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=14" target="_blank" class="top_product_ml">消防防烟排烟设备产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=15" target="_blank" class="top_product_ml">避难逃生产品</a>
+								<a href="net/qzxrzxxgb.jsp?c=16" target="_blank" class="top_product_ml">消防通信产品</a>
+								</b>
+								</td>
+                              </tr>
+                            </tbody></table>
+                            <br>
+                          <table width="192" border="0" cellspacing="0" cellpadding="0">
+                              <tbody><tr>
+                                <td width="192" height="32" align="center" background="net/images/xfcp_07.gif" class="top_product">
+                                <a href="net/jsjdxxgb.jsp" target="_blank" class="top_product">技术鉴定产品信息</a>
+                                </td>
+                              </tr>
+                          </tbody></table>
+			 				<!-- <table style="display:;" height="30" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td>
+                                <strong>
+                                <a href="search/searchProduct.do?enterCertDto.catalogyType=1&enterCertDto.catalogyCode=99" target="_blank" class="top_product_ml">外贮压式（备压式）七氟丙烷灭火系统</a>&nbsp;<a href="search/searchProduct.do?enterCertDto.catalogyType=1&enterCertDto.catalogyCode=98" target="_blank" class="top_product_ml">投弹式高层建筑干粉消防车</a>
+                                </strong>
+                                </td>
+                              </tr>
+                           </table> -->
+                          <br>
+                          </td>
+                      </tr>
+                  </tbody></table></td>
+                </tr>
+            </tbody></table></td>
+      </tr>
+    </tbody></table>
+
+	</td>
+    <td width="317" valign="top">
+    <table width="303" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="4"><img src="net/images/xfcp_08.gif" width="4" height="34"></td>
+        <td width="295" background="net/images/xfcp_10.gif">
+        
+        <table width="280" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="242" height="22" class="column">消防产品监管信息</td>
+            <td width="53" align="right"><a href="getMoreNewsList.do?netDto.gotoColumnCode=quality_aviso&amp;netDto.columnName=监管通报&amp;netDto.gotoPage=pub_news_page" class="more"><img src="net/images/xfcp_11.gif" width="31" height="9" border="0"></a></td>
+          </tr>
+        </tbody></table>
+        </td>
+        <td><img src="net/images/xfcp_09.gif" width="4" height="34"></td>
+      </tr>
+    </tbody></table>
+        <table width="303" height="243" border="0" align="center" cellpadding="0" cellspacing="1" class="bg4">
+          <tbody><tr>
+            <td valign="top">
+            
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+            	
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tbody><tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8703" target="_blank" title="·江西鹰潭高新消防大队深入辖区人员密集场所开展消防产品质量专项检查(2018-01-09)">·江西鹰潭高新消防大队深入辖区...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-09]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8702" target="_blank" title="·江西鹰潭高新消防大队大力开展沿街商铺消防产品专项检查(2018-01-09)">·江西鹰潭高新消防大队大力开展...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-09]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8701" target="_blank" title="·江西鹰潭高新消防“重拳出击”全力开展辖区重点单位消防产品专项检查(2018-01-09)">·江西鹰潭高新消防“重拳出击”...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-09]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8700" target="_blank" title="·山东潍坊支队寿光大队理论实践相结合对消防产品进行突击检查(2018-01-09)">·山东潍坊支队寿光大队理论实践...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-09]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8699" target="_blank" title="·江西峡江消防大队结合冬防工作深入辖区影院开展消防产品抽查(2018-01-09)">·江西峡江消防大队结合冬防工作...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-09]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8698" target="_blank" title="·潍坊市青州消防大队联合辖区派出所临时查封一家纺织企业(2018-01-09)">·潍坊市青州消防大队联合辖区派...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-09]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8695" target="_blank" title="·太原古交消防联合电视台曝光场所消防产品质量问题 净化消防产品市场(2018-01-08)">·太原古交消防联合电视台曝光场...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-08]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8692" target="_blank" title="·河南信阳息县消防大队开展消防产品专项检查(2018-01-08)">·河南信阳息县消防大队开展消防...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-08]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8691" target="_blank" title="·河南信阳潢川消防大队针对人员密集场所开展消防产品专项检查(2018-01-08)">·河南信阳潢川消防大队针对人员...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-08]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8690" target="_blank" title="·河南信阳高新区消防大队进企业开展消防产品专项检查(2018-01-08)">·河南信阳高新区消防大队进企业...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-08]
+                  
+                  </td>
+                </tr>
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <!-- 过滤一条新闻不在首页显示 修改于2013年08月15号-->
+                
+               <!-- 如果存在需要隐藏的新闻ID，则设置显示空行 -->
+                
+                <tr><td height="15">&nbsp;</td></tr>
+            </tbody></table>
+            </td>
+          </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="8" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+
+<!-- start -->
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tbody><tr>
+    <td>
+
+    <!--new start-->
+    
+<table width="973" height="60" border="0" align="center" cellpadding="0" cellspacing="0" class="extraTable">
+  <tbody><tr>
+    <td>
+	  <div class="columnImg"><img src="net/images/iconExtinguisher.gif"></div>
+	  <div class="columnDiv" style="_width:275px;">
+	    <p>消防产品信息查询 <img src="net/images/iconArrow.gif" class="mid"></p>
+		 <form enctype="multipart/form-data" action="net/searchProduct.do" target="_blank" name="myform" method="post">
+          <input type="hidden" name="target" value="combinationSearch">
+		  <select name="stype" id="stype" onchange="resetValue();" class="mid">
+		  <option value="0">--请选择--</option>
+		   <option value="1">证书编号</option>
+		    <option value="2">企业名称</option>
+		    <option value="3">产品型号</option>
+		    <option value="4">检验报告编号</option>
+	      </select>
+		  <input name="svalue" type="text" class="input1 mid" value="请输入关键字" onfocus="if(value=='请输入关键字') {value=''}" onblur="if (value=='') {value='请输入关键字'}" size="10">
+		  <img src="net/images/btnSearch.gif" title="点击搜索" class="mid" style="cursor:hand;display: inline;" onclick="return checkForm();">
+		  </form>
+	  </div>
+	  
+	  <div class="columnImg" style="margin-left:20px; display:inline;"><img src="net/images/iconTagA.gif"></div>
+	  <div class="columnDiv" style="_width:220px;">
+	    <p>消防产品身份信息明码查询 <img src="net/images/iconArrow.gif" class="mid"></p>
+		<p><input name="lableCode" type="text" class="input1 mid" value="请输入如图红框内14位明码" onfocus="if(value=='请输入如图红框内14位明码') {value=''}" onblur="if (value=='') {value='请输入如图红框内14位明码'}" size="25">
+		  <img src="net/images/btnSearch.gif" title="点击搜索" class="mid" onclick="queryData()" style="cursor:hand;"></p>
+	  </div>
+	  
+	  <div class="hotLine" style="_width:320px; _margin:0;">
+	    <a href="net/pages/complaint.jsp"><img src="net/images/btnAntiFake.gif" title="消防产品有奖在线举报"></a>
+	  </div>
+	</td>
+  </tr>
+</tbody></table>
+<!--new end-->
+    </td>
+  </tr>
+    </tbody></table>
+<!--end-->
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="8" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<table width="990" height="145" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tbody><tr>
+    <td width="320" height="145"><table width="302" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="4"><img src="net/images/xfcp_08.gif" width="4" height="34"></td>
+        <td width="295" background="net/images/xfcp_10.gif"><table width="280" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="242" height="22" class="column">新闻动态</td>
+            <td width="53" align="right"><a href="getMoreNewsList.do?netDto.gotoColumnCode=news_center&amp;netDto.columnName=新闻动态&amp;netDto.gotoPage=pub_news_page" class="more"><img src="net/images/xfcp_11.gif" width="31" height="9" border="0"></a></td>
+          </tr>
+        </tbody></table></td>
+        <td><img src="net/images/xfcp_09.gif" width="4" height="34"></td>
+      </tr>
+    </tbody></table>
+        <table width="302" height="224" border="0" align="center" cellpadding="0" cellspacing="1" class="bg4">
+          <tbody><tr>
+            <td valign="top" class="thetd">
+            
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                
+                <tbody><tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=7889" target="_blank" title="·[视频]央视专题报道：公安部消防产品合格评定中心开展消防产品质量专项监督工作(2017-03-17)">·[视频]央视专题报道：公安部消防产品...</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [03-17]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8086" target="_blank" title="·[视频]《焦点访谈》电动车：火灾新成因(2016-11-10)">·[视频]《焦点访谈》电动车：火灾新成因</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [11-10]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=7003" target="_blank" title="·杜兰萍副局长接受记者专访：消防部队圆满完成G20峰会消防安保(2016-10-13)">·杜兰萍副局长接受记者专访：消防部队...</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [10-13]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=7002" target="_blank" title="·公安部消防局副局长杜兰萍谈公共消防安全(2016-10-13)">·公安部消防局副局长杜兰萍谈公共消防安全</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [10-13]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2200" target="_blank" title="·[视频]消防产品监督行动-查获违法企业近百家(2014-03-15)">·[视频]消防产品监督行动-查获违法企...</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [03-15]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2198" target="_blank" title="·2013年度消防应急灯具产品国家监督抽查结果公布 评定中心依法对相关认证证书作出处理(2014-03-13)">·2013年度消防应急灯具产品国家监督抽...</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [03-13]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2189" target="_blank" title="·消防产品合格评定中心在全国范围内迅速开展防火涂料产品飞行监督检查(2014-03-08)">·消防产品合格评定中心在全国范围内迅...</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [03-08]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2195" target="_blank" title="·重拳出击 消防产品合格评定中心持续开展飞行监督行动(2014-03-07)">·重拳出击 消防产品合格评定中心持续...</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [03-07]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2188" target="_blank" title="·公安部消防产品合格评定中心迅速开展灭火器、消防应急灯具产品专项监督行动(2014-01-11)">·公安部消防产品合格评定中心迅速开展...</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [01-11]
+                  
+
+
+                  </td>
+                </tr>
+                
+                <tr>
+
+                  
+		  
+                   
+                  <td width="85%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1784" target="_blank" title="·《消防产品一致性检查要求》行业标准发布(2013-04-11)">·《消防产品一致性检查要求》行业标准发布</a></td>
+                  
+
+                   <td width="15%">
+
+                  
+                  [04-11]
+                  
+
+
+                  </td>
+                </tr>
+                
+            </tbody></table>
+            
+            </td>
+          </tr>
+      </tbody></table></td>
+    <td width="353"><table width="302" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td><img src="net/images/xfcp_17.gif" width="349" height="4"></td>
+      </tr>
+    </tbody></table>
+        <table width="349" border="0" cellpadding="0" cellspacing="0" class="new_bg2">
+          <tbody><tr>
+            <td height="250" align="center" valign="top" bgcolor="#DBEEFF">
+            
+            
+            <script type="text/javascript">
+			<!-- 
+			var focus_width = 336 ;
+			var focus_height = 230 ;
+			var text_height = 20 ;
+			var swf_height = focus_height + text_height ;
+			
+			var pics = 'uploads/2014/08/28/1423937053868.jpg|uploads/2010/02/11/103933422831.jpg|uploads/2010/01/08/10853945555.jpg|uploads/2009/12/15/934952231867.jpg';
+			var links = 'getNewsBrowse.do?newsatricle.articleId=2293|getNewsBrowse.do?newsatricle.articleId=589|getNewsBrowse.do?newsatricle.articleId=576|getNewsBrowse.do?newsatricle.articleId=533';
+			var texts = '消防产品实施强制性认证必要性和可行性论证会在北京召开|杜兰萍总工程师出席消防产品合格评定中心年度工作总结会|杜兰萍总工程师出席新版中国消防产品信息网开通仪式并讲话|公安部消防局与警务督察局联合开展冬季防火督察';
+			
+			document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+			
+			document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="net/pixviewer.swf"> <param name="quality" value="high"><param name="bgcolor" value="#DBEEFF">');
+			
+			document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+			
+			document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+			
+			document.write('<embed src="net/pixviewer.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); 
+			
+			document.write('</object>');
+			
+			//-->
+			</script><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="336" height="250"><param name="allowScriptAccess" value="sameDomain"><param name="movie" value="net/pixviewer.swf"> <param name="quality" value="high"><param name="bgcolor" value="#DBEEFF"><param name="menu" value="false"><param name="wmode" value="opaque"><param name="FlashVars" value="pics=uploads/2014/08/28/1423937053868.jpg|uploads/2010/02/11/103933422831.jpg|uploads/2010/01/08/10853945555.jpg|uploads/2009/12/15/934952231867.jpg&amp;links=getNewsBrowse.do?newsatricle.articleId=2293|getNewsBrowse.do?newsatricle.articleId=589|getNewsBrowse.do?newsatricle.articleId=576|getNewsBrowse.do?newsatricle.articleId=533&amp;texts=消防产品实施强制性认证必要性和可行性论证会在北京召开|杜兰萍总工程师出席消防产品合格评定中心年度工作总结会|杜兰萍总工程师出席新版中国消防产品信息网开通仪式并讲话|公安部消防局与警务督察局联合开展冬季防火督察&amp;borderwidth=336&amp;borderheight=230&amp;textheight=20"><embed src="net/pixviewer.swf" wmode="opaque" flashvars="pics=uploads/2014/08/28/1423937053868.jpg|uploads/2010/02/11/103933422831.jpg|uploads/2010/01/08/10853945555.jpg|uploads/2009/12/15/934952231867.jpg&amp;links=getNewsBrowse.do?newsatricle.articleId=2293|getNewsBrowse.do?newsatricle.articleId=589|getNewsBrowse.do?newsatricle.articleId=576|getNewsBrowse.do?newsatricle.articleId=533&amp;texts=消防产品实施强制性认证必要性和可行性论证会在北京召开|杜兰萍总工程师出席消防产品合格评定中心年度工作总结会|杜兰萍总工程师出席新版中国消防产品信息网开通仪式并讲话|公安部消防局与警务督察局联合开展冬季防火督察&amp;borderwidth=336&amp;borderheight=230&amp;textheight=20" menu="false" bgcolor="#ffffff" quality="high" width="336" height="250" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>
+		</td>
+          </tr>
+        </tbody></table>
+      <table width="302" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td><img src="net/images/xfcp_18.gif" width="349" height="4"></td>
+          </tr>
+      </tbody></table></td>
+    <td width="317" valign="top"><table width="303" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="4"><img src="net/images/xfcp_08.gif" width="4" height="34"></td>
+        <td width="295" background="net/images/xfcp_10.gif"><table width="280" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="242" height="22" class="column">公告通知</td>
+            <td width="53" align="right"><a href="getMoreNewsList.do?netDto.gotoColumnCode=give_notice&amp;netDto.columnName=公告通知&amp;netDto.gotoPage=pub_news_page" class="more"><img src="net/images/xfcp_11.gif" width="31" height="9" border="0"></a></td>
+          </tr>
+        </tbody></table></td>
+        <td><img src="net/images/xfcp_09.gif" width="4" height="34"></td>
+      </tr>
+    </tbody></table>
+        <table width="303" height="224" border="0" align="center" cellpadding="0" cellspacing="1" class="bg4">
+          <tbody><tr>
+            <td width="297" valign="top" class="thetd">
+            
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+				
+                <tbody><tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=8682" target="_blank" title="·中华人民共和国公安部关于规范电动车停放充电加强火灾防范的通告(转发)(2018-01-02)">·中华人民共和国公安部关于规范...<img src="./net/images/new.gif" width="28" height="11" align="absmiddle" border="0"></a></td>
+                  <td width="16%">
+                  
+                  [01-02]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=5058" target="_blank" title="·国家认监委关于加强对强制性产品认证无证违法行为执法查处工作的通知(转发) (2015-03-04)">·国家认监委关于加强对强制性产品认证...</a></td>
+                  <td width="16%">
+                  
+                  [03-04]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2289" target="_blank" title="·国家认监委2014年第25号公告《国家认监委关于承担强制性产品认证相关任务认证机构和实验室补充指定决定的公告》(转发)(2014-08-04)">·国家认监委2014年第25号公告《国家认...</a></td>
+                  <td width="16%">
+                  
+                  [08-04]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2256" target="_blank" title="·国家认监委2014年第15号公告《国家认监委关于发布消防产品强制性认证实施规则的公告》（转发）(2014-06-04)">·国家认监委2014年第15号公告《国家认...</a></td>
+                  <td width="16%">
+                  
+                  [06-04]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2183" target="_blank" title="·公安部消防局面向全国公开征集2014年度试点应用消防科研成果(2014-02-11)">·公安部消防局面向全国公开征集2014年...</a></td>
+                  <td width="16%">
+                  
+                  [02-11]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2181" target="_blank" title="·质检总局 公安部 国家认监委公告2014年第12号关于部分消防产品实施强制性产品认证的公告(转发)(2014-02-10)">·质检总局 公安部 国家认监委公告2014...</a></td>
+                  <td width="16%">
+                  
+                  [02-10]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=2171" target="_blank" title="·公安部消防局面向全国征集2014年度消防科研项目建议(2014-01-27)">·公安部消防局面向全国征集2014年度消...</a></td>
+                  <td width="16%">
+                  
+                  [01-27]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1976" target="_blank" title="·关于消防产品合格评定中心搬回原址办公的通知(2013-10-08)">·关于消防产品合格评定中心搬回原址办...</a></td>
+                  <td width="16%">
+                  
+                  [10-08]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1836" target="_blank" title="·关于消防水带产品顺利完成强制性认证证书转换工作的通报(2013-08-20)">·关于消防水带产品顺利完成强制性认证...</a></td>
+                  <td width="16%">
+                  
+                  [08-20]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1758" target="_blank" title="·关于开展消防产品质量专项整治工作的通知(2013-03-04)">·关于开展消防产品质量专项整治...</a></td>
+                  <td width="16%">
+                  
+                  [03-04]
+                  
+                  </td>
+                </tr>
+                
+            </tbody></table>
+            
+            </td>
+          </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="8" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="61" bgcolor="#FFFFFF">
+    
+	<table width="972" align="center" height="60" border="0" cellpadding="0" cellspacing="0" class="extraTable" style="padding:10px;margin:0px 0px 10px 9px;">
+	  <tbody><tr>
+	    <td>
+                    <table width="192" border="0" cellspacing="0" cellpadding="0">
+                       <tbody><tr>
+                         <td height="32" align="left" background="net/images/xfcp_07.gif" class="top_product">
+                         <a href="search/searchProductCatalogy.do?enterCertDto.catalogyType=2" target="_blank" class="top_product">其他消防产品信息</a>
+                         </td>
+                       </tr>
+                     </tbody></table>
+                     <table height="" border="0" cellpadding="0" cellspacing="0">
+                       <tbody><tr>
+                         <td>
+                         <strong>
+                         
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=03" target="_blank" class="top_product_ml">灭火剂</a>
+                         
+						 
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=04" target="_blank" class="top_product_ml">灭火器</a>
+                         
+						 
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=05" target="_blank" class="top_product_ml">消火栓</a>
+                         
+						 
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=06" target="_blank" class="top_product_ml">消防接口</a>
+                         
+						 
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=08" target="_blank" class="top_product_ml">消防枪炮</a>
+                         
+						 
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=09" target="_blank" class="top_product_ml">防火门</a>
+                         
+						 
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=18" target="_blank" class="top_product_ml">防火阻燃材料</a>
+                         
+						 
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=19" target="_blank" class="top_product_ml">建筑防火构配件</a>
+                         
+						 
+                         
+						 
+                         
+                        	
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=02" target="_blank" class="top_product_ml">消防泵</a>
+                         
+                         
+                         
+						
+                        	
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=13" target="_blank" class="top_product_ml">气体灭火设备</a>
+                         
+                         
+                         
+						
+                        	
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=14" target="_blank" class="top_product_ml">干粉灭火设备</a>
+                         
+                         
+                         
+						
+                        	
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=15" target="_blank" class="top_product_ml">给水设备及配件</a>
+                         
+                         
+                         
+						
+                        	
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=61" target="_blank" class="top_product_ml">微水雾滴灭火设备</a>
+                         
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=16" target="_blank" class="top_product_ml">抢险救援器材</a>
+                         
+						
+                        	
+                         
+                         
+                         	<a href="search/searchProduct.do?enterCertDto.catalogyType=2&amp;enterCertDto.catalogyCode=17" target="_blank" class="top_product_ml">消防员装备</a>
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+                        	
+                         
+                         
+						
+						</strong>
+						</td>
+                       </tr>
+                     </tbody></table>
+		</td>
+	  </tr>
+	</tbody></table>
+	
+	
+	<!--new start-->
+    <form name="webSearch" action="goWebSearch.do" method="post">
+	<table width="973" align="center" height="60" border="0" cellpadding="0" cellspacing="0" class="extraTable">
+	  <tbody><tr>
+		<td>
+		 <div class="columnDiv" style="width:130px;padding:10px 20px 0px 10px;">
+			<a href="net/fhxnxxgb.jsp" target="_blank"><img border="0" alt="防火性能信息公布" src="net/images/xfcp_07_01.gif"></a>
+		 </div>
+		 <div class="columnDiv" style="width:200px;line-height: 20px;">
+			<!-- <a href="search/searchProduct.do?enterCertDto.catalogyType=2&enterCertDto.catalogyCode=59" class="top_product_ml">相关产品性能信息</a><br> -->
+			<a href="search/searchProduct.do?enterCertDto.catalogyType=5&amp;enterCertDto.catalogyCode=60" class="">建筑构（配）件信息</a><br>
+			<a href="search/searchProduct.do?enterCertDto.catalogyType=5&amp;enterCertDto.catalogyCode=71" class="">电子电器产品信息</a>
+		 </div>  
+	   <!--    <div class="columnDiv" style="width:350px;padding-left: 20px;">
+				<div><img width="" height="30" src="net/images/xfcp_07_02.gif"></div>
+				<div>
+					 <div class="columnDiv" style="width:130px;padding-top: 10px;">
+						<a href="net/search/fhxnxxgb.jsp" target ="_blank"><img border="0" alt="防火性能信息公布" src="net/images/xfcp_07_1.gif"></a>
+					 </div>
+					 <div class="columnDiv" style="width:200px;line-height: 20px;">
+						<a href="search/searchProduct.do?enterCertDto.catalogyType=2&enterCertDto.catalogyCode=60" class="top_product_ml">建筑构配件性能信息</a><br>
+						<a href="search/searchProduct.do?enterCertDto.catalogyType=2&enterCertDto.catalogyCode=52" class="top_product_ml">电子电器产品材料性能信息
+					 </div>
+				</div>
+		  </div>  -->
+		  <div class="columnImg"><img src="net/images/iconColumn.gif"></div>
+		  <div class="columnDiv" style="_width:350px;">
+			<p>搜索栏目 <img src="net/images/iconArrow.gif" class="mid"></p>
+			<p>
+			  <select name="netDto.webSearchColumn" id="webSearchColumn" class="mid" style="width:120px;">
+			  <option value="">----请选择栏目----</option><option value="58">|-消防产品监管信息（部局）</option><option value="59">|-公告通知（部局）</option><option value="60">|-规则标准</option><option value="61">| |-强制性认证规则</option><option value="62">| |-技术鉴定规则</option><option value="63">| |-其他消防产品规则</option><option value="64">|-新闻动态（部局）</option><option value="65">|-消防科技（部局）</option><option value="66">|-政策法规（部局）</option><option value="81">|-消防产品监督管理规定专栏(部局)</option><option value="67">|-业务受理相关文件</option><option value="82">| |-技术鉴定产品</option><option value="76">| |-型式认可产品</option><option value="77">| |-限制类产品</option><option value="69">|-其他</option>
+			  </select>
+			  <input name="netDto.webSearchKey" type="text" class="input1 mid" size="20">
+			  <img src="net/images/btnSearch.gif" title="点击搜索" class="mid" style="cursor:hand;" onclick="return subWebSearch();">
+			</p>
+		  </div>
+		  <div class="imgLink" align="center">
+			<a href="http://www.cccf.net.cn" target="_blank"><img src="net/images/imgYwsl.gif" title="合格评定业务受理"></a>
+		  </div>
+		</td>
+	  </tr>
+	</tbody></table>
+</form>
+<!--new end-->
+<!--  
+    <form name="webSearch1" action="goWebSearch.do" method="post">
+    <table width="973" border="0" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #D7D7D7">
+      <tr>
+        <td width="175" bgcolor="#FFFFFF"><img src="net/images/index_so.gif" width="175" height="48" /></td>
+        <td valign="middle" background="net/images/index_so_bg.gif" bgcolor="#FFFFFF">
+        <select name="netDto.webSearchColumn" id="webSearchColumn" style="width:150px;">
+          <option value=''>----请选择栏目----</option><option value='58' >|-消防产品监管信息（部局）</option><option value='59' >|-公告通知（部局）</option><option value='60' >|-规则标准</option><option value='61' >| |-强制性认证规则</option><option value='62' >| |-技术鉴定规则</option><option value='63' >| |-其他消防产品规则</option><option value='64' >|-新闻动态（部局）</option><option value='65' >|-消防科技（部局）</option><option value='66' >|-政策法规（部局）</option><option value='81' >|-消防产品监督管理规定专栏(部局)</option><option value='67' >|-业务受理相关文件</option><option value='82' >| |-技术鉴定产品</option><option value='76' >| |-型式认可产品</option><option value='77' >| |-限制类产品</option><option value='69' >|-其他</option>
+       </select>
+       <input name="netDto.webSearchKey" type="text" size="20" />
+       <input name="webSo" type="submit" value="搜索" /></td>
+        <td width="440" bgcolor="#FFFFFF"><img src="net/images/ts.gif" width="440" height="48" /></td>
+      </tr>
+    </table>
+    </form>
+    -->
+    </td>
+  </tr>
+</tbody></table>
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="8" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tbody><tr>
+    <td width="317" valign="top"><table width="302" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="4"><img src="net/images/xfcp_08.gif" width="4" height="34"></td>
+        <td width="295" background="net/images/xfcp_10.gif"><table width="280" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="242" height="22" class="column">政策法规</td>
+            <td width="53" align="right"><a href="getMoreNewsList.do?netDto.gotoColumnCode=policy_statute&amp;netDto.columnName=政策法规&amp;netDto.gotoPage=pub_news_page" class="more"><img src="net/images/xfcp_11.gif" width="31" height="9" border="0"></a></td>
+          </tr>
+        </tbody></table></td>
+        <td><img src="net/images/xfcp_09.gif" width="4" height="34"></td>
+      </tr>
+    </tbody></table>
+        <table width="302" height="224" border="0" align="center" cellpadding="0" cellspacing="1" class="bg4">
+          <tbody><tr>
+            <td valign="top" class="thetd">
+            
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                
+                <tbody><tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=6858" target="_blank" title="·《认证认可条例》修订及对照表（转发）(2016-03-09)">·《认证认可条例》修订及对照表（转发）</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=6859" target="_blank" title="·认证证书和认证标志管理办法（转发）(2016-03-08)">·认证证书和认证标志管理办法（转发）</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=4688" target="_blank" title="·关于印发消防产品目录（2015年修订本）的通知(2015-01-05)">·关于印发消防产品目录（2015年修订本）的通知</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1924" target="_blank" title="·中华人民共和国国家发展和改革委员会令第21号（转发）(2013-05-01)">·中华人民共和国国家发展和改革委员会令第21号...</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1769" target="_blank" title="·《公安部关于修改&lt;火灾事故调查规定&gt;的决定》（公安部令第121号）(2013-03-12)">·《公安部关于修改&lt;火灾事故调查规定&gt;的决定》...</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1768" target="_blank" title="·《公安部关于修改&lt;消防监督检查规定&gt;的决定》（公安部令第120号）(2013-03-12)">·《公安部关于修改&lt;消防监督检查规定&gt;的决定》...</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1767" target="_blank" title="·《公安部关于修改&lt;建设工程消防监督管理规定&gt;的决定》（公安部令第119号）(2013-03-12)">·《公安部关于修改&lt;建设工程消防监督管理规定&gt;...</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1684" target="_blank" title="·关于印发《消防产品技术鉴定工作规范》的通知(2012-12-11)">·关于印发《消防产品技术鉴定工作规范》的通知</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=1500" target="_blank" title="·《消防产品监督管理规定》（公安部令第122号）(2012-10-18)">·《消防产品监督管理规定》（公安部令第122号）</a></td>
+                 
+                </tr>
+                
+                <tr>
+                  <td height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=549" target="_blank" title="·中华人民共和国消防法(2012-05-01)">·中华人民共和国消防法</a></td>
+                 
+                </tr>
+                
+            </tbody></table>
+            
+            </td>
+          </tr>
+      </tbody></table></td>
+    <td width="355" valign="top">
+    <table width="349" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="4"><img src="net/images/xfcp_08.gif" width="4" height="34"></td>
+        <td width="140" align="center" class="sel_yes" id="td1" onclick="disStedTable(td1,table1);">强制性产品认证规则</td>
+        <td width="100" align="center" class="sel_no" id="td2" onclick="disStedTable(td2,table2);">技术鉴定规则</td>
+        <!--<td width="100" align="center" class="sel_no" id="td3" onClick="disStedTable(td3,table3);">其他</td>-->
+        <td width="4"><img src="net/images/xfcp_09.gif" width="4" height="34"></td>
+      </tr>
+    </tbody></table>
+        <table width="348" height="160" border="0" align="center" cellpadding="0" cellspacing="1" class="bg4">
+          <tbody><tr>
+            <td valign="top" class="thetd">
+            
+            <table id="table1" width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+                
+                <tbody><tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2015\05\22\1514263776487.pdf&amp;name=灭火设备产品（编号：CNCA-C18-03：2014）..pdf" title="·灭火设备产品（编号：CNCA-C18-03：2014）">·灭火设备产品（编号：CNCA-C18-03：2014）<!--灭火设备产品（编号：CNCA-C18-03：2014）--></a></td>
+               	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2015\05\22\1514226777170.pdf&amp;name=火灾防护产品（编号：CNCA-C18-02：2014）..pdf" title="·火灾防护产品（编号：CNCA-C18-02：2014）">·火灾防护产品（编号：CNCA-C18-02：2014）<!--火灾防护产品（编号：CNCA-C18-02：2014）--></a></td>
+               	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2015\05\22\1514238283279.pdf&amp;name=火灾报警产品（编号：CNCA-C18-01：2014）..pdf" title="·火灾报警产品（编号：CNCA-C18-01：2014）">·火灾报警产品（编号：CNCA-C18-01：2014）<!--火灾报警产品（编号：CNCA-C18-01：2014）--></a></td>
+               	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2015\05\22\1514249759725.pdf&amp;name=消防装备产品（编号：CNCA-C18-04：2014）..pdf" title="·消防装备产品（编号：CNCA-C18-04：2014）">·消防装备产品（编号：CNCA-C18-04：2014）<!--消防装备产品（编号：CNCA-C18-04：2014）--></a></td>
+               	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2015\07\01\1518279097212.pdf&amp;name=火灾报警产品--消防应急照明和疏散指示产品实施细则..pdf" title="·火灾报警产品--消防应急照明和疏散指示产品实施细则">·火灾报警产品--消防应急照明和疏散指示产品实施细则<!--火灾报警产品--消防应急照明和疏散指示产品实施细则--></a></td>
+               	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2015\07\01\1518243203241.pdf&amp;name=火灾报警产品--消防通信产品实施细则..pdf" title="·火灾报警产品--消防通信产品实施细则">·火灾报警产品--消防通信产品实施细则<!--火灾报警产品--消防通信产品实施细则--></a></td>
+               	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+				
+                <tr>
+                <td width="100%" align="right"><a href="more/2/rules/qzxrzgz.html" target="_blank" class="page_left_more">更多&gt;&gt;</a></td>
+                </tr>
+           </tbody></table>
+		   <table id="table2" style="display:none;" width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+                
+                <tbody><tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2015\05\22\1514205333119.doc&amp;name=消防产品技术鉴定工作规范..doc" title="·消防产品技术鉴定工作规范">·消防产品技术鉴定工作规范</a></td>
+              	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+  				
+   				
+   				
+   				
+   				
+   				<tr><td height="22">&nbsp;</td></tr>
+   				
+   				<tr><td height="22">&nbsp;</td></tr>
+   				
+   				<tr><td height="22">&nbsp;</td></tr>
+   				
+   				<tr><td height="22">&nbsp;</td></tr>
+   				
+   				<tr><td height="22">&nbsp;</td></tr>
+   				
+   				
+   				
+                <tr>
+                <td width="100%" align="right"><a href="more/2/rules/jsjdgz.html" target="_blank" class="page_left_more">更多&gt;&gt;</a></td>
+                </tr>
+           </tbody></table>
+           
+		  <table id="table3" style="display:none;" width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                
+                <tbody><tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2011\07\06\1118757230886.doc&amp;name=可燃气体探测报警产品..doc" title="·可燃气体探测报警产品">·可燃气体探测报警产品</a></td>
+              	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2011\07\06\1118766250597.doc&amp;name=防火阻燃材料产品..doc" title="·防火阻燃材料产品">·防火阻燃材料产品</a></td>
+              	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2011\07\06\1118764939004.doc&amp;name=防火门产品..doc" title="·防火门产品">·防火门产品</a></td>
+              	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2011\07\01\1118247362626.doc&amp;name=自动寻的喷水灭火装置产品..doc" title="·自动寻的喷水灭火装置产品">·自动寻的喷水灭火装置产品</a></td>
+              	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2011\07\01\1118274984317.doc&amp;name=预作用报警阀组产品..doc" title="·预作用报警阀组产品">·预作用报警阀组产品</a></td>
+              	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="http://cccf.com.cn:80/net/pages/download.jsp?path=uploads\2011\07\01\1118200998299.doc&amp;name=微水雾滴灭火设备产品..doc" title="·微水雾滴灭火设备产品">·微水雾滴灭火设备产品</a></td>
+              	  <td width="16%">
+                  
+                  </td>
+                </tr>
+                
+                
+                <tr>
+                <td width="100%" align="right"><a href="more/2/rules/qtxfcpgz.html" target="_blank" class="page_left_more">更多&gt;&gt;</a></td>
+                </tr>
+           </tbody></table>
+           
+			</td>
+          </tr>
+      </tbody></table>
+      <br>
+      
+      <table width="348" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="4"><img src="net/images/xfcp_08.gif" width="4" height="24"></td>
+        <td width="348" background="net/images/xfcp_10.gif">
+        <table valign="center" width="340" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr valign="center">
+            <td width="348" class="column" align="left">&nbsp;消防标准规范</td>
+          </tr>
+        </tbody></table>
+        </td>
+        <td><img src="net/images/xfcp_09.gif" width="4" height="24"></td>
+      </tr>
+    </tbody></table>
+    <table width="348" height="20" border="0" align="center" cellpadding="0" cellspacing="1" class="bg4">
+          <tbody><tr>
+            <td valign="top" class="thetd">
+            
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tbody><tr height="25">
+                <td width="50%" align="center" valign="center">&nbsp;<a class="bluea" href="net/pages/fire_country_standard_catalog.jsp" target="_blank">消防国家标准目录</a></td>
+                <td width="50%" align="center"><a class="bluea" href="net/pages/fire_industry_standard_catalog.jsp" target="_blank">&nbsp;消防行业标准目录</a></td>
+                </tr>
+            </tbody></table>
+            </td>
+          </tr>
+      </tbody></table>
+           
+    </td>
+    <td width="318" valign="top">
+    <table width="302" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="4"><img src="net/images/xfcp_08.gif" width="4" height="34"></td>
+        <td width="295" background="net/images/xfcp_10.gif"><table width="280" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="242" height="22" class="column">消防科技</td>
+            <td width="53" align="right"><a href="getMoreNewsList.do?netDto.gotoColumnCode=fire_science&amp;netDto.columnName=消防科技&amp;netDto.gotoPage=pub_news_page" class="more"><img src="net/images/xfcp_11.gif" width="31" height="9" border="0"></a></td>
+          </tr>
+        </tbody></table></td>
+        <td><img src="net/images/xfcp_09.gif" width="4" height="34"></td>
+      </tr>
+    </tbody></table>
+        <table width="302" height="224" border="0" align="center" cellpadding="0" cellspacing="1" class="bg4">
+          <tbody><tr>
+            <td valign="top" class="thetd">
+            
+            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                
+                <tbody><tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=567" target="_blank" title="·“十一五”国家科技支撑计划项目 建筑火灾探测报警和自动灭火技术的应用研究(2009-12-21)">·“十一五”国家科技支撑计划项目 建...</a></td>
+                  <td width="16%">
+                  
+                  [12-21]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=566" target="_blank" title="·“十一五”国家科技支撑计划项目 火灾原因识别关键技术研究(2009-12-20)">·“十一五”国家科技支撑计划项目 火...</a></td>
+                  <td width="16%">
+                  
+                  [12-20]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=565" target="_blank" title="·“十一五”国家科技支撑计划项目 城市消防能力优化技术研究及应用示范(2009-12-19)">·“十一五”国家科技支撑计划项目 城...</a></td>
+                  <td width="16%">
+                  
+                  [12-19]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=564" target="_blank" title="·“十一五”国家科技支撑计划项目 建筑性能化防火设计关键技术研究及应用示范(2009-12-18)">·“十一五”国家科技支撑计划项目 建...</a></td>
+                  <td width="16%">
+                  
+                  [12-18]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=563" target="_blank" title="·“十一五”国家科技支撑计划项目 灭火救援应急指挥及装备技术的研究(2009-12-17)">·“十一五”国家科技支撑计划项目 灭...</a></td>
+                  <td width="16%">
+                  
+                  [12-17]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=562" target="_blank" title="·“十一五”国家科技支撑计划项目 新型建筑防火阻燃材料及应用技术研究(2009-12-16)">·“十一五”国家科技支撑计划项目 新...</a></td>
+                  <td width="16%">
+                  
+                  [12-16]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=561" target="_blank" title="·“十一五”国家科技支撑计划项目 以布达拉宫为代表的高原古建筑火灾安全技术研究(2009-12-15)">·“十一五”国家科技支撑计划项目 以...</a></td>
+                  <td width="16%">
+                  
+                  [12-15]
+                  
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td width="84%" height="22">&nbsp;<a href="getNewsBrowse.do?newsatricle.articleId=559" target="_blank" title="·部消防局召开“十一五”国家科技支撑计划项目成果报告暨推广应用研讨会(2009-12-01)">·部消防局召开“十一五”国家科技支撑...</a></td>
+                  <td width="16%">
+                  
+                  [12-01]
+                  
+                  </td>
+                </tr>
+                
+            </tbody></table>
+            </td>
+          </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<!--  
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td height="86"><table width="980" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#DBEEFF">
+      <tr>
+        <td height="73" align="center"><a href="http://www.cccf.net.cn" target="_blank"><img src="net/images/xfcp_21.gif" width="181" height="60" border="0" class="bg4" /></a></td>
+        <td align="center"><a href="http://114.112.48.163" target="_blank"><img src="net/images/xfcp_22.gif" width="181" height="60" border="0" class="bg4" /></a></td>
+        <td align="center"><a href="getMoreNewsList.do?netDto.gotoColumnCode=fire_science&netDto.columnName=消防科技&netDto.gotoPage=pub_news_page"><img src="net/images/xfcp_23.gif" width="181" height="60" border="0" class="bg4" /></a></td>
+        <td align="center"><a href="net/pages/complaint.jsp"><img src="net/images/xfcp_24.gif" width="181" height="60" border="0" class="bg4" /></a></td>
+        <td align="center"><a href="login.jsp" target="_blank"><img src="net/images/xfcp_25.gif" width="181" height="60" border="0" class="bg4" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+-->
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="10" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+</tbody></table>
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr bgcolor="#FFFFFF">
+    <td width="204" height="27" valign="top"><table width="197" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="197" height="34" background="net/images/xfcp_27.gif"><table width="91" height="24" border="0" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="21" height="24">&nbsp;</td>
+            <td width="70" valign="bottom" class="column"><strong>信息查询</strong></td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+    </tbody></table>
+         <table width="197" border="0" align="center" cellpadding="0" cellspacing="1" class="so_bg3">
+          <tbody><tr>
+            <td height="131" bgcolor="FFFEF5"><table width="180" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                  <td width="19" height="23"><div align="center"><img src="net/images/xf_99.gif"></div></td>
+                  <td width="161" height="23">&nbsp;<a href="search/searchProduct.do?enterCertDto.catalogyType=0">强制性认证产品信息查询</a></td>
+                </tr>
+                <tr>
+                  <td height="23"><div align="center"><img src="net/images/xf_99.gif"></div></td>
+                  <td height="23">&nbsp;<a href="search/searchProduct.do?enterCertDto.catalogyType=1">技术鉴定产品信息查询</a></td>
+                </tr>
+                <tr>
+                  <td height="23"><div align="center"><img src="net/images/xf_99.gif"></div></td>
+                  <td height="23">&nbsp;<a href="search/searchProduct.do?enterCertDto.catalogyType=2">其它消防产品信息查询</a></td>
+                </tr>
+                <tr>
+                  <td height="23"><div align="center"><img src="net/images/xf_99.gif"></div></td>
+                  <td height="23">&nbsp;<a href="net/search/combinationSearch.jsp" target="_blank">组合查询</a></td>
+                </tr>
+                <tr>
+                    <td height="23">&nbsp;</td>
+                    <td height="23" align="right"><a href="http://www.cccf.net.cn"><img src="net/images/xfcp_11.gif" width="31" height="9" border="0"></a></td>
+                  </tr>
+              </tbody></table>
+                </td>
+          </tr>
+      </tbody></table></td>
+    <td width="473" height="145" valign="top"><table width="454" height="144" border="0" align="center" cellpadding="0" cellspacing="0" class="city_bg4">
+      <tbody><tr>
+        <td width="194" height="32" align="center" background="net/images/xfcp_29.gif"><strong><font color="#FFFFFF">地方频道&nbsp; </font></strong></td>
+        <td width="258" background="net/images/xfcp_30.gif">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="133" colspan="2" style="line-height:30px; padding:10px;">
+         <a href="http://www.bjxfj.gov.cn" target="_blank">北京</a>&nbsp;&nbsp;<a href="http://www.e110.info/fire" target="_blank">天津</a>&nbsp;&nbsp;<a href="http://www.hebxf.net" target="_blank">河北</a>&nbsp;&nbsp;<a href="http://www.sxxf.net" target="_blank">山西</a>&nbsp;&nbsp;<a href="http://www.bf119.com/" target="_blank">内蒙古</a>&nbsp;&nbsp;<a href="http://www.jl119.gov.cn" target="_blank">吉林</a>&nbsp;&nbsp;<a href="http://www.hlfire.gov.cn" target="_blank">黑龙江</a>&nbsp;&nbsp;<a href="http://www.fire.sh.cn" target="_blank">上海</a>&nbsp;&nbsp;<a href="http://www.js119.com" target="_blank">江苏</a>&nbsp;&nbsp;<a href="http://www.zjxf119.com" target="_blank">浙江</a>&nbsp;&nbsp;<a href="http://www.ah119.cn" target="_blank">安徽</a><br>
+         <a href="http://www.fjxf.gov.cn" target="_blank">福建</a>&nbsp;&nbsp;<a href="http://www.jx-fire.gov.cn" target="_blank">江西</a>&nbsp;&nbsp;<a href="http://xf.sdnews.com.cn" target="_blank">山东</a>&nbsp;&nbsp;<a href="http://www.119.ha.cn/index.shtml" target="_blank">河南</a>&nbsp;&nbsp;<a href="http://www.hbfire.com/" target="_blank">湖北</a>&nbsp;&nbsp;<a href="http://www.hn119.gov.cn" target="_blank">湖南</a>&nbsp;&nbsp;<a href="http://www.gdfire.gov.cn" target="_blank">广东</a>&nbsp;&nbsp;<a href="http://www.gx119.net" target="_blank">广西</a>&nbsp;&nbsp;<a href="http://www.hainan119.cn" target="_blank">海南</a>&nbsp;&nbsp;<a href="http://www.cqfire.com" target="_blank">重庆</a>&nbsp;&nbsp;<a href="http://www.sc119.gov.cn" target="_blank">四川</a><br>
+         <a href="http://www.gzxf119.gov.cn" target="_blank">贵州</a>&nbsp;&nbsp;<a href="http://www.yn119.cn" target="_blank">云南</a>&nbsp;&nbsp;<a href="http://www.96119.net/" target="_blank">西藏</a>&nbsp;&nbsp;<a href="http://www.shaanxi119.com" target="_blank">陕西</a>&nbsp;&nbsp;<a href="http://www.gsxf119.com" target="_blank">甘肃</a>&nbsp;&nbsp;<a href="http://www.qh119.com" target="_blank">青海</a>&nbsp;&nbsp;<a href="http://www.ln119.com" target="_blank">辽宁</a>&nbsp;&nbsp;<a href="http://www.xjxf.com" target="_blank">新疆</a>
+         </td>
+      </tr>
+    </tbody></table></td>
+    <td width="313" valign="top"><table width="303" height="144" border="0" cellpadding="0" cellspacing="0" class="city_bg4">
+      <tbody><tr>
+        <td height="31" background="net/images/xfcp_30.gif"><strong><font color="#1272B0">&nbsp;&nbsp;认证检测机构</font></strong></td>
+      </tr>
+      <tr>
+        <td height="133">
+        <ul style="margin: 0px;padding: 0px;">
+          <li style="line-height:26px;">&nbsp;<a href="http://www.cccf.net.cn" target="_blank">公安部消防产品合格评定中心</a></li>
+          <li style="line-height:26px;">&nbsp;<a href="http://www.cncf.com.cn/" target="_blank">国家固定灭火系统和耐火构件质量监督检验中心</a></li>
+          <li style="line-height:26px;">&nbsp;<a href="http://www.xfjyzx.com/index1.asp" target="_blank">国家消防装备质量监督检验中心</a></li>
+          <li style="line-height:26px;">&nbsp;<a href="http://www.efire.cn/" target="_blank">国家消防电子产品质量监督检验中心</a></li>
+          <li style="line-height:26px;">&nbsp;<a href="http://www.fire-testing.net/" target="_blank">国家防火建筑材料质量监督检验中心</a></li>
+        </ul>
+        </td>
+        
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td height="148" colspan="2" valign="top">
+      <br>
+      <table width="660" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="BFD4E2">
+      <tbody><tr>
+        <td width="660" height="121" valign="top" bgcolor="#FFFFFF">
+          <table width="660" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td colspan="2"><img src="net/images/xfcp_43.gif" width="83" height="15"></td>
+          </tr>
+          <tr>
+            <td width="69"><img src="net/images/xfcp_44.gif" width="68" height="106"></td>
+            <td width="591" background="net/images/xfcp_45.gif"><table width="569" height="105" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+                <td width="161" align="center"><a href="http://www.mps.gov.cn" target="_blank"><img src="net/images/xfcp_34.gif" width="116" height="43" border="0"></a></td>
+                <td width="134" align="center"><a href="http://www.119.gov.cn" target="_blank"><img src="net/images/linkLogo2.gif" width="116" height="43" border="0"></a></td>
+                <td width="135" align="center"><a href="http://www.aqsiq.gov.cn" target="_blank"><img src="net/images/xfcp_38.gif" width="116" height="43" border="0"></a></td>
+                <td width="139" align="center"><a href="http://www.saic.gov.cn" target="_blank"><img src="net/images/xfcp_40.gif" width="116" height="43" border="0"></a></td>
+              </tr>
+              <tr>
+                <td height="61" align="center"><a href="http://www.cnca.gov.cn" target="_blank"><img src="net/images/xfcp_42.gif" width="116" height="43" border="0"></a></td>
+                <td align="center"><a href="http://bzgf.119.cn" target="_blank"><img src="net/images/linkLogo6.gif" width="116" height="43" border="0"></a></td>
+                <td align="center"><a href="http://www.119.cn" target="_blank"><img src="net/images/linkLogo7.gif" width="116" height="43" border="0"></a></td>
+                <td align="center"><a href="http://www.china-fr.com/" target="_blank"><img src="net/images/xfcp_41.gif" width="116" height="43" border="0"></a></td>
+                </tr>
+              </tbody></table></td>
+           </tr>
+          </tbody></table>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+    <td width="313" valign="top">
+      <br>
+      <table width="302" border="0" cellpadding="0" cellspacing="1" bgcolor="BFD4E2">
+      <tbody><tr>
+        <td width="302" height="121" valign="middle" bgcolor="#FFFFFF" align="center">
+			<a href="getMoreNewsList.do?netDto.gotoColumnCode=fire_science&amp;netDto.columnName=消防科技&amp;netDto.gotoPage=pub_news_page"><img border="0" src="net/images/imgXfkj.gif" title="消防科技"></a>
+			<a href="login.jsp" target="_blank"><img border="0" style="margin-top: 7px;" src="net/images/imgZxtg.gif" title="在线投稿"></a>
+        </td>
+       </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table>
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0" style="border:1px solid #CCCCCC">
+  <tbody><tr>
+    <td height="80" valign="top" background="net/images/xfcp_33.gif">
+      <form name="inqForm" action="getInq.do" method="post">
+        <table width="" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td width="" colspan="4"><img src="net/images/xfcp_35.gif" width="132" height="35"></td>
+          </tr>
+          <tr>
+            <td height="26" style="padding-left: 30px;"><strong>您对网站的页面和内容是否满意？</strong></td>
+            <td height="26" style="">
+              <input type="radio" name="netDto.inqKey" value="1">非常满意
+              <input name="netDto.inqKey" type="radio" value="2" checked="checked"> 满意
+              <input type="radio" name="netDto.inqKey" value="3">不满意
+              <input type="radio" name="netDto.inqKey" value="4">非常不满意
+            </td>
+            <td height="26" align="center" style="padding-left: 30px;"><a href="javascript:subInq();"><img src="net/images/xfcp_37.gif" width="55" height="18" border="0"></a></td>
+           </tr>
+          </tbody></table>
+        </form>
+      </td>
+    </tr>
+  </tbody></table>
+
+
+
+<table width="990" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tbody><tr>
+    <td height="8" bgcolor="#396ACF"></td>
+  </tr>
+  <tr>
+    <td height="15" align="center" bgcolor="DAEBFF">
+		<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/40672485/CA330000000406724850004.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=54B9D637E6164F85E053022819ACDB3D" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/33/000/0000/40672485/CA330000000406724850004.js" type="text/javascript"></script><span id="_ideConac"></span>
+	</td>
+  </tr>
+  <tr>
+    <td height="25" align="center" bgcolor="DAEBFF"><strong><a href="javascript:addfavorite('中国消防产品信息网','http://www.cccf.com.cn');">加入收藏</a> | <a href="http://cccf.com.cn:80/net/pages/netmaps.jsp">网站地图</a> | <a href="http://cccf.com.cn:80/net/pages/contactus/contactus.jsp">联系我们</a></strong></td>
+  </tr>
+  <tr>
+    <td height="25" align="center" bgcolor="DAEBFF">中国消防产品信息网&nbsp;&nbsp;<a href="http://www.cccf.com.cn">www.cccf.com.cn</a></td>
+  </tr>
+  <tr>
+    <td height="25" align="center" bgcolor="DAEBFF">《中华人民共和国电信与信息服务业务经营许可证》编号：<a href="http://www.miibeian.gov.cn/">京ICP备05053391号</a>&nbsp;&nbsp;京公网安备11010102001000</td>
+  </tr>
+  <tr>
+    <td height="25" align="center" bgcolor="DAEBFF">联系电话：010-67274320 传真：010-87278660   联系信箱：cccf@263.net</td>
+  </tr>
+</tbody></table>
+<script type="text/javascript">
+<!--
+function addfavorite(title,url) {
+	if (window.sidebar) { 
+		window.sidebar.addPanel(title, url,""); 
+	} else if( document.all ) {
+		window.external.AddFavorite(url, title);
+	} else if( window.opera && window.print ) {
+		return true;
+	}
+}
+//-->
+</script>
+
+
+<script type="text/javascript">
+function disStedTable(jtd, jtable)
+{
+	for(i = 0; i < 3; i++)
+	{
+		var jtdi = document.getElementById("td" + (i + 1));
+		var jtablei = document.getElementById("table" + (i + 1));
+		if(jtdi.id == jtd.id)
+		{
+			jtdi.className = "sel_yes";
+			jtablei.style.display = "";
+		} else {
+			jtdi.className = "sel_no";
+			jtablei.style.display = "none";
+		}
+	}
+}
+
+function subInq()
+{
+	document.inqForm.submit();
+}
+
+
+
+//configure shake degree (where larger # equals greater shake)
+var rector=3
+
+///////DONE EDITTING///////////
+var stopit=0 
+var a=1
+
+
+function init(which){
+stopit=0
+shake=which
+shake.style.left=0
+shake.style.top=0
+}
+function rattleimage(){
+if ((!document.all&&!document.getElementById)||stopit==1)
+return
+if (a==1){
+shake.style.top=parseInt(shake.style.top)+rector
+}
+else if (a==2){
+shake.style.left=parseInt(shake.style.left)+rector
+}
+else if (a==3){
+shake.style.top=parseInt(shake.style.top)-rector
+}
+else{
+shake.style.left=parseInt(shake.style.left)-rector
+}
+if (a<4)
+a++
+else
+a=1
+setTimeout("rattleimage()",200)
+}
+
+function stoprattle(which){
+stopit=1
+which.style.left=0
+which.style.top=0
+}
+
+var which = document.getElementById("leavemsgimg");
+//init(which);
+//rattleimage();
+</script>
+
+</body></html>

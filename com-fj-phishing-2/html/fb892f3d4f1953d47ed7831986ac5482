@@ -1,0 +1,477 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="keywords" content="卖菜,买菜,蔬菜,水果,卖菜网,买菜网,蔬菜网,水果网,卖菜app,买菜app,美菜网,买菜么,送菜网,菜到家,菜市场,果蔬网,网上卖菜,网上买菜,蔬菜商城,水果商城,蔬菜配送,中国蔬菜网">
+<meta name="description" content="微信卖菜,微信买菜,网上买菜,网上卖菜,买菜网站,卖菜网站,送菜到家,送菜上门,网上订菜,蔬菜配送,手机卖菜,网上菜店,蔬菜商城,卖菜平台,买菜网,卖菜网,买蔬菜,卖菜吧,卖蔬菜,卖菜,买菜,蔬菜网,菜到家,鲜直达,买菜app,卖菜app,手机买菜,卖菜信息,买菜信息,蔬菜供应,蔬菜求购,蔬菜价格,蔬菜行情,蔬菜网站,蔬菜产地,蔬菜直销,水果商城,新鲜直达,网上菜市场,网上买菜的网站">
+<title>蔬菜网_水果网_买菜网_网上买菜_蔬菜商城_买菜APP_菜市场_卖菜网</title>
+<script src="https://hm.baidu.com/hm.js?909826644880c3bbae65ef6c3af40157"></script><script type="text/javascript" src="/Public/Cn/js/jquery.js"></script><script type="text/javascript" src="/Public/Cn/js/banner.js"></script><script type="text/javascript" src="/Public/Cn/js/zong.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/Cn/css/style.css">
+<script type="text/javascript" src="/Public/script/skip.js"></script>
+<script type="text/javascript" src="//res.daiyanbao.com/corescript/daiyanbao_com_1.1.3.min.js"></script><script src="//ping.daiyanbao.com/s2/ping/?v=free%2F305"></script></head>
+<body>
+<div id="head">
+	<div class="head_con w1200">
+		<div class="lf"><script type="text/JavaScript" src="/Public/Cn/js/time.js"></script>2018年6月4日 星期一 戊戌(狗)年 四月廿一</div>
+        <div class="tq"><iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&amp;id=99" width="160" height="36" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+		<div class="ri">
+			<div class="mem" id="top_jsLogin"><span><a href="/login/index.html" title="登录">登录</a></span> | <span><a href="/login/reg.html" title="注册" class="zhuce">注册</a></span>　
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(".memnr").hover(function(){
+		$(this).find('.sub').show();
+		},function(){
+		$(this).find('.sub').hide();
+	})
+</script>
+<div id="top" class="w1200">
+	<a href="/" title="卖菜网" class="logo"><img src="/Public/Cn/images/logo.jpg" height="55" alt="卖菜网" title="卖菜网"></a>
+	<div class="searnr">
+		<form action="/supply/index.html" method="post" onsubmit="return feikong();">
+			<input type="text" placeholder="请输入搜索关键字" name="caption" id="caption">
+			<input type="submit" class="btn" value="搜索">
+		</form>
+	</div>
+    <script>
+		function feikong(){
+			var val = $("#caption").val();	
+			if(val == ''){
+				alert('请输入搜索关键字');
+				return false;	
+			}
+		}
+	</script>
+    <div class="top_ri">      <img src="http://www.maicainan.com/Public/Cn/images/app.jpg" alt="" width="150" height="40" border="0" usemap="#Map">
+<map name="Map" id="Map"><area shape="rect" coords="4,4,148,38" href="/App/" target="_blank">
+</map>	  
+        <a href="/fabu/index.html" title="" class="fr">免费发布信息</a></div>
+</div>
+	<div id="nav" class="w1200 nav_con">
+	<ul class="clear-fix">
+		<li id="nav_index" class="hover"><a href="/" title="首页">首页</a></li>
+		<li id="nav_supply"><a href="/supply/index.html" title="供应信息">供应信息</a></li>
+		<li id="nav_offer"><a href="/offer/index.html" title="行情报价">行情报价</a></li>
+		<li id="nav_buy"><a href="/buy/index.html" title="求购大厅">求购大厅</a></li>
+		<li id="nav_wuliu"><a href="/wuliu/index.html" title="物流信息">物流信息</a></li>
+		<li id="nav_agriculture"><a href="/agriculture/index.html" title="农资大厅">农资大厅</a></li>
+		<li id="nav_news"><a href="/news/index.html" title="新闻资讯">新闻资讯</a></li>
+		<li id="nav_agent"><a href="/agent/index.html" title="经纪人区">经纪人区</a></li>
+        <li id="nav_bbs"><a href="/bbs/index.html" title="论坛">论坛互动</a></li>
+        <li id="nav_business"><a href="/business/index.html" title="自助建站">自助建站</a></li>
+	  <li id="nav_member"><a href="/member/index.html" title="会员中心">会员中心</a></li>
+	</ul>
+</div>
+<script>$("#nav_index").addClass('hover')</script>
+<div class="w1200 clear-fix">
+<div id="imain1">
+		<div class="i1_lf">
+			<div class="i_tit">
+				<h3>今日最新</h3>
+							</div>
+			<div class="im_list">
+				<ul>
+                	<li><a href="/supply/show/id/1337.html" title="山东大姜小姜批发价格">山东大姜小姜批发价格</a><span>06-04</span></li><li><a href="/supply/show/id/1338.html" title="山东西瓜基地供应京欣西瓜价格">山东西瓜基地供应京欣西瓜价格</a><span>06-04</span></li><li><a href="/supply/show/id/1340.html" title="山东油桃毛桃产地价格">山东油桃毛桃产地价格</a><span>06-04</span></li><li><a href="/supply/show/id/1214.html" title="山东油桃批发大棚油桃产地直销">山东油桃批发大棚油桃产地直销</a><span>06-04</span></li><li><a href="/supply/show/id/1206.html" title="大棚京欣西瓜上市农户直销">大棚京欣西瓜上市农户直销</a><span>06-04</span></li><li><a href="/supply/show/id/1232.html" title="山东甜王西瓜批发">山东甜王西瓜批发</a><span>06-04</span></li><li><a href="/supply/show/id/1158.html" title="河北省邯郸市永年甘蓝大量上市中">河北省邯郸市永年甘蓝大量上市中</a><span>06-04</span></li><li><a href="/supply/show/id/1159.html" title="河北省邯郸市永年油麦菜大量上市中">河北省邯郸市永年油麦菜大量上市中</a><span>06-04</span></li>				</ul>
+			</div>
+		</div>
+		<div class="i1_cen">
+			<div class="tit">
+				共有信息<em>6821300</em>条，商家<em>27340</em>条，报价<em>86579</em>条，会员<em>37739</em>位
+			</div>
+			<div class="focus" id="focus">
+				<ul style="left: 0px; width: 2898px;">
+                	<li><a href="http://www.maicainan.com/wap/mall/" target="_blank"><img src="/Upload/atm/B92A17318770F1726265F71FAAC05A00.jpg" width="483" height="278"></a></li><li><a href="http://www.maicainan.com/wap/mall/" target="_blank"><img src="/Upload/atm/AE984800DDF2A25B60DF7E5D3CABFC37.jpg" width="483" height="278"></a></li><li><a href="http://www.maicainan.com/wap/mall/" target="_blank"><img src="/Upload/atm/8DECD898895A1CB58E70856FD70DA4AB.png" width="483" height="278"></a></li><li><a href="http://www.maicainan.com/wap/mall/" target="_blank"><img src="/Upload/atm/75EF5803F673A0F6964A5C7C62AAD839.jpg" width="483" height="278"></a></li><li><a href="http://www.maicainan.com/wap/mall/" target="_blank"><img src="/Upload/atm/9E03EA81A59084E9BB0D387331C15A1B.jpg" width="483" height="278"></a></li>				</ul>
+			<div class="btn"><span class="on"></span><span></span><span></span><span></span><span></span></div></div>
+			<script>hdpqh('focus',1)</script>
+		</div>
+		<div class="i1_ri">
+			<div class="i_tit">
+				<h3>置顶信息</h3>
+				<p>卖菜网 · VIP会员推荐信息</p>
+			</div>
+			<div class="im_list2">
+				<ul>
+                	<li><span>06-04</span><a href="/supply/show/id/1157.html" title="河北省邯郸市永年芹菜大量上市中">河北省邯郸市永年芹菜大量上市中</a></li><li><span>06-04</span><a href="/supply/show/id/1155.html" title="河北省邯郸市永年菜花大量上市中">河北省邯郸市永年菜花大量上市中</a></li><li><span>06-04</span><a href="/supply/show/id/1156.html" title="河北省邯郸市永年松花大量上市中">河北省邯郸市永年松花大量上市中</a></li><li><span>06-04</span><a href="/buy/show/id/1415.html" title="卖玉米的地方收购小麦的实力厂家（高价收购）玉米、菜籽饼">卖玉米的地方收购小麦的实力厂家…</a></li><li><span>06-04</span><a href="/buy/show/id/1355.html" title="大量收购菜籽饼玉米|2018年玉米多少钱一斤">大量收购菜籽饼玉米|2018年玉米…</a></li><li><span>06-04</span><a href="/buy/show/id/1274.html" title="大量收购东北玉米| 玉米价格会增加多少钱？">大量收购东北玉米| 玉米价格会…</a></li><li><span>06-04</span><a href="/buy/show/id/1246.html" title="谁知道哪里大量收购玉米,垄上常年收购玉米（优质厂家）">谁知道哪里大量收购玉米,垄上常…</a></li><li><span>06-04</span><a href="/buy/show/id/1275.html" title="本人大量收购玉米|今日玉米价一斤多少钱？">本人大量收购玉米|今日玉米价一…</a></li>				</ul>
+			</div>
+		</div>
+	</div>
+    	<div id="imain_sj">
+		<table width="1200" border="0" align="center" bordercolor="#009966" bgcolor="#009966">
+          <tbody><tr>
+            <td><table width="100%" border="0">
+                <tbody><tr>
+                  <td align="center"><table width="80%" border="0">
+                      <tbody><tr>
+                        <td height="22" align="left"><span style="color: #FFFFFF">卖菜专区</span></td>
+                        <td align="center"><span style="color: #FF0000">
+                          <script language="JavaScript" type="text/javascript">
+var number = Math.random();
+number = Math.ceil(number * 3000); 
+document.write(number);
+        </script>2291
+                        </span></td>
+                        <td align="right"><span style="color: #FFFFFF">当前在线</span></td>
+                      </tr>
+                  </tbody></table></td>
+                  <td align="center"><table width="80%" border="0">
+                      <tbody><tr>
+                        <td height="22" align="left"><span style="color: #FFFFFF">买菜专区</span></td>
+                        <td align="center"><span style="color: #FF0000">
+                          <script language="JavaScript" type="text/javascript">
+var number = Math.random();
+number = Math.ceil(number * 2500); 
+document.write(number);
+        </script>968
+                        </span></td>
+                        <td align="right"><span style="color: #FFFFFF">当前在线</span></td>
+                      </tr>
+                  </tbody></table></td>
+                  <td align="center"><table width="80%" border="0">
+                      <tbody><tr>
+                        <td height="22" align="left"><span style="color: #FFFFFF">企业专区</span></td>
+                        <td align="center"><span style="color: #FF0000">
+                          <script language="JavaScript" type="text/javascript">
+var number = Math.random();
+number = Math.ceil(number * 1000); 
+document.write(number);
+        </script>953
+                        </span></td>
+                        <td align="right"><span style="color: #FFFFFF">当前在线</span></td>
+                      </tr>
+                  </tbody></table></td>
+                  <td align="center"><table width="80%" border="0">
+                      <tbody><tr>
+                        <td height="22" align="left"><span style="color: #FFFFFF">互动专区</span></td>
+                        <td align="center"><span style="color: #FF0000">
+                          <script language="JavaScript" type="text/javascript">
+var number = Math.random();
+number = Math.ceil(number * 2000); 
+document.write(number);
+        </script>1367
+                        </span></td>
+                        <td align="right"><span style="color: #FFFFFF">当前在线</span></td>
+                      </tr>
+                  </tbody></table></td>
+                  <td align="center"><table width="80%" border="0">
+                      <tbody><tr>
+                        <td height="22" align="left"><span style="color: #FFFFFF">客户端区</span></td>
+                        <td align="center"><span style="color: #FF0000">
+                          <script language="JavaScript" type="text/javascript">
+var number = Math.random();
+number = Math.ceil(number * 800); 
+document.write(number);
+        </script>279
+                        </span></td>
+                        <td align="right"><span style="color: #FFFFFF">当前在线</span></td>
+                      </tr>
+                  </tbody></table></td>
+                </tr>
+            </tbody></table></td>
+          </tr>
+        </tbody></table>
+        <table width="1200" border="0" align="center">
+          <tbody><tr>
+            <td height="84" align="center"><a href="/wap/mall/"><img src="images/001.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/002.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/003.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/004.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/005.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/006.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/007.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/008.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/009.jpg" alt="" width="115" height="80"></a></td>
+            <td align="center"><a href="/wap/mall/"><img src="images/010.jpg" alt="" width="115" height="80"></a></td>
+          </tr>
+          <tr>
+            <td height="32" align="center"><a href="/wap/mall/">菜花</a></td>
+            <td align="center"><a href="/wap/mall/">土豆</a></td>
+            <td align="center"><a href="/wap/mall/">生菜</a></td>
+            <td align="center"><a href="/wap/mall/">芹菜</a></td>
+            <td align="center"><a href="/wap/mall/">甘蓝</a></td>
+            <td align="center"><a href="/wap/mall/">甘蓝</a></td>
+            <td align="center"><a href="/wap/mall/">莴笋</a></td>
+            <td align="center"><a href="/wap/mall/">白菜</a></td>
+            <td align="center"><a href="/wap/mall/">土豆</a></td>
+            <td align="center"><a href="/wap/mall/">萝卜</a></td>
+          </tr>
+        </tbody></table>
+<div class="i3_tit">
+			<h3>企业商家</h3>
+			<div><a href="/ruzhu/index.html" title="商家入驻" class="rz">商家入驻</a><a href="/business/index.html" title="更多商家" class="more">更多商家</a></div>
+		</div>
+        <div class="imain_sj_img">
+        	<a href="/business/show/id/133.html" title="张北县错季蔬菜种植基地"><img src="/Upload/infomation/pic/A944432A5F95D6F3C196C00EDB24A193.jpg" width="140" alt="张北县错季蔬菜种植基地" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/320.html" title="北京朗科兴业称重设备有限公司"><img src="/Upload/infomation/pic/91B1CC13F5F3CE8EB92662C2BB01A70E.jpg" width="140" alt="北京朗科兴业称重设备有限公司" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/309.html" title="津门龟兹鲜生"><img src="/Upload/infomation/pic/E0DF8EBB3D94348605EC0024F309059F.jpg" width="140" alt="津门龟兹鲜生" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/276.html" title="贵州遵义虾子辣椒批发市场"><img src="/Upload/infomation/pic/0073634182087DE125104FDCDC8E0D5C.jpg" width="140" alt="贵州遵义虾子辣椒批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/272.html" title="贵州专业蔬菜打包团队"><img src="/Upload/infomation/pic/16C952F5BF247300D5D2ACE4208EB9D7.jpg" width="140" alt="贵州专业蔬菜打包团队" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/270.html" title="河北沧州蔬菜网袋厂"><img src="/Upload/infomation/pic/F874F0EAD5763F55B7633F18C6F88402.jpg" width="140" alt="河北沧州蔬菜网袋厂" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/264.html" title="北京市通州八里桥蔬菜批发市场"><img src="/Upload/infomation/pic/F43C5974119D913D31E25818FD9EEC01.jpg" width="140" alt="北京市通州八里桥蔬菜批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/263.html" title="湖南岳阳花板桥蔬菜批发市场"><img src="/Upload/infomation/pic/759877E6DEA5D83BA3C2FC8B58311C95.jpg" width="140" alt="湖南岳阳花板桥蔬菜批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/262.html" title="山东青岛抚顺路蔬菜批发市场"><img src="/Upload/infomation/pic/D78A1F3F04BB46A27B90529B22426312.jpg" width="140" alt="山东青岛抚顺路蔬菜批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/261.html" title="湖南长沙红星蔬菜批发市场"><img src="/Upload/infomation/pic/A0961241A5BCD4953E635B371AABECB7.jpg" width="140" alt="湖南长沙红星蔬菜批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/260.html" title="山东济南七里堡蔬菜批发市场"><img src="/Upload/infomation/pic/0F71BB31F3CA8FBFCF2790815ED9F428.jpg" width="140" alt="山东济南七里堡蔬菜批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/259.html" title="湖北宜昌金桥蔬菜果品批发市场"><img src="/Upload/infomation/pic/3A0E6A782E84B92B366583FF69E0AE26.jpg" width="140" alt="湖北宜昌金桥蔬菜果品批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/258.html" title="安徽蚌埠蔬菜批发市场"><img src="/Upload/infomation/pic/61CB36F03959411C075842E08E84D70D.jpg" width="140" alt="安徽蚌埠蔬菜批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/255.html" title="深圳市桥东农产品贸易有限公司"><img src="/Upload/infomation/pic/4106939F7B07576F35CC9B890FA1F76F.jpg" width="140" alt="深圳市桥东农产品贸易有限公司" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/243.html" title="安徽马鞍山安民蔬菜批发交易市场"><img src="/Upload/infomation/pic/036A68DED2F1089BBEC5E60474F159F2.jpg" width="140" alt="安徽马鞍山安民蔬菜批发交易市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a><a href="/business/show/id/242.html" title="安徽亳州蔬菜批发市场"><img src="/Upload/infomation/pic/74F57BF11DCB6697D4599F52EA9AE410.jpg" width="140" alt="安徽亳州蔬菜批发市场" onerror="this.src=&quot;/Upload/nopic/nopic.gif&quot;"></a>        </div>
+        <div class="imain_sj_list clear-fix">
+        	<ul>
+                <li><a class="hover">蔬菜企业</a> <a href="/business/show/id/133.html" title="张北县错季蔬菜种植基地">张北县错季蔬菜种植基地</a></li><li><a class="hover">蔬菜企业</a> <a href="/business/show/id/320.html" title="北京朗科兴业称重设备有限公司">北京朗科兴业称重设备有限公司</a></li><li><a class="hover">蔬菜企业</a> <a href="/business/show/id/309.html" title="津门龟兹鲜生">津门龟兹鲜生</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/276.html" title="贵州遵义虾子辣椒批发市场">贵州遵义虾子辣椒批发市场</a></li><li><a class="hover">蔬菜企业</a> <a href="/business/show/id/272.html" title="贵州专业蔬菜打包团队">贵州专业蔬菜打包团队</a></li><li><a class="hover">蔬菜企业</a> <a href="/business/show/id/270.html" title="河北沧州蔬菜网袋厂">河北沧州蔬菜网袋厂</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/264.html" title="北京市通州八里桥蔬菜批发市场">北京市通州八里桥蔬菜批发市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/263.html" title="湖南岳阳花板桥蔬菜批发市场">湖南岳阳花板桥蔬菜批发市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/262.html" title="山东青岛抚顺路蔬菜批发市场">山东青岛抚顺路蔬菜批发市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/261.html" title="湖南长沙红星蔬菜批发市场">湖南长沙红星蔬菜批发市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/260.html" title="山东济南七里堡蔬菜批发市场">山东济南七里堡蔬菜批发市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/259.html" title="湖北宜昌金桥蔬菜果品批发市场">湖北宜昌金桥蔬菜果品批发市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/258.html" title="安徽蚌埠蔬菜批发市场">安徽蚌埠蔬菜批发市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/255.html" title="深圳市桥东农产品贸易有限公司">深圳市桥东农产品贸易有限公司</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/243.html" title="安徽马鞍山安民蔬菜批发交易市场">安徽马鞍山安民蔬菜批发交易市场</a></li><li><a class="hover">批发市场</a> <a href="/business/show/id/242.html" title="安徽亳州蔬菜批发市场">安徽亳州蔬菜批发市场</a></li>            </ul>
+            <ul>
+		</ul></div>
+	</div>
+    
+    
+    
+	<div id="iadv"><a href="/" target="_parent"><img src="/Upload/atm/EBA3D6C8F8370E55C9AF9FF2891376BE.jpg" width="1200" height="100" onerror="this.src=&quot;/Public/Cn/images/i_adv2.jpg&quot;"></a></div>
+	<div id="imain2">
+		<div class="i2_cen">
+			<div class="i_tit">
+				<h3>行情报价</h3>
+				<a href="/offer/index.html" title="更多">更多&gt;&gt;</a>
+			</div>
+			<ul>
+            	<li class="ico_1"><a href="/offer/show/id/1478.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1478.html" title="广州江南市场今日菜价 2018年6月4日">广州江南市场今日菜价 2018年6月…</a><span>06-04</span></li><li class="ico_1"><a href="/offer/show/id/1477.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1477.html" title="北京新发地今日菜价 2018年6月4日">北京新发地今日菜价 2018年6月4…</a><span>06-04</span></li><li class="ico_1"><a href="/offer/show/id/1476.html" title="水果报价" class="hover">水果报价</a><a href="/offer/show/id/1476.html" title="合肥谷堆批发市场">合肥谷堆批发市场</a><span>06-03</span></li><li class="ico_1"><a href="/offer/show/id/1471.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1471.html" title="北京新发地蔬菜批发市场（今日最新蔬菜价格）2018年6月1日">北京新发地蔬菜批发市场（今日最…</a><span>06-01</span></li><li class="ico_1"><a href="/offer/show/id/1399.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1399.html" title="小白菜批发价格 广西南宁五里亭蔬菜批发市场小白菜价格2018年5月20日">小白菜批发价格 广西南宁五里亭…</a><span>05-20</span></li><li class="ico_1"><a href="/offer/show/id/1398.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1398.html" title="丝瓜批发价格 河南万邦农产品批发市场丝瓜尖价格2018年5月20日">丝瓜批发价格 河南万邦农产品批…</a><span>05-20</span></li><li class="ico_1"><a href="/offer/show/id/1397.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1397.html" title="苦瓜批发价格-北京大洋路农副产品批发市场苦瓜价格2018年5月20日">苦瓜批发价格-北京大洋路农副产…</a><span>05-20</span></li><li class="ico_1"><a href="/offer/show/id/1394.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1394.html" title="今天黄瓜多少钱一斤？黄瓜价格最新行情 2018年5月20日">今天黄瓜多少钱一斤？黄瓜价格最…</a><span>05-20</span></li><li class="ico_1"><a href="/offer/show/id/1393.html" title="蔬菜报价" class="hover">蔬菜报价</a><a href="/offer/show/id/1393.html" title="今日土豆多少钱一斤？全国最新土豆价格行情分析 2018年5月20日">今日土豆多少钱一斤？全国最新土…</a><span>05-20</span></li>			</ul>
+		</div>
+		<div class="i2_cen">
+			<div class="i_tit">
+				<h3>供应信息</h3>
+				<a href="/supply/index.html" title="更多">更多&gt;&gt;</a>
+			</div>
+			<ul>
+            	<li class="ico_3"><a href="/supply/show/id/1033.html" title="围场满族蒙古族自治县" class="hover">围场满</a><a href="/supply/show/id/1033.html" title="河北围场薯菜供应">河北围场薯菜供应</a><span>06-03</span></li><li class="ico_3"><a href="/supply/show/id/647.html" title="围场满族蒙古族自治县" class="hover">围场满</a><a href="/supply/show/id/647.html" title="围场土豆白菜供应商">围场土豆白菜供应商</a><span>06-03</span></li><li class="ico_3"><a href="/supply/show/id/648.html" title="围场满族蒙古族自治县" class="hover">围场满</a><a href="/supply/show/id/648.html" title="围场干洗码面226土豆">围场干洗码面226土豆</a><span>06-03</span></li><li class="ico_3"><a href="/supply/show/id/1299.html" title="围场满族蒙古族自治县" class="hover">围场满</a><a href="/supply/show/id/1299.html" title="张家口赤城生菜大量上市供应">张家口赤城生菜大量上市供应</a><span>06-03</span></li><li class="ico_2"><a href="/supply/show/id/85.html" title="张北县" class="hover">张北县</a><a href="/supply/show/id/85.html" title="张北县西蓝花大量供应">张北县西蓝花大量供应</a><span>06-04</span></li><li class="ico_2"><a href="/supply/show/id/88.html" title="张北县" class="hover">张北县</a><a href="/supply/show/id/88.html" title="张北县圆白菜大量供应">张北县圆白菜大量供应</a><span>06-04</span></li><li class="ico_2"><a href="/supply/show/id/86.html" title="张北县" class="hover">张北县</a><a href="/supply/show/id/86.html" title="张北县白萝卜大量供应">张北县白萝卜大量供应</a><span>06-04</span></li><li class="ico_2"><a href="/supply/show/id/89.html" title="张北县" class="hover">张北县</a><a href="/supply/show/id/89.html" title="张北县土豆大量供应">张北县土豆大量供应</a><span>06-04</span></li><li class="ico_2"><a href="/supply/show/id/84.html" title="张北县" class="hover">张北县</a><a href="/supply/show/id/84.html" title="张北县大白菜大量供应">张北县大白菜大量供应</a><span>06-04</span></li>			</ul>
+		</div>
+		<div class="i2_cen nmr">
+			<div class="i_tit">
+				<h3>求购信息</h3>
+				<a href="/buy/index.html" title="更多">更多&gt;&gt;</a>
+			</div>
+			<ul>
+            	<li class="ico_2"><a href="/buy/show/id/214.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/214.html" title="大量收购张北县白萝卜">大量收购张北县白萝卜</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/213.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/213.html" title="大量收购张北县红皮土豆">大量收购张北县红皮土豆</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/212.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/212.html" title="大量收购张北县莴笋">大量收购张北县莴笋</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/211.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/211.html" title="大量收购张北县圆白菜">大量收购张北县圆白菜</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/210.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/210.html" title="大量收购张北县西葫芦">大量收购张北县西葫芦</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/209.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/209.html" title="大量收购张北县娃娃菜">大量收购张北县娃娃菜</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/208.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/208.html" title="大量收购张北县西蓝花">大量收购张北县西蓝花</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/92.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/92.html" title="大量收购张北县大白菜">大量收购张北县大白菜</a><span>06-04</span></li><li class="ico_2"><a href="/buy/show/id/93.html" title="张北县" class="hover">张北县</a><a href="/buy/show/id/93.html" title="大量收购张北县青梗散花">大量收购张北县青梗散花</a><span>06-04</span></li>			</ul>
+		</div>
+	</div>
+    <div id="iadv"><a href="/" target="_parent"><img src="/Upload/atm/1ED47621B51583D8A5194711CD9A8839.jpg" width="1200" height="100" onerror="this.src=&quot;/Public/Cn/images/bt_adv.jpg&quot;"></a></div>
+	<div id="imain2">
+		<div class="i2_cen">
+			<div class="i_tit">
+				<h3>农资大厅</h3>
+				<a href="/agriculture/index.html" title="更多">更多&gt;&gt;</a>
+			</div>
+			<ul>
+				<li class="ico_1"><a href="/agriculture/show/id/829.html" title="张北县" class="hover">张北县</a><a href="/agriculture/show/id/829.html" title="专业铺膜【GPS导航铺膜双垄】">专业铺膜【GPS导航铺膜双垄】</a><span>05-27</span></li><li class="ico_1"><a href="/agriculture/show/id/1452.html" title="禹城市" class="hover">禹城市</a><a href="/agriculture/show/id/1452.html" title="蚯蚓活性酶植物多肽液">蚯蚓活性酶植物多肽液</a><span>05-26</span></li><li class="ico_1"><a href="/agriculture/show/id/1438.html" title="永年县" class="hover">永年县</a><a href="/agriculture/show/id/1438.html" title="发酵鸡粪，发酵羊粪。">发酵鸡粪，发酵羊粪。</a><span>05-25</span></li><li class="ico_1"><a href="/agriculture/show/id/1437.html" title="永年县" class="hover">永年县</a><a href="/agriculture/show/id/1437.html" title="生物有机肥">生物有机肥</a><span>05-25</span></li><li class="ico_1"><a href="/agriculture/show/id/1443.html" title="资兴市" class="hover">资兴市</a><a href="/agriculture/show/id/1443.html" title="粽叶">粽叶</a><span>05-25</span></li><li class="ico_1"><a href="/agriculture/show/id/1421.html" title="白云区" class="hover">白云区</a><a href="/agriculture/show/id/1421.html" title="碳基生物菌剂和水溶肥">碳基生物菌剂和水溶肥</a><span>05-23</span></li><li class="ico_1"><a href="/agriculture/show/id/1418.html" title="徐汇区" class="hover">徐汇区</a><a href="/agriculture/show/id/1418.html" title="卖菜">卖菜</a><span>05-23</span></li><li class="ico_1"><a href="/agriculture/show/id/327.html" title="莘　县" class="hover">莘县</a><a href="/agriculture/show/id/327.html" title="供蔬菜育苗基质">供蔬菜育苗基质</a><span>05-19</span></li><li class="ico_1"><a href="/agriculture/show/id/1373.html" title="莘　县" class="hover">莘县</a><a href="/agriculture/show/id/1373.html" title="供蔬菜育苗基质">供蔬菜育苗基质</a><span>05-19</span></li>			</ul>
+		</div>
+		<div class="i2_cen">
+			<div class="i_tit">
+				<h3>经纪人区</h3>
+				<a href="/agent/index.html" title="更多">更多&gt;&gt;</a>
+			</div>
+			<ul>
+				<li class="ico_3"><a href="/agent/show/id/1032.html" title="围场满族蒙古族自治县" class="hover">围场满</a><a href="/agent/show/id/1032.html" title="围场土豆白菜代收☞大欢">围场土豆白菜代收☞大欢</a><span>06-03</span></li><li class="ico_2"><a href="/agent/show/id/91.html" title="张北县" class="hover">张北县</a><a href="/agent/show/id/91.html" title="张北县蔬菜代办 胡剑">张北县蔬菜代办 胡剑</a><span>06-04</span></li><li class="ico_2"><a href="/agent/show/id/197.html" title="沽源县" class="hover">沽源县</a><a href="/agent/show/id/197.html" title="沽源县蔬菜代办 胡剑">沽源县蔬菜代办 胡剑</a><span>06-04</span></li><li class="ico_2"><a href="/agent/show/id/198.html" title="康保县" class="hover">康保县</a><a href="/agent/show/id/198.html" title="康保县蔬菜代办 胡剑">康保县蔬菜代办 胡剑</a><span>06-04</span></li><li class="ico_2"><a href="/agent/show/id/199.html" title="尚义县" class="hover">尚义县</a><a href="/agent/show/id/199.html" title="尚义县蔬菜代办 胡剑">尚义县蔬菜代办 胡剑</a><span>06-04</span></li><li class="ico_2"><a href="/agent/show/id/201.html" title="万全县" class="hover">万全县</a><a href="/agent/show/id/201.html" title="万全县蔬菜代办 胡剑">万全县蔬菜代办 胡剑</a><span>06-04</span></li><li class="ico_2"><a href="/agent/show/id/202.html" title="宣化县" class="hover">宣化县</a><a href="/agent/show/id/202.html" title="宣化县蔬菜代办 胡剑">宣化县蔬菜代办 胡剑</a><span>06-04</span></li><li class="ico_2"><a href="/agent/show/id/200.html" title="张家口" class="hover">张家口</a><a href="/agent/show/id/200.html" title="张家口蔬菜代办 胡剑">张家口蔬菜代办 胡剑</a><span>06-04</span></li><li class="ico_2"><a href="/agent/show/id/203.html" title="张北县" class="hover">张北县</a><a href="/agent/show/id/203.html" title="坝上蔬菜供应商 胡剑">坝上蔬菜供应商 胡剑</a><span>06-04</span></li>			</ul>
+		</div>
+		<div class="i2_cen nmr">
+			<div class="i_tit">
+				<h3>物流信息</h3>
+				<a href="/wuliu/index.html" title="更多">更多&gt;&gt;</a>
+			</div>
+			<ul>
+				<li class="ico_1"><a href="/wuliu/show/id/1273.html" title="张北县" class="hover">张北县</a><a href="/wuliu/show/id/1273.html" title="围场到保山腾冲 土豆 需挂车 货到卸车">围场到保山腾冲 土豆 需挂车 货到</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/1134.html" title="绥中县" class="hover">绥中县</a><a href="/wuliu/show/id/1134.html" title="绥中物流">绥中物流</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/1133.html" title="绥中县" class="hover">绥中县</a><a href="/wuliu/show/id/1133.html" title="围场到重庆土豆求13米，货到卸车">围场到重庆土豆求13米，货到卸车</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/471.html" title="张北县" class="hover">张北县</a><a href="/wuliu/show/id/471.html" title="本物流天天有全国货源">本物流天天有全国货源</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/419.html" title="张北县" class="hover">张北县</a><a href="/wuliu/show/id/419.html" title="张北到成都土豆需要挂车一辆">张北到成都土豆需要挂车一辆</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/418.html" title="多伦县" class="hover">多伦县</a><a href="/wuliu/show/id/418.html" title="围场到贵阳土豆要车多辆">围场到贵阳土豆要车多辆</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/97.html" title="承德围场" class="hover">承德围</a><a href="/wuliu/show/id/97.html" title="承德围场到湖南长沙装土豆需要13米挂车3辆">承德围场到湖南长沙装土豆需要13米挂…</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/96.html" title="沽源县" class="hover">沽源县</a><a href="/wuliu/show/id/96.html" title="沽源县到四川成都装土豆需要挂车3辆">沽源县到四川成都装土豆需要挂车3辆</a><span>05-18</span></li><li class="ico_1"><a href="/wuliu/show/id/98.html" title="内蒙多伦" class="hover">内蒙多</a><a href="/wuliu/show/id/98.html" title="内蒙多伦到广西南宁装土豆需要挂车2辆">内蒙多伦到广西南宁装土豆需要挂车2…</a><span>05-18</span></li>			</ul>
+		</div>
+	</div>
+    <div id="iadv"><a href="/" target="_parent"><img src="/Upload/atm/060DC6FCC6252435BFEA84FEEDECD390.gif" width="1200" height="100" onerror="this.src=&quot;/Public/Cn/images/bt_adv.jpg&quot;"></a></div>
+		<div id="imain_news" class="clear-fix">
+		<div class="imain_news_tit" id="myTab0">
+        	<span class="hover" onmouseover="nTabs(this,0);">最新新闻</span> 
+            <span onmouseover="nTabs(this,1);">产地新闻</span> 
+            <span onmouseover="nTabs(this,2);">国内新闻 </span>
+            <span onmouseover="nTabs(this,3);">部门新闻 </span>
+            <span onmouseover="nTabs(this,4);">本站公告 </span>
+            <span onmouseover="nTabs(this,5);">种植技术 </span>
+			<a href="/news/index.html" title="更多新闻" class="more">更多新闻</a>
+		</div>
+        <div class="imain_news_nr clear-fix" id="myTab0_Content0">
+        	<ul>
+                <li><span>2018-05-29</span><a href="/news/show/id/1460.html" title="张北县大量招：各种冷库蔬菜专业打包工、装卸工、单位提供住房！">张北县大量招：各种冷库蔬菜专业打包工…</a></li><li><span>2018-05-08</span><a href="/news/show/id/1244.html" title="张家口蔬菜6月上市，有大型恒温库出租，专业打包工预定中！专业代办一条龙服务！">张家口蔬菜6月上市，有大型恒温库出租…</a></li><li><span>2018-04-27</span><a href="/news/show/id/1190.html" title="中国夏季蔬菜生产地，张北错季蔬菜供应商">中国夏季蔬菜生产地，张北错季蔬菜供应…</a></li><li><span>2018-03-31</span><a href="/news/show/id/736.html" title="张北蔬菜种植生产区现场视频！在线观看！">张北蔬菜种植生产区现场视频！在线观看…</a></li><li><span>2018-03-31</span><a href="/news/show/id/735.html" title="张北蔬菜宣传片，采收现场！">张北蔬菜宣传片，采收现场！</a></li><li><span>2018-03-30</span><a href="/news/show/id/696.html" title="2018年张北县夏季蔬菜上市时间预告！">2018年张北县夏季蔬菜上市时间预告！</a></li><li><span>2018-03-30</span><a href="/news/show/id/695.html" title="张北蔬菜专业代办一条龙！">张北蔬菜专业代办一条龙！</a></li><li><span>2018-03-15</span><a href="/news/show/id/428.html" title="各种蔬菜代办一条龙服务！">各种蔬菜代办一条龙服务！</a></li><li><span>2018-03-15</span><a href="/news/show/id/427.html" title="张北大型蔬菜恒温库出租预定！">张北大型蔬菜恒温库出租预定！</a></li><li><span>2018-05-25</span><a href="/news/show/id/348.html" title="张北蔬菜招商部：面向社会招聘20到35周岁以内业务精英！保底3000元+业务提成">张北蔬菜招商部：面向社会招聘20到35周…</a></li><li><span>2018-05-23</span><a href="/news/show/id/1424.html" title="昨日狂风大作，天灾降临！张北三号乡村民种植的菜苗全军覆灭，损失惨重！急的哇哇大哭">昨日狂风大作，天灾降临！张北三号乡村…</a></li><li><span>2018-05-21</span><a href="/news/show/id/1411.html" title="河北（张家口）张北县蔬菜长势现场图，2018年5月21日 摄">河北（张家口）张北县蔬菜长势现场图，…</a></li><li><span>2018-05-21</span><a href="/news/show/id/1410.html" title="二十年前割麦的童年，慢慢变老的60.70.80后们，这些干活场景你还记得吗？">二十年前割麦的童年，慢慢变老的60.70…</a></li><li><span>2018-05-19</span><a href="/news/show/id/1374.html" title="沽源县恒温库出租，沽源县蔬菜冷库出租！代办各种蔬菜！">沽源县恒温库出租，沽源县蔬菜冷库出租…</a></li><li><span>2018-05-19</span><a href="/news/show/id/1368.html" title="急需15名左右娃娃菜专业打包工，可连续加工4个多月，有意向的速度联系">急需15名左右娃娃菜专业打包工，可连续…</a></li><li><span>2018-05-17</span><a href="/news/show/id/1356.html" title="沽源县蔬菜代办一条龙服务，志兵蔬菜恒温库出租。">沽源县蔬菜代办一条龙服务，志兵蔬菜恒…</a></li><li><span>2018-05-12</span><a href="/news/show/id/1301.html" title="商都县小海子蔬菜供应商，各种蔬菜代办一条龙服务！">商都县小海子蔬菜供应商，各种蔬菜代办…</a></li><li><span>2018-05-11</span><a href="/news/show/id/1298.html" title="唐山乐亭蔬菜供应商，有大型蔬菜种植基地，各种蔬菜代办一条龙服务！">唐山乐亭蔬菜供应商，有大型蔬菜种植基…</a></li><li><span>2018-05-04</span><a href="/news/show/id/1228.html" title="张北种菜的及市民们，没有100万车险，请不要随意在“西门口桥头”行驶！否则“坑”你没商量！">张北种菜的及市民们，没有100万车险，…</a></li><li><span>2018-04-29</span><a href="/news/show/id/1202.html" title="张家口坝上错季蔬菜开始定植，总面积约150万亩，预计6月中旬后上市销售！">张家口坝上错季蔬菜开始定植，总面积约…</a></li><li><span>2018-04-28</span><a href="/news/show/id/1200.html" title="河北张家口坝上地区（张北错季蔬菜）开始露天定植，预计6月15日陆续上市销售！">河北张家口坝上地区（张北错季蔬菜）开…</a></li><li><span>2018-04-27</span><a href="/news/show/id/1191.html" title="我们真的不想把蒜苔倒进沟里，聊城市沙镇蒜农向社会发出求助！（求转发）">我们真的不想把蒜苔倒进沟里，聊城市沙…</a></li><li><span>2018-04-17</span><a href="/news/show/id/1034.html" title="河北张家口又到了（种土豆）的季节，土豆种植现场景象热火朝天！">河北张家口又到了（种土豆）的季节，土…</a></li><li><span>2018-04-15</span><a href="/news/show/id/997.html" title="沽源县冷库出租，蔬菜恒温库出租！">沽源县冷库出租，蔬菜恒温库出租！</a></li>            </ul>
+		</div>
+		<div class="imain_news_nr clear-fix" id="myTab0_Content1" style="clear:both; display:none;">
+        	<ul>
+                <li><span>2018-04-27</span><a href="/news/show/id/1190.html" title="中国夏季蔬菜生产地，张北错季蔬菜供应商">中国夏季蔬菜生产地，张北错季蔬菜供应…</a></li><li><span>2018-03-30</span><a href="/news/show/id/696.html" title="2018年张北县夏季蔬菜上市时间预告！">2018年张北县夏季蔬菜上市时间预告！</a></li><li><span>2018-03-30</span><a href="/news/show/id/695.html" title="张北蔬菜专业代办一条龙！">张北蔬菜专业代办一条龙！</a></li><li><span>2018-05-21</span><a href="/news/show/id/1411.html" title="河北（张家口）张北县蔬菜长势现场图，2018年5月21日 摄">河北（张家口）张北县蔬菜长势现场图，…</a></li><li><span>2018-05-19</span><a href="/news/show/id/1374.html" title="沽源县恒温库出租，沽源县蔬菜冷库出租！代办各种蔬菜！">沽源县恒温库出租，沽源县蔬菜冷库出租…</a></li><li><span>2018-05-17</span><a href="/news/show/id/1356.html" title="沽源县蔬菜代办一条龙服务，志兵蔬菜恒温库出租。">沽源县蔬菜代办一条龙服务，志兵蔬菜恒…</a></li><li><span>2018-05-12</span><a href="/news/show/id/1301.html" title="商都县小海子蔬菜供应商，各种蔬菜代办一条龙服务！">商都县小海子蔬菜供应商，各种蔬菜代办…</a></li><li><span>2018-05-11</span><a href="/news/show/id/1298.html" title="唐山乐亭蔬菜供应商，有大型蔬菜种植基地，各种蔬菜代办一条龙服务！">唐山乐亭蔬菜供应商，有大型蔬菜种植基…</a></li><li><span>2018-04-29</span><a href="/news/show/id/1202.html" title="张家口坝上错季蔬菜开始定植，总面积约150万亩，预计6月中旬后上市销售！">张家口坝上错季蔬菜开始定植，总面积约…</a></li><li><span>2018-04-28</span><a href="/news/show/id/1200.html" title="河北张家口坝上地区（张北错季蔬菜）开始露天定植，预计6月15日陆续上市销售！">河北张家口坝上地区（张北错季蔬菜）开…</a></li><li><span>2018-04-17</span><a href="/news/show/id/1034.html" title="河北张家口又到了（种土豆）的季节，土豆种植现场景象热火朝天！">河北张家口又到了（种土豆）的季节，土…</a></li><li><span>2018-04-12</span><a href="/news/show/id/951.html" title="张家口坝上张北县（蔬菜苗）长势良好！本月底将大面积露天定植！">张家口坝上张北县（蔬菜苗）长势良好！…</a></li><li><span>2018-03-31</span><a href="/news/show/id/702.html" title="来自内地的草莓、桑葚、菠萝等水果已大量进入乌鲁木齐市场">来自内地的草莓、桑葚、菠萝等水果已大…</a></li><li><span>2018-03-27</span><a href="/news/show/id/650.html" title="云南水果玉米热销乌鲁木齐">云南水果玉米热销乌鲁木齐</a></li><li><span>2018-03-24</span><a href="/news/show/id/603.html" title="安徽黄山黟县发展蔬菜产业促农增收">安徽黄山黟县发展蔬菜产业促农增收</a></li><li><span>2018-03-24</span><a href="/news/show/id/602.html" title="本地蔬菜陆续上市 芜湖“菜篮子”拎得轻松了">本地蔬菜陆续上市 芜湖“菜篮子”拎得…</a></li><li><span>2018-03-24</span><a href="/news/show/id/601.html" title="新疆和硕县大棚蔬菜上市">新疆和硕县大棚蔬菜上市</a></li><li><span>2018-03-20</span><a href="/news/show/id/525.html" title="云南：德宏盈江县新土豆货源充足（图）">云南：德宏盈江县新土豆货源充足（图）</a></li><li><span>2018-03-19</span><a href="/news/show/id/503.html" title="扬州西郊蔬菜种植基地大批蔬菜上市">扬州西郊蔬菜种植基地大批蔬菜上市</a></li><li><span>2018-03-18</span><a href="/news/show/id/475.html" title="2018 河北 · 张家口（ 菜苗 ）长势良好！">2018 河北 · 张家口（ 菜苗 ）长…</a></li><li><span>2018-03-14</span><a href="/news/show/id/415.html" title="张北西门口“站桥头”的兄弟姐妹们！">张北西门口“站桥头”的兄弟姐妹们！</a></li><li><span>2018-03-12</span><a href="/news/show/id/380.html" title="云南：怒江6000吨番茄滞销">云南：怒江6000吨番茄滞销</a></li><li><span>2018-03-12</span><a href="/news/show/id/359.html" title="农民的农产品为什么会滞销？">农民的农产品为什么会滞销？</a></li><li><span>2018-03-12</span><a href="/news/show/id/358.html" title="云南新土豆大量上市导致库存土豆销量大减甚至开始滞销！">云南新土豆大量上市导致库存土豆销量大…</a></li>            </ul>
+		</div>
+        <div class="imain_news_nr clear-fix" id="myTab0_Content2" style="clear:both; display:none;">
+        	<ul>
+                <li><span>2018-03-26</span><a href="/news/show/id/622.html" title="种植折耳根赚钱吗？人工种植折耳根市场前景">种植折耳根赚钱吗？人工种植折耳根市场…</a></li><li><span>2018-03-23</span><a href="/news/show/id/591.html" title="遮放贡米：云南省芒市特色农产品遮放贡米介绍">遮放贡米：云南省芒市特色农产品遮放贡…</a></li><li><span>2018-03-23</span><a href="/news/show/id/590.html" title="石屏豆腐皮：云南省石屏县农特产品石屏豆腐皮介绍">石屏豆腐皮：云南省石屏县农特产品石屏…</a></li><li><span>2018-03-18</span><a href="/news/show/id/484.html" title="蔬菜滞销让菜农哭泣！低价还会一直持续吗？2018年菜农的出路在哪？">蔬菜滞销让菜农哭泣！低价还会一直持续…</a></li><li><span>2018-03-16</span><a href="/news/show/id/459.html" title="甘肃酒泉瓜州县：枸杞映红增收致富路">甘肃酒泉瓜州县：枸杞映红增收致富路</a></li><li><span>2018-03-16</span><a href="/news/show/id/458.html" title="云南曲靖乐业镇辣椒红似火">云南曲靖乐业镇辣椒红似火</a></li><li><span>2018-03-16</span><a href="/news/show/id/457.html" title="云南德宏芒市：香甜沙糖桔喜丰收 轩岗果农笑颜开">云南德宏芒市：香甜沙糖桔喜丰收 轩岗…</a></li><li><span>2018-03-16</span><a href="/news/show/id/456.html" title="广西融安金橘俏销全国">广西融安金橘俏销全国</a></li><li><span>2018-03-16</span><a href="/news/show/id/455.html" title="广西南丹县罗汉果销售即将结束">广西南丹县罗汉果销售即将结束</a></li><li><span>2018-03-13</span><a href="/news/show/id/386.html" title="冬储蔬菜进入尾声，山东菠菜陆续上市">冬储蔬菜进入尾声，山东菠菜陆续上市</a></li><li><span>2018-03-12</span><a href="/news/show/id/360.html" title="春季水果集中上市 菠萝销量骤减 扬州人一天吃掉12吨“千禧”">春季水果集中上市 菠萝销量骤减 扬州…</a></li><li><span>2018-03-12</span><a href="/news/show/id/357.html" title="宜昌野菜大量上市香椿价格腰斩受宠">宜昌野菜大量上市香椿价格腰斩受宠</a></li><li><span>2018-03-12</span><a href="/news/show/id/356.html" title="走出地头 蔬菜将“梳洗干净”再上桌">走出地头 蔬菜将“梳洗干净”再上桌</a></li><li><span>2018-03-12</span><a href="/news/show/id/355.html" title="湖南长沙上市时令野菜">湖南长沙上市时令野菜</a></li><li><span>2018-03-09</span><a href="/news/show/id/344.html" title="海南东方10万亩甜玉米遇销售难题，全国网友爱心接力！">海南东方10万亩甜玉米遇销售难题，全国…</a></li><li><span>2018-03-08</span><a href="/news/show/id/333.html" title="“树上蔬菜”头茬香椿芽上市 比肉的价钱贵">“树上蔬菜”头茬香椿芽上市 比肉的价…</a></li><li><span>2018-03-08</span><a href="/news/show/id/332.html" title="今年合肥将推进“净菜上市” 蔬菜“梳洗干净”再上桌">今年合肥将推进“净菜上市” 蔬菜“梳…</a></li><li><span>2018-03-08</span><a href="/news/show/id/331.html" title="云南香椿上市 价格稳坐时令蔬菜的头把交椅">云南香椿上市 价格稳坐时令蔬菜的头把…</a></li><li><span>2018-03-05</span><a href="/news/show/id/315.html" title="库存土豆还没有卖完，新土豆已上市！">库存土豆还没有卖完，新土豆已上市！</a></li><li><span>2018-03-05</span><a href="/news/show/id/314.html" title="2017年土豆大跌之后 2018年行情如何？">2017年土豆大跌之后 2018年行情如何？</a></li><li><span>2018-02-28</span><a href="/news/show/id/277.html" title="山西孝义市：小核桃托起群众致富梦">山西孝义市：小核桃托起群众致富梦</a></li><li><span>2018-02-12</span><a href="/news/show/id/164.html" title="陕西乾县1000万斤酥梨滞销 3分钱一斤没人要">陕西乾县1000万斤酥梨滞销 3分钱一斤…</a></li><li><span>2018-02-12</span><a href="/news/show/id/163.html" title="惠东马铃薯初上市，价格较为稳定">惠东马铃薯初上市，价格较为稳定</a></li><li><span>2018-02-09</span><a href="/news/show/id/156.html" title="科技示范大棚助推农业产业扶贫现场观摩会在阳原县举行">科技示范大棚助推农业产业扶贫现场观摩…</a></li>            </ul>
+        </div>
+        <div class="imain_news_nr clear-fix" id="myTab0_Content3" style="clear:both; display:none;">
+        	<ul>
+                <li><span>2018-04-09</span><a href="/news/show/id/870.html" title="张家口市：崇礼蔬菜产业实行战略转型">张家口市：崇礼蔬菜产业实行战略转型</a></li><li><span>2018-03-26</span><a href="/news/show/id/633.html" title="买拖拉机有补贴吗？2018年农机购置补贴">买拖拉机有补贴吗？2018年农机购置补贴</a></li><li><span>2018-03-26</span><a href="/news/show/id/632.html" title="2018年农业扶持项目有哪些？该怎么申请农业补贴？">2018年农业扶持项目有哪些？该怎么申请…</a></li><li><span>2018-03-26</span><a href="/news/show/id/631.html" title="农村宅基地确权登记发放流程">农村宅基地确权登记发放流程</a></li><li><span>2018-03-26</span><a href="/news/show/id/630.html" title="223家化肥企业被列入失信“黑名单”">223家化肥企业被列入失信“黑名单”</a></li><li><span>2018-03-26</span><a href="/news/show/id/629.html" title="玉米、大豆补贴开始申报啦！玉米、大豆补贴申报注意事项">玉米、大豆补贴开始申报啦！玉米、大豆…</a></li><li><span>2018-03-26</span><a href="/news/show/id/628.html" title="退地补偿怎么算？满足这三个条件，国家一次补偿20万">退地补偿怎么算？满足这三个条件，国家…</a></li><li><span>2018-03-26</span><a href="/news/show/id/627.html" title="三农政策：失地、退耕还林、休耕补贴资金标准">三农政策：失地、退耕还林、休耕补贴资…</a></li><li><span>2018-03-21</span><a href="/news/show/id/553.html" title="2018中国·张北马铃薯产业发展论坛暨张家口第五届农资展销会盛大开幕">2018中国·张北马铃薯产业发展论坛暨张…</a></li><li><span>2018-02-19</span><a href="/news/show/id/186.html" title="土地确权，农民把土地退给国家一亩地给补多少钱？">土地确权，农民把土地退给国家一亩地给…</a></li><li><span>2018-02-19</span><a href="/news/show/id/181.html" title="男子买菜找回50元人民币，竟然值288万。咋回事？">男子买菜找回50元人民币，竟然值288万…</a></li><li><span>2018-02-17</span><a href="/news/show/id/170.html" title="张北县2018年少儿春节联欢晚会">张北县2018年少儿春节联欢晚会</a></li><li><span>2018-02-17</span><a href="/news/show/id/169.html" title="张北县企事业单位电视台新年团拜">张北县企事业单位电视台新年团拜</a></li><li><span>2018-02-17</span><a href="/news/show/id/168.html" title="2018年张北县春节联欢晚会网络视频在线直播">2018年张北县春节联欢晚会网络视频在线…</a></li><li><span>2018-02-12</span><a href="/news/show/id/161.html" title="实施农产品加工业提升行动 推动农村一二三产业融合发展">实施农产品加工业提升行动 推动农村一…</a></li><li><span>2018-02-12</span><a href="/news/show/id/160.html" title="怀来县农牧局学习中央一号文件精神精心谋划2018年现代农业发展工作">怀来县农牧局学习中央一号文件精神精心…</a></li>            </ul>
+        </div>
+        <div class="imain_news_nr clear-fix" id="myTab0_Content4" style="clear:both; display:none;">
+        	<ul>
+                <li><span>2018-05-29</span><a href="/news/show/id/1460.html" title="张北县大量招：各种冷库蔬菜专业打包工、装卸工、单位提供住房！">张北县大量招：各种冷库蔬菜专业打包工…</a></li><li><span>2018-05-08</span><a href="/news/show/id/1244.html" title="张家口蔬菜6月上市，有大型恒温库出租，专业打包工预定中！专业代办一条龙服务！">张家口蔬菜6月上市，有大型恒温库出租…</a></li><li><span>2018-03-31</span><a href="/news/show/id/736.html" title="张北蔬菜种植生产区现场视频！在线观看！">张北蔬菜种植生产区现场视频！在线观看…</a></li><li><span>2018-03-31</span><a href="/news/show/id/735.html" title="张北蔬菜宣传片，采收现场！">张北蔬菜宣传片，采收现场！</a></li><li><span>2018-03-15</span><a href="/news/show/id/428.html" title="各种蔬菜代办一条龙服务！">各种蔬菜代办一条龙服务！</a></li><li><span>2018-03-15</span><a href="/news/show/id/427.html" title="张北大型蔬菜恒温库出租预定！">张北大型蔬菜恒温库出租预定！</a></li><li><span>2018-05-25</span><a href="/news/show/id/348.html" title="张北蔬菜招商部：面向社会招聘20到35周岁以内业务精英！保底3000元+业务提成">张北蔬菜招商部：面向社会招聘20到35周…</a></li><li><span>2018-05-19</span><a href="/news/show/id/1368.html" title="急需15名左右娃娃菜专业打包工，可连续加工4个多月，有意向的速度联系">急需15名左右娃娃菜专业打包工，可连续…</a></li><li><span>2018-04-15</span><a href="/news/show/id/997.html" title="沽源县冷库出租，蔬菜恒温库出租！">沽源县冷库出租，蔬菜恒温库出租！</a></li><li><span>2018-04-07</span><a href="/news/show/id/861.html" title="卖菜网：面向全国（2861个县市区）招聘蔬菜、水果产地报价员。每个县1个名额！欢迎加入！">卖菜网：面向全国（2861个县市区）招聘…</a></li><li><span>2018-04-06</span><a href="/news/show/id/795.html" title="张家口出现降雪天气 部分县区降暴雪">张家口出现降雪天气 部分县区降暴雪</a></li><li><span>2018-04-05</span><a href="/news/show/id/784.html" title="预警：（张北、沽源、康保、尚义）菜农请做好蔬菜育苗期大风、降温、降雪工作！">预警：（张北、沽源、康保、尚义）菜农…</a></li><li><span>2018-04-05</span><a href="/news/show/id/782.html" title="预警：张家口（莴笋）被大雪覆盖，预计明天坝上地区最低气温达零下14度。">预警：张家口（莴笋）被大雪覆盖，预计…</a></li><li><span>2018-04-05</span><a href="/news/show/id/781.html" title="张家口菜农请做好（蔬菜苗期保温防冻工作）预计明天最低气温达零下14度。">张家口菜农请做好（蔬菜苗期保温防冻工…</a></li><li><span>2018-03-31</span><a href="/news/show/id/734.html" title="朋友圈飞机小视频广告制作">朋友圈飞机小视频广告制作</a></li><li><span>2018-03-16</span><a href="/news/show/id/454.html" title="锄禾日当午，种点马铃薯，土豆不值钱，才卖二毛五">锄禾日当午，种点马铃薯，土豆不值钱，…</a></li><li><span>2018-03-16</span><a href="/news/show/id/451.html" title="免费发布：找车信息、用车信息、车主信息、调车信息、物流信息、配货站信息">免费发布：找车信息、用车信息、车主信…</a></li><li><span>2018-03-16</span><a href="/news/show/id/440.html" title="本站广告位出租！">本站广告位出租！</a></li><li><span>2018-03-11</span><a href="/news/show/id/349.html" title="最新通知：网站升级中！暂关闭用户发布功能！">最新通知：网站升级中！暂关闭用户发布…</a></li><li><span>2018-03-10</span><a href="/news/show/id/347.html" title="欢迎加入：全国蔬菜水果信息交流群！">欢迎加入：全国蔬菜水果信息交流群！</a></li><li><span>2018-02-21</span><a href="/news/show/id/206.html" title="免费发布蔬菜、水果供求信息">免费发布蔬菜、水果供求信息</a></li><li><span>2018-02-17</span><a href="/news/show/id/171.html" title="求租：张北县周边30公里内水浇地100到200亩">求租：张北县周边30公里内水浇地100到2…</a></li><li><span>2018-02-13</span><a href="/news/show/id/165.html" title="卖菜网给全国人民拜年啦">卖菜网给全国人民拜年啦</a></li><li><span>2018-02-09</span><a href="/news/show/id/155.html" title="张北电视台视频广告">张北电视台视频广告</a></li>            </ul>
+        </div>
+        <div class="imain_news_nr clear-fix" id="myTab0_Content5" style="clear:both; display:none;">
+        	<ul>
+                <li><span>2018-03-12</span><a href="/news/show/id/371.html" title="日本成功育出不需授粉茄子新品种">日本成功育出不需授粉茄子新品种</a></li><li><span>2018-03-12</span><a href="/news/show/id/370.html" title="日光温室茄子栽培技术">日光温室茄子栽培技术</a></li><li><span>2018-03-12</span><a href="/news/show/id/369.html" title="咋防茄子落花落果">咋防茄子落花落果</a></li><li><span>2018-03-12</span><a href="/news/show/id/368.html" title="春早熟茄子结果期管理">春早熟茄子结果期管理</a></li><li><span>2018-03-12</span><a href="/news/show/id/367.html" title="栽培新品种茄子效益高">栽培新品种茄子效益高</a></li><li><span>2018-03-12</span><a href="/news/show/id/366.html" title="温室茄子栽培技术">温室茄子栽培技术</a></li><li><span>2018-03-12</span><a href="/news/show/id/365.html" title="袖珍茄子越冬栽培技术">袖珍茄子越冬栽培技术</a></li><li><span>2018-03-12</span><a href="/news/show/id/364.html" title="大棚茄子的育苗技术">大棚茄子的育苗技术</a></li><li><span>2018-03-12</span><a href="/news/show/id/363.html" title="早春上市茄子的定植及田间管理">早春上市茄子的定植及田间管理</a></li><li><span>2018-03-12</span><a href="/news/show/id/362.html" title="大棚茄子为何难坐果">大棚茄子为何难坐果</a></li><li><span>2018-03-12</span><a href="/news/show/id/361.html" title="栽培茄子嫁接育苗技术">栽培茄子嫁接育苗技术</a></li>            </ul>
+        </div>
+        
+	</div>
+
+<script>
+//选项卡
+function nTabs(thisObj,Num){
+	if(thisObj.className == "hover")return;
+	var tabObj = thisObj.parentNode.id;
+	var tabList = document.getElementById(tabObj).getElementsByTagName("span");
+	for(i=0; i <tabList.length; i++){
+		if (i == Num){
+			thisObj.className = "hover"; 
+			document.getElementById(tabObj+"_Content"+i).style.display = "block";
+		}else{
+			tabList[i].className = ""; 
+			document.getElementById(tabObj+"_Content"+i).style.display = "none";
+		}
+	} 
+}
+</script> 
+		<div id="imain_news" class="clear-fix" style="height:auto;">
+		<div class="imain_news_tit">
+        	<span class="hover" onmouseover="nTabs(this,0);">论坛信息</span> 
+			<a href="/bbs/index.html" title="更多论坛信息" class="more">更多</a>
+		</div>
+        <div class="imain_news_nr clear-fix">
+        	<ul>
+                <li><span>2018-04-06</span><a href="/bbs/show/id/819.html" title="河北围场蔬菜供应">河北围场蔬菜供应</a></li><li><span>2018-06-04</span><a href="/bbs/show/id/643.html" title="张北县蔬菜每年6月上市销售，出租大型蔬菜恒温库，蔬菜代办一条龙服务！期待与您的合作！">张北县蔬菜每年6月上市销售，出租大型…</a></li><li><span>2018-06-04</span><a href="/bbs/show/id/657.html" title="张北蔬菜每年6月上市销售，品种齐全，欢迎采购！">张北蔬菜每年6月上市销售，品种齐全，…</a></li><li><span>2018-05-24</span><a href="/bbs/show/id/1428.html" title="四川莲藕出售产量每亩多少斤？陕西莲藕视频种植基地批发联系电话">四川莲藕出售产量每亩多少斤？陕西莲藕…</a></li><li><span>2018-05-24</span><a href="/bbs/show/id/1427.html" title="观赏荷花种子哪里有出售莲藕种苗种植技术方法怎样快速学习培训购买">观赏荷花种子哪里有出售莲藕种苗种植技…</a></li><li><span>2018-05-23</span><a href="/bbs/show/id/1420.html" title="莲藕种子照片1亩要多少藕苗？藕种是什么样子到哪里买种苗？">莲藕种子照片1亩要多少藕苗？藕种是什…</a></li><li><span>2018-05-23</span><a href="/bbs/show/id/1419.html" title="莲藕一亩地产量多少斤？种植莲藕投资多少钱？种植技术怎么办？">莲藕一亩地产量多少斤？种植莲藕投资多…</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1168.html" title="河北省邯郸市永年松花大量上市中">河北省邯郸市永年松花大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1167.html" title="河北省邯郸市永年小白菜大量上市中">河北省邯郸市永年小白菜大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1166.html" title="河北省邯郸市永年散叶生菜大量上市中">河北省邯郸市永年散叶生菜大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1163.html" title="河北省邯郸市永年菜花大量上市中">河北省邯郸市永年菜花大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1165.html" title="河北省邯郸市永年西红柿大量上市中">河北省邯郸市永年西红柿大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1164.html" title="河北省邯郸市永年芹菜大量上市中">河北省邯郸市永年芹菜大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1162.html" title="河北省邯郸市永年油麦菜大量上市中">河北省邯郸市永年油麦菜大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1161.html" title="河北省邯郸市永年甘蓝大量上市中">河北省邯郸市永年甘蓝大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1169.html" title="河北省邯郸市永年茼蒿大量上市中">河北省邯郸市永年茼蒿大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1170.html" title="河北省邯郸市永年大叶香菜大量上市中">河北省邯郸市永年大叶香菜大量上市中</a></li><li><span>2018-05-22</span><a href="/bbs/show/id/1417.html" title="山东西瓜产地价格">山东西瓜产地价格</a></li><li><span>2018-05-21</span><a href="/bbs/show/id/1408.html" title="康保县老嘎农业科技园区">康保县老嘎农业科技园区</a></li><li><span>2018-05-21</span><a href="/bbs/show/id/1405.html" title="河北省康保县老嘎农业有机苦菜销售中">河北省康保县老嘎农业有机苦菜销售中</a></li>            </ul>
+		</div>
+	</div>
+    
+    
+	<div id="imain4">
+		<div class="i4_tit">
+			<h3>赞助商广告位</h3>
+			<p>想让您的电话显示在这里吗？想让更多的客户联系到你吗？   收费标准：特惠200元/月、旺季1000元/月、包年3000元/年！客服：18810002063</p>
+			<a href="/sponsor/index.html" title="更多">更多&gt;&gt;</a>
+		</div>
+		<div class="i4_nr clear-fix">
+        	            <a href="/sponsor/show/id/42.html" title="坝上蔬菜代办" target="_blank" class="zzsList pd5" style="background:#ff0000">坝上蔬菜代办<br>15830319909</a><a href="/sponsor/show/id/41.html" title="张北蔬菜代办" target="_blank" class="zzsList pd5" style="background:#ff0000">张北蔬菜代办<br>15830319909</a><a href="/sponsor/show/id/40.html" title="张家口蔬菜代办" target="_blank" class="zzsList pd5" style="background:#ff0000">张家口蔬菜代办<br>15830319909</a><a href="/sponsor/show/id/39.html" title="崇礼县蔬菜代办" target="_blank" class="zzsList pd5" style="background:#ff0000">崇礼县蔬菜代办<br>15830319909</a><a href="/" title="尚义县蔬菜代办" target="_blank" class="zzsList pd5" style="background:#ff0000">尚义县蔬菜代办<br>15830319909</a><a href="/" title="康保县蔬菜代办" target="_blank" class="zzsList pd5" style="background:#ff0000">康保县蔬菜代办<br>15830319909</a><a href="/" title="沽源县蔬菜代收" target="_blank" class="zzsList pd5" style="background:#ff0000">沽源县蔬菜代收<br>15830319909</a><a href="/" title="张北县蔬菜代办" target="_blank" class="zzsList pd5" style="background:#38722d">张北县蔬菜代办<br>15830319909</a><a href="/" title="张家口蔬菜代收" target="_blank" class="zzsList pd5" style="background:#38722d">张家口蔬菜代收<br>15830319909</a><a href="/" title="崇礼县蔬菜代收" target="_blank" class="zzsList pd5" style="background:#38722d">崇礼县蔬菜代收<br>15830319909</a><a href="/" title="尚义县蔬菜代收" target="_blank" class="zzsList pd5" style="background:#38722d">尚义县蔬菜代收<br>15830319909</a><a href="/" title="康保县蔬菜代收" target="_blank" class="zzsList pd5" style="background:#38722d">康保县蔬菜代收<br>15830319909</a><a href="/" title="沽源县蔬菜代收" target="_blank" class="zzsList pd5" style="background:#38722d">沽源县蔬菜代收<br>15830319909</a><a href="/" title="张北县蔬菜代收" target="_blank" class="zzsList pd5" style="background:#38722d">张北县蔬菜代收<br>15830319909</a>		</div>
+	</div>
+</div>
+<div class="w1200">
+		<div class="n_link clear-fix">
+		<h3>友情链接</h3>
+		<div class="nr clear-fix">
+			<a href="http://www.baidu.com/" target="_blank" title="百度">百度</a><a href="http://www.maicainan.com" target="_blank" title="中国蔬菜网">中国蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="河北蔬菜网">河北蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="坝上蔬菜网">坝上蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="张家口蔬菜网">张家口蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="万全蔬菜网">万全蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="崇礼蔬菜网">崇礼蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="尚义蔬菜网">尚义蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="康保蔬菜网">康保蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="沽源蔬菜网">沽源蔬菜网</a><a href="http://www.maicainan.com" target="_blank" title="张北蔬菜网">张北蔬菜网</a><a href="http://www.baidu.com" target="_blank" title="新百度">新百度</a>		</div>
+	</div>
+</div>
+<style type="text/css">
+<!--
+.STYLE1 {	color: #FFFFFF;
+	font-size: 14px;
+}
+-->
+</style>
+<table width="1180" border="0" align="center" bordercolor="#67A51C" bgcolor="#67A51C">
+  <tbody><tr>
+    <td height="35" align="center"><span class="STYLE1">买菜吧  &nbsp;|&nbsp; 卖蔬菜  &nbsp;|&nbsp; 买菜商城 &nbsp;|&nbsp; 网上卖菜&nbsp; |&nbsp; 买菜网站 &nbsp;|&nbsp; 网上菜市场&nbsp; |&nbsp; 卖菜网站&nbsp; |&nbsp; 网上买菜 &nbsp;|&nbsp; 买菜超市  &nbsp;|&nbsp; 买蔬菜  &nbsp;|&nbsp;    卖菜吧</span></td>
+  </tr>
+</tbody></table>
+<div style="background-color:#FFFFFF;height:8px;overflow:hidden;"></div>
+<table width="1180" height="168" align="center" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td align="center">北京卖菜网</td>
+      <td align="center">上海卖菜网</td>
+      <td align="center">天津卖菜网</td>
+      <td align="center">重庆卖菜网</td>
+      <td align="center">河北卖菜网</td>
+      <td align="center">山西卖菜网</td>
+      <td align="center">黑龙江卖菜网</td>
+      <td align="center">辽宁卖菜网</td>
+      <td align="center">吉林卖菜网</td>
+      <td align="center">江苏卖菜网</td>
+      <td align="center">浙江卖菜网</td>
+      <td align="center">安徽卖菜网</td>
+      <td align="center">福建卖菜网</td>
+    </tr>
+    <tr>
+      <td align="center">江西卖菜网</td>
+      <td align="center">山东卖菜网</td>
+      <td align="center">河南卖菜网</td>
+      <td align="center">湖北卖菜网</td>
+      <td align="center">湖南卖菜网</td>
+      <td align="center">广东卖菜网</td>
+      <td align="center">蔬菜商城超市</td>
+      <td align="center">海南卖菜网</td>
+      <td align="center">四川卖菜网</td>
+      <td align="center">贵州卖菜网</td>
+      <td align="center">云南卖菜网</td>
+      <td align="center">陕西卖菜网</td>
+      <td align="center">甘肃卖菜网</td>
+    </tr>
+    <tr>
+      <td align="center">青海卖菜网</td>
+      <td align="center">台湾卖菜网</td>
+      <td align="center">广西卖菜网</td>
+      <td align="center">西藏卖菜网</td>
+      <td align="center">宁夏卖菜网</td>
+      <td align="center">新疆卖菜网</td>
+      <td align="center">张家口卖菜网</td>
+      <td align="center">香港卖菜网</td>
+      <td align="center">澳门卖菜网</td>
+      <td align="center">沽源卖菜网</td>
+      <td align="center">康保卖菜网</td>
+      <td align="center">尚义卖菜网</td>
+      <td align="center">坝上卖菜网</td>
+    </tr>
+    <tr>
+      <td align="center">坝上买菜网</td>
+      <td align="center">北京买菜网</td>
+      <td align="center">网上卖菜网</td>
+      <td align="center">网上菜市场</td>
+      <td align="center">张北水果网</td>
+      <td align="center">中国蔬菜网</td>
+      <td align="center">张家口买菜网</td>
+      <td align="center">中国水果网</td>
+      <td align="center">张北农业网</td>
+      <td align="center">张北菜市场</td>
+      <td align="center">网上买菜网</td>
+      <td align="center">上海买菜网</td>
+      <td align="center">北京菜市场</td>
+    </tr>
+    <tr>
+      <td align="center">中国买菜网</td>
+      <td align="center">内蒙卖菜网</td>
+      <td align="center">张北电商网</td>
+      <td align="center">手机买菜网</td>
+      <td align="center">微信卖菜网</td>
+      <td align="center">河北买菜网</td>
+      <td align="center">张北县卖菜网</td>
+      <td align="center">河北菜市场</td>
+      <td align="center">微信买菜网</td>
+      <td align="center">手机卖菜网</td>
+      <td align="center">张北商务网</td>
+      <td align="center">网络菜市场</td>
+      <td align="center">中国卖菜网</td>
+    </tr>
+  </tbody>
+</table>
+<div id="boot">
+	<div class="bt_con w1200">
+		<div class="bt_nav">
+			<a href="/" title="首页">网站首页</a>|<a href="/supply/index.html" title="供应大厅">供应大厅</a>|<a href="/offer/index.html" title="行情报价">行情报价</a>|<a href="/buy/index.html" title="求购大厅">求购大厅</a>|<a href="/wuliu/index.html" title="物流信息">物流信息</a>|<a href="/nong/index.html" title="农资大厅">农资大厅</a>|<a href="/business/index.html" title="企业商家">企业商家</a>|<a href="/news/index.html" title="新闻资讯">新闻资讯</a>|<a href="/agent/index.html" title="经纪人区">经纪人区</a>|<a href="/member/index.html" title="会员中心">会员中心</a>|<a href="/wap/" title="手机网站">手机网站</a>		</div>
+  <div class="bt_ewm">
+			<div class="ewm">
+				<a href="/App/"><img src="/Public/Cn/images/bt_ewm1.jpg"></a>
+				<h4><a href="/App/">卖菜网APP下载</a></h4>
+	  </div>
+<div class="ewm">
+				<a href="/App/"><img src="/Public/Cn/images/bt_ewm1.jpg"></a>
+		  <h4><a href="/App/">买菜网APP下载</a></h4>
+	  </div>
+	  </div>
+		<div class="bt_nr">联系地址：河北省张家口市张北县  　ICP备案号：<a href="http://www.miitbeian.gov.cn" target="_blank" title="冀ICP备18004178号-1">冀ICP备18004178号-1</a></div>
+		<div class="bt_rz"></div>
+	</div>
+</div>
+<div style="display:none"></div>
+
+<div id="daiyanbao_com_content" closerate="2" playrate="24" style="position: fixed;_position: absolute;text-align: left;overflow: visible;bottom :0;right:0;display:block; z-index:999;"><div id="dyb_loadding_0" style="position: absolute; top: 166px; left: 0px; width: 100%; text-align: center;"><img src="//img.daiyanbao.com/img/loadding.gif"><br><span style="font-family:'Microsoft YaHei',SimHei,FangSong; font-size:16px;color:#5e5e5e;text-decoration: none;"><a href="http://www.daiyanbao.com/" target="_blank" style="font-family:'Microsoft YaHei',SimHei,FangSong; font-size:16px;color:#5e5e5e;text-decoration: none;">代言宝</a>加载中</span></div><div id="dyb_sub_0" class="dyb_sub"></div><object type="application/x-shockwave-flash" data="//img.daiyanbao.com/flash/md1_1_3.swf?v=1_1_3&amp;i=0&amp;a=admin&amp;b=free%2F305&amp;c=226&amp;d=400&amp;cs_e=64&amp;cs_f=0.9&amp;cs_g=0&amp;cs_h=-10&amp;isag=n" width="226" height="400" id="dyb_content_0"><param name="flashvars" value="i=0&amp;a=admin&amp;b=free%2F305&amp;c=226&amp;d=400&amp;cs_e=64&amp;cs_f=0.9&amp;cs_g=0&amp;cs_h=-10&amp;isag=n"><param name="wmode" value="Transparent"><param name="allowScriptAccess" value="always"></object><div id="dyb_close_0" style="position: absolute; top: 0px; right: 0px; width: 80px; height: 36px; text-align: center; font-size: 12px; font-family: 'Microsoft YaHei', SimHei, FangSong; color: rgb(94, 94, 94); cursor: pointer;">关闭X</div></div>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?909826644880c3bbae65ef6c3af40157";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body></html>

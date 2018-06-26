@@ -1,0 +1,1149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- shortcut icon begin -->
+<link rel="shortcut icon" href="../images/favicon.ico">
+<!-- shortcut icon begin -->
+
+<!--框架样式开始-->
+<link href="/css/global.css" rel="stylesheet" type="text/css">
+<link href="/css/frame/two_regional/tworegional002.css" rel="stylesheet" type="text/css">
+<link href="/css/frame/leftcontent.css" rel="stylesheet" type="text/css">
+<link href="/css/frame/rightcontent.css" rel="stylesheet" type="text/css">
+<link href="/css/frame/centercontent.css" rel="stylesheet" type="text/css">
+<link href="/css/floatad.css" rel="stylesheet" type="text/css">
+<link href="/css/frame/titlebar.css" rel="stylesheet" type="text/css">
+<!--框架样式结束-->
+
+<!--js开始-->
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/global.js"></script>
+<script type="text/javascript" src="/js/jcarousellite.js"></script>
+<!--js结束-->
+<title>浙江稠州商业银行</title>
+<script type="text/javascript">
+	    var finaIndex = 1;
+	    var finaTime = setInterval("autoShow()", 2000);
+	    var pause = false;
+	    function autoShow() {
+	       
+	       	
+	        if (finaIndex <= 4) {
+	
+	            if (document.getElementById("Tagadiv" + finaIndex))
+	                changeFinanceMenu(document.getElementById("Tagadiv" + finaIndex), finaIndex);
+	            finaIndex++;
+	        }
+	        else {
+	            changeFinanceMenu(document.getElementById("Tagadiv1"), 1);
+	            pause = true;
+	            clearInterval(finaTime);
+	       
+	        }
+	        
+	    }
+	function changeFinanceMenu(obj, index) {
+	        finaIndex = index;
+	        for (i = 1; i <= 4; i++) {
+	            if (document.getElementById("Tagadiv" + i))
+	                document.getElementById("Tagadiv" + i).style.display = "none";
+					if (document.getElementById("taga" + i))
+	               document.getElementById("taga"+i).className = "up";
+	        }
+			if (document.getElementById("taga" + index))
+	               document.getElementById("taga"+index).className = "down";
+	        if (document.getElementById("Tagadiv" + index))
+	            document.getElementById("Tagadiv" + index).style.display = "block";
+	    }
+</script>
+</head>
+<body>
+<!--右下角公告-->
+
+
+<div class="ie6_out">
+  <div class="ie6_in">
+    <div class="tworegional002">
+      <div class="titlebar">
+<!--公共头部-->
+<script type="text/javascript">
+function checkfm(){
+	if(document.getElementById("fm").query.value===""){
+		alert("请输入要检索的内容！");
+		document.getElementById("fm").query.focus();
+		return(false);
+	}
+}
+
+function tosubmit(){
+  if(document.getElementById("fm").query.value===""){
+		alert("请输入要检索的内容！");
+		document.getElementById("fm").query.focus();
+		return(false);
+	}
+  document.getElementById("fm").submit();
+}
+
+function searchKey(key){
+  document.getElementById("fm").query.value=key;
+  document.getElementById("fm").submit();
+}
+</script>
+
+        <table>
+          <tbody>
+            <tr>
+              <td class="left_td"><div class="logo"></div></td>
+		<form name="fm" id="fm" action="/search/search.jsp" method="post" target="_blank" onsubmit="javascript:return checkfm();"></form>
+		<input type="hidden" name="catalog" value="news">
+	    <input type="hidden" name="qtype" value="all">
+        <input type="hidden" name="qsort" value="pubdate">	
+		
+		
+              <td class="right_td"><div class="quick_links">热门关键字： <a href="javascript:;" onclick="searchKey('信用卡');">信用卡</a> <a href="javascript:;" onclick="searchKey('转账');">转账</a> <a href="javascript:;" onclick="searchKey('汇款');">汇款</a> <a href="javascript:;" onclick="searchKey('投资');">投资</a> <a href="javascript:;" onclick="searchKey('外币');">外币</a> </div>
+                <div class="search_box"> 
+				<span class="search_input">
+				    <input type="text" name="query" id="searchCriteria">
+				</span>
+                 <span class="search_button" onclick="javascript:tosubmit();"></span>
+				  </div></td>
+
+   	     
+            </tr>
+          </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+<!--顶部导航-->
+        <div class="menu">
+          <ul>
+            <li id="channel1" class="first_menu_down"><a href="/index.shtml">首页</a></li>
+            <li id="channel2"><a href="/gryw/index.shtml">个人业务</a></li>
+            <li id="channel3"><a href="/gsyw/index.shtml">中小企业</a></li>
+            <li id="channel4"><a href="/gjyw/index.shtml">公司银行</a></li>
+            <li id="channel5"><a href="/yhk/index.shtml">银行卡</a></li>
+            <li id="channel6"><a href="/dzyh/index.shtml">电子银行</a></li>
+            <li id="channel7"><a href="/rczp/index.shtml">人才招聘</a></li>
+            <li id="channel8"><a href="/gywm/index.shtml">关于我们</a></li>
+			<li onmouseover="show();" onmouseout="hide();">
+            	<a href="#">村镇银行</a>
+		        <div style="display:none;" id="rural" class="erdaohang">
+				 <ul>
+				 <li><a href="http://ja.czcb.com.cn" target="_blank">吉安稠州村镇银行</a></li>
+				 <li><a href="http://ds.czcb.com.cn" target="_blank">岱山稠州村镇银行</a></li>
+				 <li><a href="http://bb.czcb.com.cn" target="_blank">北碚稠州村镇银行</a></li>
+				 <li><a href="http://zx.czcb.com.cn" target="_blank">忠县稠州村镇银行</a></li>
+				 <li><a href="http://pt.czcb.com.cn" target="_blank">普陀稠州村镇银行</a></li>
+				  <li><a href="http://hd.czcb.com.cn" target="_blank">花都稠州村镇银行</a></li>
+				 <li><a href="http://lqy.czcb.com.cn" target="_blank">龙泉驿稠州村镇银行</a></li>
+				 <li><a href="http://dt.czcb.com.cn" target="_blank">东台稠州村镇银行</a></li>
+				 <li><a href="http://an.czcb.com.cn" target="_blank">安宁稠州村镇银行</a></li>   
+				 </ul>
+                </div>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+      </div>
+      <div class="leftbox">
+      	<div class="leftcon">
+<!--切换广告-->
+        <div class="leftcontent_box000">
+          <div class="left_button" id="cover_left"></div>
+          <div class="right_button" id="cover_right"></div>
+          <div class="img_box">
+            <div class="jCarouselLite" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 740px;">
+              <ul style="margin: 0px; padding: 0px; position: relative; list-style-type: none; z-index: 1; width: 5180px; left: -740px;"><li style="overflow: hidden; float: left; width: 740px; height: 247px;"><a href="/gg/2017/04/17683.shtml"><img src="/images/gg/2017/04/11/286777C0F1B01BFB93FAF670767FF494.jpg" alt=""></a></li>
+			  			  <li style="overflow: hidden; float: left; width: 740px; height: 247px;"><a href="/gg/2018/05/21880.shtml"><img src="/images/gg/2018/05/07/74A1E82FA67C95CE0343815AB7FFA23F.jpg" alt=""></a></li><li style="overflow: hidden; float: left; width: 740px; height: 247px;"><a href="/gg/2018/04/21865.shtml"><img src="/images/gg/2018/04/28/8FA39EE93322E19B4952EBBEAF832CCB.jpg" alt=""></a></li><li style="overflow: hidden; float: left; width: 740px; height: 247px;"><a href="/gg/2018/03/21607.shtml"><img src="/images/gg/2018/03/30/51443B94B5FC60495EE27B8D9AAF920E.jpg" alt=""></a></li><li style="overflow: hidden; float: left; width: 740px; height: 247px;"><a href="/gg/2018/01/20879.shtml"><img src="/images/gg/2018/01/24/73283BF24098B0C6A6EF622083C5DF1A.jpg" alt=""></a></li><li style="overflow: hidden; float: left; width: 740px; height: 247px;"><a href="/gg/2017/04/17683.shtml"><img src="/images/gg/2017/04/11/286777C0F1B01BFB93FAF670767FF494.jpg" alt=""></a></li>
+                
+              <li style="overflow: hidden; float: left; width: 740px; height: 247px;"><a href="/gg/2018/05/21880.shtml"><img src="/images/gg/2018/05/07/74A1E82FA67C95CE0343815AB7FFA23F.jpg" alt=""></a></li></ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="leftcontent_box001">
+          <div class="content_001">
+              <div class="title_bg"> <span class="down" id="taga1" style="cursor:pointer;" onmouseover="changeFinanceMenu(this,1)">本行新闻</span><span class="up" id="taga2" onmouseover="changeFinanceMenu(this,2)" style="cursor:pointer;">银行公告</span><span class="up" id="taga3" onmouseover="changeFinanceMenu(this,3)" style="cursor:pointer;">媒体关注</span><span class="up" id="taga4" onmouseover="changeFinanceMenu(this,4)" style="cursor:pointer;">营销快讯</span> </div>
+<!--本行新闻-->
+            <div class="info_list" id="Tagadiv1">
+<div style="height:150px;">
+              <ul>
+       <li><a href="/index/bhxw/2018/05/22076.shtml">温州分行喜迁新址</a></li><li><a href="/index/bhxw/2018/05/21993.shtml"> 企业客户预约开户功能上线</a></li><li><a href="/index/bhxw/2018/05/21972.shtml">总行启动“治乱象 维秩序”专题培训教育活动</a></li><li><a href="/index/bhxw/2018/05/21969.shtml">我行再推惠民便民新举措：首台征信自助查询机亮相义...</a></li><li><a href="/index/bhxw/2018/05/21936.shtml">柜面指静脉识别功能上线10天签约量近300笔</a></li>
+              </ul>
+</div>
+<div class="more001" style="margin-top:-13px;"><a style="color:#950202;" href="/index/bhxw/index.shtml">更多&gt;&gt;</a></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--银行公告-->
+            <div class="info_list" id="Tagadiv2" style="display:none">
+<div style="height:150px;">
+              <ul>
+       <li><a href="/index/yhgg/2018/05/21964.shtml">浙江稠州商业银行股份有限公司关于召开2017年度...</a></li><li><a href="/index/yhgg/2018/05/21951.shtml">关于我行手机银行系统升级维护的通知</a></li><li><a href="/index/yhgg/2018/04/21851.shtml">关于我行系统升级维护的通知</a></li><li><a href="/index/yhgg/2018/03/21452.shtml">关于调整小额免密免签交易限额的公告</a></li><li><a href="/index/yhgg/2018/03/21195.shtml">关于调整借记卡银联ATM境内跨行取现收费标准的公告</a></li>
+              </ul>
+</div>
+<div class="more001" style="margin-top:-13px;"><a style="color:#950202;" href="/index/yhgg/index.shtml">更多&gt;&gt;</a></div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--媒体关注-->
+         <div class="info_list" id="Tagadiv3" style="display:none">
+<div style="height:150px;">
+              <ul>
+       <li><a href="/index/mtgz/2017/06/18320.shtml">稠州银行助力浙江衢州 拥绿水青山奔金山银山 </a></li><li><a href="/index/mtgz/2017/06/18318.shtml">稠州银行点“金”丽水</a></li><li><a href="/index/mtgz/2017/06/18316.shtml">稠州村镇银行：贴心的农村金融“大排档”</a></li><li><a href="/index/mtgz/2017/06/18314.shtml">小微企业成稠州银行座上常客</a></li><li><a href="/index/mtgz/2017/04/17791.shtml">三十载砥砺奋进 新起点再创辉煌 浙江稠州商业银行...</a></li>
+              </ul>
+</div>
+<div class="more001" style="margin-top:-13px;"><a style="color:#950202;" href="/index/mtgz/index.shtml">更多&gt;&gt;</a></div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+<!--营销快讯-->
+            <div class="info_list" id="Tagadiv4" style="display:none">
+<div style="height:150px;">
+              <ul>
+       <li><a href="/index/yxkx/2018/02/20992.shtml">微信支付首选稠州银行卡，满50减10元！</a></li><li><a href="/index/yxkx/2017/03/17364.shtml">签约集福卡 交易礼更多</a></li><li><a href="/index/yxkx/2016/09/15962.shtml">“反假知识大比拼，精彩好礼送不停”</a></li><li><a href="/index/yxkx/2015/05/11722.shtml">521，我们爱你多一点</a></li><li><a href="/index/yxkx/2015/04/11493.shtml">刷卡最高优惠15%，72小时玩转亚洲怎么能少了稠...</a></li>
+              </ul>
+</div>
+<div class="more001" style="margin-top:-13px;"><a style="color:#950202;" href="/index/yxkx/index.shtml">更多&gt;&gt;</a></div>
+            </div>
+
+
+
+
+
+
+
+
+
+          </div>
+          <div class="content_002">
+ <!--新品推荐-->
+            <div class="title_bg"> <span class="title_">新品推荐</span></div>
+            <div class="table001_box">
+              <div class="index_rota">
+                <div class="index_rota_left" id="cover_left2"><a href="#"></a></div>
+                <div class="index_rota_list">
+                  <div class="jCarouselLite2" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 261px;">
+                    <ul style="margin: 0px; padding: 0px; position: relative; list-style-type: none; z-index: 1; width: 1566px; left: -261px;"><li style="overflow: hidden; float: left; width: 246px; height: 84px;"><div class="index_rota_pic"><a href="/index/jptj/2015/08/12682.shtml"><img src="/images/index/jptj/2015/08/20/71FFEC0335800F697E605F5E49022377.jpg" width="244" height="82"></a></div></li>
+					       <li style="overflow: hidden; float: left; width: 246px; height: 84px;"><div class="index_rota_pic"><a href="/index/jptj/2015/11/13662.shtml"><img src="/images/index/jptj/2015/11/18/BE1BB82737E5214D4F52B94545AB1BEF.jpg" width="244" height="82"></a></div></li><li style="overflow: hidden; float: left; width: 246px; height: 84px;"><div class="index_rota_pic"><a href="/index/jptj/2015/08/12686.shtml"><img src="/images/index/jptj/2015/08/20/2EE822E0066E1000D3F3B156F4C0A37E.jpg" width="244" height="82"></a></div></li><li style="overflow: hidden; float: left; width: 246px; height: 84px;"><div class="index_rota_pic"><a href="/index/jptj/2015/08/12685.shtml"><img src="/images/index/jptj/2015/08/20/EE8E2548F0D197F139309B303EF1D343.jpg" width="244" height="82"></a></div></li><li style="overflow: hidden; float: left; width: 246px; height: 84px;"><div class="index_rota_pic"><a href="/index/jptj/2015/08/12682.shtml"><img src="/images/index/jptj/2015/08/20/71FFEC0335800F697E605F5E49022377.jpg" width="244" height="82"></a></div></li>
+                    <li style="overflow: hidden; float: left; width: 246px; height: 84px;"><div class="index_rota_pic"><a href="/index/jptj/2015/11/13662.shtml"><img src="/images/index/jptj/2015/11/18/BE1BB82737E5214D4F52B94545AB1BEF.jpg" width="244" height="82"></a></div></li></ul>
+                    <div class="index_rota_oper">
+                          <p><a href="/yhk/yhhd/index.shtml">优惠活动</a>
+                             <!--<a href="/yhk/thsh/index.shtml">全省特惠商户</a>-->
+                          </p>
+                        </div>
+                 	</div>
+                </div>
+                <div class="index_rota_right" id="cover_right2"><a href="#"></a></div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+        <!--ad-->
+<!--特色业务-->
+<div class="leftcontent_adline">
+          <p>
+		        <a href="/index/tsyw/2014/12/10370.shtml"><img src="/images/index/tsyw/2014/12/26/DD259DC37FE62A0F653FBB310500690A.jpg" width="240" height="98"></a><a href="/index/tsyw/2014/12/10368.shtml"><img src="/images/index/tsyw/2014/12/26/DEEB894DAA856A3D7864ECE43E3158D8.jpg" width="240" height="98" style="padding-left:10px;"></a><a href="/index/tsyw/2014/12/10366.shtml"><img src="/images/index/tsyw/2014/12/26/90BC821C5ECB7A6DCB240C8AC3751523.jpg" width="240" height="98" style="padding-left:10px;"></a>
+		  </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--ad end-->
+        <div class="leftcontent_box001">
+          <div class="content_001">
+            <div class="title_bg"> <span class="down" id="tagb1" onclick="tagb(1)">外汇牌价</span><span class="up" id="tagb2" onclick="tagb(2)">基金</span><span class="up" id="tagb3" onclick="tagb(3)">贵金属</span><span class="up" id="tagb4"><a href="/cpxxcxpt/index.shtml" target="_blank">产品信息查询平台</a></span> </div>
+
+<!--外汇牌价-->
+ 
+ <div class="table001_box" id="Tagbdiv1">
+              <table class="table001">
+                <tbody>
+                  <tr class="table001_title">
+                    <td>货币种类</td>
+                    <td>现汇买入价格</td>
+                    <td>卖出价格</td>
+                    <td>中间价格</td>
+                  </tr>
+				
+  <tr>
+                    <td>USD</td>
+                    <td>640.24</td>
+                    <td>642.96</td>
+                    <td>642.08</td>
+                  </tr>
+
+
+				  
+  <tr>
+                    <td>EUR</td>
+                    <td>747.46</td>
+                    <td>752.97</td>
+                    <td>748.9</td>
+                  </tr>
+
+
+				  
+  <tr>
+                    <td>HKD</td>
+                    <td>81.59</td>
+                    <td>81.91</td>
+                    <td>81.838</td>
+                  </tr>
+
+
+				  
+  <tr>
+                    <td>GBP</td>
+                    <td>853.4</td>
+                    <td>859.69</td>
+                    <td>857.34</td>
+                  </tr>
+
+
+				  
+    </tbody>
+              </table>
+			  <div class="more001"><a href="/lcgj/whpj/index.shtml">更多&gt;&gt;</a></div>
+            </div>
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+			
+			<div class="info_list_double1" id="Tagbdiv2" style="display:none">
+              <div class="info_list6">
+                <ul>
+                  <li>基金公告 <span><a href="/gryw/jj/jjgg/index.shtml" style="margin-left:20px;color:#950202;">查看更多</a></span></li>
+                  <li>市场资讯 <span><a href="/gryw/jj/jjzx/index.shtml" style="margin-left:20px;color:#950202;">查看更多</a></span></li>
+                </ul>
+              </div>
+<!--基金公告-->
+              <div class="info_list4">
+                <ul>
+			   <li><a href="/images/gryw/jj/jjgg/2015/03/26/BD68283D5EFA0793E1D1769A49B30B5B.pdf" target="blank">天弘季加利理财债券型证...</a></li><li><a href="/images/gryw/jj/jjgg/2014/11/13/9AFBFB62A017F2F87E78C2BF00C69D2B.doc" target="blank">关于广发货币市场基金调...</a></li><li><a href="/images/gryw/jj/jjgg/2014/08/13/F69572A0F85722F87406F561445E3646.pdf" target="blank">浙江稠州商业银行证券投...</a></li><li><a href="/images/gryw/jj/jjgg/2014/08/13/E67F60801AE1E46127DA20A7150CEE0C.pdf" target="blank">浙江稠州商业银行代销基...</a></li><li><a href="/images/gryw/jj/jjgg/2014/08/13/BFBC494CEB90CABD117E1C4912DE8E8A.pdf" target="blank">基金投资人风险承受能力...</a></li>
+                </ul>
+              </div>
+
+
+
+
+
+<!--市场资讯-->
+              <div class="info_list5">
+                <ul>
+			   <li><a href="/images/gryw/jj/jjzx/2015/06/11/27ED46E056100E895DEE43395455DBCB.pdf" target="blank">20150610-民生...</a></li><li><a href="/images/gryw/jj/jjzx/2015/06/11/B45957E6EA72CE38E26B1D86C933E42C.pdf" target="blank">20150609-招商...</a></li><li><a href="/images/gryw/jj/jjzx/2015/06/04/692959A1C3E056F9089DC8B435CD9415.pdf" target="blank">20150603-招商...</a></li><li><a href="/images/gryw/jj/jjzx/2015/06/04/973BB740658E5803DE07C35E6E9776FE.pdf" target="blank">20150603-华龙...</a></li><li><a href="/images/gryw/jj/jjzx/2015/06/03/064E0C7566687E67FB7FA3DD9585D5BA.pdf" target="blank">20150603-民生...</a></li>
+                </ul>
+              </div>
+
+
+
+
+            </div>
+
+<div class="info_list_double1" id="Tagbdiv3" style="display:none">
+<!--业务介绍-->
+			   
+
+<div class="info_list1">
+                <ul>
+                  <li>业务介绍 <span><a href="/gryw/gjs/ywjs/2012/06/452.shtml" style="margin-left:15px;color:#950202;">查看详细</a></span></li>
+                  <li>黄金资讯 <span><a href="/gryw/gjs/hjzx/index.shtml" style="margin-left:10px;color:#950202;">查看更多</a></span></li>
+                </ul>
+              </div>  
+            <div class="info_list4">
+                <ul>
+			   <span class="aboutus_content">“财运金”：是指我行与平安银行银银合作，代理个人客户提出上海黄金交易所挂牌交易的各类贵金属的买入、卖出等交易委托，并代理...</span>
+                </ul>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--黄金资讯-->
+              <div class="info_list5">
+                <ul>
+			   <li><a href="/images/gryw/gjs/hjzx/2015/07/07/AFAEF925010CA6EB30F8E8F17FEAD74C.pdf" target="blank">关于调整交易所部分...</a></li><li><a href="/images/gryw/gjs/hjzx/2015/06/12/D5D54721F166EBD787E5E316F17B5779.pdf" target="blank">贵金属行情每日简报...</a></li><li><a href="/images/gryw/gjs/hjzx/2015/06/11/EBB4693F3BC098EF8ECA85B64DFF6CDC.pdf" target="blank">贵金属行情每日简报...</a></li><li><a href="/images/gryw/gjs/hjzx/2015/06/10/BEB10E7DAF2A9FD40D3D3845560B3AC0.pdf" target="blank">贵金属行情每日简报...</a></li><li><a href="/images/gryw/gjs/hjzx/2015/06/09/89B76D6E7281633BA0652663F7887DB9.pdf" target="blank">贵金属行情每日简报...</a></li>
+                </ul>
+              </div>
+
+
+
+
+
+
+              </div>
+
+						
+		<div class="info_list in_lineheight156" id="Tagbdiv4" style="display:none">
+				<ul>
+                <li><a href="#"></a></li>
+              </ul>
+			</div>
+            
+          </div>
+          <div class="content_002">
+             <div class="title_bg"> <span class="down" id="tagc1" onclick="tagc(1)">理财产品</span><span class="up" id="tagc2" onclick="tagc(2)">成立公告</span><span class="up" id="tagc3" onclick="tagc(3)">兑付公告</span></div> 
+<!--理财产品-->
+            <div class="table001_box" id="Tagcdiv1">
+              <table class="table002">
+                <tbody>
+                  <tr class="table002_title">
+                    <td>产品名称</td>
+                    <td>产品期限</td>
+                    <td>预期年化收益率</td>
+                    <td>募集期</td>
+                  </tr>
+                  <tr>
+
+                    <td><a href="/gryw/rxlccp/index.shtml">财丰CF180429...</a></td>
+                    <td>357</td>
+                    <td>5.50%</td>
+                    <td>06-04至06-10</td>
+                  </tr>
+				 
+                    <tr><td><a href="/gryw/rxlccp/index.shtml">财丰CF180428</a></td>
+                    <td>182</td>
+                    <td>5.10%-5.20%</td>
+                    <td>06-04至06-10</td>
+                  </tr>
+				 
+                    <tr><td><a href="/gryw/rxlccp/index.shtml">财丰CF180427</a></td>
+                    <td>88</td>
+                    <td>5.00%-5.10%</td>
+                    <td>06-04至06-06</td>
+                  </tr>
+				 
+                    <tr><td><a href="/gryw/rxlccp/index.shtml">财丰CF180426</a></td>
+                    <td>32</td>
+                    <td>4.70%-4.80%</td>
+                    <td>06-04至06-06</td>
+                  </tr>
+				                                  
+                  
+                 
+                </tbody>
+              </table>
+			  <div class="more001"><a href="/gryw/rxlccp/index.shtml">更多&gt;&gt;</a></div>
+            </div>
+
+
+  
+<!--成立公告-->
+<div class="info_list in_lineheight156" id="Tagcdiv2" style="display:none">
+				<ul>
+				
+                <li><a href="/gryw/clgg/2018/05/22082.shtml">2018年5月28日人民币理财产品成立公告 </a></li>
+                
+                <li><a href="/gryw/clgg/2018/05/22081.shtml">2018年5月24日人民币理财产品成立公告 </a></li>
+                
+                <li><a href="/gryw/clgg/2018/05/22000.shtml">2018年5月21日人民币理财产品成立公告  </a></li>
+                
+                <li><a href="/gryw/clgg/2018/05/21998.shtml">2018年5月17日人民币理财产品到期兑付公告</a></li>
+                
+              </ul>
+			  <div class="more001"><a href="/gryw/clgg/index.shtml">更多&gt;&gt;</a></div>
+			</div>
+
+
+
+
+<!--兑付公告-->
+<div class="info_list in_lineheight156" id="Tagcdiv3" style="display:none">
+				<ul>
+				
+                <li><a href="/gryw/dfgg/2018/05/22087.shtml">2018年5月28日人民币理财产品信息披露（非标资产...</a></li>
+                
+                <li><a href="/gryw/dfgg/2018/05/22086.shtml">2018年5月28日人民币理财产品到期兑付公告  </a></li>
+                
+                <li><a href="/gryw/dfgg/2018/05/22085.shtml">2018年5月24日人民币理财产品信息披露（非标资产...</a></li>
+                
+                <li><a href="/gryw/dfgg/2018/05/22084.shtml">2018年5月24日人民币理财产品到期兑付公告  </a></li>
+                
+              </ul>
+			  <div class="more001"><a href="/gryw/dfgg/index.shtml">更多&gt;&gt;</a></div>
+			</div>
+
+
+
+
+
+
+          </div>
+        </div>
+        <div class="leftcontent_box001">
+<!--中小企业-->
+          <div class="content_001">
+            <div class="title_bg"> <span class="title_">中小企业</span></div>
+            <table class="table003">
+              <tbody>
+                <tr>
+						        
+                  <td><div class="list_box">
+                      <div class="list_title">
+
+                       <a href="/index/zxqy_1/2013/09/5102.shtml"><p>转型升级贷</p></a>
+
+                      </div>
+                      <div class="list_img"><img src="/images/zxqy_1/2013/09/11/CD5CA686E0AB89712FBB93D743CB340C.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+
+                       <a href="/index/zxqy_1/2013/09/5100.shtml"><p>铺底贷</p></a>
+
+                      </div>
+                      <div class="list_img"><img src="/images/zxqy_1/2013/09/11/7959E69A5807086687B5F711382C64AB.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+
+                       <a href="/index/zxqy_1/2012/06/1876.shtml"><p>商易贷</p></a>
+
+                      </div>
+                      <div class="list_img"><img src="/images/zxqy_1/2012/12/13/FC46D468D2ED9E39CDE35760F939F239.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+
+
+
+
+
+<!--个人业务-->
+          <div class="content_002">
+            <div class="title_bg"> <span class="title_">个人业务</span></div>
+            <table class="table003">
+              <tbody>
+                <tr>
+						        
+                  <td><div class="list_box">
+                      <div class="list_title">
+                      <a href="/index/gryw_1/2015/06/11968.shtml"><p>财丰理财</p></a>
+
+                      </div>
+                      <div class="list_img"><img src="/images/gryw_1/2015/06/11/81A3EA307EAC64E53B12A7484B21147D.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+                      <a href="/index/gryw_1/2015/06/11966.shtml"><p>财运金</p></a>
+
+                      </div>
+                      <div class="list_img"><img src="/images/gryw_1/2015/06/11/02E4326F8A064899FFB95ABB77B207B2.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+                      <a href="/index/gryw_1/2015/06/11964.shtml"><p>基金代销</p></a>
+
+                      </div>
+                      <div class="list_img"><img src="/images/gryw_1/2015/06/11/238892D7A0EC7AFDCFFE6A5C46769E81.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+</div>
+<div class="leftcontent_box001">
+<!--国际业务-->
+          <div class="content_001">
+            <div class="title_bg"> <span class="title_">国际业务</span></div>
+            <table class="table003">
+              <tbody>
+                <tr>
+						        
+                  <td><div class="list_box">
+                      <div class="list_title">
+                        <a href="/index/gjyw_1/2015/12/13881.shtml"><p>见证开户</p></a>
+                      </div>
+                      <div class="list_img"><img src="/images/gjyw_1/2015/12/17/C26D8DE2BA4AE6EE4147E5C2679C5E36.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+                        <a href="/index/gjyw_1/2015/12/13879.shtml"><p>国内信用证</p></a>
+                      </div>
+                      <div class="list_img"><img src="/images/gjyw_1/2015/12/17/8ACE8B657F49529E860326FF79EF7E33.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+                        <a href="/index/gjyw_1/2014/08/9314.shtml"><p>内保外贷</p></a>
+                      </div>
+                      <div class="list_img"><img src="/images/gjyw_1/2014/08/21/B648234730772FD3D98B8DE6D667728B.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+<!--电子银行-->
+          <div class="content_002">
+            <div class="title_bg"> <span class="title_">电子银行</span></div>
+            <table class="table003">
+              <tbody>
+                <tr>
+						        
+                  <td><div class="list_box">
+                      <div class="list_title">
+                       <a href="/index/dzyx_1/2015/08/12690.shtml"><p>消费分期免息</p></a>
+                      </div>
+                      <div class="list_img"><img src="/images/dzyx_1/2015/08/20/AE915B57EAA60D802B285EE71CB04BFA.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+                       <a href="/index/dzyx_1/2015/08/12688.shtml"><p>手机银行</p></a>
+                      </div>
+                      <div class="list_img"><img src="/images/dzyx_1/2015/08/20/92EC1FEB9F82339A2A15AC42F80D62CC.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                  <td><div class="list_box">
+                      <div class="list_title">
+                       <a href="/index/dzyx_1/2015/06/11962.shtml"><p>足不出户 轻松买理财</p></a>
+                      </div>
+                      <div class="list_img"><img src="/images/dzyx_1/2015/06/11/9CFB32B51257EF3D8CD26D813C9A54AF.jpg" alt=""></div>
+                     <div class="list_text"> </div><div class="list_text"> </div>
+                    </div></td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+         </div>
+
+        </div>
+      </div>
+      <div class="centerbox_out">
+        <div class="centerbox_in">
+<!--网银登陆-->
+          <div class="rightcon_box000">
+            <div class="links">
+              <ul>
+               <a href="http://ebank.czcb.com.cn/"> <li><img src="/images/frame/frame01.gif" width="151" height="31"></li></a>
+                <li class="links_ico1"><a href="https://ebank.czcb.com.cn:7443/perbank/verificationElectronicReceipt.do?logonOrgan=czcb">电子回单验证</a></li>
+                <li class="links_ico2"><a href="http://ebank.czcb.com.cn/download/czcb_wyzs.exe">网银助手下载</a></li>
+                <li class="links_ico3"><a href="http://ebank.czcb.com.cn/index_perbank_demo.html ">网银业务演示</a></li>
+              </ul>
+            </div>
+            <div class="links_more">
+              <p class="links_more_p"><a class="icon_safe" href="http://ebank.czcb.com.cn/download/safeDirect.html">安全指引</a><a class="icon_help" href="http://ebank.czcb.com.cn/firsttime_step1.html ">使用指南</a></p>
+            </div>
+          </div>
+          <div class="rightcon_box001">
+            <div class="wsdz_login"><a href="http://wsdz.czcb.com.cn:8080"></a></div>
+          </div>
+          <div class="rightcon_box001">
+            <div class="in_login"><a href="https://pbsz.ebank.cmbchina.com/cmbbank_genshell/ui/genshellpc/othbankacc/login.aspx"></a></div>
+          </div>
+          <div class="rightcon_box001">
+            <div class="smzf_login"><a href="https://pay.czcb.com.cn:8380/ifsp-mchtweb/index.jsp"></a></div>
+          </div>
+          <div class="rightcon_box001">
+            <div class="dfds_login"><a href="https://ebank.czcb.com.cn:7443/corporbank/005003_agencyFileEntry.do?logonOrgan=czcb"></a></div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="rightcon_function">
+<!--右侧四功能-->
+            <div class="right_fun1"><a href="http://est.czcb.com.cn"></a></div>
+            <div class="right_fun2"><a href="/sjyh/index.shtml "></a></div>
+            <div class="right_fun4"><a href="http://www.ywtrade.gov.cn"></a></div>
+            <div class="right_line1"></div>
+
+
+
+
+
+
+
+
+
+
+
+<!--理财工具-->
+            <div class="right_fun5"><a href="/lcgj/cdll/index.shtml"></a></div>
+            <div class="right_fun6"><a href="/lcgj/jrlc/index.shtml"></a></div>
+
+
+
+
+          </div>
+<!--快速通道-->
+            <div class="rightcon_kstd">
+            <div class="rightcon_kstd_title"></div>
+            <div class="rightcon_kstd_list">
+              <div class="kstd_list_p"><a class="icon_aq" href="http://mail.czcb.com.cn">[&nbsp;邮箱登录&nbsp;]</a></div>
+              <div class="kstd_list_p"><a class="icon_kf" href="javascript:void(0)" onclick="loginServiceSystem();">[&nbsp;在线客服&nbsp;]</a></div>
+              <div class="kstd_list_p"><a class="icon_sf" href="/lcgj/fwzf/index.shtml">[&nbsp;收费标准&nbsp;]</a></div>
+              <div class="kstd_list_p"><a class="icon_kh" href="/lcgj/khzl/index.shtml">[&nbsp;开户资料&nbsp;]</a></div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+<!--网点地图查询-->
+          <div class="rightcon_map">
+            <div class="rightcon_dtcx"><a href="/qtlm/wddt/index.shtml"></a></div>
+          </div>
+
+
+<!--企业文化-->
+          <div class="rightcon_title">
+            <div class="rightcon_tit qywh"><a href="/gywm/qywh/index.shtml"></a></div>
+          </div>
+
+
+
+          <div class="rightcon_boxAd">
+<!--新浪微博-->
+<div class="rightcon_ad1"><a href="http://e.weibo.com/czcb"></a></div>
+
+
+
+<!--客服热线-->
+<div class="rightcon_ad2"><a href="/index/kfrx/index.shtml"></a></div>
+
+
+          </div>
+<!--村镇银行-->
+<div class="rightcon_box002">
+            <div class="links_button">村镇银行网上银行</div>
+            <div class="links_list">
+              <ul>
+                <li><a href="http://jaebank.czcb.com.cn/" target="blank">吉安网上银行</a></li>
+                <li><a href="http://bbebank.czcb.com.cn/" target="blank">北碚网上银行</a></li>
+                <li><a href="http://hdebank.czcb.com.cn/" target="blank">花都网上银行</a></li>
+                <li><a href="http://zxebank.czcb.com.cn/" target="blank">忠县网上银行</a></li>
+                <li><a href="http://dtebank.czcb.com.cn/" target="blank">东台网上银行</a></li>
+                <li><a href="http://lqyebank.czcb.com.cn/" target="blank">龙泉驿网上银行</a></li>
+                <li><a href="http://ptebank.czcb.com.cn/" target="blank">普陀网上银行</a></li>
+                <li><a href="http://dsebank.czcb.com.cn/" target="blank">岱山网上银行</a></li>
+                <li><a href="http://anebank.czcb.com.cn/" target="blank">安宁网上银行</a></li>
+               </ul>
+            </div>
+          </div>
+
+
+
+
+
+
+
+<!--友情链接-->
+          <div class="rightcon_box002">
+            <div class="links_button">友情链接</div>
+            <div class="links_list">
+              <ul>
+                <li><a href="http://www.zjczbc.com/" target="blank">浙江稠州职业篮球俱乐部</a></li>
+                <li><a href="http://www.pbc.gov.cn/" target="blank">中国人民银行</a></li>
+                <li><a href="http://www.cbrc.gov.cn/" target="blank">中国银监会</a></li>
+                <li><a href="http://cn.unionpay.com/" target="blank">中国银联</a></li>
+                <li><a href="http://www.chinapay.com/" target="blank">银联在线</a></li>
+                <li><a href="http://www.alipay.com/" target="blank">支付宝</a></li>
+                <li><a href="http://zyyp.zjabank.org" target="blank">浙江辖内银行业押品资产交易信息平台</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+<!--公共底部-->
+      <div class="footer">
+        <table>
+          <tbody>
+            <tr>
+              <td><div class="logo">
+                  <input type="hidden">
+                </div></td>
+                <td><div class="gongshang">
+                  <script language="javaScript" src="http://zjnet.zjaic.gov.cn/bsjs/330000/33000000008881.js"></script><a target="_blank" href="http://idinfo.zjaic.gov.cn/bscx.do?method=hddoc&amp;id=33000000008881"><img src="http://idinfo.zjaic.gov.cn/images/i_lo2.gif" border="0"></a>
+                </div></td>
+                <td><div class="gongshang">
+                  <script src="https://kxlogo.knet.cn/seallogo.dll?sn=e12022133070011766307708&amp;size=0"></script><span style="display:inline-block;position:relative;width:auto;"><a href="https://ss.knet.cn/verifyseal.dll?sn=e12022133070011766307708&amp;ct=df&amp;a=1&amp;pa=0.6373067135092073" id="kx_verify" tabindex="-1" target="_blank" kx_type="图标式" style="display:inline-block;"><img src="https://ss.knet.cn/static/images/logo/cnnic_en.png" style="border:none;" oncontextmenu="return false;" alt="可信网站"></a></span>
+                </div></td>
+              <td><div class="links_box"><p> 总行地址：浙江省义乌市江滨路义乌乐园东侧 邮编：322000　 </p>  </div>
+                  <div class="links_box"><p>杭州市上城区望潮路158号 稠银大厦 邮编：310016　 </p>  </div>
+                <div class="links_box">
+                  <p>浙江稠州商业银行股份有限公司版权所有　浙ICP备06051555号　</p>
+                </div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+<!--幻灯片效果-->
+		//幻灯片列表的滚动效果
+		$(".jCarouselLite").jCarouselLite({
+		btnNext: "#cover_right",
+		btnPrev: "#cover_left",
+		visible: 1,
+		speed: 700,
+                auto:3000
+		}); 
+
+
+
+
+				//幻灯片列表的滚动效果
+		$(".jCarouselLite2").jCarouselLite({
+		btnNext: "#cover_right2",
+		btnPrev: "#cover_left2",
+		visible: 1,
+		speed: 700
+		}); 
+document.getElementById("channel1").className="first_menu_down";
+</script>
+<script language="javascript"> 
+var Message={
+set: function() {//最小化与恢复状态切换
+var set=this.minbtn.status == 1?[0,1,'block',this.char[0],'最小化']:[1,0,'none',this.char[1],'恢复'];
+this.minbtn.status=set[0];
+this.win.style.borderBottomWidth=set[1];
+this.content.style.display =set[2];
+this.minbtn.innerHTML =set[3]
+this.minbtn.title = set[4];
+this.win.style.top = this.getY().top;
+},
+close: function() {//关闭
+this.win.style.display = 'none';
+window.onscroll = null;
+},
+setOpacity: function(x) {//设置透明度
+var v = x >= 100 ? '': 'Alpha(opacity=' + x + ')';
+this.win.style.visibility = x<=0?'hidden':'visible';//IE有绝对或相对定位内容不随父透明度变化的bug
+this.win.style.filter = v;
+this.win.style.opacity = x / 100;
+},
+show: function() {//渐显
+clearInterval(this.timer2);
+var me = this,fx = this.fx(0, 100, 0.1),t = 0;
+this.timer2 = setInterval(function() {
+t = fx();
+me.setOpacity(t[0]);
+if (t[1] == 0) {clearInterval(me.timer2) }
+},10);
+},
+fx: function(a, b, c) {//缓冲计算
+var cMath = Math[(a - b) > 0 ? "floor": "ceil"],c = c || 0.1;
+return function() {return [a += cMath((b - a) * c), a - b]}
+},
+getY: function() {//计算移动坐标
+var d = document,b = document.body, e = document.documentElement;
+var s = Math.max(b.scrollTop, e.scrollTop);
+var h = /BackCompat/i.test(document.compatMode)?b.clientHeight:e.clientHeight;
+var h2 = this.win.offsetHeight;
+return {foot: s + h + h2 + 2+'px',top: s + h - h2 - 2+'px'}
+},
+moveTo: function(y) {//移动动画
+clearInterval(this.timer);
+var me = this,a = parseInt(this.win.style.top)||0;
+var fx = this.fx(a, parseInt(y));
+var t = 0 ;
+this.timer = setInterval(function() {
+t = fx();
+me.win.style.top = t[0]+'px';
+if (t[1] == 0) {
+clearInterval(me.timer);
+me.bind();
+}
+},10);
+},
+bind:function (){//绑定窗口滚动条与大小变化事件
+var me=this,st,rt;
+window.onscroll = function() {
+clearTimeout(st);
+clearTimeout(me.timer2);
+me.setOpacity(0);
+st = setTimeout(function() {
+me.win.style.top = me.getY().top;
+me.show();
+},600);
+};
+window.onresize = function (){
+clearTimeout(rt);
+rt = setTimeout(function() {me.win.style.top = me.getY().top},100);
+}
+},
+init: function() {//创建HTML
+function $(id) {return document.getElementById(id)};
+this.win=$('msg_win');
+var set={minbtn: 'msg_min',closebtn: 'msg_close',title: 'msg_title',content: 'msg_content'};
+for (var Id in set) {this[Id] = $(set[Id])};
+var me = this;
+this.minbtn.onclick = function() {me.set();this.blur()};
+this.closebtn.onclick = function() {me.close()};
+this.char=navigator.userAgent.toLowerCase().indexOf('firefox')+1?['_','::','×']:['0','2','r'];//FF不支持webdings字体
+this.minbtn.innerHTML=this.char[0];
+this.closebtn.innerHTML=this.char[2];
+setTimeout(function() {//初始化最先位置
+me.win.style.display = 'block';
+me.win.style.top = me.getY().foot;
+me.moveTo(me.getY().top);
+},0);
+return this;
+}
+};
+Message.init();
+</script>
+<script type="text/javascript">
+var adTimeout;
+jQuery(document).ready(function(){
+	$("#closeButton").click(function(){
+		$("#flashAd").hide();
+		clearTimeout(adTimeout);
+	});
+	adTimeout= setTimeout("hideDiv()",5000);
+});	
+function hideDiv(){
+	$("#flashAd").hide();
+	clearTimeout(adTimeout);
+}
+function initImg(){
+	$("#flashAd").css({left:($(window).width() - 720)/2 + "px"});
+	$("#flashAd").show();
+	$("#closeButton").show();
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

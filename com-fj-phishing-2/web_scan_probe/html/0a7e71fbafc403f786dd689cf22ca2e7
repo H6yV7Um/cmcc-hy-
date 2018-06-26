@@ -1,0 +1,1364 @@
+<!DOCTYPE html><html><head><script src="//pingjs.qq.com/h5/stats.js?v2.0.4" name="MTAH5" sid="500398053" cid="500398056"></script>
+    <meta charset="gbk">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta itemprop="name" content="懂福州，更懂生活，打造属于你的本地精致生活圈">
+    <meta itemprop="description" content="懂福州，更懂生活，打造属于你的本地精致生活圈">
+    <meta itemprop="image" content="">
+    <title>企鹅社区 - 腾讯大闽网</title>
+    <script src="http://jsqmt.qq.com/cdn_djl.js" type="text/javascript" async=""></script><script type="text/javascript">var _speedMark = new Date();</script>
+    <link rel="stylesheet" href="//mat1.gtimg.com/cd/2016/cdlife/style.css">
+    <script src="//mat1.gtimg.com/libs/jquery/1.12.0/jquery.js"></script>
+    <script src="//mat1.gtimg.com/cd/js/2015qh/template.js"></script>
+    <script src="//mat1.gtimg.com/cd/pjq2015/jquery/jquery.pagination.js"></script>
+    <script src="//mat1.gtimg.com/cd/2016/cdlife/cdlife.js"></script>
+    <style>
+/* focus */
+.focus_A{width:650px;height:368px;position:relative;overflow:hidden;}
+.focus_A .focus_con .item{position:relative;height:350px;}
+.focus_A .focus_con img{width:650px;height:350px;}
+.focus_A .shadow{font-size:24px;font-weight:bold;text-align:center;position:absolute;left:0;bottom:0;color:#FFF;width:100%;height:50px;line-height:50px;padding:5px 0;
+background:rgba(0, 0, 0, 0.6);
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000',endColorstr='#99000000');}
+.focus_A .focus_dot{position:absolute;bottom:0px;left:250px;}
+.focus_A .focus_dot a{display:inline-block;width:30px;height:4px;margin-right:3px;background:#dadada;}
+.focus_A .focus_dot a:hover,.focus_A .focus_dot .current{text-decoration:none;background:#db4a39;}
+
+.l-xdmr>.tit,.rztk .tit,.chw>.tit,.ml .tit,.zsch .tit{height:34px;background:url(http://mat1.gtimg.com/fj/mylife/2017/icon-xdmr-1.png) no-repeat left center;}
+.l-xdmr .tit b,.rztk .tit b,.chw .tit b,.ml .tit b,.zsch .tit b{ padding-left:20px; line-height:30px; font-size:20px;}
+
+
+        .rcm-item{ height: 224px!important; overflow:hidden; }
+        .box-main{ margin:10px 0 15px; }
+        .only-word{ height: 220px!important; padding-bottom: 0!important; }
+        .only-word>a>p{ color: #9e6600; }
+        .only-word .tags{ margin-top:10px; }
+        .item-i{ width: auto; height: 140px; display: block; margin:0 auto; }
+        .bb-slide{ width: 750px; }
+        .bb-item{ margin:0 20px 0 0; }
+        .ewm-shua { background-size: auto; }
+
+        #cttu,#ct2,#ct3{ height: auto!important; max-height: 160px; overflow: hidden; margin: 15px 0 30px; border: none; width: auto; }
+        .ct-show{ width: 100%; height: auto!important; }
+        .ct-show a img{ display: block; width: 45%; float: right; height: auto; }
+        .ct-show a .item-p{ margin: 20px 10px 0; font-size: 20px; line-height: 32px; color: #303030; font-weight: bolder; height: auto!important; padding-right: 15px;}
+        .ct-show a .item-p:hover{ color:#4a8294; }
+        .ct-show .tags1{ margin-left: 10px; }
+        .text-elli-multi { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+        .only-word a img{ display: none; }
+        #cttu .only-word>a>p,#ct2 .only-word>a>p,#ct3 .only-word>a>p{ padding:0!important; text-align: left; }
+
+        .tipie { width: 100%; height: 35px; line-height: 35px; text-align: center; background-color: #f5df3c; border-bottom: 1px solid #999; }
+
+        .rztk{ z-index: 1; }
+        .xsqlist{z-index: 999; }
+        a.disabled { pointer-events: none; cursor:default; }
+
+        #mini_login{ display:none; }
+        .logoimg>img { display: block; float: left; height: 45px; width: auto; margin: 5px 0 0; }
+    </style>
+<script>
+var loadScript = function (url, callback) {
+	var script = document.createElement('script');
+	if (typeof callback == 'function') {
+		script.onload = callback;
+	}
+	script.setAttribute('type', 'text/javascript');
+	script.setAttribute('src', url);
+	document.getElementsByTagName('head')[0].appendChild(script);
+};
+
+</script>
+</head>
+<body>
+<!--mininav-->
+<style>
+.mininav { width:100%; height:34px; overflow:hidden; background:#4b4a4a; zoom:1}
+.mininav .sc_mininav { height:34px; line-height:34px; overflow:hidden; margin:0px auto; }
+.mininav .sc_mininav .gobackindex { float:left;}
+.mininav .sc_mininav a { color:#c1bebe; text-decoration:none }
+.mininav .sc_mininav .topic_navlist { float:left; height:34px; text-align:left; overflow:hidden; line-height:34px; }
+.mininav .sc_mininav .topic_navlist a { padding:0px 10px; text-align:center; height:34px; display:block; float:left;}
+.mininav .sc_mininav .topic_navlist a:hover { background:#3c3c3c; text-decoration:none; }
+#login { font-size:12px; color:#c1bebe; }
+#login img { padding:2px; border:solid 1px #e7e7e7; display:inline-block }
+#login .l_btn { background:url(http://mat1.gtimg.com/cd/201108/yimu/edu/login_bg.gif) no-repeat left top; width:39px; line-height:20px; height:20px; overflow:hidden; display:block; font-size:12px; text-align:center; float:right; margin:7px 0px 0px 5px; color:#C1BEBE; text-decoration:none; }
+#login .l_btn:hover { text-decoration:none; }
+.login_box { height:34px; line-height:34px; float:right; margin-right:10px; overflow:hidden; }
+.gqwz_link, .gqwz_link a { color:#c8c8c8 !important; }
+.gqwz_link a:hover { color:#ec7d55 !important; }
+.kksay { height:62px; padding-left:210px; overflow:hidden; line-height:62px; background:url(http://mat1.gtimg.com/cd/201108/yimu/bbs/bbs5_kksay05.png) no-repeat left center; }
+.kksay dl { width:100%; height:62px; line-height:62px; overflow:hidden; }
+.kksay dl dt { width:auto; height:62px; overflow:hidden; float:left; font-size:24px; }
+.kksay dl dd { width:auto; height:62px; overflow:hidden; float:left; font-size:16px; background:url(http://mat1.gtimg.com/cd/201108/yimu/bbs/bbs_91.png) no-repeat right center; padding-right:16px; }
+</style>
+<div class="mininav">
+	<div class="sc_mininav">
+		<a href="http://fj.qq.com" target="_blank" class="gobackindex" title="大闽网首页">大闽网首页</a>
+		<div class="topic_navlist" id="topic_navlist">
+<a href="http://fj.qq.com" target="_blank">首页</a>
+<a href="http://myxm.qq.com/" target="_blank"><!--font color=#cc0000-->厦门<!--/font--></a>
+<a href="http://fj.qq.com/ent/" target="_blank">娱乐</a>
+<a href="http://fj.qq.com/eat" target="_blank">美食</a>
+<a href="http://fj.qq.com/itravel/" target="_blank">旅游</a>
+<a href="http://fj.qq.com/shopping" target="_blank">购物</a>
+<a href="http://fj.qq.com/baby/" target="_blank">亲子</a>
+<a href="http://fj.qq.com/home" target="_blank" id="NIPhome">家居</a>
+<a href="http://fz.house.qq.com/" target="_blank">房产</a>
+<a href="http://fj.qq.com/auto/" target="_blank">汽车</a>
+<a href="http://fj.qq.com/edu/" target="_blank">教育</a>
+<a href="http://fj.qq.com/zhpd/" target="_blank">会展</a>
+<a href="http://www.ifjqq.com/" target="_blank">旧社区</a>
+<span id="mini_linkbox"><li><a href="http://cd.qq.com/" target="_self">腾讯大成网</a></li><li><a href="http://cd.qq.com/gongyi/" target="_self">公益</a></li><li><a href="http://cd.qq.com/newsphoto/" target="_self">图库</a></li><li><a href="http://cd.qq.com/dczf/" target="_self">政法</a></li><li><a href="http://cd.qq.com/house/" target="_self">房产</a></li><li><a href="http://cd.qq.com/auto/" target="_self">汽车</a></li><li><a href="http://cd.qq.com/money/" target="_self">财经</a></li><li><a href="http://cd.qq.com/jiaju/" target="_self">家居</a></li><li><a href="http://cd.qq.com/health/" target="_self">健康</a></li><li><a href="http://cd.qq.com/edu/" target="_self">教育</a></li><li><a href="http://cd.qq.com/ieat/" target="_self">美食</a></li><li><a href="http://cd.qq.com/travel/" target="_self">旅游</a></li><li><a href="http://cd.qq.com/shopping/" target="_self">购物</a></li><li><a href="http://cd.qq.com/zzsc/" target="_self">企鹅智造</a></li><li><a href="http://cd.qq.com/news/xmtxy.htm" target="_self">企鹅学院</a></li><li><a href="http://panda.qq.com/cd/" target="_self">企鹅社区</a></li><li><a href="javascript:void(0)" target="_self">更多城市</a></li></span>
+        </div>
+        
+	</div>
+</div>
+
+
+<!--[if !IE]>|xGv00|22b483bd4a7c516950daac91ab0c003a<![endif]-->
+<!--[if lt IE 10]>
+<div class="tipie">请升级您的浏览器到IE9以上，建议您使用谷歌可以获得最佳的浏览效果！</div>
+<![endif]-->
+<!--Mininav-->
+<script type="text/javascript" src="//js.aq.qq.com/js/aq_common.js"></script>
+<script src="//mat1.gtimg.com/cd/2017/important/miniNavConf.js" charset="UTF-8"></script>
+<style>
+    body{ margin:0; padding:0; -webkit-text-size-adjust:100%;}
+    ul, li { list-style:none; margin:0px; padding:0px; }
+    .clearfix:before,.clearfix:after { content:"";display:table }
+    .clearfix:after { clear:both }
+    .mininav_box { width:100%; height:36px; margin:0px auto; padding:0px; background:#4b4a4a; color:#c1bebe; font-family:\5FAE\8F6F\96C5\9ED1,\5b8b\4f53; position: relative; z-index:999;  }
+    .mininav_box a, .mininav_box a:hover {outline:none; blur:expression(this.onFocus=this.blur());}
+
+    .mininav_box .sc_mininav_box { outline: none;  z-index:900; text-align:left; }
+    .mininav_box ul.mini_linkbox { width:auto; float:left; display:inline-block; }
+    .mininav_box ul.mini_linkbox li { width:auto; height:36px; line-height:36px; float:left; display:inline-block; background:url(//mat1.gtimg.com/cd/201108/yimu/home/mininav/mininav_02.gif) no-repeat right top; background-color: #4b4a4a;}
+    .mininav_box ul.mini_linkbox a { color:#c1bebe; padding:0px 8px; text-align:center; height:36px; line-height:36px; display:inline-block; float:left; font-size:14px; text-decoration:none; }
+    .mininav_box ul.mini_linkbox a img{ border:none; outline:none; }
+    .mininav_box .mini_linkbox a:hover { background:#3c3c3c; text-decoration:none; color:#c1bebe !important; }
+
+    #moreNav { position: relative; }
+    #moreNav .moreLink:hover { background:none; }
+    #moreNav .moreNav1, #moreNav .moreNav2 { display:inline-block; padding-right:10px; }
+    #moreNav .moreNav1 { background:url(//mat1.gtimg.com/cd/201108/yimu/home/mininav/mininav_05.gif) no-repeat right center; }
+    #moreNav .moreNav2 { position: relative; background:url(//mat1.gtimg.com/cd/201108/yimu/home/mininav/mininav_07.gif) no-repeat right center; }
+    /*2016.08.11*/
+    #moreNav .navmenu {  position: absolute; top:36px; background:#4b4a4a; width:132px; left:0px; z-index:999; }
+    #moreNav .navmenu>ul{ width:132px; text-align: center; padding:0; overflow: hidden; }
+    #moreNav .navmenu>ul>li{ width:66px; text-align: center; background: transparent!important; float:left; }
+    #moreNav .navmenu a { width:50px; text-align:center; }
+    #moreNav .navmenu a:hover { background:#3c3c3c; }
+</style>
+
+<script>
+    var subOut='<a href="javascript:void(0)" class="moreNav1" id="moreH">更多城市</a><div class="navmenu" id="navmenu" style="display: none;"><ul id="moreMenu"></ul></div>';
+    var navName=[],navLink=[],subName=[],subLink=[];
+    var str="",subStr="";
+    var getNav = function(){
+        var navLen = miniNavConf.length;
+        for(var i=0;i<navLen;i++){
+            if(miniNavConf[i].link == null){
+                miniNavConf[i].link='javascript:void(0)';
+            }
+            str +='<li><a href="'+miniNavConf[i].link+'" target="_self">'+miniNavConf[i].name+'</a></li>';
+            if(miniNavConf[i].subnav){
+                var subLen = miniNavConf[i].subnav.length;
+                for(var j=0;j<subLen;j++){
+                    subStr+='<li><a href="'+miniNavConf[i].subnav[j].link+'" target="_self">'+miniNavConf[i].subnav[j].name+'</a></li>';
+                    subName.push(miniNavConf[i].subnav[j].name);
+                    subLink.push(miniNavConf[i].subnav[j].link);
+                }
+            }
+        }
+        document.getElementById("mini_linkbox").innerHTML =str;
+    }
+    getNav();
+    window.onload=function(){
+        var linkBox=document.getElementById("mini_linkbox");
+        var liN=linkBox.getElementsByTagName("li");
+        var panda = liN[liN.length-2];
+        var moreN=liN[liN.length-1];
+        panda.getElementsByTagName("a")[0].style.position="relative";
+        var pandaStr='企鹅社区<img src="http://mat1.gtimg.com/fj/0426/sqlogo.png" alt="" style="position: absolute;width: 10px;height: auto; top:5px;right: 0px;">';
+        panda.getElementsByTagName("a")[0].innerHTML=pandaStr;
+        moreN.id="moreNav";moreN.className="moreNav";
+        moreN.innerHTML=subOut;
+        var moreMenu=document.getElementById("navmenu");
+        var navMenu=document.getElementById("moreMenu");
+        var moreH=document.getElementById("moreH");
+        navMenu.innerHTML=subStr;
+        moreN.onmouseover = function(){
+            removeClass( moreH,"moreNav1");
+            addClass( moreH,"moreNav2");
+            moreMenu.style.display="block";
+        };
+        moreN.onmouseout = function(){
+            addClass( moreH,"moreNav1" );
+            removeClass( moreH,"moreNav2" );
+            moreMenu.style.display="none";
+        };
+    };
+    function hasClass( elements,cName ){
+        return !!elements.className.match( new RegExp( "(\\s|^)" + cName + "(\\s|$)") );
+    }
+    function addClass( elements,cName ){
+        if( !hasClass( elements,cName ) ){
+            elements.className += " " + cName;
+        }
+    }
+    function removeClass( elements,cName ){
+        if( hasClass( elements,cName ) ){
+            elements.className = elements.className.replace( new RegExp( "(\\s|^)" + cName + "(\\s|$)" )," " );
+        }
+    }
+</script>
+<!--/Mininav--><!--[if !IE]>|xGv00|96ca4d49a5ea00b02ea26ac8cf283c19<![endif]-->
+<ul class="check-channal">
+    <li><a href="//mycd.qq.com/forum.php?mod=collection&amp;op=all&amp;order=views" target="_blank">查看老社区</a></li>
+    <li><a href="//panda.qq.com/cd/forum" target="_blank">进入新社区</a></li>
+</ul>
+<div class="m-totop"></div>
+<div class="main">
+    <!--logo 导航S-->
+    <div class="nav">
+        <div class="logo">
+            <a href="http://fj.qq.com/mylife/index.htm" class="logoimg">
+                <img src="http://mat1.gtimg.com/fj/0426/sqlogo.png" alt="">
+            </a>
+            <ul>
+<!--li><a href="//fj.qq.com/bbs/center/index.htm" target="_blank">版务处理</a></li-->
+<li><a href="//panda.qq.com/fj/know" target="_blank">企鹅帮帮</a></li>
+<li><a href="http://www.ifjqq.com/forum.php?mod=guide" target="_blank">查看老社区</a></li>
+                <li class="enterNew" id="enterNew">
+                    <a href="javascript:void(0);" class="disabled">进入新社区</a>
+                    <ul class="xsqlist" id="xsqlist">
+                        <li><a href="//panda.qq.com/fj/forum">全部</a></li>
+                        <li><a href="//panda.qq.com/fj/forum/1000">美食</a></li>
+                        <li><a href="//panda.qq.com/fj/forum/1001">购物</a></li>
+                        <li><a href="//panda.qq.com/fj/forum/1005">旅游</a></li>
+                        <li><a href="//panda.qq.com/fj/forum/1004">情感</a></li>
+                        <li><a href="//panda.qq.com/fj/forum/1003">亲子</a></li>            
+                        <li><a href="//panda.qq.com/fj/forum/1002">装修</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+<script>
+            var Omore1 = document.getElementById('enterNew');
+            var OList1 = document.getElementById('xsqlist');
+            Omore1.onmouseover = function(){ OList1.style.display = 'block'; }
+            Omore1.onmouseout = function() { OList1.style.display = 'none'; }
+        </script>
+    </div>
+    <div class="header">
+        <a href="//cd.qq.com/bbs/mylife/" class="logo-m">
+            <img src="//mat1.gtimg.com/cd/pjq2015/2017/oth/sqlogo.png" alt="">
+        </a>
+        <span class="check"></span>
+    </div><!--[if !IE]>|xGv00|7150ca4bae4d98dc1e07d43b8881e791<![endif]-->
+    <!--logo 导航E-->
+    <div class="hr58" id="hr58"></div>
+    <!--套头S(增加删减套头要注意上面的hr58高度，请先做好测试)-->
+    <!--include virtual="/bbs/mylife/topad_nn.htm"-->
+    <!--套头E-->
+    <div class="body">
+        <div class="l-main">
+<!-- focus -->
+<div id="focus" class="focus_A">
+    <ul class="focus_con">
+ <li class="item" style="display: list-item;"><a href="http://panda.qq.com/fj/thread/1018060347561436" target="_blank"><img src="http://img1.gtimg.com/fj/pics/hv1/175/28/2281/148329340.jpg"><h1 class="shadow">夏季蚊虫太闹心！3招，教你安全有效地远离蚊虫骚扰</h1></a></li>
+ 
+  
+  <li class="item" style="display: none;"><a href="http://panda.qq.com/fj/thread/1040956274426728" target="_blank"><img src="http://img1.gtimg.com/fj/pics/hv1/12/167/2280/148299597.jpg"><h1 class="shadow">你和孩子说话的语气 决定了孩子的智商和情商</h1></a></li>
+ 
+
+        <li class="item" style="display: none;"><a href="http://panda.qq.com/fj/thread/1030114413054694" target="_blank"><img src="http://img1.gtimg.com/fj/pics/hv1/27/167/2280/148299612.jpg"><h1 class="shadow">
+不磨蹭的孩子，你应该带他去看看医生</h1></a></li>
+
+
+       <li class="item" style="display: none;"><a href="http://panda.qq.com/fj/thread/1026602713436358" target="_blank"><img src="http://img1.gtimg.com/fj/pics/hv1/128/137/2280/148292063.jpg"><h1 class="shadow">
+增强孩子抵抗力的11招</h1></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+ <!--[if !IE]>|xGv00|b1c14bd8fe2bb9fa72d103d3eb31e463<![endif]--> 
+    </ul>
+    <div class="focus_dot">
+        <a href="javascript:void(0);" class="current"></a>
+        <a href="javascript:void(0);"></a>
+        <a href="javascript:void(0);"></a>
+        <a href="javascript:void(0);"></a>
+    </div>
+</div>
+<!-- focus /-->
+            <div class="hr30"></div>
+            <!--鲜的每日-->
+            <div class="l-xdmr">
+               <span class="tit"><b>鲜的每日see</b></span>
+                <div class="hr15"></div>
+
+                <div class="box-main" id="ct1"><div class="l-qoute"></div>
+    <h1><a href="http://panda.qq.com/fj/thread/1038506244832329" target="_blank">人手一份！福州夏天吃冰地图，再热都不怕！</a></h1>
+    <div class="r-qoute"></div>
+    <span class="dt-btn"><a href="http://panda.qq.com/fj/thread/1038506244832329" target="_blank">详细</a></span></div><!--[if !IE]>|xGv00|5138f0c6697eb1865d0f58be3b1453ba<![endif]-->
+            </div>
+            <div class="hr30"></div>
+            <!--生活大爆炸-->
+            <div class="l-life">
+                <span class="tit"></span>
+                <div class="hr15"></div>
+                <div class="life-con">
+                    <ul class="item item1"><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1026090293515482" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/a80197c436103952200b7cffdd87a014/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">这个夏天满池荷花在等你！附拍摄荷花的10个技巧</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/3016950507936522" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/1b71270ad35b3321d557cfc79ddf3c28/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">首届三盛世界杯足球宝贝选拔赛启动</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1023714117184417" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/0ba7201b23c4ace7e48ece7c367c35f4/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">手工南瓜饼，和高高一起只要五小步</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1051785333583059" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/f4ecac17127ee9086169379a1840d3a7/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">儿子送你了，彩礼给不给无所谓！关于彩礼，这位妈妈的做法亮了！</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1036400115402284" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/f7c1f5a7ee2b14405d0a697e168176de/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">二宝家庭，孩子相互争抢，怎么化解？</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1039051100553144" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/8e0f305da93ce7c64eeb73cc510ff8f9/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">穷游黄山（第二次）惨，惨，惨</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li></ul>
+                    <ul class="box-main" id="ct2"><li class="rcm-item ct-show">
+        <a href="//panda.qq.com/fj/thread/3028444828636164" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/c6bb2055e31f013ceb899dcd21c232b9/0" alt="" class="item-i">
+            <p class="item-p">【来自一个爸爸的礼物】将孩子涂鸦变成艺术品  你只要花一小时</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li></ul>
+                    <ul class="item item2"><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1036952715315387" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/73f662a789ce24f933fc9362fecdace3/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">母子俩说相声一样，就把吃饭问题给解决了</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1014052121706508" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/f5fb97197d07c8ee2213bdd56a4bfd61/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">这八件"坑爹"事不能做</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1014668994258934" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/39c331e08e38bf5c3a9f40538205cf80/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">错误使用儿童安全座椅比不用更危险</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1032552745127422" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/cac313adb169c6ae57489ada8080f147/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">要不要教孩子“打回去”？</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1013765158263359" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/e512e45a31f73535edf07cec2d758e16/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">促进宝宝肢体发育的20个游戏</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1026602713436358" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/b8f6ebf7f197ba0a8db9496b8b43d27c/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">增强孩子抵抗力的11招</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li></ul>
+                    <ul class="box2-main" id="cttu"><li class="rcm-item ct-show">
+        <a href="//panda.qq.com/fj/thread/1027520283971263" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/3b876825fa7be27d35d93724289c817b/0" alt="" class="item-i">
+            <p class="item-p">这10个习惯，父母一定要“逼”孩子养成，终身受益！</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li></ul>
+                    <ul class="item item3"><li class="rcm-item only-word">
+        <a href="//panda.qq.com/fj/thread/1011068146369999" target="_blank">
+            <img src="" alt="" class="item-i">
+            <p class="item-p text-elli-multi">厨房瓷砖已经不流行通铺了，这样铺，不仅个性还实用！！</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1018899092952574" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/eb626dca0c7abf9398b771b62ddc5b59/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">北欧暖话—鸿裕温泉花园</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1030892121191213" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/78f51c8692e9e4119df6ea30ccd1d829/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">福州这些千奇百怪的“奇葩锅底”!你吃过没?</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1038728288523539" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/2b86a26d1b1fbab7e7df771ea1f9ea04/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">小宝宝夏天喝水 正确方式get√</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1092858815254560" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/6f66ecbac8afac4a7fea7830fb74d6dd/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">嗓子疼吃点冰？腹泻喝可乐？这7种“坑娃”方法，居然真的有用！</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1035961809542280" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/e09d64764ddd00afc79c808db1a8fe4b/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">女孩睡觉被胶布封嘴！关于张口呼吸，这些知识你一定要了解！</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li></ul>
+                    <ul class="box-main" id="ct3"><li class="rcm-item ct-show">
+        <a href="//panda.qq.com/fj/thread/1021030495744083" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/e5235bad07fb5dc24a5d8b451b146d3a/0" alt="" class="item-i">
+            <p class="item-p">[金牌专家团] 最没用的教育方法：讲道理、发脾气、刻意感动</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li></ul>
+                    <ul class="item item4"><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1037043747812636" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/1710a2e9ba65670c006ffe29cae1d0e8/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">[金牌专家团] 张友隆答疑  儿童偏差行为</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1012054191202025" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/eaf085681d6b0990f8b7a340ca9ea2ec/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">健康管家丨9价宫颈癌疫苗即将上市！打之前这8个问题要搞清楚！</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1011468814599417" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/149cc2fbcf4d8960a40626e448a74e26/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">90宅，三卧和一书房格局</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1017113846193348" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/dd9c8e121284a88a41678a074908e28b/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">赖在泉州不走了----两天暴走,好吃好玩教你游泉州</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1031303185353429" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/517f445da6ede47bb861a5327420b53f/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">没什么事儿，就问下免费的彩妆大礼包你要不要pick一下？</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li><li class="rcm-item">
+        <a href="//panda.qq.com/fj/thread/1023906276262129" target="_blank">
+            <img src="http://p.qpic.cn/smart_cd/0/362074e08f2cd8e024b4b22708fd4083/0" alt="" class="item-i">
+            <p class="item-p text-elli-multi">那些怒吼孩子的妈妈该何去何从？</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/" target="_blank">其他</a>
+        </div>
+    </li></ul>
+                    <ul class="item itemmore"></ul>
+                </div>
+                <div id="Pagination" class="pagination"><div class="pagination"><a class="page-on">1</a><a href="javascript:;">2</a><a href="javascript:;">3</a><a href="javascript:;">4</a><span class="pagination-break">...</span><a href="javascript:;" class="ep">180</a><a href="javascript:;" class="next">下一页 </a></div></div>
+            </div>
+        </div>
+        <div class="r-main">
+            <!--右侧第一部分-->
+          <div class="rztk">
+                <span class="tit"><b>人在做天在看</b></span>
+            <div class="hr15"></div>
+                <div class="rztk-con">
+                    <span class="rztk-time">2018.1.19</span>
+                    <div class="rztk-main">
+            <span class="rztk-style">
+            求助
+            </span>
+                        <p class="rztk-des">
+                            <a href="http://panda.qq.com/fj/thread/4024158381621651" target="_blank">宝宝感冒反反复复怎么办？</a>
+                        </p>
+                    </div>
+                    <span class="rztk-author"> @大闽宝妈</span>
+                </div><div class="hr15"></div>
+                <div class="rztk-con">
+                    <span class="rztk-time">2018.1.18</span>
+                    <div class="rztk-main">
+            <span class="rztk-style">
+            吐槽
+            </span>
+                        <p class="rztk-des">
+                            <a href="http://panda.qq.com/fj/thread/1037184364272933" target="_blank">又一位妈妈成“网红” 把节操当狗丢了</a>
+                        </p>
+                    </div>
+                    <span class="rztk-author"> @蓝奥</span>
+                </div><div class="hr15"></div>
+                <div class="rztk-con">
+                    <span class="rztk-time">2018.1.19</span>
+                    <div class="rztk-main">
+            <span class="rztk-style">
+            看法
+            </span>
+                        <p class="rztk-des">
+                            <a href="http://panda.qq.com/fj/thread/1024601998129352" target="_blank">过招婆媳关系的7大铁律 第1条一定铭记在心</a>
+                        </p>
+                    </div>
+                    <span class="rztk-author"> @
+大乔爱手工</span>
+                </div><div class="hr15"></div>
+                <div class="rztk-con">
+                    <span class="rztk-time">2018.1.15</span>
+                    <div class="rztk-main">
+            <span class="rztk-style">
+            经验
+            </span>
+                        <p class="rztk-des">
+                            <a href="http://panda.qq.com/fj/thread/1019929412805093" target="_blank">点进来 一起粉碎育儿八大谣言！</a>
+                        </p>
+                    </div>
+                    <span class="rztk-author"> @企鹅社区小编，豆豆</span>
+                </div><!--[if !IE]>|xGv00|b415c67f3772ad12f310ba9e5c3534c7<![endif]-->
+          </div>
+            <div class="hr70"></div>
+            <!--好耍-->
+            <div class="chw">
+             <!--右侧第二部分-->
+             <span class="tit"><b>你们城里人真会玩</b></span>
+
+<div class="hr15"></div>
+
+<div class="chw-con">
+	<img src="http://img1.gtimg.com/fj/pics/hv1/56/121/2261/147052436.jpg" alt="">
+    <div class="chw-go">
+    	<div class="hr10"></div>
+        <p>穿衣搭配：最常见的9个服装搭配误区</p>
+        <div class="num-s">
+        	<i class="chw-icon"></i>
+            <span><em class="num" id="num0">6951</em>人</span>
+            <a href="http://panda.qq.com/fj/thread/1024638194835601" target="_blank" class="check-btn">查看详情</a>
+        </div>
+    </div>
+    <div class="hr20"></div>
+    <div class="bor-g"></div>
+    <div class="hr20"></div>
+</div>
+<div class="chw-con">
+	<img src="http://img1.gtimg.com/fj/pics/hv1/56/126/2261/147053711.jpg" alt="">
+    <div class="chw-go">
+        <div class="hr10"></div>
+        <p>2018福建最美旅行日历出炉 12种精彩让人惊艳</p>
+        <div class="num-s">
+            <i class="chw-icon"></i>
+            <span><em class="num" id="num1">8739</em>人</span>
+            <a href="http://panda.qq.com/fj/thread/1029435362717763" target="_blank" class="check-btn">查看详情</a>
+    	</div>
+    </div>
+    <div class="hr20"></div>
+    <div class="bor-g"></div>
+    <div class="hr20"></div>
+</div>
+<div class="chw-con">
+	<img src="http://img1.gtimg.com/fj/pics/hv1/105/126/2261/147053760.jpg" alt="">
+    <div class="chw-go">
+    	<div class="hr10"></div>
+    	<p>喝不习惯咖啡？告诉你咖啡的正确打开方式</p>
+        <div class="num-s">
+            <i class="chw-icon"></i>
+            <span><em class="num" id="num2">6461</em>人</span>
+            <a href="http://panda.qq.com/fj/thread/1036349820262455" target="_blank" class="check-btn">查看详情</a>
+        </div>
+    </div>
+    <div class="hr20"></div>
+    <div class="bor-g"></div>
+    <div class="hr20"></div>
+</div><!--[if !IE]>|xGv00|9784bb0d5ecbcb4efd43cc9d346fde49<![endif]-->               
+            </div>
+                        <div class="ewm-shua">
+                <a href="#"><img src="http://img1.gtimg.com/fj/pics/hv1/63/225/2276/148054338.jpg" alt=""></a>
+            </div>
+            <div class="hr70"></div>
+            <!--右侧第三部分-->
+            <div class="ml">
+              <span class="tit"><b>1剂猛料</b></span>
+
+<div class="hr15"></div>
+
+<div class="ml-con">
+	<h3>原切烤肉的“肉欲”突破天际</h3>
+    <a href="https://mp.weixin.qq.com/s/gEwzuyZl0QLfsWpflr1TbA" target="_blank"><img src="http://img1.gtimg.com/fj/pics/hv1/144/145/2245/146018244.jpg" alt="" class="ml-imgs"></a>
+    <a href="#" target="_blank" class="ewm-hl">
+        <img src="http://img1.gtimg.com/fj/pics/hv1/214/141/2242/145822219.png" alt="" class="ewm-tit">
+        <img src="http://img1.gtimg.com/fj/pics/hv1/212/141/2242/145822217.jpg" alt="" class="ewm-img">
+    </a>
+    <p><a href="http://mp.weixin.qq.com/s/ajO7IVqe1aD64b3Ji8PFIQ" target="_blank"><br>关注[迷食]，做会吃的福州人！<br></a></p>
+</div>
+
+<div class="hr30"></div>
+
+<div class="ml-con">
+	<h3>不吃到扶墙出不敢说自己是吃货</h3>
+    <a href="http://mp.weixin.qq.com/s/2nNzyOAfplDnSW0gz4jH8g" target="_blank"><img src="http://img1.gtimg.com/fj/pics/hv1/236/144/2245/146018081.jpg" alt="" class="ml-imgs"></a>
+    <a href="#" target="_blank" class="ewm-hl">
+     	<img src="http://img1.gtimg.com/fj/pics/hv1/211/141/2242/145822216.jpg" alt="" class="ewm-tit">
+        <img src="http://img1.gtimg.com/fj/pics/hv1/209/141/2242/145822214.jpg" alt="" class="ewm-img">
+    </a>
+    <p><a href="http://mp.weixin.qq.com/s/InMEavCHRUaRwzEQR9cxzQ" target="_blank"><br>关注[买买提小姐]，败家折扣、必败单品，做会买的福州人<br></a></p>
+</div><!--[if !IE]>|xGv00|4f33bd1f8b1ea76d36361ba96a21f2cf<![endif]-->
+              </div>
+             
+            <div class="hr70"></div>
+            <!--熊猫足迹-->
+            <div class="zsch">
+                <span class="tit"><b>大美福建 自“游”享乐</b></span>
+
+<div class="hr15"></div>
+
+                <div class="zsch-con"><div style="float: left;">
+                    <img src="http://img1.gtimg.com/fj/pics/hv1/142/144/2242/145822912.jpg" alt="">
+                    <div class="zsch-bg"></div>
+                    <p><a href="http://panda.qq.com/fj/thread/1025741353543196" target="_blank" class="zsch-text">浦城三日漫游记</a></p>
+                </div><div style="float: right; margin-top: -35px;">
+
+                    <img src="http://img1.gtimg.com/fj/pics/hv1/197/144/2242/145822967.jpg" alt="">
+                    <div class="zsch-bg" style="left: 12%;"></div>
+                    <p><a href="http://panda.qq.com/fj/thread/1024146146975907" target="_blank" class="zsch-text" style="left: 20%;">福建永安百丈悬崖</a></p>
+                </div><div style="float: left;">
+
+                    <img src="http://img1.gtimg.com/fj/pics/hv1/26/145/2242/145823051.jpg" alt="">
+                    <div class="zsch-bg"></div>
+                    <p><a href="http://panda.qq.com/fj/thread/1028036870859341" target="_blank" class="zsch-text">远看东华山 福建的“布达拉宫”？</a></p>
+                </div><div style="float: right; margin-top: -35px;">
+
+                    <img src="http://img1.gtimg.com/fj/pics/hv1/91/145/2242/145823116.jpg" alt="">
+                    <div class="zsch-bg" style="left: 12%;"></div>
+                    <p><a href="http://panda.qq.com/fj/thread/1018926664465887" target="_blank" class="zsch-text" style="left: 20%;">武夷山——碧水丹山甲东南</a></p>
+                </div><div style="float: left;">
+
+                    <img src="http://img1.gtimg.com/fj/pics/hv1/152/145/2242/145823177.jpg" alt="">
+                    <div class="zsch-bg"></div>
+                    <p><a href="http://panda.qq.com/fj/thread/1032458933165280" target="_blank" class="zsch-text">厦门向日葵花海——花开有时 后会有期</a></p>
+                </div><div style="float: right; margin-top: -35px;">
+
+                    <img src="http://img1.gtimg.com/fj/pics/hv1/192/145/2242/145823217.jpg" alt="">
+                    <div class="zsch-bg" style="left: 12%;"></div>
+                    <p><a href="http://panda.qq.com/fj/thread/1037761823559353" target="_blank" class="zsch-text" style="left: 20%;">福建清流九龙湖——东方夏威夷</a></p>
+                </div></div><!--[if !IE]>|xGv00|39a4cd23fb5a1cc3e6d373fa311dd57c<![endif]-->
+            </div>
+        </div>
+    </div>
+    <div class="hr70"></div>
+    <div class="footer" style="background:#353535;height:280px;">
+        <div class="body">
+            <div class="ft-l">
+                <h1>联系我们</h1>
+                <div class="ft-l1">
+                    <p>_内容合作 商务合作</p>
+                    <h3>许先生   0591 83751174 
+分机号 29039       手机18060480607</h3>
+                </div>
+                <div class="ft-l1">
+                    <p></p>
+                    <h3></h3>
+                </div>
+            </div><!--[if !IE]>|xGv00|42f6f8a0bc7232c85ea2386bd4392d52<![endif]-->
+<style>
+                .mis-stage, .mis-slider,
+                .mis-slide,
+                .mis-container,
+                .mis-container * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
+                .mis-stage, .mis-slider { position: relative; overflow: hidden; }
+                .mis-stage { width: 430px; text-align: center; }
+                .mis-slider { list-style: none; overflow: visible; height: 100%; margin-top: 0; }
+                .mis-slide { width: 100%; height: auto; padding: 0; display: block; position: relative; float: left; overflow: visible !important; }
+                .mis-slide.mis-current { z-index: 100; font-size: 0.8em; }
+                .mis-container { display: block; width: auto; height: auto; border: 0; }
+                .mis-nav-list { position: absolute; bottom: .5em; width: 100%; margin: 0 auto; z-index: 300; padding: 0; display: none; }
+                .mis-nav-buttons { display: block; position: absolute; height: 0; top: 0; opacity: 0.5; z-index: 200; }
+                .mis-nav-buttons a { position: absolute; color: #eee; font-family: Verdana, Geneva, sans-serif; font-weight: bold; text-decoration: none; text-indent: -9999px; }
+                .mis-nav-buttons a:hover { color: #ccc; }
+                .mis-nav-buttons a.mis-next { left: auto; right: 0; }
+                .mis-nav-buttons a.mis-prev { left: 0; }
+                .mis-nav-buttons a.mis-prev:before{content: "\2039"; display: block; text-indent: 0; line-height:128px; font-size: 30px;}
+                .mis-nav-buttons a.mis-next:after { content: "\203A"; display: block; text-indent: 0; line-height: 128px; font-size: 30px;}
+
+                .mis-slider li a { text-decoration: none; color: #fff; display: block; }
+                .mis-slider li img { width: 60px; height: 60px; border-radius: 50%; border: none; }
+                .mis-slide { width: 100px; padding: 14px; }
+                .mis-nav-buttons a { color: #fff; }
+            </style>
+            <script src="//mat1.gtimg.com/cd/pjq2015/2017/oth/mislider.js"></script>
+            <script type="text/javascript">
+                jQuery(function ($) {
+                    var slider = $('.mis-stage').miSlider({
+                        //  The height of the stage in px. Options: false or positive integer. false = height is calculated using maximum slide heights. Default: false
+//                stageHeight: 80,
+                        //  Number of slides visible at one time. Options: false or positive integer. false = Fit as many as possible.  Default: 1
+                        slidesOnStage: false,
+                        //  The location of the current slide on the stage. Options: 'left', 'right', 'center'. Defualt: 'left'
+                        slidePosition: 'center',
+                        //  The slide to start on. Options: 'beg', 'mid', 'end' or slide number starting at 1 - '1','2','3', etc. Defualt: 'beg'
+                        slideStart: 'mid',
+                        //  The relative percentage scaling factor of the current slide - other slides are scaled down. Options: positive number 100 or higher. 100 = No scaling. Defualt: 100
+                        slideScaling: 150,
+                        //  The vertical offset of the slide center as a percentage of slide height. Options:  positive or negative number. Neg value = up. Pos value = down. 0 = No offset. Default: 0
+                        offsetV: -5,
+                        //  Center slide contents vertically - Boolean. Default: false
+                        centerV: true,
+                        //  Opacity of the prev and next button navigation when not transitioning. Options: Number between 0 and 1. 0 (transparent) - 1 (opaque). Default: .5
+                        navButtonsOpacity: 1,
+
+                        slideWidth: true
+                    });
+                });
+            </script>
+            <div class="ft-m">
+                <h1>大编小编</h1>
+                <div class="bbimg">
+                   <div class="mis-stage" style="opacity: 0; height: 129px;"><ol class="mis-nav-list"><li><a href="#" title="女神白富美">女神白富美</a></li><li><a href="#" title="蔷薇王子">蔷薇王子</a></li><li class="mis-current"><a href="#" title="旅游活地图">旅游活地图</a></li><li><a href="#" title="时刻在旅行">时刻在旅行</a></li><li><a href="#" title="专业挖掘福州本活动">专业挖掘福州本活动</a></li><li><a href="#" title="随时逛街买买买">随时逛街买买买</a></li></ol>
+                        <ol class="mis-slider" style="left: -412.5px; width: 1338.5px;"><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="http://img1.gtimg.com/fj/pics/hv1/250/110/2244/145944400.jpg" alt="Pond with Lillies">
+                                        <figcaption>蔷薇王子</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//mat1.gtimg.com/cd/haitao/pianpang.jpg" alt="Hidden Pond">
+                                        <figcaption>旅游活地图</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//p.qpic.cn/smart_cd/0/eb2b32d77f2f355eebc2ef99cee97e0f/0" alt="Shrine">
+                                        <figcaption>时刻在旅行</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//p.qpic.cn/smart_cd/0/8bdd94178e50e91d94e2cc6ce8bcbaa3/0" alt="White Water Lillies">
+                                        <figcaption>专业挖掘福州本活动</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//mat1.gtimg.com/cd/2016/cdlife/xiaoguai.jpg" alt="Garden Walkway">
+                                        <figcaption>随时逛街买买买</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="mis-slide">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//mat1.gtimg.com/cd/haitao/xueni.jpg" alt="Pink Water Lillies">
+                                        <figcaption>女神白富美</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="mis-slide">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="http://img1.gtimg.com/fj/pics/hv1/250/110/2244/145944400.jpg" alt="Pond with Lillies">
+                                        <figcaption>蔷薇王子</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="mis-slide">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//mat1.gtimg.com/cd/haitao/pianpang.jpg" alt="Hidden Pond">
+                                        <figcaption>旅游活地图</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="mis-slide">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//p.qpic.cn/smart_cd/0/eb2b32d77f2f355eebc2ef99cee97e0f/0" alt="Shrine">
+                                        <figcaption>时刻在旅行</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="mis-slide">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//p.qpic.cn/smart_cd/0/8bdd94178e50e91d94e2cc6ce8bcbaa3/0" alt="White Water Lillies">
+                                        <figcaption>专业挖掘福州本活动</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="mis-slide">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//mat1.gtimg.com/cd/2016/cdlife/xiaoguai.jpg" alt="Garden Walkway">
+                                        <figcaption>随时逛街买买买</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            
+                            
+                        <li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//mat1.gtimg.com/cd/haitao/xueni.jpg" alt="Pink Water Lillies">
+                                        <figcaption>女神白富美</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="http://img1.gtimg.com/fj/pics/hv1/250/110/2244/145944400.jpg" alt="Pond with Lillies">
+                                        <figcaption>蔷薇王子</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//mat1.gtimg.com/cd/haitao/pianpang.jpg" alt="Hidden Pond">
+                                        <figcaption>旅游活地图</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//p.qpic.cn/smart_cd/0/eb2b32d77f2f355eebc2ef99cee97e0f/0" alt="Shrine">
+                                        <figcaption>时刻在旅行</figcaption>
+                                    </figure>
+                                </a>
+                            </li><li class="mis-slide mis-clone">
+                                <a href="http://panda.qq.com/fj/space/1043995016725791" class="mis-container" target="_blank">
+                                    <figure>
+                                        <img src="//p.qpic.cn/smart_cd/0/8bdd94178e50e91d94e2cc6ce8bcbaa3/0" alt="White Water Lillies">
+                                        <figcaption>专业挖掘福州本活动</figcaption>
+                                    </figure>
+                                </a>
+                            </li></ol>
+                    <div class="mis-nav-buttons" style="opacity: 0;"><a href="#" class="mis-prev"></a><a href="#" class="mis-next"></a></div></div><!--[if !IE]>|xGv00|1a57f66edc3b953407e0cc39fd3ea597<![endif]-->
+</div>
+            </div>
+            <div class="ft-r">
+                <div class="ewm-panda" style="background: transparent; display:none-">
+                    <img src="//mat1.gtimg.com/cd/pjq2015/2017/dcindex/fonxcxewm2.png" alt="" style="width: auto;">
+                </div>
+                <p>手机扫码看社区 有惊喜</p>
+            </div>
+        </div>
+<style>
+    .tcopyright {width:960px;margin:0 auto;padding:8px 0;font-size:12px;line-height:28px;color:#fff; text-align:center; overflow:hidden;clear:both; background: #353535;}
+    .tcopyright .en{font-family:Arial;}
+    .tcopyright a{color:#fff;text-decoration: none;}
+    .tcopyright a:hover{color:#bd0a01;text-decoration: underline;}
+</style>
+<div id="tcopyright" class="tcopyright" bosszone="footer" role="contentinfo">
+    <div>
+        <a href="//www.tencent.com/" target="_blank" rel="nofollow">关于腾讯</a> | <a href="//www.tencent.com/index_e.shtml" target="_blank" rel="nofollow">About Tencent</a> | <a href="//www.qq.com/contract.shtml" target="_blank" rel="nofollow">服务协议</a> | <a href="//www.qq.com/privacy.htm" target="_blank" rel="nofollow">隐私政策</a> | <a href="//open.qq.com/" target="_blank" rel="nofollow">开放平台</a> | <a href="//www.tencentmind.com/" target="_blank" rel="nofollow">广告服务</a> | <a href="//hr.tencent.com/" target="_blank" rel="nofollow">腾讯招聘</a> | <a href="//gongyi.qq.com/" target="_blank" rel="nofollow">腾讯公益</a> | <a href="//service.qq.com/" target="_blank" rel="nofollow">客服中心</a> | <a href="//www.qq.com/map/" target="_blank" rel="nofollow">网站导航</a>
+    </div>
+    <div class="en">Copyright © 1998 - 2017 Tencent. All Rights Reserved</div>
+    <div>
+        <a href="//www.tencent.com/" target="_blank" rel="nofollow">腾讯公司</a> <a href="//www.tencent.com/zh-cn/le/copyrightstatement.shtml" target="_blank" rel="nofollow">版权所有</a>
+    </div>
+</div>
+<script language="javascript" src="//pingjs.qq.com/ping.js"></script>
+<script language="javascript">
+    if(typeof(pgvMain) == 'function')pgvMain();
+</script>
+<script type="text/javascript" src="//tajs.qq.com/stats?sId=35441515" charset="UTF-8"></script><!--[if !IE]>|xGv00|e4653e852ddb9d660af412dbb35fec3b<![endif]-->
+    </div>
+<div class="footer-m">
+        <p class="">Copyright © 腾讯大闽网.生活中心</p>
+    </div><!--[if !IE]>|xGv00|9e2b2e670e43d1b8a6e56d36b594b394<![endif]-->
+</div>
+<!--长条文字（带图）模板-->
+<script id="ctwzt-tpl" type="text/html">
+    <div class="boxl-con">
+        <p>
+            <a href="{{url}}" target="_blank">{{title}}</a>
+        </p>
+        <div class="hr10"></div>
+        <span class="dt-btn"><a href="{{url}}" target="_blank">详细</a></span>
+    </div>
+    <div class="boxr-con">
+        <a href="{{url}}" target="_blank">
+            <img src="{{listimg}}" alt=""/>
+        </a>
+    </div>
+</script>
+<script>
+    (function(){
+        var checkType=function (data) {
+            return Object.prototype.toString.call(data).match(/^\[object\s?(\w+)\]$/i)[1];
+        }
+        /*获取熊猫足迹文章内容*/
+        function getctwztData(callback){
+            $.ajax({
+                type: "get",
+                url: "http://cd.city.qq.com/interface/skanda/getlisttag?tid=316&page=1&size=1&rt=jsonp&callback=function",
+                dataType: "jsonp",
+                jsonp: "callback",
+                success: callback,
+                error: function(){
+                    alert("数据提取失败，请刷新重试");
+                }
+            });
+        }
+
+        window["ctwzt"]=function(msg){
+            $("#cttu").empty();
+            var article = msg.article;
+            var ctwztData = [];
+            var artlen = article.length;
+            for(var i = 0;i<artlen;i++){
+                var tpli = article[i];
+                var tplinfo = {
+                    title:tpli.title,
+                    url:tpli.url,
+                    listimg:checkType(tpli.listimg )=='Array' ?tpli.listimg [0] : tpli.listimg ,
+                    tags:tpli.tags,
+                    intro:tpli.intro
+                };
+                ctwztData.push(template("ctwzt-tpl",tplinfo));
+            }
+            $("#cttu").empty().append(ctwztData);
+        };
+        window["ctwztInit"] = function(msg){
+            getctwztData(ctwzt);
+        }
+    })();
+    //ctwztInit();
+</script>
+<!--长条文字（仅文字）模板-->
+<script id="ctwzw-tpl" type="text/html">
+    <div class="l-qoute"></div>
+    <h1><a href="{{url}}" target="_blank">{{title}}</a></h1>
+    <div class="r-qoute"></div>
+    <span class="dt-btn"><a href="{{url}}" target="_blank">详细</a></span>
+</script>
+<script>
+    (function(){
+        var checkType=function (data) {
+            return Object.prototype.toString.call(data).match(/^\[object\s?(\w+)\]$/i)[1];
+        }
+        /*获取熊猫足迹文章内容*/
+        function getctwzwData(callback){
+            $.ajax({
+                type: "get",
+                url: "http://cd.city.qq.com/interface/skanda/getlisttag?tid=315&page=1&size=3&rt=jsonp&callback=function",
+                dataType: "jsonp",
+                jsonp: "callback",
+                success: callback,
+                error: function(){
+                    alert("数据提取失败，请刷新重试");
+                }
+            });
+        }
+        function getCInfo(msg){
+            var article = msg.article;
+            var ctwzwData = [];
+            var artlen = article.length;
+            for(var i = 0;i<artlen;i++){
+                var tpli = article[i];
+                var tplinfo = {
+                    title:tpli.title,
+                    url:tpli.url,
+                    listimg:checkType(tpli.listimg )=='Array' ?tpli.listimg [0] : tpli.listimg ,
+                    tags:tpli.tags,
+                    intro:tpli.intro
+                };
+                ctwzwData.push(template("ctwzw-tpl",tplinfo));
+            }
+            return ctwzwData;
+        }
+
+        window["ctwzw"]=function(msg){
+            var items = getCInfo(msg);
+            //$("#ct1").empty().append(items[0]);
+            //  $("#ct2").empty().append(items[1]);
+            // $("#ct3").empty().append(items[2]);
+        };
+            getctwzwData(ctwzw);
+        
+    })();
+   // ctwzwInit();
+</script>
+<script id="li-temp" type="text/html">
+    <li class="rcm-item">
+        <a href="{{url}}" target="_blank">
+            <img src="{{headimg}}" alt="" class="item-i"/>
+            <p class="item-p">{{title}}</p>
+        </a>
+        <div class="tags tags1">
+            <a href="//panda.qq.com/cd/forum/{{fid}}" target="_blank">{{fname}}</a>
+        </div>
+    </li>
+</script>
+<script id="banner-temp" type="text/html">
+    <div class="scrol-pics">
+        <a href="{{articleurl}}" target="_blank">
+            <img src="{{imgurl}}"/>
+        </a>
+        <h1><a target="_blank" href="{{articleurl}}">{{title}}</a></h1>
+    </div>
+</script>
+<script>
+    (function(){
+        var checkType=function (data) {
+            return Object.prototype.toString.call(data).match(/^\[object\s?(\w+)\]$/i)[1];
+        }
+        var currentPageNum=0,TotalPageNum,getItemsState2=true,loadTimes = 0,forum;
+        /*获取文章内容*/
+
+        function slide (){
+            var scroIndex = 0,timer ;
+            var picNum=$('.scrol-pic .scrol-pics').length;
+            $(".slide-bar").css("width",(36*picNum )+"px");
+            for(var i=0;i<4;i++){
+                if(i==0){
+                    $(".slide-bar").append("<a class='slide-bar-on' href='javascript:;'></a>");
+                }else{
+                    $(".slide-bar").append("<a href='javascript:;'></a>");
+                }
+            }
+            function slider(index){
+                $('.scrol-pic .scrol-pics').hide();
+                $('.scrol-pic .scrol-pics').eq(index).show();
+                $('.slide-bar a').removeClass('slide-bar-on');
+                $('.slide-bar a').eq(index).addClass('slide-bar-on');
+            }
+            function nextClick (){
+                if(scroIndex >= picNum-1){
+                    scroIndex = 0;
+                }else{
+                    scroIndex++;
+                }
+                slider(scroIndex);
+                return scroIndex;
+            }
+            function prevClick(){
+                if(scroIndex <= 0){
+                    scroIndex = picNum-1;
+                }else{
+                    scroIndex--;
+                }
+                slider(scroIndex);
+                return scroIndex;
+            }
+            $('.slide-bar a').each(function(index){
+                $(this).mouseover(function(){
+                    scroIndex = index;
+                    slider(scroIndex);
+                });
+            });
+            $('.slide-bar a').hover(function(){
+                clearInterval(timer);
+            },function(){
+                timer = setInterval(nextClick, 4000);
+            });
+            $('.pre').hover(function(){
+                clearInterval(timer);
+            },function(){
+                timer = setInterval(nextClick, 4000);
+            });
+            $('.next').hover(function(){
+                clearInterval(timer);
+            },function(){
+                timer = setInterval(nextClick, 4000);
+            });
+            $(".pre").click(function(){
+                clearInterval(timer);
+                prevClick();
+                $(".pre").addClass("active");
+                $(".next").removeClass("active");
+            })
+            $(".next").click(function(){
+                clearInterval(timer);
+                nextClick();
+                $(".next").addClass("active");
+                $(".pre").removeClass("active");
+            });
+        }
+        function cutstr(str, len) {
+            var str_length = 0;
+            var str_len = 0;
+            var str_cut = new String();
+            str_len = str.length;
+            for (var i = 0; i < str_len; i++) {
+                a = str.charAt(i);
+                str_length++;
+                if (escape(a).length > 4) {
+                    str_length++;
+                }
+                str_cut = str_cut.concat(a);
+                if (str_length >= len) {
+                    str_cut = str_cut.concat("...");
+                    return str_cut;
+                }
+            }
+            if (str_length < len) {
+                return str;
+            }
+        }
+
+        function ajaxData(url,data,callback){
+            $.ajax({
+                type: "get",
+                data:data,
+                url:url,
+                dataType: "jsonp",
+                jsonp: "callback",
+                success: callback,
+                error: function(){
+                    alert("数据提取失败，请刷新重试");
+                }
+            });
+        }
+        var newSrc;
+        function setImg(src){
+            var oldSrc =src.split('/');
+            for(var i = 0;i<oldSrc.length;i++){
+                if(oldSrc[i] == "800"){
+                    oldSrc[i] = "0";
+                }
+            }
+            newSrc = oldSrc.join("/");
+            return newSrc;
+        }
+
+        function getMInfo(msg){
+            var article = msg.data.data;
+            var ctwzwData = [];
+            var artlen = article.length;
+            if(!artlen)return false;
+            for(var i = 0;i<artlen;i++){
+                var tpli = article[i];
+                var tplinfo = {
+                    title:tpli.subject,
+                    fid: tpli.fid,
+                    url:"//panda.qq.com/fj/thread/"+tpli.tid,
+                    headimg:setImg(tpli.headimg),
+                    fname:setTag(tpli.fid)
+                };
+                ctwzwData.push(template("li-temp",tplinfo));
+            }
+            return ctwzwData;
+        }
+
+        function getTotalPageNum(total){
+            return total > 27 ? (Math.ceil((total-27)/27) +1) : 1;
+        }
+
+        function paginationC(pageNum){
+            var pN= pageNum+1;
+            currentPageNum = pN;
+            ajaxData("//panda.qq.com/fj/interface/topic/getRecThreads?s_code=",{page:currentPageNum,pagesize:27},pagisionData);
+        }
+
+        function setTag(id){
+            switch (id){
+                case "1000":
+                    return tname = "吃货团";
+                    break;
+                case "1001":
+                    return tname = "购物狂";
+                    break;
+                case "1002":
+                    return tname = "搞装修";
+                    break;
+                case "1003":
+                    return tname = "亲子团";
+                    break;
+                case "1004":
+                    return tname = "来谈心";
+                    break;
+                case "1005":
+                    return tname = "去旅游";
+                    break;
+                default:
+                    return tname = "其他";
+            }
+        }
+
+        function focusRender(msg,callback) {
+            $(".scrol-main").empty();
+            $(".slide-bar").empty();
+            var article=msg.article;
+            var focusArr=[];
+            if(article.length>4){
+                focusArr = article.slice(0,4);
+            }
+            else focusArr = article;
+            for(var i in focusArr){
+                var v=focusArr[i];
+                var focusHimg = v['headimg'];
+                var intro=[];
+                var focusData={
+                    articleurl:v['url'],
+                    imgurl:checkType(focusHimg )=='Array' ?focusHimg[0] : focusHimg ,
+                    title:v['title'],
+                    intro:intro.join(' | ')
+                };
+                $('.scrol-main').append(template('banner-temp',focusData));
+            }
+            callback();
+        }
+
+        function createPager(msg) {
+            if(!TotalPageNum){
+                TotalPageNum=getTotalPageNum(parseInt(msg.data.total));
+                $("#Pagination").pagination(TotalPageNum,{ show_if_single_page:false, callback:paginationC });
+            }
+        }
+        window["pagisionData"]=function(msg){
+            createPager(msg);
+            var items=getMInfo(msg);
+            $(".item1,.item2,.item3,.item4,.itemmore,#ct2,#cttu,#ct3").empty();
+            for(var j in items){
+                var imgS = items[j].split('alt')[0].split("src=")[1];
+                if(imgS.length <= 5){
+                    var tolen = items[j].length;
+                    var firstS= items[j].slice(0,19);
+                    var addOnly = firstS.concat(' only-word"');
+                    items[j] = addOnly.concat( items[j].slice(20,tolen-1));
+                }
+                if(j<=5){ $(".item1").append(items[j]); $(".item1 .item-p").addClass("text-elli-multi"); }
+                else if(j == 6){ $("#ct2").append(items[j]); $("#ct2 .rcm-item").addClass("ct-show");}
+                else if(j>=7 && j<=12){ $(".item2").append(items[j]);$(".item2 .item-p").addClass("text-elli-multi"); }
+                else if(j == 13){ $("#cttu").append(items[j]);$("#cttu .rcm-item").addClass("ct-show"); }
+                else if(j>=14 && j<=19){ $(".item3").append(items[j]);$(".item3 .item-p").addClass("text-elli-multi"); }
+                else if(j == 20){ $("#ct3").append(items[j]); $("#ct3 .rcm-item").addClass("ct-show");}
+                else if(j>=21){ $(".item4").append(items[j]); $(".item4 .item-p").addClass("text-elli-multi");}
+            }
+            getItemsState2=true;
+        };
+        window["initM"] = function(){
+            currentPageNum = 1;
+            ajaxData("http://cd.city.qq.com/interface/skanda/getnew?cid=3019&page=1&rt=jsonp&callback=function&timeStamp="+new Date().getTime(), {size:4}, function(msg){
+                focusRender(msg,slide);
+            });
+            ajaxData("//panda.qq.com/cd/interface/topic/getRecThreads?s_code=", {page:currentPageNum,pagesize:27}, pagisionData);
+        }
+    })();
+    initM();
+</script>
+<script type="text/javascript" src="//tajs.qq.com/stats?sId=35441515" charset="UTF-8"></script>
+
+<script type="text/javascript" src="http://joke.qq.com/lucky/jquery.qqfocus.js"></script>
+<script type="text/javascript">
+$("#focus").qqfocus({
+    effect:'none'
+});
+</script>
+<script>
+  	var _mtac = {"autoReport":0,"performanceMonitor":1,"senseQuery":1};
+  	(function() {
+  		var mta = document.createElement("script");
+  		mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+  		mta.setAttribute("name", "MTAH5");
+  		mta.setAttribute("sid", "500398053");
+  		mta.setAttribute("cid", "500398056");
+  		var s = document.getElementsByTagName("script")[0];
+  		s.parentNode.insertBefore(mta, s);
+  	})();
+</script>
+
+
+</body></html><!--[if !IE]>|xGv00|a935d5a14e0f0f86971c2e128aac84bd<![endif]-->

@@ -1,0 +1,579 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <title>福建省泉运实业集团有限公司</title> 
+    
+    <link href="/Content/portal/css/style.css" rel="stylesheet" type="text/css">
+    
+    <script src="/Content/temp1/js/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="/Content/portal/js/jquery.superslide.2.1.1.js" type="text/javascript"></script>
+    <script src="/Content/portal/js/js.js" type="text/javascript"></script>
+    <script src="/Content/jsk/js/Validform_v5.3.2.js" type="text/javascript"></script>
+
+</head>
+
+      <body style="">
+            <div class="wrap">
+                <div class="head bgheader">
+                    <div class="wrap-full posrel">
+                        <h1 class="logo posabs"><a href="/Portal"><img width="521" height="61" src="/Content/portal/img/logo.png" alt=""></a></h1>
+                        <p class="set posabs"><a href="#" onclick="SetHome(this,'http://mqqy.com/');">设为首页</a>
+                            <a href="javascript:AddFavorite('http://mqqy.com/','福建省泉运实业集团有限公司');">加入收藏</a>
+                        </p>
+                        <span class="bg-headerhw posabs"></span>
+                    </div>
+                </div>
+
+                <div>
+                    
+
+
+
+
+                <div class="nav shadow6px margin-bottom13">
+                    <ul class="wrap-full" id="nav">
+
+
+                                    <li>
+                                        <a class="hover" href="/Portal">网站首页</a>
+                                        <p class="subnav">
+
+                                        </p>
+                                    </li>
+                                    <li><a href="/Portal/News?cid=1">关于我们</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="http://www.mqqy.com/Portal/News/Detail/114">企业简介</a>
+                                                <a href="http://www.mqqy.com/Portal/News/Detail/131">企业荣誉</a>
+                                                <a href="http://www.mqqy.com/Portal/News/Detail?id=238&amp;cid=11">组织结构图</a>
+                                         </p>
+                                    </li>
+                                    <li><a href="/Portal/News?cid=2">新闻动态</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="/Portal/News?cid=45">视频展播</a>
+                                                <a href="/Portal/News?cid=12">行业动态</a>
+                                                <a href="/Portal/News?cid=13">春运简讯</a>
+                                                <a href="/Portal/News?cid=14">最新公告</a>
+                                                <a href="/Portal/News?cid=76">安全标准化</a>
+                                                <a href="/Portal/News?cid=47">招标公告</a>
+                                         </p>
+                                    </li>
+                                    <li><a href="/Portal/News?cid=3">公司业务</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="/Portal/News?cid=66">城际约租</a>
+                                                <a href="/Portal/News?cid=19">旅游资讯</a>
+                                                <a href="/Portal/News?cid=16">城市出租车</a>
+                                                <a href="/Portal/News?cid=17">环湾公交</a>
+                                                <a href="/Portal/News?cid=18">货运物流</a>
+                                                <a href="/Portal/News?cid=15">班车客运</a>
+                                                <a href="/Portal/News?cid=20">房地产</a>
+                                                <a href="/Portal/News?cid=21">快捷酒店</a>
+                                                <a href="/Portal/News?cid=22">汽车租赁</a>
+                                                <a href="/Portal/News?cid=23">汽车维修</a>
+                                                <a href="/Portal/News?cid=70">汽车配件</a>
+                                                <a href="/Portal/News?cid=71">交通职业培训</a>
+                                         </p>
+                                    </li>
+                                    <li><a href="/Portal/News?cid=4">服务指南</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="http://www.mqqy.com/sale/bccx.aspx">网络订票</a>
+                                                <a href="http://www.mqqy.com/Portal/News/Detail?id=237&amp;cid=27">微信购票</a>
+                                                <a href="/Portal/News?cid=28">失物招领</a>
+                                                <a href="/Portal/Exam">问卷调查</a>
+                                         </p>
+                                    </li>
+                                    <li><a href="/Portal/News?cid=5">泉运文化</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="/Portal/News?cid=30">文化宣传</a>
+                                                <a href="/Portal/News?cid=31">文化理念</a>
+                                                <a href="/Portal/News?cid=32">文化视觉</a>
+                                                <a href="/Portal/News?cid=33">文化品牌</a>
+                                                <a href="/Portal/News?cid=34">文化案例</a>
+                                         </p>
+                                    </li>
+                                    <li><a href="/Portal/News?cid=6">招贤纳士</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="/Portal/News?cid=35">招聘岗位</a>
+                                                <a href="/Portal/News?cid=36">录取通知</a>
+                                         </p>
+                                    </li>
+                                    <li><a href="/Portal/News?cid=7">党群建设</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="/Portal/News?cid=38">先进典型</a>
+                                                <a href="/Portal/News?cid=39">文明风采</a>
+                                                <a href="/Portal/News?cid=40">学习园地</a>
+                                                <a href="/Portal/News?cid=50">群团建设</a>
+                                                <a href="/Portal/News?cid=41">厂务公开</a>
+                                         </p>
+                                    </li>
+                                    <li><a href="/Portal/News/Detail/137">联系我们</a>
+                                        <p class="subnav"> 
+  
+                                                <a href="/Portal/News/Detail/137">联系方式</a>
+                                                <a href="/Portal/Message">旅客留言</a>
+                                                <a href="/Portal/EMail">总经理信箱</a>
+                                         </p>
+                                    </li>
+                    </ul>
+                </div>
+
+                <div class="banner wrap-full margin-bottom13">
+                    <div class="www51buycom">
+                        <ul class="51buypic" style="position: relative; width: 1000px; height: 16px;">
+
+                                    <li style="position: absolute; width: 1000px; left: 0px; top: 0px;"><a href="#"><img src="/attached/image/20141230/20141230120051_2301.jpg"></a></li>
+                                    <li style="position: absolute; width: 1000px; left: 0px; top: 0px; display: none;"><a href="#"><img src="/attached/image/20141230/20141230120057_8289.jpg"></a></li>
+                                    <li style="position: absolute; width: 1000px; left: 0px; top: 0px; display: none;"><a href="#"><img src="/attached/image/20141230/20141230120105_6757.jpg"></a></li>
+                                    <li style="position: absolute; width: 1000px; left: 0px; top: 0px; display: none;"><a href="#"><img src="/attached/image/20161205/82_20161205163810_5004.jpg"></a></li>
+                        </ul>
+                        <a class="prev" href="javascript:void(0)"></a> <a class="next" href="javascript:void(0)"></a>
+                        <div class="num">
+                            <ul><li class="on">1</li><li>2</li><li>3</li><li>4</li></ul>
+                        </div>
+                    </div>
+                </div>
+
+  
+<div class="content wrap-full">
+    <div class="kj margin-bottom13">
+        <ul class="listkj">
+            <li><a href="/sale/bccx.aspx"><i class="ico ico-onlinedp"></i>网络订票</a></li>
+            <li><a href="/Portal/News/Detail?cid=27"><i class="ico ico-phonedp"></i>手机订票</a></li>
+            <li><a href="/Portal/News?cid=47"><i class="ico ico-zbnote"></i>招标公告</a></li>
+            <li class="last"><a class="last" href="/Portal/Exam"><i class="ico ico-wjcheck"></i>问卷调查</a></li>
+        </ul>
+    </div>
+
+    <div class="column margin-bottom13">
+        
+
+
+
+
+<div class="colhead"> 
+    <span class="coltits fl">最新公告</span> <a href="/Portal/News?cid=14" class="colmore fr">&gt;&gt;更多</a> 
+</div>
+<div class="colbody clear">
+    <div class="fl">
+             <a href="/Portal/News/Detail?id=297&amp;cid=14"> <img width="390" height="262" src="/attached/image/20150126/82_20150126095244_5573.jpg" alt=""></a>
+    </div>
+    <div class="fr width530">
+        <div class="contop">
+
+                <span class="cttit">2017年公开招聘管理岗位工作人员拟聘用人...</span>
+                <p class="ctexp">
+                    拟聘用人员公示
+                    <a href="/Portal/News/Detail?id=297&amp;cid=14">【查看全文】</a>
+                </p>
+
+        </div>
+        <div class="clear padding-top10">
+            <ul class="list-info">
+
+
+                        <li>
+                            <a href="/Portal/News/Detail?id=296&amp;cid=14">体检递补公示</a>
+                            <span>[2017-11-03]</span>
+                        </li>
+                        <li>
+                            <a href="/Portal/News/Detail?id=295&amp;cid=14">体检通知</a>
+                            <span>[2017-10-30]</span>
+                        </li>
+                        <li>
+                            <a href="/Portal/News/Detail?id=294&amp;cid=14">2017年公开招聘管理岗位工作人员面试成绩公告</a>
+                            <span>[2017-10-25]</span>
+                        </li>
+                        <li>
+                            <a href="/Portal/News/Detail?id=293&amp;cid=14">招聘啦！国企出租车，服务福利好，安全有保障！</a>
+                            <span>[2017-09-30]</span>
+                        </li>
+                        <li>
+                            <a href="/Portal/News/Detail?id=292&amp;cid=14">2017年泉州市汽车运输总公司管理岗位招聘笔试原始成绩公告</a>
+                            <span>[2017-09-21]</span>
+                        </li>
+                        <li>
+                            <a href="/Portal/News/Detail?id=291&amp;cid=14">泉州市汽车运输总公司2017年管理岗位招聘专业知识考试通知</a>
+                            <span>[2017-09-05]</span>
+                        </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+    </div>
+    <div class="clear margin-bottom13">
+        
+
+
+
+
+<div class="column width325 fl">
+    <div class="colhead bg-colhead"> 
+           <span class="coltit posrel fl">
+        <i class="posabs ico ico-dt"></i>行业动态</span>
+        <a href="/Portal/News?cid=12" class="colmore fr">&gt;&gt;更多</a>
+    </div>
+    <div class="colbody height285">
+        <div class="margin-bottom13">
+                <a href="/Portal/News/Detail?id=289&amp;cid=12">  <img width="100%" height="90" src="/attached/image/20170814/82_20170814100922_1781.jpg" alt=""></a>
+        </div>
+        <ul class="list-info clear">
+
+                    <li>
+                        <a href="/Portal/News/Detail?id=289&amp;cid=12">欢迎关注“交通运输部”微...</a>
+                        <span>[2017-08-11]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=204&amp;cid=12">筑牢法律防线 守住安全红线</a>
+                        <span>[2015-04-07]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=203&amp;cid=12">打造现代交通 引领转型升级</a>
+                        <span>[2015-04-07]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=202&amp;cid=12">一路温馨一路情  春运圆...</a>
+                        <span>[2015-04-07]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=201&amp;cid=12">交通运输部关于印发《城市...</a>
+                        <span>[2015-04-07]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=200&amp;cid=12">福建省人民政府出台提升...</a>
+                        <span>[2015-04-07]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=199&amp;cid=12">交通运输部出台28项措施...</a>
+                        <span>[2015-04-07]</span>
+                    </li>
+        </ul>
+    </div>
+
+ </div>
+
+    
+        
+
+
+
+
+<div class="column width325 fl" style="margin-left:13px;">
+    <div class="colhead bg-colhead"> 
+          <span class="coltit posrel fl">
+        <i class="posabs ico ico-zb"></i>视频展播</span> 
+        <a href="/Portal/News?cid=45" class="colmore fr">&gt;&gt;更多</a>
+     </div>
+    <div class="colbody  height285">
+        <div class="margin-bottom13">
+
+                 <a href="/Portal/News/Detail?id=188&amp;cid=45"> <img width="100%" height="90" src="/attached/image/20150328/82_20150328200046_7463.jpg" alt=""></a>
+        </div>
+        <ul class="list-info clear">
+
+                    <li>
+                        <a href="/Portal/News/Detail?id=188&amp;cid=45">“宇通杯”客车驾驶员节能...</a>
+                        <span>[2015-03-28]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=187&amp;cid=45">建党90周年红歌演唱会</a>
+                        <span>[2015-03-28]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=139&amp;cid=45">荣耀共享 赢在路上</a>
+                        <span>[2015-02-03]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=130&amp;cid=45">客运安全文明共建</a>
+                        <span>[2015-01-28]</span>
+                    </li>
+
+        </ul>
+    </div>
+</div>
+
+
+
+
+        <script type="text/javascript">
+            function changeBcsearch(id) {
+                switch (id) {
+                    case 1:
+                        $('#fl1').addClass('bcshover');
+                        $('#fl2').removeClass('bcshover');
+                        $('#list-bcform1').removeClass('hide');
+                        $('#list-bcform2').addClass('hide');
+                        break;
+                    case 2:
+                        $('#fl1').removeClass('bcshover');
+                        $('#fl2').addClass('bcshover');
+                        $('#list-bcform1').addClass('hide');
+                        $('#list-bcform2').removeClass('hide');
+                        break;
+                }
+            }
+        </script>
+         
+        <div class="width325 height355 fr">
+                <ul class="listsear-three">
+                    <li class="margin-bottom13"><a href="/sale/bccx.aspx"><img src="/Content/portal/img/searthree1.jpg"></a></li>
+                    <li class="margin-bottom13"><a href="/sale/ddcx.aspx"><img src="/Content/portal/img/searthree2.jpg"></a></li>
+                    <li><a href="/Portal/News/Detail?cid=49"><img src="/Content/portal/img/searthree3.jpg"></a></li>
+                </ul>
+        </div>
+
+    </div>
+    <div class="clear margin-bottom13">
+        
+
+
+
+<div class="column width325 fl">
+    <div class="colhead bg-colhead"> 
+         <span class="coltit posrel fl">
+        <i class="posabs ico ico-js"></i>先进典型</span>
+        <a href="/Portal/News/Detail?id=281&amp;cid=38" class="colmore fr">查看详细</a>
+     </div>
+    <div class="colbody height315">
+        <div class="margin-bottom13">
+            <a href="/Portal/News/Detail?id=281&amp;cid=38"><img width="100%" height="90" src="/attached/image/20150126/82_20150126095231_9212.jpg" alt=""></a>
+</div>
+        <div class="qywh-p">
+
+            <p class="margin-bottom13">
+                汽车站里的大写人生
+——记省五一劳动奖章获得者曾清华
+            </p>
+        </div>
+        
+    </div>
+</div>
+
+
+        
+
+
+<div class="column width325 fl" style="margin-left:13px;">
+    <div class="colhead bg-colhead"> 
+        <span class="coltit posrel fl"><i class="posabs ico ico-sp"></i>安全标准化</span>
+        <a href="/Portal/News?cid=76" class="colmore fr">&gt;&gt;更多</a>
+     </div>
+    <div class="colbody height315">
+        <div class="margin-bottom13">
+                <a href="/Portal/News/Detail?id=242&amp;cid=76">  <img width="100%" height="90" src="/attached/image/20151222/82_20151222171210_8342.jpg" alt=""></a>
+
+        </div>
+        <ul class="list-info clear">
+                    <li>
+                        <a href="/Portal/News/Detail?id=242&amp;cid=76">积极推进安全生产标准化...</a>
+                        <span>[2015-12-22]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=245&amp;cid=76">一分钟带你读懂《刑法修正...</a>
+                        <span>[2015-10-15]</span>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=244&amp;cid=76">安全月在行动，安全活动精...</a>
+                        <span>[2015-07-01]</span>
+                    </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+        
+
+
+
+
+
+<div class="column width325 fr">
+    <div class="colhead bg-colhead"> 
+            <span class="coltit posrel fl"><i class="posabs ico ico-lj"></i>公司业务</span>
+             <a href="/Portal/News?cid=3" class="colmore fr">&gt;&gt;更多</a> 
+    </div>
+    <div class="colbody height315" style="padding-right:0;">
+        <ul class="list-gsyw clear">
+
+                   <li><a href="/Portal/News?cid=66">&gt;城际约租</a></li>
+                   <li><a href="/Portal/News?cid=19">&gt;旅游资讯</a></li>
+                   <li><a href="/Portal/News?cid=16">&gt;城市出租车</a></li>
+                   <li><a href="/Portal/News?cid=17">&gt;环湾公交</a></li>
+                   <li><a href="/Portal/News?cid=18">&gt;货运物流</a></li>
+                   <li><a href="/Portal/News?cid=15">&gt;班车客运</a></li>
+                   <li><a href="/Portal/News?cid=20">&gt;房地产</a></li>
+                   <li><a href="/Portal/News?cid=21">&gt;快捷酒店</a></li>
+                   <li><a href="/Portal/News?cid=22">&gt;汽车租赁</a></li>
+                   <li><a href="/Portal/News?cid=23">&gt;汽车维修</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+ 
+
+    </div>
+     
+            <div class="column margin-bottom13">
+    <div class="colhead bg-colhead"> <span class="coltit posrel fl"><i class="posabs ico ico-zs"></i>文明风采</span> <a href="/Portal/News?cid=39" class="colmore fr">&gt;&gt;更多</a> </div>
+    <div class="colbody height145" style="padding:8px;">
+        <ul class="listpic clear">
+
+                    <li>
+                        <a href="/Portal/News/Detail?id=229&amp;cid=39">
+                            <img src="/attached/image/20160129/82_20160129092548_6068.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=225&amp;cid=39">
+                            <img src="/attached/image/20150820/82_20150820152351_1698.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=96&amp;cid=39">
+                            <img src="/attached/image/20150108/20150108175109_2220.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=95&amp;cid=39">
+                            <img src="/attached/image/20150108/20150108150109_8178.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Portal/News/Detail?id=94&amp;cid=39">
+                            <img src="/attached/image/20150108/20150108143814_6308.jpg" alt="">
+                        </a>
+                    </li>
+        </ul>
+    </div>
+</div>
+
+            
+                <div class="yqlink posrel">
+                    <i class="posico ico icolink posabs"></i>
+                    <p class="yqtit posabs">友情链接</p>
+                    <div class="list-link clear" style="padding-left:120px; padding-top:10px;">
+                                <a href="http://www.moc.gov.cn/" target="_blank">中国交通部</a>
+                                <a href="http://www.crta.org.cn/" target="_blank">中国道路运输协会</a>
+                                <a href="http://www.fjysgl.gov.cn/" target="_blank">福建省道路运输管理局</a>
+                                <a href="http://www.fjqz.gov.cn/" target="_blank">泉州市人民政府</a>
+                                <a href="http://www.qzgzw.gov.cn/" target="_blank">泉州市国资委</a>
+                                <a href="http://www.qzjt.gov.cn/" target="_blank">泉州市交通委</a>
+                                <a href="http://www.968856.cn/" target="_blank">泉州市交通运输集团</a>
+                                <a href="http://www.qzbus.cn/" target="_blank">泉州市公交发展有限公司</a>
+                                <a href="http://www.lzgf.cn" target="_blank">福建龙洲运输股份有限公司</a>
+                                <a href="http://www.mpygs.com/" target="_blank">莆田汽车运输股份有限公司</a>
+                    </div>
+                </div>
+
+
+   
+
+    </div>
+
+                </div>
+
+
+
+                
+
+    <div class="footer">
+        <div class="wrap-full clear">
+            <p class="fl copy">©2018 福建省泉运实业集团有限公司</p>
+            <p class="fr footmenu">
+                <a href="javascript:;" onclick="SetHome(this,window.location);">设为首页</a><span>|</span>
+                <a href="javascript:;" onclick="AddFavorite(window.location, document.title)">加入收藏</a><span>|</span>
+
+                             <a href="/Portal/News?cid=1">关于我们</a><span>|</span>
+                             <a href="ftp://mqqy.com:21">内部软件下载</a><span>|</span>
+                             <a href="/Portal/News/Detail/137">联系我们</a><span>|</span>
+                             <a href="/Portal/Message">旅客留言</a><span>|</span>
+            </p>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="/Content/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/Content/jsk/js/gd.edm.utils.js" type="text/javascript"></script>
+    <script>
+        /*鼠标移过，左右按钮显示*/
+        $(".www51buycom").hover(function () {
+            $(this).find(".prev,.next").fadeTo("show", 0.1);
+        }, function () {
+            $(this).find(".prev,.next").hide();
+        })
+        /*鼠标移过某个按钮 高亮显示*/
+        $(".prev,.next").hover(function () {
+            $(this).fadeTo("show", 0.7);
+        }, function () {
+            $(this).fadeTo("show", 0.1);
+        })
+        $(".www51buycom").slide({ titCell: ".num ul", mainCell: ".51buypic", effect: "fold", autoPlay: true, delayTime: 700, autoPage: true });
+
+
+        $("#nav li").mouseleave(function () {
+            $(this).find("p.subnav").hide();
+        });
+        $("#nav li").mouseover(function () {
+            $(this).find("p.subnav").show();
+        });
+
+              function SetHome(obj, url) {
+                  try {
+                      obj.style.behavior = 'url(#default#homepage)';
+                      obj.setHomePage(url);
+                  } catch (e) {
+                      if (window.netscape)
+                      {
+                          try {
+                              netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                          } catch (e) {
+                              alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+                          }
+                      } else { alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【" + url + "】设置为首页。"); }
+                  }
+              }
+
+
+              function AddFavorite(title, url) {
+
+                  if (window.sidebar) {
+
+                      window.sidebar.addPanel(title, url, "");
+
+                  } else if (document.all) {
+
+                      window.external.AddFavorite(url, title);
+
+                  } else if (window.opera && window.print) {
+
+                      alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请进入新网站后使用Ctrl+D进行添加");
+
+                  }
+
+              }
+          </script> 
+
+
+
+
+
+</body></html>

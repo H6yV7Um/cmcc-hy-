@@ -1,0 +1,228 @@
+<!DOCTYPE html><html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<title>历史今日,日历查询,日历问答 - 日历网</title>
+	<meta name="keywords" content="日历网,历史今日,日历查询">
+	<meta name="description" content="日历网是一个结合在线日历查询、历史今日、日历问答等为一体的日历查询网站。">
+	<link charset="utf-8" rel="stylesheet" type="text/css" href="/images/m/b2018.css">
+	<script charset="utf-8" type="text/javascript" src="/images/m/b2018.js"></script>
+</head>
+<body>
+
+<div id="top"><div class="topnian">
+	<a href="/"><img src="/images/m/2018.png" alt=""></a>
+</div><div class="cc">
+	<div id="toplogo"><a href="/"><img src="/images/m/logo.png"></a></div>
+	<div id="topsitemap"><a href="/sitemap.html">&nbsp;</a></div>
+</div></div>
+
+<section><div class="menu0"><a href="/">首页</a><a href="/rilichaxun/">日历</a><a href="/meirihuangli/">黄历</a><a href="/huangdaojiri/">吉日</a><a href="/jieridaquan/">节日</a><a href="/24jieqi/">节气</a><a href="/minsu/">民俗</a><a href="/12shengxiao/">生肖</a><a href="/xingzuo/">星座</a><a href="/jiajufengshui/">风水</a></div></section>
+
+<div id="toprili"><div id="topyueri">6月21日</div><div id="topxqnl">星期四　农历五月初八　夏至</div></div>
+
+
+<section><div class="cc"><div class="yiji"><table>
+	<tbody><tr class="yi"><td class="tdkey">宜：</td><td><div id="yidata">开光.求嗣.出行.冠笄.嫁娶.伐木.架马.开柱眼.修造.移徒.入宅.开市.交易.立券.出行.安香.出火.掛匾.起基.修造.开生坟.合寿木.入殮.除服.成服.移柩.安葬</div></td></tr>
+	<tr class="ji"><td class="tdkey">忌：</td><td><div id="jidata">安床.出货财.作灶.动土.破土</div></td></tr>
+</tbody></table></div></div></section>
+
+<script>
+var ndate=new Date(),yue=ndate.getMonth()+1,ri=ndate.getDate(),datajsonsrc="/json/n"+ndate.getFullYear()+"/y"+yue+"/r"+ri+".htm";
+var syueri=""+(yue*100+ri);
+if(syueri.length==3) syueri="0"+syueri;
+
+$.get(datajsonsrc,function(data){
+	var istart=data.indexOf('{'),ilast=data.lastIndexOf('}');
+	if(istart>-1 && ilast>istart) data=data.substr(istart,ilast-istart+1);
+	ThisDate=$.parseJSON(data);
+	$("#topyueri").html(ThisDate.month+"月"+ThisDate.day+"日");
+	$("#topxqnl").html("星期"+ThisDate.xingqi+"　农历"+ThisDate.yueri+"　"+ThisDate.forcejieri);
+	$("#yidata").html(ThisDate.y || ThisDate.yi);	$("#jidata").html(ThisDate.j || ThisDate.ji);
+});</script>
+
+
+<section><div class="cc"><div id="jrpic"></div><div style="height:1px;clear:both;"></div></div></section>
+
+<section><div id="sycfx1" class="syfen3">
+<a href="/24jieqi/xiazhi/">6.21夏至</a>
+<a href="/jieridaquan/73497.html">6.21渐冻人日</a>
+<a href="/jieridaquan/73500.html">6.21亚洲熄灯日</a>
+<a href="/jieridaquan/73502.html">6.21国际瑜伽日</a>
+<a href="/jieridaquan/73504.html">6.22儿童慈善日</a>
+<a href="/jieridaquan/71850.html/">6.23奥林匹克日</a>
+<a href="/jieridaquan/73506.html">6.23世界手球日</a>
+<a href="/jieridaquan/73511.html">6.24秘鲁太阳节</a>
+<a href="/jieridaquan/72738.html">6.25全国土地日</a>
+<a href="/jieridaquan/71854.html">6.26联合国宪章</a>
+<a href="/6yuejieri/gjjdr/72748.html">6.26国际禁毒日</a>
+<a href="/jieridaquan/73510.html">6.26酷刑受害者</a>
+<a href="/jieridaquan/71843.html">6.14世界献血日</a>
+<a href="/jieridaquan/73507.html">6.27吉布提独立</a>
+<a href="/jieridaquan/73505.html">6.28圣爱任纽节</a>
+</div>
+<div style="height:1px;clear:both;"></div>
+</section>
+
+<section><div class="rltit22">最近更新</div></section>
+<section><div class="du1"><ul><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73818.html">福建中考时间,2018年福建中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73817.html">山东中考时间,2018年山东中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73816.html">江西中考时间,2018年江西中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73814.html">河南中考时间,2018年河南中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73815.html">湖北中考时间,2018年湖北中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73813.html">湖南中考时间,2018年湖南中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73811.html">广东中考时间,2018年广东中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73812.html">海南中考时间,2018年海南中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73810.html">四川中考时间,2018年四川中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73808.html">贵州中考时间,2018年贵州中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73809.html">云南中考时间,2018年云南中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73806.html">陕西中考时间,2018年陕西中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73807.html">甘肃中考时间,2018年甘肃中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73805.html">青海中考时间,2018年青海中考时间安排</a></li><li><span>[<a href="/zhongkao/">中考</a>]</span><a href="/zhongkao/73804.html">内蒙古中考时间,2018年内蒙古中考时间安排</a></li></ul></div></section>
+
+
+<section><div class="rltit22">点击排行榜</div></section>
+<section><div class="du1"><ul><li class="num1"><a href="/fuqinjie/73702.html" target="_blank">17.父亲节寄语,接地气一点父亲节寄语</a></li><li class="num2"><a href="/duanwujie/73589.html" target="_blank">17.端午节的资料,关于端午节的资料大全</a></li><li class="num3"><a href="/duanwujie/73592.html" target="_blank">19.端午节活动主题,端午节宣传活动主题标语</a></li><li class="num4"><a href="/jieridaquan/73467.html" target="_blank">中国环境日主题,2018年世界环境日主题是什么</a></li><li class="num5"><a href="/duanwujie/73597.html" target="_blank">22.端午节诗歌,关于端午节的现代诗歌</a></li><li class="num6"><a href="/duanwujie/73587.html" target="_blank">16.端午节英语,端午节英文介绍</a></li><li class="num7"><a href="/duanwujie/73593.html" target="_blank">20.端午节英语作文,关于端午节的英语作文</a></li><li class="num8"><a href="/jieridaquan/73574.html" target="_blank">今年是第几个中国人口日,2018年是第几个中国人口日</a></li><li class="num9"><a href="/jieridaquan/73477.html" target="_blank">世界献血日活动总结,2018年世界献血日宣传活动总结</a></li><li class="num10"><a href="/fangjiaanpai/73397.html" target="_blank">2019年寒假放假时间,2019年寒假什么时候开始放</a></li><li class="num11"><a href="/jieridaquan/73474.html" target="_blank">全国爱眼日宣传资料,2018年全国爱眼日宣传资料大全</a></li><li class="num12"><a href="/jieridaquan/73498.html" target="_blank">2018年全国土地日的主题:珍惜土地资源,建设美丽家园</a></li><li class="num13"><a href="/jieridaquan/73473.html" target="_blank">今年是第几个全国爱眼日,2018年是第几个全国爱眼日</a></li><li class="num14"><a href="/jieridaquan/73472.html" target="_blank">2018年全国爱眼日的主题:科学矫正近视,关注孩子眼…</a></li><li class="num15"><a href="/jieridaquan/73573.html" target="_blank">中国人口数量,2018年中国男女比例</a></li></ul></div></section>
+<!--栏目：建党节-->
+<section><div class="rltit22"><a href="/jieridaquan/jiandangjie/">建党节</a>（6月17日）</div></section>
+<section><div class="du1"><ul><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/71761.html">建党节(每年7月1日)</a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/72149.html"><font style="color:#FF0000;">1.建党节是几月几日,2018年几月几日是建党节</font></a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/70656.html"><font style="color:#339900;">2.建党节活动,七一建党节活动方案,建党节可以举行…</font></a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/72150.html"><font style="color:#0000FF;">3.建党节图片,七一建党节图片大全</font></a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/70658.html"><font style="color:#0000FF;">5.七一建党节诗歌,关于七一建党节的诗歌精选</font></a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/72151.html"><font style="color:#0000FF;">6.七一建党节演讲稿,七一建党节讲话稿</font></a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/72152.html"><font style="color:#0000FF;">7.建党节的由来:党的诞生纪念日</font></a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/70655.html"><font style="color:#0000FF;">8.今年是第几个建党节,2018年是第几个建党节</font></a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/73646.html">党的生日是哪天,2019年中国共产党诞生纪念日是在 …</a></li><li><span>[<a href="/jieridaquan/jiandangjie/">建党节</a>]</span><a href="/jieridaquan/jiandangjie/72154.html"><font style="color:#0000FF;">11.建党节短信,七一建党节短信</font></a></li></ul></div></section>
+<!--栏目：建军节-->
+<section><div class="rltit22"><a href="/jianjunjie/">建军节</a>（6月18日）</div></section>
+<section><div class="du1"><ul><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/71757.html">建军节(每年8月1日)</a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/72037.html"><font style="color:#FF0000;">1.建军节是几月几日,2018年建军节是几月几号</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/72038.html"><font style="color:#339900;">2.建军节的来历,八一建军节的来历</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/63873.html"><font style="color:#339900;">3.八一建军节是多少周年,2018年建军多少周年</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/72040.html"><font style="color:#0000FF;">4.建军节用英语怎么说:Army Day</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/56214.html"><font style="color:#0000FF;">5.建军节为什么是八月一号,建军节是八月一日原因</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/72044.html"><font style="color:#0000FF;">6.中国建军时间,建军节时间</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/72043.html"><font style="color:#0000FF;">7.建军节图片,八一建军节图片</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/52740.html"><font style="color:#0000FF;">8.有关八一建军节活动方案,八一建军节活动策划</font></a></li><li><span>[<a href="/jianjunjie/">建军节</a>]</span><a href="/jianjunjie/57051.html"><font style="color:#0000FF;">9.八一建军节退役军人祝福语,八一建军节退役军人 …</font></a></li></ul></div></section>
+<!--栏目：夏至-->
+<section><div class="rltit22"><a href="/24jieqi/xiazhi/">夏至</a>（6月21日）</div></section>
+<section><div class="du1"><ul><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71704.html"><font style="color:#339900;">夏至(每年6月20日-22日)</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/62879.html"><font style="color:#339900;">2018年夏至是几月几日:6月21日</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71918.html"><font style="color:#FF0000;">1.夏至是几月几日,2018年夏至是什么时候</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71919.html"><font style="color:#339900;">2.夏至是什么意思,夏至的含义是什么</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71920.html"><font style="color:#339900;">3.夏至三候:鹿角解,蝉始鸣,半夏生</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71921.html"><font style="color:#0000FF;">4.夏至吃什么,夏至吃什么好</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71922.html"><font style="color:#0000FF;">5.夏至短信,夏至问候短信句子大全</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/38382.html"><font style="color:#0000FF;">6.夏至诗句,夏至的古诗词</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/72301.html"><font style="color:#0000FF;">7.夏至民间习俗有哪些,夏至的风俗活动是什么</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/72303.html"><font style="color:#0000FF;">8.夏至节气图片,夏至图片大全</font></a></li></ul></div></section>
+<!--栏目：日历-->
+<section><div class="rltit22"><a href="/rilichaxun/">日历</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/66022.html"><font style="color:#339900;">2018全国人大召开时间:3月5日</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/13851.html"><font style="color:#339900;">非典时间,中国非典是哪一年,什么是非典</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/7477.html"><font style="color:#339900;">唐山地震级数,唐山大地震是哪一年【1976年7月28日】</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/72239.html"><font style="color:#339900;">高考时间是几号,2018年高考时间安排</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/62776.html"><font style="color:#339900;">大学放假时间,2019大学生什么时候放寒假</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/13852.html"><font style="color:#339900;">恢复高考时间,恢复高考是哪一年,中国恢复高考是哪…</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/13359.html"><font style="color:#339900;">马关条约时间,《马关条约》是什么时候签订的</font></a></li><li><span>[<a href="/riliwenda/renwu/">人物</a>]</span><a href="/riliwenda/renwu/8811.html"><font style="color:#339900;">乾隆皇帝出生在哪一天,乾隆帝（清高宗）爱新觉罗·…</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/1598.html"><font style="color:#339900;">民国元年是哪一年:1912年</font></a></li><li><span>[<a href="/riliwenda/shijian/">事件</a>]</span><a href="/riliwenda/shijian/422.html"><font style="color:#339900;">赤壁之战是哪年,赤壁之战是哪一年</font></a></li></ul></div></section>
+<!--栏目：黄历-->
+<section><div class="rltit22"><a href="/meirihuangli/">黄历</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73341.html">2019年1月1日黄道吉日查询,2019年1月1日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73340.html">2019年1月2日黄道吉日查询,2019年1月2日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73339.html">2019年1月3日黄道吉日查询,2019年1月3日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73338.html">2019年1月4日黄道吉日查询,2019年1月4日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73337.html">2019年1月5日黄道吉日查询,2019年1月5日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73336.html">2019年1月6日黄道吉日查询,2019年1月6日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73334.html">2019年1月7日黄道吉日查询,2019年1月7日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73333.html">2019年1月8日黄道吉日查询,2019年1月8日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73332.html">2019年1月9日黄道吉日查询,2019年1月9日黄历查询</a></li><li><span>[<a href="/lm1616/2019nianmeirihuangli/">2019年每日黄历</a>]</span><a href="/lm1616/2019nianmeirihuangli/73331.html">2019年1月10日黄道吉日查询,2019年1月10日黄历查询</a></li></ul></div></section>
+<!--栏目：吉日-->
+<section><div class="rltit22"><a href="/huangdaojiri/">吉日</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47726.html"><font style="color:#FF0000;">2018年5月开市吉日查询，2018年5月开市吉日一览表</font></a></li><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47720.html">2018年11月开市吉日查询,2018年11月开市吉日一览表</a></li><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47721.html">2018年10月开市吉日查询，2018年10月开市吉日一览表</a></li><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47722.html">2018年9月开市吉日查询，2018年9月开市吉日一览表</a></li><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47723.html">2018年8月开市吉日查询，2018年8月开市吉日一览表</a></li><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47724.html">2018年7月开市吉日查询，2018年7月开市吉日一览表</a></li><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47725.html">2018年6月开市吉日查询，2018年6月开市吉日一览表</a></li><li><span>[<a href="/huangdaojiri/2018lifajiri/">2018年理发吉日</a>]</span><a href="/huangdaojiri/2018lifajiri/70263.html"><font style="color:#339900;">2018年理发黄道吉日一览表</font></a></li><li><span>[<a href="/huangdaojiri/kaishi/">2018年开市吉日</a>]</span><a href="/huangdaojiri/kaishi/47728.html">2018年3月开市吉日查询，2018年3月开市吉日一览表</a></li><li><span>[<a href="/huangdaojiri/2018zhuangxiujiri/">2018年装修吉日</a>]</span><a href="/huangdaojiri/2018zhuangxiujiri/71657.html"><font style="color:#FF0000;">2018年5月装修吉日查询，2018年5月装修吉日一览表</font></a></li></ul></div></section>
+<!--栏目：节日-->
+<section><div class="rltit22"><a href="/jieridaquan/">节日</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/jieridaquan/jinianri/">纪念日</a>]</span><a href="/jieridaquan/jinianri/72238.html"><font style="color:#339900;">毛主席逝世时间,2018年毛泽东逝世纪念日时间</font></a></li><li><span>[<a href="/jieridaquan/jinianri/">纪念日</a>]</span><a href="/jieridaquan/jinianri/72237.html"><font style="color:#339900;">南京大屠杀纪念日时间,2018年南京大屠杀纪念日是 …</font></a></li><li><span>[<a href="/jieridaquan/jinianri/">纪念日</a>]</span><a href="/jieridaquan/jinianri/67209.html"><font style="color:#339900;">西安事变时间,西安事变是哪一天</font></a></li><li><span>[<a href="/riliwenda/jieri/">节日问答</a>]</span><a href="/riliwenda/jieri/72252.html"><font style="color:#339900;">雷锋日是哪天,2018学雷锋纪念日是哪一天星期几</font></a></li><li><span>[<a href="/riliwenda/jieri/">节日问答</a>]</span><a href="/riliwenda/jieri/72250.html"><font style="color:#339900;">党的生日是哪天,2018年中国共产党诞生纪念日是在 …</font></a></li><li><span>[<a href="/jieridaquan/jinianri/">纪念日</a>]</span><a href="/jieridaquan/jinianri/72244.html"><font style="color:#339900;">南京大屠杀日期,2018年南京大屠杀国家公祭日的具 …</font></a></li><li><span>[<a href="/chunjie/">春节</a>]</span><a href="/chunjie/69569.html"><font style="color:#339900;">春节压岁钱的来历</font></a></li><li><span>[<a href="/tiancangjie/">填仓节</a>]</span><a href="/tiancangjie/66794.html"><font style="color:#339900;">填仓节的由来,填仓节是怎么来的</font></a></li><li><span>[<a href="/riliwenda/jieri/">节日问答</a>]</span><a href="/riliwenda/jieri/55764.html"><font style="color:#339900;">七七事变时间,七七事变发生在几年几月几日</font></a></li><li><span>[<a href="/chunjie/">春节</a>]</span><a href="/chunjie/69146.html">正月十三杨公忌有哪些传说</a></li></ul></div></section>
+<!--栏目：节气-->
+<section><div class="rltit22"><a href="/24jieqi/">节气</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/24jieqi/">节气</a>]</span><a href="/24jieqi/72315.html">二十四节气歌,二十四节气民歌,二十四节气气候农事歌</a></li><li><span>[<a href="/24jieqi/">节气</a>]</span><a href="/24jieqi/72010.html">二十四节气【日历网2018年精编】</a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71704.html"><font style="color:#339900;">夏至(每年6月20日-22日)</font></a></li><li><span>[<a href="/24jieqi/">节气</a>]</span><a href="/24jieqi/71169.html"><font style="color:#FF0000;">二十四节气对应时间表,24节气的时间【2016-2035新…</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/62879.html"><font style="color:#339900;">2018年夏至是几月几日:6月21日</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71918.html"><font style="color:#FF0000;">1.夏至是几月几日,2018年夏至是什么时候</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71919.html"><font style="color:#339900;">2.夏至是什么意思,夏至的含义是什么</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71920.html"><font style="color:#339900;">3.夏至三候:鹿角解,蝉始鸣,半夏生</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71921.html"><font style="color:#0000FF;">4.夏至吃什么,夏至吃什么好</font></a></li><li><span>[<a href="/24jieqi/xiazhi/">夏至</a>]</span><a href="/24jieqi/xiazhi/71922.html"><font style="color:#0000FF;">5.夏至短信,夏至问候短信句子大全</font></a></li></ul></div></section>
+<!--栏目：民俗-->
+<section><div class="rltit22"><a href="/minsu/">民俗</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/shu9/">数九</a>]</span><a href="/shu9/72258.html"><font style="color:#339900;">2018-2019年数九天日历表,2019年数九时间表查询</font></a></li><li><span>[<a href="/meiyu/">梅雨季节</a>]</span><a href="/meiyu/72234.html"><font style="color:#339900;">2018梅雨季节是什么时候:6.13-7.14</font></a></li><li><span>[<a href="/shu9/">数九</a>]</span><a href="/shu9/67324.html"><font style="color:#339900;">2018数九天时间表,数九天气从什么时候开始计算</font></a></li><li><span>[<a href="/meiyu/">梅雨季节</a>]</span><a href="/meiyu/72235.html"><font style="color:#339900;">2018梅雨季节开始时间:6月13日</font></a></li><li><span>[<a href="/meiyu/">梅雨季节</a>]</span><a href="/meiyu/72236.html"><font style="color:#339900;">2018梅雨季节结束时间:7月14日</font></a></li><li><span>[<a href="/meiyu/">梅雨季节</a>]</span><a href="/meiyu/66902.html"><font style="color:#339900;">今年什么时候入梅,2018年入梅时间</font></a></li><li><span>[<a href="/shu9/">数九</a>]</span><a href="/shu9/72241.html"><font style="color:#339900;">三九天开始时间,2019三九天从什么时候开始</font></a></li><li><span>[<a href="/nonglizhishi/">农历知识</a>]</span><a href="/nonglizhishi/72282.html"><font style="color:#339900;">有关农业生产的谚语</font></a></li><li><span>[<a href="/12shengxiao/liushijiazi/">六十甲子</a>]</span><a href="/12shengxiao/liushijiazi/25798.html">1.甲子是什么意思 甲子的意思详解</a></li><li><span>[<a href="/12shengxiao/liushijiazi/">六十甲子</a>]</span><a href="/12shengxiao/liushijiazi/25797.html">2.乙丑是什么意思 乙丑的意思详解</a></li></ul></div></section>
+<!--栏目：生肖-->
+<section><div class="rltit22"><a href="/12shengxiao/">生肖</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/12shengxiao/">生肖</a>]</span><a href="/12shengxiao/49101.html"><font style="color:#339900;">周易本命年,民间传统的本命年有什么讲究</font></a></li><li><span>[<a href="/12shengxiao/">生肖</a>]</span><a href="/12shengxiao/72233.html"><font style="color:#339900;">十二生肖图片大全,精选十二生肖图片</font></a></li><li><span>[<a href="/12shengxiao/">生肖</a>]</span><a href="/12shengxiao/72220.html"><font style="color:#339900;">十二生肖歇后语大全,十二生肖歇后语大全及答案</font></a></li><li><span>[<a href="/12shengxiao/">生肖</a>]</span><a href="/12shengxiao/72208.html"><font style="color:#339900;">十二生肖出生月的命运,十二生肖逐月命运详解</font></a></li><li><span>[<a href="/12shengxiao/">生肖</a>]</span><a href="/12shengxiao/72246.html"><font style="color:#339900;">12生肖的劫数在几岁,不得不看</font></a></li><li><span>[<a href="/12shengxiao/">生肖</a>]</span><a href="/12shengxiao/49111.html"><font style="color:#339900;">本命年有什么说法,关于本命年的那些禁忌</font></a></li><li><span>[<a href="/12shengxiao/duoda/">生肖年龄</a>]</span><a href="/12shengxiao/duoda/73454.html">属鼠的今年多大,属鼠的2018年多大了</a></li><li><span>[<a href="/12shengxiao/duoda/">生肖年龄</a>]</span><a href="/12shengxiao/duoda/73453.html">属牛的今年多大,属牛的2018年多大了</a></li><li><span>[<a href="/12shengxiao/duoda/">生肖年龄</a>]</span><a href="/12shengxiao/duoda/73452.html">属虎的今年多大,属虎的2018年多大了</a></li><li><span>[<a href="/12shengxiao/duoda/">生肖年龄</a>]</span><a href="/12shengxiao/duoda/73451.html">属兔的今年多大,属兔的2018年多大了</a></li></ul></div></section>
+<!--栏目：星座-->
+<section><div class="rltit22"><a href="/xingzuo/">星座</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/70582.html">12种双鱼座,双鱼座生肖分析</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/65369.html">2017狮子座流星雨几月几号开始 狮子座流星雨会持 …</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/65352.html">2017年狮子座流星雨什么时候出现</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/65351.html">2017狮子座流星雨在哪看最好 2017狮子座流星雨最 …</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/63432.html">8月4日是什么星座</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/63163.html">6月28什么星座</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/63127.html">5月23是什么星座 </a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/49055.html">你的脚形，透露你的性格！</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/48372.html">月空与月亮在十二星座</a></li><li><span>[<a href="/xingzuo/">星座</a>]</span><a href="/xingzuo/48291.html">撩汉必备，12星座女如何机智让男人主动上钩</a></li></ul></div></section>
+<!--栏目：风水-->
+<section><div class="rltit22"><a href="/jiajufengshui/">风水</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/46713.html">给青年男女的30条风水箴言</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13526.html">客厅中的那些风水学</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13525.html">如何在客厅中找财位</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13524.html">客厅屏风的风水设置</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13523.html">客厅中的三宜三不宜</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13522.html">如何化解客厅尖角的风水</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13521.html">教你八种旺财运的客厅风水</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13520.html">客厅要注意落地窗的四大风水隐患</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13519.html">客厅风水：玄关设计的八大风水要点</a></li><li><span>[<a href="/jiajufengshui/">风水</a>]</span><a href="/jiajufengshui/13518.html">餐厅必备的风水妙招</a></li></ul></div></section>
+<!--栏目：上班时间-->
+<section><div class="rltit22"><a href="/shangbanshijian/">上班时间</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/shangbanshijian/cheguansuo/">车管所上班时间</a>]</span><a href="/shangbanshijian/cheguansuo/70576.html"><font style="color:#FF0000;">1.车管所上班时间大全,车管所什么时候上班</font></a></li><li><span>[<a href="/shangbanshijian/paichusuo/">派出所上班时间</a>]</span><a href="/shangbanshijian/paichusuo/71273.html"><font style="color:#339900;">2.派出所上班时间:早8点到12点,下午2点到6点</font></a></li><li><span>[<a href="/minzhengju/">民政局上班时间</a>]</span><a href="/minzhengju/71272.html"><font style="color:#339900;">3.民政局上班时间,民政局上班时间表</font></a></li><li><span>[<a href="/shangbanshijian/yinhang/">银行上班时间</a>]</span><a href="/shangbanshijian/yinhang/71244.html"><font style="color:#0000FF;">4.中国各大银行上班时间表,各大银行上班时间一览</font></a></li><li><span>[<a href="/shangbanshijian/">上班时间</a>]</span><a href="/shangbanshijian/70579.html"><font style="color:#0000FF;">5.出入境管理局上班时间</font></a></li><li><span>[<a href="/shangbanshijian/yinhang/">银行上班时间</a>]</span><a href="/shangbanshijian/yinhang/46785.html"><font style="color:#0000FF;">6.中国银行上班时间:朝九晚五</font></a></li><li><span>[<a href="/shangbanshijian/yinhang/">银行上班时间</a>]</span><a href="/shangbanshijian/yinhang/51439.html"><font style="color:#0000FF;">7.工商银行上班时间,工商银行上班时间是什么时候</font></a></li><li><span>[<a href="/shangbanshijian/yinhang/">银行上班时间</a>]</span><a href="/shangbanshijian/yinhang/46786.html"><font style="color:#0000FF;">8.建设银行的上班时间：8:30-17:00</font></a></li><li><span>[<a href="/shangbanshijian/yinhang/">银行上班时间</a>]</span><a href="/shangbanshijian/yinhang/46787.html"><font style="color:#0000FF;">9.农业银行的上班时间：8:30-17:00，周末少1小时</font></a></li><li><span>[<a href="/shangbanshijian/">上班时间</a>]</span><a href="/shangbanshijian/72183.html"><font style="color:#0000FF;">10.税务局上班时间:8:30-12:0,13:00-17:30</font></a></li></ul></div></section>
+<!--栏目：放假安排-->
+<section><div class="rltit22"><a href="/fangjiaanpai/">放假安排</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/64563.html"><font style="color:#339900;">2018年放寒假时间,今年几号放寒假2018</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72248.html"><font style="color:#339900;">什么时候放暑假,2018学生什么时候放暑假</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72240.html"><font style="color:#339900;">暑假放假时间,2018学生什么时候放暑假</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72189.html"><font style="color:#FF0000;">1.今年五一节放假安排,5.1节放假安排,五一放假安排</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/57147.html"><font style="color:#339900;">2.放假安排时间表,2018年放假安排,2018节假日时间</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72194.html"><font style="color:#339900;">3.清明放假安排,清明节放假安排,2019年清明节放假</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72193.html"><font style="color:#0000FF;">4.春节放假安排,2019年春节放假安排</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72192.html"><font style="color:#0000FF;">5.国庆放假安排,国庆节放假安排,十一放假安排</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72191.html"><font style="color:#0000FF;">6.股市放假安排,2018全年股市休市安排时间表一览</font></a></li><li><span>[<a href="/fangjiaanpai/">放假安排</a>]</span><a href="/fangjiaanpai/72195.html"><font style="color:#0000FF;">7.端午放假安排,2018端午节放假安排</font></a></li></ul></div></section>
+<!--栏目：经典总结-->
+<section><div class="rltit22"><a href="/jingdianzongjie/">经典总结</a></div></section>
+<section><div class="du1"><ul><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/73797.html">父亲节经典总结,父亲节精选文章总结</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/73792.html">端午节经典总结,端午节精选文章总结</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/73519.html">2018年6月吉日大全,6月吉日查询一览表</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/73518.html">2018年5月吉日大全,5月吉日查询一览表</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/73094.html">2018年5月特别推荐</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/71875.html">五十六个民族节日【精选56篇】</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/71711.html">中国现代节日【精选9篇】</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/71309.html">十二生肖年份</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/71305.html">不同颜色玫瑰代表的含义</a></li><li><span>[<a href="/jingdianzongjie/">经典总结</a>]</span><a href="/jingdianzongjie/71137.html">2018年入伏时间表</a></li></ul></div></section>
+
+
+<section><div class="cc"><div id="symrd" onclick="ChangeMrd();">不善于倾听不同的声音，是管理者最大的疏忽。</div></div></section><script>$.get("/xkhtm/sj_mrd_jiong.htm",function(response){	$("#symrd").append(response);	});</script>
+
+<section><div id="sycfx2" class="syfen3">
+<a href="https://m.rili.com.cn/jiehunjiri/2017jiehun/">结婚吉日</a>
+<a href="https://m.rili.com.cn/dinghunjiri/2017dinghun/">订婚吉日</a>
+<a href="https://m.rili.com.cn/banjiajiri/2017banjia/">搬家吉日</a>
+<a href="https://m.rili.com.cn/kaiyejiri/2017kaiye/">开业吉日</a>
+<a href="https://m.rili.com.cn/huangdaojiri/kaiguangjiri/">开光吉日</a>
+<a href="https://m.rili.com.cn/huangdaojiri/">黄道吉日</a>
+<a href="/huangdaojiri/2016nianmeirijishi">吉时查询</a>
+<a href="/riliwenda/">日历问答</a>
+<a href="/rilibiao/">日历表</a>
+<a href="/rilichaxun/">日历查询</a>
+<a href="/jieridaquan/">节日大全</a>
+<a href="/24jieqi/">24节气</a>
+</div>
+<div style="height:1px;clear:both;"></div>
+</section>
+
+<section class="sjline"><span>日历网</span></section>
+
+<section><div id="sycfx11" class="syfen2">
+<a href="/24jieqi/lixia/">5.5立夏</a>
+<a href="/24jieqi/xiaoman/">5.21小满</a>
+<a href="/rilibiao/71560.html">2018年日历带农历</a>
+<a href="/jieridaquan/jierishijian/69739.html">中国传统节日大全</a>
+<a href="/jieridaquan/jierishijian/69736.html">2018节日节气查询表</a>
+<a href="/jieridaquan/jierishijian/69738.html">世界节日大全</a>
+<a href="/fangjiaanpai/57147.html">2018年放假安排</a>
+<a href="/sanfutian/">2018入伏时间</a>
+<a href="/banjiajiri/2018banjia/47504.html">5月搬家吉日</a>
+<a href="/kaiyejiri/2018kaiye/47375.html">5月开业吉日</a>
+<a href="/kaigong/2018kaigong/47583.html">5月开工吉日</a>
+<a href="/jiehunjiri/2018jiehun/47198.html">5月结婚吉日</a>
+<a href="/chuxingjiri/2018chuxing/47427.html">5月出行吉日</a>
+<a href="/tichejiri/2018tiche/47440.html">5月提车吉日</a>
+<a href="/lingjiehunzhengjiri/2018lingzheng/47324.html">5月领证吉日</a>
+<a href="/xiazang/2018xiazang/47668.html">5月下葬吉日</a>
+</div>
+<div style="height:1px;clear:both;"></div>
+</section>
+<section class="sjline"><span>日历网</span></section>
+<section><div class="rltit22">2018年入伏时间表</div></section>
+<section><div class="shu9">
+<ul>
+<li><a href="/sanfutian/72160.html" target="_blank">2018年头伏:7.17-7.26</a></li>
+<li><a href="/sanfutian/72161.html" target="_blank">2018年中伏:7.27-8.15</a></li>
+<li><a href="/sanfutian/72162.html" target="_blank">2018年末伏:8.16-8.25</a></li>
+</ul>
+</div>
+</section>
+
+<section class="sjline"><span>日历网</span></section>
+<!--2018年二十四节气表-->
+<section><div class="rltit22">2018年二十四节气表</div></section>
+<section>
+<div id="sycfx17" class="syfen4">
+<a href="/24jieqi/lichun/">2.4立春</a>
+<a href="/24jieqi/yushui/">2.19雨水</a>
+<a href="/24jieqi/jingzhe/">3.5惊蛰</a>
+<a href="/24jieqi/chunfen/">3.21春分</a>
+<a href="/24jieqi/qingming/">4.5清明</a>
+<a href="/guyu/">4.20谷雨</a>
+<a href="/24jieqi/lixia/">5.5立夏</a>
+<a href="/24jieqi/xiaoman/">5.21小满</a>
+<a href="/24jieqi/mangzhong/" style="color:#FF0000;">6.6芒种</a>
+<a href="/24jieqi/xiazhi/">6.21夏至</a>
+<a href="/24jieqi/xiaoshu/">7.7小暑</a>
+<a href="/24jieqi/dashu/">7.23大暑</a>
+<a href="/24jieqi/liqiu/">8.7立秋</a>
+<a href="/24jieqi/chushu/">8.23处暑</a>
+<a href="/24jieqi/bailu/">9.8白露</a>
+<a href="/24jieqi/qiufen/">9.23秋分</a>
+<a href="/24jieqi/hanlu/">10.8寒露</a>
+<a href="/24jieqi/shuangjiang/">10.23霜降</a>
+<a href="/24jieqi/lidong/">11.7立冬</a>
+<a href="/24jieqi/xiaoxue/">11.22小雪</a>
+<a href="/24jieqi/daxue/">12.7大雪</a>
+<a href="/24jieqi/dongzhi/">12.22冬至</a>
+<a href="/24jieqi/xiaohan/">1.5小寒</a>
+<a href="/24jieqi/dahan/">1.20大寒</a>
+</div>
+<div style="height:1px;clear:both;"></div>
+</section>
+
+<section class="sjline"><span>日历网</span></section>
+
+
+<section><div id="sycfx18" class="syfen2"><a href="/jingdianzongjie/70499.html" target="_blank">2018年节日节气时间表</a><a href="/wuzhongrili/" style="undefined">物种日历</a></div><div style="height:1px;clear:both;"></div></section>
+
+<section class="sjline"><span>日历网</span></section>
+<section><div class="rltit22">十二生肖</div></section>
+<section><div class="syfen4">
+<a href="/12shengxiao/zishu/">子鼠</a>
+<a href="/12shengxiao/chouniu/">丑牛</a>
+<a href="/12shengxiao/yinhu/">寅虎</a>
+<a href="/12shengxiao/maotu/">卯兔</a>
+<a href="/12shengxiao/chenlong/">辰龙</a>
+<a href="/12shengxiao/sishe/">巳蛇</a>
+<a href="/12shengxiao/wuma/">午马</a>
+<a href="/12shengxiao/weiyang/">未羊</a>
+<a href="/12shengxiao/shenhou/">申猴</a>
+<a href="/12shengxiao/youji/">酉鸡</a>
+<a href="/12shengxiao/xugou/">戌狗</a>
+<a href="/12shengxiao/haizhu/">亥猪</a>
+</div><div style="height:1px;clear:both;"></div></section>
+
+<section><div class="menu0"><a href="/">首页</a><a href="/rilichaxun/">日历</a><a href="/meirihuangli/">黄历</a><a href="/huangdaojiri/">吉日</a><a href="/jieridaquan/">节日</a><a href="/24jieqi/">节气</a><a href="/minsu/">民俗</a><a href="/12shengxiao/">生肖</a><a href="/xingzuo/">星座</a><a href="/jiajufengshui/">风水</a></div></section>
+
+<div id="foot">手机版<span>|</span><a href="https://www.rili.com.cn" target="_blank" rpl="no">电脑版</a><span>|</span><a href="https://fankui.rili.com.cn/jianyi/" target="_blank">提建议</a></div><img src="https://c.cnzz.com/wapstat.php?siteid=1254698139&amp;r=&amp;rnd=312152208" width="0" height="0">
+</body></html>

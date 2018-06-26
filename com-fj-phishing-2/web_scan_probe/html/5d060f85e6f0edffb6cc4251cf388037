@@ -1,0 +1,73 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E宝支付 - 登录</title>
+	<link href="http://sapi.eboopay.com/Public/Front/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="http://sapi.eboopay.com/Public/Front/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="http://sapi.eboopay.com/Public/Front/css/animate.css" rel="stylesheet">
+    <link href="http://sapi.eboopay.com/Public/Front/css/style.css" rel="stylesheet">
+	<link href="http://sapi.eboopay.com/Public/css/jquery.alerts.css" rel="stylesheet">
+    <link href="http://sapi.eboopay.com/Public/Front/css/login.css" rel="stylesheet">
+	<script type="text/javascript" async="" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=606617893"></script><script src="http://sapi.eboopay.com/Public/js/jquery.js"></script>
+	<script src="http://sapi.eboopay.com/Public/js/jquery.alerts.js"></script>
+	<script src="http://sapi.eboopay.com/Public/Front/js/login.js?v=2017060101" type="text/javascript"></script>
+
+    <script>
+        if (window.top !== window.self) {
+            window.top.location = window.location;
+        }
+    </script>
+</head>
+<body class="signin">
+<div class="signinpanel">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="signin-info">
+                <div class="logopanel m-b">
+                    <h1>[ E宝支付 ]</h1>
+                </div>
+                <div class="m-b"></div>
+                <h4>欢迎使用 <strong>商户管理面板</strong></h4>
+                <ul class="m-b">
+                    <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 结算快</li>
+                    <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 资金安全</li>
+                    <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 多年经验</li>
+                    <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 渠道稳定</li>
+                    <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 大数据</li>
+					
+                </ul></div>
+				<div class="m-b"></div>
+                <h4>商务QQ： <strong>29593236</strong></h4>
+        </div>
+        <div class="col-sm-5">
+            <form class="form-horizontal" role="form" method="post" autocomplete="off">
+                <h4 class="no-margins">登录：</h4>
+                <p class="m-t-md">登录到商户管理面板</p>
+                <input type="text" class="form-control uname" id="username" name="username" placeholder="用户名" required="" minlength="2" aria-required="true">
+                <input type="password" class="form-control pword m-b" id="password" name="password" placeholder="密码" required="" aria-required="true">
+                <input type="text" class="form-control uname m-b" id="verification" name="verification" ajaxurl="/index_checkverify.html" placeholder="验证码" required="">
+                <p class="verify-code "><img class="verifyimg" alt="点击刷新验证码" src="/index_verifycode.html" style="cursor:pointer;" onclick="javascript:$(&quot;.verifyimg&quot;).attr(&quot;src&quot;,&quot;/index_verifycode.html?a=&quot;+(Math.random()*100))" title="点击刷新验证码"></p>
+                <a href="">忘记密码了？</a>
+                <button type="button" class="btn btn-success btn-block" id="loginbutton" dlurl="/user.html" ajaxurl="/index_login.html">登录</button>
+            </form>
+        </div>
+    </div>
+    <div class="signup-footer">
+        <div class="pull-left"> © 2017 E宝支付 All Rights Reserved.</div>
+    </div>
+</div>
+
+<!-- 全局js -->
+<script src="http://sapi.eboopay.com/Public/Front/js/jquery.min.js?v=2.1.4"></script>
+<script src="http://sapi.eboopay.com/Public/Front/js/bootstrap.min.js?v=3.3.6"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=606617893';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script>
+</body></html>

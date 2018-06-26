@@ -1,0 +1,736 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html class=" js flexbox canvas canvastext webgl touch geolocation postmessage websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio no-localstorage no-sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><link href="http://njcb.com.cn/njcbenglish/uiFramework/huilan-jquery-ui/js/skins/default.css" rel="stylesheet" id="lhgdialoglink">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Home</title>
+<meta name="页面生成时间" content="2017-02-15 15:53:51">
+<meta name="缓存清理时间" content="2017-02-15 15:04:00">
+<meta name="easysite版本" content="7.9.5">
+<meta name="keywords" content="">
+<meta name="description" content="南京银行英文站默认频道">
+<link rel="stylesheet" type="text/css" href="/njcbenglish/uiFramework/huilan-jquery-ui/css/huilan-jquery-ui.css">
+<script type="text/javascript" src="/njcbenglish/uiFramework/huilan-jquery-ui/js/huilan-jquery-ui.js?self=true&amp;skin=default"></script><link rel="stylesheet" href="http://njcb.com.cn/njcbenglish/uiFramework/huilan-jquery-ui/js/skin/layer.css" id="layui_layer_skinlayercss" style="">
+  <link rel="stylesheet" type="text/css" href="/njcbenglish/template/njcbenglish.css">
+  <script type="text/javascript" src="/njcbenglish/template/njcbenglish.js"></script>
+ </head>
+ <body><div style="position: absolute; left: -9999em; top: 257px; visibility: visible; width: auto; z-index: 1976;"><table class="ui_border ui_state_visible ui_state_focus"><tbody><tr><td class="ui_lt"></td><td class="ui_t"></td><td class="ui_rt"></td></tr><tr><td class="ui_l"></td><td class="ui_c"><div class="ui_inner"><table class="ui_dialog"><tbody><tr><td colspan="2"><div class="ui_title_bar"><div class="ui_title" unselectable="on" style="cursor: move;">视窗 </div><div class="ui_title_buttons"><a class="ui_min" href="javascript:void(0);" title="最小化" style="display: inline-block;"><b class="ui_min_b"></b></a><a class="ui_max" href="javascript:void(0);" title="最大化" style="display: inline-block;"><b class="ui_max_b"></b></a><a class="ui_res" href="javascript:void(0);" title="还原"><b class="ui_res_b"></b><b class="ui_res_t"></b></a><a class="ui_close" href="javascript:void(0);" title="关闭(esc键)" style="display: inline-block;">×</a></div></div></td></tr><tr><td class="ui_icon" style="display: none;"></td><td class="ui_main" style="width: auto; height: auto;"><div class="ui_content" style="padding: 10px;"><div class="ui_loading"><span>loading...</span></div></div></td></tr><tr><td colspan="2"><div class="ui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="ui_r"></td></tr><tr><td class="ui_lb"></td><td class="ui_b"></td><td class="ui_rb" style="cursor: se-resize;"></td></tr></tbody></table></div>
+  <link rel="stylesheet" type="text/css" href="/njcbenglish/template/page/index/skin.css"> 
+  <script type="text/javascript" src="/njcbenglish/template/page/index/jquery.flexslider-min.js"></script> 
+  <script type="text/javascript" src="/njcbenglish/template/page/index/lanrenzhijia.js"></script> 
+  <script type="text/javascript" src="/njcbenglish/template/page/index/jquery.SuperSlide.js"></script> 
+  <script type="text/javascript" src="/njcbenglish/template/page/index/modernizr-2.8.3.min.js"></script> 
+  <script type="text/javascript" src="/njcbenglish/template/page/index/superslide.2.1.js"></script> 
+  <script type="text/javascript" src="/njcbenglish/template/page/index/megamenu.js"></script><div style="display:none" easysite="easysiteHiddenDiv">
+	<input id="contextPath" value="/eportal" type="hidden">
+	<input id="isOnlyUseCkeditorSourceMode" value="$isOnlyUseCkeditorSourceMode" type="hidden">
+	<input id="eprotalCurrentPageId" value="394287" type="hidden">
+	<input id="eprotalCurrentSiteId" value="394286" type="hidden">
+	<input id="eprotalCurrentSiteType" value="WEB" type="hidden">
+	<input id="eprotalCurrentSiteHideMaskLayer" value="no" type="hidden">
+	<input id="eprotalCurrentArticleKey" value="" type="hidden">
+	<input id="eprotalCurrentColumnId" value="" type="hidden">
+	<input id="isStaticRequest" value="yes" type="hidden">
+	<input id="isOpenStaticPageList" value="yes" type="hidden">
+	<input id="defaultPublishPage" value="10" type="hidden">
+	<input type="hidden" id="eportalappPortletId" value="3">
+	<input type="hidden" id="epsPortletId" value="1">
+	<input type="hidden" id="portaltoolsPortletId" value="2">
+	<script type="text/javascript" src="/njcbenglish/uiFramework/js/counting/chanelCounting.js"></script>
+	<input type="hidden" id="currentLoginMemberId" value="">
+	<input type="hidden" id="currentLoginMemberName" value="">
+	<input type="hidden" id="behaviourAnalysisSiteId" value=""> 
+			<input type="hidden" id="portalLastRequestUrl" value="">
+	<input type="hidden" id="portalJsessionId" value="xcBAw2NCGJIrt1nBjRKgjnZkBmFoQ2PUwhJDuWgGGzcG1lcKPEJb!981289852!1487145231170">
+</div><style>
+.top {  min-width:1000px;
+	width:100%;
+	background-color:#ffffff;
+}
+.head {
+          max-width:1200px;
+	min-width:1000px;
+	margin:0 auto;
+	height:118px;
+	background-color:#ffffff;
+}
+
+.logo {
+	width:37%;
+	float:left;
+         margin-top:30px;
+}
+.logo img{
+	width:100%;
+}
+.link_search {
+	width:58%;
+	float:left;
+	position:relative;
+	z-index:999;
+          margin-top:30px;
+               
+}
+
+
+.search {
+	width:100%;
+            margin-left:2%;
+
+	}
+.submit-btn {
+	width:59px;
+	height:40px;
+	cursor:pointer;
+	border:none;
+	
+	background:url(/eportal/fileDir/njcb/resource/cms/2016/03/2016030914471487588.jpg) no-repeat left center;
+}
+.search .form-text {
+	height:38px;
+	line-height:38px;
+	font-size:14px;
+	
+	width:230px;
+	padding-left:5px;
+	color:#bababa;
+	border:none;
+	background:#ffffff;
+	font-family:"微软雅黑";
+	border:1px #dfdfdf solid;
+	border-right:none;
+}
+.login {
+	height:40px;
+	margin-left:20px;
+           width:160px;
+                
+}
+.login ul li {
+	text-align:center;
+           width:160px;
+           float:left;
+
+}
+.hide {
+	background:url(/njcbenglish/resource/cms/2016/07/2016052618041265507.jpg) no-repeat;
+	height:40px;
+	width:140px;
+	padding-left:20px;
+	color:#ffffff;
+	cursor:pointer;
+	line-height:40px;
+	font-size:18px;
+           margin-left:-1px;
+}
+
+/* specific to non IE browsers */
+.login ul li:hover ul {
+	display:block; 
+	position:absolute;
+	top:38px;
+	right:-13px;
+	z-index:9999!important;
+	background:url(/njcbenglish/resource/cms/2016/07/2016052618073782873.jpg) no-repeat center top;
+}
+.login ul li:hover ul.right_side li {
+	float:right;
+}
+.login ul li:hover ul.right li {
+	float:right;
+}
+.erji_login {
+	height:72px;
+	position:relative;
+	z-index:999;
+          display: none;
+	width:160px;
+	background:url(/njcbenglish/resource/cms/2016/07/2016052618073782873.jpg) no-repeat center top;
+           right:0;
+           margin-left:20px;
+
+       }
+.erji_login li {
+	border-top:1px #ffffff solid;
+	height:36px;
+	line-height:36px;
+       
+}
+.erji_login li a {
+	font-size:12px;
+	color:#ffffff;
+          height:36px;
+	line-height:36px;
+}
+.erji_login li a:hover {
+	color:#ffffff;
+        line-height:36px;
+        height:36px;
+        text-decoration:underline;
+        
+}
+.fd {
+	width:432px;
+	position:absolute;
+	z-index:9999!important;
+	height:90px!important;
+	right:-206px;
+	top:26px;
+}
+.fd_mid {
+	border: 1px solid #fc162b;
+	width:429px;
+	height:88px!important;
+}
+.nav{width;100%; background;#e8e7ec; height:45px;}
+.nav_con_eng{max-width:1200px; min-width:1000px; height:45px; margin:0 auto;}
+
+.nav_con_eng ul li{width:auto; padding-right:2%;height:45px;line-height:45px; float:left; color:#423836; font-size:16px;font-family:"微软雅黑";}
+.nav_con_eng ul li a{width:auto; height:45px;line-height:45px; padding-right:30px; float:left; color:#423836; font-size:18px!important;font-family:"微软雅黑";}
+.nav_con_eng ul li a:hover{color:#f26024;}
+
+/*头部红色样式*/
+.red{width:100%; line-height:40px; background:#d6000f; height:40px;}
+.red_con{max-width:1160px;min-width:960px;margin:0 auto;height:40px;line-height:40px;}
+.bh{width:300px;float:right; margin-right:2%;}
+.toplink {height:40px;width:165px; float:left;}
+
+
+.header_bg1 a{height:40px;line-height:40px; color:#FFF; float:left;}
+.header_bg1{color:#FFF;}
+.header_bgh{width:10px;padding-left:10px;padding-right:10px;color:#FFF; float:left;}
+</style>
+
+<div class="red">
+  <div class="red_con">
+      <div class="bh">
+              <div class="toplink"><img src="/njcbenglish/resource/cms/2017/01/img_pc_site/2017011610413991125.jpg"></div>
+             <div style="float:right; width:125px;"><div class="header_bg1"><a href="/njcb/index/index.html">中文</a></div><div class="header_bgh">|</div><div class="header_bg1"><a href="/njcbenglish/rnational_corporate/_please_contact_us!/network85/index.html">Ccntact Us</a></div></div>
+
+       </div>
+  </div>
+</div>
+<div style="background:#ffffff;">
+  <div class="head">
+      <div class="logo"><a href="/njcbenglish/index/index.html"><img src="/njcbenglish/resource/cms/2016/07/nj(2).jpg"></a></div>
+      <div class="link_search">
+        <div class="search">
+        <table width="35%" align="right" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+           <form name="searchForm" id="searchForm" action="/eportal/ui?pageId=408801&amp;moduleId=93b48e6fdbb04c1ba80218827e0fcc78" method="post" target="_blank"></form>
+            <td width="41%" align="right">
+             <input type="text" id="filter_LIKE_TITLE" name="filter_LIKE_TITLE" onfocus="clean(this)" class="form-text">
+        </td><td width="4%" align="left" valign="bottom"><input type="submit" value="" class="submit-btn"></td>
+
+            <td valign="middle" width="45%"><div class="login">
+                <ul>
+                  <li style="text-align:left;">
+                    <p class="hide">LOGIN</p>
+                    <ul class="erji_login">
+                      <li><a href="https://ebank.njcb.com.cn/perbank/login.jsp" target="_blank">Personal Online Banking</a></li>
+                      <li><a href="https://ebank.njcb.com.cn/corporbank/login.jsp" target="_blank">Corporate Online Banking</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div></td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="nav">
+  <div class="nav_con_eng">
+     <ul>
+        <li style="padding-left:40px;"><a href="/njcbenglish/index/index.html">HOME</a></li>
+        <li><a href="/njcbenglish/rnational_corporate/account_service/index.html">For International Corporate</a></li>
+        <li><a href="/njcbenglish/trade_service/national_remittance/index.html">Trade Service</a></li>
+        <li><a href="/njcbenglish/about_njcb/network/_in_outside_nanjing/index.html">About NJCB</a></li>  
+        <li><a href="/njcbenglish/with_bnp_paribas/index.html">With BNP PARIBAS</a></li>
+     </ul>
+  </div>
+<div class="clear"></div>
+</div>  <script>
+var w=screen.width;
+if (w<1030)document.write('<link rel="stylesheet" type="text/css" href="/njcbenglish/template/page/css1030/skin.css"/>');
+else if (w>1200)document.write('<link rel="stylesheet" type="text/css" href="/njcbenglish/template/page/index1200/skin.css"/>');
+</script><link rel="stylesheet" type="text/css" href="/njcbenglish/template/page/css1030/skin.css"> 
+  <link rel="stylesheet" type="text/css" href="/eportal/fileDir/njcb/template/page/index1200/skin.css"> 
+  <div id="top_hd" class="top_hd column" name="滑动图片" runat="server">
+     <div class="portlet" id="4c9ab20841214490b5950650a79f260e" pagemoduleid="c1c780b479a64daeb065004485d27c1b">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu4c9ab20841214490b5950650a79f260e" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   
+
+
+<div class="flexslider" opentype="more"> 
+ <ul class="slides"> 
+  <li style="background-image: url(http://njcb.com.cn/njcbenglish/resource/cms/2016/05/img_pc_site/2016052610504383306.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; -webkit-transition: opacity 0.4s ease; transition: opacity 0.4s ease; z-index: 2; background-position: 50% 0%; background-repeat: no-repeat no-repeat;" class="flex-active-slide"></li>
+  <li style="background-image: url(http://njcb.com.cn/njcbenglish/resource/cms/2016/05/img_pc_site/2016052610512356549.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.4s ease; transition: opacity 0.4s ease; z-index: 1; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"></li> 
+ </ul> 
+<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></div> 
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('.flexslider').flexslider({
+		directionNav: true,
+		pauseOnAction: false
+	});
+});
+</script> 
+ </div> 
+</div>   </div> 
+  <div class="middle_con"> 
+   <div id="midd_left" class="midd_left column" name="左侧" runat="server">
+      <div class="portlet" id="8af51c3912a44630b709622cee8b30f5" pagemoduleid="c04109a59d3b4e02af0aebead8590bfb">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu8af51c3912a44630b709622cee8b30f5" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <p style="text-align: left; margin-top: 60px; margin-left: 9%"><img src="/njcbenglish/resource/cms/2016/06/2016060209361682303.jpg" width="100%"></p>
+
+ 
+ </div> 
+</div>    </div> 
+   <div id="midd_right" class="midd_right column" name="右侧" runat="server">
+      <div class="portlet" id="6c84c39f43284855b12bfd2e38cead92" pagemoduleid="540e674f840949e7856a8c6cfe9624ea">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu6c84c39f43284855b12bfd2e38cead92" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <p style="color:#f36e3e;font-size:24px;height:40px;line-height:40px">For International Corporate</p>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="238dc86d14c240689cd3918d9504c6cb" pagemoduleid="6cf47a32f3814defbb985bc5f4d9c881">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu238dc86d14c240689cd3918d9504c6cb" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="line-height: 24px; color: #8a572d; font-size: 14px; padding-top: 30px"><div style="padding-bottom: 20px"><p><span>Our&nbsp;International Corporate Department(ICD)&nbsp;provides quality local banking services to Foreign Invested Enterprises by leveraging advantages of both partners.</span></p>
+</div>
+<p>- We provides comprehensive and competitive offer of all local commercial banking services;</p>
+<p>- We can, if necessary, accept different forms of local pledges (property, local account receivables, etc.) that most of foreign banks in China don’t commonly accept;</p>
+<p>- The branch network, under fast growth, offers progressively a good geographic coverage of all key economic regions in China.</p>
+</div>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="ca4424dfdc6845c0aefe1cb5f742d14b" pagemoduleid="4b13b637de4f496bafa7c0ca08875530">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenuca4424dfdc6845c0aefe1cb5f742d14b" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div class="clear"></div>
+<div class="lieb" style="margin-top: 30px"><ul>
+<li><a href="/njcbenglish/rnational_corporate/account_service/index.html">Account service</a></li>
+<li><a href="/njcbenglish/trade_service/national_remittance/index.html">Trade service</a></li>
+</ul>
+<ul>
+<li><a href="/njcbenglish/rnational_corporate/credit_facilities/index.html">Credit facilities</a></li>
+<li><a href="/njcbenglish/rnational_corporate/rvice_for_employees/index.html">Service for employees</a></li>
+</ul>
+<ul>
+<li><a href="/njcbenglish/rnational_corporate/risk_hedging/index.html">Risk hedging</a></li>
+<li><a href="/njcbenglish/rnational_corporate/cash_management/index.html">Cash management</a></li>
+</ul>
+</div>
+
+ 
+ </div> 
+</div>    </div> 
+  </div> 
+  <div class="clear"></div> 
+  <div style="MARGIN-TOP: 10px" class="middle_con01"> 
+   <div id="midd_wz" class="midd_wz column" name="文章" runat="server">
+      <div class="portlet" id="4f762dc102454c79875c0337672f344d" pagemoduleid="7700536cbd01402d948fb76046283cce">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu4f762dc102454c79875c0337672f344d" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="line-height: 40px; height: 40px; color: #f36e3e; margin-left: 8%; font-size: 24px">Trade Service</div>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="61be44ebb59542678f8a751bb9ebf2b2" pagemoduleid="3a0fabaf689b4532ad6975c942eff301">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu61be44ebb59542678f8a751bb9ebf2b2" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <style type="text/css">
+.lieb{ width:100%; height:auto; }
+.lieb ul li{ width:48%; padding-left:2%; font-size:14px; float:left; color:#f16124;background:url(/njcbenglish/resource/cms/2016/05/2016052510072653819.jpg) no-repeat left;}
+.lieb ul li a{ width:100%;height:30px; line-height:30px; font-size:14px; padding-left:2%; float:left; color:#f16124;}</style>
+<div class="lieb" style="margin-bottom: 30px; margin-left: 8%"><ul>
+<li><a href="/njcbenglish/trade_service/national_remittance/index.html">International remittance</a></li>
+<li><a href="/njcbenglish/trade_service/_of_guarantee&amp;sblcs/index.html">Letter of guarantee&amp;SBLCs</a></li>
+</ul>
+<ul>
+<li><a href="/njcbenglish/trade_service/s-border_settlement/index.html">RMB cross-border settlement</a></li>
+<li><a href="/njcbenglish/trade_service/fx_spot/index.html">FX spot</a></li>
+</ul>
+<ul>
+<li><a href="/njcbenglish/trade_service/letter_of_credit/index.html">Letter of credit</a></li>
+<li><a href="/njcbenglish/trade_service/fx_forward/index.html">FX forward</a></li>
+</ul>
+<ul>
+<li><a href="/njcbenglish/trade_service/national_collection/index.html">International collection</a></li>
+<li><a href="/njcbenglish/trade_service/specialists_contact/index.html">Trade specialists contact</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="425bd019e20540b3bdef9117cfe6a682" pagemoduleid="2bea869f3f3f41a1bcd4299f6641fd0d">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu425bd019e20540b3bdef9117cfe6a682" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="text-align: left; margin-top: 30px;padding-left:8%;"><a href="/njcbenglish/trade_service/national_remittance/index.html"><img src="/njcbenglish/resource/cms/2016/05/2016052510164658372.jpg"></a></div>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="e2fc0af03a6a4efca08d32dfe9557199" pagemoduleid="b1ba50085ce745619172596901a4fe3c">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenue2fc0af03a6a4efca08d32dfe9557199" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="text-align: left; margin-top: 30px; padding-left: 8%"><a href="https://ebank.njcb.com.cn/perbank/PB00000100EN.do"><img src="/njcbenglish/resource/cms/2016/08/INTER.jpg"></a></div>
+
+ 
+ </div> 
+</div>    </div> 
+   <div id="midd_tp" class="midd_tp column" name="图片" runat="server">
+      <div class="portlet" id="1974f5a7df9f4e64b8c64f2f5fcc0589" pagemoduleid="026f1809d2eb49c59279073586814daa">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu1974f5a7df9f4e64b8c64f2f5fcc0589" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <p style="text-align: left"><img src="/njcbenglish/resource/cms/2016/05/2016052515402791596.jpg" width="100%"></p>
+
+ 
+ </div> 
+</div>    </div> 
+  </div> 
+  <div class="clear"></div> 
+  <div style="MARGIN-TOP: 10px" class="middle_njyh"> 
+   <div> 
+    <div id="midd_njL" class="midd_njL column" name="南京银行" runat="server">
+       <div class="portlet" id="f47ed63411ee4b41bf0d54eff0e1f8d8" pagemoduleid="6b99e09be268409d8bf55ccc69d87115">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenuf47ed63411ee4b41bf0d54eff0e1f8d8" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="margin-left: 50px"><img src="/njcbenglish/resource/cms/2016/05/2016052515355150360.jpg" width="100%"></div>
+
+ 
+ </div> 
+</div>     </div> 
+    <div id="midd_njR" class="midd_njR column" name="南京银行右侧" runat="server">
+       <div class="portlet" id="fa2e56c3062848a3b8bf476c67e0afa6" pagemoduleid="8ebf0548635347b69abdd944f14247b5">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenufa2e56c3062848a3b8bf476c67e0afa6" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="color:#f36e3e;font-size:24px;height:40px;line-height:40px">About NJCB</div>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="07b2eb6da3d64d9c9b55365f6fbd3155" pagemoduleid="08b51fc34e914efa8600bb49af0bb327">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu07b2eb6da3d64d9c9b55365f6fbd3155" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="font-size:14px;color:#8a572d; line-height:24px;"><div style="margin-top:30px;"><p>Bank of Nanjing was founded in Nanjing, Jiangsu Province in 1996. Bank of Nanjing is among the 16 listed banks out of over 1,000 domestic banks nationwide (IPO in 2007), ensuring information transparency and appropriate governance with market capitalization of USD3.714billion (as of 30th June 2013).</p>
+</div>
+<div style="margin-top:20px;margin-bottom:20px;"><p>Bank of Nanjing is providing a full range of financial products and service for all types of clienteles.</p>
+</div>
+<p>Whatever you are, micro or small enterprise, medium or large corporate,</p>
+</div>
+
+ 
+ </div> 
+</div>     </div> 
+   </div> 
+   <div class="clear"></div> 
+   <div id="lidh" class="lidh column" name="南京银行下侧" runat="server">
+      <div class="portlet" id="c397373ccc30486bb52b0386143b85ed" pagemoduleid="f8c8a6cb17d047d4ae26583a6dda032f">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenuc397373ccc30486bb52b0386143b85ed" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div class="contact"><div class="bills"><div style="line-height: 60px; height: 60px; color: #f36e3e !important; font-size: 26px">contact us</div>
+<ul>
+<li><a href="/njcbenglish/rnational_corporate/_please_contact_us!/for_bills_processing/index.html">For bills processing</a></li>
+<li><a href="/njcbenglish/rnational_corporate/_please_contact_us!/usiness_development/index.html">For business development</a></li>
+</ul>
+</div>
+<div class="newWork"><ul>
+<li><a href="/njcbenglish/rnational_corporate/_please_contact_us!/network85/index.html">Network</a></li>
+<li><a href="/njcbenglish/rnational_corporate/_please_contact_us!/organization17/index.html">Organization</a></li>
+<li><a href="/njcbenglish/about_njcb/lestones_and_awards/index.html">Key milestones and awards</a></li>
+<li><a href="/njcbenglish/rnational_corporate/_please_contact_us!/annual_reports64/index.html">Annual reports</a></li>
+<li><a href="http://www.njcb.com.cn:8888/njcbenglish/resource/cms/2016/07/2016071222520819618.pdf ">Pitch book</a></li>
+</ul>
+</div>
+<div class="mo"><a href="/njcbenglish/rnational_corporate/_please_contact_us!/network85/index.html"><img src="/njcbenglish/resource/cms/2016/05/2016052511363484939.jpg"></a></div>
+</div>
+
+ 
+ </div> 
+</div>    </div> 
+  </div> 
+  <div class="clear"></div> 
+  <div class="bnp"> 
+   <div> 
+    <div id="bnpL" class="bnpL column" name="文章2" runat="server">
+       <div class="portlet" id="0875cf2f8bb84498b8f03610df577c02" pagemoduleid="e873e26b9c754bf9adcf6c67306efb0a">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu0875cf2f8bb84498b8f03610df577c02" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div class="with"><a href="/eportal/ui?pageId=394342">With BNP PARIBAS</a></div>
+<style type="text/css">
+.with a{color:#f36e3e;font-size:24px;height:60px;line-height:60px;}</style>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="dbd913d100b445b3a40a0ac3ff3dfe3a" pagemoduleid="70f23e00bd1a439c8bf46d470a95e9c6">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenudbd913d100b445b3a40a0ac3ff3dfe3a" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="font-size:14px;color:#8a572d; line-height:24px;"><p>Recent years, as Bank of Nanjing has achieved great progress in comprehensive operation, the operation between Bank of Nanjing and BNP Paribas also extended to more diversified business areas, especially digital banking, cash management, private banking，consumer finance and financial market business.</p>
+</div>
+
+ 
+ </div> 
+</div>     </div> 
+    <div id="bnpR" class="bnpR column" name="图片2" runat="server">
+       <div class="portlet" id="e8832d3c1a734de49dfae8b042172b9c" pagemoduleid="3631734a993f46afa40cdca95b2536c5">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenue8832d3c1a734de49dfae8b042172b9c" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <p style="text-align: left"><img src="/njcbenglish/resource/cms/2016/05/2016052514213869265.jpg" width="100%"></p>
+
+ 
+ </div> 
+</div>     </div> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+  <div class="clear"></div> 
+  <div class="share"> 
+   <div id="hold" class="hold column" name="文章左" runat="server">
+      <div class="portlet" id="9c356bd95dd9445d9cc3da5e21011f1b" pagemoduleid="aa2c342ac0d14f63a73bffcc9b0ccb47">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu9c356bd95dd9445d9cc3da5e21011f1b" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div class="sh"><a href="/eportal/ui?pageId=394342">Share holding information</a></div>
+<style type="text/css">
+.sh a{color:#f36e3e;font-size:24px;height:70px;line-height:70px;}</style>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="466110ef295e4bcb86fede857d38632c" pagemoduleid="ec952525992b43459d799a5eaf98f82a">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu466110ef295e4bcb86fede857d38632c" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="font-size:14px;color:#8a572d; line-height:24px;"><p>Bank of Nanjing has set up strategic cooperation with BNP Paribas in October, 2005. By end of 2014, BNP Paribas was holding 12.68% shares of Bank of Nanjing; while BNP Paribas QFII was holding 3.50% shares of Bank of Nanjing. Therefore, BNP Paribas was holding totally 16.18% of Bank of Nanjing shares.</p>
+</div>
+
+ 
+ </div> 
+</div>    </div> 
+   <div id="person" class="person column" name="文章中间" runat="server">
+      <div class="portlet" id="6eaab2482cde4fb5b52849d7dcf8e818" pagemoduleid="a16243466903420eaaf541e70c4440c3">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu6eaab2482cde4fb5b52849d7dcf8e818" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div class="per"><a href="/eportal/ui?pageId=394342">Person exchange</a><br>
+<a href="/eportal/ui?pageId=394342">information</a></div>
+<style type="text/css">
+.per a{color:#f36e3e;font-size:24px; text-align:left;height:30px;line-height:30px;margin-top:40px;}</style>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="d4d3eb388b7044f59fe074938e7f99e2" pagemoduleid="24faee61e4dc4db88c21b9eabc1a084e">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenud4d3eb388b7044f59fe074938e7f99e2" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="font-size:14px;color:#8a572d; line-height:24px;margin-top:40px;"><p>Bank of Nanjing has set up strategic cooperation with BNP Paribas in October, 2005. By end of 2014, BNP Paribas was holding 12.68% shares of Bank of Nanjing; while BNP Paribas QFII was holding 3.50% shares of Bank of Nanjing. Therefore, BNP Paribas was holding totally 16.18% of Bank of Nanjing shares.</p>
+</div>
+
+ 
+ </div> 
+</div>    </div> 
+   <div id="infor" class="infor column" name="文章右" runat="server">
+      <div class="portlet" id="94aa6882ade84c37831b0b036b818ac4" pagemoduleid="820edcae447c4ebf94850891d7bf578f">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu94aa6882ade84c37831b0b036b818ac4" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div class="cocp"><a href="/eportal/ui?pageId=394342">Cooperation information</a></div>
+<style type="text/css">
+.cocp a{color:#f36e3e;font-size:24px;height:70px;line-height:70px;}</style>
+
+ 
+ </div> 
+</div>  <div class="portlet" id="3a13b208ac9f4a549bbce67c5f7c506e" pagemoduleid="b53ed37a6b974eab81aacc26d95ca8fc">
+ <div align="left" class="portlet-header" style="display: none;"> 
+  <span id="menu">
+        </span> 
+  <div id="submenu3a13b208ac9f4a549bbce67c5f7c506e" class="shadow dn"> 
+   <ul class="float_list_ul">
+        </ul> 
+  </div> 
+ </div> 
+ <div>
+   <div style="font-size:14px;color:#8a572d; line-height:24px;"><p>In terms of operation and management, the cooperation concentrates on finance, risk management, human resources and asset &amp; liabilities management.
+
+</p>
+</div>
+
+ 
+ </div> 
+</div>    </div> 
+  </div> 
+  <div class="clear"></div> 
+  <div id="contentpanel" name="contentpanel" runat="server" class=" column">
+      </div><style>
+.comfooter {
+         min-width:1000px;
+	width:100%;
+	background:#FFF;
+	hegiht:auto;
+        border-top:solid 6px #f26321;
+}
+.footer{ min-width:1000px; width:100%;margin:0 auto;text-align:center; padding-top:20px;padding-bottom:20px; color:#855d3a;}
+
+</style>
+<div class="comfooter">
+  <div class="footer">
+  <p><span style="font-family:'微软雅黑 Regular', '微软雅黑';">@ BANK OF NANJING. All rights reserved. </span></p><p><span style="font-family:'微软雅黑 Regular', '微软雅黑';">Address:No.288 Zhongshan Road,Nanjing,China,210008</span></p>
+ <p><span>南京银行版权所有</span><span> <a href="http://www.miitbeian.gov.cn/">苏ICP备05011455号</a> </span><span>未经授权禁止复制或建立镜像 基金代销业务资格 批准文号/资格证书号</span><span> <a href="/eportal/ui?pageId=304367&amp;articleKey=383466&amp;columnId=307092">证监许可【2008】1246号</a><br><br><a id="_pingansec_bottomimagelarge_brand" href="http://si.trustutn.org/info?sn=436161026025111073481&amp;certType=1"><img src="http://v.trustutn.org/images/cert/brand_bottom_large.jpg"></a></span></p>
+  </div>
+</div><div style="display:none" easysite="easysiteHiddenDiv">
+<input type="hidden" id="currentLoginUserLoginName">
+<input type="hidden" id="currentLoginUserLoginId">
+</div> 
+</body></html>

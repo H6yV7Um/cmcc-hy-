@@ -1,0 +1,1761 @@
+<html><head><style media="screen"></style><link id="comm-style-exter" href="/css/exter.css" rel="stylesheet" type="text/css">
+<link id="comm-style" href="/css/style.css" rel="stylesheet" type="text/css">
+<link href="/css/rc.css" rel="stylesheet" type="text/css">
+<script src="/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="/js/index_V3.js" type="text/javascript"></script>
+<script src="/js/TranslucenPng.js" type="text/javascript"></script>
+<script src="/js/util.js" type="text/javascript"></script>
+<script src="/js/framework.js" type="text/javascript"></script>
+<script src="/js/menu.js" type="text/javascript"></script>
+<script src="/js/tree/Bs_Misc.lib.js" type="text/javascript"></script>
+<script src="/js/tree/Bs_Array.class.js" type="text/javascript"></script>
+<script src="/js/tree/Bs_Tree.class.js" type="text/javascript"></script>
+<script src="/js/tree/Bs_TreeElement.class.js" type="text/javascript"></script>
+<script src="/js/tree/Bs_Checkbox.class.js" type="text/javascript"></script>
+<script src="/js/coolbutton.js" type="text/javascript"></script>
+<script src="/js/calendar.js" type="text/javascript"></script></head><body id="box" onload="loadLogin();" onkeypress="DoKeyEnter();"><div onclick="bShow=true" id="calendar" style="z-index:+999;position:absolute;visibility:hidden;"><table cellpadding="0px" cellspacing="0px" width="220" style="font-family:arial;font-size:9pt;border:1px solid #a0a0a0;"><tbody><tr bgcolor="#0000aa"><td><table width="218"><tbody><tr><td style="padding:1px;font-family:arial;font-size:9pt;"><font color="#ffffff"><b><span id="caption"></span></b></font></td><td align="right"><a href="javascript:hideCalendar()"><img src="../images/close.gif" width="15" height="13" border="0" alt="关闭"></a></td></tr></tbody></table></td></tr><tr><td style="padding:5px" bgcolor="#ffffff"><span id="content"></span></td></tr></tbody></table></div><div id="selectMonth" style="z-index:+999;position:absolute;visibility:hidden;"></div><div id="selectYear" style="z-index:+999;position:absolute;visibility:hidden;"></div>
+<script src="/js/tab.js" type="text/javascript"></script>
+<script src="/js/dynamictable.js" type="text/javascript"></script>
+<script src="/js/exter_menu.js" type="text/javascript"></script>
+<script src="/js/agree_wait.js" type="text/javascript"></script>
+<script src="/js/check_data.js" type="text/javascript"></script>
+<script src="/js/send_mail.js" type="text/javascript"></script>
+<script src="/js/AC_RunActiveContent.js" type="text/javascript"></script>
+<script src="/js/Cls_jsPage.js" type="text/javascript"></script>
+<script src="/js/JTimer_1.3.js" type="text/javascript"></script>
+
+<!--显示进度条-->
+<div id="processBar" class="divProcessBar" style="display:none;border:1px solid gray;z-index:900;">
+    <table border="0" cellspacing="5px" cellpadding="5px">
+        <tbody><tr>
+            <td align="center"><span id="clock">00:00:00</span>&nbsp;<img src="/images/loading.gif" align="absmiddle" border="0"></td>
+        </tr>
+        <tr>
+            <td align="center">操作正在进行中,请稍候...</td>
+        </tr>
+    </tbody></table>
+</div>
+
+
+
+
+    <title>中国农业银行欢迎您</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="农业银行,农行,招聘">
+    <meta http-equiv="description" content="中国农业银行站">
+
+    <style type="text/css">
+        <!--
+        body {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            text-align:center;
+        }
+
+        td.navigation {
+            background-color: #03a87f;
+            height: 28px;
+        }
+
+        -->
+    </style>
+
+
+
+<script type="text/javascript">
+	TranslucenPng.fix('.Search');
+    TranslucenPng.fix('#logo');
+    TranslucenPng.fix('.FstMenu ');
+     var menuid = 0;
+</script>
+
+<style>
+#logo { width:225px; height:62px; float:left; background-image: url(../images/logo_new.png) ;background-repeat :no-repeat; }
+#logo2 { width:225px; height:77px; float:left;  }
+.dt {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	float: right;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.dd{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-top: 3px;
+	margin-left: 4px;
+	float: left;
+}
+
+div.menuNormal {
+    display: none;
+    position: static;
+}
+
+div.menuHover {
+    border: 1px solid green;
+    background-color: #397a76;
+    display: inline;
+    position: absolute;
+}
+
+.navigation {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.navigation:link {
+    color: white;
+}
+
+a.navigation:visited {
+    color: white;
+}
+
+a.navigation:hover {
+    color: black;
+}
+
+a.navigation:active {
+    color: black;
+}
+
+.mainmenu {
+	float: center;
+	height: 24px;
+	background-image: url(/images/index_09.jpg);
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+
+* {
+	margin: 0px;
+	padding: 00px;
+}
+A.topLJ1:link {
+	COLOR: #b7dad3; TEXT-DECORATION: none
+}
+A.topLJ1:visited {
+	COLOR: #b7dad3; TEXT-DECORATION: none
+}
+A.topLJ1:hover {
+	COLOR: #b7dad3; TEXT-DECORATION: underline
+}
+A.topLJ1:active {
+	COLOR: #b7dad3; TEXT-DECORATION: none
+}
+A.topLJ2:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.topLJ2:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.topLJ2:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.topLJ2:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+	
+}
+#left_1 {
+	float: left;
+	height: 25px;
+	width: 150px;
+	background-repeat: repeat-x;
+	margin-bottom: 5px;
+	background-image: url(/images/_06.jpg);
+}
+#left {
+	float: left;
+	height: auto;
+	width: 150px;
+}
+
+a.biaoti:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.biaoti:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.biaoti:hover {
+	text-decoration: none;
+}
+a.biaoti:active {
+	text-decoration: none;
+	}
+</style>
+<script type="text/javascript">
+    var tabIndex;
+
+    function SelectMenu(index) {
+ 
+        for (i = 0; i <= 8; i++) 
+        {
+            if (i == index){
+				if (document.getElementById("SecMenu" + i) && document.getElementById("SecMenu" + i).style.display != "block"){
+					document.getElementById("SecMenu" + i).style.display = "block";
+					
+					if(i == 0){
+						document.getElementById("Menu_" + i).className = "FstMenu_on";
+					}else{
+						document.getElementById("Menu_" + i).className = "Menu_on";  
+					}
+				}
+            }else{ 
+	            if (document.getElementById("SecMenu" + i) && document.getElementById("SecMenu" + i).style.display != "none"){
+	                document.getElementById("SecMenu" + i).style.display = "none";
+	                if(i == 0 ){
+	                	document.getElementById("Menu_" + i).className = "FstMenu_off";
+	                }else{
+	                	document.getElementById("Menu_" + i).className = "Menu_off";
+	                }
+	               
+	            }
+	             
+            }
+
+         }
+
+    
+        if(index == 0) {
+            document.getElementById("SecMenu0").style.display = "block";
+        }else{
+        	document.getElementById("SecMenu0").style.display = "none";
+        }
+        
+    }
+    
+    function HideAllMenu() 
+    {
+        for (i = 1; i <= 8; i++) {
+            //if (i == tabIndex)
+              //  continue;
+            if (document.getElementById("SecMenu" + i) && document.getElementById("SecMenu" + i).style.display == "block")
+                document.getElementById("SecMenu" + i).style.display = "none";
+            if (document.getElementById("Menu_" + i) && document.getElementById("Menu_" + i).className != "Menu_off")
+                document.getElementById("Menu_" + i).className = "Menu_off";
+        }
+         if (document.getElementById("SecMenu" + tabIndex))
+            document.getElementById("SecMenu" + tabIndex).style.display = "block";
+         else
+            document.getElementById("SecMenu1").style.display = "block";
+        if (document.getElementById("Menu_" + tabIndex) && document.getElementById("Menu_" + tabIndex).className != "Menu_on") 
+            document.getElementById("Menu_" + tabIndex).className = "Menu_on";
+    }
+      
+    function HideMenu(e, subMenuElementID)
+    {
+        if(!isMouseToSubMenu(e, subMenuElementID))
+        HideAllMenu();
+    } 
+    
+    function HideSubMenu(e, handler)
+    {
+        if(isMouseLeaveOrEnter(e, handler))
+        {
+        HideAllMenu();
+        }
+    } 
+    
+
+    function isMouseLeaveOrEnter(e, handler)
+    {
+      if (e.type != 'mouseout' && e.type != 'mouseover') return false;
+       var reltg = e.relatedTarget ? e.relatedTarget : e.type == 'mouseout' ? e.toElement : e.fromElement;
+       while (reltg && reltg != handler)
+                 reltg = reltg.parentNode;
+       return (reltg != handler);
+    }
+
+    function isMouseToSubMenu(e, subMenuElementID)
+    {
+     if (e.type != 'mouseout')
+        return false;
+     var reltg = e.relatedTarget ? e.relatedTarget : e.toElement;
+     while(reltg && reltg.id != subMenuElementID)
+        reltg = reltg.parentNode;
+       
+      return reltg;
+    }
+
+</script>
+
+<center>
+
+   <div class="wrapper">
+    <div class="V2_Header">
+         <div class="HeaderTop_right">
+            <div class="QuickNav" style="color:#245a57;">
+				<a href="http://www.abchina.com/cn" style="color:#245a57;">官网首页</a> | <a href="/map.do" style="color:#245a57;">网站地图</a></div>
+         </div>
+         <div id="logo"></div>
+         <div class="clear"></div>
+	</div>	
+ 	<div class="shadow_m">
+        <div class="shadow_t1">
+          <div class="shadow_b1">
+            <!--一级导航开始-->
+            <div class="fstmenu">
+              <div id="FstMenu" class="fstmenu_l">
+                <ul class="ment f14 bold">
+                  <li id="Menu_0" class="FstMenu_on" onmouseover="SelectMenu(0)" onmouseout="MMOut('0',menuid)"><a href="/rio/index.do?action=openHome" target="_self">招聘首页</a></li>
+
+				  <li id="Menu_2" onmouseover="SelectMenu(2)"><a href="/prs/jobSearch.do?action=toSearch">信息查询</a></li>
+                  <li id="Menu_3" onmouseover="SelectMenu(3)"><a href="javaScript:void(0);">我的简历</a></li>
+                  <li id="Menu_4" onmouseover="SelectMenu(4)"><a href="javaScript:void(0);">我的应聘</a></li>
+                  <li id="Menu_5" onmouseover="SelectMenu(5)"><a href="javaScript:void(0);">我的关注</a></li>
+                  <li id="Menu_6" onmouseover="SelectMenu(6)"><a href="javaScript:void(0);">注册信息修改</a></li>
+                  <li id="Menu_7" onmouseover="SelectMenu(7)"><a href="javaScript:void(0);">提问与回答</a></li>
+                  <li id="Menu_8" onmouseover="SelectMenu(8)"><a href="/rio/logoff.do">安全退出</a></li>
+                 
+                </ul>
+              </div>
+              <div id="time" class="fstmenu_r" style="color:#fff;line-height:26px">
+             		<script language="JavaScript"> 
+			             today=new Date();
+			             var hours = today.getHours();
+			             var minutes = today.getMinutes();
+			             var seconds = today.getSeconds();
+			             var timeValue =((hours >12) ? hours -12 :hours); timeValue += ((minutes < 10) ? "<BLINK>:</BLINK>0" : "<BLINK>:</FONT></BLINK>") + minutes;
+			                 timeValue += (hours >= 12) ? " PM" : " AM";
+			             function initArray(){
+			                 this.length=initArray.arguments.length
+			                 for(var i=0;i<this.length;i++)
+			                 this[i+1]=initArray.arguments[i] }
+			                 var d=new initArray("周日","周一","周二","周三","周四","周五","周六"); 
+			                 document.write("",today.getFullYear(),"年","",today.getMonth()+1,"月","",today.getDate(),"日 ",d[today.getDay()+1],""); 
+			         </script>2018年1月9日 周二
+			   </div>
+            </div>
+            <!--一级导航结束-->
+            <!--二级导航开始-->
+            <div class="secment" id="SecMenu0" style="display: block;">
+           		<!--  	2013年校园招聘电子书：&nbsp;&nbsp;
+                  <a href="/city_online/index.html" target="_blank">城区专刊</a>|
+                  <a href="/present/city_present.exe" target="_blank">下载</a>&nbsp;&nbsp;
+                  <a href="/county_online/index.html" target="_blank">县域专刊</a>|
+                  <a href="/present/county_present.exe" target="_blank">下载</a>&nbsp;&nbsp;
+                  <a href="/county_official_online/index.htm" target="_blank">面向大学生“村官”招聘专刊</a>|
+                  <a href="/present/county_official_present.exe" target="_blank">下载</a>-->
+            </div>
+			
+			<div class="secment" style="display: none;" id="SecMenu2"></div>
+			<div class="secment" style="display: none;" id="SecMenu3">
+				<a href="/rms/resume.do?action=check" target="_self">编辑简历</a>|
+				<a href="/rms/preview_resume.do?action=viewResume" target="_self">预览简历</a>
+			</div>
+			<div class="secment" style="display: none;" id="SecMenu4">
+            	<a href="/mai/jobAppliedView.do?action=listApply" target="_self">我申请的职位</a>|
+            	<a href="/mai/jobAppliedView.do?action=listApplyEnd" target="_self">我曾经申请的职位</a>|
+                <a href="/mai/jobCollectManage.do?action=listCollect" target="_self">我收藏的职位</a>|
+                <a href="/mai/messageView.do?action=listMessage" target="_self">我的站内通知信</a>|
+                <a href="/prs/jobDetails.do?action=seeTestCard&amp;jobPublishId=-1" target="_self">我的准考证</a>|
+                <a href="/mai/messageView.do?action=listMyAnswer" target="_self">我的主观题</a>
+			</div>
+			<div class="secment" style="display: none;" id="SecMenu5">
+				<a href="/mai/myAttention.do?action=list" target="_self">设置我的关注</a>|
+                <a href="/mai/myAttention.do?action=listPronByMyAtt" target="_self">查看我关注的信息</a>
+			</div>
+			<div class="secment" style="display: none;" id="SecMenu6">
+				<a href="/rio/userDetailAlter.do?action=check" target="_self">基本信息修改</a>|
+                <a href="/rio/pwdModify.do?action=check" target="_self">密码修改</a>
+			</div>
+			<div class="secment" style="display: none;" id="SecMenu7">
+				<a href="/prs/jobDetails.do?action=classicsQuestion" target="_self">最多提问</a>|
+                <a href="/prs/jobDetails.do?action=answAndQuestion" target="_self">全部问题</a>|
+                <a href="/page.do" target="_self">常见问题</a>|
+                <a href="/prs/jobDetails.do?action=myAnswAndQuestion" target="_self">我的提问</a>
+			</div>
+			<div class="secment" style="display: none;" id="SecMenu8"></div>
+            <!--二级导航开始-->
+            <!--内容区域一开始-->
+            <!--内容区域一结束-->
+          </div>
+        </div>
+      </div>
+
+  </div>
+</center>				
+
+
+
+
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+
+<script type="text/javascript" src="../js/jquery1.2.6.js"></script>
+<script type="text/javascript" src="../js/md5.js"></script>
+<style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+		/** reset styling **/
+		#film{ border:#39C 1px}
+		#film a{ float:left; margin-right:3px; border:#CCC 3px solid;}
+		#film img{ border:none}
+
+
+#box{margin:0 auto;}
+#box1{position:relative;}
+#box1_1{}
+</style>
+<script type="text/javascript">
+function secBoard(toId){
+	window.location.href="/rio/index.do?action=openHome&toId="+toId+"&token=1515479598551";	
+	}
+	function loadLogin(){
+		var url="/rio/index.do?action=loadLogin&token=1515479598551";
+　　		var xmlHttp=this.createXmlHttpRequest();
+        xmlHttp.open("POST",url, true);
+        xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+		xmlHttp.send("");
+		xmlHttp.onreadystatechange=processResponse;
+		function processResponse(){
+			if(xmlHttp.readyState==4){ 
+				if(xmlHttp.status==200){ 
+					var msg=xmlHttp.responseText;
+					var ifLogin = msg.substring(0,1);
+					var end = msg.length;
+					document.getElementById("frm").innerHTML = msg.substring(1,end);
+					if(ifLogin == "n"){
+						showImg();
+					}
+				}
+			}
+		}
+	}
+	function showImg(){
+		var timer = window.setTimeout("showImg()",2000);
+		document.getElementById("randomImg").src="/rio/image.do";
+		window.clearTimeout(timer);
+	}
+</script>
+<script defer="defer" type="text/javascript">
+    function listJobIdName() {
+        var instCode = document.getElementById("hs(jobTypeId)").value;
+        var href = "/ssm/hideFrame.do";
+        var actionName = "/ssm/changeList.do?action=listJobIdName"+"&token=1515479598551";
+        HideFrame.document.location.href = href + "?transferParam=" + instCode + "&actionName=" + actionName;
+    }
+    /**function loadValue()
+    {
+        var valueList;
+        var textList;
+        var selectName;
+        var selectValue;
+
+        valueList = HideFrame.document.getElementById("value").value;
+        textList = HideFrame.document.getElementById("name").value;
+        selectName = "hs(jobId)";
+        selectValue = "";
+        generateSubSelect(selectName, selectValue, valueList, textList, ",", ",", true);
+    }
+    document.getElementById("hs(engageType)").value = "";
+    document.getElementById("hs(deptId)").value = "";**/
+</script>
+	
+<center>
+  <div>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" height="400" width="951">
+       <tbody>
+       	 <tr>
+  	       <td width="2">&nbsp;</td>
+           <td height="1" width="200">&nbsp;</td>
+           <td height="10">&nbsp;</td>
+         </tr>
+         <tr>
+  	       <td>&nbsp;</td>
+           <td align="left" valign="top">
+               <form id="frm" name="frm" method="post" action="/rio/logon.do?action=loginFromHome"><table style="border-style: solid;border-color: #D8D8D8;display: block;height: 199px;width: 199px;" border="1" cellpadding="0" cellspacing="0" width="99%"><tbody> <tr align="left" height="33"><td colspan="3" style="height:33px;width:190px;font-weight:900;font-size:13px;color:#5C5C5C;background: url('/images/userlogin.png')">&nbsp;</td></tr><tr><td height="5"></td></tr><tr height="25" align="center"><td colspan="1" align="left" nowrap="nowrap" width="30%">&nbsp;&nbsp;用户名</td><td colspan="2" align="left"><input id="userName" name="userName" size="20" maxlength="30" style="width: 110px;height:20px;" type="text"></td></tr><tr height="25" align="center"><td colspan="1" align="left" nowrap="nowrap" width="30%">&nbsp;&nbsp;密　码</td><td colspan="2" align="left"><input id="userPwd" name="userPwd" size="20" maxlength="100" style="width: 110px;height:20px;" type="password"></td></tr><tr height="25" align="center"><td colspan="1" align="left" valign="middle" nowrap="nowrap" width="30%">&nbsp;&nbsp;校验码</td><td colspan="2" align="left" valign="middle"><input id="validCode" name="validCode" size="20" maxlength="4" style="width: 60px;height:20px;" type="text"><span><img align="absmiddle" id="randomImg" src="/rio/image.do">&nbsp;</span></td></tr><tr align="center"><td colspan="3"><table frame="border" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr align="center"><td><button name="btnSubmit" onclick="login();return false;" style="height:25px;width:160;cursor:hand">登&nbsp;&nbsp;录</button></td></tr><tr><td height="10"></td></tr><tr align="center"><td><a id="btnSubmit" onclick="window.location.href='/rio/registryAgree.do'" style="width:55;cursor:hand;color:929292;">会员注册&nbsp;</a><a id="btnReset" onclick="showFindPassModle();" style="width:55;cursor:hand;color:929292;">忘记密码</a></td></tr></tbody></table></td></tr></tbody></table><br><br><table class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%"><tbody><tr><td><p align="left" style="margin:5px 10px 0 10px;color:367E7F;font-weight:900;font-size:13px;text-decoration:none;border-bottom: 1px solid #E5E5E5;">我的关注</p><div id="dingzhi" style="height:124px;overflow:hidden;"><table id="dingzhi" style="height:124px;overflow:hidden;"><tbody><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td><p style="color:929292;font-size: 13px;text-decoration:none;">&nbsp;登录后可查看关注信息</p></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></tbody></table></div></td></tr></tbody></table></form>
+<br>
+<br>
+               <!--  <table style="display:none;" class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%">-->
+               <table class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%">
+                     <tbody>
+                         	  <tr>
+                              <td>
+                              	<p align="left" style="margin:5px 10px 0 10px;color:367E7F;font-weight:900;font-size:13px;text-decoration:none;border-bottom: 1px solid #E5E5E5;">快速查询</p>
+                              	 <form name="basMapForm" method="post" action="/prs/searchResultList.do?action=list" id="formSearch" target="_blank">
+                              	 <input type="hidden" name="token" value="1515479598552">
+                            		<table id="dingzhi" style="height:124px;border:0;overflow:hidden;">
+                            			<tbody>
+                          
+                              		<tr>
+                              			<td width="10">&nbsp;</td>
+                              			<td width="70" style="color:595959;">招聘机构:</td>
+                              			<td width="120" style="margin:0 10px 0 0;">
+                              				 <!-- <select name="hs(deptId)" style="width:80%"><option value=""></option><option value="0" deptType="2400">总行</option><option value="282" deptType="2401">北京市分行</option><option value="302" deptType="2401">天津市分行</option><option value="322" deptType="2401">河北省分行</option><option value="342" deptType="2401">山西省分行</option><option value="362" deptType="2401">内蒙古自治区分行</option><option value="382" deptType="2401">辽宁省分行</option><option value="402" deptType="2401">吉林省分行</option><option value="422" deptType="2401">黑龙江省分行</option><option value="442" deptType="2401">上海市分行</option><option value="462" deptType="2401">江苏省分行</option><option value="482" deptType="2401">浙江省分行</option><option value="502" deptType="2401">安徽省分行</option><option value="522" deptType="2401">福建省分行</option><option value="542" deptType="2401">江西省分行</option><option value="562" deptType="2401">山东省分行</option><option value="582" deptType="2401">河南省分行</option><option value="602" deptType="2401">湖北省分行</option><option value="622" deptType="2401">湖南省分行</option><option value="642" deptType="2401">广东省分行</option><option value="662" deptType="2401">广西壮族自治区分行</option><option value="682" deptType="2401">海南省分行</option><option value="702" deptType="2401">四川省分行</option><option value="722" deptType="2401">贵州省分行</option><option value="742" deptType="2401">云南省分行</option><option value="762" deptType="2401">西藏自治区分行</option><option value="782" deptType="2401">重庆市分行</option><option value="802" deptType="2401">陕西省分行</option><option value="822" deptType="2401">甘肃省分行</option><option value="842" deptType="2401">青海省分行</option><option value="862" deptType="2401">宁夏回族自治区分行</option><option value="882" deptType="2401">新疆维吾尔自治区分行</option><option value="902" deptType="2401">新疆生产建设兵团分行</option><option value="922" deptType="2401">深圳市分行</option><option value="942" deptType="2401">宁波市分行</option><option value="962" deptType="2401">厦门市分行</option><option value="982" deptType="2401">青岛市分行</option><option value="1002" deptType="2401">大连市分行</option><option value="3802" deptType="2401">长春培训学院</option><option value="3803" deptType="2401">武汉培训学院</option><option value="3804" deptType="2401">天津培训学院</option></select>	-->
+                        					<select id="hs(deptId)" name="hs(deptId)" style="width:80%">
+                        					<option value=""></option>
+                        					<option value="0" depttype="2400">总行本部</option>
+                        					<option value="282" depttype="2401">北京市分行</option>
+                        					<option value="302" depttype="2401">天津市分行</option>
+                        					<option value="322" depttype="2401">河北省分行</option>
+                        					<option value="342" depttype="2401">山西省分行</option>
+                        					<option value="362" depttype="2401">内蒙古自治区分行</option>
+                        					<option value="382" depttype="2401">辽宁省分行</option>
+                        					<option value="402" depttype="2401">吉林省分行</option>
+                        					<option value="422" depttype="2401">黑龙江省分行</option>
+                        					<option value="442" depttype="2401">上海市分行</option>
+                        					<option value="462" depttype="2401">江苏省分行</option>
+                        					<option value="482" depttype="2401">浙江省分行</option>
+                        					<option value="502" depttype="2401">安徽省分行</option>
+                        					<option value="522" depttype="2401">福建省分行</option>
+                        					<option value="542" depttype="2401">江西省分行</option>
+                        					<option value="562" depttype="2401">山东省分行</option>
+                        					<option value="582" depttype="2401">河南省分行</option>
+                        					<option value="602" depttype="2401">湖北省分行</option>
+                        					<option value="622" depttype="2401">湖南省分行</option>
+                        					<option value="642" depttype="2401">广东省分行</option>
+                        					<option value="662" depttype="2401">广西壮族自治区分行</option>
+                        					<option value="682" depttype="2401">海南省分行</option>
+                        					<option value="702" depttype="2401">四川省分行</option>
+                        					<option value="722" depttype="2401">贵州省分行</option>
+                        					<option value="742" depttype="2401">云南省分行</option>
+                        					<option value="762" depttype="2401">西藏自治区分行</option>
+                        					<option value="782" depttype="2401">重庆市分行</option>
+                        					<option value="802" depttype="2401">陕西省分行</option>
+                        					<option value="822" depttype="2401">甘肃省分行</option>
+                        					<option value="842" depttype="2401">青海省分行</option>
+                        					<option value="862" depttype="2401">宁夏回族自治区分行</option>
+                        					<option value="882" depttype="2401">新疆维吾尔自治区分行</option>
+                        					<option value="902" depttype="2401">新疆生产建设兵团分行</option>
+                        					<option value="922" depttype="2401">深圳市分行</option>
+                        					<option value="942" depttype="2401">宁波市分行</option>
+                        					<option value="962" depttype="2401">厦门市分行</option>
+                        					<option value="982" depttype="2401">青岛市分行</option>
+                        					<option value="1002" depttype="2401">大连市分行</option>
+                        					</select>								 
+                        				 </td>
+                              		</tr>
+                              		<tr>
+                              			<td width="10">&nbsp;</td>
+                              			<td style="color:595959;">招聘类别:</td>
+                              			<td>
+                              			<!--<select name="hs(engageType)" style="width:80%"><option value=""></option><option value="2100" >校园招聘</option>
+<option value="2105" >大学生村官招聘</option>
+<option value="2101" >社会招聘</option>
+<option value="2104" >劳务派遣招聘</option>
+<option value="2106" >退役士兵招聘</option></select>	-->
+                       					  <select id="hs(engageType)" name="hs(engageType)" style="width:80%">
+<option value=""></option><option value="2100">校园招聘</option><option value="2105">大学生村官招聘</option><option value="2101">社会招聘</option><option value="2104">劳务派遣招聘</option>
+	                       					  
+										  </select>	
+                       					</td>
+                              		</tr>
+                              		<tr>
+                              			<td align="center" colspan="3">
+                              			<table>
+                              				<tbody><tr align="center">
+                              					<td>
+	                              					<button onclick="javaScript:search_(1);" style="width:50px;">查公告</button>
+                              			&nbsp;
+	                              					<button onclick="javaScript:search_(2);" style="width:50px;">查职位</button>
+                              					</td>
+                              				</tr>
+                              			</tbody></table>
+                              			</td>
+                              			<td width="10">&nbsp;</td>
+                              		</tr>
+                            </tbody>
+                            </table>
+                            </form>                              </td>
+                            </tr>
+                     </tbody>
+              </table> 
+<br>
+<br>
+               <table class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%">
+                     <tbody>
+                     	  <tr>
+                     	  	<td>
+                              	<p align="left" style="margin:5px 10px 0 10px;color:367E7F;font-weight:900;font-size:13px;text-decoration:none;border-bottom: 1px solid #E5E5E5;">区域招聘信息</p>
+                            		<div id="dingzhi" style="height:auto;">
+                                  	<!--  <p style="margin:7px 0 0 10px;color:929292;">总行本部机构</p>-->
+                              			<p style="margin:7px 0 0 0;color:595959;"><span style="margin:10px 0 0 10px;" id="href1"><img src="/images/sanjiao.png"></span>&nbsp;华北地区：</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(282);">北京</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(302);">天津</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(322);">河北</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(342);">山西</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(362);">内蒙古</a>   
+                              			</p>                           			
+                              			<p style="margin:7px 0 0 0;color:595959;"><span style="margin:10px 0 0 10px;" id="href1"><img src="/images/sanjiao.png"></span>&nbsp;东北地区：</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(382);">辽宁</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(402);">吉林</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(422);">黑龙江</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(1002);">大连</a>   
+                              			</p>                           			
+                              			<p style="margin:7px 0 0 0;color:595959;"><span style="margin:10px 0 0 10px;" id="href1"><img src="/images/sanjiao.png"></span>&nbsp;华东地区：</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(442);">上海</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(462);">江苏</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(482);">浙江</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(502);">安徽</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(522);">福建</a>
+                              			</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(542);">江西</a>                              			
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(562);">山东</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(942);">宁波</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(962);">厦门</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(982);">青岛</a>   
+                              			</p>                           			
+                              			<p style="margin:7px 0 0 0;color:595959;"><span style="margin:10px 0 0 10px;" id="href1"><img src="/images/sanjiao.png"></span>&nbsp;华中华南地区：</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(582);">河南</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(602);">湖北</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(622);">湖南</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(642);">广东</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(662);">广西</a>
+                              			</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(682);">海南</a>                              			
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(922);">深圳</a>  
+                              			</p>                            			
+                              			<p style="margin:7px 0 0 0;color:595959;"><span style="margin:10px 0 0 10px;" id="href1"><img src="/images/sanjiao.png"></span>&nbsp;西南地区：</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(782);">重庆</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(702);">四川</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(722);">贵州</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(742);">云南</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(762);">西藏</a> 
+                              			</p>                             			
+                              			<p style="margin:7px 0 0 0;color:595959;"><span style="margin:10px 0 0 10px;" id="href1"><img src="/images/sanjiao.png"></span>&nbsp;西北地区：</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(802);">陕西</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(822);">甘肃</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(842);">青海</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(862);">宁夏</a>
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(882);">新疆</a>
+                              			</p>
+                              			<p style="margin:5px 0 0 22px;">
+                              				<a style="color:929292;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" href="javascript:secBoard(902);">兵团</a>                              			
+                              			</p>
+                            </div>                          </td>
+                        </tr>
+                     </tbody>
+              </table> 
+<br>
+<br>
+              
+                 <div style="position: static; top: 0pt;" id="box1_1">
+                 <table class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%">
+                     <tbody>
+                         	  <tr>
+                              <td class="title" align="center" valign="top" width=" 100%">
+<a target="_blank" href="http://job.abchina.com/htmlfile/zFxlAu0c1PBorzefDOXOKmFFYdaOr63ztemplate_bbs.jsp"><img src="../images/xiaoyuan.jpg" border="0" width="200"> </a>
+                                  </td>
+                            </tr>
+                      </tbody>
+                   </table>
+                    <table class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%">
+                         <tbody>
+                         	  <tr>
+                              <td class="title" align="center" valign="top" width=" 100%">
+<a target="_blank" href="http://job.abchina.com/htmlfile/T00KuN2feijNzGPfUZHa43whvxz7yvOStemplate_bbs.jsp"><img src="../images/cunguan.png" alt="村官招聘计划" border="0" width="200"></a>
+                                             </td>
+                            </tr>
+                         </tbody>
+                      </table>
+                      
+                    <table class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%">
+                       <tbody>
+                       	  <tr>
+                            <td class="title" align="center" valign="top" width=" 100%">
+<a href="/mai/image_map.do?action=flow"><img src="../images/yingpin.png" alt="应聘流程介绍" border="0" width="200"></a>
+                            	</td>
+                          </tr>
+                      </tbody>
+                   </table>
+<!-- 招聘常见问题解答及招聘流程介绍链接 
+                      <table class="page_frame" border="1" cellpadding="0" cellspacing="0" width="99%">
+                         <tbody>
+                         	  <tr>
+                              <td class="title" align="center" valign="top" width=" 100%">
+                                  <a href="/page.do"><img src="../images/changjianwenti.png" alt="常见问题解答" border="0" width="200">
+                             </tr>
+                         </tbody>
+                      </table>-->
+                </div>
+           </td>
+
+   <!-- 右侧栏目 -->
+           <td align="left" valign="top"><div class="ContentRight" style="width:752px;height:200px;">
+<img src="../images/abcpp.jpg">
+               
+             </div><table class="right_l_3" border="0" cellpadding="0" cellspacing="0">
+             <tbody>
+             
+             <tr>
+	       		<td width="10">&nbsp;</td>
+               <td id="link1" class="butt1_y" align="center" height="28" width="130"><span style="font-size:14px;" onmouseover="this.style.cursor='hand'" onclick="secBoard(1)">招聘首页</span></td>
+               <td id="link2" class="butt1_n" align="center" height="28" width="130"><span style="font-size:14px;" onmouseover="this.style.cursor='hand'" onclick="secBoard(2)">校园招聘</span></td>
+               <td id="link5" class="butt1_n" align="center" height="28" width="130"><span style="font-size:14px;" onmouseover="this.style.cursor='hand'" onclick="secBoard(5)">大学生村官招聘</span></td>
+               <td id="link3" class="butt1_n" align="center" height="28" valign="middle" width="130"><span style="font-size:14px;" onmouseover="this.style.cursor='hand'" onclick="secBoard(3)">社会招聘</span></td>
+               <td id="link4" class="butt1_n" align="center" height="28" valign="middle" width="130"><span style="font-size:14px;" onmouseover="this.style.cursor='hand'" onclick="secBoard(4)">劳务派遣招聘</span></td>
+               <td class="butt1_n" align="right" width="80" height="28"><a href="/htmlfile/proList.jsp">&nbsp;<img src="/images/22.gif" width="35" height="12" border="0"></a></td>
+               <td class="butt1_n" width="10"></td>
+             </tr>
+             <tr>
+               <td colspan="15"><table style="height:180px;float: left;width: 744px;border: 0px solid #f0f0f0;margin-top: 3px;">
+               <tbody>
+                     <tr>
+                       <td align="left" valign="top">
+                           <div style="height:180px;overflow:hidden;width:744px;text-align:center;margin:0 auto;">
+                             <table id="content1" style="margin:5px 0 0 25px;overflow:hidden;width:744px;">
+<tbody><tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="海南省分行2018年校园招聘差额体检公告" href="/htmlfile/hnMZQE99lX6IGtkZdtQNvKlOZrb9JdlRtemplate_bbs.jsp">
+海南省分行2018年校园招聘差额体检公告
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2018-01-09</td></tr>
+<tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="青海省分行2018年校园招聘和大学生村官招聘体检签约公告" href="/htmlfile/7bfAMW3Yr8Hv3L7laWnYOMKy219ddB8wtemplate_bbs.jsp">
+青海省分行2018年校园招聘和大学生村官招聘体检签约公告
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2018-01-06</td></tr>
+<tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="山西省分行2018年校园招聘及大学生“村官”招聘体检、签约通知" href="/htmlfile/DGHJ0N8CbNS9EIqAhh2RSpiY1mUKlPaRtemplate_bbs.jsp">
+山西省分行2018年校园招聘及大学生“村官”招聘体检、签约通知
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2018-01-05</td></tr>
+<tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="吉林省分行2018年校园招聘签约公告" href="/htmlfile/KNwZR2zzcbU1bmBlpdigOMnS1Thf1nR2template_bbs.jsp">
+吉林省分行2018年校园招聘签约公告
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2018-01-05</td></tr>
+<tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="黑龙江省分行2018年校园招聘体检通知" href="/htmlfile/Sl2s1zp88uWSBbpQj9VSyAwmq93CZWkrtemplate_bbs.jsp">
+黑龙江省分行2018年校园招聘体检通知
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2018-01-04</td></tr>
+<tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="辽宁省分行2018年校园招聘、大学生村官招聘体检公告" href="/htmlfile/tS3sucz8wIkUTSHzX2RGwxAotiDkgQyMtemplate_bbs.jsp">
+辽宁省分行2018年校园招聘、大学生村官招聘体检公告
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2018-01-02</td></tr>
+<tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="山东省分行2018年校园招聘补录体检通知" href="/htmlfile/YGYjJg6eZjv1eSz7mk29AsIoZv0SY7kYtemplate_bbs.jsp">
+山东省分行2018年校园招聘补录体检通知
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2017-12-31</td></tr>
+<tr>
+<td width="10" align="center" height="20" valign="middle">&nbsp;&nbsp;</td>
+<td>&nbsp;<span id="href1"><img src="../images/sanjiao.png"></span>&nbsp;<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_blank" title="江西省分行2018年校园招聘及大学生“村官”招聘体检通知" href="/htmlfile/UwAPYXUzEbKPijtdJINSn5q3ysFheqi0template_bbs.jsp">
+江西省分行2018年校园招聘及大学生“村官”招聘体检通知
+</a></td>
+<td align="left" width="108" style="color: 6F6F6F;">&nbsp;2017-12-31</td></tr>
+                               
+                             </tbody></table>
+                           </div></td>
+                     </tr>
+                     </tbody>
+               </table></td>
+             </tr>
+             <tr>
+               <td width="744" colspan="15"><p style="height:20px;width:744px;margin:15px 0 0 10px;text-decoration:none;color:367E7F;font-size:12px;font-weight:900;border-bottom: 1px solid #DC2D3CF;">&nbsp; 总行招聘项目</p></td>
+             </tr>
+             <tr>
+               <td colspan="15">
+               <table class="middle_" style="width:700px;height:255px;margin:15px 0 0 25px;">
+                   <tbody>
+                     <tr>
+                       <td align="left" valign="top">
+                             <table id="content2" style="background:F7F7F7;margin:0 0 0 0;">
+                               <tbody><tr>
+                                 <td style="color: rgb(49, 156, 114);" height="20" width="10"></td>
+                                 <td colspan="2" style="color: AEAAA9;" width="150">&nbsp;招聘机构 </td>
+                                 <td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+                                 <td colspan="4" style="color: AEAAA9;;" width="402">招聘事项 </td>
+                                 <td colspan="2" style="color: AEAAA9;;" width="118">当前阶段 </td>
+                               </tr>
+                              </tbody></table>
+                           <div style="width:695px;margin-top: 4px;height:220px;overflow-y:auto;overflow-x:hidden;">
+                             <table id="content2" style="margin:0 0 0 0;">
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;农银租赁</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="农银金融租赁有限公司2018年校园招聘" href="/htmlfile/32103jobPublish.jsp">
+农银金融租赁有限公司2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;农银投资</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="农银金融资产投资有限公司2018年校园招聘" href="/htmlfile/32102jobPublish.jsp">
+农银金融资产投资有限公司2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;总行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="中国农业银行总行2018年校园招聘" href="/htmlfile/31501jobPublish.jsp">
+中国农业银行总行2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;报名结束                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;科技部门</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="中国农业银行软件开发中心2017年社会招聘" href="/htmlfile/32002jobPublish.jsp">
+中国农业银行软件开发中心2017年社会招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;报名结束                      </td></tr>
+</tbody></table><table>
+                               
+                             </table>
+                           </div>
+                        </td>
+                     </tr>
+                   </tbody>
+               </table></td>
+             </tr>
+             <tr>
+               <td width="744" colspan="15"><p style="height:20px;width:744px;margin:15px 0 0 10px;text-decoration:none;color:367E7F;font-size:12px;font-weight:900;border-bottom: 1px solid #DC2D3CF;">&nbsp; 分行招聘项目</p></td>
+             </tr>
+             <tr>
+              <td colspan="15">
+               <table class="middle_" style="width:700px;height:430px;margin:15px 0 0 25px;">
+                 <tbody>
+                 
+                 <tr>
+                   <td align="left" valign="top">
+					 <table id="content2" style="background:F7F7F7;margin:0 0 0 0;">
+                               <tbody><tr>
+                                 <td style="color: rgb(49, 156, 114);" height="20" width="10"></td>
+                                 <td colspan="2" style="color: AEAAA9;" width="150">&nbsp;招聘机构 </td>
+                                 <td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+                                 <td colspan="4" style="color: AEAAA9;;" width="402">招聘事项 </td>
+                                 <td colspan="2" style="color: AEAAA9;;" width="118">当前阶段 </td>
+                               </tr>
+                     </tbody></table>
+              <div style="width:695px;margin-top: 4px;height:396px;overflow-y:auto;overflow-x:hidden;">
+                <table id="content2" style="margin:O 0 0 0;"> 
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;河北省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31719jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;内蒙古自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31910jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;吉林省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31812jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;黑龙江省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31908jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;江苏省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31818jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;安徽省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31615jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;福建省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31705jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;江西省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31904jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;山东省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31819jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;湖北省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31817jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;湖南省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31714jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;广东省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31824jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;广西壮族自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31811jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;海南省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31707jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;四川省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31916jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;西藏自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31821jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;重庆市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31802jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;陕西省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31907jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;甘肃省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31814jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;宁夏回族自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31603jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;新疆维吾尔自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31718jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;新疆生产建设兵团分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31713jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;宁波市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31613jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;大连市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31608jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;笔试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;天津市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31912jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;天津市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31915jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;山西省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31913jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;内蒙古自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31909jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;上海市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31905jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;江苏省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31813jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;云南省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31708jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;西藏自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31820jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;西藏自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2017年高校毕业生专项招聘" href="/htmlfile/32201jobPublish.jsp">
+2017年高校毕业生专项招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;重庆市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31801jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;甘肃省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31710jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;青海省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31601jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;宁夏回族自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31604jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;宁波市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31606jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;厦门市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31717jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;青岛市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31611jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;面试阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;山西省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31612jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;辽宁省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31914jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;辽宁省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31823jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;黑龙江省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31605jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;安徽省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31808jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;江西省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31903jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;河南省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31810jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;湖北省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31701jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;湖南省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31703jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;海南省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31706jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;四川省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31712jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;云南省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31911jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;陕西省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31609jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;深圳市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31804jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;体检阶段                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;北京市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31816jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;北京市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向2018年村官招聘" href="/htmlfile/31822jobPublish.jsp">
+面向2018年村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;河北省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31709jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;吉林省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31803jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;上海市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31901jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;浙江省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31716jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;福建省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31704jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;山东省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31807jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;广东省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31815jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;广西壮族自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31809jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;贵州省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31806jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;青海省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31602jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;新疆维吾尔自治区分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31711jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;新疆生产建设兵团分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31715jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;青岛市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31610jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:F7F7F7;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;大连市分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="2018年校园招聘" href="/htmlfile/31607jobPublish.jsp">
+2018年校园招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;签约录用                      </td></tr>
+</tbody></table><table>
+</table><table style="background:FFFFFF;">
+<tbody><tr><td align="center" height="20" width="10">&nbsp;</td>
+ <td colspan="2" width="150" style="color: 6F6F6F;">
+&nbsp;浙江省分行</td>
+<td style="color: rgb(49, 156, 114);" height="20" width="10">&nbsp;</td>
+<td colspan="4" width="397">
+<a style="color: 6F6F6F;" onmouseover="this.style.color='black'" onmouseout="this.style.color='6F6F6F'" target="_self" title="面向大学生村官招聘" href="/htmlfile/31805jobPublish.jsp">
+面向大学生村官招聘</a></td>
+<td style="color: 6F6F6F;" colspan="2" width="118">&nbsp;招聘结束                      </td></tr>
+</tbody></table><table>
+                  
+       
+                 </table>
+              </div>
+              </td>
+                 </tr>
+                 </tbody>
+                 
+               </table></td>
+             </tr>
+           </tbody></table></td>
+      </tr>
+				  </tbody>
+		  </table>  
+  </div>
+</center>
+<!-- add by fyx 20100713 start,村官招聘浮动图片按钮 >
+<div id="img" style="position:absolute;; width: 150; height: 120"><a href="/htmlfile/18803template_bbs.jsp" target="_blank"><img 
+
+src="/images/cunguan_plannew.jpg" border="0" width="165" height="127" alt="村官招聘计划"></a></div>
+< add by fyx 20100713 end -->
+
+<!-- 网页底部信息 -->
+
+<!-- 首页尾部开始 -->
+<style type="text/css">
+/* foot */
+.foot{background:url(../images/foot.jpg) repeat-y; padding:3px 0 20px 216px;}
+.footl{width:550px; float:left; text-align:center; line-height:28px;}
+</style>
+<center>
+<div style="margin:0 auto;text-align:center;width:951">
+<table align="center" border="0" cellspacing="0" cellpadding="0" height="50px" width="950px">
+<tbody><tr>
+<td>
+   
+      <div class="foot" align="center">
+        <div class="footl"><br> 中国农业银行版权所有 | 京ICP备05049539
+        </div>
+
+        <div class="clear"></div>
+      </div>
+ </td>     
+ </tr>     
+</tbody></table>
+</div>
+</center>
+<script type="text/javascript">
+	function search_(searchType){
+		var deptID = document.getElementById("hs(deptId)").value;
+        var engageTYPE = document.getElementById("hs(engageType)").value;
+        if ((deptID == null || deptID == "") && (engageTYPE == null || engageTYPE == "")) {
+            alert("招聘机构、招聘类别不能同时为空！");
+            return false;
+        }
+        window.location.href='/prs/jobDeptSearch.do?action=quickSearch&engageType='+engageTYPE+'&deptId='+deptID+'&searchType='+searchType+'&token=1515479598566';
+	}
+ 	//弹出密码发送方式选择框
+    function showFindPassModle() {
+        window.location.href='/rio/showFindPass.do';
+    }
+    
+    function login() {
+        var userName;
+        var userPwd;
+        var validCode;
+        var href;
+
+        userName = document.getElementById("userName").value;
+        userPwd = document.getElementById("userPwd").value;
+        validCode = document.getElementById("validCode").value;
+        if (userName == null || userName == "") {
+            alert("请输入用户名！");
+            return false;
+        }
+
+        if (userPwd == null || userPwd == "") {
+            alert("请输入密码！");
+            return false;
+        }
+        if (validCode == null || validCode == "")
+        {
+            alert("请输入校验码");
+            return false;
+        }
+		var result = hex_md5(userPwd);
+        document.getElementById("userPwd").value = result;
+		//RSAEncode();
+
+        href = "/rio/logon.do?action=newLoginFromHome";
+        href = href + "&userName=" + userName;
+        href = href + "&userPwd=" + result;
+        href = href + "&validCode=" + validCode+"&token=1515479598566";
+
+		var url=href;
+　　		var xmlHttp=this.createXmlHttpRequest();
+        xmlHttp.open("POST",url, true);
+        xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+		xmlHttp.send();
+		xmlHttp.onreadystatechange=processResponse;
+		function processResponse(){
+			if(xmlHttp.readyState==4){ 
+				if(xmlHttp.status==200){ 
+					var msg=xmlHttp.responseText;
+					var ifLogin = msg.substring(0,1);
+					var end = msg.length;
+					if(ifLogin==1 || ifLogin==2 || ifLogin==3){
+						window.location.href='/rio/logonjump.do?action=loginjump&clue='+msg;
+					}
+					else if(ifLogin==4){
+						var info = msg.substring(1);
+						alert(info);
+						window.location.href='/rio/enterLogon.do?';
+					}
+					//if(msg!=1 && msg!=2 && msg!=3)
+					else if(ifLogin == "n"){
+						showImg();
+					}
+					else {
+						document.getElementById("frm").innerHTML = msg.substring(1,end);
+					}
+				}
+			}
+		}
+//        location.href = href;
+//        document.frm.submit();
+    }
+    function DoKeyEnter()
+    {
+        if (window.event.keyCode == 13)  //Enter
+        {
+            login();
+            window.event.returnValue = false;
+        }
+    }
+    function showCurrentUsers() {
+        lastTd.innerHTML = "";
+    }
+    function showLogonUsers() {
+        window.open("/rio/logonUsers.do?action=getLogonUser&token=1515479598566", "", "");
+    }
+    
+    function frmSubmit() {
+        var date1;
+        var date = new Date();
+        var date2;
+        switch (document.getElementById("daterange").value) {
+            case "1":
+            {
+                date2 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                date.setDate(parseInt(today.getDate().toString()) - 3);
+                date1 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                break;
+            }
+            case "2":
+            {
+                date2 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                date.setDate(parseInt(today.getDate().toString()) - 7);
+                date1 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                break;
+            }
+            case "3":
+            {
+                date2 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                date.setDate(parseInt(today.getDate().toString()) - 30);
+                date1 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                break;
+            }
+            case "4":
+            {
+                date2 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                date.setDate(parseInt(today.getDate().toString()) - 90);
+                date1 = date.getYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+                break;
+            }
+        }
+        document.getElementById("hs(issueTimeBegin)").value = date1;
+        document.getElementById("hs(issueTimeEnd)").value = date2;
+
+//        document.frm.submit();
+        href = "/rio/jobListByBank.do?action=listJobByBank&token=1515479598566";
+        href = href + "&hs(issueTimeBegin)=" + document.getElementById("hs(issueTimeBegin)").value;
+        href = href + "&hs(issueTimeEnd)=" + document.getElementById("hs(issueTimeEnd)").value;
+
+        location.href = href;
+    } 
+</script>
+<script language="javascript" type="text/javascript">
+	var player1 = new player('player');
+</script> <!--/*焦点图切换JS结束*/-->
+	
+</body></html>

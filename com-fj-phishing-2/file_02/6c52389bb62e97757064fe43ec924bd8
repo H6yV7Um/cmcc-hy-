@@ -1,0 +1,965 @@
+<html lang="en"><head><style>
+	  .alert {
+            position: fixed;
+            top: 50%;
+            margin-top: -200px;
+            left: 0;
+            z-index: 12;
+        }
+        .alert img {
+            cursor: pointer;
+        }
+        .alert .close {
+            position: absolute;
+            right: 14px;
+            top: 67px;
+            cursor: pointer;
+        }
+        .dialog-4 .at-dialog-input.phone {
+            float: left;
+            width: 134px;
+        }
+
+        .dialog-4 .at-dialog-input-wrap button {
+            float: right;
+        }
+
+        .get-code {
+            background-color: #782d32;
+            line-height: 40px;
+            padding: 0 16px;
+            height: 40px;
+            border: none;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .get-code.disabled {
+            background-color: #eee;
+            color: #782d32;
+        }
+
+        .m-game-nav .game-btns .btn {
+            height: 90px;
+            line-height: 90px;
+        }
+		.m-game-news {
+			margin-bottom:0 !important;
+		}
+</style>
+<script src="https://hm.baidu.com/hm.js?a93678cdd20758917bed34b92854d483"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://hm.baidu.com/hm.js?faf3f996708b3d557b219e07dcf4780f"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+	<link rel="stylesheet" href="/assets/styles/get-card.css">
+<!--	<div class="alert">
+    <div class="close js-close" id="closeCardModel"><img src="/images/closes.png" alt="" width="36" height="37"></div>
+    <img src="/images/alerts.png?v2" alt="" class="at-get-code" width="183" height="401" id="openCardModel">
+</div> -->
+<!-- 页面公共领卡模块-手机+图形验证码 -->
+</head><body><div class="card-model js-step1 ">
+    <div class="card-model__con">
+        <div class="card-model__close js-card-close"></div>
+        <div class="card-model__error js-error"><span class="card-model__msg">1</span></div>
+        <div class="card-model__inner">
+            <h1 class="card-model__title">免费领取歪玩加速器体验卡</h1>
+            <div class="card-model__group">
+                <span class="card-model__icon"></span>
+                <label class="card-model__label_phone js-lavel" for="phone">请输入手机号</label>
+                <input type="text" id="phone" class="card-model__field js-card-phone">
+            </div>
+            <div class="card-model__group">
+                <label for="captcha" class="card-model__label_captcha">请输入验证码</label>
+                <input type="text" id="captcha" class="card-model__field_captcha js-card-captcha">
+                <img src="" class="card-model__img js-img" alt="图形验证码" width="100" height="32">
+            </div>
+            <div class="card-model__btn">
+                <button type="button" class="card-model__sub js-sub">下一步</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 页面公共领卡模块-获取手机验证码 -->
+<div class="card-model js-step2">
+    <div class="card-model__con">
+        <div class="card-model__close js-card-close"></div>
+        <div class="card-model__error js-error"><span class="card-model__msg">1</span></div>
+        <div class="card-model__inner">
+            <h1 class="card-model__title">免费领取歪玩加速器体验卡</h1>
+            <div class="card-model__group">
+                <label class="card-model__label_card js-label" for="card">请输入手机验证码</label>
+                <input type="text" id="card" class="card-model__field_card js-card-code">
+                <button type="button" class="card-model__get-card js-card-btn">获取语音验证码</button>
+            </div>
+            <div class="card-model__btn">
+                <button type="button" class="card-model__sub js-sub">领取卡密</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 页面公共领卡模块-获取手机验证码结束 -->
+<!-- 页面公共领卡模块-领取成功 -->
+<div class="card-model js-step3">
+    <div class="card-model__con">
+        <div class="card-model__close js-card-close"></div>
+        <div class="card-model__error js-error"><span class="card-model__msg">1</span></div>
+        <div class="card-model__inner">
+            <h1 class="card-model__title">领取成功</h1>
+            <div class="card-model__group">
+                <p class="card-model__notice">您的激活码为</p>
+                <p class="card-model__res js-res" id="code-context">12344</p>
+            </div>
+            <div class="card-model__btn">
+                <a class="card-model__link js-card-copy" href="javascript:;" data-clipboard-target="#code-context">复制</a>
+                <a class="card-model__link" href="javascript:;">激活</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 页面公共领卡模块-领取成功结束 -->
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>歪玩游戏网丨玩外服游戏,从歪玩开始-外服游戏第一门户站</title>
+    <meta name="keywords" content="歪玩游戏网,歪玩,外服游戏">
+    <meta name="description" content="歪玩中国第一的外服游戏门户 为游戏玩家提供最新最全的外服游戏资讯,游戏攻略,游戏内测号,游戏激活码等等,同时还提供外服网游下载">
+    <link rel="stylesheet" href="/public/js/swiper-3.4.1.min.css?v287">
+    <link rel="stylesheet" href="/public/js/posterTvGrid.css">
+    <link rel="stylesheet" href="/dest/css/index.css?v8">
+
+<div class="m-common-header">
+    <!-- <div class="btns j-login-btns">
+        <div class="btn-bg"></div>
+        <a href="http://bbs.waiplay.com/member.php?mod=logging&action=login" target="_blank" class="btn sel">登录</a>
+        <a href="http://bbs.waiplay.com/member.php?mod=register" target="_blank" class="btn">注册</a>
+    </div> -->
+    <div class="nav">
+        <a href="/" target="_blank">首页</a>
+        <a href="/news" target="_blank">游戏资讯</a>
+        <a href="/video" target="_blank">游戏视频</a>
+        <a href="http://www.lonlife.cn/" target="_blank">游戏加速</a>
+        <a href="/about" target="_blank">关于歪玩</a>
+    </div>
+    <div class="logo"><img src="/public/images/logo-with-lonlife.png" width="328" height="51" alt=""></div>
+</div>
+
+
+    <div class="m-index-banner">
+        <div class="banner j-slideBox swiper-container-horizontal swiper-container-fade">
+            <ul class="swiper-wrapper bd" style="transition: 0ms; -webkit-transition: 0ms;"><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-prev" style="background-image: url(http://www.waiplay.com/public/uploads/banner-2.jpg); background-size: cover; width: 1280px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition: 0ms; -webkit-transition: 0ms;" data-swiper-slide-index="0">
+                            <div class="text">
+                                <div class="inner">
+                                    <div class="tt">
+                                        玲珑8.0客户端全新上线
+                                    </div>
+                                    <p>歪玩已屏蔽新用户注册通道，新用户请转至玲珑官网注册并体验玲珑网游加速器</p>
+                                                                            <div class="btns">
+                                            <a href="http://www.lonlife.cn/user/register" class="btn" target="_blank">查看详情</a>
+                                        </div>
+                                                                    </div>
+                            </div>
+                        </li>
+                                                            <li class="swiper-slide swiper-slide-active swiper-slide-duplicate-next swiper-slide-duplicate-prev show" style="background-image: url(http://www.waiplay.com/public/uploads/banner-2.jpg); background-size: cover; width: 1280px; transform: translate3d(-1280px, 0px, 0px); opacity: 1; transition: 0ms; -webkit-transition: 0ms;" data-swiper-slide-index="0">
+                            <div class="text">
+                                <div class="inner">
+                                    <div class="tt">
+                                        玲珑8.0客户端全新上线
+                                    </div>
+                                    <p>歪玩已屏蔽新用户注册通道，新用户请转至玲珑官网注册并体验玲珑网游加速器</p>
+                                                                            <div class="btns">
+                                            <a href="http://www.lonlife.cn/user/register" class="btn" target="_blank">查看详情</a>
+                                        </div>
+                                                                    </div>
+                            </div>
+                        </li>
+                                    
+            <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-next" style="background-image: url(http://www.waiplay.com/public/uploads/banner-2.jpg); background-size: cover; width: 1280px; transform: translate3d(-2560px, 0px, 0px); opacity: 0; transition: 0ms; -webkit-transition: 0ms;" data-swiper-slide-index="0">
+                            <div class="text">
+                                <div class="inner">
+                                    <div class="tt">
+                                        玲珑8.0客户端全新上线
+                                    </div>
+                                    <p>歪玩已屏蔽新用户注册通道，新用户请转至玲珑官网注册并体验玲珑网游加速器</p>
+                                                                            <div class="btns">
+                                            <a href="http://www.lonlife.cn/user/register" class="btn" target="_blank">查看详情</a>
+                                        </div>
+                                                                    </div>
+                            </div>
+                        </li></ul>
+            <div class="hd swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
+            <a href="javascript:;" class="btn next swiper-button-next"></a>
+            <a href="javascript:;" class="btn prev swiper-button-prev"></a>
+        </div>
+    </div>
+    <div class="g-index-news">
+        <div class="m-game-nav">
+            <div class="game-btns j-game-btns">
+                <div class="btn-bg" style="height:88px"></div>
+                <!-- <a href="http://hezi.waiplay.com/" class="btn btn1 sel" target="_blank">歪玩游戏盒子</a> -->
+                <a href="http://www.lonlife.cn/" class="btn btn2" target="_blank" style="height:88px;line-height:88px;background-position:20px 36px;">玲珑网游加速</a>
+            </div>
+            <div class="bg">
+                <div class="game-hd">游戏<br>专区</div>
+                <div class="game-bd">
+                    <div class="btns"><a href="javascript:;" class="btn next j-gameNav-next"></a></div>
+                    <div class="nav j-gameNav swiper-container-horizontal">
+                        <ul class="swiper-wrapper" style="transform: translate3d(-1345px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="margin-right: 20px;">
+                                        <a href="http://pbg.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/08绝地求生大逃杀.png" height="24" width="24" alt="">
+                                            <span>绝地求生大逃杀</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="margin-right: 20px;">
+                                        <a href="http://www.lolmf.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL美服</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="margin-right: 20px;">
+                                        <a href="http://lolrifu.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL日服</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="margin-right: 20px;">
+                                        <a href="http://lolkr.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL韩服</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="margin-right: 20px;">
+                                        <a href="http://black.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050603091610黑色沙漠.png" height="24" width="24" alt="">
+                                            <span>黑色沙漠</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="margin-right: 20px;">
+                                        <a href="http://dnl.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/170425022842006xNkirjw8f7cqg9awu5j30pv0ptwkm.jpg" height="24" width="24" alt="">
+                                            <span>黑暗与光明</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6" style="margin-right: 20px;">
+                                        <a href="http://fz.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050603095503方舟-方块世界专区.png" height="24" width="24" alt="">
+                                            <span>方舟：方块世界</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7" style="margin-right: 20px;">
+                                        <a href="http://lostark.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/02失落的方舟专区.png" height="24" width="24" alt="">
+                                            <span>失落的方舟</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="8" style="margin-right: 20px;">
+                                        <a href="http://9yin2.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050810145804九阴真经2.png" height="24" width="24" alt="">
+                                            <span>九阴真经2</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="9" style="margin-right: 20px;">
+                                        <a href="http://le.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050810151405天堂永恒.png" height="24" width="24" alt="">
+                                            <span>天堂永恒</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="10" style="margin-right: 20px;">
+                                        <a href="http://dnf.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17042502263901dnf.png" height="24" width="24" alt="">
+                                            <span>地下城与勇士</span>
+                                        </a>
+                                    </li>
+                                                                                                <li class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="margin-right: 20px;">
+                                        <a href="http://pbg.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/08绝地求生大逃杀.png" height="24" width="24" alt="">
+                                            <span>绝地求生大逃杀</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="margin-right: 20px;">
+                                        <a href="http://www.lolmf.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL美服</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="2" style="margin-right: 20px;">
+                                        <a href="http://lolrifu.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL日服</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="3" style="margin-right: 20px;">
+                                        <a href="http://lolkr.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL韩服</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="4" style="margin-right: 20px;">
+                                        <a href="http://black.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050603091610黑色沙漠.png" height="24" width="24" alt="">
+                                            <span>黑色沙漠</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="5" style="margin-right: 20px;">
+                                        <a href="http://dnl.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/170425022842006xNkirjw8f7cqg9awu5j30pv0ptwkm.jpg" height="24" width="24" alt="">
+                                            <span>黑暗与光明</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="6" style="margin-right: 20px;">
+                                        <a href="http://fz.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050603095503方舟-方块世界专区.png" height="24" width="24" alt="">
+                                            <span>方舟：方块世界</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="7" style="margin-right: 20px;">
+                                        <a href="http://lostark.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/02失落的方舟专区.png" height="24" width="24" alt="">
+                                            <span>失落的方舟</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="8" style="margin-right: 20px;">
+                                        <a href="http://9yin2.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050810145804九阴真经2.png" height="24" width="24" alt="">
+                                            <span>九阴真经2</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide" data-swiper-slide-index="9" style="margin-right: 20px;">
+                                        <a href="http://le.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050810151405天堂永恒.png" height="24" width="24" alt="">
+                                            <span>天堂永恒</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="10" style="margin-right: 20px;">
+                                        <a href="http://dnf.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17042502263901dnf.png" height="24" width="24" alt="">
+                                            <span>地下城与勇士</span>
+                                        </a>
+                                    </li>
+                                                                                    <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="margin-right: 20px;">
+                                        <a href="http://pbg.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/08绝地求生大逃杀.png" height="24" width="24" alt="">
+                                            <span>绝地求生大逃杀</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="margin-right: 20px;">
+                                        <a href="http://www.lolmf.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL美服</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="margin-right: 20px;">
+                                        <a href="http://lolrifu.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL日服</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="margin-right: 20px;">
+                                        <a href="http://lolkr.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/09lol.png" height="24" width="24" alt="">
+                                            <span>LOL韩服</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="margin-right: 20px;">
+                                        <a href="http://black.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050603091610黑色沙漠.png" height="24" width="24" alt="">
+                                            <span>黑色沙漠</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="margin-right: 20px;">
+                                        <a href="http://dnl.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/170425022842006xNkirjw8f7cqg9awu5j30pv0ptwkm.jpg" height="24" width="24" alt="">
+                                            <span>黑暗与光明</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6" style="margin-right: 20px;">
+                                        <a href="http://fz.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050603095503方舟-方块世界专区.png" height="24" width="24" alt="">
+                                            <span>方舟：方块世界</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7" style="margin-right: 20px;">
+                                        <a href="http://lostark.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/02失落的方舟专区.png" height="24" width="24" alt="">
+                                            <span>失落的方舟</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="8" style="margin-right: 20px;">
+                                        <a href="http://9yin2.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050810145804九阴真经2.png" height="24" width="24" alt="">
+                                            <span>九阴真经2</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="9" style="margin-right: 20px;">
+                                        <a href="http://le.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17050810151405天堂永恒.png" height="24" width="24" alt="">
+                                            <span>天堂永恒</span>
+                                        </a>
+                                    </li><li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="10" style="margin-right: 20px;">
+                                        <a href="http://dnf.waiplay.com" target="_blank">
+                                            <img src="/public/uploads/17042502263901dnf.png" height="24" width="24" alt="">
+                                            <span>地下城与勇士</span>
+                                        </a>
+                                    </li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-game-news">
+            <div class="news-con">
+                <div class="news-banner j-news-banner swiper-container-horizontal">
+                    <div class="bd swiper-wrapper" style="transform: translate3d(-720px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><div class="list swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-prev" data-swiper-slide-index="0" style="width: 690px; margin-right: 30px;">
+                                    <a href="http://www.lonlife.cn/" target="_blank">
+                                        <img src="/public/uploads/170428055446149308959132.jpeg" alt="" width="690" height="410">
+                                        <div class="list-con">
+                                            <h2>绝地求生官方合作加速器: 玲珑加速器</h2>
+                                            <div class="des">专业解决游戏中丢包、掉线、延迟高等问题</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                                                                    <div class="list swiper-slide swiper-slide-active swiper-slide-duplicate-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 690px; margin-right: 30px;">
+                                    <a href="http://www.lonlife.cn/" target="_blank">
+                                        <img src="/public/uploads/170428055446149308959132.jpeg" alt="" width="690" height="410">
+                                        <div class="list-con">
+                                            <h2>绝地求生官方合作加速器: 玲珑加速器</h2>
+                                            <div class="des">专业解决游戏中丢包、掉线、延迟高等问题</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                                                        <div class="list swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active swiper-slide-next" data-swiper-slide-index="0" style="width: 690px; margin-right: 30px;">
+                                    <a href="http://www.lonlife.cn/" target="_blank">
+                                        <img src="/public/uploads/170428055446149308959132.jpeg" alt="" width="690" height="410">
+                                        <div class="list-con">
+                                            <h2>绝地求生官方合作加速器: 玲珑加速器</h2>
+                                            <div class="des">专业解决游戏中丢包、掉线、延迟高等问题</div>
+                                        </div>
+                                    </a>
+                                </div></div>
+                    <div class="hd swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
+                    <a href="javascript:;" class="btn next swiper-button-next"></a>
+                    <a href="javascript:;" class="btn prev swiper-button-prev"></a>
+                </div>
+                <div class="news-box">
+                    <div class="box-con">
+                                                                                <div class="box-tt">
+                                <a href="http://www.lonlife.cn/node/4483?utm_source=LYP&amp;utm_medium=LYP&amp;utm_campaign=LYP" target="_blank">
+                                    与绝地求生刚正面？H1Z1限时周免费活动开启
+                                </a>
+                            </div>
+                            <ul>
+                                                                    <li>
+                                        <span class="time">11-25</span>
+                                        <span class="tt">
+                                    <a href="http://www.waiplay.com/news/2946.html" target="_blank">玩绝地求生如何快速吃鸡？</a>
+                                </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="time">12-01</span>
+                                        <span class="tt">
+                                    <a href="http://www.waiplay.com/news/2955.html" target="_blank">LOL出现全球最高等级140级，却惨遭封号185年</a>
+                                </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="time">12-01</span>
+                                        <span class="tt">
+                                    <a href="http://www.waiplay.com/news/2956.html" target="_blank">绝地求生将于12月7日首次演示新沙漠地图真面貌</a>
+                                </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="time">11-28</span>
+                                        <span class="tt">
+                                    <a href="http://www.waiplay.com/news/2951.html" target="_blank">贫穷限制了你的想象，大逃杀难夺生存游戏里程碑地位</a>
+                                </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="time">11-30</span>
+                                        <span class="tt">
+                                    <a href="http://pbg.waiplay.com/news/1084.html" target="_blank">吉利服对于绝地求生玩家是一种怎样的存在</a>
+                                </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="time">12-20</span>
+                                        <span class="tt">
+                                    <a href="http://black.waiplay.com/post/600" target="_blank">黑色沙漠不负众望，荣获2017“游戏十强”最受期待大奖</a>
+                                </span>
+                                    </li>
+                                                                    <li>
+                                        <span class="time">12-19</span>
+                                        <span class="tt">
+                                    <a href="http://dnl.waiplay.com/news/157" target="_blank">成为空中 “海贼王”！黑暗与光明圣诞版本完整剧透</a>
+                                </span>
+                                    </li>
+                                                            </ul>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-index-news">
+        <a href="/news" target="_blank" class="m-sq-more"></a>
+        <div class="u-header">
+            <span>游戏资讯</span>
+        </div>
+        <div class="box j-slideNews swiper-container-horizontal">
+            <div class="swiper-wrapper" style="transform: translate3d(-1223px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><div class="list swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://www.waiplay.com/news/2952.html" target="_blank">
+                                <div class="pic"><img src="/public/uploads/17113003005147timg (24).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>守望先锋今日起5折特惠！免费试玩10天 </h2>
+                                    <div class="des">北京时间11月28日-12月7日，所有玩家都可以免费畅玩《守望先锋》。同时，11月28日起《守望先锋》开启5折特惠，原价198元的畅玩版直降100，仅售98元；年度游戏版仅需158元；畅玩版升级年度版只需60元。</div>
+                                </div>
+                            </a>
+                        </div><div class="list swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://dnl.waiplay.com/news/151" target="_blank">
+                                <div class="pic"><img src="/public/uploads/171130030655861_看图王.jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>萌新玩家有救了！黑暗与光明月尾兽又双叕被削弱 </h2>
+                                    <div class="des">生存魔幻沙盒游戏《黑暗与光明》在近期更新的版本中，对游戏生存难度进行了调整，修复游戏内部分bug。尤其是削弱了以月尾兽为首的一些凶狠动物，拯救萌新玩家。</div>
+                                </div>
+                            </a>
+                        </div><div class="list swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="5" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://my2.waiplay.com/news/75" target="_blank">
+                                <div class="pic"><img src="/public/uploads/171130030831171511838248322.jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>命运2推出全平台免费试玩 正式上线 </h2>
+                                    <div class="des">动视宣布，将于明天（北京时间11月29日）在Xbox One、PS4和PC上推出命运2的免费试玩，进一步扩大游戏的人群，让那些没机会体验的玩家能够拥有一次感受这款游戏魅力的机会。公布消息的同时也放出了一段全新宣传片。</div>
+                                </div>
+                            </a>
+                        </div>
+                                                            <div class="list swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://pbg.waiplay.com/news/1081.html" target="_blank">
+                                <div class="pic"><img src="/public/uploads/17113002581822timg (21).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>绝地求生四排时应该如何指挥？有哪些心得呢？ </h2>
+                                    <div class="des">绝地求生大逃杀游戏中很多玩家都喜欢选择和小伙伴一起四排开黑，这样队员之间可以相互配合，分工合作。那么绝地求生四排时应该注意哪些问题呢？下面玲珑加速器小编为大家分享一下绝地求生四排时应该如何指挥以及四排指挥心得。</div>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="list swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://black.waiplay.com/post/590" target="_blank">
+                                <div class="pic"><img src="/public/uploads/1711300305044timg (12).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>黑色沙漠开放首个塔防战役：野蛮之龟裂 </h2>
+                                    <div class="des">PEARL ABYSS旗下线上游戏黑色沙漠于今日开放游戏中首个塔防战役「野蛮之龟裂」，玩家将运用有限的资源，坚守最后的塔防战役。</div>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="list swiper-slide" data-swiper-slide-index="2" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://pbg.waiplay.com/news/1079.html" target="_blank">
+                                <div class="pic"><img src="/public/uploads/17113003031257timg (8).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>苟着吃鸡？绝地求生是射击游戏，刚枪才是乐趣 </h2>
+                                    <div class="des">很多萌新在玩绝地求生时看了很多攻略，发现苟着吃鸡非常容易，因此单排都开始学苟着吃鸡，但是真正和好基友组排时发现刚枪老是打不过。其实对于新手玩家来说，想要提高操作技巧，刚枪是最有效的方法。</div>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="list swiper-slide" data-swiper-slide-index="3" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://www.waiplay.com/news/2952.html" target="_blank">
+                                <div class="pic"><img src="/public/uploads/17113003005147timg (24).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>守望先锋今日起5折特惠！免费试玩10天 </h2>
+                                    <div class="des">北京时间11月28日-12月7日，所有玩家都可以免费畅玩《守望先锋》。同时，11月28日起《守望先锋》开启5折特惠，原价198元的畅玩版直降100，仅售98元；年度游戏版仅需158元；畅玩版升级年度版只需60元。</div>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="list swiper-slide" data-swiper-slide-index="4" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://dnl.waiplay.com/news/151" target="_blank">
+                                <div class="pic"><img src="/public/uploads/171130030655861_看图王.jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>萌新玩家有救了！黑暗与光明月尾兽又双叕被削弱 </h2>
+                                    <div class="des">生存魔幻沙盒游戏《黑暗与光明》在近期更新的版本中，对游戏生存难度进行了调整，修复游戏内部分bug。尤其是削弱了以月尾兽为首的一些凶狠动物，拯救萌新玩家。</div>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="list swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="5" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://my2.waiplay.com/news/75" target="_blank">
+                                <div class="pic"><img src="/public/uploads/171130030831171511838248322.jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>命运2推出全平台免费试玩 正式上线 </h2>
+                                    <div class="des">动视宣布，将于明天（北京时间11月29日）在Xbox One、PS4和PC上推出命运2的免费试玩，进一步扩大游戏的人群，让那些没机会体验的玩家能够拥有一次感受这款游戏魅力的机会。公布消息的同时也放出了一段全新宣传片。</div>
+                                </div>
+                            </a>
+                        </div>
+                                    
+            <div class="list swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://pbg.waiplay.com/news/1081.html" target="_blank">
+                                <div class="pic"><img src="/public/uploads/17113002581822timg (21).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>绝地求生四排时应该如何指挥？有哪些心得呢？ </h2>
+                                    <div class="des">绝地求生大逃杀游戏中很多玩家都喜欢选择和小伙伴一起四排开黑，这样队员之间可以相互配合，分工合作。那么绝地求生四排时应该注意哪些问题呢？下面玲珑加速器小编为大家分享一下绝地求生四排时应该如何指挥以及四排指挥心得。</div>
+                                </div>
+                            </a>
+                        </div><div class="list swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://black.waiplay.com/post/590" target="_blank">
+                                <div class="pic"><img src="/public/uploads/1711300305044timg (12).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>黑色沙漠开放首个塔防战役：野蛮之龟裂 </h2>
+                                    <div class="des">PEARL ABYSS旗下线上游戏黑色沙漠于今日开放游戏中首个塔防战役「野蛮之龟裂」，玩家将运用有限的资源，坚守最后的塔防战役。</div>
+                                </div>
+                            </a>
+                        </div><div class="list swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 384.6666666666667px; margin-right: 23px;">
+                            <a href="http://pbg.waiplay.com/news/1079.html" target="_blank">
+                                <div class="pic"><img src="/public/uploads/17113003031257timg (8).jpg" width="385" height="260" alt=""></div>
+                                <div class="tt">
+                                    <h2>苟着吃鸡？绝地求生是射击游戏，刚枪才是乐趣 </h2>
+                                    <div class="des">很多萌新在玩绝地求生时看了很多攻略，发现苟着吃鸡非常容易，因此单排都开始学苟着吃鸡，但是真正和好基友组排时发现刚枪老是打不过。其实对于新手玩家来说，想要提高操作技巧，刚枪是最有效的方法。</div>
+                                </div>
+                            </a>
+                        </div></div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+        </div>
+    </div>
+    <div class="u-header">
+        <span>热门外服游戏</span>
+    </div>
+    <div class="m-index-rank">
+        <ul>
+                                                <li>
+                        <a href="http://lolrifu.waiplay.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/17050603101801日服.jpg" alt=""></div>
+                            </div>
+                            <h2>英雄联盟<span>日服</span></h2>
+                            <div class="des">League of Legends</div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://lolkr.waiplay.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/17050603104303lol韩服.jpg" alt=""></div>
+                            </div>
+                            <h2>英雄联盟<span>韩服</span></h2>
+                            <div class="des">League of Legends</div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.lolmf.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/17050603113602lol美服（2）.jpg" alt=""></div>
+                            </div>
+                            <h2>英雄联盟<span>美服</span></h2>
+                            <div class="des">League of Legends</div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://pbg.waiplay.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/17050603163104绝地求生大逃杀.jpg" alt=""></div>
+                            </div>
+                            <h2>绝地求生:大逃杀<span>Steam</span></h2>
+                            <div class="des">Playbattlegrounds</div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://black.waiplay.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/17050603164505黑色沙漠.jpg" alt=""></div>
+                            </div>
+                            <h2>黑色沙漠<span>台服</span></h2>
+                            <div class="des">Black Desert</div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://9yin2.waiplay.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/170425023418bg.jpg" alt=""></div>
+                            </div>
+                            <h2>九阴真经2<span>国服</span></h2>
+                            <div class="des">Age of Wulin 2</div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://lostark.waiplay.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/17050603165607失落的方舟.jpg" alt=""></div>
+                            </div>
+                            <h2>失落的方舟<span>韩服</span></h2>
+                            <div class="des">LOST ARK</div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://le.waiplay.com/" target="_blank">
+                            <div class="pic">
+                                <div class="img"><img src="/public/uploads/17050603170606天堂永恒.jpg" alt=""></div>
+                            </div>
+                            <h2>天堂永恒<span>韩服</span></h2>
+                            <div class="des">Lineage Eternal</div>
+                        </a>
+                    </li>
+                            
+
+        </ul>
+    </div>
+    <div class="m-index-video">
+        <a href="/video" target="_blank" class="m-sq-more"></a>
+        <div class="u-header">
+            <span>游戏视频</span>
+        </div>
+        <div class="box">
+            <div class="pic-big video">
+                                                    <a href="http://www.waiplay.com/video/1000.html" target="_blank">
+                        <img src="/public/uploads/170412114441频道图.jpg" width="620" height="440" alt="">
+                        <div class="tt">
+                            <h2>《光明大陆》激情PVP宣传片</h2>
+                            <div class="time">19866</div>
+                        </div>
+                    </a>
+                            </div>
+            <div class="pic-small">
+                <ul>
+                                                                                                                                                            <li>
+                                    <div class="video">
+                                        <a href="http://www.waiplay.com/video/1001.html" target="_blank">
+                                            <img src="/public/uploads/170506032417监视者.jpg" width="620" height="440" alt="">
+                                            <div class="tt">
+                                                <h2>《BEHOLDER》（监视者）游戏测评</h2>
+                                                <div class="time">19128</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                                                                                                <li>
+                                    <div class="video">
+                                        <a href="	http://www.waiplay.com/video/1041.html" target="_blank">
+                                            <img src="/public/uploads/170413021623u=284289203,868697918&amp;fm=23&amp;gp=0.jpg" width="620" height="440" alt="">
+                                            <div class="tt">
+                                                <h2>《猎天使魔女》试玩解说</h2>
+                                                <div class="time">18713</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                                                                                                <li>
+                                    <div class="video">
+                                        <a href="http://www.waiplay.com/video/1003.html" target="_blank">
+                                            <img src="/public/uploads/170506032318黑暗之城.jpg" width="620" height="440" alt="">
+                                            <div class="tt">
+                                                <h2>《黑暗之魂3:环印城DLC》游戏测评</h2>
+                                                <div class="time">17879</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                                                        
+                </ul>
+            </div>
+            <div class="pic-news">
+                <!--<div class="ad"><img src="/public/img/img-5.jpg" width="330" height="170" alt=""></div>-->
+                <div class="list">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>播放排行</th>
+                            <th width="75">点击量</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                                                    <tr>
+                                    <td class="tt"><a href="/video/1783.html " target="_blank">【玲珑电竞】2017郑州青漫展实录 </a></td>
+                                    <td><span class="hit">17225</span></td>
+                                </tr>
+                                                            <tr>
+                                    <td class="tt"><a href="/video/1639.html " target="_blank">H1Z1精彩TOP10第十二期【主播好操作】帅坤一线天制霸 MASA燃油瓶比走位三杀 </a></td>
+                                    <td><span class="hit">16246</span></td>
+                                </tr>
+                                                            <tr>
+                                    <td class="tt"><a href="https://www.douyu.com/room/share/674621 " target="_blank">【渡哥】绝地吃鸡吃鸡吃鸡 </a></td>
+                                    <td><span class="hit">15748</span></td>
+                                </tr>
+                                                            <tr>
+                                    <td class="tt"><a href="https://www.douyu.com/room/share/685281 " target="_blank">【辣椒】绝地自定义服务器 </a></td>
+                                    <td><span class="hit">15366</span></td>
+                                </tr>
+                                                            <tr>
+                                    <td class="tt"><a href="https://www.douyu.com/room/share/1519061 " target="_blank">【子锌】枪神绝地求生 </a></td>
+                                    <td><span class="hit">15105</span></td>
+                                </tr>
+                                                            <tr>
+                                    <td class="tt"><a href="https://www.douyu.com/room/share/620330 " target="_blank">【小琪】七日杀我还活着 </a></td>
+                                    <td><span class="hit">14830</span></td>
+                                </tr>
+                                                            <tr>
+                                    <td class="tt"><a href="/video/1086.html " target="_blank">【Sara】直播间-H1Z1全民联赛直播 </a></td>
+                                    <td><span class="hit">14545</span></td>
+                                </tr>
+                                                            <tr>
+                                    <td class="tt"><a href="/video/1085.html " target="_blank">主播丶小骐直播间-H1Z1全民联赛直播 </a></td>
+                                    <td><span class="hit">13549</span></td>
+                                </tr>
+                                                                            <!--
+                    <tr>
+                        <td class="tt"><a href="">世界第一：薇恩S7新版光速</a></td>
+                        <td><span class="hit">16,365</span></td>
+                    </tr>
+                    -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-link">
+        <div class="link-tt">
+            友情链接
+        </div>
+        <div class="link-con">
+                                                <a href="http://lolrifu.waiplay.com/" target="_blank">LOL日服</a>
+                                    <a href="http://loljp.waiplay.com/" target="_blank">日服英雄联盟</a>
+                                    <a href="http://www.lolmf.com/" target="_blank">LOL美服</a>
+                                    <a href="http://lolkr.waiplay.com/" target="_blank">LOL韩服</a>
+                                    <a href="http://jx3.waiplay.com/" target="_blank">剑网3海外</a>
+                                    <a href="http://www.lonlife.cn/" target="_blank">玲珑网游加速器</a>
+                                    <a href="http://black.waiplay.com/" target="_blank">黑色沙漠韩服</a>
+                                    <a href="http://lostark.waiplay.com" target="_blank">失落的方舟韩服</a>
+                                    <a href="http://pbg.waiplay.com/" target="_blank">绝地求生大逃杀</a>
+                                    <a href="http://www.igxe.cn/" target="_blank">igxe</a>
+                                    <a href="http://www.xiazaizj.com/" target="_blank">下载之家</a>
+                                    <a href="http://youxi.2018.cn/" target="_blank">手机游戏排行榜</a>
+                                    <a href="http://www.huanleren.com/" target="_blank">h5游戏大全 </a>
+                                    <a href="http://my2.waiplay.com/" target="_blank">命运2官网</a>
+                                    </div>
+    </div>
+    <div class="m-ads">
+        <div class="ad-con">
+
+                            <a href="http://www.lonlife.cn/" target="_blank"><img src="/public/uploads/170515114958660.jpg" alt="" width="1920" height="329"></a>
+                    </div>
+    </div>
+    <!--<a href="http://www.lonlife.cn/mobile/test" target="_blank" style="position:fixed;top:50%;left:0px;margin-top:-182px;z-index:9;"><img src="/public/images/test-piao.png" alt="玲珑手游加速器内测版下载"></a>-->
+<div class="m-common-footer">
+    <div class="nav">
+        <!-- <div class="code">
+            <div class="pic"><img src="/public/img/img-7.jpg" alt=""></div>
+            <div class="des">
+                <p>歪玩微信公众号</p>
+                <p>游戏礼包随意领</p>
+            </div>
+        </div> -->
+        <div class="nav-con">
+            <div class="list" style="float:left">
+                <h2>友情链接</h2>
+                <p><a href="http://hezi.waiplay.com/" target="_blank">游戏盒子</a></p>
+                <p><a href="http://www.lonlife.cn/" target="_blank">游戏加速</a></p>
+            </div>
+            <!-- <div class="list" style="float:left">
+                <h2>友情链接</h2>
+                <p><a href="mailto:reno@waiplay.com">reno@waiplay.com</a></p>
+                 <h2>市场合作</h2>
+                <p><a href="mailto:xiangcao@waiplay.com">xiangcao@waiplay.com</a></p>
+            </div> -->
+            <div class="list" style="float:right">
+               <h2>战略合作伙伴</h2>
+                    <a href="http://www.lonlife.cn" target="_blank">
+                        <img src="/public/images/lonlife-logo.png?v1" alt="Lonlife">
+                    </a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="foot-nav">
+            <div class="share">
+                <a href="javascript:;" class="qq j-share-qq">qq</a>
+                <a href="javascript:;" class="weixin j-share-weixin">weixin</a>
+                <a href="javascript:;" class="sina j-share-sina">sina</a>
+            </div>
+            <div class="con">
+                <a href="/about" target="_blank">关于歪玩</a>
+                <a href="/contact" target="_blank">联系我们</a>
+            </div>
+        </div>
+        <div class="des">歪玩游戏网 版权所有 郑州豫达雅兴计算机有限公司 <a href="http://www.miitbeian.gov.cn" style="color:inherit">豫ICP备17007788号-2</a></div>
+    </div>
+</div>
+
+
+<script src="/bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+<script src="/public/js/swiper-3.4.1.min.js" charset="utf-8"></script>
+<script src="/public/js/posterTvGrid.js" charset="utf-8"></script>
+<script src="/public/js/share.js" charset="utf-8"></script>
+<script src="/public/js/common.js?v3" charset="utf-8"></script>
+<script src="/assets/scripts/getcard.js"></script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?faf3f996708b3d557b219e07dcf4780f";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-10089160-41', 'auto');
+    ga('send', 'pageview');
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?a93678cdd20758917bed34b92854d483";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script type="text/javascript">
+    // 顶部幻灯
+    new Swiper(".j-slideBox", {
+        pagination: ".swiper-pagination",
+        paginationClickable: ".swiper-pagination",
+        nextButton: ".swiper-button-next",
+        prevButton: ".swiper-button-prev",
+        spaceBetween: 30,
+        effect: "fade",
+        // autoplay:3000,
+        speed:1500,
+        loop:true,
+        onSlideChangeStart:function(swiper){
+            var activitySwiper=swiper.slides[swiper.activeIndex];
+            for(var i=0,n=swiper.slides.length;i<n;i++){
+                if(i!=swiper.activeIndex){
+                    $(swiper.slides[i]).removeClass("show");
+                }
+            }
+            setTimeout(function(){
+                $(activitySwiper).addClass("show");
+            },800)
+        }
+    });
+    var $indexBanner=$(".m-index-banner");
+    var $slideBoxBtn=$(".j-slideBox .btn");
+    $indexBanner.on("mouseenter",function(){
+        $slideBoxBtn.removeClass("hide");
+    })
+    $indexBanner.on("mouseleave",function(){
+        $slideBoxBtn.addClass("hide");
+    })
+    // 游戏专区盒子
+    var $gameBtns=$(".j-game-btns");
+    var $gameBtnBg=$gameBtns.find(".btn-bg");
+    $gameBtns.on("mouseenter",".btn",function(){
+        var $this=$(this);
+        var offset=$this.position();
+        $this.addClass("sel").siblings().removeClass("sel");;
+        $gameBtnBg.css({top:offset.top});
+    })
+    // 游戏新闻
+    new Swiper(".j-news-banner", {
+        pagination: ".swiper-pagination",
+        paginationClickable: ".swiper-pagination",
+        nextButton: ".swiper-button-next",
+        prevButton: ".swiper-button-prev",
+        spaceBetween: 30,
+        loop:true
+    });
+    // 活动banner
+
+    // 游戏资讯
+    new Swiper(".j-slideNews", {
+        pagination: ".swiper-pagination",
+        paginationClickable: ".swiper-pagination",
+        nextButton: ".swiper-button-next",
+        prevButton: ".swiper-button-prev",
+        spaceBetween: 23,
+        slidesPerView:3,
+        slidesPerGroup:3,
+        loop:true,
+        autoplay:4000,
+        speed:1300,
+    });
+    // 游戏
+    var gameSlideNav=new Swiper(".j-gameNav", {
+        slidesPerView: "auto",
+        paginationClickable: true,
+        spaceBetween: 20,
+        loop:true
+    });
+    $(".j-gameNav-next").on("click",function(){
+        gameSlideNav.slideNext();
+    })
+</script>
+
+</body></html>

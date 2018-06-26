@@ -1,0 +1,1470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="zh-CN"><head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta charset="UTF-8">
+        <title>36bot智能一键上网</title>
+        <link rel="apple-touch-icon-precomposed" href="http://m.36bot.com/newversion/images/icon.png">
+        <link rel="icon" href="http://m.36bot.com/newversion/images/icon.png">
+        <link rel="stylesheet" href="http://m.36bot.com/newversion/css/11.css">
+        <script src="//hm.baidu.com/hm.js?2e5a42ef734d2056d02fd68ddeb7d101"></script><script src="//hm.baidu.com/hm.js?3b546eb22965c3f8b3675bb647dccf3e"></script><script src="http://m.36bot.com/newversion/js/jquery.min.js"></script>
+        <script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script><script type="text/javascript" src="http://api.map.baidu.com/getscript?v=1.4&amp;ak=&amp;services=&amp;t=20180102095227"></script>
+		<script src="http://m.36bot.com/newversion/js/jQuery.Hz2Py-min.js"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?3b546eb22965c3f8b3675bb647dccf3e";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+			
+			var strID="";
+			var strName="";
+			var strCode="";
+		</script>
+		<style id="index_plus_ls_css_page_2" type="text/css" class="index_plus_ls_css_page_2@8">
+		#index-kw.animate {
+			-webkit-animation: ChangeColor 300ms linear
+		}
+		
+		@
+		-webkit-keyframes ChangeColor { 0%{
+			background: #dae6ff
+		}
+		
+		50%{
+		background:#dae6ff
+		
+		}
+		100%{
+		background:transparent
+		}
+		}
+		#index-cross {
+			position: absolute;
+			top: 0;
+			left: -35px;
+			width: 35px;
+			height: 42px;
+			display: none;
+			background: url(//m.baidu.com/static/search/clear.png) no-repeat center;
+			-webkit-background-size: 16px;
+			background-size: 16px;
+			z-index: 2
+		}
+		
+		.input-hidden {
+			font-family: Arial, Helvetica, sans-serif;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+			background-color: transparent;
+			-webkit-appearance: none;
+			-webkit-box-sizing: border-box;
+			margin: 0;
+			resize: none;
+			padding: 7px 42px 7px 6px;
+			text-align: left;
+			font-size: 18px;
+			border: 1px solid #fff;
+			z-index: -10;
+			height: 42px
+		}
+		
+		.input-hidden::-webkit-scrollbar {
+			width: 0;
+			background: transparent
+		}
+		
+		div.direct {
+			height: 50px;
+			padding-right: 0
+		}
+		
+		.directIcon {
+			position: relative;
+			margin: 0 10px 0 0;
+			float: left;
+			vertical-align: middle
+		}
+		
+		.directText {
+			position: relative
+		}
+		
+		.directText p {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap
+		}
+		
+		.directText .title {
+			line-height: 22px;
+			font-size: 16px;
+			color: #333
+		}
+		
+		.directText .info {
+			font-size: 12px;
+			line-height: 12px;
+			color: #878787;
+			margin: 2px 0
+		}
+		
+		.directText .pre {
+			white-space: pre
+		}
+		
+		.directText .num {
+			font-size: 20px
+		}
+		
+		.directText .leftBorder {
+			font-size: 12px;
+			margin-left: 10px;
+			padding-left: 10px;
+			color: #878787;
+			border-left: 1px solid #BFBFBF
+		}
+		
+		#index-card .icon-yin:before, #index-card .icon-nightyin:before {
+			content: "\e600"
+		}
+		
+		#index-card .icon-leidian:before, #index-card .icon-nightleidian:before
+			{
+			content: "\e601"
+		}
+		
+		#index-card .icon-qing:before {
+			content: "\e602"
+		}
+		
+		#index-card .icon-shachen:before, #index-card .icon-nightshachen:before
+			{
+			content: "\e603"
+		}
+		
+		#index-card .icon-wu:before {
+			content: "\e604"
+		}
+		
+		#index-card .icon-xue:before, #index-card .icon-nightxue:before {
+			content: "\e605"
+		}
+		
+		#index-card .icon-duoyun:before {
+			content: "\e606"
+		}
+		
+		#index-card .icon-yu:before, #index-card .icon-nightyu:before {
+			content: "\e607"
+		}
+		
+		.directIcon1 .icon-wumai:before, .directIcon1 .icon-nightwumai:before {
+			content: "\e637"
+		}
+		
+		#index-card .icon-nightqing:before {
+			content: "\e62c"
+		}
+		
+		#index-card .icon-nightduoyun:before {
+			content: "\e62d"
+		}
+		
+		#index-card .icon-nightwu:before {
+			content: "\e62e"
+		}
+		
+		.directIcon1 {
+			margin: 0 0 0 -3px
+		}
+		
+		.directIcon1 .icon {
+			position: relative;
+			width: 42px;
+			height: 42px;
+			top: -2px
+		}
+		
+		.directIcon1 i {
+			font-size: 40px;
+			line-height: 40px
+		}
+		
+		.directIcon1 .icon-qing {
+			color: #FFB845
+		}
+		
+		.directIcon1 .icon-yin, .directIcon1 .icon-nightyin, .directIcon1 .icon-xue,
+			.directIcon1 .icon-nightxue, .directIcon1 .icon-leidian, .directIcon1 .icon-nightleidian,
+			.directIcon1 .icon-yu, .directIcon1 .icon-nightyu, .directIcon1 .icon-wu,
+			.directIcon1 .icon-duoyun {
+			color: #00B7FA
+		}
+		
+		.directIcon1 .icon-wumai, .directIcon1 .icon-nightwumai, .directIcon1 .icon-shachen,
+			.directIcon1 .icon-nightshachen {
+			color: #BABABA
+		}
+		
+		.directIcon1 .icon-nightqing, .directIcon1 .icon-nightduoyun,
+			.directIcon1 .icon-nightwu {
+			color: #4176AD
+		}
+		
+		.directText1 {
+			margin-left: 42px
+		}
+		
+		.directText1 .title {
+			font-size: 16px
+		}
+		
+		.directText1 .right {
+			padding: 0 5px;
+			line-height: 18px;
+			font-size: 12px;
+			right: 2px;
+			top: 10px;
+			color: #878787;
+			position: absolute;
+			border: 1px solid #c8c8c8;
+			border-radius: 2px
+		}
+		
+		.directIcon2 .icon {
+			position: relative;
+			top: 10px;
+			width: 16px;
+			height: 16px
+		}
+		
+		.directText2 {
+			margin-left: 25px
+		}
+		
+		.directText2 .info {
+			line-height: 14px;
+			color: #008000
+		}
+		
+		.directIcon3 .icon {
+			position: relative;
+			width: 36px;
+			height: 36px;
+			top: 1px
+		}
+		
+		.directText3 {
+			top: 1px;
+			margin-left: 46px
+		}
+		
+		.directText3 .title span {
+			position: relative;
+			top: -2px;
+			border: 1px solid #6FA4EF;
+			border-radius: 2px;
+			color: white;
+			text-shadow: 1px 1px 1px #4F7DBD;
+			background-color: #6FA4EF;
+			padding: 0 2px;
+			line-height: 18px;
+			font-size: 12px;
+			margin-left: 5px
+		}
+		
+		.sug.direct.d4 {
+			min-height: 50px;
+			height: 100%
+		}
+		
+		.directText4 .ball {
+			position: relative;
+			float: left;
+			font-size: 12px;
+			text-align: center;
+			width: 18px;
+			height: 18px;
+			line-height: 18px;
+			margin: 2px 2px 2px 0;
+			color: #fff;
+			border-radius: 9px
+		}
+		
+		.directText4 .redball {
+			background: #bd0005
+		}
+		
+		.directText4 .blueball {
+			background: #2e569b
+		}
+		
+		div.direct.d8, div.direct.d9, div.direct.d10, div.direct.d14, div.direct.d15
+			{
+			height: 35px
+		}
+		
+		.directText15 em {
+			font-size: 12px
+		}
+		
+		.directText15 a {
+			margin-left: 1px;
+			background: url(//m.baidu.com/static/index/sugtel.png) no-repeat;
+			background-color: #689AF1;
+			background-size: 18px 18px;
+			border-radius: 10px;
+			color: white;
+			padding: 0 5px 0 24px;
+			background-position: 1px 1px;
+			margin-right: 10px;
+			border: 1px solid #689AF1;
+			text-decoration: none
+		}
+		
+		#index-card .suggest-div {
+			position: relative;
+			top: 1px;
+			left: -1px;
+			z-index: 2;
+			border: 1px solid #b4b4b4;
+			border-top: 0;
+			border-radius: 0 0 2px 2px;
+			width: 100%;
+			background: #FFF;
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)
+		}
+		
+		#index-box .suggest-close {
+			position: absolute;
+			right: 18px;
+			bottom: 0;
+			text-align: center;
+			color: #666;
+			font-size: 14px;
+			line-height: 35px;
+			border-left: 1px solid #c5c5c5;
+			width: 62px;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+		}
+		
+		#index-box .suggest-close::after {
+			border-left: 1px solid #fff;
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0
+		}
+		
+		.suggest-logo {
+			background: url(//m.baidu.com/static/search/sug_logo.png) no-repeat;
+			-webkit-background-size: 15px 15px;
+			background-size: 15px 15px;
+			width: 15px;
+			height: 15px;
+			margin: 9px 0 0 5px
+		}
+		
+		.suggest-title {
+			display: -moz-box;
+			display: -webkit-box;
+			height: 34px;
+			background: #f7f7f7;
+			border-top: 1px solid #d3d3d3;
+			position: relative;
+			top: -1px;
+			overflow: hidden
+		}
+		
+		.suggest-title .history-clear {
+			color: #666;
+			font-size: 14px;
+			line-height: 34px;
+			width: 85px;
+			height: 34px;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+		}
+		
+		.history-clear {
+			border-right: 1px solid #c5c5c5;
+			padding: 0 5px;
+			position: relative
+		}
+		
+		.history-clear::after {
+			content: '';
+			border-right: 1px solid #fff;
+			position: absolute;
+			right: 0;
+			top: 0;
+			bottom: 0
+		}
+		
+		.his, .sug {
+			font-size: 16px;
+			line-height: 22px;
+			border-bottom: 1px solid #f0f0f0;
+			color: #555;
+			text-align: left;
+			word-break: break-all;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+			position: relative;
+			padding-right: 50px
+		}
+		
+		.sug {
+			color: #878787
+		}
+		
+		.suggest-item-last {
+			border-bottom: 0
+		}
+		
+		.his em, .sug em {
+			font-weight: normal;
+			font-style: normal;
+			color: #878787
+		}
+		
+		.touched {
+			background-color: #eef3fe !important
+		}
+		
+		.suggest-div a {
+			display: block;
+			border: 0;
+			width: 100%;
+			height: 100%;
+			background: none transparent;
+			-webkit-appearance: none;
+			margin: 0;
+			padding: 6px 0 6px 5px;
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 22px;
+			position: relative;
+			text-align: left;
+			color: #333;
+			-webkit-box-sizing: border-box
+		}
+		
+		.suggest-div .suggest-close-a {
+			display: block;
+			border: 0;
+			width: 100%;
+			height: 100%;
+			background: none transparent;
+			-webkit-appearance: none;
+			margin: 0;
+			font-size: 14px;
+			font-weight: bold;
+			right: -18px;
+			line-height: 22px;
+			position: relative;
+			text-align: left;
+			color: #666;
+			-webkit-box-sizing: border-box
+		}
+		
+		.suggest-div .sug-his-graph {
+			height: 34px;
+			line-height: 20px
+		}
+		
+		.sug-his-graph img {
+			width: 22px;
+			height: 22px;
+			border: 0;
+			display: inline-block;
+			vertical-align: middle
+		}
+		
+		.sug-his-graph .sug-his-graph-kw {
+			display: inline-block;
+			vertical-align: middle
+		}
+		
+		.suggest-div .direct button {
+			padding: 6px 5px
+		}
+		
+		.sug-edit {
+			position: absolute;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: 52px;
+			background:
+				url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI5JREFUSEtjZCACLF261J6RkbELpPT///9l0dHRB4nQRlgJ0ODny5Yt+w/CIDZhHUSqgBkKo4nURljZqMHwMBohQQFK/ECvnkT3LgX8kyAzGZATPwWGgTMPSiYCGvyEWgYiGfyEAcjxoKaroWZ5EM52QBUjJLkRExajQUH7Qgg5E4HYxMQLUWpgmYiUxA8AOdLMz+iDKvIAAAAASUVORK5CYII=)
+				no-repeat scroll center center #fff;
+			background-size: 11px 11px;
+			-webkit-background-size: 11px 11px;
+			z-index: 1
+		}
+		
+		.sug-del {
+			background-image: url(//m.baidu.com/static/search/sug_del.png)
+		}
+		
+		.sug-visit {
+			position: absolute;
+			right: 0;
+			top: 1px;
+			bottom: 1px;
+			width: 52px;
+			z-index: 1
+		}
+		
+		.visit {
+			padding: 0 5px;
+			line-height: 18px;
+			font-size: 12px;
+			right: 7px;
+			top: 6px;
+			color: #878787;
+			position: absolute;
+			border: 1px solid #c8c8c8;
+			border-radius: 2px
+		}
+		
+		.suggest-div button.sugat {
+			padding: 6px 0 6px 10px
+		}
+		
+		.suggest-div button.sugat div {
+			position: relative;
+			float: left;
+			top: 1px;
+			height: 20px;
+			width: 20px;
+			margin-right: 10px
+		}
+		
+		.sugat img {
+			width: 20px;
+			height: 20px
+		}
+		
+		.suggest-title .suggest-at {
+			font-size: 12px;
+			color: #777;
+			line-height: 34px;
+			margin-left: 10px
+		}
+		
+		.suggest-title .suggest-at:after {
+			content: "";
+			position: relative;
+			top: 2px;
+			left: 6px;
+			display: inline-block;
+			width: 10px;
+			height: 12px;
+			background: url(//m.baidu.com/static/index/sug_at.png) no-repeat;
+			-webkit-background-size: 10px 12px;
+			background-size: 10px 12px
+		}
+		
+		.suggest-panel.sug-oper {
+			min-height: 140px
+		}
+		
+		.suggest-panel.sug-oper .suggest-content {
+			border-right: 1px solid #e4e4e4
+		}
+		
+		.suggest-panel .suggest-oper {
+			position: absolute;
+			top: 0;
+			right: 0;
+			display: none;
+			border-left: 1px solid #e4e4e4
+		}
+		
+		.suggest-panel.sug-oper .suggest-oper {
+			display: block
+		}
+		
+		.suggest-panel .sug-oper-btn {
+			width: 80px;
+			height: 70px;
+			color: #777;
+			font-size: 11px;
+			text-align: center;
+			background: no-repeat center 13px;
+			background-color: #fff;
+			-webkit-background-size: 24px 24px;
+			background-size: 24px 24px;
+			padding-top: 40px;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			border-bottom: 1px solid #f0f0f0
+		}
+		
+		.suggest-panel .suggest-oper .suggest-oper-his {
+			background-image: url(//m.baidu.com/static/index/sug-oper-his.png);
+			border-bottom: 1px solid #e2f0ff
+		}
+		
+		.suggest-panel .suggest-oper.sug-active-his .suggest-oper-his {
+			background-image:
+				url(//m.baidu.com/static/index/sug-oper-his-active.png);
+			background-color: #e2f0ff;
+			color: #0078da
+		}
+		
+		.suggest-panel .suggest-oper .suggest-oper-at {
+			background-image: url(//m.baidu.com/static/index/sug-oper-at.png)
+		}
+		
+		.suggest-panel .suggest-oper.sug-active-at .suggest-oper-at {
+			background-image: url(//m.baidu.com/static/index/sug-oper-at-active.png);
+			background-color: #e2f0ff;
+			color: #0078da;
+			border-bottom: 1px solid #e2f0ff
+		}
+		
+		.suggest-oper {
+			display: none !important
+		}
+		
+		.suggest-control {
+			width: 100%;
+			height: 100%;
+			font-size: 14px;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			padding-right: 63px
+		}
+		
+		.suggest-control-more {
+			position: relative;
+			display: inline-block;
+			color: #777;
+			width: 60%
+		}
+		
+		.suggest-control-set {
+			display: inline-block;
+			color: #777;
+			width: 40%
+		}
+		
+		.suggest-control-set .icon-setting:before {
+			position: relative;
+			top: 1px;
+			content: "\e628";
+			font-size: 18px;
+			line-height: 18px;
+			color: #b1b1b1;
+			margin-right: 4px
+		}
+		
+		.suggest-control-more .icon-logo:before {
+			position: relative;
+			top: 1px;
+			color: #b1b1b1;
+			content: '\e681';
+			font-size: 18px;
+			margin-right: 4px
+		}
+		
+		.suggest-control-more a, .suggest-control-more a:visited,
+			.suggest-control-set a, .suggest-control-set a:visited {
+			color: #777;
+			padding: 8px;
+			line-height: 35px
+		}
+		
+		.suggest-control-more:after {
+			content: "";
+			display: inline-block;
+			position: absolute;
+			right: 0;
+			border-left: 1px solid #d4d4d4;
+			height: 18px;
+			top: 9px
+		}
+		</style>
+		<script type="text/javascript">
+			function getCookie(cname) {
+			    var name = cname + "=";
+			    var ca = document.cookie.split(';');
+			    for(var i=0; i<ca.length; i++) {
+			        var c = ca[i];
+			        while (c.charAt(0)==' ') c = c.substring(1);
+			        if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+			    }
+			    return "";
+			}
+		
+			var u = navigator.userAgent;
+			var isIOS=!!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+			var isexpand=false;
+			var isexpand1=false;
+			var city="nanjing";
+			var curlink="";
+			var ctmp="|"+getCookie("kuzhan");
+			
+			//getLocation();
+
+			function getLocation(){
+				var options={
+					enableHighAccuracy:true,
+					maximumAge:1000
+				}
+				if(navigator.geolocation){
+					navigator.geolocation.getCurrentPosition(onSuccess,onError,options);
+				}else{
+					getIPCity();
+				}
+			}
+
+			function onSuccess(position){
+				var lat=position.coords.latitude;
+				var lon=position.coords.longitude;
+				var point = new BMap.Point(lon, lat);    // 创建点坐标
+				var gc = new BMap.Geocoder();
+				gc.getLocation(point, function(rs){
+					var addComp = rs.addressComponents;
+					//alert(city);
+					city = toPinyin(addComp.city.substring(0,addComp.city.length-1));
+					citypro();
+				});
+			}
+
+			function onError(error){
+				switch(error.code){
+					case 1:
+						//alert("位置服务被拒绝");
+						break;
+					case 2:
+						//alert("暂时获取不到位置信息");
+						break;
+					case 3:
+						//alert("获取信息超时");
+						break;
+					case 4:
+						//alert("未知错误");
+						break;
+				}
+				getIPCity();
+			}
+			
+			function getIPCity(){
+				$.getScript("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
+					city = toPinyin(remote_ip_info["city"]);
+					citypro();
+				});
+			}
+
+			function citypro(){
+				//alert(city);
+				$("#weath").html("<iframe width=\"122px\" height=\"25px\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\" src=\"http://i.tianqi.com/index.php?c=code&id=34&color=%23FFFFFF&icon=3&py="+city+"&wind=1&num=1\"></iframe>");
+			}
+		
+			function expandmenu(){
+				if(isexpand) {
+					
+					$("#menulist1").animate({height: 0}, 400,function(){
+						document.getElementById('expandlink').innerHTML="更多";					
+						isexpand=false;
+						$("#menulist1").hide();
+					});
+				} else {
+					$("#menulist1").show();
+					$("#menulist1").animate({height: 100}, 400,function(){
+						document.getElementById('expandlink').innerHTML="收回";
+						isexpand=true;
+						
+					});
+				}
+			}
+			
+			function GetQueryString(name)
+			{ 
+				var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r!=null)
+					return  unescape(r[2]); 
+				return null;
+			}			
+			
+			if(GetQueryString("id")!=null) {
+				switch(GetQueryString("id"))
+				{
+					case "20170527123838":strID="20170527123838";strName="推荐";strCode="1022";break;case "20170527114824":strID="20170527114824";strName="热点";strCode="1021";break;case "20170527114446":strID="20170527114446";strName="娱乐";strCode="1001";break;case "20170527114622":strID="20170527114622";strName="财经";strCode="1006";break;case "20170527114509":strID="20170527114509";strName="体育";strCode="1002";break;case "20170527114533":strID="20170527114533";strName="图片";strCode="1003";break;case "20170527114638":strID="20170527114638";strName="汽车";strCode="1007";break;case "20170527114550":strID="20170527114550";strName="手机";strCode="1005";break;case "20170527114703":strID="20170527114703";strName="房产";strCode="1008";break;case "20170527114913":strID="20170527114913";strName="视频";strCode="1033";break;case "20170527114753":strID="20170527114753";strName="军事";strCode="1012";break;case "20170527114808":strID="20170527114808";strName="科技";strCode="1013";break;case "20170527114842":strID="20170527114842";strName="美女";strCode="1024";break;case "20170527114858":strID="20170527114858";strName="搞笑";strCode="1025";break;
+					default:strID="20170527123838";strName="推荐";strCode="1022";
+				}
+			} else {
+				strID="20170527123838";strName="推荐";strCode="1022";
+			}
+		</script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?2e5a42ef734d2056d02fd68ddeb7d101";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+		<script src="http://wn.clb6.net/adcount/clicklog?blid=36bot&amp;typeId=0&amp;source=index"></script>
+    </head>
+    <body style="top: 0px; margin: 0px;">
+    <div class="J-header-ani" style="z-index:999;">
+		<script>
+			if(GetQueryString("id")!=null) {
+				$('.J-header-ani').hide();				
+			} else {
+			}
+		</script>
+	    <!--BEGIN 头部 -->
+	    <div class="header-main plr30">
+	        <header class="clearfix">
+	            <a href="" class="logo">
+	                <img src="http://m.36bot.com/newversion/images/logo.png" height="100%">
+	            </a>
+	            <div class="fr logo-icon J-open-user" style="display:none;">
+	                <img src="http://m.36bot.com/newversion/images/logo-icon.png">
+	            </div>
+	            <span id="weath" style="width:122px;height:25px;position:absolute;top:17px;right:45px;"></span>
+	
+	        </header>
+	        <form id="index-form" action="https://m.baidu.com/s" method="get" target="_top">
+				<div class="search-main">			
+					<div class="bg"></div>
+					<img src="http://m.36bot.com/newversion/images/search.png" class="icon-1">
+					<a href="#" class="btn btn-1" style="z-index:999;" onclick="javascript:$('#index-form').submit();">百度一下</a>
+					<input type="" id="index-kw" name="word" class="input-1" oninput="searchSuggest();" onkeyup="searchSuggest();" placeholder="全国人民在这儿搜">
+					<div id="index-box" style="display: none;background-color:#fff;z-index:9999;">
+						<div class="suggest-div" style="background-color:#fff;z-index:9999;">
+							<div class="suggest-panel">
+								<div id="suggest-content-id" class="suggest-content"></div>
+							</div>
+							<div class="suggest-title">
+								<div class="suggest-logo"></div>
+								<div class="suggest-close">
+									<a class="suggest-close-a" href="javascript:void(0)" onclick="hideSug()">关闭</a>
+								</div>
+							</div>							
+						</div>
+					</div>
+					<input type="hidden" id="from" name="from" value="1017690c">			
+				</div>
+			</form>
+			<div id="menulist" class="clearfix index-nav-main style-1" style="z-index:999;">
+				<a class="l-col-5" onclick="javascript:gotoChannel('20170527123838');" href="javascript:null;">推荐</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114824');" href="javascript:null;">热点</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114446');" href="javascript:null;">娱乐</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114622');" href="javascript:null;">财经</a>	
+				<a class="l-col-5" href="#" id="expandlink" onclick="javascript:expandmenu();">更多</a>
+			</div>
+			<div id="menulist1" class="header-main plr30" style="position:absolute;display:none;margin-top:-18px;width:100%;left:0;z-index:997;height:0px;">
+				<div class="clearfix index-nav-main style-1">
+					<a class="l-col-5" onclick="javascript:gotoChannel('20170527114509');" href="javascript:null;">体育</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114533');" href="javascript:null;">图片</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114638');" href="javascript:null;">汽车</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114550');" href="javascript:null;">手机</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114703');" href="javascript:null;">房产</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114913');" href="javascript:null;">视频</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114753');" href="javascript:null;">军事</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114808');" href="javascript:null;">科技</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114842');" href="javascript:null;">美女</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114858');" href="javascript:null;">搞笑</a>
+				</div>
+			</div>
+			  
+	    </div>
+	    <div id="mingzhanmenu" class="plr30 index-main" style="z-index:995;">
+	            <div class="clearfix index-nav-main1">
+	                <a href="javascript:null;" class="l-col-5" onclick="javascript:gotoMingzhan('20160923153121','http://ai.m.taobao.com/index.html?pid=mm_61043222_16658737_61838332')"><img src="http://img.clb6.net/36bot/imagead/aitaobao.png" alt="爱淘宝" style=""><p>爱淘宝</p></a><a href="javascript:null;" class="l-col-5" onclick="javascript:gotoMingzhan('20160923152711','http://t.cn/RcnXrhv')"><img src="http://img.clb6.net/36bot/imagead/%E4%BA%AC%E4%B8%9C.png" alt="京东" style=""><p>京东</p></a><a href="javascript:null;" class="l-col-5" onclick="javascript:gotoMingzhan('20160923153152','http://c.duomai.com/track.php?site_id=218715&amp;aid=58&amp;euid=&amp;t=http%3A%2F%2Fwww.yhd.com%2F')"><img src="http://img.clb6.net/36bot/imagead/1%E5%8F%B7%E5%BA%97.png" alt="1号店" style=""><p>1号店</p></a><a href="javascript:null;" class="l-col-5" onclick="javascript:gotoMingzhan('20160923152615','http://c.duomai.com/track.php?site_id=218715&amp;aid=236&amp;euid=&amp;t=http%3A%2F%2Fwww.gome.com.cn%2F')"><img src="http://img.clb6.net/36bot/imagead/%E5%9B%BD%E7%BE%8E.png" alt="国美" style=""><p>国美</p></a>
+	                <a href="javascript:;" class="l-col-5 J-open1">
+	                    <img id="morekuzhan" src="http://m.36bot.com/newversion/images/kuzhan.png" alt="酷站" style="">
+	                    <p>更多酷站</p>
+	                </a>
+	
+	            </div>
+	            <div class="J-slide-main pr trans oh" style="height: 0px;">
+		            
+	                <div id="kuzhan2" class="clearfix index-nav-main1 bdt-dash">
+		                <!-- <div class="p20 tc J-hide-slide slide-icon" style="margin-bottom:-25px;margin-top:15px;">
+					        <img src="http://m.36bot.com/newversion/images/triangle.png" alt="" width="15">
+					    </div> -->
+	                    
+	                <a id="zidingyi" href="javascript:;" class="l-col-5 J-open"><img src="http://m.36bot.com/newversion/images/kuzhan1.png" alt="酷站" style=""><p>自定义</p></a></div>
+	                
+	            </div>
+				
+	        </div>
+		</div>
+	<div id="channelmenu" style="display:none;">
+    	<div id="menu1" style="height:45px;width:100%;z-index:999;">
+			<div id="title1" style="height:45px;background-color:#437ef7;width:100%;line-height:40px;">
+				<img class="J-top" src="http://img.clb6.net/36bot/logo.png" style="margin-left:15px;height:40px;">
+				<span id="titletxt1" style="margin-left:5px;font-size:16px;color:#fff;vertical-align:38%;">推荐头条</span>
+				<img id="expandimage2" src="http://img.clb6.net/36bot/expand.png" style="margin-right:20px;float:right;margin-top:-5px;" onclick="javascript:expandmenu1();">
+			</div>
+		</div>
+		<div id="menumain1" class="header-main plr30" style="display: none; width: 100%; z-index: 997; height: 0px;">
+				<div class="clearfix index-nav-main style-1">
+					<a class="l-col-5" onclick="javascript:gotoChannel('20170527123838');" href="javascript:null;">推荐</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114824');" href="javascript:null;">热点</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114446');" href="javascript:null;">娱乐</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114622');" href="javascript:null;">财经</a>
+					<a class="l-col-5" onclick="javascript:gotoChannel('20170527114509');" href="javascript:null;">体育</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114533');" href="javascript:null;">图片</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114638');" href="javascript:null;">汽车</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114550');" href="javascript:null;">手机</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114703');" href="javascript:null;">房产</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114913');" href="javascript:null;">视频</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114753');" href="javascript:null;">军事</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114808');" href="javascript:null;">科技</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114842');" href="javascript:null;">美女</a><a class="l-col-5" onclick="javascript:gotoChannel('20170527114858');" href="javascript:null;">搞笑</a>
+				</div>
+		</div>
+		
+		<script type="text/javascript">
+			if(GetQueryString("id")!=null) {
+				$('#channelmenu').show();				
+			} else {
+			}
+			document.getElementById('titletxt1').innerHTML=strName+"头条";
+			var isexpand1=false;
+			function expandmenu1(){
+				if(isexpand1) {
+					//document.getElementById('menumain1').style.display='none';
+					
+					$("#menumain1").animate({height: 0}, 400,function(){
+						document.getElementById('expandimage2').src="http://img.clb6.net/36bot/expand.png";					
+						isexpand1=false;
+						$("#menumain1").hide();
+					});
+					
+				} else {
+					//document.getElementById('menumain1').style.display='block';
+					$("#menumain1").show();
+					$("#menumain1").animate({height: 140}, 400,function(){
+						document.getElementById('expandimage2').src="http://img.clb6.net/36bot/expand1.png";
+						isexpand1=true;
+					});
+					
+				}
+			}
+		</script>
+    </div>
+	<div id="iframecontent" class="pr" style="margin-top:3px;z-index:999;background-color:#fff;"> 
+		<div class="pr bdt-dash" style="margin-top:3px;z-index:999;background-color:#fff;">
+        	<div class="J-iframe index-iframe-main"></div>
+			<script>
+				(function() {
+					var s = "_" + Math.random().toString(36).slice(2);
+					document.write('<div id="' + s + '"></div>');
+					(window.slotbycpu=window.slotbycpu || []).push({
+						siteId: '269486048',
+						channelId: strCode,
+						container: s,
+						display: 'auto'
+					});
+				})();
+			</script><div id="_7quiow17vq9"><iframe src="//cpu.baidu.com/wap/1022/269486048?source=http%3A%2F%2Fwww.36bot.com%2F" frameborder="0" scrolling="no" width="1024" height="768"></iframe></div>
+			<script src="//cpu.baidu.com/js/ci.js"></script>
+	        <iframe src="" frameborder="0" width="100%" id="RefFrame"></iframe>
+	    </div>
+    </div>
+    <div class="record-layer-main remove">
+        <div class="title-1">
+            酷站
+        </div>
+        <div id="kuzhan" class="clearfix col-main">
+                      
+        </div>
+        <div id="kuzhan1" class="clearfix col-main" style="margin-top:30px;">
+          
+        <a id="a20160902231916" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160902231916','http://img.clb6.net/36bot/imagead/sina.png','新浪网','http://www.sina.com.cn');"><img src="http://img.clb6.net/36bot/imagead/sina.png" alt="新浪网">新浪网</a><a id="a20160923155509" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160923155509','http://img.clb6.net/36bot/imagead/1%E8%8D%AF%E7%BD%91.png','1药网','http://c.duomai.com/track.php?site_id=218715&amp;aid=256&amp;euid=&amp;t=http%3A%2F%2Fwww.111.com.cn%2F');"><img src="http://img.clb6.net/36bot/imagead/1%E8%8D%AF%E7%BD%91.png" alt="1药网">1药网</a><a id="a20160902231830" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160902231830','http://img.clb6.net/36bot/imagead/meituan.png','美团网','http://www.meituan.com');"><img src="http://img.clb6.net/36bot/imagead/meituan.png" alt="美团网">美团网</a><a id="a20160902231742" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160902231742','http://img.clb6.net/36bot/imagead/dang.png','当当网','http://www.dangdang.com');"><img src="http://img.clb6.net/36bot/imagead/dang.png" alt="当当网">当当网</a><a id="a20160902232208" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160902232208','http://img.clb6.net/36bot/imagead/sohufang.png','搜狐焦点','http://house.focus.cn');"><img src="http://img.clb6.net/36bot/imagead/sohufang.png" alt="搜狐焦点">搜狐焦点</a><a id="a20160902232304" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160902232304','http://img.clb6.net/36bot/imagead/tuniu.png','途牛网','http://www.tuniu.com');"><img src="http://img.clb6.net/36bot/imagead/tuniu.png" alt="途牛网">途牛网</a><a id="a20160902232017" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160902232017','http://img.clb6.net/36bot/imagead/sohu.png','搜狐','http://www.sohu.com');"><img src="http://img.clb6.net/36bot/imagead/sohu.png" alt="搜狐">搜狐</a><a id="a20160902231952" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160902231952','http://img.clb6.net/36bot/imagead/sinacar.png','新浪汽车','http://auto.sina.com.cn');"><img src="http://img.clb6.net/36bot/imagead/sinacar.png" alt="新浪汽车">新浪汽车</a><a id="a20160923155406" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160923155406','http://img.clb6.net/36bot/imagead/%E5%8E%BB%E5%93%AA%E5%84%BF.png','去哪儿','http://c.duomai.com/track.php?site_id=218715&amp;aid=552&amp;euid=&amp;t=http%3A%2F%2Fdujia.qunar.com%3Fex_track%3Dauto_52b3f121');"><img src="http://img.clb6.net/36bot/imagead/%E5%8E%BB%E5%93%AA%E5%84%BF.png" alt="去哪儿">去哪儿</a><a id="a20160923155331" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160923155331','http://img.clb6.net/36bot/imagead/%E8%9E%8D360.png','融360','http://c.duomai.com/track.php?site_id=218715&amp;aid=2562&amp;euid=&amp;t=http%3A%2F%2Fwww.rong360.com');"><img src="http://img.clb6.net/36bot/imagead/%E8%9E%8D360.png" alt="融360">融360</a><a id="a20160923155228" href="javascript:null;" class="l-col-4" onclick="javascript:movekuzhan('0','20160923155228','http://img.clb6.net/36bot/imagead/%E6%8A%98800.png','折800','http://c.duomai.com/track.php?site_id=218715&amp;aid=1449&amp;euid=&amp;t=http%3A%2F%2Fshop.zhe800.com%2F');"><img src="http://img.clb6.net/36bot/imagead/%E6%8A%98800.png" alt="折800">折800</a></div>
+        <div class="close J-close">
+            <img src="http://m.36bot.com/newversion/images/cloce.png" alt="关闭">
+        </div>
+        <script type="text/javascript">
+        	function movekuzhan(status,id,img,title,url) {   
+        		if(status=="1") {
+        			$('#a'+id).remove();
+        			$('#kuzhan1').append("<a id='a"+id+"' href='javascript:null;' class='l-col-4' onclick=\"javascript:movekuzhan('0','"+id+"','"+img+"','"+title+"','"+url+"');\"><img src='"+img+"' alt='"+title+"'>"+title+"</a>");
+        			$('#b'+id).remove();
+        		} else {
+        			$('#zidingyi').remove();
+        			$('#a'+id).remove();
+        			$('#kuzhan').append("<a id='a"+id+"' href='javascript:null;' class='l-col-4' onclick=\"javascript:movekuzhan('1','"+id+"','"+img+"','"+title+"','"+url+"');\"><img src='"+img+"' alt='"+title+"'>"+title+"</a>");
+        			$('#kuzhan2').append("<a id='b"+id+"' href='"+url+"'  style='float:left;width:20%;'><img src='"+img+"' alt='"+title+"'><p>"+title+"</p></a>");
+        			$('#kuzhan2').append("<a id='zidingyi' href='javascript:;' class='l-col-5 J-open'><img src='http://m.36bot.com/newversion/images/kuzhan1.png' alt='酷站' style=''><p>自定义</p></a>");
+        		}
+        		//$('#kuzhan2').css({minHeight:Math.ceil($('#kuzhan').children().length/5)*80});
+        		//document.getElementById('kuzhan2').style.minHeight=Math.ceil($('#kuzhan').children().length/5)*80;
+        		//$("#iframecontent").offset().top=$('#kuzhan2').offset().top+Math.ceil($('#kuzhan').children().length/5)*80;       		
+        		
+        		//document.getElementById('kuzhan2').style.minHeight=(Math.ceil($('#kuzhan').children().length/5)*80)+"px";
+        	}
+        </script>
+    </div>
+
+    <div class="user-layer-main tc hide">
+        <div class="close J-close-user">
+            <img src="http://m.36bot.com/newversion/images/cloce.png" alt="" class="">
+        </div>
+
+        <img src="http://m.36bot.com/newversion/images/user.png" alt="" class="photo">
+        <div class="J-no-login">
+            <div class="btn-main-1">
+                <a href="register.html" class="btn btn-blue"><img src="http://m.36bot.com/newversion/images/icon-qq.png" alt="" width="12">QQ登录</a>
+                <a href="register.html" class="btn btn-red"><img src="http://m.36bot.com/newversion/images/icon-sina.png" width="15" alt="">微博登录</a>
+            </div>
+            <div class="c999 pt36">登录可以获得金币喔～</div>
+        </div>
+
+        <div class="J-login hide">
+            <div class="name">皮卡丘</div>
+            <a href="" class="btn btn-blue-1">明天签到＋10金币～</a>
+        </div>
+         <div class="clearfix index-nav-main bdt-solid mt40 pr">
+             <a href="javascript:;" class="l-col-3 J-collected pr">
+                <img src="http://m.36bot.com/newversion/images/user-1.png" alt="收藏频道">
+                <img src="http://m.36bot.com/newversion/images/collect.png" alt="" class="collect animated v-hide">
+                <p>收藏频道</p>
+            </a>
+            <a href="suggestion.html" class="l-col-3">
+                <img src="http://m.36bot.com/newversion/images/user-2.png" alt="意见反馈">
+                <p>意见反馈</p>
+            </a>
+            <a href="javascript:;" class="l-col-3 J-share">
+                <img src="http://m.36bot.com/newversion/images/user-3.png" alt="分享">
+                <p>分享</p>
+            </a>
+            <div class="share-detail-main hide">
+                <div class="share-detail">
+                    <div class="flex-2">
+                        <div class="clearfix">
+                            <a href="" class="l-col-3">
+                                <img src="http://m.36bot.com/newversion/images/share-sina.png" alt="sina" width="70%">
+                            </a>
+                            <a href="" class="l-col-3">
+                                <img src="http://m.36bot.com/newversion/images/share-zone.png" alt="zone" width="70%">
+                            </a>
+                            <a href="" class="l-col-3">
+                                <img src="http://m.36bot.com/newversion/images/share-qq.png" alt="qq" width="70%">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="return-top J-top">
+        <div class="main-1">
+            <div class="bg-1"></div>
+            <div class="triangle-up"></div>
+        </div>
+    </div> -->
+
+    <!-- http://cpu.baidu.com/1005/e89ed723 -->
+    <!--END 头部 -->
+    <script>
+	var kuzhanex=false;
+	
+    $(function(){
+        var $body=$('body');
+
+        window.UTILS = {
+            animateEnd: 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+        };
+        //打开浏览记录弹层
+        $body.on('touchstart', '.J-open1', function(event) {
+            event.preventDefault();
+            //$('.record-layer-main').removeClass('remove').addClass('animated quick fadeIn').one(UTILS.animateEnd,function(event){
+            //    $(this).removeClass('animated quick fadeIn');
+            //});
+            
+            if(!kuzhanex) {
+            	showSlideMain($('.J-slide-main'));
+                $('#morekuzhan').attr("src","http://m.36bot.com/newversion/images/kuzhan2.png");
+                kuzhanex=true;
+                ctmp="|"+getCookie("kuzhan");
+                if(ctmp.length<=6) {
+                	$('.record-layer-main').removeClass('remove').addClass('animated quick fadeIn').one(UTILS.animateEnd,function(event){
+                        $(this).removeClass('animated quick fadeIn');
+                    });            	
+                }
+            } else {
+            	hideSlideMain($('.J-slide-main'));
+                $('#morekuzhan').attr("src","http://m.36bot.com/newversion/images/kuzhan.png");
+                kuzhanex=false;
+            }           
+            	
+        });
+        //关闭浏览记录弹层
+        $body.on('touchstart', '.J-close', function(event) {
+            event.preventDefault();
+            var tmp=Math.ceil(($('#kuzhan').children().length+1)/5)*72;
+            
+    		$('.J-slide-main').height($('.J-slide-main').data('height')+tmp);
+    		$('#kuzhan2').height($('#kuzhan2').data('height')+tmp);
+    		$('#mingzhanmenu').height($('#mingzhanmenu').data('height')+tmp);
+    		$('.J-header-ani').height($('.J-header-ani').data('height')+tmp);
+    		$('.J-slide-main').data('vheight',$('.J-slide-main').height());
+    		
+    		var cookie="";
+    		$('#kuzhan').children().each(function(i,n){
+    			cookie=cookie+$(n).attr('id')+"|";
+    		});
+    		document.cookie="kuzhan="+cookie;    		
+    		
+            $('.record-layer-main').addClass('animated quick fadeOut').one(UTILS.animateEnd,function(event){
+                $(this).removeClass('animated quick fadeIn fadeOut').addClass('remove');
+            });
+        });
+        
+      //打开自定义层
+        $body.on('touchstart', '.J-open', function(event) {
+            event.preventDefault();
+            $('.record-layer-main').removeClass('remove').addClass('animated quick fadeIn').one(UTILS.animateEnd,function(event){
+                $(this).removeClass('animated quick fadeIn');
+            });
+        });
+        
+        $body.on('touchstart', '.J-show-record', function(event) {
+            event.preventDefault();
+            showSlideMain($('.J-slide-main'));
+            kuzhanex=true;
+        });
+
+        //打开用户弹层
+        $body.on('touchstart', '.J-open-user', function(event) {
+            $body.append('<div class="layer-backdrop animated fadeIn quicker"></div>');
+            $('.user-layer-main').removeClass('hide').addClass('animated quick fadeInDown').one(UTILS.animateEnd,function(event){
+
+                $(this).removeClass('animated quick fadeInDown');
+            });
+            return true;
+        });
+        //$('.J-open-user').trigger('touchstart');
+        //关闭用户弹层
+        $body.on('touchstart', '.J-close-user', function(event) {
+            var $this=$(this);
+
+            $('.user-layer-main').addClass('animated quick fadeInUpOut').one(UTILS.animateEnd,function(event){
+                $('.layer-backdrop').remove();
+                $(this).removeClass('animated quick fadeInUpOut').addClass('hide');
+            });
+            return true;
+        });
+
+       //显示导航区
+        $body.on('touchstart', '.J-top', function(event) {
+        	$('.J-header-ani').show();
+        	$("#channelmenu").hide();
+        	$("#channelmenubg").hide();
+        	$('#iframetitle').show();
+        	       	
+        	var curTop=$('#mingzhanmenu').offset().top+$('#mingzhanmenu').height();
+        	$(".J-header-ani").animate({height: curTop}, 800,function(){
+				//$('.J-header-ani').hide();
+				//$body.removeClass('iframe-style');	
+        		$('.J-iframe').removeClass('hide');
+        		initIframe(); 
+        		//$("#RefFrame").height($(window).height()-$("#RefFrame").offset().top);
+			});
+        	
+            return false;
+        });
+
+
+        //列表展开收起
+        function slideInit(){
+            var slideH=$('.J-slide-main').height();
+            $('.J-slide-main').data('height',slideH);
+            $('.J-slide-main').data('vheight',$('.J-slide-main').offset().top);
+            $('.J-slide-main').height(0);
+            $("#menumain1").data('height',$("#menumain1").height());
+            $("#menumain1").height(0);
+            $('#kuzhan2').data('height',$('#kuzhan2').height());
+            $('#mingzhanmenu').data('height',$('#mingzhanmenu').height());
+            $('.J-header-ani').data('height',$('.J-header-ani').height());
+            //$("#RefFrame").height($(window).height()-$("#RefFrame").offset().top);
+
+            //$('.J-show-record').addClass('hide');
+        }
+
+        function showSlideMain($target){
+        	//if($target.height()>30) return;
+        	var tmp=Math.ceil(($('#kuzhan').children().length+1)/5)*72;
+        	$target.height($target.data('height')+tmp);
+        	$('.J-show-record').addClass('hide');
+    		$('#mingzhanmenu').height($('#mingzhanmenu').data('height')+tmp);
+        	$(".J-header-ani").animate({height: $('.J-header-ani').data('height')+tmp}, 400,function(){        		
+        		//$('.J-slide-main').height($('.J-slide-main').data('height')+tmp);
+        		//$('.J-hide-slide').show();
+			});
+        	
+        }
+        function hideSlideMain($target){    
+        	$target.height(0);
+    		$('.J-show-record').removeClass('hide');
+    		$('#mingzhanmenu').height($('#mingzhanmenu').data('height'));
+        	$(".J-header-ani").animate({height: $('.J-slide-main').offset().top-3}, 400,function(){
+        		
+        		//$('.J-slide-main').height($('.J-slide-main').height()-$target.data('vheight'));
+        		//$('.J-hide-slide').hide();
+			});
+        }
+		
+		function hideSlideMain1($target){    
+        	$target.height(0);
+    		$('.J-show-record').removeClass('hide');
+    		$('#mingzhanmenu').height($('#mingzhanmenu').data('height'));
+        	$(".J-header-ani").height($('.J-slide-main').offset().top-3);
+        }
+
+
+        $body.on('touchstart', '.J-hide-slide', function(event) {
+            event.preventDefault();
+            hideSlideMain($('.J-slide-main'));
+            kuzhanex=false;
+        });
+        slideInit();
+        //END 列表展开收起
+
+        //点击收藏:点击后去除再次点击效果
+        $body.on('touchstart', '.J-collected', function(event) {
+            event.preventDefault();
+            $(this).removeClass('J-collected').find('.collect').removeClass('v-hide').addClass('fadeInUpOut');
+        });
+
+        //点击分享
+        $body.on('touchstart', '.J-share', function(event) {
+            event.preventDefault();
+            var $share=$('.share-detail');
+            var $main=$('.share-detail-main');
+            if($share.hasClass('show')){
+                $share.addClass('fadeInLeft animated quicker').one(UTILS.animateEnd, function(event) {
+                    event.stopPropagation();
+                    $(this).removeClass('fadeInLeft animated quicker show');
+                    $main.addClass('hide');
+                });
+            }else{
+                $main.removeClass('hide');
+                $share.css('opacity', '0');
+                setTimeout(function(){
+                    $share.addClass('fadeInRight animated quicker').one(UTILS.animateEnd, function(event) {
+                        event.stopPropagation();
+                        $(this).css('opacity', '1').removeClass('fadeInRight animated quicker');
+                        $share.addClass('show');
+                    });
+                },100);
+            }
+
+        });
+
+        //去到已登陆状态
+        var isLoginSrc='http://m.36bot.com/newversion/images/user-login.png';
+        var noLoginSrc='http://m.36bot.com/newversion/images/user.png';
+        function toggleLogin(src){
+            //用户头像
+            $('.user-layer-main .photo').attr('src', src);
+            $('.J-no-login').toggleClass('hide');
+            $('.J-login').toggleClass('hide');
+        }
+        //切换已登陆，isLoginSrc参数动态改，此处用写死值
+        // toggleLogin(isLoginSrc);
+        //切换未登陆
+        // toggleLogin(noLoginSrc);
+        
+        $('.J-iframe').on('touchstart', function(event) {   
+        	event.preventDefault();
+            $(".J-header-ani").animate({height: 40}, 800,function(){
+				//$('.J-header-ani').hide();
+				$("#channelmenu").show();
+				$('#iframetitle').hide();
+				$('.J-header-ani').hide();
+				$('.J-iframe').addClass('hide');
+				//$("#RefFrame").height($(window).height()-$("#RefFrame").offset().top);
+				//$body.addClass('iframe-style');
+				document.getElementById('menulist1').style.display='none';
+				document.getElementById('expandlink').innerHTML="更多";
+				isexpand=false;
+			});
+        });
+        
+        $('.J-iframe').on('touchmove', function(event) {   
+        	event.preventDefault();
+        });
+
+    })
+    
+    var kuzhanstr="20160902231916|http://www.sina.com.cn|http://img.clb6.net/36bot/imagead/sina.png|新浪网$20160923155509|http://c.duomai.com/track.php?site_id=218715&aid=256&euid=&t=http%3A%2F%2Fwww.111.com.cn%2F|http://img.clb6.net/36bot/imagead/1%E8%8D%AF%E7%BD%91.png|1药网$20160902231830|http://www.meituan.com|http://img.clb6.net/36bot/imagead/meituan.png|美团网$20160902231742|http://www.dangdang.com|http://img.clb6.net/36bot/imagead/dang.png|当当网$20160902232208|http://house.focus.cn|http://img.clb6.net/36bot/imagead/sohufang.png|搜狐焦点$20160902232304|http://www.tuniu.com|http://img.clb6.net/36bot/imagead/tuniu.png|途牛网$20160902232017|http://www.sohu.com|http://img.clb6.net/36bot/imagead/sohu.png|搜狐$20160902231952|http://auto.sina.com.cn|http://img.clb6.net/36bot/imagead/sinacar.png|新浪汽车$20160923155406|http://c.duomai.com/track.php?site_id=218715&aid=552&euid=&t=http%3A%2F%2Fdujia.qunar.com%3Fex_track%3Dauto_52b3f121|http://img.clb6.net/36bot/imagead/%E5%8E%BB%E5%93%AA%E5%84%BF.png|去哪儿$20160923155331|http://c.duomai.com/track.php?site_id=218715&aid=2562&euid=&t=http%3A%2F%2Fwww.rong360.com|http://img.clb6.net/36bot/imagead/%E8%9E%8D360.png|融360$20160923155228|http://c.duomai.com/track.php?site_id=218715&aid=1449&euid=&t=http%3A%2F%2Fshop.zhe800.com%2F|http://img.clb6.net/36bot/imagead/%E6%8A%98800.png|折800$";    
+    var ktmp=kuzhanstr.split("$");    
+    //document.getElementById('titletxt1').innerHTML="";
+    //$("#RefFrame").height($(window).height()-$("#RefFrame").offset().top);
+    //setTimeout("$('#RefFrame').height($(window).height()-$('#RefFrame').offset().top)",1500);
+    var k1="";
+    var k2="";
+    var k3="";
+    for(var n=0;n<ktmp.length-1;n++) {
+    	var n1=ktmp[n].split("|");
+    	if(ctmp.indexOf("|a"+n1[0]+"|")>=0) {
+    		k1=k1+"<a id='a"+n1[0]+"' href='javascript:null;' class='l-col-4' onclick=\"javascript:movekuzhan('1','"+n1[0]+"','"+n1[2]+"','"+n1[3]+"','"+n1[1]+"');\"><img src='"+n1[2]+"' alt='"+n1[3]+"'>"+n1[3]+"</a>";
+    		k3=k3+"<a id='b"+n1[0]+"' href='javascript:null;' onclick='javascript:gotoMingzhan(\""+n1[0]+"\",\""+n1[1]+"\")' style='float:left;width:20%;'><img src='"+n1[2]+"' alt='"+n1[3]+"' style=''><p>"+n1[3]+"</p></a>";
+    	} else {
+    		k2=k2+"<a id='a"+n1[0]+"' href='javascript:null;' class='l-col-4' onclick=\"javascript:movekuzhan('0','"+n1[0]+"','"+n1[2]+"','"+n1[3]+"','"+n1[1]+"');\"><img src='"+n1[2]+"' alt='"+n1[3]+"'>"+n1[3]+"</a>";
+    	}
+    }
+    $('#kuzhan').append(k1);
+    $('#kuzhan1').append(k2);
+    $('#zidingyi').remove();
+	$('#kuzhan2').append(k3);
+	$('#kuzhan2').append("<a id='zidingyi' href='javascript:;' class='l-col-5 J-open'><img src='http://m.36bot.com/newversion/images/kuzhan1.png' alt='酷站' style=''><p>自定义</p></a>");
+    
+	function initIframe() {
+		if(curlink=="") {
+			//document.getElementById('titletxt1').innerHTML="";
+
+		} else {
+			//document.getElementById("RefFrame").src=curlink;
+		}
+		//$("#RefFrame").height($(window).height()-$("#RefFrame").offset().top);
+			
+	}
+	initIframe();
+	
+	if(isIOS) {
+		$('#menulist1').css('magin-top','-13px');
+	}
+	
+	function gotoMingzhan(id,url) {
+		 document.getElementById("tongjilink").src="http://wn.clb6.net/adcount/clicklog?blid=36bot&typeId=1&source="+id+"&"+Math.random();
+		 window.location=url;
+	}
+	
+	function gotoChannel(id) {
+		window.location="/newversion/index.html?id="+id;
+		
+	}
+	//$("#RefFrame").height($(window).height()-$("#RefFrame").offset().top);
+    </script>
+    	<script>
+		window.baidu = new Array();
+		function searchSuggest() {
+			//document.getElementById('index-kw').focus();
+			var head = document.getElementsByTagName("head")[0];
+			var str = encodeURIComponent(document.getElementById('index-kw').value);
+			var url = 'https://m.baidu.com/su?from=1017690a&wd=' + str;
+			load_script(
+					url,
+					function() {
+						window.baidu.sug = function(params) {
+							var list = params.s;
+							var ss = document
+									.getElementById('suggest-content-id');
+							ss.innerHTML = '';
+							var div = '';
+							if (list.length > 0) {
+								document.getElementById('index-box').style.display = "block";
+								for (i = 0; i <= list.length - 1 && i < 5; i++) {
+									div += '<div class="sug"><a target="_top" onclick="hrefUrl(\''+list[i]+'\')">'
+											+ list[i]
+											+ '</a></div>';
+								}
+								ss.innerHTML += div;
+							} else {
+								hideSug();
+							}
+						};
+					});
+		}
+
+		function hideSug() {
+			document.getElementById('index-box').style.display = "none";
+		}
+		
+		function hrefUrl(sw) {
+			pLog(sw);
+			window.top.location.href="https://m.baidu.com/s?word="+sw+"&from=1017690a";
+		}
+
+		function load_script(url, callback) {
+			var head = document.getElementsByTagName('head')[0];
+			var script = document.createElement('script');
+			script.type = 'text/javascript';
+			script.src = url;
+			script.onload = script.onreadystatechange = function() {
+				if ((!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {
+					callback && callback();
+					script.onload = script.onreadystatechange = null;
+					if (head && script.parentNode) {
+						head.removeChild(script);
+					}
+				}
+			};
+			head.insertBefore(script, head.firstChild);
+		}
+
+		//Mouse over function 
+		function suggestOver(div_value) {
+			div_value.className = 'suggest_link_over';
+		}
+		//Mouse out function 
+		function suggestOut(div_value) {
+			div_value.className = 'suggest_link';
+		}
+		//Click function 
+		function setSearch(value) {
+			document.getElementById('txtSearch').value = value;
+			document.getElementById('search_suggest').innerHTML = '';
+		}
+		
+		function pLog(sw){
+			if(!isNullOrWhiteSpace(sw)){
+				//渠道号代表不同的来源
+				var map = {"channel":"1", "sw":sw};
+				requestServer("/xmlkey/log/bds.do", map, null);
+			}
+		}
+		
+		function isNullOrWhiteSpace(param){
+			if (param == null || param == undefined || param == '') {
+				return true;
+			}else{
+				return false;
+			}
+		}
+		
+		// ajax请求
+		function requestServer(url, params, callbackFun) {
+			var xmlhttp;
+			if (window.XMLHttpRequest) {
+				// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp = new XMLHttpRequest();
+			} else {
+				// code for IE6, IE5
+				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.onreadystatechange = function() {
+				if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+					if (xmlhttp.status == 200) {
+						if (callbackFun) {
+							if (typeof xmlhttp.responseText !== "object") {
+								callbackFun(JSON
+										.parse(xmlhttp.responseText));
+							} else {
+								callbackFun(xmlhttp.responseText);
+							}
+						}
+					} else if (xmlhttp.status == 400) {
+					} else {
+					}
+				}
+			}
+			var paramsTemp = [];
+			for ( var key in params) {
+				var val = params[key];
+				paramsTemp.push(key + "="
+						+ (typeof val === "string" ? val : val + ""));
+			}
+			paramsTemp = paramsTemp.join("&");
+			if (url.indexOf("=") > -1) {
+				url += "&" + paramsTemp;
+			} else {
+				url += "?" + paramsTemp;
+			}
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
+		}
+
+	</script>
+	<img id="tongjilink" src="" style="display:none;">	
+	<footer style="text-align:center"><div style="color:#b2b2b2; padding-bottom:10px"><p>Copyright © 2015 - 2017</p><p>广东和邦网络科技有限公司</p><p><a href="http://www.miitbeian.gov.cn/" target="_blank" style="color:#b2b2b2;">粤ICP备16050617号-1</a></p></div></footer>
+    
+</body></html>

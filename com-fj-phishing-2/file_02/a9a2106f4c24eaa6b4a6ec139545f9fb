@@ -1,0 +1,262 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>合众支付</title>
+<link rel="stylesheet" href="/static/common/css/reset.css">
+<link rel="stylesheet" href="/static/common/css/public.css">
+<link rel="stylesheet" href="/static/common/css/global.css">
+<link rel="stylesheet" href="/static/index/css/home.css">
+<script src="/static/common/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/static/common/js/jquery.mousewheel.min.js"></script>
+<script src="/static/common/js/jquery.easing.min.js"></script>
+</head>
+<body>
+
+
+
+<header>
+			<div class="meun">
+				<div class="meun_main clearfix">
+					<div class="meun_left fl">
+						<img src="/static/common/img/head_ico.png" class="fl">
+						<span class="fl">客服热线：400-801-0505(工作日 09:00-17:30)</span>
+					</div>
+					<div class="meun_right fr">
+						    <a class="fl" href="https://www.ulpay.com/merchant" target="_blank">
+							<img src="/static/common/img/shanghugray.png">商户登录</a>
+							<a class="fl" href="https://www.ulpay.com/user" target="_blank">
+							<img src="/static/common/img/gerengray.png">个人登录</a>
+						<a class="fl" href="#">
+							<img src="/static/common/img/gonggaoblack.png">公告</a>
+						<a class="fl" href="https://www.ulpay.com/user/help/help_center">帮助中心</a>
+						<!--<a class="fl" href="">活动专区</a>-->
+					</div>
+				</div>
+			</div>
+			<div class="head_nav clearfix">
+				<div class="nav_center">
+					<div class="nav_left fl">
+						<h1 class="fl">
+							<a href="/">
+								<img src="/static/common/img/logo.png">
+							</a>
+						</h1>
+						<img src="/static/common/img/slogen.png" class="fl">
+					</div>
+					<nav class="nav_main fr">
+						<a class="fl navacive" href="/">首页</a>
+						<span class="fl navproduct">产品服务
+							<div class="sublist" style="display: none;">
+								<ul>
+									<li style="left: 588px;">
+										<a href="/probz">标准产品</a>
+										<a href="/prots">特色产品</a>
+										<a href="/prohyj">行业解决方案</a>
+									</li>
+									<li>
+										<img src="/static/common/img/bar.png" class="headbar1 headbar">
+									</li>
+								</ul>
+							</div>
+						</span>
+						<a class="fl navhzqianbao" href="/hzqb">合众钱包</a>
+						<a class="fl navsafeclass" href="/safe">安全课堂</a>
+						<span class="fl navaboutus">关于我们
+							<div class="sublist" style="display: none;">
+								<ul>
+									<li style="display: ;">
+										<a href="/aboutcompany">公司介绍</a>
+										<a href="/cooperativepartner">合作伙伴</a>
+										<a href="/companyaptitude">企业资质</a>
+										<a href="/recruitment">招贤纳士</a>
+										<a href="/contactus">联系我们</a>
+										<a href="#">公告中心</a>
+									</li>
+									<li>
+										<img src="/static/common/img/bar.png" class="headbar2 headbar">
+									</li>
+								</ul>
+							</div>
+						</span>
+					</nav>
+				</div>
+			</div>
+			<input type="hidden" value="" id="basePath">
+		</header>
+
+
+		<section>
+			    <ul class="w-slides">
+			        <li>
+			        	<div class="w-slide" style="background-image: url(https://ulpay.com/static/common/img/page1.jpg); background-size: cover; transform: scale(1, 1); transition: 6s; -webkit-transition: 6s; background-position: 50% 50%; background-repeat: initial initial;"></div>
+			        	<div class="top_ico">
+		        			<img src="/static/common/img/bannerlogo.png">
+		        			<img src="/static/common/img/middleico.png">
+		        		</div>
+		        		<div class="nextico">
+		        			<img src="/static/common/img/nextico.png">
+		        		</div>
+			        	<div class="li1_bottom" style="display: none">
+			        		<div class="bottom_shadow"></div>
+			        		<div class="li1_main">
+			        			<div class="fl gg_ico">
+			        				<img src="/static/common/img/gonggao.gif">
+			        			</div>
+			        			<div class="gonggao_cont fl">
+			        				<div class="line1">
+			        					<a href="">
+				        					<span>合众钱包版本升级通知</span>
+				        					<span>2017-07-21 09：08：28</span>
+				        				</a>
+			        				</div>
+			        				<div class="line2">尊敬的用户您好，为了给您提供更安全优质的服务，我们于2017年7月20日进行了版本升级，请打开APP升级至最新版本，给您带来的不便敬请谅解便敬请谅解便敬请谅解便敬请谅解</div>
+			        			</div>
+			        			<div class="more_msg fr"><a href="/noticecentre">更多公告&gt;</a></div>
+			        		</div>
+			        	</div>
+			        </li>
+			        <li class="">
+			        	<div class="w-slide" style="background: url(/static/common/img/page2.jpg);background-size: cover;background-position: center center;"></div>
+			        	<div class="w_imgcenter">
+			        		<div class="li_left">
+			        			<img src="/static/common/img/page2w.png" class="pagew" style="transform: translate(0%,-50%);">
+			        		</div>
+			        		<div class="li_right">
+			        			<img src="/static/common/img/page2pic.png" class="pagepic" style="transform: translate(-22%,-50%);">
+			        		</div>
+			        	</div>
+			        	<div class="li_bottom">
+		        			<div class="bottom_shadow"></div>
+			        		<img src="/static/common/img/page2bottom.png">
+				        </div>
+			        	<div class="nextico">
+		        			<img src="/static/common/img/nextico.png">
+		        		</div>
+			        </li>
+			        <li class="">
+			        	<div class="w-slide" style="background: url(/static/common/img/page3.jpg);background-size: cover;background-position: center center;"></div>
+			        	<div class="w_imgcenter">
+			        		<div class="li_left">
+			        			<img src="/static/common/img/page3pic.png" class="pagepic" style="transform: translate(2.6%,-50%);">
+			        		</div>
+			        		<div class="li_right">
+			        			<img src="/static/common/img/page3w.png" class="pagew" style="transform: translate(0%,-50%);">
+			        		</div>
+			        	</div>
+			        	<div class="li_bottom">
+		        			<div class="bottom_shadow"></div>
+			        		<img src="/static/common/img/page3bottom.png">
+				        </div>
+			        	<div class="nextico">
+		        			<img src="/static/common/img/nextico.png">
+		        		</div>
+			        </li>
+			        <li class="">
+			        	<div class="w-slide" style="background: url(/static/common/img/page4.jpg);background-size: cover;background-position: center center;"></div>
+			        	<div class="w_imgcenter">
+			        		<div class="li_left">
+			        			<img src="/static/common/img/page4w.png" class="pagew" style="transform: translate(0%,-50%);">
+			        		</div>
+			        		<div class="li_right">
+			        			<img src="/static/common/img/page4pic.png" class="pagepic" style="transform: translate(-38.5%,-50%);">
+			        		</div>
+			        	</div>
+			        	<div class="li_bottom">
+		        			<div class="bottom_shadow"></div>
+			        		<img src="/static/common/img/page4bottom.png">
+				        </div>
+			        	<div class="nextico">
+		        			<img src="/static/common/img/nextico.png">
+		        		</div>
+			        </li>
+			        <li class="">
+			        	<div class="w-slide" style="background: url(/static/common/img/page5.jpg);background-size: cover;background-position: center center;"></div>
+			        	<div class="w_imgcenter">
+			        		<div class="li_left">
+			        			<img src="/static/common/img/page5pic.png" class="pagepic" style="transform: translate(11.9%,-50%);">
+			        		</div>
+			        		<div class="li_right">
+			        			<img src="/static/common/img/page5w.png" class="pagew" style="transform: translate(11.5%,-50%);">
+			        		</div>
+			        	</div>
+			        	<div class="li_bottom">
+		        			<div class="bottom_shadow"></div>
+			        		<img src="/static/common/img/page5bottom.png">
+				        </div>
+			        	<div class="nextico">
+		        			<img src="/static/common/img/nextico.png">
+		        		</div>
+			        </li>
+			        <li class="" style="overflow-y: auto;">
+				        	<div class="w-slide" style="background: url(/static/common/img/page6.jpg);background-size: cover;background-position: center center;"></div>
+				        	<div class="w_imgcenter">
+				        		<div class="li_left">
+				        			<img src="/static/common/img/page6w.png" class="pagew" style="transform: translate(-1.5%,-50%);">
+				        		</div>
+				        		<div class="li_middle">
+				        			<img src="/static/common/img/page6pic2.png" class="pagepic" style="transform: translate(-27%,-50%);">
+				        		</div>
+				        		<div class="li_right">
+				        			<img src="/static/common/img/page6pic1.png" class="pagepic pagepicmore" style="transform: translate(0%,-50%);">
+				        		</div>
+				        	</div>
+				        	<div class="li_bottom">
+			        			<div class="bottom_shadow"></div>
+				        		<img src="/static/common/img/page6bottom.png">
+					        </div>
+				        	<div class="nextico">
+			        			<img src="/static/common/img/nextico.png">
+			        		</div>
+			        		
+
+
+ <footer>
+							<div class="foot_main clearfix">
+								<div class="fl app">
+									<img src="/static/common/img/qrcode1.png">
+									<div>合众钱包移动客户端</div>
+								</div>
+								<div class="fl gongzhonghao"> 
+									<img src="/static/common/img/qrcode2.png">
+									<div>合众支付公众号</div>
+								</div>
+								<div class="fl">
+									<div class="footer_menu clearfix">
+										<a href="/aboutcompany" class="fl">公司介绍</a>
+										<a href="/cooperativepartner" class="fl">合作伙伴</a>
+										<a href="/companyaptitude" class="fl">企业资质</a>
+										<a href="/recruitment" class="fl">招贤纳士</a>
+										<a href="/contactus" class="fl">联系我们</a>
+										<a href="#" class="fl">公告中心</a>
+									</div>
+									<div class="footer_line2 clearfix">
+										<span class="fl">版权所有 2013-2018 武汉合众易宝科技有限公司</span>
+										<span class="fl">鄂ICP备15015520号-1</span>
+										<span class="fl">京公网安备 11010802020456号</span>
+									</div>
+									<div class="footer_line3">客服热线：400-801-0505(工作日09:00-17:30)</div>
+									<div class="footer_line4">
+										<a href="/companyaptitude">
+											<img src="/static/common/img/ico1hui.png" class="ico1">
+										</a>
+									</div>
+								</div>
+							</div>
+						</footer>
+			        </li>
+			    </ul>
+			    <ul class="w_dotul">
+			    	<li class="w_dotli dot_active"></li>
+			    	<li class="w_dotli"></li>
+			    	<li class="w_dotli"></li>
+			    	<li class="w_dotli"></li>
+			    	<li class="w_dotli"></li>
+			    	<li class="w_dotli"></li>
+			    </ul>
+			   
+			    <!--<div class="left_ico" id="wLeftImg"></div>
+			    <div class="right_ico" id="wRightImg"></div>-->
+		</section>
+
+<script src="/static/common/js/global.js"></script>
+	<script src="/static/index/js/home.js"></script>
+</body></html>

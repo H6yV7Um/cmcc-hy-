@@ -1,0 +1,2178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<title>电子工程网_电子工程师获取电子设计应用技术的专业网站</title>
+<meta name="description" content="电子工程网（EEChina），原嵌入式公社，是一家专为中国电子工程师提供电子设计和技术应用等资源的专业网站；内容包括：业内新闻，新品，电路图，资料下载，职业发展等。频道包括：单品机，FPGA，电源管理，PCB，模拟电路，测试测量，MEMS，消费电子，汽车电子，工业控制，通信网络，医疗电子，机器人等。">
+<meta name="keywords" content="电子工程师,电子设计技术,电子应用,电路图,电子元器件,嵌入式,单片机,FPGA,模拟电路,PCB,测试测量,消费电子,汽车电子,机器人,工业控制,DSP,电源管理,传感技术,MEMS,EDA">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE1">
+    <link href="/template/default/common/goodnav_new.css" rel="stylesheet">
+    <script src="https://hm.baidu.com/hm.js?9d3d6e187d2bb6e66a8e12ceab3c3631"></script><script src="/static/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="/static/js/jquery.litenav.js" type="text/javascript"></script>
+	
+<base href="http://www.eechina.com/"><link rel="stylesheet" type="text/css" href="data/cache/style_1_common.css?wbE"><script type="text/javascript">var STYLEID = '1', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'wbE', charset = 'gbk', discuz_uid = '0', cookiepre = 'umnN_2132_', cookiedomain = '', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'login|newthread', creditnotice = '', defaultstyle = '', REPORTURL = 'aHR0cDovL3d3dy5lZWNoaW5hLmNvbS8=', SITEURL = 'http://www.eechina.com/', JSPATH = 'static/js/';</script>
+<script src="/static/js/common.js?wbE" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="template/default/common/eechina.css">
+
+<script type="text/javascript">
+function showmore(loadtype,page,fid)
+{
+var xmlhttp;
+  	
+xmlhttp = window.XMLHttpRequest ? new window.XMLHttpRequest() : new window.ActiveXObject("Microsoft.XMLHTTP");
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("ShowContent_"+loadtype).innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","ajax_loadmore.php?loadtype="+loadtype+"&page="+page+"&fid="+fid,true);
+xmlhttp.send();
+}
+</script>
+
+<!-- 百度统计代码 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9d3d6e187d2bb6e66a8e12ceab3c3631";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 百度SSP代码 -->
+<script src="http://dup.baidustatic.com/js/ds.js" type="text/javascript"></script>
+
+</head>
+
+<body id="nv_CURSCRIPT" class="pg_CURMODULE" onkeydown="if(event.keyCode==27) return false;">
+
+<div id="header">
+
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+
+<div class="mininav">	
+<div class="wp" style="position:relative;">	
+
+<div class="z">
+ 					欢迎访问EEChina！ &nbsp; <font color="#0056BD">[&nbsp;<a href="member.php?mod=logging&amp;action=login" style="color:#0056BD">登录</a>&nbsp;|&nbsp;<a href="member.php?mod=register_eechina" style="color:#0056BD">免费注册</a>&nbsp;]</font>
+                    </div>
+
+<div class="y">
+<a href="http://m.eechina.com/" title="手机版" class="mobile">手机版</a> &nbsp; 
+<a target="_blank" href="http://weibo.com/eechina" class="weibo">关注我们</a> &nbsp; 
+<a href="javascript:void(0)" onmouseover="document.getElementById('wechat').style.display='block'" onmouseout="document.getElementById('wechat').style.display='none'" class="weixin">微信扫一扫</a>				
+</div>	
+
+<div class="wechat" id="wechat"><img src="/static/image/common/wechat.jpg"></div>
+
+</div>
+</div>
+
+<div class="wp">
+
+<div class="advarea">
+<!-- 广告位：Roadblock -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '4518295',
+        container: s,
+        size: '1000,450',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_szfhl852u3l"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=4518295&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=43x12&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x43&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481123&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+
+<div class="advarea">
+<!-- 广告位：页头通栏 -->
+<iframe marginheight="0" marginwidth="0" frameborder="0" width="1000" height="50" scrolling="no" src="/digikey.html"></iframe>
+</div>
+
+<div class="advarea">
+<!-- 广告位：页头通栏2 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3030819',
+        container: s,
+        size: '1000,50',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_uyqyrowqw4n"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=3030819&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=103x12&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x103&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+
+<div class="advarea">
+<div class="z">
+<!-- 广告位：A1 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '146789',
+        container: s,
+        size: '495,60',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_hqutq7mkjws"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=146789&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=103x12&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x103&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+
+<div class="y">
+<!-- 广告位：A2 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '146790',
+        container: s,
+        size: '495,60',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_u74jw71h4g"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=146790&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=103x1012&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x103&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="mainnav" style="margin-bottom:5px;"><div class="z"><a href="/" title="电子工程网"><img src="/static/image/new/logo.gif" alt="电子工程网 EEChina logo" width="160" height="60" border="0"></a></div>
+
+<div class="sortnav">	
+<a href="/">首页</a><span>·</span><a href="news.php">新闻</a><span>·</span><a href="product.php">新品</a><span>·</span><a href="tech.php">文章</a><span>·</span><a href="download.php">下载</a><span>·</span><a href="circuit.php">电路</a><span>·</span><a href="ask.php">问答</a><span>·</span><a href="/video/" style="color:red;">视频</a><span>·</span><a href="career.php">职场</a><span>·</span><a href="zatan.php">杂谈</a><span>·</span><a href="/tools/">工具</a><span>·</span><a href="blog.php">博客</a><span>·</span><a href="forum.php">论坛</a><span>·</span><a href="/webinar/" style="color:#1F90DE;">在线研讨会</a>
+</div>
+
+<div class="searchbox">
+<form method="post" action="search.php" target="_blank">
+<input type="text" name="keyword" class="z">
+<button type="submit"><b>搜索</b></button>
+</form>
+</div>
+
+<div class="bottom"></div>
+
+</div>
+
+<div class="channelnav">
+<a href="mcu-processor.php">单片机/处理器</a><a href="fpga.php">FPGA</a><a href="programming.php">软件/编程</a><a href="power.php">电源</a><a href="analog.php">模拟电子</a><a href="pcb.php">PCB设计</a><a href="test.php">测试测量</a><a href="passive-discrete.php">无源/分立</a><a href="multimedia.php">音视频/显示</a><a href="mems.php">MEMS</a><a href="prototype.php">系统设计</a><a href="consumer.php">消费电子</a><a href="industrial.php">工业/测控</a><a href="auto.php">汽车电子</a><a href="communications.php">通信/网络</a><a href="medical.php">医疗电子</a><a href="robotics.php">机器人</a>
+</div>
+
+<div class="advarea">
+<div class="z">
+<!-- 广告位：B1 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '129117',
+        container: s,
+        size: '690,60',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_fxnhv6sdbh"><iframe id="iframe129117_0" name="iframe129117_0" onload="BAIDU_SSP_renderFrame('129117_0', this);" src="about:blank" width="690" height="60" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:690px;height:60px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=129117&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=218x12&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x218&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+<div class="y">
+<!-- 广告位：C2 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '1063303',
+        container: s,
+        size: '300,60',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_et31rph1nj"><iframe id="iframe1063303_0" name="iframe1063303_0" onload="BAIDU_SSP_renderFrame('1063303_0', this);" src="about:blank" width="300" height="60" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:300px;height:60px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=1063303&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=218x1012&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x278&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="advarea">
+<div class="z">
+<!-- 广告位：C1 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '1063302',
+        container: s,
+        size: '690,60',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_0ivui6s21hto"><iframe id="iframe1063302_0" name="iframe1063302_0" onload="BAIDU_SSP_renderFrame('1063302_0', this);" src="about:blank" width="690" height="60" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:690px;height:60px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=1063302&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=288x12&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x288&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+<div class="y">
+<!-- 广告位：B2 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '808889',
+        container: s,
+        size: '300,60',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_esm21fmnwzr"><iframe id="iframe808889_0" name="iframe808889_0" onload="BAIDU_SSP_renderFrame('808889_0', this);" src="about:blank" width="300" height="60" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:300px;height:60px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=808889&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=288x1012&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x348&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+<div class="bottom"></div>
+</div>
+
+</div>
+
+
+</div>
+
+<div id="wp" class="wp"><div class="content_left">
+
+<div class="block_left">
+
+    <div id="hotpic">
+        <div id="NewsPic">
+            <a href="thread-521790-1-1.html" style="visibility: hidden; display: none;" target="_blank"><img src="/data/attachment/forum/201801/09/142157yz3h5d7u67ii9h3z.jpg" alt="CEVA推出先进软件套件ClearVox，为语音设备提供更高的语音智能" title="CEVA推出先进软件套件ClearVox，为语音设备提供更高的语音智能"></a>
+            <a href="thread-521759-1-1.html" style="visibility: hidden; display: none;" target="_blank"><img class="Picture" src="/data/attachment/forum/201801/09/1122441zj66l8sq4ncuil7.jpg" alt="大联大诠鼎集团推出基于Semtech产品的无线充电整体解决方案" title="大联大诠鼎集团推出基于Semtech产品的无线充电整体解决方案"></a>
+            <a href="thread-521756-1-1.html" style="visibility: visible; display: block;" target="_blank"><img class="Picture" src="/data/attachment/forum/201801/09/110338eeixqzo7mjoejmqn.jpg" alt="恩智浦扩展产品组合，打造高分辨率汽车雷达传感器" title="恩智浦扩展产品组合，打造高分辨率汽车雷达传感器"></a>
+            <a href="thread-521755-1-1.html" style="visibility: hidden; display: none;" target="_blank"><img class="Picture" src="/data/attachment/forum/201801/09/105429vvhvoehx4osthnu4.jpg" alt="三电产品开发及测试研讨会北汽新能源专场成功举行" title="三电产品开发及测试研讨会北汽新能源专场成功举行"></a>
+            <a href="thread-521726-1-1.html" style="visibility: hidden; display: none;" target="_blank"><img class="Picture" src="/data/attachment/forum/201801/08/150610pilf8mm8pv820m8z.jpg" alt="CEVA推出NeuPro —— 用于前端设备深度学习的AI处理器系列" title="CEVA推出NeuPro —— 用于前端设备深度学习的AI处理器系列"></a>            
+            <div class="Nav">
+                <span class="Normal">5</span>
+                <span class="Normal">4</span>
+                <span class="Cur">3</span>
+                <span class="Normal">2</span>
+                <span class="Normal">1</span>
+            </div>
+        </div>
+        <div id="NewsPicTxt" style="width: 320px; height:40px; overflow: hidden"><a target="_blank" href="http://www.eechina.com/thread-521756-1-1.html">恩智浦扩展产品组合，打造高分辨率汽车雷达传感器</a></div>
+    </div>
+<script type="text/javascript">
+jQuery('#hotpic').liteNav(3000);
+</script>
+
+</div>
+
+<div class="block_right">
+
+<div class="hotlist">
+<ul>
+
+<li><a href="thread-521726-1-1.html" target="_blank">CEVA推出NeuPro —— 用于前端设备深度学习的AI处理器系列</a></li>
+<li><a href="thread-521701-1-1.html" target="_blank">Intel发布漏洞CPU完整名单：1到8代酷睿全部中招</a></li>
+<li><a href="thread-521729-1-1.html" target="_blank">Semtech推出其新一代LoRa器件和无线射频芯片组，支持物联网未来发展</a></li>
+<li><a href="thread-521721-1-1.html" target="_blank">恩智浦推出Automated Drive Kit，促进开放、快捷而灵活的应用开发</a></li>
+<li><a href="thread-521706-1-1.html" target="_blank">英特尔推出历代最强NUC迷你电脑：迄今为止体积最小并可支持虚拟现实的系统</a></li>
+<li><a href="thread-521727-1-1.html" target="_blank">Xilinx@IAS: 多传感器融合方案</a></li>
+<li><a href="thread-521705-1-1.html" target="_blank">智能手机增速放缓 芯片巨头跨界智能汽车新生意</a></li>
+<li><a href="thread-521718-1-1.html" target="_blank">使用 Vivado IPI 进行 AXI 接口调试</a></li>
+<li><a href="thread-521722-1-1.html" target="_blank">Xilinx@IAS: 基于 Zynq 的机器人视觉定位系统</a></li>
+<li><a href="thread-521703-1-1.html" target="_blank">存储器大厂3D NAND良率提升 NAND产能恐过剩</a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="bottom"></div>
+
+<div class="block_tag"><h2><a href="/video/" class="more" target="_blank">更多视频&gt;&gt;</a><a href="/video/" target="_blank">视频</a></h2></div>
+<div class="block_content"><div class="videoshow">
+<a href="thread-521723-1-1.html" target="_blank"><img src="/video/thumb/xilinx/416.jpg" alt="Xilinx@IAS: EtherCAT/RTEX 总线控制视频"></a>
+<div class="videosubject"><a href="thread-521723-1-1.html" target="_blank" title="Xilinx@IAS: EtherCAT/RTEX 总线控制视频">Xilinx@IAS: EtherCAT/RTEX 总线控制</a></div>
+<div class="videoview">170</div><div class="videocomment">0</div>
+</div>
+<div class="videoshow">
+<a href="thread-521713-1-1.html" target="_blank"><img src="/video/thumb/microchip/146.jpg" alt="利用MPLAB®代码配置器设置USB时钟视频"></a>
+<div class="videosubject"><a href="thread-521713-1-1.html" target="_blank" title="利用MPLAB®代码配置器设置USB时钟视频">利用MPLAB®代码配置器设置USB时钟</a></div>
+<div class="videoview">112</div><div class="videocomment">0</div>
+</div>
+<div class="videoshow">
+<a href="thread-520450-1-1.html" target="_blank"><img src="/video/thumb/ni/96.jpg" alt="智能汽车的智能测试：更准确地测试电动和混合动力汽车的动力系统视频"></a>
+<div class="videosubject"><a href="thread-520450-1-1.html" target="_blank" title="智能汽车的智能测试：更准确地测试电动和混合动力汽车的动力系统视频">智能汽车的智能测试：更准确地测试电动和混合动力汽车的动力系统</a></div>
+<div class="videoview">4631</div><div class="videocomment">0</div>
+</div>
+<div class="videoshow">
+<a href="thread-521712-1-1.html" target="_blank"><img src="/video/thumb/microchip/145.jpg" alt="PIC32MM——高性价比BLDC电机控制视频"></a>
+<div class="videosubject"><a href="thread-521712-1-1.html" target="_blank" title="PIC32MM——高性价比BLDC电机控制视频">PIC32MM——高性价比BLDC电机控制</a></div>
+<div class="videoview">76</div><div class="videocomment">0</div>
+</div>
+<div class="videoshow">
+<a href="thread-521728-1-1.html" target="_blank"><img src="/video/thumb/xilinx/420.jpg" alt="针对 Xilinx 器件的优化电源传输方案视频"></a>
+<div class="videosubject"><a href="thread-521728-1-1.html" target="_blank" title="针对 Xilinx 器件的优化电源传输方案视频">针对 Xilinx 器件的优化电源传输方案</a></div>
+<div class="videoview">179</div><div class="videocomment">0</div>
+</div>
+</div>
+
+<div class="bottom"></div>
+
+<div class="block_tab">
+<a class="currenttab" id="tab_1" onmouseover="javascript:showandhide(1);"><span style="width:110px;">最新发布</span></a>
+<a id="tab_2" onmouseover="javascript:showandhide(2);" href="news.php"><span>新闻</span></a>
+<a id="tab_3" onmouseover="javascript:showandhide(3);" href="product.php"><span>新品</span></a>
+<a id="tab_4" onmouseover="javascript:showandhide(4);" href="tech.php"><span>文章</span></a>
+<a id="tab_5" onmouseover="javascript:showandhide(5);" href="download.php"><span>下载</span></a>
+<a id="tab_6" onmouseover="javascript:showandhide(6);" href="circuit.php"><span>电路</span></a>
+<a id="tab_7" onmouseover="javascript:showandhide(7);" href="ask.php"><span>问答</span></a>
+<a id="tab_8" onmouseover="javascript:showandhide(8);" href="career.php"><span>职场</span></a>
+<a class="lasttab" id="tab_9" onmouseover="javascript:showandhide(9);" href="zatan.php"><span>杂谈</span></a>
+<div class="bottom"></div>
+</div>
+
+<div id="tabcontent_1" style="display:block;"><div class="news-item">
+<h3><a href="thread-521790-1-1.html" target="_blank">CEVA推出先进软件套件ClearVox，为语音设备提供更高的语音智能</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/142157yz3h5d7u67ii9h3z.jpg" alt="CEVA推出先进软件套件ClearVox，为语音设备提供更高的语音智能"></div>
+<div class="news-item-txt">ClearVox以预先打包的语音输入处理算法和软件(包括多麦克风波束成形、扬声器声源方向、噪声抑制和回声消除)扩展了CEVA语音产品组合 
+
+CEV ...</div>
+
+<div class="news-item-info">
+<a href="multimedia.php" target="_blank">音频/视频/显示</a> &nbsp; | &nbsp; 01月09日 14:22<div class="comment_poll"><a href="thread-521790-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521790-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521759-1-1.html" target="_blank">大联大诠鼎集团推出基于Semtech产品的无线充电整体解决方案</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/1122441zj66l8sq4ncuil7.jpg" alt="大联大诠鼎集团推出基于Semtech产品的无线充电整体解决方案"></div>
+<div class="news-item-txt">大联大旗下诠鼎推出基于Semtech产品的无线充电整体解决方案，该方案用于符合行业标准和内部标准的系统中的直接和间接充电应用。
+
+
+图示1 ...</div>
+
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 01月09日 11:23<div class="comment_poll"><a href="thread-521759-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521759-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521756-1-1.html" target="_blank">恩智浦扩展产品组合，打造高分辨率汽车雷达传感器</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/110338eeixqzo7mjoejmqn.jpg" alt="恩智浦扩展产品组合，打造高分辨率汽车雷达传感器"></div>
+<div class="news-item-txt">恩智浦半导体（NXP Semiconductors N.V.）的77GHz雷达产品组合又推出一款新品。这款全球顶级汽车制造商采用的恩智浦MR3003雷达收发器面向需 ...</div>
+
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 11:03<div class="comment_poll"><a href="thread-521756-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521756-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521755-1-1.html" target="_blank">三电产品开发及测试研讨会北汽新能源专场成功举行</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/105429vvhvoehx4osthnu4.jpg" alt="三电产品开发及测试研讨会北汽新能源专场成功举行"></div>
+<div class="news-item-txt">1月6日，由电子应用网主办、北汽新能源电池工程部、北汽新能源试制试验部及北汽新能源动力系统部协办的”三电产品开发及测试研讨会北汽新能 ...</div>
+
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 10:54<div class="comment_poll"><a href="thread-521755-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521755-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521754-1-1.html" target="_blank">BaySand以Efinix Quantum可编程加速器技术扩展其《Programmable-In-ASIC》计划</a></h3>
+<div class="news-item-txt">可配置标准单元ASIC解决方案厂商BaySand Inc.宣布与Efinix合作，以Efinix的Quantum可编程加速器技术平台提供ASIC/SoC设计服务。
+
+BaySand ...</div>
+
+<div class="news-item-info">
+<a href="prototype.php" target="_blank">系统设计</a> &nbsp; | &nbsp; 01月09日 10:49<div class="comment_poll"><a href="thread-521754-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521754-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521752-1-1.html" target="_blank">电池技术突破临界点：2025年电动车性价比超燃油车？</a></h3>
+<div class="news-item-txt">来源：21世纪经济报道
+
+“在过去一年里，电动汽车产业正在向高质量发展转型，形势很喜人。” 1月7日，在中国电动汽车百人会召开钓鱼台论坛 ...</div>
+
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 10:15<div class="comment_poll"><a href="thread-521752-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521752-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521749-1-1.html" target="_blank">日本开发新型加密技术 号称量子计算机也难破解</a></h3>
+<div class="news-item-txt">来源：日经中文网
+
+日本总务省下属的信息通信研究机构开发出了新型加密技术，连新一代超高速计算机——量子计算机也难以破解。该技术的原 ...</div>
+
+<div class="news-item-info">
+<a href="programming.php" target="_blank">软件编程/OS</a> &nbsp; | &nbsp; 01月09日 10:08<div class="comment_poll"><a href="thread-521749-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521749-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521748-1-1.html" target="_blank">百度在美宣布Apollo2.0正式开放</a></h3>
+<div class="news-item-txt">北京时间1月9日，Apollo平台研发负责人王京傲在美国拉斯维加斯百度world大会宣布，Apollo2.0正式开放。
+
+Apollo2.0能够实现简单城市道路自 ...</div>
+
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 10:01<div class="comment_poll"><a href="thread-521748-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521748-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521746-1-1.html" target="_blank">高通在CES上发布新芯片 可将蓝牙耳机续航延长3倍</a></h3>
+<div class="news-item-txt">信号干扰和续航过短时当今蓝牙耳机的两大痛点，而高通则希望借助芯片同时解决这两大问题。
+
+“这是音频领域的重大进步。”高通声学和音乐 ...</div>
+
+<div class="news-item-info">
+<a href="multimedia.php" target="_blank">音频/视频/显示</a> &nbsp; | &nbsp; 01月09日 09:57<div class="comment_poll"><a href="thread-521746-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521746-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521745-1-1.html" target="_blank">电涌的来源、危害及保护措施</a></h3>
+<div class="news-item-txt">　　根据统计，在美国：由于电涌给各行业造成的停产、时间的损失、设备维修、过早地更换设备等直接损失每年高达260亿美金，在中国，据有关统 ...</div>
+
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 01月09日 09:44<div class="comment_poll"><a href="thread-521745-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521745-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521742-1-1.html" target="_blank">勇敢的芯伴你玩转Altera FPGA连载38：：Verilog代码风格之双向管脚的控制代码</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/2103171yst0099sy95nt87.jpg" alt="勇敢的芯伴你玩转Altera FPGA连载38：：Verilog代码风格之双向管脚的控制代码"></div>
+<div class="news-item-txt">勇敢的芯伴你玩转Altera FPGA连载38：：Verilog代码风格之双向管脚的控制代码特权同学，版权所有配套例程和更多资料下载链接：http://pan.b ...</div>
+
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 01月08日 21:03<div class="comment_poll"><a href="thread-521742-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521742-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521732-1-1.html" target="_blank">超声波液位传感器指示灯常亮的故障解决方案详解</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/152920iiu0t52d4o8du82r.png" alt="超声波液位传感器指示灯常亮的故障解决方案详解"></div>
+<div class="news-item-txt">超声波液位传感器是一种常用的流量测量仪器，主要针对于行业中的液体介质进行测量。同时超声波液位传感器也是一种性能优良的非接触式高精度 ...</div>
+
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月08日 15:30<div class="comment_poll"><a href="thread-521732-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521732-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521731-1-1.html" target="_blank">15 位权威专家深度解析：2018 年物联网需要关注的重大趋势</a></h3>
+<div class="news-item-txt">毋庸置疑，物联网是 2017 年最受关注的技术之一。物联网在短短几年内就对各个行业和业务功能产生了明显的影响，据 Statista 统计，全球物联 ...</div>
+
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月08日 15:29<div class="comment_poll"><a href="thread-521731-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521731-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521729-1-1.html" target="_blank">Semtech推出其新一代LoRa器件和无线射频芯片组，支持物联网未来发展</a></h3>
+<div class="news-item-txt">全新的芯片组系列产品扩大了网络覆盖范围同时将功耗降低了50%，从而使LoRa成为了低功耗广域网络（LPWAN）解决方案的事实标准性选择
+
+Semt ...</div>
+
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月08日 15:23<div class="comment_poll"><a href="thread-521729-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521729-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521728-1-1.html" target="_blank">【视频】针对 Xilinx 器件的优化电源传输方案</a></h3>
+<div class="news-item-img"><img src="/video/thumb/xilinx/420.jpg" alt="针对 Xilinx 器件的优化电源传输方案"></div>
+
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 01月08日 15:21<div class="comment_poll"><a href="thread-521728-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521728-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521727-1-1.html" target="_blank">【视频】Xilinx@IAS: 多传感器融合方案</a></h3>
+<div class="news-item-img"><img src="/video/thumb/xilinx/419.jpg" alt="Xilinx@IAS: 多传感器融合方案"></div>
+
+<div class="news-item-info">
+<a href="industrial.php" target="_blank">工业/测控</a> &nbsp; | &nbsp; 01月08日 15:19<div class="comment_poll"><a href="thread-521727-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521727-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521726-1-1.html" target="_blank">CEVA推出NeuPro —— 用于前端设备深度学习的AI处理器系列</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/150610pilf8mm8pv820m8z.jpg" alt="CEVA推出NeuPro —— 用于前端设备深度学习的AI处理器系列"></div>
+<div class="news-item-txt">CEVA发布了用于前端设备深度学习推理，而且功能强大的专用人工智能(AI)处理器系列NeuPro。NeuPro系列处理器专为智能和互联的前端设备供应商 ...</div>
+
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 01月08日 15:07<div class="comment_poll"><a href="thread-521726-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521726-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521725-1-1.html" target="_blank">【视频】Xilinx@IAS: 基于 Zynq 的智能物流系统</a></h3>
+<div class="news-item-img"><img src="/video/thumb/xilinx/418.jpg" alt="Xilinx@IAS: 基于 Zynq 的智能物流系统"></div>
+
+<div class="news-item-info">
+<a href="industrial.php" target="_blank">工业/测控</a> &nbsp; | &nbsp; 01月08日 15:03<div class="comment_poll"><a href="thread-521725-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521725-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521724-1-1.html" target="_blank">【视频】Xilinx@IAS: 开放自动化与工业物联网方案演示</a></h3>
+<div class="news-item-img"><img src="/video/thumb/xilinx/417.jpg" alt="Xilinx@IAS: 开放自动化与工业物联网方案演示"></div>
+
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月08日 14:58<div class="comment_poll"><a href="thread-521724-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521724-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521723-1-1.html" target="_blank">【视频】Xilinx@IAS: EtherCAT/RTEX 总线控制</a></h3>
+<div class="news-item-img"><img src="/video/thumb/xilinx/416.jpg" alt="Xilinx@IAS: EtherCAT/RTEX 总线控制"></div>
+
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月08日 14:56<div class="comment_poll"><a href="thread-521723-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521723-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="load-more" id="ShowContent_all"><span onclick="javascript:showmore('all',1);">显示更多</span></div>
+
+</div>
+
+<div id="tabcontent_2" style="display:none;"><div class="news-item">
+<h3><a href="thread-521755-1-1.html" target="_blank">三电产品开发及测试研讨会北汽新能源专场成功举行</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/105429vvhvoehx4osthnu4.jpg" alt="三电产品开发及测试研讨会北汽新能源专场成功举行"></div>
+<div class="news-item-txt">1月6日，由电子应用网主办、北汽新能源电池工程部、北汽新能源试制试验部及北汽新能源动力系统部协办的”三电产品开发及测试研讨会北汽新能 ...</div>
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 10:54<div class="comment_poll"><a href="thread-521755-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521755-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521752-1-1.html" target="_blank">电池技术突破临界点：2025年电动车性价比超燃油车？</a></h3>
+<div class="news-item-txt">来源：21世纪经济报道
+
+“在过去一年里，电动汽车产业正在向高质量发展转型，形势很喜人。” 1月7日，在中国电动汽车百人会召开钓鱼台论坛 ...</div>
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 10:15<div class="comment_poll"><a href="thread-521752-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521752-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521749-1-1.html" target="_blank">日本开发新型加密技术 号称量子计算机也难破解</a></h3>
+<div class="news-item-txt">来源：日经中文网
+
+日本总务省下属的信息通信研究机构开发出了新型加密技术，连新一代超高速计算机——量子计算机也难以破解。该技术的原 ...</div>
+<div class="news-item-info">
+<a href="programming.php" target="_blank">软件编程/OS</a> &nbsp; | &nbsp; 01月09日 10:08<div class="comment_poll"><a href="thread-521749-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521749-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521748-1-1.html" target="_blank">百度在美宣布Apollo2.0正式开放</a></h3>
+<div class="news-item-txt">北京时间1月9日，Apollo平台研发负责人王京傲在美国拉斯维加斯百度world大会宣布，Apollo2.0正式开放。
+
+Apollo2.0能够实现简单城市道路自 ...</div>
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 10:01<div class="comment_poll"><a href="thread-521748-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521748-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521746-1-1.html" target="_blank">高通在CES上发布新芯片 可将蓝牙耳机续航延长3倍</a></h3>
+<div class="news-item-txt">信号干扰和续航过短时当今蓝牙耳机的两大痛点，而高通则希望借助芯片同时解决这两大问题。
+
+“这是音频领域的重大进步。”高通声学和音乐 ...</div>
+<div class="news-item-info">
+<a href="multimedia.php" target="_blank">音频/视频/显示</a> &nbsp; | &nbsp; 01月09日 09:57<div class="comment_poll"><a href="thread-521746-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521746-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521706-1-1.html" target="_blank">英特尔推出历代最强NUC迷你电脑：迄今为止体积最小并可支持虚拟现实的系统</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/102611g8pmvrscttpcfsgz.jpg" alt="英特尔推出历代最强NUC迷你电脑：迄今为止体积最小并可支持虚拟现实的系统"></div>
+<div class="news-item-txt">英特尔今天发布了迄今为止最强大的英特尔 NUC迷你电脑，搭载最新发布的包含Radeon RX Vega M显卡的第八代智能英特尔酷睿 i7处理器。全新英特 ...</div>
+<div class="news-item-info">
+<a href="consumer.php" target="_blank">消费电子</a> &nbsp; | &nbsp; 01月08日 10:26<div class="comment_poll"><a href="thread-521706-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521706-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521705-1-1.html" target="_blank">智能手机增速放缓 芯片巨头跨界智能汽车新生意</a></h3>
+<div class="news-item-txt">来源：第一财经日报
+
+全球智能手机增速的放缓正在深刻地影响着上游产业链，其中，对于手机芯片厂商来说，寻找下一个“类手机”的生意已经 ...</div>
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月08日 10:18<div class="comment_poll"><a href="thread-521705-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521705-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521704-1-1.html" target="_blank">2017年全球家电市场报告</a></h3>
+<div class="news-item-txt">来源：快科技
+
+近日，国际权威第三方数据调研机构英国未来咨询（Futuresource Consulting）发布了最新的“全球家电市场”报告。 
+
+在专 ...</div>
+<div class="news-item-info">
+<a href="consumer.php" target="_blank">消费电子</a> &nbsp; | &nbsp; 01月08日 10:15<div class="comment_poll"><a href="thread-521704-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521704-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521703-1-1.html" target="_blank">存储器大厂3D NAND良率提升 NAND产能恐过剩</a></h3>
+<div class="news-item-txt">来源：（台）工商时报
+
+受到部份零组件缺货影响，ODM/OEM厂2017年第四季PC出货不如预期，导致固态硬盘（SSD）需求急降，价格也一路走跌， ...</div>
+<div class="news-item-info">
+<a href="zatan.php" target="_blank">电工杂谈</a> &nbsp; | &nbsp; 01月08日 10:12<div class="comment_poll"><a href="thread-521703-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521703-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521702-1-1.html" target="_blank">ARM承认存在漏洞 一大批苹果设备也受到波及</a></h3>
+<div class="news-item-txt">来源：IT168
+
+近日，Intel不但被爆出重大的安全漏洞，还把ARM和AMD也拉下了水，整个电子行业都担忧会收到影响。
+
+ARM也已经承认它的多款 ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 01月08日 09:54<div class="comment_poll"><a href="thread-521702-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521702-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521701-1-1.html" target="_blank">Intel发布漏洞CPU完整名单：1到8代酷睿全部中招</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/094941ia7598ryf8z8iiap.jpg" alt="Intel发布漏洞CPU完整名单：1到8代酷睿全部中招"></div>
+<div class="news-item-txt">来源：快科技
+
+近日，安全研究人员报告了Meltdown和Spectre两个漏洞，Intel、ARM、AMD等CPU产品纷纷遭受影响，一旦BUG被理用，将造成用户 ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 01月08日 09:50<div class="comment_poll"><a href="thread-521701-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521701-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521683-1-1.html" target="_blank">dSPACE实时仿真系统</a></h3>
+<div class="news-item-txt">dSPACE简介
+
+dSPACE实时仿真系统是由德国dSPACE公司开发的一套基于MATLAB/Simulink的控制系统开发及半实物仿真的软硬件工作平台，实现了和 ...</div>
+<div class="news-item-info">
+<a href="industrial.php" target="_blank">工业/测控</a> &nbsp; | &nbsp; 01月06日 16:35<div class="comment_poll"><a href="thread-521683-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521683-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521665-1-1.html" target="_blank">德国大陆集团推出最新辅助驾驶和自动驾驶控制单元：基于Xilinx Zynq UltraScale+MPSoC</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/05/164009kn9za1vayaxsn7qn.jpg" alt="德国大陆集团推出最新辅助驾驶和自动驾驶控制单元：基于Xilinx Zynq UltraScale+MPSoC"></div>
+<div class="news-item-txt">德国马牌， 又名德国大陆集团（Continental AG），创始于1871年，是具有百年历史的跨国性企业集团，全球500强，是世界领先的汽车配套产品供 ...</div>
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月05日 16:40<div class="comment_poll"><a href="thread-521665-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521665-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521646-1-1.html" target="_blank">泰克支持研究人员首次通过太赫兹复用器实现超高速数据传输</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/05/103152idii5d1z4nni64dn.jpg" alt="泰克支持研究人员首次通过太赫兹复用器实现超高速数据传输"></div>
+<div class="news-item-txt">DPO70000SX 70 GHz示波器、AWG70000任意波形发生器在国际研究小组演示 50 Gb/s无线数据传送中发挥关键作用
+
+泰克科技公司日前宣布，其仪器 ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月05日 10:31<div class="comment_poll"><a href="thread-521646-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521646-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="news-item">
+<h3><a href="thread-521642-1-1.html" target="_blank">Intel CPU底层漏洞事件完全详解：全球手机/电脑无一幸免</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/05/095404bqycqeqvjjka2vw9.jpg" alt="Intel CPU底层漏洞事件完全详解：全球手机/电脑无一幸免"></div>
+<div class="news-item-txt">来源：驱动之家
+
+由Intel CPU漏洞问题衍生出来的安全事件已经波及全球几乎所有的手机、电脑、云计算产品，ARM确认 Cortex-A架构中招，AMD ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 01月05日 09:54<div class="comment_poll"><a href="thread-521642-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521642-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+
+<div class="load-more" id="ShowContent_news"><a href="news.php" target="_blank" class="allaritcle">更多新闻</a></div>
+
+</div>
+
+<div id="tabcontent_3" style="display:none;"><div class="news-item">
+<h3><a href="thread-521790-1-1.html" target="_blank">CEVA推出先进软件套件ClearVox，为语音设备提供更高的语音智能</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/142157yz3h5d7u67ii9h3z.jpg" alt="CEVA推出先进软件套件ClearVox，为语音设备提供更高的语音智能"></div>
+<div class="news-item-txt">ClearVox以预先打包的语音输入处理算法和软件(包括多麦克风波束成形、扬声器声源方向、噪声抑制和回声消除)扩展了CEVA语音产品组合 
+
+CEV ...</div>
+<div class="news-item-info">
+<a href="multimedia.php" target="_blank">音频/视频/显示</a> &nbsp; | &nbsp; 01月09日 14:22<div class="comment_poll"><a href="thread-521790-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521790-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521759-1-1.html" target="_blank">大联大诠鼎集团推出基于Semtech产品的无线充电整体解决方案</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/1122441zj66l8sq4ncuil7.jpg" alt="大联大诠鼎集团推出基于Semtech产品的无线充电整体解决方案"></div>
+<div class="news-item-txt">大联大旗下诠鼎推出基于Semtech产品的无线充电整体解决方案，该方案用于符合行业标准和内部标准的系统中的直接和间接充电应用。
+
+
+图示1 ...</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 01月09日 11:23<div class="comment_poll"><a href="thread-521759-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521759-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521756-1-1.html" target="_blank">恩智浦扩展产品组合，打造高分辨率汽车雷达传感器</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/09/110338eeixqzo7mjoejmqn.jpg" alt="恩智浦扩展产品组合，打造高分辨率汽车雷达传感器"></div>
+<div class="news-item-txt">恩智浦半导体（NXP Semiconductors N.V.）的77GHz雷达产品组合又推出一款新品。这款全球顶级汽车制造商采用的恩智浦MR3003雷达收发器面向需 ...</div>
+<div class="news-item-info">
+<a href="auto.php" target="_blank">汽车电子</a> &nbsp; | &nbsp; 01月09日 11:03<div class="comment_poll"><a href="thread-521756-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521756-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521754-1-1.html" target="_blank">BaySand以Efinix Quantum可编程加速器技术扩展其《Programmable-In-ASIC》计划</a></h3>
+<div class="news-item-txt">可配置标准单元ASIC解决方案厂商BaySand Inc.宣布与Efinix合作，以Efinix的Quantum可编程加速器技术平台提供ASIC/SoC设计服务。
+
+BaySand ...</div>
+<div class="news-item-info">
+<a href="prototype.php" target="_blank">系统设计</a> &nbsp; | &nbsp; 01月09日 10:49<div class="comment_poll"><a href="thread-521754-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521754-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521729-1-1.html" target="_blank">Semtech推出其新一代LoRa器件和无线射频芯片组，支持物联网未来发展</a></h3>
+<div class="news-item-txt">全新的芯片组系列产品扩大了网络覆盖范围同时将功耗降低了50%，从而使LoRa成为了低功耗广域网络（LPWAN）解决方案的事实标准性选择
+
+Semt ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月08日 15:23<div class="comment_poll"><a href="thread-521729-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521729-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521726-1-1.html" target="_blank">CEVA推出NeuPro —— 用于前端设备深度学习的AI处理器系列</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/150610pilf8mm8pv820m8z.jpg" alt="CEVA推出NeuPro —— 用于前端设备深度学习的AI处理器系列"></div>
+<div class="news-item-txt">CEVA发布了用于前端设备深度学习推理，而且功能强大的专用人工智能(AI)处理器系列NeuPro。NeuPro系列处理器专为智能和互联的前端设备供应商 ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 01月08日 15:07<div class="comment_poll"><a href="thread-521726-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521726-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521721-1-1.html" target="_blank">恩智浦推出Automated Drive Kit，促进开放、快捷而灵活的应用开发</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/1450430e3uuiwdrwrs0ia2.jpg" alt="恩智浦推出Automated Drive Kit，促进开放、快捷而灵活的应用开发"></div>
+<div class="news-item-txt">恩智浦半导体（NXP Semiconductors N.V.）推出恩智浦Automated Drive Kit，这是一款提供软件支持的自动驾驶汽车应用开发和测试平台。借助该 ...</div>
+<div class="news-item-info">
+<a href="medical.php" target="_blank">医疗电子</a> &nbsp; | &nbsp; 01月08日 14:51<div class="comment_poll"><a href="thread-521721-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521721-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521707-1-1.html" target="_blank">英特尔发布全新第八代智能英特尔酷睿处理器，搭载 Radeon RX Vega M 显卡</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/103042wwyxw35484p4gfkp.jpg" alt="英特尔发布全新第八代智能英特尔酷睿处理器，搭载 Radeon RX Vega M 显卡"></div>
+<div class="news-item-txt">设备厚度可降至17毫米，帧速率最高提升 3倍
+
+英特尔宣布推出首款搭载 Radeon RX Vega M显卡的第八代智能英特尔酷睿处理器。该款处理器具备 ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 01月08日 10:32<div class="comment_poll"><a href="thread-521707-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521707-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521672-1-1.html" target="_blank">星际科技推出PCI-5565反射内存卡</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/06/094853zemx8mpp2eoz82eo.jpg" alt="星际科技推出PCI-5565反射内存卡"></div>
+<div class="news-item-txt">PCI5565反射内存特性l       高速的、根据nGbaud的网络；l       简略易用；l       可扩充性强，可无缝升级到剩余度形式；l       与操作体 ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月06日 09:49<div class="comment_poll"><a href="thread-521672-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521672-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521653-1-1.html" target="_blank">TE Connectivity的Intercontec连接器推出全新跨越多种电机平台的定制化解决方案</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/05/134645b3wvass0b03wfpl3.jpg" alt="TE Connectivity的Intercontec连接器推出全新跨越多种电机平台的定制化解决方案"></div>
+<div class="news-item-txt">TE Connectivity（TE）的IntercontecIntercontec连接器隆重推出全新连接器定制化组合解决方案。此系列解决方案可轻松连接电力、信号和数据（ ...</div>
+<div class="news-item-info">
+<a href="industrial.php" target="_blank">工业/测控</a> &nbsp; | &nbsp; 01月05日 13:47<div class="comment_poll"><a href="thread-521653-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521653-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521644-1-1.html" target="_blank">星际科技发布 PCI接口反射内存卡</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/05/1023333mnvf66b5ea8a3h1.jpg" alt="星际科技发布 PCI接口反射内存卡"></div>
+<div class="news-item-txt">反射内存网络是一种特殊类型的共享内存系统，旨在使多个独立计算机共享通用数据集。反射内存网络可在每个子系统中保存整个共享内存的独立备 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月05日 10:24<div class="comment_poll"><a href="thread-521644-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521644-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521629-1-1.html" target="_blank">Molex 旗下 Sensorcon 公司推出一氧化碳检测仪产品线</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/04/155409muhximc6x6ba6sxm.jpg" alt="Molex 旗下 Sensorcon 公司推出一氧化碳检测仪产品线"></div>
+<div class="news-item-txt">便携工具协助急救员检测一氧化碳水平
+
+Molex 旗下子公司 Sensorcon 推出一氧化碳检测仪，该型便携式仪表采用了先进的电化学传感器技术，可 ...</div>
+<div class="news-item-info">
+<a href="industrial.php" target="_blank">工业/测控</a> &nbsp; | &nbsp; 01月04日 15:54<div class="comment_poll"><a href="thread-521629-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521629-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521628-1-1.html" target="_blank">大联大诠鼎集团推出结合AcSiP和Semtech技术LoRa智能模块解决方案</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/04/15483388sbi68bgsllbibb.jpg" alt="大联大诠鼎集团推出结合AcSiP和Semtech技术LoRa智能模块解决方案"></div>
+<div class="news-item-txt">大联大旗下诠鼎推出结合群登科技（AcSiP）和Semtech的LoRa智能模块解决方案。AcSiP是物联网解决方案的提供者，可以提供与IoT相关的资源。Lo ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月04日 15:49<div class="comment_poll"><a href="thread-521628-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521628-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521572-1-1.html" target="_blank">星际科技推出 GE反射内存卡</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/03/135324f5097027fv9v25l9.jpg" alt="星际科技推出 GE反射内存卡"></div>
+<div class="news-item-txt">反射内存网络是一种特殊类型的共享内存系统，旨在使多个独立计算机共享通用数据集。反射内存网络可在每个子系统中保存整个共享内存的独立备 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月03日 13:54<div class="comment_poll"><a href="thread-521572-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521572-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521571-1-1.html" target="_blank">星际科技发布ACC-5595反射内存交换机</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/03/1306047rz7yp717ubzbuh1.jpg" alt="星际科技发布ACC-5595反射内存交换机"></div>
+<div class="news-item-txt">实时仿真计算机 半实物仿真系统  公司自主开发的实时仿真计算机、半实物仿真系统，致力于为各领域用户提供快速原型设计及硬件在回路仿真解决 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月03日 13:07<div class="comment_poll"><a href="thread-521571-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521571-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="load-more" id="ShowContent_product"><a href="product.php" target="_blank" class="allaritcle">更多新品</a></div>
+
+</div>
+
+<div id="tabcontent_4" style="display:none;"><div class="news-item">
+<h3><a href="thread-521745-1-1.html" target="_blank">电涌的来源、危害及保护措施</a></h3>
+<div class="news-item-txt">　　根据统计，在美国：由于电涌给各行业造成的停产、时间的损失、设备维修、过早地更换设备等直接损失每年高达260亿美金，在中国，据有关统 ...</div>
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 01月09日 09:44<div class="comment_poll"><a href="thread-521745-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521745-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521742-1-1.html" target="_blank">勇敢的芯伴你玩转Altera FPGA连载38：：Verilog代码风格之双向管脚的控制代码</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/2103171yst0099sy95nt87.jpg" alt="勇敢的芯伴你玩转Altera FPGA连载38：：Verilog代码风格之双向管脚的控制代码"></div>
+<div class="news-item-txt">勇敢的芯伴你玩转Altera FPGA连载38：：Verilog代码风格之双向管脚的控制代码特权同学，版权所有配套例程和更多资料下载链接：http://pan.b ...</div>
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 01月08日 21:03<div class="comment_poll"><a href="thread-521742-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521742-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521732-1-1.html" target="_blank">超声波液位传感器指示灯常亮的故障解决方案详解</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/152920iiu0t52d4o8du82r.png" alt="超声波液位传感器指示灯常亮的故障解决方案详解"></div>
+<div class="news-item-txt">超声波液位传感器是一种常用的流量测量仪器，主要针对于行业中的液体介质进行测量。同时超声波液位传感器也是一种性能优良的非接触式高精度 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月08日 15:30<div class="comment_poll"><a href="thread-521732-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521732-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521731-1-1.html" target="_blank">15 位权威专家深度解析：2018 年物联网需要关注的重大趋势</a></h3>
+<div class="news-item-txt">毋庸置疑，物联网是 2017 年最受关注的技术之一。物联网在短短几年内就对各个行业和业务功能产生了明显的影响，据 Statista 统计，全球物联 ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月08日 15:29<div class="comment_poll"><a href="thread-521731-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521731-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521717-1-1.html" target="_blank">高速PCB设计接地分类及选取原则</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/08/144551inw5n11nto1dz5d1.jpg" alt="高速PCB设计接地分类及选取原则"></div>
+<div class="news-item-txt">　　随着电子技术的发展，电子产品的产品功能越来越强大。PCB的设计在电子产品的设计中起着举足轻重的作用，因为PCB设计的好与坏将直接影响 ...</div>
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 01月08日 14:46<div class="comment_poll"><a href="thread-521717-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521717-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521710-1-1.html" target="_blank">详细介绍：100G QSFP28光模块性能参数</a></h3>
+<div class="news-item-txt">光通信数据中心的提速发展，这是一个必然的趋势；那么，针对供应商而言，要想保持优先的竞争力，就必须不断调整光模块的封装、不断提升光模 ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月08日 14:19<div class="comment_poll"><a href="thread-521710-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521710-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521684-1-1.html" target="_blank">智能穿戴设备定位与连接方案及定位模块蓝牙模块选型指导</a></h3>
+<div class="news-item-txt">科技改变生活，先进的科学技术确实给我们的生活带来了诸多便利，以智能手机为中心的可穿戴设备和智能家电经常使用蓝牙、ZigBee和WiFi等无线 ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月06日 17:42<div class="comment_poll"><a href="thread-521684-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521684-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521669-1-1.html" target="_blank">均衡器CTLE的原理、特点及作用</a></h3>
+<div class="news-item-txt">作者：一博科技
+
+CTLE是什么？上篇文章也提到了，直白的翻译为连续时间线性均衡。它是在接收端芯片上的一种技术。之前也提到了，CTLE的作 ...</div>
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 01月05日 18:05<div class="comment_poll"><a href="thread-521669-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521669-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521666-1-1.html" target="_blank">分析电路的四大常用方法</a></h3>
+<div class="news-item-txt">　　电子电路图用来表示实际电子电路的组成、结构、元器件标称值等信息。通过电路图可以知道实际电路的情况。这样我们在分析电路时，就不必 ...</div>
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 01月05日 17:06<div class="comment_poll"><a href="thread-521666-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521666-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521664-1-1.html" target="_blank">示波器的各种文件存储方式与分析</a></h3>
+<div class="news-item-txt">关于示波器[/backcolor]设置或数据的存储功能很多人表示似懂非懂，想对所测的数据进行二次分析却无从下手，存储由此上演了犹抱琵琶半遮面的 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月05日 16:16<div class="comment_poll"><a href="thread-521664-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521664-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521663-1-1.html" target="_blank">基于超声波传感器设计原理的液位测试方法</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/05/1527458hud77chcz6b86bq.png" alt="基于超声波传感器设计原理的液位测试方法"></div>
+<div class="news-item-txt">超声波传感器是一种常用的一种完全不与被接触介质接触的检测传感器，是一种振动频率高于声波的机械波，由换能晶片在电压的激励下发生振动产 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月05日 15:29<div class="comment_poll"><a href="thread-521663-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521663-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521634-1-1.html" target="_blank">勇敢的芯伴你玩转Altera FPGA连载37：Verilog代码风格之同步以及时钟的设计原则</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/04/1830379ryeu8azphvc8smp.jpg" alt="勇敢的芯伴你玩转Altera FPGA连载37：Verilog代码风格之同步以及时钟的设计原则"></div>
+<div class="news-item-txt">勇敢的芯伴你玩转Altera FPGA连载37：Verilog代码风格之同步以及时钟的设计原则特权同学，版权所有配套例程和更多资料下载链接：http://pan ...</div>
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 01月04日 18:30<div class="comment_poll"><a href="thread-521634-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521634-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521630-1-1.html" target="_blank">测量仪器你用对了吗？</a></h3>
+<div class="news-item-txt">建筑工程、土木研究中，测量仪器为各项建筑工作提供精准数据，担负着重要使命。随着科技的发展，测量仪器种类渐多，功能也更加全面。选购 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 01月04日 16:26<div class="comment_poll"><a href="thread-521630-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521630-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521626-1-1.html" target="_blank">无处不在的48V，被谷歌和数据中心大规模采用，究竟优势是什么......</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/04/150905txiwmlwd54piwtdi.jpg" alt="无处不在的48V，被谷歌和数据中心大规模采用，究竟优势是什么......"></div>
+<div class="news-item-txt">Vicor公司供稿
+ 
+
+
+为什么电源设计转用 48V？您需要了解什么？
+
+当前应用通过下列途径提高性能：
+• 增强处理能力
+• 提 ...</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 01月04日 15:12<div class="comment_poll"><a href="thread-521626-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521626-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521594-1-1.html" target="_blank">微控制器的灾难——99RMB超高性价比的i.MX 6UL核心板/6ULL核心板MYC-Y6ULX评测</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/03/1703361o3igaahpgjhj4zt.png" alt="微控制器的灾难——99RMB超高性价比的i.MX 6UL核心板/6ULL核心板MYC-Y6ULX评测"></div>
+<div class="news-item-txt">”质量不减，价格制胜”，从NXP i.MX 6系列处理器中脱颖而出的i.MX 6UL/6ULL芯片凭借着高能效比、高性价比在工程师的口碑中广受好评 ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 01月03日 17:06<div class="comment_poll"><a href="thread-521594-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521594-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="load-more" id="ShowContent_tech"><a href="tech.php" target="_blank" class="allaritcle">更多文章</a></div>
+
+</div>
+
+<div id="tabcontent_5" style="display:none;"><div class="news-item">
+<h3><a href="thread-521537-1-1.html" target="_blank">WiFi模块外围应用电路硬件设计PCB Layout参考</a></h3>
+<div class="news-item-txt">分享WiFi模块外围应用电路硬件设计PCB Layout参考心得，希望对应用wifi模块做集成设计应用有很大的帮助！</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 01月02日 14:56<div class="comment_poll"><a href="thread-521537-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521537-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521449-1-1.html" target="_blank">→→  中国科幻基石丛书 三体 ←← 3册 超清书签 岁末小礼包</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/29/0952082ldckt73xgqbq7g7.jpg" alt="→→  中国科幻基石丛书 三体 ←← 3册 超清书签 岁末小礼包"></div>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 12月29日 09:54<div class="comment_poll"><a href="thread-521449-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-521449-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521392-1-1.html" target="_blank">24口全千兆交换机方案RTL8382L+RTL8218B+RTL8231L设计参考原理图</a></h3>
+<div class="news-item-txt">分享24口全千兆交换机方案RTL8382L+RTL8218B+RTL8231L设计参考原理图</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 12月27日 16:47<div class="comment_poll"><a href="thread-521392-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521392-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521386-1-1.html" target="_blank">【原创】技术员Win10系统1709企业版 2017 11</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/27/152139iztqw0diwg0cbmtd.jpg" alt="【原创】技术员Win10系统1709企业版 2017 11"></div>
+<div class="news-item-txt">系统简介：
+
+
+
+
+
+
+32位装机版
+文件：Js_GhostWin10z_x86_v201711.iso
+大小：3.43 GB
+MD5：BBABF3F41126D4F935D83C2DD87B89A0
+
+ ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 12月27日 15:19<div class="comment_poll"><a href="thread-521386-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521386-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521231-1-1.html" target="_blank">纯净无捆绑装机员U盘启动PE Win10网络版(UEFI+UD+自动安装MSDN版系统)</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/22/111646xb9ursf4fqku7yas.jpg" alt="纯净无捆绑装机员U盘启动PE Win10网络版(UEFI+UD+自动安装MSDN版系统)"></div>
+<div class="news-item-txt">简介：装机员U盘启动盘制作工具让您能够完全独立专业级的维护系统，更能够抛开庞大的系统进行日常网络办公。工具简单实用，操作方便快捷，兼 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 12月22日 11:17<div class="comment_poll"><a href="thread-521231-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521231-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521230-1-1.html" target="_blank">无需任何电脑技术一键搞定，在线一键重装系统工具！！</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/22/111537b0r0xahbe7aw7zzs.png" alt="无需任何电脑技术一键搞定，在线一键重装系统工具！！"></div>
+<div class="news-item-txt">温馨提示安装系统时，建议关闭杀毒软件，以免造成系统安装失败，重装前记得备份c盘和桌面的资料以免造成资料丢失装机员一键重装工具软件会 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 12月22日 11:16<div class="comment_poll"><a href="thread-521230-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521230-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521099-1-1.html" target="_blank">→→ 人类未解之谜相关专辑 18册 315M ←← , 岁末大礼包</a></h3>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 12月18日 21:37<div class="comment_poll"><a href="thread-521099-1-1.html#comment" target="_blank">评论(2)</a> / <a href="thread-521099-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521010-1-1.html" target="_blank">FPGA至简设计法为什么这么简单</a></h3>
+<div class="news-item-txt">由潘文明先生开创的IC/FPGA至简设计法，具备划时代的意义。这种设计方法不仅将IC/FPGA学习难度降到了最低，同时将设计过程变得简单，并规范 ...</div>
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 12月15日 15:34<div class="comment_poll"><a href="thread-521010-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521010-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520544-1-1.html" target="_blank">液位超声波传感器技术参考资料</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/06/1715201169k91fp1d2412e.png" alt="液位超声波传感器技术参考资料"></div>
+<div class="news-item-txt">hrxl-maxsonar-wr传感器线提供高精度高分辨率超声接近在空气中探测和测距。该传感器线的特点是1毫米分辨率、目标尺寸和操作电压补偿。 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 12月06日 17:18<div class="comment_poll"><a href="thread-520544-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520544-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520430-1-1.html" target="_blank">→→ 双色图文详解电容器及应用电路  182页 67.9M 高清书签版 ←←</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/04/201407emntnwzejt1y6j6w.jpg" alt="→→ 双色图文详解电容器及应用电路  182页 67.9M 高清书签版 ←←"></div>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 12月04日 20:46<div class="comment_poll"><a href="thread-520430-1-1.html#comment" target="_blank">评论(11)</a> / <a href="thread-520430-1-1.html#poll" target="_blank">表态(2)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520423-1-1.html" target="_blank">FPGA模块划分技巧</a></h3>
+<div class="news-item-txt">学习至简设计法，学会模块设计和模块划分技巧。模块划分技巧非常重要，好的模块结构，能极大地精简各模块的结构，从而能用最少的代码实现所 ...</div>
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 12月04日 16:44<div class="comment_poll"><a href="thread-520423-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520423-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520404-1-1.html" target="_blank">轻松了解电子元器件基础知识</a></h3>
+<div class="news-item-txt">一、电阻
+　　电阻在电路中用“R”加数字表示，如：R1表示编号为1的电阻。电阻在电路中的主要作用为：分流、限流、分压、偏置等。
+　　1、 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 12月04日 11:44<div class="comment_poll"><a href="thread-520404-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520404-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520314-1-1.html" target="_blank">一键激活windows系统与office（绿色无捆绑装机员激活工具）</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/02/0945551lp2sls4ixlkle42.jpg" alt="一键激活windows系统与office（绿色无捆绑装机员激活工具）"></div>
+<div class="news-item-txt">装机员win10激活工具是一款纯绿色无添加任何捆绑软件和恶意修改主页功能，只为方便广大Windows用户而诞生的工具，相对于其他KMSwin10激活 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 12月02日 09:46<div class="comment_poll"><a href="thread-520314-1-1.html#comment" target="_blank">评论(3)</a> / <a href="thread-520314-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520226-1-1.html" target="_blank">超声波液位传感器在农业灌溉中的核心技术资料</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/30/1501317euz29l5xeutkzum.png" alt="超声波液位传感器在农业灌溉中的核心技术资料"></div>
+<div class="news-item-txt">在这一个对于国家农业整体的布局中，农田水利的大力兴建是我国农业发展的重要举措也是未来农业得以长足发展的重要保证。水利工程建设离不超 ...</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 11月30日 15:02<div class="comment_poll"><a href="thread-520226-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-520226-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520169-1-1.html" target="_blank">明德扬FPGA设计技巧--gVim模板分享2</a></h3>
+<div class="news-item-txt">要使用上面快捷命令，需要明德扬的配置文件，欢迎关注明德扬公众号“fpga520”，或群544453837索取。口号：多用模板，减少记忆，专注设计！ ...</div>
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 11月29日 15:48<div class="comment_poll"><a href="thread-520169-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-520169-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="load-more" id="ShowContent_download"><a href="download.php" target="_blank" class="allaritcle">更多下载</a></div>
+
+</div>
+
+<div id="tabcontent_6" style="display:none;"><div class="news-item">
+<h3><a href="thread-521554-1-1.html" target="_blank">PCB设计，北京PCB设计，兼职PCB</a></h3>
+<div class="news-item-txt">多年的PCB专职设计经验，主要使用的软件有Cadence(Allegro)、PADS（PowerPCB）、Altium Designer（PROTEL）、CAM350,可以设计2-20层板，对模 ...</div>
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 01月03日 08:51<div class="comment_poll"><a href="thread-521554-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521554-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521424-1-1.html" target="_blank">24V 3A无频闪线性调光 内置MOS降压恒流 LED台灯驱动IC(FP7103)</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/28/135715bgma7krmvcokkv8r.png" alt="24V 3A无频闪线性调光 内置MOS降压恒流 LED台灯驱动IC(FP7103)"></div>
+<div class="news-item-txt">24V 3A无频闪线性调光 内置MOS降压恒流 LED台灯驱动IC(FP7103)
+
+【芯片信息】FP7103，降压恒流，内置MOS
+【芯片外观】
+【芯片参数】
+ ...</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 12月28日 13:58<div class="comment_poll"><a href="thread-521424-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521424-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521423-1-1.html" target="_blank">24V 2A无频闪线性调光 内置MOS降压恒流 LED台灯驱动IC(FP7102)</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/28/135452ui09gvcgu9j9jskp.png" alt="24V 2A无频闪线性调光 内置MOS降压恒流 LED台灯驱动IC(FP7102)"></div>
+<div class="news-item-txt">24V 2A无频闪线性调光 内置MOS降压恒流 LED台灯驱动IC(FP7102)
+
+【芯片信息】FP7102，降压恒流，内置MOS
+【芯片外观】
+【芯片参数】
+【 ...</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 12月28日 13:55<div class="comment_poll"><a href="thread-521423-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521423-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521147-1-1.html" target="_blank">倒装铝基板设计在LED行业中的重要作用</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/20/10244223n3ptycpt8sr8dd.jpg" alt="倒装铝基板设计在LED行业中的重要作用"></div>
+<div class="news-item-txt">倒装铝基板最早只是在一些特殊领域有应用，近年随着LED照明的迅速发展，从PCB大家族中脱颖而出。LED照明产品主要有三大结构组成：光源、 ...</div>
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 12月20日 10:25<div class="comment_poll"><a href="thread-521147-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521147-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521144-1-1.html" target="_blank">总结PCB板设计工艺十大缺陷--祥赢铝基板</a></h3>
+<div class="news-item-txt">　一、加工层次定义不明确
+ 
+　　单面板设计在TOP层，如不加说明正反做，也许制出来板子装上器件而不好焊接。
+ 
+　　二、大面积铜箔距外 ...</div>
+<div class="news-item-info">
+<a href="pcb.php" target="_blank">PCB设计</a> &nbsp; | &nbsp; 12月20日 10:17<div class="comment_poll"><a href="thread-521144-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521144-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520435-1-1.html" target="_blank">印刷电路板元件之间的接线安排</a></h3>
+<div class="news-item-txt">(1)印刷电路中不允许有交叉电路，对于可能交叉的线条，可以用“钻”、“绕”两种办法解决。即，让某引线从别的电阻、电容、三极管脚下的空隙 ...</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 12月05日 09:42<div class="comment_poll"><a href="thread-520435-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520435-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520361-1-1.html" target="_blank">数字电路设计之需要注意的几个点</a></h3>
+<div class="news-item-txt">这是一个在逻辑设计中注意事项列表，由此引起的错误常使得设计不可靠或速度较慢，为了提高设计性能和提高速度的可靠性，必须确定设计通过所 ...</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 12月03日 09:31<div class="comment_poll"><a href="thread-520361-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-520361-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519160-1-1.html" target="_blank">【FP7175方案一】H4&lt;汽车前大灯&gt;无极单亮远近灯</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/09/133200fbk6f90qx0sewj4q.jpg" alt="【FP7175方案一】H4&lt;汽车前大灯&gt;无极单亮远近灯"></div>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 11月09日 13:32<div class="comment_poll"><a href="thread-519160-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519160-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519158-1-1.html" target="_blank">（FP7172）降压型外置MOS 高亮度LED恒流驱动芯片 移动电源应用</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/09/132747mrarangznnvmgios.jpg" alt="（FP7172）降压型外置MOS 高亮度LED恒流驱动芯片 移动电源应用"></div>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 11月09日 13:28<div class="comment_poll"><a href="thread-519158-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519158-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519156-1-1.html" target="_blank">【FP7171方案二】：卡口灯彩</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/09/13215068ep9u4zu5f68gc3.jpg" alt="【FP7171方案二】：卡口灯彩"></div>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 11月09日 13:22<div class="comment_poll"><a href="thread-519156-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519156-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518945-1-1.html" target="_blank">FP7182去频闪、隔离型大功率（200W以内）应用方案，内置MOS降压恒流，线性调光车灯IC</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/03/161554rmtsy9fehvmzv4sg.jpg" alt="FP7182去频闪、隔离型大功率（200W以内）应用方案，内置MOS降压恒流，线性调光车灯IC"></div>
+<div class="news-item-txt">FP7182 去频闪内置MOS 降压型LED驱动芯片
+
+隔离型大功率（200W以内）应用方案
+耐压100V 2A、车灯IC应用</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 11月03日 16:16<div class="comment_poll"><a href="thread-518945-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518945-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518942-1-1.html" target="_blank">外置MOS管 LED升压恒流驱动IC-- 常见的DC/DC芯片做LED恒流驱动电路 LED照明可调光驱动</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/03/160954ada61221ekilxpii.jpg" alt="外置MOS管 LED升压恒流驱动IC-- 常见的DC/DC芯片做LED恒流驱动电路 LED照明可调光驱动"></div>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 11月03日 16:10<div class="comment_poll"><a href="thread-518942-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518942-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518936-1-1.html" target="_blank">（HL3202）外置MOS管 LED升压恒流驱动电源-30W  ,无频闪线性恒流驱动IC,LED调光照明IC</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/03/154616feezfqjbygkj85jf.jpg" alt="（HL3202）外置MOS管 LED升压恒流驱动电源-30W  ,无频闪线性恒流驱动IC,LED调光照明IC"></div>
+<div class="news-item-txt"></div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 11月03日 15:47<div class="comment_poll"><a href="thread-518936-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518936-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518714-1-1.html" target="_blank">浅谈开关电源EMI设计中的那些事</a></h3>
+<div class="news-item-txt">开关电源的EMI干扰源集中体现在功率开关管、整流二极管、高频变压器等，外部环境对开关电源的干扰主要来自电网的抖动、雷击、外界辐射等。功 ...</div>
+<div class="news-item-info">
+<a href="power.php" target="_blank">电源技术</a> &nbsp; | &nbsp; 10月31日 10:27<div class="comment_poll"><a href="thread-518714-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518714-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518296-1-1.html" target="_blank">[电机及执行机构驱动] 基于ASIC控制无刷电机的方法及应用</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201710/24/105731oltpfnrejd0fplyo.png" alt="[电机及执行机构驱动] 基于ASIC控制无刷电机的方法及应用"></div>
+<div class="news-item-txt">（欢迎技术交流，提供技术文档，参考设计，样片。杨先生：15982967213  QQ：2885790814）
+使用专用ASIC做直流无刷电机控制，优势是明显的： ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 10月24日 11:00<div class="comment_poll"><a href="thread-518296-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518296-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="load-more" id="ShowContent_circuit"><a href="circuit.php" target="_blank" class="allaritcle">更多电路图</a></div>
+
+</div>
+
+<div id="tabcontent_7" style="display:none;"><div class="news-item">
+<h3><a href="thread-521750-1-1.html" target="_blank">大家好！</a></h3>
+<div class="news-item-txt">大家好！
+我是新会员，刚进入这个组织叫金池，以后咱们都同伙儿了。多多帮助，多多指教。
+谢谢！</div>
+<div class="news-item-info">
+<a href="" target="_blank">新手园地</a> &nbsp; | &nbsp; 01月09日 10:09<div class="comment_poll"><a href="thread-521750-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521750-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521688-1-1.html" target="_blank">海量项目，邀你来战——发给工科生们的新年战帖</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201801/07/082400zzmnk1axonmgmgua.jpg" alt="海量项目，邀你来战——发给工科生们的新年战帖"></div>
+<div class="news-item-txt">所学不能所用，退而求其次去做保险、做销售、做服务……
+工科大学四年，所学本应是日后职业发展之优势。
+但，为什么会有70%以上的工科生们 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">讨论/灌水</a> &nbsp; | &nbsp; 01月07日 08:30<div class="comment_poll"><a href="thread-521688-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521688-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521446-1-1.html" target="_blank">2018年广州国际照明展览会6月举行，敲定「思索 · 照明 － 思索 · 变革」为大会主题</a></h3>
+<div class="news-item-txt">2018年广州国际照明展览会6月举行，敲定「思索 · 照明 － 思索 · 变革」为大会主题
+
+逾85%展位已获率先认购，多家行业知名品牌继续到场 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">讨论/灌水</a> &nbsp; | &nbsp; 12月28日 23:08<div class="comment_poll"><a href="thread-521446-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521446-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521343-1-1.html" target="_blank">福利十二月ofo摩拜月卡免费领</a></h3>
+<div class="news-item-txt">朋友分享看到的，确认过可以领的，上限是100天，所分享给各位水友
+打开微信搜索好惠付公众号关注它，查看它的历史消息就有然后点击图片就有 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">讨论/灌水</a> &nbsp; | &nbsp; 12月26日 14:21<div class="comment_poll"><a href="thread-521343-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521343-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521305-1-1.html" target="_blank">商品上的二维码是通过怎样的步骤实现的呢？</a></h3>
+<div class="news-item-txt">如今，我们的生活中已经离不开手机。随着手机自带的功能越来越多，二维码作为一个新兴的宣传媒介进入我们的视野。二维码，能够通过条码讯息 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">讨论/灌水</a> &nbsp; | &nbsp; 12月25日 11:46<div class="comment_poll"><a href="thread-521305-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521305-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521013-1-1.html" target="_blank">电力系统与电力电子哪个专业比较好，在找工作方面和未来发展方面？</a></h3>
+<div class="news-item-txt">女生更适合哪一个？</div>
+<div class="news-item-info">
+<a href="" target="_blank">讨论/灌水</a> &nbsp; | &nbsp; 12月15日 16:37<div class="comment_poll"><a href="thread-521013-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-521013-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520867-1-1.html" target="_blank">谁有环保工程师证书的呢？大概市场价多少？</a></h3>
+<div class="news-item-txt">朋友单位升资质要环保中级和高级的职称证、让我帮忙介绍   请问这里有有证书的朋友吗？可以联系我电话180-3816-9642</div>
+<div class="news-item-info">
+<a href="" target="_blank">职业发展</a> &nbsp; | &nbsp; 12月12日 17:29<div class="comment_poll"><a href="thread-520867-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520867-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520861-1-1.html" target="_blank">建筑设计专业现在市场需求大吗？前景怎么样？</a></h3>
+<div class="news-item-txt">如题，求前辈指点，自己感觉建筑设计的市场不怎么好</div>
+<div class="news-item-info">
+<a href="" target="_blank">职业发展</a> &nbsp; | &nbsp; 12月12日 17:18<div class="comment_poll"><a href="thread-520861-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520861-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520540-1-1.html" target="_blank">有效率比较高些的现场总线推荐吗？</a></h3>
+<div class="news-item-txt">CAN 的速率最高只有 1 Mbps, 而且一個數據包只能傳輸 8 Bytes 數據，如果需要控制一臺 7 軸機械臂，我們希望一次發送 7 個關節的位置數據和 ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 12月06日 16:15<div class="comment_poll"><a href="thread-520540-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520540-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519752-1-1.html" target="_blank">有评了中高级通信网络职称的吗？</a></h3>
+<div class="news-item-txt">有评了中高级通信网络职称的吗？只要是通信相关职称的都行。要能网查或有评审表！
+
+有的可以联系我，我公司需要人才，刘经理13427780010【 ...</div>
+<div class="news-item-info">
+<a href="communication.php" target="_blank">通信/网络</a> &nbsp; | &nbsp; 11月22日 16:09<div class="comment_poll"><a href="thread-519752-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519752-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519651-1-1.html" target="_blank">4412开发板Android ADB 驱动只安装了USB驱动</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/20/163735siircckj2zkr5aiz.jpg" alt="4412开发板Android ADB 驱动只安装了USB驱动"></div>
+<div class="news-item-txt">开发平台：iTOP-4412精英版 大家好，我按照视频安装了ADB驱动，但是和视频安装不一样。视频有ADB和USB两个。而我的只安装了USB驱动，现在最 ...</div>
+<div class="news-item-info">
+<a href="mcu-processor.php" target="_blank">单片机/处理器</a> &nbsp; | &nbsp; 11月20日 16:37<div class="comment_poll"><a href="thread-519651-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-519651-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519461-1-1.html" target="_blank">verilog中寄存器大小</a></h3>
+<div class="news-item-txt">请问verilog中定义reg寄存器类型，有最大位宽限制吗？</div>
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 11月17日 09:32<div class="comment_poll"><a href="thread-519461-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519461-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519364-1-1.html" target="_blank">小白技术大难，大神如何看待！！</a></h3>
+<div class="news-item-txt">本人是碌碌无为的电子元件销售员，从进入电子行业一直羡慕那些高大上的FAE,技术人才，也一直在为此努力靠近。可是今天客户的一个问题实很为 ...</div>
+<div class="news-item-info">
+<a href="" target="_blank">STM32 DIY</a> &nbsp; | &nbsp; 11月14日 23:17<div class="comment_poll"><a href="thread-519364-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519364-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519288-1-1.html" target="_blank">请问 我的ISE工程 生成了TESTBENCH文件 用modelsim仿真的时候 只能出来一个周期</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/13/204322bbxwibrbjxihqxdd.jpg" alt="请问 我的ISE工程 生成了TESTBENCH文件 用modelsim仿真的时候 只能出来一个周期"></div>
+<div class="news-item-txt">我ISE的工程 生成了TESTBENCH文件 用modelsim仿真的时候 只能出来一个周期 不知道是代码的问题还是设置的问题 下面附上工程代码和tb代码
+ ...</div>
+<div class="news-item-info">
+<a href="fpga.php" target="_blank">FPGA/CPLD</a> &nbsp; | &nbsp; 11月13日 20:44<div class="comment_poll"><a href="thread-519288-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519288-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518874-1-1.html" target="_blank">ZigBee通信功能测试</a></h3>
+<div class="news-item-txt">对于产品中含有BT, ZigBee之类的无线通信模块，如果需要对它们进行无线方面的功能测试，通常测试哪些指标呢？如何实现？</div>
+<div class="news-item-info">
+<a href="test.php" target="_blank">测试测量</a> &nbsp; | &nbsp; 11月02日 15:57<div class="comment_poll"><a href="thread-518874-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518874-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="load-more" id="ShowContent_ask"><a href="ask.php" target="_blank" class="allaritcle">更多问答</a></div>
+
+</div>
+
+<div id="tabcontent_8" style="display:none;"><div class="news-item">
+<h3><a href="thread-521631-1-1.html" target="_blank">招聘电子工程师</a></h3>
+<div class="news-item-txt">我公司需要电子工程师，要求有职称，初级、中级、高级都行，有的请联系。 黄：18102545641  QQ：2083795463</div>
+<div class="news-item-info">
+01月04日 16:30<div class="comment_poll"><a href="thread-521631-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-521631-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521618-1-1.html" target="_blank">sales manager</a></h3>
+<div class="news-item-txt">NO. 460 -【猎头职位：上海需要一位 sales manager 】联系人：Raymond-Chen,邮箱：hr@kthr.com，微信也可查询职位了！打开手机微信，搜号码 ...</div>
+<div class="news-item-info">
+01月04日 11:38<div class="comment_poll"><a href="thread-521618-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521618-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521563-1-1.html" target="_blank">招聘电子工程师</a></h3>
+<div class="news-item-txt">我公司需要电子工程师，要求有职称，初级、中级、高级都行，有的请联系。
+刘13427780010  QQ597222289</div>
+<div class="news-item-info">
+01月03日 10:53<div class="comment_poll"><a href="thread-521563-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521563-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521478-1-1.html" target="_blank">三种破解MCU 技术，就是这么简单！</a></h3>
+<div class="news-item-txt">MCU的安全等级正在逐步提升，一些公司甚至推出了安全主控，这是很好的现象，说明大家越来越重视嵌入式领域的信息安全和程序安全了。但对于很 ...</div>
+<div class="news-item-info">
+12月30日 10:57<div class="comment_poll"><a href="thread-521478-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521478-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521384-1-1.html" target="_blank">【东莞】诚聘硬件工程师</a></h3>
+<div class="news-item-txt">猎头职位：硬件工程师-屏组电子方向（薪资：16-40 K/月）
+工作职责：
+1、新屏的设计选型，方案评审，导入评估；
+2、能够识别新屏导入的风 ...</div>
+<div class="news-item-info">
+12月27日 15:02<div class="comment_poll"><a href="thread-521384-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521384-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521254-1-1.html" target="_blank">嵌入式工程师（全职或兼职，工作地点:上海）</a></h3>
+<div class="news-item-txt">主要工作内容：嵌入式单片机软件开发
+职位要求：寻找有一定经验的电子工程师。可以熟练使用C语言进行单片机开发调试，熟悉51，ARM等单片机 ...</div>
+<div class="news-item-info">
+12月22日 21:54<div class="comment_poll"><a href="thread-521254-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521254-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521065-1-1.html" target="_blank">德国100多万工作岗位虚位以待</a></h3>
+<div class="news-item-txt">德国企业在2017年第3季度缺少110万名专业人才——这是历史以来最大的缺口上的任何时候。德国经济形势正处于一个持续上升的阶段，而市场上却 ...</div>
+<div class="news-item-info">
+12月18日 10:58<div class="comment_poll"><a href="thread-521065-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521065-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520876-1-1.html" target="_blank">诚聘：通信工程师！</a></h3>
+<div class="news-item-txt">寻：1.通信中工挂靠，地区不限。2.单位办理资质用，近期可挂出再联系。3.非诚勿扰，多谢合作！4.有证可来电qq：28530-12510 Tel：180-2543- ...</div>
+<div class="news-item-info">
+12月12日 18:15<div class="comment_poll"><a href="thread-520876-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-520876-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520836-1-1.html" target="_blank">芯片设计</a></h3>
+<div class="news-item-txt">NO.341-【猎头职位：上海需要四位 芯片设计 】联系人：May-Ye,邮箱：hr@kthr.com，微信也可查询职位了！打开手机微信，搜号码“KTHR_COM”或 ...</div>
+<div class="news-item-info">
+12月12日 14:31<div class="comment_poll"><a href="thread-520836-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520836-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520835-1-1.html" target="_blank">计算机视觉/深度学习算法研究员</a></h3>
+<div class="news-item-txt">NO.341-【猎头职位：上海/北京/深圳需要五位  计算机视觉/深度学习算法研究员】联系人：May-Ye,邮箱：hr@kthr.com，微信也可查询职位了！打 ...</div>
+<div class="news-item-info">
+12月12日 14:30<div class="comment_poll"><a href="thread-520835-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520835-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520817-1-1.html" target="_blank">verification engineer</a></h3>
+<div class="news-item-txt">NO.352-【猎头职位：上海需要两位  verificationengineer 】联系人：Lincy-Cao,邮箱：hr@kthr.com，微信也可查询职位了！打开手机微信，搜 ...</div>
+<div class="news-item-info">
+12月12日 11:45<div class="comment_poll"><a href="thread-520817-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520817-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520786-1-1.html" target="_blank">设计院聘给排水工程师。</a></h3>
+<div class="news-item-txt">聘：
+1给排水工程师挂靠，地区不限。
+2.单位办理资质用，近期可挂出再联系。
+3.非诚勿扰，多谢合作！
+4.有证可来电qq：28530-12510 Tel ...</div>
+<div class="news-item-info">
+12月11日 19:58<div class="comment_poll"><a href="thread-520786-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520786-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520785-1-1.html" target="_blank">设计院聘道桥工程师！</a></h3>
+<div class="news-item-txt">聘：
+1.道桥工程师挂靠，地区不限。
+2.单位办理资质用，近期可挂出再联系。
+3.非诚勿扰，多谢合作！
+4.有证可来电qq：28530-12510 Tel： ...</div>
+<div class="news-item-info">
+12月11日 19:49<div class="comment_poll"><a href="thread-520785-1-1.html#comment" target="_blank">评论(1)</a> / <a href="thread-520785-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520784-1-1.html" target="_blank">办理建筑设计甲级资质需要的证书：</a></h3>
+<div class="news-item-txt">办理建筑设计甲级资质寻以下证书：一级注册建筑师、一级注册结构师、注册给排水工程师、注册暖通工程师、注册供配电工程师、建筑中工、结构 ...</div>
+<div class="news-item-info">
+12月11日 19:30<div class="comment_poll"><a href="thread-520784-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520784-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520773-1-1.html" target="_blank">福利来啦~挂靠中级通信高级通信工程师买三年三甲医院社保啦。</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201712/11/153253wudwb1oqouonaowa.png" alt="福利来啦~挂靠中级通信高级通信工程师买三年三甲医院社保啦。"></div>
+<div class="news-item-txt">福利来啦~广州设计院需要广东本省中级通信，高级通信，15年前发证，特级资质要求，QQ：23-128-788-10&nbsp;TEL/微信：134-8089-1505进广东 ...</div>
+<div class="news-item-info">
+12月11日 15:33<div class="comment_poll"><a href="thread-520773-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520773-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="load-more" id="ShowContent_career"><a href="career.php" target="_blank" class="allaritcle">更多职场</a></div>
+
+</div>
+
+<div id="tabcontent_9" style="display:none;"><div class="news-item">
+<h3><a href="thread-521290-1-1.html" target="_blank">石墨烯电池真的有传说中的那么神吗？</a></h3>
+<div class="news-item-txt">来源：腾讯科技
+
+在消费电子领域，电池容量和充电速度一直都是亘古不变的话题，不少厂商都把充电时间和电池容量作为产品噱头。而放眼全球 ...</div>
+<div class="news-item-info">
+12月25日 09:55<div class="comment_poll"><a href="thread-521290-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521290-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521289-1-1.html" target="_blank">万众期待的5G，能否造就一个“黄金十年”？</a></h3>
+<div class="news-item-txt">来源：无际通信
+
+　　当地时间2017年12月20日，在葡萄牙首都里斯本举行的3GPP RAN第78次全会上负责管理基站标准的3GPP终于正式签署了5G标 ...</div>
+<div class="news-item-info">
+12月25日 09:51<div class="comment_poll"><a href="thread-521289-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521289-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521146-1-1.html" target="_blank">ADI：这些创新将影响我们2018年的生活</a></h3>
+<div class="news-item-txt">作者：Vincent Roche     ADI公司总裁兼首席执行官
+ 
+作为ADI公司总裁兼首席执行官的好处之一，就是能走遍全球，在不同地区与来自各行各业 ...</div>
+<div class="news-item-info">
+12月20日 10:24<div class="comment_poll"><a href="thread-521146-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521146-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521110-1-1.html" target="_blank">“闪婚”之后北斗和GPS能结什么果</a></h3>
+<div class="news-item-txt">来源：科技日报
+
+　　12月上旬，中美双方签署《北斗与GPS信号兼容与互操作联合声明》（以下简称《声明》），两大卫星导航系统将实现民用信 ...</div>
+<div class="news-item-info">
+12月19日 11:30<div class="comment_poll"><a href="thread-521110-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521110-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521109-1-1.html" target="_blank">如果博通吞并高通，中国手机行业就危险了</a></h3>
+<div class="news-item-txt">　　文/王云辉
+
+　　虽然一再遭遇挫折，但博通始终没有放弃吞并高通的努力。
+
+　　12月11日，博通向美国证券交易委员会（SEC）提交材 ...</div>
+<div class="news-item-info">
+12月19日 11:29<div class="comment_poll"><a href="thread-521109-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521109-1-1.html#poll" target="_blank">表态(2)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-521052-1-1.html" target="_blank">连续三年亏损东芝断臂求生 日本制造业辉煌难续？</a></h3>
+<div class="news-item-txt">中国经营报 向炎涛
+
+　　为了避免因资不抵债而从东京证券交易所退市，东芝正加速变卖旗下资产以填补资金漏洞。11月出售完电视业务之后，东 ...</div>
+<div class="news-item-info">
+12月18日 09:48<div class="comment_poll"><a href="thread-521052-1-1.html#comment" target="_blank">评论</a> / <a href="thread-521052-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520941-1-1.html" target="_blank">移动芯片入局 电脑CPU产业格局生变？</a></h3>
+<div class="news-item-txt">来源：中国电子报
+
+后智能手机时代受手机市场增长放缓影响，移动芯片厂商正在向新应用领域不断扩展，如VR/AR、智能汽车、物联网等。在近日 ...</div>
+<div class="news-item-info">
+12月14日 10:30<div class="comment_poll"><a href="thread-520941-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520941-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-520550-1-1.html" target="_blank">联手农企AMD，高通进军PC处理器芯片有戏吗？</a></h3>
+<div class="news-item-txt">　　文/maomaobear
+
+　　日前，高通在美丽的夏威夷茂宜岛召开高通Snapdragon技术峰会，在峰会上高通找来雷军站台，发布了意料之中的骁龙8 ...</div>
+<div class="news-item-info">
+12月07日 09:50<div class="comment_poll"><a href="thread-520550-1-1.html#comment" target="_blank">评论</a> / <a href="thread-520550-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519465-1-1.html" target="_blank">半导体行业进入整合期，中国难以撼美国产业霸主地位</a></h3>
+<div class="news-item-txt">　　文/志刚水煮通信
+
+　　全球半导体行业正在加速进入整合期，并购正在成为巨头们保持行业地位以及迎接未来的保暖内衣。但是中国半导体行 ...</div>
+<div class="news-item-info">
+11月17日 09:56<div class="comment_poll"><a href="thread-519465-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519465-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519144-1-1.html" target="_blank">十九大后看权威人士解读如何发展先进制造业</a></h3>
+<div class="news-item-txt">党的十九大报告提出，建设现代化经济体系，必须把发展经济的着力点放在实体经济上，把提高供给体系质量作为主攻方向，显著增强我国经济质量 ...</div>
+<div class="news-item-info">
+11月09日 10:18<div class="comment_poll"><a href="thread-519144-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519144-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-519053-1-1.html" target="_blank">趁火打劫与垄断之心：博通欲千亿美元并购高通背后</a></h3>
+<div class="news-item-txt">　　文/孙永杰
+
+　　日前，据外媒彭博社报道，全球知名通信芯片制造商博通正在和股东密谋高价收购全球知名移动芯片制造厂商高通。这笔交易 ...</div>
+<div class="news-item-info">
+11月07日 09:40<div class="comment_poll"><a href="thread-519053-1-1.html#comment" target="_blank">评论</a> / <a href="thread-519053-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518999-1-1.html" target="_blank">有机忆阻器再创纪录，但未来是否有机会颠覆存储器市场？</a></h3>
+<div class="news-item-txt">来源：Technews科技新报
+
+忆阻器是传说中电阻器、电容器和电感元件以外的电路第四元件，始终处于实验阶段，但这个传说可能将实现。来自新 ...</div>
+<div class="news-item-info">
+11月06日 10:13<div class="comment_poll"><a href="thread-518999-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518999-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518994-1-1.html" target="_blank">这个低调的马来西亚华人是半导体行业最凶猛的大鳄</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/06/0945046ididqpbybbpwy5o.jpg" alt="这个低调的马来西亚华人是半导体行业最凶猛的大鳄"></div>
+<div class="news-item-txt">　　Hock Tan与妻子
+
+　　操作天价收购的华人
+
+　　博通拟议千亿美元收购高通！这个消息震惊了整个科技行业。如果这一天价交易得以成 ...</div>
+<div class="news-item-info">
+11月06日 09:46<div class="comment_poll"><a href="thread-518994-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518994-1-1.html#poll" target="_blank">表态(1)</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518899-1-1.html" target="_blank">人工智能从寒冬到复兴：从神经网络到DNN</a></h3>
+<div class="news-item-img"><img src="/data/attachment/forum/201711/03/09501360xgyt5r4wgdyfp0.jpg" alt="人工智能从寒冬到复兴：从神经网络到DNN"></div>
+<div class="news-item-txt">谈AI的历史，需要谈谈很有名的AI寒冬。
+
+第一次AI寒冬是在1975年左右。1956年，在达特茅斯会议之后，包括很多国家政府，美国国家科学基金 ...</div>
+<div class="news-item-info">
+11月03日 09:50<div class="comment_poll"><a href="thread-518899-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518899-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="news-item">
+<h3><a href="thread-518839-1-1.html" target="_blank">共享IDM，中国半导体制造新模式?</a></h3>
+<div class="news-item-txt">来源：中国电子报
+
+Intel、TI、三星、华邦、茂矽等是全球较为知名的IDM(集成器件制造)公司，这些公司贯穿半导体整条生物链，涵盖从前段的 ...</div>
+<div class="news-item-info">
+11月02日 10:29<div class="comment_poll"><a href="thread-518839-1-1.html#comment" target="_blank">评论</a> / <a href="thread-518839-1-1.html#poll" target="_blank">表态</a></div>
+</div>
+<div class="bottom"></div>
+</div>
+<div class="load-more" id="ShowContent_zatan"><a href="zatan.php" target="_blank" class="allaritcle">更多杂谈</a></div>
+
+</div>
+
+</div>
+
+<div class="content_right"><div class="adv">
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3959541',
+        container: s,
+        size: '300,28',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_vindv4cdvfi"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=3959541&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=358x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481124"></script>
+</div>
+
+<div class="adv">
+<script type="text/javascript">BAIDU_CLB_fillSlot("424863");</script><div id="BAIDU_SSP__wrapper_424863_0"><iframe id="iframe424863_0" name="iframe424863_0" onload="BAIDU_SSP_renderFrame('424863_0', this);" src="about:blank" width="298" height="24" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:298px;height:24px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=424863&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=368x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+</div>
+
+<div class="adv">
+<script type="text/javascript">BAIDU_CLB_fillSlot("424861");</script><div id="BAIDU_SSP__wrapper_424861_0"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=424861&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=402x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+</div>
+
+<div class="adv">
+<script type="text/javascript">BAIDU_CLB_fillSlot("424849");</script><div id="BAIDU_SSP__wrapper_424849_0"><iframe id="iframe424849_0" name="iframe424849_0" onload="BAIDU_SSP_renderFrame('424849_0', this);" src="about:blank" width="298" height="28" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:298px;height:28px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=424849&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=402x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+</div>
+
+<div class="adv">
+<a href="/thread-520450-1-1.html" target="_blank" style="color:#0000FF; font-size:14px;">【视频】智能汽车的智能测试：更准确地测试电动和混合动力汽车的动力系统</a>
+</div>
+
+<div class="adv">
+<a href="/thread-520445-1-1.html" target="_blank" style="color:#0000FF; font-size:14px;">【视频】智能汽车的智能测试：ADAS的演进 - 测试包含相机、雷达和传感器融合的系统</a>
+</div>
+
+<div class="adv">
+<a href="/thread-520449-1-1.html" target="_blank" style="color:#0000FF; font-size:14px;">【视频】智能汽车的智能测试：与汽车技术的发展保持同步</a>
+</div>
+
+<div class="adv">
+<!-- 广告位：video -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '5493978',
+        container: s,
+        size: '300,250',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_r9yyun2cy8c"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=5493978&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=596x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+
+
+  
+<a href="http://www.baidu.com/cb.php?c=IgF_pyfqnHmknj6vPj00IZ0qnfK9ujYzP1TznWb30Aw-5Hc4PjRvrHb0TAq15HRYrHn4P160T1Ysn1csrAnzmhFbuyDsuyw-0AwY5HDdnHRYrjDknWf0IgF_5y9YIZK1rBtEILILQMF-UhN1mgn8mvqVQLGCQyP8Qv7BULNYQvPEUgK9UMbEpy4YuyIzmgwGUv38pZwVUjqWpyfqmywxIBd-uyPCgvFzu7qbmgb1g1D3njDsnNt1nj0VnWcdgvP80ZFb5HnY0AFV5HD0TZcqn0KdpyfqnW6YPjm4r0KEpyfqPH0zPWT0mv-b5Hn3rHD1PsKEIv3qn0KsXHYznjm0mLFW5HnvPW0Y" target="_blank">
+<video src="http://www.eechina.com/h5/renesas.mp4" width="300" autoplay="autoplay" loop="loop" controls="controls">
+您的浏览器不支持Video标签。
+</video>
+</a>
+  
+
+
+</div><div class="adv">
+<!-- 广告位：首页右上 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3465470',
+        container: s,
+        size: '300,60',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_w24ask23lkt"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=3465470&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=756x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+</div>
+
+<div class="block_tag" style="margin-top:0;"><h2>厂商推荐</h2></div><div class="block_content">
+<ul>
+<li><a href="/Mouser/" target="_blank" class="manufacturer">贸泽(Mouser)专区</a></li><li><a href="thread-454532-1-1.html" target="_blank">独特SoC开启可穿戴未来</a></li>
+<li><a href="thread-454527-1-1.html" target="_blank">3D打印技术如何改变汽车的设计</a></li>
+<li><a href="thread-454528-1-1.html" target="_blank">数字电源崛起：从“不错概念”到“必不可少”</a></li>
+<li><a href="thread-454534-1-1.html" target="_blank">高分辨率音频及便携式播放器的未来</a></li>
+
+<li><a href="/ni/" target="_blank" class="manufacturer">美国国家仪器(NI)专区</a></li>
+<li><a href="/ni/redirect.php?id=754" target="_blank">智能机器网络教程系列视频，欢迎进入</a></li>
+<li><a href="/thread-134086-1-1.html" target="_blank">下一代无线通信（5G）技术集锦</a></li>
+<li><a href="/ni/redirect.php?id=634" target="_blank">LabVIEW专业版年度许可证--随需选购</a></li>
+<li><a href="/ni/test.php" target="_blank">测试系统构建完整指南</a></li>
+<li><a href="/thread-520168-1-1.html" target="_blank">自动化测试趋势展望2018之智能测试趋势指南</a></li>
+
+<li><a href="/video/xilinx/" target="_blank" class="manufacturer">Xilinx视频专区</a></li><li><a href="thread-519783-1-1.html" target="_blank">4K 视频会议实现方案演示</a></li>
+<li><a href="thread-519786-1-1.html" target="_blank">使用 In-system IBERT 进行调试</a></li>
+<li><a href="thread-519788-1-1.html" target="_blank">如何在 Vivado 中使用 IP 加密</a></li>
+<li><a href="thread-519789-1-1.html" target="_blank">UltraFAST 设计方法之：单板与器件规划</a></li>
+
+</ul>
+</div>		<div class="adv">
+<!-- 广告位：首页boombox -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("901695");</script><div id="BAIDU_SSP__wrapper_901695_0"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=901695&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=1270x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+</div>
+
+<div class="block_tag"><h2><a href="/tools/" class="more" target="_blank">更多工具&gt;&gt;</a><a href="/tools/" target="_blank">在线工具</a></h2></div>
+<div class="block_content">
+<ul><li><a href="http://www.eechina.com/tools/capacitance_time_constant.html" target="_blank">电容时间常数计算器</a></li>
+<li><a href="http://www.eechina.com/tools/resistance_current_voltage.html" target="_blank">电阻、电流、电压计算器</a></li>
+<li><a href="http://www.eechina.com/tools/phase_locked_loop_filter.html" target="_blank">锁相环环路滤波器计算器</a></li>
+<li><a href="http://www.eechina.com/tools/chip_radiating.html" target="_blank">芯片散热计算器</a></li>
+<li><a href="http://www.eechina.com/tools/555_monostable.html" target="_blank">555单稳态电路参数计算器</a></li>
+<li><a href="http://www.eechina.com/tools/constant_current_source.html" target="_blank">恒流源计算器</a></li>
+<li><a href="http://www.eechina.com/tools/super_capacitor_work_time.html" target="_blank">超级电容工作时间计算器</a></li>
+<li><a href="http://www.eechina.com/tools/rc_instantaneous_voltage.html" target="_blank">RC电路瞬时电压计算器</a></li>
+<li><a href="http://www.eechina.com/tools/voice_filter.html" target="_blank">有源语音滤波器设计计算器</a></li>
+<li><a href="http://www.eechina.com/tools/coherent_smapling.html" target="_blank">相干采样计算器</a></li>
+</ul>
+</div>
+
+<div class="block_tag"><h2><a href="forum.php" class="more" target="_blank">更多&gt;&gt;</a><a href="forum.php" target="_blank">论坛新帖</a></h2></div>
+<div class="block_content">
+<ul><li><a href="thread-521750-1-1.html" target="_blank">大家好！</a></li>
+<li><a href="thread-521741-1-1.html" target="_blank">诚聘 测绘工程师！不限地区。</a></li>
+<li><a href="thread-521736-1-1.html" target="_blank">常用电子元器件检测方法一览</a></li>
+<li><a href="thread-521733-1-1.html" target="_blank">互联网巨头IoT布局，2017年大盘点</a></li>
+<li><a href="thread-521698-1-1.html" target="_blank">mcu通过SPI口和FPGA通信，转为串口</a></li>
+<li><a href="thread-521688-1-1.html" target="_blank">海量项目，邀你来战——发给工科生们的新年战帖</a></li>
+<li><a href="thread-521671-1-1.html" target="_blank">【原创】技术员 Win10 PE 网络版启动工具 V6.2 兼容UEFI双启动</a></li>
+<li><a href="thread-521668-1-1.html" target="_blank">大型企业与公共机构IT运维如何轻松落地方案</a></li>
+<li><a href="thread-521659-1-1.html" target="_blank">常用的电子元器件失效机理与故障分析</a></li>
+<li><a href="thread-521637-1-1.html" target="_blank">从孔子到马云，谈继承和发扬</a></li>
+</ul>
+</div>
+
+<div class="block_tag"><h2><a href="download.php" class="more" target="_blank">更多下载&gt;&gt;</a><a href="download.php" target="_blank">热门下载</a></h2></div>
+<div class="block_content">
+<ul>
+<li><a href="thread-7141-1-1.html" target="_blank">★●★● 新年大礼包 ●★● , New 更新</a></li><li><a href="thread-120566-1-1.html" target="_blank">→→  Altium Designer 教程 6册 163M  ←←</a></li>
+<li><a href="thread-520430-1-1.html" target="_blank">→→ 双色图文详解电容器及应用电路  182页 67.9M 高清书签版 ←←</a></li>
+<li><a href="thread-37579-1-1.html" target="_blank">LOGIC转ORCAD，E-Studio.Pro.v4.42.029a</a></li>
+<li><a href="thread-61687-1-1.html" target="_blank">*@激光类书籍选辑</a></li>
+<li><a href="thread-35247-1-1.html" target="_blank">Verilog HDL 经典视频教程 超清晰</a></li>
+<li><a href="thread-119716-1-1.html" target="_blank">高清扫描版PDF格式-CADENCE高速电路板设计与仿真-第四版</a></li>
+<li><a href="thread-6289-1-1.html" target="_blank">→→ 图表细说电子工程师速成手册 608页 83.0M ←← , 学堂里不讲滴哦</a></li>
+<li><a href="thread-454017-1-1.html" target="_blank">→→ 电动汽车,充电桩,标准资料专辑 49册 312M ←←</a></li>
+<li><a href="thread-87194-1-1.html" target="_blank">实用电工电子电路设计（零系列）丛书</a></li>
+</ul>
+</div><div class="adv">
+<script type="text/javascript">BAIDU_CLB_fillSlot("127013");</script><div id="BAIDU_SSP__wrapper_127013_0"><iframe id="iframe127013_0" name="iframe127013_0" onload="BAIDU_SSP_renderFrame('127013_0', this);" src="about:blank" width="300" height="200" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:300px;height:200px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=127013&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=2308x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+</div><div class="block_tag"><h2><a href="keyword.php" class="more" target="_blank">更多&gt;&gt;</a><a href="keyword.php" target="_blank">热门关键词</a></h2></div>
+<div class="block_content"><a href="/keyword/Cortex" target="_blank">Cortex</a> &nbsp;
+<a href="/keyword/PIC" target="_blank">PIC</a> &nbsp;
+<a href="/keyword/Ubuntu" target="_blank">Ubuntu</a> &nbsp;
+<a href="/keyword/福禄克" target="_blank">福禄克</a> &nbsp;
+<a href="/keyword/VHDL" target="_blank">VHDL</a> &nbsp;
+<a href="/keyword/低通滤波器" target="_blank">低通滤波器</a> &nbsp;
+<a href="/keyword/S3C2410" target="_blank">S3C2410</a> &nbsp;
+<a href="/keyword/ADC" target="_blank">ADC</a> &nbsp;
+<a href="/keyword/信号发生器" target="_blank">信号发生器</a> &nbsp;
+<a href="/keyword/Microchip" target="_blank">Microchip</a> &nbsp;
+<a href="/keyword/联发科" target="_blank">联发科</a> &nbsp;
+<a href="/keyword/IDT" target="_blank">IDT</a> &nbsp;
+<a href="/keyword/Mathworks" target="_blank">Mathworks</a> &nbsp;
+<a href="/keyword/ZigBee" target="_blank">ZigBee</a> &nbsp;
+<a href="/keyword/PCB" target="_blank">PCB</a> &nbsp;
+<a href="/keyword/监护仪" target="_blank">监护仪</a> &nbsp;
+<a href="/keyword/MCU" target="_blank">MCU</a> &nbsp;
+<a href="/keyword/蓝牙" target="_blank">蓝牙</a> &nbsp;
+<a href="/keyword/编码器" target="_blank">编码器</a> &nbsp;
+<a href="/keyword/步进电机" target="_blank">步进电机</a> &nbsp;
+<a href="/keyword/Xilinx" target="_blank">Xilinx</a> &nbsp;
+<a href="/keyword/Rigol" target="_blank">Rigol</a> &nbsp;
+<a href="/keyword/美高森美" target="_blank">美高森美</a> &nbsp;
+<a href="/keyword/触摸屏" target="_blank">触摸屏</a> &nbsp;
+<a href="/keyword/Altium" target="_blank">Altium</a> &nbsp;
+<a href="/keyword/开关电源" target="_blank">开关电源</a> &nbsp;
+<a href="/keyword/RFID" target="_blank">RFID</a> &nbsp;
+<a href="/keyword/555" target="_blank">555</a> &nbsp;
+<a href="/keyword/智能机器人" target="_blank">智能机器人</a> &nbsp;
+<a href="/keyword/Fairchild" target="_blank">Fairchild</a> &nbsp;
+<a href="/keyword/霍尔效应" target="_blank">霍尔效应</a> &nbsp;
+<a href="/keyword/稳压电源" target="_blank">稳压电源</a> &nbsp;
+<a href="/keyword/WIFI" target="_blank">WIFI</a> &nbsp;
+<a href="/keyword/发光二极管" target="_blank">发光二极管</a> &nbsp;
+<a href="/keyword/Android" target="_blank">Android</a> &nbsp;
+<a href="/keyword/AC/DC" target="_blank">AC/DC</a> &nbsp;
+<a href="/keyword/飞思卡尔" target="_blank">飞思卡尔</a> &nbsp;
+<a href="/keyword/罗姆" target="_blank">罗姆</a> &nbsp;
+<a href="/keyword/场效应管" target="_blank">场效应管</a> &nbsp;
+<a href="/keyword/赛灵思" target="_blank">赛灵思</a> &nbsp;
+<a href="/keyword/无线电" target="_blank">无线电</a> &nbsp;
+<a href="/keyword/赛普拉斯" target="_blank">赛普拉斯</a> &nbsp;
+<a href="/keyword/Quartus" target="_blank">Quartus</a> &nbsp;
+<a href="/keyword/变压器" target="_blank">变压器</a> &nbsp;
+<a href="/keyword/飞兆" target="_blank">飞兆</a> &nbsp;
+<a href="/keyword/模拟电路" target="_blank">模拟电路</a> &nbsp;
+<a href="/keyword/收发器" target="_blank">收发器</a> &nbsp;
+<a href="/keyword/电动汽车" target="_blank">电动汽车</a> &nbsp;
+<a href="/keyword/吉时利" target="_blank">吉时利</a> &nbsp;
+<a href="/keyword/Cortex-M0" target="_blank">Cortex-M0</a> &nbsp;
+<a href="/keyword/C语言" target="_blank">C语言</a> &nbsp;
+<a href="/keyword/LabVIEW" target="_blank">LabVIEW</a> &nbsp;
+</div>
+
+<div class="block_tag"><h2><a href="blog.php" class="more" target="_blank">更多&gt;&gt;</a><a href="blog.php" target="_blank">博客</a></h2></div>
+<div class="block_content">
+<ul><li><a href="./blog-128480-140443.html" target="_blank">论电感对两级防护器件的配合</a></li>
+<li><a href="./blog-139189-140442.html" target="_blank">蓝牙模块常见天线之“锵锵三人行”</a></li>
+<li><a href="./blog-120603-140441.html" target="_blank">瞬态抑制二极管TVS管选型指南</a></li>
+<li><a href="./blog-129888-140440.html" target="_blank">S&amp;A特域CW-5200冷水机冷却超声波清洗机</a></li>
+<li><a href="./blog-120603-140439.html" target="_blank">汽车电子电路保护的重要性</a></li>
+<li><a href="./blog-139189-140438.html" target="_blank">相望相守的田螺姑娘——蓝牙智能电饭煲</a></li>
+<li><a href="./blog-120603-140437.html" target="_blank">硕凯DFN2020封装ESD静电二极管SE13V5202N-20参数</a></li>
+<li><a href="./blog-135426-140436.html" target="_blank">电涌的来源、危害及保护措施</a></li>
+<li><a href="./blog-140957-140434.html" target="_blank">关于PCB和PCBA的介绍与区别</a></li>
+<li><a href="./blog-141036-140433.html" target="_blank">改善空气质量的好帮手：英国Atmospheric sensors 远程空气质量检测仪- AS510</a></li>
+</ul>
+</div>
+
+<div class="block_tag"><h2><a href="event.php" class="more" target="_blank">更多&gt;&gt;</a><a href="event.php" target="_blank">会展活动</a></h2></div>
+<div class="block_content">
+<ul><li><a href="./thread-520144-1-1.html" target="_blank">2018泰国曼谷国际自动化展览会-独家代理</a></li>
+<li><a href="./thread-521565-1-1.html" target="_blank">2018年1月于博士《信号完整性——系统化设计方法及案例分析》高级研修班邀约上海之旅</a></li>
+<li><a href="./thread-516583-1-1.html" target="_blank">2018年摩洛哥国际太阳能展览会</a></li>
+<li><a href="./thread-453262-1-1.html" target="_blank">2018广州国际模具展览会</a></li>
+<li><a href="./thread-517977-1-1.html" target="_blank">广州国际工业自动化技术及装备展览会</a></li>
+<li><a href="./thread-516584-1-1.html" target="_blank">2018年中东迪拜太阳能展览会Solar Middle East （SME）</a></li>
+<li><a href="./thread-452452-1-1.html" target="_blank">2018CME中国机床展</a></li>
+<li><a href="./thread-453758-1-1.html" target="_blank">2018第十五届上海国际现代工业智能装备展览会</a></li>
+<li><a href="./thread-520572-1-1.html" target="_blank">2018第十五届中国（上海）国际工业自动化及工业机器人展</a></li>
+<li><a href="./thread-452350-1-1.html" target="_blank">2018第十五届中国（上海）国际工业自动化及工业机器人展</a></li>
+</ul>
+</div>
+
+<div class="adv"><script type="text/javascript">BAIDU_CLB_fillSlot("1045421");</script><div id="BAIDU_SSP__wrapper_1045421_0"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=1045421&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=3589x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script></div>
+
+<div class="adv"><script type="text/javascript">BAIDU_CLB_fillSlot("388479");</script><div id="BAIDU_SSP__wrapper_388479_0"><iframe id="iframe388479_0" name="iframe388479_0" onload="BAIDU_SSP_renderFrame('388479_0', this);" src="about:blank" width="300" height="60" align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:300px;height:60px" allowtransparency="true"></iframe></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=388479&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=3589x712&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script></div>
+
+<div class="block_tag"><h2><a href="enews_sample.htm" class="more" target="_blank">周报样例</a>《电子工程周报》订阅</h2></div>
+<div class="block_content">
+<form action="subscribe.php" method="post" class="subscribe">
+Email：<input name="email" type="text"><button type="submit" onclick="return CheckEmail(this.form);"><b>订阅</b></button>
+</form>
+</div>
+
+<!-- <iframe width="300" height="500" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=300&amp;height=500&amp;fansRow=1&amp;ptype=1&amp;speed=300&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=1&amp;uid=2111730201&amp;verifier=8feb7de9&amp;dpc=1"></iframe>
+ -->
+ 
+<script language="javascript">
+function CheckEmail(form){
+ var email = form.email.value;
+ var pattern = /^([a-zA-Z0-9._-])+@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-])+/;
+ flag = pattern.test(email);
+ if(!flag){
+  alert("您输入的Email格式有误，请重新输入。");
+  form.email.focus();
+  return false;
+ }
+ return (true);
+}
+</script>
+
+</div>
+
+<div class="bottom"></div>
+
+<script language="javascript">
+function showandhide(focuson) {
+ var focuson;
+ 
+     document.getElementById('tab_1').className='';
+     document.getElementById('tab_2').className='';
+     document.getElementById('tab_3').className='';
+     document.getElementById('tab_4').className='';
+     document.getElementById('tab_5').className='';
+     document.getElementById('tab_6').className='';
+     document.getElementById('tab_7').className='';
+     document.getElementById('tab_8').className='';
+     document.getElementById('tab_9').className='lasttab';
+ if(focuson==9)
+     document.getElementById('tab_'+focuson).className='currenttab lasttab';
+ else
+     document.getElementById('tab_'+focuson).className='currenttab';
+ 
+ document.getElementById('tabcontent_1').style.display='none';
+ document.getElementById('tabcontent_2').style.display='none';
+ document.getElementById('tabcontent_3').style.display='none';
+ document.getElementById('tabcontent_4').style.display='none';
+ document.getElementById('tabcontent_5').style.display='none';
+ document.getElementById('tabcontent_6').style.display='none';
+ document.getElementById('tabcontent_7').style.display='none';
+ document.getElementById('tabcontent_8').style.display='none';
+ document.getElementById('tabcontent_9').style.display='none';
+ document.getElementById('tabcontent_'+focuson).style.display='block';
+}
+</script>
+
+<!-- 广告位：首页漂浮 -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("1106394");</script><div id="BAIDU_SSP__wrapper_1106394_0"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=1106394&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=4067x12&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+
+<!-- 广告位：研讨会弹出广告 -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("950539");</script><div id="BAIDU_SSP__wrapper_950539_0"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=950539&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=4067x12&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4067&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481124&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script><div class="links">
+<span style="color:#1F90DE; font-weight:bold;">友情链接</span>
+<a href="http://www.eefocus.com/" target="_blank">与非网</a>
+<a href="http://www.21dianyuan.com/" target="_blank">世纪电源网</a>
+<a href="http://www.eetop.cn/" target="_blank">EETOP</a>
+<a href="http://www.eetrend.com/" target="_blank">电子创新网</a>
+<a href="http://bbs.elecfans.com/" target="_blank">电子技术论坛</a>
+<a href="http://www.mesnet.com.cn/" target="_blank">单片机与嵌入式系统</a>
+<a href="http://www.ChinaAET.com/" target="_blank">电子技术应用</a>
+<a href="http://www.yktchina.com/" target="_blank">一卡通</a>
+<a href="http://www.eehome.cn/" target="_blank">电子工程师之家</a>
+<a href="http://embed.chinaitlab.com/" target="_blank">IT实验室</a>
+<a href="http://www.sunplusedu.com/" target="_blank">嵌入式培训</a>
+<a href="http://www.01ea.com/" target="_blank">电子应用网</a>
+<a href="http://www.yibiaojob.com/" target="_blank">仪表招聘网</a>
+<a href="http://www.jobic.cn/" target="_blank">IC人才网</a>
+<a href="http://www.cetimes.com/" target="_blank">医疗电子网</a>
+<a href="http://www.icbuy.com/" target="_blank">icbuy</a>
+<a href="http://www.ic72.com/" target="_blank">达普芯片</a>
+<a href="http://www.ci800.com/" target="_blank">中通网</a>
+<a href="http://www.ic160.com/" target="_blank">中采网</a>
+<a href="http://www.csau.com/" target="_blank">半导体应用联盟</a>
+<a href="http://www.ds-is.com/" target="_blank">数字标牌网</a>
+<a href="http://auto.dqjob88.com/" target="_blank">自动化英才网</a>
+<a href="http://gf.epjob88.com" target="_blank">光伏英才网</a>
+<a href="http://www.hcsindex.org/" target="_blank">华强北指数</a>
+<a href="http://www.hkinventory.com/public/Home.asp" target="_blank" rel="nofollow">香港电子库存</a>
+<a href="http://www.mirautomation.com/" target="_blank">自动化</a>
+<a href="http://www.qqdcw.com/" target="_blank">锂电池</a>
+<a href="http://www.gkzhan.com/" target="_blank">中国智能制造网</a>
+<a href="http://www.mmic.net.cn/" target="_blank">买卖IC网</a>
+<a href="http://www.hqew.com/tech/" target="_blank">华强技术资料</a>
+<a href="http://www.cableabc.com/" target="_blank">电线电缆网</a>
+<a href="http://www.solarbe.com/" target="_blank">Solarbe光伏</a>
+<a href="http://www.fxyqw.com/" target="_blank">仪器仪表网</a>
+<a href="http://www.ledinside.cn/" target="_blank">LED在线</a>
+<a href="http://bbs.hqew.com/" target="_blank">电子论坛</a>
+<a href="http://www.cps800.com/" target="_blank">电源在线网</a>
+<a href="http://www.114ic.cn/" target="_blank">IC资料网</a>
+<a href="http://www.cecb2b.com/" target="_blank">元器件交易网</a>
+<a href="http://www.csc86.com/" target="_blank">华南城网</a>
+<a href="http://www.dianyuan.com/" target="_blank">电源网</a>
+<a href="http://www.cndrsq.com/" target="_blank">电热水器</a>
+<a href="http://www.dzsc.com/" target="_blank">维库电子市场网</a>
+<a href="http://www.51dzw.com/" target="_blank">51电子网</a>
+<a href="http://www.gk-z.com/" target="_blank">工控网</a>
+<a href="http://ee.ofweek.com/" target="_blank">OFweek电子工程网</a>
+<a href="http://www.byf.com/" target="_blank">电气网</a>
+<a href="http://www.1718world.com/" target="_blank">仪器信息网</a>
+<a href="http://www.chinasensor.cn/" target="_blank">传感器</a>
+<a href="http://www.ic37.com/" target="_blank">中国IC网</a>
+<a href="http://bg.qianzhan.com/" target="_blank">研究报告</a>
+<a href="http://www.gkcity.com/" target="_blank">工控商务网</a>
+<a href="http://guangfu.bjx.com.cn/" target="_blank">太阳能光伏网</a>
+<a href="http://www.hi1718.com/" target="_blank">仪器仪表网</a>
+<a href="http://product.11467.com" target="_blank">批发采购</a>
+<a href="http://www.chuandong.com/" target="_blank">中国传动网</a>
+<a href="http://www.cecport.com/" target="_blank">中电港</a>
+<a href="http://www.big-bit.com" target="_blank">电子变压器网</a>
+<a href="http://www.greenjn.cn" target="_blank">绿色节能网</a>
+<a href="http://www.hqchip.com/" target="_blank">华强芯城网</a>
+<a href="http://www.chinaet.net/" target="_blank">中国电工网</a>
+<a href="http://www.eccn.com/" target="_blank">电子技术</a>
+<a href="http://www.51e-online.com/" target="_blank">B2B电子商务平台</a>
+<a href="https://www.nbchao.com/" target="_blank">实验室仪器</a>
+<a href="http://www.szlcsc.com/" target="_blank">立创商城</a>
+<a href="http://www.365jn.cn/" target="_blank">上海节能信息网</a>
+<a href="http://www.soyouit.com/" target="_blank">中国IT产经新闻网</a>
+<a href="http://www.dgzj.com/" target="_blank">电工之家</a>
+<a href="http://www.hb114.cc/" target="_blank">环保114</a>
+<a href="http://www.yursol.com/" target="_blank">万国商贸网</a>
+<a href="http://www.xin3721.com/eschool/CSharpxin3721/" target="_blank">c#教程</a>
+</div></div>
+
+<!-- 广告位：研讨会弹出广告 -->
+<script type="text/javascript">BAIDU_CLB_fillSlot("950539");</script><div id="BAIDU_SSP__wrapper_950539_1"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=950539&amp;dri=1&amp;dis=0&amp;dai=0&amp;ps=4195x0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4195&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481125&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+
+<!-- 广告位：对联广告 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2816944',
+        container: s,
+        size: '120,360',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_hx453bqcxh"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=2816944&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=4195x0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4195&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481125&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+<script src="http://dup.baidustatic.com/js/os.js" type="text/javascript"></script>
+
+<!-- 广告位：右下弹出广告 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3426102',
+        container: s,
+        size: '320,240',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_oi3i6fe7qw"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=3426102&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=4195x0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4195&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481125&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+
+<!-- 广告位：右下悬浮250*200 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '3449188',
+        container: s,
+        size: '250,200',
+        display: 'inlay-fix'
+    });
+})();
+</script><div id="_ke2ca4zwah"></div><script charset="utf-8" src="http://pos.baidu.com/ycxm?di=3449188&amp;dri=0&amp;dis=0&amp;dai=0&amp;ps=4195x0&amp;enu=encoding&amp;dcb=___adblockplus&amp;dtm=SSP_JSONP&amp;dvi=0.0&amp;dci=-1&amp;dpt=none&amp;tsr=0&amp;tpr=1515481123983&amp;ti=%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E7%BD%91_%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%8E%B7%E5%8F%96%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99&amp;ari=2&amp;dbv=0&amp;drs=1&amp;pcs=1024x768&amp;pss=1024x4195&amp;cfv=26&amp;cpl=1&amp;chi=1&amp;cce=true&amp;cec=GBK&amp;tlm=1515481125&amp;rw=768&amp;ltu=http%3A%2F%2Fwww.eechina.com%2F&amp;ecd=1&amp;uc=1024x768&amp;pis=-1x-1&amp;sr=1024x768&amp;tcn=1515481125"></script>
+
+<div class="ft">
+
+
+  	<div id="ft" class="wp cl">
+<div class="copyright2">
+<a href="aboutus.php">关于我们</a> &nbsp;-&nbsp; <a href="service.php">服务条款</a> &nbsp;-&nbsp; <a href="thread-4141-1-1.html">使用指南</a> &nbsp;-&nbsp; <a href="websitemap.php">站点地图</a> &nbsp;-&nbsp; <a href="friendlink.php">友情链接</a> &nbsp;-&nbsp; <a href="contact.php">联系我们</a>
+<br>
+<a href="/">电子工程网</a> © 版权所有 &nbsp; <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备16069177号</a> | 京公网安备11010502021702
+</div></div>
+
+<script src="home.php?mod=misc&amp;ac=sendmail&amp;rand=1515481123" type="text/javascript"></script>
+<span id="scrolltop" onclick="window.scrollTo('0','0')">回顶部</span>
+<script type="text/javascript">_attachEvent(window, 'scroll', function(){showTopLink();});</script>
+</div>
+
+
+</body></html>

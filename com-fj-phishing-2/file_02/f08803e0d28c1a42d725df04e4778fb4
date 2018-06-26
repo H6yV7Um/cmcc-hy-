@@ -1,0 +1,763 @@
+<html><head>
+<meta charset="utf-8">
+<title>MBA中国网-中国管理精英成长平台</title>
+<meta name="keywords" content="MBA,商学院,MBA培训,商学院排名,SMBA,EMBA,EDP,MBA联考,MBA学费,MBA调剂,MBA考试,MBA论坛,MBA报考条件,MPAcc,MPA,mba考试科目,MBA辅导班,MBA历年试题,MBA课程,MBA中国网">
+<meta name="description" content="MBA中国网，中国管理精英成长平台，MBA中国网作为中国管理精英成长平台，拥有领先的国际视野，能够洞悉全球商学院发展趋势，为您提供详尽的MBA、EMBA、MPAcc、MPA、MEM、MF资讯。">
+<meta name="Robots" content="All">
+<meta name="apple-itunes-app" content="app-id= 873822891">
+<meta property="wb:webmaster" content="8d6ef09111909721">
+<meta name="baidu-site-verification" content="WZRjQX8OOZ">
+<link rel="alternate" type="application/rss+xml" title="MBA中国网" href="http://www.mbachina.com/rss/baidu.xml">
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<link href="http://www.mbachina.com/resources/css/common.css" rel="stylesheet" type="text/css">
+<link href="http://www.mbachina.com/resources/css/style.css" rel="stylesheet" type="text/css">
+<link href="http://www.mbachina.com/resources/css/index.css" rel="stylesheet" type="text/css">
+<!--[if IE 6]>
+    <script type="text/javascript" src="http://www.mbachina.com/resources/js/DD_belatedPNG.js"></script>
+    <script>
+        DD_belatedPNG.fix("*");
+    </script>
+<![endif]-->
+<script type="text/javascript" src="http://www.mbachina.com/resources/js/focus(1).js" async="true"></script><script type="text/javascript">
+if(window.location.toString().indexOf("/?web") != -1){
+}else{
+	if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){ 
+		if(window.location.href.indexOf("m.mbachina.com")<0){
+			try{
+				if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+					window.location.href="http://m.mbachina.com";
+				}else if(/iPad/i.test(navigator.userAgent)){
+					//平板页面
+				}else{
+					//其他移动端页面
+				}
+			}catch(e){}
+		}
+	}
+}
+</script>
+<script type="text/javascript" src="http://www.mbachina.com/resources/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.mbachina.com/resources/js/focus.js"></script>
+<script type="text/javascript" src="http://www.mbachina.com/resources/js/common.js"></script>
+<style type="text/css">
+   #topTip{                       
+                width: 100%;
+                height: 0px;
+               
+                background: url(http://mba.mbachina.com/resource/images/bg.png?s=24) no-repeat center!important;
+                background-size:100% 100% !important;
+                overflow: hidden;
+                position: relative;
+                cursor: pointer;
+            }
+            .cont3{
+                width: 1200px;
+                overflow: hidden;
+                margin: 0 auto;
+                text-align: center;
+                position: relative;
+            }
+            #topTip .left5{
+                position: absolute;
+                right: 50px;
+                top: 35px;
+                cursor: pointer;transition: all 0.5s;
+            }
+            #topTip .left5:hover{
+                transform: rotate(90deg);
+                transition: all 0.5s;
+            }
+            .cont3 .ab{
+                position: absolute;
+                right: 25px;
+                top:25px;
+                height: 120px;
+            }
+</style></head>
+
+<body>  
+<a href="http://tiaoji.mbachina.com" target="_blank">    
+<div id="topTip" style="height: 100px;">
+           
+            <div class="left5"><img src="http://www.mbachina.com/resources/images/close.png"></div>
+        </div>
+</a>        
+<script type="text/javascript">
+            $(function(){
+                var arr,reg=new RegExp("(^| )tipId=([^;]*)(;|$)");
+                arr=document.cookie.match(reg);
+                if(arr){
+                    $("#topTip").remove()
+                }else{
+                    $("#topTip").delay(600).animate({"height":"100px"},500,function(){						
+                        $("#topTip .img1").addClass("on");
+                        setTimeout(function(){
+                            $("#topTip .btn").addClass("animated bounce")
+                        },3900);
+                        setTimeout(function(){
+                            $("#topTip .img1").removeClass("on")
+                        },4100)
+                        setTimeout(function(){
+                            $("#topTip .img1").addClass("tada")
+                        },8100)
+                        
+                    })
+                }
+                    
+                $(".left5").click(function(){
+                    $("#topTip").animate({"height":"0"},500,function(){
+                        $("#topTip").hide();
+                    });
+                    document.cookie="tipId="+true;    
+                    var exp = new Date(); 
+                    exp.setTime(exp.getTime() + 24*60*60*1000);
+                    document.cookie = "tipId="+true+ ";expires=" + exp.toGMTString();
+                    return false;
+                })
+                            
+            })
+        </script>
+<!--top begin-->
+       
+<div class="top">
+    <div class="topin">
+        <div class="top-l"> 
+			<a class="hver" target="_blank" href="http://www.mbachina.com/" title="MBAChina中国网">MBAChina</a> 
+			<a target="_blank" href="http://www.zyxw.cn/" title="专业学位网">专业学位网</a>
+			<a target="_blank" href="http://mpacc.mbachina.com" title="MPAcc中国网">MPAcc中国网</a> 
+			<a target="_blank" href="http://www.doxue.com/" title="都学网">都学网</a>
+		</div>
+        <div class="top-r">
+			<span>免费服务:</span>
+			<span class="mf">400-600-9288</span>                                 
+            <a target="_blank" href="http://m.mbachina.com/">手机版</a>       
+			<span>|</span>                  
+            <a target="_blank" href="http://en.mbachina.com/">English</a>      
+            <span>|</span>                                                                          
+			<a target="_blank" href="http://www.mbachina.com/app/mbabk" rel="nofollow">MBA备考</a>
+            <span>|</span>
+            <a target="_blank" href="http://www.doxue.com/course/book" rel="nofollow">MBA新教材</a>
+		</div>
+    </div>
+</div>
+<!--top end--> 
+<!--logo begin-->
+<div class="top2">
+	<div class="topin2">
+		<div class="logo"><a href="http://www.mbachina.com/" title="MBA中国网"><img alt="MBA中国网" src="http://www.mbachina.com/resources/images/logo.png"></a></div>
+        <table class="logo_sousuo">
+			<tbody>
+				<tr>
+					<td>
+						<div class="sou_menu">
+						<!--
+							<ul>
+								<li class="active">搜院校</li>
+								<li class="">搜新闻</li>
+							</ul>
+						-->
+						</div>
+						<div class="sou_box">
+							<div class="mod_select">
+								<div class="select_box" id="area_sou">
+									<span class="select_txt">地区</span>
+									<div class="option" style="display: none;">
+										<a name="340000">安徽</a>
+										<a name="110000">北京</a>
+										<a name="500000">重庆</a>
+										<a name="350000">福建</a>
+										<a name="440000">广东</a>
+										<a name="450000">广西</a>
+										<a name="520000">贵州</a>
+										<a name="620000">甘肃</a>
+										<a name="130000">河北</a>
+										<a name="230000">黑龙江</a>
+										<a name="410000">河南</a>
+										<a name="420000">湖北</a>
+										<a name="430000">湖南</a>
+										<a name="460000">海南</a>
+										<a name="220000">吉林</a>
+										<a name="320000">江苏</a>
+										<a name="360000">江西</a>
+										<a name="210000">辽宁</a>
+										<a name="150000">内蒙古</a>
+										<a name="640000">宁夏</a>
+										<a name="630000">青海</a>
+										<a name="140000">山西</a>
+										<a name="310000">上海</a>
+										<a name="370000">山东</a>
+										<a name="510000">四川</a>
+										<a name="610000">陕西</a>
+										<a name="518000">深圳</a>
+										<a name="120000">天津</a>
+										<a name="710000">台湾</a>
+										<a name="650000">新疆</a>
+										<a name="810000">香港</a>
+										<a name="530000">云南</a>
+										<a name="330000">浙江</a>
+									</div>
+								</div>
+								<div class="select_box" id="money_sou">
+									<span class="select_txt select_txt1">学费</span>
+									<div class="option option1" style="display: none;">        
+                                        <a href="javascript:;" name="127">10万以下</a>
+                                        <a href="javascript:;" name="128">10-20万</a>
+                                        <a href="javascript:;" name="129">20-30万</a>
+                                        <a href="javascript:;" name="130">30-40万</a>
+                                        <a href="javascript:;" name="131">40万以上</a>
+									</div>
+								</div>
+								<input type="text" name="keywords" id="keywords" class="new_soutext2" onfocus="if(this.value=='请输入院校名称'){this.value=''}" onblur="if(this.value==''){this.value='请输入院校名称'}" value="请输入院校名称" style="color:#BBBBBB" x-webkit-speech="" x-webkit-grammar="builtin:translate">
+								<input type="button" name="sub" value="" class="new_soubtn" id="searchMba">
+								<input type="hidden" id="select_value">
+							</div>
+							<div class="new_sou1 ythide">
+								<input type="text" class="new_soutext1" id="keywordsnew" x-webkit-speech="" x-webkit-grammar="builtin:translate">
+								<input type="button" class="new_soubtn" id="searchNews">
+							</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="http://www.mbachina.com/uploads/fragment_js/9.js" language="javascript"></script><div class="zw-ad">	                <a href="http://tiaoji.mbachina.com/" target="_blank" style="color: #e95c61;">MBA</a><a href="http://tiaoji.mbachina.com/" target="_blank" style="color: #e95c61;">调剂</a><a href="http://tiaoji.mbachina.com/" target="_blank" style="color: #e95c61;">复试服务中心</a> <a href="http://tiaoji.mbachina.com/" target="_blank"><span></span></a> </div>
+	</div>
+</div>
+<!--logo end-->
+<!--base-nav begin-->
+<div class="bx">
+    <div class="base-nav-wrap" id="banav">
+		<div class="base-nav-box">
+			<div class="base-nav"> 
+                <a href="http://www.mbachina.com/">首页</a> 
+                <a href="http://www.mbachina.com/html/news/" target="_blank">新闻</a> 
+                <a href="http://bm.mbachina.com/activity?t=yy" target="_blank">招生</a> 
+                <a href="http://www.taohuodong.org/" target="_blank">活动</a>
+                <a href="http://www.mbachina.com/video/" target="_blank">视频</a> 
+                <a href="http://www.mbachina.com/special/" target="_blank">专题</a>                
+                <!--<a href="http://www.mbachina.com/mbaweekly/" target="_blank">周刊</a>--> 
+                <span></span>                                             
+                <a href="http://www.doxue.com" target="_blank">备考</a> 
+                <a href="http://www.mbachina.com/html/gmat/" target="_blank">GMAT</a> 
+                <a href="http://www.mbachina.com/emba/" target="_blank">EMBA</a> 
+                <a href="http://mpacc.mbachina.com" target="_blank">MPAcc</a> 
+                <span></span> 
+                <a href="http://mba.mbachina.com/" target="_blank">院校库</a> 
+                <a href="http://bm.mbachina.com/" target="_blank" class="huang">报名中心</a>      
+                <!--<a href="http://tiaoji.mbachina.com/" target="_blank" class="bai">调剂中心</a>--> 
+                <a href="http://ks.mbachina.com/" target="_blank">试卷</a> 
+                <a href="http://tiaoji.mbachina.com/" target="_blank" class="huang" style="color: rgb(255, 246, 0);">调剂中心</a> 
+                <a href="http://ms.mbachina.com/" target="_blank">面试中心</a> 
+                <a href="http://www.mbachina.com/zt/2017/books/" target="_blank">考试教材</a> 
+                
+            </div>
+            <div class="navMore" id="navMore">
+                <span>更多</span>
+                <ul style="display: none;">                                                
+                    <li><a href="http://www.mbachina.com/album/" target="_blank">图集</a></li>                      
+                    <li><a href="http://mbatour.mbachina.com/" target="_blank">游学</a></li>
+                    <li><a href="http://www.mbachina.com/baike/lists.html" target="_blank">百科</a></li>
+                 
+                    <li><a href="http://www.mbachina.com/html/mpa/" target="_blank">MPA</a></li>      
+                    <li><a href="http://wenda.mbachina.com/" target="_blank">问答</a></li>
+                    <li><a href="http://en.mbachina.com/" target="_blank">国际站</a></li>
+                    <li><a href="http://www.mbachina.com/app" target="_blank" rel="nofollow">APP下载</a></li>
+                    <li><a href="http://user.mbachina.com/" target="_blank">用户中心</a></li>
+                    <li><a href="http://www.mbachina.com/tag.php" target="_blank">Tag标签</a></li>
+                    <li><a href="http://www.mbachina.com/search.html" target="_blank">新闻搜索</a></li> 
+                    <li><a href="http://www.mbachina.com/data/sitemap.html" target="_blank">全部</a></li>
+                </ul>
+            </div>
+		</div>
+	</div>
+</div>
+<!--base-nav end--> 
+<div class="wrapin">
+	<div class="ar-gr-box">
+		<!--各个地区导航 begin-->
+		<div class="area-nav-w">			
+			<ul class="area-nav">
+				<div class="otherp"><a class="pa" href="javascript:;">其他</a>
+					<div class="otherp-pop">
+					<a href="http://mba.mbachina.com/index/schoollist?area=120000" target="_blank">天津</a><a href="http://mba.mbachina.com/index/schoollist?area=370000" target="_blank">山东</a><a href="http://mba.mbachina.com/index/schoollist?area=130000" target="_blank">河北</a><a href="http://mba.mbachina.com/index/schoollist?area=340000" target="_blank">安徽</a><a href="http://mba.mbachina.com/index/schoollist?area=430000" target="_blank">湖南</a><a href="http://mba.mbachina.com/index/schoollist?area=360000" target="_blank">江西</a><a href="http://mba.mbachina.com/index/schoollist?area=500000" target="_blank">重庆</a><a href="http://mba.mbachina.com/index/schoollist?area=520000" target="_blank">贵州</a><a href="http://mba.mbachina.com/index/schoollist?area=530000" target="_blank">云南</a><a href="http://mba.mbachina.com/index/schoollist?area=210000" target="_blank">辽宁</a><a href="http://mba.mbachina.com/index/schoollist?area=220000" target="_blank">吉林</a><a href="http://mba.mbachina.com/index/schoollist?area=230000" target="_blank">黑龙江</a><a href="http://mba.mbachina.com/index/schoollist?area=410000" target="_blank">河南</a><a href="http://mba.mbachina.com/index/schoollist?area=140000" target="_blank">山西</a><a href="http://mba.mbachina.com/index/schoollist?area=350000" target="_blank">福建</a><a href="http://mba.mbachina.com/index/schoollist?area=450000" target="_blank">广西</a><a href="http://mba.mbachina.com/index/schoollist?area=460000" target="_blank">海南</a><a href="http://mba.mbachina.com/index/schoollist?area=620000" target="_blank">甘肃</a><a href="http://mba.mbachina.com/index/schoollist?area=630000" target="_blank">青海</a><a href="http://mba.mbachina.com/index/schoollist?area=640000" target="_blank">宁夏</a><a href="http://mba.mbachina.com/index/schoollist?area=650000" target="_blank">新疆</a><a href="http://mba.mbachina.com/index/schoollist?area=150000" target="_blank">内蒙古</a><a href="http://mba.mbachina.com/index/schoollist?area=810000" target="_blank">香港</a><a href="http://mba.mbachina.com/index/schoollist?area=201601" target="_blank">英国</a><a style="width:50px" href="http://mba.mbachina.com/index/schoollist?area=100000" target="_blank">热门院校</a><a href="http://mba.mbachina.com/index/schoollist?area=702" target="_blank">新加坡</a>
+					</div>
+				</div>
+				<li class="hver"><a href="javascript:;">热门</a></li>
+				<li><a href="http://mba.mbachina.com/index/schoollist?area=110000" target="_blank">北京</a></li><li><a href="http://mba.mbachina.com/index/schoollist?area=310000" target="_blank">上海</a></li><li><a href="http://mba.mbachina.com/index/schoollist?area=440000" target="_blank">广东</a></li><li><a href="http://mba.mbachina.com/index/schoollist?area=610000" target="_blank">陕西</a></li><li><a href="http://mba.mbachina.com/index/schoollist?area=420000" target="_blank">湖北</a></li><li><a href="http://mba.mbachina.com/index/schoollist?area=330000" target="_blank">浙江</a></li><li><a href="http://mba.mbachina.com/index/schoollist?area=320000" target="_blank">江苏</a></li><li><a href="http://mba.mbachina.com/index/schoollist?area=510000" target="_blank">四川</a></li>
+			</ul>
+			<div id="cb">
+				<script src="http://www.mbachina.com/uploads/fragment_js/51.js" language="javascript"></script><div class="combobox">	<ul>		<li>			<p>				<a href="http://fmba.pbcsf.tsinghua.edu.cn/" target="_blank">清华五道口金融学院</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(382,'清华五道口金融学院')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://www.emba.ynu.edu.cn" target="_blank">云南大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(254,'云南大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://www.university-liverpool-online.cn/zh-cn/programmes/management/4-mba?hmsr=mbachina&amp;hmpl=&amp;hmcu=&amp;hmkw=&amp;hmci=" target="_blank">利物浦大学在线MBA</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(384,'利物浦大学在线MBA')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://mba.mbachina.com/index/detail/53.html" target="_blank">中国政法大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(53,'中国政法大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://mba.mbachina.com/index/detail?schoolid=141" target="_blank">华中科技大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(141,'华中科技大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://mba.mbachina.com/index/detail?schoolid=35" target="_blank">上交大安泰经管学院</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(35,'上交大安泰经管学院')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://mba.mbachina.com/index/detail?schoolid=102" target="_blank">浙江大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(102,'浙江大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://mba.hubu.edu.cn/" target="_blank">湖北大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(147,'湖北大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://mba.mbachina.com/index/detail/42.html" target="_blank">中央财经大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(42,'中央财经大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a href="http://mba.mbachina.com/index/detail?schoolid=322" target="_blank">长江商学院</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com/">论坛</a> <span>|</span> <a onclick="list_db(322,'长江商学院')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/56.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://mba.buaa.edu.cn/">北京航空航天大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(44,'北京航空航天大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/324.html">中国地质大学（北京）</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(324,'中国地质大学（北京）')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/46.html">中国石油大学（北京）</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(46,'北京石油大学（北京）')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/53.html">中国政法大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(53,'中国政法大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/32.html">清华大学经管学院</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(32,'清华大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/322.html">长江商学院</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(322,'长江商学院')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/41.html">北京交通大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(41,'北京交通大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/42.html">中央财经大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(42,'中央财经大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/52.html">中国矿业大学（北京）</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(52,'中国矿业大学（北京）')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/343.html ">新华都商学院</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(343,'新华都商学院')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/57.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/70.html">上海财经大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(70,'上海财经大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/35.html">上交大安泰经管学院</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(35,'上交大安泰经管学院')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/77.html">复旦大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(77,'复旦大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/74.html">东华大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(74,'东华大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/69.html">同济大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(69,'同济大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/71.html">华东理工大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(71,'华东理工大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://www.shumba.cn/">上海大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(405,'上海大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/75.html">华东师范大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(75,'华东师范大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			   <p>    <a target="_blank" href="http://mba.mbachina.com/index/detail/323.html">中欧国际工商学院</a>    </p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(323,'中欧国际工商学院')" href="javascript:void(0)">对比</a>   </li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/73.html">上海海事大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(73,'上海海事大学')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/58.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/164.html">中山大学管理学院 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(164,'中山大学管理学院 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/321.html">中山大学岭南学院 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(321,'中山大学岭南学院 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/157.html">广东外语外贸大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(157,'广东外语外贸大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/159.html">广东财经大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(159,'广东财经大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/163.html">华南理工大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(163,'华南理工大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/160.html">华南师范大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(160,'华南师范大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/156.html">广东工业大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(156,'广东工业大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/162.html">暨南大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(162,'暨南大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/161.html">汕头大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(161,'汕头大学 ')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/59.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://som.xjtu.edu.cn/mba/">西安交通大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(188,'西安交通大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/187.html">西北工业大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(187,'西北工业大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/181.html">西北大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(181,'西北大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/182.html">西安电子科技大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(182,'西安电子科技大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/190.html">长安大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(190,'长安大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/185.html">陕西师范大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(185,'陕西师范大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/186.html">西北农林科技大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(186,'西北农林科技大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/189.html">西安建筑科技大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(189,'西安建筑科技大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/193.html">西安工程大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(193,'西安工程大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/192.html">西安石油大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(192,'西安石油大学 ')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/60.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/142.html">武汉大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(142,'武汉大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/141.html">华中科技大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(141,'华中科技大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/145.html">华中农业大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(145,'华中农业大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/143.html">中南财经政法大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(143,'中南财经政法大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/154.html">中南民族大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(154,'中南民族大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/152.html">湖北工业大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(152,'湖北工业大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/155.html">中国地质大学（武汉） </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(155,'中国地质大学（武汉） ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/148.html">武汉理工大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(148,'武汉理工大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.hubu.edu.cn/">湖北大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(147,'湖北大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/153.html">三峡大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(153,'三峡大学')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/61.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/102.html">浙江大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(102,'浙江大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/103.html">浙江财经大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(103,'浙江财经大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/104.html">浙江理工大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(104,'浙江理工大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/97.html">浙江工业大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(97,'浙江工业大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/100.html">浙江师范大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(100,'浙江师范大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/99.html">宁波大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(99,'宁波大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/98.html">浙江工商大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(98,'浙江工商大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/101.html">杭州电子科技大学 </a>			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(101,'杭州电子科技大学 ')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/62.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/90.html">南京大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(90,'南京大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/92.html">南京工业大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(92,'南京工业大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/88.html">南京理工大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(88,'南京理工大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/87.html">南京财经大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(87,'南京财经大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/86.html">南京师范大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(86,'南京师范大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/384.html">西交利物浦大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(384,西交利物浦大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/84.html">江苏大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(84,'江苏大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/83.html">中国矿业大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(83,'中国矿业大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/368.html">河海大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(368,'河海大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/81.html">江南大学</a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(81,'江南大学')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+				<script src="http://www.mbachina.com/uploads/fragment_js/63.js" language="javascript"></script><div class="combobox hide">	<ul>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/177.html">电子科技大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(177,'电子科技大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/176.html">四川大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(176,'四川大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/172.html">西南交通大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(172,'西南交通大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/173.html">西南财经大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(173,'西南财经大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/180.html">西南民族大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(180,'西南民族大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/179.html">成都理工大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(179,'成都理工大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/178.html">西南石油大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(178,'西南石油大学')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/175.html">西南科技大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(175,'西南科技大学 ')" href="javascript:void(0)">对比</a> 		</li>		<li>			<p>				<a target="_blank" href="http://mba.mbachina.com/index/detail/174.html">四川师范大学 </a> 			</p><a target="_blank" href="http://mba.mbachina.com/register">报名</a> <span>|</span> <a target="_blank" href="http://wenda.mbachina.com">论坛</a> <span>|</span> <a onclick="list_db(174,'四川师范大学 ')" href="javascript:void(0)">对比</a> 		</li>	</ul></div>
+			</div>
+		</div>
+		<script src="http://www.mbachina.com/uploads/fragment_js/49.js" language="javascript"></script><div id="gpfe"><!--热门-->	<div class="groom-porfessor">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a> 			</h5>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115598.html" target="_blank">【调剂院校】2018调剂院校查询</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115598.html" target="_blank">【调剂流程】2018MBA调剂流程</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/mba/raiders" target="_blank">【调剂攻略】2018调剂攻略专题</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/account/register" target="_blank">【调剂申请】2018专业学位调剂申请</a> 			</p>		</div>		<div class="gp-pic">			<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div><!--北京-->	<div class="groom-porfessor hide">		<div class="gpl">			<h5>				<a href="http://fmba.pbcsf.tsinghua.edu.cn/" target="_blank">清华-康奈尔双学位金融MBA政策解读</a> 			</h5>			<p>				<a href="https://mp.weixin.qq.com/s/1KRoobbjDYX2Gb8kjIfRdQ" target="_blank">【招生简章】清华2018年硕士研究生招生简章</a> 			</p>			<p>				<a href="http://www.mbachina.com/zt/2017/qswdkzs/?utm=qd&amp;home" target="_blank">【招生专题】清华五道口MBA招生政策一览</a> 			</p>			<p>				<a href="http://www.mbachina.com/zt/2017/pbcsfmba/?utm=qd&amp;home" target="_blank">【视频专题】2017年首场招生说明会在线观看</a> 			</p>			<p>				<a href="http://crm.pbcsf.tsinghua.edu.cn/psc/CRMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_MBA.TZ_MBA_LOGIN.FieldFormula.iScript_MBA_Login" target="_blank">【在线申请】清华-康奈尔双学位MBA项目报名系统 </a> 			</p>		</div>		<div class="gp-pic">			<a href="http://fmba.pbcsf.tsinghua.edu.cn/" target="_blank"><img src="http://www.mbachina.com/uploads/20170209/20170222/20170308/微信截图_20170313165807.png" alt="清华五道口"></a><a href="http://fmba.pbcsf.tsinghua.edu.cn/" target="_blank" title="清华五道口"> </a> 			<p>				   <a href="http://fmba.pbcsf.tsinghua.edu.cn/" target="_blank">清华五道口</a> 			</p>		</div>	</div><!--上海-->	<div class="groom-porfessor hide">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a> 			</h5>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115598.html" target="_blank">【调剂院校】2018上海调剂院校查询</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tjzx/201712/116114.html" target="_blank">【调剂院校】华东师范大学2018MBA调剂通知</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://mba.sjtu.edu.cn/zt/jinyingjihua/" target="_blank">【调剂问答】MBA知识问答论坛</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/activity" target="_blank">【调剂活动】2018专业学位调剂活动平台</a> 			</p>		</div>		<div class="gp-pic">			<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div><!--广东-->	<div class="groom-porfessor hide">		<div class="gpl">			<h5>				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a>			</h5>			<p>				<a href="http://tiaoji.mbachina.com/index/schoollist?area=440000" target="_blank">【调剂院校】2018广东调剂院校查询</a> 			</p>			<p>				<a href="http://www.mbachina.com/html/tiaojizn/201712/115422.html" target="_blank">【调剂解答】2018调剂常见问题</a> 			</p>			<p>				<a href="http://tiaoji.mbachina.com/" target="_blank">【调剂申请】立即访问在线调剂专题</a> 			</p>			<p>				<a href="http://www.mbachina.com/html/tiaojifw/" target="_blank">【调剂信息】2018MBA调剂信息早知道</a> 			</p>		</div>		<div class="gp-pic">			<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div><!--陕西-->	<div class="groom-porfessor hide">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a>			</h5>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/bkzn/" target="_blank">【调剂院校】2018陕西调剂院校查询</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">【调剂专题】点击立即访问2018调剂专题</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/mba/raiders#tjlc" target="_blank">【调剂指导】2018调剂攻略</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115550.html" target="_blank">【调剂准备】2018调剂准备时间表</a> 			</p>		</div>		<div class="gp-pic">			<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div><!--湖北-->	<div class="groom-porfessor hide">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a>			</h5>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/index/schoollist?area=420000" target="_blank">【调剂院校】2018湖北调剂院校查询</a>  			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115804.html" target="_blank">【调剂攻略】如何调剂到理想的MBA院校</a>  			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115428.html" target="_blank">【调剂误区】2018MBA调剂误区</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115424.html" target="_blank">【调剂推荐】2018MBA调剂院校推荐 </a>                         </p>		</div>		<div class="gp-pic">			<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div><!--浙江-->		<div class="groom-porfessor hide">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a>			</h5>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/index/schoollist?area=330000" target="_blank">【调剂院校】2018浙江调剂院校查询</a>			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115421.html" target="_blank">【调剂攻略】分数“擦边”如何调剂</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115801.html" target="_blank">【调剂院校】2018年MBA调剂院校类型</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/" target="_blank">【调剂指南】2018MBA调剂指南汇总</a> 			</p>		</div>		<div class="gp-pic">		<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div><!--江苏-->	<div class="groom-porfessor hide">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a>			</h5>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/index/schoollist?area=320000" target="_blank">【调剂院校】2018江苏调剂院校查询</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115479.html" target="_blank">【调剂技巧】调剂门外汉看过来</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/lkxw/201712/115880.html" target="_blank">【调剂分数】历年MBA分数线汇总</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115474.html" target="_blank">【调剂资讯】2018年MBA调剂必备信息</a> 			</p>		</div>		<div class="gp-pic"><a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div>	<!--<div class="groom-porfessor hide">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://mba.mbachina.com/index/detail/251.html" target="_blank">广西师大MBA项目招生政策</a> 			</h5>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/User/Join?rsarea=320000&rtsid=554" target="_blank">调剂复试火热申请中</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/User/Join?rsarea=320000&rtsid=554" target="_blank">国家B线录取</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://mba.mbachina.com/index/detail/251.html" target="_blank">2017MBA调剂活动</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/User/Join?rsarea=320000&rtsid=554" target="_blank">2017MBA调剂报名</a> 			</p>		</div>		<div class="gp-pic">			<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心" /></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心</a> 			<p>				   <a href="http://tiaoji.mbachina.com/" target="_blank">全国调剂中心</a> 			</p>		</div>	</div>--><!--四川-->	<div class="groom-porfessor hide">		<div class="gpl">			<h5 style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/" target="_blank">2018全国专业学位调剂中心</a>			</h5>			<p style="margin-left: 25px;">				<a href="http://tiaoji.mbachina.com/index/schoollist?area=510000" target="_blank">【调剂院校】2018四川调剂院校查询</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115484.html" target="_blank">【调剂干货】如何让院校快速“找到”你</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://www.mbachina.com/html/tiaojizn/201712/115427.html" target="_blank">【调剂技巧】2018MBA调剂需要的条件？</a> 			</p>			<p style="margin-left: 25px;">				<a href="http://cm.hust.edu.cn/mba/" target="_blank">【调剂攻略】2018MBA调剂 ≠ 志愿下调</a>			</p>		</div>		<div class="gp-pic">			<a href="http://tiaoji.mbachina.com/" target="_blank"><img src="http://www.mbachina.com/uploads/yxk/201707/21/tjgl.png" alt="全国调剂中心"></a><a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂中心&lt;/a&gt; 			&lt;p&gt;				   &lt;a href=" http:="" tiaoji.mbachina.com="" "="">全国调剂中心</a> 			<p></p>		</div>	</div></div>
+	</div>
+	<script src="http://www.mbachina.com/uploads/fragment_js/50.js" language="javascript"></script><div class="com-logo">	<div class="com-logo_s">		<a href="http://mba.mbachina.com/index/detail/32.html" target="_blank"><img alt="清华大学MBA" src="http://www.mbachina.com/uploads/090525/qhjglogoMBA.png"></a> <a href="http://mba.mbachina.com/index/detail/32.html" target="_blank"><img alt="华中科技大学MBA" src="http://www.mbachina.com/uploads/20170505/hzkjMBAlogo.png"></a><a class="a8" href="http://mba.mbachina.com/index/detail/74.html" target="_blank"><img alt="东华大学MBA" src="http://www.mbachina.com/uploads/090525/dhdxMBA.png"></a>  <a href="http://mba.mbachina.com/index/detail/70.html" target="_blank" ref="nofollow"><img alt="上海财经大学MBA" src="http://www.mbachina.com/uploads/mbachina_new/170225/scj.jpg"></a> <a href="http://mba.mbachina.com/index/detail/322.html" target="_blank"><img alt="长江商学院" src="http://www.mbachina.com/uploads/090525/cjsxyxt.png"></a> <a href="http://mba.ecust.edu.cn/" target="_blank"><img alt="华东理工MBA" src="http://www.mbachina.com/uploads/mbachina_new/170225/huad.jpg"></a> <a href="http://www.uolonline.cn/zh-cn/programmes/management/4-mba%EF%BC%9Fhmsr=mbachina&amp;hmpl=&amp;hmcu=&amp;hmkw=&amp;hmci=" target="_blank"><img alt="利物浦在线MBA" src="http://www.mbachina.com/uploads/20170505/lwp1.png"></a>  <a href="http://mba.tongji.edu.cn " target="_blank"><img alt="同济大学MBA" src="http://www.mbachina.com/uploads/090525/tjjgdx.png"></a>	</div>	<div class="com-logo_b">		<a href="http://mba.mbachina.com/index/detail/32.html" _blank"=""><img alt="清华大学MBA" src="http://www.mbachina.com/uploads/090525/qhjgdtmba.png"></a> <a href="http://mba.hust.edu.cn/" target="_blank"><img alt="华中科技大学MBA" src="http://www.mbachina.com/uploads/mbachina_new/170225/hzkdbm.jpg"></a><a class="a8" href="http://mba.mbachina.com/index/detail/74.html" target="_blank"><img alt="东华大学MBA" src="http://www.mbachina.com/uploads/090525/dhdxct.png"> </a><a href="http://mba.mbachina.com/index/detail/70.html" target="_blank" ref="nofollow"><img alt="上海财经MBA" src="http://www.mbachina.com/uploads/mbachina_new/kuaiji/20170427/上海财经大学-2.jpg"></a> <a href="http://mba.mbachina.com/index/detail/322.html" target="_blank"><img alt="长江商学院" src="http://www.mbachina.com/uploads/090525/cjct.png"></a> <a href="http://mba.ecust.edu.cn/" target="_blank"><img alt="华东理工大学MBA" src="http://www.mbachina.com/uploads/090525/hualili.png"></a> <a href="http://www.uolonline.cn/zh-cn/programmes/management/4-mba%EF%BC%9Fhmsr=mbachina&amp;hmpl=&amp;hmcu=&amp;hmkw=&amp;hmci=" "="" target="_blank"><img alt="利物浦在线MBA" src="http://www.mbachina.com/uploads/iii.jpg"></a>  <a href="http://mba.tongji.edu.cn " target="_blank"><img alt="同济大学MBA" src="http://www.mbachina.com/uploads/090525/tjjg.png"></a> 	</div></div>
+	<!--左侧内容 begin-->
+	<div class="o-left">
+		<h2><a href="http://www.mbachina.com/video/" target="_blank" title="视频">视频</a></h2>
+		<ul class="o-block viedo">
+			<li class="fl"><a href="http://www.mbachina.com/video/xmft/201712/409.html" title="《长江老友记6》" target="_blank">
+				<em><img src="/uploads/article/201712/28/1514428829361807_150_100.jpg"><span></span></em>
+				<p>《长江老友记6》</p></a>
+			</li><li class="fr"><a href="http://www.mbachina.com/video/xmft/201712/408.html" title="《长江老友记5》" target="_blank">
+				<em><img src="/uploads/article/201712/21/1513846964240321_150_100.jpg"><span></span></em>
+				<p>《长江老友记5》</p></a>
+			</li><li class="fl"><a href="http://www.mbachina.com/video/xmft/201712/406.html" title="《长江老友记4》" target="_blank">
+				<em><img src="/uploads/article/201712/20/1513757374179622_150_100.jpg"><span></span></em>
+				<p>《长江老友记4》</p></a>
+			</li><li class="fr"><a href="http://www.mbachina.com/video/xmft/201712/405.html" title="商学院考前祝福" target="_blank">
+				<em><img src="/uploads/article/201712/14/1513224821629295_150_100.jpg"><span></span></em>
+				<p>商学院考前祝福</p></a>
+			</li>
+		</ul>
+		
+		<h2><a href="http://www.mbachina.com/special/" target="_blank" title="MBA专题">MBA专题</a></h2>
+		<ul class="o-block weekly">
+			<li class="fl"><a href="http://www.mbachina.com/zt/2017/lkzt/?s=MBAzt" title="2018联考真题及答案" target="_blank">
+				<em><img src="/uploads/article/201712/23/1513990805759964_150_100.jpg"><span></span></em>
+				<p>2018联考真题及答案</p></a>
+			</li><li class="fr"><a href="http://mba.mbachina.com/zt/2017/njumba/index.html" title="南京大学2018MBA" target="_blank">
+				<em><img src="/uploads/article/201710/23/1508743865954719_150_100.jpg"><span></span></em>
+				<p>南京大学2018MBA</p></a>
+			</li><li class="fl"><a href="http://mba.mbachina.com/zt/2017/Mbabuaa/index.php" title="北航2018MBA招生" target="_blank">
+				<em><img src="/uploads/article/201709/30/1506760377332564_150_100.jpg"><span></span></em>
+				<p>北航2018MBA招生</p></a>
+			</li><li class="fr"><a href="http://www.mbachina.com/zt/2017/dhuMBA/" title="东华大学MBA招生" target="_blank">
+				<em><img src="/uploads/article/201710/09/1507536247223356_150_100.jpg"><span></span></em>
+				<p>东华大学MBA招生</p></a>
+			</li>
+		</ul>
+		<h2><a title="原创">原创</a></h2>
+		<ul class="o-block picture">
+			<li class="fl"><a href="http://www.mbachina.com/html/hyxw/201801/116425.html" title="教育部公布2018新增管理类专业硕士院校名单" target="_blank">
+				<em><img src="/uploads/article/201801/09/1515479077651384_225_140.png"><span></span></em>
+				<p>教育部公布2018新增</p></a>
+			</li><li class="fr"><a href="http://www.mbachina.com/html/hyxw/201801/116424.html" title="教育部公布11所新增MBA院校名单" target="_blank">
+				<em><img src="/uploads/article/201801/09/1515479096584832_225_140.png"><span></span></em>
+				<p>教育部公布11所新增</p></a>
+			</li><li class="fl"><a href="http://www.mbachina.com/html/sxyxw/201801/116422.html" title="MBA关注：如何实现中国商学院的大发展？吴晓波教授这样说 " target="_blank">
+				<em><img src="/uploads/article/201801/09/1515470463117648_225_140.jpg"><span></span></em>
+				<p>MBA关注：如何实</p></a>
+			</li><li class="fr"><a href="http://www.mbachina.com/html/mbazsxx/201801/116420.html" title="两广地区MBA院校2017-2018学费对比 " target="_blank">
+				<em><img src="/uploads/article/201801/09/1515469608341039_225_140.jpg"><span></span></em>
+				<p>两广地区MBA院校</p></a>
+			</li>
+		</ul>
+	</div>
+	<!--左侧内容 end-->
+	<!--中间内容 begin-->
+	<div class="o-center">
+		<div class="fo-box">
+			<div id="fsD1" class="focus">  
+                <div id="D1pic1" class="fPic">
+					<div class="fcon" style="display: none;">
+				<a target="_blank" href="http://www.mbachina.com/zt/2017/qhwdk/index.html"><img src="http://www.mbachina.com/uploads/slide/201801/02/1514876238419007.png" style="opacity: 1;" alt="成为准MBAer的匹配度测试"></a>
+				<span class="shadow"><a target="_blank" href="http://www.mbachina.com/zt/2017/qhwdk/index.html" title="成为准MBAer的匹配度测试">成为准MBAer的匹配度测试</a></span>
+			</div><div class="fcon" style="display: block;">
+				<a target="_blank" href="http://tiaoji.mbachina.com/"><img src="http://www.mbachina.com/uploads/slide/201801/02/1514872077458829.png" style="opacity: 0.96;" alt="2018全国专业学位调剂服务中心"></a>
+				<span class="shadow"><a target="_blank" href="http://tiaoji.mbachina.com/" title="2018全国专业学位调剂服务中心">2018全国专业学位调剂服务中心</a></span>
+			</div><div class="fcon" style="display: none;">
+				<a target="_blank" href="http://www.mbachina.com/zt/2017/lkzt/?s=mbajdt"><img src="http://www.mbachina.com/uploads/slide/201712/23/1513990638616049.jpg" style="opacity: 1; " alt="2018MBA管理类联考真题答案汇总"></a>
+				<span class="shadow"><a target="_blank" href="http://www.mbachina.com/zt/2017/lkzt/?s=mbajdt" title="2018MBA管理类联考真题答案汇总">2018MBA管理类联考真题答案汇总</a></span>
+			</div><div class="fcon" style="display: none;">
+				<a target="_blank" href="http://femba-sf.ruc.edu.cn/?s=mbazy"><img src="http://www.mbachina.com/uploads/slide/201712/21/1513856199467742.jpg" style="opacity: 1; " alt="人民大学EMBA金融学院"></a>
+				<span class="shadow"><a target="_blank" href="http://femba-sf.ruc.edu.cn/?s=mbazy" title="人民大学EMBA金融学院">人民大学EMBA金融学院</a></span>
+			</div><div class="fcon" style="display: none;">
+				<a target="_blank" href="http://www.mbachina.com/zt/2017/xxhlt/"><img src="http://www.mbachina.com/uploads/slide/201711/28/1511851958800011.jpg" style="opacity: 1; " alt="第八届商学院信息化论坛会后专题"></a>
+				<span class="shadow"><a target="_blank" href="http://www.mbachina.com/zt/2017/xxhlt/" title="第八届商学院信息化论坛会后专题">第八届商学院信息化论坛会后专题</a></span>
+			</div>
+                </div>
+                <div class="fbg">  
+                    <div class="D1fBt" id="D1fBt">
+						<a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>1</i></a><a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>2</i></a><a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>3</i></a><a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>4</i></a><a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>5</i></a>
+                    </div>  
+                </div>
+                <span class="prev"></span>   
+                <span class="next"></span>     
+            </div>
+            <!--首页焦点图-->
+            <script type="text/javascript">
+				Qfast.add('widgets', { path: "http://www.mbachina.com/resources/js/focus(1).js", type: "js", requires: ['fx'] });  
+				Qfast(false, 'widgets', function () {
+					K.tabs({
+						id: "fsD1",   //焦点图包裹id  
+						conId: "D1pic1",  //** 大图域包裹id  
+						tabId:"D1fBt",  
+						tabTn:"a",
+						conCn: ".fcon", //** 大图域配置class       
+						auto: 1,   //自动播放 1或0
+						effect: "fade",   //效果配置
+						eType: "click", //** 鼠标事件
+						pageBt:true,//是否有按钮切换页码
+						bns: [".prev", ".next"],//** 前后按钮配置class                          
+						interval: 3000  //** 停顿时间  
+					}) 
+				})  
+			</script>
+			<script src="http://www.mbachina.com/uploads/fragment_js/52.js" language="javascript"></script><div class="fou-pic">	<a href="http://www.mbachina.com/zt/2017/sut/" target="_blank" title="沈阳工业大学MBA/MEM招生"> <img alt="沈阳工业大学MBA/MEM招生" src="http://www.mbachina.com/uploads/090525/shenyang7.jpg"> 	<div class="pic_bj">	</div>	<!--<p>		9月17日港大-复旦IMBA公开课	</p>--></a> <a href="http://mba.mbachina.com/index/detail/160.html" target="_blank" title="华南师范大学MBA招生专题"> <img alt="华南师范大学MBA招生专题" src="http://www.mbachina.com/uploads/mbachina_new/hnsfdx1.jpg"> 	<div class="pic_bj">	</div>	<p>		华南师范大学MBA招生专题	</p></a> </div>
+		</div>
+		<script src="http://www.mbachina.com/uploads/fragment_js/48.js" language="javascript"></script><h1><a href="http://www.mbachina.com/html/tiaojizn/" title="2018MBA调剂攻略汇总" target="_blank" style="color: #F96D14;">2018MBA调剂攻略汇总</a>  <a href="http://www.mbachina.com/html/lkxw/201801/116196.html" target="_blank" style="color: #D1516F;margin-left: 22px;">初试成绩提早公布？</a>	   </h1><h6>   <a href="http://www.mbachina.com/html/lkxw/201712/115969.html" title="2018MBA真题答案查询入口" target="_blank">[2018MBA真题答案查询入口]</a>     <a class="h-a3" href="http://www.mbachina.com/html/lkxw/201801/116421.html" title="2018管理类联考分数多半会上涨？" target="_blank">[2018管理类联考分数多半会上涨？]</a>        <a href="http://www.mbachina.com/html/lkxw/201712/115285.html" title="2019考研报考信息早知道！" target="_blank">[2019考研报考信息早知道！]</a> </h6><h1><a href="http://tiaoji.mbachina.com/mba/raiders#tjlc" title="2018年MBA调剂报名流程" target="_blank" style="color: #F96D14;">2018年MBA调剂报名流程</a>     <a href="https://www.doxue.com/special/swap/?s=mbachina" target="_blank" style="color: #D1516F;margin-left: 22px;">   调剂直通车</a>	</h1><h6>       <a href="http://www.mbachina.com/html/lkxw/201712/116043.html" title="2018硕士研究生招生考试顺利结束" target="_blank">[2018硕士研究生招生考试顺利结束]</a>       <a href="http://www.mbachina.com/html/lkxw/201712/115880.html" title="国家线和34所自划线院校复试线" target="_blank">[国家线和34所自划线院校复试线]</a>     <a href="http://www.mbachina.com/html/tiaojizn/201712/115612.html" title="调剂复试失败者没看过的攻略！" target="_blank">[调剂复试失败者没看过的攻略！]</a>  </h6>
+		<ul class="rd">
+			<li><a class="a-b" href="http://www.mbachina.com/zt/2017/lkzt/?s=mbayc" target="_blank" title="2018联考真题及答案">2018联考真题及答案</a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/tjzx/201801/116415.html" title="如果MBA满员了，你愿意调剂到EMBA吗？" target="_blank">[如果MBA满员了，你愿意调剂到EMBA吗？]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/hyxw/201801/116425.html" target="_blank" title="教育部公布2018新增管理类专业硕士院校名单">教育部公布2018新增管理类专业硕士院校名单</a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/hyxw/201712/115471.html" title="北京MBA院校2017-2018学费对比" target="_blank">[北京MBA院校2017-2018学费对比]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/hyxw/201801/116424.html" target="_blank" title="教育部公布11所新增MBA院校名单">教育部公布11所新增MBA院校名单</a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/hyxw/201712/115472.html" title="上海MBA院校2017-2018学费对比" target="_blank" "="">[上海MBA院校2017-2018学费对比]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/sxyxw/201801/116422.html" target="_blank" title="MBA关注：如何实现中国商学院的大发展？吴晓波教授这样说 ">MBA关注：如何实现中国商学院的大发展？吴晓波教授这样说 </a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/mbazsxx/201801/116420.html" title="[两广MBA院校2017-2018学费对比]" target="_blank">[两广MBA院校2017-2018学费对比]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/lkxw/201801/116421.html" target="_blank" title="为什么2018管理类联考分数多半会上涨？ ">为什么2018管理类联考分数多半会上涨？ </a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/hyxw/201710/113649.html" title="清华-港中大金融财务MBA招生简章" target="_blank">[清华-港中大金融财务MBA招生简章]</a></li><li style="padding-top:15px;"><a class="a-b" href="http://www.mbachina.com/html/lkxw/201801/116408.html" target="_blank" title="全国各院校2018MEM复试/调剂活动汇总（更新中）">全国各院校2018MEM复试/调剂活动汇总（更新中）</a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/lkxw/201712/115880.html" title="历年国家线和34所自划线院校复试线" target="_blank">[历年国家线和34所自划线院校复试线]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/embatjzn/201801/116405.html" target="_blank" title="2018年EMBA调剂流程及注意事项公告">2018年EMBA调剂流程及注意事项公告</a>&nbsp;&nbsp;<a class="a-c" href="http://tiaoji.mbachina.com/mba/raiders" title="2018全国MBA调剂攻略专题" target="_blank">[2018全国MBA调剂攻略专题]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/tiaojifw/201801/116407.html" target="_blank" title="2018年MBA预调剂报名：青岛大学">2018年MBA预调剂报名：青岛大学</a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/hyxw/201708/110978.html" 免联考mba中外合作项目汇总"="" target="_blank" style="color: #F96D14;">[免联考MBA中外合作项目汇总]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/sxyxw/201801/116404.html" target="_blank" title="浙商大MBA项目通过两项权威认证">浙商大MBA项目通过两项权威认证</a>&nbsp;&nbsp;<a class="a-c" href="http://tiaoji.mbachina.com/mba/raiders#tjlc" title="2018全国MBA调剂流程" target="_blank">[2018全国MBA调剂流程]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/tiaojifw/201801/116399.html" target="_blank" title="上海理工大学MBA2018调剂通知">上海理工大学MBA2018调剂通知</a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/mpacczx/201704/106505.html" title="2018MPAcc全国联考备考攻略" target="_blank">[2018MPAcc全国联考备考攻略]</a></li><li><a class="a-b" href="http://www.mbachina.com/html/mpacctjzn/201801/116374.html" target="_blank" title="MPAcc网上调剂注意事项汇总">MPAcc网上调剂注意事项汇总</a>&nbsp;&nbsp;<a class="a-c" href="http://www.mbachina.com/html/hyxw/201612/100841.html" title="商学院国际认证 你与时俱进了？" target="_blank">[商学院国际认证 你与时俱进了？]</a></li>
+		</ul>
+		<div style="display:none;" id="wordlist"><script src="http://www.mbachina.com/uploads/fragment_js/47.js" language="javascript"></script><a class="a-c" href="http://www.mbachina.com/html/tjzx/201801/116415.html" title="如果MBA满员了，你愿意调剂到EMBA吗？" target="_blank">[如果MBA满员了，你愿意调剂到EMBA吗？]</a>  <a class="a-c" href="http://www.mbachina.com/html/hyxw/201712/115471.html" title="北京MBA院校2017-2018学费对比" target="_blank">[北京MBA院校2017-2018学费对比]</a><a class="a-c" href="http://www.mbachina.com/html/hyxw/201712/115472.html" title="上海MBA院校2017-2018学费对比" target="_blank" "="">[上海MBA院校2017-2018学费对比]</a> <a class="a-c" href="http://www.mbachina.com/html/mbazsxx/201801/116420.html" title="[两广MBA院校2017-2018学费对比]" target="_blank">[两广MBA院校2017-2018学费对比]</a><a class="a-c" href="http://www.mbachina.com/html/hyxw/201710/113649.html" title="清华-港中大金融财务MBA招生简章" target="_blank">[清华-港中大金融财务MBA招生简章]</a><a class="a-c" href="http://www.mbachina.com/html/lkxw/201712/115880.html" title="历年国家线和34所自划线院校复试线" target="_blank">[历年国家线和34所自划线院校复试线]</a><a class="a-c" href="http://tiaoji.mbachina.com/mba/raiders" title="2018全国MBA调剂攻略专题" target="_blank">[2018全国MBA调剂攻略专题]</a> <a class="a-c" href="http://www.mbachina.com/html/hyxw/201708/110978.html" 免联考mba中外合作项目汇总"="" target="_blank" style="color: #F96D14;">[免联考MBA中外合作项目汇总]</a>  <a class="a-c" href="http://tiaoji.mbachina.com/mba/raiders#tjlc" title="2018全国MBA调剂流程" target="_blank">[2018全国MBA调剂流程]</a><a class="a-c" href="http://www.mbachina.com/html/mpacczx/201704/106505.html" title="2018MPAcc全国联考备考攻略" target="_blank">[2018MPAcc全国联考备考攻略]</a> <a class="a-c" href="http://www.mbachina.com/html/hyxw/201612/100841.html" title="商学院国际认证 你与时俱进了？" target="_blank">[商学院国际认证 你与时俱进了？]</a></div>
+	</div>
+	<!--中间内容 end-->
+	<!--右侧内容 begin-->
+	<div class="o-right">
+		<script src="http://www.mbachina.com/uploads/fragment_js/46.js" language="javascript"></script><div class="or-blo rhd">                <h4> <b>近期活动</b> <a target="_blank" href="http://www.taohuodong.org/">更多&gt;&gt;</a>  </h4> <ul><li>                     <b></b>   <h6>                   18年1月9日 上海<br>   </h6>   <p>    <a target="_blank" href="http://www.taohuodong.org/detail-6548.html" title="华东师范大学2018年MBA调剂意向登记">华东师范大学2018年MBA调剂意向登记</a>    </p>  </li><li>                     <b></b>   <h6>                18年1月10日 上海<br>   </h6>   <p>    <a target="_blank" href="http://www.taohuodong.org/detail-6541.html" title="复旦BI-Fudan MBA项目说明会">复旦BI-Fudan MBA项目说明会</a>    </p>  </li><li>                     <b></b>   <h6>                 18年3月11日 上海（网申截止 18.03.04）<br>   </h6>   <p>    <a target="_blank" href="http://bm.mbachina.com/activity/index/show?id=2332&amp;t=tq" title="上海外国语大学MBA提前面试第七批">上海外国语大学MBA提前面试第七批</a>    </p>  </li><li>                     <b></b>   <h6>                   18年4月8日 上海（网申截止 18.04.01）<br>   </h6>   <p>    <a target="_blank" href="http://bm.mbachina.com/activity/index/show?id=2333&amp;t=tq" title="上海外国语大学MBA提前面试第八批">上海外国语大学MBA提前面试第八批</a>    </p>  </li></ul></div>
+		<script src="http://www.mbachina.com/uploads/fragment_js/45.js" language="javascript"></script><div class="or-blo bsev">	<h4>		<a href="http://tiaoji.mbachina.com/" target="_blank">全国MBA调剂中心</a> &nbsp;&nbsp;<a target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.Qjw4y2&amp;id=549046601019&amp;scm=1007.11962.70328.100200300000000&amp;pvid=17b5cfcd-ec69-4e29-b33f-ba5a6f72eed5&amp;idnum=0" style="color:#3b639f;">大纲配套教材</a>	</h4>	<ul>		<li class="li1">			<a href="http://tiaoji.mbachina.com/index/schoollist/1" target="_blank"> <span></span> <em>调剂院校</em> </a> 		</li>		<li class="li2">			<a href="http://tiaoji.mbachina.com/mba/raiders" target="_blank"> <span></span> <em>调剂攻略</em> </a>  		</li>		<li class="li3">						<a href="https://www.doxue.com/special/swap/?s=mbachina" target="_blank"> <span></span> <em>复试模拟</em> </a>		</li>		<li class="li4 nor">			<a href="http://tiaoji.mbachina.com/account/register" target="_blank"> <span></span> <em>立即调剂</em> </a> 		</li>	</ul></div><!--<div class="or-blo bsev">	<h4>		<a href="http://bm.mbachina.com/" target="_blank">全国MBA报名中心</a>   <a target="_blank" href="https://item.taobao.com/item.htm?spm=2013.1.0.0.Qjw4y2&id=549046601019&scm=1007.11962.70328.100200300000000&pvid=17b5cfcd-ec69-4e29-b33f-ba5a6f72eed5&idnum=0" style="color:#3b639f;">大纲配套教材</a>	</h4>	<ul>		<li class="li1">			<a href="http://mba.mbachina.com/" target="_blank"> <span></span> <em>报考院校</em> </a> 		</li>		<li class="li3">						<a href="http://bm.mbachina.com/activity" target="_blank"> <span></span> <em>提前面试</em> </a>		</li>		<li class="li2">			<a href="http://bm.mbachina.com/activity?t=yy" target="_blank"> <span></span> <em>招生活动</em> </a>  		</li>		<li class="li4 nor">			<a href="http://bm.mbachina.com/register" target="_blank"> <span></span> <em>在线报名</em> </a> 		</li>	</ul></div>-->
+		<script src="http://www.mbachina.com/uploads/fragment_js/44.js" language="javascript"></script><div class="or-blo wiki">	<h4>		<a href="http://www.mbachina.com/baike/" target="_blank" style="margin-right:14px;"> MBA百科 </a> <a href="http://www.mbachina.com/baike/mpacc/index.html" target="_blank" style="margin-right:14px;"> MPAcc百科 </a> <span style="cursor:pointer;" onclick="window.open('http://www.mbachina.com/baike/lists.html')"><a href-="" target="_blank">更多</a></span>	</h4>	<ul class="ul">		<li class="li1">			<a href="http://www.mbachina.com/baike/" target="_blank"> <span></span> <em>MBA起源</em> </a> 		</li>		<li class="li2">			<a href="http://www.mbachina.com/baike/index_2.html" title="如何报考" target="_blank"> <span></span> <em>如何报考</em> </a> 		</li>		<li class="li3">			<a href="http://ks.mbachina.com/" target="_blank"> <span></span> <em>入学考试</em> </a> 		</li>		<li class="li4 nor">			<a href="http://bm.mbachina.com/" target="_blank"> <span></span> <em>MBA学费</em> </a> 		</li>		<li class="li5">			<a href="http://www.mbachina.com/baike/index_4.html" target="_blank"> <span></span> <em>MBA面试</em> </a> 		</li>		<li class="li6">			<a href="http://www.mbachina.com/baike/index_7.html" target="_blank"> <span></span> <em>调剂流程</em> </a> 		</li>		<li class="li7">			<a href="http://www.mbachina.com/html/lkxw/201612/101180.html" target="_blank"> <span></span> <em>分数线</em> </a> 		</li>		<li class="li8 nor">			<a href="http://www.mbachina.com/baike/index_8.html" target="_blank"> <span></span> <em>MBA课程</em> </a> 		</li>	</ul><ul style="display:none;" class="mpaccUL">		<li class="li1">			<a href="http://www.mbachina.com/baike/mpacc/index.html" target="_blank"> <span></span> <em>MPAcc起源</em> </a> 		</li>		<li class="li2">			<a href="http://www.mbachina.com/baike/mpacc/index_42.html" title="如何报考" target="_blank"> <span></span> <em>报考时间</em> </a> 		</li>		<li class="li3">			<a href="http://www.mbachina.com/baike/mpacc/index_43.html" target="_blank"> <span></span> <em>报考条件</em> </a> 		</li>		<li class="li4 nor">			<a href="http://bm.mbachina.com/" target="_blank"> <span></span> <em>参考书</em> </a> 		</li>				<li class="li6">			<a href="http://www.mbachina.com/baike/mpacc/index_99.html" target="_blank"> <span></span> <em>调剂流程</em> </a> 		</li>		<li class="li7">			<a href="http://www.mbachina.com/baike/mpacc/index_45.html" target="_blank"> <span></span> <em>分数线</em> </a> 		</li>		<li class="li8 ">			<a href="http://www.mbachina.com/baike/mpacc/index_46.html" target="_blank"> <span></span> <em>参考资料</em> </a> 		</li><li class="li5 nor">			<a href="http://www.doxue.com/" target="_blank"> <span></span> <em>公益模考</em> </a> 		</li>	</ul></div>
+		<script src="http://www.mbachina.com/uploads/fragment_js/43.js" language="javascript"></script><div class="or-blo pool"> <h4>  <b><a href="http://ks.doxue.com/?s=mc" target="_blank">考试中心</a></b><a href="http://ks.doxue.com/" target="_blank"> </a>  </h4> <ul>  <li>   <a href="https://ktiku.doxue.com/doxue/paper/detail/5a420e82c5e0db08308b4573" title="2018年全国硕士研究生入学统一考试管理类联考英语二真题" target="_blank">2018年全国硕士研究生入学统一考试管理类联考英语二真题</a>   </li>  <li>   <a href="https://ktiku.doxue.com/doxue/paper/detail/5a42095dc5e0db532c8b4588" title="2018年全国硕士研究生入学统一考试管理类联考综合试卷真题" target="_blank">2018年全国硕士研究生入学统一考试管理类联考综合试卷真题</a>   </li>  <li>   <a href="https://ktiku.doxue.com/doxue/paper/detail/5963231fc5e0dbc9048b4568" title="2017年全国硕士研究生入学统一考试管理类联考英语试卷真题" target="_blank">2017年全国硕士研究生入学统一考试管理类联考英语试卷真题</a>   </li>  <li>   <a href="https://ktiku.doxue.com/doxue/paper/detail/596335f3c5e0dbd40c8b4567" title="2017年全国硕士研究生入学统一考试管理类联考综合试卷真题" target="_blank">2017年全国硕士研究生入学统一考试管理类联考综合试卷真题</a>   </li> </ul></div>
+	</div>
+	<!--右侧内容 end-->
+	<div class="clearfix"></div>
+	<script src="http://www.mbachina.com/uploads/fragment_js/42.js" language="javascript"></script><ul class="four-te">	<li>		<em><img src="http://www.mbachina.com/uploads/maojiye.png"></em> 		<div>			<h5>				<a href="http://www.mbachina.com/video/xmft/201709/366.html" target="_blank" title="商学院•未来20年之人民大学”">商学院•未来20年之人民大学</a> 			</h5>			<h6>				<a href="http://www.mbachina.com/video/xmft/201709/366.html" target="_blank">毛基业 院长</a> 			</h6>			<h6>				<a href="http://mba.mbachina.com/index/detail/39.html" target="_blank" title="中国人民大学商学院">中国人民大学商学院</a> 			</h6>		</div>	</li>       <li class="li4">		<em><img src="http://www.mbachina.com/uploads/wuxiaobo.png"></em> 		<div>			<h5>				<a href="http://www.mbachina.com/html/sxyxw/201801/116422.html" target="_blank" title="如何实现商学院的大发展">如何实现商学院的大发展</a> 			</h5>			<h6>				<a href="http://www.mbachina.com/html/sxyxw/201801/116422.html" target="_blank">吴晓波 教授</a> 			</h6>			<h6>				<a href="http://mba.mbachina.com/index/detail/102.html" target="_blank" title="浙江大学管理学院">浙江大学经济管理学院</a> 			</h6>		</div>	</li>        <li>		<em><img src="/uploads/mbachina_new/161017/bannerxd/wf.png"></em> 		<div>			<h5>				<a href="http://www.mbachina.com/html/sxyft/201612/100767.html" target="_blank" title="如何让中国的变为世界的？">如何让中国的变为世界的？</a> 			</h5>			<h6>				<a href="http://www.mbachina.com/html/sxyft/201612/100767.html" target="_blank">王帆 院长</a> 			</h6>			<h6>				<a href="http://mba.mbachina.com/index/detail/164.html" target="_blank" title="中山大学管理学院">中山大学管理学院</a> 			</h6>		</div>	</li>	<li>		<em><img src="/uploads/mbachina_new/161017/bannerxd/dwjm.jpg"></em> 		<div>			<h5>				<a href="http://www.mbachina.com/html/jsgd/201612/101095.html" target="_blank" title="“放眼全球，立足本土”">“放眼全球，立足本土”</a> 			</h5>			<h6>				<a href="http://www.mbachina.com/html/jsgd/201612/101095.html" target="_blank">王永贵 院长</a> 			</h6>			<h6>				<a href="http://mba.mbachina.com/index/detail/137.html" target="_blank" title="对外经贸国际商学院">对外经贸国际商学院</a> 			</h6>		</div>	</li></ul>
+	<script src="http://www.mbachina.com/uploads/fragment_js/99.js" language="javascript"></script><div class="examBo">     <div class="course-l fl">         <div class=""><div style="float: left; width: 587px;">             <h2 class="fl"><a href="http://www.doxue.com/special/mokao/?s=mc" target="_blank" title="万人公益大模考">万人公益大模考</a></h2>                <h3 class="ha ha_1 fl"><a href="http://www.doxue.com/course/exam" target="_blank" title="MBA备考近期直播课">MBA备考近期直播课</a></h3>                <h3 class="ha ha_2 fl"><a href="http://www.doxue.com/knowledge?s=mc" target="_blank" title="备考知识库">备考知识库</a></h3>                <h3 class="ha ha_1 fl"><a href="http://www.doxue.com/special/classis/?s=mc" target="_blank" title="公益备考课堂">公益备考课堂</a></h3></div>                <p class="looka fl">免费工具<a href="http://www.doxue.com/think_index.php?app=classroom&amp;mod=Evaluating&amp;act=index&amp;m=m?s=mc" target="_blank" title="测一测提前面试录取率">[测一测提前面试录取率]</a></p>                <p class="looka looka2 fl"><a href="http://www.mbachina.com/zt/2015/mbabkzd/#page1" target="_blank" title="查看报考流程">[查看报考流程]</a></p>            </div>                        <div class="">                <ul class="co-urse-l fl">                    <li><a href="http://www.doxue.com/course/detail/1591?s=mc" target="_blank"><span>TOP10院校</span><br>定制MBA辅导方案 </a> </li>                    <li><a href="https://www.doxue.com/course_album/detail/126?s=mc" _blank"=""><span>考前冲刺直播</span><br>明星师资，加速提分</a> </li>                    <li><a href="http://www.doxue.com/new/course_album/detail/16?s=mc" target="_blank"><span>优等生计划</span><br>备考课程销量冠军</a> </li>                    <li><a href="http://www.doxue.com/course/detail/4760?s=book&amp;mc" target="_blank"><span>MBA新教材</span><br>超级折扣，全国包邮</a> </li>                </ul>                <div class="tep-in fl">                        <p><a href="http://www.doxue.com/knowledge/detail/301?s=mc" target="_blank" style="color: #f1842b;"><strong>2018清华MBA首场宣讲会都学网深度解析</strong></a></p>                 <p><a href="http://www.doxue.com/course/watch/2296?s=mc" target="_blank">顾越：从英语题型剖析到备考方法【视频访谈】</a></p>                    <p><a href="http://www.doxue.com/baike/detail/115?s=mc" target="_blank">鹿宇明：深度解读清华、北大需要什么样的学生？</a></p>                </div>            </div>        </div>        <div class="o-right fr">         <div class="mokao-r">             <div class="pah3">                 <h3 class="linetest fl"><a href="http://tiaoji.mbachina.com/" target="_blank" title="在线申请调剂">在线申请调剂</a></h3>              <h3 class="paer fr"><a href="http://www.doxue.com/bkzl?s=mc" target="_blank" title="历年真题下载">历年真题下载</a></h3>                </div>                <div class="motip">                 <a href="http://tiaoji.mbachina.com/" target="_blank" title="2018MBA调剂中心"><span>在线调剂</span><strong>2018MBA调剂中心</strong><br>全国服务热线 400 600 9288</a>                </div>            </div>        </div>    </div>
+	<script src="http://www.mbachina.com/uploads/fragment_js/40.js" language="javascript"></script><div id="gg_tl" class="ad-t">	<div class="changeBox_a1" id="change_1">		  <div class="ads-box" style="background-image: url(http://www.mbachina.com/resources/images/1.jpg); background-position: initial initial; background-repeat: initial initial;">        <ul class="ads" style="top: -88.64183272437242px;">        <li class="item"><a href="http://www.mbachina.com/zt/2016/jinhuimba/" target="_blank" title="中山大学-香港浸会大学合作MBA项目"><img alt="中山大学-香港浸会大学合作MBA项目" src="/resources/images/3.png"></a></li>        <li class="item"><a href="http://www.mbachina.com/zt/2016/jinhuimba/" target="_blank" title="中山大学-香港浸会大学合作MBA项目"><img alt="中山大学-香港浸会大学合作MBA项目" src="/resources/images/2.png"></a></li> <li class="item"><a href="http://mba.bjtu.edu.cn//" target="_blank" title="北京交通大学 贡献商学智慧 培育领军人才 造福经济社会"><img alt="北京交通大学 贡献商学智慧 培育领军人才 造福经济社会" src="http://www.mbachina.com/uploads/20170209/20170222/20170308/1200-98北京交通大学广告.jpg"></a></li>        <li class="item"><a href="http://msw.lzu.edu.cn/" target="_blank" title="兰州大学 学习管理就是学习成功！"><img alt="兰州大学 学习管理就是学习成功！" src="http://www.mbachina.com/uploads/slide/201602/22/ld.jpg"></a></li>        <!--<li class="item" style=" display:none;"><a href="http://mba.tongji.edu.cn/index.php/news/newsdetail?id=1977" target="_blank" title="同济大学MBA港澳台12.01-12.15大热报名！"><img  alt="同济大学MBA港澳台12.01-12.15大热报名！" src="/uploads/mbachina_new/161017/tjr11.png"></a></li>        <li class="item" style=" display:none;" ><a href="http://mba.tongji.edu.cn/index.php/news/newsdetail?id=1977" target="_blank" title="同济大学MBA港澳台12.01-12.15大热报名！" ><img  alt="同济大学MBA港澳台12.01-12.15大热报名！" src="/uploads/mbachina_new/161017/tjr12.png" ></a></li>-->        </ul>    </div>	</div></div>   <style>        .ads-box{            /* margin-top: 100px; */            width: 1200px;            height: 98px;            position: relative;            overflow: hidden;            background: url(/resources/images/1.jpg);        }        .ads-box .ads{            position: absolute;            top: 0px;            left: 0;        }        .ads-box .ads .item{            width: 1200px;            height: 98px;        }    </style>
+	<script src="http://www.mbachina.com/resources/js/jquery.soChange.js" type="text/javascript"></script> 
+	<script type="text/javascript">
+	$("#change_1 .a_bigImg img").soChange();
+	</script> 
+	<!--瀑布流 begin-->
+	<div class="waterfall">
+		<ul class="wf-nav"><li class="on"><a href="http://www.mbachina.com/html/news/">最新<b></b></a></li><li><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯<b></b></a></li><li><a href="http://www.mbachina.com/html/mf/" target="_blank">MF<b></b></a></li><li><a href="http://www.mbachina.com/html/sxy/" target="_blank">商学院<b></b></a></li><li><a href="http://www.mbachina.com/html/lk/" target="_blank">联考<b></b></a></li><li><a href="http://www.mbachina.com/html/tj/" target="_blank">MBA调剂<b></b></a></li><li><a href="http://www.mbachina.com/html/mbams/" target="_blank">MBA面试<b></b></a></li><li><a href="http://www.mbachina.com/html/zyfz/" target="_blank">职业发展<b></b></a></li><li><a href="http://www.mbachina.com/emba/" target="_blank">EMBA<b></b></a></li><li><a href="http://www.mbachina.com/html/mpa/" target="_blank">MPA<b></b></a></li><li><a href="http://smba.mbachina.com/" target="_blank">SMBA<b></b></a></li><li><a href="http://www.mbachina.com/html/mem/" target="_blank">MEM<b></b></a></li></ul><ul class="wf-con"><li>
+				<h4><a href="http://www.mbachina.com/html/embatjzn/201801/116427.html" title="2018EMBA调剂有章可循 让梦想重获新生" target="_blank">2018EMBA调剂有章可循 让梦想重获新生</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/embatjzn/201801/116427.html" title="2018EMBA调剂有章可循 让梦想重获新生" target="_blank">迟一步，EMBA调剂的空缺就可能擦身而过。一些热门院校的竞争更加激烈，怎么才能先人一步，抓住调剂先机?MBA中国网专家提醒</a></p>
+				<span class="an_89"><a href="http://www.mbachina.com/emba/" target="_blank">EMBA</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/hyxw/201801/116425.html" title="教育部公布2018新增管理类专业硕士院校名单" target="_blank">教育部公布2018新增管理类专业硕士院校名单</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/hyxw/201801/116425.html" title="教育部公布2018新增管理类专业硕士院校名单" target="_blank">近日，中华人民共和国教育部发布通知，根据《博士硕士学位授权审核办法》规定，经条件复核和专家审议，现对各省（区、市）推荐的</a></p>
+				<span class="an_24"><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/mbazsxx/201801/116426.html" title="中山大学管理学院2017MBA宣传片（英文版）" target="_blank">中山大学管理学院2017MBA宣传片（英文版）</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/mbazsxx/201801/116426.html" title="中山大学管理学院2017MBA宣传片（英文版）" target="_blank">融汇中西管理智慧 培养创业创新精神，践行服务社会责任 作育商界管理精英。中山大学管理学院2017MBA宣传片（英文版）！</a></p>
+				<span class="an_32"><a href="http://www.mbachina.com/html/sxy/" target="_blank">商学院</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/hyxw/201801/116424.html" title="教育部公布11所新增MBA院校名单" target="_blank">教育部公布11所新增MBA院校名单</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/hyxw/201801/116424.html" title="教育部公布11所新增MBA院校名单" target="_blank">近日，中华人民共和国教育部发布通知，根据《博士硕士学位授权审核办法》规定，经条件复核和专家审议，现对各省（区、市）推荐的</a></p>
+				<span class="an_24"><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/sxyxw/201801/116422.html" title="MBA关注：如何实现中国商学院的大发展？吴晓波教授这样说 " target="_blank">MBA关注：如何实现中国商学院的大发展？吴晓波教授这样说 </a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/sxyxw/201801/116422.html" title="MBA关注：如何实现中国商学院的大发展？吴晓波教授这样说 " target="_blank">2014年浙大管院带领学生、校友组成考察团，对“一带一路”沿线国家及相关机构进行走访考察，并于2016年6月，率先加入CEEMAN</a></p>
+				<span class="an_24"><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/lkxw/201801/116421.html" title="为什么2018管理类联考分数多半会上涨？ " target="_blank">为什么2018管理类联考分数多半会上涨？ </a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/lkxw/201801/116421.html" title="为什么2018管理类联考分数多半会上涨？ " target="_blank">大家都对2018年的分数线涨势有所推测。究竟如何分析更加客观、靠谱呢?MBAChina小编为大家综合了多方数据，为你呈上了有数据支</a></p>
+				<span class="an_24"><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/mbazsxx/201801/116420.html" title="两广地区MBA院校2017-2018学费对比 " target="_blank">两广地区MBA院校2017-2018学费对比 </a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/mbazsxx/201801/116420.html" title="两广地区MBA院校2017-2018学费对比 " target="_blank">广东和广西，合称两广，有着悠久的历史渊源和深厚的历史根基，古时同属岭南地区。而且，在地名的命名上，广东因广西而生，广西也</a></p>
+				<span class="an_32"><a href="http://www.mbachina.com/html/sxy/" target="_blank">商学院</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/zx/201801/116416.html" title="在选择读MBA之前，你对“它”了解吗？" target="_blank">在选择读MBA之前，你对“它”了解吗？</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/zx/201801/116416.html" title="在选择读MBA之前，你对“它”了解吗？" target="_blank">工商管理硕士（MBA）是一种专业硕士学位，培养能够胜任工商企业和经济管理部门高层管理工作需要的务实型、复合型和应用型高层</a></p>
+				<span class="an_23"><a href="http://www.mbachina.com/html/news/" target="_blank">新闻中心</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/tjzx/201801/116415.html" title="MBA满员你会调剂到EMBA吗？ " target="_blank">MBA满员你会调剂到EMBA吗？ </a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/tjzx/201801/116415.html" title="MBA满员你会调剂到EMBA吗？ " target="_blank">MBA，调剂到EMBA，这是很多年纪不算年轻，工作阅历丰富，不在乎学费的考生，可以享受的渠道。很多院校调剂信息都注明可以</a></p>
+				<span class="an_24"><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/MBAlkjy/201801/116414.html" title="MBA复试：英语面试 意想不到的技巧 " target="_blank">MBA复试：英语面试 意想不到的技巧 </a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/MBAlkjy/201801/116414.html" title="MBA复试：英语面试 意想不到的技巧 " target="_blank">在MBA复试的英语面试阶段，一些对考生英语能力要求较高的院校会在要求考生做自我介绍、问一些常规问题之后，要求考生就一些独</a></p>
+				<span class="an_58"><a href="http://www.mbachina.com/html/lk/" target="_blank">联考</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/tiaojizn/201801/116413.html" title="调剂干货丨如何调剂到一个比较好的学校？" target="_blank">调剂干货丨如何调剂到一个比较好的学校？</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/tiaojizn/201801/116413.html" title="调剂干货丨如何调剂到一个比较好的学校？" target="_blank">对于分数排名边缘化或已无可能复试的考生，多数想要通过调剂的方式圆自己一个研究生梦，但是很多人对于调剂有个误区，觉得调剂的</a></p>
+				<span class="an_64"><a href="http://www.mbachina.com/html/tj/" target="_blank">MBA调剂</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/MBAlkjy/201801/116412.html" title="快速缓解2018MBA复试紧张感的三种措施" target="_blank">快速缓解2018MBA复试紧张感的三种措施</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/MBAlkjy/201801/116412.html" title="快速缓解2018MBA复试紧张感的三种措施" target="_blank">2018全国研究生初试已于12月24日正式结束，初试成绩预计2月上旬陆续公布，而2018考研复试分数线一般在3月中旬左右发布，建议考生</a></p>
+				<span class="an_58"><a href="http://www.mbachina.com/html/lk/" target="_blank">联考</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/jsgd/201801/116419.html" title="窦军生：浙大MBA的“非一般”课程创新｜媒体聚焦" target="_blank">窦军生：浙大MBA的“非一般”课程创新｜媒体聚焦</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/jsgd/201801/116419.html" title="窦军生：浙大MBA的“非一般”课程创新｜媒体聚焦" target="_blank">第五届腾讯网商学院发展论坛于12月13号在北京新云南皇冠假日酒店成功举办。本届商学院发展论坛以“双一流商科思辨，智启菁英未来</a></p>
+				<span class="an_32"><a href="http://www.mbachina.com/html/sxy/" target="_blank">商学院</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/jzlt/201801/116411.html" title="回顾 | 2018'南京大学商学院新年论坛圆满落幕" target="_blank">回顾 | 2018'南京大学商学院新年论坛圆满落幕</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/jzlt/201801/116411.html" title="回顾 | 2018'南京大学商学院新年论坛圆满落幕" target="_blank">一元复始，万象更新。1月7日，2018’南京大学商学院新年论坛于商学院安中楼鸿意报告厅隆重举行，论坛以“新时代　新思想　新征程</a></p>
+				<span class="an_32"><a href="http://www.mbachina.com/html/sxy/" target="_blank">商学院</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/lkxw/201801/116408.html" title="全国各院校2018MEM复试/调剂活动汇总（更新中）" target="_blank">全国各院校2018MEM复试/调剂活动汇总（更新中）</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/lkxw/201801/116408.html" title="全国各院校2018MEM复试/调剂活动汇总（更新中）" target="_blank">2018年全国各院校mem复试调剂活动信息汇总,为您提供全国mem复试调剂信息,mem复试调剂时间,MEM复试调剂院校,mem复试材</a></p>
+				<span class="an_24"><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/tj/201801/116410.html" title="怎样度过“1月”调剂储备期" target="_blank">怎样度过“1月”调剂储备期</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/tj/201801/116410.html" title="怎样度过“1月”调剂储备期" target="_blank">考研已经过去一段时间，虽然最终的成绩还没有出来，但考生对自己的情况最为了解，而且通过对比答案，考生对自己的成绩也应当做到</a></p>
+				<span class="an_23"><a href="http://www.mbachina.com/html/news/" target="_blank">新闻中心</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/jsgd/201801/116409.html" title="陈春花：新时代的营商环境更需要企业家守正创新" target="_blank">陈春花：新时代的营商环境更需要企业家守正创新</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/jsgd/201801/116409.html" title="陈春花：新时代的营商环境更需要企业家守正创新" target="_blank">北大国家发展研究院举办第二届国家发展论坛，本届论坛的主题为“国家发展进程中的改革开放”暨“纪念中国改革开放40周年”系列活</a></p>
+				<span class="an_32"><a href="http://www.mbachina.com/html/sxy/" target="_blank">商学院</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/sxyxw/201801/116406.html" title="20余所高校管理学院院长在沪探讨MBA、EMBA教育模式创新" target="_blank">20余所高校管理学院院长在沪探讨MBA、EMBA教育模式创新</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/sxyxw/201801/116406.html" title="20余所高校管理学院院长在沪探讨MBA、EMBA教育模式创新" target="_blank">第三届中国行动学习论坛暨管理学院院长论坛近日在华东理工大学召开。来自全国 20余所高校的管理学院纷纷列席本次论坛，聚焦VUC</a></p>
+				<span class="an_24"><a href="http://www.mbachina.com/html/zx/" target="_blank">资讯</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/embatjzn/201801/116405.html" title="2018年EMBA调剂流程及注意事项公告" target="_blank">2018年EMBA调剂流程及注意事项公告</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/embatjzn/201801/116405.html" title="2018年EMBA调剂流程及注意事项公告" target="_blank">EMBA全国统一考试笔试成绩将在2月中旬公布，3月份各大EMBA招生院校陆续开始EMBA调剂工作。下面是小编为大家整理的E</a></p>
+				<span class="an_89"><a href="http://www.mbachina.com/emba/" target="_blank">EMBA</a></span>
+			</li><li>
+				<h4><a href="http://www.mbachina.com/html/tiaojifw/201801/116407.html" title="2018年MBA预调剂报名：青岛大学" target="_blank">2018年MBA预调剂报名：青岛大学</a></h4>                                    
+				<p style="word-break:break-all;"><a href="http://www.mbachina.com/html/tiaojifw/201801/116407.html" title="2018年MBA预调剂报名：青岛大学" target="_blank">关于调剂，在研究生招生工作中，由于招生计划的限制，有些考生虽然达到分数线，但并不能被安排复试，或参加复试后并不能被录取，</a></p>
+				<span class="an_64"><a href="http://www.mbachina.com/html/tj/" target="_blank">MBA调剂</a></span>
+			</li></ul>
+		<div class="ad-t2"><p>	<a href="http://clgo.sjtu.edu.cn/" target="_blank" title="上海交大与MIT合力打造，运营行业最佳定制MBA"><img src="http://www.mbachina.com/uploads/090525/jiaoda.jpg"><span>推广</span></a> </p><p>	<a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂服务中心"><img src="http://www.mbachina.com/uploads/090525/192x260.png"><span>推广</span> </a> </p><p>	<a href="https://www.doxue.com/course/detail/5887?utm_source=utm_source%3Dnews&amp;utm_medium=utm_medium%3D51" target="_blank" title="管理类联考复试调剂公开课"><img src="http://2015.mbachina.com/uploads/yxk/201707/21/2--192-260.png"><span>推广</span> </a> </p><p>	<a href="http://www.mbachina.com/zt/2017/mbazjuCKB/" target="_blank" title="中欧国际工商学院MBA"><img src="http://2015.mbachina.com/uploads/090525/zd.jpg"><span>推广</span> </a> </p><p>	<a href="http://clgo.sjtu.edu.cn/" target="_blank" title="上海交大与MIT合力打造，运营行业最佳定制MBA"><img src="http://www.mbachina.com/uploads/090525/jiaoda.jpg"><span>推广</span></a> </p></div>
+		<div style="display:none;" id="adimgs">
+			<script src="http://www.mbachina.com/uploads/fragment_js/26.js" language="javascript"></script><p>	<a href="http://clgo.sjtu.edu.cn/" target="_blank" title="上海交大与MIT合力打造，运营行业最佳定制MBA"><img src="http://www.mbachina.com/uploads/090525/jiaoda.jpg"><span>推广</span></a> </p><p>	<a href="http://tiaoji.mbachina.com/" target="_blank" title="2018全国调剂服务中心"><img src="http://www.mbachina.com/uploads/090525/192x260.png"><span>推广</span> </a> </p><p>	<a href="https://www.doxue.com/course/detail/5887?utm_source=utm_source%3Dnews&amp;utm_medium=utm_medium%3D51" target="_blank" title="管理类联考复试调剂公开课"><img src="http://2015.mbachina.com/uploads/yxk/201707/21/2--192-260.png"><span>推广</span> </a> </p><p>	<a href="http://www.mbachina.com/zt/2017/mbazjuCKB/" target="_blank" title="中欧国际工商学院MBA"><img src="http://2015.mbachina.com/uploads/090525/zd.jpg"><span>推广</span> </a> </p>
+		</div>
+	</div>
+	<!--瀑布流 end-->
+	<div class="clearfix"></div>
+</div>
+<div class="school_db" style="display:none;">
+    <span class="headers">院校对比</span>
+    <ul id="duibi"></ul>
+    <span class="cz">
+        <a href="javascript:void(0)" onclick="list_db_check()"><img src="http://www.mbachina.com/resources/images/start_db.gif" width="69" height="23"></a>
+        <a href="javascript:void(0)" onclick="list_db_empty()"><img src="http://www.mbachina.com/resources/images/qk.gif" width="52" height="23"></a>
+    </span>
+    <div class="blank10"></div>
+    <span class="bot"></span>
+</div>
+<script type="text/javascript" src="http://www.mbachina.com/resources/js/cookie.js"></script>
+<script type="text/javascript">
+<!--
+	var sign = 0;
+	var len = 5;
+	var child = $("#adimgs").find("p");
+	$(function(){
+		var wordlist = $("#wordlist").find("a");
+		$(".rd").find("li").each(function(i){
+			$(this).append(wordlist.eq(i).clone());
+		});
+		$(".ad-t2").empty();
+		ad_pend();
+	
+		//ip定位
+		var ipstate = false;
+		$.ajax({ 
+			url:"http://api.go2map.com/engine/api/ipcity/json?cb=?", 
+			dataType:"json", 
+			success:function(data,status){ 
+				if(data.status == "ok"){
+					$(".area-nav").find("li").each(function(){
+						if($(this).children("a").html() == data.response.city){
+							ipstate = true;
+							$(this).addClass("hver").siblings().removeClass("hver");
+							index = $(".area-nav li").index(this);
+							$("#cb >div").eq(index).show().siblings().hide();
+							$("#gpfe >div").eq(index).show().siblings().hide();
+						}
+					});
+				}
+			}
+		});
+		if(!ipstate){
+			$(".area-nav").find("li").eq(0).addClass("hver");
+		}
+	});
+	function ad_pend(){
+		var width = $(".wrapin").width();
+		if(width == 1200){
+			len = 4;
+		}
+		
+		for(var i=0; i<len; i++){
+			var cur = sign;
+			if(sign >= child.length){
+				cur = sign%child.length;
+			}
+			$(".ad-t2").append(child.eq(cur).clone());
+			sign = parseInt(cur + 1);
+		}
+	}
+//删除对比
+function delschoolid(sid){
+	var newsids = "";
+	var sids = Cookie.get("sid");
+	var sidarr = sids.split(",");
+	if (sidarr.length > 0) {
+		for (var i = 0; i < sidarr.length; i++) {
+			if (sidarr[i] != sid) {
+				if (newsids == "") {
+					newsids = sidarr[i]
+				} else {
+					newsids = newsids + "," + sidarr[i]
+				}
+			}
+		}
+	}
+	Cookie.set("sid", newsids, 259200);
+	if (newsids == "") {
+		$("#duibi").html("<li><em>未添加对比</em></li>")
+	} else {
+		$("#schoolid" + sid).remove()
+	}
+}
+function list_db(sid,sname){
+	$(".school_db").show();
+	var flag = true;  
+	var sids = Cookie.get("sid");
+	var str= '<span id=schoolid'+sid+'><li ><em><a href="http://mba.mbachina.com/index/detail/'+sid+'.html" target="_blank">'+sname.substring(0,7)+'</a> <a href="javascript:void(0)" onclick="delschoolid('+sid+')"><img src="http://www.mbachina.com/resources/images/closed.gif"/></a></em></li></span>';                                                                 
+	if(sids){
+		var arr = sids.split(",");
+		if(arr.length > 0){
+			for(var i=0;i<arr.length;i++){
+				if(arr[i] == sid){
+					flag = false;
+				}
+			}
+			if(arr.length > 3){
+				alert("你已经选择四个学校对比了！");
+			}else{   
+				if(!flag){
+					alert("该学校已在对比中！");
+				}else{   
+					$("#duibi").append(str);
+					var newsids = sids + "," + sid;
+					Cookie.set("sid", newsids, 259200); 
+				}
+			}   
+		}else{
+			$("#duibi").html(str);
+			Cookie.set("sid", sid, 259200);
+		}
+	}else{
+		$("#duibi").html(str);
+		Cookie.set("sid", sid, 259200);
+	} 
+}
+//开始对比
+function list_db_check(){
+    var sids = Cookie.get("sid");
+    if(sids == null){
+        alert("请您点击想要对比的院校进入院校页面，然后点击“加入对比”（在线报名服务中心左上角），两个以上的院校才能进行对比哦！");
+    }else{
+		var arr= sids.split(",");
+        if(arr.length > 1){
+			window.open ("http://mba.mbachina.com/index/contrast?sids="+sids);
+        }else{
+			alert("至少要选择2个学校，才能对比！");   
+		}
+	}
+}
+function list_db_empty(){
+	$(".school_db ul").html("<li><em>未添加对比</em></li>");
+    Cookie.set("sid", ""); 
+}
+//-->
+</script>
+<div class="wrap-ececec"> 
+    <!--四个服务 begin-->
+    <ul class="sev">
+        <li>
+			<a href="http://www.mbachina.com/zt/2014/yjzwzt/" target="_blank">
+				<em class="ema"><img src="http://www.mbachina.com/resources/images/f-ic1.png"></em>
+				<em class="em-h"><img src="http://www.mbachina.com/resources/images/f-ic1-h.png"></em>
+				<h5>有奖征稿 最高3000元</h5>
+			</a>
+			<p>010-53572271</p>
+			<p><a href="mailto:zhangyu@mbachina.com">zhangyu@mbachina.com</a></p>
+		</li>
+		<li>
+			<a href="http://bm.mbachina.com/" target="_blank">
+				<em class="ema"><img src="http://www.mbachina.com/resources/images/f-ic2.png"></em>
+				<em class="em-h"><img src="http://www.mbachina.com/resources/images/f-ic2-h.png"></em>
+				<h5>学员服务中心</h5>
+			</a>
+			<p>400-600-9288</p>
+			<p><a href="mailto:bm@mbachina.com">bm@mbachina.com</a></p>
+		</li>
+		<li>
+			<a href="http://www.mbachina.com/about/server.html">
+				<em class="ema"><img src="http://www.mbachina.com/resources/images/f-ic3.png"></em>
+				<em class="em-h"><img src="http://www.mbachina.com/resources/images/f-ic3-h.png"></em>
+				<h5>商学院服务中心</h5>
+			</a>
+			<p>010-53572271 / 59496371 </p>
+			<p>010-57255750 / 57277590 </p>
+			<p><a href="mailto:wangpeng@mbachina.com">wangpeng@mbachina.com</a></p>
+		</li>
+		<li class="li4">
+			<a href="http://www.mbachina.com/special/" target="_blank">
+				<em class="ema"><img src="http://www.mbachina.com/resources/images/f-ic4.png"></em>
+				<em class="em-h"><img src="http://www.mbachina.com/resources/images/f-ic4-h.png"></em>
+				<h5>主题论坛</h5>
+			</a>
+			<script src="http://www.mbachina.com/uploads/fragment_js/10.js" language="javascript"></script><p>	<a target="_blank" href="http://www.mbachina.com/zt/2016/zsltzt_hh/" title="MBA招生经验分享主题论坛">MBA招生经验分享主题论坛</a> </p><p>	<a target="_blank" href="http://www.doxue.com/special/album/1/" title="管理类联考在线辅导课程">管理类联考在线辅导课程</a> </p>
+		</li>
+    </ul>
+    <!--四个服务 end--> 
+</div><div class="foot-link">   
+    <div class="links-box">
+        <h4><a href="http://www.mbachina.com/plus/flink.php" target="_blank">友情链接</a></h4>
+        <div class="links-collge">
+            <a href="http://biz.163.com/bschool/" target="_blank" title="网易商学院">网易商学院</a>
+            <a href="http://www.sharewithu.com" target="_blank" title="尚友留学论坛">尚友留学论坛</a>
+            <a href="http://www.doxue.com" target="_blank" title="都学网">都学网</a>
+            <a href="http://www.zyxw.cn/" target="_blank" title="专业学位网">专业学位网</a>
+           <a href="http://kuaiji.doxue.com/" target="_blank" title="都学网会计学院">都学网会计学院</a>
+           <a href="http://www.mbajyz.cn/" target="_blank" title="MBA加油站">MBA加油站</a>
+           <a href="http://jiaoyu.huangye88.com/" target="_blank" title="中国教育网">中国教育网</a>
+           <a href="http://www.kaoyan365.cn/" target="_blank" title="考研辅导班">考研辅导班</a>
+           <a href="http://www.zzyjs.com/" target="_blank" title="在职研究生">在职研究生</a>            
+           <a href="http://www.vipabc.com/" target="_blank" title="英语培训机构">英语培训机构</a>
+           <a href="http://www.zzyedu.org/" target="_blank" title="在职研究生">在职研究生</a>
+           <a href="http://zhiyeguihua.yjbys.com/" target="_blank" title="职业规划">职业规划</a>
+           <a href="http://www.shichangbu.com/" target="_blank" title="市场部网">市场部网</a>
+           <a href="http://bbs.zhan.com/" target="_blank" title="留学论坛">留学论坛</a>  
+                 
+           <a href="http://www.taisha.org/" target="_blank" title="美国留学">美国留学</a>        
+           <a href="http://www.wenduedu.com/" target="_blank" title="文都考研">文都考研</a>         
+           <a href="http://www.bosidata.com/" target="_blank" title="博思网">博思网</a>
+           <a href="http://www.mbacn.edu.cn/" rel="nofollow" target="_blank" title="全国MBA教育指导委员会">全国MBA教育指导委员会</a>
+           <a href="http://www.eduei.com" target="_blank" title="在职研究生">在职研究生</a>
+           <a href="http://sz.xdf.cn/" target="_blank" title="雅思一对一">雅思一对一</a>
+           <a href="http://mpacc.mbachina.com/index" target="_blank" title="MPAcc院校库">MPAcc院校库</a>
+           <a href="http://mem.mbachina.com" target="_blank" title="MEM院校库">MEM院校库</a>
+           <a href="http://mpa.mbachina.com" target="_blank" title="MPA院校库">MPA院校库</a>
+           <a href="http://www.topqikan.com" target="_blank" title="职称论文发表">职称论文发表</a>
+           <a href="http://tantuw.com/ " target="_blank" title="坦途教育网">坦途教育网</a>
+           <a href="http://hao.360.cn/" target="_blank">360导航</a>
+            <a href="http://se.360.cn/" target="_blank">360安全浏览器</a>
+           <a href="http://www.yanedu.com/" target="_blank" title="在职研究生">在职研究生</a>  
+        </div>
+    </div>
+</div><!--footer-->
+<div class="footer">
+	<p> <a rel="nofollow" target="_blank" class="c6" href="/about/index.html">关于我们</a> - <a rel="nofollow" target="_blank" class="c6" href="/about/mbachina.html">公司简介</a> - <a rel="nofollow" target="_blank" class="c6" href="/about/hr.html">招聘信息</a> - <a rel="nofollow" target="_blank" class="c6" href="/about/kefu.html">客户服务</a>- <a rel="nofollow" target="_blank" class="c6" href="/about/law.html">法律声明</a> - <a rel="nofollow" target="_blank" class="c6" href="/about/crop.html">联系方法</a> - <a rel="nofollow" target="_blank" class="c6" href="/data/sitemap.html">网站地图</a> </p>
+	<p>电信业务审批[2009]字第146号&nbsp;&nbsp;电信与信息服务业务经营许可证090237号&nbsp;&nbsp;京公网安备11010802008673号</p>
+	<p>Copyright  2010-2018,mbachina.com Inc. &nbsp;&nbsp;All Rights Reserved MBA中国网 版权所有 </p>
+	<p><span>版权保护法律顾问：<a class="c6" target="_blank" href="http://www.huixue.org.cn">北京慧学律师事务所</a></span>-<span>转载须注明来源：<a target="_blank" class="c6" href="http://www.mbachina.com">MBA中国网</a></span></p>
+</div>
+<div style="display:none">
+	<script type="text/javascript">
+		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff32f93fde409792bf8eb50545077d14d' type='text/javascript'%3E%3C/script%3E"));
+	</script><script src=" http://hm.baidu.com/h.js?f32f93fde409792bf8eb50545077d14d" type="text/javascript"></script><a href="http://tongji.baidu.com/hm-web/welcome/ico?s=f32f93fde409792bf8eb50545077d14d" target="_blank"><img border="0" src="http://eiv.baidu.com/hmt/icon/21.gif" width="20" height="20"></a>
+	<script src="http://s99.cnzz.com/stat.php?id=1408427&amp;web_id=1408427" language="JavaScript" charset="gb2312"></script><script src="http://c.cnzz.com/core.php?web_id=1408427&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1408427" target="_blank" title="站长统计">站长统计</a>
+</div>
+<div class="s_suspend">
+	<a href="http://wenda.mbachina.com/topic/意见反馈" class="fankui" target="_blank" title="意见反馈"></a>
+	<a href="http://www.mbachina.com/app/" rel="nofollow" target="_blank" class="appdown" title="APP下载"></a>
+	<a href="http://weibo.com/mbachinav" rel="nofollow" target="_blank" class="wbo" title="微博" style="background:url(http://www.mbachina.com/resources/images/wibo.jpg);"></a>
+    <a href="javascript:;" target="_blank" rel="nofollow" class="wxin" title="微信" style="background:url(http://www.mbachina.com/resources/images/wxin.jpg); position:relative;">
+		<img src="http://www.mbachina.com/resources/images/erweima.png">
+	</a>
+	<a href="javascript:;" class="go_top" title="返回顶部"></a>
+	<style type="text/css">
+		.wxin img{ position:absolute; right:-150px; bottom:0;transition:all 0.5s ease-in-out 0.1s;}
+		.wxin:hover img{right:55px;}
+	</style>
+</div>
+
+</body></html>

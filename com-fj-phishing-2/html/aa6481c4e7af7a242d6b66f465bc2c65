@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+		<base href="http://zf.crv.com.cn:80/">
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<title>IM客服平台</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<style type="text/css">
+		body {
+			margin-left: 0px;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			background-color: #E1F1FF;
+		}
+		</style>
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="dwr/engine.js"></script>
+		<script type="text/javascript" src="dwr/util.js"></script>
+		<script type="text/javascript" src="dwr/interface/districtServiceImpl.js"></script>
+		<script type="text/javascript" src="dwr/interface/dictServiceImpl.js"></script>
+		<script type="text/javascript" src="http://zf.crv.com.cn:80/js/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://zf.crv.com.cn:80/js/jQuery.md5.js"></script>
+		<script language="javascript">
+    
+
+   </script>
+		<script language="javascript">
+     
+
+	function getCityList(sef) 
+	{
+		var provId = sef.options[sef.selectedIndex].value;
+		dwr.engine.setAsync(false);
+		districtServiceImpl.findCitysByProvId(provId, doData);
+	}
+	function doData(data) 
+	{
+		if (data == null) 
+		{
+			alert("查询城市失败");
+			return false;
+		}
+		var provId = document.getElementById("provId").value;
+		document.forms[0].cityId.options.length = 0;
+		document.forms[0].cityId.options[0] = new Option("---请选择---", provId);
+		document.forms[0].cityId.options[0].selected = true;
+		for ( var i = 0; i < data.length; i++) {
+			document.forms[0].cityId.options[i + 1] = new Option(data[i].name,
+					data[i].id);
+		}
+	}
+	
+	function check()
+	{
+		var loginName = document.getElementById("loginName").value;
+		//var hostTel = document.getElementById("hostTel").value;
+		if(/^\s*$/g.test(loginName) )
+		{
+			alert("登录名不能为空!");
+			return false;
+		}
+		//if(/^\s*$/g.test(hostTel) )
+		//{
+		//	alert("请选择一个接入号码!");
+		//	return false;
+		//}
+		var failCount = document.getElementById('failCount').value;
+		if(failCount > 0)
+		{
+			var loginCodeRand = document.getElementById('loginCodeRand').value;
+			if(/^\s*$/g.test(loginCodeRand) || loginCodeRand.length != 4 || loginCodeRand == '照此输入')
+			{
+				alert("验证码不能为空或小于4位！");
+				document.getElementById('loginCodeRand').focus();
+				return false;
+			}
+		}
+
+		var pwd = document.getElementsByName("pwd")[0].value;
+		document.getElementsByName("pwd")[0].value = $.md5(pwd);
+		document.loginForm.submit();
+	}
+	
+	function showLoginCodeRand()
+	{
+		var img = document.getElementById('loginCodeImage');
+		img.src = "img/transparent.gif";
+		img.src = "image.jsp";
+	}
+	
+	
+   </script>
+   <script type="text/javascript">
+       //if (top.location != self.location){
+	   //    top.location="http://"+top.location.host + "/" + '';
+       //}
+       
+       if ('' == "logout") {
+    	   top.location="http://"+top.location.host + "/" + '';
+       }
+
+       if(window.top!=window.self){//存在父页面
+ 			top.location=window.location;
+ 		}
+   </script>
+  	
+	</head>
+
+	<body onload="document.getElementById('loginName').focus();">
+		<script type="text/javascript"> 
+    document.onkeypress = keyPress;
+	function keyPress(e){
+		var currKey=0,e=e||event;
+		currKey=e.keyCode||e.which||e.charCode;
+		if (currKey==13) 
+		{ 
+			check();
+		} 
+	}
+</script>
+
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" background="img/br_im01.gif">
+			<form name="loginForm" method="post" action="saasLogin!salogin.action?nowTime=1528100361510"></form>
+				<input type="hidden" id="failCount" name="failCount" value="0">
+				<input type="hidden" id="hostTel" name="hostTel" value="">
+				<input type="hidden" id="loginSign" name="loginSign" value="">
+			<tbody><tr>
+				<td height="500" valign="top">
+					<table width="1001" border="0" align="center" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td>
+								&nbsp;
+							</td>
+							<td height="192" background="img/br_im02.gif">
+								&nbsp;
+							</td>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td width="246" height="308" background="img/br_im03.gif">
+								&nbsp;
+							</td>
+							<td valign="top" background="img/br_im05.gif">
+								<table width="100%" border="0" cellpadding="0" cellspacing="0" class="im_01">
+									<tbody><tr>
+										<td height="95" colspan="3">
+											&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<td width="155" height="30" align="right">
+											账号：
+										</td>
+										<td width="160">
+											<input id="loginName" name="loginName" value="" type="text" placeholder=" 工号@企业标识符 " class="im_02" size="23" tabindex="2">
+										</td>
+										<td rowspan="3" valign="top">
+											<table width="100" border="0" cellspacing="0" cellpadding="0">
+												<tbody><tr>
+													<td height="3">
+														<img src="img/transparent.gif" width="1" height="1" onclick="return check()">
+													</td>
+												</tr>
+											</tbody></table>
+											<input name="login_btn" type="button" class="login" value="" onclick="return check()" tabindex="5">
+										</td>
+									</tr>
+									<tr>
+										<td height="30" align="right">
+											密码：
+										</td>
+										<td>
+											<input name="pwd" type="password" value="" class="im_02" size="23" tabindex="3">
+												<br>
+											<a style="color: #CFEDFF" href="http://zf.crv.com.cn:80/jsp/account/send_reset_password_email.jsp">忘记密码？</a>
+										</td>
+									</tr>
+									
+								</tbody></table>
+							</td>
+							<td width="246" background="img/br_im04.gif">
+								&nbsp;
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+			</tr>
+			
+		</tbody></table>
+	
+
+
+</body></html>

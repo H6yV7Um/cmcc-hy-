@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>如意彩票娱乐城上网导航</title>
+<meta name="keywords" content="如意彩票,上网导航">
+<meta name="description" content="如意彩票娱乐城上网导航">
+<link rel="shortcut icon" href="./images/logo2.png">
+<link rel="bookmark" href="./images/logo2.png">
+
+<link type="text/css" rel="stylesheet" href="./images/style.css">
+<script type="text/javascript">
+ // 设置为主页
+function SetHome(obj,vrl){
+ try{
+ obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+ } catch(e){
+ if(window.netscape) {
+ try {
+ netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+ }
+ catch (e) {
+ alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+ }
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+ prefs.setCharPref('browser.startup.homepage',vrl);
+ }else{
+ alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+ }
+ }
+ }
+ // 加入收藏 兼容360和IE6
+ function shoucang(sTitle,sURL)
+ {
+ try
+ {
+ window.external.addFavorite(sURL, sTitle);
+ }
+ catch (e)
+ {
+ try
+ {
+ window.sidebar.addPanel(sTitle, sURL, "");
+ }
+ catch (e)
+ {
+ alert("加入收藏失败，请使用Ctrl+D进行添加");
+ }
+ }
+ }
+ 
+ </script><script>
+function addFavorite2(){
+    if (document.all){
+        try{
+            window.external.addFavorite(window.location.href,document.title);
+        }catch(e){
+            alert( "加入收藏失败，请使用Ctrl+D进行添加" );
+        }
+        
+    }else if (window.sidebar){
+        window.sidebar.addPanel(document.title, window.location.href, "");
+     }else{
+        alert( "加入收藏失败，请使用Ctrl+D进行添加" );
+    }
+}
+
+</script>
+ <style type="text/css">
+<!--
+.STYLE6 {color: #FF0000}
+.STYLE7 {color: #0000FF}
+-->
+ </style>
+ </head>
+<!-- 设为主页 开始-->
+
+
+
+<!-- 加入收藏夹 -->
+
+<body>
+
+<!-- Copyright   2005. Spidersoft Ltd -->
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+
+<div class="header">
+<div class="top">
+<div class="logo"></div>
+<!-- 
+<a class="tel" href="http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html" title="在线客服" target="_blank"></a>http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html-->
+<a class="tel" href="javascript:void(0);" title="在线客服" onclick="javascript:window.open('http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html','newwindow','width=760,height=760')"></a>
+<div class="sethome">
+
+<!-- 设置为主页 -->
+<!--<script>
+if(navigator.userAgent.indexOf("MSIE")>0) {
+	document.write("<a onclick=this.style.behavior='url(#default#homepage)';this.setHomePage('http://80999.com');><font color=#F7B95E>设为首页</font></a>|"
++"<a href=javascript:addFavorite2()><font color=#F7B95E>加入收藏</font></a>");
+}else if(isCamino=navigator.userAgent.indexOf("Chrome")>0){
+	document.write("<a href=javascript:void(0) onclick=SetHome(this,window.location)><font color='#F7B95E'>设为首页</font></a>|<a href=javascript:void(0) 						onclick=shoucang(document.title,window.location)><font color='#F7B95E'>加入收藏</font></a>");
+}else{
+	document.write("<a href=javascript:void(0) onclick=SetHome(this,window.location)><font color='#F7B95E'>设为首页</font></a>|<a href=javascript:void(0) onclick=shoucang(document.title,window.location)><font color='#F7B95E'>加入收藏</font></a>");
+
+}
+</script>
+-->
+<a href="javascript:void(0)" onclick="SetHome(this,window.location)"><font color="#F7B95E">设为首页</font></a>|<a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"><font color="#F7B95E">加入收藏</font></a>
+<!-- 设为主页 结束-->
+</div>
+</div>
+</div>
+<div class="wrap">
+<div class="center">
+<div class="big_tit">
+  <h2 style="width: 158px; height: 48px; float: left; color: #FFF; font-weight: bold; text-align: center; font-size: 18px;">如意彩票-帮助中心</h2>
+  <div style="width:795px;border:1px solid #ccc;float:left;background:#f7f7f7;">
+<a target="_blank" href="http://www.rycp0.com/">
+<div style="color:#02468D;align:right;width:120px;height:48px;float:left;line-height:48px;text-align:center;">最新网址导航：</div>
+</a>
+<div style="width:670px;height:48px;float:left;">
+
+<div style="width:95px;height:48px;float:left;line-height:48px;text-align:center;"><a target="_blank" href="http://www.rycp0.com/"><span class="STYLE6">rycp0.com</span><font color="#FF0000">｜</font></a></div>
+<div style="width:95px;height:48px;float:left;line-height:48px;text-align:center;"><a target="_blank" href="http://www.rycp1.com/"><span class="STYLE7">
+	<font color="#FF0000">rycp1.com</font></span><font color="#FF0000">｜</font></a></div>
+<div style="width:95px;height:48px;float:left;line-height:48px;text-align:center;"><a target="_blank" href="http://www.rycp2.com/"><span class="STYLE7">
+	<font color="#FF0000">rycp2.com</font></span><font color="#FF0000">｜</font></a></div>
+<div style="width:95px;height:48px;float:left;line-height:48px;text-align:center;"><a target="_blank" href="http://www.rycp3.com/"><span class="STYLE7">
+	<font color="#FF0000">rycp3.com</font></span><font color="#FF0000">｜</font></a></div>
+<div style="width:95px;height:48px;float:left;line-height:48px;text-align:center;"><a target="_blank" href="http://www.rycp4.com/"><span class="STYLE7">
+	<font color="#FF0000">rycp4.com</font></span><font color="#FF0000">｜</font></a></div>
+<div style="width:95px;height:48px;float:left;line-height:48px;text-align:center;"><a target="_blank" href="http://www.rycp5.com/"><span class="STYLE7">
+	<font color="#FF0000">rycp5.com</font></span><font color="#FF0000">｜</font></a></div>
+
+<div style="width:95px;height:48px;float:left;line-height:48px;text-align:center;"><a href="http://rycp6.com/" target="_blank" class="STYLE6">rycp6.com</a></div>
+
+</div></div>
+
+<div class="clear"></div></div>
+
+
+
+
+
+<div class="nav_box">
+<ul>
+
+<li><b><a class="nav_li" target="_blank" href="http://pb88.ac101.net/ub/cur/UB-Launcher.exe/"><em>
+<font color="#FFF" size="4">环宇浏览器</font></em></a></b></li>
+<li>
+<b>
+<a class="nav_li" target="_blank" href="http://www.google.cn/intl/zh-CN/chrome/browser/thankyou.html?statcb=1&amp;installdataindex=defaultbrowser"><em>
+<font color="#FFF" size="4">谷歌浏览器</font></em></a></b></li>
+<li><b><a href="http://dl.2345.com/2345explorer/2345Explorer_Setup_V8.5.1_bd.exe " class="nav_li" target="_blank"><em>
+<font color="#FFF" size="4">2345浏览器</font></em></a></b></li>
+<li><b><a href="http://download.theworld.cn/ver/TWInst_6.2.0.128.exe" class="nav_li" target="_blank"><em>
+<font color="#FFF" size="4">世界之窗</font></em></a></b></li>
+<li><b><a href="http://download.firefox.com.cn/releases-sha2/stub/official/zh-CN/Firefox-latest.exe" class="nav_li" target="_blank"><em>
+<font color="#FFF" size="4">火狐浏览器</font></em></a></b></li>
+<li><a href="http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html" class="nav_li" target="_blank"><img src="./images/icon_jm.png" width="16" height="16"><b><em><font color="#FFF" size="4">24小时客服</font></em></b></a></li>
+
+
+</ul>
+</div>
+
+
+<div class="big_tit">
+  <h2>如意彩票-会员登入</h2>
+</div>
+<div class="nav_box">
+<ul>
+<li><a class="nav_li" target="_blank" href="http://www.rycp1.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入一站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp2.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入二站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp3.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入三站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp4.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入四站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp5.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入五站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp6.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入六站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp7.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入七站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp7.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入八站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp8.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入九站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp9.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入十站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp10.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入十一站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp11.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>会员登入十二站</em></a></li>
+</ul>
+</div>
+<div class="big_tit">
+  <h2>如意彩票-贵宾登入</h2>
+</div>
+<div class="nav_box">
+<ul>
+<li><a class="nav_li" target="_blank" href="http://www.rycp000.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录一站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp111.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录二站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp222.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录三站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp333.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录四站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp444.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录五站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp555.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录六站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp666.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录七站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp777.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录八站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp8888.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录九站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp999.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录十站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp122.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录十一站</em></a></li>
+<li><a class="nav_li" target="_blank" href="http://www.rycp133.com"><img src="./images/icon_ie1.png" width="16" height="16"><em>贵宾登录十二站</em></a></li>
+</ul>
+</div>
+
+
+<div class="big_tit">
+  <h2>如意彩票-VIP登入</h2>
+</div>
+<div class="nav_box">
+<ul>
+<li><a href="http://www.rycp8.com" class="nav_li" target="_blank"><img src="./images/icon_ie2.png" width="16" height="16"><em>VIP登录一站</em></a></li>
+<li><a href="http://www.rycp18.com" class="nav_li" target="_blank"><img src="./images/icon_ie2.png" width="16" height="16"><em>VIP登录二站</em></a></li>
+<li><a href="http://www.rycp28.com" class="nav_li" target="_blank"><img src="./images/icon_ie2.png" width="16" height="16"><em>VIP登录三站</em></a></li>
+<li><a href="http://www.rycp38.com" class="nav_li" target="_blank"><img src="./images/icon_ie2.png" width="16" height="16"><em>VIP登录四站</em></a></li>
+<li><a href="http://www.rycp48.com" class="nav_li" target="_blank"><img src="./images/icon_ie2.png" width="16" height="16"><em>VIP登录五站</em></a></li>
+<li><a href="http://www.rycp58.com" class="nav_li" target="_blank"><img src="./images/icon_ie2.png" width="16" height="16"><em>VIP登录六站</em></a></li>
+</ul>
+</div>
+
+<div class="big_tit">
+  <h2>如意彩票-代理登入</h2>
+</div>
+<div class="nav_box">
+<ul>
+<li><a href="http://ag.rycp88.com/" class="nav_li" target="_blank"><img src="./images/icon_ie.png" width="16" height="16"><em>代理一站</em></a></li>
+<li><a href="http://ag.rycp88.com" class="nav_li" target="_blank"><img src="./images/icon_ie.png" width="16" height="16"><em>代理二站</em></a></li>
+<li><a href="http://ag.rycp88.com" class="nav_li" target="_blank"><img src="./images/icon_ie.png" width="16" height="16"><em>代理三站</em></a></li>
+<li><a href="http://ag.rycp88.com" class="nav_li" target="_blank"><img src="./images/icon_ie.png" width="16" height="16"><em>代理四站</em></a></li>
+<li><a href="http://ag.rycp88.com" class="nav_li" target="_blank"><img src="./images/icon_ie.png" width="16" height="16"><em>代理五站</em></a></li>
+<li><a href="http://ag.rycp88.com" class="nav_li" target="_blank"><img src="./images/icon_ie.png" width="16" height="16"><em>代理六站</em></a></li>
+</ul>
+</div>
+
+
+
+
+
+
+<div class="big_tit"><h2>常用银行</h2></div>
+<div class="nav_box">
+	<ul>
+	<li><a href="http://www.boc.cn/" class="nav_li" target="_blank"><img src="./images/favicon.ico" width="16" height="16"><em>中国银行</em></a></li>
+	<li><a href="http://www.icbc.com.cn/" class="nav_li" target="_blank"><img src="./images/icbc.png" width="16" height="16"><em>工商银行</em></a></li>
+	<li><a href="http://www.ccb.com/" class="nav_li" target="_blank"><img src="./images/favicon(1).ico" width="16" height="16"><em>建设银行</em></a></li>
+	<li><a href="http://www.95599.cn/" class="nav_li" target="_blank"><img src="./images/favicon(2).ico" width="16" height="16"><em>农业银行</em></a></li>
+	<li><a href="http://www.psbc.com/" class="nav_li" target="_blank"><img src="./images/favicon(3).ico" width="16" height="16"><em>邮政储蓄</em></a></li>
+	<li><a href="http://www.cmbc.com.cn/" class="nav_li" target="_blank"><img src="./images/favicon(4).ico" width="16" height="16"><em>民生银行</em></a></li>
+	<li><a href="http://www.cmbchina.com/" class="nav_li" target="_blank"><img src="./images/favicon(5).ico" width="16" height="16"><em>招商银行</em></a></li>
+	<li><a href="http://www.cebbank.com/" class="nav_li" target="_blank"><img src="./images/favicon(6).ico" width="16" height="16"><em>光大银行</em></a></li>
+	<li><a href="http://www.cib.com.cn/" class="nav_li" target="_blank"><img src="./images/favicon(7).ico" width="16" height="16"><em>兴业银行</em></a></li>
+	<li><a href="http://www.hxb.com.cn/" class="nav_li" target="_blank"><img src="./images/favicon(8).ico" width="16" height="16"><em>华夏银行</em></a></li>
+	<li><a href="http://www.bankcomm.com/" class="nav_li" target="_blank"><img src="./images/favicon(9).ico" width="16" height="16"><em>交通银行</em></a></li>
+	<li><a href="http://www.cgbchina.com.cn/" class="nav_li" target="_blank"><img src="./images/favicon(10).ico" width="16" height="16"><em>广发银行</em></a></li>
+	</ul>
+</div>
+
+<div class="big_tit"><h2>常用网址</h2></div>
+<div class="nav_box">
+	<ul>
+	<li><a href="http://www.baidu.com/" class="nav_li" target="_blank"><img src="./images/favicon(11).ico" width="16" height="16"><em>百 度</em></a></li>
+	<li><a href="http://www.qq.com/" class="nav_li" target="_blank"><img src="./images/favicon(12).ico" width="16" height="16"><em>腾讯QQ</em></a></li>
+	<li><a href="http://www.ifeng.com/" class="nav_li" target="_blank"><img src="./images/favicon(13).ico" width="16" height="16"><em>凤凰网</em></a></li>
+	<li><a href="http://www.sohu.com/" class="nav_li" target="_blank"><img src="./images/favicon(14).ico" width="16" height="16"><em>搜 狐</em></a></li>
+	<li><a href="http://www.163.com/" class="nav_li" target="_blank"><img src="./images/favicon(15).ico" width="16" height="16"><em>网 易</em></a></li>
+	<li><a href="http://www.taobao.com/" class="nav_li" target="_blank"><img src="./images/favicon(16).ico" width="16" height="16"><em>淘 宝</em></a></li>
+	<li><a href="http://www.youku.com/" class="nav_li" target="_blank"><img src="./images/favicon(17).ico" width="16" height="16"><em>优 酷</em></a></li>
+	<li><a href="http://www.jd.com/" class="nav_li" target="_blank"><img src="./images/favicon(18).ico" width="16" height="16"><em>京东商城</em></a></li>
+	<li><a href="http://www.12306.cn/" class="nav_li" target="_blank"><img src="./images/favicon(19).ico" width="16" height="16"><em>12306</em></a></li>
+	<li><a href="./images/favicon(20).ico" class="nav_li" target="_blank"><img src="./images/favicon(20).ico" width="16" height="16"><em>携程网</em></a></li>
+	<li><a href="http://www.4399.com/" class="nav_li" target="_blank"><img src="./images/favicon(21).ico" width="16" height="16"><em>4399小游戏</em></a></li>
+	<li><a href="http://www.58.com/" class="nav_li" target="_blank"><img src="./images/favicon(22).ico" width="16" height="16"><em>58同城</em></a></li>
+	</ul>
+</div>
+
+<div class="big_tit"><h2>新闻网站</h2></div>
+<div class="nav_box">
+	<ul>
+	<li><a href="http://news.sina.com.cn/" class="nav_li" target="_blank"><img src="./images/favicon(23).ico" width="16" height="16"><em>新浪新闻</em></a></li>
+	<li><a href="http://news.sohu.com/" class="nav_li" target="_blank"><img src="./images/favicon(24).ico" width="16" height="16"><em>搜狐新闻</em></a></li>
+	<li><a href="http://news.cntv.cn/" class="nav_li" target="_blank"><img src="./images/favicon(25).ico" width="16" height="16"><em>CCTV新闻</em></a></li>
+	<li><a href="http://www.huanqiu.com/" class="nav_li" target="_blank"><img src="./images/favicon(26).ico" width="16" height="16"><em>环球时报</em></a></li>
+	<li><a href="http://www.xinhuanet.com/" class="nav_li" target="_blank"><img src="./images/favicon(27).ico" width="16" height="16"><em>新华网</em></a></li>
+	<li><a href="http://news.ifeng.com/" class="nav_li" target="_blank"><img src="./images/favicon(28).ico" width="16" height="16"><em>凤凰资讯</em></a></li>
+	<li><a href="http://news.qq.com/" class="nav_li" target="_blank"><img src="./images/favicon(29).ico" width="16" height="16"><em>腾讯新闻</em></a></li>
+	<li><a href="http://news.163.com/" class="nav_li" target="_blank"><img src="./images/favicon(30).ico" width="16" height="16"><em>网易新闻</em></a></li>
+	<li><a href="http://www.zaobao.com/" class="nav_li" target="_blank"><img src="./images/favicon(31).ico" width="16" height="16"><em>联合早报</em></a></li>
+	<li><a href="http://www.people.com.cn/" class="nav_li" target="_blank"><img src="./images/favicon(32).ico" width="16" height="16"><em>人民网</em></a></li>
+	<li><a href="http://www.china.com/" class="nav_li" target="_blank"><img src="./images/favicon(33).ico" width="16" height="16"><em>中华网</em></a></li>
+	<li><a href="http://news.baidu.com/" class="nav_li" target="_blank"><img src="./images/favicon(34).ico" width="16" height="16"><em>百度新闻</em></a></li>
+	</ul>
+</div>
+
+<div class="big_tit"><h2>视频网站</h2></div>
+<div class="nav_box">
+	<ul>
+	<li><a href="http://www.iqiyi.com/" class="nav_li" target="_blank"><img src="./images/favicon(35).ico" width="16" height="16"><em>爱奇艺</em></a></li>
+	<li><a href="http://www.youku.com/" class="nav_li" target="_blank"><img src="./images/favicon(17).ico" width="16" height="16"><em>优 酷</em></a></li>
+	<li><a href="http://www.kankan.com/" class="nav_li" target="_blank"><img src="./images/favicon(36).ico" width="16" height="16"><em>迅雷看看</em></a></li>
+	<li><a href="http://www.letv.com/" class="nav_li" target="_blank"><img src="./images/favicon(37).ico" width="16" height="16"><em>乐视网</em></a></li>
+	<li><a href="http://www.pptv.com/" class="nav_li" target="_blank"><img src="./images/favicon(38).ico" width="16" height="16"><em>PPTV</em></a></li>
+	<li><a href="http://www.pps.tv/" class="nav_li" target="_blank"><img src="./images/favicon(39).ico" width="16" height="16"><em>PPS</em></a></li>
+	</ul>
+</div>
+</div>
+<div class="wrap_b"></div>
+</div>
+<div class="footer"><a href="http://www.rycp1.com">关于我们</a> |
+	<a href="http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html">
+	投诉与建议</a> | <a href="http://rycp1.comm">广告合作</a> |
+	<a href="http://rycp1.com/ruYiCPLoginWeb/app/agentAddReg#d">代理加盟</a> |
+	<a href="http://www.rycp1.com">商务合作</a> |
+	<a href="http://www.rycp1.com">常见问题</a> |
+	<a href="http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html  ">
+	客服中心</a> |
+	<a href="https://www.rycp1.com">
+	联系我们</a><br> 
+© 如意彩票娱乐城版权所有</div>
+<div style="display:none;"><script language="javascript" src="http://count2.51yes.com/click.aspx?id=23718685&amp;logo=12" charset="gb2312"></script><a href="http://countt.51yes.com/index.aspx?id=23718685" target="_blank" title="51YES网站统计系统">流量统计</a><iframe marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://count2.51yes.com/sa.htm?id=23718685&amp;refe=&amp;location=http%3A//8a69.com/&amp;color=24x&amp;resolution=1024x768&amp;returning=0&amp;language=undefined&amp;ua=Mozilla/5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit/602.1%20%28KHTML%2C%20like%20Gecko%29%20splash%20Version/9.0%20Safari/602.1" height="0" width="0"></iframe>
+</div>
+
+<script language="JavaScript">
+lastScrollY=0;
+function heartBeat(){ 
+var diffY;
+if (document.documentElement && document.documentElement.scrollTop)
+diffY = document.documentElement.scrollTop;
+else if (document.body)
+diffY = document.body.scrollTop
+else
+{/*Netscape stuff*/}
+percent=.1*(diffY-lastScrollY); 
+if(percent>0)percent=Math.ceil(percent); 
+else percent=Math.floor(percent); 
+document.getElementById('lovexin14').style.top=parseInt(document.getElementById('lovexin14').style.top)+percent+'px';
+lastScrollY=lastScrollY+percent; 
+}
+
+/*鍏抽棴灞 */
+function closediv(){ 
+var div = document.getElementById('lovexin14'); 
+div.style.display = 'none'; //闅愯棌鑰屼笉鍒犻櫎
+} 
+
+suspendcode14="<div id='lovexin14' style='right:10px;POSITION:absolute;TOP:150px;' class=rightbar><ul class=moremenu><li class=kefu><a href='javascript:void(0);' onclick=javascript:window.open('http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html','newwindow','width=660,height=760')></a></li><li class=help><a href='http://www.ruyizhifu.com' target='_blank'></a></li><li class=test><a href='http://wpa.qq.com/msgrd?v=3&uin=1535888888&site=qq&menu=yes' target='_blank'></a></li></ul><a href='javascript:closediv()' class=close></a></div>"
+document.write(suspendcode14); window.setInterval('heartBeat()',30);
+
+</script><div id="lovexin14" style="right:10px;POSITION:absolute;TOP:150px;" class="rightbar"><ul class="moremenu"><li class="kefu"><a href="javascript:void(0);" onclick="javascript:window.open('http://messenger.providesupport.com/messenger/0xjbfhw1wr7ei0rl3wty8zztl0.html','newwindow','width=660,height=760')"></a></li><li class="help"><a href="http://www.ruyizhifu.com" target="_blank"></a></li><li class="test"><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1535888888&amp;site=qq&amp;menu=yes" target="_blank"></a></li></ul><a href="javascript:closediv()" class="close"></a></div>
+
+
+
+
+</body></html>

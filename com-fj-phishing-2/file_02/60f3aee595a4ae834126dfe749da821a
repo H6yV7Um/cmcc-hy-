@@ -1,0 +1,386 @@
+<!DOCTYPE html><html lang="zh-cn"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>厦门银行</title>
+<link rel="stylesheet" type="text/css" href="/css/css_whir.css">
+<script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/scripts/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="/scripts/zh.js"></script>
+<script type="text/javascript" src="/scripts/front.js"></script>
+<script type="text/javascript">
+$(function() {
+  Cms.siteFlow("",location.href, document.referrer);
+});
+</script>
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="/scripts/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+   var navID = "1";
+</script>
+</head>
+
+<body>
+<script>
+setTimeout('$(".top_photo").slideUp()',3000);
+</script>
+
+<!--top-->
+<header class="Top">
+	<div class="wall2">
+		<div class="Logo"><a href="/"><img src="http://xmccb.com/images/logo.png"></a></div>
+	    <nav class="MainNav">
+	        <ul class="ul change">
+	                   <li id="nav1012"><span><a class="nav1" href="/gryw/index.html" style="background: url('/upload/cms/www/201609/04043217xnq5.png') no-repeat scroll left center;">个人业务</a></span></li>
+	                   <li id="nav1011"><span><a class="nav2" href="/gsyw/index.html" style="background: url('/upload/cms/www/201609/04043259zb0u.png') no-repeat scroll left center;">公司业务</a></span></li>
+	                   <li id="nav1360"><span><a class="nav3" href="/xwjrsf/index.html" style="background: url('/images/micon3.png') no-repeat scroll left center;">小微金融</a></span></li>
+	                   <li id="nav1010"><span><a class="nav4" href="/jrsc/index.html" style="background: url('/upload/cms/www/201609/0404324536ki.png') no-repeat scroll left center;">金融市场</a></span></li>
+	                   <li id="nav1013"><span><a class="nav5" href="/xhzc/index.html" style="background: url('/upload/cms/www/201609/040433141k42.png') no-repeat scroll left center;">厦行之窗</a></span></li>
+	        </ul>
+	        <div class="clear"></div>
+	    </nav>	 
+	    <div class="Login"><span>网上银行登录<a></a></span>
+	    	<ul class="ul">
+	    		<li><a href="https://perbank.xmbankonline.com/logon_pro.jsp" target="_blank">个人网上银行登录</a></li>
+	    		<li><a href="https://corporbank.xmbankonline.com/" target="_blank">企业网上银行登录</a></li>
+	    		<li><a href="https://perbank.xmbankonline.com:8887/" target="_blank">自助服务功能登录</a></li>
+	    	</ul>
+	    </div>
+	    <form action="/search.jspx" id="searchForm">
+	    <div class="Search"><input type="text" name="q" value="请输入关键字" onblur="if(this.value=='')this.value='请输入关键字';" onfocus="if(this.value!='请输入关键字'&amp;&amp;this.value!=''){}else{ this.value='';}"><a href="javascript:$('#submitBtt').click();"></a></div>
+	    <input type="submit" id="submitBtt" style="display: none;">
+	    </form>
+	    <div class="TMenu">
+	    	<a href="/shzp/index.html">人才招聘</a><em>|</em>
+	    	<a href="/fhwzz/index.html">分行网站</a><em>|</em>
+	    	<a href="http://www.haixileasing.cn" target="_blank">子公司</a>
+	    </div>
+	    <div class="Language">
+	    	<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简</a><em>|</em><a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁</a>
+	    </div>
+	</div> 
+	<div class="secmenu">
+	        <nav id="childnav1012" svn="nav1012">
+				<div class="bg"></div>
+				<div class="wall2">
+				  <dl class="AddNav2">
+					<dd><a href="/fhfkk/index.html">凤凰花卡</a></dd>
+					<dd><a href="/grlc/index.html">投资理财</a></dd>
+					<dd><a href="/ccyw/index.html">储蓄存款</a></dd>
+					<dd><a href="/grdk/index.html">个人贷款</a></dd>
+					<dd><a href="/bljr/index.html">便利金融</a></dd>
+					<dd><a href="/dzyh/index.html">电子银行</a></dd>
+					<dd><a href="https://mall.xmbankonline.com/" target="_blank">积分商城</a></dd>
+					<dd><a href="/res.html">融E收</a></dd>
+	          	  </dl>
+	          	</div>
+			</nav>
+	        <nav id="childnav1011" svn="nav1011">
+				<div class="bg"></div>
+				<div class="wall2">
+				  <dl class="AddNav2">
+					<dd><a href="/ckyw/index.html">存款业务</a></dd>
+					<dd><a href="/dkyw/index.html">信贷业务</a></dd>
+					<dd><a href="/zjyw/index.html">中间业务</a></dd>
+					<dd><a href="/xjgl/index.html">现金管理</a></dd>
+					<dd><a href="/tskhfw/index.html">台商客户服务</a></dd>
+					<dd><a href="/gjyw/index.html">国际业务</a></dd>
+					<dd><a href="/thyw/index.html">投行业务</a></dd>
+	          	  </dl>
+	          	</div>
+			</nav>
+	        <nav id="childnav1360" svn="nav1360">
+				<div class="bg"></div>
+				<div class="wall2">
+				  <dl class="AddNav2">
+					<dd><a href="/xwjr/index.html">新兴金融</a></dd>
+					<dd><a href="/xqykhfw/index.html">小企业业务</a></dd>
+	          	  </dl>
+	          	</div>
+			</nav>
+	        <nav id="childnav1010" svn="nav1010">
+				<div class="bg"></div>
+				<div class="wall2">
+				  <dl class="AddNav2">
+					<dd><a href="/gjs/index.html">贵金属</a></dd>
+					<dd><a href="/zzyw/index.html">债券业务</a></dd>
+					<dd><a href="/whjysyw/index.html">外汇及衍生业务</a></dd>
+					<dd><a href="/pjyw/index.html">票据业务</a></dd>
+					<dd><a href="/tyyw/index.html">同业业务</a></dd>
+					<dd><a href="/zyjglm/index.html">专营机构</a></dd>
+	          	  </dl>
+	          	</div>
+			</nav>
+	        <nav id="childnav1013" svn="nav1013">
+				<div class="bg"></div>
+				<div class="wall2">
+				  <dl class="AddNav2">
+					<dd><a href="/yhgyy/index.html">银行概要</a></dd>
+					<dd><a href="/yhxw/index.html">厦行新闻</a></dd>
+					<dd><a href="/wmxh/index.html">文明厦行</a></dd>
+					<dd><a href="/xhnb/index.html">投资者关系</a></dd>
+					<dd><a href="http://fj.people.com.cn/GB/339045/375739/379198/index.html" target="_blank">20周年庆</a></dd>
+					<dd><a href="/ppxhh/index.html">品牌厦行</a></dd>
+	          	  </dl>
+	          	</div>
+			</nav>
+	</div>
+
+<script>
+   
+	$(".change li").hover(function(){
+		var id = $(this).attr("id");
+		$(this).parents(".wall2").next(".secmenu").find("nav").siblings().hide();
+		$("#child"+id).show();
+	});
+	$(".secmenu nav").hover(function(){		
+		var svn = $(this).attr("svn");
+		$("#"+svn).addClass("on");
+	},function(){
+		var svn = $(this).attr("svn");
+		$("#"+svn).removeClass("on");
+		$(this).hide();
+	});
+</script>
+<script type="text/javascript">
+//导航背景切换
+ $(".nav1").hover(function(){
+        $(this).css("background-image","url(/images/micon1_on.png)");
+      },function(){
+ 	$(this).css("background-image","url(/images/micon1.png)");
+ });
+ $(".nav2").hover(function(){
+        $(this).css("background-image","url(/images/micon2_on.png)");
+      },function(){
+ 	$(this).css("background-image","url(/images/micon2.png)");
+ });
+ $(".nav3").hover(function(){
+        $(this).css("background-image","url(/images/micon3_on.png)");
+      },function(){
+ 	$(this).css("background-image","url(/images/micon3.png)");
+ });
+ $(".nav4").hover(function(){
+	$(this).css("background-image","url(/images/micon4_on.png)");
+ },function(){
+ 	$(this).css("background-image","url(/images/micon4.png)");
+ });
+ $(".nav5").hover(function(){
+		$(this).css("background-image","url(/images/micon5_on.png)");
+	 },function(){
+	 	$(this).css("background-image","url(/images/micon5.png)");
+	 });
+</script>
+</header>
+<!--top End-->
+
+<aside class="HomeBan">
+   <div id="slideBox" class="slideBox">
+		<div class="hd">
+			<ul class="ul"><li class="on"></li><li></li><li></li><li></li></ul>
+		</div>
+		<div class="bd">
+			<div class="tempWrap" style="overflow:hidden; position:relative; width:1182px"><ul class="ul" style="width: 7092px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -1182px;"><li class="clone" style="float: left; width: 1182px;"><a target="_blank" href="" style="background: url(/upload/cms/www/201704/13154424pk1e.jpg) no-repeat center;"></a></li>
+					<li style="float: left; width: 1182px;"><a target="_blank" href="http://fj.people.com.cn/GB/339045/375739/379198/index.html" style="background: url(/upload/cms/www/201710/1614130089uq.jpg) no-repeat center;"></a></li>
+					<li style="float: left; width: 1182px;"><a href="" style="background: url(/upload/cms/www/201704/13154508w5vo.jpg) no-repeat center;"></a></li>
+					<li style="float: left; width: 1182px;"><a target="_blank" href="" style="background: url(/upload/cms/www/201704/13154447nxaa.jpg) no-repeat center;"></a></li>
+					<li style="float: left; width: 1182px;"><a target="_blank" href="" style="background: url(/upload/cms/www/201704/13154424pk1e.jpg) no-repeat center;"></a></li>
+			<li class="clone" style="float: left; width: 1182px;"><a target="_blank" href="http://fj.people.com.cn/GB/339045/375739/379198/index.html" style="background: url(/upload/cms/www/201710/1614130089uq.jpg) no-repeat center;"></a></li></ul></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	jQuery(".slideBox").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,interTime:5000});
+	</script>
+</aside>
+
+<section class="Contain">
+	<div class="wall">
+		<div class="MainContent">
+			<div class="Part">
+				<div class="radio">
+					<div class="rk1"></div><div class="rk2"></div><div class="rk3"></div><div class="rk4"></div>
+				</div>
+				<div class="main">
+					<!--广而告之-->
+					<div class="cont let">
+						<div class="title"><h3 class="h3" style="cursor: pointer;" onclick="location.href='/gegz/index.html';">广而告之</h3><a href="/gegz/index.html"></a></div>
+						<div class="details">
+							<div class="slideBox2">
+								<div class="hd">
+									<ul class="ul"><li class="on"></li><li></li><li></li><li></li><li></li><li></li></ul>
+								</div>
+								<div class="bd">
+									<div class="tempWrap" style="overflow:hidden; position:relative; width:347px"><ul class="ul" style="width: 2776px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -347px;"><li class="clone" style="float: left; width: 347px;"><a href="https://perbank.xmbankonline.com:8887/etaxLoan.jsp" target="_blank" style="background: url(/upload/cms/www/201612/141646548dra.jpg) no-repeat center;"></a></li>
+										<li style="float: left; width: 347px;"><a href="http://www.xmbankonline.com/xfzqybhh/index.html" target="_blank" style="background: url(/upload/cms/www/201709/15172437dygu.jpg) no-repeat center;"></a></li>
+										<li style="float: left; width: 347px;"><a href="/gegz/20170907/3861.html" style="background: url(/upload/cms/www/201709/0714230595c1.jpg) no-repeat center;"></a></li>
+										<li style="float: left; width: 347px;"><a href="http://www.xmccb.com/dxjjcp.html" target="_blank" style="background: url(/upload/cms/www/201710/11175217pmht.png) no-repeat center;"></a></li>
+										<li style="float: left; width: 347px;"><a href="http://www.xmbankonline.com/DXCPGG/20170628/3457.html" target="_blank" style="background: url(/upload/cms/www/201706/28162202toap.jpg) no-repeat center;"></a></li>
+										<li style="float: left; width: 347px;"><a href="http://www.xmccb.com/res.html" target="_blank" style="background: url(/upload/cms/www/201706/26173829bu2s.jpg) no-repeat center;"></a></li>
+										<li style="float: left; width: 347px;"><a href="https://perbank.xmbankonline.com:8887/etaxLoan.jsp" target="_blank" style="background: url(/upload/cms/www/201612/141646548dra.jpg) no-repeat center;"></a></li>
+									<li class="clone" style="float: left; width: 347px;"><a href="http://www.xmbankonline.com/xfzqybhh/index.html" target="_blank" style="background: url(/upload/cms/www/201709/15172437dygu.jpg) no-repeat center;"></a></li></ul></div>
+								</div>
+							</div>
+							<script type="text/javascript">
+							jQuery(".slideBox2").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,interTime:5000});
+							</script>
+						</div>
+					</div>
+					<!--事项公告-->
+					<div class="cont items">
+						<div class="title"><h3 class="h3" style="cursor: pointer;" onclick="location.href='/sxgg/index.html'">事项公告</h3><a href="/sxgg/index.html"></a></div>
+						<div class="details">
+							<ul class="lists ul">
+								<li><a href="/sxgg/20171228/4672.html" style=" color: #535d6a;">元旦假期网点营业时间通告</a>
+								</li>
+								<li><a href="/sxgg/20171228/4671.html" style=" color: #535d6a;">厦门银行资金存管系统部分功能暂停公告</a>
+								</li>
+								<li><a href="/sxgg/20171227/4658.html" style=" color: #535d6a;">元旦我行代销货币型基金暂停及恢复业务公告</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--业务公告-->
+					<div class="cont work">
+						<div class="title"><h3 class="h3" style="cursor: pointer;" onclick="location.href='/ywwg/index.html'">业务公告</h3><a href="/ywwg/index.html"></a></div>
+						<div class="details">
+							<ul class="lists ul">
+							<li><a style=" color: #535d6a;" href="/cpgg/20180103/4721.html">厦门银行个人理财产品运作情况披露公告（...</a></li>
+							<li><a style=" color: #535d6a;" href="/cpgg/20180103/4720.html">厦门银行“凤凰花”理财之稳健回报系列（...</a></li>
+							<li><a style=" color: #535d6a;" href="/cpgg/20180103/4719.html">凤凰花理财（15KF12M）第087次...</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="Part">
+				<div class="radio">
+					<div class="rk1"></div><div class="rk2"></div><div class="rk3"></div><div class="rk4"></div>
+				</div>
+				<div class="main">
+					<!--夏行新闻-->
+					<div class="cont news">
+						<div class="title"><h3 class="h3" style="cursor: pointer;" onclick="location.href='/yhxw/index.html'">厦行新闻</h3><a href="/yhxw/index.html"></a></div>
+						<div class="details">
+							<ul class="lists ul">
+							 	<li><a style=" color: #535d6a;" href="/yhxw/20180104/4722.html">与慈善同行 精准帮扶困难群众</a><img style="position:absolute; padding-left:6px;" src="http://xmccb.com/images/new.gif"></li>
+							 	<li><a style=" color: #535d6a;" href="/yhxw/20171227/4664.html">富邦集团蔡明忠董事长来访</a></li>
+							 	<li><a style=" color: #535d6a;" href="/yhxw/20171227/4663.html">2017两岸斗茶茶王争霸赛圆满落幕</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--便捷服务-->
+					<div class="cont serve">
+						<div class="title"><h3 class="h3" style="cursor: pointer;" onclick="location.href='/bjfw/index.html'">便捷服务</h3></div>
+						<div class="details">
+							<div class="picScroll-left">
+								<div class="hd">
+									<a class="next"></a>
+									<a class="prev"></a>
+								</div>
+								<div class="bd">
+									<div class="tempWrap" style="overflow:hidden; position:relative; width:284px"><ul class="picList" style="width: 355px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+									 	<li style="float: left; width: 61px;">
+											<div class="pic"><a href="/khhw/index.html"><img src="http://xmccb.com/upload/cms/www/201610/23181448b460.png"></a></div>
+											<div class="tit"><a href="/khhw/index.html">客户服务</a></div>
+										</li>
+									 	<li style="float: left; width: 61px;">
+											<div class="pic"><a href="/zzfw/index.html"><img src="http://xmccb.com/upload/cms/www/201610/23181556u313.png"></a></div>
+											<div class="tit"><a href="/zzfw/index.html">自助服务</a></div>
+										</li>
+									 	<li style="float: left; width: 61px;">
+											<div class="pic"><a href="/cklls/index.html"><img src="http://xmccb.com/upload/cms/www/201702/06161428e47s.png"></a></div>
+											<div class="tit"><a href="/cklls/index.html">信息查询</a></div>
+										</li>
+									 	<li style="float: left; width: 61px;">
+											<div class="pic"><a href="/jisq.html"><img src="http://xmccb.com/upload/cms/www/201609/05100937vk37.png"></a></div>
+											<div class="tit"><a href="/jisq.html">计算器</a></div>
+										</li>
+									 	<li style="float: left; width: 61px;">
+											<div class="pic"><a href="/whpj.jspx"><img src="http://xmccb.com/upload/cms/www/201611/23202731mo0y.png"></a></div>
+											<div class="tit"><a href="/whpj.jspx">外汇牌价</a></div>
+										</li>
+									</ul></div>
+								</div>
+							</div>
+					
+							<script type="text/javascript">
+							jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,interTime:5000,effect:"left",vis:4,trigger:"click"});
+							</script>
+						</div>
+					</div>
+					<!--应用下载-->
+					<div class="cont down">
+						<div class="title"><h3 class="h3" style="cursor: pointer;" onclick="location.href='/yyxz/index.html'">应用下载</h3></div>
+						<div class="details">
+							<ul class="down_list ul">
+								<li class="dl1">
+								<a href="/yyxz/20160905/1922.html">
+									<h4 class="h4">网银管理工具</h4>
+								</a></li>
+								<li class="dl2">
+								<a href="/yyxz/20160905/1921.html">
+									<h4 class="h4">手机银行客户端</h4>
+								</a></li>
+								<li class="dl3">
+								<a href="/yyxz/20160905/1920.html">
+									<h4 class="h4">黄金业务交易端</h4>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</section>
+
+<!--bottom-->
+<footer class="Bottom">
+	<div class="wall2">
+		<div class="tel">
+			<ul class="ul">
+				<li>大陆客服热线：<span style="background: url(/uploadfiles/image/tel1.png) no-repeat center;"></span></li>
+				<li>台湾客服热线：<span style="background: url(/uploadfiles/image/tel2.png) no-repeat center;"></span></li>
+			</ul>
+		</div>
+    	<div class="Copyright">Copyright©2016厦门银行 All Rights Reserved. 闽ICP备09073190号<em>|</em><a href="/bqsm.html">版权声明</a></div>
+    	<div class="share">
+    		<ul class="ul">
+    			<li class="icon1"><a href="/map.jspx" target="_blank"></a><p class="p">服务网点</p>
+    			</li>
+    			<li class="icon2"><a href="/gnjyh.html" target="_blank"></a><p class="p">手机银行</p>
+    			    <div class="show_ewm">
+    					<img src="http://xmccb.com/upload/cms/www/201609/24172615d1y6.jpg">
+    				</div>
+    			</li>
+    			<li class="icon3"><a href="http://weibo.com/p/1006062058569872/home?is_all=1" target="_blank"></a><p class="p">新浪微博</p>
+    			</li>
+    			<li class="icon4"><a href="#" target="_blank"></a><p class="p">微信</p>
+    			    <div class="show_ewm">
+    					<img src="http://xmccb.com/upload/cms/www/201609/24172655qllo.jpg">
+    				</div>
+    			</li>
+    			<li class="icon5"><a href="http://mail.xmbankonline.com/" target="_blank"></a><p class="p">邮箱</p>
+    			</li>
+    			<li class="icon6"><a href="https://mall.xmbankonline.com/" target="_blank"></a><p class="p">积分商城</p>
+    			</li>
+    		</ul>
+    	</div>
+	</div>   
+</footer>
+<script>
+$(document).ready(function(){
+  $(".share .ul li").click(function(){
+    $(this).toggleClass("xiansy");
+  })
+  $(".share .ul li").mouseout(function(){
+    $(this).removeClass("xiansy");
+  })
+})
+</script>
+<script type="text/javascript">
+//整站无图处理
+jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = '/uploadfiles/nopic.jpg'; }); n.src = n.src; });
+</script><!--bottom End-->
+
+</body></html>

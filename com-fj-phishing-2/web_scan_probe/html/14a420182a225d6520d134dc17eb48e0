@@ -1,0 +1,265 @@
+<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="max-age=7200">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/platform/images/favicon.ico?resVer=20170221" type="images/x-icon">
+<link href="/platform/css/ui.css?resVer=20170222" rel="stylesheet" type="text/css">
+<!-- <link href="/platform/css/ngca.css?resVer=20141124" rel="stylesheet" type="text/css" /> -->
+<!-- <script src="/platform/js/??jquery.min.js,jquery.cookie.js,jquery.mailAutoComplete.l.js,login_qr_reg.js,login_qr_fun.js?resVer=20180112,detectmobilebrowser.js?resVer=20170925" type="text/javascript"></script> -->
+<script src="/platform/js/jquery.min.js?resVer=20141124"></script>
+<script src="/platform/js/jquery.cookie.js?resVer=20141124"></script>
+<script src="/platform/js/jquery.mailAutoComplete.l.js?resVer=20141124"></script>
+<script src="/platform/js/login_qr_reg.js?resVer=20141124"></script>
+<script src="/platform/js/login_qr_fun.js?resVer=20141124"></script>
+<script src="/platform/js/detectmobilebrowser.js?resVer=20141124"></script>
+<!-- add by wangp at 2018-01-23 密码加密方法 start -->
+<script src="/platform/js/jsencrypt.min.js?resVer=20141124"></script>
+<script src="/platform/js/encrypt.js?resVer=20141125"></script>
+<!-- add by wangp at 2018-01-23 密码加密方法 end -->
+
+<script type="text/javascript">
+   if(jQuery.browser.mobile||/iPad/i.test(navigator.userAgent)){
+        window.location.href='/html/login/touch.html'+window.location.search;
+    }
+</script>
+<title>用户登录</title>
+</head>
+
+<body>
+<!-- 逻辑控制全局变量 -->
+<input id="send_sms_flag" type="hidden" value="1">
+<!-- add by wangp at 2016-07-13 增加二次认证标识 start -->
+<input id="send_smspwd_flag" type="hidden" value="1">
+<!-- add by wangp at 2016-07-13 增加二次认证标识 end -->
+<input type="hidden" id="codeResult" name="codeResult" value="false">
+<input id="channelID" type="hidden" value="12003">
+<input id="backUrl" type="hidden" value="http://shop.10086.cn/i/">
+<input id="tab_name" type="hidden" value="phoneLogin">
+<input id="accountType" type="hidden" value="01">
+<input id="pwdType" type="hidden" value="01">
+<input id="captchaValidity" type="hidden" value="1">
+<!-- 验证码调整策略 yangyc 2015-11-17 start -->
+<input id="needVerifyCodeFlag" type="hidden" value="0">
+<!-- 验证码调整策略 yangyc 2015-11-17 end -->
+
+
+<div class="content">
+<!--头部内容  开始-->
+  <div class="top clearfix">
+    <a class="fll" href="http://shop.10086.cn"><img src="/platform/images/yd_logo.png" alt=""></a>
+    <a class="flr margin-top-30" href="http://shop.10086.cn">[返回]
+</a>
+  </div>
+<!--头部内容  结束-->
+<!--主体内容  开始-->
+<div class="main login_main">
+  <div class="tabs">
+    <!-- 标签头，切换 -->
+    <ul class="tabsNav">
+         <a id="J_qrcode" class="s-qrcode" href="javascript:void(0);"></a>
+         <a id="J_pc" class="pc hide" href="javascript:void(0);"></a>
+         <li class="cubService_login on" id="service_login_1">服务密码登录</li>
+         <li class="cubSms_login" id="sms_login_1">短信随机码登录</li>
+         <li class="mail_login hide" id="mail_login_1">互联网用户登录</li>
+         <li class="qrcode_login hide" id="qrcode_login_1">扫码登录</li>
+         
+      </ul>
+      <!-- 登录框主体 -->
+      <div class="tabsContent">
+        <!-- 服务密码登录  -->
+        <div id="service_login_main" class="clearfix">  
+         
+          <div class="reg_item clearfix">    
+              <input type="text" id="p_name" name="p_name" class="reg_input" style="color:#5f6063" onfocus="if(this.value=='手机号码'){this.value='';this.style.color='#5f6063'};" onblur="if(this.value==''){this.value='手机号码';this.style.color='#5f6063'}" value="手机号码" maxlength="11">
+              <div id="phone_error" class="reg_error hide">对应的错误信息提示</div>
+            </div> 
+                
+             <div class="reg_item passwordbox clearfix">              
+                  <label>服务密码</label><input id="p_pwd" class="reg_input" type="password" value="">
+                  <div id="phonepwd_error" class="reg_error hide">对应的错误信息提示</div>               
+            </div>
+            
+          <!--   <div class="reg_item clearfix" id="random">    
+              <input id="sms_pwd" type="text" name="cubService_name" class="reg_input small" style="color:#5f6063" 
+              onfocus="if(this.value=='短信验证码'){this.value='';this.style.color='#5f6063'};" 
+              onblur="if(this.value==''){this.value='短信验证码';this.style.color='#5f6063'}" 
+              value="短信验证码" maxlength="11" />
+              <button class="btn btn-B" type="submit" href="javascript:void(0);" id="getSMSPwd" onclick="sendSmsPwd();">点击获取</button>
+              <div class="reg_error">对应的错误信息提示</div>
+            </div>         -->   
+         </div>
+         <!-- 服务密码登录  end-->
+         
+         <!-- 短信随机码登录  -->
+        <div id="sms_login_main" class="clearfix hide" style="margin-top:15px;">     
+          <div class="reg_item clearfix">    
+              <input id="sms_name" name="sms_name" type="text" class="reg_input" style="color:#5f6063" onfocus="if(this.value=='手机号码'){this.value='';this.style.color='#5f6063'};" onblur="if(this.value==''){this.value='手机号码';this.style.color='#5f6063'}" value="手机号码" maxlength="11">
+              <div class="reg_error hide" id="smsphone_err">对应的错误信息提示</div>
+            </div>
+           <div class="reg_item clearfix">
+           
+              <input id="sms_pwd_l" type="text" name="rpwd" class="reg_input small" style="color:#5f6063" onfocus="if(this.value=='短信验证码'){this.value='';this.style.color='#5f6063'};" onblur="if(this.value==''){this.value='短信验证码';this.style.color='#5f6063'}" value="短信验证码" maxlength="11">
+               <button class="btn btn-B" type="submit" href="javascript:void(0);" id="getSMSPwd1" onclick="sendsms()">点击获取</button>
+                <span class="login_a hide" id="resendSMS" style="color:#CCC">重新获取(60秒)</span>
+<!--                <a class="login_a hide" style="color:#666" href="#">重新获取</a> -->
+              <div id="smspwd_err" class="reg_error hide">请输入短信随机码</div>
+            </div>    
+         </div>
+         <!-- 短信随机码登录  end-->
+         
+         <!-- 互联网用户登录  -->
+        <div id="mail_login_main" class="clearfix hide">     
+          <div class="reg_item clearfix">    
+              <ul class="emailist" style="visibility: hidden; z-index: 999;"></ul><input id="e_name" name="e_name" type="text" class="reg_input" style="color:#5f6063" onfocus="if(this.value=='请输入注册时所填写的邮箱'){this.value='';this.style.color='#5f6063'};" onblur="if(this.value==''){this.value='请输入注册时所填写的邮箱';this.style.color='#5f6063'}" value="请输入注册时所填写的邮箱">
+              <div class="reg_error hide" id="email_error">请输入邮箱</div>
+            </div>            
+             <div class="reg_item passwordbox clearfix">                 
+                  <label>请输入注册时所填写的密码</label><input class="reg_input" id="e_pwd" type="password" value="">
+                  <div class="reg_error" id="emailpwd_error">请输入服务密码</div>               
+            </div>
+            <div class="reg_item clearfix hide" id="code_item">    
+              <input id="inputCode" type="text" name="cubService_name" class="reg_input small" style="color:#5f6063" onfocus="if(this.value=='验证码'){this.value='';this.style.color='#5f6063'};" onblur="if(this.value==''){this.value='验证码';this.style.color='#5f6063'}" value="验证码" maxlength="11">
+              <div class="yzm_main">
+                <img id="captchaImg" class="num-code" src="/captchazh.htm?type=12" width="80" height="40" alt="">
+                </div>
+              <div class="reg_error hide" id="captcha_error">对应的错误信息提示</div>
+            </div>       
+         </div>
+         <!-- 互联网用户登录  end-->
+         
+         <!-- 扫码登录  -->          
+        <div id="qrcode_login_main" class="clearfix qr-code-main hide" style="margin-top:10px;">
+          <div id="saoma" class="saoma">
+          <div class="saoma-main">
+           <div class="code">     
+              <a id="qr-code" class="qr-code" href="#"><img id="qrcodeimg" src="/genqr.htm" alt=""></a>
+              <!-- 扫码登录失败  -->
+              <div id="login-fail" class="mask">
+                <p>登录失败</p>
+                <button id="refreshqr" class="btn-red" type="submit">请点击刷新</button>
+              </div>
+              <!-- 扫码登录失败  end-->
+           </div>
+           <div class="image"><img src="/platform/images/img.jpg" width="102" height="174" alt=""></div>
+           </div>
+            <p class="txt"><i class="icon-15"></i>打开<a href="http://www.10086.cn/cmccclient/indexc_new.html">中国移动客户端</a>扫码登录</p>
+            <p class="txt1">客户端4.1版本以上支持扫码登录</p>
+          </div>
+          <!-- 扫码登录成功  -->
+           <div id="login-success" class="saoma-y">
+             <img src="/platform/images/yes.png" alt="">
+             <p class="txt">扫描成功！</p>
+             <p class="txt"><i class="icon-15"></i>打开<a href="http://www.10086.cn/cmccclient/indexc_new.html">中国移动客户端</a>扫码登录</p>
+             <p class="txt1">客户端4.1版本以上支持扫码登录</p>
+          </div>
+          <!-- 扫码登录成功  end-->            
+        </div>
+         <!-- 扫码登录  end-->  
+         
+         <!-- 服务密码登录二次认证（短信） -->
+        <div id="smspwdbord" class="reg_item clearfix hide">
+        
+          <!--    <div id="smspwdbord_error" class="reg_item clearfix"> -->
+            <!--   <div class="reg_item_title" style="position:relative">
+                  <input type="button" value="短信随机码"  style="color: #0085d0;background: url(../images/down.png) no-repeat 92% 50%;" />
+              </div> -->
+              <input id="sms_pwd" name="rpwd" class="reg_input small" type="text" style="color:#5f6063" onfocus="if(this.value=='短信验证码'){this.value='';this.style.color='#5f6063'};" onblur="if(this.value==''){this.value='短信验证码';this.style.color='#5f6063'}" value="短信验证码" maxlength="11">
+              <button class="btn btn-B" type="submit" href="javascript:void(0);" id="getSMSPwd" onclick="sendSmsPwd();">点击获取</button>
+                <span class="login_a hide" id="resendSMSPwd" style="color:#CCC">重新获取(60秒)</span>
+                <a class="login_a hide" style="color:#666" href="#">重新获取</a>
+              <div id="smspwd_error" class="reg_error hide">请输入短信随机码</div>
+                
+         <!--    </div> -->
+        </div>
+        
+      
+         
+      </div>
+      
+     
+      
+      <!-- 登录框底部 -->
+       <div class="btn-bar clearfix" id="login_btn">
+              <button id="submit_bt" class="btn" type="submit" onclick="LoginSubmit()">登录</button>
+<!--           <input id="submit_bt_loading" class="login_btn loading hide" type="button" value="登录中..." disabled="disabled"> -->
+              <div class="reg_xy random clearfix">
+            <label><input type="checkbox" id="rememberMe" value="0" onclick="rememberMe()">记住用户名</label>
+            <a id="freeReg" class="fr" href="javascript:void(0);" onclick="subReg()">免费注册</a></div>
+            </div>
+            <div class="tab-login clearfix"><a href="#" class="" id="mail_login_2">互联网用户登录</a><a href="#" class="hide" id="service_login_2">服务密码登录</a><a href="#" class="hide" id="sms_login_2">短信随机码登录</a></div>
+  </div>
+</div>
+
+    
+   <!--登录保护--> 
+    <div id="password-protect" class="ss-add-app-modal-mask"></div>
+    <div class="login_protect" id="login_protect_id">
+    <a class="protect_close"></a>
+      <div class="login_pro_title">登录保护确认</div>
+       <div id="sms_tips" class="login_tip" style="width:160px; margin-left:70px"></div>
+      <div class="reg_item1 clearfix" style="margin-top:0">
+        <div class="reg_item_title">手机号码</div>
+        <span id="protect_phone" class="login_a margin-0"></span> </div>
+      <div class="reg_item1 clearfix">
+        <div class="reg_item_title">短信随机码</div>
+              <input id="secondSmd" style="width:197px" class="reg_input1" type="text" maxlength="6">
+        </div>
+        <div class="random1"><a class="login_a" href="javascript:void(0);" onclick="sendsms_protect()" id="getSMSpwd_protect">点击获取</a><span id="resendSMS_protect" class="login_a hide" style="color:#CCC">重新获取(60秒)</span></div>
+        <div class="protect_btn">
+            <input id="login_protect_auth" class="qr_btn" type="button" value="确&nbsp;&nbsp;认">
+        </div>
+    </div>
+    <!--登录保护--> 
+    
+   <!--是否使用新帐号登录-->
+   <div class="ss-add-app-modal-mask"></div>
+    <div id="login_choose_account" class="login_protect"><a class="protect_close"></a>
+    <div class="login_pro_title">登陆账号提醒</div>
+    <div class="reg_success_text margin-top-15">已有账号登录,是否使用新账号</div>
+    <div class="protect_btn">
+        <input class="qr_btn" type="button" value="是" onclick="LoginSubmit('Y')">
+        <input style="margin-left:10px; background:#ccc" class="qr_btn" type="button" value="否" onclick="LoginSubmit('N')">
+    </div>
+   </div>
+   
+    <!--登录错误提示--> 
+    <div id="userlock_Tips" class="login_protect"> <a class="protect_close"></a>
+      <div class="login_pro_title"></div>
+      <div id="userlock" class="margin-top-15 clearfix" style="padding:10px 20px">对不起，您的账户被锁定，24小时候后可重新登录，如有问题请咨询客服。</div>
+      <div id="login_error" class="reg_success_text"><img src="/platform/images/error_pic.png?resVer=null" alt=""><span id="errorP">7次后您的账户将被锁定。</span></div>
+      <div class="protect_btn">
+        <input id="userlock_Tips_btn" class="qr_btn" type="button" value="确&nbsp;&nbsp;认">
+      </div>
+    </div>
+     <!--登录错误提示--> 
+     
+       <!--发送短信提示--> 
+   <div id="sendSms" class="login_protect"> <a class="protect_close"></a>
+      <div class="login_pro_title">短信随机码</div>
+       <div id="msmsendtips" class="reg_success_text margin-top-15">已将短信随机码发送至手机，请查收!</div>
+      <div class="protect_btn">
+        <input id="sendMsgQR" class="qr_btn" type="button" value="确&nbsp;&nbsp;认">
+      </div>
+    </div>
+  </div>
+   <!--发送短信提示-->
+   
+<!--主体内容  结束-->
+<!--footer  开始-->
+<div class="footer">
+    <p class="footer_text"><a href="http://www.10086.cn/aboutus/news/">新闻中心</a><span>&nbsp;|&nbsp;</span><span>法律声明</span><span>&nbsp;|&nbsp;</span><a href="http://job.10086.cn/">诚聘英才</a><span>&nbsp;|&nbsp;</span><a href="http://b2b.10086.cn/">采购信息</a><span>&nbsp;|&nbsp;</span><span>企业合作</span><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/contact/">联系我们</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/navigation/">站点导航</a><span>&nbsp;|&nbsp;</span><a href="http://labs.chinamobile.com/" target="_blank">中国移动研究院</a><span>&nbsp;|&nbsp;</span><a href="http://www.cmdi.chinamobile.com/" target="_blank">中国移动设计院</a><span>&nbsp;|&nbsp;</span><a href="http://www.js.10086.cn/sitemap">网站地图</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/links/">友情链接</a></p>
+    <p class="footer_text"><span>掌上营业厅：</span><a href="http://wap.10086.cn">wap.10086.cn</a><span>&nbsp;语音自助服务：10086  短信营业厅：10086&nbsp;</span><a href="http://www.10086.cn/support/channel/self_service/">自助终端</a><span>&nbsp;</span><a href="http://www.10086.cn/support/channel/Entity1/">营业厅</a><span>&nbsp;</span><a href="http://www.10086.cn/cmccclient/index.htm">手机营业厅下载</a></p>
+    <div class="footgov"><span id="KXYZ"><span style="display:inline-block;position:relative;width:auto;"><a href="https://ss.knet.cn/verifyseal.dll?sn=e130905110100423008ilb000000&amp;ct=df&amp;a=1&amp;pa=0.9738455899059772" id="kx_verify" tabindex="-1" target="_blank" kx_type="图标式" style="display:inline-block;"><img src="/platform/images/cnnic.png" alt="可信网站"></a></span></span>
+      <div class="govtxt">
+        <p class="gov"><a href="http://www.miibeian.gov.cn/">京ICP备05002571号</a></p>
+        <p class="govtxt2">中国移动通信版权所有</p>
+      </div>
+    </div>
+  </div>
+<!--footer  end-->
+
+
+
+
+</body></html>

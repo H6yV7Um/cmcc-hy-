@@ -1,0 +1,333 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="description" content="为全国汽修门店提供全品类平价的汽车配件、快速便捷的物流配送、优质诚信的全面服务,打造全新汽车生态圈。咨询电话：400-167-8353">
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-stand">
+    <meta name="author" content="SQMall">
+    <meta name="copyright" content="SQMall Inc. All Rights Reserved">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <title>
+            神汽在线—汽车配件、汽车用品购物APP，品类全更省钱，新客有礼！
+    </title>
+    <meta name="keywords" content="
+            神汽在线 汽配商城
+    ">
+    <link rel="shortcut icon" href="/w/favicon.ico">
+    <link rel="icon" href="/w/favicon.ico">
+    <link rel="stylesheet" href="/w/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/w/javascripts/libs/jquery/jquery-impromptu.min.css">
+    
+    <link rel="stylesheet" href="/w/javascripts/libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/w/css/web/intro/common.css">
+    <link rel="stylesheet" href="/w/css/web/intro/base.css">
+    
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/w/fonts/font-awesome/css/font-awesome-ie7.min.css"/>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="/w/javascripts/views/web/common/html5shiv.js"></script>
+    <script src="/w/javascripts/views/web/common/respond.min.js"></script>
+    <script src="/w/javascripts/libs/es5-shim/es5-shim.min.js"></script>
+    <script src="/w/javascripts/libs/es5-shim/es5-sham.min.js"></script>
+    <![endif]-->
+    
+    <script>
+        if (typeof(window.location.origin) === 'undefined') { // Some browsers (mainly IE) does not have this property, so we need to build it manually...
+            window.location.origin = window.location.protocol + '//' + window.location.hostname + (window.location.port ? (':' + window.location.port) : '');
+        }
+        window.console = window.console || (function(){
+                    var c = {}; c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile
+                            = c.clear = c.exception = c.trace = c.assert = function(){};
+                    return c;
+                })();
+    </script>
+    <link rel="stylesheet" href="/w/stylesheets/web/unslider/unslider.css">
+    <link rel="stylesheet" href="/w/stylesheets/web/unslider/unslider-dots.css">
+    <link rel="stylesheet" href="/w/css/web/intro/index.css">
+</head>
+<body style="visibility: visible;">
+
+<section class="menu web-menu">
+    <div class="menu-wrap">
+        <div class="menu-border"></div>
+        <div class="menu-inner">
+            <a class="position-re left mt10" href="/w/web/intro/index">
+                <img src="/w/images/logo_header.png">
+            </a>
+            <menu>
+                <li class="normal-li">
+                    <a href="/w/intro/index">首页</a>
+                </li>
+                <li class="normal-li
+                ">
+                    <a href="/w/intro/news/newsList">神汽动态</a>
+                </li>
+                <li class="spe-li
+                ">
+                    <span>
+                        关于我们
+                        <em class="list"></em>
+                    </span>
+                    <div class="sec-menu">
+                        <a href="/w/intro/mine/companyIntro">公司简介</a>
+                        <a href="/w/intro/mine/founder">创始人</a>
+                        <a href="/w/intro/mine/companyHistory">公司历程</a>
+                        <a href="/w/intro/mine/companyCulture">公司文化</a>
+                        <a href="/w/intro/mine/contactMe">联系方式</a>
+                    </div>
+                </li>
+                <li class="normal-li
+                ">
+                    <a href="/w/intro/recruit">诚聘英才</a>
+                </li>
+                <li class="normal-li
+                ">
+                    <a href="/w/intro/sellerInvading">商家入驻</a>
+                </li>
+                <li class="normal-li
+                ">
+                    <a href="/w/intro/appDownload">APP下载</a>
+                </li>
+                <li class="normal-li">
+                    <span style="border-left: 1px solid #999; height: 30px;padding-left: 25px;"></span>
+                    <a href="https://www.sqmall.com/bauna/homepage" target="_blank" style="display: inline-block;">商家后台</a>
+                </li>
+            </menu>
+        </div>
+    </div>
+</section>
+<!-- banner start -->
+<div class="unslider" style="position: relative; top: 50px;"><section class="banner unslider-horizontal" style="position: relative; overflow: hidden;">
+    <ul class="unslider-wrap unslider-carousel" style="width: 300%; left: 0%;">
+        <li class="banner1 unslider-active" style="list-style-type: none; width: 33.333333333333336%;">
+            <div class="banner-item" style="position: relative;">
+                <div class="item-img" style="background-image: url(https://fauna.b0.upaiyun.com/img/introWeb/home/banner1.jpg); height: 600px;">
+                </div>
+                <div class="banner-inner-block" style="position: absolute;top:16%;width:314px;height:113px;
+                             right:16%;background-repeat:no-repeat;background-size: contain;
+                             background-image: url('https://fauna.b0.upaiyun.com/img/introWeb/home/banner1_box_bg.png');">
+                    <div class="banner-btn"></div>
+                </div>
+            </div>
+        </li>
+        <li class="banner2" style="list-style-type: none; width: 33.333333333333336%;">
+            <div class="banner-item" onclick="window.location.href='/w/intro/news/newsDetail/1010'" style="cursor:pointer;position: relative;">
+                <div class="item-img" style="background-image: url(https://fauna.b0.upaiyun.com/img/introWeb/home/banner2_new.jpg); height: 600px;"></div>
+                <img src="https://fauna.b0.upaiyun.com/img/introWeb/home/banner_bottom.png" style="position: absolute;bottom:0;left: 0;right: 0;width:100%">
+            </div>
+        </li>
+        <li class="banner3" style="list-style-type: none; width: 33.333333333333336%;">
+            <div class="banner-item" onclick="window.location.href='/w/intro/news/newsDetail/1010'" style="cursor:pointer;position: relative;">
+                <div class="item-img" style="background-image: url(https://fauna.b0.upaiyun.com/img/introWeb/home/banner3_new.jpg); height: 600px;"></div>
+                <img src="https://fauna.b0.upaiyun.com/img/introWeb/home/banner_bottom.png" style="position: absolute;bottom:0;left: 0;right: 0;width:100%">
+            </div>
+        </li>
+
+    </ul>
+</section><nav class="unslider-nav"><ol><li data-slide="0" class="unslider-active">1</li><li data-slide="1">2</li><li data-slide="2">3</li></ol></nav></div>
+<!-- banner end -->
+
+<!-- new start -->
+<section class="news">
+    <div class="news-pic" style="width:480px;float: left;">
+        <img style="height: 300px;cursor: pointer;" src="https://fauna.b0.upaiyun.com/img/introWeb/newsImg/171/209/150/171209150342_042_90.jpg" onclick="window.location.href='/w/intro/news/newsDetail/1076'">
+    </div>
+
+    <div class="news-region" style="float: left;">
+        <div class="region-header">
+            <!--<span style="font-size: 21px;color: #333333;"></span>-->
+            <img src="/w/images/web/img_sqdt.png">
+        </div>
+        <div class="region-index">
+            <ul>
+                    <li>
+                        <span style="cursor: pointer;" onclick="window.location.href='/w/intro/news/newsDetail/1079'">
+                            谢谢你 精彩了我的2017！2018 我们继续携手前行~
+                        </span>
+                    </li>
+                    <li>
+                        <span style="cursor: pointer;" onclick="window.location.href='/w/intro/news/newsDetail/1076'">
+                            神汽在线CEO公主荣获金芒奖“2017年度魅力人物奖”
+                        </span>
+                    </li>
+                    <li>
+                        <span style="cursor: pointer;" onclick="window.location.href='/w/intro/news/newsDetail/1075'">
+                            致敬行业创新力量！『2017年度最具创新力汽配网商』20强隆重揭晓
+                        </span>
+                    </li>
+                    <li>
+                        <span style="cursor: pointer;" onclick="window.location.href='/w/intro/news/newsDetail/1074'">
+                            神汽CEO公主对于“发展数字经济 促进开放共享”在世界互联网大会分享
+                        </span>
+                    </li>
+                    <li>
+                        <span style="cursor: pointer;" onclick="window.location.href='/w/intro/news/newsDetail/1073'">
+                            神汽在线携平台优质商家亮相法兰克福汽配展
+                        </span>
+                    </li>
+            </ul>
+        </div>
+        <div class="region-more">
+            <span style="cursor: pointer;" onclick="window.location.href='/w/intro/news/newsList'">更多 &gt;&gt;</span>
+        </div>
+    </div>
+
+    <div class=""></div>
+</section>
+<!-- new end -->
+
+<section class="info">
+    <img class="logo-img" src="https://fauna.b0.upaiyun.com/img/introWeb/home/sqmall_logo.png" alt="神汽在线logo" style="margin-left: 52px;">
+    <ul class="content">
+        <li class="info-item" style="padding-bottom: 20px">
+            <img class="info-item-icon" src="/w/images/web/intro/ico_kefurexian.png">
+            <div class="info-item-text">
+                <p class="main-text">客服热线：400-167-8353</p>
+                <p class="sub-text">7:00-23:00全程在线</p>
+            </div>
+        </li>
+        <li class="info-item" style="padding-bottom: 20px">
+            <img class="info-item-icon" src="/w/images/web/intro/ico_ceo.png">
+            <div class="info-item-text">
+                <p class="main-text">CEO邮箱：gongzhu@sqmall.com</p>
+                <p class="sub-text">与神汽CEO直接对话</p>
+            </div>
+        </li>
+
+        <li class="info-item">
+            <img class="info-item-icon" src="/w/images/web/intro/ico_weixing.png">
+            <div class="info-item-text">
+                <p class="main-text">神汽头条官方微信</p>
+                <p class="sub-text">神汽大事、优惠不错过&nbsp;
+                    <a href="javascript:;" class="text-action">了解详情 &gt;</a>
+                </p>
+            </div>
+        </li>
+        <li class="info-item">
+            <img class="info-item-icon" src="/w/images/web/intro/ico_weibo.png">
+            <div class="info-item-text">
+                <p class="main-text">神汽在线官方微博</p>
+                <p class="sub-text">神汽新闻、活动一网打尽</p>
+            </div>
+        </li>
+    </ul>
+</section>
+
+
+<div class="float-qrCode">
+    <img src="/w/images/web/intro/img_float.png" width="100%">
+</div>
+
+<div class="weixin-popover-bg hide"></div>
+
+<div class="weixin-popover-wrap hide" style="left: 237px;">
+    <div class="confirm">
+        <img src="/w/images/web/download_wx.jpg">
+        <span class="qr">微信扫码关注微信公众号</span>
+        <p>
+            <em>1</em>
+            大事小事新鲜事 了解真实的神汽
+        </p>
+        <p>
+            <em>2</em>
+            新品优惠定期推送 抢好货必备指南
+        </p>
+        <p>
+            <em>3</em>
+            扫码关注 欢迎剁手 拒绝调戏
+        </p>
+    </div>
+    <a class="close-popover" href="javascript:void(0)"></a>
+</div>
+
+
+<div class="footer">
+    <div class="col-sm-12">
+        © 2015-2017 浙江神汽电子商务有限公司 浙ICP备:15022321号
+        <span>
+            <img style="display: inline-block;width: 16px;margin-top: -3px;" src="/w/images/web/bei_an.png">浙公网安备:
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002010478" style="display:inline-block; color: rgb(195,195,195);">33011002010478号
+            </a>
+            </span> 增值电信业务经营许可证:B2-20160881
+    </div>
+</div>
+<script type="text/javascript">
+    var gGetContext = function(){
+        var context = "/w";
+        var strReg = "^(.+)"+context+"(\/)";
+        var result = new RegExp(strReg,"g").exec(window.location.pathname);
+
+        if(result){
+            return result[1]+context;
+        }else{
+            return context;
+        }
+    }
+
+    var gGetUrl = function(url) {
+        var context = gGetContext();
+        if(context.length > 0 ){
+            var regExp = new RegExp("^("+context+"|\.\.)/");
+
+            if(!url.match(regExp)){
+                url = context + url;
+            }
+        }
+        return url;
+    }
+    var gRedirect = function(url){
+        var url = gGetUrl(url);
+        window.location.href =  url;
+    }
+
+    var gGetUpyunContext = function (path) {
+        var context = 'https://fauna.b0.upaiyun.com'+path;
+        return context;
+    }
+
+</script><script type="text/javascript" src="/w/common/js?tags=
+jquery1,
+jqueryui,
+jquery-impromptu,
+jqueryCookie,
+utils,
+net,
+request,
+viewbase,
+common,
+ie8
+">
+</script>
+    <div style="display: none">
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260271842'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260271842%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1260271842"><a href="http://www.cnzz.com/stat/website.php?web_id=1260271842" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="https://icon.cnzz.com/img/pic1.gif"></a></span><script src=" https://s95.cnzz.com/z_stat.php?id=1260271842&amp;show=pic1" type="text/javascript"></script><script src="https://c.cnzz.com/core.php?web_id=1260271842&amp;show=pic1&amp;t=z" charset="utf-8" type="text/javascript"></script>
+    </div>
+
+<script>
+    videoSrc = 'https://fauna.b0.upaiyun.com/img/introWeb/video/video_yuanxiao.mp4'
+    videoIntroSrc = 'https://fauna.b0.upaiyun.com/img/introWeb/video/video_2017_intro.mp4'
+</script>
+
+<script type="text/javascript" src="/w/javascripts/libs/hbs/handlebars-v4.0.5.min.js"></script>
+<script type="text/javascript" src="/w/javascripts/libs/unslider/unslider.js"></script>
+<script type="text/javascript" src="/w/javascripts/libs/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="/w/javascripts/views/web/intro/common.js"></script>
+
+<script id="entry-video-tmp" type="text/x-handlebars-template">
+    <div class="video-outer" id="video-outer" style="display:none;">
+        <div class="position-re video-btn-outer">
+            <a class="close-video"></a>
+            <div class="video-inner">
+                <video controls autoplay id="video">
+                    <source src="{{videoSrc}}" type="video/mp4">
+                    您的浏览器版本太低，请进行升级或者下载安装谷歌浏览器！
+                </video>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+</body></html>

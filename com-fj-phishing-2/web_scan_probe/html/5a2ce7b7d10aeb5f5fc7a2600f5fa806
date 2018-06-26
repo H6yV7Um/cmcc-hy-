@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head>
+        <meta charset="UTF-8">
+        <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+        <title>提示</title>
+        <link rel="stylesheet" type="text/css" href="//res.wx.qq.com/open/libs/weui/1.1.1/weui.min.css">
+        <!--style-->
+        <link rel="stylesheet" href="//res.wx.qq.com/a/wx_fed/wx110/res/static/css/745a194aede93469d9fe6731afae1b8d.css">
+    </head>
+    
+    <body ontouchstart="">
+        <div id="reason">             <div class="weui-msg">                     <div class="weui-msg__icon-area">                                                  <i class="weui-icon-warn weui-icon_msg"></i>                                              </div>                     <div class="weui-msg__text-area">                         <h2 class="weui-msg__title">已停止访问该网页</h2>                         <div id="url" class="weui-msg__desc reason__url">                             <p></p>                             <a id="fold" href="javascript:" style="display: none" class="reason__fold">                                 <i></i>                             </a>                         </div>                         <p class="weui-msg__desc">网页包含不安全内容，被多人投诉，为维护绿色上网环境，已停止访问。</p>                     </div>                     <div class="weui-msg__opr-area">                         <div class="weui-btn-area">                                                          <a href="https://weixin110.qq.com/security/newreadtemplate?t=webpage_intercept/w_more-info&amp;url=http%3A%2F%2Fwww.baidu.com&amp;block_type=10&amp;exportkey=" class="weui-btn weui-btn_plain-primary">申请恢复访问</a>                                                      </div>                     </div>                     <div class="weui-msg__extra-area">                                                  <a href="https://kf.qq.com/faq/170118UnqeUZ170118mUb6fu.html">客服指引</a>                                                  <a href="https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_external_links_content_management_specification">查看规则</a>                                              </div>                 </div>         </div>
+        <script type="text/html" id="template">
+            <div class="weui-msg">
+                    <div class="weui-msg__icon-area">
+                        [!if(type == 'block'){!]
+                        <i class="weui-icon-warn weui-icon_msg"></i>
+                        [!} else if(type == 'empty'){!]
+                        <i></i>
+                        [!}else{!]
+                        <i class="weui-icon-info weui-icon_msg"></i>
+                        [!}!]
+                    </div>
+                    <div class="weui-msg__text-area">
+                        <h2 class="weui-msg__title">[!=title!]</h2>
+                        <div id="url" class="weui-msg__desc reason__url">
+                            <p>[!=url!]</p>
+                            <a id="fold" href="javascript:" style="display: none" class="reason__fold">
+                                <i></i>
+                            </a>
+                        </div>
+                        <p class="weui-msg__desc">[!=desc!]</p>
+                    </div>
+                    <div class="weui-msg__opr-area">
+                        <div class="weui-btn-area">
+                            [!for (var i = 0, len = btns.length; i < len; ++i) {!]
+                            <a href="[!=btns[i].url!]" class="weui-btn [!if(btns[i].type){!]weui-btn_[!=btns[i].type!][!}else{!]weui-btn_plain-primary[!}!]">[!=btns[i].name!]</a>
+                            [!}!]
+                        </div>
+                    </div>
+                    <div class="weui-msg__extra-area">
+                        [!for (var i = 0, len = links.length; i < len; ++i) {!]
+                        <a href="[!=links[i].url!]">[!=links[i].name!]</a>
+                        [!}!]
+                    </div>
+                </div>
+        </script>
+        <div class="weui-toptips weui-toptips_warn"></div>
+        <script>
+            !function(e,t){e.WX110={BASE_PATH:"/security/newreadtemplate?t=webpage_intercept",CGI_URL:"/cgi-bin/mmspamsupport-bin/urlblockappeal",TEXT_NETWORKERR:"网络错误，请稍后再试",FUNC_GOTO:function(e){location.href=this.BASE_PATH+e}}}(window,document.body)
+        </script>
+        <script>
+            var DATA={"retcode":0,"type":"block","title":"已停止访问该网页","desc":"网页包含不安全内容，被多人投诉，为维护绿色上网环境，已停止访问。","btns":[{"name":"申请恢复访问","url":"https://weixin110.qq.com/security/newreadtemplate?t=webpage_intercept/w_more-info&url=http%3A%2F%2Fwww.baidu.com&block_type=10&exportkey="}],"links":[{"name":"客服指引","url":"https://kf.qq.com/faq/170118UnqeUZ170118mUb6fu.html"},{"name":"查看规则","url":"https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_external_links_content_management_specification"}]}
+        </script>
+        <!--script-->
+        <script src="//res.wx.qq.com/a/wx_fed/wx110/res/static/js/w_reason_new_118273c.js"></script>
+    
+
+</body></html>

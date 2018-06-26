@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!--start component HTML组件(new)-->
+<title>中警视界-中国警察网</title>
+<meta name="keywords" content="图片，图片新闻，警察图片，公安图片，公安摄影，现场图片，警花照片，视频监控，警营风采，中警视界，公安摄影家，摄影人，中国警察图片">
+<meta name="description" content="中国警察网图片频道，是全国公安系统唯一一家专业图片新闻发布平台。包括国内外法治新闻图片，公安新闻图片等。旨在发布公安最新图片新闻，展示公安正义形象，是深受公安民警和社会各界喜爱的图片新闻网站。">
+<!--end component HTML组件(new)-->
+
+<link href="template/26639437/26639441.css" rel="stylesheet" type="text/css">
+<script src="template/26639437/26639438.js" type="text/javascript"></script>
+<script src="template/26639437/26639439.js" type="text/javascript"></script>
+<script src="template/26639437/26639440.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="main">
+
+
+<!--start component HTML组件(top1_new)-->
+<style>
+#top_1{width:1000px;height:30px;line-height:30px; background-color:#e8e8e8;overflow:hidden;}
+#topn_l{width:310px;height:30px;float:left;font-weight:bold;}
+#topn_m{width:490px;height:30px;float:left;text-align:right;}
+#topn_r{width:180px;height:30px;float:right;text-align:right;}
+.blue1_12{font-size:12px;color:#003366;}
+.blue1_12 a:link,.blue1_12 a:hover,.blue1_12 a:visited,.blue1_12 a:active{color:#003366;}
+</style>
+<div id="top_1" class="blue1_12">
+<div id="topn_l">&nbsp;&nbsp;中华人民共和国公安部主管&nbsp;&nbsp;人民公安报社主办</div>
+<div id="topn_m">
+<span id="localtime"><font color="#003366">2018-01-09 06:38:27&nbsp;&nbsp;&nbsp;&nbsp;星期二</font></span>
+<script type="text/javascript">
+function showLocale(objD)
+{
+ var str,colorhead,colorfoot;
+ var yy = objD.getYear();
+ if(yy<1900) yy = yy+1900;
+ var MM = objD.getMonth()+1;
+ if(MM<10) MM = '0' + MM;
+ var dd = objD.getDate();
+ if(dd<10) dd = '0' + dd;
+ var hh = objD.getHours();
+ if(hh<10) hh = '0' + hh;
+ var mm = objD.getMinutes();
+ if(mm<10) mm = '0' + mm;
+ var ss = objD.getSeconds();
+ if(ss<10) ss = '0' + ss;
+ var ww = objD.getDay();
+ if  ( ww==0 )  colorhead="<font color=\"#003366\">";
+ if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#003366\">";
+ if  ( ww==6 )  colorhead="<font color=\"#003366\">";
+ if  (ww==0)  ww="星期日";
+ if  (ww==1)  ww="星期一";
+ if  (ww==2)  ww="星期二";
+ if  (ww==3)  ww="星期三";
+ if  (ww==4)  ww="星期四";
+ if  (ww==5)  ww="星期五";
+ if  (ww==6)  ww="星期六";
+ colorfoot="</font>"
+ str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "&nbsp;&nbsp;&nbsp;&nbsp;" + ww + colorfoot;
+ return(str);
+}
+function tick()
+{
+ var today;
+ today = new Date();
+ document.getElementById("localtime").innerHTML = showLocale(today);
+ window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+</div>
+<div id="topn_r"><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.cpd.com.cn/');" href="#">设为首页</a>&nbsp;&nbsp;&nbsp;<a href="javascript:window.external.AddFavorite(location.href, document.title);">加入收藏</a>&nbsp;&nbsp;</div>
+</div>
+<!--end component HTML组件(top1_new)-->
+
+<div class="clear"></div>
+
+<!--start component HTML组件(top3_new)-->
+<style>
+#top_22{width:100%;height:30px;line-height:20px;background-color:#f5f5f5; border-top:1px solid #fff;border-bottom:1px solid #dfdfdf;}
+#cpd_list1{width:100%;height:28px;float:left; margin-top:2px;color:#6f6969;height:28px;line-height:28px;text-align:center;overflow:hidden;}
+#cpd_list1 a{ margin-left:7px; margin-right:7px; display:inline;}
+#cpd_list1 a:link ,#cpd_list1 a:hover,#cpd_list1 a:visited,#cpd_list1 a:active {color:#6f6969;}
+</style>
+<div id="top_22">
+<div id="cpd_list1">
+<a href="http://www.cpd.com.cn/">首页</a>|<a href="http://news.cpd.com.cn" target="_blank">新闻</a>|<a href="http://daan.cpd.com.cn" target="_blank">大要案</a>|<a href="http://policewomen.cpd.com.cn" target="_blank">女警</a>|<a href="http://culture.cpd.com.cn" target="_blank">文化</a>|<a href="http://life.cpd.com.cn" target="_blank">生活</a>|<a href="http://pic.cpd.com.cn/" target="_blank">图片</a>|<a href="http://eci.cpd.com.cn/" target="_blank">经侦</a>|<a href="http://jt.cpd.com.cn" target="_blank">交通</a>|<a href="http://xf119.cpd.com.cn" target="_blank">消防</a>|<a href="http://bf.cpd.com.cn" target="_blank">边防</a>|<a href="http://jiansuo.cpd.com.cn" target="_blank">监管</a>|<a href="http://zg.cpd.com.cn" target="_blank">政工</a>|<a href="http://jyzb.cpd.com.cn" target="_blank">装备</a>|<a href="http://zhian.cpd.com.cn/" target="_blank">治安</a>|<a href="http://police.cpd.com.cn" target="_blank">派出所</a>|<a href="http://sydj.cpd.com.cn/" target="_blank">食药打假</a>|<a href="http://home.cpd.com.cn/" target="_blank">论坛</a>|<a href="http://www.cpd.com.cn/n26328205/index.html" target="_blank">微警务</a>|<a href="http://www.cpd.com.cn/n15737398/index.html" target="_blank">舆情服务</a></div>
+</div>
+<!--end component HTML组件(top3_new)-->
+
+<div class="clear"></div>
+
+<div id="top"></div>
+
+<div class="clear"></div>
+
+
+<!--start component HTML组件(new)-->
+<div id="daohang">
+ <ul>
+  <li class="sy">首&nbsp;&nbsp;页</li>
+  <li><a href="http://pic.cpd.com.cn/n48032/index.html" target="_blank">图片新闻</a></li><li class="sep"></li>
+  <li><a href="http://pic.cpd.com.cn/n3842/index.html" target="_blank">编辑推荐</a></li><li class="sep"></li>
+  <li><a href="http://pic.cpd.com.cn/n3824/index.html" target="_blank">警营风采</a></li><li class="sep"></li>
+  <li><a href="http://pic.cpd.com.cn/n3832/index.html" target="_blank">快乐生活</a></li><li class="sep"></li>
+  <li><a href="http://pic.cpd.com.cn/n3838/index.html" target="_blank">大千世界</a></li><li class="sep"></li>
+  <li><a href="http://pic.cpd.com.cn/n15403910/index.html" target="_blank">休闲娱乐</a></li><li class="sep"></li>
+  <li><a href="http://pic.cpd.com.cn/n3834/index.html" target="_blank">摄影长廊</a></li><li class="sep"></li>
+  <li><a href="http://www.policephoto.com.cn/" target="_blank">中国警察图片网</a></li>
+ </ul>
+</div>
+<!--end component HTML组件(new)-->
+
+
+<div class="clear"></div>
+
+<div id="c0">
+<!--start component 图片列表(new1)-->
+<style type="text/css">
+.FocusImg {
+WIDTH: 1000px; POSITION: relative; HEIGHT: 550px;
+}
+.FocusImg .BigPic {
+ PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 1000px; PADDING-TOP: 0px; HEIGHT: 550px; TEXT-ALIGN: center
+}
+.FocusImg .BigPic IMG {
+ DISPLAY: block; MARGIN: 0px auto; WIDTH: 1000px; HEIGHT: 550px
+}
+.FocusImg .TitleBg {
+ Z-INDEX: 10; BACKGROUND: #000; FILTER: Alpha(Opacity=45); LEFT: 0px; WIDTH:1000px; POSITION: absolute; TOP: 480px; HEIGHT:70px; opacity: 0.45
+}
+.FocusImg .TitleBox {
+ FONT-SIZE: 20px; Z-INDEX: 20; LEFT: 0px; OVERFLOW: hidden; WIDTH: 1000px; COLOR: #fff; LINE-HEIGHT: 60px; font-family:"microsoft yahei", "微软雅黑", "宋体"; POSITION: absolute; TOP: 480px; HEIGHT: 70px; text-indent:17px;}
+.FocusImg .IntroBox {
+ FONT-SIZE: 11px; Z-INDEX: 20; LEFT: 10px; OVERFLOW: hidden; WIDTH: 320px; COLOR: #9a5e0c; LINE-HEIGHT: 16px; POSITION: absolute; TOP: 232px; HEIGHT: 12px; }
+.FocusImg .TitleBox A:link {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .TitleBox A:visited {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .TitleBox A:hover {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .ClipLine {
+ OVERFLOW: hidden; HEIGHT: 2px; BACKGROUND-COLOR: #000000; display:none;}
+.FocusImg .SmallPics {
+ OVERFLOW: hidden; ZOOM: 1; HEIGHT: 70px; width:452px; POSITION: absolute; TOP: 480px; z-index:50; left:548px;}
+.FocusImg .SmallPics SPAN {
+ DISPLAY: inline; FLOAT: left; CURSOR: pointer; MARGIN-RIGHT: 5px; margin-top:5px;
+}
+.FocusImg .SmallPics SPAN IMG {
+ BORDER-RIGHT: #b6b7b9 2px solid; BORDER-TOP: #b6b7b9 2px solid; BORDER-LEFT: #b6b7b9 2px solid; WIDTH: 104px; BORDER-BOTTOM: #b6b7b9 2px solid; HEIGHT: 56px
+}
+.FocusImg .SmallPics SPAN.selected IMG {
+ BORDER-RIGHT: #ecbf52 2px solid; BORDER-TOP: #ecbf52 2px solid; FILTER: alpha(opacity=70); BORDER-LEFT: #ecbf52 2px solid; BORDER-BOTTOM: #ecbf52 2px solid; opacity: 0.7
+}
+.FocusImg .TuKuLink {
+ FONT-SIZE: 12px; Z-INDEX: 20; RIGHT: 45px; COLOR: #fff; POSITION: absolute; TOP: 190px
+}
+.FocusImg .TuKuLink {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .TuKuLink A:link {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .TuKuLink A:visited {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .TuKuLink A:hover {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .IntroBox A:link {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .IntroBox A:visited {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .IntroBox A:hover {
+ COLOR: #fff; TEXT-DECORATION: none
+}
+.FocusImg .HackBorder1 {
+ LEFT: 0px; OVERFLOW: hidden; WIDTH: 326px; POSITION: absolute; TOP: 0px; HEIGHT: 1px; BACKGROUND-COLOR: #000; display:none;
+}
+.FocusImg .HackBorder2 {
+ RIGHT: 0px; OVERFLOW: hidden; WIDTH: 1px; POSITION: absolute; TOP: 0px; HEIGHT: 245px; BACKGROUND-COLOR: #000; display:none;
+}
+.FocusImg .HackBorder3 {
+ LEFT: 0px; OVERFLOW: hidden; WIDTH: 326px; BOTTOM: 0px; POSITION: absolute; HEIGHT: 1px; BACKGROUND-COLOR: #000; _height: 0px; display:none;
+}
+.FocusImg .HackBorder4 {
+ LEFT: 0px; OVERFLOW: hidden; WIDTH: 1px; POSITION: absolute; TOP: 0px; HEIGHT: 245px; BACKGROUND-COLOR: #000; display:none;
+}
+</style>
+      <script type="text/javascript">
+//焦点图构造函数 071221 mengjia
+//edited by liuxiaolong 10.4.29
+function FocusPic(BigPicID,SmallPicsID,TitleID,MemoID,width,height){this.Data=[];this.ImgLoad=[];this.TimeOut=5000;var isIE=navigator.appVersion.indexOf("MSIE")!=-1?true:false;this.width=width;this.height=height;this.selectedIndex=0;var TimeOutObj;if(!FocusPic.childs){FocusPic.childs=[]};this.showTime=null;this.showSum=5;this.ID=FocusPic.childs.push(this)-1;this.listCode='<span><img src="[$smallpic]" onclick="FocusPic.childs[[$thisId]].select([$num])" alt="[$title]" border=0/></span>';this.Add=function(jsnObj){var ls;this.Data.push(jsnObj)};this.TimeOutBegin=function(){clearInterval(TimeOutObj);TimeOutObj=setInterval("FocusPic.childs["+this.ID+"].next()",this.TimeOut)};this.TimeOutEnd=function(){clearInterval(TimeOutObj)};this.select=function(num,noAction){if(num>this.Data.length-1){return};if(num==this.selectedIndex){return};this.TimeOutBegin();if(BigPicID){if(this.$(BigPicID)){var aObj=this.$(BigPicID).getElementsByTagName("a")[0];aObj.href=this.Data[num].url;if(this.aImgY){this.aImgY.style.display='none';this.aImg.style.zIndex=0};this.aImgY=this.$('F'+this.ID+'BF'+this.selectedIndex);this.aImg=this.$('F'+this.ID+'BF'+num);clearTimeout(this.showTime);this.showSum=5;if(!noAction){var appleMobileCheck=/\((iPad|iPhone|iPod)/i;if(appleMobileCheck.test(navigator.userAgent)){if(this.aImgY){this.aImgY.style.display='none'};this.aImg.style.display='block';this.aImg.style.zIndex=0;this.aImg.style.opacity=1;this.aImgY=null}else{this.showTime=setTimeout("FocusPic.childs["+this.ID+"].show()",30)}}else{if(isIE){this.aImg.style.filter="alpha(opacity=100)"}else{this.aImg.style.opacity=1}}}};if(TitleID){if(this.$(TitleID)){this.$(TitleID).innerHTML="<a href=\""+this.Data[num].url+"\" target=\"_blank\">"+this.Data[num].title+"</a>"}};if(MemoID){if(this.$(MemoID)){this.$(MemoID).innerHTML="<a href=\""+this.Data[num].url+"\" target=\"_blank\">"+this.Data[num].intro+"</a>"}};if(SmallPicsID){if(this.$(SmallPicsID)){var sImg=this.$(SmallPicsID).getElementsByTagName("span"),i;for(i=0;i<sImg.length;i++){if(i==num||num==(i-this.Data.length)){sImg[i].className="selected"}else{sImg[i].className=""}}}};this.selectedIndex=num;if(this.onchange){this.onchange()}};var absPosition=function(obj,parentObj){var left=obj.offsetLeft,top=obj.offsetTop,tempObj=obj;while(tempObj.id!=document.body&tempObj.id!=document.documentElement&tempObj!=parentObj){tempObj=tempObj.offsetParent;left+=tempObj.offsetLeft;top+=tempObj.offsetTop};return{left:left,top:top}};this.show=function(){this.showSum--;if(this.aImgY){this.aImgY.style.display='block'};this.aImg.style.display='block';if(isIE){this.aImg.style.filter="alpha(opacity=0)";this.aImg.style.filter="alpha(opacity="+(5-this.showSum)*20+")"}else{this.aImg.style.opacity=0;this.aImg.style.opacity=(5-this.showSum)*0.2};if(this.showSum<=0){if(this.aImgY){this.aImgY.style.display='none'};this.aImg.style.zIndex=0;this.aImgY=null}else{this.aImg.style.zIndex=2;this.showTime=setTimeout("FocusPic.childs["+this.ID+"].show()",30)}};this.next=function(){var temp=this.selectedIndex;temp++;if(temp>=this.Data.length){temp=0};this.select(temp)};this.pre=function(){var temp=this.selectedIndex;temp--;if(temp<0){temp=this.Data.length-1};this.select(temp)};this.MInStopEvent=function(ObjID){if(ObjID){if(this.$(ObjID)){if(this.$(ObjID).attachEvent){this.$(ObjID).attachEvent("onclick",Function("FocusPic.childs["+this.ID+"].TimeOutEnd()"));this.$(ObjID).attachEvent("onmouseout",Function("FocusPic.childs["+this.ID+"].TimeOutBegin()"))}else{this.$(ObjID).addEventListener("mouseover",Function("FocusPic.childs["+this.ID+"].TimeOutEnd()"),false);this.$(ObjID).addEventListener("mouseout",Function("FocusPic.childs["+this.ID+"].TimeOutBegin()"),false)}}}};this.begin=function(){this.MInStopEvent(TitleID);this.MInStopEvent(SmallPicsID);this.MInStopEvent(BigPicID);this.selectedIndex=-1;var i,temp="";if(BigPicID){if(this.$(BigPicID)){var aObj=this.$(BigPicID).getElementsByTagName("a")[0];aObj.style.zoom=1;this.$(BigPicID).style.position="relative";this.$(BigPicID).style.zoom=1;this.$(BigPicID).style.overflow="hidden";for(i=0;i<this.Data.length;i++){temp+='<img src="'+this.Data[i].pic+'" id="F'+this.ID+'BF'+i+'" style="display:'+(i==0?'block':'none')+'" galleryimg="no"'+(this.width?' width="'+this.width+'"':'')+(this.height?' height="'+this.height+'"':'')+' alt="'+this.Data[i].title+'" border=0/>'};aObj.innerHTML=temp;var imgObjs=aObj.getElementsByTagName("img"),XY=absPosition(imgObjs[0],this.$(BigPicID));for(i=0;i<imgObjs.length;i++){imgObjs[i].style.position="absolute";imgObjs[i].style.top=XY.top+"px";imgObjs[i].style.left=XY.left+"px"}}};if(SmallPicsID){if(this.$(SmallPicsID)){tempHTML="";for(i=0;i<this.Data.length;i++){temp=this.listCode;temp=temp.replace(/\[\$smallpic\]/ig,this.Data[i].smallpic);temp=temp.replace(/\[\$thisId\]/ig,this.ID);temp=temp.replace(/\[\$num\]/ig,i);temp=temp.replace(/\[\$num\+1\]/ig,i+1);temp=temp.replace(/\[\$title\]/ig,this.Data[i].title);tempHTML+=temp};this.$(SmallPicsID).innerHTML=tempHTML}};this.TimeOutBegin();this.select(0,true)};this.$=function(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}};
+</script>
+      <!-- 
+ 格式:
+ <dl>
+  <dt>标题</dt>
+  <dd>外部链接url?/dd>
+  <dd>大图url</dd>
+  <dd>小图url</dd>
+  <dd>简介</dd>
+ </dl>
+-->
+<div id="focusData_01" style="DISPLAY: none; float:left;">
+<dl>
+          <dt><a href="n48032/c40214292/content.html" target="_blank">湖北宜昌探索“路长制”强化农村交通安全管理</a>
+          </dt><dd>n48032/c40214292/pic_40214292.jpg 
+          </dd><dd>n48032/c40214292/pic_40214292.jpg            
+          </dd><dd>&nbsp;</dd>
+        </dl>
+<dl>
+          <dt><a href="n48032/c40212957/content.html" target="_blank">寒潮来袭 上海加大力度救助流浪、乞讨等人员</a>
+          </dt><dd>n48032/c40212957/pic_40212957.jpg 
+          </dd><dd>n48032/c40212957/pic_40212957.jpg            
+          </dd><dd>&nbsp;</dd>
+        </dl>
+<dl>
+          <dt><a href="n48032/c40203124/content.html" target="_blank">雨中反扒</a>
+          </dt><dd>n48032/c40203124/pic_40203124.jpg 
+          </dd><dd>n48032/c40203124/pic_40203124.jpg            
+          </dd><dd>&nbsp;</dd>
+        </dl>
+<dl>
+          <dt><a href="n48032/c40199625/content.html" target="_blank">酷寒飞雪，也无法阻挡滚烫的为民之心</a>
+          </dt><dd>n48032/c40199625/pic_40199625.jpg 
+          </dd><dd>n48032/c40199625/pic_40199625.jpg            
+          </dd><dd>&nbsp;</dd>
+        </dl>
+</div>
+<!--end component 图片列表(new1)-->
+
+<!--start component 图片列表(new2)-->
+<div class="FocusImg">
+        <div class="BigPic" id="BigPic_01" style="position: relative; zoom: 1; overflow: hidden;">
+         <a href="http://pic.cpd.com.cn/n48032/c40214292/content.html" target="_blank" style="zoom: 1;"><img src="n48032/c40214292/pic_40214292.jpg 
+          " id="F0BF0" style="display: block; position: absolute; top: 0px; left: 0px; opacity: 1;" galleryimg="no" alt="湖北宜昌探索“路长制”强化农村交通安全管理" border="0/"><img src="n48032/c40212957/pic_40212957.jpg 
+          " id="F0BF1" style="display: none; position: absolute; top: 0px; left: 0px;" galleryimg="no" alt="寒潮来袭 上海加大力度救助流浪、乞讨等人员" border="0/"><img src="n48032/c40203124/pic_40203124.jpg 
+          " id="F0BF2" style="display: none; position: absolute; top: 0px; left: 0px;" galleryimg="no" alt="雨中反扒" border="0/"><img src="n48032/c40199625/pic_40199625.jpg 
+          " id="F0BF3" style="display: none; position: absolute; top: 0px; left: 0px;" galleryimg="no" alt="酷寒飞雪，也无法阻挡滚烫的为民之心" border="0/"></a>
+        <a href="n48032/c40212957/content.html" target="_blank"><img src="n48032/c40212957/pic_40212957.jpg" alt="寒潮来袭" 上海加大力度救助流浪、乞讨等人员="" style="FILTER: revealTrans(duration=1,transition=23)" galleryimg="no" border="0"></a>
+        <a href="n48032/c40203124/content.html" target="_blank"><img src="n48032/c40203124/pic_40203124.jpg" alt="雨中反扒" style="FILTER: revealTrans(duration=1,transition=23)" galleryimg="no" border="0"></a>
+        <a href="n48032/c40199625/content.html" target="_blank"><img src="n48032/c40199625/pic_40199625.jpg" alt="酷寒飞雪，也无法阻挡滚烫的为民之心" style="FILTER: revealTrans(duration=1,transition=23)" galleryimg="no" border="0"></a>
+        </div>
+        <div class="TitleBg"></div>
+        <div class="TitleBox" id="TitleBox_01"><a href="http://pic.cpd.com.cn/n48032/c40214292/content.html" target="_blank">湖北宜昌探索“路长制”强化农村交通安全管理</a></div>
+        <div class="IntroBox" id="MemoBox_01"><a href="http://pic.cpd.com.cn/n48032/c40214292/content.html" target="_blank">&nbsp;</a></div>
+        <div class="ClipLine"></div>
+        <div class="SmallPics" id="SmallPics_01"><span class="selected"><img src="n48032/c40214292/pic_40214292.jpg            
+          " onclick="FocusPic.childs[0].select(0)" alt="湖北宜昌探索“路长制”强化农村交通安全管理" border="0/"></span><span class=""><img src="n48032/c40212957/pic_40212957.jpg            
+          " onclick="FocusPic.childs[0].select(1)" alt="寒潮来袭 上海加大力度救助流浪、乞讨等人员" border="0/"></span><span class=""><img src="n48032/c40203124/pic_40203124.jpg            
+          " onclick="FocusPic.childs[0].select(2)" alt="雨中反扒" border="0/"></span><span class=""><img src="n48032/c40199625/pic_40199625.jpg            
+          " onclick="FocusPic.childs[0].select(3)" alt="酷寒飞雪，也无法阻挡滚烫的为民之心" border="0/"></span></div>
+        <!--a class=TuKuLink 
+href="http://ent.sina.com.cn/photo/" target=_blank>图库&gt;&gt;</a-->
+        <div class="HackBorder1"></div>
+        <div class="HackBorder2"></div>
+        <div class="HackBorder3"></div>
+        <div class="HackBorder4"></div>
+      </div>
+  <div class="blank5"></div>
+  <div class="clear"></div>
+  <div class="clear"></div>
+
+      <script language="javascript" type="text/javascript">
+<!--//--><![CDATA[//><!--
+var FocusPic_01 = new FocusPic("BigPic_01","SmallPics_01","TitleBox_01","MemoBox_01");
+FocusPic_01.htmlData = document.getElementById("focusData_01").getElementsByTagName("dl");
+for(var i = 0; i < FocusPic_01.htmlData.length; i++){
+ var _jsn = {
+  title : FocusPic_01.htmlData[i].getElementsByTagName("a")[0].innerText || FocusPic_01.htmlData[i].getElementsByTagName("dt")[0].textContent,
+  url : FocusPic_01.htmlData[i].getElementsByTagName("a")[0].href,
+  pic : FocusPic_01.htmlData[i].getElementsByTagName("dd")[0].innerText || FocusPic_01.htmlData[i].getElementsByTagName("dd")[0].textContent,
+  smallpic : FocusPic_01.htmlData[i].getElementsByTagName("dd")[1].innerText || FocusPic_01.htmlData[i].getElementsByTagName("dd")[1].textContent,
+  intro : FocusPic_01.htmlData[i].getElementsByTagName("dd")[2].innerText || FocusPic_01.htmlData[i].getElementsByTagName("dd")[2].textContent
+ }
+ FocusPic_01.Add(_jsn);
+}
+FocusPic_01.begin();
+//--><!]]>
+</script>
+<div class="clear"></div>
+<!--end component 图片列表(new2)-->
+</div>
+
+<div class="clear"></div>
+
+
+<!--start component 图片列表(new)-->
+<div class="tit">
+ <div class="tit_1"><img src="template/26639437/26639447.png" width="145" height="30" border="0"></div>
+ <div class="tit_2"><a href="http://pic.cpd.com.cn/n3842/index.html" target="_blank">更 多</a></div>
+</div>
+<div id="c1">
+
+    
+ <div class="c1_d" style="margin-left:0px;">
+  <div class="c1_d1"><a href="n3842/c40214448/content.html" target="_blank"><img src="n3842/c40214448/pic_40214448.jpg" width="325" height="217" border="0"></a></div>
+  <div class="c1_d2">
+   <div class="c1_d2_1"><a href="n3842/c40214448/content.html" target="_blank">考试周横幅原来可以这样写</a></div>
+   <div class="c1_d2_2"></div>
+   <div class="c1_d2_3"><p>亲切幽默口吻的考试周横幅，被学生广泛转发。<a href="n3842/c40214448/content.html" target="_blank">[详细]</a></p></div>
+  </div>
+ </div>
+
+    
+ <div class="c1_d">
+  <div class="c1_d1"><a href="n3842/c40122017/content.html" target="_blank"><img src="n3842/c40122017/pic_40122017.jpg" width="325" height="217" border="0"></a></div>
+  <div class="c1_d2">
+   <div class="c1_d2_1"><a href="n3842/c40122017/content.html" target="_blank">“灯笼村”红火迎新年</a></div>
+   <div class="c1_d2_2"></div>
+   <div class="c1_d2_3"><p>工人们赶制大红灯笼，呈现红红火火的生产场景。<a href="n3842/c40122017/content.html" target="_blank">[详细]</a></p></div>
+  </div>
+ </div>
+
+    
+ <div class="c1_d">
+  <div class="c1_d1"><a href="n3842/c40017006/content.html" target="_blank"><img src="n3842/c40017006/pic_40017006.jpg" width="325" height="217" border="0"></a></div>
+  <div class="c1_d2">
+   <div class="c1_d2_1"><a href="n3842/c40017006/content.html" target="_blank">松花江畔雾凇如童话世界</a></div>
+   <div class="c1_d2_2"></div>
+   <div class="c1_d2_3"><p>吉林松花江畔出现大范围雾凇美景。<a href="n3842/c40017006/content.html" target="_blank">[详细]</a></p></div>
+  </div>
+ </div>
+
+    
+</div>
+<!--end component 图片列表(new)-->
+
+
+<div class="clear"></div>
+
+
+<!--start component HTML组件(new)-->
+<div class="tit">
+ <div class="tit_1"><img src="template/26639437/26639448.png" width="145" height="30" border="0"></div>
+ <div class="tit_2"><a href="http://pic.cpd.com.cn/n3824/index.html" target="_blank">更 多</a></div>
+</div>
+<!--end component HTML组件(new)-->
+
+<div id="c2">
+	<div id="c2_1">
+		
+<!--start component 图片列表(new)-->
+    
+  <div class="c2_1d">
+   <div class="c2_1d_1"><a href="n3824/c40190466/content.html" target="_blank"><img src="n3824/c40190466/pic_40190466.jpg" width="240" height="160" border="0"></a></div>
+   <div class="c2_1d_2"><a href="n3824/c40190466/content.html" target="_blank">徐州铁警坚守一线确保安全</a></div>
+  </div>
+
+    
+  <div class="c2_1d">
+   <div class="c2_1d_1"><a href="n3824/c40182774/content.html" target="_blank"><img src="n3824/c40182774/pic_40182774.jpg" width="240" height="160" border="0"></a></div>
+   <div class="c2_1d_2"><a href="n3824/c40182774/content.html" target="_blank">雪中保安全</a></div>
+  </div>
+
+    
+  <div class="c2_1d">
+   <div class="c2_1d_1"><a href="n3824/c40121462/content.html" target="_blank"><img src="n3824/c40121462/pic_40121462.jpg" width="240" height="160" border="0"></a></div>
+   <div class="c2_1d_2"><a href="n3824/c40121462/content.html" target="_blank">边检站的第20万名旅客</a></div>
+  </div>
+
+    
+  <div class="c2_1d">
+   <div class="c2_1d_1"><a href="n3824/c40118496/content.html" target="_blank"><img src="n3824/c40118496/pic_40118496.jpg" width="240" height="160" border="0"></a></div>
+   <div class="c2_1d_2"><a href="n3824/c40118496/content.html" target="_blank">清理“僵尸车”</a></div>
+  </div>
+
+    
+  <div class="c2_1d">
+   <div class="c2_1d_1"><a href="n3824/c40098524/content.html" target="_blank"><img src="n3824/c40098524/pic_40098524.jpg" width="240" height="160" border="0"></a></div>
+   <div class="c2_1d_2"><a href="n3824/c40098524/content.html" target="_blank">新乡近千名群众感受警营生活</a></div>
+  </div>
+
+    
+  <div class="c2_1d">
+   <div class="c2_1d_1"><a href="n3824/c40077711/content.html" target="_blank"><img src="n3824/c40077711/pic_40077711.jpg" width="240" height="160" border="0"></a></div>
+   <div class="c2_1d_2"><a href="n3824/c40077711/content.html" target="_blank">“渝警骁骑”街头巡逻</a></div>
+  </div>
+
+    
+<!--end component 图片列表(new)-->
+
+	</div>
+	<div id="c2_2">
+	<div id="c2_2p">
+		
+			
+<!--start component 图片列表(new)-->
+<div id="c2_2d">
+<div class="c2_2more"><a href="http://pic.cpd.com.cn/n3832/index.html" target="_blank"><img src="template/26639437/26639442.png" width="88" height="23" border="0"></a></div>
+
+   <style>
+   #qiehuan_1{margin-top:0px; border-top:none; padding-top:0; width:224px; float:left;}
+   .left_1{float:left; width:20px; height:17px; left:186px; top:10px; display:block; position:absolute; -moz-opacity:1; opacity:1; filter:alpha(opacity=100);}
+   .right_1{float:left; width:20px; height:17px; left:214px; top:10px; display:block; position:absolute; -moz-opacity:1; opacity:1; filter:alpha(opacity=100);}
+   #inside{width:224px; height:335px; overflow:hidden;}
+   #inside span{float:left; width:224px; height:335px; position:relative; overflow:hidden;}
+   #inside span .pl{width:224px; height:335px; float:left;}
+   #inside span .pl img{width:224px; height:335px; float:left; display:inline;}
+   #inside span .p2{width:224px; height:36px; left:0px; top:299px; display:block; position:absolute; background:#000; -moz-opacity:0.4; opacity:0.4; filter:alpha(opacity=40); z-index:9;}
+   #inside span .p3{width:224px; height:36px; left:0px; top:299px; display:block; position:absolute; -moz-opacity:1; opacity:1; filter:alpha(opacity=100); text-align:center; line-height:36px; color:#fff; font-size:14px; z-index:10;}
+   </style>
+   <script>
+    jQuery(function(){ 
+      jQuery.scroll_this(224,335,5000,"scroll_left","scroll_right","inside","div","span");
+    });
+   </script>
+   <div class="left_1"><input type="image" name="scroll_left" id="scroll_left" value="&lt;&lt;" src="template/26639437/26639444.gif"></div>
+   <div id="qiehuan_1">
+   <div id="inside" style="position: relative; overflow: hidden; z-index: 0;">
+   <div style="width: 9999px; position: relative; z-index: -20;">
+
+    
+    <span style="float: left; display: inline;">
+     <a class="pl" href="n3832/c39943873/content.html" target="_blank"><img src="n3832/c39943873/pic_39943873.jpg" width="240" height="181" border="0"></a>
+     <a class="p2"></a>
+     <a class="p3" href="n3832/c39943873/content.html" target="_blank">警营廉政书画比赛</a>
+    </span>
+
+    
+    <span style="float: left; display: inline;">
+     <a class="pl" href="n3832/c38724641/content.html" target="_blank"><img src="n3832/c38724641/pic_38724641.jpg" width="240" height="181" border="0"></a>
+     <a class="p2"></a>
+     <a class="p3" href="n3832/c38724641/content.html" target="_blank">警民联欢庆“八一” </a>
+    </span>
+
+    
+    <span style="float: left; display: inline;">
+     <a class="pl" href="n3832/c37567949/content.html" target="_blank"><img src="n3832/c37567949/pic_37567949.jpg" width="240" height="181" border="0"></a>
+     <a class="p2"></a>
+     <a class="p3" href="n3832/c37567949/content.html" target="_blank">龙门石窟进入旅游旺季</a>
+    </span>
+
+    
+   </div>
+   </div>
+   </div>
+   <div class="right_1"><input type="image" name="scroll_right" id="scroll_right" src="template/26639437/26639445.gif" value="&gt;&gt;"></div>
+
+</div>
+<!--end component 图片列表(new)-->
+
+		
+	</div>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+
+<!--start component HTML组件(new)-->
+<div class="tit">
+ <div class="tit_1"><img src="template/26639437/26639449.png" width="145" height="30" border="0"></div>
+ <div class="tit_2"><a href="http://pic.cpd.com.cn/n3838/index.html" target="_blank">更 多</a></div>
+</div>
+<!--end component HTML组件(new)-->
+
+<div id="c3">
+	
+<!--start component 图片列表(new)-->
+    
+ <div class="c3_1">
+  <div class="c3_1p">
+   <a href="n3838/c40214242/content.html" target="_blank"><img src="n3838/c40214242/pic_40214242.jpg" width="495" height="330" border="0"></a>
+   <div class="c3_11"></div>
+   <div class="c3_12"><a href="n3838/c40214242/content.html" target="_blank">冰天雪地保供电</a></div>
+  </div>
+ </div>
+
+    
+<!--end component 图片列表(new)-->
+
+	<div class="c3_2">
+		
+<!--start component 图片列表(new)-->
+        
+  <div class="c3_2d">
+  <div class="c3_2p">
+   <a href="n3838/c40213866/content.html" target="_blank"><img src="n3838/c40213866/pic_40213866.jpg" width="240" height="160" border="0"></a>
+   <div class="c3_21"></div>
+   <div class="c3_22"><a href="n3838/c40213866/content.html" target="_blank">纽约一公寓楼发生火灾</a></div>
+  </div>
+  </div>
+
+    
+  <div class="c3_2d">
+  <div class="c3_2p">
+   <a href="n3838/c40207103/content.html" target="_blank"><img src="n3838/c40207103/pic_40207103.jpg" width="240" height="160" border="0"></a>
+   <div class="c3_21"></div>
+   <div class="c3_22"><a href="n3838/c40207103/content.html" target="_blank">走近非遗古琴制作艺人</a></div>
+  </div>
+  </div>
+
+    
+  <div class="c3_2d">
+  <div class="c3_2p">
+   <a href="n3838/c40203806/content.html" target="_blank"><img src="n3838/c40203806/pic_40203806.jpg" width="240" height="160" border="0"></a>
+   <div class="c3_21"></div>
+   <div class="c3_22"><a href="n3838/c40203806/content.html" target="_blank">斯德哥尔摩一地铁站外发生爆炸</a></div>
+  </div>
+  </div>
+
+    
+  <div class="c3_2d">
+  <div class="c3_2p">
+   <a href="n3838/c40121903/content.html" target="_blank"><img src="n3838/c40121903/pic_40121903.jpg" width="240" height="160" border="0"></a>
+   <div class="c3_21"></div>
+   <div class="c3_22"><a href="n3838/c40121903/content.html" target="_blank">野生猕猴觅食过冬</a></div>
+  </div>
+  </div>
+
+    
+<!--end component 图片列表(new)-->
+
+	</div>
+</div>
+
+<div class="clear"></div>
+
+
+<!--start component HTML组件(new)-->
+<div class="tit">
+ <div class="tit_1"><img src="template/26639437/26639450.png" width="145" height="30" border="0"></div>
+ <div class="tit_2"><a href="http://pic.cpd.com.cn/n15403910/index.html" target="_blank">更 多</a></div>
+</div>
+<!--end component HTML组件(new)-->
+
+<div id="c4">
+	<div class="c4_1">
+		
+<!--start component 图片列表(new)-->
+    
+  <div class="c4_1d">
+  <div class="c4_1p">
+   <a href="n15403910/c40207458/content.html" target="_blank"><img src="n15403910/c40207458/pic_40207458.jpg" width="240" height="160" border="0"></a>
+   <div class="c4_11"></div>
+   <div class="c4_12"><a href="n15403910/c40207458/content.html" target="_blank">古城西安雪后初霁</a></div>
+  </div>
+  </div>
+
+    
+  <div class="c4_1d">
+  <div class="c4_1p">
+   <a href="n15403910/c40207324/content.html" target="_blank"><img src="n15403910/c40207324/pic_40207324.jpg" width="240" height="160" border="0"></a>
+   <div class="c4_11"></div>
+   <div class="c4_12"><a href="n15403910/c40207324/content.html" target="_blank">马来西亚举办舞龙挑战赛</a></div>
+  </div>
+  </div>
+
+    
+  <div class="c4_1d">
+  <div class="c4_1p">
+   <a href="n15403910/c40121661/content.html" target="_blank"><img src="n15403910/c40121661/pic_40121661.jpg" width="240" height="160" border="0"></a>
+   <div class="c4_11"></div>
+   <div class="c4_12"><a href="n15403910/c40121661/content.html" target="_blank">海棠花田音乐会</a></div>
+  </div>
+  </div>
+
+    
+  <div class="c4_1d">
+  <div class="c4_1p">
+   <a href="n15403910/c40121585/content.html" target="_blank"><img src="n15403910/c40121585/pic_40121585.jpg" width="240" height="160" border="0"></a>
+   <div class="c4_11"></div>
+   <div class="c4_12"><a href="n15403910/c40121585/content.html" target="_blank">国家京剧院赴大别山区慰问演出</a></div>
+  </div>
+  </div>
+
+    
+<!--end component 图片列表(new)-->
+
+	</div>
+	
+<!--start component 图片列表(new)-->
+                     <div class="c4_2">
+  <div class="c4_2p">
+   <a href="n15403910/c40121398/content.html" target="_blank"><img src="n15403910/c40121398/pic_40121398.jpg" width="495" height="330" border="0"></a>
+   <div class="c4_21"></div>
+   <div class="c4_22"><a href="n15403910/c40121398/content.html" target="_blank">巧手金雕</a></div>
+  </div>
+ </div>
+    
+<!--end component 图片列表(new)-->
+
+</div>
+
+<div class="clear"></div>
+
+
+<!--start component HTML组件(new)-->
+<div class="tit">
+ <div class="tit_1"><img src="template/26639437/26639451.png" width="145" height="30" border="0"></div>
+ <div class="tit_2"><a href="http://pic.cpd.com.cn/n3834/index.html" target="_blank">更 多</a></div>
+</div>
+<!--end component HTML组件(new)-->
+
+<div id="c5">
+
+
+<!--start component 图片列表(new1)-->
+ <script type="text/javascript">
+ <!--
+ function setTab(name,cursel,n){
+ for(i=1;i<=n;i++){
+ var con=document.getElementById("con_"+name+"_"+i);
+ var con2=document.getElementById("con_"+name+"_"+i+i);
+ con.style.display=i==cursel?"block":"none";
+ con2.style.display=i==cursel?"block":"none";
+ }
+ }
+ //-->
+ </script>
+ 
+ <script type="text/javascript">
+ <!--
+ function setTab2(name,cursel,n){
+ for(i=1;i<=n;i++){
+ var menu=document.getElementById(name+i);
+ menu.className=i==cursel?"c5_26_d1 hover":"c5_26_d1";
+ }
+ }
+ //-->
+ </script>
+  
+ <div class="c5_1">
+
+    
+  <div id="con_one_1">
+  <div class="c5_1p">
+   <a href="n3834/c33627764/content.html" target="_blank"><img src="n3834/c33627764/pic_33627764.jpg" width="550" height="309" border="0"></a>
+   <div class="c5_11"></div>
+   <div class="c5_12"><a href="n3834/c33627764/content.html" target="_blank">丹江口大坝夜景</a></div>
+  </div>
+  </div>
+
+                
+
+        
+  <div id="con_one_2" style="display:none;">
+  <div class="c5_1p">
+   <a href="n3834/c32910401/content.html" target="_blank"><img src="n3834/c32910401/pic_32910401.jpg" width="550" height="309" border="0"></a>
+   <div class="c5_11"></div>
+   <div class="c5_12"><a href="n3834/c32910401/content.html" target="_blank">《菜花香溢月亮湾》</a></div>
+  </div>
+  </div>
+
+            
+
+            
+  <div id="con_one_3" style="display:none;">
+  <div class="c5_1p">
+   <a href="n3834/c32562230/content.html" target="_blank"><img src="n3834/c32562230/pic_32562230.jpg" width="550" height="309" border="0"></a>
+   <div class="c5_11"></div>
+   <div class="c5_12"><a href="n3834/c32562230/content.html" target="_blank">《霞光戍影》</a></div>
+  </div>
+  </div>
+
+        
+
+                
+  <div id="con_one_4" style="display:none;">
+  <div class="c5_1p">
+   <a href="n3834/c31204048/content.html" target="_blank"><img src="n3834/c31204048/pic_31204048.jpg" width="550" height="309" border="0"></a>
+   <div class="c5_11"></div>
+   <div class="c5_12"><a href="n3834/c31204048/content.html" target="_blank">《爷爷》</a></div>
+  </div>
+  </div>
+ </div>
+
+    
+<!--end component 图片列表(new1)-->
+
+<!--start component 图片列表(new2)-->
+ <div class="c5_2">
+  <div class="c5_2p">
+  <a href="http://pic.cpd.com.cn/n18149/index.html" target="_blank" style="cursor:pointer;"><div class="c5_21">摄影</div><div class="c5_22">人</div><div class="c5_23"></div><div class="c5_24"></div></a>
+  
+
+    
+  <div id="con_one_11">
+  <div class="c5_25">
+   <div class="c5_25_1"><a href="n18149/c33628067/content.html" target="_blank"><img src="n18149/c33628067/pic_33628067.jpg" width="137" height="137" border="0"></a></div>
+   <div class="c5_25_2">
+    <div class="c5_25_21"><a href="n18149/c33628067/content.html" target="_blank">程军</a></div>
+    <div class="c5_25_22"><p>程军，湖北省丹江口市公安局交警大队民警，湖北省旅游摄影协会会员、十堰市摄影协会会员。<a href="n18149/c33628067/content.html" target="_blank">[详细]</a></p></div>
+   </div>
+  </div>
+  </div>
+  
+                
+
+        
+  <div id="con_one_22" style="display:none;">
+  <div class="c5_25">
+   <div class="c5_25_1"><a href="n18149/c31880036/content.html" target="_blank"><img src="n18149/c31880036/pic_31880036.jpg" width="137" height="137" border="0"></a></div>
+   <div class="c5_25_2">
+    <div class="c5_25_21"><a href="n18149/c31880036/content.html" target="_blank">陈光学</a></div>
+    <div class="c5_25_22"><p>陈光学，安徽省青阳县公安局交警大队副大队长兼车管所长、宣教科长。<a href="n18149/c31880036/content.html" target="_blank">[详细]</a></p></div>
+   </div>
+  </div>
+  </div>
+  
+            
+
+            
+  <div id="con_one_33" style="display:none;">
+  <div class="c5_25">
+   <div class="c5_25_1"><a href="n18149/c32562291/content.html" target="_blank"><img src="n18149/c32562291/pic_32562291.jpg" width="137" height="137" border="0"></a></div>
+   <div class="c5_25_2">
+    <div class="c5_25_21"><a href="n18149/c32562291/content.html" target="_blank">吴水斌</a></div>
+    <div class="c5_25_22"><p>吴水斌，浙江公安边防总队温州支队霞关边防派出所教导员，现为全国公安文联会员。<a href="n18149/c32562291/content.html" target="_blank">[详细]</a></p></div>
+   </div>
+  </div>
+  </div>
+  
+        
+
+                
+  <div id="con_one_44" style="display:none;">
+  <div class="c5_25">
+   <div class="c5_25_1"><a href="n18149/c31207523/content.html" target="_blank"><img src="n18149/c31207523/pic_31207523.jpg" width="137" height="137" border="0"></a></div>
+   <div class="c5_25_2">
+    <div class="c5_25_21"><a href="n18149/c31207523/content.html" target="_blank">赵国政</a></div>
+    <div class="c5_25_22"><p>赵国政，江苏公安边防总队徐州边防检查站综合办公室宣传干事，主要负责新闻宣传工作。<a href="n18149/c31207523/content.html" target="_blank">[详细]</a></p></div>
+   </div>
+  </div>
+  </div>
+
+    
+  
+  <div class="c5_26">
+
+    
+   <div class="c5_26_d">
+    <div class="c5_26_d1" id="one1" onclick="setTab('one',1,4)" onmouseover="setTab2('one',1,4)" onmouseout="setTab2('one',0,4)" style="cursor:pointer;"><img src="n18149/c33628067/pic_33628067.jpg" width="70" height="70" border="0"></div>
+    <div class="c5_26_d2">程军</div>
+   </div>
+
+                
+        
+   <div class="c5_26_d">
+    <div class="c5_26_d1" id="one2" onclick="setTab('one',2,4)" onmouseover="setTab2('one',2,4)" onmouseout="setTab2('one',0,4)" style="cursor:pointer;"><img src="n18149/c31880036/pic_31880036.jpg" width="70" height="70" border="0"></div>
+    <div class="c5_26_d2">陈光学</div>
+   </div>
+
+            
+            
+   <div class="c5_26_d">
+    <div class="c5_26_d1" id="one3" onclick="setTab('one',3,4)" onmouseover="setTab2('one',3,4)" onmouseout="setTab2('one',0,4)" style="cursor:pointer;"><img src="n18149/c32562291/pic_32562291.jpg" width="70" height="70" border="0"></div>
+    <div class="c5_26_d2">吴水斌</div>
+   </div>
+
+        
+                
+   <div class="c5_26_d">
+    <div class="c5_26_d1" id="one4" onclick="setTab('one',4,4)" onmouseover="setTab2('one',4,4)" onmouseout="setTab2('one',0,4)" style="cursor:pointer;"><img src="n18149/c31207523/pic_31207523.jpg" width="70" height="70" border="0"></div>
+    <div class="c5_26_d2">赵国政</div>
+   </div>
+
+    
+  </div>
+  </div>
+ </div>
+<!--end component 图片列表(new2)-->
+
+	
+</div>
+
+<div class="clear"></div>
+
+
+<!--start component HTML组件(new)-->
+<div id="zebian">
+ <div id="zebian_top"><span>主编：沈磊磊</span><span>责编：闫&nbsp;&nbsp;琦&nbsp;&nbsp;徐立民</span><span>美编：罗焱冰</span><span>技术支持：范少卿</span></div>
+ <div id="zebian_bottom"><span>电话：010-83731606/1625</span><span>新闻中心QQ群：190161299</span><span>统一投稿平台：<a href="http://post.cpd.com.cn/index" target="_blank" style="color:#666;">post.cpd.com.cn</a></span></div>
+</div>
+<!--end component HTML组件(new)-->
+
+
+<div class="clear"></div>
+
+
+<!--start component HTML组件(new)-->
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://app.cpd.com.cn/count/" : "http://app.cpd.com.cn/count/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="http://app.cpd.com.cn/count/piwik.js" type="text/javascript"></script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript>&lt;p&gt;&lt;img src="http://app.cpd.com.cn/count/piwik.php?idsite=3" style="border:0" alt="" /&gt;&lt;/p&gt;</noscript>
+<!-- End Piwik Tracking Code -->
+<!--end component HTML组件(new)-->
+
+
+</div>
+
+</body></html>

@@ -1,0 +1,4674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN" xml:lang="zh-CN"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>欢迎访问 国家电网公司电子商务平台</title>
+<meta name="Keywords" content="电子商务平台, 招投标平台, 供应商, 物流, 合同, 物资部, 国家电网公司">
+<meta name="description" content="国家电网公司电子商务平台，国家电网公司招投标平台，国家电网公司物资部">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link href="/themes/default/css/common.css" rel="stylesheet" type="text/css">
+<link href="/themes/default/css/index_new.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/themes/default/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/themes/default/js/jquery.pause.min.js"></script>
+<script type="text/javascript" src="/themes/default/js/sgcc.js"></script>
+<script type="text/javascript" src="/common/js/sgcc_urlrewrite.js"></script>
+<script type="text/javascript" src="/themes/default/js/jquery.cookie.js"></script>
+<script language="javascript">
+$(function(){
+$('.btnStayOnThisPage').click(function(){
+	if($('#disable_announcement').attr('checked') =='checked') {
+		$.cookie("never_display_annoucement", "1");
+	}
+	if(this.innerHTML=="进入旧版首页"){
+		window.location="/BidUpgrade";
+	}
+	$('#pop_box').hide();
+	$('#mask').hide();
+	$("select").css("visibility","visible")
+	return false;
+});
+});
+</script>
+<!-- add 2014/6/10 niu -->
+<script type="text/javascript">
+	function showBig(){
+		var big=document.getElementById("bigImg");
+		big.style.display="block";
+		big.style.marginTop="-200px";
+	}
+	function hideImg(){
+		var big=document.getElementById("bigImg");
+		big.style.display="none";
+		big.style.marginTop="200px";
+	}
+</script>
+<!-- end  2014/6/10 niu -->
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/common/js/checkInput.js"></script>
+<div class="index_top">
+      <div class="index_top_logo"><a href="/html/index.html"><img src="/themes/default/images/icon_index_logo.png" onload="fixPNG(this)"></a></div>
+	  <div class="index_top_search">
+	      <ul>
+		     <li>
+			    <div class="index_top_search_icon"><img src="/themes/default/images/icon_index_search01.png"></div>
+				<div class="index_top_search_text"><a class="linkBlack" href="/BidUpgrade/jsp/slogin2.jsp" target="_blank">登录</a></div>
+			 </li>
+			 <li>
+			    <div class="index_top_search_icon"><img src="/themes/default/images/icon_index_search02.png"></div>
+				<div class="index_top_search_text"><a class="linkBlack" href="/BidUpgrade/SgccSupplierReg" target="_blank">注册</a></div>
+			 </li>
+			 <li>
+			    <div class="index_top_search_icon"><img src="/themes/default/images/icon_index_search03.png"></div>
+				<div class="index_top_search_text"><a class="linkBlack" href="javascript:void(0);" onclick="window.external.AddFavorite(document.location.href,'国家电网电子商务平台')">收藏网站</a></div>
+			 </li>
+			  <form name="searchfrm" id="searchfrm" method="POST" action="/search_result.jsp" onsubmit="return checkInput('keyword',this.form);">
+			 <li class="index_select">
+				<select name="category" class="index_select" id="category">
+			    <option value="">全站搜索</option>
+			   <option value="1">招标公告</option>
+			    <option value="2">非招标公告</option> 
+			   <option value="3">结果公告</option>
+			    <option value="4">废标公告</option>
+			     <option value="8">合同服务</option>
+			    <option value="9">物资调配</option>
+			    <option value="5">竞价公告</option>
+			    <option value="6">核实公告</option>
+			    <option value="7">公共信息</option>
+			 </select>
+			 </li>
+			 <li class="search_text">
+			     <input type="text" id="keyword" name="keyword" class="index_top_input" onkeypress="return testEnter()" value="请输入关键字" onfocus="if(value == '请输入关键字'){this.value=''}" onblur="if(!value){value='请输入关键字';}">
+                 
+
+<style>
+html,body{font-size:12px;margin:0px;height:100%;}
+.warn_box{background:#fff;}
+.warn_boxTop{height: 30px;background: #3eb1a2;color: #FFFFFF;padding-left:5px;}
+.warn_title{padding:0 5px;height: 30px;line-height:30px;background: #3eb1a2;color: #FFFFFF;font-family: "微软雅黑";font-size: 16px;position:relative;}
+.warn_cont{border:3px solid #3eb1a2;}
+.warn_close{cursor:pointer;float:;border:none;background:url(/themes/default/images/icon_companyjs02.png) no-repeat left center;width:19px;height:30px;position:absolute;top:0;right:5px;}
+.warn_infor{background:url(/common/images/search_warn.png) no-repeat 30px 20px;padding:20px 0 20px 70px;line-height:32px;font-size:14px;}
+</style>
+<script>
+var isIe=(document.all)?true:false;
+//设置select的可见状态
+function mousePosition(ev)
+{
+if(ev.pageX || ev.pageY)
+{
+return {x:ev.pageX, y:ev.pageY};
+}
+return {
+x:ev.clientX + document.body.scrollLeft - document.body.clientLeft,y:ev.clientY + document.body.scrollTop - document.body.clientTop
+};
+}
+//弹出方法
+function showMessageBox(wTitle,content,pos,wWidth)
+{
+closeWindow();
+var bWidth=parseInt(document.documentElement.scrollWidth);
+var bHeight=parseInt(document.documentElement.scrollHeight);
+var back=document.createElement("div");
+back.id="back";
+var styleStr="top:0px;left:0px;position:absolute;background:#666;width:"+bWidth+"px;height:"+bHeight+"px;";
+styleStr+=(isIe)?"filter:alpha(opacity=0);":"opacity:0;";
+back.style.cssText=styleStr;
+document.body.appendChild(back);
+showBackground(back,30);
+var mesW=document.createElement("div");
+mesW.id="warn_box";
+mesW.className="warn_box";
+mesW.innerHTML="<div class='warn_title'>"+wTitle+"<input type='button' onclick='closeWindow();' title='关闭窗口' class='warn_close' value='' /></div><div class='warn_cont' id='warn_cont'>"+content+"</div><div class='warn_boxBottom'></div>";
+var v_top=(document.body.clientHeight-mesW.clientHeight)/2;
+v_top+=document.documentElement.scrollTop;
+styleStr="top:200px;position:absolute;width:300px;margin-left:-150px;left:50%;z-index:999;";
+mesW.style.cssText=styleStr;
+document.body.appendChild(mesW);
+}
+//让背景渐渐变暗
+function showBackground(obj,endInt)
+{
+if(isIe)
+{
+obj.filters.alpha.opacity+=5;
+if(obj.filters.alpha.opacity<endInt)
+{
+setTimeout(function(){showBackground(obj,endInt)},5);
+}
+}else{
+var al=parseFloat(obj.style.opacity);al+=0.05;
+obj.style.opacity=al;
+if(al<(endInt/100))
+{setTimeout(function(){showBackground(obj,endInt)},5);}
+}
+}
+//关闭窗口
+function closeWindow()
+{
+if(document.getElementById('back')!=null)
+{
+document.getElementById('back').parentNode.removeChild(document.getElementById('back'));
+}
+if(document.getElementById('warn_box')!=null)
+{
+document.getElementById('warn_box').parentNode.removeChild(document.getElementById('warn_box'));
+}
+
+}
+//测试弹出
+function warnbox(ev)
+{
+var objPos = mousePosition(ev);
+messContent="<div class='warn_infor'>请输入中文，数字，英文字母!</div>";
+showMessageBox('信息提示：',messContent,objPos,350);
+}
+</script>
+
+			 </li>
+			 <li style="padding:4px 0px 0px 0;">
+			    <input type="image" alter="提交检索" src="/themes/default/images/icon_index_search04.png">
+			    <div id="showError" style="height: 20px;display: block;">
+			    	<span style="background: orange;"></span>
+			    </div>
+			 </li>
+			 </form>
+		  </ul>
+	  </div>
+   </div>
+<div class="clearit"></div>
+<div class="index_content">
+<div class="index_content_left">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主导航菜单开始 -->
+
+	<div class="menu">
+	<ul id="menu_items">
+	<li style="float:left;height:36px; overflow:hidden; margin-top: 2px;"><a href="/html/index.html"><img src="/themes/default/images/icon_index_column01.png" width="46" height="35"></a></li>
+		
+
+		<!--主导航菜单缓存 10分钟 begin-->
+		
+			<li class="menu_item"><a href="#" class="linkYahei">招标采购</a><div class="item_content col2"><dl><dt class="white01"><a href="/project_list.jsp?site=global&amp;column_code=014001001&amp;project_type=1">物资采购</a></dt><dd class="white02"><a href="/project_list.jsp?site=global&amp;column_code=014001001&amp;project_type=1">招标公告</a></dd><dd class="white02"><a href="/news_list.jsp?site=global&amp;column_code=014001008&amp;company_id=00&amp;news_name=all">非招标公告</a></dd><dd class="white02"><a href="/news_list.jsp?site=global&amp;column_code=014001003&amp;company_id=00&amp;news_name=all">推荐的中标候选人公示</a></dd><dd class="white02"><a href="/news_list.jsp?site=global&amp;column_code=014001007&amp;company_id=00&amp;news_name=all">中标（成交）结果公告</a></dd><dd class="white02"><a href="/news_list.jsp?site=global&amp;column_code=014001005&amp;company_id=00&amp;news_name=all">否决公告</a></dd><dd class="white02"><a href="/news_list.jsp?site=global&amp;column_code=014001006&amp;company_id=00&amp;news_name=all">公共信息</a></dd><dd class="white02"><a href="/html/news/global/014001009_00/list_1.html">年度采购计划预安排</a></dd></dl><dl><dt class="white01" style="border-right:none;"><a href="/project_list.jsp?site=global&amp;column_code=014002007&amp;project_type=2">服务采购</a></dt><dd class="white02" style="border-right:none;"><a href="/project_list.jsp?site=global&amp;column_code=014002007&amp;project_type=2">招标公告</a></dd><dd class="white02" style="border-right:none;"><a href="/news_list.jsp?site=global&amp;column_code=014002008&amp;company_id=00&amp;news_name=all">非招标公告</a></dd><dd class="white02" style="border-right:none;"><a href="/news_list.jsp?site=global&amp;column_code=014002009&amp;company_id=00&amp;news_name=all">推荐的中标候选人公示</a></dd><dd class="white02" style="border-right:none;"><a href="/news_list.jsp?site=global&amp;column_code=014002003&amp;company_id=00&amp;news_name=all">中标（成交）结果公告</a></dd><dd class="white02" style="border-right:none;"><a href="/news_list.jsp?site=global&amp;column_code=014002006&amp;company_id=00&amp;news_name=all">否决公告</a></dd><dd class="white02" style="border-right:none;"><a href="/news_list.jsp?site=global&amp;column_code=014002005&amp;company_id=00&amp;news_name=all">公共信息</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/014002010_00/list_1.html">年度采购计划预安排</a></dd></dl></div></li><li class="menu_item"><a href="#" class="linkYahei">物资供应</a><div class="item_content col1"><dl style="border-right:none;"><dd class="white02" style="border-right:none;"><a href="/html/news/global/015002_00/list_1.html">合同服务</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/015003_00/list_1.html">物资调配</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/015001_00/list_1.html">公共信息</a></dd></dl></div></li><li class="menu_item"><a href="#" class="linkYahei">质量监督</a><div class="item_content col1"><dl style="border-right:none;"><dd class="white02" style="border-right:none;"><a href="/html/news/global/016008_00/list_1.html">业务公告</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/016009_00/list_1.html">专业检测</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/016004_00/list_1.html">监造标准</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/016005_00/list_1.html">抽检标准</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/016002_00/list_1.html">质量监督信息发布</a></dd></dl></div></li><li class="menu_item"><a href="#" class="linkYahei">供应商管理</a><div class="item_content col2"><dl><dt class="white01"><a href="/html/news/global/018011003_00/list_1.html">资质能力核实</a></dt><dd class="white02"><a href="/html/news/global/018011003_00/list_1.html">业务公告</a></dd><dd class="white02"><a href="/html/news/global/018011002_00/list_1.html">规范标准</a></dd><dd class="white02"><a href="/html/news/global/018011004_00/list_1.html">资质能力核实年度工作计划</a></dd></dl><dl><dt class="white01"><a href="/html/news/global/018013001_00/list_1.html">不良行为处理</a></dt><dd class="white02"><a href="/html/news/global/018013001_00/list_1.html">业务公告</a></dd><dd class="white02"><a href="/html/news/global/018013002_00/list_1.html">规范标准</a></dd></dl><dl><dt class="white01"><a href="/html/news/global/018012002_00/list_1.html">绩效评价</a></dt><dd class="white02"><a href="/html/news/global/018012003_00/list_1.html">业务公告</a></dd><dd class="white02"><a href="/html/news/global/018012002_00/list_1.html">规范标准</a></dd></dl><dl><dt class="white01" style="border-right:none;"><a href="/html/news/global/018014001_00/list_1.html">财务及其他</a></dt><dd class="white02" style="border-right:none;"><a href="/html/news/global/018014001_00/list_1.html">业务公告</a></dd></dl></div></li><li class="menu_item"><a href="#" class="linkYahei">采购标准</a><div class="item_content col1"><dl style="border-right:none;"><dd class="white02" style="border-right:none;"><a href="/html/news/global/017001_00/list_1.html">采购标准公告</a></dd><dd class="white02" style="border-right:none;"><a href="/cgbz_news_list.jsp?site=global&amp;column_code=017002&amp;company_id=00">物资采购标准</a></dd><dd class="white02" style="border-right:none;"><a href="/cgbz_news_list.jsp?site=global&amp;column_code=017003&amp;company_id=00">服务采购标准</a></dd><dd class="white02" style="border-right:none;"><a href="/material_news_list.jsp?site=global&amp;column_code=017006">固化ID查询</a></dd></dl></div></li><li class="menu_item"><a href="#" class="linkYahei">循环物资竞价</a><div class="item_content col1"><dl style="border-right:none;"><dd class="white02" style="border-right:none;"><a href="/announcement_list.jsp?site=global&amp;column_code=019001&amp;company_id=00&amp;announce_name=all">竞价公告</a></dd><dd class="white02" style="border-right:none;"><a href="/news_list.jsp?site=global&amp;column_code=019002&amp;company_id=00&amp;news_name=all">公共信息</a></dd></dl></div></li><li class="menu_item"><a href="#" class="linkYahei">新技术推广</a><div class="item_content col1"><dl style="border-right:none;"><dd class="white02" style="border-right:none;"><a href="/html/news/global/022001_00/list_1.html">公共信息</a></dd></dl></div></li><li class="menu_item"><a href="#" class="linkYahei">关于我们</a><div class="item_content col1"><dl style="border-right:none;"><dd class="white02" style="border-right:none;"><a href="/html/news/global/020001_00/list_1.html">组织结构</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/020002_00/list_1.html">政策法规</a></dd><dd class="white02" style="border-right:none;"><a href="/html/news/global/020003_00/list_1.html">工作动态</a></dd>
+		
+        <!--主导航菜单缓存 end-->
+        </dl>
+       
+		</div>
+        </li>
+		<li style="float:right;height:38px; overflow:hidden;"><img src="/themes/default/images/icon_index_column03.png"></li>
+	</ul>
+	
+	<!-- 主导航菜单结束 -->
+	</div>
+
+
+<!-- Banner广告位滚动图片 Begin -->
+
+
+
+<div class="homebanner">
+		<div id="YSlide">
+		
+      <p class="YSample" style="display: block; "><a><img src="/outerNews/8a8190aa4c788675014c794210460140_portalBigPhoto1.jpg" style="opacity: 1; "></a></p>
+    
+    
+      <p class="YSample" style="display: none; "><a><img src="/outerNews/8a8190aa4c788675014c794264f50142_portalBigPhoto2.jpg" style="opacity: 1; "></a></p>
+    
+    
+      <p class="YSample" style="display: none; "><a><img src="/outerNews/8a8190aa4c788675014c7942b6240145_portalBigPhoto3.jpg" style="opacity: 1; "></a></p>
+    
+    
+      <p class="YSample" style="display: none; "><a><img src="/outerNews/8a8190aa4c788675014c794302b50146_portalBigPhoto4.jpg"></a></p>
+    
+    	
+	   	<p id="YSIndex">
+	   
+	   	<a href="javascript:;" class="  current">1</a>
+	   	
+	   	<a href="javascript:;" class=" ">2</a>
+	   	
+	   	<a href="javascript:;" class=" ">3</a>
+	   	
+	   	<a href="javascript:;" class=" ">4</a>
+	   	
+	   	</p>
+	
+		</div>
+		<script language="javascript" type="text/javascript" src="/themes/default/js/yao.js"></script>
+		<script language="javascript" type="text/javascript">
+			YAO.YTabs({
+				tabs: YAO.getEl('YSIndex').getElementsByTagName('a'),
+				contents: YAO.getElByClassName('YSample', 'p', 'YSlide'),
+				defaultIndex: 0,
+				auto: true,
+				fadeUp: true
+			});
+		</script>
+	</div>
+
+<!-- Banner广告位滚动图片 End -->
+
+<div class="clearit"></div>
+ <div class="index_new_gg">
+		    <div class="index_new_gg_left">最新公告</div>
+			<div class="index_new_gg_rihgt">
+			
+			   <marquee onmouseover="this.stop()" onmouseout="this.start()" direction="left" height="32" behavior="type" loop="-1" scrollamount="3" aligh="left">
+			<!-- 最新公告缓存10分钟begin -->
+			
+		 		
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showNewsDetail('018013001', '54612');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月9日）</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220257');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八批服务类招标采购项目</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220256');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国家电网有限公司2018年电源项目第一次服务招标采购</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showProjectDetail('014001001','9900000000005060181');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国家电网有限公司2018年电源项目第一次物资招标采购</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showNewsDetail('014001003', '54611');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选人公示</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showNewsDetail('014001003', '54592');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招标）推荐的中标候选人公示</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showNewsDetail('014001006', '54610');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100271');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-开关柜</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100268');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-组合电器</span>
+		        
+		         </a>
+		      
+		      	
+		         <a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100272');">
+			    •&nbsp;
+		         <span style="font-weight:700;color:#ff0000;">国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-继电保护和变电站计算机监控系统</span>
+		        
+		         </a>
+		      
+		      
+		      <!-- 最新公告缓存10分钟end -->
+			   </marquee>
+			</div>
+		 </div>
+
+<div class="clearit"></div>
+
+<div class="tab_div">
+
+<div class="index_con2">
+	<div class="Menubox">  
+    	<ul>
+         	<li data-target="0" class="hover" data-link="/html/topic/all/topic00/list_1.html" onclick="showTopicList('all', 'topic00');">全部公告</li>
+            <li data-target="1" data-link="/topic_project_list.jsp?columnName=topic10" onclick="showMore('/topic_project_list.jsp?columnName=topic10')">招标公告</li>
+            <li data-target="2" data-link="/topic_news_list.jsp?columnName=topic21&amp;column_code1=014001008&amp;column_code2=014002008 " onclick="showMore('/topic_news_list.jsp?columnName=topic21&amp;column_code1=014001008&amp;column_code2=014002008')">非招标公告</li>
+            <li data-target="3" data-link="/topic_announcement_list.jsp?columnName=topic40&amp;column_code=019001 " onclick="showMore('/topic_announcement_list.jsp?columnName=topic40&amp;column_code=019001')">竞价公告</li>
+            <li data-target="4" data-link="/topic_pubmsg_list.jsp?columnName=topic50" onclick="showMore('/topic_pubmsg_list.jsp?columnName=topic50')">公共信息</li>  
+    	</ul> 
+	
+		<div style="float:right; line-height:24px;"><a class="more" href="javascript:showTopicList('all', 'topic00');">更多&gt;&gt;</a></div>
+	</div><!--  end of menubox -->
+
+<!-- start of scroll area //-->              
+<div class="scroll-area">
+  <div class="noticeList">
+	
+ 	
+    
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '018013001', '54612');" title="国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月9日）">
+			    
+		  		
+		  		国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220257');" title="“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八批服务类招标采购项目">
+			    
+		  		
+		  		“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220256');" title="国家电网有限公司2018年电源项目第一次服务招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次服务招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','9900000000005060181');" title="国家电网有限公司2018年电源项目第一次物资招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次物资招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54611');" title="国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54592');" title="国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招标）推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '54610');" title="关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知">
+			    
+		  		关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100271');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-开关柜">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100266');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电容器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100263');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-互感器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100273');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-通信设备集成服务及新建通信网设备">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100261');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-变压器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100269');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-断路器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100267');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-消弧线圈">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100262');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电抗器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100274');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电缆及附件">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100270');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-隔离开关">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100412');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-四川阿坝隆康工程">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100276');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-复合屏蔽封闭绝缘母线">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100264');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-避雷器及支柱绝缘子">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100268');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-组合电器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100272');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-继电保护和变电站计算机监控系统">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '54591');" title="国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知">
+			    
+		  		国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001007', '54609');" title="“总部统一组织监控，省公司具体实施”国网上海市电力公司2017年第四批协议库存招标采购项目中标公告">
+			    
+		  		
+		  		“总部统一组织监控，省公司具体实施”国网上海市电力公司2017年第四批...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014002005', '54590');" title="国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项目（非物资）公开竞争性谈判成交结果公告">
+			    
+		  		
+		  		国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showAnnounceDetail('8a8190ab605cff150160d8caf0cd7a88');" title="2018年度上海市电力公司第1批次废旧物资处置竞价公告">
+			    
+		  		2018年度上海市电力公司第1批次废旧物资处置竞价公告
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100282');" title="国家电网有限公司2018年藏中联网工程线路在线监测系统招标采购">
+			    
+		  		国家电网有限公司2018年藏中联网工程线路在线监测系统招标采购
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100279');" title="国家电网有限公司2018年输电线路材料绝缘子第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料绝缘子第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100278');" title="国家电网有限公司2018年输电线路材料导地线第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料导地线第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100281');" title="国家电网有限公司2018年输电线路材料线路金具第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料线路金具第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100280');" title="国家电网有限公司2018年输电线路材料光缆及光缆附件第一次集中招标活动">
+			    
+		  		
+		  		国家电网有限公司2018年输电线路材料光缆及光缆附件第一次集中招标活动...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100277');" title="国家电网有限公司2018年输电线路材料铁塔及构支架第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料铁塔及构支架第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220240');" title="国网江苏省电力有限公司2018年第一批工程、服务类招标采购">
+			    
+		  		国网江苏省电力有限公司2018年第一批工程、服务类招标采购
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '015001', '54608');" title="国网浙江省电力有限公司协议库存执行率公示2017年12月">
+			    
+		  		国网浙江省电力有限公司协议库存执行率公示2017年12月
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014002005', '54607');" title="投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类项目招标采购招标文件">
+			    
+		  		
+		  		投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220009');" title="国网甘肃省电力公司2018年第一次服务招标采购">
+			    
+		  		国网甘肃省电力公司2018年第一次服务招标采购
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '7900000000000063825');" title="关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息的澄清">
+			    
+		  		
+		  		关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001008', '7900000000000063823');" title="国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告">
+			    
+		  		国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '019002', '54588');" title="国网甘肃省电力公司2017年12月协议库存执行情况公示">
+			    
+		  		国网甘肃省电力公司2017年12月协议库存执行情况公示
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014002005', '54606');" title="国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中标候选人公示（第三部分）">
+			    
+		  		
+		  		国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+	
+  <p><a href="javascript:void(0);" onclick="showNewsDetail( '018013001', '54612');" title="国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月9日）">
+			    
+		  		
+		  		国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220257');" title="“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八批服务类招标采购项目">
+			    
+		  		
+		  		“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220256');" title="国家电网有限公司2018年电源项目第一次服务招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次服务招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','9900000000005060181');" title="国家电网有限公司2018年电源项目第一次物资招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次物资招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54611');" title="国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54592');" title="国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招标）推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '54610');" title="关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知">
+			    
+		  		关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100271');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-开关柜">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100266');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电容器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100263');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-互感器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p></div>
+</div>
+<!-- end of scroll area //-->
+	</div><!--  end of index_con2 -->
+  
+	<div class="tab_right">
+			   <div class="tab_right_content">
+		          <div class="tab_right_content_top">
+			        <p><a href="/html/resource/global/021003001001/list_1.html" class="linkWhite12"><strong style="font-size:14px; font-family: " 微软雅黑";"="">下载专区</strong></a></p>
+					<span><a href="/html/resource/global/021003001001/list_1.html" class="linkWhite12">更多&gt;&gt;</a></span>
+			      </div>
+				  <div class="tab_right_content_bg" style="background:url(/themes/default/images/bg_index_tab01.png) bottom right no-repeat">
+				   <ul>
+				   		<li><a href="/html/resource/global/021003001001/list_1.html">电子钥匙办理及安装</a> </li>
+				   		<li><a href="/html/resource/global/021003002003/list_1.html">离线投标工具安装 </a> </li>
+				   		<li><a href="/html/resource/global/021003003001/list_1.html">操作手册及视频演示 </a> </li>
+				   </ul> 
+				   
+	  
+	  </div>
+			
+</div>	
+
+			
+			   
+			   <div class="tab_right_content" style="margin-top:15px;">
+		          <div class="tab_right_content_top">
+		          
+			        <p><a href="/html/help/021006001/10325.html" class="linkWhite12"><strong style="font-size:14px; font-family: " 微软雅黑";"="">业务流程及常见问题</strong></a></p>
+			       	<span><a href="/html/help/021006001/10325.html" class="linkWhite12">更多&gt;&gt;</a></span>
+					
+			      </div>
+				  <div class="tab_right_content_bg">
+							
+					
+					<table align="center" cellspacing="8" style="margin:8px 0px 0px 0px;">
+					
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+								
+
+						    
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+
+
+							
+
+							
+						
+							<tbody><tr>
+							
+							<td valign="top" height="16px"><span style="float:left;padding-right:5px;"><img src="/themes/default/images/1.png"></span>
+								<a href="/html/help/021006001/10325.html">投标前准备</a></td>
+			       				
+						
+							<td valign="top" height="16px"><span style="float:left;padding-right:5px;"><img src="/themes/default/images/2.png"></span>
+								<a href="/html/help/021006007/28068.html">投标流程</a></td>
+			       				
+			       				</tr>
+			       				
+						
+							<tr>
+							
+							<td valign="top" height="16px"><span style="float:left;padding-right:5px;"><img src="/themes/default/images/3.png"></span>
+								<a href="/html/help/021006004/10424.html">合同签订及履约</a></td>
+			       				
+						
+							<td valign="top" height="16px"><span style="float:left;padding-right:5px;"><img src="/themes/default/images/4.png"></span>
+								<a href="/html/help/021006005/10356.html">废旧物资拍卖</a></td>
+			       				
+			       				</tr>
+			       				
+						
+							<tr>
+							
+							<td valign="top" height="16px"><span style="float:left;padding-right:5px;"><img src="/themes/default/images/5.png"></span>
+								<a href="/html/help/021006006/37644.html">资质能力核实</a></td>
+			       				
+						
+							<td valign="top" height="16px"><span style="float:left;padding-right:5px;"><img src="/themes/default/images/6.png"></span>
+								<a href="/html/help/021006008/40253.html">常见问题</a></td>
+			       				
+			       				</tr>
+			       				
+						
+					</tbody></table>
+						
+				  </div>
+			   </div>
+			  
+			</div>
+	</div> 
+
+</div>
+
+ <div class="index_content_right">
+ 	<div class="cut">
+		    <div class="cut_top provider opened"></div>
+			<ul>    
+			  
+			  <!--<li style="width:80px;"><a href="/hidden_about_server.jsp?site=global&column_code=021007001&company_id=00&news_name=all">服务中心简介</a></li> --> 
+			 
+			   <li style="width:95px;"><a href="/html/center_server.html" id="a" onmouseover="document.getElementById('a').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('a').style.color=''">服务中心简介</a></li>
+			   <li style="width:90px;"><a href="/html/sitemap_2.html" id="b" onmouseover="document.getElementById('b').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('b').style.color=''">查看业务信息</a></li>
+			   <li style="width:95px;"><a href="/news_list.jsp?site=global&amp;column_code=017002&amp;company_id=00&amp;news_name=all" id="c" onmouseover="document.getElementById('c').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('c').style.color=''">了解采购标准</a></li>
+			   <li style="width:90px;"><a href="/news_list.jsp?site=global&amp;column_code=020002&amp;company_id=00&amp;news_name=all" id="d" onmouseover="document.getElementById('d').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('d').style.color=''">解读政策法规</a></li>
+  			   <li style="width:95px;padding-left: 0.5px"><a href="/BidUpgrade/jsp/slogin2.jsp?type=zixun" id="e" onmouseover="document.getElementById('e').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('e').style.color=''">在线咨询</a></li>
+  			   <!--<li style="width:90px;"><a href="/BidUpgrade/jsp/slogin2.jsp?type=tousu">投诉建议</a></li>
+  			    
+  			   <li style="width:80px;"><a href="/hidden_about_server.jsp?site=global&column_code=021007002&company_id=00&news_name=all">服务承诺</a></li>-->
+  			    
+  			   <li style="width:90px;"><a href="/BidUpgrade/jsp/slogin2.jsp?type=wenjuan" id="f" onmouseover="document.getElementById('f').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('f').style.color=''">调查问卷</a></li>
+  			   <li style="width:95px;"><a href="/html/news/global/020003_00/list_1.html" id="g" onmouseover="document.getElementById('g').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('g').style.color=''">工作动态</a></li>
+  			   <li style="width:90px;"><a href="/html/about_server.html" id="h" onmouseover="document.getElementById('h').style.color='#ff5a00'" ;="" onmouseout="document.getElementById('h').style.color=''">服务承诺</a></li>
+			   
+			</ul>
+		 </div>
+		 <div class="cut">
+		    <div class="cut_top collector"></div>
+			<ul style="display:none;">    
+			
+			   <li style="width:90px"><a href="/announcement_list.jsp?site=global&amp;column_code=019001&amp;company_id=00&amp;announce_name=all">竞价公告</a></li>
+			   <li style="width:95px"><a href="/news_list.jsp?site=global&amp;column_code=019002&amp;company_id=00&amp;news_name=all">公共信息</a></li>
+			</ul>
+		 </div>
+		 <div class="clearit"></div>
+		 
+		 <div class="right_news">
+		    <div class="right_news_top"><img src="/themes/default/images/icon_index_right01.png"></div>
+		     
+			<ul>
+			<!-- 系统公告缓存10分钟begin -->
+			
+			
+				
+	      		<li><a href="javascript:void(0);" title="关于举办2018年1月国家电网公司电子商务平台培训的通知" onclick="showNewsDetail('021001', '53824');">
+	      		• 
+	      		
+	      			
+	      			关于举办2018年1月国...
+	      		
+	      		
+	      		</a></li> 
+	      	
+	      		<li><a href="javascript:void(0);" title="关于举办2017年12月国家电网公司电子商务平台培训的通知" onclick="showNewsDetail('021001', '52637');">
+	      		• 
+	      		
+	      			
+	      			关于举办2017年12月...
+	      		
+	      		
+	      		</a></li> 
+	      	
+	      		<li><a href="javascript:void(0);" title="关于举办2017年11月国家电网公司电子商务平台培训的通知" onclick="showNewsDetail('021001', '51722');">
+	      		• 
+	      		
+	      			
+	      			关于举办2017年11月...
+	      		
+	      		
+	      		</a></li> 
+	      	
+	      		<li><a href="javascript:void(0);" title="关于举办2017年10月国家电网公司电子商务平台培训的通知" onclick="showNewsDetail('021001', '51090');">
+	      		• 
+	      		
+	      			
+	      			关于举办2017年10月...
+	      		
+	      		
+	      		</a></li> 
+	      	
+	      		<li><a href="javascript:void(0);" title="关于举办2017年9月国家电网公司电子商务平台培训的通知" onclick="showNewsDetail('021001', '50260');">
+	      		• 
+	      		
+	      			
+	      			关于举办2017年9月国...
+	      		
+	      		
+	      		</a></li> 
+	      	
+      
+      <!-- 系统公告缓存10分钟end -->
+			 <li style="text-indent:130px;"><a href="/html/bulletin/list_1.html">查看更多</a></li>
+			</ul>
+		 </div>
+		 <div class="clearit"></div>
+		 <div class="right_img"><a href="/BidUpgrade/jsp/slogin2.jsp"><img src="/themes/default/images/icon_index_right05.png"></a></div>
+		 <div class="clearit"></div>
+		 <div class="right_img"><img src="/themes/default/images/icon_index_right02.png"></div>
+		 <div class="clearit"></div>
+		 <div class="right_img"><img style="cursor: pointer;" src="/themes/default/images/icon_index_right03.png" onclick="showBig()" title="点击可查看二维码大图"></div>
+		 <!-- add in 2014/6/10 -->
+		 <div style="z-index:9999;" onclick="hideImg()">
+			<img id="bigImg" src="/themes/default/images/icon_index_right03_01.png" width="200px" height="225px" style="display: none;cursor: pointer;">
+		</div>
+		<!-- end  in 2014/6/10 -->
+		 <div class="clearit"></div>
+		 <div class="right_img hotlines"><img src="/themes/default/images/icon_index_right04.png" style="cursor: pointer;"></div>
+		 <div class="clearit"></div>
+		 <div class="right_input">
+		 
+		 <select name="" id="friendlink">
+		   <option value="">------- 友情链接 -------</option>
+		   
+		   <option value="www.sgcc.com.cn">国家电网公司</option>
+		   
+		   <option value="www.chinabidding.com">中国采购与招标网</option>
+		   
+		   <option value="www.cec.gov.cn">中国招标投标网</option>
+		   
+		   <option value="cpzljds.aqsiq.gov.cn">国家质检总局产品质量监督司</option>
+		   
+		   <option value="www.cpeq.org.cn">全国电力设备质量管理工作网</option>
+		   
+		 </select>
+		 </div>
+ </div>
+
+	<!--供应商服务热线切换JS 开始-->
+	<div id="company_js_tel">
+		<div class="companyJs_icon_tel"></div>
+		<div class="companyJs_title_tel">
+			<p class="font01">省公司供应商服务热线</p>
+			<div class="companyJs_close_tel">
+				<a class="closeBtn" onclick="document.getElementById('company_js_tel').style.display='none';"><img src="/themes/default/images/icon_companyjs02.png">
+				</a>
+			</div>
+		</div>
+		<div class="companyJs_content_tel">
+			<div class="Hq font01">
+				
+				国网总部
+					(400-818-0899)
+				
+			</div>
+			<div>
+				<ul class="company_tel">
+						
+							<li>国网冀北电力有限公司 (400-819-1886)</li>
+							
+							<li>国网物资有限公司 </li>
+							
+							<li>国网北京市电力公司 (010-63679000)</li>
+							
+							<li>国网天津市电力公司 (022-24404150)</li>
+							
+							<li>国网河北省电力有限公司 (0311-87934597/87934598)</li>
+							
+							<li>国网山西省电力公司 (0351-3727408)</li>
+							
+							<li>国网山东电力集团公司 (0531-80123999)</li>
+							
+							
+							
+							<li>国网湖北省电力有限公司(027-88565337)</li>
+							
+							<li>国网湖南省电力公司(0731-85337581)</li>
+							
+							<li>国网河南省电力公司(0371-67908421/8420/8415/8419/8412/5984/8166)</li>
+							
+							<li>国网江西省电力有限公司(0791-88646479/88646547)</li>
+							
+							<li>国网四川省电力公司(028-68127900/68127906)</li>
+							
+							<li>国网重庆市电力公司(023-88120010)</li>
+							
+							
+							<li>国网上海市电力公司(021-51195576/51195573)</li>
+							
+							<li>国网江苏省电力公司(025-81022222)</li>
+							
+							<li>国网浙江省电力公司(0571-51214832)</li>
+							
+							<li>国网安徽省电力公司(0551-63402826/63402827/63402828)</li>
+							
+							<li>国网福建省电力有限公司(0591-87028745)</li>
+							
+							
+							
+							<li>国网陕西省电力公司(029-81005333/5366/5288/5369)</li>
+							
+							<li>国网甘肃省电力公司(0931-2951873)</li>
+							
+							<li>国网青海省电力公司(0971-6076881)</li>
+							
+							<li>国网宁夏电力公司(0951-4938772/4938782)</li>
+							
+							<li>国网新疆电力有限公司(0991-2929105)</li>
+							
+							<li>国网西藏电力有限公司(0891-6234722/6234712)</li>
+							
+							
+							
+							<li>国网辽宁省电力有限公司(024-23138437)</li>
+							
+							<li>国网吉林省电力有限公司(0431-85797872/85793634)</li>
+							
+							<li>国网黑龙江省电力有限公司(0451-53682187)</li>
+							
+							<li>国网内蒙古东部电力有限公司(0471-6215912　)</li>
+							
+										
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--供应商服务热线切换JS 结束-->
+</div>
+
+<div class="clearit"></div>
+
+
+
+
+ <div class="index_foot">
+      <p> <a href="/html/contact.html">联系我们</a>  |  <a href="/html/law.html">法律声明</a>  |  <a href="/html/sitemap_1.html">网站地图</a></p>
+	  <div class="index_foot_div" style="width:78%;float: left;font-size: 11px;font-family: Arial;	">国家电网公司电子商务平台 http://ecp.sgcc.com.cn 版权所有 Copyright @ 2003-2018 State Grid Corporation of China（SGCC）.All rights reserved</div>
+	  <div class="right_img hotlines" style="float:right;margin-top:-55px;"><img src="/themes/default/images/kexinwangzhan.png" style="cursor: pointer;"></div>
+ </div>
+ <!-- 
+ 
+  <div class="index_foot">
+      <p> <a href="/html/contact.html">联系我们</a>  |  <a href="/html/law.html">法律声明</a>  |  <a href="/html/sitemap_1.html">网站地图</a></p>
+	  <div class="index_foot_div"  style="width:78%;float: left;"><p style="font-size: 10.5px">国家电网公司电子商务平台 http://ecp.sgcc.com.cn 版权所有 Copyright @ 2003-2018 State Grid Corporation of China（SGCC）.All rights reserved</p></div>
+	  <div class="right_img hotlines" style="float:right;margin-top:-55px;"><img src="/themes/default/images/kexinwangzhan.png" style="cursor: pointer;"></div>
+ </div>
+ 
+ 
+  -->
+
+  <!--全部公告缓存 10分钟 begin-->
+  <div class="hide announcement" data-id="0">
+	
+ 	
+    
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '018013001', '54612');" title="国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月9日）">
+			    
+		  		
+		  		国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220257');" title="“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八批服务类招标采购项目">
+			    
+		  		
+		  		“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220256');" title="国家电网有限公司2018年电源项目第一次服务招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次服务招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','9900000000005060181');" title="国家电网有限公司2018年电源项目第一次物资招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次物资招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54611');" title="国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54592');" title="国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招标）推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '54610');" title="关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知">
+			    
+		  		关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100271');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-开关柜">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100266');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电容器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100263');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-互感器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100273');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-通信设备集成服务及新建通信网设备">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100261');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-变压器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100269');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-断路器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100267');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-消弧线圈">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100262');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电抗器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100274');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电缆及附件">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100270');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-隔离开关">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100412');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-四川阿坝隆康工程">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100276');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-复合屏蔽封闭绝缘母线">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100264');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-避雷器及支柱绝缘子">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100268');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-组合电器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100272');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-继电保护和变电站计算机监控系统">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '54591');" title="国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知">
+			    
+		  		国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001007', '54609');" title="“总部统一组织监控，省公司具体实施”国网上海市电力公司2017年第四批协议库存招标采购项目中标公告">
+			    
+		  		
+		  		“总部统一组织监控，省公司具体实施”国网上海市电力公司2017年第四批...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014002005', '54590');" title="国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项目（非物资）公开竞争性谈判成交结果公告">
+			    
+		  		
+		  		国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showAnnounceDetail('8a8190ab605cff150160d8caf0cd7a88');" title="2018年度上海市电力公司第1批次废旧物资处置竞价公告">
+			    
+		  		2018年度上海市电力公司第1批次废旧物资处置竞价公告
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100282');" title="国家电网有限公司2018年藏中联网工程线路在线监测系统招标采购">
+			    
+		  		国家电网有限公司2018年藏中联网工程线路在线监测系统招标采购
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100279');" title="国家电网有限公司2018年输电线路材料绝缘子第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料绝缘子第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100278');" title="国家电网有限公司2018年输电线路材料导地线第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料导地线第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100281');" title="国家电网有限公司2018年输电线路材料线路金具第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料线路金具第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100280');" title="国家电网有限公司2018年输电线路材料光缆及光缆附件第一次集中招标活动">
+			    
+		  		
+		  		国家电网有限公司2018年输电线路材料光缆及光缆附件第一次集中招标活动...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100277');" title="国家电网有限公司2018年输电线路材料铁塔及构支架第一次集中招标活动">
+			    
+		  		国家电网有限公司2018年输电线路材料铁塔及构支架第一次集中招标活动
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220240');" title="国网江苏省电力有限公司2018年第一批工程、服务类招标采购">
+			    
+		  		国网江苏省电力有限公司2018年第一批工程、服务类招标采购
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '015001', '54608');" title="国网浙江省电力有限公司协议库存执行率公示2017年12月">
+			    
+		  		国网浙江省电力有限公司协议库存执行率公示2017年12月
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014002005', '54607');" title="投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类项目招标采购招标文件">
+			    
+		  		
+		  		投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220009');" title="国网甘肃省电力公司2018年第一次服务招标采购">
+			    
+		  		国网甘肃省电力公司2018年第一次服务招标采购
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '7900000000000063825');" title="关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息的澄清">
+			    
+		  		
+		  		关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014001008', '7900000000000063823');" title="国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告">
+			    
+		  		国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '019002', '54588');" title="国网甘肃省电力公司2017年12月协议库存执行情况公示">
+			    
+		  		国网甘肃省电力公司2017年12月协议库存执行情况公示
+		  		
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+		<p><a href="javascript:void(0);" onclick="showNewsDetail( '014002005', '54606');" title="国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中标候选人公示（第三部分）">
+			    
+		  		
+		  		国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中...
+		  	  </a>
+		<span>2018-01-08</span>
+		</p>
+	
+	
+  <p><a href="javascript:void(0);" onclick="showNewsDetail( '018013001', '54612');" title="国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月9日）">
+			    
+		  		
+		  		国网江西省电力有限公司关于供应商不良行为处理情况的通报（2018年1月...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220257');" title="“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八批服务类招标采购项目">
+			    
+		  		
+		  		“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014002007','9990000000010220256');" title="国家电网有限公司2018年电源项目第一次服务招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次服务招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','9900000000005060181');" title="国家电网有限公司2018年电源项目第一次物资招标采购">
+			    
+		  		国家电网有限公司2018年电源项目第一次物资招标采购
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54611');" title="国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年美丽青岛建设工程物资招标采购推荐的中标候选...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showNewsDetail( '014001003', '54592');" title="国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招标）推荐的中标候选人公示">
+			    
+		  		
+		  		国网山东省电力公司2017年第二批电网物资协议库存招标采购（流标重新招...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showNewsDetail( '014001006', '54610');" title="关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知">
+			    
+		  		关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知
+		  		
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100271');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-开关柜">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100266');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电容器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p><p><a href="javascript:void(0);" onclick="showProjectDetail('014001001','8990000000000100263');" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-互感器">
+			    
+		  		
+		  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+		  	  </a>
+		<span>2018-01-09</span>
+		</p></div><!--全部公告缓存 end-->
+ 
+  <div class="hide announcement" data-id="1"><!---招标公告缓存 10分钟  begin-->
+	
+ 	  
+      
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010220257');return false;" title="“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八批服务类招标采购项目"> 
+		
+	  		
+	  		“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010220256');return false;" title="国家电网有限公司2018年电源项目第一次服务招标采购"> 
+		
+	  		国家电网有限公司2018年电源项目第一次服务招标采购
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','9900000000005060181');return false;" title="国家电网有限公司2018年电源项目第一次物资招标采购"> 
+		
+	  		国家电网有限公司2018年电源项目第一次物资招标采购
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100271');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-开关柜"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100266');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电容器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100263');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-互感器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100273');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-通信设备集成服务及新建通信网设备"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100261');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-变压器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100269');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-断路器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100267');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-消弧线圈"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100262');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电抗器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100274');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电缆及附件"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100270');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-隔离开关"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100412');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-四川阿坝隆康工程"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100276');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-复合屏蔽封闭绝缘母线"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100264');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-避雷器及支柱绝缘子"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100268');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-组合电器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100272');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-继电保护和变电站计算机监控系统"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100282');return false;" title="国家电网有限公司2018年藏中联网工程线路在线监测系统招标采购"> 
+		
+	  		国家电网有限公司2018年藏中联网工程线路在线监测系统招标采购
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100279');return false;" title="国家电网有限公司2018年输电线路材料绝缘子第一次集中招标活动"> 
+		
+	  		国家电网有限公司2018年输电线路材料绝缘子第一次集中招标活动
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100278');return false;" title="国家电网有限公司2018年输电线路材料导地线第一次集中招标活动"> 
+		
+	  		国家电网有限公司2018年输电线路材料导地线第一次集中招标活动
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100281');return false;" title="国家电网有限公司2018年输电线路材料线路金具第一次集中招标活动"> 
+		
+	  		国家电网有限公司2018年输电线路材料线路金具第一次集中招标活动
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100280');return false;" title="国家电网有限公司2018年输电线路材料光缆及光缆附件第一次集中招标活动"> 
+		
+	  		
+	  		国家电网有限公司2018年输电线路材料光缆及光缆附件第一次集中招标活动...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','8990000000000100277');return false;" title="国家电网有限公司2018年输电线路材料铁塔及构支架第一次集中招标活动"> 
+		
+	  		国家电网有限公司2018年输电线路材料铁塔及构支架第一次集中招标活动
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010220240');return false;" title="国网江苏省电力有限公司2018年第一批工程、服务类招标采购"> 
+		
+	  		国网江苏省电力有限公司2018年第一批工程、服务类招标采购
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010220009');return false;" title="国网甘肃省电力公司2018年第一次服务招标采购"> 
+		
+	  		国网甘肃省电力公司2018年第一次服务招标采购
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010219701');return false;" title="“总部统一组织监控，省公司具体实施”国网福建省电力有限公司2018年第一批工程服务类项目招标采购"> 
+		
+	  		
+	  		“总部统一组织监控，省公司具体实施”国网福建省电力有限公司2018年第...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010219614');return false;" title="“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批施工招标采购项目"> 
+		
+	  		
+	  		“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批...
+	  	</a>
+		<span>2018-01-06</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010219613');return false;" title="“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批综合招标采购项目"> 
+		
+	  		
+	  		“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批...
+	  	</a>
+		<span>2018-01-06</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','9900000000005050180');return false;" title="国家电网公司集中规模招标采购第一批物资采购项目"> 
+		
+	  		国家电网公司集中规模招标采购第一批物资采购项目
+	  		
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010218459');return false;" title="“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批监理招标采购"> 
+		
+	  		
+	  		“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批...
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010218553');return false;" title="“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批勘察设计招标采购"> 
+		
+	  		
+	  		“总部统一组织监控，省公司具体实施”国网山东省电力公司2018年第一批...
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010218429');return false;" title="国网天津市电力公司2018年第一批工程及服务招标采购项目"> 
+		
+	  		国网天津市电力公司2018年第一批工程及服务招标采购项目
+	  		
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','9900000000005040185');return false;" title="国网山东省电力公司2018年第一批物资招标采购"> 
+		
+	  		国网山东省电力公司2018年第一批物资招标采购
+	  		
+	  	</a>
+		<span>2018-01-04</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','9900000000005040184');return false;" title="国网天津市电力公司2018年第一批物资招标采购项目"> 
+		
+	  		国网天津市电力公司2018年第一批物资招标采购项目
+	  		
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014001001','9900000000005040183');return false;" title="国网四川省电力公司2018年第一次物资招标"> 
+		
+	  		国网四川省电力公司2018年第一次物资招标
+	  		
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010217889');return false;" title="国网河南省电力公司2018年第一批电网建设工程及其他施工招标采购"> 
+		
+	  		国网河南省电力公司2018年第一批电网建设工程及其他施工招标采购
+	  		
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010217753');return false;" title="国网山西省电力公司2018年第一次服务类（设计、监理及其他服务）招标采购（含零星服务框架采购）"> 
+		
+	  		
+	  		国网山西省电力公司2018年第一次服务类（设计、监理及其他服务）招标采...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010217752');return false;" title="国网河南省电力公司2018年第一批电网建设工程及其他设计、监理招标采购"> 
+		
+	  		
+	  		国网河南省电力公司2018年第一批电网建设工程及其他设计、监理招标采购...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010217751');return false;" title="国网山西省电力公司2018年第一次服务类（施工）招标采购（含零星服务框架采购）"> 
+		
+	  		
+	  		国网山西省电力公司2018年第一次服务类（施工）招标采购（含零星服务框...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+    
+  <p><a href="#" onclick="showProjectDetail('014002007','9990000000010220257');return false;" title="“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八批服务类招标采购项目"> 
+		
+	  		
+	  		“总部统一监控、省公司具体实施”国网黑龙江省电力有限公司2017年第八...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014002007','9990000000010220256');return false;" title="国家电网有限公司2018年电源项目第一次服务招标采购"> 
+		
+	  		国家电网有限公司2018年电源项目第一次服务招标采购
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','9900000000005060181');return false;" title="国家电网有限公司2018年电源项目第一次物资招标采购"> 
+		
+	  		国家电网有限公司2018年电源项目第一次物资招标采购
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','8990000000000100271');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-开关柜"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','8990000000000100266');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-电容器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','8990000000000100263');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-互感器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','8990000000000100273');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-通信设备集成服务及新建通信网设备"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','8990000000000100261');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-变压器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','8990000000000100269');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-断路器"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showProjectDetail('014001001','8990000000000100267');return false;" title="国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-消弧线圈"> 
+		
+	  		
+	  		国家电网有限公司输变电项目2018年第一次变电设备（含电缆）招标采购-...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p></div><!--招标公告缓存 10分钟 end-->
+  
+  <div class="hide announcement" data-id="2"><!---非招标公告缓存 10分钟  begin-->
+	
+ 	  
+      
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063823');return false;" title="国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告"> 
+		
+	  		国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063821');return false;" title="国网甘肃省电力公司2018年第一次物资竞争性谈判采购公告"> 
+		
+	  		国网甘肃省电力公司2018年第一次物资竞争性谈判采购公告
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063800');return false;" title="国网山东省电力公司2018年第一批物资非招标采购竞争性谈判采购公告"> 
+		
+	  		国网山东省电力公司2018年第一批物资非招标采购竞争性谈判采购公告
+	  		
+	  	</a>
+		<span>2018-01-04</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063756');return false;" title="国网新源控股有限公司2018年第一批非招标公开询价采购项目采购公告"> 
+		
+	  		国网新源控股有限公司2018年第一批非招标公开询价采购项目采购公告
+	  		
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063766');return false;" title="国网新源控股有限公司2018年第一批非招标公开竞争性谈判项目采购公告"> 
+		
+	  		国网新源控股有限公司2018年第一批非招标公开竞争性谈判项目采购公告
+	  		
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063750');return false;" title="国网天津市电力公司2018年第二次生产辅助技改大修、非生房产维修工程造价咨询服务定点采购公告"> 
+		
+	  		
+	  		国网天津市电力公司2018年第二次生产辅助技改大修、非生房产维修工程造...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063720');return false;" title="国家电网公司运行分公司2018年第一批非招标项目（非物资）采购公告"> 
+		
+	  		国家电网公司运行分公司2018年第一批非招标项目（非物资）采购公告
+	  		
+	  	</a>
+		<span>2017-12-30</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063722');return false;" title="国家电网公司运行分公司2018年第一批非招标项目（物资）采购公告"> 
+		
+	  		国家电网公司运行分公司2018年第一批非招标项目（物资）采购公告
+	  		
+	  	</a>
+		<span>2017-12-30</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063683');return false;" title="国网湖南省电力有限公司2018年第一次物资竞争性谈判采购采购公告"> 
+		
+	  		国网湖南省电力有限公司2018年第一次物资竞争性谈判采购采购公告
+	  		
+	  	</a>
+		<span>2017-12-29</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063680');return false;" title="国网能源研究院有限公司2017年第十二批非招标项目——二次公告"> 
+		
+	  		国网能源研究院有限公司2017年第十二批非招标项目——二次公告
+	  		
+	  	</a>
+		<span>2017-12-28</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063659');return false;" title="国网上海市电力公司2018年度物资公司电商化三级专区竞争性谈判采购项目"> 
+		
+	  		
+	  		国网上海市电力公司2018年度物资公司电商化三级专区竞争性谈判采购项目...
+	  	</a>
+		<span>2017-12-28</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063644');return false;" title="招标公告-中电普瑞电力工程有限公司2017年第十一批物资类招标项目-永磁式快速开关招标项目（二次公告）"> 
+		
+	  		
+	  		招标公告-中电普瑞电力工程有限公司2017年第十一批物资类招标项目-永...
+	  	</a>
+		<span>2017-12-27</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063640');return false;" title="采购公告-中电普瑞电力工程有限公司-核电站仪器仪表维修服务框架协议采购项目竞争性谈判采购公告"> 
+		
+	  		
+	  		采购公告-中电普瑞电力工程有限公司-核电站仪器仪表维修服务框架协议采购...
+	  	</a>
+		<span>2017-12-27</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063484');return false;" title="国网能源研究院有限公司2017年第十一批公开招标项目—二次公告"> 
+		
+	  		国网能源研究院有限公司2017年第十一批公开招标项目—二次公告
+	  		
+	  	</a>
+		<span>2017-12-21</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063488');return false;" title="国网能源研究院有限公司2017年第十二批非招标项目——二次公告"> 
+		
+	  		国网能源研究院有限公司2017年第十二批非招标项目——二次公告
+	  		
+	  	</a>
+		<span>2017-12-21</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063500');return false;" title="中电普瑞电力工程有限公司2017年第十二批服务类招标项目-核电站仪器仪表维修服务框架协议招标项目(二次公告"> 
+		
+	  		
+	  		中电普瑞电力工程有限公司2017年第十二批服务类招标项目-核电站仪器仪...
+	  	</a>
+		<span>2017-12-21</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063480');return false;" title="招标公告-中电普瑞电力工程有限公司2017年第十一批物资类招标项目招标公告(部分项目二次公告)"> 
+		
+	  		
+	  		招标公告-中电普瑞电力工程有限公司2017年第十一批物资类招标项目招标...
+	  	</a>
+		<span>2017-12-21</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063384');return false;" title="国网新源公司2017年临五批资格审查项目采购公告"> 
+		
+	  		国网新源公司2017年临五批资格审查项目采购公告
+	  		
+	  	</a>
+		<span>2017-12-18</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063356');return false;" title="国网新源控股有限公司2017年临5批非招标公开询价采购项目采购公告"> 
+		
+	  		国网新源控股有限公司2017年临5批非招标公开询价采购项目采购公告
+	  		
+	  	</a>
+		<span>2017-12-18</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063351');return false;" title="国网新源控股有限公司2017年临5批非招标公开竞争性谈判项目采购公告"> 
+		
+	  		国网新源控股有限公司2017年临5批非招标公开竞争性谈判项目采购公告
+	  		
+	  	</a>
+		<span>2017-12-18</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063260');return false;" title="招标公告-中电普瑞电力工程有限公司2017年第十二批服务类招标项目-核电站仪器仪表维修服务框架协议招标项目"> 
+		
+	  		
+	  		招标公告-中电普瑞电力工程有限公司2017年第十二批服务类招标项目-核...
+	  	</a>
+		<span>2017-12-15</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063157');return false;" title="国网国际发展有限公司翻译服务采购项目竞争性谈判采购公告"> 
+		
+	  		国网国际发展有限公司翻译服务采购项目竞争性谈判采购公告
+	  		
+	  	</a>
+		<span>2017-12-13</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063097');return false;" title="国网吉林省电力有限公司2017年第四批非物资零星工程及服务协议谈判项目采购公告"> 
+		
+	  		
+	  		国网吉林省电力有限公司2017年第四批非物资零星工程及服务协议谈判项目...
+	  	</a>
+		<span>2017-12-13</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063130');return false;" title="国网河南省电力公司2017年十一月份流标服务类竞争性谈判采购项目采购公告"> 
+		
+	  		
+	  		国网河南省电力公司2017年十一月份流标服务类竞争性谈判采购项目采购公...
+	  	</a>
+		<span>2017-12-12</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063132');return false;" title="国网河南省电力公司2017年第二批服务类框架竞争性谈判采购项目采购公告"> 
+		
+	  		
+	  		国网河南省电力公司2017年第二批服务类框架竞争性谈判采购项目采购公告...
+	  	</a>
+		<span>2017-12-12</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063114');return false;" title="国网山西省电力公司2017年第一次服务类新增竞争性谈判采购采购公告"> 
+		
+	  		国网山西省电力公司2017年第一次服务类新增竞争性谈判采购采购公告
+	  		
+	  	</a>
+		<span>2017-12-12</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063103');return false;" title="国网国际发展有限公司宣传策划与设计制作项目竞争性谈判二次采购公告"> 
+		
+	  		国网国际发展有限公司宣传策划与设计制作项目竞争性谈判二次采购公告
+	  		
+	  	</a>
+		<span>2017-12-12</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063055');return false;" title="招标公告变更-中电普瑞电力工程有限公司2017年第十二批物资类招标项目"> 
+		
+	  		
+	  		招标公告变更-中电普瑞电力工程有限公司2017年第十二批物资类招标项目...
+	  	</a>
+		<span>2017-12-12</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063010');return false;" title="中国电力科学研究院有限公司2017年第五批非物资竞争性谈判采购公告"> 
+		
+	  		中国电力科学研究院有限公司2017年第五批非物资竞争性谈判采购公告
+	  		
+	  	</a>
+		<span>2017-12-11</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063002');return false;" title="采购公告-英大国际信托有限责任公司2017年企业所得税汇算清缴审核服务"> 
+		
+	  		
+	  		采购公告-英大国际信托有限责任公司2017年企业所得税汇算清缴审核服务...
+	  	</a>
+		<span>2017-12-11</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063000');return false;" title="采购公告-英大国际信托有限责任公司拟转让长期股权投资资产评估"> 
+		
+	  		采购公告-英大国际信托有限责任公司拟转让长期股权投资资产评估
+	  		
+	  	</a>
+		<span>2017-12-11</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000062972');return false;" title="采购公告-英大国际信托有限责任公司资管产品增值税咨询服务"> 
+		
+	  		采购公告-英大国际信托有限责任公司资管产品增值税咨询服务
+	  		
+	  	</a>
+		<span>2017-12-11</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000062970');return false;" title="采购公告-英大国际信托有限责任公司财税新政对公司信托业务影响及应对措施分析课题研究"> 
+		
+	  		
+	  		采购公告-英大国际信托有限责任公司财税新政对公司信托业务影响及应对措施...
+	  	</a>
+		<span>2017-12-11</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000062966');return false;" title="采购公告-英大国际信托有限责任公司规章制度检索和法规政策检索服务"> 
+		
+	  		采购公告-英大国际信托有限责任公司规章制度检索和法规政策检索服务
+	  		
+	  	</a>
+		<span>2017-12-11</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000062956');return false;" title="国网安徽省电力有限公司2017年服务类非招标采购（增补四）公告"> 
+		
+	  		国网安徽省电力有限公司2017年服务类非招标采购（增补四）公告
+	  		
+	  	</a>
+		<span>2017-12-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000062940');return false;" title="国网青海省电力公司2017年第5批（281719）竞争性谈判采购项目采购公告"> 
+		
+	  		
+	  		国网青海省电力公司2017年第5批（281719）竞争性谈判采购项目采...
+	  	</a>
+		<span>2017-12-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000062925');return false;" title="国网蒙东物资公司2017年12月线下非招标采购项目采购公告"> 
+		
+	  		国网蒙东物资公司2017年12月线下非招标采购项目采购公告
+	  		
+	  	</a>
+		<span>2017-12-07</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000062922');return false;" title="招标公告-中电普瑞电力工程有限公司2017年第十二批物资类招标项目"> 
+		
+	  		招标公告-中电普瑞电力工程有限公司2017年第十二批物资类招标项目
+	  		
+	  	</a>
+		<span>2017-12-07</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000062844');return false;" title="国网吉林省电力有限公司2017年第五批物资单一来源（同配同价）谈判采购邀请公告"> 
+		
+	  		
+	  		国网吉林省电力有限公司2017年第五批物资单一来源（同配同价）谈判采购...
+	  	</a>
+		<span>2017-12-07</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002008', '7900000000000062880');return false;" title="国网天津市电力公司2018年生产辅助技改大修、非生房产维修工程造价咨询服务定点采购竞争性谈判公告"> 
+		
+	  		
+	  		国网天津市电力公司2018年生产辅助技改大修、非生房产维修工程造价咨询...
+	  	</a>
+		<span>2017-12-06</span>
+	  </p>
+	  
+    
+  <p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063823');return false;" title="国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告"> 
+		
+	  		国网北京市电力公司2017年第十二批次竞争性谈判物资采购公告
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063821');return false;" title="国网甘肃省电力公司2018年第一次物资竞争性谈判采购公告"> 
+		
+	  		国网甘肃省电力公司2018年第一次物资竞争性谈判采购公告
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063800');return false;" title="国网山东省电力公司2018年第一批物资非招标采购竞争性谈判采购公告"> 
+		
+	  		国网山东省电力公司2018年第一批物资非招标采购竞争性谈判采购公告
+	  		
+	  	</a>
+		<span>2018-01-04</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063756');return false;" title="国网新源控股有限公司2018年第一批非招标公开询价采购项目采购公告"> 
+		
+	  		国网新源控股有限公司2018年第一批非招标公开询价采购项目采购公告
+	  		
+	  	</a>
+		<span>2018-01-03</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063766');return false;" title="国网新源控股有限公司2018年第一批非招标公开竞争性谈判项目采购公告"> 
+		
+	  		国网新源控股有限公司2018年第一批非招标公开竞争性谈判项目采购公告
+	  		
+	  	</a>
+		<span>2018-01-03</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063750');return false;" title="国网天津市电力公司2018年第二次生产辅助技改大修、非生房产维修工程造价咨询服务定点采购公告"> 
+		
+	  		
+	  		国网天津市电力公司2018年第二次生产辅助技改大修、非生房产维修工程造...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014002008', '7900000000000063720');return false;" title="国家电网公司运行分公司2018年第一批非招标项目（非物资）采购公告"> 
+		
+	  		国家电网公司运行分公司2018年第一批非招标项目（非物资）采购公告
+	  		
+	  	</a>
+		<span>2017-12-30</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063722');return false;" title="国家电网公司运行分公司2018年第一批非招标项目（物资）采购公告"> 
+		
+	  		国家电网公司运行分公司2018年第一批非招标项目（物资）采购公告
+	  		
+	  	</a>
+		<span>2017-12-30</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063683');return false;" title="国网湖南省电力有限公司2018年第一次物资竞争性谈判采购采购公告"> 
+		
+	  		国网湖南省电力有限公司2018年第一次物资竞争性谈判采购采购公告
+	  		
+	  	</a>
+		<span>2017-12-29</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001008', '7900000000000063680');return false;" title="国网能源研究院有限公司2017年第十二批非招标项目——二次公告"> 
+		
+	  		国网能源研究院有限公司2017年第十二批非招标项目——二次公告
+	  		
+	  	</a>
+		<span>2017-12-28</span>
+	  </p></div><!--非招标公告缓存 10分钟 end-->
+
+  <div class="hide announcement" data-id="3"><!---竞价公告缓存10分钟  begin-->
+	
+ 	  
+      
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab605cff150160d8caf0cd7a88');return false;" title="2018年度上海市电力公司第1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度上海市电力公司第1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d605cb6c20160d44a3d6c1fb9');return false;" title="2018年度江苏省电力公司第1-2批次废旧物资处置竞价公告"> 
+		
+	  		2018年度江苏省电力公司第1-2批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d605cbb020160c501168a1f26');return false;" title="2018年度黑龙江省电力有限公司第1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度黑龙江省电力有限公司第1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a820144605cbb2a0160c3f25fc61eef');return false;" title="2018年度福建省电力有限公司第1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度福建省电力有限公司第1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014c60a0719e0160bb0038500414');return false;" title="2018年度江苏省电力公司第1-1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度江苏省电力公司第1-1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa605cd53f01607691d4ec165e');return false;" title="2017年度江苏省电力公司第12-4批次废旧物资处置竞价公告"> 
+		
+	  		2017年度江苏省电力公司第12-4批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-21</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa605cd19a016071f010d127bb');return false;" title="2017年度国网物资有限公司第9批次废旧物资处置竞价公告"> 
+		
+	  		2017年度国网物资有限公司第9批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-20</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fdd1ae50160542689094109');return false;" title="2017年度陕西省电力公司第7批次废旧物资处置竞价公告"> 
+		
+	  		2017年度陕西省电力公司第7批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-14</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fdd1ae501604f1f4d151a5f');return false;" title="2017年度内蒙古东部电力有限公司第4批次废旧物资处置竞价公告"> 
+		
+	  		2017年度内蒙古东部电力有限公司第4批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-13</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fde14e2016044a0620a656e');return false;" title="2017年度西藏电力有限公司第2批次废旧物资处置竞价公告"> 
+		
+	  		2017年度西藏电力有限公司第2批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-12</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fd96437016044f183fe5f91');return false;" title="2017年度国网新疆电力有限公司第5批次废旧物资处置竞价公告"> 
+		
+	  		2017年度国网新疆电力有限公司第5批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-11</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa5fe3b578016034ef47ef1808');return false;" title="2017年度湖南省电力公司第8批次废旧物资处置竞价公告"> 
+		
+	  		2017年度湖南省电力公司第8批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d5fce1a77016033f40f87351b');return false;" title="2017年度湖北省电力有限公司第12批次废旧物资处置竞价公告"> 
+		
+	  		2017年度湖北省电力有限公司第12批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014c5fce1e33016030077c5c3482');return false;" title="2017年度吉林省电力有限公司第11批次废旧物资处置竞价公告"> 
+		
+	  		2017年度吉林省电力有限公司第11批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-07</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fdd1ae501602f88a971197a');return false;" title="2017年度河北省电力公司第11批次废旧物资处置竞价公告"> 
+		
+	  		2017年度河北省电力公司第11批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-07</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa5fe3b01901602fab748c166b');return false;" title="2017年度江苏省电力公司第12-3批次废旧物资处置竞价公告"> 
+		
+	  		2017年度江苏省电力公司第12-3批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-07</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fde14e201602fb10f8758a6');return false;" title="2017年度冀北电力有限公司第六批次废旧物资处置竞价公告"> 
+		
+	  		2017年度冀北电力有限公司第六批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-07</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014c5fce21e80160296e5fca2266');return false;" title="2017年度吉林省电力有限公司第10批次废旧物资处置竞价公告"> 
+		
+	  		2017年度吉林省电力有限公司第10批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-06</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fde14e201602ae9816c6b21');return false;" title="2017年度安徽省电力公司第11批次废旧物资处置竞价公告"> 
+		
+	  		2017年度安徽省电力公司第11批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-06</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d5fddc5e9016029e15df52ab9');return false;" title="2017年度宁夏回族自治区电力公司第八批次废旧物资处置竞价公告"> 
+		
+	  		2017年度宁夏回族自治区电力公司第八批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-06</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa5fe3b019016024a231f80172');return false;" title="2017年度上海市电力公司第12批次废旧物资处置竞价公告"> 
+		
+	  		2017年度上海市电力公司第12批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014c5fce19d2016025a4d72d23d9');return false;" title="2017年度浙江省电力公司第11批次废旧物资处置竞价公告"> 
+		
+	  		2017年度浙江省电力公司第11批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8201435fce216d0160108bdf411d8f');return false;" title="2017年度黑龙江省电力有限公司第8批次废旧物资处置竞价公告"> 
+		
+	  		2017年度黑龙江省电力有限公司第8批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-01</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa5fe3b01901600c3dbd653c8b');return false;" title="2017年度国网物资有限公司第8批次废旧物资处置竞价公告"> 
+		
+	  		2017年度国网物资有限公司第8批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-30</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa5fe3b01901600beada093bb2');return false;" title="2017年度天津市电力公司第11批次废旧物资处置竞价公告"> 
+		
+	  		2017年度天津市电力公司第11批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-30</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fd9643701600b9169114e2d');return false;" title="2017年度冀北电力有限公司第五批次废旧物资处置竞价公告"> 
+		
+	  		2017年度冀北电力有限公司第五批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-30</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014c5fce21e8016006dba51d1485');return false;" title="2017年度江苏省电力公司第12-1批次废旧物资处置竞价公告"> 
+		
+	  		2017年度江苏省电力公司第12-1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-29</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8201445fce19720160061e6af51a93');return false;" title="2017年度江苏省电力公司第12-2批次废旧物资处置竞价公告"> 
+		
+	  		2017年度江苏省电力公司第12-2批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-29</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d5fce23b00160053f4afd1bce');return false;" title="2017年度吉林省电力有限公司第9批次废旧物资处置竞价公告"> 
+		
+	  		2017年度吉林省电力有限公司第9批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-29</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fd96437016005d3cb884b68');return false;" title="2017年度河北省电力公司第10批次废旧物资处置竞价公告"> 
+		
+	  		2017年度河北省电力公司第10批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-29</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa5fe3b01901600700ef3128f2');return false;" title="2017年度河南省电力公司第8批次废旧物资处置竞价公告"> 
+		
+	  		2017年度河南省电力公司第8批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-29</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d5fce23b001600031bc921971');return false;" title="2017年度辽宁省电力有限公司第6批次废旧物资处置竞价公告"> 
+		
+	  		2017年度辽宁省电力有限公司第6批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-28</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014c5fce19d2016001c9936c1704');return false;" title="2017年度浙江省电力公司第十批次废旧物资处置竞价公告"> 
+		
+	  		2017年度浙江省电力公司第十批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-28</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d5fce23b0016000375f291974');return false;" title="2017年度辽宁省电力有限公司第6增批次废旧物资处置竞价公告"> 
+		
+	  		2017年度辽宁省电力有限公司第6增批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-28</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fd9643701600182f4424624');return false;" title="2017年度山西省电力公司第4批次废旧物资处置竞价公告"> 
+		
+	  		2017年度山西省电力公司第4批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-28</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a82014d5fce23b0015fecd8a82e1053');return false;" title="2017年度福建省电力有限公司第12批次废旧物资处置竞价公告"> 
+		
+	  		2017年度福建省电力有限公司第12批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-24</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fd96437015fe799cb703846');return false;" title="2017年度陕西省电力公司第6批次废旧物资处置竞价公告"> 
+		
+	  		2017年度陕西省电力公司第6批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-23</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190aa5fe3b578015fe662259b010a');return false;" title="2017年度江苏省电力公司第11-3批次废旧物资处置竞价公告"> 
+		
+	  		2017年度江苏省电力公司第11-3批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-23</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8201435fce216d015fe6c807790939');return false;" title="2017年度国网江西省电力有限公司第6批次废旧物资处置竞价公告"> 
+		
+	  		2017年度国网江西省电力有限公司第6批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-23</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showAnnounceDetail('8a8190ab5fd96437015fe2ff47c7256f');return false;" title="2017年度北京市电力公司第10批次废旧物资处置竞价公告"> 
+		
+	  		2017年度北京市电力公司第10批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-11-22</span>
+	  </p>
+	  
+    
+  <p><a href="#" onclick="showAnnounceDetail('8a8190ab605cff150160d8caf0cd7a88');return false;" title="2018年度上海市电力公司第1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度上海市电力公司第1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a82014d605cb6c20160d44a3d6c1fb9');return false;" title="2018年度江苏省电力公司第1-2批次废旧物资处置竞价公告"> 
+		
+	  		2018年度江苏省电力公司第1-2批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a82014d605cbb020160c501168a1f26');return false;" title="2018年度黑龙江省电力有限公司第1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度黑龙江省电力有限公司第1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-05</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a820144605cbb2a0160c3f25fc61eef');return false;" title="2018年度福建省电力有限公司第1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度福建省电力有限公司第1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-05</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a82014c60a0719e0160bb0038500414');return false;" title="2018年度江苏省电力公司第1-1批次废旧物资处置竞价公告"> 
+		
+	  		2018年度江苏省电力公司第1-1批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2018-01-03</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a8190aa605cd53f01607691d4ec165e');return false;" title="2017年度江苏省电力公司第12-4批次废旧物资处置竞价公告"> 
+		
+	  		2017年度江苏省电力公司第12-4批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-21</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a8190aa605cd19a016071f010d127bb');return false;" title="2017年度国网物资有限公司第9批次废旧物资处置竞价公告"> 
+		
+	  		2017年度国网物资有限公司第9批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-20</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a8190ab5fdd1ae50160542689094109');return false;" title="2017年度陕西省电力公司第7批次废旧物资处置竞价公告"> 
+		
+	  		2017年度陕西省电力公司第7批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-14</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a8190ab5fdd1ae501604f1f4d151a5f');return false;" title="2017年度内蒙古东部电力有限公司第4批次废旧物资处置竞价公告"> 
+		
+	  		2017年度内蒙古东部电力有限公司第4批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-13</span>
+	  </p><p><a href="#" onclick="showAnnounceDetail('8a8190ab5fde14e2016044a0620a656e');return false;" title="2017年度西藏电力有限公司第2批次废旧物资处置竞价公告"> 
+		
+	  		2017年度西藏电力有限公司第2批次废旧物资处置竞价公告
+		  	
+	  	</a>
+		<span>2017-12-12</span>
+	  </p></div><!--竞价公告缓存 10分钟 end-->
+
+  <div class="hide announcement" data-id="4"><!---公共信息缓存10分钟  begin-->
+	
+ 	  
+      
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54610');return false;" title="关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知"> 
+		
+	  		关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54591');return false;" title="国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知"> 
+		
+	  		国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54590');return false;" title="国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项目（非物资）公开竞争性谈判成交结果公告"> 
+		
+	  		
+	  		国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54608');return false;" title="国网浙江省电力有限公司协议库存执行率公示2017年12月"> 
+		
+	  		国网浙江省电力有限公司协议库存执行率公示2017年12月
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54607');return false;" title="投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类项目招标采购招标文件"> 
+		
+	  		
+	  		投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '7900000000000063825');return false;" title="关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息的澄清"> 
+		
+	  		
+	  		关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('019002', '54588');return false;" title="国网甘肃省电力公司2017年12月协议库存执行情况公示"> 
+		
+	  		国网甘肃省电力公司2017年12月协议库存执行情况公示
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54606');return false;" title="国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中标候选人公示（第三部分）"> 
+		
+	  		
+	  		国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54587');return false;" title="关于组织浙江省2018年低压综合配电箱（JP柜）入网检测的公告"> 
+		
+	  		关于组织浙江省2018年低压综合配电箱（JP柜）入网检测的公告
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54586');return false;" title="国网新疆招标有限责任公司物资类招标采购提供开具发票信息内容"> 
+		
+	  		国网新疆招标有限责任公司物资类招标采购提供开具发票信息内容
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54568');return false;" title="国网山东省电力公司2017年美丽青岛建设工程物资招标采购C值抽取结果公示"> 
+		
+	  		
+	  		国网山东省电力公司2017年美丽青岛建设工程物资招标采购C值抽取结果公...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54522');return false;" title="国网信息通信产业集团有限公司2017年第二十一批“统一监管、授权实施”服务类项目（北京地区）成交结果公告"> 
+		
+	  		
+	  		国网信息通信产业集团有限公司2017年第二十一批“统一监管、授权实施”...
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54567');return false;" title="国网山西省电力公司2018年第一次服务类（施工）招标采购（含零星服务框架采购）补充公告"> 
+		
+	  		
+	  		国网山西省电力公司2018年第一次服务类（施工）招标采购（含零星服务框...
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54566');return false;" title="国网山西省电力公司2018年第一次服务类（设计、监理及其他服务）招标采购（含零星服务框架采购）补充公告"> 
+		
+	  		
+	  		国网山西省电力公司2018年第一次服务类（设计、监理及其他服务）招标采...
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54521');return false;" title="国网信通产业集团有限公司2017年第十六批“统一监管，授权实施”项目（非物资）公开竞争性谈判成交候选人"> 
+		
+	  		
+	  		国网信通产业集团有限公司2017年第十六批“统一监管，授权实施”项目（...
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54520');return false;" title="国网河北省电力有限公司关于国网商城（电商平台）催缴发票的通知"> 
+		
+	  		国网河北省电力有限公司关于国网商城（电商平台）催缴发票的通知
+	  		
+	  	</a>
+		<span>2018-01-05</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54519');return false;" title="关于延长国网重庆市电力公司2018年第一批工程与服务类集中招标采购项目标书购买时间的公告"> 
+		
+	  		
+	  		关于延长国网重庆市电力公司2018年第一批工程与服务类集中招标采购项目...
+	  	</a>
+		<span>2018-01-04</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54517');return false;" title="国网安徽省电力有限公司供应商服务中心APP应用上线运行通知"> 
+		
+	  		国网安徽省电力有限公司供应商服务中心APP应用上线运行通知
+	  		
+	  	</a>
+		<span>2018-01-04</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54516');return false;" title="国网安徽省电力有限公司供应商服务中心APP应用上线运行通知"> 
+		
+	  		国网安徽省电力有限公司供应商服务中心APP应用上线运行通知
+	  		
+	  	</a>
+		<span>2018-01-04</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54548');return false;" title="国网青海省电力公司2017年12月份协议库存执行情况公示"> 
+		
+	  		国网青海省电力公司2017年12月份协议库存执行情况公示
+	  		
+	  	</a>
+		<span>2018-01-04</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54547');return false;" title="国网山西省电力公司2018年第一次服务类（设计、监理及其他服务）招标采购（含零星服务框架采购）变更公告"> 
+		
+	  		
+	  		国网山西省电力公司2018年第一次服务类（设计、监理及其他服务）招标采...
+	  	</a>
+		<span>2018-01-04</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54527');return false;" title="国网河北省电力有限公司关于时间截止于2018年1月12日催缴发票的通知"> 
+		
+	  		
+	  		国网河北省电力有限公司关于时间截止于2018年1月12日催缴发票的通知...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '53627');return false;" title="国网湖南省电力有限公司2017年第二次物资协议库存招标采购项目澄清回复"> 
+		
+	  		
+	  		国网湖南省电力有限公司2017年第二次物资协议库存招标采购项目澄清回复...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '52760');return false;" title="关于国网湖南省电力有限公司2017年第二次物资协议库存招标采购项目标书售价说明"> 
+		
+	  		
+	  		关于国网湖南省电力有限公司2017年第二次物资协议库存招标采购项目标书...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54526');return false;" title="评标专家通知-国网山东省电力公司评标专家会议通知20180103（2）"> 
+		
+	  		
+	  		评标专家通知-国网山东省电力公司评标专家会议通知20180103（2）...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54485');return false;" title="评标专家通知-国网山东省电力公司评标专家会议通知20180103（1）"> 
+		
+	  		
+	  		评标专家通知-国网山东省电力公司评标专家会议通知20180103（1）...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54512');return false;" title="国网江苏省电力有限公司2017年协议库存第一次打样招标价格下浮基准点a值抽取结果记录"> 
+		
+	  		
+	  		国网江苏省电力有限公司2017年协议库存第一次打样招标价格下浮基准点a...
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54511');return false;" title="国网上海市电力公司2017年12月份协议库存执行情况公示"> 
+		
+	  		国网上海市电力公司2017年12月份协议库存执行情况公示
+	  		
+	  	</a>
+		<span>2018-01-03</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54484');return false;" title="国网山西省电力公司2018年第一次物资类集中规模招标采购二维码封面生成软件"> 
+		
+	  		
+	  		国网山西省电力公司2018年第一次物资类集中规模招标采购二维码封面生成...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54508');return false;" title="国网湖南省电力公司2017年12月份2016-2017年度各批协议库存供应商执行完成情况公示表"> 
+		
+	  		
+	  		国网湖南省电力公司2017年12月份2016-2017年度各批协议库存...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54482');return false;" title="国网河北省电力有限公司关于收集供应商银行汇款信息的通知"> 
+		
+	  		国网河北省电力有限公司关于收集供应商银行汇款信息的通知
+	  		
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54481');return false;" title="国网河北省电力有限公司关于登记发票的通知"> 
+		
+	  		国网河北省电力有限公司关于登记发票的通知
+	  		
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54504');return false;" title="国网河北省电力公司检修分公司2017年第四批授权采购（公开招标部分）中标公告"> 
+		
+	  		
+	  		国网河北省电力公司检修分公司2017年第四批授权采购（公开招标部分）中...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54503');return false;" title="国网河北省电力公司检修分公司2017年第三批授权采购（公开招标部分）中标公告"> 
+		
+	  		
+	  		国网河北省电力公司检修分公司2017年第三批授权采购（公开招标部分）中...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('015001', '54502');return false;" title="国网江西省电力有限公司关于集中签订2017年国网输变电工程第六次设备、材料等采购批次结果合同的通知"> 
+		
+	  		
+	  		国网江西省电力有限公司关于集中签订2017年国网输变电工程第六次设备、...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54501');return false;" title="国网信通集团2017年第二十二批“统一监管、授权实施”竞争性谈判采购（福建地区）候选人公示2"> 
+		
+	  		
+	  		国网信通集团2017年第二十二批“统一监管、授权实施”竞争性谈判采购（...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54479');return false;" title="关于开展河南电力物资有限公司2018年年度投标保证金缴纳工作的通知"> 
+		
+	  		关于开展河南电力物资有限公司2018年年度投标保证金缴纳工作的通知
+	  		
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54477');return false;" title="国网信息通信产业集团有限公司2017年第二十一批“统一监管，授权实施”服务类增补项目（北京地区）成交结果公告"> 
+		
+	  		
+	  		国网信息通信产业集团有限公司2017年第二十一批“统一监管，授权实施”...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014002005', '54476');return false;" title="国网信息通信产业集团有限公司2017年第二十一批“统一监管，授权实施”服务类项目（北京地区）成交结果公告"> 
+		
+	  		
+	  		国网信息通信产业集团有限公司2017年第二十一批“统一监管，授权实施”...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+	  <p><a href="#" onclick="showNewsDetail('014001006', '54499');return false;" title="国网信息通信产业集团有限公司2017年第二十批“统一监管，授权实施”物资类项目（北京地区）二次成交结果公告"> 
+		
+	  		
+	  		国网信息通信产业集团有限公司2017年第二十批“统一监管，授权实施”物...
+	  	</a>
+		<span>2018-01-02</span>
+	  </p>
+	  
+    
+  <p><a href="#" onclick="showNewsDetail('014001006', '54610');return false;" title="关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知"> 
+		
+	  		关于办理国网河北省电力公司2018年度招标采购年度投标保证金的通知
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001006', '54591');return false;" title="国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知"> 
+		
+	  		国家电网公司2017年电动汽车充电设备资质能力现场核实专家通知
+	  		
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014002005', '54590');return false;" title="国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项目（非物资）公开竞争性谈判成交结果公告"> 
+		
+	  		
+	  		国网信息通信产业集团有限公司2017年第十六批“统一监管，授权实施”项...
+	  	</a>
+		<span>2018-01-09</span>
+	  </p><p><a href="#" onclick="showNewsDetail('015001', '54608');return false;" title="国网浙江省电力有限公司协议库存执行率公示2017年12月"> 
+		
+	  		国网浙江省电力有限公司协议库存执行率公示2017年12月
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014002005', '54607');return false;" title="投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类项目招标采购招标文件"> 
+		
+	  		
+	  		投标人商务技术响应表-国网福建省电力有限公司2018年第一批工程服务类...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001006', '7900000000000063825');return false;" title="关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息的澄清"> 
+		
+	  		
+	  		关于明确国网北京市电力公司2018年第一批物资招标采购项目银行账户信息...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('019002', '54588');return false;" title="国网甘肃省电力公司2017年12月协议库存执行情况公示"> 
+		
+	  		国网甘肃省电力公司2017年12月协议库存执行情况公示
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014002005', '54606');return false;" title="国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中标候选人公示（第三部分）"> 
+		
+	  		
+	  		国网吉林省电力有限公司2017年第三批零星工程与服务协议招标采购项目中...
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001006', '54587');return false;" title="关于组织浙江省2018年低压综合配电箱（JP柜）入网检测的公告"> 
+		
+	  		关于组织浙江省2018年低压综合配电箱（JP柜）入网检测的公告
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p><p><a href="#" onclick="showNewsDetail('014001006', '54586');return false;" title="国网新疆招标有限责任公司物资类招标采购提供开具发票信息内容"> 
+		
+	  		国网新疆招标有限责任公司物资类招标采购提供开具发票信息内容
+	  		
+	  	</a>
+		<span>2018-01-08</span>
+	  </p></div><!--公共信息缓存 10分钟 end-->
+
+
+
+  	</body></html>

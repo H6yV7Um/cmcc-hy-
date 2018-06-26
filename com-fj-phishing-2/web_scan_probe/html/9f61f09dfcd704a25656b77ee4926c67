@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head>
+<title>收银台</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assist/dist/aos.css">
+<link rel="stylesheet" href="assist/css/styles.css"> 
+<link type="text/css" rel="stylesheet" href="css/style.css">
+	<!--[if IE]>
+		<script src="http://libs.baidu.com/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body aos-easing="ease-out-back" aos-duration="1000" aos-delay="0">
+<!--top begin-->
+ <div class="warper">
+ 	<div class="wd900 mt60">
+ 		<div class="wd100pc aos-init aos-animate" aos="zoom-in">
+			  <div class="sbst txc"><img src="css/ok.png"></div>
+			<div class="mt20 txc"><span class="mgray fs16">支付成功， 如有需要联系在线客服！</span></div>
+			<div class="mt20 txc"><span class="mgray fs16"> </span></div>
+			
+ 		</div>
+ 		 
+ 		<div class="mt30 clearfix"></div>
+ 	</div>
+ </div>
+<!--footer end-->
+<script src="assist/js/jquery.min.js"></script>
+	<script src="assist/js/highlight.min.js"></script>
+	<script src="assist/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			easing: 'ease-out-back',
+			duration: 1000
+		});
+	</script>
+
+	<script>
+		hljs.initHighlightingOnLoad();
+
+		$('.hero__scroll').on('click', function(e) {
+			$('html, body').animate({
+				scrollTop: $(window).height()
+			}, 1200);
+		});
+	</script>
+
+</body></html>

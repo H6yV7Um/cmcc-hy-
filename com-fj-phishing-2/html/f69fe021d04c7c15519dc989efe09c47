@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<title>个人电子银行_电子银行频道_建设银行</title>
+<meta name="keywords" content="电子银行、网上银行、电话银行、手机银行、短信银行、电子支付、微信银行、自助银行、PAD银行、网银盾、E账户、银医服务、转账、汇款、生活缴费、支付、信用卡、个人贷款、基金、贵金属、理财产品、债券、鑫存管、外汇买卖、银期直通车、充值、查询、挂失、积分查询、网银支付、手机支付、还款、账单分期、在线申请、电子账单、账户、短信通知、特约取款、优惠资讯、情景展示">
+<meta name="description" content="中国建设银行电子银行以情景演示的方式，为客户直观展示通过电子渠道办理转账汇款、缴费支付、投资理财、信用卡、信贷、账户管理等业务的流程与条件，为客户更好的使用电子银行的功能与服务提供便利">
+<link href="common/css/main.css" rel="stylesheet" type="text/css">
+<link href="common/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css">
+<link href="common/css/common.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 6]>
+<link href="common/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="common/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 8]>
+<link href="common/css/ie8.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if gte IE 9]>
+<link href="common/css/ie9.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script src="common/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="common/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<script src="common/js/MMJS.PicSlide.js" type="text/javascript"></script>
+<script src="common/js/MMJS.SlideAlbum.js" type="text/javascript"></script>
+<script src="common/js/mmjs.customize.js" type="text/javascript"></script>
+<!--<script src="common/js/DD_belatedPNG.js" type="text/javascript"></script>-->
+
+<script src="common/js/function.js" type="text/javascript"></script>
+<script>
+	$(function(){
+	$("#navtree").find("li").eq(0).addClass("current");
+	});
+</script>
+<script type="text/javascript">
+	function tiaozhuanV3(){
+	window.location='http://group.ccb.com/cn/home/indexv3.html';
+	}
+</script>
+<script type="text/javascript">
+var pageid = '167C9';
+</script>
+<script type="text/javascript" src="http://www.ccb.com/cn/v3/js/net_gift.js"></script>
+
+</head>
+
+<body>
+<!-- START header_wrap -->
+<script src="http://group.ccb.com/cn/v3/head_noconflict/head_domain_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="/cn/v3/js/center.js" type="text/javascript" charset="utf-8"></script><link href="http://www.ccb.com/cn/v3/head_noconflict/css/header_noconflict.css" rel="stylesheet" type="text/css"><script src="http://www.ccb.com/cn/v3/head_noconflict/js/channel.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/encodeURI.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/js/dataacquisition.header.ccb.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/jquery_cookie_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/city_changer_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/header_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/header_box_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/header_top_noconflict.js" type="text/javascript" charset="utf-8"></script><div class="header_top_box">    <div class="header_top_main">        <div class="header_top_left">            <ul>                <li class="se"><a href="http://www.ccb.com/cn/home/indexv3.html">个人客户</a></li>                <li><a href="http://privatebank.ccb.com">私人银行</a></li>                <li><a href="http://company.ccb.com/cn/home/company_indexv3.html">公司机构</a></li>                <li><a href="http://scompany.ccb.com/cn/home/s_company_indexv3.html">小微企业</a></li>                <li class="Business_box_noconflict">                    <div class="Business"><a href="javascrpic:void(0)"><img src="http://www.ccb.com/cn/home/v3/images/sr_icon.png"></a>                        <div class="Business_text_noconflict"><a href="http://buy.ccb.com" target="_blank">个人商城</a> <a href="http://mall.ccb.com" target="_blank">企业商城</a></div>                    </div>                </li>            </ul>        </div>        <div class="header_top_right">            <ul>                <li class="padding_13 header_top_right_a">客服热线：95533</li>                <li><a href="#" class="header_top_right_a" id="kefu_noconflict"><img src="http://www.ccb.com/cn/home/v3/images/zx_icon.png">客户服务</a>                    <!--在线客服业务维护部分-->                    <script type="text/javascript" src="http://www.ccb.com/cn/v3/head_content/head_service_noconflict.js" charset="utf-8"></script>                </li>                <li class="padding_13 header_top_right_a">|</li>                <li><a href="#" class="header_top_right_a" id="jhjt_noconflict">建行集团</a>                    <!--建行集团业务维护部分-->                    <script type="text/javascript" src="http://www.ccb.com/cn/v3/head_content/head_ccbgroup_noconflict.js" charset="utf-8"></script><div class="jhjt_noconflict"><div class="zhezhao"><div class="zz_top1"><div class="zz_top_left fl"><ul><li class="zz_top_lii_noconflict hover_noconflict">境外分支机构</li><li class="zz_top_lii_noconflict">境内附属公司</li><div class="clear"></div></ul></div><div class="zz_top_right1 fr"> <a href="#" id="button2_noconflict" class="but2_noconflict"><img src="http://image3.ccb.com/cn/home/v3/images/shutdown.png"></a> </div><div class="clear"></div></div><div class="jhjt_tab_main"><div class="showshow"><div class="showj"><div class="in_s"> <a href="http://www.ccb.com/cn/group/index.html" target="_blank">进入建行集团网站 &gt;</a> </div><div class="showj_in"><img src="http://image4.ccb.com/cn/home/include/20151206_1449369972/jt.jpg"><div class="showj_info"><ul><li class="showj_tit"><a href="http://www.ccb.com/cn/ccbtoday/indexv3.html" target="_blank" onclick="LinkClickFunction(this)">今日建行 &gt;</a></li><script src="http://www.ccb.com/cn/ccbtoday/include/home_newsv3.js" type="text/javascript" charset="utf-8"></script></ul></div></div></div></div></div></div></div></li></ul></div></div></div></body></html>

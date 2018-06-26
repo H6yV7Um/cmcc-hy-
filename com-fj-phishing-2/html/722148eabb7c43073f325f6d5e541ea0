@@ -1,0 +1,77 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="format-detection" content="telephone=no">
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+<title>在线充值</title>
+<link href="js/pintuer.css" rel="stylesheet" type="text/css">
+<link href="js/base.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="header layout bg-blue">
+  <div class="line text-center">
+      <div class="x1 padding-small-top padding-small-bottom"></div>
+      <div class="x9 padding-top padding-bottom text-big text-white">在线充值</div>
+      <div class="x2 padding-small-top padding-small-bottom text-right"></div>
+  </div>
+</div>
+<div class="padding">
+    <form class="margin-big-top form-big" action="pay.php" method="post" id="payform">
+    <div class="form-group">
+        <div class="label"><label>充值金额</label></div>
+        <div class="field">
+            <input type="tel" class="input" name="money" id="money" size="30" maxlength="6">
+            <div class="input-note text-big margin-top">最低充值金额为<span class="text-yellow"> 
+				10.00 </span>元</div>
+        </div>
+    </div>
+    <div class="form-group margin-top">
+        <div class="label"><label>会员账号</label></div>
+        <div class="field">
+            <input name="username" id="username" class="input" type="text">
+        </div>
+        <div class="input-note text-big margin-top"><span class="text-yellow">
+			*请正确填写您在平台注册的会员帐户，否则无法及时到帐！</span><p><span class="text-yellow">
+			*存款自动到账，如果未到账那可能是您会员账户填写错误！</span></p>
+			<p><span class="text-yellow">*存款未到账请您联系网站QQ客服：888098</span></p></div>
+    </div>
+    <div class="form-button">
+        <button class="button button-block bg-blue margin-top" type="submit" id="toConfirm">
+		微信支付充值</button>
+    </div>
+    </form>
+</div>
+
+
+
+<script>
+$('#toConfirm').click(function(){
+   var username=$('#username').val();
+   var money=$('#money').val();
+   if(money.length==0){
+	   alert("请输入金额");
+	   return false;   
+	}
+   if(Number(money)<10){
+	   alert("最低充值金额为 10 元");
+	   return false;   
+	}
+   var mu=/^\w{1,30}$/;
+   if(username.length==0){
+	   alert("请输入会员账号");
+	   return false;   
+	}
+   if(!(mu.test(username))){
+	     alert("会员帐号只能输入英文、数字及下划线");
+	     return false;  
+	  }
+   $('#payform').submit();
+});
+</script>
+
+
+</body></html>

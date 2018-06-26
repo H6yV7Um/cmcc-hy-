@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="initial-scale=1, maximum-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link href="/static/new/wap/css/shouye.css" rel="stylesheet"><link href="/static/mhaodai/src/m/css/header.css" rel="stylesheet"><title>提供嘉兴各大银行信用卡优惠,信用卡申请,信用卡中心,信用卡进度查询</title><meta name="keywords" content="信用卡,信用卡申请,信用卡中心,信用卡进度查询"><meta name="description" content="金融频道免费为您提供嘉兴各大银行信用卡优惠,信用卡申请,信用卡中心,信用卡进度查询等服务。"><script src="https://hm.baidu.com/hm.js?7f4b80afc3f1c5636a2cb700901cfe97"></script><script type="text/javascript" src="/static/new/wap/js/jquery-1.7.1.min.js"></script><script src="/static/new/wap/js/swiper-2.1.min.js"></script><script src="/static/new/wap/js/lazyload.js"></script><style type="text/css">
+        html, body {background:#f6f6f6;}
+        .all_bank .hot_title{
+            height: 40px;
+            border-bottom: 1px solid #e6e6e6;
+            font-size: 1.4rem;
+            color: #333;
+            line-height: 40px;
+            padding: 0 10px 0 10px;
+            margin-bottom: 15px;
+        }
+        .all_bank .TopCity,.all_bank .TopBtn{
+            color:#3B3B3C;
+            font-size: 14px;
+            font-weight:normal;
+        }
+        .all_bank .TopCity{
+            height: 40px;
+            line-height: 40px;
+            top:0;
+        }
+        .all_bank .TopCity_word{
+            padding: 0px 10px 0 4px;
+        }
+        .hot_title{
+            background:#fff;
+        }
+    </style><script type="text/javascript" src="https://jic.talkingdata.com/app/h5/v1/websdk/js/sdk_release.js"></script></head><body style="background:#f6f6f6;height:100%;"><div id="mainview"><section class="all_bank" style="padding-top:0px;position:relative;background:#f6f6f6;"><p class="hot_title">
+                热门银行
+                <span><a href="/Mobile/changecity/city/jiaxing/mode/credit.html" class="TopCity"><img src="/static/new/wap/img/dingwei.png"><span class="TopCity_word" id="City">嘉兴</span><span class="TopCity_img"></span></a></span></p><div class="clear"></div><p></p><div style="margin-top:-15px;"><a href="/Mobile/creditlist/city/jiaxing/bank_id/13.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/src/i/LM/bank/long_13.png"></div><span class="bank-new-p">交通银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/11.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/Public/yun/bankonlineimg/long_11.png"></div><span class="bank-new-p">中信银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/15.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/src/i/LM/bank/long_15.png"></div><span class="bank-new-p">平安银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/1.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/src/i/LM/bank/long_1.png"></div><span class="bank-new-p">招商银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/3.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/src/i/LM/bank/long_3.png"></div><span class="bank-new-p">光大银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/12.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/Public/yun/bankonlineimg/long_12.png"></div><span class="bank-new-p">工商银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/8.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/src/i/LM/bank/long_8.png"></div><span class="bank-new-p">浦发银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/4.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/Public/yun/bankonlineimg/long_4.png"></div><span class="bank-new-p">华夏银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/9.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/Public/yun/bankonlineimg/long_9.jpg"></div><span class="bank-new-p">兴业银行</span></div></div></a><a href="/Mobile/creditlist/city/jiaxing/bank_id/56.html"><div class="bank-new"><div style="width:13.5rem;margin:0 auto;"><div class="bank-hot-new"><img src="https://yunimg.haodai.com/Public/yun/bankonlineimg/long_56.jpg"></div><span class="bank-new-p">浙商银行</span></div></div></a></div></section></div><div style="display:none;" id="statistics"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7f4b80afc3f1c5636a2cb700901cfe97";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script src="https://jic.talkingdata.com/app/h5/v1?appid=34D730D5F3BD4A00826BE35B4522F649&amp;vn=beta&amp;vc=1.1.1"></script><script src="https://s4.cnzz.com/z_stat.php?id=1257893164&amp;web_id=1257893164" language="JavaScript"></script><script src="https://c.cnzz.com/core.php?web_id=1257893164&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1257893164" target="_blank" title="站长统计" style="display: none;">站长统计</a><script>
+    $('#statistics a').hide();
+</script></div></body></html>

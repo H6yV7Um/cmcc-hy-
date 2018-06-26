@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+
+
+ 
+
+  
+
+
+
+<script type="text/javascript">
+  var contextRootPath = "";
+//ecenter url
+  var centerUl = "http://www.epicc.com.cn";
+</script>
+    
+	<title>PICC 人保之友俱乐部</title>
+    <meta name="description" content="加入“人保之友”客户俱乐部，您将体验更多精彩服务：酒后代驾服务、洗车服务、代办年审服务等。
+人保之友客户俱乐部用全新服务理念保障您的汽车生活！">
+    <meta name="keywords" content="中国人保 人保,人保之友 ,人保车险,俱乐部,车友之家,车友会,车友俱乐部}">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="/css/base.css">
+    <link type="text/css" rel="stylesheet" href="/css/common.css">
+    <link type="text/css" rel="stylesheet" href="/css/homepage.css">
+    <script type="text/javascript">if(screen.width<=1024){document.write("<link rel='stylesheet' type='text/css' href='/css/base-1024.css' />");}</script><link rel="stylesheet" type="text/css" href="/css/base-1024.css">
+    <script type="text/javascript">if(screen.width<=1024){document.write("<link rel='stylesheet' type='text/css' href='/css/common-1024.css' />");}</script><link rel="stylesheet" type="text/css" href="/css/common-1024.css">
+    <script type="text/javascript">if(screen.width<=1024){document.write("<link rel='stylesheet' type='text/css' href='/css/homepage-1024.css' />");}</script><link rel="stylesheet" type="text/css" href="/css/homepage-1024.css">
+    <script type="text/javascript" src="/js/common/jquery.js"></script>
+    <script type="text/javascript" src="/js/common/page_common.js"></script>
+    <script type="text/javascript" src="/js/common/page_club.js"></script>
+    <script type="text/javascript" src="/js/common/ui.message.js"></script>
+    <script type="text/javascript" src="/js/index-content.js"></script>
+    <script type="text/javascript" src="/js-info/common/star.js"></script> 
+</head>
+<body>
+     
+
+ 
+ 
+	<link rel="stylesheet" type="text/css" href="/css-product/layout.css">
+	<script type="text/javascript" src="/pages/customer/js/customerAjax.js"></script>
+    <script type="text/javascript" src="/js/js_index/index_header.js"></script>
+    <script type="text/javascript" src="/js/js_index/index_header_caslogin.js"></script>
+    <script type="text/javascript" src="/js/js_index/index_header_cityctrl.js"></script>
+<!--include header and top -->
+<div class="bg_header">
+    <div class="float_cet frame_width">
+        <div class="frame f_header">
+            <div class="header_bar">
+                <div class="for_member">
+                    <span><a href="http://www.epicc.com.cn" target="_blank">人保官网</a> | </span>
+                    <span><a href="http://www.epicc.com.cn" target="_blank">网上商城</a> | </span>
+                    <span><a href="javascript:;" onclick="collect()" class="with_icon star">收藏本站</a> </span>
+                </div>
+                <div class="for_share">
+
+	                    <div class="sign_in" id="title-1">
+	                        <span>您好，欢迎来到人保！</span>
+	                        <span>[ <a href="javascript:void(0);" onclick="newLogin(); ">请登录</a> ] </span>
+	                        <span>[ <a href="javascript:void(0);" onclick="turnToRegist();">免费注册</a> ]&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+	                    </div>
+	                    <div class="sign_out hidden" id="title-2">
+                    		<span><span id="entryId_txt"></span>，您好！</span>
+	                        <span>[ <a href="javascript:void(0);" onclick="turnToEcenter()">个人中心</a> ] </span>
+	                        <span>[ <a href="javascript:void(0);" onclick="exitLogon();">退出</a> ]&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+	                    </div>
+                    <div class="cart">
+                        <span class="cart_icon"><a href="/customer/cart/cart">购物车</a></span>
+                        <!--<span class="cart_icon">购物车</span>
+                        <div class="cart_popup">
+                            <div class="cart_panel">
+                                <div class="cart_label"></div>
+                                <h1>最近加入的产品</h1>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="cart_thumb"><img src="" alt=""/></a>
+                                        <a href="#" class="cart_name">茶杯</a>
+                                        <dl>
+                                            <dt>1000积分</dt>
+                                            <dd><a href="#">删除</a></dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                                <div class="cart_count">购物车中还有<span>1</span>件商品</div>
+                                <a href="" class="button btn_red size_120x30">查看我的购物车</a>
+                            </div>
+                        </div>
+                    --></div>
+                    <div class="site_map">
+                        <span class="trigger">网站地图 </span>
+                        <div class="sitmp_popup">
+                            <div class="sitmp_panel">
+                                <div class="sitmp_label"></div>
+                                <dl class="col1">
+                                    <dt>积分兑换</dt>
+                                    <dd>
+										<a href="/jfhl">全部礼品</a>
+										<a href="/jfhl?currentPage=1&amp;conditionChangeStatus=1&amp;entityType=0&amp;serviceType=1&amp;mealType=0&amp;virtualType=0">积分兑换服务</a>
+                                        <a href="/jfhl?currentPage=1&amp;conditionChangeStatus=1&amp;entityType=1&amp;serviceType=0&amp;mealType=0&amp;virtualType=0">积分兑换实物</a>
+                                        <a href="/jfhl?currentPage=1&amp;conditionChangeStatus=1&amp;entityType=0&amp;serviceType=0&amp;mealType=0&amp;virtualType=1">积分兑换卡券</a>
+                                        <a href="/jfhl?currentPage=1&amp;conditionChangeStatus=1&amp;entityType=0&amp;serviceType=0&amp;mealType=1&amp;virtualType=0">积分兑换套餐</a>
+                                    </dd>
+                                </dl>
+                                <dl class="col2">
+                                    <dt>主题活动</dt>
+                                    <dd>
+                                        <a href="/zthd/jxzhd">最新活动</a>
+                                        <a href="/zthd/lshd">历史活动</a>
+                                    </dd>
+                                </dl>
+                                <dl class="col3">
+                                    <dt>客户服务</dt>
+                                    <dd>
+                                        <a href="/khfw/jlbdt">俱乐部动态</a>
+                                        <a href="/khfw/rbzyzz">人保之友杂志</a>
+                                        <a href="/khfw/xzzq/3">下载专区</a>
+                                        <a href="/khfw/hyly">会员留言</a>
+                                        <a href="/khfw/jlbjs">俱乐部介绍</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <span class="float_rit"> |</span>
+                    </div>
+                    <a href="http://club.epicc.com.cn/customer/magazine/magazine!downLoadFileContent?fileName=20160516164941828.apk" target="_blank" title="APP下载" class="share appDownload"><span class="float_rit"> |</span>APP下载</a>
+                    <a href="http://weibo.com/piccpc" target="_blank" title="新浪微博" class="share sina_weibo">官方微博</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- carttitle1是加入购物车成功和收藏成功提示页面的遮罩层  -->
+    <div id="carttitle1" style="filter:alpha(opacity=80);position:fixed;height:100%;width:100%;z-index:999;display:none;" class="ui-overlay"></div>
+    <!-- carttitle2是操作失败和alert的提示页面  -->
+		<div id="carttitle2" style="z-index:1000;display:none;" class="box box3">
+			<div class="monkey monkey-cry"></div>
+			<a href="javascript:;" class="close close2" title="关闭"></a>
+			<div class="box-cont">
+				<h2 class="box-title">很抱歉</h2>
+				<p class="info-txt1"></p>
+				<img src="/productimages/gift.png" alt="" class="gift">
+				<div class="box-foot">
+					<a href="javascript:;" id="failedcontinue" class="continue1">确定</a>
+				</div>
+			</div>
+		</div>
+		<!-- alerttitle是alert提示页面  -->
+		<div id="alerttitle" style="z-index:1000;display:none;" class="box box3">
+			<div class="monkey monkey-cry"></div>
+			<a href="javascript:;" class="close close2" title="关闭"></a>
+			<div class="box-cont">
+				<h2 class="box-title">很抱歉</h2>
+				<p class="info-txt1"></p>
+				<img src="/productimages/gift.png" alt="" class="gift">
+				<div class="box-foot">
+					<a href="javascript:;" id="alertcontinue" class="continue2">确定</a>
+				</div>
+			</div>
+		</div>
+		<!-- successtitle是操作成功的提示页面  -->
+		<div id="successtitle" style="z-index:1000;display:none;" class="box box4">
+			<div class="monkey1 monkey-smile"></div>
+			<a href="javascript:;" class="close close2" title="关闭"></a>
+			<div class="box-cont">
+				<h2 class="box-title"></h2>
+				<p class="info-txt1"></p>
+				<img src="/productimages/gift.png" alt="" class="gift">
+				<div class="box-foot">
+					<a href="javascript:;" id="successcontinue" class="continue1">确定</a>
+				</div>
+			</div>
+		</div>
+</div>
+<div class="bg_top">
+    <div class="float_cet frame_width">
+        <div class="frame f_top">
+            <div class="logos">
+                <div class="logo" onclick="onclickclub_img('2')" style="cursor:pointer;"></div>
+                <div class="logo_sub" onclick="onclickclub_img('1')" style="cursor:pointer;"></div>
+                <div class="region">
+                    <div class="rg_tg">
+                        <span>[ <em>北京</em></span>
+                        <span class="icon_down">&nbsp;</span>
+                        <span>]</span>
+                        <input id="provinceId" type="hidden" value="">
+    					<input id="cityId" type="hidden" value="">
+    					<input id="city_input" type="hidden" value="北京"> 
+                    </div>
+                    <div class="rg_panel">
+                        <ul class="rg_label">
+                            <li class="label_picked"><a href="#regionHot" id="regionPickerHot"><span>热门城市</span></a></li>
+                            <li><a href="#regionProvince" id="regionPickerProvince"><span>省</span></a></li>
+                            <li><a href="#regionCity" id="regionPickerCity"><span>市</span></a></li>
+                        </ul>
+                        <div class="rg_list rg_hot list_picked" id="regionHot">
+                            <ul id="cityReUL">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            <li value="45010000" onclick="javascript:setProvinceCityRe(this)"><a href="javascript:">南宁</a></li><li value="62010000" onclick="javascript:setProvinceCityRe(this)"><a href="javascript:">兰州</a></li><li value="51010000" onclick="javascript:setProvinceCityRe(this)"><a href="javascript:">成都</a></li><li value="45020000" onclick="javascript:setProvinceCityRe(this)"><a href="javascript:">柳州</a></li><li value="61040000" onclick="javascript:setProvinceCityRe(this)"><a href="javascript:">咸阳</a></li></ul>
+                        </div>
+                        <div class="rg_list rg_province" id="regionProvince">
+                            <a href="#" class="sld_lft"></a>
+                            <div>
+                                <ul id="provinceUL">
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                <li value="11000000" onclick="javascript:selectCity(this)"><a href="javascript:">北京</a></li><li value="13000000" onclick="javascript:selectCity(this)"><a href="javascript:">河北</a></li><li value="14000000" onclick="javascript:selectCity(this)"><a href="javascript:">山西</a></li><li value="15000000" onclick="javascript:selectCity(this)"><a href="javascript:">内蒙古</a></li><li value="21000000" onclick="javascript:selectCity(this)"><a href="javascript:">辽宁</a></li><li value="22000000" onclick="javascript:selectCity(this)"><a href="javascript:">吉林</a></li><li value="23000000" onclick="javascript:selectCity(this)"><a href="javascript:">黑龙江</a></li><li value="31000000" onclick="javascript:selectCity(this)"><a href="javascript:">上海</a></li><li value="33000000" onclick="javascript:selectCity(this)"><a href="javascript:">浙江</a></li><li value="34000000" onclick="javascript:selectCity(this)"><a href="javascript:">安徽</a></li><li value="35000000" onclick="javascript:selectCity(this)"><a href="javascript:">福建</a></li><li value="36000000" onclick="javascript:selectCity(this)"><a href="javascript:">江西</a></li><li value="37000000" onclick="javascript:selectCity(this)"><a href="javascript:">山东</a></li><li value="41000000" onclick="javascript:selectCity(this)"><a href="javascript:">河南</a></li><li value="42000000" onclick="javascript:selectCity(this)"><a href="javascript:">湖北</a></li><li value="43000000" onclick="javascript:selectCity(this)"><a href="javascript:">湖南</a></li><li value="44000000" onclick="javascript:selectCity(this)"><a href="javascript:">广东</a></li><li value="45000000" onclick="javascript:selectCity(this)"><a href="javascript:">广西</a></li><li value="46000000" onclick="javascript:selectCity(this)"><a href="javascript:">海南</a></li><li value="50000000" onclick="javascript:selectCity(this)"><a href="javascript:">重庆</a></li><li value="51000000" onclick="javascript:selectCity(this)"><a href="javascript:">四川</a></li><li value="52000000" onclick="javascript:selectCity(this)"><a href="javascript:">贵州</a></li><li value="53000000" onclick="javascript:selectCity(this)"><a href="javascript:">云南</a></li><li value="54000000" onclick="javascript:selectCity(this)"><a href="javascript:">西藏</a></li><li value="61000000" onclick="javascript:selectCity(this)"><a href="javascript:">陕西</a></li><li value="62000000" onclick="javascript:selectCity(this)"><a href="javascript:">甘肃</a></li><li value="63000000" onclick="javascript:selectCity(this)"><a href="javascript:">青海</a></li><li value="64000000" onclick="javascript:selectCity(this)"><a href="javascript:">宁夏</a></li><li value="65000000" onclick="javascript:selectCity(this)"><a href="javascript:">新疆</a></li></ul>
+                            </div>
+                            <a href="#" class="sld_rit"></a>
+                        </div>
+                        <div class="rg_list rg_city" id="regionCity">
+                            <a href="#" class="sld_lft"></a>
+                            <div><!--<span>请选择省</span>--><ul id="cityUL"></ul></div>
+                            <a href="#" class="sld_rit"></a>
+                        </div>
+                        <div class="rg_box"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav logged">
+                <ul>
+                    <li id="firstBt" class="current"><span><a href="/index">首页</a></span></li>
+                    <li id="scoreBt" class=""><span><a href="/jfhl">积分兑换</a></span></li>
+                    <li id="activityBt" class=""><span><a href="/zthd/jxzhd">主题活动</a></span></li>
+                    <li id="customServiceBt" class=""><span><a href="/khfw">客户服务</a></span></li>
+					<li id="cbCardBt" class=""><span><a href="/lmkzq">联名卡专区</a></span></li>
+                </ul>
+                <!-- 活动入口 start -->
+                <div class="acti-enter" id="eggtitle" style="display:none;">
+                	<a href="/customer/egg/egg!index"><img src="/eggimages/acti_enter_img.png" title="砸金蛋" alt="砸金蛋"></a>
+                </div>
+                <!-- 活动入口 end -->
+                <div id="title" style="">
+                    <a href="javascript:void(0);" class="button btn_red" onclick="newLogin(); ">登录</a>
+                    <a href="javascript:void(0);" onclick="turnToRegist();" class="button btn_hol">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+ 
+
+  
+
+
+
+<script type="text/javascript">
+  var contextRootPath = "";
+//ecenter url
+  var centerUl = "http://www.epicc.com.cn";
+</script>
+
+
+
+
+ 
+
+  
+
+
+
+<script type="text/javascript">
+  var contextRootPath = "";
+//ecenter url
+  var centerUl = "http://www.epicc.com.cn";
+</script>
+<div class="bg_banner">
+    <div class="float_cet frame_width index_frame">
+        <div class="frame">
+            <div class="club_slide">
+	            
+				
+				
+					<a href="http://club.epicc.com.cn/customer/magazine/magazine!downLoadFileContent?fileName=20150827164233479.jpg" class="sld_current"><img width="736px;" height="300px;" src="http://club.epicc.com.cn/piccpicture/img/20150828160021401.jpg"></a>
+				
+				
+				
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg_content">
+<div class="shadow_top"></div>
+<div class="float_cet frame_width index_frame">
+<div class="frame">
+<div class="content">
+<dl class="chn_t rcmd">
+    <dt>为您推荐的服务</dt>
+    <span></span>
+</dl>
+<div class="recommend">
+    <div class="sd_cr lt"></div>
+    <div class="sd_bd hor"></div>
+    <div class="sd_cr rt"></div>
+    <div class="sd_bd ver"></div>
+    <div class="recommend_box">
+        <div class="recommend_con">
+            
+			<div class="secondary">
+				
+                <a href="/customer/product/product!index" class="plus"><span>更多服务</span><br>让您换乐无穷</a>
+            </div>
+        </div>
+    </div>
+    <div class="sd_bd ver"></div>
+    <div class="sd_cr lb"></div>
+    <div class="sd_bd hor"></div>
+    <div class="sd_cr rb"></div>
+</div>
+<dl class="chn_t count">
+    <dt>积分热门兑换</dt>
+</dl>
+<div class="exchange">
+	  
+</div>
+<dl class="chn_t club">
+    <dt>俱乐部活动</dt>
+</dl>
+
+<div class="active">
+	
+</div>
+<dl class="list_title"><dt></dt><dd>俱乐部动态</dd></dl>
+<ul class="news_list">
+	
+</ul>
+<dl class="list_title"><dt></dt><dd>活动公告</dd></dl>
+<div class="borad">
+    <div>
+		
+		
+	        <a href="http://www.epicc.com.cn/" title="人保财险" target="_blank"><img src="/images/temp_billboard_01.jpg" width="249px" height="166px"></a>
+		
+	        <a href="http://www.epicc.com.cn/" title="人保财险" target="_blank"><img src="/images/temp_billboard_02.jpg" width="249px" height="166px"></a>
+		
+	        <a href="http://www.epicc.com.cn/" title="人保财险" target="_blank"><img src="/images/temp_billboard_03.jpg" width="249px" height="166px"></a>
+		
+	        <a href="http://www.epicc.com.cn/" title="人保财险" target="_blank"><img src="/images/temp_billboard_04.jpg" width="249px" height="166px"></a>
+		
+    </div>
+</div>
+<dl class="list_title"><dt></dt><dd>人保之友杂志</dd></dl>
+<div class="magazine">
+    <ul>
+		
+			<li>
+				<a href="/customer/magazine/magazine!downLoadFileContent?fileName=20160114102201226.pdf" class="mg_thumb"><img src="http://club.epicc.com.cn/piccpicture/img/20160114102318234.jpg" alt="人保之友第12期" width="115px" height="150px"></a>
+            	<dl><dt>人保之友</dt><dd>第12期</dd></dl>
+            	<a href="/customer/magazine/magazine!downLoadFileContent?fileName=20160114102201226.pdf" class="button btn_red">下载</a>
+			</li>
+		
+    </ul>
+</div>
+</div>
+</div>
+</div>
+<div style="width:100%;" class="shadow_btm"></div>
+</div>
+
+
+<div class="bg_footer">
+    <div class="float_cet frame_width">
+        <div class="frame">
+            <div class="footer link linkR">
+                <h2>友情链接</h2>
+                <div class="select select280">
+                    <span><a href="http://www.picc.com/">　</a> 中国人民保险集团股份有限公司</span>
+                    <dl>
+                    	<dd><a href="http://www.picc.com/">　</a><input type="hidden" value="http://www.picc.com/#中国人民保险集团股份有限公司">中国人民保险集团股份有限公司</dd>
+                        <dd><a href="http://www.epicc.com.cn/">　</a><input type="hidden" value="http://www.epicc.com.cn/#中国人民财产保险股份有限公司">中国人民财产保险股份有限公司</dd>
+                        <dd><a href="http://www.picclife.cn/">　</a><input type="hidden" value="http://www.picclife.cn/#中国人民人寿保险股份有限公司">中国人民人寿保险股份有限公司</dd>
+                        <dd><a href="http://www.picchealth.com/default.aspx">　</a><input type="hidden" value="http://www.picchealth.com/default.aspx#中国人民健康保险股份有限公司">中国人民健康保险股份有限公司</dd>
+                        <dd><a href="http://www.piccamc.com/">　</a><input type="hidden" value="http://www.piccamc.com/#中国人保资产管理股份有限公司">中国人保资产管理股份有限公司</dd>
+                        
+                    </dl>
+                </div>
+                <a href="javascript:;" class="btnAccess">进入 </a>
+                
+            </div>
+            <div class="footer line footerNew">
+                <h2>人保客服</h2>
+                <dl><dt>客服热线</dt><dd>95518</dd></dl>
+                <dl><dt>投保热线</dt><dd>400-1234567</dd></dl>
+            </div>
+            <div class="copy" style="_position:relative;">
+                <span style="_display:inline;_zoom:1;_overflow:hidden;_position:absolute;_left:247px;_top:0px;">中国人民财产保险股份有限公司&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;京ICP证020322&nbsp;&nbsp;京ICP备10011380号-2</span>
+                <a style="_display:inline;_zoom:1;_overflow:hidden;_position:absolute;_left:702px;_top:32px;" href="https://search.szfw.org/cert/l/CX20111229001300001326" target="_blank" id="___szfw_logo2___" class="security"></a>
+                <a style="_display:inline;_zoom:1;_overflow:hidden;_position:absolute;_left:740px;_top:24px;" href="https://search.szfw.org/cert/l/CX20111229001300001326" target="_blank" id="___szfw_logo___" class="trusted"></a>
+                <script type="text/javascript">
+		        $(document).ready(function(){
+		        	document.getElementById("___szfw_logo___").oncontextmenu = function(){return false;};
+		        	document.getElementById("___szfw_logo2___").oncontextmenu = function(){return false;};
+		        });
+		        
+		        </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body></html>

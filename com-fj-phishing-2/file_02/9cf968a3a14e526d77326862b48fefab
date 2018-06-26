@@ -1,0 +1,2046 @@
+<!DOCTYPE html><html><head>
+    <meta charset="${charset}">
+
+    <title>手机支付宝-支付宝 知托付！</title>
+
+            <meta name="keywords" content="支付宝/支付宝客户端/支付宝手机客户端/手机支付宝/手机支付宝客户端/快捷支付/手机支付,支付宝下载/手机支付宝下载/支付宝客户端下载/支付宝手机客户端下载/手机支付宝客户端下载">
+    
+            <meta name="description" content="中国最大的第三方电子支付服务提供商">
+        <link rel="icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon">
+                <!-- CMS:cms/监控埋点/iconfont开始:tracker/iconfont.vm --><style>
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140408"); /* IE9 */
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140408#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://i.alipayobjects.com/common/fonts/rei.woff?20140408") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.ttf?20140408")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.svg?20140408#rei") format("svg"); /* iOS 4.1- */
+}
+.iconfont {
+    font-family:"rei";
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+</style><!-- CMS:cms/监控埋点/iconfont结束:tracker/iconfont.vm -->    
+    <script type="text/javascript">
+      window._to = { start: new Date() };
+    </script>
+
+        <!-- CMS:cms/监控埋点/前端监控前置脚本开始:tracker/monitor.vm --><script type="text/javascript">
+(function(e){if(!e.monitor){var a=e.monitor={};a._DATAS=[];var f=a._EVENTS=[];a.on=function(a,d){f.push([a,d])};a.off=function(){};a.log=function(c,d){if(c&&!(3<=arguments.length)){var b;"[object Object]"===Object.prototype.toString.call(c)?(b=c,b.profile=d||b.profile||"log"):b={profile:d||"log",seed:c};a._DATAS.push(b);return b}}}})(this);
+(function(h,c){function q(a){return(a=String(a).match(r))?a[0]:"global"}function f(a,m,n,g,f,d,k){if(!k&&arguments.callee.caller){for(var b=arguments.callee.caller,e=[],h=0;b.arguments&&b.arguments.callee&&b.arguments.callee.caller;){b=b.arguments.callee.caller;e.push("at "+q(b));if(b.caller===b)break;if(h++>s)break}k=e.join("\n")}b={profile:t,type:a,msg:m||"",file:n||"",line:g||0,col:f||0,num:d||"",stack:k||"",lang:navigator.language||navigator.browserLanguage||"",lost:l.join(",")};
+e=n+":"+g+":"+m;p.hasOwnProperty(e)||(b.uv=1,p[e]=!0);return c.log(b)}if(c){var t="jserror",s=20,r=/^\s*function\b[^\)]+\)/,l=[],d={};c.lost=function(a){if(!d.hasOwnProperty(a))return d[a]=!0,l.push(a),l};var p={};c.error=function(a){if(a instanceof Error)return f("catched",a.message||a.description,a.filename||a.fileName||a.sourceURL,a.lineno||a.lineNumber||a.line,a.colno||a.columnNumber,a.number,a.stack||a.stacktrace)};h.onerror=function(a,c,d,g){f("global",a,c,d,g);return!1}}})(this,this.monitor);
+</script><!-- CMS:cms/监控埋点/前端监控前置脚本结束:tracker/monitor.vm -->
+        <!-- CMS:cms/监控埋点/seajs 部署开始:tracker/seajs.vm -->	
+<!-- monitor 防错代码 -->
+<script>
+(function(win){
+  if(!win.monitor){win.monitor = {};}
+
+  var METHODS = ["lost", "log", "error", "on", "off"];
+
+  for(var i=0,method,l=METHODS.length; i<l; i++){
+    method = METHODS[i];
+    if("function" !== typeof win.monitor[method]){
+      win.monitor[method] = function(){};
+    }
+  }
+})(window);
+</script>
+
+<!-- seajs以及插件 -->
+<script charset="utf-8" id="seajsnode" onerror="window.monitor &amp;&amp; monitor.lost &amp;&amp; monitor.lost(this.src)" src="https://a.alipayobjects.com/??seajs/seajs/2.1.1/sea.js,seajs/seajs-combo/1.0.0/seajs-combo.js,seajs/seajs-style/1.0.2/seajs-style.js,seajs/seajs-log/1.0.0/seajs-log.js,jquery/jquery/1.7.2/jquery.js,gallery/json/1.0.3/json.js,alipay/request/1.0.4/request.js"></script>
+
+<!-- seajs config 配置 -->
+<script>
+seajs.config({
+  alias: {
+    '$': 'jquery/jquery/1.7.2/jquery',
+    '$-debug': 'jquery/jquery/1.7.2/jquery',
+    'jquery': 'jquery/jquery/1.7.2/jquery',
+    'jquery-debug': 'jquery/jquery/1.7.2/jquery-debug',
+    'seajs-debug': 'seajs/seajs-debug/1.1.1/seajs-debug'
+  },
+  vars: {
+    locale: 'zh-cn'
+  }
+});
+</script>
+
+<!-- 兼容原有的 plugin-i18n 写法 -->
+<!-- https://github.com/seajs/seajs/blob/1.3.1/src/plugins/plugin-i18n.js -->
+<script>
+// jquery.ajax patch
+seajs.use('alipay/request/1.0.4/request');
+
+seajs.pluginSDK = seajs.pluginSDK || {
+  Module: {
+    _resolve: function() {}
+  },
+  config: {
+    locale: ''
+  }
+};
+// 干掉载入 plugin-i18n.js，避免 404
+seajs.config({
+  map: [
+	[/^.*\/seajs\/plugin-i18n\.js$/, ''],
+	[/^.*\i18n!lang\.js$/, '']
+  ] 
+});
+</script>
+
+<!-- 路由旧 ID，解决 seajs.use('select/x.x.x/select') 的历史遗留问题 -->
+<script>
+(function(){
+
+var JQ = '/jquery/1.7.2/jquery.js';
+seajs.cache['https://a.alipayobjects.com/gallery' + JQ] = seajs.cache['https://a.alipayobjects.com/jquery' + JQ];
+
+var GALLERY_MODULES = [
+  'async','backbone','coffee','cookie','es5-safe','handlebars','iscroll',
+  'jasmine','jasmine-jquery','jquery','jquery-color','json','keymaster',
+  'labjs','less','marked','moment','mustache','querystring','raphael',
+  'socketio','store','swfobject','underscore','zepto','ztree'
+];
+
+var ARALE_MODULES = [
+  'autocomplete','base','calendar','class','cookie','dialog','easing',
+  'events','iframe-uploader','iframe-shim','messenger','overlay','popup',
+  'position','select','switchable','tip','validator','widget'
+];
+
+var util = {};
+util.indexOf = Array.prototype.indexOf ?
+  function(arr, item) {
+    return arr.indexOf(item);
+  } :
+  function(arr, item) {
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] === item) {
+        return i;
+      }
+    }
+    return -1;
+  };
+util.map = Array.prototype.map ?
+  function(arr, fn) {
+    return arr.map(fn);
+  } :
+  function(arr, fn) {
+    var ret = [];
+	for (var i = 0; i < arr.length; i++) {
+        ret.push(fn(arr[i], i, arr));
+    }
+    return ret;
+  };
+
+function contains(arr, item) {
+  return util.indexOf(arr, item) > -1
+}
+
+function map(id) {
+  id = id.replace('#', '');
+
+  var parts = id.split('/');
+  var len = parts.length;
+  var root, name;
+
+  // id = root/name/x.y.z/name
+  if (len === 4) {
+    root = parts[0];
+    name = parts[1];
+
+    // gallery 或 alipay 开头的没有问题
+    if (root === 'alipay' || root === 'gallery') {
+      return id;
+    }
+
+    // arale 开头的
+    if (root === 'arale') {
+      // 处理 arale/handlebars 的情况
+      if (contains(GALLERY_MODULES, name)) {
+        return id.replace('arale/', 'gallery/');
+      } else {
+        return id;
+      }
+    }
+  }
+  // id = name/x.y.z/name
+  else if (len === 3) {
+    name = parts[0]
+
+    // 开头在 GALLERY_MODULES 或 ARALE_MODULES
+    if (contains(GALLERY_MODULES, name)) {
+      return 'gallery/' + id;
+    } else if (contains(ARALE_MODULES, name)) {
+      return 'arale/' + id;
+    }
+  }
+
+  return id;
+}
+
+var _use = seajs.use;
+
+seajs.use = function(ids, callback) {
+  if (typeof ids === 'string') {
+    ids = [ids];
+  }
+
+  ids = util.map(ids, function(id) {
+    return map(id);
+  });
+
+  return _use(ids, callback);
+}
+
+})();
+</script><!-- CMS:cms/监控埋点/seajs 部署结束:tracker/seajs.vm -->
+    <!-- CMS:cms/监控埋点/全站页面效率统计开始:tracker/tracker_time.vm --><meta name="ABTest" content="">
+<script type="text/javascript">
+if (!window._to) {
+  window._to = { start: new Date() };
+}
+</script>
+
+
+<script charset="utf-8" src="https://a.alipayobjects.com/??static/ar/alipay.light.base-1.8.js,arale/name-storage/1.0.0/name-storage.js,alipay/tracker/1.12.0/tracker.js,static/ar/alipay.smartracker-1.6.js"></script>
+
+
+
+<!-- CMS:cms/监控埋点/全站页面效率统计结束:tracker/tracker_time.vm -->
+    <!-- FD:111:mobileweb/index/styleFile.vm:START -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- FD:111:mobileweb/index/styleFile.vm:804:index/index.schema:index下载页:START -->          
+
+<style type="text/css">
+  /* 解决帮助浮层被轮播图片覆盖的问题 */
+  .global-widget-help {
+    z-index: 999 !important;
+  }
+  html {
+    color:#4d4d4;
+    background:#fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  body,button,input,select,textarea {
+    font:14px/1.5 "Microsoft Yahei", tahoma,arial,"Hiragino Sans GB",\5b8b\4f53;
+  }
+  iframe {
+    border: none; width: 100%; display: block; height: 100%; overflow: hidden;
+  }
+  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;padding:0;
+  }
+  body{ min-width:1024px;}
+  .fn-clear:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+  }
+  .fn-clear {
+    zoom:1; /* for IE6 IE7 */
+  }
+
+  /* -- 可供使用的动画函数 -- */
+  @-webkit-keyframes fadeInDown {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+  }
+  @-moz-keyframes fadeInDown {
+    0% { opacity: 0; -moz-transform: translateY(-20px); }
+    100% { opacity: 1; -moz-transform: translateY(0); }
+  }
+  @-ms-keyframes fadeInDown {
+    0% { opacity: 0; -ms-transform: translateY(-20px); }
+    100% { opacity: 1; -ms-transform: translateY(0); }
+  }
+  @-o-keyframes fadeInDown {
+    0% { opacity: 0; -ms-transform: translateY(-20px); }
+    100% { opacity: 1; -ms-transform: translateY(0); }
+  }
+  @keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -ms-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+
+  /* -- 页面样式 -- */
+  .container {
+    width: 100%;
+    height: auto;
+  }
+  /* pager */
+    .cycle-pager {
+        text-align: center; width: 100%; z-index: 500; position: absolute; bottom: 10px; overflow: hidden;
+    }
+    .cycle-pager span {
+        font-family: arial; font-size: 40px;  margin-right: 15px;
+        display: inline-block; color: #fff; cursor: pointer;
+    }
+    .cycle-pager span.cycle-pager-active { color: #019cdf;}
+    .cycle-pager > * { cursor: pointer;}
+
+.head {
+  position: relative;
+  width: 100%;
+  height: 624px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  overflow: hidden;
+}
+
+.header {
+    width: 490px;
+    margin: 0 auto;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 7%;
+    z-index: 100;
+  }
+  .logo {
+    position: absolute;
+    height: 45px;
+    left: 0;
+    top: 5%;
+  }
+  .logo img{ display: block; height: 100%;}
+  .sologn {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    text-indent: -9999em;
+    overflow: hidden;
+    margin-left: 0;
+  }
+  .sologn img{ display: block; width:100%;}
+  .download {
+  width: 350px;
+  height: 110px;
+  position: absolute;
+  top: 62%;
+  left: 0px;
+}
+.download-version {
+  line-height: 20px;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  margin-top:10px;
+    font-weight: lighter;
+}
+
+  .download-btn {
+    height: 70px;
+    display: block;
+    line-height: 70px;
+    background: url("https://t.alipayobjects.com/images/rmsweb/T1L0FgXfxXXXXXXXXX.png") no-repeat;
+    background-position: 0px 0px;
+  }
+  .download-btn:hover{
+    background: url("https://t.alipayobjects.com/images/rmsweb/T1L0FgXfxXXXXXXXXX.png")no-repeat;
+    background-position: 0px -80px;
+  }
+.main {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.main-toggle {
+  width: 100%;
+  height: 111px;
+  position: relative;
+  background: #fff;
+  z-index: 101;
+}
+.main-channel {
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid #ececec;
+  position: relative;
+  z-index: 1;
+  background: #c9efff;
+}
+.main .anim-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+.header {
+  z-index: 100;
+}
+  .cycle-slideshow{ height:624px; overflow-y: hidden}
+  .pylt,.cfzsj,.jtzh{ width: 100%; height: 100%;}
+  .head{ height: 624px;}
+  .head .bagimg{display: block; float:left; margin-left:40%;height: 100%;}
+.main-channel-toggle {
+  width:560px;
+  height: 110px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+}
+.main-channel .toggle {
+  float: left;
+  width: 280px;
+  height: 110px;
+  display: block;
+  text-indent: -9999em;
+  overflow: hidden;
+  background: #c9efff;
+}
+.main-channel .toggle-pro {
+  background: url(https://t.alipayobjects.com/images/rmsweb/T1kcRgXg4oXXXXXXXX.png) no-repeat;
+    background-position: 0px 0px;
+}
+.main-channel .toggle-his {
+  background: url(https://t.alipayobjects.com/images/rmsweb/T1kcRgXg4oXXXXXXXX.png) no-repeat;
+    background-position: 0px -240px;
+}
+.main-channel .toggle-pro-current {
+  background: url(https://t.alipayobjects.com/images/rmsweb/T1kcRgXg4oXXXXXXXX.png) no-repeat;
+    background-position: 0px -120px;
+}
+.main-channel .toggle-his-current {
+  background: url(https://t.alipayobjects.com/images/rmsweb/T1kcRgXg4oXXXXXXXX.png) no-repeat;
+    background-position: 0px -360px;
+}
+.main .item {
+  margin: 0 auto;
+  width: 990px;
+  height: 490px;
+  background: url(https://i.alipayobjects.com/e/201310/1GLXhV8e0l.png) no-repeat 0 bottom ;
+}
+.main .anim-service{ background:none}
+.main .item-left {
+  position: relative;
+  float: left;
+  width: 490px;
+  height: 490px;
+  line-height: 490px;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 10px;
+  -webkit-transition: all .8s ease .3s;
+  -moz-transition: all .8s ease .3s;
+  transition: all .8s ease .3s;
+}
+
+.main .item-right {
+  position: relative;
+  float: left;
+  width: 490px;
+  height: 490px;
+  line-height: 490px;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transition: all .8s ease .3s;
+  -moz-transition: all .8s ease .3s;
+  transition: all .8s ease .3s;
+}
+  .main-channel-his {
+    display: none;
+    position: relative;
+    width: 990px;
+    margin: 50px auto;
+    padding: 40px 0;
+    height: auto;
+    min-height: 900px;
+  }
+  /*--2015.4.15--*/
+  .main-channel-his .phone {
+    position: absolute;
+    width: 640px;
+    left: -130px;
+    height: 800px;
+    background: url(https://zos.alipayobjects.com/cmsmng/cms/images/j1rjwvtt/9a9aaf50-737b-4637-86c1-124b1bf0f34a.png) no-repeat right 0;
+  }
+
+  .main-channel-his .phone-switch,
+  .main-channel-his .phone-switch-window,
+  .main-channel-his .phone-switch .pageitem
+  {
+    width: 306px;
+    height: 550px;
+  }
+  .main-channel-his .phone-switch {
+    position: relative;
+    margin: 113px 0 0 282px;
+    overflow: hidden;
+    display: block;
+  }
+
+  .main-channel-his .phone-switch .pageitem {
+    display: block;
+    float: left;
+    background-size: cover;
+    overflow: hidden;
+  }
+  /*--2015.2.6--*/
+
+  .main-channel-his .detail {
+    margin-left: 590px;
+    width: 400px;
+    height: auto;
+    padding-top: 40px;
+  }
+  .detail-item {
+    padding: 40px 0;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  .detail-item-first {
+    padding-top: 0;
+  }
+  .detail-item-last {
+    border-bottom: none;
+  }
+  .detail-item .title {
+    line-height: 40px;
+    font-size: 20px;
+    color: #504f4f;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .detail-item .title-new {
+    color: rgb(0, 161, 229);
+  }
+  .detail-item .title-new .icon {
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    background: url(https://t.alipayobjects.com/images/rmsweb/T1rsBgXiBoXXXXXXXX.png) no-repeat 0 0;
+    line-height: 40px;
+  }
+  .detail-item .title .date {
+    font-weight: normal;
+    color: #c6c6c6;
+    font-size: 14px;
+    text-align: right;
+    line-height: 40px;
+  }
+
+  .detail-item p {
+    line-height: 28px;
+    font-size: 14px;
+    color: #504f4f;
+  }
+  .ui-footer {
+    background: #ededed;
+    border-top:  1px solid #c7c7c7;
+    font-size: 14px;
+    color: #a0a0ab;
+  }
+  .ui-footer .ui-footer-ctn {
+    padding-top: 30px;
+    border: none;
+  }
+  .ui-footer .server {
+    color: #ededed;
+  }
+  .ui-footer .copyright {
+    color: #a0a0ab;
+  }
+  .ui-footer a {
+    color: #a0a0ab;
+    text-decoration: none;
+  }
+
+  .ui-footer {
+    background: #ededed;
+    border-top:  1px solid #c7c7c7;
+    font-size: 14px;
+    color: #a0a0ab;
+  }
+  .ui-footer .ui-footer-ctn {
+    padding-top: 30px;
+    border: none;
+  }
+  .ui-footer .server {
+    color: #ededed;
+  }
+  .ui-footer .copyright {
+    color: #a0a0ab;
+  }
+  .ui-footer a {
+    color: #a0a0ab;
+    text-decoration: none;
+  }
+
+  /* -- 下载浮层中的结构 -- */
+  .download-dom {
+    width: 655px;
+    height: 390px;
+    padding: 0;
+    background: #fff;
+  }
+  .download-dom .title {
+    padding: 0 30px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #525252;
+    background: #ededed;
+  }
+  .download-dom .content {
+    padding: 30px 30px 50px 30px;
+  }
+  .download-dom .content-left {
+    width: 215px;
+    height: 315px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .download-dom .iphone {
+    width: 215px;
+    padding-bottom: 40px;
+  }
+  .download-dom .iphone span {
+    display: block;
+    width: 215px;
+    height: 72px;
+    overflow: hidden;
+    background: url(https://i.alipayobjects.com/e/201310/1GRdBXg78Z.png) no-repeat 0 0;
+    text-indent: -9999em;
+    overflow: hidden;
+  }
+  .download-dom .iphone a {
+    display: block;
+    width: 215px;
+    height: 84px;
+    overflow: hidden;
+    background: url(https://i.alipayobjects.com/e/201310/1GRdBXg78Z.png) no-repeat 0 -72px;
+    text-indent: -9999em;
+    overflow: hidden;
+  }
+  .download-dom .android span {
+    display: block;
+    width: 215px;
+    height: 72px;
+    overflow: hidden;
+    background: url(https://i.alipayobjects.com/e/201310/1GRdBXg78Z.png) no-repeat 0 -196px;
+    text-indent: -9999em;
+    overflow: hidden;
+  }
+  .download-dom .android a {
+    display: block;
+    width: 215px;
+    height: 84px;
+    overflow: hidden;
+    background: url(https://i.alipayobjects.com/e/201310/1GRdBXg78Z.png) no-repeat 0 -270px;
+    text-indent: -9999em;
+    overflow: hidden;
+  }
+  .download-dom .content-right {
+    float: left;
+    width: 370px;
+    height: 350px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .download-dom .content-right .text {
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .download-dom .content-right .qr {
+    margin-top: 30px;
+  }
+
+  /* -- 功能介绍中的动画效果 -- */
+  .y-bg {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 490px;
+    height: 265px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    z-index: 10;
+    -webkit-transition: all .5s ease .3s;
+    -moz-transition: all .5s ease .3s;
+    transition: all .5s ease .3s;
+  }
+  .anim-yuerbao .y-bg {
+    top: 0;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .y-qb {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 490px;
+    height: 205px;
+    z-index: 20;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all .8s ease .3s;
+    -moz-transition: all .8s ease .3s;
+    transition: all .8s ease .3s;
+  }
+  .anim-yuerbao .y-qb {
+    top: 130px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .y-jb {
+    position: absolute;
+    top: 290px;
+    left: 0;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    width: 490px;
+    height: 85px;
+    z-index: 100;
+    -webkit-transition: all .8s ease .3s;
+    -moz-transition: all .8s ease .3s;
+    transition: all .8s ease .3s;
+  }
+  .anim-yuerbao .y-jb {
+    top: 260px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+
+  .s-bg {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 490px;
+    height: 268px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+    z-index: 10;
+  }
+  .anim-shenghuo .s-bg {
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .s-kc {
+    position: absolute;
+    left: 20px;
+    top: 270px;
+    width: 126px;
+    height: 70px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all .8s ease-in-out .3s;
+    -moz-transition: all .8s ease-in-out .3s;
+    transition: all .8s ease-in-out .3s;
+    z-index: 80;
+  }
+  .anim-shenghuo .s-kc {
+    left: 80px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .s-qc {
+    position: absolute;
+    left: 400px;
+    top: 280px;
+    width: 80px;
+    height: 50px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 1.2s ease .3s;
+    -moz-transition: all 1.2s ease .3s;
+    transition: all 1.2s ease .3s;
+    z-index: 80;
+  }
+  .anim-shenghuo .s-qc {
+    left: 350px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .s-fj {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: 100px;
+    height: 60px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 1.2s ease .3s;
+    -moz-transition: all 1.2s ease .3s;
+    transition: all 1.2s ease .3s;
+    z-index: 80;
+  }
+  .anim-shenghuo .s-fj {
+    left: 80px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .d-bg {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 1s ease .4s;
+    -moz-transition: all 1s ease .4s;
+    transition: all 1s ease .4s;
+    z-index: 10;
+  }
+  .anim-danmian .d-bg {
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .d-out {
+    position: absolute;
+    top: 188px;
+    left: 144px;
+    width: 170px;
+    height: 265px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.6s ease 0.2s;
+    -moz-transition: all 0.6s ease 0.2s;
+    transition: all 0.6s ease 0.2s;
+    z-index: 80;
+  }
+
+  .anim-danmian .d-out {
+    top: 158px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .d-in-left {
+    position: absolute;
+    top: 135px;
+    left: -40px;
+    width: 119px;
+    height: 223px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.5s ease .8s;
+    -moz-transition: all 0.5s ease .8s;
+    transition: all 0.5s ease .8s;
+    z-index: 80;
+  }
+  .anim-danmian .d-in-left {
+    left: 0;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .d-in-right {
+    position: absolute;
+    top: 85px;
+    left: 380px;
+    width: 115px;
+    height: 185px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.6s ease 1s;
+    -moz-transition: all 0.6s ease 1s;
+    transition: all 0.6s ease 1s;
+    z-index: 80;
+  }
+
+  .anim-danmian .d-in-right {
+    left: 315px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+
+  .a-phone {
+    position: absolute;
+    left: 245px;
+    top: 90px;
+    width: 165px;
+    height: 290px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -moz-transform:  rotate(25deg);
+    -webkit-transform:  rotate(25deg);
+    -o-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+    -moz-transform-origin: bottom left ;
+    -webkit-transform-origin: bottom left ;
+    -o-transform-origin: bottom left ;
+    -ms-transform-origin: bottom left ;
+    transform-origin: bottom left  ;
+    -webkit-transition: all 0.6s ease .8s;
+    -moz-transition: all 0.6s ease .8s;
+    transition: all 0.6s ease .8s;
+    z-index: 10;
+
+  }
+  .anim-appstore .a-phone {
+    opacity: 1;
+    filter:alpha(opacity=100);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .a-app-1 {
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    width: 71px;
+    height: 67px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -moz-transform:  rotate(-25deg);
+    -webkit-transform:  rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    -moz-transform-origin: right center ;
+    -webkit-transform-origin: right center ;
+    -o-transform-origin: right center ;
+    -ms-transform-origin: right center ;
+    transform-origin: right center  ;
+    -webkit-transition: all 0.6s ease .8s;
+    -moz-transition: all 0.6s ease .8s;
+    transition: all 0.6s ease .8s;
+    z-index: 80;
+  }
+  .anim-appstore .a-app-1  {
+    left: 110px;
+    top: 260px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .a-app-4 {
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    width: 85px;
+    height: 85px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -moz-transform:  rotate(-90deg);
+    -webkit-transform:  rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition: all 0.6s ease .8s;
+    -moz-transition: all 0.6s ease .8s;
+    transition: all 0.6s ease .8s;
+    z-index: 80;
+  }
+  .anim-appstore .a-app-4  {
+    left: 40px;
+    top: 133px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .a-app-2 {
+    position: absolute;
+    top: 148px;
+    left: 130px;
+    width: 105px;
+    height: 105px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -moz-transform:  rotate(-95deg);
+    -webkit-transform:  rotate(-95deg);
+    -o-transform: rotate(-95deg);
+    -ms-transform: rotate(-95deg);
+    transform: rotate(-95deg);
+    -webkit-transition: all 0.6s ease .8s;
+    -moz-transition: all 0.6s ease .8s;
+    transition: all 0.6s ease .8s;
+    z-index: 80;
+  }
+  .anim-appstore .a-app-2  {
+    left: 175px;
+    top: 180px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .a-app-3 {
+    position: absolute;
+    top: 108px;
+    left: 100px;
+    width: 55px;
+    height: 55px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -moz-transform:  rotate(-95deg);
+    -webkit-transform:  rotate(-95deg);
+    -o-transform: rotate(-95deg);
+    -ms-transform: rotate(-95deg);
+    transform: rotate(-95deg);
+    -moz-transform-origin: right center ;
+    -webkit-transform-origin: right center ;
+    -o-transform-origin: right center ;
+    -ms-transform-origin: right center ;
+    transform-origin: right center  ;
+    -webkit-transition: all 0.6s ease .8s;
+    -moz-transition: all 0.6s ease .8s;
+    transition: all 0.6s ease .8s;
+    z-index: 80;
+  }
+  .anim-appstore .a-app-3  {
+    left: 150px;
+    top: 140px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .t-ticket1 {
+    position: absolute;
+    top: 108px;
+    left: -30px;
+    width: 260px;
+    height: 260px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.8s ease .4s;
+    -moz-transition: all 0.8s ease .4s;
+    transition: all 0.8s ease .4s;
+    z-index: 10;
+  }
+  .anim-ticket .t-ticket1  {
+    left: 10px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .t-ticket2 {
+    position: absolute;
+    top: 178px;
+    left: 280px;
+    width: 182px;
+    height: 206px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.8s ease .4s;
+    -moz-transition: all 0.8s ease .4s;
+    transition: all 0.8s ease .4s;
+    z-index: 80;
+  }
+  .anim-ticket .t-ticket2  {
+    left: 240px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .t-travel1 {
+    position: absolute;
+    top: 125px;
+    left: -30px;
+    width: 195px;
+    height: 240px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.8s ease .4s;
+    -moz-transition: all 0.8s ease .4s;
+    transition: all 0.8s ease .4s;
+    z-index: 80;
+  }
+  .anim-travel .t-travel1  {
+    left: 40px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+
+  .t-travel2 {
+    position: absolute;
+    top: 106px;
+    left: 236px;
+    width: 270px;
+    height: 270px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.8s ease .4s;
+    -moz-transition: all 0.8s ease .4s;
+    transition: all 0.8s ease .4s;
+    z-index: 10;
+  }
+  .anim-travel .t-travel2  {
+    left: 186px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .s-lock {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    width: 337px;
+    height: 269px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.8s ease .4s;
+    -moz-transition: all 0.8s ease .4s;
+    transition: all 0.8s ease .4s;
+    z-index: 10;
+  }
+  .anim-safe .s-lock  {
+    top: 60px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  .s-centen {
+    position: absolute;
+    top: 285px;
+    left: 208px;
+    width: 89px;
+    height: 91px;
+    opacity: 0;
+    filter:alpha(opacity=1);
+    -webkit-transition: all 0.8s ease .4s;
+    -moz-transition: all 0.8s ease .4s;
+    transition: all 0.8s ease .4s;
+    z-index: 10;
+  }
+  .anim-safe .s-centen  {
+    top: 245px;
+    opacity: 1;
+    filter:alpha(opacity=100);
+  }
+  @media only screen and (max-width: 900px) {
+    .head-img {
+      display: none;
+    }
+  }
+  .tips{
+    text-align: center;
+    bottom: 20px;
+    display:none;
+    height: 189px;
+    width: 117px;
+    background: url(https://i.alipayobjects.com/i/ecmng/png/201405/2jUa0ua5sj_src.png);
+    background-size: 117px auto;
+    right: 1px;
+    position: fixed;
+    _position: absolute;
+    _bottom: auto;
+    _top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+    _margin-bottom: 10px;
+  }
+  .tips-btn{
+    width: 63px;
+    margin: 0 auto;
+    height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: #00bbee;
+    line-height: 20px;
+    margin-top: 100px;
+    cursor:pointer;
+
+    background: #ffffff;
+    font-size: 12px;
+  }
+  .tips h3 {
+    padding-top: 22px;
+    color:#424242;
+    font-size:13px;
+  }
+  .tips p {
+    font-size:12px;
+    color: #878585;
+  }
+  .alipay-xbox {
+    padding: 0 !important;
+  }
+</style>
+  <!-- FD:111:mobileweb/index/styleFile.vm:804:index/index.schema:index下载页:END -->
+<style>@-moz-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@-webkit-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@-o-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@-ms-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}.message-clock-animate{-webkit-animation:spaceboots 5s infinite;-moz-animation:spaceboots 5s infinite;-o-animation:spaceboots 5s infinite;-ms-animation:spaceboots 5s infinite;animation:spaceboots 5s infinite;display:block}.message-clock-animate:hover{-webkit-animation:none;-moz-animation:none;-o-animation:none;-ms-animation:none;animation:none;text-decoration:none}</style><style>@-moz-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@-webkit-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@-o-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@-ms-keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}@keyframes spaceboots{1%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}2%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}3%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}4%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}5%{-webkit-transform:rotate(8deg);-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)}6%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}7%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)}8%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}}.message-clock-animate{-webkit-animation:spaceboots 5s infinite;-moz-animation:spaceboots 5s infinite;-o-animation:spaceboots 5s infinite;-ms-animation:spaceboots 5s infinite;animation:spaceboots 5s infinite;display:block}.message-clock-animate:hover{-webkit-animation:none;-moz-animation:none;-o-animation:none;-ms-animation:none;animation:none;text-decoration:none}</style><style id="alipay-object-shim-1-0-0-object-shim-css">body .object-shim-class{display:inline-block;*display:inline;*zoom:1;height:22px;width:198px;border:1px solid #999}body .object-shim-class object,body .object-shim-class embed{display:none}</style><style>.alipay-xbox-1_1_1 .alipay-xbox{background-color:rgba(0,0,0,.5);FILTER:progid:DXImageTransform.Microsoft.Gradient(startColorstr=#88000000, endColorstr=#88000000);padding:6px;-webkit-transition:height .3s ease-in-out .3s;-moz-transition:height .3s ease-in-out .3s;-o-transition:height .3s ease-in-out .3s;-ms-transition:height .3s ease-in-out .3s;transition:height .3s ease-in-out .3s;border:0}.alipay-xbox-1_1_1 :root .alipay-xbox{FILTER:none\9}.alipay-xbox-1_1_1 .alipay-xbox-content{background:#fff;height:100%;*zoom:1}.alipay-xbox-1_1_1 .alipay-xbox-close{color:#999;cursor:pointer;display:block;font-family:tahoma;font-size:24px;font-weight:700;height:18px;line-height:14px;position:absolute;right:16px;text-decoration:none;top:16px;z-index:10}.alipay-xbox-1_1_1 .alipay-xbox-close:hover{color:#666;text-shadow:0 0 2px #aaa}.alipay-xbox-1_1_1 .alipay-xbox-loading{border-radius:10px;position:absolute;top:-2px;*top:0;top:0\0;left:0;background:#CBFE1C;box-shadow:0 0 12px #CBFE1C;height:2px;zoom:1;overflow:hidden}.alipay-xbox-1_1_1 .alipay-xbox,.alipay-xbox-1_1_1 .alipay-xbox-hide{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-ms-transform:scale(0.7);transform:scale(0.7);opacity:0;-webkit-transition:opacity .2s,transform .2s;-moz-transition:opacity .2s,transform .2s;transition:opacity .2s,transform .2s}.alipay-xbox-1_1_1 .alipay-xbox-show{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1}</style></head>
+<body>
+	  
+
+
+
+
+
+
+
+<!-- CMS:支付宝全站/全站导航/导航各种开关开始:alipay/nav/navSwitch.vm -->
+<script>
+MSGSWITCH = true;
+</script>
+
+  <!-- CMS:支付宝全站/全站导航/导航各种开关结束:alipay/nav/navSwitch.vm --><!-- abtestEnabled: false -->
+
+<!-- CMS:支付宝全站/全站导航/统一导航URIBroker开始:alipay/nav/uribroker.vm -->    <script type="text/javascript">
+  window.GLOBAL || (GLOBAL = {});
+  GLOBAL.system = {};
+   GLOBAL.system["assetsServer"] = "https://a.alipayobjects.com"; GLOBAL.system["apimgServer"] = "https://i.alipayobjects.com"; GLOBAL.system["personalportalServer"] = "https://my.alipay.com"; GLOBAL.system["personalServer"] = "https://lab.alipay.com"; GLOBAL.system["personalprodServer"] = "https://shenghuo.alipay.com"; GLOBAL.system["memberprodServer"] = "https://memberprod.alipay.com"; GLOBAL.system["tfsImageServer"] = "https://tfsimg.alipay.com"; GLOBAL.system["merchantwebServer"] = "https://shanghu.alipay.com"; GLOBAL.system["authCenterServer"] = "https://auth.alipay.com"; GLOBAL.system["securityServer"] = "https://securitycenter.alipay.com"; GLOBAL.system["benefitsServer"] = "https://huiyuan.alipay.com"; GLOBAL.system["tradecmtServer"] = "https://pingjia.alipay.com"; GLOBAL.system["appstoreServer"] = "https://app.alipay.com"; GLOBAL.system["zhangdanServer"] = "https://zd.alipay.com"; GLOBAL.system["tallyServer"] = "https://jz.alipay.com"; GLOBAL.system["uninavServer"] = "https://uninav.alipay.com"; GLOBAL.system["pucprodServer"] = "https://jiaofei.alipay.com"; GLOBAL.system["benefitprodServer"] = "https://zht.alipay.com"; GLOBAL.system["enterpriseportalServer"] = "https://enterpriseportal.alipay.com"; GLOBAL.system["couriercoreServer"] = "https://couriercore.alipay.com"; GLOBAL.system["uemprodServer"] = "https://uemprod.alipay.com"; GLOBAL.system["bizfundprodServer"] = "https://bizfundprod.alipay.com"; GLOBAL.system["morderprodServer"] = "https://b.alipay.com"; GLOBAL.system["consumeprodServer"] = "https://consumeprod.alipay.com"; GLOBAL.system["emembercenterServer"] = "https://emembercenter.alipay.com"; GLOBAL.system[""] = "";  </script>
+    <!-- CMS:支付宝全站/全站导航/统一导航URIBroker结束:alipay/nav/uribroker.vm -->
+
+
+
+
+
+<div id="J-global-notice-container" class="global-notice-container" style="position: relative; z-index: 999; background: #ff6600;">
+
+<!-- CMS:cms/全站导航/全站导航下方广告位开始:alipay/nav/global_ad.vm --><!-- CMS:cms/全站导航/全站导航下方广告位结束:alipay/nav/global_ad.vm -->
+<!-- CMS:cms/全站公告/全站顶部公告开始:alipay/notice/headNotice.vm --><!--[if lte IE 7]>
+<style>.kie-bar { display: none; height: 24px; line-height: 1.8; font-weight:normal; text-align: center; border:1px solid #fce4b5; background-color:#FFFF9B; color:#e27839; position: relative; font-size: 12px; margin: 5px 0 0 0; padding: 5px 0 2px 0; } .kie-bar a { text-decoration: none; color:#08c; background-repeat: none; } .kie-bar a#kie-setup-IE8,.kie-bar a#kie-setup-taoBrowser { padding: 0 0 2px 20px; *+padding-top: 2px; *_padding-top: 2px; background-repeat: no-repeat; background-position: 0 0; } .kie-bar a:hover { text-decoration: underline; } .kie-bar a#kie-setup-taoBrowser { background-position: 0 -20px; }</style>
+<div id="kie-bar" class="kie-bar">您现在使用的浏览器版本过低，可能会导致部分图片和信息的缺失。请立即 <a href="http://www.microsoft.com/china/windows/IE/upgrade/index.aspx" id="kie-setup-IE8" seed="kie-setup-IE8" target="_blank" title="免费升级至IE8浏览器">免费升级</a> 或下载使用 <a href="http://download.browser.taobao.com/client/browser/down.php?pid=0080_2062" id="kie-setup-taoBrowser" seed="kie-setup-taoBrowser" target="_blank" title="淘宝浏览器">淘宝浏览器</a> ，安全更放心！ <a title="查看帮助" target="_blank" seed="kie-setup-help" href="http://help.alipay.com/lab/help_detail.htm?help_id=260579">查看帮助</a></div>
+<script type="text/javascript">
+(function () {
+    function IEMode() {
+        var ua = navigator.userAgent.toLowerCase();
+        var re_trident = /\btrident\/([0-9.]+)/;
+        var re_msie = /\b(?:msie |ie |trident\/[0-9].*rv[ :])([0-9.]+)/;
+        var version;
+        if (!re_msie.test(ua)) {
+            return false;
+        }
+        var m = re_trident.exec(ua);
+        if (m) {
+            version = m[1].split(".");
+            version[0] = parseInt(version[0], 10) + 4;
+            version = version.join(".");
+        } else {
+            m = re_msie.exec(ua);
+            version = m[1];
+        }
+        return parseFloat(version);
+    }
+    var ie = IEMode();
+    if (ie && ie < 8 && (self.location.href.indexOf("_xbox=true") < 0)) {
+        document.getElementById('kie-bar').style.display = 'block';
+        document.getElementById('kie-setup-IE8').style.backgroundImage = 'url(https://i.alipayobjects.com/e/201307/jYwARebNl.png)';
+        document.getElementById('kie-setup-taoBrowser').style.backgroundImage = 'url(https://i.alipayobjects.com/e/201307/jYwARebNl.png)';
+    }
+})();
+</script>
+<![endif]-->
+
+
+
+<!-- CMS:cms/全站公告/全站顶部公告结束:alipay/notice/headNotice.vm --></div>
+
+
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" href="https://a.alipayobjects.com/alipay-nav/1.3.12/src/nav-top.css">
+<div id="globalContainer" class="global-reset global-container global-type-top"><div class="global-top-a"> <div class="global-top"><div class="global-top-container">  <ul class="global-top-right">    <li class="global-top-item global-top-item-last">      <a id="globalBirthIcon" href="http://abc.alipay.com/jiniance/index.htm" class="global-icon global-icon-birth global-hide" target="_blank" seed="globalTopItem-globalBirthIcon" smartracker="on"></a>            <span class="global-top-text">欢迎使用支付宝！</span>          </li>        <li class="global-top-item">            <a href="https://auth.alipay.com/login/index.htm?needTransfer=true&amp;goto=http://mobile.alipay.com/index.htm?cid=wap_dc" class="global-top-link" seed="global-header-login">登录</a>      <span class="global-top-seperator">-</span>      <a href="https://lab.alipay.com/user/reg/index.htm" class="global-top-link" seed="global-header-register">注册</a>          </li>    <em class="global-top-item global-top-seperator">|</em>    <li class="global-top-item">      <a class="global-top-link" href="https://my.alipay.com" seed="global-portal-v1" target="_blank">我的支付宝</a>    </li>    <em class="global-top-item global-top-seperator">|</em>    <li id="globalSecurity" class="global-top-item">      <a class="global-top-link" href="https://securitycenter.alipay.com/sc/index.htm" seed="global-security-v1" target="_blank">安全中心</a>    </li>    <em class="global-top-item global-top-seperator">|</em>    <li id="globalHelp" class="global-top-item">      <a class="global-top-link" href="http://help.alipay.com/lab/index.htm" seed="global-help" target="_blank">服务大厅</a>      <i class="iconfont global-top-angle"></i>    </li>    <li id="globalMore" class="global-top-item global-top-item-last">        <i class="iconfont" title="记录"></i>    </li>  </ul>  <ul class="global-top-left">          </ul></div></div></div></div>
+<script src="https://a.alipayobjects.com/alipay-nav/1.3.12/src/nav-top.js" charset="utf-8"></script>
+<script type="text/javascript">
+document.domain=document.domain.split(".").slice(-2).join("."),seajs.use(["alipay-nav/1.3.12/src/nav-top","$"],function(a,b){window.navInit(b.extend({menu:"",appKey:"",catKey:"",title:"",userName:"",email:"",mobile:"",logonIdType:"",userId:"",portraitPath:"",container:"#globalContainer",timestamp:(new Date).getTime(),pageAbsUrl:"http://mobile.alipay.com/index.htm?cid=wap_dc",isLogin:false,msgSwitch:window.MSGSWITCH,msgHide:1,needLoadMsg:"",showTaobaoLogin:false,showAlibabaLogin:false,showMerchant:false,showPersonal:false,abtestEnabled:false,abtest:"",abtestType:"TOP_P",merchantSwitch:window.MERCHANT_SWITCH},GLOBAL.system))});
+
+
+</script>
+<style type="text/css">
+.header {
+	z-index: 10;
+}
+</style>
+<!-- FD:111:mobileweb/index/domFile.vm:START --><script src="https://a.alipayobjects.com/g/animajs/mtracker/3.1.0/seed.js"></script>
+<style>
+.locale-toggle {
+  top: 50px;
+  right: 30px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  z-index: 999999;
+  text-decoration: none;
+}
+.locale-toggle:hover {
+  background: #fff;
+  color: #00a0e9;
+}
+</style>
+<!-- FD:111:mobileweb/index/domFile.vm:804:index/index.schema:index下载页:START -->          
+<div class="container">
+    <a href="https://render.alipay.com/p/s/download?form=chinese" class="locale-toggle" seed="container-localeToggle" smartracker="on">English</a>
+    <div class="cycle-slideshow" data-cycle-fx="fade" data-cycle-slides="&gt; div" data-cycle-timeout="4000" data-cycle-speed="800" style="position: relative;"><div class="cfzsj cycle-slide cycle-sentinel" style="position: static; top: 0px; left: 0px; z-index: 99; opacity: 1; display: block; visibility: hidden;">
+            <div class="head" style="background-image: url(https://zos.alipayobjects.com/rmsportal/bfLnOfhVEBDmDHi.jpg); visibility: hidden;">
+              <img class="bagimg" src="https://zos.alipayobjects.com/rmsportal/yOGUwARBXuMQUswKserP.png" seed="head-bagimg" smartracker="on" style="visibility: hidden;">
+              <div class="header" style="visibility: hidden;">
+                <div class="logo logo-show" style="visibility: hidden;">
+                  <img src="https://os.alipayobjects.com/rmsportal/JxAjrvPKriKOpjf.png" seed="logo-osRmsportalJxAjrvPKriKOpjf" smartracker="on" style="visibility: hidden;">
+                </div>
+                <div class="sologn" style="visibility: hidden;">
+                  <img src="https://zos.alipayobjects.com/rmsportal/zfnUwpPKiqrCdDWKxfFT.png" seed="sologn-zosRmsportalZfnUwpPKiqrCdDWKxfFT" smartracker="on" style="visibility: hidden;">
+                </div>
+                <div class="download" style="visibility: hidden;">
+                  <a href="#" class="download-btn" seed="download-downloadBtn" smartracker="on" style="visibility: hidden;">
+                  </a>
+                  <p class="download-version" style="visibility: hidden;">最新版本：<span class="ft-orange" style="visibility: hidden;">10.1.10</span> (2017-12-27)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      <span class="cycle-pager"><span class="cycle-pager-active">•</span></span>
+      <!-- empty element for pager links -->
+      
+          
+      
+    <div class="cfzsj cycle-slide cycle-slide-active" style="position: absolute; top: 0px; left: 0px; z-index: 99; opacity: 1; display: block; visibility: visible;">
+            <div class="head" style="background-image:url('https://zos.alipayobjects.com/rmsportal/bfLnOfhVEBDmDHi.jpg')">
+              <img class="bagimg" src="https://zos.alipayobjects.com/rmsportal/yOGUwARBXuMQUswKserP.png" seed="head-bagimg" smartracker="on">
+              <div class="header">
+                <div class="logo logo-show">
+                  <img src="https://os.alipayobjects.com/rmsportal/JxAjrvPKriKOpjf.png" seed="logo-osRmsportalJxAjrvPKriKOpjf" smartracker="on">
+                </div>
+                <div class="sologn">
+                  <img src="https://zos.alipayobjects.com/rmsportal/zfnUwpPKiqrCdDWKxfFT.png" seed="sologn-zosRmsportalZfnUwpPKiqrCdDWKxfFT" smartracker="on">
+                </div>
+                <div class="download">
+                  <a href="#" class="download-btn" seed="download-downloadBtn" smartracker="on">
+                  </a>
+                  <p class="download-version">最新版本：<span class="ft-orange">10.1.10</span> (2017-12-27)</p>
+                </div>
+              </div>
+            </div>
+          </div></div>
+    <div class="main">
+      <div class="main-toggle">
+        <div class="main-channel" id="J-main-channel">
+          <div class="main-channel-toggle">
+            <a href="#" class="toggle toggle-pro toggle-pro-current" id="J-choose-pro" seed="mainChannelToggle-JChoosePro" smartracker="on">功能特性</a>
+            <a href="#" class="toggle toggle-his" id="J-choose-his" seed="mainChannelToggle-JChooseHis" smartracker="on">更新历史</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-channel-pro" id="J-channel-pro">
+      	
+      		
+      		<div class="item">
+      		  <div class="item-left">
+      		    <img src="https://zos.alipayobjects.com/rmsportal/OpHbHNfdvjIQdkgiRNlI.png" style="height:91px;" seed="itemLeft-zosRmsportalOpHbHNfdvjIQdkgiRNlI" smartracker="on">
+      		  </div>
+      		  <div class="item-right">
+      		    <img src="https://t.alipayobjects.com/images/rmsweb/T1vIhgXg8tXXXXXXXX.jpg" seed="itemRight-tImagesRmswebT1vIhgXg8tXXXXXXXX" smartracker="on">
+      		  </div>
+      		</div>
+      		
+      	
+      		
+      		<div class="item">
+      		  <div class="item-left">
+      		    <img src="https://t.alipayobjects.com/images/rmsweb/T10JXgXnJkXXXXXXXX.jpg" seed="itemLeft-tImagesRmswebT10JXgXnJkXXXXXXXX" smartracker="on">
+      		  </div>
+      		  <div class="item-right">
+      		    <img src="https://zos.alipayobjects.com/rmsportal/ncbdikgMjXrCFDZpYvxj.png" style="height:91px;" seed="itemRight-zosRmsportalNcbdikgMjXrCFDZpYvxj" smartracker="on">
+      		  </div>
+      		</div>
+      		
+      	
+      		
+      		<div class="item" style="background:none;">
+      		  <div class="item-left">
+      		    <img src="https://zos.alipayobjects.com/rmsportal/gTeiGncavmBQaziIzdaz.png" style="height:91px;" seed="itemLeft-zosRmsportalGTeiGncavmBQaziIzdaz" smartracker="on">
+      		  </div>
+      		  <div class="item-right">
+      		    <img src="https://t.alipayobjects.com/images/rmsweb/T1lIXgXXpvXXXXXXXX.jpg" seed="itemRight-tImagesRmswebT1lIXgXXpvXXXXXXXX" smartracker="on">
+      		  </div>
+      		</div>
+      		
+      	
+      </div>
+      <div class="main-channel-his fn-clear" id="J-channel-his">
+        <div class="phone">
+          <div class="phone-switch ui-switchable" id="J-phone-show" data-widget="carousel" data-effect="scrollx" data-easing="easeOutStrong" data-step="5" data-view-size="[306]" data-circular="true" data-widget-cid="widget-3">
+            <div class="phone-switch-window ui-switchable-content" style="position: relative; width: 9999px; left: 0px;">
+              <div class="pageitem pageitem-1 ui-switchable-panel" style="float: left; background-image: url(https://zos.alipayobjects.com/cmsmng/cms/images/j1rjw3qr/bd3597a0-35cd-4b1e-84aa-965e093e24ce.png); background-position: initial initial; background-repeat: no-repeat no-repeat;"></div>
+              <div class="pageitem pageitem-2 ui-switchable-panel" style="float: left; background-image: url(https://zos.alipayobjects.com/cmsmng/cms/images/j1rjwc2x/69e772a6-6b76-4ca3-b6ba-8ac7efe3a425.png); background-position: initial initial; background-repeat: no-repeat no-repeat;"></div>
+              <div class="pageitem pageitem-3 ui-switchable-panel" style="float: left; background-image: url(https://zos.alipayobjects.com/cmsmng/cms/images/j1rjw3qr/bd3597a0-35cd-4b1e-84aa-965e093e24ce.png); background-position: initial initial; background-repeat: no-repeat no-repeat;"></div>
+              <div class="pageitem pageitem-4 ui-switchable-panel" style="float: left; background-image: url(https://zos.alipayobjects.com/cmsmng/cms/images/j1rjwc2x/69e772a6-6b76-4ca3-b6ba-8ac7efe3a425.png); background-position: initial initial; background-repeat: no-repeat no-repeat;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="detail">
+        
+    		<div class="detail-item detail-item-first ">
+    		  <h3 class="title title-new">
+    		    10.1.10版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2017-12-27)</span>
+    		  </h3>
+    		  <p>
+    		  1、全新「财富」上线，资产详情一目了然，产品服务智能推荐，享受一站式财富管理体验；<br>
+2、「赚钱红包」年末再加码！支付宝发红包你赚赏金，朋友领到红包并使用，赏金马上进账！天天可发，多发多赚！<br>
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    10.0.20版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2017-08-02)</span>
+    		  </h3>
+    		  <p>
+    		  1、无现金“奖励金”，8月1日至8月8日每天用支付宝到实体门店付款2元以上，当日第2/3/4/笔付款都有资格参与抽“黄金”活动；<br>
+2、个人中心改版，个人信息更清晰<br>
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    10.0.18版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2017-06-22)</span>
+    		  </h3>
+    		  <p>
+    		  1、新增桌面快捷方式设置，一键启动“收钱”、“付钱”；(仅Android客户端)；<br>
+2、AA收款全新升级，通知到人，自动提醒，收款无忧；<br>
+3、该版本支持Android 4.3及以上系统。(仅Android客户端)；<br>
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    10.0.12版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2017-04-21)</span>
+    		  </h3>
+    		  <p>
+    		  1、首页改版，最大支持11个应用编辑；<br>
+2、卡包改版，卡、券、票、证件分类展示；<br>
+3、到位首页焕新颜，生活服务so easy；<br>
+4、余额宝首页改版，理财内容更丰富。<br>
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    10.0.0版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-12-22)</span>
+    		  </h3>
+    		  <p>
+    		  1、“红包”全新改版，新增AR实景红包，实现藏红包、找红包、红包地图多种玩法；<br>
+2、“扫一扫”新增“AR扫”入口，快速便捷找红包。<br>
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.9.7版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-11-24)</span>
+    		  </h3>
+    		  <p>
+    		  1、口碑1212优惠5折起，吃喝玩乐全搞定！<br>
+2、口碑新增“人气眼”，展示周边最火的店，人气越高越火爆；<br>
+3、口碑首页商户动态发布，新增美食、玩乐分类，评论参与互动；<br>
+4、口碑推出一键预约手艺人，作品评价一目了然；<br>
+5、支付宝“到位”占领全国；<br>
+6、朋友聊天支持发送gif图片；<br>
+7、生活圈发动态，支持in照片美化;<br>
+8、“我的”页面全新改版。<br>
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.9.3版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-09-28)</span>
+    		  </h3>
+    		  <p>
+    		  1、愚人节的“到位”终于上线了，各个城市正陆续开通中；<br>
+2、口碑频道栏目全新上线，为您推荐最新、最热的品质好店，吃喝玩乐玩转生活；<br>
+3、口碑店铺页全新改版，商家相册、推荐菜一目了然，使用更方便；<br>
+4、校园生活改版，新增话题模块，以及社团、兼职、学生惠等服务；<br>                            
+5、支持城市服务搜索，公积金查询、违章查询等一搜即得。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.9.2版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-09-08)</span>
+    		  </h3>
+    		  <p>
+    		  1、首页生活动态排版优化；<br>
+2、朋友聊天新增可发送图片涂鸦功能；<br>
+3、新增聚宝基金购买功能；<br>
+4、校园圈功能优化；<br>
+5、国际口碑已覆盖超过20个境外城市，5万余家商户；<br>
+6、行走捐支持更多安卓机型。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.9版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-08-10)</span>
+    		  </h3>
+    		  <p>
+    		  1、首页全新改版，首创服务主动找人新鲜体验；<br>
+2、新增智能语音助手，一秒触达百种服务应用；<br>
+3、个人主页升级，朋友信息更丰富。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.6.10版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-07-18)</span>
+    		  </h3>
+    		  <p>
+    		  1、淘票票－影城权益卡支持更多城市和影院；<br>
+2、淘票票－视觉优化，风格更加美观；<br>
+3、新增下拉通知插件，支付更迅速。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.6.9版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-06-29)</span>
+    		  </h3>
+    		  <p>
+    		  1、完善了无障碍辅助功能，感谢无障碍联盟提供解决方案建议，感谢windflower、余修付、蓝色天空三位视障用户协助测试；<br>
+2、修复已知bug。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.6.6版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-05-10)</span>
+    		  </h3>
+    		  <p>
+    		  1、优化扫一扫识别效果，识别速度更快；<br>
+2、新增下拉通知插件，支付转账更迅速；（仅iOS客户端）<br>
+3、响应央行监管要求，保障用户权益，优化服务体验；<br>
+4、修复已知bug。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.6.0版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-04-15)</span>
+    		  </h3>
+    		  <p>
+    		  1、口碑频道全新改版，推荐更贴心，内容更丰富；<br>
+2、商家详情页全新改版，优惠买单更方便；<br>
+3、生活圈写动态，支持纯文字分享；<br>
+4、修复已知bug。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.5.3版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-03-04)</span>
+    		  </h3>
+    		  <p>
+    		  1、新增［咻一咻］功能，寻找附近的商户和朋友；<br>
+2、新增［吱口令］功能，在支付宝轻松添加好友、建群；<br>
+3、群红包新增［中文口令］，个人定制夸人夸己不再愁；<br>
+4、整体性能优化，修复已知BUG；<br>
+5、该版本仅Android 4.0.3以上系统支持；
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.5.1版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2016-01-13)</span>
+    		  </h3>
+    		  <p>
+    		  1、年账单终于来了，盘点2015，看我的生活有多花样；<br>
+2、新增［拜年红包］，小额吉利红包发发发，群发拜年就用它；<br>
+3、群红包新增［中文口令］，个人定制夸人夸己不再愁；<br>
+4、新增［咻一咻］功能，寻找附近的商户和朋友；<br>
+5、新增［吱口令］功能，在支付宝轻松添加好友、进群；<br>
+6、优化刷脸登录体验，开通更简单，点头登录只需一秒。（仅iOS客户端）
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.3版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2015-11-17)</span>
+    		  </h3>
+    		  <p>
+    		  1、数万商超、丽人商家现已加入口碑“豪华套餐“；<br>
+2、新增[在线优惠买单]，输入金额即可买单，划算不用算；<br>
+3、新增[商圈]功能，附近商圈品牌、优惠尽在掌握；<br>
+4、余额宝收支明细升级，收入、消费明白得不要不要的；<br>
+5、新增[刷脸注册开通]，支持刷脸登录（iPhone 5及以上、小米3及以上、三星i9300/ i9500等设备支持）；<br>
+6、生活圈：新增[附近现场]，视频拍摄支持美颜滤镜；<br>
+7、整体性能优化，修复已知BUG。
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.2版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2015-10-15)</span>
+    		  </h3>
+    		  <p>
+    		  1、国际化的支付宝，支持简体中文、繁体中文、英文3种语言切换；<br>
+2、增加生活圈，支持将视频和照片分享给朋友；<br>
+3、聊天增加「阅后即焚」，不再惧怕说错话；<br>
+4、页面布局优化，「卡券」功能移至首页，「我的信息」移至「财富」；<br>
+5、适配iPhone6s/6s Plus，增加3D Touch操作。（仅iOS客户端）
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  ">
+    		  <h3 class="title ">
+    		    9.1版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2015-09-18)</span>
+    		  </h3>
+    		  <p>
+    		  1、收款更便捷，扫一扫二维码，直接转账；<br>
+2、绑卡功能优化，支持港澳台及海外用户绑定境内银行卡；<br>
+3、用户体验升级，视障用户也可使用支付宝。（仅iOS客户端）
+    		</p>
+    		</div>
+        
+    		<div class="detail-item  detail-item-last">
+    		  <h3 class="title ">
+    		    9.0版本说明
+    		    <span class="icon"></span>
+    		    <span class="date">(2015-07-08)</span>
+    		  </h3>
+    		  <p>
+    		  1、新增商家服务，买单打折尽享优惠；<br>
+2、新增社交功能，群聊群付更方便；<br>
+3、新增亲情账户，家庭专属理财服务；<br>
+4、财富全新改版，信用财富一目了然；<br>
+5、首页新增个人信息，点击头像即可查看。
+    		</p>
+    		</div>
+        
+        </div>
+      </div>
+    </div>
+    
+    
+</div>
+<!-- FD:111:mobileweb/index/domFile.vm:804:index/index.schema:index下载页:END -->
+
+       <!-- /component/footCommon.vm -->
+        <style>
+        .ui-footer {margin-top: 30px; border-top: 1px solid #cccccc; height: 100px; color:#808080;}
+        .ui-footer .ui-separator{font-weight: normal;}
+        .ui-footer-ctn {border-top: 1px solid #ffffff;padding-top: 15px;text-align: center;}
+        .ui-footer-link a {padding: 0 3px 0 2px;}
+        .ui-footer-copyright,.ui-footer-phone {padding-top: 10px;}
+        .ui-footer-copyright a,.ui-footer-copyright a:hover {color:#808080;}
+        .server{color:#fff;}
+        </style>
+        <div class="ui-footer fn-clear" coor="footer">
+            <div class="ui-footer-ctn">
+                <!-- CMS:支付宝全站/全站底部/底部链接开始:alipay/foot/links.vm --><div class="ui-footer-link">
+      <a href="http://ab.alipay.com/i/index.htm" target="_blank" seed="foot-1">关于支付宝</a>  
+           <em class="ui-separator">|</em>
+       <a seed="foot-4" href="http://blog.alipay.com/" title="官方博客" target="_blank">官方博客</a>
+           <em class="ui-separator">|</em>
+       <a seed="foot-5" href="http://job.alipay.com/index.php" title="诚征英才" target="_blank">诚征英才</a>
+           <em class="ui-separator">|</em>
+       <a seed="foot-6" href="http://ab.alipay.com/i/lianxi.htm" title="联系我们" target="_blank">联系我们</a>
+           <em class="ui-separator">|</em>
+       <a seed="foot-9" href="https://open.alipay.com/index.htm" title="开放平台" target="_blank">开放平台</a>
+           <em class="ui-separator">|</em>
+       <a seed="foot-7" href="http://global.alipay.com/" title="International Business" target="_blank">International Business</a>
+           <em class="ui-separator">|</em>
+       <a seed="foot-8" href="http://ab.alipay.com/i/jieshao.htm#en" title="About Alipay" target="_blank">About Alipay</a>
+      </div><!-- CMS:支付宝全站/全站底部/底部链接结束:alipay/foot/links.vm -->
+                <div class="ui-footer-copyright">
+                    <!-- FD:231:alipay/foot/copyright.vm:START --><!-- FD:231:alipay/foot/copyright.vm:2604:foot/copyright.schema:支付宝copyright:START -->
+<style>
+.copyright,.copyright a,.copyright a:hover{color:#808080;}
+</style>
+<div class="copyright">
+      <a href="https://fun.alipay.com/certificate/jyxkz.htm" target="_blank" seed="copyright-link" smartracker="on">ICP证：沪B2-20150087</a>
+  </div>
+<div class="server" id="ServerNum">
+  mobileweb-49-5004 &nbsp; 0bfd5fe41515479281564462574296_0
+</div>
+<!-- FD:231:alipay/foot/copyright.vm:2604:foot/copyright.schema:支付宝copyright:END --><!-- FD:231:alipay/foot/copyright.vm:END -->                </div>
+            </div>
+        </div>
+      
+      <!-- FD:111:mobileweb/index/scriptFile.vm:START --><script type="text/javascript" src="https://a.alipayobjects.com/u/js/201304/2WVVJnRZ0m.js"></script>
+<script type="text/javascript" src="https://t.alipayobjects.com/images/rmsweb/T1h0lgXgJjXXXXXXXX.js"></script>
+  <script type="text/javascript">
+  seajs.use(['alipay/xbox/1.1.1/xbox', 'arale/switchable/1.0.0/carousel', '$'], function(Xbox, Carousel, $) {
+  	<!-- FD:111:mobileweb/index/scriptFile.vm:804:index/index.schema:index下载页:START -->
+    var jQuery = $;
+    $(document).ready(function() {
+      var windowHeight = $(window).height() - 110;
+      var windowWidth = $(window).width();
+
+      /**
+       *  banner区域交互，确保首屏出现并且图片和动画处理
+       */
+      function resetTopHeight() {
+        var topHeight = $(window).height() - 110;
+        if(topHeight > 500) {
+          $("#J-head").css({
+            'height': topHeight + 'px'
+          });
+        }
+      }
+      /* 随机获取一个banner图片 */
+      var bannerArr = [
+        'https://t.alipayobjects.com/tfscom/T1h6NfXcxcXXXXXXXX.png',
+        'https://t.alipayobjects.com/tfscom/T14yXfXeXxXXXXXXXX.png',
+        'https://t.alipayobjects.com/tfscom/T19i0fXn8jXXXXXXXX.png',
+        'https://t.alipayobjects.com/tfscom/T1tONfXm0oXXXXXXXX.png'
+      ];
+
+      var img = new Image();
+      var random = Math.floor(Math.random() * bannerArr.length);
+      var imgWidth, imgHeight;
+      img.src = bannerArr[random];
+
+      img.onload = function() {
+        var topHeight = $(window).height() - 110;
+        var topWidth = $(window).width();
+        var currWidth = parseInt(topHeight / img.height * img.width, 10);
+        if(currWidth > topWidth / 2) {
+          var rightWidth = topWidth / 2 - currWidth - 50;
+          $("#J-head-img").css({
+            'right': rightWidth + 'px'
+          });
+        }
+        $("#J-head-img").attr('src',img.src);
+        $("#J-head-img").addClass("head-img-show");
+      }
+
+      /* 重置banner的尺寸 */
+      function resetImgWidth() {
+        var imgWidth = $("#J-head-img").width();
+        var clientWidth = $(window).width();
+        if(imgWidth > clientWidth/2) {
+          var currWidth = clientWidth / 2 - imgWidth - 50;
+          $("#J-head-img").css({
+            'right': currWidth + 'px'
+          });
+        }
+      }
+      resetTopHeight();
+      /*  浏览器缩放事件 */
+      $(window).resize(function() {
+        windowHeight = $(window).height() - 110;
+        windowWidth = $(window).width();
+        resetTopHeight();
+        resetImgWidth();
+      });
+      /*  banner中的logo动画效果 */
+      $("#J-head-img").addClass("head-img-show");
+      $("#J-head-logo").addClass("logo-show");
+
+
+      /**
+       *  下载浮出层功能
+       */
+      var downLoad = new Xbox({
+        trigger: '.download-btn',
+        content: $('#J-download-dom'),
+        width: '655px',
+        height: '390px'
+      }).render();
+      var downLoad = new Xbox({
+        trigger: '#J-tipsBtn',
+        content: $('#J-download-dom-tips'),
+        width: '655px',
+        height: '390px'
+      }).render();
+
+
+      /**
+       *  切换功能介绍和历史版本
+       */
+      $("#J-choose-pro").on('click', function(e) {
+        e.preventDefault();
+        $(this).addClass("toggle-pro-current");
+        $("#J-choose-his").removeClass("toggle-his-current");
+        $("#J-channel-his").css({
+          'display': 'none'
+        });
+        $("#J-channel-pro").css({
+          'display': 'block'
+        });
+        /* 当有滚动条的时候，需要默认到介绍的顶部 */
+        if($(window).scrollTop() > windowHeight) {
+          $(window).scrollTop(windowHeight);
+        }
+      });
+
+      $("#J-choose-his").on('click', function(e) {
+        e.preventDefault();
+        $(this).addClass("toggle-his-current");
+        $("#J-choose-pro").removeClass("toggle-pro-current");
+        $("#J-channel-his").css({
+          'display': 'block'
+        });
+        $("#J-channel-pro").css({
+          'display': 'none'
+        });
+        /* 当有滚动条的时候，需要默认到介绍的顶部 */
+        if($(window).scrollTop() > windowHeight) {
+          $(window).scrollTop(windowHeight);
+        }
+      });
+
+      /**
+       *  钱包共展示交互
+       */
+      /* 页面加载进来，处理滚动条事件，保证是看到首屏 */
+      $(window).scrollTop(0);
+
+      /* 定义静态文件 */
+      var proAssets = {
+        ".y-bg": "https://i.alipayobjects.com/e/201310/1Gmta9nvfj.png",
+        ".y-qb": "https://i.alipayobjects.com/e/201310/1Gn1sYNX5D.png",
+        ".y-jb": "https://i.alipayobjects.com/e/201310/1Gn8I1pEIB.png",
+        ".s-bg": "https://i.alipayobjects.com/e/201310/1GnaMrzW87.png",
+        ".s-kc": "https://i.alipayobjects.com/e/201310/1GnaDDMDaR.png",
+        ".s-qc": "https://i.alipayobjects.com/e/201310/1GnaDWEZlH.png",
+        ".s-fj": "https://i.alipayobjects.com/e/201310/1GnmsCbzn5.png",
+        ".d-bg": "https://i.alipayobjects.com/e/201310/1GoEdN9HCp.png",
+        ".d-out": "https://i.alipayobjects.com/e/201310/1GoJctpCsp.png",
+        ".d-in-left": "https://i.alipayobjects.com/e/201310/1GoJcwjljT.png",
+        ".d-in-right": "https://i.alipayobjects.com/e/201310/1GoJcxmJYN.png",
+        ".a-phone": "https://i.alipayobjects.com/e/201310/1GofBSvreZ.png",
+        ".a-app-1": "https://i.alipayobjects.com/e/201310/1Gp4ABIZ79.png",
+        ".a-app-2": "https://i.alipayobjects.com/e/201310/1Gp4AAOaFb.png",
+        ".a-app-3": "https://i.alipayobjects.com/e/201310/1Gp4A6gXlP.png",
+        ".a-app-4": "https://i.alipayobjects.com/e/201310/1Gp4ABIr43.png",
+        ".t-ticket1": "https://i.alipayobjects.com/e/201310/1GprB3OCoR.png",
+        ".t-ticket2": "https://i.alipayobjects.com/e/201310/1GprB5KGMR.png",
+        ".t-travel1": "https://i.alipayobjects.com/e/201310/1GprB5g69v.png",
+        ".t-travel2": "https://i.alipayobjects.com/e/201310/1GprB6Npep.png",
+        ".s-lock": "https://i.alipayobjects.com/e/201310/1H8gcaTBx9.png",
+        ".s-centen": "https://i.alipayobjects.com/e/201310/1Gq76NMGuV.png",
+        
+        ".pageitem-1":'https://zos.alipayobjects.com/cmsmng/cms/images/j1rjw3qr/bd3597a0-35cd-4b1e-84aa-965e093e24ce.png' ,
+        
+        ".pageitem-2":'https://zos.alipayobjects.com/cmsmng/cms/images/j1rjwc2x/69e772a6-6b76-4ca3-b6ba-8ac7efe3a425.png' ,
+        
+        ".pageitem-3":'https://zos.alipayobjects.com/cmsmng/cms/images/j1rjw3qr/bd3597a0-35cd-4b1e-84aa-965e093e24ce.png' ,
+        
+        ".pageitem-4":'https://zos.alipayobjects.com/cmsmng/cms/images/j1rjwc2x/69e772a6-6b76-4ca3-b6ba-8ac7efe3a425.png' 
+        
+      };
+
+      /* 当pageLoad之后，预加载所有静态文件 */
+      var preloader = html5Preloader();
+      var setupPreloader = function(assets) {
+        //添加图片加载进程
+        jQuery.each(assets, function(assetsItem) {
+          var assetsId = assetsItem.substr(1, assetsItem.length)+'*:';
+          preloader.addFiles(assetsId+assets[assetsItem]);
+        });
+        //图片加载完处理事件
+        preloader.on('finish', function() {
+          jQuery.each(assets, function(assetsItem) {
+            var assetBg = 'url('+assets[assetsItem]+')';
+            $(assetsItem).css({'background': assetBg+' no-repeat'});
+          });
+        });
+        //出错处理
+        preloader.on('error', function(e) {});
+      }
+      /* pageLoad */
+      var readyStateCheckInterval = setInterval(function() {
+        if (document.readyState === "complete") {
+          setupPreloader(proAssets);
+          clearInterval(readyStateCheckInterval);
+        }
+      }, 10);
+      /* 滚动条事件，则现实动画效果 */
+      $(window).scroll(function() {
+//        scrollAnim();
+        if ($(window).scrollTop() > 500) {
+          $("#J-tips").css({
+            'display':'block'
+          })
+        } else {
+                  $("#J-tips").css({
+                    'display':'none'
+                  })
+                }
+      });
+
+      function scrollAnim() {
+        if($(window).scrollTop() > 140) {
+          $("#J-yuerbao").addClass("anim-yuerbao");
+        }
+
+        if($(window).scrollTop() > 580) {
+          $("#J-shenghuo").addClass("anim-shenghuo");
+        }
+
+        if($(window).scrollTop() > 1020) {
+          $("#J-danmianfu").addClass("anim-danmian");
+        }
+
+        if($(window).scrollTop() > 1460) {
+          $("#J-appstore").addClass("anim-appstore");
+        }
+
+        if($(window).scrollTop() > 1900) {
+          $("#J-cardticket").addClass("anim-ticket");
+        }
+
+        if($(window).scrollTop() > 2340) {
+          $("#J-travel").addClass("anim-travel");
+        }
+
+        if($(window).scrollTop() > 2780) {
+          $("#J-securite").addClass("anim-safe");
+        }
+
+        if($(window).scrollTop() > windowHeight) {
+          $("#J-main-channel").addClass("anim-fixed");
+          $("#J-main-channel").css({
+            'width': windowWidth + 'px'
+          })
+        } else {
+          $("#J-main-channel").removeClass("anim-fixed");
+        }
+      }
+//      scrollAnim();
+
+      /**
+       *  历史版本区域交互，手机介绍功能的轮播
+       */
+      var carousel = new Carousel({
+        element: '#J-phone-show',
+        panels: '#J-phone-show .pageitem',
+        hasTriggers: false,
+        easing: 'easeOutStrong',
+        effect: 'scrollx',
+        step: 1,
+        viewSize: [306],
+        autoplay:true
+      }).render();
+    });
+  });
+<!-- FD:111:mobileweb/index/scriptFile.vm:804:index/index.schema:index下载页:END -->
+</script>
+      <!-- CMS:cms/监控埋点/tracker js引用开始:alipay/tracker/tracker.vm -->
+<script type="text/javascript">
+window.Smartracker&&Smartracker.init&&Smartracker.init();
+</script>
+
+
+<script type="text/javascript">
+function _use_monitor(){
+
+  if(!window.seajs){return;}
+
+  // 命中率：[0,1]: 实际对应采样率：[0%,100%]
+  // 注意：sens_rate 跟 sens_rate 是有关联的。
+  //      实际设置的内容时，应该参考以下算法：
+  //      敏感信息监控实际采样率 = sens_rate * jserr_rate;
+  var jserr_rate = 0.1;
+  var sens_rate = 0.1;
+
+  // 随机采样命中算法。
+  // @param {Nuber} rate, 采样率，[0,1] 区间的数值。
+  // @return {Boolean}
+  function hit(rate){
+    return 0 === Math.floor(Math.random() / rate);
+  }
+
+  if(!hit(jserr_rate)){return;}
+
+  seajs.use(["$", "alipay/monitor/2.3.1/monitor",
+    "alipay/sensinfo/1.2.0/sensinfo"], function($, monitor, sensinfo){
+
+    if(!monitor){return;}
+
+    $(function(){
+      var sysName = "mobileweb-49-5004";
+
+      monitor.on("*", function(meta){
+        meta.sys = sysName;
+      });
+
+
+      if(!hit(sens_rate) || !sensinfo){return;}
+      try{
+        var html = (document.documentElement || document.body).innerHTML;
+        window.setTimeout(function(){
+          sensinfo.scan(html, {
+            "*": function(cardType, privacy_card, context) {
+              monitor.log(cardType+"="+privacy_card+"```"+context, "sens");
+            }
+          });
+        }, 1200);
+      }catch(ex){}
+
+    });
+  });
+
+}
+
+if(window._monitor_autoload !== false){
+  _use_monitor();
+}
+</script>
+
+
+<!-- CMS:cms/cmsbuffer/main开始:cmsbuffer/main.vm -->																				
+	
+<!-- CMS:cms/cmsbuffer/main结束:cmsbuffer/main.vm --><!-- CMS:cms/监控埋点/tracker js引用结束:alipay/tracker/tracker.vm -->
+<div class="alipay-xbox-1_1_1"><div class="alipay-xbox" tabindex="-1" data-widget-cid="widget-1" style="width: 655px; height: 390px; z-index: 999; display: none;">
+    <a class="alipay-xbox-close" title="关闭本框" href="javascript:;" data-role="close" style="display: inline;">×</a>
+    <div class="alipay-xbox-loading" style="display: none;"></div><div class="alipay-xbox-content" data-role="content" style="background-color: rgb(255, 255, 255); height: 100%; zoom: 1; background-position: initial initial; background-repeat: initial initial;"><div class="download-dom" id="J-download-dom">
+      <iframe src="https://cmspromo.alipay.com/down/new.htm" scrolling="no" frameborder="no" allowtransparency="true"></iframe>
+    </div></div>
+</div></div><div class="alipay-xbox-1_1_1"><div class="alipay-xbox" tabindex="-1" data-widget-cid="widget-2" style="width: 655px; height: 390px; z-index: 999; display: none;">
+    <a class="alipay-xbox-close" title="关闭本框" href="javascript:;" data-role="close" style="display: inline;">×</a>
+    <div class="alipay-xbox-loading" style="display: none;"></div><div class="alipay-xbox-content" data-role="content" style="background-color: rgb(255, 255, 255); height: 100%; zoom: 1; background-position: initial initial; background-repeat: initial initial;"><div class="download-dom" id="J-download-dom-tips">
+      <iframe src="https://cmspromo.alipay.com/down/new.htm" scrolling="no" frameborder="no" allowtransparency="true"></iframe>
+    </div></div>
+</div></div></body></html>

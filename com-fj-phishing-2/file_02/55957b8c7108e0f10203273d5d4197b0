@@ -1,0 +1,93 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>贝斯达商城--跳转中..</title>
+<!-- Tell the browser to be responsive to screen width -->
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<style>
+    *{
+        color:#333;box-sizing:border-box;
+        margin: 0;padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul,li{
+        list-style: none;
+    }
+    textarea{
+        resize: none;
+    }
+
+    .clearfix:after{
+        content: '';
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+        overflow: hidden;
+        display: block;
+        clear:both;
+    }
+    .clearfix{*zoom:1;}
+
+    body{
+        color:#848486;
+        background-color: #ECEFF4;
+    }
+    .publishGoods {
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 80%;
+        height: 230px;
+        margin: auto;
+    }
+    .publishGoods p{
+        padding: 20px;
+        text-align: center;
+        color:#848486;
+        font-size:16px;
+        background-color: #fff;
+    }
+    .publishGoods p b{
+        color:#0A0A0A;
+    }
+    .publishGoods p a{
+        color:#A7937A;
+    }
+    .publishGoods p span{
+        color:#848486;
+    }
+    .publishGoods p img{
+        vertical-align:middle;
+    }
+</style>
+<meta name="__hash__" content="6666cd76f96956469e7be39d750cc7d9_36c670696fa0ee288ea04e4b145a3db1"></head>
+<body class="login-page">
+    
+     
+  <!--处理失败-->
+    <div class="publishGoods">
+        <p><img src="/Public/Bestamall/images/icon_error.png" alt="success_correct"><b>&nbsp;&nbsp;&nbsp;请先登陆</b></p>
+        <p>该页面将在 <span id="wait" style="font-weight: bold;color: black;text-decoration:underline">1</span> 秒后自动跳转,点击 <a style="font-weight: bold;color: black;text-decoration:underline" id="href" href="/index.php/Admin/Admin/login">跳转</a></p>
+        <p>或者点击这里去，<b><a href="http://www.bestamall.com">贝斯达首页</a></b> , <b><a href="/index.php?m=Admin&amp;c=Index&amp;a=index">后台首页</a></b></p>
+    </div>
+
+<script type="text/javascript">
+
+(function(){
+var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+var interval = setInterval(function(){
+	var time = --wait.innerHTML;
+	if(time <= 0) {
+		location.href = href;
+		clearInterval(interval);
+	};
+}, 1000);
+})();
+
+</script>    
+
+</body></html>

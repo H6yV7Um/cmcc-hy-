@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>对不起，由于服务器连接超时，页面未找到！</title>
+<style type="text/css">
+* { margin:0;padding:0; list-style:none;}
+a img,fieldset { border:0; text-decoration:none;}
+html,body { font:12px '宋体',Verdana,sans-serif; line-height:1!important;}
+
+a { text-decoration:none;color:#000;}
+a:hover{ color:#c00; text-decoration:underline;}
+h1,h2,h3,h4,h5,h6,form,input,textarea{ font-size:12px;}
+.clearfix:after { content:'.'; clear:both; height:0;display:block; visibility:hidden; }
+* html .clearfix { display:block; height:1%;}
+* +html .clearfix { min-height:1px;}
+div#wrap { width:938px; margin:0 auto;}
+div.contains { position:relative;height:299px; background:url(http://img04.21cn.com/www/images/2009/art/contains.gif) no-repeat;}
+div.auto-redirect { position:absolute; top:38px; left:305px; width:435px; height:115px; 
+background:url(http://img04.21cn.com/www/images/2009/art/auto_redirect.gif) no-repeat;}
+div.auto-redirect p { line-height:16px; font-size:14px; margin:20px 0 0 30px;}
+div.auto-redirect p.jumpPage { font-size:30px; font-family:'黑体'; line-height:30px;}
+p.jumpPage span { color:#FE4010; font-weight:bold; font-family:"Arial Black";}
+img.return1 { position:absolute; left:325px; top:185px;}
+img.return2 {position:absolute; left:555px; top:185px;}
+a { cursor:pointer;}
+</style>
+</head>
+
+<body>
+<!--\#include virtual="/shtml.21cn.com/2009/03/24/pv_t.html"-->
+<script type="text/javascript">	
+var t;
+var c =3;
+window.onload = function setTimeValue() {
+	document.getElementById('setNum').innerHTML = c;
+	c = c - 1;
+	t = setTimeout(setTimeValue,1000);
+	if( c < 1) {
+		clearTimeout(t);
+		setTimeout(function(){
+			window.location.href = 'http://www.21cn.com/';				
+		},1000);
+		
+	}
+
+}
+
+</script>
+
+
+<div id="wrap">
+	<script type="text/javascript" src="http://www.21cn.com/shtml.21cn.com/2007/01/26/last_daohang.js"></script><div class="head clearfix"><style type="text/css">.clearfix:after {content:'.';display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}.clearfix{zoom:1;}.head { width:938px; margin:0 auto; }.head h1 { float:left; width:80px; margin-bottom:3px; }.navs {float:right; height:30px; line-height:16px; padding:18px 8px 0 0 ;  }.navs li { float:left;border-right:1px solid; height:15px; padding:0 10px; overflow:hidden;}.navs li.last { width:auto; padding-right:0; border:0;}.navs a:link,.navs a:visited { font-size:14px; color:#000; text-decoration:none;}</style>        <h1><a href="http://www.21cn.com/" target="_blank"><img src="http://img04.21cn.com/www/images/zzy2007/21cnzz_01.gif" border="0" alt="21cn.com"></a></h1>        <div class="navs">            <ul>                <li><a href="http://news.21cn.com/" target="_blank">新闻</a></li>                <li><a href="http://news.21cn.com/guangdong/" target="_blank">广东</a></li>                <li><a href="http://finance.21cn.com/" target="_blank">财经</a></li>    <li><a href="http://finance.21cn.com/stock/" target="_blank">证券</a></li>                <li><a href="http://auto.21cn.com/" target="_blank">汽车</a></li>                <li><a href="http://house.21cn.com/" target="_blank">房产</a></li>                <li><a href="http://it.21cn.com/" target="_blank">数码</a></li>                <li><a href="http://sports.21cn.com/" target="_blank">体育</a></li>                <li><a href="http://et.21cn.com/" target="_blank">娱乐</a></li>                <li><a href="http://game.21cn.com/" target="_blank">游戏</a></li>                <li><a href="http://she.21cn.com/" target="_blank">女人</a></li>                <li><a href="http://life.21cn.com/" target="_blank">生活</a></li>                 <li><a href="http://free.21cn.com/" target="_blank">社区</a></li>                <li><a href="http://igame.21cn.com/" target="_blank">网游</a></li>          <li><a href="http://travel.21cn.com/" target="_blank">旅游</a></li>                <li class="last"><a href="http://vgo.21cn.com/index.html" target="_blank">高清</a></li>                           </ul>        </div>    </div>
+	<div class="contains">
+    	<div class="auto-redirect">
+        	<p>对不起，由于服务器连接超时，页面未找到！</p>
+        	<p class="jumpPage"><span id="setNum">3</span>秒后系统自动跳回频道首页</p>
+        </div>
+        <a href="http://news.21cn.com"><img class="return1" src="http://img04.21cn.com/www/images/2009/art/return1.gif"></a><a onclick="history.back(-1);"><img class="return2" src="http://img04.21cn.com/www/images/2009/art/return2.gif"></a>
+    </div>
+  <script src="http://analytics.21cn.com/pvCounter?sectCode=www_wrong_&amp;siteCode=www&amp;pt=T_pageview&amp;log=1&amp;ref=1" type="text/javascript"></script>  <script type="text/javascript" src="http://www.21cn.com/shtml.21cn.com/2008/05/30/news_2008_footer.js"></script><style type="text/css"><!--.menufoot12p           {color:#000000;font-size:12px;line-height:120%;}a.menufoot12p:link     {color:#000000; text-decoration:none;}a.menufoot12p:visited  {color:#000000; text-decoration:none;}a.menufoot12p:hover    {color:#ff0000; text-decoration:underline;}--></style><div id="footer_hd" style=" text-align:center;  font:12px Arial, Helvetica, sans-serif;">  <div style="width:758px; margin:0 auto; padding-top:15px;"> <img src="http://img04.21cn.com/news/home/2004/08/24/tell-logo.gif" height="29" width="92" alt="中国电信">    <p style="padding:5px 0 0; margin:0; color:#000">经营许可证编号:<a class="menufoot12p" href="http://www.21cn.com/other/copyright/icp.html" target="_blank" title="在新窗口中查看ICP证" style=" :link {color:#000; text-decoration:none}; :visited { color:#000; text-decoration:none}; :hover {color:#f00; text-decoration:none}">粤B2-20040116</a> <!--不良信息举报：<a href='http://passport.21cn.com/tq/go.jsp?type_code=22'  target='_blank' class='menufoot12p' >[点击联系] 即时在线客服</a> --></p>    <p style="padding:5px 0 0; margin:0; color:#000">世纪龙信息网络有限责任公司版权所有&nbsp;<a class="menufoot12p" href="http://www.21cn.com/other/copyright/index.html" target="_blank" title="在新窗口中查看服务声明">服务声明</a><br></p>  </div></div><script>(function(){	var analytics_host = 'analytics.21cn.com/collect/'; 	var pkBaseURL = (('https:' == document.location.protocol) ? 'https://'+analytics_host : 'http://'+analytics_host);	document.write(unescape('%3Cscript src='+pkBaseURL+'js/wa_tracking.js type=text/javascript%3E%3C/script%3E'));	var analytics_time=0;	function timeout_fun(){setTimeout(function(){if(typeof(WATrace)!='undefined'){track()}else if(analytics_time<100){timeout_fun();analytics_time++;}},500);}	function track(){try { _wa_trace_track = WATrace.getTracker(pkBaseURL + '_trace.gif', 'aOxuz');if(typeof(_wa_beforeload)!='undefined')_wa_trace_track.setBeforeload(_wa_beforeload);_wa_trace_track.trackPageView();_wa_trace_track.enableLinkTracking();}catch(err){}}	new timeout_fun();	})();</script><script src="http://analytics.21cn.com/collect/js/wa_tracking.js" type="text/javascript"></script>
+</div>
+
+
+</body></html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>深圳市掌握时代互联网应用科技有限公司</title>
+<meta name="keywords" content="动力启航,DTCMS系统,ASP.NET开源,开源CMS,网站管理系统,互联网开发">
+<meta name="description" content="让更多的人分享互联网开发技术">
+<link rel="shortcut icon" href="/Public/image/bitbug_favicon.ico" type="image/x-icon">
+<link href="/Public/css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/Public/css/stylel.css">
+ <link href="/Public/css/ui-dialog.css" rel="stylesheet" type="text/css">
+  <script src="/Public/js/jquery-1.11.1.js"></script>
+  <script src="/Public/js/js.js"></script>
+  <script src="/Public/js/jquery1.0.0.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/js/common.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="/Public/js/dialog-plus-min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".focusbox").flexslider({
+		directionNav: false,
+		pauseOnAction: false
+	});
+});
+</script>
+</head>
+
+<body>
+<!--Header-->
+<!-- top -->
+  <div class="topbg">
+      <div class="logo">
+      <img src="/Public/image/logo.png" alt="">
+      </div>
+    <div class="topall">
+      <div class="tops"></div>
+      <div class="topx">
+      <div class="left-box">
+        <a class="shouye" href="/index.php/Home/Index/index.html">首页</a>
+        <p class="nav">
+          <a href="/index.php/Home/Index/jianjie.html">游戏简介</a>
+          <a href="/Public/main/大鱼吃小鱼中文版.rar">游戏下载</a> 
+          <a href="/index.php/Home/Index/about.html">联系我们</a>
+          <a href="/index.php/Home/Index/jianhu.html">家长监护</a>
+          <a href="javascript:void(0)" onclick="window.open('../Index/jiufen.html')">纠纷处理</a>
+        </p>
+      </div>
+      <div class="right-box">
+      <script type="text/javascript" charset="utf-8" src="/Public/js/my.js"></script>
+        <ul id="menu">
+
+                          
+          <li class="line"><a href="/index.php/Home/Login/register.html">注册</a></li>
+          <li class="login"><em></em><a href="/index.php/Home/Login/login.html">登录</a></li>
+                    </ul>
+      </div>
+  </div>
+    </div>
+  </div>
+  <!-- top完-->
+<!--/Header-->
+
+
+
+                
+<script type="text/javascript">
+            function logout() {
+            var msg = "您真的确定要退出吗？";
+            if (confirm(msg)==true){
+                $.ajax({ 
+                    url: "/index.php/Home/Login/logout.html",
+                    type:'get',
+                    success: function(data){
+                        if(data == 1){
+                            window.location.href="/index.php/Home/Index/index.html";
+                            location.reload();
+                        }
+                    }
+                });
+            }else{
+                return false;
+                }
+            }
+        </script>
+<!-- 内容 -->
+  <div class="neirong">
+    <div class="neileft">
+      <div class="neitopl">
+        <li>
+          游戏新闻
+        </li>
+        <span>
+          <a href="#"></a>
+        </span>
+      </div>
+
+         
+        <li>
+          <a title="大鱼吃小鱼，小鱼吃虾米" href="#">大鱼吃小鱼，小鱼吃虾米</a>
+         <span></span>
+          
+        </li>
+        
+        <li>
+          <a title="小鱼历险记" href="#">小鱼历险记</a>
+         <span></span>
+          
+        </li>
+        
+        <li>
+          <a title="海底世界等你来" href="#">海底世界等你来</a>
+         <span></span>
+          
+        </li>
+        
+        <li>
+          <a title="大鱼吃小鱼终结篇 鲨鱼哥早安" href="#">大鱼吃小鱼终结篇 鲨鱼哥早安</a>
+         <span></span>
+          
+        </li>
+        
+        <li>
+          <a title="《大鱼吃小鱼》新版本试玩：我们靠的是品质而不是情怀" href="#">《大鱼吃小鱼》新版本试玩：我们靠的是品质而不是情怀</a>
+         <span></span>
+          
+        </li>
+        
+        <div class="xuxian"></div>
+         
+    </div>
+  <div class="neiright">
+      <div class="tabimg"><a href="photo.html"></a></div>
+    <ul class="tab">
+      <li class="tab-item"></li>
+
+        </ul>
+        <div class="products">
+            <div class="main selected">
+                <a href="###"><img src="/Public/image/1.jpg" alt=""></a>
+            </div>
+            <div class="main">
+                <a href="###"><img src="/Public/image/2.jpg" alt=""></a>
+            </div>
+            <div class="main">
+                <a href="###"><img src="/Public/image/3.jpg" alt=""></a>
+            </div>
+            <div class="main">
+                <a href="###"><img src="/Public/image/4.jpg" alt=""></a>
+            </div>
+            <div class="main">
+                <a href="###"><img src="/Public/image/5.jpg" alt=""></a>
+            </div>
+            <div class="main">
+                <a href="###"><img src="/Public/image/6.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- 图片展示 -->
+  <div class="tupian">
+    <img src="/Public/image/tupian.png" alt="">
+  </div>
+      <div class="wrap" id="wrap">
+       <div class="slide" id="slide">
+           <ul>
+               <!--五张图片-->
+               <li style="width: 415px; top: 65px; left: 65px; opacity: 0.25999998092651366; z-index: 2;"><a href="#"><img src="/Public/image/s1.jpg" alt=""></a></li>
+               <li style="width: 598px; top: 109px; left: 21px; opacity: 0.8000002002716065; z-index: 3;"><a href="#"><img src="/Public/image/s2.jpg" alt=""></a></li>
+               <li style="width: 773px; top: 92px; left: 200px; opacity: 1; z-index: 4;"><a href="#"><img src="/Public/image/s3.jpg" alt=""></a></li>
+               <li style="width: 598px; top: 109px; left: 555px; opacity: 0.8000002002716065; z-index: 3;"><a href="#"><img src="/Public/image/s4.jpg" alt=""></a></li>
+               <li style="width: 415px; top: 65px; left: 686px; opacity: 0.25999998092651366; z-index: 2;"><a href="#"><img src="/Public/image/s5.jpg" alt=""></a></li>
+           </ul>
+           <!--左右切换按钮-->
+           <div class="arrowl" id="arrowl">
+               <a href="javascript:;" class="prevl"></a>
+               <a href="javascript:;" class="nextl"></a>
+           </div>
+       </div>
+    </div>
+
+<!--Footer-->
+<div class="footer clearfix">
+  <div class="foot-nav">
+    <a href="/index.php/Home/Index/index.html">首 页</a>|
+    <a href="/index.php/Home/Index/jianjie.html">游戏简介</a>|
+    <a href="/Public/main/大鱼吃小鱼中文版.rar">游戏下载</a>|
+    <a href="/index.php/Home/Index/about.html">联系我们</a>|
+    <a href="/index.php/Home/Index/jianhu.html">家长监护</a>|
+    <a href="/index.php/Home/Index/jiufen.html">纠纷处理</a>
+  </div>
+  <div class="copyright">
+    <p> 健康游戏忠告：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。 禁止任何利用本平台游戏进行赌博的行为！
+</p>
+<p> 客服电话：0755-21000877 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮箱：29617112@qq.com</p>
+    <p>公司地址： 深圳市龙华新区腾龙路淘金地商务孵化基地E座601 </p>
+    <p>Copyright © 2017 深圳市掌握时代互联网应用科技有限公司 </p>
+    <p><script src="http://s24.cnzz.com/stat.php?id=1996164&amp;web_id=1996164&amp;show=pic" language="javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1996164&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1996164" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></p>
+  </div>
+</div>
+<!--/Footer-->
+
+<script>
+        jQuery(window).ready(function () {
+            //需求:鼠标放到那个li上，让该li添加active类，下面的对应的.main的div添加selected
+            $(".tab>li").mouseenter(function () {
+                //不用判断，当前的li添加active类，其他的删除active类
+                $(this).addClass("active").siblings("li").removeClass("active");
+                //对应索引值的div添加selected类，其他的删除selected类
+                $(".products>div").eq($(this).index()).addClass("selected").siblings("div").removeClass("selected");
+            });
+        });
+    </script>
+</body></html>

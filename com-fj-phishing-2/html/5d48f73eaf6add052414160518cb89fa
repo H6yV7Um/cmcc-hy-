@@ -1,0 +1,611 @@
+<!DOCTYPE html><html lang="en" data-dpr="1" style="font-size: 54px;"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<script src="http://czm.oss.lingwokeji.com/dingdan/js/flexible.js"></script><style>@charset "utf-8";html{color:#000;background:#fff;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}html,body{font-family:sans-serif}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}abbr,acronym{border:0;font-variant:normal}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}q:before,q:after{content:''}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a:hover{text-decoration:underline}ins,a{text-decoration:none}</style>
+<style>
+@charset "utf-8";html{color:#000;background:#fff;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}html,body{font-family:sans-serif}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}abbr,acronym{border:0;font-variant:normal}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}q:before,q:after{content:''}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a:hover{text-decoration:underline}ins,a{text-decoration:none}
+</style>
+<link rel="stylesheet" href="http://czm.oss.lingwokeji.com/dingdan/css/style.css">
+<title>庆祝香奈儿气垫BB销售过亿，邀请2000用户免费体验</title>
+<style type="text/css">
+	*{-webkit-overflow-scrolling : touch;}
+	.select_box::-webkit-scrollbar{ width:8px;}
+	.select_box::-webkit-scrollbar-track{ border-radius: 4px; background-color:rgba(0, 0, 0, .1); }
+	.select_box::-webkit-scrollbar-thumb{ border-radius: 4px; background-color:rgba(50, 50, 50, .2); }
+	.select_box::-webkit-scrollbar-button{ background-color:rgba(0, 0, 0, 0); }
+	.select_box::-webkit-scrollbar-corner{ background-color:rgba(0, 0, 0, 0); }
+</style>
+<style>
+#timer3 .js_count_h{background-color:  #9c0202;padding:0 2px 0 2px;font-size:0.48rem;color:#fff}
+#timer3 .js_count_s{background-color:  #9c0202;padding:0 2px 0 2px;font-size:0.48rem;color:#fff}
+#timer3 .js_count_m{background-color:  #9c0202;padding:0 2px 0 2px;font-size:0.48rem;color:#fff}
+#timer3 .js_count_hm{background-color:  #9c0202;padding:0 2px 0 2px;font-size:0.48rem;color:#fff}
+#rollText3 a {color:#fff;font-size:12px;}
+#rollText3 a img{vertical-align:middle;width:26px;height:26px;margin-right:10px;border-radius:25px;}
+</style>
+</head>
+
+<body style="font-size: 12px;">
+<div class="wrapper">
+	<div class="index_box">
+		<div class="title new-title-style" style="display:none"></div>
+		<div class="banner"><img src="https://pub-files.jinshuju.net/di/20180602101354_e52bf2" alt=""></div>
+		<div class="product_info" id="fudong" style="position: fixed; left: 50%; z-index: 5; top: 10px; box-shadow: rgba(0, 0, 0, 0.14902) 0px 0px 10px 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-right: 0.1rem; background-color: rgba(0, 0, 0, 0.701961); border-bottom-width: 0px; width: 186px; height: 36px; margin-left: -265px;">
+			<div class="info_box" style="margin:0px">
+				<eq name="goods_info.buy_info_off_on" value="1">
+				<div class="info_latest_news clearfix" style=" padding-top:20px;margin-left:6px;">
+					
+					<div class="news_msg" style="margin-top:-15px;">
+						<div id="rollText3" style="position: absolute; top: -15px;">
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151008_b965de">仁爱正在购买这个商品</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151020_cc7074">意中人 2分钟前下单成功</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151029_0e734c">朱义和 正在浏览这个商品</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151040_e21f5b">夏天正在浏览这个商品</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151051_722f6b">，，笑正在购买这个商品</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151104_b2a8b6">赵圣圣 3分钟前下单成功</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151114_693f0b">婉婷 3分钟前下单成功</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151126_acfd41">丹正在浏览这个商品</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151135_edad05">思念正在浏览这个商品</a>
+							<a href="javascript:;"><img src="https://pub-files.jinshuju.net/di/20180518151145_cb990d">吴庆文 1分钟前下单成功</a>
+						</div>
+					</div>
+				</div>
+				</eq>
+			</div>
+		</div>
+		<div class="countdown">
+			<div class="time_box">
+				<span>距结束：</span>
+				<span id="timer"><i class="js_count_h">01</i> 时 <i class="js_count_m">43</i> 分 <i class="js_count_s">46</i> 秒 <i class="js_count_s">69</i> </span>
+			</div>
+		</div>
+		
+		<div class="product_info">
+			<div class="info_box">
+				<div class="info_detail">
+					<div class="info_title">庆祝香奈儿气垫BB销售过亿，邀请2000用户免费体验</div>
+					<div class="info_msg" style="color:#666">COCO气垫BB【仅限今日抢购】原价499元，现在0元免费送2000个；香港发货，邮费到付39元，活动即将结束，抢到赚到！</div>
+					<div class="info_coupon">
+						<span>限时抢购</span>
+						<span>厂家直销</span>
+						<span>货到付款</span>
+					</div>
+				</div>
+				<div class="info_price clearfix">
+					<a href="#order" class="buy_now js_buy_now" style="width:4.3rem;height:1.55rem;line-height:1.55rem;">立即抢购</a>
+					<div class="current_price">0<span style="font-size:0.4rem;float:right;display:block;margin-top:0.22rem">元</span></div>
+					<div class="origianl_price" style="padding-left:0.1rem">
+						<p>原价<span>￥499</span></p>
+						<p>58188人已购买</p>
+						<p style="float: left;color: #9c0202; font-size: 0.325rem;"><b>到付邮费39元</b></p>
+					</div>
+				</div>
+				<eq name="goods_info.buy_info_off_on" value="1">
+				<div class="info_latest_news clearfix">
+					<div class="news_txt">最新购买</div>
+					<div class="news_msg" style="height:75px">
+						<div id="rollText" style="position: absolute; top: -15px;">
+							<a href="javascript:;" style="height:25px">黄**(187****4531)  刚刚23秒前抢购</a>
+							<a href="javascript:;" style="height:25px">朱**(138****1080)  刚刚15秒前抢购</a>
+							<a href="javascript:;" style="height:25px">高**(189****5736)  刚刚19秒前抢购</a>
+							<a href="javascript:;" style="height:25px">高**(136****6841)  刚刚22秒前抢购</a>
+							<a href="javascript:;" style="height:25px">赵**(152****9906)  刚刚12秒前抢购</a>
+							<a href="javascript:;" style="height:25px">王**(133****4558)  刚刚14秒前抢购</a>
+							<a href="javascript:;" style="height:25px">赵**(139****8771)  刚刚17秒前抢购</a>
+							<a href="javascript:;" style="height:25px">朱**(134****5979)  刚刚10秒前抢购</a>
+							<a href="javascript:;" style="height:25px">陈**(150****5489)  刚刚31秒前抢购</a>
+							<a href="javascript:;" style="height:25px">朱**(134****7833)  刚刚16秒前抢购</a>
+						</div>
+					</div>
+				</div>
+				</eq>
+			</div>
+		</div>
+		<div class="products_imgs">
+			<div class="public_title"><span>商品信息</span></div>
+			
+			<div class="img-block"><img src="https://pub-files.jinshuju.net/di/20180602101410_57bb97" alt=""></div>
+			<div class="img-block"><img src="https://pub-files.jinshuju.net/di/20180602101420_ffa4f1" alt=""></div>
+			<div class="img-block"><img src="https://pub-files.jinshuju.net/di/20180602101432_fc9000" alt=""></div>
+
+			<div class="countdown">
+				<div class="time_box">
+					<span>距结束：</span>
+					<span id="timer2"><i class="js_count_h">01</i> 时 <i class="js_count_m">43</i> 分 <i class="js_count_s">46</i> 秒 <i class="js_count_s">69</i> </span>
+				</div>
+			</div>
+			<div class="product_info">
+				<div class="info_box">
+					
+					<div class="info_price clearfix">
+						<a href="#order" class="buy_now js_buy_now" style="width:4.3rem;height:1.55rem;line-height:1.55rem;">立即抢购</a>
+						<div class="current_price">0<span style="font-size:0.4rem;float:right;display:block;margin-top:0.22rem">元</span></div>
+						<div class="origianl_price" style="padding-left:0.1rem">
+							<p>原价<span>￥499</span></p>
+							<p>58188人已购买</p>
+							<p style="float: left;color: #9c0202; font-size: 0.325rem;"><b>到付邮费39元</b></p>
+						</div>
+					</div>
+					<eq name="goods_info.buy_info_off_on" value="1">
+					<div class="info_latest_news clearfix">
+						<div class="news_txt">最新购买</div>
+						<div class="news_msg" style="height:75px">
+							<div id="rollText2" style="position: absolute; top: -15px;">
+								<a href="javascript:;" style="height:25px">黄**(187****4531)  刚刚23秒前抢购</a>
+								<a href="javascript:;" style="height:25px">朱**(138****1080)  刚刚15秒前抢购</a>
+								<a href="javascript:;" style="height:25px">高**(189****5736)  刚刚19秒前抢购</a>
+								<a href="javascript:;" style="height:25px">高**(136****6841)  刚刚22秒前抢购</a>
+								<a href="javascript:;" style="height:25px">赵**(152****9906)  刚刚12秒前抢购</a>
+								<a href="javascript:;" style="height:25px">王**(133****4558)  刚刚14秒前抢购</a>
+								<a href="javascript:;" style="height:25px">赵**(139****8771)  刚刚17秒前抢购</a>
+								<a href="javascript:;" style="height:25px">朱**(134****5979)  刚刚10秒前抢购</a>
+								<a href="javascript:;" style="height:25px">陈**(150****5489)  刚刚31秒前抢购</a>
+								<a href="javascript:;" style="height:25px">朱**(134****7833)  刚刚16秒前抢购</a>
+							</div>
+						</div>
+					</div>
+					</eq>
+				</div>
+			</div>
+
+			<div class="img-block"><img src="https://pub-files.jinshuju.net/di/20180602101445_bb0a8a" alt=""></div>
+			<div class="img-block"><img src="https://pub-files.jinshuju.net/di/20180602101452_5d6e45" alt=""></div>
+			<div class="img-block"><img src="https://pub-files.jinshuju.net/di/20180602101502_2cd697" alt=""></div>
+			<div style="padding-bottom:10px;"></div>
+		</div>
+
+		<a name="order"></a>
+		<div class="products_imgs">
+			<div class="public_title"><span>填写订单</span></div>
+			<iframe name="ifd" id="ifd" frameborder="0" onload="this.height=ifd.document.body.scrollHeight;" width="540" scrolling="no" src="http://abc4d.cn/order1.php" height="1722">
+			</iframe>
+
+		</div>
+
+		<div class="fixed_bar clearfix" id="smenu">
+			<a href="javascript:;" class="tel_consult" style="background: url(http://czm.oss.lingwokeji.com/dingdan/images/djsbg2.jpg)no-repeat ;background-size:100% 100%">
+				<span id="timer3" style="display:block;margin-top:0.28rem;margin-left:-1.1rem;font-size:0.27rem"><i class="js_count_h">01</i> 时 <i class="js_count_m">43</i> 分 <i class="js_count_s">46</i> 秒 <i class="js_count_hm">69</i> </span>
+			</a>
+			<a href="#order" class="buy_btn js_buy_now">立即抢购</a>
+		</div>
+	</div>
+</div>
+<script src="http://czm.oss.lingwokeji.com/dingdan/js/jquery-3.1.1.min.js"></script>
+<script src="http://czm.oss.lingwokeji.com/dingdan/js/utils.js"></script>
+<script>
+a  = (((($('.index_box').width() - 186)/2)-5)+93)*-1;
+$('#fudong').css("marginLeft",a);
+
+function TimeTo(dd) {
+    var t = new Date(dd), //取得指定时间的总毫秒数  
+        n = new Date().getTime(), //取得当前毫秒数  
+        c = t - n; //得到时间差
+    //w = (t - n)*1000;//得到时间差
+    if (c <= 0) { //如果差小于等于0  也就是过期或者正好过期，则推出程序  
+        document.getElementById('js').innerHTML = document.getElementById('hj').innerHTML;
+        document.getElementById('js1').innerHTML = document.getElementById('hj').innerHTML;
+        clearInterval(window['ttt']); //清除计时器  
+		clearInterval(window['sss']); //清除计时器 
+		clearInterval(window['ddd']); //清除计时器  
+        return; //结束执行  
+    }
+
+    d = parseInt(c / 1000 / 60 / 60 / 24), //总毫秒除以一天的毫秒 得到相差的天数  
+	h = parseInt(c / 1000 / 60 / 60 - (24 * d)), //然后取完天数之后的余下的毫秒数再除以每小时的毫秒数得到小时 
+	m = parseInt(c / 1000 / 60 - (24 * 60 * d) - (60 * h)), //减去天数和小时数的毫秒数剩下的毫秒，再除以每分钟的毫秒数，得到分钟数 
+	s = parseInt(c / 1000 - (24 * 60 * 60 * d) - (60 * 60 * h) - (60 * m)); //得到最后剩下的毫秒数除以1000 就是秒数，再剩下的毫秒自动忽略即可
+	hm = Math.floor((c - (24 * 60 * 60 * 1000 * d) - (60 * 60 * 1000 * h) - (60 * 1000 * m) - (s * 1000)) / 10);
+    if (hm < 10) {
+        hm = "0" + hm;
+    }
+    if (s < 10) {
+        s = "0" + s;
+    }
+    if (m < 10) {
+        m = "0" + m;
+    }
+    if (h < 10) {
+        h = "0" + h;
+    }
+    //document.getElementById('timer').innerHTML = '距离2118年10月1日还有：' + d + '天' + h + '小时' + m + '分钟' + s + '秒' + hm + '毫秒'; //最后这句讲定义好的显示 更新到 ID为 timer的 div中
+	document.getElementById('timer').innerHTML = '<i class="js_count_h">' + h + '</i> 时 <i class="js_count_m">' + m + '</i> 分 <i class="js_count_s">' + s + '</i> 秒 <i class="js_count_s">' + hm + '</i> ';
+	//document.getElementById('timer2').innerHTML = '<i class="js_count_d" id="timer">' + d + '</i> 天 <i class="js_count_h">' + h + '</i> 时 <i class="js_count_m">' + m + '</i> 分 <i class="js_count_s">' + s + '</i> 秒 <i class="js_count_s">' + hm + '</i> ';
+}
+function TimeTo2(dd) {
+	
+    var t = new Date(dd), //取得指定时间的总毫秒数  
+        n = new Date().getTime(), //取得当前毫秒数  
+        c = t - n; //得到时间差
+    //w = (t - n)*1000;//得到时间差
+	//alert(t)
+    if (c <= 0) { //如果差小于等于0  也就是过期或者正好过期，则推出程序  
+        document.getElementById('js').innerHTML = document.getElementById('hj').innerHTML;
+        document.getElementById('js1').innerHTML = document.getElementById('hj').innerHTML;
+        clearInterval(window['ttt']); //清除计时器  
+		clearInterval(window['sss']); //清除计时器 
+		clearInterval(window['ddd']); //清除计时器  
+        return; //结束执行  
+    }
+
+    d = parseInt(c / 1000 / 60 / 60 / 24), //总毫秒除以一天的毫秒 得到相差的天数  
+	h = parseInt(c / 1000 / 60 / 60 - (24 * d)), //然后取完天数之后的余下的毫秒数再除以每小时的毫秒数得到小时 
+	m = parseInt(c / 1000 / 60 - (24 * 60 * d) - (60 * h)), //减去天数和小时数的毫秒数剩下的毫秒，再除以每分钟的毫秒数，得到分钟数 
+	s = parseInt(c / 1000 - (24 * 60 * 60 * d) - (60 * 60 * h) - (60 * m)); //得到最后剩下的毫秒数除以1000 就是秒数，再剩下的毫秒自动忽略即可
+	hm = Math.floor((c - (24 * 60 * 60 * 1000 * d) - (60 * 60 * 1000 * h) - (60 * 1000 * m) - (s * 1000)) / 10);
+    if (hm < 10) {
+        hm = "0" + hm;
+    }
+    if (s < 10) {
+        s = "0" + s;
+    }
+    if (m < 10) {
+        m = "0" + m;
+    }
+    if (h < 10) {
+        h = "0" + h;
+    }
+    //document.getElementById('timer').innerHTML = '距离2118年10月1日还有：' + d + '天' + h + '小时' + m + '分钟' + s + '秒' + hm + '毫秒'; //最后这句讲定义好的显示 更新到 ID为 timer的 div中
+	//document.getElementById('timer').innerHTML = '<i class="js_count_d" id="timer">' + d + '</i> 天 <i class="js_count_h">' + h + '</i> 时 <i class="js_count_m">' + m + '</i> 分 <i class="js_count_s">' + s + '</i> 秒 <i class="js_count_s">' + hm + '</i> ';
+	document.getElementById('timer2').innerHTML = '<i class="js_count_h">' + h + '</i> 时 <i class="js_count_m">' + m + '</i> 分 <i class="js_count_s">' + s + '</i> 秒 <i class="js_count_s">' + hm + '</i> ';
+}
+function TimeTo3(dd) {
+	
+    var t = new Date(dd), //取得指定时间的总毫秒数  
+        n = new Date().getTime(), //取得当前毫秒数  
+        c = t - n; //得到时间差
+    //w = (t - n)*1000;//得到时间差
+	//alert(t)
+    if (c <= 0) { //如果差小于等于0  也就是过期或者正好过期，则推出程序  
+        document.getElementById('js').innerHTML = document.getElementById('hj').innerHTML;
+        document.getElementById('js1').innerHTML = document.getElementById('hj').innerHTML;
+        clearInterval(window['ttt']); //清除计时器  
+		clearInterval(window['sss']); //清除计时器
+		clearInterval(window['ddd']); //清除计时器  
+        return; //结束执行  
+    }
+
+    d = parseInt(c / 1000 / 60 / 60 / 24), //总毫秒除以一天的毫秒 得到相差的天数  
+	h = parseInt(c / 1000 / 60 / 60 - (24 * d)), //然后取完天数之后的余下的毫秒数再除以每小时的毫秒数得到小时 
+	m = parseInt(c / 1000 / 60 - (24 * 60 * d) - (60 * h)), //减去天数和小时数的毫秒数剩下的毫秒，再除以每分钟的毫秒数，得到分钟数 
+	s = parseInt(c / 1000 - (24 * 60 * 60 * d) - (60 * 60 * h) - (60 * m)); //得到最后剩下的毫秒数除以1000 就是秒数，再剩下的毫秒自动忽略即可
+	hm = Math.floor((c - (24 * 60 * 60 * 1000 * d) - (60 * 60 * 1000 * h) - (60 * 1000 * m) - (s * 1000)) / 10);
+    if (hm < 10) {
+        hm = "0" + hm;
+    }
+    if (s < 10) {
+        s = "0" + s;
+    }
+    if (m < 10) {
+        m = "0" + m;
+    }
+    if (h < 10) {
+        h = "0" + h;
+    }
+    //document.getElementById('timer').innerHTML = '距离2118年10月1日还有：' + d + '天' + h + '小时' + m + '分钟' + s + '秒' + hm + '毫秒'; //最后这句讲定义好的显示 更新到 ID为 timer的 div中
+	//document.getElementById('timer').innerHTML = '<i class="js_count_d" id="timer">' + d + '</i> 天 <i class="js_count_h">' + h + '</i> 时 <i class="js_count_m">' + m + '</i> 分 <i class="js_count_s">' + s + '</i> 秒 <i class="js_count_s">' + hm + '</i> ';
+	document.getElementById('timer3').innerHTML = '<i class="js_count_h">' + h + '</i> 时 <i class="js_count_m">' + m + '</i> 分 <i class="js_count_s">' + s + '</i> 秒 <i class="js_count_hm">' + hm + '</i> ';
+}
+(function() {
+	var curDate = new Date();
+	var preDate = new Date(curDate.getTime() + 1.73*60*60*1000);
+	//var testStr = preDate.format("yyyy/MM/dd hh:mm:ss:S");
+
+    window['ttt'] = setInterval(function() {
+        TimeTo(preDate); //定义倒计时的结束时间，注意格式  
+    }, 50); //定义计时器，每隔1000毫秒 也就是1秒 计算并更新 div的显示  
+	window['sss'] = setInterval(function() {
+        TimeTo2(preDate); //定义倒计时的结束时间，注意格式  
+    }, 50); //定义计时器，每隔1000毫秒 也就是1秒 计算并更新 div的显示  
+	window['ddd'] = setInterval(function() {
+        TimeTo3(preDate); //定义倒计时的结束时间，注意格式  
+    }, 50); //定义计时器，每隔1000毫秒 也就是1秒 计算并更新 div的显示  
+})();
+</script>
+<script type="text/javascript">
+    var textDiv = document.getElementById("rollText");
+    if(textDiv != null){
+        var textList = textDiv.getElementsByTagName("a");
+        //var height = $('.news_msg').height();
+		var height = 25;
+
+        if (textList.length > 1) {
+            var textDat = textDiv.innerHTML;
+            var br = textDat.toLowerCase().indexOf("<br", textDat.toLowerCase().indexOf("<br") + 3);
+            //var textUp2 = textDat.substr(0,br);
+            textDiv.innerHTML = textDat + textDat.substr(0, br);
+            textDiv.style.cssText = "position:absolute; top:0";
+            var textDatH = textDiv.offsetHeight;
+            MaxRoll();
+        }
+    }
+    var minTime, maxTime, divTop, newTop = 0;
+    function MinRoll() {
+        newTop++;
+        if (newTop <= divTop + height) {
+            textDiv.style.top = "-" + newTop + "px";
+        } else {
+            clearInterval(minTime);
+            maxTime = setTimeout(MaxRoll, 3000);
+        }
+    }
+
+    function MaxRoll() {
+       divTop = Math.abs(parseInt(textDiv.style.top));
+        if (divTop >= 0 && divTop < textDatH - height) {
+            minTime = setInterval(MinRoll, 1);
+        } else {
+            textDiv.style.top = 0;
+            divTop = 0;
+            newTop = 0;
+            MaxRoll();
+        }
+    }
+
+	var textDiv2 = document.getElementById("rollText2");
+    if(textDiv2 != null){
+        var textList2 = textDiv2.getElementsByTagName("a");
+        //var height2 = $('.news_msg').height();
+		var height2 = 25;
+        if (textList2.length > 1) {
+            var textDat2 = textDiv2.innerHTML;
+            var br = textDat2.toLowerCase().indexOf("<br", textDat2.toLowerCase().indexOf("<br") + 3);
+            //var textUp2 = textDat.substr(0,br);
+            textDiv2.innerHTML = textDat2 + textDat2.substr(0, br);
+            textDiv2.style.cssText = "position:absolute; top:0";
+            var textDatH2 = textDiv2.offsetHeight;
+            MaxRoll2();
+        }
+    }
+    var minTime2, maxTime2, divTop2, newTop2 = 0;
+    function MinRoll2() {
+        newTop2++;
+        if (newTop2 <= divTop2 + height2) {
+            textDiv2.style.top = "-" + newTop2 + "px";
+        } else {
+            clearInterval(minTime2);
+            maxTime2 = setTimeout(MaxRoll2, 3000);
+        }
+    }
+
+    function MaxRoll2() {
+       divTop2 = Math.abs(parseInt(textDiv2.style.top));
+        if (divTop2 >= 0 && divTop2 < textDatH2 - height2) {
+            minTime2 = setInterval(MinRoll2, 1);
+        } else {
+            textDiv2.style.top = 0;
+            divTop2 = 0;
+            newTop2 = 0;
+            MaxRoll2();
+        }
+    }
+
+	var textDiv3 = document.getElementById("rollText3");
+    if(textDiv3 != null){
+        var textList3 = textDiv3.getElementsByTagName("a");
+        var height3 = $('.news_msg').height();
+        if (textList3.length > 1) {
+            var textDat3 = textDiv3.innerHTML;
+            var br = textDat3.toLowerCase().indexOf("<br", textDat3.toLowerCase().indexOf("<br") + 3);
+            //var textUp3 = textDat.substr(0,br);
+            textDiv3.innerHTML = textDat3 + textDat3.substr(0, br);
+            textDiv3.style.cssText = "position:absolute; top:0";
+            var textDatH3 = textDiv3.offsetHeight;
+            MaxRoll3();
+        }
+    }
+    var minTime3, maxTime3, divTop3, newTop3 = 0;
+    function MinRoll3() {
+        newTop3++;
+        if (newTop3 <= divTop3 + height3) {
+            textDiv3.style.top = "-" + newTop3 + "px";
+        } else {
+            clearInterval(minTime3);
+            maxTime3 = setTimeout(MaxRoll3, 3000);
+        }
+    }
+
+    function MaxRoll3() {
+       divTop3 = Math.abs(parseInt(textDiv3.style.top));
+        if (divTop3 >= 0 && divTop3 < textDatH3 - height3) {
+            minTime3 = setInterval(MinRoll3, 1);
+        } else {
+            textDiv3.style.top = 0;
+            divTop3 = 0;
+            newTop3 = 0;
+            MaxRoll3();
+        }
+    }
+    // var promotion_time = "<{$goods_info.promotion_time}>";
+    // setInterval(function(){ countDown(promotion_time.replace(/\-/ig, '/')); }, 30);
+    function getScrollTop(){
+        var scrollTop=0;
+        if(document.documentElement&&document.documentElement.scrollTop){
+            scrollTop=document.documentElement.scrollTop;
+        }else if(document.body){
+            scrollTop=document.body.scrollTop;
+        }
+        return scrollTop;
+    }
+    $(function(){
+        var scroll_top = 0;
+
+        //查看更多评论
+        $('.js_show_more').on('click', function () {
+            $('.custormer_comments ul li').removeClass('hide');
+            $(this).hide().siblings('a').show();
+            //_hmt.push(['_trackEvent', 'details', 'click', 'details_comment']);
+        })
+        //收起更多评论
+        $('.js_hide_more').on('click', function () {
+            var li = $('.custormer_comments ul li');
+            for (var i = 0; i < li.length; i++) {
+                if (i > 4) {
+                    li.eq(i).addClass('hide');
+                }
+            }
+            $(this).hide().siblings('a').show();
+        })
+        //选择套餐/尺寸
+        $('.js_select li').on('click', function () {
+            var _this   = $(this),
+                _parent = _this.parents('div');
+            _this.addClass('on').siblings('li').removeClass('on');
+            var html = _this.find('span').html();
+            var price = _this.find('label').html();
+            var combo_style = _this.attr('combo-style');
+            if (_parent.hasClass('js_size_select')) {
+                //_hmt.push(['_trackEvent', 'details', 'click', 'details_xuanze_2']);
+                $('.js_selected span.size').html(html);
+            } else if (_parent.hasClass('js_meal_select')) {
+                //_hmt.push(['_trackEvent', 'details', 'click', 'details_xuanze_1']);
+                $('.js_selected span.meal').html(html);
+                $('.js_price span').html(price);
+                $('.pro_img').html('<div class="combo_pic_'+combo_style+'"></div>');
+                single_price = price;
+            }
+            count_price(init_count, single_price);
+        })
+       
+
+		 $('.liclick').on('click', function () {
+           var combo    = $("#combo").find('li.on').attr('data-combo');
+			$('#type').val(combo);
+        })
+		function checkPhone(phone) {
+			if (!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(phone))) {
+				return false;
+			}
+		}
+
+		//只允许输入数字
+		function digit(that) {
+			var val = $(that).val();
+			$(that).val(val.replace(/\D/g, ''));
+		}
+        //确定
+        $('.js_confirm').on('click', function () {
+            if ($('.js_select li.on').length < 1) {
+                pop_tips({type : '2', msg : '套餐忘记选了，上滑选择套餐'});
+            } else {
+				var name        = $.trim($('.js_user_name').val());
+				var phone       = $.trim($('.js_user_tel').val());
+				var province    = $.trim($("#province option:selected").val());
+				var city        = $.trim($("#city option:selected").val());
+				var district    = $.trim($("#area option:selected").val());
+				var address     = $.trim($('.js_user_address').val());
+            if (name == '') {
+                pop_tips({
+                    type: '2',
+                    msg: '收货人不能为空'
+                });
+                return false;
+            } else if (name.length > 10) {
+                pop_tips({
+                    type: '2',
+                    msg: '收货人信息输入过长'
+                });
+                return false;
+            }
+            if (phone == '') {
+                pop_tips({
+                    type: '2',
+                    msg: '手机号码不能为空'
+                });
+                return false;
+            } else if (checkPhone(phone) == false) {
+                pop_tips({
+                    type: '2',
+                    msg: '手机号码输入有误'
+                });
+                return false;
+            }
+
+            if (province == '') {
+                pop_tips({
+                    type: '2',
+                    msg: '请选择省份'
+                });
+                return false;
+            }
+
+            if (city == '') {
+                pop_tips({
+                    type: '2',
+                    msg: '请选择城市'
+                });
+                return false;
+            }
+            if (district == '') {
+                pop_tips({
+                    type: '2',
+                    msg: '请选择区域'
+                });
+                return false;
+            }
+
+            if (address == '') {
+                pop_tips({
+                    type: '2',
+                    msg: '详细地址不能为空'
+                });
+                return false;
+            } else if (address.length > 50) {
+                pop_tips({
+                    type: '2',
+                    msg: '详细地址信息输入过长'
+                });
+                return false;
+            }
+			document.wfform.submit();
+			return true;	
+            }
+        })
+    })
+
+
+	$(window).scroll(function(){
+		// 当滚动到最底部以上300像素时， 加载新内容
+	
+		if ($(document).height() - $(this).scrollTop() - $(this).height()<$("#ifd").height() - $("#xs").height()) {
+			setTimeout(function(){document.getElementById("smenu").style.display ="none";},100);
+			$('.index_box').css("padding-bottom",0);
+		}else{
+			setTimeout(function(){document.getElementById("smenu").style.display ="block";},100);
+			$('.index_box').css("padding-bottom","1.25rep");
+		}
+	});
+</script>
+<script type="text/javascript">
+(function () {
+	try {
+		var videoIframes = $("iframe"),
+		w = document.querySelector('.wrapper').clientWidth,//document.body.clientWidth - 20,
+		//视频高度为屏幕宽度的0.76
+		h = Math.round(w * 0.8);
+		//if(w>540){w=540;h=432;}
+		for (var i = 0, len = videoIframes.length; i < len; i++) {
+			
+			var videoIframe = videoIframes[i],
+					src = videoIframe.src;
+			videoIframe.src = src.replace(/width=(\d+)/, function () {
+				return arguments[0].replace(arguments[1], w);
+			}).replace(/height=(\d+)/, function () {
+				return arguments[0].replace(arguments[1], h);
+			});
+			if(i==0){
+				videoIframe.height = h;
+			}else{
+				videoIframe.height = 1950*(w/540)+20;
+			}
+			videoIframe.width = w;
+		}
+	} catch (e) {
+	}
+})();
+</script>
+
+</body></html>

@@ -1,0 +1,2020 @@
+<!DOCTYPE html><html class=""><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <title>
+        	AU商城 — 劲舞团商城        	</title>
+        <link href="/static/css/badge_home.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/fancybox.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/badge_basic.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/commonZ.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/content.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/quickSetting.css" rel="stylesheet" type="text/css">
+        <link href="/static/css/datepicker.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="http://www.9you.com/common/fancybox/jquery.fancybox.css" media="screen">
+        <script src="//hm.baidu.com/hm.js?318913ec24a62098e53f6b81df3e7520"></script><script language="javascript" type="text/javascript" src="http://www.9you.com/common/js/jquery.js"></script>
+        <script type="text/javascript" src="http://www.9you.com/common/fancybox/jquery.fancybox.pack.js"></script>
+		<script language="javascript" type="text/javascript" src="/static/js/commonZ.js"></script>
+        <script language="javascript" type="text/javascript" src="/static/js/server.js"></script>
+        <script language="javascript" type="text/javascript" src="/static/js/payCar.js"></script>
+        <script language="javascript" type="text/javascript" src="/static/js/cart.js"></script>
+        <script language="javascript" type="text/javascript" src="/static/js/datepicker.js"></script>
+        <script language="javascript" type="text/javascript" src="/static/js/ups.js"></script>
+        <script language="javascript" type="text/javascript" src="/static/js/ready.js"></script>
+        <script language="javascript" type="text/javascript" src="/static/js/jquery.cookie.js"></script>
+        <script type="text/javascript">
+            var BASE_URL = 'http://shop.9you.com';
+            var STATIC_URL = '';
+        </script>
+        <!--[if IE 6]>
+        <script type="text/javascript">
+        alert('部分功能不支持IE6，请升级您的浏览器');
+        </script>
+        <![endif]-->
+    <style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+    <body>
+
+        <div id="phbFrame2" style="display:none;">
+            <div id="phbTop2"></div>
+            <div id="phbContent2"></div>
+            <div id="phbDown2"></div>
+        </div>
+        <div id="HEADER" class="header">
+            <div class="menuBox">
+                <div class="menuMain">
+                    <h6><img src="/static/images/laba.gif">
+                        <marquee scrolldelay="150"><a style="color:white" href="http://shop.9you.com/show/active/name/LiveLong1604">漫漫爱情路-情侣成长历程</a>&nbsp;&nbsp;<a style="color:white" href="http://shop.9you.com/babynickcard">宝贝昵称修改卡</a>&nbsp;&nbsp;</marquee>
+                    </h6>
+                    <p>
+                        <span class="XLweibo"></span>
+                        <a href="http://weibo.com/au9you" target="_blank">新浪微博</a>
+                        <span class="line"></span>
+                        <span class="TXweibo"></span>
+                        <a href="http://t.qq.com/au_9you" target="_blank">腾讯微博</a>
+                        <span class="line"></span>
+                        <a href="http://au.9you.com/event/nineyearsold/quickreghtml/" target="_blank">注册通行证</a>
+                        <span class="line"></span>
+                        <a href="https://passport.9you.com/login.php" target="_blank">通行证管理</a>
+                        <span class="line"></span>
+                        <a href="http://kefu.9you.com/" target="_blank">客服中心</a>
+                    </p>
+                </div>
+            </div>
+            <div class="menuMain">
+                <div class="cb20"></div>
+                <a href="http://shop.9you.com" class="logBtn">劲舞商城</a>
+                <div class="searchBox">
+                    <div class="search">
+                        <input type="text" id="searchDatahead" onkeydown="enterIn(event);" value="">
+                        <a class="ss" onclick="searchItemHead();" style="cursor: pointer">搜索</a>
+                        <div class="cb5"></div>
+                    </div>
+                    <div class="cb5"></div>
+                </div>
+                <div class="cb20"></div>
+                <div class="navBox">
+                    <a href="javascript:void(0);" id="prop" class="prop">道具分类</a>
+                    <div class="nav">
+                        <a href="http://shop.9you.com">商城首页</a>
+                        <a href="http://shop.9you.com/active">商城主题活动</a>
+
+                                                 <a href="http://shop.9you.com/show/active/name/OnlineMay2018">五月在线</a>
+                                                <a href="http://au.9you.com/web_v6/" target="_blank">劲舞团官网</a>
+                        <a href="http://uhg.9you.com/" target="_blank">游乐会</a>
+                        <a href="http://bbs.9you.com/forum.php?mod=forumdisplay&amp;fid=112" target="_blank">劲舞论坛</a>
+                    </div>
+                    <a href="http://shop.9you.com/cart/index" onmouseover="$(this).GetCartInfo();"><h4>我的购物车<span id="itemCount">0</span>件</h4></a>
+                </div>
+            </div>
+        </div>
+<script type="text/javascript">
+    function searchItemHead(){
+		var searchDataHead = $('#searchDatahead').val();
+	    var link = "http://shop.9you.com/item/list/type/search_item_all_1?kw="+searchDataHead;
+	    window.location.href = link;
+	    return false;
+    }
+function enterIn(evt){
+  var evt=evt?evt:(window.event?window.event:null);//兼容IE和FF
+  if (evt.keyCode==13){
+	searchItemHead()
+}
+}
+</script><style>
+    .productRec dl.hidetips,.productRec dl.showtips{overflow:hidden;}
+    .productRec dl{overflow:auto;}
+    .fly1 img,.fly2 img{width:20px; height:19px; border:0;}
+    .productRec dl dt.fly1,.productRec dl dt.fly2{width:112px; height:44px;}
+    .productRec dl.hidetips dd h6 span{color:#DB286F;}
+</style>
+<div class="cb10"></div>
+<div class="main">
+    <div class="bodLeft">
+            <div class="loginBox">
+            <a href="http://shop.9you.com/sso/login" target="_self" class="loginBtn">用户登录</a>
+            <h5>劲舞团商城折扣多多，惊喜连连！</h5>    
+            <div class="cb10"></div>
+        </div>
+        <div class="cb0"></div>
+<div id="leftNavCan">   
+    <div id="leftNav">
+        <ul>
+           <!-- <li><a href="http://shop.9you.com/badge" >劲舞徽章专区</a></li>
+            <li><a href=" http://shop.9you.com/show/active/name/Static0603" ><font color='red'><strong>经验三折！HOT!</strong></font></a></li>
+           
+          <li><a href="http://shop.9you.com/wabp" target="_blank">手机礼包</a></li>   
+            <li><a href="http://shop.9you.com/show/tqlb2014" target="_blank">2015特权专区</a></li>
+            <li><a href="http://shop.9you.com/show/tqlb" >2014特权专区</a></li>
+            <li><a href="http://shop.9you.com/show/active/name/YlhGift0831 " >游乐会礼遇卡</a></li>
+            <li><a href="http://shop.9you.com/rank" >百分百风云排行榜</a></li>
+            <li><a href="http://shop.9you.com/vip" >劲舞商城会员专区</a></li>
+            <li><a href="http://shop.9you.com/nickcard" >昵称修改专区</a></li>
+            <li><a href="http://shop.9you.com/skin" >皮肤换色专区</a></li>
+            <li><a href="http://shop.9you.com/star/pay/" target="_blank">劲舞星秀钻充值</a></li>
+            <li><a href="http://shop.9you.com/active2/hornMarquee" target="_blank">真爱币充值</a></li>
+            <li><a href="http://shop.9you.com/magic" >魔法城堡兑换</a></li>
+            <li><a href="http://shop.9you.com/guild" >公会系统</a></li>
+            <li><a href="http://shop.9you.com/help" >商城帮助</a></li>
+            -->
+            
+            <li><a class="version1" href="http://pay.9you.com/pay/game/g/4" target="_blank" v="0" style="color:#D834D3;font-weight:bold;font-size:18px;">充  值  ♪(๑ᴖ◡ᴖ๑)♪</a></li>
+            <li><a class="version1" href="javascript:;" v="2">特权礼包专区</a></li>
+            <li><a class="version1" href=" http://shop.9you.com/show/active/name/Static0603" target="_blank" v="0" style="color:#F00;font-weight:bold;">经验三折！HOT!</a></li>
+            <li><a class="version1" href="http://momoda.9you.com" target="_blank" v="0" style="color:#0000FF;font-weight:bold;" title="么么哒">月卡会员(づ￣ 3￣)づ </a></li>
+<!--    
+            <li><a class="version1" href="< ?= BASE_URL ?>/NewDaily/" v="0" style="color:#F00;font-weight:bold;" title="新版日常GO！">新版日常GO！ </a></li>
+-->
+            <li><a class="version1" href="javascript:;" v="4" style="color:#5500FF;font-weight:bold;" title="13周年庆">13周年庆</a></li>
+            <li><a class="version1" target="_blank" href="http://shop.9you.com/show/active/name/ThirteenAnniversary180515" v="13" style="color:#5500FF;font-weight:bold;" title="13周年庆">13周年庆专题页</a></li>
+
+            <li><a class="version1" href="javascript:;" target="_blank" v="5">徽章收藏、商城会员</a></li>
+            <!-- <li><a class="version1" href="< ?= BASE_URL ?>/vip" target="_blank" v="0">商城会员专区</a></li> -->
+            <li><a class="version1" href="http://shop.9you.com/rank" target="_blank" v="0">百分百风云排行榜</a></li>
+            <li><a class="version1" href="javascript:;" target="_blank" v="7">浪漫爱情&amp;戒指收集</a></li>
+<!--            <li><a class="version1" href="javascript:;" target="_blank" v="9">许愿池</a></li>-->
+
+            <li><a class="version1" href="javascript:;" v="8">昵称、肤色更改</a></li>
+            <li><a class="version1" href="http://shop.9you.com/yzone/main" target="_blank" style="color:#F00;font-weight:bold;">我型我秀</a></li>
+            <li><a class="version1" href="http://shop.9you.com/active2/hornMarquee" target="_blank" v="0">真爱币充值</a></li>
+            <li><a class="version1" href="javascript:;" target="_blank" v="11">公会、星秀钻</a></li>
+            <li><a class="version1" href="javascript:;" v="12">商城帮助&amp;新人说明书</a></li>
+                
+        </ul>
+    </div>
+<div id="leftMenuBox"> 
+            <div class="_2 lm " style="display:none;">
+                <a href="http://shop.9you.com/show/active/name/Tqlb201711" target="_blank" class="bigSub2">2017冬季特权礼包专区</a>
+                <a href="http://shop.9you.com/show/active/name/Tqlb201611" target="_blank" class="bigSub2">2016冬季特权礼包专区</a>
+                <a href="http://shop.9you.com/show/active/name/Gift160718" target="_blank" class="bigSub2">2016夏季特权礼包专区</a>
+            	<a href="http://shop.9you.com/show/tqlb2015" target="_blank" class="bigSub2">2015冬季特权礼包专区</a>
+          		<a href="http://shop.9you.com/show/active/name/PrivilegeGift" target="_blank" class="bigSub2">2015夏季特权礼包专区</a>
+            	<a href="http://shop.9you.com/show/tqlb2014" target="_blank" class="bigSub2">2014冬季特权礼包专区</a>
+            	<a href="http://shop.9you.com/show/tqlb" target="_blank" class="bigSub2">2013冬季特权礼包专区</a>
+            </div>
+
+            <div class="_4 lm " style="display:none;">
+              <a href="http://shop.9you.com/show/active/name/Entrance20180425" target="_blank" class="bigSub2">13周年庆系列活动</a>
+<!--              <a href="--><!--/show/active/name/ThirteenAnniversary180515" target="_blank" class="bigSub2">13周年庆主题页</a>-->
+            </div>
+
+            <div class="_5 lm " style="display:none;">
+<!--            	<a href="--><!--/show/active/name/SpecialBadge160219" target="_blank" class="bigSub2">特约徽章专区</a>-->
+            	<a href="http://shop.9you.com/badge" target="_blank" class="bigSub2">徽章收藏专区</a>
+            	<a href="http://shop.9you.com/vip" target="_blank" class="bigSub2">商城会员专区</a>
+            </div>
+            <div class="_7 lm " style="display:none;">
+              <a href="http://shop.9you.com/show/active/name/LiveLong1708" target="_blank" class="bigSub2">漫漫爱情路</a>
+                <a href="http://shop.9you.com/show/active/name/RingCollect180328" target="_blank" class="bigSub2">浪漫戒指收集</a>
+            </div>
+<!--            <div  class="_9 lm " style="display:none;">-->
+<!--            	<a href="--><!--/show/active/name/Wish160317" target="_blank" class="bigSub2">许愿池</a>-->
+<!--            </div>-->
+            <div class="_8 lm" style="display:none;">
+    			<a href="http://shop.9you.com/nickcard" target="_blank" class="bigSub2">昵称修改专区</a>
+                <a href="http://shop.9you.com/babynickcard" target="_blank" class="bigSub2">宝贝昵称修改专区</a>
+            	<a href="http://shop.9you.com/skin" target="_blank" class="bigSub2">皮肤换色专区</a>  
+              <a href="http://shop.9you.com/babyskin" target="_blank" class="bigSub2">宝贝皮肤换色专区</a>
+              	<a href="http://shop.9you.com/babycharacter" target="_blank" class="bigSub2">宝贝性格更换专区</a>
+            </div>
+            
+            <div class="_11 lm" style="display:none;">
+    			<!-- <a href="http://shop.9you.com/magic" target="_blank" class="bigSub2">魔法城堡专区</a> -->
+            	<a href="http://shop.9you.com/guild" target="_blank" class="bigSub2">公会系统</a>
+            	<a href="http://shop.9you.com/star/pay/" target="_blank" class="bigSub2">星秀钻充值</a>    
+            </div>
+
+            <div class="_12 lm" style="display:none;">
+              <a href="http://shop.9you.com/help" target="_blank" class="bigSub2">商城帮助</a>
+              <a href="http://shop.9you.com/show/active/name/NewbieTask2017" target="_blank" class="bigSub2">新人说明书</a>    
+            </div>
+
+	</div>
+    </div>    
+</div>
+<script type="text/javascript">
+    function give() {
+        $.ajax({
+            type: "get",
+            url: "http://shop.9you.com/user/giveInfoMessage",
+            data: "",
+            dataType: "html",
+            success: function(data) {
+                if (isNaN(data)) {
+                    return false;
+                }
+                $("#give").html(data);
+            }
+        });
+    }
+    give();
+	
+$(document).ready(function setLeftMenu(){
+   $("#leftNavCan").mouseleave(function(){
+	   $(".lm").hide();
+	   
+	   $("#leftNav a").removeClass("now");
+	   	if($(this).attr("v") == 0){
+			return false ;	
+		}
+	});
+	$("#leftNav a").mouseover(function(){
+		$("#leftNav a").removeClass("now");
+		$(".lm").hide();
+		if($(this).attr("v") == 0){
+			return false ;	
+		}else{
+			$(this).addClass("now");
+			$("._" + $(this).attr("v")).show();	
+		}
+		
+	
+  });
+});
+</script>
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>计算</title>
+    <link rel="stylesheet" type="text/css" href="/static/counter/css/counter.css">
+<!--    <script type="text/javascript" language="javascript" src="/static/counter/js/jquery.min.js"></script>-->
+
+
+<!--<div class="layer" style="display:none"></div>-->
+<div class="calculator" style="display:none">
+    <ul class="navcounter">
+        <li class="navcounter1 active"></li>
+        <li class="navcounter2"></li>
+    </ul>
+    <div class="tanc1" onmouseover="isOut=false" onmouseout="isOut=true">
+        <a href="javascript:hideTanc();" title="关闭" class="close-x"></a>
+        <div class="input1 color1 input" style="margin-top:53px;">
+            <span>购买数量</span>
+            <input type="text">
+            <span style="color:#ff2d50;">M币</span>
+        </div>
+        <div class="input2 color1 input">
+            <span>购买折扣</span>
+            <input type="text" value="">
+            <span style="color:#cccccc;">85折请填写85，留空为无折扣</span>
+        </div>
+        <div class="input3 color1 input">
+            <span>人物等级</span>
+            <input type="text" disabled="disabled" placeholder="1">
+        </div>
+        <div class="input4 color1 input">
+            <span>人物经验</span>
+            <input type="text" placeholder="0">
+            <span style="color:#cccccc;">默认为填写等级0经验状态</span>
+        </div>
+        <div class="input5 color2 input" style="margin-top:26px;">
+            <span>实际支付M币</span>
+            <input type="text" disabled="disabled">
+        </div>
+        <div class="input6 color2 input">
+            <span>获得经验数量</span>
+            <input type="text" disabled="disabled">
+        </div>
+        <div class="input7 color2 input">
+            <span>等级将提升至</span>
+            <input class="ipt1" type="text" disabled="disabled">级<input class="ipt2" type="text" disabled="disabled">
+            <span>经验</span>
+        </div>
+        <a class="t1_btn counter_t1_btn" href="javascript:;" title="换算"></a>
+    </div>
+
+    <div class="tanc2" style="display:none;" onmouseover="isOut=false" onmouseout="isOut=true">
+        <a href="javascript:hideTanc();" title="关闭" class="close-x"></a>
+        <div class="input1 color1 input" style="margin-top:53px;">
+            <span>购买数量</span>
+            <input type="text">
+            <span style="color:#ff2d50;">M币</span>
+        </div>
+        <div class="input2 color1 input">
+            <span>购买折扣</span>
+            <input type="text">
+            <span style="color:#cccccc;">85折请填写85，留空为无折扣</span>
+        </div>
+        <div class="input3 color1 input">
+            <span>情侣等级</span>
+            <input type="text" disabled="disabled" placeholder="1">
+        </div>
+        <div class="input4 color1 input">
+            <span>情侣经验</span>
+            <input type="text" placeholder="0">
+            <span style="color:#cccccc;">默认为填写等级0经验状态</span>
+        </div>
+        <div class="input5 color2 input" style="margin-top:26px;">
+            <span>实际支付M币</span>
+            <input type="text" disabled="disabled">
+        </div>
+        <div class="input6 color2 input">
+            <span>获得情侣经验数量</span>
+            <input type="text" disabled="disabled">
+        </div>
+        <div class="input7 color2 input">
+            <span>情侣等级将提升至</span>
+            <input class="ipt1" type="text" disabled="disabled">级<input class="ipt2" type="text" disabled="disabled">
+            <span>情侣经验</span>
+        </div>
+        <a class="t2_btn counter_t2_btn" href="javascript:;" title="换算"></a>
+    </div>
+</div>
+<script type="text/javascript" language="javascript" src="/static/counter/js/counter.js"></script>
+
+<script type="text/javascript">
+    function hideTanc(){
+
+        $(".calculator").hide("fast");
+        $(".layer").remove();
+    }
+    $(".navcounter1").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+        $(".tanc1").show();
+        $(".tanc2").hide();
+    })
+    $(".navcounter2").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+        $(".tanc2").show();
+        $(".tanc1").hide();
+    })
+    $('.counter_t1_btn').click(
+       function(){
+           $.ajax({
+               type: "POST",
+               url: '/Showcounter/index',
+               data:{'action':2},
+               dataType: "json",
+               success: function (data) {
+
+               }
+           });
+       }
+    );
+    $('.counter_t2_btn').click(
+      function(){
+          $.ajax({
+              type: "POST",
+              url: '/Showcounter/index',
+              data:{'action':3},
+              dataType: "json",
+              success: function (data) {
+
+              }
+          });
+      }
+    );
+</script>
+
+
+
+
+
+
+
+
+    <div class="cb"></div>
+
+    <div class="itemsNav">
+           <ul class="nav_d">
+                 <li class="tit">道具分类：</li>
+                 <li class="list">
+						<a href="javascript:showItemsNav(1,'/item/list/type/latest_all_all_1');" class="off">新品专区</a>
+						<a href="javascript:showItemsNav(2,'/item/list/type/common_all_all_1');" class="off">普通道具</a>
+						<a href="javascript:showItemsNav(3,'/item/list/type/fly_all_all_1');" class="off">飞行专区</a>
+						<!-- <a href="javascript:showItemsNav(4,'/item/list/type/chunjie_all_all_1');" class="off">迎春专区</a> -->
+						<a href="javascript:showItemsNav(4,'/item/list/type/buddy_all_all_1');" class="off">个人花园</a>
+						<a href="javascript:showItemsNav(5,'/item/list/type/lovers_all_all_1');" class="off">情侣专区</a>
+						<a href="javascript:showItemsNav(6);" class="off">家族专区</a>
+						<a href="javascript:showItemsNav(7,'/item/list/type/brand_all_all_1');" class="off">品牌专区</a>
+						<a href="javascript:showItemsNav(8,'/item/list/type/general_all_all_1');" class="off">通用道具</a>
+						<a href="javascript:showItemsNav(9,'/item/list/type/Gitem_all_all_1');" class="off">G币道具</a>
+						<a href="javascript:showItemsNav(10,'/item/list/type/Composite_all_all_1');" class="off">综合专区</a>
+						<a href="javascript:showItemsNav(11,'/item/list/type/bbsalon_all_all_1');" class="off">宝贝沙龙</a>
+						<a href="javascript:;" class="off" onclick="showCounter()">经验计算器</a>
+                     	<a href="javascript:showItemsNav(13,'/item/list/type/outing_all_all_1');" class="off">踏青专区</a>
+<!--                       <a href="javascript:showItemsNav(11,'/item/list/type/Mobile_all_all_1');" class="off">移动购物专区</a>-->
+                       <!-- <a href="javascript:showItemsNav(11,'/item/list/type/dragon_all_all_1');" class="off">端午专区</a> -->
+                 </li>
+           </ul>
+           <!--新品专区-->
+           <div class="items_detail" id="items_detail_1" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(1,1,'/item/list/type/latest_boy_all_1');" class="off">男生道具</a>
+                           <a href="javascript:showItemsNavdd(1,2,'/item/list/type/latest_girl_all_1');" class="off">女生道具</a>
+                           <a href="javascript:showItemsNavdd(1,3,'/item/list/type/latest_gen_all_1');" class="off">品牌专区</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/latest_boy_hair_1" class="off">发型</a>
+                           <a href="/item/list/type/latest_boy_coat_1" class="off">上衣</a>
+                           <a href="/item/list/type/latest_boy_pants_1" class="off">下衣</a>
+                           <a href="/item/list/type/latest_boy_shoes_1" class="off">鞋子</a>
+                           <a href="/item/list/type/latest_boy_suit_1" class="off">套装</a>
+                           <a href="/item/list/type/latest_boy_face_1" class="off">脸型</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/latest_girl_hair_1" class="off">发型</a>
+                           <a href="/item/list/type/latest_girl_coat_1" class="off">上衣</a>
+                           <a href="/item/list/type/latest_girl_pants_1" class="off">下衣</a>
+                           <a href="/item/list/type/latest_girl_shoes_1" class="off">鞋子</a>
+                           <a href="/item/list/type/latest_girl_suit_1" class="off">套装</a>
+                           <a href="/item/list/type/latest_girl_face_1" class="off">脸型</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/latest_gen_pet_1" class="off">伙伴</a>
+                           <a href="/item/list/type/latest_gen_cloth_1" class="off">服饰</a>
+                           <a href="/item/list/type/latest_gen_held_1" class="off">手持</a>
+                           <a href="/item/list/type/latest_gen_wing_1" class="off">翅膀</a>
+                           <a href="/item/list/type/latest_gen_dj_1" class="off">DJ台</a>
+                           <a href="/item/list/type/latest_gen_card_1" class="off">情侣登记证</a>
+                           <a href="/item/list/type/latest_gen_ring_1" class="off">情侣戒指</a>
+                           <a href="/item/list/type/latest_gen_yueqi_1" class="off">乐器</a>
+                           <a href="/item/list/type/latest_gen_xiezi_1" class="off">鞋子</a>
+                           <a href="/item/list/type/latest_gen_faxin_1" class="off">发型</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--普通道具-->
+           <div class="items_detail" id="items_detail_2" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(2,1,'/item/list/type/common_boy_all_1');" class="off">男生道具</a>
+                           <a href="javascript:showItemsNavdd(2,2,'/item/list/type/common_girl_all_1');" class="off">女生道具</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/common_boy_hair_1" class="off">发型</a>
+                           <a href="/item/list/type/common_boy_coat_1" class="off">上衣</a>
+                           <a href="/item/list/type/common_boy_pants_1" class="off">下衣</a>
+                           <a href="/item/list/type/common_boy_shoes_1" class="off">鞋子</a>
+                           <a href="/item/list/type/common_boy_suit_1" class="off">套装</a>
+                           <a href="/item/list/type/common_boy_face_1" class="off">脸型</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/common_girl_hair_1" class="off">发型</a>
+                           <a href="/item/list/type/common_girl_coat_1" class="off">上衣</a>
+                           <a href="/item/list/type/common_girl_pants_1" class="off">下衣</a>
+                           <a href="/item/list/type/common_girl_shoes_1" class="off">鞋子</a>
+                           <a href="/item/list/type/common_girl_suit_1" class="off">套装</a>
+                           <a href="/item/list/type/common_girl_face_1" class="off">脸型</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--飞行专区-->
+           <div class="items_detail" id="items_detail_3" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(3,1,'/item/list/type/fly_all_all_1');" class="off">飞行专区</a>
+                           <a href="javascript:showItemsNavdd(3,2,'/item/list/type/light_all_all_1')" class="off">光效专区</a>
+                           <a href="javascript:showItemsNavdd(3,3,'/item/list/type/lightFly_all_all_1')" class="off">飞行光效专区</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/fly_all_props_1" class="off">飞行道具</a>
+                           <a href="/item/list/type/fly_all_pet_1" class="off">飞行宠物</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--迎春专区-->
+           <!-- <div class="items_detail" id="items_detail_4" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(4,1,'/item/list/type/chunjie_all_all_1');" class="off">迎春专区</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/chunjie_all_all_1" class="off">迎春专区</a>
+                       </li>
+                  </ul>
+           </div> -->
+           <!--个人花园-->
+           <div class="items_detail" id="items_detail_4" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(5,1,'/item/list/type/buddy_all_all_1');" class="off">花园专区</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/buddy_all_seed_1" class="off">种子</a>
+                           <a href="/item/list/type/buddy_all_decoration_1" class="off">装饰</a>
+                           <a href="/item/list/type/buddy_all_manage_1" class="off">工具</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--情侣专区-->
+           <div class="items_detail" id="items_detail_5" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(6,1,'/item/list/type/lovers_garden_all_1');" class="off">情侣花园</a>
+                           <a href="javascript:showItemsNavdd(6,2,'/item/list/type/lovers_item_all_1');" class="off">情侣道具</a>
+                           <a href="javascript:showItemsNavdd(6,3,'/item/list/type/lovers_gyou_all_1')" class="off">G友专区</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/lovers_garden_seed_1" class="off">种子</a>
+                           <a href="/item/list/type/lovers_garden_decoration_1" class="off">装饰</a>
+                           <a href="/item/list/type/lovers_garden_tool_1" class="off">工具</a>
+                           <a href="/item/list/type/lovers_garden_aid_1" class="off">辅助</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/lovers_item_boy_1" class="off">男生服饰</a>
+                           <a href="/item/list/type/lovers_item_girl_1" class="off">女生服饰</a>
+                           <a href="/item/list/type/lovers_item_ring_1" class="off">情侣戒指</a>
+                           <a href="/item/list/type/lovers_item_reg_1" class="off">情侣登记证</a>
+                           <a href="/item/list/type/lovers_item_room_1" class="off">情侣房间卡</a>
+                           <a href="/item/list/type/lovers_item_pet_1" class="off">情侣宠物</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--家族专区-->
+           <div class="items_detail" id="items_detail_6" style="display:none;">
+                  <ul class="sanji" style="display:;">
+                        <li class="tit">二级分类：</li>
+                        <li class="list" style="display:;">
+                           <a href="javascript:showItemsNavdd(7,1,'/family/create')" class="off">创建家族</a>
+                           <a href="javascript:showItemsNavdd(7,1,'/family/recharge')" class="off">为家族存钱</a>
+                           <a href="javascript:showItemsNavdd(7,1,'/item/list/type/family_item_all_1')" class="off">家族道具</a>
+                           <a href="javascript:showItemsNavdd(7,1,'/family/rename')" class="off">家族改名</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--品牌专区-->
+           <div class="items_detail" id="items_detail_7" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+<!--                           <a href="javascript:showItemsNavdd(8,1,'/item/list/type/brand_hellokitty_all_1');" class="off" style="width:120px;">HELLO KITTY</a>-->
+                           <!--<a href="javascript:showItemsNavdd(8,1,'/item/list/type/brand_bulling_all_1');" class="off" style="width:120px;">bulling bulling</a>-->
+                           <a href="javascript:showItemsNavdd(8,1,'/item/list/type/brand_spet_all_1');" class="off" style="width:120px;">阿狸/BO&amp;TO</a>
+                           <a href="javascript:showItemsNavdd(8,2,'/item/list/type/brand_ddung_all_1');" class="off" style="width:130px;">冬己/阿童木/流氓兔</a>
+                           <a href="javascript:showItemsNavdd(8,3,'/item/list/type/brand_other_all_1');" class="off" style="width:120px;">其他品牌道具</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <!--HELLO KITTY-->
+<!--                        <li class="list" style="display:none;">-->
+<!--                           <a href="/item/list/type/brand_hellokitty_boy_1" class="off">男生服饰</a>-->
+<!--                           <a href="/item/list/type/brand_hellokitty_girl_1" class="off">女生服饰</a>-->
+<!--                           <a href="/item/list/type/brand_hellokitty_pet_1" class="off">伙伴</a>-->
+<!--                           <a href="/item/list/type/brand_hellokitty_other_1" class="off">其他</a>-->
+<!--                       </li>-->
+                       
+                       <!--bulling bulling-->
+                       <!--
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/brand_bulling_bear_1" class="off">大嘴熊</a>
+                           <a href="/item/list/type/brand_bulling_rabbit_1" class="off">冷兔</a>
+                           <a href="/item/list/type/brand_bulling_mrbox_1" class="off">Mr.Box</a>
+                       </li>
+                       -->
+                  </ul>
+           </div>
+           <!--通用道具-->
+           <div class="items_detail" id="items_detail_8" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(9,1,'/item/list/type/general_gen_all1_1');" class="off">功能类</a>
+                           <a href="javascript:showItemsNavdd(9,2,'/item/list/type/general_gen_all2_1');" class="off">装饰类</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/general_gen_action_1" class="off">动作</a>
+                           <a href="/item/list/type/general_gen_fun_1" class="off">功能道具</a>
+                           <a href="/item/show/pkey/OJxwfWsZ1135153983" class="off">喇叭</a>
+                           <a href="/item/show/pkey/kBoubnG61322652566" class="off">经验</a>
+                           <a href="/item/show/pkey/sfUZ06kQ1322652630" class="off">情侣心</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/general_gen_pet_1" class="off">伙伴</a>
+                           <a href="/item/list/type/general_gen_brow_1" class="off">表情</a>
+                           <a href="/item/list/type/general_gen_held_1" class="off">手持</a>
+                           <a href="/item/list/type/general_gen_wing_1" class="off">翅膀</a>
+                           <a href="/item/list/type/general_gen_dj_1" class="off">DJ台</a>
+                           <a href="/item/list/type/general_gen_mus_1" class="off">乐器</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--G币道具-->
+           <div class="items_detail" id="items_detail_9" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(10,1,'/item/list/type/Gitem_boy_all_1');" class="off">男生道具</a>
+                           <a href="javascript:showItemsNavdd(10,2,'/item/list/type/Gitem_girl_all_1');" class="off">女生道具</a>
+                           <a href="javascript:showItemsNavdd(10,3,'/item/list/type/Gitem_other_all_1');" class="off">其他道具</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/Gitem_boy_hair_1" class="off">发型</a>
+                           <a href="/item/list/type/Gitem_boy_coat_1" class="off">上衣</a>
+                           <a href="/item/list/type/Gitem_boy_pants_1" class="off">下衣</a>
+                           <a href="/item/list/type/Gitem_boy_shoes_1" class="off">鞋子</a>
+                           <a href="/item/list/type/Gitem_boy_suit_1" class="off">套装</a>
+                           <a href="/item/list/type/Gitem_boy_face_1" class="off">脸型</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/Gitem_girl_hair_1" class="off">发型</a>
+                           <a href="/item/list/type/Gitem_girl_coat_1" class="off">上衣</a>
+                           <a href="/item/list/type/Gitem_girl_pants_1" class="off">下衣</a>
+                           <a href="/item/list/type/Gitem_girl_shoes_1" class="off">鞋子</a>
+                           <a href="/item/list/type/Gitem_girl_suit_1" class="off">套装</a>
+                           <a href="/item/list/type/Gitem_girl_face_1" class="off">脸型</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/Gitem_other_action_1" class="off">动作道具</a>
+                           <a href="/item/list/type/Gitem_other_fun_1" class="off">功能道具</a>
+                       </li>
+                  </ul>
+           </div>
+           <!--综合专区-->
+           <div class="items_detail" id="items_detail_10" style="display:none;">
+                  <ul class="erji">
+                        <li class="tit">二级分类：</li>
+                        <li class="list">
+                           <a href="javascript:showItemsNavdd(11,1,'/item/list/type/Composite_vipm_all_1');" class="off" style="width:120px;">会员专区（男生）</a>
+                           <a href="javascript:showItemsNavdd(11,2,'/item/list/type/Composite_vipn_all_1');" class="off" style="width:120px;">会员专区（女生）</a>
+                           <a href="javascript:showItemsNavdd(11,3,'/item/list/type/Composite_rank_all_1');" class="off">排行榜专区</a>
+                           <a href="javascript:showItemsNavdd(11,4,'/item/list/type/Composite_vip_all_1');" class="off">VIP专区</a>
+                           <a href="javascript:showItemsNavdd(11,5,'/item/list/type/Composite_guild_all_1');" class="off">公会专区</a>
+                           <a href="javascript:showItemsNavdd(11,6,'/item/list/type/Composite_phone_all_1');" class="off">手机移动专区</a>
+                       </li>
+                  </ul>
+                  <ul class="sanji" style="display:none;">
+                        <li class="tit">三级分类：</li>
+                        <li class="list" style="display:none;">
+                           <a href="/item/list/type/Composite_vipm_lv1_1" class="off">Lv1会员</a>
+                           <a href="/item/list/type/Composite_vipm_lv2_1" class="off">Lv2会员</a>
+                           <a href="/item/list/type/Composite_vipm_silver_1" class="off">白银会员</a>
+                           <a href="/item/list/type/Composite_vipm_diamond_1" class="off">钻石会员</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/Composite_vipn_lv1_1" class="off">Lv1会员</a>
+                           <a href="/item/list/type/Composite_vipn_lv2_1" class="off">Lv2会员</a>
+                           <a href="/item/list/type/Composite_vipn_silver_1" class="off">白银会员</a>
+                           <a href="/item/list/type/Composite_vipn_diamond_1" class="off">钻石会员</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/Composite_rank_boy_1" class="off">男生</a>
+                           <a href="/item/list/type/Composite_rank_girl_1" class="off">女生</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/Composite_vip_boy_1" class="off">男生</a>
+                           <a href="/item/list/type/Composite_vip_girl_1" class="off">女生</a>
+                           <a href="/item/list/type/Composite_vip_vipcard_1" class="off">VIP四重卡</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/Composite_guild_pet_1" class="off">公会宠物</a>
+                           <a href="/item/list/type/Composite_guild_exc_1" class="off">公会专属道具</a>
+                       </li>
+                       <li class="list" style="display:none;">
+                           <a href="/item/list/type/Composite_phone_boy_1" class="off">男生</a>
+                           <a href="/item/list/type/Composite_phone_girl_1" class="off">女生</a>
+                       </li>
+                  </ul>
+           </div>
+		<!--移动购物专区-->
+		<!-- 
+		<div class="items_detail" id="items_detail_11" style="display:none;">
+			<ul class="erji">
+				<li class="tit">二级分类：</li>
+				<li class="list">
+					<a href="javascript:showItemsNavdd(11,1,'/item/list/type/Mobile_boy_all_1');" class="off">男生</a>
+					<a href="javascript:showItemsNavdd(11,2,'/item/list/type/Mobile_girl_all_1');" class="off">女生</a>
+					<a href="javascript:showItemsNavdd(11,3,'/item/list/type/Mobile_all_all_1');" class="off">通用</a>
+				</li>
+			</ul>
+		</div>
+		-->
+		<!--宝贝沙龙-->
+		<div class="items_detail" id="items_detail_11" style="display:none;">
+			<ul class="erji">
+				<li class="tit">二级分类：</li>
+				<li class="list">
+					<a href="javascript:showItemsNavdd(11,1,'/item/list/type/bbsalon_bb_all_1');" class="off">宝贝</a>
+					<a href="javascript:showItemsNavdd(11,2,'/item/list/type/bbsalon_bbtrappings_all_1');" class="off">宝贝服饰</a>
+					<a href="javascript:showItemsNavdd(11,3,'/item/list/type/bbsalon_bbfood_all_1');" class="off">宝贝食物</a>
+				</li>
+			</ul>
+			<ul class="sanji" style="display:none;">
+				<li class="tit">三级分类：</li>
+				<li class="list" style="display:none;"></li>
+				<li class="list" style="display:none;">
+					<a href="/item/list/type/bbsalon_bbtrappings_hair_1" class="off">发型</a>
+					<a href="/item/list/type/bbsalon_bbtrappings_coat_1" class="off">上衣</a>
+					<a href="/item/list/type/bbsalon_bbtrappings_pants_1" class="off">下衣</a>
+					<a href="/item/list/type/bbsalon_bbtrappings_shoes_1" class="off">鞋子</a>
+					<a href="/item/list/type/bbsalon_bbtrappings_suit_1" class="off">套装</a>
+				</li>
+			</ul>
+		</div>
+		<!--踏青专区-->
+		<div class="items_detail" id="items_detail_13" style="display:none;">
+			<ul class="erji">
+				<li class="tit">二级分类：</li>
+				<li class="list"></li>
+			</ul>
+			<ul class="sanji" style="display:none;">
+				<li class="tit">三级分类：</li>
+			</ul>
+		</div>
+	</div>
+<style type="text/css">
+.itemsNav{ float:right; width:760px; margin-bottom:15px;}
+.itemsNav ul{ overflow:hidden; line-height:20px;}
+.itemsNav ul li{ float:left;}
+.itemsNav ul li.tit{ width:78px; color:#ff3148;}
+.itemsNav ul li.list{ width:670px;}
+.itemsNav ul li.list a{ display:inline-block; color:#131313; font-size:13px; width:87px; text-align:center; border-radius:8px; position:relative; margin-right:5px; margin-bottom:5px;}
+.itemsNav ul li.list a.active{ background-color:#ff3148; color:#fff;}
+.itemsNav ul li.list a:hover{ text-decoration:none;}
+.itemsNav ul li.list a.off:hover{ background-color:#cfcfcf;}
+.items_detail{ margin-top:10px;}
+.items_detail ul{ border-top:1px dotted #ff3148; padding:15px 0;}
+</style>
+<!--    <script type="text/javascript" language="javascript" src="/static/counter/js/jquery.min.js"></script>-->
+<script type="text/javascript">
+function showItemsNav(num,url){
+		 $.cookie('item',num,{path:'/'});
+		 $.cookie('item_id','', { expires: -1,path:'/' });
+		 if(typeof url != 'undefined'){
+			location.href = url;
+			return false ;
+		 }
+		 
+		 $(".items_detail").hide();
+		 $("#items_detail_"+num).show();
+		 $(".itemsNav ul.nav_d a").removeClass("active").addClass("off");
+		 $(".itemsNav ul.nav_d a:eq("+(num-1)+")").removeClass("off").addClass("active");
+	     
+	}
+function showItemsNavdd(id,num,url){
+		 $.cookie('item_id',num,{path:'/'});
+		 if(typeof url != 'undefined'){
+			location.href = url;
+			return false ;
+		 }
+		 $("#items_detail_"+id+" ul.erji a").removeClass("active").addClass("off");
+		 $("#items_detail_"+id+" ul.erji a:eq("+(num-1)+")").removeClass("off").addClass("active");
+		 $("#items_detail_"+id+" ul.sanji").show();
+		 $("#items_detail_"+id+" ul.sanji .list").hide();
+		 $("#items_detail_"+id+" ul.sanji .list:eq("+(num-1)+")").show();
+	     
+}
+$(function(){
+	if(typeof($.cookie('item')) != 'undefined' || $.cookie('item') != ''){
+		 var num = $.cookie('item') ;
+		 $(".items_detail").hide();
+		 $("#items_detail_"+num).show();
+		 $(".itemsNav ul.nav_d a").removeClass("active").addClass("off");
+		 $(".itemsNav ul.nav_d a:eq("+(num-1)+")").removeClass("off").addClass("active");
+	}	
+	if(typeof($.cookie('item_id')) != 'undefined' || $.cookie('item_id') != ''){
+		 var id = $.cookie('item') ;
+		 var num = $.cookie('item_id') ;
+		 $("#items_detail_"+id+" ul.erji a").removeClass("active").addClass("off");
+		 $("#items_detail_"+id+" ul.erji a:eq("+(num-1)+")").removeClass("off").addClass("active");
+		 $("#items_detail_"+id+" ul.sanji").show();
+		 $("#items_detail_"+id+" ul.sanji .list").hide();
+		 $("#items_detail_"+id+" ul.sanji .list:eq("+(num-1)+")").show();
+	}	
+})
+
+    function showCounter(){
+
+        $.ajax({
+            type: "POST",
+            url: '/Showcounter/index',
+            data:{'action':1},
+            dataType: "json",
+            success: function (data) {
+
+            }
+        });
+
+        var str = '<div class="layer"></div>';
+        $('body').append(str);
+        var popupName = $('.layer');
+        _windowHeight = $(window).height(), // 获取当前窗口高度
+            _windowWidth = $(window).width(), // 获取当前窗口宽度
+            popupName.css({
+                "height" : _windowHeight + "px",
+                "width" : _windowWidth + "px",
+                "position" : "fixed",
+                "z-index":9,
+                "background-color":"#000",
+                "opacity":0.7,
+                "filter":"Alpha(opacity=70)",
+                "top":0,
+                "left":0,
+            });
+
+        $(".calculator").show("fast");
+        $(".layer").show("fast");
+
+    }
+</script>    <div class="cb"></div>
+    <div class="bigeye">
+        <div class="bigeyeBox">
+            <div class="bigeyeBoxLong" style="width: 3725px;">
+                <a href="http://shop.9you.com/show/active/name/LoveLevel180427" target="_blank"><img src="http://static.9you.com/uploadfile/newshop/ad/8af0b9b192e234ceb547509eb202ea56.jpg"></a><a href="http://shop.9you.com/show/active/name/LiveLong1708" target="_blank"><img src="http://static.9you.com/uploadfile/newshop/ad/0b215dc6311fa4c04b1275364420cd47.jpg"></a><a href="http://shop.9you.com/babynickcard" target="_blank"><img src="http://static.9you.com/uploadfile/newshop/ad/d5216fc03cd4e99fa75cc41141dad722.jpg"></a><a href="http://shop.9you.com/show/active/name/NewbieTask2017/action/4" target="_blank"><img src="http://static.9you.com/uploadfile/newshop/ad/ee785c4cc73f3eb261701e1a705323cd.jpg"></a><a href="http://au.9you.com/web_v6/html/ad/2017/0503/4085_1.html" target="_blank"><img src="http://static.9you.com/uploadfile/newshop/ad/62e055ace24087f900c9cc127d2794ed.jpg"></a>            </div>
+        </div> 
+        <a href="javascript:" id="bnavleft" class="bnavleft"></a>
+        <a href="javascript:" id="bnavright" class="bnavright"></a>
+        <div class="bigeyeNavBox">
+            <div id="bigeyeNav" class="bigeyeNav" style="width: 860px;">
+                <a href="javascript:" id="bn0" class="now">月与萤火虫</a><a href="javascript:" id="bn1">漫漫爱情路-情侣成长历程</a><a href="javascript:" id="bn2">宝贝昵称修改卡</a><a href="javascript:" id="bn3">新人说明书</a><a href="javascript:" id="bn4">抽奖概率公示</a>            </div> 
+        </div>  
+    </div>
+    <div class="bodMain">
+        <div class="bodMain_r">
+            <div class="rBox_small">
+                <h2><span class="kjgm"></span>快捷购买</h2>
+                <div class="cb10"></div>
+                <div id="quickNav">
+                    <ul>
+                        <li id="quickNav_0"><a href="http://pay.9you.com/funpay/" target="_blank" class="quickNav0">快速充值</a></li>
+                        <li id="quickNav_1" class="now"><a href="javascript:" class="quickNav1">购买喇叭</a></li>
+                        <li id="quickNav_2"><a href="javascript:" class="quickNav2">购买经验</a></li>
+                        <li id="quickNav_3"><a href="javascript:" class="quickNav3">购买情侣心</a></li>
+                    </ul>
+                </div>
+                <div id="quickCon_0" class="quickCon" style="display: none;">
+
+                </div>
+                <div id="quickCon_1" class="quickCon" style="display: block;">
+                    <p><span class="inLeft">购买数量</span><input type="text" class="inp1" name="special">　M币</p>
+                    <div class="cb10"></div>
+                    <p><span class="inLeft">输入账号</span><input type="text" class="inp2" name="username"></p>
+                    <div class="cb10"></div>
+                    <p><span class="inLeft">选择大区</span><input type="text" data-type="server-selector" data-bind-input="server_1" class="inp2 indexDq" readonly=""></p>
+                    <input type="hidden" value="" name="server_id" id="server_1">
+                    <div class="cb10"></div>
+                    <h6>共计：<font><span>0</span>M币</font></h6>
+                    <a href="javascript:void(0);" class="qdBtn2">确定提交</a>
+                </div>
+                <div id="quickCon_2" class="quickCon" style="display: none;">
+                    <p><span class="inLeft">购买数量</span><input type="text" class="inp1" name="special">　M币 × 125 </p>
+                    <div class="cb10"></div>
+                    <p><span class="inLeft">输入账号</span><input type="text" class="inp2" name="username"></p>
+                    <div class="cb10"></div>
+                    <p><span class="inLeft">选择大区</span><input type="text" data-type="server-selector" data-bind-input="server_2" class="inp2 indexDq" readonly=""></p>
+                    <input type="hidden" value="" name="server_id" id="server_2">
+                    <div class="cb10"></div>
+                    <h6>共计：<font><span>0</span>经验</font></h6>
+                    <a href="javascript:void(0);" class="qdBtn2">确定提交</a>
+                </div>
+                <div id="quickCon_3" class="quickCon" style="display: none;">
+                    <p><span class="inLeft">购买数量</span><input type="text" class="inp1" name="special">　M币</p>
+                    <div class="cb10"></div>
+                    <p><span class="inLeft">输入账号</span><input type="text" class="inp2" name="username" value="" disabled=""></p>
+                    <div class="cb10"></div>
+                    <p><span class="inLeft">选择大区</span><input type="text" data-type="server-selector" data-bind-input="server_3" class="inp2 indexDq" readonly=""></p>
+                    <input type="hidden" value="" name="server_id" id="server_3">
+                    <div class="cb10"></div>
+                    <h6>共计：<font><span>0</span>个情侣心</font></h6>
+                    <a href="javascript:void(0);" class="qdBtn2">确定提交</a>
+                </div>
+            </div>
+            <div class="cb20"></div>
+            <div class="rBox_small">
+                <h3>
+                    <span class="ppzq"></span>冬己/阿童木/流氓兔
+                    <a href="http://shop.9you.com/item/list/type/brand_ddung_all_1" class="more">more</a>
+                </h3>
+                <p><a href="http://shop.9you.com/item/list/type/brand_ddung_all_1"><img src="/static/images/pinpai.jpg"></a></p>
+                <div class="ppzqBox">
+                    <div class="cb"></div>
+                                                <dl>
+                                <dt>
+                                <img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/8ab96bd8d293b12686cc37877753b9d0.png">
+                                </dt>
+                                <dd>
+                                    <h6>Bearmelli相遇 女上衣</h6>
+                                    <h6>价格：<span>850  M币</span></h6>
+                                    <div class="cb10"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/QTDQSJLz1480477258" id="BUY" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'QTDQSJLz1480477258', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl>
+                                <dt>
+                                <img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/8036b926cc23aed50b2880b8e255a784.png">
+                                </dt>
+                                <dd>
+                                    <h6>Bearmelli相遇 男上衣</h6>
+                                    <h6>价格：<span>800  M币</span></h6>
+                                    <div class="cb10"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/ghN4kIet1480477258" id="BUY" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'ghN4kIet1480477258', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                            </div>
+            </div>
+            <div class="cb20"></div>
+            <div class="rBox_small">
+                <h3>
+                    <span class="qlzq"></span>情侣专区
+                    <a href="http://shop.9you.com/item/list/type/lovers_item_all_1" class="more">more</a>
+                </h3>
+                <p><a href="http://shop.9you.com/item/list/type/lovers_item_all_1"><img src="/static/images/qinglv.jpg"></a></p>
+                <div class="ppzqBox">
+                    <div class="cb"></div>
+                                                <dl>
+                                <dt>
+                                <img src="http://static.9you.com/au/images/ItemPic/120_120/301a2135542ea8a6586bdafd0f522e8f.gif">
+                                </dt>
+                                <dd>
+                                    <h6>洛丽塔情侣 女装</h6>
+                                    <h6>价格：<span>360  M币</span></h6>
+                                    <div class="cb10"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/O30Wq4Dk1303554060" id="BUY" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'O30Wq4Dk1303554060', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl>
+                                <dt>
+                                <img src="http://static.9you.com/au/images/ItemPic/120_120/0564b3eb6280741614564d72a4907934.png">
+                                </dt>
+                                <dd>
+                                    <h6>校园风 女裙</h6>
+                                    <h6>价格：<span>390  M币</span></h6>
+                                    <div class="cb10"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/NZNpwift1407920254" id="BUY" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'NZNpwift1407920254', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                            </div>
+            </div>
+        </div>
+        <div class="bodMain_l">
+            <div class="panBuy">
+                <h2><a href="javascript:" class="leftArrow" style="opacity: 0.5;"></a><a href="javascript:" class="rightArrow" style="opacity: 0.5;"></a><span class="qgzq"></span>抢购专区</h2>
+                <h3>距离本场结束还有</h3>
+                <div class="cb10"></div>
+                <h4 id="divdown1"><span>0</span><span>0</span>:<span>0</span><span>0</span>:<span>0</span><span>0</span></h4>
+                <div class="cb10"></div>
+                <div id="rushItems" class="productPan"></div>
+                <div class="cb"></div>
+                <div class="line_pan"></div>
+                <div class="activeAd">
+                                        <a href="http://shop.9you.com/show/active/name/OnlineMay2018" target="_blank"><img src="/static/images/OnlineMay2018.jpg" style="width:480px; height:90px;"></a>
+                                        <a href="http://shop.9you.com/show/active/name/LoverCard18030203" target="_blank"><img src="/static/images/LoverCard18030203.jpg" style="width:480px; height:90px; margin-top:13px;"></a>
+                </div>
+                <div style="display:none;">
+                    <div class="cb5"></div>
+                    <div class="xqTime">
+                        <h3>下期开场时间：</h3>
+                        <h5>09:30:00</h5>
+                    </div>
+                    <div class="xqProduct">
+                        <dl>
+                            <dt>
+                            <img src="/static/images/product2.jpg">
+                            </dt>
+                            <dd>
+                                <h6>开心香草</h6>
+                                <h6>价格410  M币</h6>
+                                <h6>剩余数量：410  件</h6>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                            <img src="/static/images/product2.jpg">
+                            </dt>
+                            <dd>
+                                <h6>开心香草</h6>
+                                <h6>价格410  M币</h6>
+                                <h6>剩余数量：410  件</h6>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="cb5"></div>
+                </div>
+                <div class="underline"></div>
+            </div>
+            <div class="cb10"></div>
+            <div class="recBox">
+                <div class="title">
+                    <h2><span class="tjzq"></span>推荐专区</h2>
+                    <h3>
+                        <span class="hot"></span>热卖商品　
+                        <span class="new"></span>最新上架　
+                        <span class="vip"></span>VIP专用　
+                        <span class="zk"></span>折扣商品　
+                        <span class="tj"></span>推荐商品
+                        <a href="http://shop.9you.com/item/list/type/push_all_all_1" class="more">more</a>
+                    </h3>
+                </div>
+                <div class="productRec">
+                                                <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/k7WKWkDC1524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/10693c3b2d691867049d90f12be42dbb.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>红白淑女 女上衣</h6>
+                                    <h6>价格：<span>750  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/k7WKWkDC1524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'k7WKWkDC1524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/PDz5V2iP1524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/433c2647506bb7076cb255106435b9bc.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>少年意气 男上衣</h6>
+                                    <h6>价格：<span>650  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/PDz5V2iP1524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'PDz5V2iP1524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/9uK9pvKM1524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/e2072321c7230409f81e4ac192a50ec2.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>蕾丝花朵 女上衣</h6>
+                                    <h6>价格：<span>750  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/9uK9pvKM1524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: '9uK9pvKM1524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/qeU3w5N11524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/15d798883546eabc315f53cfbf87da3f.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>爱心宝贝 女上衣</h6>
+                                    <h6>价格：<span>750  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/qeU3w5N11524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'qeU3w5N11524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/rOM9AoCm1524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/acf5de504ff0af7e8393ba777a58ec6b.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>青姬典雅 女发</h6>
+                                    <h6>价格：<span>650  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/rOM9AoCm1524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'rOM9AoCm1524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/aX6UgXTy1524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/fc7c42f9cc751aba2b0efafa6b4a747b.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>等你下课 男上衣</h6>
+                                    <h6>价格：<span>650  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/aX6UgXTy1524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'aX6UgXTy1524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/Qjae6nqR1524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/0491008d0017377932e16816fed62142.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>等你下课 女上衣</h6>
+                                    <h6>价格：<span>750  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/Qjae6nqR1524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'Qjae6nqR1524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/xjX2Ohy51524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/892b4632757792ad61f70bd1bf9a1c93.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>心有玫瑰 男上衣</h6>
+                                    <h6>价格：<span>650  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/xjX2Ohy51524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'xjX2Ohy51524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                        <dl onmouseout="this.className = 'hidetips'" onmouseover="this.className = 'showtips'" class="hidetips">
+                                <dt>
+                                <a href="http://shop.9you.com/item/show/pkey/BZ5FkB571524892378"><img src="http://static.9you.com/uploadfile/au/images/ItemPic/120_120/dce2a65a7e405920f3fb571da43084fc.png"></a>
+                                </dt>
+                                <dd>
+                                    <h6>点赞爱心 女上衣</h6>
+                                    <h6>价格：<span>750  M币</span></h6>
+                                    <h6>
+                                                                                                                                                                <span class="tj"></span>                                    </h6>                                                              
+                                    <div class="cb"></div>
+                                    <a href="http://shop.9you.com/item/show/pkey/BZ5FkB571524892378" class="buy">购买</a>
+                                    <a onclick="$(this).addCart({Key: 'BZ5FkB571524892378', Path: 4, Type: '1', KeyTime: '1', Px: -45});" class="shoppingCart" style="cursor: pointer">购物车</a>
+                                </dd><dt class="fly1 CartInfo" style="display:none;"></dt>
+                                
+                            </dl>
+                                                
+                </div>
+            </div>
+            <div class="cb"></div>
+            <div class="actBox">
+                <h2><span class="jchd"></span>精彩活动</h2>
+                <a href="http://shop.9you.com/active" class="more">more</a>
+                <div class="cb10"></div>
+                              
+                    <div class="act_l">
+                        <a href="http://shop.9you.com/show/active/name/LoveLevel180427" target="_blank"><img src="http://static.9you.com/uploadfile/newshop/ad/8af0b9b192e234ceb547509eb202ea56.jpg" style="width:355px; height:154px;"></a>
+                        <div class="cb10"></div>
+                        <p>月与萤火虫</p>
+                    </div>
+                    <div class="act_r">
+                        <a href="" target="_blank"><img src="" style="width:355px; height:154px;"></a>
+                        <div class="cb10"></div>
+                        <p></p>
+                    </div>
+                   
+                    
+                               
+                    
+            </div>
+        </div>
+    </div>
+    <div class="cb"></div>
+    <div id="dropMenuBox" class="dropMenuBox" style="display:none;">
+    <div id="dropMenu" class="dropMenu">
+        <a id="menu_0">新品专区</a>
+        <a id="menu_1">普通道具</a>
+        <a id="menu_11">飞行专区</a>
+        <!-- <a id="menu_12">迎春专区</a> -->
+        <a id="menu_13">宝贝沙龙</a>
+        <a id="menu_10">个人花园</a>
+        <a id="menu_2">情侣专区</a>
+        <a id="menu_3">家族专区</a>
+        <a id="menu_4">品牌专区</a>
+        <a id="menu_5">通用道具</a>
+        <a id="menu_6">G币道具</a>
+        <a id="menu_7">综合专区</a>
+        <a id="menu_8" style="border-bottom:0;">移动购物专区</a>
+        <!-- <a id="menu_9" style="border-bottom:0;">新品功能道具</a>-->
+    </div>
+    <div id="sunMenu_0" class="sunMenu sunMenu_0 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/latest_boy_all_1" class="bigSub">男生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/latest_boy_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_boy_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_boy_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_boy_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_boy_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_boy_face_1">脸型</a>
+
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/latest_girl_all_1" class="bigSub">女生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/latest_girl_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_girl_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_girl_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_girl_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_girl_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_girl_face_1">脸型</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="javascript:;" class="bigSub" disabled="disabled">品牌专区</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_pet_1">伙伴</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_cloth_1">服饰</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_held_1">手持</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_wing_1">翅膀</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_dj_1">DJ台</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_card_1">情侣登记证</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_ring_1">情侣戒指</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_yueqi_1">乐器</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_xiezi_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/latest_gen_faxin_1">发型</a>
+        </p>
+    </div>
+    <div id="sunMenu_1" class="sunMenu sunMenu_1 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/common_boy_all_1" class="bigSub">男生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/common_boy_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_boy_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_boy_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_boy_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_boy_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_boy_face_1">脸型</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/common_girl_all_1" class="bigSub">女生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/common_girl_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_girl_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_girl_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_girl_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_girl_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/common_girl_face_1">脸型</a>
+        </p>
+    </div>
+    <div id="sunMenu_11" class="sunMenu sunMenu_11 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/fly_all_all_1" class="bigSub">飞行专区</a>
+        <p>
+            <a href="http://shop.9you.com/item/list/type/fly_all_props_1">飞行道具</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/fly_all_pet_1">飞行宠物</a>
+        </p>
+        <a href="http://shop.9you.com/item/list/type/light_all_all_1" class="bigSub">光效专区</a>
+        <a href="http://shop.9you.com/item/list/type/lightFly_all_all_1" class="bigSub">飞行光效专区</a>
+    </div>
+<!--     <div ID="sunMenu_12" class="sunMenu sunMenu_12 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/chunjie_all_all_1" class="bigSub">迎春专区</a>
+        <p>
+            <a href="http://shop.9you.com/item/list/type/chunjie_all_all_1">迎春专区</a>
+            <span>|</span>
+        </p>
+    </div> -->
+    
+    <div id="sunMenu_13" class="sunMenu sunMenu_13 sm" style="display:none;top: 124px;">
+    	<a href="http://shop.9you.com/item/list/type/bbsalon_bb_all_1" class="bigSub">宝贝</a>
+    	
+        <a href="http://shop.9you.com/item/list/type/bbsalon_bbtrappings_all_1" class="bigSub">宝贝服饰</a>
+        <p>
+            <a href="http://shop.9you.com/item/list/type/bbsalon_bbtrappings_hair_1">宝贝发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/bbsalon_bbtrappings_coat_1">宝贝上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/bbsalon_bbtrappings_pants_1">宝贝下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/bbsalon_bbtrappings_shoes_1">宝贝鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/bbsalon_bbtrappings_suit_1">宝贝套装</a>
+        </p>
+        <div class="sub_line"></div>
+        
+        <a href="http://shop.9you.com/item/list/type/bbsalon_bbfood_all_1" class="bigSub">宝贝食物</a>
+        
+    </div>
+    
+    <div id="sunMenu_10" class="sunMenu sunMenu_10 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/buddy_all_all_1" class="bigSub">花园专区</a>
+        <p>
+            <a href="http://shop.9you.com/item/list/type/buddy_all_seed_1">种子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/buddy_all_decoration_1">装饰</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/buddy_all_manage_1">工具</a>
+        </p>
+    </div>
+    <div id="sunMenu_2" class="sunMenu sunMenu_2 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/lovers_gyou_all_1" class="bigSub">G友专区</a>
+        <a href="http://shop.9you.com/item/list/type/lovers_garden_all_1" class="bigSub">情侣花园</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/lovers_garden_seed_1">种子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/lovers_garden_decoration_1">装饰</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/lovers_garden_tool_1">工具</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/lovers_garden_aid_1">辅助</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/lovers_item_all_1" class="bigSub">情侣道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/lovers_item_boy_1">男生服饰</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/lovers_item_girl_1">女生服饰</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/lovers_item_ring_1">情侣戒指</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/lovers_item_reg_1">情侣登记证</a>
+            <br>
+            <a href="http://shop.9you.com/item/list/type/lovers_item_room_1">情侣房间卡</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/lovers_item_pet_1">情侣宠物</a>
+        </p>
+    </div>
+    <div id="sunMenu_3" class="sunMenu sunMenu_3 sm" style="display:none;">
+        <p>
+            <a href="http://shop.9you.com/family/create">创建家族</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/family/recharge">为家族存钱</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/family_item_all_1">家族道具</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/family/rename">家族改名</a>
+        </p>
+    </div>
+    <div id="sunMenu_4" class="sunMenu sunMenu_4 sm" style="display:none;">
+<!--        <a href="--><!--/item/list/type/brand_hellokitty_all_1" class="bigSub">HELLO KITTY</a>-->
+<!---->
+<!--        <p>-->
+<!--            <a href="--><!--/item/list/type/brand_hellokitty_boy_1">男生服饰</a>-->
+<!--            <span>|</span>-->
+<!--            <a href="--><!--/item/list/type/brand_hellokitty_girl_1">女生服饰</a>-->
+<!--            <span>|</span>-->
+<!--            <a href="--><!--/item/list/type/brand_hellokitty_pet_1">伙伴</a>-->
+<!--            <span>|</span>-->
+<!--            <a href="--><!--/item/list/type/brand_hellokitty_other_1">其他</a>-->
+<!--        </p>-->
+<!--        <div class="sub_line"></div>-->
+        
+
+        <!--
+        <a href="http://shop.9you.com/item/list/type/brand_bulling_all_1" class="bigSub">bulling bulling</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/brand_bulling_bear_1">大嘴熊</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/brand_bulling_rabbit_1">冷兔</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/brand_bulling_mrbox_1">Mr.Box</a>
+        </p>
+
+        <div class="sub_line"></div>
+        -->
+        <a href="http://shop.9you.com/item/list/type/brand_spet_all_1" class="bigSub">阿狸/BO&amp;TO</a>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/brand_ddung_all_1" class="bigSub">冬己/阿童木/流氓兔</a>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/brand_other_all_1" class="bigSub">其他品牌道具</a>
+    </div>
+    <div id="sunMenu_5" class="sunMenu sunMenu_5 sm" style="display:none;">
+        <a href="#" class="bigSub">功能类</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/general_gen_action_1">动作</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/general_gen_fun_1">功能道具</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/show/pkey/OJxwfWsZ1135153983">喇叭</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/show/pkey/kBoubnG61322652566">经验</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/show/pkey/sfUZ06kQ1322652630">情侣心</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="#" class="bigSub">装饰类</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/general_gen_pet_1">伙伴</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/general_gen_brow_1">表情</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/general_gen_held_1">手持</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/general_gen_wing_1">翅膀</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/general_gen_dj_1">DJ台</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/general_gen_mus_1">乐器</a>
+        </p>
+    </div>
+    <div id="sunMenu_6" class="sunMenu sunMenu_6 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/Gitem_boy_all_1" class="bigSub">男生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Gitem_boy_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_boy_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_boy_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_boy_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_boy_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_boy_face_1">脸型</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Gitem_girl_all_1" class="bigSub">女生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Gitem_girl_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_girl_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_girl_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_girl_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_girl_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_girl_face_1">脸型</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Gitem_other_all_1" class="bigSub">其他道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Gitem_other_action_1">动作道具</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Gitem_other_fun_1">功能道具</a>
+        </p>
+    </div>
+    <!-- <div ID="sunMenu_8" class="sunMenu sunMenu_7 sm" style="display:none; top:329px;">
+        <a href="http://shop.9you.com/item/list/type/Sofferitem_boy_all_1" class="bigSub">男生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_boy_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_boy_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_boy_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_boy_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_boy_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_boy_face_1">脸型</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Sofferitem_girl_all_1" class="bigSub">女生道具</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_girl_hair_1">发型</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_girl_coat_1">上衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_girl_pants_1">下衣</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_girl_shoes_1">鞋子</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_girl_suit_1">套装</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Sofferitem_girl_face_1">脸型</a>
+        </p>
+    </div> -->
+    <div id="sunMenu_7" class="sunMenu sunMenu_7 sm" style="display:none;">
+        <a href="http://shop.9you.com/item/list/type/Composite_vipm_all_1" class="bigSub">会员专区（男生）</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipm_lv1_1">Lv1会员</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipm_lv2_1">Lv2会员</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipm_silver_1">白银会员</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipm_diamond_1">钻石会员</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Composite_vipn_all_1" class="bigSub">会员专区（女生）</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipn_lv1_1">Lv1会员</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipn_lv2_1">Lv2会员</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipn_silver_1">白银会员</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vipn_diamond_1">钻石会员</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Composite_rank_all_1" class="bigSub">排行榜专区</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Composite_rank_boy_1">男生</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_rank_girl_1">女生</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Composite_vip_all_1" class="bigSub">VIP专区</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Composite_vip_boy_1">男生</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vip_girl_1">女生</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_vip_vipcard_1">VIP四重卡</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Composite_guild_all_1" class="bigSub">公会专区</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Composite_guild_pet_1">公会宠物</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_guild_exc_1">公会专属道具</a>
+        </p>
+
+        <div class="sub_line"></div>
+        <a href="http://shop.9you.com/item/list/type/Composite_phone_all_1" class="bigSub">手机移动专区</a>
+
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Composite_phone_boy_1">男生</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Composite_phone_girl_1">女生</a>
+        </p>
+
+        <!--陈小敏添加万圣节特价专区-->
+        <!--<div class="sub_line"></div>-->
+        <!--<a href="< ?= BASE_URL ?>/item/list/type/Halloween_onsale_all_1" class="bigSub">万圣节特价专区</a>-->
+
+        <!--  <a href="< ?= BASE_URL ?>/item/list/type/Composite_active_all_1" class="bigSub">迎春新品专区</a> -->
+    </div>
+    <!--  <div ID="sunMenu_9" class="sunMenu sunMenu_7 sm" style="display:none;">
+        <a href="#" class="bigSub">装饰类</a>
+
+        <p>
+            <a href="< ?= BASE_URL ?>/item/list/type/newest_gen_pet_1">伙伴</a>
+            <span>|</span>
+            <a href="< ?= BASE_URL ?>/item/list/type/newest_gen_brow_1">表情</a>
+            <span>|</span>
+            <a href="< ?= BASE_URL ?>/item/list/type/newest_gen_held_1">手持</a>
+            <span>|</span>
+            <a href="< ?= BASE_URL ?>/item/list/type/newest_gen_wing_1">翅膀</a>
+            <span>|</span>
+            <a href="< ?= BASE_URL ?>/item/list/type/newest_gen_dj_1">DJ台</a>
+            <span>|</span>
+            <a href="< ?= BASE_URL ?>/item/list/type/newest_gen_mus_1">乐器</a>
+        </p>
+    </div> -->
+    <div id="sunMenu_8" class="sunMenu sunMenu_8 sm" style="display: none; top: 411px;">
+        <p>
+            <a href="http://shop.9you.com/item/list/type/Mobile_boy_all_1">男生</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Mobile_girl_all_1">女生</a>
+            <span>|</span>
+            <a href="http://shop.9you.com/item/list/type/Mobile_all_all_1">通用</a>
+        </p>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+    var leftSecond = 0;
+    var bigeyeNow = 0;
+    var bigeyeMax = 4;
+    var bigeyeSi;
+    var bigeyeSiSpeed = 3000;
+    $(function () {
+        //快捷购买
+        abd("quickNav_1");
+        $("#quickNav li").click(function () {
+            if ($(this).index() != 0) {
+                var ID = this.id;
+                abd(ID);
+            }
+        });
+
+        function abd(str) {
+            $("#quickNav li").removeClass("now");
+            $("#" + str).addClass("now");
+
+            var num = str.split("_")[1];
+            var ID = "#quickCon_" + num;
+            $(".quickCon").hide();
+            $(ID).show();
+        }
+        //大眼睛
+        bigeyeMax = $(".bigeyeBoxLong").find("img").length;
+        $(".bigeyeBoxLong").css("width", 745 * bigeyeMax);
+        $(".bigeyeNav").css("width", 172 * bigeyeMax);
+        $("#bigeyeNav a").click(function () {
+            clearInterval(bigeyeSi);
+            var n = $(this).attr("id").slice(2);
+            bigeyeNow = n;
+            bigeyeMove();
+            bigeyeAuto();
+        });
+        function bigeyeMove() {
+            $("#bigeyeNav a").removeClass("now");
+            $("#bn" + bigeyeNow).addClass("now");
+            $(".bigeyeBoxLong").animate({"marginLeft": bigeyeNow * -745}, {duration: 300});
+            if (bigeyeNow > 3) {
+                $(".bigeyeNav").animate({"marginLeft": (bigeyeNow - 3) * -172}, {duration: 300});
+            } else {
+                $(".bigeyeNav").animate({"marginLeft": 0}, {duration: 300});
+            }
+        }
+        $("#bnavleft").click(function () {
+            var bnavIndent = Math.floor($(".bigeyeNav").css("marginLeft").slice(0, -2));
+            if (bnavIndent < 0) {
+                $(".bigeyeNav").css({"marginLeft": bnavIndent + 172});
+            }
+        });
+        $("#bnavright").click(function () {
+            var bnavIndent = Math.floor($(".bigeyeNav").css("marginLeft").slice(0, -2));
+            if (bnavIndent > ((bigeyeMax - 4) * -172)) {
+                $(".bigeyeNav").css({"marginLeft": bnavIndent - 172});
+            }
+        });
+        bigeyeSi = setInterval(function () {
+            bigeyeNow++;
+            if (bigeyeNow > (bigeyeMax - 1)) {
+                bigeyeNow = 0;
+            }
+            bigeyeMove();
+        }, bigeyeSiSpeed);
+        $(".bigeyeBoxLong").mouseover(function () {
+            clearInterval(bigeyeSi);
+        });
+        $(".bigeyeBoxLong").mouseout(function () {
+            bigeyeAuto();
+        });
+        function bigeyeAuto() {
+            bigeyeSi = setInterval(function () {
+                bigeyeNow++;
+                if (bigeyeNow > (bigeyeMax - 1)) {
+                    bigeyeNow = 0;
+                }
+                bigeyeMove();
+            }, bigeyeSiSpeed);
+        }
+        //获取抢购信息
+        $.get(BASE_URL + '/index/rushlist', function (data) {
+            if (data.success) {
+                var rushId = data.rush_id;
+                leftSecond = data.left_time;
+                var items = data.items;
+                var temp = 0;
+                var step = 0;
+
+                $("#rushItems").append('<ul></ul>');
+                $.each(items, function (i, item) {
+                    if (temp == 0) {
+                        $("#rushItems ul").append('<li></li>');
+                    }
+                    if (temp < 2) {
+                        var buyUrl = BASE_URL + '/rush/index/pid/' + item.pid + '/rush_id/' + rushId;
+                        var remainNum = parseInt(item.allnum) <= 0 ? 99999 : parseInt(item.allnum) - parseInt(item.buynum);
+                        remainNum = remainNum < 0 ? 0 : remainNum;
+                        var sellover = '';
+                        if (remainNum == 0) {
+                            sellover = '<img style="width:240px; height:120px; display:block; border:none; top:0; left:0; position:absolute;" src="http://au.9you.com/images/shop48x34.png" />';
+                        }
+                        $("#rushItems li").eq(step).append(
+                                '<dl class="hidetips">' +
+                                '<dt><a href="' + buyUrl + '" target="_blank"><img src="' + item.pic + '"></a>' +
+                                '<a href="' + buyUrl + '" target="_blank" class="msqg">马上抢购</a>' +
+                                '</dt>' +
+                                '<dd>' +
+                                '<a href="' + buyUrl + '" target="_blank">' + item.name + '</a>' +
+                                '<h6>价格：<span>' + item.price + '  M币</span></h6>' +
+                                '<h6>剩余数量：<span>' + remainNum + '  件</span></h6>' +
+                                //'<h6>所属专区:' + item.group + '</h6>' +
+                                '</dd>' + sellover +
+                                '</dl>');
+                        if (++temp == 2) {
+                            temp = 0;
+                            step++;
+                        }
+                    }
+                    $("#rushItems dl").hover(
+                            function () {
+                                $(this).removeClass('hidetips').addClass('showtips');
+                            },
+                            function () {
+                                $(this).removeClass('showtips').addClass('hidetips');
+                            }
+                    )
+                });
+            }
+            qinggouFun();
+            leftTimeClock = window.setInterval(function () {
+                ShowCountDown('divdown1');
+            }, 1000);
+        }, 'json');
+
+
+    });
+    function ShowCountDown(divname) {
+        var cc = document.getElementById(divname);
+        var hour1 = 0;
+        var hour2 = 0;
+        var minute1 = 0;
+        var minute2 = 0;
+        var second1 = 0;
+        var second2 = 0;
+        if (leftSecond > 0) {
+            var hour = Math.floor(leftSecond / 3600);
+            var minute = Math.floor((leftSecond - hour * 3600) / 60);
+            var second = Math.floor(leftSecond - hour * 3600 - minute * 60);
+            hour1 = Math.floor(hour / 10);
+            hour2 = Math.floor(hour % 10);
+            minute1 = Math.floor(minute / 10);
+            minute2 = Math.floor(minute % 10);
+            second1 = Math.floor(second / 10);
+            second2 = Math.floor(second % 10);
+            leftSecond--;
+        } else {
+            window.clearInterval(leftTimeClock);
+        }
+        cc.innerHTML = "<span>" + hour1 + "</span><span>" + hour2 + "</span>" + ":" + "<span>" + minute1 + "</span><span>" + minute2 + "</span>" + ":" + "<span>" + second1 + "</span><span>" + second2 + "</span>";
+    }
+
+
+
+    //抢购切换
+    function qinggouFun() {
+        currentLiIndex = 0;
+        var leg = $(".productPan li").length;
+        if (leg <= 0) {
+            $(".panBuy .leftArrow").css("opacity", 0.5);
+            $(".panBuy .rightArrow").css("opacity", 0.5);
+            return;
+        }
+        var baseWNum = $(".productPan").width();
+        $(".panBuy .leftArrow").css("opacity", 0.5);
+        if (leg < 2) {
+            $(".panBuy .rightArrow").css("opacity", 0.5);
+        }
+        $(".productPan ul").css("width", baseWNum * leg);
+        for (var i = 0; i < leg; i++) {
+            $(".productPan li").eq(i).css("margin-left", baseWNum * i);
+        }
+        $(".panBuy .leftArrow").click(function () {
+            if (leg < 2)
+                return;
+            if (currentLiIndex <= 0)
+                return;
+            currentLiIndex--;
+            if (currentLiIndex <= 0) {
+                $(".panBuy .leftArrow").css("opacity", 0.5);
+                $(".panBuy .rightArrow").css("opacity", 1);
+            } else {
+                $(".panBuy .leftArrow").css("opacity", 1);
+            }
+            movieFun(currentLiIndex);
+        });
+        $(".panBuy .rightArrow").click(function () {
+            if (leg < 2)
+                return;
+            if (currentLiIndex >= (leg - 1))
+                return;
+            currentLiIndex++;
+            if (currentLiIndex >= (leg - 1)) {
+                $(".panBuy .rightArrow").css("opacity", 0.5);
+                $(".panBuy .leftArrow").css("opacity", 1);
+            } else {
+                $(".panBuy .rightArrow").css("opacity", 1);
+            }
+            movieFun(currentLiIndex);
+        });
+        //移动控制
+        function movieFun(nowNum) {
+            var newSite = -baseWNum * nowNum;
+            $(".productPan ul").animate({marginLeft: newSite}, {duration: 200});
+        }
+    }
+    function pay(pkey, times, server, username, special, buytype) {
+
+        var herf;
+        herf = 'http://shop.9you.com/cart/buy?server_id=' + server +
+                '&item_key[]=' + pkey + '&isGive=0&time=' + times + '&buytype=' + buytype + '&cart_type=mb&ups=0&special=' + special + "&getusername=" + username + "&getusername_r=" + username;
+
+
+        $.fancybox.open({
+            'href': herf,
+            'type': 'iframe',
+            'scrolling': 'no',
+            'modal': false,
+            'closeBtn': true,
+            'autoSize': false,
+            'fitToView': false,
+            'helpers': {
+                'overlay': {
+                    'closeClick': false
+                }
+            },
+            'width': 545,
+            'height': 410,
+            'padding': 0
+        });
+    }
+    $(function () {
+        $(".quickCon input[name='special']").blur(function () {
+
+            var special = $(this).val();
+            var parentId = $(this).parent().parent().attr("id");
+            var bool = true;
+            if (special && !/^[1-9]\d*$/.test(special)) {
+                bool = false;
+            } else if (special && parentId === "quickCon_1" && (special > 50000 || special < 100)) {
+                bool = false;
+            } else if (special && parentId === "quickCon_2" && (special > 40000 || special < 1)) {
+                bool = false;
+            } else if (special && parentId === "quickCon_3" && (special > 100000 || special < 1)) {
+                bool = false;
+            }
+            if (!bool) {
+                if (parentId === "quickCon_1") {
+                    $("#quickCon_1 h6 font").html("请输入100-50000");
+                    return;
+                } else if (parentId === "quickCon_2") {
+                    $("#quickCon_2 h6 font").html("请输入1-40000");
+                    return;
+                } else if (parentId === "quickCon_3") {
+                    $("#quickCon_3 h6 font").html("请输入1-100000");
+                    return;
+                }
+            }
+            if (!special) {
+                special = 0;
+            }
+            if (parentId === "quickCon_1") {
+                $("#quickCon_1 h6 font").html(String(parseInt(special)) + "M币");
+                return;
+            } else if (parentId === "quickCon_2") {
+                $("#quickCon_2 h6 font").html(String(parseInt(special) * 125) + "经验");
+                return;
+            } else if (parentId === "quickCon_3") {
+                $("#quickCon_3 h6 font").html(String(parseInt(special)) + "情侣心");
+                return;
+            }
+        });
+        $(".quickCon a").on("click", function (event) {
+            event.preventDefault();
+            var parentId = $(this).parent().attr("id");
+            if (parentId === "quickCon_1") {
+                var server = $("#quickCon_1 input[name='server_id']").val();
+                var username = $("#quickCon_1 input[name='username']").val();
+                var special = $("#quickCon_1 input[name='special']").val();
+                pay("OJxwfWsZ1135153983", 6, server, username, special, 'send');
+                return;
+            } else if (parentId === "quickCon_2") {
+                var server = $("#quickCon_2 input[name='server_id']").val();
+                var username = $("#quickCon_2 input[name='username']").val();
+                var special = $("#quickCon_2 input[name='special']").val();
+                pay("kBoubnG61322652566", 6, server, username, special, 'send');
+                return;
+            } else if (parentId === "quickCon_3") {
+                var server = $("#quickCon_3 input[name='server_id']").val();
+                var username = $("#quickCon_3 input[name='username']").val();
+                var special = $("#quickCon_3 input[name='special']").val();
+                pay("sfUZ06kQ1322652630", 6, server, username, special, 'buy');
+                return;
+            }
+        });
+    })
+</script>
+<div id="ewmdiv" style="position: fixed; top: 284px; right: 90px;display:none;">
+	<a class="ewmhide" href="javascript:;" onclick="$('#ewmdiv').hide();"></a>
+	<img src="/static/mobiles/img/ewm.jpg" width="200">
+</div>
+<style>
+.ewmhide{
+	position: absolute;
+    right: -17px;
+    top: -15px;
+    width: 2rem;
+    height: 2rem;
+    background: url("/static/mobiles/img/create.png") center center no-repeat;
+    background-size: 70% 70%;
+}
+</style>
+<div class="cb50"></div>
+<div class="footer">
+    <div class="cb"></div>
+    <div class="main">
+        <div class="cb"></div>
+        <div class="logoBox">
+            <img src="/static/images/footer_01.png">
+            <img src="/static/images/footer_02.png">
+            <img src="/static/images/footer_03.png">
+        </div>
+        <div class="footer_line"></div>
+        <div class="cb10"></div>
+        <p>久游网全球版权所有，侵权必究 Copyrights by T3 Entertainment Co. ,Ltd. ,  Licensed by T3 Entertainment Co. , Ltd.</p>
+        <p>Chinese Language Version Rights licensed by Nineyou International Limited &amp; its subsidiaries. </p>
+        <p>中华人民共和国出版许可号：新出音管〔2005〕353号 ISBN号：7-900730-00-15 中华人民共和国软件产品登记号：国DJY-2006-0028 </p>
+        <p>中华人民共和国著作权合同登记号：电出字02-2008-013号 文化部公测批准文号：文网测字[2005]15号 网络文化经营许可证：沪网文[2017]5775-454</p>
+        <div class="cb10"></div>
+        <img src="/static/images/footer_10.png">
+    </div>
+</div>
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?318913ec24a62098e53f6b81df3e7520";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body></html>

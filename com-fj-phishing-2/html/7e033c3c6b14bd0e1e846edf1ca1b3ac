@@ -1,0 +1,130 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>彩专家</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="image/iconfont/iconfont.css">
+<script language="javascript" src="js/jquery.min.1.10.2.js"></script>
+<script language="javascript" src="js/slide.js"></script>
+</head>
+
+<body style="">
+
+<div class="top_box">
+   <span>第<em id="now_qishu">20180604061</em>期开奖：</span>
+   <p id="show_qiu"><em>0</em><em>3</em><em>7</em><em>2</em><em>9</em></p>
+   <i class="iconfont"></i>
+</div>
+
+<div class="xiaqi_box">
+   <span class="qishu_box">第<em id="next_qishu">20180604062</em>期开奖剩余：</span>
+   <span class="time_box"><em class="left_time">00</em><em class="right_time">00</em></span>
+</div>
+
+
+<div class="index_box">
+
+  <div class="left_box">
+       <div class="cqssc" onclick="window.location.href='html/history.html';">
+          <i class="iconfont"></i><span>重庆时时彩<br>历史数据</span>
+       </div>
+       <div class="jihuay jihuay_a" onclick="window.location.href='html/jihua.html?class_id=7';">
+          <i class="iconfont"></i><span>计划员：<em>彩友</em></span>
+       </div>
+       <div class="jihuay jihuay_b" onclick="window.location.href='html/jihua.html?class_id=6';">
+          <i class="iconfont"></i><span>计划员：<em>海滨</em></span>
+       </div>
+       <div class="jihuay jihuay_c" onclick="window.location.href='html/jihua.html?class_id=3';">
+          <i class="iconfont"></i><span>计划员：<em>光明</em></span>
+       </div>
+       <div class="jihuay jihuay_d" onclick="window.location.href='html/jihua.html?class_id=1';">
+          <i class="iconfont"></i><span>计划员：<em>大牛</em></span>
+       </div>
+       <div class="jihuay jihuay_e" onclick="window.location.href='html/jihua.html?class_id=5';">
+          <i class="iconfont"></i><span>计划员：<em>凤凰</em></span>
+       </div>
+       <div class="jihuay jihuay_f" onclick="window.location.href='html/jihua.html?class_id=2';">
+          <i class="iconfont"></i><span>计划员：<em>青狐</em></span>
+       </div>
+       <div class="jihuay jihuay_b" onclick="window.location.href='html/wufencai.html';">
+          <i class="iconfont"></i><span><em>五分彩</em></span>
+       </div>
+       <div class="jihuay jihuay_c" onclick="window.location.href='html/sanfencai.html';">
+          <i class="iconfont"></i><span><em>三分彩</em></span>
+       </div>
+       <div class="jihuay jihuay_f" onclick="window.location.href='html/fenfencai.html';">
+          <i class="iconfont"></i><span><em>分分彩</em></span>
+       </div>
+  </div>
+  
+  
+  <div class="right_box">
+       <div class="remen_box">
+            <div class="top_remen"><i class="iconfont"></i>热门计划号码</div><div class="clear"></div>
+            <ul id="remenhao"><li>[ 大牛计划 ] 060-062期<br><font>中奖率85%</font></li><li>[ 青狐计划 ] 060-062期<br><font>中奖率88%</font></li><li>[ 光明计划 ] 062-064期<br><font>中奖率80%</font></li><li>[ 凤凰计划 ] 062-064期<br><font>中奖率88%</font></li><li>[ 海滨计划 ] 060-062期<br><font>中奖率91%</font></li></ul>
+       </div>
+       <div class="jihuay jihuay_g" onclick="window.location.href='html/jihua.html?class_id=8';">
+          <i class="iconfont"></i><span><em>后二直选</em></span>
+       </div>
+       <div class="jihuay jihuay_h" onclick="window.location.href='html/jihua.html?class_id=9';">
+          <i class="iconfont"></i><span><em>后三直选</em></span>
+       </div>
+       <div class="jihuay jihuay_i" onclick="window.location.href='html/jihua.html?class_id=10';">
+          <i class="iconfont"></i><span><em>后三组六</em></span>
+       </div>
+       <div class="jihuay jihuay_j" onclick="window.location.href='html/pk.html';">
+          <i class="iconfont"></i><span><em>北京赛车</em></span><img src="image/news.gif">
+       </div>
+       <div class="jihuay jihuay_f" onclick="window.location.href='https://www.baidu.com/link?url=vEd0e6zJdbUNdem0dXxw6rp3USs6M3pF32gqpOSmLlK&amp;wd=&amp;eqid=ef28a2420002bcb2000000065a239b17';">
+          <i class="iconfont"></i><span><em>平台注册</em></span>
+       </div>
+       <div class="jihuay jihuay_h" onclick="window.location.href='https://www.baidu.com/link?url=vEd0e6zJdbUNdem0dXxw6rp3USs6M3pF32gqpOSmLlK&amp;wd=&amp;eqid=ef28a2420002bcb2000000065a239b17';">
+          <i class="iconfont"></i><span><em>平台登入</em></span>
+       </div>
+	     </div>
+  <div class="clear"></div>
+  <div class="foot_img">
+       <ul id="big_wrap" class="big_wrap">
+    	   <li style="display: block; z-index: 1;"><img src="image/cp1.jpg" onclick="window.location.href='http://www.baidu.com/link?url=97WauHwDgGQyo6Bkf2O2mS7olDfH9FgZ-NTbp5aJNWAlPK03CQrRYW4E-12bjUv6&amp;wd=&amp;eqid=b512621a0003c782000000065a4a3256';"></li>
+           <li style="z-index: 2;"><img src="image/cp2.jpg" onclick="window.location.href='http://www.baidu.com/link?url=97WauHwDgGQyo6Bkf2O2mS7olDfH9FgZ-NTbp5aJNWAlPK03CQrRYW4E-12bjUv6&amp;wd=&amp;eqid=b512621a0003c782000000065a4a3256';"></li>
+           <li style="z-index: 3;"><img src="image/cp3.jpg" onclick="window.location.href='http://www.baidu.com/link?url=97WauHwDgGQyo6Bkf2O2mS7olDfH9FgZ-NTbp5aJNWAlPK03CQrRYW4E-12bjUv6&amp;wd=&amp;eqid=b512621a0003c782000000065a4a3256';"></li>
+       </ul>
+       <div class="banBut">
+           <ul id="small" class="small">
+       	       <li class="current"></li>
+               <li></li>
+               <li></li>
+           </ul>
+        </div>
+        <script type="text/javascript">
+            new jQSlide('big_wrap','small',1,3000);
+        </script>
+        <div class="clear"></div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="javascript" src="js/open_time.js"></script>
+<script language="javascript" src="js/tongji.js"></script>
+<script>
+$('.top_box').find('i').click(function(){
+   alert('彩专家时时彩计划说明\r\n彩专家时时彩计划只计划定位胆个位，由人工手动发布至网站，可能每期计划号码的发布时间有1-10秒时间差。"5码3期计划"适用于加奖70%至93%的时时彩，若加奖太低可能无法赢利，若太高可能是小黑平台引诱骗钱。\r\n什么是"5码3期计划"？ \r\n在时时彩→定位胆玩法→个位，根据计划员提供的5个号码，在个位选择相同的5个号进行购买，中了换号码，不中继续倍投。此为"5码3期计划"，是目前加奖时时彩概率最高的人工计划与玩法。\r\n重点：七位计划员提供的计划号码仅适用于倍投模式，连续3期购买一组计划号码，若中奖将会更换计划号码，若未中奖，请按下面倍投公式翻倍继续跟计划号码，如果连续3期计划都未中，计划员将会更换新的一组计划号码，继续进行倍投。倍投期间请勿停止翻倍，什么时候倍投中了，什么时候停止翻倍，否则全部亏损。\r\n倍投公式：1倍 3倍 8倍 24倍 72倍 216倍 648倍 1944倍 5832倍 17496倍');	
+});
+</script>
+
+
+</body></html>

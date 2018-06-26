@@ -1,0 +1,398 @@
+<!DOCTYPE html><html class="desktop landscape"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>网站排行榜 - 站长之家</title>
+<meta name="keywords" content="网站排名,网站排行,alexa排名,网站大全,地区网站排名,行业网站排名">
+<meta name="description" content="网站排行榜是站长之家旗下专业提供中文网站排名服务的栏目，收集了国内各行业排名前列的众多知名网站，是国内最专业、最权威的中文网站排行榜。">
+<link rel="stylesheet" type="text/css" href="/themes/default/css/base.css">
+<link rel="stylesheet" type="text/css" href="/themes/default/css/toppage.css">
+<script src="http://pagead2.googlesyndication.com/pagead/js/r20180529/r20180518/osd.js"></script><script type="text/javascript" async="" src="http://cpro.baidustatic.com/cpro/ui/pr.js"></script><script src="http://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-4194977297280070.js"></script><script type="text/javascript" async="" src="http://a1.zhanzhang.net/icgkvq.js"></script><script src="/js/jquery.min.js" type="text/jscript" language="javascript"></script>
+<script src="/js/jq-public.js" type="text/jscript" language="javascript"></script>
+<script src="/js/toppage.js" type="text/jscript" language="javascript"></script>
+<script src="/js/device.min.js" type="text/jscript" language="javascript"></script>
+<script src="/js/Moblie.js" type="text/jscript" language="javascript"></script>
+<link rel="shortcut icon" type="image/x-ico" href="/favicon.ico">
+<script type="text/javascript" language="javascript">
+    $(function () {
+        var r = Math.ceil(Math.random() * 20);
+        var s = Math.ceil(Math.random() * 20);
+        $("#MVaneHead_01 > a").each(function (i) {
+            if (i == r || s==i) {
+                $(this).addClass("spec");
+            }
+        });
+    });
+    function ReloadRandom() {
+        var guid = $("randomLink").attr("val");
+        $.post("/json/IndexHandler.ashx?rd=" + Math.random(), { action: "random", guid: guid }, function (msg) {
+            $("#randomList").html(msg.str);
+            $("#randomLink").attr("val", msg.guid)
+        },"json");
+    }
+</script>
+<link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=top.chinaz.com"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=top.chinaz.com"></script><script type="text/javascript" src="//csstools.chinaz.com/myuser/chinaz_top.js" charset="utf-8"></script></head>
+
+<body class="Bgwhite" id="content">
+<!--TopPageHeadWrap-begin-->
+<div class="TopPageHeadWrap"> 
+<div class="toolBar">
+      <div class="TPmain">
+        <!--topNav Star -->
+        <div class="topNav clearfix">
+          <ul class="navList fl clearfix">
+            <li><div class="one"><a href="http://www.chinaz.com">站长之家</a></div></li>
+           
+            <li>
+              <div class="one"><a href="http://tool.chinaz.com" target="_blank">站长工具<i class="icon"></i></a></div>
+              <div class="two"> 
+                <a href="http://alexa.chinaz.com" target="_blank">ALEXA排名查询</a> 
+		<a href="http://ciku.chinaz.com" target="_blank">站长词库查询</a>
+                <a href="http://rank.chinaz.com" target="_blank">百度权重查询</a> 
+                <a href="http://seo.chinaz.com" target="_blank">SEO概况查询</a> 
+                <a href="http://link.chinaz.com" target="_blank">友情链接查询</a> 
+                <a href="http://pr.chinaz.com" target="_blank">Google PR查询</a> 
+                <a href="http://whois.chinaz.com" target="_blank">Whois信息查询</a> 
+                <a href="http://tool.chinaz.com/beian.aspx" target="_blank">域名备案查询</a> 
+              </div>
+            </li>
+            
+            <li>
+              <div class="one"><a href="http://sc.chinaz.com" target="_blank">站长素材<i class="icon"></i></a></div>
+              <div class="two"> 
+                <a href="http://font.chinaz.com/" target="_blank">字体下载</a>
+                <a href="http://sc.chinaz.com/jianli/" target="_blank">简历模板</a> 
+                <a href="http://sc.chinaz.com/tupian/" target="_blank">高清图片</a> 
+                <a href="http://sc.chinaz.com/shiliang/" target="_blank">矢量素材</a> 
+                <a href="http://sc.chinaz.com/ppt/" target="_blank">PPT模板</a> 
+                <a href="http://sc.chinaz.com/psd/" target="_blank">PSD素材</a>
+              </div>
+            </li>
+            <li><div class="one"><a href="http://down.chinaz.com" target="_blank">源码下载</a></div></li>
+            <li><div class="one"><a href="//top.chinaz.com/" target="_blank">网站排行榜<i class="icon"></i></a></div>
+             <div class="two"> 
+                <a href="//top.chinaz.com/hangye/" target="_blank">行业网站排名</a>
+                <a href="//top.chinaz.com/diqu/" target="_blank">地区网站排名</a> 
+              </div>
+            </li>
+             <li>
+              <div class="one"><a href="http://bbs.chinaz.com" target="_blank">站长论坛</a></div>
+            </li>
+             <li><a class="Tnone" target="_blank" href="//mtop.chinaz.com/"><span>手机版</span></a>
+                <p class="Tntwo two"><img src="/images/phone.jpg" width="200" height="200"></p>
+            </li>
+            <!--<li><div class="one"><a href="http://space.chinaz.com" target="_blank">站长专栏</a></div></li>-->
+
+            <!--<li class="watch"><div class="one"><a href="http://weibo.com/chinaz" target="_blank"><i class="icon"></i>关注我们</a></div></li>-->
+          </ul>
+          <div class="navUser mt5 fr" id="chinaz_topbar"><div class="userbar">
+	<a href="http://my.chinaz.com/Login/Index?returnurl=http://top.chinaz.com/" target="_top">立即登录</a>
+        <a href="http://my.chinaz.com/Register/Index">注册新帐号</a>
+</div>
+</div>
+        </div>
+        <!--topNav End -->
+  </div>
+</div> 
+<div class="ToplogoWrap clearfix"><div class="TPmain">
+        <h1 class="Toplogo"><a href="//top.chinaz.com"><img src="/themes/default/images/top-logo.png"></a></h1>
+        <div class="TopSearch"><input type="text" lang="请输入搜索内容" id="txtKeyWord" onblur="BlurKey()" onfocus="FucusKey()" class="Rtxt" value="请输入搜索内容"><input id="btnSearch" type="button" onclick="javascript:SearchKey();" class="Rbtn"></div>
+        <div class="fr mr25" style=" text-align:right; width:468px; ">
+         <!--<a href="http://tool.chinaz.com/ppb/ppbs11" target="_blank"><img src="http://stats.chinaz.com/tools_img/ppb468.gif" /></a>-->
+      <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" style="display:inline-block;width:468px;height:60px" data-ad-client="ca-pub-4194977297280070" data-ad-slot="9838748042" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent;"><iframe width="468" height="60" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;width:468px;height:60px;"></iframe></ins></ins></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+    </div></div> 
+    <!--ToolNavbar-begin-->
+	<div style="overflow: hidden;" class="TopNav-showWrap" id="Navbar">
+        <div class="TopNav-layout">
+            <div class="TopNav-menu line">
+                <div class="TopNav-content container">
+                    <div class="TopNav-Centbox"> 
+                        <div class="TopNav-MenuItem TopNav-MenuItem-index"><a class="menu-title $.current1" href="//top.chinaz.com">首页</a><div class="MenuItemCent" style=" padding-left:0;"><ul class="MenuItem-SubList"> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/all/">网站总排名</a></li></ul></div>
+                        </div>
+                        <div class="TopNav-MenuItem TopNav-MenuItemThree">
+                            <a class="menu-title" href="//top.chinaz.com/hangye/">行业排名</a><div class="MenuItemCent leftbor"><ul class="MenuItem-SubList"> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_shenghuo.html">生活服务</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_zonghe.html">综合其他</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_yule.html">休闲娱乐</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_jiaoyu.html">教育文化</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_qiye.html">行业企业</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_wangluo.html">网络科技</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_gov.html">政府组织</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_shopping.html">购物网站</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_news.html">新闻媒体</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_jiaotonglvyou.html">交通旅游</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_yiliao.html">医疗健康</a></li> <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangye/index_tiyu.html">体育健身</a></li></ul></div>
+                        </div>
+                        <div class="TopNav-MenuItem TopNav-MenuItemtwo">
+                            <a class="menu-title" href="//top.chinaz.com/diqu/">地区排名</a><div class="MenuItemCent"><ul class="MenuItem-SubList"><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_BeiJing.html">北京</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_ShangHai.html">上海</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_TianJin.html">天津</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_ZhongQing.html">重庆</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_HeiLongJiang.html">黑龙江</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_JiLin.html">吉林</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_LiaoNing.html">辽宁</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_NeiMengGu.html">内蒙古</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_HeBei.html">河北</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_ShanXi.html">山西</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_ShaanXi.html">陕西</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_ShanDong.html">山东</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_XinJiang.html">新疆</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_XiCang.html">西藏</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_QingHai.html">青海</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_GanSu.html">甘肃</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_NingXia.html">宁夏</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_HeNan.html">河南</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_JiangSu.html">江苏</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_HuBei.html">湖北</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_ZheJiang.html">浙江</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_AnHui.html">安徽</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_FuJian.html">福建</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_JiangXi.html">江西</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_HuNan.html">湖南</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_GuiZhou.html">贵州</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_SiChuan.html">四川</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_GuangDong.html">广东</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_YunNan.html">云南</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_GuangXi.html">广西</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_HaiNan.html">海南</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_XiangGang.html">香港</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_AoMen.html">澳门</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_TaiWan.html">台湾</a></li><li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqu/index_HaiWai.html">海外</a></li></ul></div>
+                        </div>
+                        <div class="TopNav-MenuItem TopNav-MenuItemOne"><a class="menu-title" href="//top.chinaz.com/alltop/">排行榜</a>
+                        <div class="MenuItemCent" style=" padding-left:0;"><ul class="MenuItem-SubList">
+                        <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/diqutop/">地区排行榜</a></li>
+                        <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/hangyetop/">行业排行榜</a></li>
+                        <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/waptop/">移动排行榜</a></li>
+                        <li class="SubItem-wp"><a class="TNMI-SubItem" href="//top.chinaz.com/gongsi/">公司排行榜</a></li>
+			<li class="SubItem-wp"><a class="TNMI-SubItem" href="http://live.chinaz.com" target="_blank">直播排行榜</a></li>
+                        <li class="SubItem-wp"><a class="TNMI-SubItem" href="http://alexa.chinaz.com/Global/">全球排行榜</a></li>
+                        </ul></div>
+                        </div>
+                        
+                 
+                        <div class="menu-right-section fr"> 
+                            <ul class="menu-right-list">
+                                <li class="menu-right-list-item user-center">
+                                    <a href="//top.chinaz.com/shoulu.html" class="menu-right-list-link">
+                                        <span class="item-icon"></span>
+                                        <span class="item-name">申请收录</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--ToolNavbar-end-->
+</div>
+<div class="gotop hide" id="gotop"> <a class="cz-weixin" style=" display:none;" href="javascript:;"></a>
+  <a class="feedback" onclick="window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=3051514&amp;site=qq&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');return false;" target="_blank"></a> <a class="go" href="javascript:;"></a> </div>
+<!--TopPageHeadWrap-end-->
+ 
+<!--TopIndexCentWrap-->  
+<div class="Wrapper TopIndexCentWrap pt10"> 
+  
+<div class="adbox">
+<div id="_afnzc0wrzr5" style=""><iframe width="960" frameborder="0" height="90" scrolling="no" src="http://pos.baidu.com/s?hei=90&amp;wid=960&amp;di=u3117702&amp;ltu=http%3A%2F%2Ftop.chinaz.com%2F&amp;dai=1&amp;drs=1&amp;tlm=1528129279&amp;pss=1024x3343&amp;chi=1&amp;dri=0&amp;ccd=24&amp;tcn=1528129280&amp;ari=2&amp;dtm=HTML_POST&amp;col=C&amp;par=1024x768&amp;pcs=1024x768&amp;ps=178x22&amp;ti=%E7%BD%91%E7%AB%99%E6%8E%92%E8%A1%8C%E6%A6%9C%20-%20%E7%AB%99%E9%95%BF%E4%B9%8B%E5%AE%B6&amp;cja=false&amp;pis=-1x-1&amp;cec=UTF-8&amp;exps=111000&amp;cdo=-1&amp;dis=0&amp;cfv=28&amp;psr=1024x768&amp;ant=0&amp;cpl=1&amp;cmi=2&amp;dc=3&amp;tpr=1528129279661&amp;cce=true"></iframe></div><script type="text/javascript" src="//a1.zhanzhang.net/ytlccuuzi.js"></script>
+ </div>
+
+
+    <!--MainList01-begin-->
+  <div class="MainList01 pt20 pb10 clearfix">
+  	<div class="MListWrap w265 mr40">
+    	<div class="LsHead"><h3 class="h3Tit bg-blue">总上升排名</h3></div>
+        <div class="LsCent265">
+            <ul>
+                <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tRank">一周变化</span></li>
+                <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_siluke.info.html">思路客小说阅读网</a></span><span class="tRank col-red03">↑ 33778</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/site_sex.39.net.html">39健康性爱频道</a></span><span class="tRank col-red03">↑ 30593</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_dawuge.com.html">大吴哥网 </a></span><span class="tRank col-red03">↑ 28806</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_wanren.net.html">龙腾小说网</a></span><span class="tRank col-red03">↑ 28320</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_paoshouji.com.html">泡手机</a></span><span class="tRank col-red03">↑ 28284</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_guliw.com.html">谷粒网</a></span><span class="tRank col-red03">↑ 28269</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_1asd.com.html">唐勇SEO</a></span><span class="tRank col-red03">↑ 28245</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_linhaiedu.cn.html">临海教育网 </a></span><span class="tRank col-red03">↑ 28151</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_xitinet.com.html">习题养生网</a></span><span class="tRank col-red03">↑ 27365</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_hfjjzd.gov.cn.html">合肥市公安局交通警察支队</a></span><span class="tRank col-red03">↑ 27235</span></li><li class="LsMore"><a target="_blank" href="/alltop/index_up.html">更多排行</a></li>
+
+            </ul>
+    	</div>
+     </div>
+  
+  	<div class="MListWrap w327 mr40">
+    	<div class="LsHead"><h3 class="h3Tit bg-blue">行业上升排名</h3></div>
+        <div class="LsCent327">
+             <ul>
+                <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tTrade">行业</span><span class="tRank">一周变化</span></li>
+                <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_smart400.com.html">天润融通</a></span><span class="tTrade">生活服务</span><span class="tRank col-red03">↑ 1488</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/site_bbs.mfunz.com.html">魔趣论坛</a></span><span class="tTrade">综合其他</span><span class="tRank col-red03">↑ 1473</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_danji8.com.html">单游之家</a></span><span class="tTrade">游戏网站</span><span class="tRank col-red03">↑ 1425</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_dlhuafu.cn.html">大连华富</a></span><span class="tTrade">行业企业</span><span class="tRank col-red03">↑ 1421</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_1asd.com.html">唐勇SEO</a></span><span class="tTrade">网络科技</span><span class="tRank col-red03">↑ 1398</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_gpxz.com.html">谷普下载</a></span><span class="tTrade">网络科技</span><span class="tRank col-red03">↑ 1396</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_tanglu.cc.html">唐露电影网</a></span><span class="tTrade">休闲娱乐</span><span class="tRank col-red03">↑ 1374</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/site_sq.netease.com.html">有杀气童话论坛</a></span><span class="tTrade">综合其他</span><span class="tRank col-red03">↑ 1369</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/site_www.zjky.cn.html">紫金矿业</a></span><span class="tTrade">行业企业</span><span class="tRank col-red03">↑ 1341</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/site_forum.simwe.com.html">Simwe仿真论坛</a></span><span class="tTrade">综合其他</span><span class="tRank col-red03">↑ 1330</span></li><li class="LsMore"><a target="_blank" href="/hangyetop/index.html">更多行业排行</a></li>
+
+            </ul>
+    	</div>
+     </div>
+  
+  	<div class="MListWrap w327">
+    	<div class="LsHead"><h3 class="h3Tit bg-blue">地区上升排名</h3></div>
+        <div class="LsCent327">
+            <ul>
+                <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tTrade">地区</span><span class="tRank">一周变化</span></li>
+                <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_cnlive.com.html">视讯中国</a></span><span class="tTrade">北京</span><span class="tRank col-red03">↑ 499</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_idiao.net.html">爱钓网</a></span><span class="tTrade">四川</span><span class="tRank col-red03">↑ 499</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/site_mall.yougou.com.html">优购网商城品牌旗舰店</a></span><span class="tTrade">广东</span><span class="tRank col-red03">↑ 498</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/site_cartoon.tudou.com.html">土豆动漫</a></span><span class="tTrade">上海</span><span class="tRank col-red03">↑ 497</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_icauto.com.cn.html">车主指南</a></span><span class="tTrade">广东</span><span class="tRank col-red03">↑ 497</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_qkzz.net.html">全刊杂志赏析网</a></span><span class="tTrade">北京</span><span class="tRank col-red03">↑ 497</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/site_site.leshou.com.html">乐收推广 </a></span><span class="tTrade">北京</span><span class="tRank col-red03">↑ 496</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_xuecheyi.com.html">学车易</a></span><span class="tTrade">广东</span><span class="tRank col-red03">↑ 496</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/site_dnf.tuwan.com.html">兔玩网DNF专区</a></span><span class="tTrade">北京</span><span class="tRank col-red03">↑ 495</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_aichong.cn.html">爱宠网</a></span><span class="tTrade">福建</span><span class="tRank col-red03">↑ 495</span></li><li class="LsMore"><a target="_blank" href="/diqutop/index.html">更多地区排行</a></li>
+
+            </ul>
+    	</div>
+     </div>
+   
+  </div>
+    <!--MainList01-end-->
+    
+    <!--MainVane-begin-->
+  <div class="Wrapper pt20">
+      <div class="MainVaneWrap _pr">
+        <span class="MVaneHead">热门标签</span>
+        <p class="sytagcon" id="MVaneHead_01"><a target="_blank" href="/tag/211daxue.html">211大学名单</a><a target="_blank" href="/tag/dujiaoshou.html">独角兽</a><a target="_blank" href="/tag/yangqi.html">央企</a><a target="_blank" href="/tag/zhaopinwang.html" class="spec">招聘网站</a><a target="_blank" href="/tag/zhengquangongsi.html">证券公司</a><a target="_blank" href="/tag/p2plicai.html">p2p理财</a><a target="_blank" href="/tag/p2p.html">p2p</a><a target="_blank" href="/tag/gov.html">国务院网站</a><a target="_blank" href="/tag/gouwuwangzhang.html">购物网站</a><a target="_blank" href="/tag/pic.html">图片网站</a><a target="_blank" href="/tag/hotel.html">酒店网站</a><a target="_blank" href="/tag/sucai.html">素材网站</a><a target="_blank" href="/tag/hangkonggongsi.html">航空公司</a><a target="_blank" href="/tag/jijingongsi.html">基金公司</a><a target="_blank" href="/tag/jiaoyou.html">交友网站</a><a target="_blank" href="/tag/nvxing.html" class="spec">女性网站</a><a target="_blank" href="/tag/shipin.html">视频</a><a target="_blank" href="/tag/zhuangxiu.html">装修网站</a><a target="_blank" href="/tag/zaixianlvyou.html">在线旅游</a><a target="_blank" href="/tag/dianying.html">电影网站</a></p>
+         <a href="/tag/" class="alltag" target="_blank">全部 &gt;</a>
+      </div>
+  </div>
+    <!--MainVane-end-->
+  
+    <!--MainList02-begin-->
+  	<div class="MainList02 pt20 clearfix">
+        <div class="LsHead mb10"><h3 class="h3Tit bg-red">热门行业排行榜</h3><a href="/hangye/" target="_blank" class="fr MguMore">更多+</a></div> 
+      	<div class="MListWrap w300 mr40">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>旅游</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_ctrip.com.html">携程旅行网</a></span><span class="tScore">4722</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_tuniu.com.html">途牛旅游网</a></span><span class="tScore">4244</span><span class="tRank col-red03">↑ 2</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_qyer.com.html">穷游网</a></span><span class="tScore">4202</span><span class="tRank col-red03">↑ 2</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_cncn.com.html">欣欣旅游网</a></span><span class="tScore">4200</span><span class="tRank col-green">↓ 2</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_qunar.com.html">去哪儿</a></span><span class="tScore">4194</span><span class="tRank col-green">↓ 2</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_mafengwo.cn.html">蚂蜂窝</a></span><span class="tScore">4166</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_lvmama.com.html">驴妈妈旅游网</a></span><span class="tScore">4136</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_bytravel.cn.html">博雅旅游网</a></span><span class="tScore">4081</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_elong.com.html">艺龙旅行网</a></span><span class="tScore">3983</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_booking.com.html">缤客</a></span><span class="tScore">3942</span><span class="tRank col-red03">↑ 1</span></li><li class="LsMore"><a target="_blank" href="/hangye/index_jiaotonglvyou_lvyou.html">更多旅游排行</a></li>
+                </ul>
+             </div>
+         </div>
+    
+      	<div class="MListWrap w300 mr40">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>汽车</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_bitauto.com.html">易车网</a></span><span class="tScore">4764</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_autohome.com.cn.html">汽车之家</a></span><span class="tScore">4742</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_pcauto.com.cn.html">太平洋汽车网</a></span><span class="tScore">4704</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_xcar.com.cn.html">爱卡汽车</a></span><span class="tScore">4354</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_che168.com.html">二手车之家</a></span><span class="tScore">4190</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/site_car.autohome.com.cn.html">汽车之家汽车报价</a></span><span class="tScore">4188</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/site_price.pcauto.com.cn.html">太平洋汽车网汽车报价</a></span><span class="tScore">4131</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_taoche.com.html">淘车网</a></span><span class="tScore">4025</span><span class="tRank col-red03">↑ 2</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/site_car.bitauto.com.html">易车网车型大全频道</a></span><span class="tScore">4004</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_jsyks.com.html">驾驶员考试网</a></span><span class="tScore">3966</span><span class="tRank"> - 0</span></li><li class="LsMore"><a target="_blank" href="/hangye/index_shenghuo_qiche.html">更多汽车排行</a></li>
+                </ul>
+             </div>
+         </div>
+    
+      	<div class="MListWrap w300">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>游戏</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_4399.com.html">4399小游戏</a></span><span class="tScore">4760</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_doyo.cn.html">逗游网</a></span><span class="tScore">4529</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_gamersky.com.html">游民星空</a></span><span class="tScore">4373</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_ali213.net.html">游侠网</a></span><span class="tScore">4363</span><span class="tRank col-red03">↑ 4</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_7k7k.com.html">7k7k小游戏大全</a></span><span class="tScore">4362</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_yxdown.com.html">游迅网</a></span><span class="tScore">4358</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/site_news.4399.com.html">4399游戏资讯</a></span><span class="tScore">4321</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_17173.com.html">17173</a></span><span class="tScore">4274</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_3dmgame.com.html">3DMGAME</a></span><span class="tScore">4266</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_178.com.html">178游戏网</a></span><span class="tScore">4263</span><span class="tRank"> - 0</span></li><li class="LsMore"><a target="_blank" href="/hangye/index_yule_youxi.html">更多游戏排行</a></li>
+                </ul>
+             </div>
+         </div>
+
+      	<div class="MListWrap w300 mr40">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>手机</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_apple.com.html">苹果官方网站</a></span><span class="tScore">4667</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/site_www.mi.com.html">小米网</a></span><span class="tScore">4267</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_vmall.com.html">华为商城</a></span><span class="tScore">4205</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_liqucn.com.html">历趣</a></span><span class="tScore">4083</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_miui.com.html">MIUI官方网站</a></span><span class="tScore">4007</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_cnmo.com.html">手机中国</a></span><span class="tScore">3943</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_25pp.com.html">PP助手</a></span><span class="tScore">3928</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_vivo.com.cn.html">vivo官网</a></span><span class="tScore">3921</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_appchina.com.html">应用汇</a></span><span class="tScore">3921</span><span class="tRank col-red03">↑ 8</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/site_www.meizu.com.html">魅族官网</a></span><span class="tScore">3911</span><span class="tRank col-green">↓ 1</span></li><li class="LsMore"><a target="_blank" href="/hangye/index_wangluo_shouji.html">更多手机排行</a></li>
+                </ul>
+             </div>
+         </div>
+    
+      	<div class="MListWrap w300 mr40">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>小说</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_qidian.com.html">起点中文网</a></span><span class="tScore">4761</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_ybdu.com.html">一本读</a></span><span class="tScore">4556</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_2kxs.com.html">2k小说</a></span><span class="tScore">4495</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_jjwxc.net.html">晋江文学城</a></span><span class="tScore">4394</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_zongheng.com.html">纵横中文网</a></span><span class="tScore">4226</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_faloo.com.html">飞卢中文网</a></span><span class="tScore">4219</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_booktxt.net.html">顶点小说网</a></span><span class="tScore">4165</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_jianshu.com.html">简书</a></span><span class="tScore">4162</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/site_book.douban.com.html">豆瓣读书</a></span><span class="tScore">4123</span><span class="tRank col-red03">↑ 4</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_17k.com.html">17k小说网</a></span><span class="tScore">4102</span><span class="tRank col-red03">↑ 9</span></li><li class="LsMore"><a target="_blank" href="/hangye/index_yule_xiaoshuo.html">更多小说排行</a></li>
+                </ul>
+             </div>
+         </div>
+    
+      	<div class="MListWrap w300">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>社交</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_zhihu.com.html">知乎</a></span><span class="tScore">4946</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_douban.com.html">豆瓣</a></span><span class="tScore">4914</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_weibo.com.html">新浪微博</a></span><span class="tScore">4768</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/site_weixin.qq.com.html">微信</a></span><span class="tScore">4207</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/site_mp.weixin.qq.com.html">微信公众平台</a></span><span class="tScore">4124</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/site_wx.qq.com.html">微信网页版</a></span><span class="tScore">4076</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_renren.com.html">人人网</a></span><span class="tScore">4057</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/site_im.qq.com.html">I'm QQ</a></span><span class="tScore">4050</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_jiayuan.com.html">世纪佳缘</a></span><span class="tScore">4008</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/site_qzone.qq.com.html">QQ空间</a></span><span class="tScore">3987</span><span class="tRank"> - 0</span></li><li class="LsMore"><a target="_blank" href="/hangye/index_zonghe_shejiao.html">更多社交排行</a></li>
+                </ul>
+             </div>
+         </div>
+     
+    </div>
+    <!--MainList02-end-->
+    
+    <!--MainList02-begin-->
+  	<div class="MainList02 pt20 clearfix">
+        <div class="LsHead mb10"><h3 class="h3Tit bg-red">热门地区排行榜</h3><a href="/diqu/" target="_blank" class="fr MguMore">更多+</a></div> 
+      	<div class="MListWrap w300 mr40">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>北京</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/site_www.baidu.com.html">百度</a></span><span class="tScore">4999</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_sohu.com.html">搜狐</a></span><span class="tScore">4950</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_sina.com.cn.html">新浪网</a></span><span class="tScore">4949</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/site_tv.sohu.com.html">搜狐视频</a></span><span class="tScore">4946</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_zhihu.com.html">知乎</a></span><span class="tScore">4946</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_iqiyi.com.html">爱奇艺</a></span><span class="tScore">4946</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_people.com.cn.html">人民网</a></span><span class="tScore">4943</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_sogou.com.html">搜狗</a></span><span class="tScore">4937</span><span class="tRank col-green">↓ 1</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_zol.com.cn.html">中关村在线</a></span><span class="tScore">4929</span><span class="tRank col-red03">↑ 2</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_ifeng.com.html">凤凰网</a></span><span class="tScore">4924</span><span class="tRank col-green">↓ 1</span></li><li class="LsMore"><a target="_blank" href="/diqu/index_BeiJing.html">更多北京排行</a></li>
+                </ul>
+             </div>
+         </div>
+    
+      	<div class="MListWrap w300 mr40">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>上海</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_eastmoney.com.html">东方财富网</a></span><span class="tScore">4917</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_qidian.com.html">起点中文网</a></span><span class="tScore">4761</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_dict.cn.html">海词词典</a></span><span class="tScore">4739</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_ctrip.com.html">携程旅行网</a></span><span class="tScore">4722</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_2345.com.html">2345网址导航</a></span><span class="tScore">4687</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_hupu.com.html">虎扑体育</a></span><span class="tScore">4661</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/site_guba.eastmoney.com.html">东方财富网股吧</a></span><span class="tScore">4659</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_jia.com.html">齐家网</a></span><span class="tScore">4579</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_xinshipu.com.html">心食谱</a></span><span class="tScore">4547</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_eastday.com.html">东方网</a></span><span class="tScore">4400</span><span class="tRank"> - 0</span></li><li class="LsMore"><a target="_blank" href="/diqu/index_ShangHai.html">更多上海排行</a></li>
+                </ul>
+             </div>
+         </div>
+    
+      	<div class="MListWrap w300">
+            <div class="LsCent300">
+                <h4 class="LsCeHead"><span class="h4Tit"><i></i>广州</span></h4>
+                <ul>
+                    <li class="LsCtit I7"><span class="Nos">排名</span><span class="tName">网站</span><span class="tScore">总分</span><span class="tRank">排名变化</span></li>
+                    <li class="LsClist"><span class="Nos BgRed">1</span><span class="tName"><a target="_blank" href="/Html/site_163.com.html">网易</a></span><span class="tScore">4942</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos BgRed">2</span><span class="tName"><a target="_blank" href="/Html/site_39.net.html">39健康网</a></span><span class="tScore">4765</span><span class="tRank col-red03">↑ 2</span></li><li class="LsClist"><span class="Nos BgRed">3</span><span class="tName"><a target="_blank" href="/Html/site_pcbaby.com.cn.html">太平洋亲子网</a></span><span class="tScore">4732</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">4</span><span class="tName"><a target="_blank" href="/Html/site_pcauto.com.cn.html">太平洋汽车网</a></span><span class="tScore">4704</span><span class="tRank col-red03">↑ 8</span></li><li class="LsClist"><span class="Nos">5</span><span class="tName"><a target="_blank" href="/Html/site_pclady.com.cn.html">太平洋女性网</a></span><span class="tScore">4662</span><span class="tRank col-red03">↑ 1</span></li><li class="LsClist"><span class="Nos">6</span><span class="tName"><a target="_blank" href="/Html/site_mama.cn.html">妈妈网</a></span><span class="tScore">4599</span><span class="tRank"> - 0</span></li><li class="LsClist"><span class="Nos">7</span><span class="tName"><a target="_blank" href="/Html/site_pconline.com.cn.html">太平洋电脑网</a></span><span class="tScore">4590</span><span class="tRank col-green">↓ 8</span></li><li class="LsClist"><span class="Nos">8</span><span class="tName"><a target="_blank" href="/Html/site_kugou.com.html">酷狗音乐</a></span><span class="tScore">4362</span><span class="tRank col-green">↓ 3</span></li><li class="LsClist"><span class="Nos">9</span><span class="tName"><a target="_blank" href="/Html/site_8684.cn.html">8684公交网</a></span><span class="tScore">4316</span><span class="tRank col-green">↓ 2</span></li><li class="LsClist"><span class="Nos">10</span><span class="tName"><a target="_blank" href="/Html/site_huya.com.html">虎牙直播</a></span><span class="tScore">4241</span><span class="tRank col-green">↓ 3</span></li><li class="LsMore"><a target="_blank" href="/diqu/index_GuangDong_GuangZhou.html">更多广州排行</a></li>
+                </ul>
+            </div>
+         </div>
+    
+    </div>
+    <!--MainList02-end-->
+    
+    
+    <!--MainGuideWrap-begin-->
+   <div class="Wrapper pt10 clearfix"> 
+    	<div class="MaGuideHead _pr"><span class="MguTit fl">酷站欣赏</span></div>
+    	<div class="MaGuideCent pt20 mt10 clearfix">
+        	<div class="MaGuCent-Left fl">
+            	<dl class="GuCentdl mb18 mr30"><dt><a href="/Html/site_yuedu.fm.html" target="_blank" class="ImgList"><img src="//topimg.chinaz.com/WebSiteimages/yuedufm/67e2af6a-51d1-4490-8e6e-c18b6331faca_2016_s.png" onerror="this.src='/WebSiteimages/nothing.png'"></a></dt><dd><p class="Dhead"><a target="_blank" href="/Html/site_yuedu.fm.html" class="fl dname">悦读FM</a><a target="_blank" href="/hangye/index_yule_xiaoshuo.html" class="dlink fr">小说网站</a></p><p class="Dtxt">悦读FM提供有质量的有声阅读体验，阅读也可以像听歌一样简单方便。悦读FM来自倾听...</p></dd></dl><dl class="GuCentdl mb18 mr30"><dt><a href="/Html/site_topys.cn.html" target="_blank" class="ImgList"><img src="//topimg.chinaz.com/WebSiteimages/wwwtopyscn/e5416f38-2d88-4f65-9ab5-c5d9fcd96794_2013_s.png" onerror="this.src='/WebSiteimages/nothing.png'"></a></dt><dd><p class="Dhead"><a target="_blank" href="/Html/site_topys.cn.html" class="fl dname">顶尖文案</a><a target="_blank" href="/hangye/index_wangluo_sheji.html" class="dlink fr">设计素材</a></p><p class="Dtxt">全球顶尖创意分享平台。</p></dd></dl><dl class="GuCentdl mb18 mr30"><dt><a href="/Html/site_live.chinaz.com.html" target="_blank" class="ImgList"><img src="//topimg.chinaz.com/WebSiteimages/livechinazcom/cb910970-8272-4c96-90d9-7ce18f826924_2017_s.png" onerror="this.src='/WebSiteimages/nothing.png'"></a></dt><dd><p class="Dhead"><a target="_blank" href="/Html/site_live.chinaz.com.html" class="fl dname">主播排行榜</a><a target="_blank" href="/hangye/index_wangluo_shuju.html" class="dlink fr">数据分析</a></p><p class="Dtxt">主播大数据服务平台，跨平台数据整合，拥有千万级主播数据库，实现秒级数据监控。</p></dd></dl><dl class="GuCentdl mb18 mr30"><dt><a href="/Html/site_yeeyan.org.html" target="_blank" class="ImgList"><img src="//topimg.chinaz.com/WebSiteimages/yeeyanorg/17fc8e9a-f8bb-44ad-82fc-cacb9f42939a_2016_s.png" onerror="this.src='/WebSiteimages/nothing.png'"></a></dt><dd><p class="Dhead"><a target="_blank" href="/Html/site_yeeyan.org.html" class="fl dname">译言网</a><a target="_blank" href="/hangye/index_jiaoyu_waiyu.html" class="dlink fr">外语综合</a></p><p class="Dtxt">译言网 发现、翻译、阅读中文之外的互联网精华
+</p></dd></dl>
+            </div>
+        
+        	<div class="MaGuCent-Right fr">
+            	<div class="MaGuRigBtn"><a href="javascript:void(0);" id="randomLink" val="be959a51-4129-4221-9803-8bca7103528f" onclick="ReloadRandom();">随便看看其它网站<i class="con"></i></a></div>
+                <div id="randomList">
+            	 <dl class="MaGuRigTxt clearfix"><dt><a target="_blank" href="/Html/site_ciku5.com.html" class="ImgList"><img src="//topimg.chinaz.com/WebSiteimages/wwwciku5com/be959a51-4129-4221-9803-8bca7103528f_2013_s.png" onerror="this.src='/WebSiteimages/nothing.png'"></a></dt><dd><a target="_blank" href="/Html/site_ciku5.com.html" class="dname">词库网</a><a target="_blank" href="/hangye/index_zonghe_sousuo.html" class="dlink">搜索引擎</a></dd></dl><p class="MaGuInfo">词库网是一款针对网站关键词,网络搜索热词及相关长尾词进行挖掘及分析的工具,可以...</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--MainGuideWrap-end-->
+    
+    <!--MainGuideWrap-begin-->
+   <div class="Wrapper pt20 clearfix"> 
+    	<div class="MaGuideHead _pr"><span class="MguTit fl">网站总分类</span><a href="/hangyemap.html" target="_blank" class="fr MguMore">更多+</a></div>
+        <div class="MainWebClass clearfix">
+           <dl class="MaWebClist"><dt><a target="_blank" href="/hangye/index_yule.html">休闲娱乐</a></dt><dd><a href="/hangye/index_yule_yinyue.html" target="_blank">音乐网站</a><a href="/hangye/index_yule_shishang.html" target="_blank">娱乐时尚</a></dd><dd><a href="/hangye/index_yule_youxi.html" target="_blank">游戏网站</a><a href="/hangye/index_yule_tupian.html" target="_blank">图片摄影</a></dd><dd><a href="/hangye/index_yule_xingzuo.html" target="_blank">星座运势</a><a href="/hangye/index_yule_shipin.html" target="_blank">视频电影</a></dd><dd><a href="/hangye/index_yule_xiaoshuo.html" target="_blank">小说网站</a><a href="/hangye/index_yule_shoucang.html" target="_blank">收藏爱好</a></dd><dd><a href="/hangye/index_yule_dongman.html" target="_blank">动漫网站</a><a href="/hangye/index_yule_mingxing.html" target="_blank">明星粉丝</a></dd></dl><div class="MaWebline mr28"></div><dl class="MaWebClist"><dt><a target="_blank" href="/hangye/index_jiaoyu.html">教育文化</a></dt><dd><a href="/hangye/index_jiaoyu_zaixianjiaoyu.html" target="_blank">在线教育</a><a href="/hangye/index_jiaoyu_xuexiao.html" target="_blank">中小学校</a></dd><dd><a href="/hangye/index_jiaoyu_kaoshi.html" target="_blank">教育考试</a><a href="/hangye/index_jiaoyu_waiyu.html" target="_blank">外语综合</a></dd><dd><a href="/hangye/index_jiaoyu_zhanguan.html" target="_blank">图书展馆</a><a href="/hangye/index_jiaoyu_junshi.html" target="_blank">军事国防</a></dd><dd><a href="/hangye/index_jiaoyu_liuxue.html" target="_blank">出国留学</a><a href="/hangye/index_jiaoyu_baike.html" target="_blank">百科辞典</a></dd><dd><a href="/hangye/index_jiaoyu_tianwen.html" target="_blank">天文历史</a><a href="/hangye/index_jiaoyu_daxue.html" target="_blank">高等院校</a></dd></dl><div class="MaWebline mr28"></div><dl class="MaWebClist"><dt><a target="_blank" href="/hangye/index_qiye.html">行业企业</a></dt><dd><a href="/hangye/index_qiye_baihuo.html" target="_blank">商业百货</a><a href="/hangye/index_qiye_jixie.html" target="_blank">机械工业</a></dd><dd><a href="/hangye/index_qiye_guangdian.html" target="_blank">广电通信</a><a href="/hangye/index_qiye_jianzhu.html" target="_blank">建筑材料</a></dd><dd><a href="/hangye/index_qiye_jiadian.html" target="_blank">家电数码</a><a href="/hangye/index_qiye_fushi.html" target="_blank">服装配饰</a></dd><dd><a href="/hangye/index_qiye_shihua.html" target="_blank">石化能源</a><a href="/hangye/index_qiye_shangwu.html" target="_blank">商务服务</a></dd><dd><a href="/hangye/index_qiye_wuliu.html" target="_blank">物流运输</a><a href="/hangye/index_qiye_qichechangshang.html" target="_blank">汽车厂商</a></dd></dl><div class="MaWebline mr28"></div><dl class="MaWebClist"><dt><a target="_blank" href="/hangye/index_shenghuo.html">生活服务</a></dt><dd><a href="/hangye/index_shenghuo_jiazheng.html" target="_blank">家政服务</a><a href="/hangye/index_shenghuo_canyin.html" target="_blank">餐饮美食</a></dd><dd><a href="/hangye/index_shenghuo_jiancai.html" target="_blank">家居建材</a><a href="/hangye/index_shenghuo_fenlei.html" target="_blank">分类信息</a></dd><dd><a href="/hangye/index_shenghuo_rencai.html" target="_blank">求职招聘</a><a href="/hangye/index_shenghuo_fangchang.html" target="_blank">房产网站</a></dd><dd><a href="/hangye/index_shenghuo_jiaoyou.html" target="_blank">聊天交友</a><a href="/hangye/index_shenghuo_qiche.html" target="_blank">汽车网站</a></dd><dd><a href="/hangye/index_shenghuo_caijing.html" target="_blank">金融财经</a><a href="/hangye/index_shenghuo_muying.html" target="_blank">母婴网站</a></dd></dl><div class="MaWebline mr28"></div><dl class="MaWebClist02"><dt><a target="_blank" href="/hangye/index_wangluo.html">网络科技</a></dt><dd><a href="/hangye/index_wangluo_yingyong.html" target="_blank">应用工具</a><a href="/hangye/index_wangluo_yingjian.html" target="_blank">电脑硬件</a></dd><dd><a href="/hangye/index_wangluo_ruanjian.html" target="_blank">软件下载</a><a href="/hangye/index_wangluo_jishu.html" target="_blank">技术编程</a></dd><dd><a href="/hangye/index_wangluo_sheji.html" target="_blank">设计素材</a><a href="/hangye/index_wangluo_yuming.html" target="_blank">域名主机</a></dd><dd><a href="/hangye/index_wangluo_anquan.html" target="_blank">网络安全</a><a href="/hangye/index_wangluo_youjian.html" target="_blank">邮件通信</a></dd><dd><a href="/hangye/index_wangluo_zhanzhang.html" target="_blank">站长资源</a><a href="/hangye/index_wangluo_shouji.html" target="_blank">手机数码</a></dd></dl>
+             
+    	</div>
+    
+    </div>
+    <!--MainGuideWrap-end-->
+    
+    <!--MainToplinksWrap-begin-->
+  <div class="MainToplinks mt20">
+  	<span class="HTxt">友情链接</span>
+    <a href="http://www.chinaz.com" target="_blank">站长资讯</a><a href="http://tool.chinaz.com" target="_blank">站长工具</a><a href="http://d.chinaz.com" target="_blank">斗玩网</a><a href="http://alexa.chinaz.com" target="_blank">Alexa排名</a><a href="http://down.chinaz.com/" target="_blank">网站源码</a><a href="http://sc.chinaz.com" target="_blank">站长素材</a><a href="http://www.crsky.com" target="_blank">非凡软件</a><a href="http://www.chaoji.com" target="_blank">网站监控</a><a href="http://www.hqbpc.com" target="_blank">华强北</a><a href="http://www.chinaz.com/web/ " target="_blank">建站资讯</a><a href="http://www.chinaz.com/tags/new.shtml " target="_blank">互联网热点</a><a href="http://live.chinaz.com" target="_blank">主播排行榜</a>
+  </div>
+    <!--MainToplinksWrap-end-->
+    
+    
+</div>  
+
+<!--TopIndexCentWrap-->  
+  
+<script language="javascript">
+<!--
+if (top.location !== self.location) {
+top.location=self.location;
+}
+//-->
+</script>
+<!--TPfooterWrap-end-->  
+﻿   <script src="//my.chinaz.com/js/uc1.js" type="text/javascript"></script><script type="text/javascript" src="//my.chinaz.com/Topbar/Top" charset="utf-8"></script><link href="//csstools.chinaz.com/myuser/max-templates/passport/styles/topbar.css" type="text/css" rel="Stylesheet"><link href="//csstools.chinaz.com/myuser/max-templates/default/styles/dialog.css" type="text/css" rel="Stylesheet"><div class="dropdownmenu-wrap menu-setting" id="settingpopup" style="display: none;"><div class="dropdownmenu">
+	<div class="clearfix dropdownmenu-inner">
+		<div class="clearfix menu-setting-account">
+			<div class="accountavatar">
+				<a class="avatar" href="http://my.chinaz.com/Accounts/User" target="_blank"><img src="//my.chinaz.com/avatar/user.png" height="120" width="120" onerror="javascript:this.src='//my.chinaz.com/avatar/user.png';"></a>
+			</div>
+		</div>
+		<ul class="clearfix menu-setting-list">
+			<li><a href="http://my.chinaz.com/Accounts/User" target="_blank">用户中心</a></li>
+			<li><a href="http://my.chinaz.com/Accounts/User" target="_blank">设置</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+  <div class="TPfooterWrap">
+       <div class="TPfooter">
+          <div class="TPmain">
+            <p>
+	            <a href="//www.chinaz.com/aboutus/index.html" target="_blank">关于站长之家</a> - 
+                <a href="//ww.chinaz.com/aboutus/contact.php?from=news" target="_blank">联系我们</a> - 
+                <a href="//www.chinaz.com/aboutus/ad.html" target="_blank">广告服务</a> - 
+                <a href="//www.chinaz.com/aboutus/link.html" target="_blank">友情链接</a> - 
+	            <a href="//www.chinaz.com/aboutus/announce.html" target="_blank">版权声明</a> - 
+                <a href="//www.chinaz.com/aboutus/join.html" target="_blank">人才招聘</a> - 
+	             <a href="//www.chinaz.com/aboutus/events.html" target="_blank">网站动态</a> - 
+                <a href="//www.chinaz.com/aboutus/help.html" target="_blank">帮助</a> - 
+	            <!--<a href="#">iPhone客户端</a>-<a href="#">Android客户端</a>- --><a href="//m.chinaz.com" target="_blank">手机版</a>
+			</p>
+            <p>©CopyRight 2002-2018 CHINAZ.COM Inc All Rights Reserved. 站长之家 版权所有&nbsp;&nbsp;<script language="javascript" src="/js/cnzzjs.js"></script><script src="http://s4.cnzz.com/stat.php?id=5936831&amp;web_id=5936831" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=5936831&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=5936831" target="_blank" title="站长统计">站长统计</a>
+
+</p>
+         
+         </div>
+     </div>
+ </div><iframe id="google_osd_static_frame_5920639469957" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe>
+<!--TPfooterWrap-end-->
+
+ </body></html>

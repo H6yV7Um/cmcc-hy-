@@ -1,0 +1,318 @@
+<!DOCTYPE html><html style="font-size: 100px;"><head>
+  	  <meta charset="utf-8">
+  	  <title>中国太平洋保险(集团)股份有限公司官方网站 - 太平洋车险,财产保险,人寿保险,重大疾病保险,少儿保险,理财保险</title>
+    <meta name="description" content="中国太平洋保险是国内领先的综合性保险集团,太保官网为约8699万客户提供人身意外保险、汽车保险、财产保险、健康保险、旅行保险、家庭保险和企业保险等全方位风险保障解决方案、投资理财和资产管理服务。全国统一客服热线：95500。">
+    <meta name="keywords" content="人寿保险,财产保险,理财保险,车辆保险,意外险,保险公司,太平洋保险,太平洋车险">
+  	  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+  	  <meta http-equiv="pragma" content="no-cache">
+  	  <meta http-equiv="cache-control" content="no-cache">
+  	  <meta http-equiv="expires" content="0">
+  	  <meta name="apple-mobile-web-app-capable" content="yes">
+  	  <!-- windows phone 点击无高光 -->
+  	  <meta name="msapplication-tap-highlight" content="no">
+  	  <link rel="stylesheet" href="css/v2/common.css">
+  	  <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
+  	  <link href="css/v2/index.css?v=1" rel="stylesheet" type="text/css">
+  	  <script src="js/v2/jquery.js"></script>
+      <script src="js/v2/config.js"></script>
+</head>
+<body>
+
+<!-- 公共头部 begin -->
+<header class="fixed-header">
+  <a href="index.shtml?hit=ShouyeDhLogo"><img src="./images/v2/logo.png" class="logo"></a>
+    <div class="right">
+      <a href="#;" onclick="gotoZNKF()">
+        <img src="./images/v2/icon_icon_service.png" class="icon_service"></a>
+      <a href="tel:95500"><img src="./images/v2/icon_icon_phone.png" class="icon_phone"></a>
+    </div>
+</header>
+<!-- 公共头部 end -->
+<!-- 图片轮播begin -->
+<div class="swiper-container swiper-container1 swiper-container-horizontal">
+    <div class="swiper-wrapper" style="transform: translate3d(-750px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><a class="swiper-slide swiper-slide-duplicate swiper-slide-prev" style="background-image: url(http://m.ecpic.com.cn/images/v2/banner_lxbwjkx.png); width: 750px;" href="./hdy/lxbwjkx/?hit=ShouyeBanner8" title="乐享百万医疗保险" data-swiper-slide-index="7"></a>
+      <a class="swiper-slide swiper-slide-active" style="background-image: url(http://m.ecpic.com.cn/v5/pages/laoLaiFu/images/laolaifuBanner_mobile.jpg); width: 750px;" href="v5/pages/laoLaiFu/index.html?hit=ShouyeBanner1" data-swiper-slide-index="0"></a>
+      <a class="swiper-slide swiper-slide-next" style="background-image: url(http://m.ecpic.com.cn/images/v2/banner_aefbx.jpg); width: 750px;" href="http://ai.cpic.com.cn/cta/aiweb/index.html?cmpid=gw_cp_001&amp;hit=ShouyeBanner2" data-swiper-slide-index="1"></a>
+
+      <a class="swiper-slide" style="background-image: url(http://m.ecpic.com.cn/images/v2/xinAnYi.png); width: 750px;" href="./v5/pages/anLian/index.html?hit=ShouyeBanner3" data-swiper-slide-index="2"></a><!--心安怡-->
+      <a class="swiper-slide" style="background-image: url(http://m.ecpic.com.cn/images/v2/banner4.jpg); width: 750px;" href="./v5/pages/shuiyou/index.html?hit=ShouyeBanner4" data-swiper-slide-index="3"></a><!--税优-->
+      <a class="swiper-slide" style="background-image: url(http://m.ecpic.com.cn/images/v2/banerJuBaoPen.png); width: 750px;" href="./v5/pages/JuBaoPen/index.html?gchannel=T&amp;hit=ShouyeBanner5" data-swiper-slide-index="4"></a>
+      <a class="swiper-slide" style="background-image: url(http://m.ecpic.com.cn/images/v2/banner_dzbx.jpg); width: 750px;" onclick="gotoJPGW('/o2o/llifeinsure/module/consultant.html?source=GWYD&amp;hit=ShouyeBanner6')" href="javascript:;" data-swiper-slide-index="5"></a>
+      <a class="swiper-slide" style="background-image: url(http://m.ecpic.com.cn/images/v2/banner3.png); width: 750px;" href="./v5/market/fourseasonsbaby/landingpage.html?hit=ShouyeBanner7" data-swiper-slide-index="6"></a> 
+      <a class="swiper-slide swiper-slide-duplicate-prev" style="background-image: url(http://m.ecpic.com.cn/images/v2/banner_lxbwjkx.png); width: 750px;" href="./hdy/lxbwjkx/?hit=ShouyeBanner8" title="乐享百万医疗保险" data-swiper-slide-index="7"></a>
+    <a class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="background-image: url(http://m.ecpic.com.cn/v5/pages/laoLaiFu/images/laolaifuBanner_mobile.jpg); width: 750px;" href="v5/pages/laoLaiFu/index.html?hit=ShouyeBanner1" data-swiper-slide-index="0"></a></div>
+    <div class="swiper-pagination swiper-pagination1 swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+</div>
+<!-- 图片轮播 end -->
+
+<div class="link-btns">
+  		<div class="category-title">
+			<div>
+            	<span class="line-left"></span>
+              	<span>热门服务功能</span>
+              	<span class="line-right"></span>
+				<a class="serveMore" href="#;" onclick="gotoXLJ('/xlj/pages/lanjing/serviceHall.html?gchannel=T&amp;hit=ShouyeDating2')">更多<img src="images/v2/right.png"></a>
+			</div>
+		</div>
+
+    <a href="#;" onclick="gotoXLJ('/xlj/pages/policyQuery/p10policySearch.html?gchannel=T&amp;hit=ShouyeKjfwBdcx')">
+        <img src="./images/v2/button_search.png">
+        <span>保单查询</span>
+    </a>
+    <a href="#;" onclick="gotoXLJ('/xlj/pages/lipei/danzhang_lipei.html?hit=ShouyeXztxfwB2')">
+        <img src="./images/v2/button_search_2.png">
+        <span>理赔查询</span>
+    </a>
+    <a href="#;" onclick="gotoXLJ('/xlj/pages/store/store.html?hit=ShouyeXztxfwB3')">
+        <img src="./images/v2/button_search_3.png">
+        <span>门店查询</span>
+    </a>
+    <a href="#;" onclick="gotoZNKF()">
+        <img src="./images/v2/button_kefu.png">
+        <span>智能客服</span>
+    </a>
+  <a href="https://one.cpic.com.cn/o2o/llifeinsure/module/consultant.html?source=GWYD&amp;testclick=JPGW2">
+        <img src="images/v2/button_jinpaiguwen.png">
+        <span id="adviser">找代理人</span>
+    </a>
+</div>
+
+<div class="category-list">
+    <div class="category-title">
+        <div><span class="line-left"></span><span>热门产品分类</span><span class="line-right"></span>
+            <a class="more" href="./mobile_cpic/bxindex.html?hit=ShouyeDhChaoshi">更多<img src="./images/v2/right.png"></a>
+        </div>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container swiper-container2 swiper-container-horizontal">
+        <div class="swiper-wrapper">
+                <a class="swiper-slide slide-item swiper-slide-active" href="./mcar/pages/carInsurance.html?sourceType=T&amp;otherSource=&amp;channel=01&amp;isShow=1&amp;hit=ShouyeDhCsQcbx" style="width: 243.33333333333334px; margin-right: 10px;">
+                <img src="images/v2/image1.png">
+                <span>汽车保险</span>
+                </a>
+                <a class="swiper-slide slide-item swiper-slide-next" href="./mobile_cpic/bxlbly.html?hit=ShouyeDhCsLybx" style="width: 243.33333333333334px; margin-right: 10px;">
+                <img src="images/v2/image2.png">
+                <span>旅游保险</span>
+                </a>
+                <a class="swiper-slide slide-item" href="./mobile_cpic/bxlbjk.html?hit=ShouyeDhCsJkbx" style="width: 243.33333333333334px; margin-right: 10px;">
+                <img src="images/v2/image3.png">
+                <span>健康保险</span>
+                </a>
+                <a class="swiper-slide slide-item" href="./mobile_cpic/bxlbshaoer.html?hit=ShouyeDhCsEtbx" style="width: 243.33333333333334px; margin-right: 10px;">
+                <img src="images/v2/sebx.jpg">
+                <span>少儿保险</span>
+                </a>
+                <a class="swiper-slide slide-item" href="./mobile_cpic/bxlbyw.html?hit=ShouyeDhCsYwbx" style="width: 243.33333333333334px; margin-right: 10px;">
+                <img src="images/v2/rsywbx.jpg">
+                <span>人身意外保险</span>
+                </a>
+                <a class="swiper-slide slide-item" href="./mobile_cpic/bxlbjz.html?hit=ShouyeDhCsJtbx" style="width: 243.33333333333334px; margin-right: 10px;">
+                <img src="images/v2/jtbx.jpg">
+                <span>家庭保险</span>
+                </a>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination2 swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+    </div>
+
+<div class="category-list2">
+    <div class="category-title">
+        <div><span class="line-left"></span><span>热门爆款产品</span><span class="line-right"></span><a class="more" href="./product.html?cmpid=nim_wap_sh_001714&amp;otherSource=&amp;hit=ShouyeBxmore">更多<img src="./images/v2/right.png"></a></div>
+    </div>
+    <div class="categories2">
+      <div class="category-each">
+            <img src="v5/pages/laoLaiFu/images/laolaifuBanner.jpg">
+            <span class="c-e-title2">热销产品</span>
+            <p class="ca-title">老来福（2018）保险产品计划</p>
+            <div class="overflow-auto">
+                <div class="category-each-content">
+                    <p class="ca-content">生活无忧老来福 灵活领取会享福。</p>
+                </div>
+                <a class="search-btn-wrapper" href="v5/pages/laoLaiFu/index.html" style="padding-bottom: 42px;"><img src="./images/v2/button_search_4.png" class="search-btn"></a>
+            </div>
+        </div>
+        <div class="category-each">
+            <img src="./images/v2/image_sy.jpg">
+            <span class="c-e-title1">爆款推荐</span>
+            <p class="ca-title">个人税收优惠型健康保险</p>
+            <div class="overflow-auto">
+                <div class="category-each-content">
+                    <p class="ca-content">一款可以享受个税优惠的健康保险！快来算一下您可以少交多少税吧！</p>
+                </div>
+                <a class="search-btn-wrapper" href="./v5/pages/shuiyou/index.html"><img src="./images/v2/button_search_4.png" class="search-btn"></a>
+            </div>
+        </div>
+        <div class="category-each">
+            <img src="./images/v2/image7.png">
+            <span class="c-e-title2">热销产品</span>
+            <p class="ca-title">全民运动意外保障</p>
+            <div class="overflow-auto">
+                <div class="category-each-content">
+                    <p class="ca-content">首款定制化运动意外险，让您安心享受运动。运动项目自由搭配，一天起保，保费最低每天只需一元。</p>
+                </div>
+                <a class="search-btn-wrapper" href="./v5/pages/movement/index.html"><img src="./images/v2/button_search_4.png" class="search-btn"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="adapt-me">
+    <div class="adapt-me-wrapper" id="alfaInsurance" style="background-image: url(images/v2/banner_aefbx_02.jpg)">
+        <!--<div class="adapt-title">我不知道什么产品适合我？</div>
+        <a class="adapt-btn" href="./product.html?cmpid=nim_wap_sh_001714&otherSource=&hit=ShouyeBxmore">寻找最适合自己的保险</a>
+        <img src="./images/v2/image4.png" class="adapt-img"/>-->
+      <a href="http://ai.cpic.com.cn/cta/aiweb/index.html?cmpid=gw_cp_001&amp;testclick=AEFBX2" style="display:block;width:100%;height:100%"></a>
+    </div>
+</div>
+
+<div class="adapt-service">
+    <div class="adapt-service-wrapper">
+        <div class="adapt-s-title">还没有找到您想要的服务？</div>
+        <a class="adapt-s-btn" href="#;" onclick="gotoZNKF()">询问客服机器人</a>
+        <img src="./images/v2/image5.png" class="adapt-s-img">
+    </div>
+</div>
+
+<div class="choose-reason-wrapper">
+    <div class="category-title">
+        <div><span class="line-left"></span><span>为什么选择太平洋保险</span><span class="line-right"></span></div>
+    </div>
+    <div class="choose-reason">
+        <div>
+            <img src="./images/v2/choose1.png">
+            <p class="first">25年经验</p>
+            <p>专注做您的保险专家</p>
+        </div>
+        <div>
+            <img src="./images/v2/choose2.png">
+            <p class="first">完善服务</p>
+            <p>满足您所有保险需求</p>
+          <a href="http://ai.cpic.com.cn/cta/aiweb/index.html?cmpid=gw_cp_001" style="display:block;position:absolute;width:100%;height:100%;top:0;left:0;"></a>
+        </div>
+      <div style="position:relative;">
+            <img src="./images/v2/choose3.png">
+            <p class="first">80万人员</p>
+            <p>强大的团队为您服务</p>
+        <a onclick="gotoJPGW('/o2o/llifeinsure/module/consultant.html?source=GWYD&amp;youbu=80wry')" style="display:block;position:absolute;width:100%;height:100%;top:0;left:0;"></a>
+        </div>
+    </div>
+</div>
+<!--
+<div class="related-info">
+    <a class="first" href="./xjyhzx/23960.shtml"><img src="./images/v2/button_wechat.png" />官方微信号</a>
+    <a href="./newweb/pages/download/pages/appdownload/index.html?downSource=4"><img src="./images/v2/button_app.png" />app下载</a>
+</div>
+-->
+<div class="footer">
+    <div class="footer-1">
+      <div style="width:32%;">
+            <a href="#;" onclick="gotoZNKF()"></a>
+            <div class="footer-title">随时解答您的疑问</div>
+            <p><img src="images/v2/button_service.png">智能客服</p>
+        </div>
+        <div style="width:32%;">
+            <a href="html/erweima.html"></a>
+            <div class="footer-title">扫一扫获取更多服务</div>
+            <p><img src="images/v2/button_saomiao.png">官方微信号</p>
+        </div>
+        <div style="width:36%;">
+            <a href=""></a>
+            <div class="footer-title">7x24小时全国统一客服电话</div>
+            <p class="footer-tel"><img src="images/v2/button_phone.png">95500</p>
+        </div>
+    </div>
+  <div class="about-us" style="display:none;">
+        <a>关于公司</a><span></span><a>集团旗下</a><span></span><a>帮助中心</a>
+    </div>
+    <div class="footer-line"></div>
+    <div class="copyright">
+        <p>版权所有©中国太平洋保险（集团）股份有限公司 CopyRight©China Pacific</p>
+        <p>Insurance(group) Co.,Ltd.. All Rights Reserved 沪ICP备12028297号.</p>
+    </div>
+</div>
+<!-- 公共尾部 begin -->
+<footer>
+    <a href="index.shtml?hit=ShouyeDhLogo"><img src="./images/v2/button_home_choose.png"><span>首页</span></a>
+    <a href="./mobile_cpic/bxindex.shtml?hit=ShouyeDhChaoshi"><img src="./images/v2/button_bag.png"><span>保险超市</span></a>
+    <a href="#;" onclick="gotoXLJ('/xlj/pages/lanjing/serviceHall.html?gchannel=T&amp;hit=ShouyeDhDating')"><img src="./images/v2/button_search_footer.png"><span>服务大厅</span></a>
+    <a href="#;" onclick="gotoBOX('/mobile/views/login/login.html?sysid=JTGW&amp;channel=007')"><img src="./images/v2/button_my.png"><span>我的保险箱</span></a>
+</footer>
+<!-- 公共尾部 end -->
+<!-- App=ZCMS(ZCMS内容管理系统) 2.4.27615,CostTime=11,PublishDate=2017-06-27 20:46:37 -->
+
+<script type="text/javascript">
+  var randomShow = 50;
+	var abTestOM = "";
+	if(Math.random()*100 > randomShow){//随机显示
+        $("#adviser").text('金牌顾问');
+        $("#alfaInsurance").attr("style","background-image: url(images/v2/banner_aefbx.jpg)");
+        abTestOM = "金牌顾问1,阿尔法保险1";
+		if (isSIT){
+			$("#adviser").parent().attr("href","https://onesit.cpic.com.cn/o2o/llifeinsure/module/consultant.html?source=GWYD&testclick=JPGW1");
+		} else {
+			$("#adviser").parent().attr("href","https://one.cpic.com.cn/o2o/llifeinsure/module/consultant.html?source=GWYD&testclick=JPGW1");
+		}
+        $("#alfaInsurance a").attr("href","http://ai.cpic.com.cn/cta/aiweb/index.html?cmpid=gw_cp_001&testclick=AEFBX1");
+    }else{
+        $("#adviser").text('找代理人');
+        $("#alfaInsurance").attr("style","background-image: url(images/v2/banner_aefbx_02.jpg)");
+        abTestOM = "金牌顾问2,阿尔法保险2";
+        if (isSIT){
+			$("#adviser").parent().attr("href","https://onesit.cpic.com.cn/o2o/llifeinsure/module/consultant.html?source=GWYD&testclick=JPGW2");
+		} else {
+			$("#adviser").parent().attr("href","https://one.cpic.com.cn/o2o/llifeinsure/module/consultant.html?source=GWYD&testclick=JPGW2");
+		}
+        $("#alfaInsurance a").attr("href","http://ai.cpic.com.cn/cta/aiweb/index.html?cmpid=gw_cp_001&testclick=AEFBX2");
+    }
+
+
+    $(document).ready(function () {
+        var swiper =  $('.swiper-container1').swiper({
+            loop:true,
+            autoplay : 5000,
+            pagination : '.swiper-pagination1',
+            paginationClickable :true
+        });
+      var swiper2 = new Swiper('.swiper-container2', {
+        pagination: '.swiper-pagination2',
+        // paginationType:'progress',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 10
+    });
+    })
+</script>
+<script src="lib/swiper/js/swiper.jquery.min.js"></script>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if(clientWidth >=750){//750 font-size: 100px
+                        docEl.style.fontSize = 100 + 'px';
+                    } else{
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';// 375  font-size: 50px;
+                    }
+                };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<script language="JavaScript" type="text/javascript" src="https://a2cdn3.8686c.com/omniture/s_code_mp.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+ the next lines. */
+s.pageName="触屏版首页"
+s.channel="触屏版首页"
+s.prop1="触屏版首页"
+s.prop2="触屏版首页"
+s.prop4="触屏版首页"
+s.prop18=abTestOM
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+
+</div></body></html>

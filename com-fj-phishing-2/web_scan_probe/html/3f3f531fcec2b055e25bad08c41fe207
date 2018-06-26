@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>用户登录 - 淘自然管理平台</title>
+<link type="image/x-icon" href="./theme/images/favicon.ico" rel="icon">
+<link rel="stylesheet" type="text/css" href="./theme/fonts/fonts.css">
+<link rel="stylesheet" type="text/css" href="./theme/common.css">
+<link rel="stylesheet" type="text/css" href="./theme/user.css">
+<link rel="stylesheet" type="text/css" href="./theme/skin/default.css" id="skin-style-file">
+<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./js/fn.extend.js"></script>
+<script type="text/javascript" src="./js/md5.js"></script>
+<script type="text/javascript">
+$(function(){
+	var _rmu = $.getcookie('remember_user');
+	$("#username").val(_rmu ? _rmu : '');
+	$(".wrapper").css("margin-top","-"+($(".wrapper").outerHeight()/2)+"px");
+	$("form").submit(function(){
+		$.setcookie('remember_user', false, 0);
+		var username = $.trim($("#username").val());
+		var password = $.trim($("#password").val());
+		if(username == ''){
+			showmsg('用户名不能为空','c_username');
+			return false;
+		}
+		if(password == ''){
+			showmsg('密码不能为空','c_password');
+			return false;
+		}
+		$(".content .error").remove();
+		if(parseInt($("#remember").val())>0) $.setcookie('remember_user', username, 30);
+		$.ajax({
+			url : $(this).attr("action"),
+			data : "username="+username+"&password="+hex_md5(password)+"&usempuser="+($("#usempuser").attr("checked")?1:0),
+			type : "POST",
+			dataType : 'json',
+			success : function(json){
+				if(json.code == 0){
+					document.location.href = json.url;
+				}else{
+					showmsg(json.data,'c_all');
+				}
+			},
+			error : function(){
+				alert('系统出错，登录验证失败');
+			}
+		});
+		return false;
+	});
+	
+	$(document).keydown(function(e){
+		e = e || window.event;
+		if(e.keyCode == 13) {
+			$('form').submit();
+		}   
+	});
+});
+
+function showmsg(msg,cls){
+	if($(".content .error").length > 0){
+		$(".content .error").html(msg);
+	}else{
+		$(".content").prepend("<div style='display:none;' class='error "+cls+"'>"+msg+"</div>");
+		$(".content .error").fadeIn();
+	}
+	
+}
+</script>
+</head>
+<body class="login-layout">
+<div class="wrapper user-wrapper" style="margin-top: -150.5px;">
+<div class="header"><img src="./theme/images/../images/logo_m.png" height="50" alt="用户登录"></div>
+<div class="content">
+<form action="/user.php?login.html" method="post">
+<label class="lb" for="username">用户名：</label>
+<div class="form-item"><input onblur="$.trim(this.value)!='' &amp;&amp; $('.c_username').remove()" onchange="$('.c_all').remove()" name="username" placeholder="Username" id="username" type="text" class="long-txt username-txt"></div>
+<label class="lb" for="password">密 码：</label>
+<div class="form-item"><input id="password" onblur="$.trim(this.value)!='' &amp;&amp; $('.c_password').remove()" onchange="$('.c_all').remove()" placeholder="Password" name="password" type="password" class="long-txt password-txt"></div>
+<div style="padding-top:10px;">
+<span class="large-btn btn-2" onclick="$('form').submit()"><i class="icon_key elegant-icon"></i>立即登录</span>
+<span style="position:relative;top:12px;left:10px;">
+<input type="checkbox" name="remember" id="remember" style="vertical-align: top;" value="1" checked="">
+<label for="remember">记住用户</label>
+<a href="/user.php?m=passport&amp;a=mircologin" style="margin-left:10px;"><u>扫一扫快速登录</u></a>
+</span>
+<span style="position:relative;top:12px;left:10px;color:#428bca;display:none;">
+<input type="checkbox" name="usempuser" id="usempuser" style="vertical-align: top;" value="1">
+<label for="usempuser">使用微信公众号登录</label>
+<a href="/user.php?m=passport&amp;a=mircologin" style="margin-left:10px;"><u>扫一扫快速登录</u></a>
+</span>
+</div>
+</form>
+</div>
+</div>
+<div style="color:#999;text-align: center;position: absolute;bottom:20px;width: 100%;font-size: 14px;">Copyright © 2008~2019 淘自然管理平台 闽ICP备15009321号-2</div>
+
+</body></html>

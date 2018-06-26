@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GB18030">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <base href="static/pages/"> 
+    <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" name="viewport">
+    <link href="css/photo.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+body {position:absolute;margin:0;width:100%;height:100%;}
+#mapContainer {left:0px;top:0px;width:100%;height:85%;float:right;}
+    </style>
+    <title>富媒体消息</title>
+    <!-- 5xx page -->
+</head>
+<body class="wrap">
+<div class="wrapper">
+    <div class="h_body">
+        <section class="main text">
+            <div class="box">
+
+                <div class="reply-title">
+                    <img src="image/hefeixin.png">
+                    <h2>您的好友通过中国移动和飞信给您发送了一条消息</h2>
+                </div>
+                <section class="main text">
+                    <div class="box">
+                        <p class="content">您的消息已经过期，请稍后重试</p>
+                    </div>
+                </section>
+            </div>
+    </section></div>
+
+
+</div></body></html>

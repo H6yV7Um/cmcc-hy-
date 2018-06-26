@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><base href="http://www.ccin.com.cn/templet/ccin/">
+
+<meta name="baidu-site-verification" content="4EAIh7rVTb">
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<meta content="新闻服务行业,互动编织网络--中化新网,中国化工报社主办。" name="description">
+<meta content="ccin,chem,chemical,化工,化工新闻,化工新闻网,中化新网,化工报,中国化工报,中国化工报社,化工环保,化工节能,化工安全,区域化工,化工评论,石油天然气,煤化工,氯碱,纯碱,无机原料,有机原料,涂料,橡胶,化肥,农药,塑料,化学纤维,化工装备,氟硅材料,化工公用材料,精细化工" name="title">
+<title>中化新网 - 化工行业强势门户网站 中国化工报社主办</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="x-dns-prefetch-control" content="on">
+		<link rel="dns-prefetch" href="//ads.ccin.tv">
+		<link rel="dns-prefetch" href="//p.ccin.com.cn">
+		<link rel="dns-prefetch" href="//s.ccin.com.cn">
+		<link rel="dns-prefetch" href="//english.ccin.com.cn">
+		<link rel="dns-prefetch" href="//feiliao.ccin.tv">
+		<link rel="dns-prefetch" href="//ccin.greenchina.tv">
+		<link rel="dns-prefetch" href="//src.vodindex.vp.uitv.com.cn">
+		<link rel="dns-prefetch" href="//src.vodfile.vp.uitv.com.cn">
+		<link rel="dns-prefetch" href="//www.ccin.tv">
+		<link rel="dns-prefetch" href="//vop.ccin.tv">
+<script src="//hm.baidu.com/hm.js?84576d0f6e03708b54a3019df51292f5"></script><script type="text/javascript" src="js/bigpicroll.js"></script>
+
+<!--百度统计-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?84576d0f6e03708b54a3019df51292f5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+<body>
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<div id="animate" class="w" style="height: 40px;">
+	<img id="_topimage" src="images/jcdckmini.jpg" alt="特供资讯" usemap="#topimg" width="100%" height="100%">
+	<map name="topimg" id="topimg">
+		<!--
+		<area shape="rect" coords="850,22,915,47" href="http://s.ccin.com.cn/specialinfo/product.jsp#details" target="_blank" />
+		<area shape="rect" coords="917,22,979,47" href="http://s.ccin.com.cn/specialinfo/center.jsp" target="_blank" />
+		<area shape="rect" coords="31,70,205,104" href="http://ipaper.ccin.com.cn/" target="_blank" />
+		<area shape="rect" coords="116,133,156,149" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=5#details" target="_blank" />
+		<area shape="rect" coords="225,72,399,102" href="http://s.ccin.com.cn/specialinfo/center.jsp" target="_blank" />
+		<area shape="rect" coords="311,130,353,149" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=1#details" target="_blank" />
+		<area shape="rect" coords="416,73,590,101" href="http://iedb.ccin.com.cn/" target="_blank" />
+		<area shape="rect" coords="526,132,568,150" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=2#details" target="_blank" />
+		<area shape="rect" coords="604,74,782,100" href="http://p.ccin.com.cn/" target="_blank" />
+		<area shape="rect" coords="717,130,758,149" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=3#details" target="_blank" />
+		<area shape="rect" coords="799,74,970,100" href="http://english.ccin.com.cn/" target="_blank" />
+		<area shape="rect" coords="802,128,865,150" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=6#details" target="_blank" />
+		-->
+		<area shape="rect" coords="849,28,912,46" href="http://s.ccin.com.cn/specialinfo/product.jsp#details" target="_blank">
+		<area shape="rect" coords="920,27,975,45" href="http://s.ccin.com.cn/specialinfo/center.jsp" target="_blank">
+		<area shape="rect" coords="107,76,238,96" href="http://ipaper.ccin.com.cn/" target="_blank">
+		<area shape="rect" coords="171,130,209,146" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=5#details" target="_blank">
+		<area shape="rect" coords="351,76,422,98" href="http://s.ccin.com.cn/" target="_blank">
+		<area shape="rect" coords="391,132,427,147" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=1#details" target="_blank">
+		<area shape="rect" coords="556,76,644,96" href="http://iedb.ccin.com.cn/" target="_blank">
+		<area shape="rect" coords="629,133,662,147" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=2#details" target="_blank">
+		<area shape="rect" coords="781,77,852,94" href="http://p.ccin.com.cn/" target="_blank">
+		<area shape="rect" coords="842,129,880,148" href="http://s.ccin.com.cn/specialinfo/product.jsp?tar=3#details" target="_blank">
+	</map>
+</div>
+<script type="text/javascript">
+var hasSync = false;
+var animate = {
+	nodeid : "#animate"
+	, timer : null
+	, show : function () {
+		if(hasSync) return;
+		hasSync = true;
+		animate.changeMaxImage();
+		$(animate.nodeid).animate({"height": "202px"}, 600);
+		/*
+		$(animate.nodeid).slideDown(1000, function() {
+			$(this).height(200);
+		});
+		*/
+		animate.startTimer();
+	}
+	, hide : function () {
+		$(animate.nodeid).animate({"height": "40px"}, 600);
+		/*
+		$(animate.nodeid).slideUp(1000, function() {
+			$(this).height(40);
+			$(this).show();
+		});
+		*/
+		animate.changeMiniImage();
+		animate.stopTimer();
+		hasSync = false;
+		
+	}
+	, startTimer : function () {
+		this.timer = setInterval(this.hide, 3000);
+	}
+	, stopTimer : function () {
+		clearInterval(this.timer);
+	}
+	,changeMiniImage : function () {
+		$("#_topimage").attr("src", "images/jcdckmini.jpg");
+	}
+	,changeMaxImage : function () {
+		$("#_topimage").attr("src", "images/jcdck2.0.jpg");
+	}
+}
+$(document).ready(function () {
+	animate.show();
+});
+$('#animate').mouseout(function() {
+	//animate.startTimer();
+	animate.timer = setInterval(animate.hide, 1000);
+});
+$('#animate').mouseover(function() {
+	animate.stopTimer();
+	animate.show();
+	animate.stopTimer();
+});
+</script>
+<div class="thtml_div">
+<div class="tbody_div">
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<div class="w top">
+	<ul class="fl" style="width:70%">
+	<li><a onclick="SetHome(this,window.location)" style="cursor:pointer">设为首页</a></li>
+	<li><a href="http://www.ccin.com.cn/ccin/ipaddownload/index.html" target="_blank">决策大参考客户端</a></li>
+	<!--
+	<li><a href="http://www.ccin.com.cn/ad2/wxpt/wxhdpt.html" target="_blank">微信公众号</a></li>
+	-->
+	<li><a href="http://m.ccin.tv/" target="_blank">全网营销云平台</a></li>
+	<li><a>视频投稿：2205468630@qq.com</a></li>
+	<li><a>文字投稿：ccinnew@163.com</a></li>
+	
+	</ul>
+	<ul class="r" style="width: 30%">
+		<li><a href="http://www.ccin.com.cn/tv/home/tougao.html" target="_blank">征稿启事</a></li>
+		<li><a href="http://u.ccin.com.cn/new/login2.jsp" target="_blank">投稿</a></li>
+	</ul>
+<!--
+   <script type="text/javascript" src="http://ads.ccin.tv/front/ccin/dateOut/ccin.com.cn.top.login.regist.user.jsp"></script>
+   -->
+</div>
+<script type="text/javascript">
+function SetHome(obj,vrl){
+        try{
+                obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+        }
+        catch(e){
+                if(window.netscape) {
+                        try {
+                                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+                        } 
+                        catch (e)  {
+                                alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将[signed.applets.codebase_principal_support]设置为'true'"); 
+                        }
+                        var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                        prefs.setCharPref('browser.startup.homepage',vrl);
+                 }
+        }
+}
+</script>
+<div class="clr"></div>
+
+<div class="w header">
+	<div class="logo"><img src="images/logo.png"></div>
+    <div class="logo1"><img src="images/logo1.png"></div>
+    <div class="searchbox">
+	<form id="cms4jForm1" target="_blank" name="cms4jForm1" method="get" action="http://so.ccin.tv/s/ccin/search">
+	<input id="type" type="hidden" name="type" value="title">
+	<input name="title" type="text" class="searchinput"><input name="" id="sjsdjdjdkkd" type="button" class="searchbtn">
+	</form>
+	<script type="text/javascript">
+			$("#sjsdjdjdkkd").click(function () {
+				tyuioSubmit();
+			});
+			$("#cms4jForm1").submit(function () {
+				var _val1_ = document.cms4jForm1.title.value;
+				if(_val1_.length > 0) {
+					document.cms4jForm1.title.value=window.encodeURIComponent(_val1_);
+					document.cms4jForm1.submit();
+					document.cms4jForm1.title.value=_val1_;
+				}
+				return false;
+			});
+			function tyuioSubmit() {
+				var _val1_ = document.cms4jForm1.title.value;
+				if(_val1_.length > 0) {
+					document.cms4jForm1.title.value=window.encodeURIComponent(_val1_);
+					document.cms4jForm1.submit();
+					document.cms4jForm1.title.value=_val1_;
+				}
+			}
+		</script>
+	</div>
+    <div class="day"><iframe width="220" scrolling="no" height="80" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=12&amp;color=%23FFFFFF&amp;icon=1&amp;py=beijing&amp;num=1"></iframe>
+	</div>
+</div>
+<div class="clr"></div>
+
+<div class="w head_nav">
+	<ul>
+	<li class="sel"><a href="/ccin/news/index.shtml" target="_blank">新闻中心</a></li>
+	<li><a href="http://www.ccin.tv/tv/" target="_blank">化工电视</a></li>
+	<li><a href="http://feiliao.ccin.tv/" target="_blank">肥料在线</a></li>
+	<li><a href="http://ads.ccin.tv/front/ccin/index.jsp" target="_blank">商情信息</a></li>
+	<!--<li><a href="http://hse.ccin.tv/templet/hse/" target="_blank">HSE</a></li>-->
+	<li><a href="http://www.chinahse.org.cn/" target="_blank">责任关怀</a></li>
+	<li class="small"><a href="http://ipaper.ccin.com.cn/papers/ccin/index.html" target="_blank">电子版</a></li>
+	<li class="small"><a href="http://s.ccin.com.cn/specialinfo/center.jsp" target="_blank">每日速递</a></li>
+	<li class="small"><a href="http://iedb.ccin.com.cn/" target="_blank">进出口</a></li>
+	<li class="small"><a href="http://p.ccin.com.cn/" target="_blank">化工项目</a></li>
+	<li class="small"><a href="http://ccin.com.cn/templet/ccin/17science/" target="_blank">化工科普</a></li>
+	<!--<li class="small"><a href="http://english.ccin.com.cn" target="_blank">Chem Online</a></li>-->
+	<!--<li class="small"><a href="http://www.ccin.com.cn/ccin/syxw/" target="_blank">分类信息</a></li>-->
+	</ul>
+</div>
+<div class="clr"></div>
+
+<div class="w head_nav_bot">
+	<ul>
+	<li><a href="/ccin/news/58/index.shtml" target="_blank">综合要闻</a></li>
+	<li><a href="/news/482/index.shtml" target="_blank">煤化工</a></li>
+	<li><a href="/news/1826/3125/index.html" target="_blank">有机</a></li>
+	<li><a href="/news/1826/3126/index.html" target="_blank">无机</a></li>
+	<li><a href="/news/1826/3124/index.html" target="_blank">合成</a></li>
+	<li><a href="/news/1826/6471/index.html" target="_blank">精细</a></li>
+	<li><a href="/ccin/news/472/index.shtml" target="_blank">农化</a></li>
+	<li><a href="/ccin/news/18/index.shtml" target="_blank">能源</a></li>
+    <li><a href="/ccin/news/28/index.shtml" target="_blank">国际</a></li>
+	<li><a href="/ccin/news/29/index.shtml" target="_blank">科技</a></li>
+	<li><a href="/ccin/news/473/index.shtml" target="_blank">企业</a></li>
+	<li><a href="/ccin/news/17/index.shtml" target="_blank">安全环保</a></li>
+	<li><a href="/ccin/news/6/index.shtml" target="_blank">曝光台</a></li>
+	<li><a href="http://u.ccin.com.cn/" target="_blank">全媒体联盟</a></li>
+	<li><a href="http://www.ccin.com.cn/ccin/229/375/index.shtml" target="_blank"><font color="red">重点行业</font></a></li>
+	</ul>
+</div>
+<div class="clr"></div>
+
+
+
+
+<div class="w" id="w_topImage" style="margin-top:15px">
+	
+	
+<script type="text/javascript" src="/ad/1262.js"></script><a href="http://ccin.tv/tv/topic/17zetar/index.html" target="_blank"><img src="/upload/171109/1711091312202750.jpg" width="1000" height="90"></a>
+ 
+	
+<!--	
+	<a target="_blank" href="http://ccin.com.cn/ccin/topic/17yihuawang/index.html">
+		<img width="1000" height="90" src="/ccin/topic/17yihuawang/images/YHW-TOP-AD.jpg">
+	</a>
+	-->
+</div>
+<!--
+<script type="text/javascript">
+var adCfgInfo_w = [
+	[{name:"$file",value:"/tv/topic/17finance/images/finance_ccin_ad.jpg"},{name:"$href",value:"http://ccin.tv/tv/topic/17finance/index.html"}],
+[{name:"$file",value:"/ccin/topic/17yihuawang/images/YHW-TOP-AD.jpg"},{name:"$href",value:"http://ccin.com.cn/ccin/topic/17yihuawang/index.html"}]
+]
+
+var w1 = 0;
+function change_w() {
+	if(w1 < (adCfgInfo_w.length - 1)) {
+		w1 = w1 + 1;
+	} else {
+		w1 = 0;
+	}
+	var _adobj_w1 = adCfgInfo_w[w1];
+	var _adimg_w1 = _adobj_w1[0];
+	var _adhref_w1 = _adobj_w1[1];
+	$("#w_topImage a").attr("href", _adhref_w1["value"]);
+	$("#w_topImage img").attr("src", _adimg_w1["value"])
+}
+change_w();
+window.setInterval(change_w, 5000);
+</script>
+-->
+
+
+
+<div class="w">
+<!--
+	<script type=text/javascript>
+				var rolltext_k=3;
+				var rolltext_i=1;
+				rolltext_tt=setInterval("rolltext(1)",8000);
+				function rolltext(a){
+				clearInterval(rolltext_tt);
+				rolltext_tt=setInterval("rolltext(1)",8000);
+				rolltext_i+=a;
+				if (rolltext_i>rolltext_k){rolltext_i=1;}
+				if (rolltext_i==0){rolltext_i=rolltext_k;}
+				 for (var j=1; j<=rolltext_k; j++){
+				 document.getElementById("rolltextmenu"+j).style.display="none";
+				 }
+				 document.getElementById("rolltextmenu"+rolltext_i).style.display="block";
+				 document.getElementById("pageshow").innerHTML = rolltext_i+"/"+rolltext_k;
+				}
+</script>
+-->
+<script type="text/javascript"> 
+function Marquee() { 
+this.ID = document.getElementById(arguments[0]); 
+this.Direction = arguments[1]; 
+this.Step = arguments[2]; 
+this.Width = arguments[3]; 
+this.Height = arguments[4]; 
+this.Timer = arguments[5]; 
+this.WaitTime = arguments[6]; 
+this.StopTime = arguments[7]; 
+if (arguments[8]) { this.ScrollStep = arguments[8]; } else { this.ScrollStep = this.Direction > 1 ? this.Width : this.Height; } 
+this.CTL = this.StartID = this.Stop = this.MouseOver = 0; 
+this.ID.style.overflowX = this.ID.style.overflowY = "hidden"; 
+this.ID.noWrap = true; 
+this.ID.style.width = this.Width; 
+this.ID.style.height = this.Height; 
+this.ClientScroll = this.Direction > 1 ? this.ID.scrollWidth : this.ID.scrollHeight; 
+this.ID.innerHTML += this.ID.innerHTML; 
+this.Start(this, this.Timer, this.WaitTime, this.StopTime); 
+} 
+Marquee.prototype.Start = function(msobj, timer, waittime, stoptime) { 
+msobj.StartID = function() { msobj.Scroll(); } 
+msobj.Continue = function() { 
+if (msobj.MouseOver == 1) { setTimeout(msobj.Continue, waittime); } 
+else { clearInterval(msobj.TimerID); msobj.CTL = msobj.Stop = 0; msobj.TimerID = setInterval(msobj.StartID, timer); } 
+} 
+msobj.Pause = function() { msobj.Stop = 1; clearInterval(msobj.TimerID); setTimeout(msobj.Continue, waittime); } 
+msobj.Begin = function() { 
+msobj.TimerID = setInterval(msobj.StartID, timer); 
+msobj.ID.onmouseover = function() { msobj.MouseOver = 1; clearInterval(msobj.TimerID); } 
+msobj.ID.onmouseout = function() { msobj.MouseOver = 0; if (msobj.Stop == 0) { clearInterval(msobj.TimerID); msobj.TimerID = setInterval(msobj.StartID, timer); } } 
+} 
+setTimeout(msobj.Begin, stoptime); 
+} 
+Marquee.prototype.Scroll = function() { 
+switch (this.Direction) { 
+case 0:
+this.CTL += this.Step; 
+if (this.CTL >= this.ScrollStep && this.WaitTime > 0) { this.ID.scrollTop += this.ScrollStep + this.Step - this.CTL; this.Pause(); return; } 
+else { if (this.ID.scrollTop >= this.ClientScroll) this.ID.scrollTop -= this.ClientScroll; this.ID.scrollTop += this.Step; } 
+break; 
+case 1: 
+this.CTL += this.Step; 
+if (this.CTL >= this.ScrollStep && this.WaitTime > 0) { this.ID.scrollTop -= this.ScrollStep + this.Step - this.CTL; this.Pause(); return; } 
+else { if (this.ID.scrollTop <= 0) this.ID.scrollTop += this.ClientScroll; this.ID.scrollTop -= this.Step; } 
+break; 
+case 2: 
+this.CTL += this.Step; 
+if (this.CTL >= this.ScrollStep && this.WaitTime > 0) { this.ID.scrollLeft += this.ScrollStep + this.Step - this.CTL; this.Pause(); return; } 
+else { if (this.ID.scrollLeft >= this.ClientScroll) this.ID.scrollLeft -= this.ClientScroll; this.ID.scrollLeft += this.Step; } 
+break; 
+case 3: 
+this.CTL += this.Step; 
+if (this.CTL >= this.ScrollStep && this.WaitTime > 0) { this.ID.scrollLeft -= this.ScrollStep + this.Step - this.CTL; this.Pause(); return; } 
+else { if (this.ID.scrollLeft <= 0) this.ID.scrollLeft += this.ClientScroll; this.ID.scrollLeft -= this.Step; } 
+break; 
+} 
+} 
+</script> 
+	<div class="ge-banner">
+		<div class="ge-banner-logo">
+			商情信息：
+		</div>
+		<script type="text/javascript" src="http://ads.ccin.tv/front/ccin/dateOut/ccin.com.cn.top.business.ads.jsp"></script></div></div></div></div></body></html>

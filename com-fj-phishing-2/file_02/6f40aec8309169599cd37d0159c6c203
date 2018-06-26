@@ -1,0 +1,537 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>重庆晚报网_重庆生活分享门户_重庆新闻_重庆交友_重庆团购</title>
+<meta name="author" content="重庆晚报网">
+<meta name="copyright" content="重庆晚报迅网传媒2000-2016">
+<meta name="designer" content="重庆晚报,迅网传媒">
+<meta name="keywords" content="重庆晚报,官方网站,重庆新闻,重庆生活">
+<meta name="description" content="重庆晚报网是重庆最具影响力媒体,重庆晚报官方网站,全方位全时段滚动播报重庆新闻及国内国际重大事件">
+<link href="skin/style_2017/public.css" rel="stylesheet" type="text/css">
+<link href="skin/style_2017/index.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/x-icon" href="skin/images_2016/logo/LOGO16.ico"> 
+<script src="http://push.zhanzhang.baidu.com/push.js"></script><script type="text/javascript" src="skin/js_2017/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="skin/js_2017/main.js"></script>
+<script type="text/javascript" src="skin/js/posfixed.js"></script>
+<script type="text/javascript" src="skin/js/home.js"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<script>
+    $(document).ready(function () {
+	   getlist('mxwnewtj.html');
+    });
+	
+    function getlist(aa){
+		$('#dataload').html("");
+		if(aa == "mxwnewtj.html")
+		{
+			document.getElementById('dtj').className = "leftmenu-item active";
+			document.getElementById('mxw').className = "leftmenu-item";
+			document.getElementById('kxw').className = "leftmenu-item";
+			document.getElementById('rsp').className = "leftmenu-item";
+			document.getElementById('myx').className = "leftmenu-item";
+			document.getElementById('msh').className = "leftmenu-item";
+			document.getElementById('fsh').className = "leftmenu-item";
+	    }
+		if(aa == "mxwnewmxw.html")
+		{
+			document.getElementById('dtj').className = "leftmenu-item";
+			document.getElementById('mxw').className = "leftmenu-item active";
+			document.getElementById('kxw').className = "leftmenu-item";
+			document.getElementById('rsp').className = "leftmenu-item";
+			document.getElementById('myx').className = "leftmenu-item";
+			document.getElementById('msh').className = "leftmenu-item";
+			document.getElementById('fsh').className = "leftmenu-item";
+	    }
+		if(aa == "mxwnewkxw.html")
+		{
+			document.getElementById('dtj').className = "leftmenu-item";
+			document.getElementById('mxw').className = "leftmenu-item";
+			document.getElementById('kxw').className = "leftmenu-item active";
+			document.getElementById('rsp').className = "leftmenu-item";
+			document.getElementById('myx').className = "leftmenu-item";
+			document.getElementById('msh').className = "leftmenu-item";
+			document.getElementById('fsh').className = "leftmenu-item";
+	    }
+		if(aa == "mxwnewrsp.html")
+		{
+			document.getElementById('dtj').className = "leftmenu-item";
+			document.getElementById('mxw').className = "leftmenu-item";
+			document.getElementById('kxw').className = "leftmenu-item";
+			document.getElementById('rsp').className = "leftmenu-item active";
+			document.getElementById('myx').className = "leftmenu-item";
+			document.getElementById('msh').className = "leftmenu-item";
+			document.getElementById('fsh').className = "leftmenu-item";
+	    }
+		if(aa == "mxwnewmyd.html")
+		{
+			document.getElementById('dtj').className = "leftmenu-item";
+			document.getElementById('mxw').className = "leftmenu-item";
+			document.getElementById('kxw').className = "leftmenu-item";
+			document.getElementById('rsp').className = "leftmenu-item";
+			document.getElementById('myx').className = "leftmenu-item active";
+			document.getElementById('msh').className = "leftmenu-item";
+			document.getElementById('fsh').className = "leftmenu-item";
+	    }
+		if(aa == "mxwnewmsh.html")
+		{
+			document.getElementById('dtj').className = "leftmenu-item";
+			document.getElementById('mxw').className = "leftmenu-item";
+			document.getElementById('kxw').className = "leftmenu-item";
+			document.getElementById('rsp').className = "leftmenu-item";
+			document.getElementById('myx').className = "leftmenu-item";
+			document.getElementById('msh').className = "leftmenu-item active";
+			document.getElementById('fsh').className = "leftmenu-item";
+	    }
+		if(aa == "mxwnewfsh.html")
+		{
+			document.getElementById('dtj').className = "leftmenu-item";
+			document.getElementById('mxw').className = "leftmenu-item";
+			document.getElementById('kxw').className = "leftmenu-item";
+			document.getElementById('rsp').className = "leftmenu-item";
+			document.getElementById('myx').className = "leftmenu-item";
+			document.getElementById('msh').className = "leftmenu-item";
+			document.getElementById('fsh').className = "leftmenu-item active";
+	    }
+              $.ajax({
+                  url: aa,
+                  type: "get",
+                  datetype: JSON,
+                  contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                  success: function (result) {
+                      $("#dataload").append(result);
+                  }, error: function () {
+                      is_lock_send_vy = false;
+                  }
+              });
+          }
+</script>
+<script type="text/javascript" src="common/ciku.js"></script>
+<script type="text/javascript">
+//提交表单
+function per_submit()
+{ 
+  var flag = true;
+  if(document.getElementById('contentKey').value=="")
+  {
+  alert("搜索关键词不能未空！");
+  	flag = false;
+  	return false;	
+  }
+  var a = areaServer;
+  var arrMg =new Array();
+  arrMg=a.split('|');
+ var showContent = document.getElementById('contentKey').value;  
+  for (var i = 0; i < arrMg.length-1; i++) 
+  {
+    var r = arrMg[i];
+    if(showContent.indexOf(r)!=-1)
+    {
+    flag = false;
+    }
+  }
+ if(flag == true){ 
+ return true;
+}
+else
+{
+  alert("搜索关键词包含敏感词！");
+  return false;
+}
+} 
+</script>
+
+<!-- 漂浮广告 start css 关闭JS
+<style type="text/css">
+div#roll{ width:200px; height:130px; color:#fff; position:absolute; z-index:99999;}
+</style>
+<script>
+function aa()
+{
+	document.getElementById('roll').style.display = "none";
+}
+</script>
+<!-- 漂浮广告 end css 关闭JS-->
+<script src="http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=420965"></script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style0_16.css?v=6aba13f0.css"></head>
+
+<body>
+
+<!-- 漂浮广告 start
+<div id="roll"><a href="cqwb/2017kjcsj/" target="_blank"><img src="skin/images_2017/ddd.jpg"></a>
+<div style="position:absolute; bottom:0; right:0; " onClick="aa()"><img src="skin/images_2017/aaa.png" /></div>
+</div>
+<script type="text/javascript">
+var ggRoll = {
+roll: document.getElementById("roll"),
+speed: 20,
+statusX: 1,
+statusY: 1,
+x: 100,
+y: 300,
+winW: document.documentElement.clientWidth - document.getElementById("roll").offsetWidth,
+winH: document.documentElement.clientHeight - document.getElementById("roll").offsetHeight,
+Go: function () {
+this.roll.style.left = this.x + 'px';
+this.roll.style.top = this.y + 'px';
+this.x = this.x + (this.statusX ? -1 : 1)
+if (this.x < 0) { this.statusX = 0 }
+if (this.x > this.winW) { this.statusX = 1 }
+this.y = this.y + (this.statusY ? -1 : 1)
+if (this.y < 0) { this.statusY = 0 }
+if (this.y > this.winH) { this.statusY = 1 }
+}
+}
+var interval = setInterval("ggRoll.Go()", ggRoll.speed);
+ggRoll.roll.onmouseover = function () { clearInterval(interval) };
+ggRoll.roll.onmouseout = function () { interval = setInterval("ggRoll.Go()", ggRoll.speed) };
+</script>
+ 漂浮广告 end-->
+
+
+
+<!-- 网站头部 start --> 
+<div id="header">
+			<div class="menu">
+				<div class="menu_c">
+					<div class="menu_logo">
+						<img src="http://www.cqwb.com.cn/skin/images_2017/logo.png">
+					</div>
+					<ul class="link01 float_left menu1">
+						<li>
+							<a href="http://www.cqwb.com.cn/">首页</a>
+						</li>
+					
+					<li>看新闻
+							<ul style="z-index: 100;">
+                            <li><a href="http://cq.cqwb.com.cn/index.html" target="_blank" class="">重庆频道</a></li>
+                            <li><a href="http://news.cqwb.com.cn/index.html" target="_blank" class="">国内国际</a></li>
+                            <li><a href="http://www.cqwb.com.cn/node_1094.htm" target="_blank" class="">娱乐体育</a></li>
+                            </ul>
+						</li>
+					
+					
+						<li>
+							<a href="http://www.cqwb.com.cn/mxw/">慢新闻</a>
+						</li>
+						<li>
+							<a href="http://www.cqwb.com.cn/kxw/">快新闻</a>
+						</li>
+						<li>
+							<a href="http://www.cqwb.com.cn/rsp/">热视频</a>
+						</li>
+						<li>
+							<a href="http://www.cqwb.com.cn/myd/">慢阅读</a>
+						</li>
+						<li>
+							<a href="http://www.cqwb.com.cn/msh/">慢生活</a>
+						</li>
+						<li>
+							<a href="http://www.cqwb.com.cn/fsh/">房生活</a>
+				    </li>
+					
+						
+						<li>生活<span><sup style="line-height:10px;">+</sup></span>
+							<ul style="z-index: 100;">
+                            <li><a href="http://eat.cqwb.com.cn/index.html" target="_blank" class="">生活</a></li>
+                            <li><a href="http://house.cqwb.com.cn/index.html" target="_blank" class="">房地产家装</a></li>
+                            <li><a href="http://finance.cqwb.com.cn/index.html" target="_blank" class="">财经</a></li>
+                            <li><a href="http://car.cqwb.com.cn/index.html" target="_blank" class="">汽车</a></li>
+                            </ul>
+						</li>					
+					<li>
+							<a href="http://www.cqjtjk.cn/" target="_blank" title="重庆健康网">重庆健康网</a>
+				        </li>	
+						
+					</ul>
+					<div class="menu_weather float_right">
+						<a href="http://www.cqwb.com.cn/app/"><font color="white">慢新闻APP客户端下载</font></a>
+					</div>
+				</div>
+			</div>
+		</div> 
+<!-- 网站头部 end -->
+
+
+<div id="main">   
+  <!-- 顶部广告 start --> 
+  <div class="news-grid" style="width:1200px;height:80px;padding:10px 0 0 0;"><a href="http://www.cqwb.com.cn/app/" target="_blank"><img src="http://www.cqwb.com.cn/images/ad20161226.jpg" border="0"></a></div>
+<div class="ggbox news-grid">
+<div class="sliderPlay">
+  <ul class="slider">
+  <li><a href="http://zhuanti.cqwb.com.cn/node_1444.htm" target="_blank"><img src="http://www.cqwb.com.cn/images/454159627073619613.jpg" border="0"></a></li>
+  </ul>
+</div>
+</div>
+<div class="ggbox news-grid">
+<div class="sliderPlay" id="sliderPlay2">
+  <ul class="slider" style="top: 0px;">  
+	    <li><a href="http://zhuanti.cqwb.com.cn/node_1509.htm" target="_blank"><img src="http://www.cqwb.com.cn/images/2017/lhgg.jpg" border="0"></a></li>
+	    <li><a href="http://zhuanti.cqwb.com.cn/node_1427.htm" target="_blank"><img src="http://www.cqwb.com.cn/images/2017/fjgg.jpg" border="0"></a></li>
+        
+  </ul>
+</div>
+</div>
+
+
+
+<script src="http://www.cqwb.com.cn/skin/js_2017/jquery-SliderPlay-1.0.min.js"></script>
+<script>
+$(function(){
+	$('#sliderPlay').sliderPlay({
+		speed:500, //动画效果持续时间
+		timeout:3000,//幻灯间隔时间
+		direction:'up', //left , up 
+		mouseEvent:'hover' //事件类型，默认是click ,hover
+	});
+	$('#sliderPlay2').sliderPlay({
+		speed:500, //动画效果持续时间
+		timeout:3000,//幻灯间隔时间
+		direction:'up', //left , up 
+		mouseEvent:'hover' //事件类型，默认是click ,hover
+	});
+	
+});
+
+
+</script>
+
+
+ 
+  <!-- 顶部广告 end -->
+  
+  <!-- 头条新闻 start -->
+  <div class="topnews border01 bgcolor01 mb20">
+    <div class="topnews_ico"><img src="skin/images_2017/topnews_ico.png"></div>
+    <div class="topnews_con float_left"> 
+      <h1 class="link02"><a href="http://cq.cqwb.com.cn/2018-01/09/content_878417.htm" target="_blank">重庆老城最后一座衙门 旧址保护修缮方案已于近日完成</a></h1> 
+      <h2 class="link02 font14pxs">[<a href="http://cq.cqwb.com.cn/2018-01/09/content_878419.htm" target="_blank">重庆彩民又中体彩大乐透头奖1565万元</a>]&nbsp;[<a href="http://cq.cqwb.com.cn/2018-01/09/content_878416.htm" target="_blank">65岁老人明起可办免费公交卡</a>]&nbsp;[<a href="http://cq.cqwb.com.cn/2018-01/09/content_878418.htm" target="_blank">解放碑白领变身女猪倌 </a>]&nbsp;</h2> 
+    </div>
+    <div class="topnews_kb float_right">
+      <ul>
+        <li><div class="kb_time"><span class="kb_f01">重庆快讯</span><span class="kb_f02">18:04</span><span class="kb_f03">|&nbsp;记者：万里</span></div><div class="kb_title"><a href="http://cq.cqwb.com.cn/2017-10/20/content_876106.htm" target="_blank">马云：企业家要履行先富帮后富责任　　以“三个富有”富民强国</a></div></li><li><div class="kb_time"><span class="kb_f01">重庆快讯</span><span class="kb_f02">17:17</span><span class="kb_f03">|&nbsp;记者：</span></div><div class="kb_title"><a href="http://cq.cqwb.com.cn/2017-10/20/content_876103.htm" target="_blank">电信诈骗现连环计 共犯竟是“受害人”</a></div></li><li><div class="kb_time"><span class="kb_f01">重庆快讯</span><span class="kb_f02">14:58</span><span class="kb_f03">|&nbsp;记者：</span></div><div class="kb_title"><a href="http://cq.cqwb.com.cn/2017-10/20/content_876090.htm" target="_blank">刘强东朋友圈照片家电大佬云集<br>双11京东密谋搅动行业格局</a></div></li><li><div class="kb_time"><span class="kb_f01">重庆快讯</span><span class="kb_f02">17:48</span><span class="kb_f03">|&nbsp;记者：万里</span></div><div class="kb_title"><a href="http://cq.cqwb.com.cn/2017-10/19/content_876011.htm" target="_blank">长安汽车三款新能源车型亮相　补贴后价格最低仅11.9万元</a></div></li><li><div class="kb_time"><span class="kb_f01">重庆快讯</span><span class="kb_f02">17:02</span><span class="kb_f03">|&nbsp;记者：万里</span></div><div class="kb_title"><a href="http://cq.cqwb.com.cn/2017-10/19/content_876009.htm" target="_blank">买买买！ 2017天猫双11大幕今日开启</a></div></li>
+        
+      </ul>
+    </div>
+  </div>
+  <!-- 头条新闻 end -->
+  
+  <div id="content"> 
+    <!-- 左侧菜单 start -->
+    <div class="content_left2 float_left">
+      <div class="leftmenu">
+        <div ga_event="left-channel-click" class="wchannel ">
+          <div class="leftmenu_logo"><img src="skin/images_2017/mxw_ico.jpg"> </div>
+          <ul>
+            <li><a id="dtj" onclick="getlist('mxwnewtj.html')" class="leftmenu-item active" style="text-decoration:none" href="javascript:;"><span>推&nbsp;荐</span></a></li>
+            <li><a id="mxw" onclick="getlist('mxwnewmxw.html')" class="leftmenu-item" style="text-decoration:none" href="javascript:;"><span>慢新闻</span></a></li>
+            <li><a id="kxw" onclick="getlist('mxwnewkxw.html')" class="leftmenu-item" style="text-decoration:none" href="javascript:;"><span>快新闻</span></a></li>
+            <li><a id="rsp" onclick="getlist('mxwnewrsp.html')" class="leftmenu-item" style="text-decoration:none" href="javascript:;"><span>热视频</span></a></li>
+            <li><a id="myx" onclick="getlist('mxwnewmyd.html')" class="leftmenu-item" style="text-decoration:none" href="javascript:;"><span>慢阅读</span></a></li>
+            <li><a id="msh" onclick="getlist('mxwnewmsh.html')" class="leftmenu-item" style="text-decoration:none" href="javascript:;"><span>慢生活</span></a></li>
+            <li><a id="fsh" onclick="getlist('mxwnewfsh.html')" class="leftmenu-item" style="text-decoration:none" href="javascript:;"><span>房生活</span></a></li>
+       <!--     <li onclick=""><a class="leftmenu-item " href="node_1300.htm"><span>生活+</span></a></li>
+            <li onclick=""><a class="leftmenu-item " href="http://qmt.cqwb.com.cn/node_1070.htm"><span>送福利</span></a></li> -->
+          </ul>
+          <div><a href="cqwb/2017kjcsj/" target="_blank"><img src="skin/images_2017/ddd1.jpg" width="110px"></a></div>
+        </div>
+      </div>
+    </div>
+    <!-- 左侧菜单 end -->
+    
+    <div class="content_left float_left"> 
+      
+      <!-- 主图 start -->
+      <div class="hotpics news-grid">
+        <div id="tabSlide" class="hotpic link03"> 
+          <div class="bigPic03"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878423.htm" target="_blank"><img src="tpl/attachement/jpg/site2/20180109/68f7289532651bbe6c3b31.jpg" border="0" width="577" height="340"><div class="textbg"></div>   </a><div class="text"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878423.htm" target="_blank"></a><h3 class="cWhite"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878423.htm" target="_blank"></a><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878423.htm" target="_blank">四川光雾山雪后银装素裹 美不胜收</a></h3></div></div><div class="bigPic03" style="display: none;"><a href="http://cq.cqwb.com.cn/2018-01/09/content_878425.htm" target="_blank"><img src="tpl/attachement/jpg/site2/20180109/68f7289532651bbe6d5339.jpg" border="0" width="577" height="340"><div class="textbg"></div>   </a><div class="text"><a href="http://cq.cqwb.com.cn/2018-01/09/content_878425.htm" target="_blank"></a><h3 class="cWhite"><a href="http://cq.cqwb.com.cn/2018-01/09/content_878425.htm" target="_blank"></a><a href="http://cq.cqwb.com.cn/2018-01/09/content_878425.htm" target="_blank">美国纽约一座6层公寓楼发生7级大火 浓烟弥漫</a></h3></div></div><div class="bigPic03" style="display: none;"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878422.htm" target="_blank"><img src="tpl/attachement/jpg/site2/20180109/68f7289532651bbe6a7221.jpg" border="0" width="577" height="340"><div class="textbg"></div>   </a><div class="text"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878422.htm" target="_blank"></a><h3 class="cWhite"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878422.htm" target="_blank"></a><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878422.htm" target="_blank">天鹅成群结队越冬威海 吸引大批游客</a></h3></div></div><div class="bigPic03" style="display: none;"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878421.htm" target="_blank"><img src="tpl/attachement/jpg/site2/20180109/68f7289532651bbe69d41a.jpg" border="0" width="577" height="340"><div class="textbg"></div>   </a><div class="text"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878421.htm" target="_blank"></a><h3 class="cWhite"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878421.htm" target="_blank"></a><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878421.htm" target="_blank">黄河银川段出现流凌 进入凌汛期</a></h3></div></div><div class="bigPic03" style="display: none;"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878420.htm" target="_blank"><img src="tpl/attachement/jpg/site2/20180109/68f7289532651bbe695513.jpg" border="0" width="577" height="340"><div class="textbg"></div>   </a><div class="text"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878420.htm" target="_blank"></a><h3 class="cWhite"><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878420.htm" target="_blank"></a><a href="http://pic.cqwb.com.cn/gqdt/2018-01/09/content_878420.htm" target="_blank">生物学家潜水遇鲨鱼 座头鲸霸气当“护花使者”</a></h3></div></div>
+          <ul id="controlSlide" class="dotList">
+            <li class="current"></li>
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+          </ul>
+          <div id="prevSlide" class="enable"> </div>
+          <div id="nextSlide" class="enable"> </div>
+        </div>
+      </div>
+      <!-- 主图 end -->
+      
+      <div class="newslist link02 news-grid" id="dataload"><div class="newslist link02 news-grid"><ul><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954895013634.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954897285634?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954895013634.htm" target="_blank">医保控费打响今年医改第一枪 多地启动按病种收费</a></h1><h2>快新闻&nbsp;2018-01-09 07:59:26</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954894292738.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960424855298?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954894292738.htm" target="_blank">朝鲜方面表示有意与韩方实现平昌冬奥会共同入场</a></h1><h2>快新闻&nbsp;2018-01-09 09:23:31</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960424859906.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960424859138?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960424859906.htm" target="_blank">区县雪停了！是时候赏一波我大重庆雪景了</a></h1><h2>快新闻&nbsp;2018-01-09 12:39:03</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954897336578.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954897333762?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954897336578.htm" target="_blank">郭家沱长江大桥、朝天门大桥下层连接道春节前开工</a></h1><h2>快新闻&nbsp;2018-01-09 11:09:14</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954894277890.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954894277378?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954894277890.htm" target="_blank">鹅公岩大桥复线桥、曾家岩大桥年内合龙</a></h1><h2>快新闻&nbsp;2018-01-09 09:13:59</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/mxw/2018-01/08/content_387932776842242.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387932778974722?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/mxw/2018-01/08/content_387932776842242.htm" target="_blank">慢新闻 | 浙江工匠隐居重庆歌乐山：木雕已死，我还不如捡垃圾</a></h1><h2>慢新闻&nbsp;2018-01-08 10:58:07</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/rsp/2018-01/09/content_387954894496002.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954897382146?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/rsp/2018-01/09/content_387954894496002.htm" target="_blank">“等丈夫阻拦高铁”女子已交由警方处理 未致列车延误</a></h1><h2>热视频&nbsp;2018-01-09 11:35:24</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960423785474.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423785218?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960423785474.htm" target="_blank">壕！去年重庆有335人网购金额超百万</a></h1><h2>快新闻&nbsp;2018-01-09 13:05:32</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960429163266.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423887618?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960429163266.htm" target="_blank">@沙坪坝车主 这12条路段严查10类违法行为</a></h1><h2>快新闻&nbsp;2018-01-09 14:10:49</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/mxw/2018-01/08/content_387938305779202.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387943836045314?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/mxw/2018-01/08/content_387938305779202.htm" target="_blank">年味老重庆 | 江津传承200多年的芝麻圆子 一天要卖4800个</a></h1><h2>慢新闻&nbsp;2018-01-08 16:40:50</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387954894412802.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954894412034?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387954894412802.htm" target="_blank">这部片，果然是年度必看</a></h1><h2>慢阅读&nbsp;2018-01-09 10:41:01</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960429190914.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960429190658?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960429190914.htm" target="_blank">红大衣 粉红书包，英国夏洛特公主第一天上幼儿园，选的幼儿园看似其貌不扬……</a></h1><h2>快新闻&nbsp;2018-01-09 14:27:41</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954897412098.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954894520066?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954897412098.htm" target="_blank">太冷了！重庆机场今冬首次给飞机除冰</a></h1><h2>快新闻&nbsp;2018-01-09 11:48:09</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954897390594.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954897383938?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954897390594.htm" target="_blank">九旬老人拿着别人的手提包寒风中苦等1小时 只因担心提包放在敞开的后备箱中不安全</a></h1><h2>快新闻&nbsp;2018-01-09 11:37:20</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387954897276930.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954894391298?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387954897276930.htm" target="_blank">南方的汉子最好别撩北方的妹子</a></h1><h2>慢阅读&nbsp;2018-01-09 10:28:59</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/mxw/2018-01/09/content_387954897243650.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954894377730?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/mxw/2018-01/09/content_387954897243650.htm" target="_blank">慢新闻丨解放碑白领变身女猪倌  上月到北京受到党和国家领导人接见</a></h1><h2>慢新闻&nbsp;2018-01-09 10:07:57</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954894247938.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387954897205762?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387954894247938.htm" target="_blank">佳木斯市人大常委会副主任梅振学坠亡</a></h1><h2>快新闻&nbsp;2018-01-09 08:47:13</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/msh/2018-01/09/content_387960429210882.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423930882?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/msh/2018-01/09/content_387960429210882.htm" target="_blank">办公室里哪种人让你觉得low，这里有份测试卷</a></h1><h2>慢生活&nbsp;2018-01-09 14:42:09</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960423931906.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423931650?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960423931906.htm" target="_blank">一场刘翔引发的小学教育讨论，这些年他一直“活在”试卷里</a></h1><h2>快新闻&nbsp;2018-01-09 14:41:37</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960429206274.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960429206018?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960429206274.htm" target="_blank">北京路电影院的爱情故事：保安恋上女研究生 靠勤奋抱得美人归</a></h1><h2>快新闻&nbsp;2018-01-09 14:39:08</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960423908610.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423925762?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960423908610.htm" target="_blank">韩国对慰安妇协议表态：不再与日方重谈</a></h1><h2>快新闻&nbsp;2018-01-09 14:21:45</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387960423892482.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423891458?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387960423892482.htm" target="_blank">“跳一跳”的小游戏，我们为什么停不下来</a></h1><h2>慢阅读&nbsp;2018-01-09 14:13:33</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960427073026.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423883266?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960427073026.htm" target="_blank">陕西怀孕女护士夜班步行途中遇害，手机曾发“正在开车”信息</a></h1><h2>快新闻&nbsp;2018-01-09 14:05:46</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387960423881986.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423881474?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387960423881986.htm" target="_blank">多少岁是人生最好的年龄？快来看看这份全新的年龄准则</a></h1><h2>慢阅读&nbsp;2018-01-09 14:05:22</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960427067650.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423878146?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960427067650.htm" target="_blank">神奇！日本宇航员在外太空3周长高9cm：目前很担心</a></h1><h2>快新闻&nbsp;2018-01-09 14:01:40</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387960423877122.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960423876866?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/myd/2018-01/09/content_387960423877122.htm" target="_blank">人物 | 当年很庆幸，现在韩寒却承认了…</a></h1><h2>慢阅读&nbsp;2018-01-09 14:01:11</h2></div></li><li><div class="item01"><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960427055874.htm" target="_blank"><img src="http://oss.cqwb.com.cn/387960427055362?x-oss-process=image/resize,w_164"></a><h1><a href="http://www.cqwb.com.cn/kxw/2018-01/09/content_387960427055874.htm" target="_blank">有一种冷叫“裹被前行” 这几个南方人做了我们都想做的事</a></h1><h2>快新闻&nbsp;2018-01-09 13:53:50</h2></div></li></ul><div class="newslistmore link06"><a href="http://mxw.cqwb.com.cn/index2.html" target="_blank">更多</a></div></div></div>
+    </div>
+    <div class="content_right float_right"> 
+      <div class="search mb20">
+<form name="searchform" id="searchform" action="http://mxw.cqwb.com.cn/search/" onsubmit="return per_submit();" method="GET" class="searchform">
+			<div class="search_c">
+	            	
+						<input name="contentKey" id="contentKey" type="text" class="search_input float_left" placeholder="请输入搜索内容！">						
+						<input type="submit" value="" class="search_submit float_right">
+	  </div>
+      </form>
+	  </div>
+      <!-- 数字报 start --> 
+      <!-- <script language=javascript src=http://szb.cqwb.com.cn/szb.asp></script> -->
+      <div class="bk_con07 mb25"><div class="bk_con07_bt">数字报</div><ul class="news-grid"><li><a href="http://epaper.cqwb.com.cn/html/201801/09/node_001.html" target="_blank"><img src="http://epaper.cqwb.com.cn/pic/201801/09/6158a9ae-220a-4c97-b2a9-c144f26e92a8.jpg.1"></a><div class="bk_con07_bg"></div><div class="bk_con07_text">2018-01-09</div></li><li><a href="http://szb.cqdsrb.com.cn/html/201801/09/node_001.html" target="_blank"><img src="http://szb.cqdsrb.com.cn/pic/201801/09/94487bc0-6be9-479c-8182-6e829052fbdb.jpg.1"></a><div class="bk_con07_bg"></div><div class="bk_con07_text">2018-01-09</div></li></ul><div class="clear_float"></div></div>
+      <!-- 数字报 end --> 
+      
+      <!-- 右边广告 start -->
+      <div class="mb20 news-grid"> <a href="http://dlfj5.cctv.com/" target="_blank"><img src="http:///www.cqwb.com.cn/images/2017/dlfjwszg.jpg"></a> </div>
+
+<div class="mb20 news-grid"> <a href="http://cq.cqnews.net/cqztlm/node_401529.htm" target="_blank"><img src="http://www.cqwb.com.cn/images/2cd05aa82ab51ae1838802.jpg"></a> </div>
+
+<div class="mb20 news-grid"> <a href="http://zhuanti.cqwb.com.cn/node_1544.htm" target="_blank"><img src="http:///www.cqwb.com.cn/images/2017/jjzy.jpg"></a> </div>
+
+<div class="mb20 news-grid"> <a href="http://zt.cqwb.com.cn/2017/kahzh" target="_blank"><img src="http:///www.cqwb.com.cn/images/2017/kahz.jpg"></a> </div>
+
+<div class="mb20 news-grid"> <a href="http://www.cqwb.com.cn/gg.shtml" target="_blank"><img src="http://www.cqwb.com.cn/skin/images_2017/ggjgb.jpg"></a> </div>
+
+<div class="mb20 news-grid"> <a href="http://www.cqwb.com.cn/node/node_1040.htm" target="_blank"><img src="http://www.cqwb.com.cn/skin/images_2017/61b.jpg"></a> </div>
+ 
+      <!-- 右边广告 end -->
+      
+      
+      
+      <!-- 生活+ start -->
+      <div class="bk_con01 mb20">
+        <div class="bk_con01_bt">生活+<span class="link05"><a href="node_1300.htm" target="_blank">更多&gt;&gt;</a></span></div>
+        <div class="bk_one02 news-grid">
+          <h1><a href="http://house.cqwb.com.cn/NewsFiles/2017-10/30/content_876543.htm" target="_blank">向快乐出发！重庆麻辣明星走进中铁任之健康城</a></h1><h2><a href="http://house.cqwb.com.cn/NewsFiles/2017-10/30/content_876543.htm" target="_blank"></a>重阳节前夕，重庆电视台时尚频道《向快乐出发》栏目组携手麻辣明星一起走进中铁任之健康城！</h2>	
+        </div>
+        <div class="bk_con02 link04">
+          <ul>
+            <li><a href="http://house.cqwb.com.cn/NewsFiles/2017-10/30/content_876542.htm" target="_blank">重庆首个沉浸式影院发布会，震撼穿越天地十年变迁</a></li><li><a href="http://house.cqwb.com.cn/NewsFiles/2017-10/27/content_876369.htm" target="_blank">万科与渝中相遇，再造天地，再造渝中</a></li><li><a href="http://finance.cqwb.com.cn/NewsFiles/2017-10/27/content_876371.htm" target="_blank">浙商银行：深耕智能制造 再塑先进生产力</a></li><li><a href="http://finance.cqwb.com.cn/NewsFiles/2017-10/27/content_876370.htm" target="_blank">不忘初心惠民生 民生银行重庆分行坚持以党建引领金融精准扶贫</a></li><li><a href="http://house.cqwb.com.cn/NewsFiles/2017-10/20/content_876089.htm" target="_blank">读懂一座城市的人文，只需要5分钟！</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 生活+ end --> 
+      
+      <!-- 送福利 start -->
+      <div class="bk_con04 mb25">
+        <div class="bk_con04_bt">送福利<span class="link05"><a href="http://qmt.cqwb.com.cn/node_1070.htm" target="_blank">更多&gt;&gt;</a></span></div>
+        <ul class="news-grid">
+          <li>
+            <div class="bk_con04_pic float_left"><a href="http://mp.weixin.qq.com/s/njAelqICM8mbJIGlhLvcAg" target="_blank"><img src="tpl/attachement/jpg/site2/20170920/000b6b9f5fb81b2c868202.jpg" border="0" width="68" height="68"></a> </div><div class="bk_con04_news float_right"><h1><a href="http://mp.weixin.qq.com/s/njAelqICM8mbJIGlhLvcAg" target="_blank">国庆节不想出远门看人海，留在重庆耍事也黑多！</a></h1><h3>2017-09-20 18:20</h3></div>
+            </li>
+          <li>
+           <div class="bk_con04_pic float_left"><a href="http://mp.weixin.qq.com/s/iYpd8im-DxyIQu5jVv5DyA" target="_blank"><img src="tpl/attachement/jpg/site2/20171120/64fb8166e1031b7ca55c01.jpg" border="0" width="68" height="68"></a> </div><div class="bk_con04_news float_right"><h1><a href="http://mp.weixin.qq.com/s/iYpd8im-DxyIQu5jVv5DyA" target="_blank">“环保小明星 绘说新能源”大赛 绘画作品可以投稿了</a></h1><h3>2017-11-20 12:46</h3></div>
+          </li>
+          <li>
+           <div class="bk_con04_pic float_left"><a href="http://mp.weixin.qq.com/s/GuUyhekhFf9wOkNfCGpLXA" target="_blank"><img src="tpl/attachement/jpg/site2/20170920/000b6b9f5fb81b2c85cd01.jpg" border="0" width="68" height="68"></a> </div><div class="bk_con04_news float_right"><h1><a href="http://mp.weixin.qq.com/s/GuUyhekhFf9wOkNfCGpLXA" target="_blank">重庆晚报在2016年度全国晚报文化好新闻评选中获得佳绩</a></h1><h3>2017-09-20 18:18</h3></div>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- 送福利 end --> 
+      
+      <!-- 法律咨询 start -->
+      <div class="bk_con09 mb25">
+        <div class="bk_con09_bt">法律咨询<span class="link05"><a href="http://m.cqwb.com.cn/zsls/ly.asp" target="_blank">我要咨询</a>&nbsp;|&nbsp;<a href="http://m.cqwb.com.cn/zsls" target="_blank">更多&gt;&gt;</a></span></div>
+        <ul class="link04">
+          <!--<script src="http://m.cqwb.com.cn/zsls/360_2017new.asp"></script>-->
+          <li><b>[债权债务]</b><a href="http://m.cqwb.com.cn/zsls/view/?nid=4064" target="_blank">一普通朋友借了我3万元钱，当时说的急用，一星期就还我，现在三年了都没还，每次问都说快了，最近</a></li><li><b>[公司合同（小微企业法务）]</b><a href="http://m.cqwb.com.cn/zsls/view/?nid=4065" target="_blank">你好!我们是被一个名为中航航空的培训机构骗了,每人缴费后经过培训安排到机场工作,但是现在安排</a></li><li><b>[其他]</b><a href="http://m.cqwb.com.cn/zsls/view/?nid=4066" target="_blank">辛苦了半辈子,在农村老家建了一栋新房子,供电所说没有房产证不给通电,怎么办?</a></li><li><b>[债权债务]</b><a href="http://m.cqwb.com.cn/zsls/view/?nid=4067" target="_blank">还款承诺书在法律上是不是铁证？不可以推翻？如果有证据证明还款承诺书的内容不属实，可以推翻吗？</a></li><li><b>[医疗纠纷]</b><a href="http://m.cqwb.com.cn/zsls/view/?nid=4069" target="_blank">老人（70岁）陪同儿童在大型游乐场所游玩时滑倒（地面有洗洁精）导致右手骨折，事隔3个月过去了</a></li>
+        </ul>
+        <div class="clear_float"></div>
+      </div>
+      <!-- 法律咨询 end --> 
+      
+      <!-- 生活服务导航 start -->
+      <div class="bk_con08 mb25">
+        <div class="bk_con08_bt">生活服务导航</div>
+        <div class="bk_con08_bt2 mb20">生活缴费</div>
+        <ul class="link06 pb10 news-big">
+          <li><a href="http://www.95598.cn/common/wxts.shtml" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e5d8006.png" border="0"><br>交电费</a></li><li><a href="http://www.cqzls.com/html/sfcx/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e5c4204.png" border="0"><br>交水费</a></li><li><a href="http://www.cqgas.cn/portal/index" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e5cad05.png" border="0"><br>交气费</a></li><li><a href="http://www.cq96868.com/pay/jumpMode/cashMode" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e5df507.png" border="0"><br>交闭路费</a></li><li><a href="http://222.178.78.4:9185/netpay1/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e5b9a03.png" border="0"><br>交路桥费</a></li><li><a href="https://cq.122.gov.cn/m/login?" target="_blank"><img src="tpl/attachement/png/site2/20161122/0025116a3832199e2ad202.png" border="0"><br>交通罚款</a></li>
+          <div class="clear_float"></div>
+        </ul>
+        <div class="bk_con08_bt2 mb20 clear_float">便民服务</div>
+        <ul class="link06 pb10 news-big">
+         <li><a href="http://www.12306.cn/mormhweb/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e640f15.png" border="0"><br>订火车票</a></li><li><a href="http://www.96096kp.com/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e63ed14.png" border="0"><br>买长途车票</a></li><li><a href="http://www.cq12320.cn/guahao/index.html" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e63bf13.png" border="0"><br>各医院挂号</a></li><li><a href="http://219.153.5.15/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e637d11.png" border="0"><br>网上车管所</a></li><li><a href="http://cq.122.gov.cn/m/showBussi.html" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e635610.png" border="0"><br>驾驶证考试</a></li><li><a href="http://219.153.5.15/cgszzxhweb/index_new.jsp" target="_blank"><img src="tpl/attachement/png/site2/20161122/0025116a3832199e2b4503.png" border="0"><br>新车选号</a></li><li><a href="https://cq.122.gov.cn/m/login?" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e63310f.png" border="0"><br>机动车年检</a></li><li><a href="http://zwfw.cq.gov.cn/icity/public/index" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e62d50d.png" border="0"><br>行政审批</a></li><li><a href="http://www.cqgzfglj.gov.cn/bszn/bszn/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e62ab0c.png" border="0"><br>公租房申请</a></li><li><a href="http://www.cqcrj.gov.cn:9080/crj/internet/appointmentUnifierMenuPage.do" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e61a90b.png" border="0"><br>出入境办证</a></li><li><a href="http://www.cqhrss.gov.cn/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e5f9d0a.png" border="0"><br>社保服务</a></li><li><a href="http://cqcszh.com/?Donate/Online/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e5f5909.png" border="0"><br>慈善捐款</a></li>
+          <div class="clear_float"></div>
+        </ul>
+        <div class="bk_con08_bt2 mb20 clear_float">公共查询</div>
+        <ul class="link06 pb10 news-big">
+         <li><a href="http://www.cqgjj.cn/" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fd20215.png" border="0"><br>住房公积金</a></li><li><a href="http://ggfw.cqhrss.gov.cn/index1.jsp" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fd1d614.png" border="0"><br>社保查询</a></li><li><a href="http://cqsi.cqhrss.gov.cn/u/cqsi/bszn/ylbx/b1-1-2-1.html" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fd1a713.png" border="0"><br>医保查询</a></li><li><a href="http://www.cqjg.gov.cn/cxxt/jdcwf.html" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcf5c0e.png" border="0"><br>查车辆违章</a></li><li><a href="http://www.cqjg.gov.cn/cxxt/jsrwf.html" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcf3a0d.png" border="0"><br>驾驶人违法</a></li><li><a href="http://cx.cqjt.gov.cn/zjcx/main.html?loader=condition" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcbf305.png" border="0"><br>高速路况</a></li><li><a href="http://flights.ctrip.com/actualtime" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcc2306.png" border="0"><br>航班起落</a></li><li><a href="http://cqjy.cqhrss.gov.cn/cqhrweb/cqzj_job/indexJobSearch.action" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fd0f411.png" border="0"><br>招聘查询</a></li><li><a href="http://www.cqosta.org.cn/TrainHelper/site/page/ddfb5bc02e2548f2821c1ae115a2d4d6" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fd0b010.png" border="0"><br>职业资格证</a></li><li><a href="http://cqrc.net/rsdl2013/index.asp" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fd06e0f.png" border="0"><br>查人事档案</a></li><li><a href="http://www.cq.gov.cn/zwfw/serviceDomain/qualification/index.shtml" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcf150c.png" border="0"><br>各资质认定</a></li><li><a href="http://gongwuyuan.cqhrss.gov.cn/u/gongwuyuan/index00530001.shtml" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fd16112.png" border="0"><br>公务员招考</a></li><li><a href="http://www.cq.gov.cn/zwgk/zfgw/default_1.shtml" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fce810a.png" border="0"><br>查政府文件</a></li><li><a href="http://www.cqdpc.gov.cn/class-1-145.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcd8309.png" border="0"><br>政府招投标</a></li><li><a href="http://www.cq.gov.cn/zwgk/szfcwhy/hy/index.shtml" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcc8808.png" border="0"><br>市政府会议</a></li><li><a href="http://www.cqhrss.gov.cn/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e68321a.png" border="0"><br>政府招录</a></li><li><a href="http://www.cqgs.gov.cn/gzbs/zmsb.html" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fcc5407.png" border="0"><br>商标信息</a></li><li><a href="http://www.cq315house.com/#" target="_blank"><img src="tpl/attachement/png/site2/20161111/0025116a3832198fc79903.png" border="0"><br>房屋网签</a></li><li><a href="http://jmz.cq.gov.cn/web/MzjMainExtend/wmfw.aspx?top_cate_id=258&amp;%sssmzj0|0%sssmzj1|0|wmfw_grbs_00|wmfw_grbs_shknqz_|14" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e6a1e22.png" border="0"><br>低保政策</a></li><li><a href="http://www.cq-l-tax.gov.cn/fpcx/" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e68961c.png" border="0"><br>发票查询</a></li><li><a href="http://www.cq-l-tax.gov.cn/nsqd-ww-web-cq/pages/taxBillCheck.xhtml" target="_blank"><img src="tpl/attachement/png/site2/20161122/0025116a3832199e293701.png" border="0"><br>完税查验</a></li><li><a href="&lt;P&gt;&lt;SPAN&gt;http://www.cqga.gov.cn/zxzx/default_1.htm&lt;/SPAN&gt;&lt;/P&gt;" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e685c1b.png" border="0"><br><span>户口问题</span></a></li><li><a href="http://www.cq.gov.cn/zwfw/serviceDomain/education/zxxjy/default_1.shtml" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e676717.png" border="0"><br>中小学文件</a></li><li><a href="http://www.cqedu.cn/Category_161/Index.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161110/0025116a3832198e673616.png" border="0"><br>教育政策</a></li>
+          <div class="clear_float"></div>
+        </ul>
+        <div class="bk_con08_bt2 mb20 clear_float">投诉举报</div>
+        <ul class="link06 pb10 news-big">
+          <li><a href="http://www.cq.gov.cn/publicmail/citizen/Index.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a38321995062b0e.png" border="0"><br>市长信箱</a></li><li><a href="http://chongqing.12388.gov.cn:8888/jubao/site/know.jsp" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a3832199504bc08.png" border="0"><br>市纪委举报</a></li><li><a href="http://www.cqsz.gov.cn/hyb/list.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a3832199505fa0d.png" border="0"><br>市政投诉</a></li><li><a href="http://www.cq.gov.cn/publicmail/citizen/Index.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a38321995057e0c.png" border="0"><br>各区县信箱</a></li><li><a href="http://ldbzjc.cqhrss.gov.cn/" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a3832199505570b.png" border="0"><br>劳保投诉</a></li><li><a href="http://www.cqcrj.gov.cn:9080/hpCms/internet/ComplainAddApge.do" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a3832199505260a.png" border="0"><br>出入境投诉</a></li><li><a href="http://222.180.208.131:8000/webpolice/XuZhi.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a38321995050009.png" border="0"><br>犯罪举报</a></li><li><a href="http://cqwz.cqnews.net/post2014.aspx?bid=&amp;oc=2" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a38321995049807.png" border="0"><br>网络问政</a></li><li><a href="http://www.cq315.org/Tousu/Notice.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a38321995047206.png" border="0"><br>消费投诉</a></li><li><a href="http://www.cqgs12315.cn/12315jb/xz.asp" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a38321995045105.png" border="0"><br>工商投诉</a></li><li><a href="http://www.cyberpolice.cn/wfjb/frame/impeach/chooseImpeachAnonymous.jsp" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a3832199503de04.png" border="0"><br>网络犯罪</a></li><li><a href="http://www.cqedu.cn/Category_166/Index.aspx" target="_blank"><img src="tpl/attachement/png/site2/20161115/0025116a38321995035001.png" border="0"><br>教育投诉</a></li>
+          <div class="clear_float"></div>
+        </ul>
+        <div class="clear_float"></div>
+      </div>
+      <!-- 生活服务导航 end --> 
+      
+    </div>
+    <div class="clear_float"></div>
+  </div>
+  <div class="foot"> 
+  <div class="foot_qmt news-grid">
+					<ul><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161122/0025116a3832199e5f4606.jpg" border="0" width="73" height="73"><br>重庆晚报</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161122/0025116a3832199e5fce08.jpg" border="0" width="73" height="73"><br>都市热报</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161122/0025116a3832199e60ff0a.jpg" border="0" width="73" height="73"><br>慢新闻</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161122/0025116a3832199e60de09.jpg" border="0" width="73" height="73"><br>重庆一分钟</li>
+			    <li style="padding:22px 27px 0; width: 230px;"><img src="http://www.cqwb.com.cn/skin/images_2016/cqwb_qmt_ico.png" width="230" height="95"></li>
+					<li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161122/0025116a3832199e62020c.jpg" border="0" width="73" height="73"><br>重庆走走族</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161122/0025116a3832199e64710d.jpg" border="0" width="73" height="73"><br>文创联盟</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161122/0025116a3832199e64d10e.jpg" border="0" width="73" height="73"><br>法律帮帮帮</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161128/0250f200000219a63e8702.jpg" border="0" width="73" height="73"><br>重庆六一班</li></ul>
+</div>
+<div class="foot_qmt2 news-grid">
+<ul>
+<li><img src="http://www.cqwb.com.cn/images/attachement/png/site2/20161129/0025116a383219a791b207.png" border="0" width="73" height="73"><br>轨客网</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161129/0025116a383219a7601a01.jpg" border="0" width="73" height="73"><br>重庆单身狗</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161128/0250f200000219a63ecf04.jpg" border="0" width="73" height="73"><br>爱真相</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161129/0025116a383219a78fb206.jpg" border="0" width="73" height="73"><br>影友会</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161128/0250f200000219a63f0c05.jpg" border="0" width="73" height="73"><br>妙人志</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20170609/0025116a38321aa4695f01.jpg" border="0" width="73" height="73"><br>CQ慢生活</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161128/0250f200000219a6401e06.jpg" border="0" width="73" height="73"><br>重庆房生活</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161128/0250f200000219a6409907.jpg" border="0" width="73" height="73"><br>重晚副刊</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161128/0250f200000219a640eb08.jpg" border="0" width="73" height="73"><br>重晚体育</li><li><img src="http://www.cqwb.com.cn/images/attachement/jpg/site2/20161129/0025116a383219a7604502.jpg" border="0" width="73" height="73"><br>大石化报</li>
+</ul>
+</div>
+
+  ﻿<div class="yqlj mb25 link05">
+               <ul> 
+
+                    <li><a href="http://www.cqjtjk.cn/" target="_blank" title="重庆健康网">重庆健康网</a></li>
+					<li><a href="http://www.cnenews.com.cn/" target="_blank" title="中国晚报网">中国晚报网</a></li>
+                    <li><a href="http://www.cqrb.cn/" target="_blank">重庆日报</a></li>
+                    <li><a href="http://www.cqdsrb.com.cn/" target="_blank" title="轨客网">轨客网</a></li>
+                    <li><a href="http://www.chinawbsyxh.com/" target="_blank" title="中国晚报摄影学会">中国晚报摄影学会</a></li>
+                    <li><a href="http://www.cqnews.net/" target="_blank">华龙网</a></li>
+                    <li><a href="http://www.cac.gov.cn/" target="_blank">中国网信</a></li>
+                    <li><a href="http://www.wto168.net/" target="_blank">黄金价格</a></li>
+                    <li><a href="http://www.auromcs.com/" target="_blank">出国看病</a></li>	
+                    <li><a href="http://m.zbwg.cc" target="_blank">珠宝品牌商城</a></li> 
+                    <li><a href="http://www.shejijia.com/" target="_blank">家庭装修设计</a></li>    
+                  </ul> 
+</div>
+           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr>                   
+                    <td>
+                        <iframe frameborder="0" height="90" width="90" scrolling="no" src="http://www.cqgseb.cn/ztgsgl/WebMonitor/GUILayer/eImgMana/gshdimg.aspx?sfdm=120130520155258850182"></iframe>
+                    </td>
+                    <td>
+                        <div id="foot_m" class="link05">
+                            <span><a href="http://www.cqwb.com.cn/about.html" target="_blank">晚报简介</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.cqwb.com.cn/gg.shtml" target="_blank">报纸广告</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.cqwb.com.cn/lxwm.shtml" target="_blank">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.cqwb.com.cn/fx.shtml" target="_blank">晚报发行</a></span>
+                            <div style="padding-bottom: 6px;">
+                                重庆晚报&nbsp;版权所有&nbsp;&nbsp;经营性网站备案号： 渝ICP备17003974号-1&nbsp;
+		 		<img src="http://www.cqwb.com.cn/images/batb.png"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011202500889" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">渝公网安备 50011202500889号</a>&nbsp;<script src="http://s10.cnzz.com/stat.php?id=1964644&amp;web_id=1964644&amp;show=pic" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=1964644&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1964644" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a><script id="_trs_ta_js" src="//dc.cqdailynews.com:8092/c/js/ta.js?mpid=8" async="async" defer="defer"></script>
+		 
+                                <!-- WPA Button END -->
+                            </div>
+                            <div style="padding-bottom: 6px;">地址：渝北区同茂大道416号重报集团21-24楼&nbsp;&nbsp;互联网违法和不良信息举报电话：023-966988&nbsp;互联网出版许可证：新出网证（渝）字004号</div>
+                        </div>
+</td>
+<td></td>
+                </tr>
+            </tbody></table>
+  </div>
+  <div class="clear_float"></div>
+</div>
+<div style="display:none;">
+<!-- 晚报网栏目页统计 Start -->
+<script language="javascript">var __$nodeid=1066;</script><script language="JavaScript" charset="gb2312" src="http://stat.cqwb.com.cn/phpstat/count/abceffgh/abceffgh.js"></script><noscript>&lt;img src="http://stat.cqwb.com.cn/phpstat/count/abceffgh/abceffgh.php" alt="" style="border:0" /&gt;</noscript>
+<!-- /晚报网栏目页统计 End -->
+</div>
+
+
+<input type="hidden" id="fx_tit" value=""><input type="hidden" id="fx_url" value=""><iframe frameborder="0" id="bdSharePopup_selectshare1515481076795bg" class="bdselect_share_bg" style="display:none;"></iframe><div id="bdSharePopup_selectshare1515481076795box" style="display:none;" share-type="selectshare" class="bdselect_share_box" data-bd-bind="1515481076795"><div class="selectshare-mod-triangle"><div class="triangle-border"></div><div class="triangle-inset"></div></div><div class="bdselect_share_head"><span>分享到</span><a href="http://www.baidu.com/s?wd=undefined&amp;tn=SE_hldp08010_vurs2xrp" class="bdselect_share_dialog_search" target="_blank"><i class="bdselect_share_dialog_search_i"></i><span class="bdselect_share_dialog_search_span">百度一下</span></a><a class="bdselect_share_dialog_close"></a></div><div class="bdselect_share_content"><ul class="bdselect_share_list bdshare-button-style0-16"><div class="bdselect_share_partners"></div><a href="#" class="bds_more" data-cmd="more"></a></ul></div></div></body></html>

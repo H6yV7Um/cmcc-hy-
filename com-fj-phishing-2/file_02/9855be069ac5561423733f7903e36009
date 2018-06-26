@@ -1,0 +1,595 @@
+<!DOCTYPE html><!--[if lt IE 7]>
+<html lang="zh-cmn-Hans" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>
+<html lang="zh-cmn-Hans" class="ie7 lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>
+<html lang="zh-cmn-Hans" class="ie8 lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html lang="zh-cmn-Hans"><!--<![endif]--><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<title>贯众·中移杭研，做有影响力的数字化服务提供商！</title>
+<meta name="keywords" content="中国移动、杭州研发中心、贯众、互联网、解决方案、移动互联网、生态环境、融合通信、消费互联网、产业互联网、大数据应用、数据价值、能力平台、生态圈、物联网、网络相连、全面感知、智能化、智慧家庭、智慧城市">
+<meta name="description" content="中国移动杭州研发中心，亦称中移（杭州）信息技术有限公司，简称贯众，致力于建设成为国内一流、国际领先的世界级研发机构，竭力助推中国移动在科技创新、技术研发、运营支撑等方面的核心竞争力">
+<meta name="author" content="中国移动杭州研发中心 - 创新业务产品部">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+
+
+
+
+
+
+
+
+<script src="https://hm.baidu.com/hm.js?e308a94d69c1526a4a32419cfccf6377"></script><script charset="utf-8" src="http://goutong.baidu.com/site/556/366642a1845428dbd2232c37263d5214/b.js?siteId=6351552"></script><script async="" src="/assets/dep/hejiaqin/webtrends.min.js"></script><script id="config">
+var USERNAME = '';
+var PREVIOUS_MENU_URL = '';
+var CONTEXT_PATH = '';
+var REQUEST_MARK = '';
+var RETURN_URL = '';
+var SERVER_DATE = new Date('');
+var CLIENT_DATE = new Date;
+var SEA_CONFIG = {
+    debug: true,
+    base: CONTEXT_PATH + '/assets',
+    paths: {
+        'page': 'src/page',
+        'component': 'src/component',
+        'util': 'src/component/util'
+    },
+    alias: {
+        'jquery': 'dep/jquery/1.11.2/jquery.js',
+        'bootstrap': 'dep/bootstrap/3.3.6/js/bootstrap-cmd',
+        'underscore': 'dep/underscore/1.8.3/cmd/underscore-min',
+        'backbone': 'dep/backbone/1.3.3/backbone',
+
+        'video': 'dep/video/5.8.0/video.min',
+        'unslider': 'dep/unslider/2.0/dist/js/unslider-min',
+        'underscore': 'dep/underscore/1.8.3/underscore',
+
+        'plupload': 'dep/plupload/2.1.3/js/plupload.full.min.js',
+        'jquery-slimScroll': 'dep/jquery-slimscroll/1.3.7/jquery.slimscroll',
+        'jquery-placeholder': 'dep/jquery-placeholder/2.3.1/jquery.placeholder.min',
+        'jcrop': 'dep/jcrop/0.9.12/js/jquery.Jcrop',
+        'artTempalte':'dep/template/template-web.js',
+
+        'jquery-validate': 'dep/jquery-validation/1.14.0/jquery.validate.cmd',
+        'jquery-datetimepicker': 'dep/jquery-datetimepicker/cmd/jquery-datetimepicker',
+
+        'md5': 'util/md5',
+        'cookie': 'util/cookie',
+        'parseQueryString': 'util/parseQueryString',
+        'template': 'util/template',
+        'walkList': 'util/walkList',
+        'jquery-util': 'util/jquery-util',
+        'csrf': 'util/csrf',
+        'jquery.region-selector':'src/page/address/jquery.region-selector.js',
+        'region.data':'src/page/address/region.data.js'
+    }
+}
+</script>
+
+<script src="/assets/dep/seajs/3.0.0/sea.js"></script>
+<script src="/assets/src/static/config.js"></script>
+<script src="/assets/dep/hejiaqin/webtrends.load.js"></script>
+
+<link rel="stylesheet" href="/assets/dep/bootstrap/3.3.6/css/bootstrap.css">
+<link rel="stylesheet" href="/assets/src/css/jquery-datetimepicker/css/cmcc-datetimepicker.css">
+<link rel="stylesheet" href="/assets/src/css/common.css">
+<link rel="stylesheet" href="/assets/src/css/index.css">
+
+<!--[if gt IE 7]><!-->
+<!--[if lt IE 8]><![endif]-->
+<!--[if lt IE 9]>
+<script src="/assets/dep/shim/html5shiv-min.js"></script>
+<script src="/assets/dep/shim/respond-min.js"></script>
+<script src="/assets/dep/shim/console.js"></script>
+<![endif]-->
+<script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/page/common/header.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/page/common/quick-contact.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/page/index.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/dep/jquery/1.11.2/jquery.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/Nav.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/common.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/dep/bootstrap/3.3.6/js/bootstrap-cmd.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/dep/underscore/1.8.3/underscore.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/dep/backbone/1.3.3/backbone.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/util/template.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/AlertTime.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/Confirm.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/Banner.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/Recommend.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/util/csrf.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/src/component/Modal.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/dep/jquery-placeholder/2.3.1/jquery.placeholder.min.js"></script><script charset="utf-8" async="" src="http://hy.10086.cn/assets/dep/unslider/2.0/dist/js/unslider-min.js"></script><script src="//sgoutong.baidu.com/embed/1514171971/asset/embed/pc_nb.js" charset="UTF-8"></script><link rel="stylesheet" type="text/css" href="//sgoutong.baidu.com/embed/1514171971/asset/embed/css/pc/main.css"><script charset="utf-8" data-require-id="embed/webimlight/main" src="//sgoutong.baidu.com/embed/1514171971/asset/embed/webimlight/main.js" async=""></script><script type="text/javascript" src="//p.qiao.baidu.com/cps2/site/poll?cb=jsonp_bridge_1515479476245_1286139227000248&amp;l=1&amp;v=151547947561580948&amp;s=6351552&amp;e=9933651&amp;dev=0&amp;auth=%7B%22anonym%22%3A0%2C%22key%22%3A%226246215871118496438khmw3249660706%22%2C%22sn%22%3A%22766063677%22%2C%22id%22%3A%22151547947561580948%22%2C%22from%22%3A4%2C%22token%22%3A%22bridge%22%7D&amp;_time=1515479476245" id="id_jsonp_bridge_1515479476245_1286139227000248" charset="utf-8"></script></head>
+<body style="">
+<div class="views">
+    
+<!-- / -->
+<style type="text/css">
+
+
+ 
+@media screen and (max-width: 768px) {
+	#z-nav .z-nav-li{
+	float:left;
+}
+.topnavbar-nav > li > a{
+	padding:13px 0;
+}
+.z-nav-li #z-secUl,.z-nav-li #z-secUl-t {
+	    position: absolute;
+	    top: 43px;
+	    left: 0px;
+	    background-clip: padding-box;
+    	border: 1px solid #ccc;
+    	border: 1px solid rgba(0, 0, 0, .15);
+    	border-radius: 4px;
+    	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	    background-color: #fff;
+    }
+    #z-nav{
+     margin-top:-2px;
+     padding-left:30px;
+     
+    }
+    #z-header-r{
+      position:absolute;
+      right:55px;
+      top:-10px;
+      overflow:hidden;
+    }
+    #z-header-r li{
+      float:left;
+    }
+    #container{
+    	position:relative;
+    } 
+    .topnavbar{
+    	width:1226px;
+    }
+ }
+</style>
+<div class="navbar topnavbar" role="navigation">
+    <div class="container" style="padding:0px;" id="container">
+        <ul class="nav navbar-nav topnavbar-nav" id="z-nav">
+            <li class="z-nav-li"><a href="/index.action">首页</a></li>
+            <li class="z-nav-li"><a href="/product/product-index.action">产品商城</a></li>
+            <li class="z-nav-li">
+                <a href="#" class="solution-a dropdown-toggle" data-toggle="dropdown">解决方案</a>
+                <ul id="z-secUl" class="dropdown-menu solution-dropmenu" aria-labelledby="dropdownMenu1">
+                    <li><a href="/solution/solution.action?page=1">企业安全信息化</a></li>
+                    <li><a href="/solution/solution.action?page=2">企业协同办公</a></li>
+                    <li><a href="/solution/solution.action?page=3">智慧互联</a></li>
+                    <li><a href="/solution/solution.action?page=4">智慧军营</a></li>
+                    <!-- <li><a href="/solution/solution3.action">企业信息化安全</a></li> -->
+                </ul>
+            </li>
+            <li class="z-nav-li"><a href="/support/support-index.action">服务</a></li>
+           <li class="z-nav-li">
+                <a href="#" class="solution-a dropdown-toggle" data-toggle="dropdown">站外导航</a>
+                <ul id="z-secUl-t" class="dropdown-menu solution-dropmenu" aria-labelledby="dropdownMenu1">
+                
+                  
+                        <li><a class="links-item" href="http://www.migu.cn/" target="_blank">咪咕</a></li>
+                    
+                        <li><a class="links-item" href="http://www.10086.cn/index/zj/index_571_571.html" target="_blank">10086</a></li>
+                    
+                        <li><a class="links-item" href="http://www.10086.cn/index/hn/index_731_731.html" target="_blank">湖南移动</a></li>
+                    
+                        <li><a class="links-item" href="http://www.10086.cn/index/zj/index_571_571.html" target="_blank">浙江移动</a></li>
+                    
+                    
+	                <!-- <li><a href="http://www.migu.cn/" target="_blank">咪咕</a></li>
+	                <li><a href="http://www.10086.cn/index/zj/index_571_571.html" target="_blank">10086</a></li>
+	                <li><a href="http://www.10086.cn/index/hn/index_731_731.html" target="_blank">湖南移动</a></li>
+	                <li><a href="http://www.10086.cn/index/hn/index_731_731.html" target="_blank">浙江移动</a></li> -->
+                
+                </ul>
+            </li>
+            <li class="z-nav-li"><a href="http://www.hotjob.cn/wt/zyhy/web/index" target="_blank">加入杭研</a></li>
+        </ul>
+        
+        
+        
+            <ul class="header-right nav navbar-nav topnavbar-nav " id="z-header-r">
+                <li><a href="javascript:void(0)" onclick="loginClick()">登录</a></li>
+                <li><a href="https://elogin.komect.com/register/msisdn" target="_blank">注册</a></li>
+                <li style="margin-right:0"> 
+                	
+                	<a href="#" data-do="tocart">
+                		<i class="iconfont icon-gouwuche01">
+                			<span class="shopCar">0</span>
+                		</i>&nbsp;&nbsp;购物车
+                	</a>
+                </li>
+                
+            </ul> 
+        
+        
+    </div>
+</div>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    	// 登录点击事件
+       	function  loginClick() {
+       		// 获取当前页面url
+       	  	var state=document.location.href;
+       	 	location.href="/ucenter/user!login.action?state="+state;
+		}
+       	//获取购物车数量
+       	function countCart(){
+       		$.ajax({
+	   		type:"get",
+	   		url:CONTEXT_PATH +"/order/shoppingCart!countCart.action",
+	   		async:true,
+	   		cache:false,
+	   		success:function(res){
+                if(!res.successSign){
+	   				alert("服务器错误！");
+	   				return;
+	   			}
+                $(".shopCar").html(res.result);
+	   		},
+	   		error:function(res){
+	   			console.log(res.message)
+	   		}
+	    });
+       	}
+	   	countCart();
+      </script>
+    
+<style type="text/css">
+@media only screen and (max-width: 767px) {
+	#z-nav-h,#z-nav-sec,.z-sec-li{
+		float:left;
+	}
+	.z-sec-li{
+		margin-top:-8px;
+	}
+	.navbar-right{
+	    float:right;
+	}
+	.navbar-form{
+		margin-right:30px;
+	}
+	.z-container{
+		margin:20px 60px 0;
+	}
+}	
+</style>
+<div class="navbar mall-navbar" role="navigation">
+    <div class="container z-container">
+        <div class="navbar-header" id="z-nav-h">
+            <a class="navbar-brand" href="/index.action"><img src="/assets/src/css/img/hy-logo2.png" alt="贯众"></a>
+        </div>
+        <ul class="nav navbar-nav mall-nav" id="z-nav-sec">
+             
+                 <li class="z-sec-li"><a href="/product/product.action?categoryId=product.category.1 ">数字家庭</a></li>
+             
+                 <li class="z-sec-li"><a href="/product/product.action?categoryId=product.category.1258 ">智慧政企</a></li>
+             
+                 <li class="z-sec-li"><a href="/product/product.action?categoryId=product.category.2 "> 安全保障</a></li>
+             
+                 <li class="z-sec-li"><a href="/product/product.action?categoryId=product.category.3 ">能力开放</a></li>
+             
+        </ul>
+        <form action="/product/product.action" class="navbar-form navbar-right mall-search" style="padding:0">
+            <span class="swrap">
+                <input type="text" name="productKeyword" class="s" value="">
+                <button type="submit" class="btn-search iconfont"></button>
+            </span>
+        </form>
+    </div>
+</div>
+    <div class="page-entry index-inner">
+        <div class="index-slide slide-list" id="banner-list">
+                <div class="unslider"><div class="slider-box unslider-fade" style="overflow: hidden;">
+                <div class="slider-box">
+                    <ul class="unslider-wrap">
+                        
+                        <li style="background-image: url(http://218.205.115.232/group1/M00/00/08/rBYLZ1pF3kaATXcDAATTevW-5bM999.jpg); opacity: 1;" class="imgbg unslider-active">
+                            <a href="http://hy.10086.cn/" target="_blank"><span></span></a>
+                        </li>
+                        
+                        <li style="background-image: url(http://218.205.115.232/group1/M00/00/04/rBYLZVofopGAQ78qAANCsOhXPsk953.jpg); opacity: 0;" class="imgbg">
+                            <a href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w5003-15001638022.2.39e4da6djisCT5&amp;id=561101985270&amp;scene=taobao_shop" target="_blank"><span></span></a>
+                        </li>
+                        
+                        <li style="background-image: url(http://218.205.115.232/group1/M00/00/02/rBYLZ1lsImKALx4NAAMLgS9Jxsk728.png); opacity: 0;" class="imgbg">
+                            <a href="http://hy.10086.cn/solution/anquanxinxihua.action" target="_blank"><span></span></a>
+                        </li>
+                        
+                        <li style="background-image: url(http://218.205.115.232/group1/M00/00/01/rBYLZVkB7DuAGNKhAAn2ykEJTVU613.png); opacity: 0;" class="imgbg">
+                            <a href="http://218.205.115.232/product/product!detail.action?productId=product.info.1021" target="_blank"><span></span></a>
+                        </li>
+                        
+                    </ul>
+                    <a class="unslider-arrow next iconfont" data-do="slider"></a>
+                    <a class="unslider-arrow prev iconfont" data-do="slider"></a>
+                </div>
+            </div><nav class="unslider-nav"><ol><li data-slide="0" class="unslider-active">1</li><li data-slide="1">2</li><li data-slide="2">3</li><li data-slide="3">4</li></ol></nav></div></div><!-- /轮播1 -->
+        <div class="idx-pro pro-img-items clearfix" id="pro-recommend">
+            
+            <a class="pro-l -toleft brick-item" href="/product/product!detail.action?productId=product.info.1066">
+                <div class="pro idx-img-xl">
+                    <img class="img" src="http://218.205.115.232/group1/M00/00/07/rBYLZ1ozkaaAR_3qAABrUBYezJs524.png" width="196" height="196" data-src="http://218.205.115.232/group1/M00/00/07/rBYLZ1ozkaaAR_3qAABrUBYezJs524.png">
+                    <span></span>
+                </div>
+                <div class="pro-name pro-name-l">和家听 助手音箱</div>
+                <div class="pro-profile">智能音箱 一键对讲 语音识别</div>
+                <div class="pro-price">￥699</div>
+            </a>
+            
+            <a class="pro-r -toleft brick-item" href="/product/product!detail.action?productId=product.info.1039">
+                <div class="pro -toleft">
+                    <img class="img" src="http://218.205.115.232/group1/M00/00/08/rBYLZVo4yjWAF8x9AAAqHQj7sSc621.png" width="130" height="130" data-src="http://218.205.115.232/group1/M00/00/08/rBYLZVo4yjWAF8x9AAAqHQj7sSc621.png">
+                    <span></span>
+                </div>
+                <div class="proinfo -toleft">
+                    <div class="pro-name">和家亲</div>
+                    <div class="pro-profile">数字家庭一站式服务APP</div>
+                    
+                </div>
+            </a>
+            
+            <a class="pro-r -toleft brick-item" href="/product/product!detail.action?productId=product.info.1084">
+                <div class="pro -toleft">
+                    <img class="img" src="http://218.205.115.232/group1/M00/00/08/rBYLZ1pDPyGAL0xYAAB7SZdSH_E082.jpg" width="130" height="130" data-src="http://218.205.115.232/group1/M00/00/08/rBYLZ1pDPyGAL0xYAAB7SZdSH_E082.jpg">
+                    <span></span>
+                </div>
+                <div class="proinfo -toleft">
+                    <div class="pro-name">星火原烟雾探测器</div>
+                    <div class="pro-profile">烟雾探测 防患未然</div>
+                    <div class="pro-price">￥181</div>
+                </div>
+            </a>
+            
+            <a class="pro-r -toleft brick-item" href="/product/product!detail.action?productId=product.info.1036">
+                <div class="pro -toleft">
+                    <img class="img" src="http://218.205.115.232/group1/M00/00/08/rBYLZ1o4yp6AN4-iAAAgHHeNjEc503.png" width="130" height="130" data-src="http://218.205.115.232/group1/M00/00/08/rBYLZ1o4yp6AN4-iAAAgHHeNjEc503.png">
+                    <span></span>
+                </div>
+                <div class="proinfo -toleft">
+                    <div class="pro-name">家庭智能网关</div>
+                    <div class="pro-profile">三合一家庭智能网关</div>
+                    
+                </div>
+            </a>
+            
+            <a class="pro-r -toleft brick-item" href="/product/product!detail.action?productId=product.info.1021">
+                <div class="pro -toleft">
+                    <img class="img" src="http://218.205.115.232/group1/M00/00/07/rBYLZ1ozlLGAPqrWAAA8O2gu2x0727.png" width="130" height="130" data-src="http://218.205.115.232/group1/M00/00/07/rBYLZ1ozlLGAPqrWAAA8O2gu2x0727.png">
+                    <span></span>
+                </div>
+                <div class="proinfo -toleft">
+                    <div class="pro-name">移动应用安全产品</div>
+                    <div class="pro-profile">安全检测、加固防护一步到位</div>
+                    
+                </div>
+            </a>
+            
+            </div>
+        
+        <div class="news-t">
+            <h2>新闻动态</h2>
+            <a class="more" href="/news/news.action">查看全部<span class="iconfont"></span></a>
+        </div>
+        <div class="news-list clearfix">
+            <ul id="news-recommend" style="display: none;">
+                <script type="text/html" id="tmpl-news-recommend">
+                    <# _.each(model.data,function(item,index){
+                            if(index < 4){ #>
+                    <# if(!item.id) { #>
+                    <li>
+                        <a href="javascript:void(0);" class="brick-item clearfix">
+                            <span class="time"></span>
+                            <div class="news-list-img">
+                                <div class="news-img">
+                                    <img class="news-pic" src="{{item.picture}}"/>
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                <# var title = '',introduce = '' ;
+                                        if(item.title.length > 15)
+                                    title = item.title.substring(0,15)+'...';
+                                    else title= item.title ;
+                                    if(item.introduce.length > 18) introduce = item.introduce.substring(0,18)+'...';
+                                    else introduce= item.introduce ;
+                                    #>
+                                    <div class="item-title" title="{{item.title}}">{{title}}</div>
+                                    <div class="item-profile">{{introduce}}</div>
+                            </div>
+                        </a>
+                    </li>
+                    <# } else { #>
+                    <li>
+                        <a href="/news/news!detail.action?newsId={{item.id}}" class="brick-item clearfix">
+                            <span class="time">{{item.updateTimeStr}}</span>
+                            <div class="news-list-img">
+                                <div class="news-img">
+                                    <img class="news-pic" src="{{item.picture}}"/>
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                <# var title = '',introduce = '' ;
+                                    if(item.title.length > 15)
+                                title = item.title.substring(0,15)+'...';
+                                else title= item.title ;
+                                if(item.introduce.length > 18) introduce = item.introduce.substring(0,18)+'...';
+                                else introduce= item.introduce ;
+                                #>
+                                <div class="item-title" title="{{item.title}}">{{title}}</div>
+                                <div class="item-profile">{{introduce}}</div>
+                            </div>
+                        </a>
+                    </li>
+                    <# } #>
+                    <# } }) #>
+                </script>
+            </ul>
+            <ul id="news-lastest">
+                    
+                    
+                    <li>
+                        <a href="/news/news!detail.action?newsId=cms.news.340" class="brick-item clearfix">
+                            <span class="time">2017/12/28</span>
+                            <div class="news-list-img">
+                                <div class="news-img">
+                                    <img class="news-pic" src="http://218.205.115.232/group1/M00/00/08/rBYLZVpEVrqALXHFAAFfbmMKbmI030.png">
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                
+                                <div class="item-title" title="家庭高清视频通话业务取得进展">家庭高清视频通话业务取得进展</div>
+                                <div class="item-profile">家庭高清视频通话继8月份在山西公司率...</div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/news/news!detail.action?newsId=cms.news.337" class="brick-item clearfix">
+                            <span class="time">2017/12/28</span>
+                            <div class="news-list-img">
+                                <div class="news-img">
+                                    <img class="news-pic" src="http://218.205.115.232/group1/M00/00/08/rBYLZ1pEVoCAGRVnAAXi3UslIKY478.jpg">
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                
+                                <div class="item-title" title="公司新办公园区启用">公司新办公园区启用</div>
+                                <div class="item-profile">12月20日，公司新办公园区启用，迎...</div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/news/news!detail.action?newsId=cms.news.334" class="brick-item clearfix">
+                            <span class="time">2017/12/28</span>
+                            <div class="news-list-img">
+                                <div class="news-img">
+                                    <img class="news-pic" src="http://218.205.115.232/group1/M00/00/08/rBYLZVpEUPmAO99zAA3F1MwQtYg742.jpg">
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                
+                                <div class="item-title" title="智慧互联产品部eSIM写卡系统实现跨国运营商对接">智慧互联产品部eSIM写卡系统实现跨国运营商对接</div>
+                                <div class="item-profile">12月5号，在“中国移动·大众集团·...</div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/news/news!detail.action?newsId=cms.news.331" class="brick-item clearfix">
+                            <span class="time">2017/12/28</span>
+                            <div class="news-list-img">
+                                <div class="news-img">
+                                    <img class="news-pic" src="http://218.205.115.232/group1/M00/00/08/rBYLZ1pET8-AN2MvAAWjnuwP7W8781.jpg">
+                                </div>
+                            </div>
+                            <div class="news-info">
+                                
+                                <div class="item-title" title="安全产品部在集团公司第三届信息安全技能竞赛中取得佳绩">安全产品部在集团公司第三届信息安全技能竞赛中取得佳绩</div>
+                                <div class="item-profile">11月27日，集团公司信安中心主办的...</div>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+<div class="quick-contact">
+    <ul>
+        <li class="top"><a href="#top" class="icon" title="" data-backtotop="" data-tooltip="" data-original-title="返回顶部" style="display: none;"><span>top</span></a></li>
+    </ul>
+</div>
+
+<div class="footer">
+    <div class="footer-links">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <h3 class="heading">关于我们</h3>
+                    <ul class="links-about clearfix">
+                    
+                     
+                        <li><a class="links-item" href="/news/news.action">新闻动态</a></li>
+                    
+                        <li><a class="links-item" href="/other/board.action?code=companyintro">公司介绍</a></li>
+                    
+                        <li><a class="links-item" href="http://www.hotjob.cn/wt/zyhy/web/index" target="_blank">加入我们</a></li>
+                    
+                        <li><a class="links-item" href="/other/board.action?code=contact">联系我们</a></li>
+                    
+                        
+                    </ul>
+                </div>
+                <div class="col-xs-1 col-xs-offset-1">
+                    <h3 class="heading">服务支持</h3>
+                    <ul class="links-support">
+                    
+                        <li><a class="links-item" href="/support/doc.action">文档下载</a></li>
+                    
+                        <li><a class="links-item" href="/support/repository.action">常见问题</a></li>
+                    
+                        <li><a class="links-item" href="/support/policy.action">售后政策</a></li>
+                    
+                        <li><a class="links-item" href="/support/check.action">防伪验证</a></li>
+                    
+                        
+                    </ul>
+                </div>
+                <div class="col-xs-2 col-xs-offset-1">
+                    <h3 class="heading">友情链接</h3>
+                    <ul class="links-friends">
+                   
+                    
+                        <li><a class="links-item" href="http://open.home.komect.com/dev" target="_blank">Andlink</a></li>
+                    
+                        <li><a class="links-item" href="http://open.home.10086.cn/partner/" target="_blank">合作门户</a></li>
+                    
+                        <li><a class="links-item" href="http://mogosec.komect.com/" target="_blank">贯众安全</a></li>
+                    
+                        <li><a class="links-item" href="https://shop165839758.taobao.com/" target="_blank">贯众科技馆</a></li>
+                    
+
+                    </ul>
+                </div>
+                <div class="col-xs-2">
+                    <div class="follow">
+                        <h3 class="heading">关注我们</h3>
+                        <img src="/hy-front/assets/src/css/img/imgs/code.png" alt="qrcode of hangyan" width="90">
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <h3 class="heading">客服热线</h3>
+                    <div class="tel">400-10086-86</div>
+                    <div class="stime">7*24小时服务</div>
+                    <div class="email">cmhi@cmhi.chinamobile.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <p class="copyright">Copyright © 中移（杭州）信息技术有限公司&nbsp;&nbsp;&nbsp;&nbsp;版权所有。<br>
+            浙公网安备：<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002010423" target="_blank">33011002010423</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <span>浙ICP备案号：<a href="http://www.miitbeian.gov.cn" target="_blank">浙ICP备14035550号-3</a></span></p>
+        </div>
+    </div>
+</div>
+<div style="display: none;">
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F366642a1845428dbd2232c37263d5214' type='text/javascript'%3E%3C/script%3E")) </script><script src=" http://hm.baidu.com/h.js?366642a1845428dbd2232c37263d5214" type="text/javascript"></script><a href="http://tongji.baidu.com/hm-web/welcome/ico?s=366642a1845428dbd2232c37263d5214" target="_blank"><img border="0" src="http://eiv.baidu.com/hmt/icon/21.gif" width="20" height="20"></a>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e308a94d69c1526a4a32419cfccf6377";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+
+</div>
+
+<script>
+    seajs.use(['page/common/header', 'page/common/quick-contact', 'page/index'], function (h, q, p) {
+        p.run();
+    });
+</script>
+
+<ins id="newBridge"><!-- target: nodeBoard --><ins class="nb-nodeboard-base nb-nodeboard-position-base nb-nodeboard-left-bottom nb-hide" id="nb_nodeboard"><ins class="nb-nodeboard-contain-base nb-nodeboard-contain"><ins class="nb-nodeboard-top nb-nodeboard-top-0"><ins class="nb-head-title">请您留言</ins><ins class="nb-nodeboard-close" id="nb_nodeboard_close" data-type="min"></ins></ins><form id="nb_nodeboard_form" autocomplete="off" class="nb-board-form" action="//p.qiao.baidu.com/cps2//bookmanage/saveBook.action?userId=9933651" method="post" accept-charset="utf-8"><ins id="nb_nodeboard_set" class="nb-nodeboard-set"><ins class="nb-nodeboard-content"><textarea id="nb-nodeboard-set-content-js" name="content" data-ph="请在此输入留言内容，我们会尽快与您联系。（必填）" placeholder="请在此输入留言内容，我们会尽快与您联系。（必填）" class="nb-nodeboard-set-content"></textarea></ins><ins class="nb-nodeboard-name" style="z-index:4;"><ins class="nb-nodeboard-icon nodeName"></ins><input id="nb_nodeboard_set_name" data-write="0" name="visitorName" maxlength="30" class="nb-nodeboard-input" type="text" data-ph="姓名" placeholder="姓名"></ins><ins class="nb-nodeboard-name" id="nb_nodeboard_phone" style="z-index:3;"><ins class="nb-nodeboard-icon nodePhone"></ins><input id="nb_nodeboard_set_phone" name="visitorPhone" maxlength="30" class="nb-nodeboard-input" data-write="1" type="text" data-ph="电话（必填）" placeholder="电话（必填）"></ins><ins class="nb-nodeboard-name" id="nb_nodeboard_mail" style="z-index:2;"><ins class="nb-nodeboard-icon nodeMail"></ins><input id="nb_nodeboard_set_email" name="visitorEmail" maxlength="50" class="nb-nodeboard-input" type="text" data-write="0" data-ph="邮箱" placeholder="邮箱"></ins><ins class="nb-nodeboard-name" style="z-index:1;"><ins class="nb-nodeboard-icon nodeAddress"></ins><input id="nb_nodeboard_set_address" name="visitorAddress" class="nb-nodeboard-input" maxlength="50" type="text" data-write="0" data-ph="地址" placeholder="地址"></ins></ins></form><ins class="nb-nodeboard-success" id="nb_nodeboard_success"><ins class="nb-success-box"><ins class="nb-success-icon"></ins><ins class="nb-success-title" id="nb_node_messagetitle">感谢留言</ins><ins class="nb-success-content" id="nb_node_messagecontent">我们会尽快与您联系</ins><ins id="sucess_close" class="nb-sucess-close">关闭</ins></ins></ins><ins class="nb-nodeboard-send" id="nb_node_contain"><ins id="nb_nodeboard_send" class="nb-nodeboard-send-btn nb-nodeboard-send-btn-0">发送</ins></ins></ins></ins><!-- end --><!-- target: iconIcon --><ins class="nb-icon-wrap nb-icon-base icon-right-bottom nb-icon-skin-3 nb-icon-icon" id="nb_icon_wrap" style=";width:144px;"><ins class="nb-icon-inner-wrap" style="height:52px;width:144px;;"><ins class="nb-icon-bridge0 nb-icon-bridge-base" data-type="iconInvite"></ins></ins></ins><!-- end --><!-- target: invite --><ins class="nb-invite-wrap nb-invite-wrap-base nb-position-base nb-right-bottom  " id="nb_invite_wrap" style="width:400px;display:none;;"><ins class="nb-invite-body nb-invite-skin-3" style="height:175px;"><ins class="nb-invite-tool nb-invite-tool-base" id="nb_invite_tool" style=""></ins><ins class="nb-invite-text nb-invite-text-base"><ins class="nb-invite-welcome nb-invite-welcome-base nb-show" id="nb_invite_welcome"><p style="color: #fff">欢迎来到本网站，请问有什么可以帮您？</p></ins></ins><ins class="nb-invite-btn-base nb-invte-btns-3"><ins class="nb-invite-cancel nb-invite-cancel-base" id="nb_invite_cancel">稍后再说</ins><ins class="nb-invite-ok nb-invite-ok-base" id="nb_invite_ok">现在咨询</ins></ins></ins></ins><!-- end --></ins></body></html>

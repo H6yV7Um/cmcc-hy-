@@ -1,0 +1,409 @@
+<!DOCTYPE html><html lang="zh-cn"><head>
+    <meta charset="UTF-8">
+    
+    <title>首页</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/bootstrap.css">
+    <!--bootstrap样式，不可更改-->
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/glyphicons.css">
+    <!--字体图标样式，不可更改-->
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/animate.min.css">
+    <!--动画库样式，不可更改-->
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/style.css">
+    <!--网站整体风格样式-->
+    <link rel="stylesheet" type="text/css" href="/Public/Home/css/common.css">
+    <script type="text/javascript">
+        var IMG = "/Public/Home/images";
+    </script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/Public/static/jquery-1.10.2.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script type="text/javascript" src="/Public/static/jquery-2.0.3.min.js"></script>
+    <!--<![endif]-->
+    
+<link rel="stylesheet" href="http://clcbi.com/Public/Home/js/layer/skin/default/layer.css?v=3.0.3303" id="layuicss-skinlayercss"></head>
+<body style="">
+	<!-- 头部 -->
+	
+	<div class="top_head">
+		<div class="container">
+			<!-- <div class="pull-left">
+				<a href="#">英文</a>&nbsp;|&nbsp;<a href="#">中文</a>
+			</div> -->
+			<div class="pull-right">
+									<a href="/login/index.html">登录</a>&nbsp;|&nbsp;
+					<a href="/register/index.html">注册</a>			</div>
+		</div>
+	</div>
+	<div class="menu_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg navbar-light bg-hui col">
+						<a class="navbar-brand" href="/">C coin交易中心</a>
+						<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"><i class="fa fa-navicon"></i></span>
+						</button> -->
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto col-lg-12 justify-content-end">
+								<li class="col-lg-2 nav-item nav-li active">
+									<a class="nav-default" href="/">首页</a>
+								</li>
+								<li class="col-lg-2 nav-item nav-li ">
+									<a class="nav-default" href="/trade/index.html">交易中心</a>
+								</li>
+								<li class="col-lg-2 nav-item nav-li ">
+								  <a class="nav-default" href="/finance/tradelist.html">财务中心</a>
+								</li>
+								<li class="col-lg-2 nav-item nav-li ">
+									<a class="nav-default" href="/security/editpassword.html">安全中心</a>
+								</li>
+								<li class="col-lg-2 nav-item nav-li ">
+									<a class="nav-default" href="/news/index.html">帮助中心</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="screen d-lg-none">
+		<nav class="nav nav_1">
+			<ul>
+				<li class="active">
+					<a href="/)}">首页</a>
+				</li>
+				<li>
+					<a href="/trade/index.html">交易中心</a>
+				</li>
+				<li>
+					<a href="/finance/tradelist.html">财务中心</a>
+				</li>
+				<li>
+					<a href="/security/editpassword.html">安全中心</a>
+				</li>
+				<li>
+					<a href="/news/index.html">联系我们</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="nav-toggle">
+			<div class="icon"></div>
+		</div>
+    </div>
+
+	<!-- /头部 -->
+	
+	<!-- 主体 -->
+	
+    <div id="banner" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+        <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 6144px; left: 0px; display: block;"><div class="owl-item" style="width: 1024px;"><div class="item">
+            <img src="/Public/Home/images/fullimage1.jpg">
+        </div></div><div class="owl-item" style="width: 1024px;"><div class="item">
+            <img src="/Public/Home/images/fullimage2.jpg">
+        </div></div><div class="owl-item" style="width: 1024px;"><div class="item">
+            <img src="/Public/Home/images/fullimage3.jpg">
+        </div></div></div></div>
+        
+        
+    <div class="owl-controls"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+    <div class="while_bg">
+        <div class="container">
+            <div class="row">
+                <div class="BreakingNewsController easing" id="breakingnews" style="font-size: 14px;">
+                    <div class="bn-title">
+                        <span class="newstitle_bg_color">
+                            <i class="fa fa-volume-up"></i>
+                        </span>
+                    </div>
+                    <ul style="left: 25px;">
+                        <li style="display: block;">
+                                <a href="/news/detail/cid/2/id/19.html" style="color: rgb(255, 255, 255); height: 20px;">      公       告</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/18.html" style="color: rgb(255, 255, 255); height: 20px;">关于交易平台测试升级公告...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/17.html" style="color: rgb(255, 255, 255); height: 20px;">关于系统升级相关规则通告...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/15.html" style="color: rgb(255, 255, 255); height: 20px;">关于C coin价格形成机制等的通告...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/12.html" style="color: rgb(255, 255, 255); height: 20px;">关于严禁交易作假行为的公告...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/11.html" style="color: rgb(255, 255, 255); height: 20px;">构建平台规矩，创造更大价值...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/10.html" style="color: rgb(255, 255, 255); height: 20px;"> 不忘初心，一致行动创造未来...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/9.html" style="color: rgb(255, 255, 255); height: 20px;">交易系统已优化完成，会员可正常买卖挂单，...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/8.html" style="color: rgb(255, 255, 255); height: 20px;">因CCOIN会员量不断增长、交易量增加，...</a>
+                            </li><li style="display: block;">
+                                <a href="/news/detail/cid/2/id/7.html" style="color: rgb(255, 255, 255); height: 20px;">坚守初心，开启新征程---致C coin...</a>
+                            </li>                    </ul>
+                    <!-- <div class="bn-arrows">
+                        <a href="notice_list.html">更多</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+				<ul class="coin_list_title">
+    				<a href="">
+						<li class="active col-lg-1 col-3"><b>卡莱尔</b></li>
+    				</a>
+			    </ul>
+		    </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <dl class="price_four">
+                    <dt title="yellow">
+                        <i class="fa fa-database"></i>
+                    </dt>
+                    <dd>最新价格<br>11.913</dd>
+                </dl>
+            </div>
+            <div class="col-lg-3 col-6">
+                <dl class="price_four">
+                    <dt class="color_red" title="red">
+                        <i class="fa fa-line-chart font_green"></i>
+                    </dt>
+                    <dd>
+                        日涨跌<br>
+                        <p class="color_red">
+                                0.008%
+                            </p>
+                                            </dd>
+                </dl>
+            </div>
+            <div class="col-lg-3 col-6">
+                <dl class="price_four">
+                    <dt title="blue">
+                        <i class="fa fa-bar-chart"></i>
+                    </dt>
+                    <dd>最高价/最低价<br>11.914/11.912</dd>
+                </dl>
+            </div>
+            <div class="col-lg-3 col-6">
+                <dl class="price_four">
+                    <dt title="zi">
+                        <i class="fa fa-area-chart"></i>
+                    </dt>
+                    <dd>成交量<br>4108121.026</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="hg10"></div>
+        <!-- <div class="row">
+            <div class="col">
+                <div id="container"></div>
+		    </div>
+        </div> -->
+        <div class="hg20"></div>
+        <div class="row">
+            <div class="card wb100 text-white bg-dark">
+                <h6 class="card-header">最新成交记录</h6>
+                <div class="card-body">
+                    <table id="table_info1" class="table table-striped table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th>时间</th>
+                                <th>成交价</th>
+                                <th>成交量</th>
+                                <th>总价</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                    <td>2018-01-09 13:20:24</td>
+                                    <td>11.913</td>
+                                    <td>50.000</td>
+                                    <td>595.650</td>
+                                </tr><tr>
+                                    <td>2018-01-09 13:09:58</td>
+                                    <td>11.913</td>
+                                    <td>50.000</td>
+                                    <td>595.650</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:37</td>
+                                    <td>11.913</td>
+                                    <td>150.000</td>
+                                    <td>1786.950</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:06</td>
+                                    <td>11.913</td>
+                                    <td>233.000</td>
+                                    <td>2775.729</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:04</td>
+                                    <td>11.913</td>
+                                    <td>50.000</td>
+                                    <td>595.650</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:04</td>
+                                    <td>11.913</td>
+                                    <td>50.000</td>
+                                    <td>595.650</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:04</td>
+                                    <td>11.913</td>
+                                    <td>100.000</td>
+                                    <td>1191.300</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:04</td>
+                                    <td>11.913</td>
+                                    <td>100.000</td>
+                                    <td>1191.300</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:04</td>
+                                    <td>11.913</td>
+                                    <td>100.000</td>
+                                    <td>1191.300</td>
+                                </tr><tr>
+                                    <td>2018-01-09 12:44:04</td>
+                                    <td>11.913</td>
+                                    <td>132.000</td>
+                                    <td>1572.516</td>
+                                </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="hg20"></div>
+    </div>
+
+	<!-- /主体 -->
+
+	<!-- 底部 -->
+	
+    <div class="footer">
+        <div class="container">
+            <div class="text-center">
+                ©卡莱尔版权所有
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/popper.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/layer/layer.js"></script>
+<script type="text/javascript" src="/Public/Home/js/common.js"></script>
+<script type="text/javascript">
+    $('.nav-toggle').click(function () {
+        $('body').toggleClass('nav_open');
+    });
+</script>
+
+
+    <script type="text/javascript" src="/Public/Home/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="/Public/Home/js/breakingnews.js"></script> 
+    <script type="text/javascript" src="/Public/Home/js/char/highstock.js"></script> 
+    <script type="text/javascript" src="/Public/Home/js/char/exporting.js"></script> 
+    <script type="text/javascript" src="/Public/Home/js/char/highcharts-zh_CN.js"></script> 
+    <script type="text/javascript" src="/Public/Home/js/char/dark-blue.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#banner").owlCarousel({
+                navigation : false,
+                slideSpeed : 300,
+                paginationSpeed : 400,
+                singleItem: true,
+                autoPlay: true,
+                stopOnHover:true
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#breakingnews").BreakingNews({
+                background: '',
+                title: '',
+                linkcolor: '#fff',
+                fonttextsize: 14,
+                timer: 3000,
+                autoplay: true,
+                effect: 'slide',
+            });
+        });
+    </script>
+    
+    <script type="text/javascript">
+        // $(function () {
+        //     $.ajax({
+        //         type: "POST",
+        //         url: "/index/getorderlist.html",
+        //         data: {status: 1},
+        //         dataType: "json",
+        //         success: function(data) {
+        //             Highcharts.setOptions({
+        //                 global : {
+        //                     useUTC : false
+        //                 }
+        //             });
+        //             $('#container').highcharts('StockChart', {
+        //                 chart : {
+        //                     events : {
+        //                         load : function () {
+        //                             var series = this.series[0];
+        //                             setInterval(function () {
+        //                                 $.ajax({
+        //                                     type: "POST",
+        //                                     url: "/index/getneworder.html",
+        //                                     data: {status: 1},
+        //                                     dataType: "json",
+        //                                     success: function(data) {
+        //                                         var x = (new Date()).getTime(),
+        //                                             y = data.url;
+        //                                         series.addPoint([x, y], true, true);
+        //                                     }
+        //                                 });
+        //                             }, 3000);
+        //                         }
+        //                     }
+        //                 },
+        //                 rangeSelector: {
+        //                     buttons: [{
+        //                         count: 1,
+        //                         type: 'minute',
+        //                         text: '1M'
+        //                     }, {
+        //                         count: 5,
+        //                         type: 'minute',
+        //                         text: '5M'
+        //                     }, {
+        //                         type: 'all',
+        //                         text: 'All'
+        //                     }],
+        //                     inputEnabled: false,
+        //                     selected: 0
+        //                 },
+        //                 title : {
+        //                     text : 'C coin Transaction Chart'
+        //                 },
+        //                 exporting: {
+        //                     enabled: true
+        //                 },
+        //                 series : [{
+        //                     name : 'C coin Transaction Chart',
+        //                     data : (function () {
+        //                         return data.url;
+        //                     }())
+        //                 }]
+        //             });
+        //         }
+        //     });
+        // });
+    </script>
+
+	<!-- /底部 -->
+
+</body></html>

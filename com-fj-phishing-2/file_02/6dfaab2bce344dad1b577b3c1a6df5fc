@@ -1,0 +1,638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" " http://www.w3.org/TR/html4/strict.dtd"><html><head>
+	<title>河北建行——缴费平台</title>  
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="河北建行缴费平台">
+	<meta name="description" content="河北建行缴费平台">
+	
+<link rel="shortcut icon" type="image/x-icon" href="/kw.ico" media="screen"> 	
+<link type="text/css" rel="stylesheet" href="/Frontpage/css/index.css">
+
+<script src="/Frontpage/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/Frontpage/js/js.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Frontpage/js/index.js"></script>
+<script src="/Frontpage/js/foucs.js" type="text/javascript"></script>
+	
+</head>
+   
+
+
+	
+<body>
+<!--
+***所有编码均为utf-8
+-->
+	<div id="kefu01" style="position: absolute; top: 40px; right: 0px; margin-top: 40px; width: 52px; display: block; z-index: 10000;">
+		<div style="width:51px;height:auto; padding-top: 0px;">		
+			<img src="/Managepage/images/kefu01.png" width="50" height="147" onclick="kefu_div_kg('kefu02','kefu01');" style="cursor: pointer;">
+		</div>
+	</div>  
+	<div id="kefu02" style="position:absolute;top:0;right:0; margin-top:70px;width:121px;display: none;z-index: 10001;">
+		<div style="width: 121px;height: 10px;float: left;">
+			<input type="image" style="width: 10px;height: 10px; cursor: pointer;" src="/Managepage/images/xhchahao.png" onclick="kefu_div_kg('kefu01','kefu02');" title="点击关闭">
+		</div>
+		<div style="width:121px;height:auto;float: left;margin-top:2px; text-align: center;border:1px solid #999; line-height: 28px;background-color: white;">		
+			<div style="width:121px;height: 28px; background-image: url('/Managepage/images/kefu.png');">
+				<font style="font-size: 14px;font-weight: bold;">在 线 客 服</font>
+			</div>
+			
+			<div style="width:121px;height:auto;padding-top: 6px;">
+				<font style="font-size: 12px;font-weight: bold;color: #999;">工作日(5x8小时)</font>
+				
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2081376149&amp;site=qq&amp;menu=yes"><img align="top" border="0" src="http://wpa.qq.com/pa?p=2:2081376149:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2907331270&amp;site=qq&amp;menu=yes"><img align="top" border="0" src="http://wpa.qq.com/pa?p=2:2907331270:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1951809965&amp;site=qq&amp;menu=yes"><img align="top" border="0" src="http://wpa.qq.com/pa?p=2:1951809965:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3049391054&amp;site=qq&amp;menu=yes"><img align="top" border="0" src="http://wpa.qq.com/pa?p=2:3049391054:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+			
+			</div>
+				<div style="width:121px;height:auto;padding-top: 6px;">
+					<p style="font-size: 12px;font-weight: bold;color: #999;">热线电话</p>
+					<p style="font-size: 12px;font-weight: bold;color: #000000;">400-6262-112</p>
+				</div>
+
+		</div>
+	</div>
+	
+	<!--头部开始-->
+	<div class="header">
+		
+
+
+
+
+
+
+
+
+
+
+<div class="nav_headertop">
+   <div class="list_logo">
+       <img src="/Frontpage/images/logo_02.gif"><!--缴费平台-->
+   </div>
+   <!--搜索-->
+   <div class="search">
+       <form class="searches" method="post" action="/Frontpage/index_service_list.jsp">
+           <span class="search_txt"><input type="text" id="sosonr" name="sosonr" value="搜单位" onfocus="this.value=''" onblur="if(this.value=='')this.value='搜单位'"></span>
+           <span class="search_sub"><input type="submit" value="搜 索"></span>
+       </form>
+   </div>
+   <!--/搜索-->  
+  
+	<!--所在城市-->
+	<div class="in_city">
+       您在
+       <b class="now_city" id="gxg_xianshi_chengshi">石家庄市</b>
+       <span class="toggle_city">[切换城市]</span>
+       <!--弹出层-->
+       <div class="box_city" id="city_open">
+           <div class="tc_top"></div>
+               <div class="tc_center">
+                   <div class="nav_city">
+                       <p class="city_tle">请选择您所在的城市:</p>
+                       <input type="button" title="点击关闭" class="closed">
+                   </div>
+                   <div class="city_all">
+                       <table style="width:100%;">
+                           <tbody>
+                               <tr height="25">
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','3','/Head_city');return false;">保定市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','4','/Head_city');return false;">沧州市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','5','/Head_city');return false;">承德市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','6','/Head_city');return false;">邯郸市</a>
+								</td>
+								</tr><tr height="25">
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','7','/Head_city');return false;">衡水市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','8','/Head_city');return false;">廊坊市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','12','/Head_city');return false;">秦皇岛市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','2','/Head_city');return false;">石家庄市</a>
+								</td>
+								</tr><tr height="25">
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','9','/Head_city');return false;">唐山市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','10','/Head_city');return false;">邢台市</a>
+								</td>
+								
+								<td width="25%" align="center">
+									<a href="" onclick="chengshi_xzclose('gxg_xianshi_chengshi','city_open','11','/Head_city');return false;">张家口市</a>
+								</td>
+								
+								</tr>
+                           </tbody>
+                       </table>
+                   </div>
+               </div>
+           <div class="tc_bottom"></div>
+       </div>
+       <!--/弹出层-->
+   </div>
+   <!--/所在城市-->
+</div>
+<div class="box_menu">
+    <!--menu-->
+   <div class="menu">
+       <ul>
+           <li><a href="/Frontpage/index.jsp">缴费首页</a></li>
+           <li><a href="/Frontpage/index_service_list.jsp?a_id=MQ~~">缴费项目</a></li>
+           <li><a href="/Frontpage/index_cms.jsp?cms_c_id=1">重要公告</a></li>
+           <li><a href="/Frontpage/index_cms.jsp?cms_c_id=2">常见问题</a></li>
+       </ul>
+   </div>
+   <!--/menu-->
+   <div class="serv_link">
+       <span><a href="#" onclick="return false;" target="_blank">登录</a>|</span>
+       <span><a href="#" onclick="return false;" target="_blank">免费注册</a>|</span>
+       <span><a>建行热线：95533</a>|</span>
+       <span>
+           <a onclick="AddFavorite();return false;" title="将本站加入到您的收藏夹">收藏本站</a>
+       </span>
+       <span><a href="http://weibo.com/hbelutong" target="_blank"><img src="/Frontpage/images/sy_12.png" alt="新浪微博"></a></span>
+       <span><a href="http://t.qq.com/Eqiaotong" target="_blank"><img src="/Frontpage/images/sy_14.png" alt="腾讯微博"></a></span>
+   </div>
+</div>
+     
+
+
+
+	</div>
+	<!--头部结束-->
+	<div class="container">
+	    <div class="box_bn">
+	    	<!--轮播广告开始-->
+	        <div class="banner">
+	        	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="img">
+
+	<a href="http://www.ccbjf.com" target="_blank;"><img src="/UploadFile/1493344021863fengjingya.jpg" style="display: inline;"></a>
+
+</div>
+<div id="SwitchNav">
+     <div>
+         <ul>
+		    
+	<li class="nocurrent current">●</li>
+	
+         </ul>
+     </div>
+</div>
+
+<!--优惠名额滚动-->
+<div class="marqueeNav">
+	<div id="TextDiv2" style="overflow: hidden; width: 718px; height: 38px; position: relative;">
+		<ul id="TextContent2" style="padding: 0px; border: 0px; font-size: 0px; display: inline-block; margin: 0px; list-style: none; height: 532px; width: 718px;">
+
+    	<li style="list-style: none; display: block; clear: both;">活动名称：缴费平台促应用活动—手机支付赠红包</li>
+    	<li style="list-style: none; display: block; clear: both;">活动时间：2017-12-09至2017-12-31</li>
+    	
+    	
+    	
+        		<li style="list-style: none; display: block; clear: both;">1等奖：10元红包&nbsp;中奖名额：1000</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">2等奖：6元红包&nbsp;中奖名额：2500</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">3等奖：4元红包&nbsp;中奖名额：3750</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">4等奖：2元红包&nbsp;中奖名额：10000</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">5等奖：1元红包&nbsp;中奖名额：31500</li>
+          
+		
+
+    	<li style="list-style: none; display: block; clear: both;">活动名称：缴费平台促应用活动—手机支付赠红包</li>
+    	<li style="list-style: none; display: block; clear: both;">活动时间：2017-12-09至2017-12-31</li>
+    	
+    	
+    	
+        		<li style="list-style: none; display: block; clear: both;">1等奖：10元红包&nbsp;中奖名额：1000</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">2等奖：6元红包&nbsp;中奖名额：2500</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">3等奖：4元红包&nbsp;中奖名额：3750</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">4等奖：2元红包&nbsp;中奖名额：10000</li>
+    
+        		<li style="list-style: none; display: block; clear: both;">5等奖：1元红包&nbsp;中奖名额：31500</li>
+          
+		</ul>
+	</div>
+</div>	
+<!--优惠名额滚动-->
+
+<!--跑马灯js开始-->
+<script type="text/javascript" src="/Frontpage/js/MSClass.js"></script>
+<script type="text/javascript">
+new Marquee(["TextDiv2","TextContent2"],0,1,"100%",38,20,2000,3000,38)//非渐显、滚动节点数、宽、高、滚动时间、暂停时间、滚动距离
+</script>
+<!--跑马灯js结束-->
+
+	        </div>
+	        <!--轮播广告结束-->
+	     
+	        <!--重要公告-->
+	        <div class="annouce">
+	        	
+
+
+
+
+
+<!--最新公告--> 
+<div class="nav_annouce">
+    <h3 class="title"><a href="/Frontpage/index_cms.jsp?cms_c_id=1" target="_blank">重要公告</a></h3>
+    <ul class="annouceul">
+	
+		<li>
+		<form action="" method="post" name="gongTJ0" id="gongTJ0" target="_blank">	
+		<input type="hidden" id="cms_a_id0" name="cms_a_id0" value="MTY3Mg~~">
+		<input type="hidden" id="cms_c_id0" name="cms_c_id0" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="0">
+			<a onclick="tjgg('gongTJ0','/Frontpage/industry_article.jsp','0');">张家口“手机缴纳热力费抽奖活动“...</a>
+		</form>	
+		</li>
+	
+		<li>
+		<form action="" method="post" name="gongTJ1" id="gongTJ1" target="_blank">	
+		<input type="hidden" id="cms_a_id1" name="cms_a_id1" value="MTY1Ng~~">
+		<input type="hidden" id="cms_c_id1" name="cms_c_id1" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="1">
+			<a onclick="tjgg('gongTJ1','/Frontpage/industry_article.jsp','1');">关于缴费平台暂停缴费服务的公告</a>
+		</form>	
+		</li>
+	
+		<li>
+		<form action="" method="post" name="gongTJ2" id="gongTJ2" target="_blank">	
+		<input type="hidden" id="cms_a_id2" name="cms_a_id2" value="MTYzOA~~">
+		<input type="hidden" id="cms_c_id2" name="cms_c_id2" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="2">
+			<a onclick="tjgg('gongTJ2','/Frontpage/industry_article.jsp','2');">关于新型蠕虫式勒索病毒的通知与防...</a>
+		</form>	
+		</li>
+	
+		<li>
+		<form action="" method="post" name="gongTJ3" id="gongTJ3" target="_blank">	
+		<input type="hidden" id="cms_a_id3" name="cms_a_id3" value="MTYwMw~~">
+		<input type="hidden" id="cms_c_id3" name="cms_c_id3" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="3">
+			<a onclick="tjgg('gongTJ3','/Frontpage/industry_article.jsp','3');">诺奇热力管网有限公司中奖名单</a>
+		</form>	
+		</li>
+	
+		<li>
+		<form action="" method="post" name="gongTJ4" id="gongTJ4" target="_blank">	
+		<input type="hidden" id="cms_a_id4" name="cms_a_id4" value="MTU5Nw~~">
+		<input type="hidden" id="cms_c_id4" name="cms_c_id4" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="4">
+			<a onclick="tjgg('gongTJ4','/Frontpage/industry_article.jsp','4');">缴费通知</a>
+		</form>	
+		</li>
+	
+		<li>
+		<form action="" method="post" name="gongTJ5" id="gongTJ5" target="_blank">	
+		<input type="hidden" id="cms_a_id5" name="cms_a_id5" value="MTU2OQ~~">
+		<input type="hidden" id="cms_c_id5" name="cms_c_id5" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="5">
+			<a onclick="tjgg('gongTJ5','/Frontpage/industry_article.jsp','5');">“建行缴费,轻松有礼”营销活动</a>
+		</form>	
+		</li>
+	
+		<li>
+		<form action="" method="post" name="gongTJ6" id="gongTJ6" target="_blank">	
+		<input type="hidden" id="cms_a_id6" name="cms_a_id6" value="MTUyMQ~~">
+		<input type="hidden" id="cms_c_id6" name="cms_c_id6" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="6">
+			<a onclick="tjgg('gongTJ6','/Frontpage/industry_article.jsp','6');">指定商户“缴100送20”</a>
+		</form>	
+		</li>
+		
+    </ul>
+</div>
+         
+			</div>
+	        <!--/重要公告-->
+	    </div>
+	    <!--缴费分类-->
+	    <div class="jf_classify">
+	    	
+
+
+
+
+
+
+<span class="jf1"><a href="/Frontpage/index_service_list.jsp?a_id=Mjc~"><img src="/UploadFile/App/1507526122120apbrgqf.png"></a></span>
+
+<span class="jf2"><a href="/Frontpage/index_service_list.jsp?a_id=OA~~"><img src="/UploadFile/App/1419994971313skpmjms.png"></a></span>
+
+<span class="jf3"><a href="/Frontpage/index_service_list.jsp?a_id=Nw~~"><img src="/UploadFile/App/1427453338404exeydgx.png"></a></span>
+
+<span class="jf4"><a href="/Frontpage/index_service_list.jsp?a_id=NQ~~"><img src="/UploadFile/App/1420008993978uvmglja.png"></a></span>
+
+<span class="jf5"><a href="/Frontpage/index_service_list.jsp?a_id=Mw~~"><img src="/UploadFile/App/1420008943746jihnmzz.png"></a></span>
+
+<span class="jf6"><a href="/Frontpage/index_service_list.jsp?a_id=NA~~"><img src="/UploadFile/App/1419997435152jnlrxfj.png"></a></span>
+
+<span class="jf7"><a href="/Frontpage/index_service_list.jsp?a_id=Mg~~"><img src="/UploadFile/App/1420008986443yxgytee.png"></a></span>
+
+<span class="jf8"><a href="/Frontpage/index_service_list.jsp?a_id=Ng~~"><img src="/UploadFile/App/1419994998149iwnilkk.png"></a></span>
+
+
+
+	    </div>
+	    <!--/缴费分类-->
+	    <!--常见问题-->
+	    <div class="answers">
+	    	
+
+
+
+
+
+
+<!--常见问题-->
+<div class="answers_l"></div>
+<div class="answers_m">
+	<h3 class="title"><a href="/Frontpage/index_cms.jsp?cms_c_id=2">常见问题</a></h3>
+     <ul class="answersul">
+	
+		<li>
+			<form action="" method="post" name="wenti0" id="wenti0" target="_blank">	
+		<input type="hidden" id="cms_a_id0" name="cms_a_id0" value="MTI5MA~~">
+		<input type="hidden" id="cms_c_id0" name="cms_c_id0" value="Mg~~">
+		<input type="hidden" id="id" name="id" value="0">
+			<a onclick="tjgg('wenti0','/Frontpage/industry_article.jsp','0');">
+	缴费流程</a>
+		</form>
+		</li>
+	
+		<li>
+			<form action="" method="post" name="wenti1" id="wenti1" target="_blank">	
+		<input type="hidden" id="cms_a_id1" name="cms_a_id1" value="MTI5MQ~~">
+		<input type="hidden" id="cms_c_id1" name="cms_c_id1" value="Mg~~">
+		<input type="hidden" id="id" name="id" value="1">
+			<a onclick="tjgg('wenti1','/Frontpage/industry_article.jsp','1');">
+	支付不成功,怎么办</a>
+		</form>
+		</li>
+	
+		<li>
+			<form action="" method="post" name="wenti2" id="wenti2" target="_blank">	
+		<input type="hidden" id="cms_a_id2" name="cms_a_id2" value="MTI5Mg~~">
+		<input type="hidden" id="cms_c_id2" name="cms_c_id2" value="Mg~~">
+		<input type="hidden" id="id" name="id" value="2">
+			<a onclick="tjgg('wenti2','/Frontpage/industry_article.jsp','2');">
+	如何查看订单情况</a>
+		</form>
+		</li>
+	
+		<li>
+			<form action="" method="post" name="wenti3" id="wenti3" target="_blank">	
+		<input type="hidden" id="cms_a_id3" name="cms_a_id3" value="MTI4OQ~~">
+		<input type="hidden" id="cms_c_id3" name="cms_c_id3" value="Mg~~">
+		<input type="hidden" id="id" name="id" value="3">
+			<a onclick="tjgg('wenti3','/Frontpage/industry_article.jsp','3');">
+	如何登录</a>
+		</form>
+		</li>
+		
+     </ul>
+</div>
+<div class="answers_r"></div>
+	    </div>
+	    <!--/常见问题-->
+	    <!--推荐阅读-->
+	    <div class="vip_num">
+			
+
+
+
+
+
+
+<!--推荐阅读-->
+<div class="answers_l"></div>
+<div class="answers_m">
+	<h3 class="title">推荐阅读</h3>
+     <ul class="answersul">
+	
+		<li>
+		<form action="" method="post" name="yd0" id="yd0" target="_blank">	
+		<input type="hidden" id="cms_a_id0" name="cms_a_id0" value="MTMyOQ~~">
+		<input type="hidden" id="cms_c_id0" name="cms_c_id0" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="0">
+			<a onclick="tjgg('yd0','/Frontpage/industry_article.jsp','0');">
+			温馨提示:鉴于银联在线支付系统不稳定,为了安全快捷完...
+		</a></form></li>
+	
+		<li>
+		<form action="" method="post" name="yd1" id="yd1" target="_blank">	
+		<input type="hidden" id="cms_a_id1" name="cms_a_id1" value="MTI4Ng~~">
+		<input type="hidden" id="cms_c_id1" name="cms_c_id1" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="1">
+			<a onclick="tjgg('yd1','/Frontpage/industry_article.jsp','1');">
+			热烈庆祝缴费平台河北农大高校版本正式上线
+		</a></form></li>
+	
+		<li>
+		<form action="" method="post" name="yd2" id="yd2" target="_blank">	
+		<input type="hidden" id="cms_a_id2" name="cms_a_id2" value="MTMxNw~~">
+		<input type="hidden" id="cms_c_id2" name="cms_c_id2" value="MQ~~">
+		<input type="hidden" id="id" name="id" value="2">
+			<a onclick="tjgg('yd2','/Frontpage/industry_article.jsp','2');">
+			河北农业大学—学生缴费流程
+		</a></form></li>
+	
+		<li>
+		<form action="" method="post" name="yd3" id="yd3" target="_blank">	
+		<input type="hidden" id="cms_a_id3" name="cms_a_id3" value="MTI5MA~~">
+		<input type="hidden" id="cms_c_id3" name="cms_c_id3" value="Mg~~">
+		<input type="hidden" id="id" name="id" value="3">
+			<a onclick="tjgg('yd3','/Frontpage/industry_article.jsp','3');">
+			缴费流程
+		</a></form></li>
+		
+     </ul>
+</div>
+<div class="answers_r"></div>
+<span class="vip_new"><img src="/Frontpage/images/yh_23.png"></span><!--小图标-->
+	    </div>
+	    <!--/推荐阅读-->
+	    <!--便捷服务-->
+	    <div class="services">
+	    	
+
+
+
+
+
+<div class="services_l"></div>
+        <div class="services_m">
+        	<a href="/Frontpage/yueshenghuo.jsp?lid=01009" target="_self"><h3 class="services_title" style="cursor: pointer;"></h3></a>
+             <!--左箭头-->
+            <img class="goLeft" src="/Frontpage/images/left_01.png" alt="向左滚动">
+            <!--/左箭头-->
+            <div class="prolist">
+                <div class="prolist_content">
+                 <ul class="servicesul">
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01009&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_70.png" alt="手机充值"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01009" target="_self" title="手机充值">手机充值</a></span>
+                    </li>
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01011&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_71.png" alt="固话充值"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01011" target="_self" title="固话充值">固话充值</a></span>
+                    </li>
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01012&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_72.png" alt="宽带光纤"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01012" target="_self" title="宽带光纤">宽带光纤</a></span>
+                    </li>
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01008&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_73.png" alt="有线电视"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01008" target="_self" title="有线电视">有线电视</a></span>
+                    </li>
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01002&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_74.png" alt="电费交费"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01002" target="_self" title="电费交费">电费交费</a></span>
+                    </li>
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01001&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_75.png" alt="水费交费"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01001" target="_self" title="水费交费">水费交费</a></span>
+                    </li>
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01004&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_76.png" alt="热力（暖气）"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01004" target="_self" title="热力（暖气）">热力（暖气）</a></span>
+                    </li>
+                    <li>
+                        <a href="/Frontpage/yueshenghuo.jsp?lid=01003&amp;BILL_TYPE=100" target="_self"><img src="/Frontpage/images/sy_77.png" alt="燃气交费"></a>
+                        <span class="service_tle"><a href="/Frontpage/yueshenghuo.jsp?lid=01003" target="_self" title="燃气交费">燃气交费</a></span>
+                    </li>
+                    <li>
+                        <a href="http://life.ccb.com/cn/payment/bill_item/2012032220411511179373.html" target="_blank"><img src="/Frontpage/images/shfw_01.png" alt="信用卡还款"></a>
+                        <span class="service_tle"><a href="http://life.ccb.com/cn/payment/bill_item/2012032220411511179373.html" target="_blank" title="信用卡还款">信用卡还款</a></span>
+                    </li>
+                    <li>
+                        <a href="http://life.ccb.com/cn/payment/bill_item/film.html" target="_blank"><img src="/Frontpage/images/shfw_02.png" alt="电影票"></a>
+                        <span class="service_tle"><a href="http://life.ccb.com/cn/payment/bill_item/film.html" target="_blank" title="电影票">电影票</a></span>
+                    </li>
+                    <li>
+                        <a href="http://life.ccb.com/cn/payment/bill_item/2012081821060235896047.html" target="_blank"><img src="/Frontpage/images/shfw_03.png" alt="飞机票"></a>
+                        <span class="service_tle"><a href="http://life.ccb.com/cn/payment/bill_item/2012081821060235896047.html" target="_blank" title="飞机票">飞机票</a></span>
+                    </li>
+                    <li>
+                        <a href="http://life.ccb.com/cn/payment/bill_item/201406161500164750.html" target="_blank"><img src="/Frontpage/images/shfw_04.png" alt="火车票"></a>
+                        <span class="service_tle"><a href="http://life.ccb.com/cn/payment/bill_item/201406161500164750.html" target="_blank" title="火车票">火车票</a></span>
+                    </li>
+                    <li>
+                        <a href="http://life.ccb.com/cn/payment/bill_item/2012041716472751157156.html" target="_blank"><img src="/Frontpage/images/shfw_08.png" alt="游戏点卡"></a>
+                        <span class="service_tle"><a href="http://life.ccb.com/cn/payment/bill_item/2012041716472751157156.html" target="_blank" title="游戏点卡">游戏点卡</a></span>
+                    </li>
+                 </ul>
+                 </div>
+            </div>
+            <!--右箭头-->
+            <img class="goRight" src="/Frontpage/images/right_01.png" alt="向右滚动">
+            <!--/右箭头-->
+        </div>
+        <div class="services_r"></div>
+        
+
+	    </div>
+	    <!--/便捷服务-->
+	</div>
+	<!--footer-->
+	<div class="footer">
+		
+
+
+
+
+
+
+<div class="navfoot">
+    ©本平台由石家庄市科威计算机工程有限公司提供 　备案号： 冀ICP备12020723号-3<br>  &nbsp;&nbsp;&nbsp;&nbsp;
+    客服热线电话：400-6262-112    &nbsp;&nbsp;&nbsp;&nbsp;
+    技术支持电话：15831928151 
+</div>
+
+	</div>
+	
+
+<!-- container ======= end -->
+
+<!-- 显示等待图片的读取层 -->	
+	<div id="Loading_div_da" style="width:1024px;height:768;display: none; z-index:1000000; background:black; filter:Alpha(opacity=0);"></div>
+	<div id="Loading_div_xiao" style="text-align:center; color:red;width:100px;height:100px;display:none;z-index:1000001;  filter:Alpha(opacity=70);">
+	<img src="images/loading.gif" style="width: 0;height: 0"><br>
+	</div> 
+
+	<!-- 首次登录提醒层 -->
+	<div id="Loading_div_sctxd" style="width: 1024px; top: 0px; left: 0px; position: absolute; opacity: 0.5; background-color: rgb(0, 0, 0); display: block; z-index: 10003; height: 1230px; background-position: initial initial; background-repeat: initial initial;"></div>
+	<div id="Loading_div_sctxx1" class="index_sctxx1" style="display: block; position: absolute; left: 238px; top: 0px;">
+		<input type="button" onclick="showsctx_tiaoguo3();" class="ctxx1_an1" value=" ">
+		<input type="button" onclick="showsctx_tiaoguo3();" class="ctxx1_an2" value=" ">
+	</div>
+	
+	<script type="text/javascript"> 
+		showsctx_Loading_div();
+	</script>  
+	
+
+<script type="text/javascript"> 
+//两侧滚动漂浮广告
+var id=function(o){return document.getElementById(o)}
+var scroll=function (o){
+ var space=id(o).offsetTop;
+ id(o).style.top=space+'px';
+ void function(){
+   var goTo = 0;
+   var roll=setInterval(function(){
+    var height =document.documentElement.scrollTop+document.body.scrollTop+space;
+    var top = parseInt(id(o).style.top);
+    if(height!= top){
+     goTo = height-parseInt((height - top)*0.9);
+     id(o).style.top=goTo+'px';
+    }
+    //else{if(roll) clearInterval(roll);}
+   },50);
+ }()
+}
+scroll('kefu01');
+scroll('kefu02');
+</script>  
+
+</body></html>

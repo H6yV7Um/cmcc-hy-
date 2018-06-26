@@ -1,0 +1,1412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>北京迪信通通信服务有限公司官网</title> 
+
+<meta name="copyright" content="Copyright ©迪信通 版权所有"> 
+<meta name="keywords" content="迪信通">
+<meta name="description" content="欢迎您访问迪信通网站。">
+
+
+
+
+
+
+<link href="/css/dxt/public/global.css" rel="stylesheet" type="text/css">
+<link href="/css/dxt/header.css" rel="stylesheet" type="text/css">
+<link href="/css/dxt/index.css" rel="stylesheet" type="text/css">
+<link href="/css/dxt/footer.css" rel="stylesheet" type="text/css">
+<link href="/css/dxt/Error.css" rel="stylesheet" type="text/css">
+<link href="/js/dxt/plugin/themes/icon.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/css/dxt/chargesDetails.css">
+<script src="//hm.baidu.com/hm.js?7bb09367dd584187d86831d1ebd44684"></script><script type="text/javascript" src="/js/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/dxt/module/loading.js"></script>
+<script type="text/javascript" src="/js/submit.js"></script>
+<script type="text/javascript" src="/js/jquery/jquery.blockUI.js"></script>
+<script type="text/javascript" src="/js/dxt/module/homePage.js"></script>
+<script type="text/javascript" src="/js/dxt/module/funs.js"></script>
+<script type="text/javascript" src="/js/dxt/module/init.js"></script>
+<script type="text/javascript" src="/js/login.js"></script>
+<script type="text/javascript" src="/js/dialog.js"></script>
+<script type="text/javascript" src="/js/allpopup.js"></script>
+<script type="text/javascript" src="/js/dxt/module/prompt.js"></script>
+<script type="text/javascript" src="/js/dxt/module/qrcode.js"></script>
+
+<script type="text/javascript">
+	var _contextPath = "";
+	var checkPhonePattern = /^0{0,1}(170|171)[0-9]{8}$/;
+	var _casEnable = "false";	
+	$.ajaxSetup ({
+		cache: false //close AJAX cache
+	});
+</script>
+
+<!-- js在页尾 -->
+
+<script type="text/javascript">
+var src ='';
+
+function checkMobiePhone(insertPhone){
+	var reg2=/^13[4,5,6,7,8,9]\d{8}$|^14[7]\d{8}$|^15[0,1,2,7,8,9]\d{8}$|^18[7,8]\d{8}$/;
+	   	if(reg2.test(insertPhone)) {
+	   		return 0;
+	   	}else {
+	   		return 1;
+	   	}
+}
+
+/**
+ * 按格式分割字符串
+ * 如：手机号13832940385 按  [ 3, 4, 4 ] 格式分割，
+ * 分割成 138 3294 0385
+ */
+function segmentByFormat(str, segmentArr) {
+	var segmentStr = '';
+	segmentArr.unshift(0);// 为分割数组头部添加一个0，为循环
+	for(var i=0,sum=0,len=segmentArr.length-1;i<len;i++) {
+		sum += Number(segmentArr[i]);
+		segmentStr += str.substring(sum, sum+segmentArr[i+1]) + ' ';
+	}
+	segmentStr = segmentStr.substring(0, segmentStr.length-1);
+	return segmentStr;
+}
+
+function VerifyPermissions(htmlUrl){
+	///console.log(htmlUrl)
+	var _url = src+"/busicenter/membershipArticles/MembershipArticlesAction/verifyPermissions.action";
+	$.ajax({
+	  	url:_url,
+	  	dataType:"json",
+	  	cache:false,
+	  	type: "post",	
+		async: true,
+	  	success:function(data) {
+	  		if(data.code == '0000'){
+	  			window.location.href=src+data.data+htmlUrl+".html";
+        		//window.open(src+data.data+htmlUrl+".html");
+        	}else if(data.code == '1'){
+        		 showConfirm("此文章需要收费才能阅读，是否继续",function(){
+        			 window.location.href=src+data.data;	
+       			}); 
+        	}else if(data.code == '2'){
+        		window.location.href=src+data.data;
+        	}else if(data.code == '-1'){
+        		showError(data.msg);
+        	}
+	  	},
+	  	error:function(XMLHttpRequest, textStatus, errorThrown) {
+	    }
+	});
+}
+</script>
+
+<script type="text/javascript">
+	$(function(){
+		var currentM  = $(".select_current").html();
+		$("#moneyNum").html(currentM);
+		var currentM1  = $(".select_current1").html();
+		$("#moneyNum2").html(currentM1);
+		$(".paid_select_money_show b").html(getMoneyVal(currentM,'pay'));
+		
+		$("#rdo2").click(function(){
+			 $("#total").css("height","385px");
+			 $("#yysczId").show();
+			 $("#dj_cz").hide();
+		});
+		
+		$("#rdo1").click(function(){
+			 $("#total").css("height","229px");
+			 $("#dj_cz").show();
+			 $("#yysczId").hide();
+
+		});
+			
+		$("#czkcz").unbind("click").bind("click",function(){
+			var phone = $("#czkphone").val();
+			var pwd = $("#czkpwd").val();
+			var yzm = $("#yzm_inp1").val();
+			var guid = newGuid() + newGuid() + newGuid();
+			var flag = "";
+			if(phone == ""){
+				$("#czkerror").html("号码不能为空");
+			}else if(pwd == ""){
+				$("#czkerror").html("卡密码不能为空");
+			}else if(yzm == ""){
+				$("#czkerror").html("验证码不能为空");
+			}else if(pwd.length!=18){
+				$("#czkerror").html("请输入18位充值卡密码");
+			}else if(phone.length != 11){
+				$("#czkerror").html("号码长度不足11位");
+			}else if(yzm.length!=4){
+				$("#czkerror").html("验证码长度不对");
+			}else if(!phone.match(/^1[3-9][0-9]\d{4,8}$/)){
+				$("#czkerror").html("号码格式错误");
+				return;
+			}else{
+				
+				if($("#czkphone").val() == ""){
+					$("#czkerror").html("手机号码不能为空");
+					return;
+				}else if(!phone.match(/^1[3-9][0-9]\d{4,8}$/)){
+					$("#czkerror").html("号码格式错误");
+					return;
+				}
+				else {
+					var flag = check2(phone,"#czkerror");
+					if(flag){
+						var cardPwd = $("#czkpwd").val();
+						var phoneNum = $("#czkphone").val();
+						var yzm = $("#yzm_inp1").val();
+						var name = "CardPayVerify";
+						showConfirm("确定充值？<br/><br/>手机号：<strong><font color='red' size='3'>"+segmentByFormat(phoneNum, [3,4,4])+
+								"</font></strong><br/><br/>卡密：<strong><font color='red' size='3'>"+segmentByFormat(cardPwd, [4,4,4,4,2])+"</font></strong>",function(){
+							var url = "/busicenter/cardPay/HomeCardPayMenuAction/initBusi.menu?_menuId=110";
+							var paramdata = { "password": cardPwd, "phone": phoneNum,"yanzhengma": yzm,"name":name};
+							ajaxSyncSubmit(url,paramdata,function(data){
+								/* _loading_.load_OPEN();
+								if(data.success==false || data.RetInfo.State != '2') {
+									_loading_.load_CLOSED();
+								} */
+					    		if(data.success==false) {
+					    			showError("充值失败！<br>失败原因："+data.errorMsg+"！");
+				    			}else if(data.success==true) {
+				    				var OrderId = data.OrderId;
+				    				$('#QueryNum').val(cardPwd);
+					    			openPopup("Payment", "0.2");
+					    			center("Payment", "200");
+					    			$('#popOrderId').html(OrderId);
+				    			}
+								changeVerifyCodeImg1();
+							});
+						});
+					}
+				}
+			/* 	else{
+					$.ajax({
+			            url : url,
+			            data:paramdata,
+			            cache : false, 
+			            async : false,
+			            type : "POST",
+			            dataType : "text",
+			            success : function (data){
+			            	flag = data;
+			            }
+			        });
+				} 
+				if(flag == "1"){
+            		window.open("/homecardcz.xhtml?k="+guid+"&phone="+phone+"&pwd="+pwd+"");
+            	}else if(flag == "2"){
+            		$("#czkerror").html("充值卡已使用");
+            	}else if(flag == "3"){
+            		$("#czkerror").html("充值卡作废");
+            	}else if(flag == "4"){
+            		$("#czkerror").html("充值卡密码错误");
+            	}
+				*/
+			}
+		});
+		
+	//新增运营商充值卡
+	
+	     $("#yys3").unbind("click").bind("click",function(){
+				$('#dianxinCard').show();
+	     });
+	
+
+	     $("#yys1").unbind("click").bind("click",function(){
+				$('#dianxinCard').hide();
+	     });
+	     $("#yys2").unbind("click").bind("click",function(){
+				$('#dianxinCard').hide();
+	     }); 
+		
+		$("#yysczkcz").unbind("click").bind("click",function(){
+			var yysphone = $("#yysczkphone").val();
+			var yysczkhm = $("#yysczkhm").val();			
+			var yyspwd = $("#yysczkpwd").val();
+			var yyscard  = $('input[name="yys1"]:checked').val();			
+			var yysyzm = $("#yys_yzm_inp1").val();
+			var yysmoney= $(".select_current1").html();
+
+			if(yysphone == ""){
+				$("#yysczkerror").html("号码不能为空");
+			}else if(yysczkhm == ""){
+				$("#yysczkerror").html("卡号不能为空");
+			}
+			else if(yyspwd == ""){
+				$("#yysczkerror").html("卡密码不能为空");
+			}else if(yysmoney == ""){
+				$("#yysczkerror").html("请选择正确的充值卡面值");
+			}else if(yysyzm == ""){
+				$("#yysczkerror").html("验证码不能为空");
+			}else if(yysphone.length != 11){
+				$("#yysczkerror").html("号码长度不足11位");
+			}else if(yysyzm.length!=4){
+				$("#yysczkerror").html("验证码长度不对");
+			}else if(!yysphone.match(/^1[3-9][0-9]\d{4,8}$/)){
+				$("#yysczkerror").html("号码格式错误");
+				return;
+			}
+		     else{
+				
+				if($("#yysczkphone").val() == ""){
+					$("#yysczkerror").html("手机号码不能为空");
+					return;
+				}else if(!yysphone.match(/^1[3-9][0-9]\d{4,8}$/)){
+					$("#yysczkerror").html("号码格式错误");
+					return;
+				}
+				else {
+					var flag = check2(yysphone,"#yysczkerror");
+					if(flag){
+						//var cardPwd = $("#yysczkpwd").val();
+						//var czkNum = $("#yysczkhm").val();			
+						//var phoneNum = $("#yysczkphone").val();
+						//var yzm = $("#yys_yzm_inp1").val();					
+						var yysphone = $("#yysczkphone").val();
+						var yysczkhm = $("#yysczkhm").val();			
+						var yyspwd = $("#yysczkpwd").val();
+						var yyscard  = $('input[name="yys1"]:checked').val();			
+						var yysyzm = $("#yys_yzm_inp1").val();
+						var yysmoney= $(".select_current1").html();					
+						var name = "CardPayVerify";
+						showConfirm("确定充值？<br/><br/>手机号：<strong><font color='red' size='3'>"+segmentByFormat(yysphone, [3,4,4])+
+								"</font></strong><br/><br/>卡号：<strong><font color='red' size='3'>"+segmentByFormat(yysczkhm, [4,4,4,4,4])+
+								"</font></strong><br/><br/>卡密：<strong><font color='red' size='3'>"+segmentByFormat(yyspwd, [4,4,4,4,4])+"</font></strong>",function(){
+							var url = "/busicenter/cardPay/HomeCardPayMenuAction/initBusiRecharge.menu?_menuId=110";
+							var paramdata = { "phone": yysphone,"czkNum": yysczkhm,"password": yyspwd,"yysCard": yyscard,"yysMoney": yysmoney, "yanzhengma": yysyzm,"name":name};
+							ajaxSyncSubmit(url,paramdata,function(data){
+								/* _loading_.load_OPEN();
+								if(data.success==false || data.RetInfo.State != '2') {
+									_loading_.load_CLOSED();
+								} */
+					    		if(data.result==false) {
+					    			showError("充值提交失败！<br>失败原因："+data.errorMsg+"！");
+				    			}else if(data.result==true) {
+				    				var OrderId = data.OrderId;
+				    				$('#QueryNum').val(yyspwd);
+					    			openPopup("Payment", "0.2");
+					    			center("Payment", "200");
+					    			$('#popOrderId').html(OrderId);
+				    			}
+								changeVerifyCodeImg2();
+							});
+						});
+					}
+				}
+		     }
+		});
+		
+			
+		$("#czkphone").unbind("blur").bind("blur",function(){
+			var phone = $("#czkphone").val();
+			var guid = newGuid() + newGuid() + newGuid();
+			if(phone == ""){
+				$("#czkerror").html("号码不能为空");
+			}else if(phone.length != 11){
+				$("#czkerror").html("号码长度不足11位");
+			}else if(phone.match(/^1[3-9][0-9]\d{4,8}$/)){
+				$("#czkerror").html("");
+			}else{
+				$("#czkerror").html("号码格式错误");
+			}
+		});
+	 	$("#czkpwd").unbind("blur").bind("blur",function(){
+	 		var pwd=$("#czkpwd").val();
+	 		var phone = $("#czkphone").val();
+			if($("#czkpwd").val() == ""){
+				$("#czkerror").html("卡密码不能为空");
+				return;
+			}
+			else if(pwd.length!=18){
+				$("#czkerror").html("请输入18位卡密码");
+				return;
+			}else if(!phone.match(/^1[3-9][0-9]\d{4,8}$/)){
+				$("#czkerror").html("号码格式错误");
+				return;
+			}
+		/* 	else{
+				var url = "/busicenter/cardPay/HomeCardPayMenuAction/index.menu?_menuId=110";
+				var paramdata = {
+					"password":$("#czkpwd").val(),
+					"phone":$("#czkphone").val()
+				};
+				if($("#czkphone").val() == ""){
+					$("#czkerror").html("手机号码不能为空");
+				}else{
+					$.ajax({
+			            url : url,
+			            data:paramdata,
+			            cache : false, 
+			            async : true,
+			            type : "POST",
+			            dataType : "text",
+			            success : function (data){
+			            	if(data == "1"){
+			            		$("#czkerror").html("");
+			            	}else if(data == "2"){
+			            		$("#czkerror").html("充值卡已使用");
+			            	}else if(data == "3"){
+			            		$("#czkerror").html("充值卡作废");
+			            	}else if(data == "4"){
+			            		$("#czkerror").html("充值卡密码错误");
+			            	}
+			            }
+			        });
+				}
+			} */
+			if(pwd != ""&&pwd.length==18){
+				$("#czkerror").html("");
+			}
+		});
+	 	
+		$("#yysczkphone").unbind("blur").bind("blur",function(){
+			var phone = $("#yysczkphone").val();
+			var guid = newGuid() + newGuid() + newGuid();
+			if(phone == ""){
+				$("#yysczkerror").html("号码不能为空");
+			}else if(phone.length != 11){
+				$("#yysczkerror").html("号码长度不足11位");
+			}else if(phone.match(/^1[3-9][0-9]\d{4,8}$/)){
+				$("#yysczkerror").html("");
+			}else{
+				$("#yysczkerror").html("号码格式错误");
+			}
+		});
+		
+		$("#yysczkhm").unbind("blur").bind("blur",function(){
+	 		var pwd=$("#yysczkhm").val();
+	 		var phone = $("#yysczkphone").val();
+			if($("#yysczkhm").val() == ""){
+				$("#yysczkerror").html("卡号不能为空");
+				return;
+			}
+			else {
+				$("#yysczkerror").html("");
+				return;
+			}
+		});
+	 		
+	 	$("#yysczkpwd").unbind("blur").bind("blur",function(){
+	 		var pwd=$("#yysczkpwd").val();
+	 		var phone = $("#yysczkphone").val();
+			if($("#yysczkpwd").val() == ""){
+				$("#yysczkerror").html("卡密码不能为空");
+				return;
+			}
+			else {
+				$("#yysczkerror").html("");
+				return;
+			}
+		});
+	 			 	 		 	
+	 	$("#tab_offer").click(function(){
+	 		window.location.href="/service/offerChange.xhtml";
+	 	});
+	 	$("#tab_option").click(function(){
+	 		window.location.href="/service/stackpackage.xhtml";
+	 	});
+	 	$("#tab_query").click(function(){
+	 		window.location.href="/my/account/mybusists.xhtml";
+	 	});
+	 	$("#ljcz").click(function(){
+	 		var phone = $("#number_phone").val();
+	 		var flag = check(phone);
+	 		if(flag){
+	 			$("#ljczForm").submit();
+	 		}
+	 	});
+	 	
+	 	//监听浮动按钮关闭
+	 	$(".tc_closed").click(function(event){
+				
+				$(this).parent().hide();
+				return  false;
+		});
+	});
+	function searchNum(){
+		var g = $("#gsd");
+		var telphone = $("#searchInput").val();
+		if(telphone == ""){
+			 g.html("手机号码为空");
+		}else if(telphone.match(/^170\d{8}$/)){
+			g.html("正在查询...");
+			//alert("ffff");
+			var _url="/busicenter/phoneNum/PhoneNumAction/searchPhone.action";
+		   	$.ajax({
+			  	url:_url,
+			  	data: {phone:telphone},
+			  	dataType:"json",
+			  	cache:false,
+			  	type: "post",	
+				async: true,
+			  	success:function(data) {
+					var msg="";
+					if(data.code=="1"){
+						msg=data.msg.province+"  "+data.msg.city;
+					}else{
+						msg=data.msg;
+					}
+					g.html(msg);
+			  	},
+			  	error:function(XMLHttpRequest, textStatus, errorThrown) {
+			        //document.getElementById("wfSubmit").disabled = false
+			        if(textStatus == 'timeout') {
+			        	g.html("查询失败!");
+			        } else {
+			        	g.html("查询失败!");
+			        }
+			    }
+			});
+		}else{
+			g.html("号码格式错误");
+		}
+	}
+	function newGuid()
+	{
+	    var guid = "";
+	    for (var i = 1; i <= 32; i++){
+	      var n = Math.floor(Math.random()*16.0).toString(16);
+	      guid +=   n;
+	      if((i==8)||(i==12)||(i==16)||(i==20))
+	        guid += "-";
+	    }
+	    return guid;    
+	}
+	function setAutoSubmit(){
+		document.documentElement.onkeydown = function(e){
+			e = e||window.event;
+			if(e.keyCode==13){
+				loginFromIndex();
+			}
+		};
+ 	}
+	function check2(phone,op){
+		var flag = false ;
+		$(op).html("");
+		var _url="/busicenter/phoneInfo/PhoneInfoCheckAction/checkPhoneState.action";
+	   	$.ajax({
+		  	url:_url,
+		  	data: {"phone":phone},
+		  	dataType:"json",
+		  	cache:false,
+		  	type: "post",	
+			async: false,
+		  	success:function(data) {
+				var msg="";
+				if(data.code=="00"){
+					flag = true;
+				}else{
+					showError(data.msg);
+					flag = false;
+				}
+		  	},
+		  	error:function(XMLHttpRequest, textStatus, errorThrown) {
+		        //document.getElementById("wfSubmit").disabled = false
+		        if(textStatus == 'timeout') {
+		        	showError(errorThrown);
+		        	flag = false;
+		        } else {
+		        	showError(errorThrown);
+		        	flag = false;
+		        }
+		    }
+		});
+	   	return flag ;
+	};
+	
+	
+	
+	function check(phone){
+		var flag = false ;
+		var money = $("#moneyNum").text();
+		var guid = newGuid() + newGuid() + newGuid();
+		if(phone == ""){
+			$("#errormsg").html("号码不能为空");
+			return false;
+		}else if(phone.length != 11){
+			$("#errormsg").html("号码长度不足11位");
+			return false;
+		}else if(phone.match(/^1[3-9][0-9]\d{4,8}$/)){
+			$("#errormsg").html("");
+			$("#prodid").val($(".select_current").attr("prodid"));
+			var _url="/busicenter/phoneInfo/PhoneInfoCheckAction/checkPhoneState.action";
+			
+		   	$.ajax({
+			  	url:_url,
+			  	data: {"phone":phone},
+			  	dataType:"json",
+			  	cache:false,
+			  	type: "post",	
+				async: false,
+			  	success:function(data) {
+					var msg="";
+					if(data.code=="00"){
+						flag =  true;
+					}else{
+						showError(data.msg);
+						flag =  false;
+					}
+			  	},
+			  	error:function(XMLHttpRequest, textStatus, errorThrown) {
+			        //document.getElementById("wfSubmit").disabled = false
+			        if(textStatus == 'timeout') {
+			        	showError(errorThrown);
+			        	flag = false;
+			        } else {
+			        	showError(errorThrown);
+			        	flag =  false;
+			        }
+			    }
+			});
+		}else{
+			$("#errormsg").html("号码格式错误");
+			flag = false;
+		}
+		return flag;
+	};
+	
+</script>
+<style type="text/css">
+  .js-max-input {border: solid 1px #ffd2b2;background: #fffae5;padding: 0 10px 0 10px;font-size:20px;font-weight:bolder;color: #ff4400}
+</style>
+<style type="text/css">
+.info{
+	padding:8px 20px 0;
+}
+table
+	{
+	    border-collapse: collapse;
+	    border: none;
+	}
+table td
+	{
+	    border:none;
+	    height: 28px;
+	    text-align: left;
+	    padding-right:20px;
+	    color: #555555;
+	    font-family: SimHei;
+	}
+table td a{
+	text-decoration:none;
+	color: #555555;
+}
+table td a:hover,table td a:active,table td a:focus{
+  text-decoration:none; 
+   color: #f80000;
+}
+</style></head>
+
+<body onload="setAutoSubmit();">
+
+
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?7bb09367dd584187d86831d1ebd44684";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- 
+<div id="top" class="noprint">	
+		<div id="top_nav">
+				<ul>
+					<li class="org_bg change_bg">北京迪信通通信服务有限公司官网</li>
+					<li class="org_bg">北京 <span id="arrow">[切换地区 ▼]</span>
+						<div style="display:none" class="myCity">
+						  <ul>	
+								<li>
+					                <span>A-G</span>
+					                <a href="javascript:void(0)" provincecode="11" citycode="110">北京</a>
+					                <a href="javascript:void(0)" provincecode="30" citycode="305">安徽</a>
+					                <a href="javascript:void(0)" provincecode="83" citycode="831">重庆</a>
+					                <a href="javascript:void(0)" provincecode="38" citycode="380">福建</a>
+					                <a href="javascript:void(0)" provincecode="51" citycode="510">广东</a>
+					                <a href="javascript:void(0)" provincecode="87" citycode="870">甘肃</a>
+					                <a href="javascript:void(0)" provincecode="59" citycode="591">广西</a>
+					                <a href="javascript:void(0)" provincecode="85" citycode="850">贵州</a>
+					            </li>
+				           </ul> 
+						</div>	
+
+					</li>
+					<li class="org_bg"><a href="#">客户端下载</a></li>
+					<li class="org_bg"><a href="/login.jsp">登 陆</a></li>
+					<li class="org_bg" style="border-right:1px solid #d3d3d3"><div id="xinlang_logo"><a href="#">关注微博</a></div></li>
+				</ul>	
+		</div>	
+	</div>
+ -->		
+  <div id="top">	
+		<div id="top_nav">
+				<ul>
+					<li class="org_bg change_bg">北京迪信通通信服务有限公司官网</li>
+					
+					<li class="org_bg"><a href="/login.jsp">登 录</a></li>
+					
+					<li class="org_bg"><a href="/zhuce.jsp">会员注册</a></li>
+					
+					<!-- 
+					<li class="org_bg">北京 <span id="arrow">[<label>切换地区</label>]</span>
+						<div style='display:none' class="myCity">
+						  <ul>	
+								<li>
+					                <span>A-G</span>
+					                <a href="javascript:void(0)" provincecode="11" citycode="110">北京</a>
+					                <a href="javascript:void(0)" provincecode="30" citycode="305">上海</a>
+					                <a href="javascript:void(0)" provincecode="83" citycode="831">济南</a>
+					                <a href="javascript:void(0)" provincecode="38" citycode="380">郑州</a>
+					                <a href="javascript:void(0)" provincecode="51" citycode="510">成都</a>
+					            </li>
+				           </ul> 
+						</div>	
+
+					</li>
+					 -->
+					<!--
+					<li class="org_bg"><a href="#">客户端下载</a></li>
+					<li class="org_bg" style="border-right:1px solid #d3d3d3"><div id="xinlang_logo"><a href="#">关注微博</a></div></li>
+					-->
+					<li class="org_bg" style="float:right;"><div id="wxmall" style="right: -20px;display:block"></div><a href="javascript:;" id="awxmall">微信公众号</a></li>
+					<li class="org_bg" style="float:right;"><div id="sjmallhelper" style="right: -20px;"></div><a href="javascript:;" id="asjmallhelper">迪加业务助手</a></li>
+					<li class="org_bg" style="float:right;"><div id="sjmall" style="right: -25px;"></div><a href="javascript:;" id="asjmall">手机营业厅</a></li>
+					
+					<li class="org_bg" style="float:right;"><a href="/login.jsp">我的迪加</a></li>
+					
+				</ul>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript">
+		$(function(){
+			$("#banner .b_img_ps").click(function(){
+				window.open("address.html","_blank");
+			})
+		})
+		
+	</script>
+	<div id="banner">
+	<!-- 
+		<a href="http://124.202.131.91/phone/jsp/card/card_query.jsp" class="d1" style="background:url(/images/dxt/index/banner1.jpg) center no-repeat;" target="_blank"></a>
+		<a href="http://124.202.131.91/phone/jsp/card/card_query.jsp" class="d1" style="background:url(/images/dxt/index/banner2.jpg) center no-repeat;" target="_blank"></a>
+		<a href="http://124.202.131.91/phone/jsp/card/card_query.jsp" class="d1" style="background:url(/images/dxt/index/banner3.jpg) center no-repeat;" target="_blank"></a>
+		<a href="http://124.202.131.91/phone/jsp/card/card_query.jsp" class="d1" style="background:url(/images/dxt/index/banner6.jpg) center no-repeat;" target="_blank"></a>
+	-->
+<!--
+<a href="/service/cjfhf.html" class="d1" style="background:url(/images/dxt/index/cjfhf.jpg) center no-repeat; z-index:1" target="_blank">
+		</a>
+	-->
+<!--<a href="/service/zhongqiuFirst.html" class="d1" style="background:url(/images/dxt/index/zhongqiu.jpg) center no-repeat; z-index:1" target="_blank">-->
+<!-- <a href="#" class="d1" style="background:url(/images/dxt/index/merryChristmas.jpg) center no-repeat; z-index:1"></a>	
+<a href="/service/onlineHtml.html" class="d1" style="background:url(/images/dxt/index/online.jpg) center no-repeat; z-index:1" target="_blank"></a>	
+<a href="/service/promotionHtml.html" class="d1" style="background:url(/images/dxt/index/promotion.jpg) center no-repeat; z-index:1" target="_blank"></a>					
+<a href="/service/noticeHtml.html" class="d1" style="background:url(/images/dxt/index/notice.jpg) center no-repeat; z-index:1" target="_blank">	
+<a href="/service/gjcard.html" class="d1" style="background:url(/images/dxt/index/gjc.jpg) center no-repeat; z-index:1" target="_blank">
+		</a>
+		<a href="/service/wxfhf.html" class="d1" style="background:url(/images/dxt/index/wxfhf.jpg) center no-repeat; z-index:1" target="_blank">
+		</a>
+		<a href="/service/AmericanHtml.html" class="d1" style="background:url(/images/dxt/index/American.jpg) center no-repeat; z-index:1" target="_blank">
+		</a>
+		<a href="/service/1705.html" class="d1" style="background:url(/images/dxt/index/1705.jpg) center no-repeat; z-index:1" target="_blank">
+		</a>
+                <a href="/service/CZDtl.html" class="d1" style="background:url(/images/dxt/index/CZ.jpg) center no-repeat; z-index:1" target="_blank">
+		</a> 
+
+		<a href="#" class="d1" style="background:url(/images/dxt/index/SMZ.jpg) center no-repeat; z-index:1">
+		</a>
+
+		<a href="http://mp.weixin.qq.com/s?__biz=MzA3Nzg2ODgzNQ==&mid=2650963548&idx=1&sn=03539d5cd608fae838591fad562335e1#rd" class="d1" style="background:url(/images/dxt/index/GG.jpg) center no-repeat; z-index:1" target="_blank">
+		</a> -->
+		<a href="javascript:void(0)" onclick="return false;" class="d1" style="background-image: url(http://10026.cn/images/dxt/index/WXCZ.jpg); z-index: 1; display: block; background-position: 50% 50%; background-repeat: no-repeat no-repeat;"></a>
+		<a href="/service/onlineHtml.html" class="d1" style="background-image: url(http://10026.cn/images/dxt/index/online.jpg); z-index: 1; display: none; background-position: 50% 50%; background-repeat: no-repeat no-repeat;" target="_blank"></a>
+		<a href="/service/CZDtl.html" class="d1" style="background-image: url(http://10026.cn/images/dxt/index/CZ.jpg); z-index: 1; display: none; background-position: 50% 50%; background-repeat: no-repeat no-repeat;" target="_blank"></a>
+		<a href="javascript:void(0)" onclick="return false;" class="d1" style="background-image: url(http://10026.cn/images/dxt/index/SMZ.jpg); z-index: 1; display: none; background-position: 50% 50%; background-repeat: no-repeat no-repeat;"></a>
+		<a href="javascript:void(0)" onclick="return false;" class="d1" style="background-image: url(http://10026.cn/images/dxt/index/JQ.jpg); z-index: 1; display: none; background-position: 50% 50%; background-repeat: no-repeat no-repeat;" target="_blank"></a>
+		<a href="javascript:void(0)" onclick="return false;" class="d1" style="background-image: url(http://10026.cn/images/dxt/index/SY.jpg); z-index: 1; display: none; background-position: 50% 50%; background-repeat: no-repeat no-repeat;" target="_blank"></a>
+		
+		<div class="b_img"><div class="b_img_ps"></div><div class="backbut"></div><div class="forwardbut"></div></div>
+		<div class="d2" id="banner_id">
+		<ul>
+        	<li class="nuw"></li>
+        	<li></li>
+			<li></li>
+        	<li></li>
+       		<li></li>
+        	<li></li>
+		</ul>
+			
+		</div>
+	</div>	
+
+
+
+
+
+
+<script type="text/javascript">
+var _contextPath = "";
+function jumpIndex(){
+	if($(this).index()==0){
+		window.location.href= _contextPath+"/index.xhtml";
+	}
+}
+function jumpIndex2(){
+	window.location.href= _contextPath+"/index.xhtml";
+}
+function jumpIndex3(){
+	window.open("http://www.dixintong.com");
+}
+function jumpIndex4(){
+	window.open("http://www.dixintong.com/170/index.aspx");
+}
+function jumpIndex5(){
+	window.open("http://www.10026vip.com");
+}
+$(document).ready(function() {
+	//$("#navigation ul li").bind('click', jumpIndex);
+});
+
+var domainroot="10026.cn";//个人站点域名，替换成你的网站的网址即可 
+function Gsitesearch(curobj){
+	curobj.q.value="site:"+domainroot+" "+curobj.qfront.value;
+}
+
+</script>
+
+	<!-- 圣诞专题--> 
+	<div id="shengdan"></div>
+	<div id="navigation">
+			<ul>
+				<li onclick="jumpIndex2()"><img src="/images/dxt/index/logo.gif"></li>
+				<li><img src="/images/dxt/index/border_btn.gif"></li>
+				<li class="font-m">自助服务
+					<div id="service_list" style="display:none">
+						<dl>
+							<dt>查话费</dt>
+							<dd><a href="/service/queryzd.xhtml">账单查询</a></dd>
+							<dd><a href="/service/dxtdetailquery.xhtml">详单查询</a></dd>	
+							<dd><a href="/my/account/freeresource.xhtml">使用量查询</a></dd>	
+							<dd><a href="/service/fee/chargehis.xhtml">交费历史查询</a></dd>	
+							<dd><a href="/cardczrq.xhtml">充值卡充值结果查询</a></dd>	
+						</dl>
+						<dl>
+							<dt>办业务</dt>
+							<dd><a href="/service/modifypwd.xhtml">修改密码</a></dd>
+							<dd><a href="/service/offerChange.xhtml">套餐办理</a></dd>
+							<dd><a href="/service/stackpackage.xhtml">叠加包办理</a></dd>
+							<dd><a href="/my/account/mybusists.xhtml">已订业务查询</a></dd>
+						</dl>
+					</div>
+				</li>
+				<li><img src="/images/dxt/index/border_btn.gif"></li>
+				<!-- <li class="font-m" onclick="jumpIndex4()">在线选号</li>
+				<li><img src="/images/dxt/index/border_btn.gif"/></li> -->
+				<li class="font-m" onclick="window.open('/activityInfo.jsp')">活动</li>
+				<li><img src="/images/dxt/index/border_btn.gif"></li>
+
+				<!--<li class="font-m">友情链接
+					<div id="friend_list" style="display:none">
+						<dl>
+							<dd><a onclick="jumpIndex3()">手机配件</a></dd>
+							<dd><a onclick="jumpIndex5()">趸付卡代理商管理系统</a></dd>
+						</dl>
+					</div>
+				</li>
+				<li ><img src="/images/dxt/index/border_btn.gif"></li>-->
+				<!-- <li  style="margin-left:-9px;"class="font-m" onclick="window.open('/service/dxthyzhuce.xhtml')">收费会员特权</li> -->
+				<!-- <li  class="font-m" onclick="window.open('/huiyuan.html')">收费会员特权</li>-->
+				<!-- <li style="margin-left:-9px;"><img src="/images/dxt/index/border_btn.gif"></li>	 -->			
+			</ul>
+			<form id="search_form" action="http://www.Google.com/search" method="get" onsubmit="Gsitesearch(this)"> 
+				<input name="q" type="hidden"> 
+				<div class="search">
+					<input type="text" name="qfront" value="最新活动" class="search_on"> 
+					<div class="search_btn" onclick="$('#search_form').submit()"></div>			 
+				</div>
+			</form>
+	</div>
+	<div id="main">
+		<div id="main_l">
+			
+
+
+
+
+
+<div id="main_l_top_out">用户登录</div>
+<div id="main_l_login">
+	<form id="login_form" action="/pubserv/login/DxtLoginAction/login.action" method="post">
+		<input type="hidden" name="location" value="common">
+		<input type="hidden" id="smsType" name="smsType" value="0">
+		<input type="hidden" id="loginType" name="loginType" value="1">
+		<input type="hidden" id="phoneType" name="phoneType" value="1">
+		<ul>				
+			<li>
+				<div id="I_username_bg"><label>账&nbsp;&nbsp;号：</label><input type="text" id="username" name="phone" maxlength="11" value=""></div>
+				<div class="prompt_info">用户名不能为空</div>
+			</li>
+			<li>
+				<div id="I_username_bg"><label>密&nbsp;&nbsp;码：</label><input type="password" name="password" id="pwd" value=""></div>	
+				<div class="prompt_info">密码不能为空</div>
+			</li>
+			<div class="yzm">验证码:</div>
+			<li>
+				<input type="text" name="operVerifyCode" id="yzm_inp" maxlength="4" value="">
+				<a href="javascript:changeVerifyCodeImg();" target="_self" title="点击刷新"><img id="operVerifyCodeImg" style="height: 29px;width: 90px;" class="yzm_img" src="/createVerifyImageServlet?datetime=1515480358446" alt="验证码 点击刷新"></a>
+				<div class="prompt_info" style="float:left;">验证码不能为空</div>
+			</li>
+			<li>
+				<input class="sub_btn" type="button" value="登 &nbsp;录" onclick="loginFromIndex()">
+				<div class="forget"><a href="/forgetpwd.xhtml">忘记密码?</a></div>
+			</li>
+		</ul>	
+	</form>
+</div>
+<div class="font-text">登录后，可查看业务订购状况，资源使用状况，资金消费情况，以及更多专属服务!
+</div>
+
+
+
+
+
+			
+			<div id="main_l_mid">
+				<ul>
+				<!-- 
+					<li onmouseover="changeImg(this,'downapp')" onmouseout="changey(this,'downapp')"><div class="img0 img_pub">下载迪信通手机客户端<br />Download APP</div></li>
+				 -->	
+					<li onmouseover="changeImg(this,'dealt')" onmouseout="changey(this,'dealt')" id="tab_offer"><div class="img1 img_pub">套餐办理<br><span class="s12_st">Package handing</span></div></li>
+ 
+					<li onmouseover="changeImg(this,'handing')" onmouseout="changey(this,'handing')" id="tab_option"><div class="img3 img_pub">叠加包办理<br><span class="s12_st">Stack Package handing</span></div></li>
+					 
+					<li onmouseover="changeImg(this,'buss')" onmouseout="changey(this,'buss')" id="tab_query"><div class="img2 img_pub">业务查询<br><span class="s12_st">Business queries</span></div></li>
+					<li><div class="new_hand" onclick="javascript:window.open('/noviceclass.xhtml','_blank' )"></div></li>
+				</ul>	
+			</div>	
+
+
+			<div class="bus_msg_phone_hall">
+				<div id="bus_hall_tit"></div>
+				<div id="bus_hall_con">
+					<div id="bus_hall_text">迪信通覆盖华北、华东、华中、华南和西北、东北、西南等地区，拥有1700多个连锁直营店。</div>
+					<a href="/busindex.xhtml" target="_blank"><div id="bus_hall_con_btn"></div></a>
+				</div>
+			</div>	
+
+			<div class="bus_msg_phone_hall">
+				<div id="msg_hall_tit"></div>
+				<div class="msg_phone">
+					<ul>
+						<li><a href="/HInstruction.xhtml?id=-1" target="_blank">主菜单</a></li>	
+						<li><a href="/HInstruction.xhtml?id=3" target="_blank">充值资费</a></li>	
+						<li><a href="/HInstruction.xhtml?id=0" target="_blank">业务查询</a></li>	
+						<li><a href="/HInstruction.xhtml?id=4" target="_blank">业务办理</a></li>	
+						<li><a href="/HInstruction.xhtml?id=1" target="_blank">话费查询</a></li>	
+						<li><a href="/HInstruction.xhtml?id=2" target="_blank">促销活动</a></li>	
+					</ul>	
+				</div>
+			</div>	
+
+			
+			<!-- 九七惠网点查询--> 
+			
+			<div class="bus_msg_phone_hall">
+				<div id="bus_hall97hui_tit"></div>
+				<div class="msg_phone">
+					<a href="/hall97hui.xhtml" target="_blank"><div id="bus_hall97hui_con_btn"></div></a>
+					<a href="/service/ring.xhtml" target="_blank"><div id="bus_hall97hui_ring_btn"></div></a>							
+				</div>
+			</div>
+
+			<a href="/question.xhtml" target="_blank"><div class="question_img"></div></a>
+		</div>
+
+
+		<div id="main_r_top">
+			<div id="main_r_tab">
+				<ul>
+					<li class="main_tab_on tab_mid">网银充值 </li>	
+					<li class="vibration"></li>	
+					<li class="tab_mid">充值卡充值</li>	
+					<li class="vibration"></li>	
+					<li class="tab_mid">有偿资讯</li>
+				</ul>	
+			</div>
+
+			<div id="main_r_tab_con">
+
+				<div class="tab" style="display:block;">
+					<form action="/homeWYCZ.xhtml" id="ljczForm" method="post">
+					<input type="hidden" value="" name="prodid" id="prodid">
+					<div class="paid">
+						    <div class="paid_num_bg">
+						             <label>手机号：</label>
+						             <div class="paid_num parentCls">
+							           <input type="text" id="number_phone" name="number_phone" class="paid_input" maxlength="11" onkeydown="if(event.keyCode==13) event.keyCode=9" onkeypress="if ((event.keyCode &lt;48 || event.keyCode&gt;57)) event.returnValue=false"> 
+							         </div>
+							         <div class="phone_icons"></div>
+							</div>
+							<div class="paid_select">
+								<label>面&nbsp;&nbsp;值：</label><div class="paid_select_option"><span id="moneyNum">20</span>元</div>
+								<div class="paid_select_list">
+									<ul>
+										
+											
+												<li prodid="A504D1EDB8DA1E92308FE23A1AD8E81E" class="select_current">20</li>
+											
+											
+										
+											
+											
+												<li prodid="13DD6052522F4989FB0E841F5E674648">30</li>
+											
+										
+											
+											
+												<li prodid="B5C5EF99E4298B0944E79C6110002C34">50</li>
+											
+										
+											
+											
+												<li prodid="6C4953D0E4A009A870DD0F2CED5B5FEE">100</li>
+											
+										
+											
+											
+												<li prodid="1C9C49CF0261027FCCADADBEF18A99FE">300</li>
+											
+										
+											
+											
+												<li prodid="48A5EEA6EC31E78C64BF0CEDB6DBE876">500</li>
+											
+										
+									</ul>	
+								</div>
+								<div class="paid_select_arrow"></div>
+								<div class="paid_select_money_show">售价:￥<span class="cr" style="margin-left:3px;"><b>20.00</b></span></div>
+							</div>   
+							<div style="width:281px; margin-top:35px;height:26px;float:left;">
+								<input type="button" id="ljcz" class="paid_sub fl" value="立即充值" style="margin-top:0px;">
+								<span id="errormsg" style="color:red; float:left; display:block; margin:4px 8px 0px;">	</span>
+							</div>
+					</div>
+					</form>	
+					<div class="paid_serive">
+						<span class="color_size">迪加  </span>加一点，简一点。增加的是方便、增加的是安全，简化的是流程，简洁的是账单。
+						<br>
+						<a href="#"><div class="service_pay" onmouseover="changpay_on(this,'pay_on')" onmouseout="changpay(this,'pay_on')"></div></a>
+						<a href="#"><div class="service_safety" onmouseover="changpay_on(this,'safety_on')" onmouseout="changpay(this,'safety_on')"></div></a>
+					</div>
+				</div>
+				<div class="tab" id="total" style="height:280px;">
+						<div class="paid">
+						     <div style="text-align:center;margin-top:-20px;">
+                              <input id="rdo1" name="rdo1" type="radio" value="1" checked="checked">迪加卡 
+                              <input id="rdo2" name="rdo1" type="radio" value="0"><span style="">运营商卡</span></div>
+							 <div id="dj_cz" style="margin-top:15px;">					                              													
+							<div class="paid_num_bg"><label>手机号：</label>
+							<div class="paid_num parentCls"><input type="text" id="czkphone" name="number_phone" value="" class="paid_input" maxlength="11" onkeydown="if(event.keyCode==13) event.keyCode=9" onkeypress="if ((event.keyCode &lt;48 || event.keyCode&gt;57)) event.returnValue=false"></div>
+							<div class="phone_icons"></div>	
+							</div>
+							<div class="paid_num_bg parentCls" style="width:281px; margin-top:18px;" id="paid_card">
+							<label>充值卡密码：</label>
+							<input type="text" name="number_phone" id="czkpwd" value="请输入18位充值卡密码" class="paid_card" maxlength="18">
+							</div>
+							<div class="paid_num_bg parentCls" style="width:281px; margin-top:18px;" id="paid_card">
+							<label>验证码：</label>
+							<input type="text" name="operVerifyCode" id="yzm_inp1" style="width:74px; height:23px;padding:2px 3px;border:1px solid #dcdcdc;float:left;margin-left:20px;display: inline;line-height:23px;" maxlength="4">
+								<a href="javascript:changeVerifyCodeImg1();" target="_self" title="点击刷新"><img id="operVerifyCodeImg1" style="height: 29px;width: 90px;" class="yzm_img" src="/createVerifyImageServlet?VerifyImageName=CardPayVerify&amp;datetime=1515480358447" alt="验证码 点击刷新"></a>
+							 </div>
+							<input type="button" id="czkcz" class="paid_sub fl" name="" value="立即充值">
+							<span id="czkerror" style="color:red; float:left; display:block; margin:10px 8px 0px;"></span>
+					</div>
+					 <div id="yysczId" style="display:none">
+                            <div class="paid_num_bg" style="width:281px; margin-top:18px;"><label>手机号：</label>
+							<div class="paid_num parentCls"><input type="text" id="yysczkphone" name="number_phone" value="" class="paid_input" maxlength="11" onkeydown="if(event.keyCode==13) event.keyCode=9" onkeypress="if ((event.keyCode &lt;48 || event.keyCode&gt;57)) event.returnValue=false"></div>
+							<div class="phone_icons"></div>	
+							</div>						
+                               <div class="paid_num_bg parentCls" style="width:281px; margin-top:18px;">
+							<label>充值卡号：</label>
+							<input type="text" name="number_phone" id="yysczkhm" value="" class="paid_card">
+							</div>								
+							<div class="paid_num_bg parentCls" style="width:281px; margin-top:18px;" id="paid_card">
+							<label>充值卡密码：</label>
+							<input type="text" name="number_phone" id="yysczkpwd" value="" class="paid_card">
+							</div>
+                             <div class="paid_num_bg parentCls" style="width:281px; margin-top:18px;">
+							<label>卡归属：</label>							
+							<div>
+                              <input id="yys1" name="yys1" type="radio" value="3000" checked="checked">移动 
+                              <input id="yys2" name="yys1" type="radio" value="2000"><span>联通</span>
+                              <input id="yys3" name="yys1" type="radio" value="1000"><span>电信</span>                             
+                              </div>						
+							</div>	
+         				 <div id="dianxinCard" style="color:red;display:none;">此充值为卡直充，可到营业厅打印相应消费发票，中国电信不提供话费充值发票。</div>																			
+						
+							<div class="paid_select1" style="z-index: 10;">
+								<label>面&nbsp;&nbsp;值：</label><div class="paid_select_option1"><span id="moneyNum2"></span>元</div>
+							   <div class="paid_select_list1"> 
+									<ul>
+										
+											
+												<li prodid="6F06018E41CD90BA3DFF40E939C0201A" class="select_current1"></li>
+											
+											
+										
+											
+											
+												<li prodid="78E79E654A3809882C4DCDD4B68961CB">10</li>
+											
+										
+											
+											
+												<li prodid="39651A278884B929471902686ECB0C82">20</li>
+											
+										
+											
+											
+												<li prodid="EA1F192BC3E6B97A60AF577760EC9B02">30</li>
+											
+										
+											
+											
+												<li prodid="3F6155FD006A11F5109F103C5A1E5532">50</li>
+											
+										
+											
+											
+												<li prodid="F9DC1617AE97FD4909CABD45363F75F3">100</li>
+											
+										
+											
+											
+												<li prodid="AB76871EAB182BBAECA6EFE084BCD3C5">200</li>
+											
+										
+											
+											
+												<li prodid="FB6C5C8934D653B4CE8E5EB4CD80D159">500</li>
+											
+										
+									</ul>	
+								</div>
+								<div class="paid_select_arrow1"></div>
+							</div> 							  			
+							<div class="paid_num_bg parentCls" style="width:281px; margin-top:58px;">
+							<label>验证码：</label>
+							<input type="text" name="operVerifyCode" id="yys_yzm_inp1" style="width:74px; height:23px;padding:2px 3px;border:1px solid #dcdcdc;float:left;margin-left:20px;display: inline;line-height:23px;" maxlength="4">
+								<a href="javascript:changeVerifyCodeImg2();" target="_self" title="点击刷新"><img id="operVerifyCodeImg2" style="height: 29px;width: 90px;" class="yzm_img" src="/createVerifyImageServlet?VerifyImageName=CardPayVerify&amp;datetime=1515480358447" alt="验证码 点击刷新"></a>
+							 </div>
+							<input type="button" id="yysczkcz" class="paid_sub fl" style="	margin-top:25px;" name="" value="立即充值">
+							<span id="yysczkerror" style="color:red; float:left; display:block; margin:30px 8px 0px;"></span>
+					  </div>					
+					</div>
+					<div class="paid_serive">
+						<span class="color_size">迪加  </span>加一点，简一点。增加的是方便、增加的是安全，简化的是流程，简洁的是账单。
+						<br>
+						<a href="#"><div class="service_pay" onmouseover="changpay_on(this,'pay_on')" onmouseout="changpay(this,'pay_on')"></div></a>
+						<a href="#"><div class="service_safety" onmouseover="changpay_on(this,'safety_on')" onmouseout="changpay(this,'safety_on')"></div></a>
+					</div>
+
+				</div>
+				<div class="tab" style="height:320px;">
+					<div class="info">
+			          	<table align="center">
+						   <tbody><tr>
+						   <td style="width:10%;">序号</td>
+						   <td style="width:70%; ">标题</td>		   
+						   <td style="width:20%">发布时间</td>
+						   </tr>
+						   <tr>
+						    <td style="width:10%;">1.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('1');return false;" target="_blank">美国四大科技巨头都在进行VR/AR的布局</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr>
+						   <tr>
+						    <td style="width:10%;">2.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('2'); return false;" target="_blank">无人驾驶汽车的“门派”与“武功”</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">3.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('3'); return false;" target="_blank">中超IP开发瞄上电竞市场 游戏体验是核心</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">4.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('4'); return false;" target="_blank">Vincross孙天齐：人机界面的突破将将引发科技革命</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">5.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('5'); return false;" target="_blank">克拉克：我是怎么写马云和他的102年梦想的</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">6.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('6'); return false;" target="_blank">如何理解当前的人民币对美元汇率?</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">7.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('7'); return false;" target="_blank">科技企业如何为缓解不平等做贡献</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">8.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('8'); return false;" target="_blank">中国科技巨头发力智能语音助手领域</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">9.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('9'); return false;" target="_blank">人工光合作用：诱人的清洁能源技术</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr> <tr>
+						    <td style="width:10%;">10.</td>
+						   <td style="width:70%; "><a href="javascript:void(0)" onclick="VerifyPermissions('10'); return false;" target="_blank">腾讯刘康：媒体行业也要适应人机交互</a></td>		   
+						   <td style="width:20%">2017-08-28</td>
+						   </tr>
+						</tbody></table>	
+					</div>
+
+				</div>
+			</div>	
+		</div>	
+
+
+		<div class="main_r_mid">
+			<div class="main_r_mid_title"><img src="/images/dxt/person/font1.png"></div>
+			<div class="main_r_mid_text_imgs">
+			<div class="main_r_mid_text">	
+				<ul>
+					<!--  <li>无月租、无套餐、无保底消费；</li>-->
+					<li>资费简单，全国长、市、漫合一。</li>
+				</ul>
+			</div>
+
+			<div class="main_r_mid_list">
+				<ul>
+					<!-- <li><a href="/service/offerChange.xhtml">固定套餐</a></li> -->
+					<!-- <li><a href="/service/packageDetail/packageDetail.jsp"  target="_blank">固定套餐</a></li>
+					<li><a href="#">自主套餐</a></li> -->
+					<li><a href="javascript:void(0)" class="easy">极简套餐介绍</a></li>
+				</ul>
+				</div>	
+			</div>
+			<div class="main_r_mid_img"></div>	
+		</div>	
+
+
+		<div class="main_r_mid">
+			<div class="main_r_mid_title"><img src="/images/dxt/person/font2.png"></div>
+
+			<div class="main_r_mid_resources_img"></div>
+			<div class="main_r_mid_resources_tit">
+				<ul>
+						<li>自主消费，语音、流量、短信自由组合；</li>
+						<li>明明白白消费，清清楚楚结账。 </li>
+				</ul>
+			</div>
+			<div class="main_r_mid_resources_list">
+				<ul>
+					<li class="clock"><a href="javascript:void(0)">自由套餐介绍</a></li>
+					<!-- <li class="flow"><a href="#">上网流量转赠</a></li> -->
+				</ul>	
+			</div>
+		</div>
+
+
+		<div class="main_r_mid">
+			<div class="main_r_mid_title"><img src="/images/dxt/person/font3.png"></div>
+			<div class="main_r_mid_text_think">	
+				做到账单、资源使用记录、交费充值记录，一目了然，一览无余，让您<br>不再担心“<img src="/images/dxt/index/cczxst.png" style="vertical-align:middle;">”
+			</div>
+			<div class="main_r_mid_service_img">
+				<div class="main_r_mid_service_list">
+						<ul>
+							<li><a href="/service/queryzd.xhtml">话费查询</a></li>
+							<li><a href="/service/queryzd.xhtml">账单查询</a></li>
+							<li><a href="/service/dxtdetailquery.xhtml">详单查询</a></li>
+							<li><a href="/service/my/account/freeresource.xhtml">使用量查询</a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 查询充值卡充值结果form -->
+<form method="post" id="qczrqForm" target="_blank" action="/cardczrq.xhtml">
+	<input type="hidden" id="QueryNum" name="QueryNum">
+	<input type="hidden" id="QueryType" value="CardPwd" name="QueryType">
+</form>
+<!-- 充值卡充值结果查询框 -->
+<div id="Payment" style="width: 580px;height: 230px;">
+	<span id="Pa_rb"><a href="javascript:void(0);">关闭</a></span>
+	<div class="Payment_con">
+  	<h3>充值提示</h3>
+    <div class="Payment_xx">
+      <dl class="Payment_fs clearfix">
+      	<dt>充值提交成功  |</dt>
+        <dd>订单号：</dd>
+        <dd><a id="popOrderId"></a></dd>
+      </dl>
+    </div>
+    <div class="Payment_dj">
+    	<button id="qzjgBtn" class="Payment_me">查看充值结果</button>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	$(function() {
+		$("#Pa_rb").bind("click",function(){
+			closed_win("Payment");
+		});
+		$(window).resize(function(){
+			var l=parseInt(($(window).width()-$("#Payment").width())/2);
+			var t=parseInt(($(window).height()-$("#Payment").height())/2);
+
+			$("#Payment").css({
+				"left" : l,
+				"top"  : t
+			});
+		});
+		
+		$('#qzjgBtn').click(function() {
+			document.getElementById('qczrqForm').submit();
+		});
+	});
+</script>
+
+
+<div id="footer" class="noprint">
+
+		<div id="footer_list" style="border-bottom:none;">
+			<ul>
+				<li><a href="/index.xhtml">首页</a></li>
+				<li>|</li>
+				<li><a href="/service/index.xhtml">自助服务</a></li>
+				<li>|</li>
+				<li><a>活动促销</a></li>
+				<li>|</li>
+				<li><a>服务与支持</a></li>
+			</ul>	
+		</div>	
+
+		<div class="on_line w950"></div>
+		
+		<div id="footer_text">
+			<div style="height:25px; line-height:25px;">北京迪信通通信服务有限公司 版权所有 &nbsp;
+			<img src="/images/dxt/index/gov.png" style="vertical-align:middle;">京ICP备140240号
+			&nbsp;&nbsp;京公网安备11010502026043
+			</div>
+			<div>	地址：北京朝阳区望京东路1号摩托罗拉大厦&nbsp; &nbsp; &nbsp;</div>
+				<div style="margin:5px auto;width:250px;">
+					<img src="/images/dxt/index/100262.jpg" class="fl"><label style="line-height:28px;display:block;" class="fl"><div style="font-size:16px;color:grey;font-weight:bold;margin-top:1px">400-16-10026</div></label>
+				</div>
+				<br>
+		      <!-- 
+				Copyright@1999-2014 迪信通 版权所有<br />
+				中华人民共和国增值电信业务经营许可证 经营许可证编号:A2.B1.B2-20090003
+				<br />
+				<br />
+				 -->
+				<!-- 
+				<a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202010121600001"><img width="118" height="48" src="http://image.10010.com/index_img/backup_gs.gif"></a>
+				<a target="_blank" href="https://search.szfw.org/cert/l/CX20111216001076001118" style="margin:0 5px;" id="___szfw_logo___">
+					<img width="110" height="38" style="vertical-align:top; margin-top:5px" src="http://image.10010.com/index_img/cx.jpg"></a>
+				<a href="https://ss.knet.cn/verifyseal.dll?sn=e13013011010039034ki4j000000&amp;ct=df&amp;a=1&amp;pa=812015" target="_blank">
+					<img src="http://kxlogo.knet.cn/seallogo.dll?kind=pic&sn=e13013011010039034ki4j000000&ct=df" width="102" height="37" style="vertical-align: top;margin-top:5px;" alt="可信网站"></a>
+		        -->
+		        <!-- 
+				<a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202010121600001"><img width="118" height="48" src="/images/dxt/index/index_backup_gs.gif"></a>
+				<a target="_blank" href="https://search.szfw.org/cert/l/CX20111216001076001118" style="margin:0 5px;" id="___szfw_logo___">
+					<img width="110" height="38" style="vertical-align:top; margin-top:5px" src="/images/dxt/index/index_cx.jpg"></a>
+		        -->
+		</div>	
+
+
+	</div>	
+
+
+	<div id="go_top" class="noprint"></div>	
+
+<!-- 浮动图片,进入套餐介绍 -->
+<a href="/service/packageDetail/packageDetail.jsp?home=true" target="_blank">
+	<div class="tc_show_index">
+		<div class="tc_closed"></div>
+	</div>
+</a>
+<!-- 获奖名单滚动  与东方卫视合作 -->
+<!--  
+<div class="tc_show_index1">
+		
+
+
+
+
+
+
+ 
+
+<div  id=demo style="overflow:hidden; height:90px;width:200px;margin-top: 70px">
+	
+	<marquee style="margin-left: -10px;text-align:center;" direction=up id=m height=90px onmouseout=m.start() hspace=0 onMouseOver=m.stop() scrollamount=2 align="center">
+	        <li>一 等 奖 </li> 
+    <li>170****1403 闫** 济南市 </li>
+    <li>二 等 奖 </li> 
+    <li>170****6893 刘** 大庆市</li>
+    <li>170****0596 袁** 北京市 </li>    <li>170****4635 刘** 洛阳市 </li>
+    <li>170****2222 周** 孝感市 </li>
+    <li>170****7969 王** 青岛市</li> 
+    <li>170****9420 杨** 郑州市</li>    <li>170****8333 谭** 湖州市</li>
+    <li>170****4991 翟** 太原市</li>
+    <li>170****3806 济** 贵阳市</li>
+    <li>170****4241 王** 青岛市</li> 
+        <li>170****8300 张** 沈阳市</li>
+    <li>170****3435 袁** 沈阳市</li>
+    <li>170****3196 王** 郑州市</li> 
+    <li>170****2341 张** 郑州市</li>    <li>170****1590 王** 郑州市</li>
+    <li>170****3119 常** 北京市</li>
+    <li>170****4918 白** 郑州市</li> 
+    <li>170****8925 张** 洛阳市</li>
+    <li>中奖名单详见活动与公告</li>
+    </marquee>
+    
+</div>
+</div>
+-->
+<!--测试 -->
+<!-- 弹出窗口展示 -->
+<div id="backgroundPopup"></div>
+	<div id="popupContact">
+			<div id="win_tit">
+				<div id="win_tit_closed"></div>
+			</div>	
+			<div id="win_content">
+			</div>	
+			
+	</div>
+	
+	<script type="text/javascript" src="/js/bigGlass.js"></script>
+<script type="text/javascript" src="/js/bigGlass.js"></script>
+	 <script>
+		 // 初始化
+		 $(function(){
+			new TextMagnifier({
+				inputElem: '.paid_input',
+				align: 'top',
+				splitType: [3,4,4]
+			});
+			new TextMagnifier({
+				inputElem: '.paid_card',
+				align: 'top2',
+				splitType: [4,4,4,4,2]
+			});
+		 });
+
+	 </script>
+		
+
+</body></html>

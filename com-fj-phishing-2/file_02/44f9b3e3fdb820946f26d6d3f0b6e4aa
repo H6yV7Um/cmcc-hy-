@@ -1,0 +1,138 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui">
+<script src="js/jquery-1.8.3.min.js"></script>
+
+<script src="js/message.js"></script>
+<script src="js/bj_index.js"></script>
+<link href="css/1.css" rel="stylesheet">
+<link href="css/bj_index.css" rel="stylesheet">
+<link href="css/ibody.css" rel="stylesheet">
+
+
+    <title>移动个性化交流平台</title>
+
+<style>
+
+</style>
+
+
+</head>
+<body id="pbody">
+
+
+<div onmouseup="moveing=false;return false" onmousemove="if(moveing){move_ing(g_moveid,event.clientX,event.clientY);return false}">
+<div id="ing"></div>
+<div id="m2l1"></div>
+
+<script>
+m2L();
+
+</script>
+<div id="alert_box" style="left:-500px;top:-500;border:2px solid #aaaaaa;float:left;position:fixed;display:none;">
+	<div style="width:480px;height:auto;border:6px solid rgba(11,10,11,0.5);">
+
+		<div class="pointer" style="color:#30a5ff;background:#fefefe;height:25px" onmousedown="move_getxy('alert_box',event.clientX,event.clientY);return false">	
+	系统</div>	<div style="background:#fafafa;">
+		<br>
+		<center><h3 style="color:#30a5ff;" id="a_notice_"></h3></center>
+		<br>
+		<br>
+	<center>
+		<button onclick="if(is_dis('alert_box')){disno('alert_box');return false};" style="color:#30a5ff;height:23px;width:60px;border:1px solid #cccccc;display:inline-block" id="aqd">确定</button>
+	</center>
+		<br>
+		</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+<div id="m2l1"></div>
+
+<div id="iloginp_bg" class="loginp_bg"></div>
+
+
+	<div id="iloginp" class="loginp">
+                <div class="logins">
+                    <div class="logintitle">
+                        <div class="loginstr">
+                            登录移动个性化交流平台
+                        </div>
+                    </div>
+                    <div class="input_div_uname">
+                        <div class="input_div_uname_input">
+                            <input placeholder="编号或QQ号" name="edtLoginName" type="text" class="bginput" id="txtName">
+                        </div>
+                    </div>
+                    <div class="input_div_upwd">
+                        <div class="input_div_upwd_input">
+                            <input placeholder="密码" name="edtLoginPwd" type="password" class="bginput" id="txtPwd" maxlength="20">
+                        </div>
+                    </div>
+
+                    <div class="input_div_tip">
+                        <div class="input_div_tip_div" id="lblInfo">
+                        </div>
+                    </div>
+                    <div class="input_div_btn">
+                        <div class="input_div_btn_btndl" onclick="sendlogin()">
+                            登录
+                        </div>
+                        <div class="input_div_btn_btnzc" onclick="javascript:window.location.href='register.php';">
+                            注册
+                        </div>
+                    </div>
+                </div>
+	</div>
+
+
+
+
+
+
+
+		<div id="iaqq" class="aqq">
+			<h1> 咨询QQ号:</h1><br>
+
+
+			   <h1>1654414223</h1>
+
+
+	</div>
+
+
+<div>
+	<div id="iheader" class="cheader" style="height: 0px;">
+	</div>
+
+
+	<div id="ibody" class="cbody" style="height: 670px;">
+	<img src="img/loginGround.png" class="cbody_img">
+
+
+	</div>
+
+	<div id="ifoot" class="cfoot">
+
+	</div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+	
+
+</body></html>

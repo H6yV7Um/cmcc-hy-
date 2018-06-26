@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" charset="utf-8" src="https://static.alipay.com/build/js/arale.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/My97DatePicker/WdatePicker.js"></script><link href="/js/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" charset="utf-8" src="/js/cal.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/creatQrCode.js"></script>
+<script type="text/javascript" src="/js/jquery.Jcrop.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/jQuery.UtrialAvatarCutter.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/css/yxp2.css">
+<title>支付宝条码支付 - 扫码</title>
+</head>
+
+<body>
+    
+<div class="container">
+    <div class="header clearfix">
+        <p class="f-left">Hi, 欢迎你  </p>
+        <div class="f-right">
+            <span>
+            	                	<a href="https://auth.alipay.com/login/index.htm?goto=https://qr.alipay.com/paipai/open.htm" title="登录">登录</a>
+	                <b>-</b>
+	                <a href="https://memberprod.alipay.com/account/reg/index.htm" target="_blank" title="注册">注册</a>
+                            </span>
+            <em class="global-separator">|</em>
+            <span><a href="https://www.alipay.com/index.html" target="_blank">支付宝首页</a></span>
+            <em class="global-separator">|</em>
+            <span><a href="https://help.alipay.com/lab/index.htm" target="_blank">帮助中心</a></span>
+            <em class="global-separator">|</em>
+            <span><a href="https://egg.alipay.com/" target="_blank">提建议</a></span>
+        </div>
+    </div>
+</div>
+
+	
+
+ 
+    
+		 <div class="buffetTitle">
+        <div class="title clearfix">
+            <span class="alipayBg"></span>
+            <span class="titleWord">扫码发码平台</span>
+            			<a href="https://auth.alipay.com/login/index.htm?goto=https://qr.alipay.com/paipai/open.htm" title="登录" class="load-btn"></a>
+			        </div>
+    </div>
+    
+    <div>
+        <div class="buffetSonTitle clearfix">
+        	<div class="h200 clearfix">
+            	<div class="leftPart">
+                	<p class="qrWord">商品码</p>
+                    <p>已签约扫码的商家，可以通过发码平台自助发商品类型的码。</p>
+                </div>
+                <div class="rightPart">
+                	<p class="qrWord">账户码</p>
+                    <p>支付宝用户可以通过发码平台领取"向我付款"的二维码。</p>
+                </div>
+            </div>
+            
+            <div class="maintext">
+				<div class="centerShowBg">
+					<p class="caseTitle">案例一：商户发码</p>
+					<div class="caseContent clearfix">
+						<div class="caseWord">
+							<p class="role">角色：商户</p>
+							<p class="stepDo1">商品发码</p>
+								<div class="m30">
+									<p>1.商户通过自助签约平台签约扫码产品后，可以通过发码平台自助发商品二维码。</p>
+									<p>2.商户发码时可以选择即时到账交易类型和担保交易类型。</p>
+									<p>3.能查询当前账户发的码，查询结果包含商品名称、创建时间、交易类型、被拍次数、状态、操作。</p>
+									<p>4.买家通过扫码拍下您的商品码后，即可下单并进行支付，交易成功后，款项将到达您的支付宝账号中。</p>
+								</div>
+							<p class="stepDo2">商户也可以通过发码平台自助领取账户码。</p>
+						</div>
+					</div>
+				</div>
+				<div class="downShowBg">
+					<p class="caseTitle">案例二：支付宝用户账户发码</p>
+					<div class="caseContent clearfix">
+						<div class="caseWord">
+							<p class="role">角色：支付宝用户</p>
+							<div class="line30">
+								<p>1.支付宝用户可以通过发码平台领取“向我付款”的二维码。</p>
+								<p>2.付款人通过扫码拍下您的账户码后进行付款，付款成功后，款项将直接到达您的支付宝账户中。</p>
+								<p>3.二维码图案中默认调取支付宝账号的头像，您也可以自行上传个性化头像。</p>
+								<p>4.生成后的二维码可保存，可自行使用。</p>
+							</div>
+							<p>举例：</p>
+							<p>出租车司机金师傅在副驾驶前面贴了一张可收款的二维码，乘客如果没有零钱，可以用支付宝的扫码拍下二维码进行付款。付款成功后，金师傅即收到款项。</p>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+		//安全控件 
+		new AP.widget.Validator({
+			formId: "login",	//表单的id
+		ruleType:"id",	 	//校验name还是id:string	
+		onSubmit : true, 	//默认true, 关联submit事件
+		loadClass: "loading-text",
+		onBefore:function(){	//表单校验前执行的方法,此处用来赋值给隐藏的密码框
+			var alieditId=AlieditControl.getAlieditId(document.forms[this.formId]);
+			if(typeof(alieditId)!='undefined'){
+			D.get('password').value = D.get(alieditId[0]).TextData;
+				return true;
+			}
+		},
+		rules: {
+			'password': {		//密码控件的ID:string
+			depends: false,		//必要参数:bool	false
+			required: true,		//是否必填:bool	true|false
+			desc: '登录密码'	//点击提交此项为空时提示:string
+		},
+		"yoursname":{
+			depends: false,	
+			required: true,	
+			desc: '账户名'
+				}
+				
+			}
+		});
+	</script>
+    
+    
+    
+<div id="footer">
+    <ul class="footer-link">
+        <li class="first"></li>
+        <li class="fn-border-none"><a href="https://www.alipay.com/static/aboutalipay/about.htm" title="" target="_blank">关于支付宝</a></li>
+        <li><a href="https://qudao.alipay.com/" title="" target="_blank">经销商体系</a></li>
+        <li><a href="https://ue.alipay.com" target="_blank">体验计划</a></li>
+        <li><a href="https://blog.alipay.com" target="_blank">官方博客</a></li>
+        <li><a href="https://job.alipay.com" target="_blank">诚征英才</a></li>
+        <li><a href="https://www.alipay.com/static/aboutalipay/contact.htm" target="_blank">联系我们</a></li>
+        <li><a href="https://www.alipay.com" target="_blank">International Business</a></li>
+        <li><a href="https://www.alipay.com/static/aboutalipay/englishabout.htm" target="_blank">About Alipay</a></li>
+        <li class="feedback"></li>
+    </ul>
+    <p class="copyright">支付宝版权所有 2004-2014 ICP证：浙B2-20050209</p>
+    <span></span>
+</div>
+<div style="color:#BBD3E2;font:12px arial;text-align:center;">barcodeprod-49-5022</div> 
+    
+
+
+
+</body></html>

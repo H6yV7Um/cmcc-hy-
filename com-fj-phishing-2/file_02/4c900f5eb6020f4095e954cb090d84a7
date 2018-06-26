@@ -1,0 +1,1720 @@
+<!DOCTYPE html><html><head>
+  <meta charset="gb2312">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>余额宝 - 支付宝 - 支付宝</title>
+    
+
+<link rel="icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon">    
+
+
+
+
+
+<link media="all" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.common.v1-1.5.css" type="text/css">    <link href="https://a.alipayobjects.com" rel="dns-prefetch">
+<link href="https://app.alipay.com" rel="dns-prefetch">
+<link href="https://my.alipay.com" rel="dns-prefetch">
+<link href="https://lab.alipay.com" rel="dns-prefetch">
+<link href="https://cashier.alipay.com" rel="dns-prefetch">
+<link href="https://financeprod.alipay.com" rel="dns-prefetch">
+<link href="https://shenghuo.alipay.com" rel="dns-prefetch">
+
+
+<!-- uitpl:/component/trackerTime.vm -->
+    <!-- FD:106:alipay/tracker/iconfont.vm:START --><style>
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20150616"); /* IE9 */
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20150616#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://i.alipayobjects.com/common/fonts/rei.woff?20150616") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.ttf?20150616")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.svg?20150616#rei") format("svg"); /* iOS 4.1- */
+}
+.iconfont {
+    font-family:"rei";
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+</style>
+<!-- FD:106:alipay/tracker/iconfont.vm:END -->
+<script type="text/javascript">
+  window._to = { start: new Date() };
+</script>
+
+<!-- FD:106:alipay/tracker/monitor.vm:START --><!-- FD:106:alipay/tracker/sai_seer.vm:START --><script type="text/javascript">
+
+!function(n){function o(r){if(t[r])return t[r].exports;var i=t[r]={exports:{},id:r,loaded:!1};return n[r].call(i.exports,i,i.exports,o),i.loaded=!0,i.exports}var t={};return o.m=n,o.c=t,o.p="",o(0)}([function(n,o){"use strict";window.Sai={log:function(){},error:function(){},lost:function(){},off:function(){},on:function(){},_DATAS:[],_EVENTS:[]}}]);
+
+</script>
+<!-- FD:106:alipay/tracker/sai_seer.vm:END --><!-- FD:106:alipay/tracker/monitor.vm:END -->
+<!-- FD:106:alipay/tracker/seajs.vm:START -->
+
+
+<!-- monitor 防错代码 -->
+<script>
+(function(win){
+  if(!win.monitor){win.monitor = {};}
+
+  var METHODS = ["lost", "log", "error", "on", "off"];
+
+  for(var i=0,method,l=METHODS.length; i<l; i++){
+    method = METHODS[i];
+    if("function" !== typeof win.monitor[method]){
+      win.monitor[method] = function(){};
+    }
+  }
+})(window);
+</script>
+
+<!-- seajs以及插件 -->
+<script charset="utf-8" crossorigin="anonymous" id="seajsnode" onerror="window.monitor &amp;&amp; monitor.lost &amp;&amp; monitor.lost(this.src)" src="https://a.alipayobjects.com/??seajs/seajs/2.2.3/sea.js,seajs/seajs-combo/1.0.0/seajs-combo.js,seajs/seajs-style/1.0.2/seajs-style.js,seajs/seajs-log/1.0.0/seajs-log.js,jquery/jquery/1.7.2/jquery.js,gallery/json/1.0.3/json.js,alipay-request/3.0.3/index.js"></script>
+
+<!-- seajs config 配置 -->
+<script>
+seajs.config({
+  alias: {
+    '$': 'jquery/jquery/1.7.2/jquery',
+    '$-debug': 'jquery/jquery/1.7.2/jquery',
+    'jquery': 'jquery/jquery/1.7.2/jquery',
+    'jquery-debug': 'jquery/jquery/1.7.2/jquery-debug',
+    'seajs-debug': 'seajs/seajs-debug/1.1.1/seajs-debug'
+  },
+  crossorigin: function(uri){
+
+    function typeOf(type){
+	  return function(object){
+	    return Object.prototype.toString.call(object) === '[object ' + type + ']';
+	  }
+	}
+	var isString = typeOf("String");
+	var isRegExp = typeOf("RegExp");
+
+	var whitelist = [];
+
+  whitelist.push('https://a.alipayobjects.com/');
+
+	for (var i=0, rule, l=whitelist.length; i<l; i++){
+	  rule = whitelist[i];
+	  if (
+	    (isString(rule) && uri.indexOf(rule) === 0) ||
+	    (isRegExp(rule) && rule.test(uri))
+		) {
+
+	    return "anonymous";
+	  }
+	}
+  },
+  vars: {
+    locale: 'zh-cn'
+  }
+});
+</script>
+
+<!-- 兼容原有的 plugin-i18n 写法 -->
+<!-- https://github.com/seajs/seajs/blob/1.3.1/src/plugins/plugin-i18n.js -->
+<script>
+seajs.pluginSDK = seajs.pluginSDK || {
+  Module: {
+    _resolve: function() {}
+  },
+  config: {
+    locale: ''
+  }
+};
+// 干掉载入 plugin-i18n.js，避免 404
+seajs.config({
+  map: [
+	[/^.*\/seajs\/plugin-i18n\.js$/, ''],
+	[/^.*\i18n!lang\.js$/, '']
+  ]
+});
+</script>
+
+<!-- 路由旧 ID，解决 seajs.use('select/x.x.x/select') 的历史遗留问题 -->
+<script>
+(function(){
+
+var JQ = '/jquery/1.7.2/jquery.js';
+seajs.cache['https://a.alipayobjects.com/gallery' + JQ] = seajs.cache['https://a.alipayobjects.com/jquery' + JQ];
+
+var GALLERY_MODULES = [
+  'async','backbone','coffee','cookie','es5-safe','handlebars','iscroll',
+  'jasmine','jasmine-jquery','jquery','jquery-color','json','keymaster',
+  'labjs','less','marked','moment','mustache','querystring','raphael',
+  'socketio','store','swfobject','underscore','zepto','ztree'
+];
+
+var ARALE_MODULES = [
+  'autocomplete','base','calendar','class','cookie','dialog','easing',
+  'events','iframe-uploader','iframe-shim','messenger','overlay','popup',
+  'position','select','switchable','tip','validator','widget'
+];
+
+var util = {};
+util.indexOf = Array.prototype.indexOf ?
+  function(arr, item) {
+    return arr.indexOf(item);
+  } :
+  function(arr, item) {
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] === item) {
+        return i;
+      }
+    }
+    return -1;
+  };
+util.map = Array.prototype.map ?
+  function(arr, fn) {
+    return arr.map(fn);
+  } :
+  function(arr, fn) {
+    var ret = [];
+	for (var i = 0; i < arr.length; i++) {
+        ret.push(fn(arr[i], i, arr));
+    }
+    return ret;
+  };
+
+function contains(arr, item) {
+  return util.indexOf(arr, item) > -1
+}
+
+function map(id) {
+  id = id.replace('#', '');
+
+  var parts = id.split('/');
+  var len = parts.length;
+  var root, name;
+
+  // id = root/name/x.y.z/name
+  if (len === 4) {
+    root = parts[0];
+    name = parts[1];
+
+    // gallery 或 alipay 开头的没有问题
+    if (root === 'alipay' || root === 'gallery') {
+      return id;
+    }
+
+    // arale 开头的
+    if (root === 'arale') {
+      // 处理 arale/handlebars 的情况
+      if (contains(GALLERY_MODULES, name)) {
+        return id.replace('arale/', 'gallery/');
+      } else {
+        return id;
+      }
+    }
+  }
+  // id = name/x.y.z/name
+  else if (len === 3) {
+    name = parts[0]
+
+    // 开头在 GALLERY_MODULES 或 ARALE_MODULES
+    if (contains(GALLERY_MODULES, name)) {
+      return 'gallery/' + id;
+    } else if (contains(ARALE_MODULES, name)) {
+      return 'arale/' + id;
+    }
+  }
+
+  return id;
+}
+
+var _use = seajs.use;
+
+seajs.use = function(ids, callback) {
+  if (typeof ids === 'string') {
+    ids = [ids];
+  }
+
+  ids = util.map(ids, function(id) {
+    return map(id);
+  });
+
+  return _use(ids, callback);
+}
+
+})();
+</script>
+<!-- FD:106:alipay/tracker/seajs.vm:END -->
+<!-- FD:106:alipay/tracker/tracker_time.vm:START --><!-- FD:106:alipay/tracker/tracker_time.vm:784:tracker_time.schema:全站 tracker 开关:START --><script charset="utf-8" crossorigin="crossorigin" src="https://a.alipayobjects.com/static/ar/alipay.light.base-1.8.js"></script>
+
+
+<script type="text/javascript">
+if (!window._to) {
+  window._to = { start: new Date() };
+}
+</script>
+
+<script charset="utf-8" src="https://as.alipayobjects.com/??g/component/tracker/2.3.2/index.js,g/component/smartracker/2.0.2/index.js"></script>
+<script charset="utf-8" src="https://a.alipayobjects.com/g/utiljs/rd/1.0.2/rd.js"></script>
+
+
+
+<script>
+  window.Tracker && Tracker.start &&  Tracker.start();
+</script>
+
+
+
+
+
+
+
+<!-- FD:106:alipay/tracker/tracker_time.vm:784:tracker_time.schema:全站 tracker 开关:END -->
+<!-- FD:106:alipay/tracker/tracker_time.vm:END -->  <link charset="utf-8" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.common.v1-2.2.css">
+            <link charset="utf-8" rel="stylesheet" href="https://a.alipayobjects.com/yebprod/??/1.1.63/css/yeb/base.css" media="all">
+<link charset="utf-8" rel="stylesheet" href="https://a.alipayobjects.com/yebprod/??/1.1.109/css/yeb/yebbase.css" media="all">
+<link charset="utf-8" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.components.security-core-2.2.css" media="all">
+<link charset="utf-8" rel="stylesheet" href="https://a.alipayobjects.com/yebprod/??/1.1.63/css/yeb/base-n.css" media="all">
+    
+                <style>body .object-shim-class{display:inline-block;*display:inline;*zoom:1;height:22px;width:198px;border:1px solid #999}body .object-shim-class object,body .object-shim-class.alieditContainer input,body .object-shim-class embed{display:none}.alipay-xbox-1_1_5 .alipay-xbox{background-color:rgba(0,0,0,.5);FILTER:progid:DXImageTransform.Microsoft.Gradient(startColorstr=#88000000, endColorstr=#88000000);padding:6px;-webkit-transition:height .3s ease-in-out .3s;-moz-transition:height .3s ease-in-out .3s;-o-transition:height .3s ease-in-out .3s;-ms-transition:height .3s ease-in-out .3s;transition:height .3s ease-in-out .3s;border:0}:root .alipay-xbox-1_1_5 .alipay-xbox{FILTER:none\9}.alipay-xbox-1_1_5 .alipay-xbox-content{background:#fff;height:100%;*zoom:1}.alipay-xbox-1_1_5 .alipay-xbox-close{color:#999;cursor:pointer;display:block;font-family:tahoma;font-size:24px;font-weight:700;height:18px;line-height:14px;position:absolute;right:16px;text-decoration:none;top:16px;z-index:10}.alipay-xbox-1_1_5 .alipay-xbox-close:hover{color:#666;text-shadow:0 0 2px #aaa}.alipay-xbox-1_1_5 .alipay-xbox-loading{border-radius:10px;position:absolute;top:-2px;*top:0;top:0\0;left:0;background:#CBFE1C;box-shadow:0 0 12px #CBFE1C;height:2px;zoom:1;overflow:hidden}.alipay-xbox-1_1_5 .alipay-xbox,.alipay-xbox-1_1_5 .alipay-xbox-hide{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-ms-transform:scale(0.7);transform:scale(0.7);opacity:0;-webkit-transition:opacity .2s,transform .2s;-moz-transition:opacity .2s,transform .2s;transition:opacity .2s,transform .2s}.alipay-xbox-1_1_5 .alipay-xbox-show{-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;opacity:1}.alipay-xbox-1_1_2 .alipay-xbox{background-color:rgba(0,0,0,.5);FILTER:progid:DXImageTransform.Microsoft.Gradient(startColorstr=#88000000, endColorstr=#88000000);padding:6px;-webkit-transition:height .3s ease-in-out .3s;-moz-transition:height .3s ease-in-out .3s;-o-transition:height .3s ease-in-out .3s;-ms-transition:height .3s ease-in-out .3s;transition:height .3s ease-in-out .3s;border:0}:root .alipay-xbox-1_1_2 .alipay-xbox{FILTER:none\9}.alipay-xbox-1_1_2 .alipay-xbox-content{background:#fff;height:100%;*zoom:1}.alipay-xbox-1_1_2 .alipay-xbox-close{color:#999;cursor:pointer;display:block;font-family:tahoma;font-size:24px;font-weight:700;height:18px;line-height:14px;position:absolute;right:16px;text-decoration:none;top:16px;z-index:10}.alipay-xbox-1_1_2 .alipay-xbox-close:hover{color:#666;text-shadow:0 0 2px #aaa}.alipay-xbox-1_1_2 .alipay-xbox-loading{border-radius:10px;position:absolute;top:-2px;*top:0;top:0\0;left:0;background:#CBFE1C;box-shadow:0 0 12px #CBFE1C;height:2px;zoom:1;overflow:hidden}.alipay-xbox-1_1_2 .alipay-xbox,.alipay-xbox-1_1_2 .alipay-xbox-hide{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-ms-transform:scale(0.7);transform:scale(0.7);opacity:0;-webkit-transition:opacity .2s,transform .2s;-moz-transition:opacity .2s,transform .2s;transition:opacity .2s,transform .2s}.alipay-xbox-1_1_2 .alipay-xbox-show{-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;opacity:1}</style><style id="alipay-object-shim-1-0-0-object-shim-css">body .object-shim-class{display:inline-block;*display:inline;*zoom:1;height:22px;width:198px;border:1px solid #999}body .object-shim-class object,body .object-shim-class embed{display:none}</style><link charset="utf-8" rel="stylesheet" href="https://os.alipayobjects.com/rmsportal/OgPAgbONDiKhITIVYmdn.css"></head>
+<body class="">  
+<div id="J-nav-container" class="nav-common">
+  	<div id="J-nav-merchant" class="nav-merchant">
+    <!-- FD:64:yebprod/global/nav.vm:START --><!-- FD:64:yebprod/global/nav.vm:307:nav.schema:nav-余额宝nav:START -->
+
+
+
+
+
+
+
+
+
+ <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+.ui-footer-link a,
+.ui-footer-link a:hover{
+   color:#808080;
+}
+        .common-top-nav ul{
+            padding: 0;
+            margin: 0;
+        }
+        .common-top-nav li{
+            list-style: none;
+        }
+        .common-top-nav{
+            height: 28px;
+            line-height: 28px; 
+            background: #242735;
+            font-size: 12px;
+            color: #aaabaf;
+        }
+        .common-top-nav-main{
+            width: 990px;
+            margin: 0 auto;
+        }
+        .common-top-nav-split{
+            padding: 0px 6px;
+        }
+        .common-top-nav-link{
+            color: #999;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .common-top-nav-link:hover{
+            text-decoration: underline;
+            color: #08c;
+        }
+        .common-top-nav-icon{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 4px;
+            background: url(https://i.alipayobjects.com/e/201208/3H0NFBzPRx.png) no-repeat;
+            vertical-align: middle;
+            background-position: -27px -1769px;
+        }
+        .common-top-nav-right{
+            float: right;
+        }
+        .common-top-nav-left{
+            float: left;
+        }
+        .common-top-nav-right .common-top-nav-item{
+            float: left;
+        }
+        .common-top-nav-icon-gray,
+        .common-top-nav-icon-mini{
+            width: 12px;
+            vertical-align: middle;
+            margin-top: -3px;
+            border: none;
+        }
+        .common-top-nav-item-border,
+        .common-top-nav-item-fisrt{
+            background: #242735;
+            height: 26px;
+            border-right: 1px #aaabaf solid;
+        }
+        .common-top-nav-item-border .common-top-nav-link,
+        .common-top-nav-item-fisrt .common-top-nav-link{
+            height: 26px;
+            padding: 0 10px;
+            display: inline-block; 
+        }
+        .common-top-nav-item-border .common-top-nav-link:hover,
+        .common-top-nav-item-fisrt .common-top-nav-link:hover{
+            color: #c7c7c7;
+            text-decoration: none; 
+        }
+
+        .common-top-nav-link .common-top-nav-icon-mini{
+            display: none;
+        }
+        .common-top-nav-link:hover .common-top-nav-icon-mini{
+            display: inline-block;
+        }
+        .common-top-nav-link:hover .common-top-nav-icon-gray{
+            display: inline-block;
+        }
+        .common-top-nav-link:hover .common-top-nav-icon-gray{
+            display: none;
+        }
+        .common-top-nav-item-fisrt{
+            border-left: 1px #dfdfdf solid;
+        }
+
+        .common-top-nav-item-i .common-top-nav-link{
+            padding: 0 20px 0 15px;
+            display: inline-block;
+            height: 12px;
+            line-height: 12px;
+            border-left: 1px #999 solid;
+            margin-top: -2px\9;
+        }
+        .common-top-nav-item-login{
+            padding-right: 15px;
+        }
+    </style>
+<div class="common-top-nav">
+    <div class="common-top-nav-main">
+        <ul class="common-top-nav-right">
+            <li class="common-top-nav-item">
+                                <span class="common-top-nav-text">欢迎使用支付宝！</span>
+                            </li>
+            <li class="common-top-nav-item common-top-nav-item-login">
+                                <a href="https://auth.alipay.com:443/login/index.htm?needTransfer=true&amp;goto=http://bao.alipay.com/yeb/index.htm" class="common-top-nav-link" seed="commonTopNavItem-commonTopNavLink" smartracker="on">登录</a>
+                <span class="common-top-nav-seperator">-</span>
+                <a href="https://lab.alipay.com:443/user/reg/index.htm" class="common-top-nav-link" seed="global-header-register">注册</a>
+                            </li>
+            <li class="common-top-nav-item common-top-nav-item-i">
+                <a class="common-top-nav-link" href="https://my.alipay.com" target="_blank" seed="commonTopNavItem-commonTopNavLinkT1" smartracker="on">我的支付宝</a>
+            </li>
+            <li class="common-top-nav-item common-top-nav-item-fisrt ">
+                <a href="https://zcbprod.alipay.com/index.htm" target="_blank" class="common-top-nav-link" smartracker="on" seed="commonTopNavItem-commonTopNavLinkT2">
+                    <img class="common-top-nav-icon-mini" src="https://t.alipayobjects.com/images/rmsweb/T1iUNgXh0aXXXXXXXX.png"><img class="common-top-nav-icon-gray" src="https://t.alipayobjects.com/images/rmsweb/T1jnFgXf4mXXXXXXXX.png">
+                    <span>招财宝</span>
+                </a>
+            </li>
+            <li class="common-top-nav-item common-top-nav-item-border">
+                <a href="https://goldetfprod.alipay.com/gold/guide.htm" target="_blank" class="common-top-nav-link" seed="commonTopNavItem-commonTopNavLinkT3" smartracker="on">
+                    <img class="common-top-nav-icon-mini" src="https://t.alipayobjects.com/images/rmsweb/T1mEtgXlVcXXXXXXXX.png"><img class="common-top-nav-icon-gray" src="https://t.alipayobjects.com/images/rmsweb/T1YEpgXjteXXXXXXXX.png">
+                    <span>存金宝</span>
+                </a>
+            </li>
+            <li class="common-top-nav-item common-top-nav-item-border">
+                <a href="http://www.taobao.com/go/chn/licai/fund.php" target="_blank" class="common-top-nav-link" seed="commonTopNavItem-commonTopNavLinkT4" smartracker="on">
+                    <img class="common-top-nav-icon-mini" src="https://t.alipayobjects.com/images/rmsweb/T16DNgXb4iXXXXXXXX.png"><img class="common-top-nav-icon-gray" src="https://t.alipayobjects.com/images/rmsweb/T1LXXhXkBaXXXXXXXX.png">
+                    <span>基金</span>
+                </a>
+            </li>
+          
+          <li class="common-top-nav-item common-top-nav-item-border">
+               
+            
+            <a href="https://www.antsdaq.com/" target="_blank" class="common-top-nav-link" seed="commonTopNavItem-commonTopNavLinkT5" smartracker="on">
+              <img class="common-top-nav-icon-mini" src="https://os.alipayobjects.com/rmsportal/iaSviPzbJeqjbns.png">
+              <img class="common-top-nav-icon-gray" src="https://os.alipayobjects.com/rmsportal/dMpamilDvBdYMgY.png">
+                    <span>蚂蚁达客</span>
+                </a>
+            
+            </li>
+          
+          <li class="common-top-nav-item common-top-nav-item-border">
+                <a href="http://www.antfortune.com/" target="_blank" class="common-top-nav-link" seed="commonTopNavItem-commonTopNavLinkT5" smartracker="on">
+                    <img class="common-top-nav-icon-mini" src="https://t.alipayobjects.com/images/rmsweb/T1paRiXhBcXXXXXXXX.png"><img class="common-top-nav-icon-gray" src="https://t.alipayobjects.com/images/rmsweb/T1nF8iXfdjXXXXXXXX.png">
+                    <span>蚂蚁聚宝</span>
+                </a>
+            </li>
+          
+          
+        </ul>
+        <ul class="common-top-nav-left">
+            <li class="common-top-nav-item"> 
+                <a class="common-top-nav-link" href="https://fun.alipay.com/down/index.htm?cid=5176" target="_blank" seed="commonTopNavItem-commonTopNavLinkT6" smartracker="on">手机支付宝</a>
+            </li>
+        </ul>
+    </div>
+</div>
+ <!-- FD:64:yebprod/global/nav.vm:307:nav.schema:nav-余额宝nav:END --><!-- FD:64:yebprod/global/nav.vm:END -->	<!-- FD:64:yebprod/global/head.vm:START --><!-- FD:64:yebprod/global/head.vm:305:head.schema:head-余额宝页头:START -->
+<style type="text/css">
+           @font-face {
+    font-family: 'crmhome';
+    src: url('//at.alicdn.com/t/font_1435921103_9349346.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_1435921103_9349346.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/font_1435921103_9349346.woff') format('woff'), /* chrome銆乫irefox */
+    url('//at.alicdn.com/t/font_1435921103_9349346.ttf') format('truetype'), /* chrome銆乫irefox銆乷pera銆丼afari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_1435921103_9349346.svg#crmhome') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont-crmhome {
+    font-family: 'crmhome';
+    font-weight: 400;
+    font-style: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px
+}
+        .nav-left-part .logo{
+            overflow: hidden;
+            position: absolute;
+            top: 16px;
+            left: -2px;
+        }
+        .nav-left-part .logo *{
+            float: left;
+        }
+        .nav-left-part .logo .aliLogo{
+            font-size: 42px;
+            line-height: 48px;
+            color: #0ae;
+        }
+        .nav-left-part .logo .aliLogoTxt{
+            font-size: 70px;
+            line-height: 48px;
+            color: #3f3a39;
+        }
+        .nav-left-part .logo .bar{
+            margin: 9px 15px 0;
+            width: 1px;
+            height: 34px;
+            border-left: 1px solid #808080;
+        }
+        .nav-left-part .logo .navTitle{
+            color: #1a1a1a;
+        }
+        .nav-left-part .logo .brand{
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+         
+         
+        .iconfont-crmhome {
+            font-family: crmhome;
+            font-weight: 400;
+            font-style: normal;
+            cursor: default;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: .2px;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part .nav-right-btn{
+            float: right;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part .nav-right-btn a{
+            margin: 27px 0 0;
+            padding: 0 20px;
+            font-size: 12px;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part .nav-right-btn a:hover{
+            background-color: #f8f8f8;
+            text-decoration: none;
+            color: #1a1a1a;
+            border: 1px solid #ccc;
+        }
+        .jui-btn.jui-btn-lg{
+            width: 359px;
+        }
+        .nav-right-part .line-split em{
+            width: 1px;
+            height: 16px;
+            display: block;
+            border-left: 1px solid #000;
+            margin-top: 32px;
+        }
+
+        .nav-common a,.nav-common a:active{
+          color:#fff;
+          text-decoration:none;
+        }
+        .nav-common a:hover{
+          color:#0ae;
+        }
+        #J-nav-merchant{
+          position:relative;
+          top:0;
+          left:0;
+          z-index:990;
+          width:100%;
+          height:109px;
+          min-width:1200px;
+          font:12px/1.5 tahoma,arial,"Hiragino Sans GB","Microsoft Yahei","\5b8b\4f53";
+          -webkit-font-smoothing:antialiased;
+        }
+        #J-nav-merchant .nav-left{
+          float:left;
+        }
+        #J-nav-merchant .nav-right{
+          float:right;
+        }
+        #J-nav-merchant .nav-current-type{
+          color:#0ae;
+        }
+        #J-nav-merchant .nav-merchant-top-wrapper,#J-nav-merchant .nav-merchant-header-wrapper{
+          width:100%;
+        }
+        #J-nav-merchant .nav-merchant-top-wrapper{
+          height:28px;
+          line-height:28px;
+          background:#242735;
+        }
+        #J-nav-merchant .nav-merchant-header-wrapper{
+          height:80px;
+          line-height:80px;
+          background:#fdfdfd;
+          border-bottom:1px #eee solid;
+        }
+        #J-nav-merchant .nav-merchant-top,#J-nav-merchant .nav-merchant-header{
+          zoom:1;
+          width:990px;
+          height:100%;
+          margin:0 auto;
+        }
+        #J-nav-merchant .nav-merchant-top:before,#J-nav-merchant .nav-merchant-header:before,#J-nav-merchant .nav-merchant-top:after,#J-nav-merchant .nav-merchant-header:after{
+          content:"";
+          display:table;
+        }
+        #J-nav-merchant .nav-merchant-top:after,#J-nav-merchant .nav-merchant-header:after{
+          clear:both;
+        }
+        #J-nav-merchant .nav-merchant-top{
+          color:#fff;
+        }
+        #J-nav-merchant .nav-merchant-top .nav-link-my-alipay{
+          margin-right:30px;
+        }
+        #J-nav-merchant .nav-merchant-top .nav-gap{
+          margin:0 10px;
+        }
+        #J-nav-merchant .nav-merchant-header{
+          position:relative;
+          top:0;
+          left:0;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part,#J-nav-merchant .nav-merchant-header .nav-right-part{
+          zoom:1;
+          height:80px;
+          width:840px;
+          line-height:80px;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part:before,#J-nav-merchant .nav-merchant-header .nav-right-part:before,#J-nav-merchant .nav-merchant-header .nav-left-part:after,#J-nav-merchant .nav-merchant-header .nav-right-part:after{
+          content:"";
+          display:table;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part:after,#J-nav-merchant .nav-merchant-header .nav-right-part:after{
+          clear:both;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part .nav-logo,#J-nav-merchant .nav-merchant-header .nav-right-part .nav-logo{
+          width:115px;
+          height:40px;
+          text-indent:-9999px;
+          background:url("https://i.alipayobjects.com/i/localhost/png/201406/2m8C9z7xQ5_src.png");
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part .nav-logo,#J-nav-merchant .nav-merchant-header .nav-right-part .nav-logo,#J-nav-merchant .nav-merchant-header .nav-left-part .nav-title,#J-nav-merchant .nav-merchant-header .nav-right-part .nav-title{
+          height:40px;
+          line-height:40px;
+          margin-top:20px;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part .nav-logo:hover,#J-nav-merchant .nav-merchant-header .nav-right-part .nav-logo:hover,#J-nav-merchant .nav-merchant-header .nav-left-part .nav-title:hover,#J-nav-merchant .nav-merchant-header .nav-right-part .nav-title:hover{
+          border-bottom:none;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part .nav-title,#J-nav-merchant .nav-merchant-header .nav-right-part .nav-title{
+          border-left:1px solid #b5b5b5;
+          margin-left:10px;
+          padding-left:10px;
+          color:#9b9b9b;
+          font-size:20px;
+          font-weight:normal;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-left-part .nav-title strong,#J-nav-merchant .nav-merchant-header .nav-right-part .nav-title strong{
+          color:#1a1a1a;
+          font-size:20px;
+          font-weight:normal;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part{
+          position:absolute;
+          top:0;
+          left:360px;
+          -webkit-font-smoothing:initial;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part li{
+          float:left;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part li a{
+          color:#1a1a1a;
+          font-size:16px;
+          margin:0 20px;
+          padding:10px;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part li a:active{
+          color:#1a1a1a;
+        }
+        #J-nav-merchant .nav-merchant-header .nav-right-part li a:hover,#J-nav-merchant .nav-merchant-header .nav-right-part li a.nav-link-current{
+          color:#0ae;
+          border:none;
+        } 
+       </style>
+<div class="nav-merchant-header-wrapper">
+              <div class="nav-merchant-header">
+                <h1 class="nav-left-part">
+                    <div class="logo">
+                      <a href="https://lab.alipay.com:443/user/i.htm" target="_blank" seed="logo-link" smartracker="on">
+                          <i class="iconfont-crmhome aliLogo" title="支付宝"></i>
+                              <i class="iconfont-crmhome aliLogoTxt" title="支付宝"></i>
+                      </a>
+                      <em class="bar"></em>
+                      <a href="https://yebprod.alipay.com:443/yeb/asset.htm" class="navTitle" seed="logo-navTitle" smartracker="on">
+                          <span class="brand">余额宝</span>
+                      </a>
+                   </div>
+                </h1>
+              </div>
+          </div>
+<!-- FD:64:yebprod/global/head.vm:305:head.schema:head-余额宝页头:END --><!-- FD:64:yebprod/global/head.vm:END -->  	</div>
+</div>      <input type="hidden" id="j-isPopupExpTip" value="">
+    <input type="hidden" id="j-advPlaceId" value="">
+    <input type="hidden" id="j-expCouponMoney" value="">
+    <input type="hidden" id="j-hasSigned" value="">
+    <input type="hidden" id="j-expDuration" value="">
+    <input type="hidden" id="j-advUrl" value="">
+    <input type="hidden" id="j-getExpUrl" value="">
+    <input type="hidden" id="j-campIdKey" value="">
+    <!-- CMS:yebprod cms库/INFO/新首页开始:yebprod/info/newIndex.vm -->	<style>
+.wid100 {
+  width:100%;
+  height:auto;
+  margin:0 auto;
+  font-family: "Microsoft Yahei";
+}
+.wid1002 {
+  width:1002px;
+  margin:0 auto;
+  height:auto;
+  position:relative;
+  font-family: "MICROSOFT YAHEI";
+}
+.wid100 a{
+  text-decoration:none;
+  color: #0ae;
+}
+.wid100 a:hover{
+  text-decoration:none;
+}
+.main {
+  background-color: #F4F4F4;
+}
+.header {
+  background: #FFFFFF;
+  height: 78px;
+  width: 100%;
+  left: 0;
+  top:0;
+  z-index: 990;
+}
+.grid-990 {
+  margin: 0 auto;
+  width: 990px;
+  position: relative;
+  font-family: "Microsoft Yahei";
+}
+.header-wrap {
+  height: 60px;
+  padding-top: 18px;
+  position: relative;
+}
+.ui-logo-alipay {
+  background-image: url(https://os.alipayobjects.com/rmsportal/FPFXEjVGKmSdMxC.png);
+  background-position: 0 0;
+  display: block;
+  height: 53px;
+  text-indent: -9999px;
+  width: 195px;
+}
+#exBanner{
+  position: absolute;
+  display: block;
+  left: 220px;
+  top: 24px;
+  width: 315px;
+  height: 40px;
+  background: url(https://i.alipayobjects.com/i/ecmng/gif/201406/2rKppO4LVd.gif) no-repeat 0 0;
+  text-indent: -9999px;
+}
+#donow{
+  display: block;
+  width: 153px;
+  height: 32px;
+     position: absolute;
+    right: 140px;
+    top: 55px;
+    z-index: 999;   
+  text-decoration: none;
+}
+#whatBao{
+  background-color: #ff823f;
+  height: 400px;
+}
+#goNow{
+  position: absolute;
+  left: 24px;
+  top: 48px;
+  width: 508px;
+  height: 308px;
+  background: url(https://i.alipayobjects.com/i/ecmng/gif/201406/2rKpq8P3zR.gif) no-repeat 0 0;
+}
+#goNow ul{
+  position: absolute;
+  top: 118px;
+  left: 15px;
+}
+#goNow ul li{
+  font: 13px/24px "Microsoft Yahei";
+  color: #fff;
+}
+#goNow ul li a{
+  text-decoration: underline;
+  color: #fffea1;
+}
+#exNow{
+  position: absolute;
+  display: block;
+  text-indent: -9999px;
+  width: 242px;
+  height: 62px;
+  top: 245px;
+  left: 0px;
+}
+#finger{
+  position: absolute;
+  right: 62px;
+  top: 20px;
+  width: 290px;
+  height: 380px;
+  background: url(https://i.alipayobjects.com/i/ecmng/gif/201406/2rKpptmEGT.gif) no-repeat 0 0;
+}
+#detail{
+  margin: 50px 0 0 50px;
+  background: url(https://zos.alipayobjects.com/rmsportal/tJHsPVSnnimvUxx.jpg) no-repeat 0 0;
+  width: 871px;
+  height: 908px;
+  position: relative;
+}
+#whenGet{
+  position: absolute;
+  left: 35px;
+  top: 30px;
+}
+#whenGet p{
+  padding: 15px;
+  width: 110px;
+  height: 30px;
+  font: 13px/18px "Microsoft Yahei";
+  color: #ffffff;
+}
+#whenGet p a{
+  text-decoration: none;
+  color: #726b99;
+}
+#calcGet{
+  position: absolute;
+  left: 238px;
+  top: 26px;
+}
+#calcGet ul{
+  width: 176px;
+  height: 204px;
+  padding: 10px;
+}
+#calcGet-input{
+  margin-top: 26px;
+  margin-left: 26px;
+}
+#calcGet-input input{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+  border: none;
+  color: #4b4b4b;
+  outline: 0;
+}
+#calcGet-a{
+  margin-top: 17px;
+  margin-left: 20px;
+}
+#calcGet-a a{
+  display: block;
+  text-indent: -9999px;
+  width: 138px;
+  height: 35px;
+}
+#calcGet-show{
+  padding-left: 24px;
+  padding-top: 20px;
+}
+#calcGet-show p{
+  color: #808080;
+  font-weight: bold;
+}
+#calcGet-show h3{
+  color: #ff823f;
+  height: 40px;
+}
+#calcGet-show h3 strong{
+  display: block;
+  float: left;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#calcGet-show h3 span{
+  display: block;
+  float: left;
+  padding-top: 18px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+#calcGet-text{
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #b2b2b2;
+}
+#highGet{
+  position: absolute;
+  left: 540px;
+  top: 90px;
+}
+#sevenRate{
+  position: absolute;
+  left: 540px;
+  top: 85px;
+  width: 450px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #727375;
+}
+#highGet h4{
+  margin-top: 29px;
+}
+#highGet h4 a{
+  color: #726c98;
+  text-decoration: none;
+  line-height: 18px;
+  font-size: 15px;
+}
+#highGet p{
+  padding-right: 24px;
+  margin-top: 15px;
+  color: #b2b2b2;
+  line-height: 16px;
+}
+#payout{
+  position: absolute;
+  top: 475px;
+  left: 70px;
+}
+#payout h3{
+  font-size: 20px;
+  font-weight: normal;
+  color: #727375;
+  line-height: 24px;
+}
+#freely{
+  position: absolute;
+  font-size: 20px;
+  font-weight: normal;
+  left: 550px;
+  line-height: 24px;
+  top: 784px;
+  color: #727375;
+}
+#sevenRate strong,#payout strong,#freely strong{
+  color: #fb8045;
+  font-weight: normal;
+}
+#triangleUp{
+  position: absolute;
+  top: 382px;
+  left: 483px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 18px solid #fff;
+}
+#join{
+  background-color: #dae9f0;
+}
+#goJoin{
+  margin: 0 20px;
+  height: 385px;
+  width:950px;
+}
+#firstLi{
+  padding-top: 36px;
+  text-align: center;
+}
+#firstLi p{
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 28px;
+  color: #5d5d5d;
+}
+#firstLi ul{
+  margin: 14px auto 0 auto;
+  height: 64px;
+  width: 352px;
+  padding-left: 8px;
+  overflow: hidden;
+}
+#firstLi ul li{
+  float: left;
+  display: block;
+  margin-right: 8px;
+  background: url(https://i.alipayobjects.com/i/ecmng/jpg/201406/2rKpq8AshJ.jpg) no-repeat 0 0;
+  width: 36px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  color: #fff;
+  font-size: 56px;
+}
+#firstLi h3{
+  margin-top: 15px;
+  padding-left: 25px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #5d5d5d;
+}
+#secondLi{
+  margin: 38px auto;
+  width: 258px;
+  height: 66px;
+}
+#secondLi a{
+  padding-left: 15px;
+  display: block;
+  height: 60px;
+  width: 237px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #5981c1;
+  border: 3px solid #5981c1;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#thirdLi{
+  width: 950px;
+  background: url(https://i.alipayobjects.com/i/ecmng/gif/201406/2rKpqLFK61.gif) no-repeat 0 0;
+  height: 54px;
+}
+.question{
+  padding: 0 0 100px;
+}
+.quesHead{
+  height: 56px;
+  background: url(https://os.alipayobjects.com/rmsportal/QpfevFBdMTzoMLa.gif) repeat-x;
+}
+.quesHead li{
+  width: 250px;
+  float: left;
+  font:16px/56px tahoma, arial, 宋体;
+  text-align: center;
+}
+.quesHead li a{
+  display: block;
+  color:#5c5c5c;
+}
+.quesHead li.current a,.quesHead li a:hover{
+  background: url(https://os.alipayobjects.com/rmsportal/ljnhmGdyBhPOTRH.gif) no-repeat 0 bottom;
+}
+.quesHead li span{
+  cursor:pointer;
+  display: inline-block;
+  padding-left: 20px;
+  background: url(https://os.alipayobjects.com/rmsportal/nYRPSXGSlILvVpX.gif) no-repeat 0 center;
+}
+.quesCon{
+  height: 400px;
+}
+.quesCon h3{
+  padding: 20px 0 0;
+}
+.quesCon p{
+  color:#767676;
+  font-size: 14px;
+}
+.quesCon li{
+  display: none;
+}
+.quesCon .current{
+  display: block;
+}
+.quesCon li .more{
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.receive-exp-tip .ui-tipbox-content {
+  margin: 40px 200px 35px 140px;
+}
+.receive-exp-tip .ui-tipbox .ui-tipbox-icon{
+  top: 38px;
+  left: 100px;
+}
+.receive-exp-tip .ui-tipbox-explain{
+  line-height: 20px;
+  color: #808080;
+}
+.receive-exp-tip .ui-sub-box .ui-tipbox-explain{
+  margin-bottom: 10px;
+}
+.receive-exp-tip .ui-sub-box .ui-tipbox-agree{
+  margin-top: 5px;
+}
+.receive-exp-tip .ui-dialog-container{
+  padding: 0;
+}
+.receive-exp-tip .ui-sub-box{
+  padding: 30px 0 50px 140px;
+}
+.receive-exp-tip .ui-stress-text{
+  color: #f37800;
+  font-weight: bold;
+}
+
+#j-receive-success-tip .ui-tipbox-content {
+  margin: 40px 90px 35px 140px;
+}
+#j-receive-success-tip .ui-sub-box{
+  padding: 30px 0 50px 140px;
+}
+#j-receive-success-tip .ui-tipbox-title{
+  line-height: 20px;
+}
+#j-receive-success-tip .ui-tipbox-title-last{
+  margin-bottom: 8px;
+}
+#j-receive-success-tip .ui-sub-box .ui-exp-btn{
+  margin-right: 18px;
+}
+#j-receive-fail-tip .ui-tipbox .ui-tipbox-icon{
+  left: 75px;
+}
+#j-receive-fail-tip .ui-tipbox-content {
+  margin: 40px 150px 35px 115px;
+}
+</style>     
+ 
+        <a id="donow" class="jui-btn jui-btn-blue" href="https://yebprod.alipay.com/yeb/asset.htm" seed="grid990-donow" smartracker="on">进入我的余额宝</a> 
+<div class="wid100" id="whatBao">
+  <div class="grid-990">
+    <div id="goNow">
+      <ul>
+        <li>余额宝是支付宝打造的余额理财服务。</li>
+        <li>把钱转入余额宝即购买了由天弘基金提供的<a href="https://help.alipay.com/lab/help_detail.htm?help_id=257306" target="_blank" seed="wid1002-link" smartracker="on">天弘余额宝货币市场基金</a>，可获得收益。</li>
+        <li>余额宝内的资金还能随时用于网购支付，灵活提取。</li>
+      </ul>
+      <a id="exNow" href="https://yebprod.alipay.com/yeb/purchase.htm" target="_blank" seed="goNow-exNow" smartracker="on">即刻体验</a>
+    </div>
+    <div id="finger"> </div>
+    <div id="triangleUp"> </div>
+  </div>
+</div>
+<!-- CMS:yebprod cms库/INFO/commonIndex开始:yebprod/info/commonIndex.vm -->    <style>
+#firstLi ul {
+width: 400px;
+}
+  </style>
+<div class="wid100" style="position: relative;">
+  <div class="grid-990">
+    <div id="detail">
+      <div id="whenGet">
+        <p>现在转入，<a id="whichDay" href="https://help.alipay.com/lab/help_detail.htm?help_id=257308" target="_blank" seed="whenGet-whichDay" smartracker="on">本周四</a>即可显示收益</p>
+      </div>
+      <div id="calcGet">
+        <div class="isnan" tabindex="-1"></div>
+        <div class="overmax" tabindex="-1"></div>
+        <div class="overmin" tabindex="-1"></div>
+        <ul>
+          <li id="calcGet-input"><input id="allMoney" value="10000" type="text" seed="calcGetInput-allMoney" smartracker="on"></li>
+          <li id="calcGet-a">
+            <a href="javascript:void(0);" id="check" seed="calcGetA-check" smartracker="on">计算收益</a>
+          </li>
+          <li id="calcGet-show">
+            <p>一天收益：</p>
+            <h3><strong id="oneday">1.13</strong><span>元</span></h3>
+          </li>
+          <li>
+
+          </li>
+        </ul>
+        <p id="calcGet-text">参照昨日(<span id="yestoday">2018-01-08</span>)收益计算<br>如遇国家法定假期，基金公司不进行份额确认</p>
+      </div>
+      <div id="highGet">
+        <h4><a href="http://www.thfund.com.cn/fundinfo/000198" target="_blank" seed="pdleft60-linkT1" smartracker="on">历史收益详情</a></h4>
+        <p>注：*数据来源：天弘基金。货币基金不等同于银行存款，过往业绩不预示其未来表现，市场有风险，投资需谨慎。</p>
+      </div>
+      <div id="payout">
+        <h3>账户交易风险实时监控，账户资金<br>由保险公司保障，<strong>极速赔付</strong></h3>
+      </div>
+      <div id="freely">起步价1元 <strong></strong>随时消费或转出</div>
+      <h3 id="sevenRate">七日年化收益率(<span id="today">2018-01-08</span>)：<strong id="nianhuashouyilv">4.2240</strong><strong>%</strong></h3>
+    </div>
+  </div>
+</div>
+<div class="wid100" id="join">
+  <div class="grid-990">
+    <ul id="goJoin">
+      <li id="firstLi">
+        <p>截至到目前已有</p>
+        <ul>
+          <li>2</li>
+          <li>6</li>
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+          <li>0</li>
+        </ul>
+        <h3>聪明的小伙伴加入！</h3>
+      </li>
+      <li id="secondLi">
+        <a href="https://yebprod.alipay.com/yeb/purchase.htm" target="_blank" seed="secondLi-link" smartracker="on">加入我们吧！</a>
+      </li>
+      <li id="thirdLi"></li>
+    </ul>
+  </div>
+</div>
+<div class="wid100 main">
+  <div class="wid1002 main_con"><div class="question">
+    <ul class="fn-clear quesHead">
+      <li class="current"><a href="javascript:void(0)" seed="current-link" smartracker="on"><span>收益</span></a></li>
+      <li><a href="javascript:void(0)" seed="quesHead-link" smartracker="on"><span>安全</span></a></li>
+      <li><a href="javascript:void(0)" seed="quesHead-linkT1" smartracker="on"><span>转入</span></a></li>
+      <li><a href="javascript:void(0)" seed="quesHead-linkT2" smartracker="on"><span>转出(或消费）</span></a></li>
+    </ul>
+    <ul class="fn-clear quesCon">
+      <li class="current">
+        <h3>什么时候能看到收益到账？</h3>
+        <p>转入资金在基金公司确认份额的第2天可以看到收益，点此查看详情。 <a href="https://help.alipay.com/lab/help_detail.htm?help_id=257308" target="_blank" seed="current-linkT1" smartracker="on">收益介绍</a></p>
+        <p>*如遇国家法定假期，基金公司不进行份额确认，以实际收益时间为准。</p>
+        <h3>每天的收益是怎么计算的？</h3>
+        <p>当日收益=（余额宝已确认份额的资金/10000 ）X 每万份收益。假设您已确认份额的资金为9000元，当天的每万份收益为1.25元，代入计算公式，您当日的收益为：1.13元。</p>
+        <h3>余额宝的收益结算有什么规则？</h3>
+        <p>余额宝的收益每日结算，每天下午15:00左右前一天的收益到账。您用余额宝消费或转出的那部分资金，当天没有收益。</p>
+        <a target="_blank" href="https://help.alipay.com/lab/234578-236168/0-236168.htm" class="more" seed="current-more" smartracker="on">更多余额宝问题</a>
+      </li>
+      <li>
+        <h3>余额宝的收益及风险如何？</h3>
+        <p>余额宝是支付宝为用户推出的基金支付及信息展示等服务。把资金转入余额宝即为向基金公司等机构购买相应金融产品。余额宝首期支持的是天弘基金管理有限公司管理并销售的天弘余额宝货币市场基金（基金代码：000198），主要用于投资国债、银行存款等有价证券。投资者购买货币市场基金并不等于将资金作为存款存放在银行或者存款类金融机构，基金公司不保证基金一定盈利，也不保证最低收益。</p>
+        <h3>余额宝被盗有赔付吗？</h3>
+        <p>转入余额宝资金由保险公司承保最高100万，极速赔付。</p>
+        <h3>余额宝都在手机操作，手机丢了怎么办？</h3>
+        <p>立即挂失手机号并联系支付宝客服95188冻结支付宝账户。</p>
+        <a target="_blank" href="https://help.alipay.com/lab/234578-236168/0-236168.htm" class="more" seed="quesCon-more" smartracker="on">更多余额宝问题</a>
+      </li>
+      <li>
+        <h3>余额宝转入有金额限制吗？</h3>
+        <p>用余额转入余额宝无额度限制，用借记卡快捷转入余额宝不同银行额度不同,以收银台提示限额为准。</p>
+        <h3>我可以用借记卡网银方式给余额宝转钱吗？</h3>
+        <p>不支持，请先开通借记卡快捷，再转入余额宝。</p>
+        <h3>可以设置自动转入余额宝吗？</h3>
+        <p>可以，请见<a href="https://help.alipay.com/lab/help_detail.htm?help_id=380869" target="_blank" seed="quesCon-link" smartracker="on">自动转入余额宝开通流程</a></p>
+        <a target="_blank" href="https://help.alipay.com/lab/234578-236168/0-236168.htm" class="more" seed="quesCon-moreT1" smartracker="on">更多余额宝问题</a>
+      </li>
+      <li>
+        <h3>转出到支付宝余额有额度限制吗？</h3>
+        <p>余额宝转出到余额实时到账：单笔100万元，单日100万元，单月100万元。</p>
+        <p>温馨提示：余额宝转出至支付宝余额不与余额宝消费共享额度。</p>
+        <h3>余额宝转出至银行卡有次数和额度限制吗？</h3>
+        <p>一个账户一天最多可操作3次转出至银行卡。限额如下：1、转出到储蓄卡快捷：单笔/日累计100万元；2、实时提现的额度：中信（柜台签约：最高1万元/笔/日；个人网银签约：最高5000元/笔/日（文件证书）、1万元/笔/日（移动证书）；个人网银无证书用户发起签约：最高200元/笔/日）、光大（最高5000元/笔/日）、平安（最高5000元/笔/日）、招行（最高5万元/笔/日）</p>
+        <h3>余额宝转出至银行卡到账时间？</h3>
+        <p>余额宝提供快速到账和普通到账两种服务，两者到账时间会有差异，<a href="https://cshall.alipay.com/lab/help_detail.htm?help_id=261939" target="_blank" seed="quesCon-linkT1" smartracker="on">点此查看详情</a>。</p>
+        <h3>余额宝消费和转出当天有收益吗？</h3>
+        <p>购物消费支付和快速到账（实时到账和2小时内到账）的资金当天起没有收益。普通到账资金自资金到账日起没有收益。</p>
+
+        <a target="_blank" href="https://help.alipay.com/lab/234578-236168/0-236168.htm" class="more" seed="quesCon-moreT2" smartracker="on">更多余额宝问题</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</div>	<script type="text/javascript">
+
+seajs.use(["$",'alipay/xbox/1.1.2/xbox'], function(JQ,Xbox) {
+
+    
+    JQ(function(){
+       
+        var nianhuashouyilv=4.2240; 
+        JQ(".nianhuashouyilv").text(nianhuashouyilv.toFixed(4,10));
+      
+
+
+        
+
+        //根据每万份收益计算每天，每30天，每365天收益
+        var isnan =new Xbox({
+            trigger: '.isnan',
+            width:'500px',
+            content:'温馨提示：请输入合法的数字。'
+        });
+        var overmax =new Xbox({
+            trigger: '.overmax',
+            width:'500px',
+            content:'温馨提示：余额宝转入金额需低于100万。请重新输入金额。'
+        });
+        var overmin =new Xbox({
+            trigger: '.overmin',
+            width:'500px',
+            content:'建议输入100元以上的金额（注：如余额宝金额太低，当天收益低于0.01元无法正常发放）。'
+        });
+
+
+
+        var meiwanfenshouyi=1.1266;
+
+        
+       var calculate=function(meiwanfenshouyi){
+            var onedayshouyi;
+            var allmoney = JQ("#allMoney").val();
+            if(isNaN(allmoney)){
+                JQ(".isnan").click();
+                return;
+            }else if(allmoney > 1000000){
+                JQ(".overmax").click();
+                return;
+            }else if(100 > allmoney){
+                JQ(".overmin").click();
+                return;
+            }
+            onedayshouyi=((allmoney/10000)*meiwanfenshouyi).toFixed(2,10);
+            JQ("#oneday").text(onedayshouyi);
+        }
+        calculate(meiwanfenshouyi);
+        JQ("#check").click(function(){
+            calculate(meiwanfenshouyi);
+        })
+
+        
+        JQ('#allMoney').click(function(){
+            var textarea = JQ(this).get(0);
+
+            if(textarea.setSelectionRange){
+                textarea.setSelectionRange(0, textarea.value.length);
+            }else{
+                var range = textarea.createTextRange();
+                range.collapse(true);
+                range.moveStart('character',0);
+                range.moveEnd('character',textarea.value.length);
+                range.select();
+            }
+            textarea.focus();
+        })  
+          
+          
+          
+          
+          //根据客户端时间计算显示收益时间
+        var index = 0,
+            when = ['下周二', '下周三', '本周四', '本周五', '本周六'],
+            date = new Date().getDay(),
+            isBelow =   15 > new Date().getHours() ;
+        switch(date){
+            case 1:
+                index = isBelow ? 1 : 2;
+                break;
+            case 2:
+                index = isBelow ? 2 : 3;
+                break;
+            case 3:
+                index = isBelow ? 3 : 4;
+                break;
+            case 4:
+                index = isBelow ? 4 : 0;
+                break;
+            case 5:
+                index = isBelow ? 0 : 1;
+                break;
+            default :
+                index = 1;
+        }
+        JQ('#whichDay').html(when[index]);
+        //计算结束
+
+
+        //四大类问题切换
+        JQ(".quesHead li").each(function(i,item){
+            JQ(item).hover(function(){
+                JQ(this).addClass("current").siblings("li").removeClass("current");
+                JQ(".quesCon li").removeClass("current").eq(i).addClass("current");
+            })
+
+        })
+        //四大类问题切换结束
+    });
+})
+</script>  <!-- CMS:yebprod cms库/INFO/commonIndex结束:yebprod/info/commonIndex.vm -->	<div class="fn-hide">
+    <div id="j-receive-exp-tip">
+    <div class="ui-dialog-container">
+      <div class="ui-tipbox ui-tipbox-success">
+        <div class="ui-tipbox-icon">
+          <i class="iconfont" title="成功"></i>
+        </div>
+        <div class="ui-tipbox-content">
+          <h3 class="ui-tipbox-title">恭喜您获得了领取余额宝体验金特权。</h3>
+        </div>
+      </div>
+      <div class="ui-sub-box">
+        <p class="ui-tipbox-explain">马上领取，连续<span class="ui-stress-text">天</span>的余额宝收益都归你啦！</p>
+        <button class="ui-button ui-button-lorange j-receive-btn" seed="jReceiveExpTip-jReceiveBtn" smartracker="on">马上领取</button>
+      </div>
+    </div>
+  </div>
+    <div id="j-receive-success-tip">
+    <div class="ui-dialog-container">
+      <div class="ui-tipbox ui-tipbox-success">
+        <div class="ui-tipbox-icon">
+          <i class="iconfont" title="成功"></i>
+        </div>
+        <div class="ui-tipbox-content">
+          <h3 class="ui-tipbox-title">恭喜你成功领取<span class="ui-stress-text">元</span>体验金。</h3>
+          <h3 class="ui-tipbox-title ui-tipbox-title-last">收益将从明天开始发放，持续<span class="ui-stress-text">天</span>。</h3>
+          <p class="ui-tipbox-explain">体验结束后元体验金将收回，但全部收益会以余额宝红包形式一次性发放到你账户。</p>
+          <p class="ui-tipbox-explain">你也可现在<a href="/fund/purchase.htm" seed="jReceiveSuccessTip-link" smartracker="on">转入资金</a>，提前结束体验即可领取<span class="ui-stress-text">天收益</span>。</p>
+        </div>
+      </div>
+      <div class="ui-sub-box">
+        <a href="/fund/purchase.htm" class="ui-button ui-button-lorange ui-exp-btn" seed="jReceiveSuccessTip-linkT1" smartracker="on">立即转入</a>
+        <a href="javascript:void(0)" class="j-transfer-know" seed="jReceiveSuccessTip-jTransferKnow" smartracker="on">知道了</a>
+      </div>
+    </div>
+  </div>
+    <div id="j-receive-fail-tip">
+    <div class="ui-dialog-container">
+      <div class="ui-tipbox ui-tipbox-error">
+        <div class="ui-tipbox-icon">
+          <i class="iconfont" title="出错"></i>
+        </div>
+        <div class="ui-tipbox-content">
+          <h3 class="ui-tipbox-title">抱歉，领取失败，您暂时无法参加本次活动。</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="j-transfer-wait-tip">
+    <div class="ui-tipbox ui-tipbox-wait">
+      <div class="ui-tipbox-icon">
+        <i class="iconfont" title="等待"></i>
+      </div>
+      <div class="ui-tipbox-content">
+        <h3 class="ui-tipbox-title">玩命转入中，请稍后...</h3>
+      </div>
+    </div>
+  </div>
+    <div id="j-transfer-tip">
+    <div class="ui-dialog-container">
+      <div class="ui-tipbox ui-tipbox-success">
+        <div class="ui-tipbox-icon">
+          <i class="iconfont" title="成功"></i>
+        </div>
+        <div class="ui-tipbox-content">
+          <h3 class="ui-tipbox-title">余额宝体验活动已结束，<span class="ui-stress-text">天</span>共收获收益<span class="ui-stress-text">元</span>，</h3>
+          <h3 class="ui-tipbox-title ui-tipbox-title-last">已通过余额宝红包形式发放给您。</h3>
+        </div>
+      </div>
+      <div class="ui-sub-box">
+        <button class="ui-button ui-button-lorange ui-exp-btn j-transfer-btn" seed="jTransferTip-jTransferBtn" smartracker="on">将红包转入我的余额宝</button>
+        <a href="javascript:void(0)" class="j-transfer-know" seed="jTransferTip-jTransferKnow" smartracker="on">知道了</a>
+      </div>
+    </div>
+  </div>
+    <div id="j-transfer-noSign-tip">
+    <div class="ui-dialog-container">
+      <div class="ui-tipbox ui-tipbox-success">
+        <div class="ui-tipbox-icon">
+          <i class="iconfont" title="成功"></i>
+        </div>
+        <div class="ui-tipbox-content">
+          <h3 class="ui-tipbox-title">余额宝体验活动已结束，<span class="ui-stress-text">天</span>共收获收益<span class="ui-stress-text">元</span>，</h3>
+          <h3 class="ui-tipbox-title ui-tipbox-title-last">已通过余额宝红包形式发放给您。</h3>
+        </div>
+      </div>
+      <div class="ui-sub-box">
+        <p class="ui-tipbox-explain">请先开通余额宝账户，再将红包转入。</p>
+        <button class="ui-button ui-button-lorange ui-exp-btn j-transfer-btn" seed="jTransferNoSignTip-jTransferBtn" smartracker="on">同意协议并使用红包</button>
+        <p class="ui-tipbox-agree"><a href="https://help.alipay.com/lab/help_detail.htm?help_id=258162" target="_blank" seed="miCheckboxLabel-J_alipayServicesProtocol0" smartracker="on">《余额宝服务协议》</a><a href="https://help.alipay.com/lab/help_detail.htm?help_id=262192" target="_blank" title="《天弘基金管理有限公司网上交易直销自助式前台服务协议》" seed="miCheckboxLabel-J_alipayServicesProtocol1" smartracker="on">《天弘基金管理有限公司网上...》</a></p>
+      </div>
+    </div>
+  </div>
+
+    <div id="j-transfer-success-tip">
+    <div class="ui-dialog-container">
+      <div class="ui-tipbox ui-tipbox-success">
+        <div class="ui-tipbox-icon">
+          <i class="iconfont" title="成功"></i>
+        </div>
+        <div class="ui-tipbox-content">
+          <h3 class="ui-tipbox-title">恭喜您，体验活动收益已经成功转入您的余额宝。</h3>
+        </div>
+      </div>
+      <div class="ui-sub-box">
+        <a class="ui-button ui-button-lorange" href="/fund/asset.htm" seed="jTransferSuccessTip-link" smartracker="on">立即查看</a>
+      </div>
+    </div>
+  </div>
+
+    <div id="j-transfer-fail-tip">
+    <div class="ui-dialog-container">
+      <div class="ui-tipbox ui-tipbox-question">
+        <div class="ui-tipbox-icon">
+          <i class="iconfont" title="出错"></i>
+        </div>
+        <div class="ui-tipbox-content">
+          <h3 class="ui-tipbox-title">哎呀，转入情况未知，去<a href="/fund/asset.htm" seed="jTransferFailTip-link" smartracker="on">查看</a>。</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>	<script>
+  seajs.use('financeprod/fundExp/1.0.0/fundExp', function (fundExp){
+    fundExp.init();
+  });
+</script><style>
+	.ui-footer {
+  text-align: center;
+}
+	</style><!-- CMS:yebprod cms库/INFO/新首页结束:yebprod/info/newIndex.vm -->    
+	
+
+
+
+
+ 
+	 <div class="ui-footer fn-clear">
+        <div class="ui-footer-ctn">
+			  <!-- CMS:全站公共 cms/foot/links.vm开始:alipay/foot/links.vm --><div class="ui-footer-link">
+      <a href="https://job.alibaba.com/zhaopin/index.htm" target="_blank" seed="foot-1">诚征英才</a>  
+           <em class="ui-separator">|</em>
+       <a seed="foot-2" href="https://ab.alipay.com/i/lianxi.htm" title="联系我们" target="_blank">联系我们</a>
+           <em class="ui-separator">|</em>
+       <a seed="foot-3" href="https://global.alipay.com/" title="International Business" target="_blank">International Business</a>
+      </div><!-- CMS:全站公共 cms/foot/links.vm结束:alipay/foot/links.vm -->            <div class="ui-footer-copyright">
+				  <!-- FD:231:alipay/foot/copyright.vm:START --><!-- FD:231:alipay/foot/copyright.vm:2604:foot/copyright.schema:支付宝copyright:START -->
+<style>
+.copyright,.copyright a,.copyright a:hover{color:#808080;}
+</style>
+<div class="copyright">
+      <a href="https://fun.alipay.com/certificate/jyxkz.htm" target="_blank" seed="copyright-link" smartracker="on">ICP证：沪B2-20150087</a>
+  </div>
+<div class="server" id="ServerNum">
+  yebprod-30-5135 &nbsp; 0a3599d815154790895352623116592_0
+</div>
+<!-- FD:231:alipay/foot/copyright.vm:2604:foot/copyright.schema:支付宝copyright:END --><!-- FD:231:alipay/foot/copyright.vm:END -->           </div>
+        </div>
+    </div>
+
+ 
+                     
+                    
+ 
+<!-- uitpl:/component/tracker.vm -->
+<!-- FD:106:alipay/tracker/tracker.vm:START --><!-- FD:106:alipay/tracker/tracker.vm:785:tracker.schema:全站自动化/性能/敏感信息打点开关:START -->
+
+
+
+<script type="text/javascript">
+window.Smartracker && Smartracker.sow && Smartracker.sow();
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+window.agp_custom_config = {
+  BASE_URL: '//kcart.alipay.com/p.gif',
+  TIMING_ACTION_URL: '//kcart.alipay.com/x.gif'
+}
+
+</script>
+<script charset="utf-8" src="https://as.alipayobjects.com/g/component/timing/1.0.0/index.js"></script>
+
+
+
+
+
+<!-- FD:106:alipay/tracker/sai.vm:START --><script>
+    sensScanConfig={
+        ratio: 0.01,
+        modules: '*',
+        types: '*'
+      };
+</script>
+
+<script src="https://as.alipayobjects.com/g/alipay_security/monitor-sens/1.0.1/monitor-sens.min.js"></script>
+<!-- FD:106:alipay/tracker/sai.vm:END -->
+
+
+
+<!-- FD:106:alipay/tracker/cmsbuffer.vm:START --><!-- FD:106:alipay/tracker/cmsbuffer.vm:997:cmsbuffer.schema:main-CMS全站修复:START -->
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+<script>
+try {
+  (function() {
+  var logServer = 'https://magentmng.alipay.com/m.gif';
+  var sample = 0.0001;
+  var url = "https://a.alipayobjects.com/http-watch/1.0.7/index.js";
+
+  // 判断比例
+  if (!!window.addEventListener && Array.prototype.map && Math.random() < sample) {
+    var HEAD = document.head || document.getElementsByTagName('head')[0];
+
+    var spt = document.createElement('script');
+    spt.src = url;
+    HEAD.appendChild(spt);
+
+	setTimeout(function() {
+	  window.httpWatch && window.httpWatch({ sample: 1, appname: 'yebprod-30-5135', logServer: logServer });
+	}, 1000);
+  }
+  })();
+} catch(e) {}
+</script>
+
+
+
+<script src="https://as.alipayobjects.com/component/console-security-message/1.0.1/index.js"></script>
+<!-- FD:106:alipay/tracker/cmsbuffer.vm:997:cmsbuffer.schema:main-CMS全站修复:END -->
+<!-- FD:106:alipay/tracker/cmsbuffer.vm:END --><!-- FD:106:alipay/tracker/tracker.vm:785:tracker.schema:全站自动化/性能/敏感信息打点开关:END -->
+<!-- FD:106:alipay/tracker/tracker.vm:END -->    	
+
+
+
+                                                                                                                                                                                                                                        
+    <!-- FD:174:alipay/foot/cliveService.vm:START --><!-- FD:174:alipay/foot/cliveService.vm:1261:cliveService.schema:在线客服配置:START -->
+    <div style="display:none">onlineServer</div>
+    <script type="text/javascript">
+    try {
+        (function () {
+            var loadOnlineServer = function() {
+                seajs.config({
+                    comboExcludes: /\/u\/(js|css|cschannel|ecmng)\//,
+                    alias: {
+						'$': 'jquery/jquery/1.7.2/jquery',
+                        'onlineServerConfig': 'https://os.alipayobjects.com/rmsportal/iwBOQWtuJpTikoO.js',
+                        'portalServerConfig': 'https://os.alipayobjects.com/rmsportal/FiPHyRpEbxSvFkDoPXIQ.js',
+                        'merchantServerConfig': 'https://gw.alipayobjects.com/os/cschannel/ROSbqecAeWjCcMstPokt.js',
+                        'customerServerConfig': 'https://gw.alipayobjects.com/os/cschannel/eKIrsHTTgHXrEJIaDKxq.js',
+			'koubeiServerConfig': 'https://gw.alipayobjects.com/os/cschannel/aYbyUVaggcvAcFBRwpIF.js',
+			'defaultDataConfig': 'https://a.alipayobjects.com/u/js/201311/1acIoVU1Xx.js',
+                        'onlineServerJS': 'https://gw.alipayobjects.com/os/rmsportal/eOnmwZwLDksWkFpQCMoM.js',//云客服匹配
+                        'onlineServerCSS': 'https://os.alipayobjects.com/rmsportal/OgPAgbONDiKhITIVYmdn.css'//云客服通用样式
+                    }
+                });
+                seajs.use(['onlineServerConfig', 'portalServerConfig','merchantServerConfig','koubeiServerConfig', 'customerServerConfig'], function(){
+                    jQuery(function(){
+                        window.OS = OS = {},
+                        OS.server = {
+                            cliveServer: 'https://clive.alipay.com',
+                            cschannelServer: 'https://cschannel.alipay.com',
+                            initiativeServer: 'https://webpushgw.alipay.com',
+			    cshallServer: 'https://cshall.alipay.com'
+                        },
+                        OS.params = {
+                            'uid': ''
+                        };
+			var tradeNos4Clive = '' || '';
+			OS.params.featureStr = "{'tradeNos':'" + tradeNos4Clive + "'}";
+                        OS.config = {
+                            onlineServerURL: OS.server.cliveServer + '/csrouter.htm',
+                            portalServerURL: OS.server.cschannelServer + '/csrouter.htm',
+			    newPortalServerURL: OS.server.cschannelServer + '/newPortal.htm',
+                            webpushFlashURL: 'https://t.alipayobjects.com/tfscom/T1JsNfXoxiXXXXXXXX.swf',
+                            onlineServerIconDefault: 'https://a.alipayobjects.com/u/css/201401/1v9cu1dxaf.css' //在线客服默认图片
+                        };
+                        seajs.use('onlineServerCSS');
+                        seajs.use('onlineServerJS');
+                    });
+                });
+            }
+            var bindOnlineServer = function(func){
+                var w = window;
+                if (w.attachEvent) {
+                    w.attachEvent('onload', func);
+                } else {
+                    w.addEventListener('load', func, false);
+                }
+            };
+            window.initOnlineServer = function() {
+                var w = window, o = 'seajs', d = document;
+                if(w[o]) { return loadOnlineServer() }
+                var s = d.createElement("script")
+                s.id = o + "node"
+                s.charset = "utf-8";
+                s.type = "text/javascript";
+                s.src = "https://a.alipayobjects.com/??seajs/seajs/2.1.1/sea.js,jquery/jquery/1.7.2/jquery.js";
+                var head = d.head || d.getElementsByTagName( "head" )[0] || d.documentElement;
+                head.appendChild(s);
+                s.onload = s.onreadystatechange = function(){ if (!s.readyState || /loaded|complete/.test(s.readyState)) { loadOnlineServer() } };
+            };
+            if (!window.isLazyLoadOnlineService) {
+                bindOnlineServer(initOnlineServer);
+            };
+        })();
+    } catch (e) {
+        window.console && console.log && console.log(e);
+        window.Tracker && Tracker.click('onlineServer-error-init-' + e);
+    }
+    </script>
+<!-- FD:174:alipay/foot/cliveService.vm:1261:cliveService.schema:在线客服配置:END -->
+
+<!-- FD:174:alipay/foot/cliveService.vm:END -->
+
+<div id="onlineService" style="top:228px;right:0" seed="online-service" data-sourceid="scene_461"><a href="javascript:void(0)" seed="" style="position:relative;display:inline-block;"><img style="display: block;" src="https://i.alipayobjects.com/e/201401/1tdi7nR70h.png"><span title="关闭" class="J-close-online-service-trigger" style="position: absolute;right:5px;top:-12px;font-size:14px;background:#eee;padding:1px 2px;border-radius:3px;font-family:simsun;line-height: normal;color: #AC593F;" seed="pcportal_close_icon_trigger">×</span></a></div></body></html>

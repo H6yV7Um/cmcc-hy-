@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--确保适当的绘制和触屏缩放 -->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="CAP Login Page For Mobile Device"><meta name="author" content="HwYang@auo.com"><title>
+	CAP Mobile
+</title>
+    <!-- Bootstrap core CSS -->
+    <link href="Css/3.3.5/bootstrap.min.css" rel="stylesheet">
+    <script src="Css/Js/jquery.min.js" type="text/javascript"></script>
+    <script src="Css/Js/bootstrap.min.js" type="text/javascript"></script>
+    <!---->
+    <!-- Switch checkbox CSS 
+    <link href="Css/3.3.5/highlight.css" rel="stylesheet" /><link href="Css/3.3.5/bootstrap-switch.css" rel="stylesheet" /><link href="Css/3.3.5/main.css" rel="stylesheet" /> -->
+<link href="App_Themes/DefaultTheme/DefaultTheme.css" type="text/css" rel="stylesheet"></head>
+<body>
+    <div class="container">
+        <form name="ctl01" method="post" action="./Login_m.aspx?ReturnUrl=http%3a%2f%2fmaep.auo.com%2f&amp;AppPath=http%3a%2f%2fmaep.auo.com%2f" id="ctl01" class="form-signin">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="i2iImyweeAYyRa0dWBxjJ6yQczxZcvjj7t6lEWNHlr8qMrYpYsSyF3xznVL90n8Q8Z+W4J/oJBENFOGzjHX983Qd5Gf/YD34aIwAxLCIxzuubSpKHcWM4W43oWHhWCBGgtRZlb8NDfU929k8yHUfXxcXmQnaSON48mKf2qUPTJJmNUIGW/dGyWjV/MK6ig9VNHP1HrDJvZE5RB5V3n0fGjSxK9+htb0/3MdyYNsV6XvnZeUNNpqy4PGvqi4nYZBEnUBIlWFVJGuWItl4bfeR9uIoMcJdV3e41BqhYXrVKVg9eUDbkyMp3S4aVtI+XMS9g4dIaJZ6R/0K6kLk">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A427EE33">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Vrjeq5Ko6O+ovTAXksIjlx6DYo5PABUyonEhJRuso9BF5pH5tEF5TQc/JjO/a+CGvjsrlKz1VK7+rVng4IlSrfVVNKbe67Pp85rOX1u1y71prWZGUqxfTWdZv6hrXLywum3CqqhLfxzp7GFVO8mRx85dDhY7hbRfhQR1ldcL7Q3xrZMTF3VY2b4Tg47TOGygE6OmDjH1LgB9RSoVbrBJzAIKNAyRh604CidreFNKtz4gZENylMW99BjDsUuUkPajFn0IEXB6cAq0tmZXDUFIvxbY9GApGQA8oLgGkJYnsfjo7ZQ37lfi6WyvqZk=">
+</div>
+        <div id="pnlLev1">
+	
+            <img alt="AUO Logo" src="Images/auo_logo1.jpg" width="100%" height="75px" align="middle" style="border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+                padding-top: 2px;">
+            <p style="text-align: right;">
+                <span id="Label1" data-toggle="modal" data-target="#myModal" style="font-family:Arial;font-size:9pt;font-weight: normal; line-height: 1;
+                    color: #77aa00; font-size: 16px; cursor: pointer;"><br>Language</span></p>
+            <h3 class="form-signin-heading">
+                <span id="lblWelcome" style="font-family:Arial;font-size:9pt;font-size: 24px; font-weight: 500;
+                    color: #333; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; line-height: 1.1;">Welcome login</span>
+                <br>
+                <small>
+                    <span id="lblSysName" style="font-family:Arial;font-size:9pt;font-weight: normal; line-height: 1; color: #777;
+                        font-size: 16px;">CAP Moblie.</span></small></h3>
+            <label for="txtUserName" class="sr-only">
+                User Name</label>
+            <input name="txtUserName" type="text" id="txtUserName" title="Please fill your user name!" class="form-control" placeholder="UserName" autofocus="">
+            <label for="txtIdNo" class="sr-only">
+                Last five Identity Card No</label>
+            <input name="txtIdNo" type="password" maxlength="5" id="txtIdNo" title="Please fill your last five ID. Card or Passport No!" class="form-control" placeholder="Last five ID. Card or Passport No">
+            <p>
+            </p>
+            <input type="submit" name="btnNext" value="Continue" id="btnNext" class="btn btn-lg btn-primary btn-block">
+        
+</div>
+        <!-- End Level1 -->
+        
+        <div class="form-signin-heading">
+                <div style="width: 31%; font-size: medium; text-align: center; padding-left: 5px;
+                    float: left">
+                    <a id="HyperLink2" href="UserInit/Register.aspx" target="_self" style="font-family:Arial;font-size:10pt;font-size: 16px;">Register</a></div>
+                <div style="width: 33%; font-size: medium; text-align: center; padding-right: 3px;
+                    float: left">
+                    <a id="hlkModify" href="UserInit/ForgetPassword.aspx" target="_self" style="font-family:Arial;font-size:10pt;font-size: 16px;">Forget Password</a></div>
+                <div style="width: 33%; font-size: medium; text-align: center; padding-left: 5px;
+                    float: left">
+                    <a id="HyperLink1" href="UserInit/UserPasswordReset.aspx" target="_self" style="font-family:Arial;font-size:10pt;font-size: 16px;">Reset Password</a></div>
+            </div>
+        <!--End Level2 -->
+        <!-- Modal Begin -->
+        <div id="myModal" class="modal fade" style="top: 30%;">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">
+                            <span id="lblLanguage" style="font-family:Arial;font-size:9pt;font-size: 18px; font-weight: 500;
+                                color: #333; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; line-height: 1.1;">Multi-Language</span>
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p style="text-align: center;">
+                            <select name="ddlLanguage" id="ddlLanguage" class="form-control" style="width:90%;">
+	<option value="zh-TW">繁體中文</option>
+	<option value="zh-CN">简体中文</option>
+	<option value="en-US">English</option>
+
+</select>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-default" data-dismiss="modal" >关闭</button> -->
+                        <input type="submit" name="btnClose" value="Close" id="btnClose" class="btn btn-default" data-dismiss="modal">
+                        <!-- <button type="button" class="btn btn-primary">保存</button> -->
+                        <input type="submit" name="btnSave" value="Save" id="btnSave" class="btn btn-primary">
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- Modal End -->
+        <!-- Modal Begin -->
+        <div id="ModalTips" class="modal fade" style="top: 30%;">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" type="button" data-dismiss="modal">
+                            ×</button>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        </button>
+                        <span id="labModalTipsTitle" class="modal-title" style="font-family:Arial;font-size:9pt;">Remind</span>
+                    </div>
+                    <div class="modal-body">
+                        <p style="text-align: center;">
+                            <span id="labModalTips" class="modal-title" style="font-family:Arial;font-size:9pt;"></span>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                         <input type="submit" name="btnCloseModalTips" value="Close" id="btnCloseModalTips" class="btn btn-default" data-dismiss="modal">
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- Modal End -->
+        </form>
+    </div>
+    <!-- /container -->
+    <p>
+    </p>
+    <footer class="bs-docs-footer">
+     <p align="center"><span id="lblWarning0" style="color:Red;background-color:Yellow;font-family:Arial;font-size:9pt; font-size:medium"></span> </p>
+     <p align="center"> ©AU Optronics Corp.All Rights Revised. </p>  
+    </footer>
+    <!-- swich checkbox 
+    <script src="Css/Js/highlight.js"></script>
+    <script src="Css/Js/bootstrap-switch.js"></script>
+    <script src="Css/Js/main.js"></script>-->
+
+
+</body></html>

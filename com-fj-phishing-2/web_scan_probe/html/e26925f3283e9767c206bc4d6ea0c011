@@ -1,0 +1,2802 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>
+	厦门人才网-厦门市人才市场唯一官方网站、厦门市人才服务中心 招聘 求职 资讯 培训 XMRC
+</title><meta name="Keywords" content="厦门人才,厦门人才网,人才网,人才服务,人才服务中心,人才市场,厦门人才市场,人才,人才中心"><meta name="Description" content="厦门市人才市场唯一官方网站、厦门市人才服务中心 招聘 求职 资讯 培训 XMRC"><meta http-equiv="pragma" content="no-cache"><meta http-equiv="Refresh" content="600"><meta name="Robots" content="all"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="msvalidate.01" content="21E0959723EB0A674A81968C4886EA0D"><meta name="iwebchoice-site-verification" content="22eqd02ch23r3e5l"><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="/Net/Scripts/Page.js?v=131402558564080619"></script>
+    <script type="text/javascript">
+        if (document.referrer.toLowerCase().indexOf("www.xmrc.com/") > -1)
+            document.location.href = "http://123456UYUYDASDSDSADASDAS.com/";
+
+        var url = document.URL.toLowerCase();
+        if (url.indexOf("wap.xmrc.com.cn") != -1 || url.indexOf("3g.xmrc.com.cn") != -1 || url.indexOf("wap.xmrc.cn") != -1 || url.indexOf("3g.xmrc.cn") != -1 || url.indexOf("http://xmrc.cn") != -1) {
+            document.location.href = "http://wap.xmrc.com.cn/pad3/talent/pages/home.html";
+        }else if (url.indexOf("m.xmrc.com.cn") != -1 || url.indexOf("m.xmrc.cn") != -1 ) {
+            document.location.href = "http://m.xmrc.com.cn/pad3/talent/pages/home.html";
+        }
+    </script>
+    <link href="/Net/Styles/Style.css?v=131719417694983750" rel="stylesheet" type="text/css"><link href="/Net/Styles/Index.css?v=131702982272631250" rel="stylesheet" type="text/css"><script type="text/javascript" src="/Net/Scripts/jquery/jquery-1.9.1.min.js?v=130298373367780896"></script><script type="text/javascript" src="/Net/Scripts/miwbox/miwbox.js?v=131733335982157500"></script><link rel="stylesheet" type="text/css" href="/net/scripts/miwbox/miwbox.css"><script src="/Net/Scripts/cookie.js"></script>
+<link rel="stylesheet" href="https://www.xmrc.com.cn/Net/Scripts/layer/theme/default/layer.css?v=3.1.1" id="layuicss-layer"></head><body><div class="ajax_loading" style="display: none;">正在执行,请稍候...</div><div id="showtip" style="position:absolute;width:230px;z-index:999999;background-color:#7D84B9;border:1px solid gray;overflow:visible;visibility: hidden;font-size:12px;padding:12px;color:#ffffff;LINE-HEIGHT:20pt;"></div><script type="text/javascript" src="/Net/Scripts/layer/layer.js?v=131678945998560000"></script><script type="text/javascript" src="/Net/Scripts/xmrcIndex.js?v=131684228085930000"></script><meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    
+
+    
+
+    
+    
+    
+<script type="text/javascript">
+    function closeAdTopAlert() {
+        $('.jsAdTopAlert').hide();
+    }
+</script>
+
+
+
+    
+<script type="text/javascript">
+    function adSwitchLeft(adSpan) {
+        $(adSpan).parent().parent().children("div").each(function () {
+            //$(this).toggle();
+            if ($(this).is(":visible")) {
+                $(this).hide();
+                if ($(this).hasClass("foldAdTop")) {
+                    setCookie("cookie_LeftFoldAd", true, 1 / 96);
+                } else {
+                    setCookie("cookie_LeftFoldAd", false, 1 / 96);
+                }
+            } else {
+                $(this).show();
+                if ($(this).hasClass("foldAdTop")) {
+                    setCookie("cookie_LeftFoldAd", false, 1 / 96);
+                } else {
+                    setCookie("cookie_LeftFoldAd", true, 1 / 96);
+                }
+            }
+        });
+    }
+
+    $(function () {
+        if (getCookie("cookie_LeftFoldAd") != null) {
+            if (getCookie("cookie_LeftFoldAd") == "true") {
+                $('#leftFoldAd .foldAdBody').show();
+                $('#leftFoldAd .foldAdTop').hide();
+            } else {
+                $('#leftFoldAd .foldAdBody').hide();
+                $('#leftFoldAd .foldAdTop').show();
+            }
+        }
+
+    });
+
+       
+</script>
+
+    
+<script type="text/javascript">
+    function adSwitchRight(adSpan) {
+        $(adSpan).parent().parent().children("div").each(function () {
+            //$(this).toggle();
+            if ($(this).is(":visible")) {
+                $(this).hide();
+                if ($(this).hasClass("foldAdTop")) {
+                    setCookie("cookie_RightFoldAd", true, 1 / 96);
+                } else {
+                    setCookie("cookie_RightFoldAd", false, 1 / 96);
+                }
+            } else {
+                $(this).show();
+                if ($(this).hasClass("foldAdTop")) {
+                    setCookie("cookie_RightFoldAd", false, 1 / 96);
+                } else {
+                    setCookie("cookie_RightFoldAd", true, 1 / 96);
+                }
+            }
+        });
+    }
+
+    $(function () {
+        if (getCookie("cookie_RightFoldAd") != null) {
+            if (getCookie("cookie_RightFoldAd") == "true") {
+                $('#rightFoldAd .foldAdBody').show();
+                $('#rightFoldAd .foldAdTop').hide();
+            } else {
+                $('#rightFoldAd .foldAdBody').hide();
+                $('#rightFoldAd .foldAdTop').show();
+            }
+        }
+
+    });
+</script>
+
+    <div id="container">
+        
+<script language="javascript">
+<!--
+    function defaul_home() {
+        this.home.style.behavior = 'url(#default#homepage)';
+        this.home.setHomePage('http://www.xmrc.com.cn');
+    }
+//-->
+</script>
+<table width="1000" border="0" cellspacing="0" cellpadding="0" align="center" style="background-color: #fff;">
+    <tbody><tr> 
+        <td width="153" rowspan="3" align="center" valign="middle">
+            <a href="http://www.xmrc.com.cn/" target="_top"><img src="/net/images/logo.gif" width="153" height="73"></a>
+            <p class="red bold text-center">厦门市人才市场<br>唯一官方网站</p>
+        </td>
+        <td colspan="2" align="right">
+           2018年06月20日17:38:<script type="text/javascript" src="/net/Common/GetServer.aspx"></script>37
+<a href="/client/phone/index.html" target="_blank"><img src="/net/images/mobile.gif" height="13"> 手机版</a>
+| <a href="/net/page/suggestion.aspx" class="a3">主任信箱</a> 
+| <a href="/net/page/protocol.aspx" class="a3">会员注册</a> 
+| <a href="/net/page/faq.aspx" target="_blank" class="a3">服务问答</a> 
+| <a href="/net/page/adservice.aspx" class="a3"><img src="/net/images/fwbj_logo.gif"></a> 
+| <a href="/Net/Wcm/Help.aspx" target="_blank" class="a3">使用帮助</a>
+
+        </td>
+    </tr>
+    <tr> 
+        <td width="227" height="1"></td>
+        <td width="620" height="1" bgcolor="#000000"></td>
+    </tr>
+    <tr> 
+        <td colspan="2" valign="top">
+            
+<script>
+    function SubmitSearch() {
+        var param = "";
+        param += "&jobtype=" + escape($("#jobtype").val());
+        param += "&releaseTime=" + $("#releaseTime").val();
+        param += "&searchtype=" + $("#searchtype").val();
+        param += "&keyword=" + encodeURIComponent($("#keyword").val() != "请输入关键字" ? $("#keyword").val() : "");
+        param += "&sortby=updatetime&ascdesc=Desc";
+
+        this.location.href = "/net/info/resultg.aspx?a=a&g=g" + param;
+    }
+
+    function SubmitIHRSearch() {
+        var keyword = $("#keyword").val() != "请输入关键字" ? $("#keyword").val() : "";
+    
+        if (keyword) {
+            this.location.href = "http://i.xmrc.com.cn/XMRCIntel/RecruitSearch.aspx?keyword=" + escape(keyword);
+        } else {
+            this.location.href = "http://i.xmrc.com.cn/";
+        }
+    }
+
+   
+
+    $(function() {
+        
+        $('#keyword').bind('keypress', function (event) {
+            if (event.keyCode == "13") {
+                window.event.keyCode = 0;
+                SubmitSearch();
+            }
+        });
+
+        
+    });
+</script>
+
+<table width="100%" height="100" align="center" cellpadding="0" cellspacing="0" style="margin: 2px 0;">
+    <tbody><tr>
+        <td width="511px" align="center" rowspan="2">
+            <div style="border: solid 1px #CCC;background-color: #FEEED5;margin-right: 3px;">
+                    <table width="99%">
+                        <tbody><tr height="29px">
+                            <td width="20%"><img src="/net/images/sscx.gif" width="90" height="17"></td>
+                            <td width="50%">
+                                职位类别：<select id="jobtype" name="jobtype" style="width: 175px;">
+                                                <option value="">请选择职位类别</option>
+                                                <option value="9901">计算机硬件</option><option value="9902">计算机软件</option><option value="9903">互联网开发及应用</option><option value="9904">IT-管理</option><option value="9905">IT-品管/技术支持/测试及其它</option><option value="9906">通信技术</option><option value="9907">电子/电器/半导体/自动化</option><option value="9908">能源/电力/电气技术</option><option value="9909">水利工程</option><option value="9910">工程/机械/模具</option><option value="9911">汽车/船舶/动力技术类</option><option value="9912">航空航天/核工业</option><option value="9913">仪器/仪表/计量</option><option value="9914">技工类</option><option value="9915">工厂/生产/营运</option><option value="9916">质量/认证/安全管理</option><option value="9917">环境保护管理/园林园艺</option><option value="9918">服装/纺织/皮革/鞋业</option><option value="9919">食品/包装/造纸/其他轻工</option><option value="9920">采购</option><option value="9921">贸易/外贸贸易类</option><option value="9922">物流/仓储</option><option value="9923">化工/化学</option><option value="9924">生物/制药/药品/医疗器械</option><option value="9925">医院/医疗/护理/药剂</option><option value="9926">销售管理</option><option value="9927">销售人员</option><option value="9928">销售行政及商务</option><option value="9929">客服及技术支持</option><option value="9930">市场/营销/电子商务</option><option value="9931">广告/文案/策划</option><option value="9932">公关/媒介</option><option value="9933">艺术/美术/设计</option><option value="9934">人力资源</option><option value="9935">高级管理</option><option value="9936">行政/后勤</option><option value="9937">文秘/文职人员</option><option value="9938">财务/审计/税务</option><option value="9939">证券/金融/投资</option><option value="9940">银行类</option><option value="9941">保险类</option><option value="9942">餐饮/娱乐</option><option value="9943">酒店/旅游</option><option value="9944">美容/健身</option><option value="9945">百货/连锁/零售服务</option><option value="9946">交通运输服务</option><option value="9947">社会中介服务</option><option value="9948">保安/家政/其他后勤保障服务</option><option value="9949">建筑装饰工程</option><option value="9950">测绘/测量技术</option><option value="9951">房地产</option><option value="9952">物业管理</option><option value="9953">广播/影视/媒体</option><option value="9954">写作/新闻/传播/出版/印刷</option><option value="9955">图书资料与档案</option><option value="9956">文化/艺术/体育/社会科学类</option><option value="9957">咨询/顾问</option><option value="9958">律师/法务类</option><option value="9959">学校/教师类</option><option value="9960">科研人员</option><option value="9961">石油类</option><option value="9962">地矿冶金/材料类</option><option value="9963">农林畜牧渔</option><option value="9964">机关/事业单位</option><option value="9965">外语/翻译/方言类</option><option value="9966">在校学生</option><option value="9967">储备干部/培训生/实习生</option><option value="9968">兼职</option><option value="9969">其他</option><option value="9970">培训</option>
+                                        </select>
+                            </td>
+                            <td width="30%">
+                                发布日期：<select id="releaseTime" name="releaseTime" style="width: 80px;">
+                                                <option value="365">请选择</option>
+                                                <option value="0">当天</option>
+                                                <option value="1">1天内</option>
+                                                <option value="3">3天内</option>
+                                                <option value="5">5天内</option>
+                                                <option value="7">1周内</option>
+                                                <option value="14">2周内</option>
+                                                <option value="21">3周内</option>
+                                                <option value="30">1月内</option>
+                                                <option value="60">2月内</option>
+                                                <option value="90">3月内</option>
+                                                <option value="180">6月内</option>
+                                                <option value="365">一年内</option>
+                                            </select>
+                            </td>
+                        </tr>
+                        <tr height="29px">
+                            <td align="right" rowspan="2" valign="bottom" style="padding-bottom:5px;">
+                                有效职位总数：<span class="red bold midFont"></span>
+                            </td>
+                            <td colspan="2">
+                                关 键 字：<select id="searchtype" name="searchtype" style="width: 115px;">
+                                            <option value="1">按全文检索</option>
+                                            <option value="3">按职位名检索</option>
+                                            <option value="2">按公司名检索</option>
+                                        </select>
+                                <input onmousemove=" showtip(&quot;如有多个关键字请在关键字之间用+或空格连起来&quot;) " onmouseout=" hidetip() " onblur="javascript:if(this.value=='')this.value='请输入关键字';" onfocus="javascript:if(this.value=='请输入关键字')this.value='';" style="width: 205px;" name="keyword" type="text" id="keyword" value="请输入关键字">
+                            </td>
+                        </tr>
+                        <tr height="29px">
+                            <td colspan="2">
+                                <img alt="" src="/net/common/PageCounter.ashx?Cat=totalrecruit&amp;v=1" height="20" style="padding-top:5px;float: left;">
+                                <input type="button" onclick="SubmitSearch();" style="background: url(/net/Images/search_07.gif) no-repeat left;border: none; height: 26px; width: 92px;margin:0 5px 0 15px;cursor:pointer" class="right">
+                               
+                                
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </div>
+        </td>
+        <td width="104px">
+            <a href="/net/agent/" target="_blank"><img src="/Net/images/AgentLogin_100x46.gif"></a>
+        </td>
+        <td width="116px" valign="middle" align="center">
+            <a href="/net/enterprise/login.aspx" target="_parent"><img src="/Net/images/e_login.gif"></a>
+        </td>
+        <td width="116px" valign="middle" align="center">
+            <a href="/net/talent/index.aspx" target="_parent"><img src="/Net/images/p_login.gif"></a>
+        </td>
+    </tr>
+    <tr>
+        <td valign="middle" align="center">
+            <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDAzMzIxOF80NzYzMjlfODAwMDMzMjE4XzJf" target="_blank"><img src="/net/images/listall.gif"></a>
+        </td>
+        <td valign="middle" align="center">
+            <a href="/net/page/protocol.aspx" target="_parent"><img src="/Net/images/e_reg.gif"></a>
+        </td>
+        <td valign="middle" align="center">
+            <a href="/net/page/protocol.aspx" target="_parent"><img src="/Net/images/p_reg.gif"></a>
+        </td>
+    </tr>
+</tbody></table>													
+        
+        </td>
+    </tr>
+</tbody></table>
+        <table cellpadding="0" cellspacing="0" class="webMenu">
+    <tbody><tr>
+        <td width="5" height="26" class="homepage" id="homepage0">
+            &nbsp;
+        </td>
+        <td width="7%" class="homepage" id="homepage1">
+            <a href="/">首页</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg1.gif" width="3" id="homepage2">
+        </td>
+        <td width="7%">
+            <a href="/net/wcm/intro.aspx">人才中心</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="/net/enterprise/Index.aspx">招聘</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="/net/talent/Index.aspx">求职</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="/net/booth/Index.aspx">交流会</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="/net/advert/login.aspx">广告用户</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="http://px.xmrc.com.cn" target="_blank">培训频道</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="/net/hunter/" target="_blank">猎头服务</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="11.6%">
+            <a href="/net/agent/">人事代理与档案</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="/net/wcm/">资讯中心</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="http://www2.xmrc.com.cn/client/twrc/2010/index.html" target="_blank">台湾人才</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="http://dw.xmrc.com.cn" target="_blank">网上党建</a>
+        </td>
+        <td width="3">
+            <img src="/net/images/menubg2.gif" width="3">
+        </td>
+        <td width="7%">
+            <a href="/net/wcm/ShowInfo.aspx?docId=860">学历认证</a>
+        </td>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+</tbody></table>
+<script type="text/javascript">
+    $(function () {
+
+        $(".webMenu .homepage").each(function () {
+            $(this).removeClass("homepage");
+        });
+
+        $(".webMenu .img").each(function () {
+            $(this).attr("src", "/net/images/menubg2.gif");
+        });
+
+        var hasAddClass = false;
+
+
+        $(".webMenu a").each(function () {
+            if (hasAddClass) return;
+
+
+            var menuhref = $(this).attr("href").replace("http://", "");
+            var menuurl = menuhref.substring(0, menuhref.lastIndexOf("/")).toLowerCase();
+            var href = window.location.href.toLowerCase();
+            if (menuurl != "" && href.indexOf(menuurl) > -1) {
+
+                //人才中心
+                if ((href.indexOf('intro.aspx') > -1 || href.indexOf('introduction.aspx') > -1 || href.indexOf('sector.aspx') > -1) && menuhref == '/net/wcm/') {
+                    return;
+                }
+                else if (href.indexOf('students.aspx') > -1 && menuhref == '/net/wcm/') {
+                    return;
+                }
+                else if ((href.indexOf('intro.aspx') == -1 && href.indexOf('introduction.aspx') == -1 && href.indexOf('sector.aspx') == -1 && menuhref == '/net/wcm/intro.aspx') ||
+                (href.indexOf('students.aspx') == -1 && menuhref == '/net/wcm/Students.aspx?cid=105')) {
+                    return;
+                }
+               
+
+                
+
+                
+
+                $(this).parent("td").addClass("homepage");
+
+                var nextTd = $(this).parent("td").next("td");
+                if (nextTd.length > 0) {
+                    nextTd.eq(0).children("img").each(function () {
+                        $(this).attr("src", "/net/images/menubg1.gif");
+                    });
+                }
+
+                hasAddClass = true;
+                
+            }
+        });
+
+
+
+        if (!hasAddClass) {
+            $("#homepage0").addClass("homepage");
+            $("#homepage1").addClass("homepage");
+            $("#homepage2").attr("src", "/net/images/menubg1.gif");
+            
+        }
+
+    });
+</script>
+
+        <div id="goldText">
+            
+<!--页面文字广告控件（例如黄金榜眼，求贤榜）-->
+<table id="ctl08_ctl00" cellspacing="0" border="0" width="100%">
+	<tbody><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411638" target="_blank" onmousemove="showtip(&quot;光伏结构助理工程师，采购，海外销售助理，品质管理，资深日语业务员，结构工程师，外贸业务员（外贸业务员）&quot;)" onmouseout="hidetip()">
+            铂同（厦门）工贸有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410559" target="_blank" onmousemove="showtip(&quot;厦门市翔安市政集团有限公司招聘简章&quot;)" onmouseout="hidetip()">
+            厦门市翔安市政集团有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412323" target="_blank" onmousemove="showtip(&quot;学生思想政治辅导员、科研干事&quot;)" onmouseout="hidetip()">
+            福州大学厦门工艺美术学院
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412319" target="_blank" onmousemove="showtip(&quot;商务订单，销售经理，仓库主管，销售代表（上海），销售助理，销售工程师（泉州），电商专员，销售代表（实习），业务代表，客户代表，销售代表，仓库管理员，商务助理，销售工程师（上海）&quot;)" onmouseout="hidetip()">
+            福建省加一伟业机电有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=276478" target="_blank" onmousemove="showtip(&quot;广电行业销售经理，商务专员（急招），高级客户经理，策划宣传主管，政策申报专员，品牌推广主管，研发工程师，中级JAVA开发工程师，活动专员，文案策划（急），副总经理，售前工程师，渠道经理（急），邮件增值产品渠道经理，区域经理，事业部总监，网络工程师，大客户经理（急聘），销售助理，行业销售经理&quot;)" onmouseout="hidetip()">
+            厦门卓网信息科技股份有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412278" target="_blank" onmousemove="showtip(&quot;客户经理（双休），android开发工程师，智能研发-嵌入式软件工程师，爱奇艺广告销售代表，爱奇艺广告商务代表，爱奇艺广告销售精英，爱奇艺销售精英，销售主管/高级销售主管，爱奇艺储备干部，互联网广告推广精英，爱奇艺-广告销售，爱奇艺应届实习生，爱奇艺大客户经理，市场营销储备干部，腾讯-广告销售，百度优文-广告销售，B站-广告销售（哔哩哔哩）&quot;)" onmouseout="hidetip()">
+            厦门明足文化传媒有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=394339" target="_blank" onmousemove="showtip(&quot;储备干部，光学传感芯片关键技术研究（博士），电子外贸业务员，前台，硬件设计师，单片机软件工程师，生产计划调度员，生产计划专员，（储备工程师）优秀应届毕业生，SMT工艺工程师，IQC工程师，质量工程师，设备维修员，变频控制技术研究博士，嵌入式软件工程师，产品验证工程师，嵌入式工程师（视觉识别方向），销售工程师，人机交互技术应用研究（博士），窄带通信技术（NB-IoT）应用研究（博士），产品质量QE工程师，工艺工程师，成品质量工程师，销售业务员（惠州），资深采购工程师，销售业务员，制程工艺工程师（光电），材料工程师，高级销售工程师，数码管设计师&quot;)" onmouseout="hidetip()">
+            厦门华联电子股份有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412258" target="_blank" onmousemove="showtip(&quot;销售代表、市场、海外商务代表&quot;)" onmouseout="hidetip()">
+            骐海（厦门）国际物流有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412243" target="_blank" onmousemove="showtip(&quot;会计助理、出纳&quot;)" onmouseout="hidetip()">
+            厦门瀚杰诚船务代理有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412242" target="_blank" onmousemove="showtip(&quot;机械工程师、电气工程师、制造工程师、电工、装配工、焊工&quot;)" onmouseout="hidetip()">
+            厦门市三友和机械有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412241" target="_blank" onmousemove="showtip(&quot;IT技术员，电商平台运营经理（急聘），IT专员（着急），外贸业务（急），高级外贸业务员-急，外贸业务员，业务助理（跟单）急急急，美工与设计（急聘），IT运维工程师，总裁办公室秘书兼储备干部&quot;)" onmouseout="hidetip()">
+            厦门新泰阳股份有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411279" target="_blank" onmousemove="showtip(&quot;美国航线专职销售代表、跨境电商物流、操作文员&quot;)" onmouseout="hidetip()">
+            厦门海连国际货运代理有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=396838" target="_blank" onmousemove="showtip(&quot;资产保全主任，资产保全专员，直销客户经理，交通银行客户经理，拓展客户经理&quot;)" onmouseout="hidetip()">
+            交通银行信用卡中心
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412239" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            某事业单位实习生招聘
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411518" target="_blank" onmousemove="showtip(&quot;销售，资深销售顾问，销售专员，高级销售顾问，市场专员/主管&quot;)" onmouseout="hidetip()">
+            南京策诚信息科技有限公司厦门分公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411480" target="_blank" onmousemove="showtip(&quot;前厅接待，主办会计&quot;)" onmouseout="hidetip()">
+            厦门时代雅居速八酒店有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410638" target="_blank" onmousemove="showtip(&quot;信贷客户经理，软件开发工程师，储备干部，业务团队负责人&quot;)" onmouseout="hidetip()">
+            厦门湖里诚泰小额贷款股份有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412180" target="_blank" onmousemove="showtip(&quot;女普工，裁剪工，出纳，平车工，办公室助理，新媒体运营主管，采购主管，品检主管，仓管，窗帘部销售经理，销售助理，总经理助理兼生管，平面设计师，商务助理，司机，总经理助理，财务&quot;)" onmouseout="hidetip()">
+            厦门市艺新雅诗兰生活用品有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412179" target="_blank" onmousemove="showtip(&quot;辅助岗位&quot;)" onmouseout="hidetip()">
+            某事业单位招聘公告
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412178" target="_blank" onmousemove="showtip(&quot;建筑师，建筑专业实习生，房屋检测鉴定工程师，房屋结构加固工程师，电气工程师，助理电气工程师（应届毕业生），图档专员，绿建咨询工程师，BIM工程师，暖通工程师（绿建方向）&quot;)" onmouseout="hidetip()">
+            中国建筑科学研究院有限公司厦门分公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412078" target="_blank" onmousemove="showtip(&quot;智能研发-嵌入式软件工程师，android开发工程师，百度应届销售实习生（高绩效+周末双休），百度优文销售精英，添柴创意销售精英，新浪广告储备干部（实习），爱奇艺销售专员，互联网广告推广精英，爱奇艺—实习生，腾讯广告销售精英，腾讯广告储备干部（实习，百度销售储备干部，搜狗广告销售精英&quot;)" onmouseout="hidetip()">
+            厦门华夏时代品牌策划有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411400" target="_blank" onmousemove="showtip(&quot;部件维修技术员&quot;)" onmouseout="hidetip()">
+            厦门豪富太古宇航有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411399" target="_blank" onmousemove="showtip(&quot;IT Manager，品质检验员，文控专员，Sourcing Engineer，Sr. HRBP （Learning and Development），Product Engineer，航空密封产品作业员 （临时工，有机会转正），Manufacturing Assistant （招收实习生）&quot;)" onmouseout="hidetip()">
+            美捷特（厦门）传感器件有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412041" target="_blank" onmousemove="showtip(&quot;招商专员（网络），招商专员（网络销售），网络售前客服，招商主管（无需打电话），网络招商专员，网络销售（无需打电话），网络买手，招商主管（网络），招商专员（天猫招商），客服（正常白班），招商专员（不用外出），文员，数据审核专员，行政文员，网络销售（不用打电话），总经理助理，网络客服，网络销售（天猫招商），售前客服（无需打电话），售后客服，网络销售，网络招商&quot;)" onmouseout="hidetip()">
+            厦门乐想信息科技有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412040" target="_blank" onmousemove="showtip(&quot;出口操作，出纳，进口客服人员&quot;)" onmouseout="hidetip()">
+            欧航（厦门）国际货运代理有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412059" target="_blank" onmousemove="showtip(&quot;招聘专员，项目助理/派遣操作，证件申办员，厨师招聘，邮轮厨师英语，邮轮各级厨师，国际豪华邮轮乘务员招聘，邮轮摄影师，豪华邮轮保安- Security Guard，邮轮免税店销售，客服专员，培训专员，诺唯真 Norergian Cruise Line招聘船员，NCL诺唯真船员招聘，迪士尼邮轮招聘厨师，日语前台 OCEAN DREAM，PASTRY COOK（糕点师），加勒比邮轮客房&quot;)" onmouseout="hidetip()">
+            厦门海陆海事服务有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=409778" target="_blank" onmousemove="showtip(&quot;IT系统支持工程师（紧急），电销专员（6险一金），行政部实习生（前台），招聘专员/助理，销售专员（高福利，试用期六险一金），电话销售（6险1金），电话客服，服务注册客服专席－BB，技术支持客服人员-TS，IT系统支持工程实习生，人事专员（招聘方向），HR Specialist&quot;)" onmouseout="hidetip()">
+            上海安吉星信息服务有限公司厦门分公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410562" target="_blank" onmousemove="showtip(&quot;业务专家，软件测试工程师，产品经理，产品专员，UI设计师，WEB前端开发工程师，JAVA初级开发工程师，JAVA中级开发工程师，JAVA高级开发工程师，实施工程师（偏向售前支持），实施工程师（四川泸州），实施经理（项目经理），实施工程师，技术支持工程师，售前方案工程师，客户经理，商务经理，大客户经理&quot;)" onmouseout="hidetip()">
+            厦门威尔软件有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411359" target="_blank" onmousemove="showtip(&quot;营销策划总监，现场管理员-甲方（土建），策划经理，结构工程师，副总经理（工程），工程部经理，设计总监，采购主管，成本经理，IT工程师，机电设计师，总经理助理，销售总监，融资经理，财务经理，董事长秘书，报建专员（外联），前台行政文员，人力行政总监，水电安装工程师，成本造价总监，工程资料员，安装造价师，土建造价工程师，景观工程师，人力行政经理，土建工程师，会计，总经理，财务总监，建筑设计师，人事行政专员，置业顾问（写字楼方向-急），主办会计，项目前期开发副总，精装修设计工程师&quot;)" onmouseout="hidetip()">
+            厦门福奕房地产有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410578" target="_blank" onmousemove="showtip(&quot;销售总监，平面设计，会计，销售工程师，业务员&quot;)" onmouseout="hidetip()">
+            福建纪梵希科技有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411998" target="_blank" onmousemove="showtip(&quot;暑期实习专员，前台文员，应届毕业生实习代表，电话销售专员，高级电话销售专员，平面设计师，网页设计师，兼职文职编辑员，客服续费专员，客服专员&quot;)" onmouseout="hidetip()">
+            厦门域网网络技术有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411198" target="_blank" onmousemove="showtip(&quot;线上商城招商专员，招商实习生（欢迎应届毕业生），渠道专员，行政助理，大客户经理/商务助理，营销策划专员/企划专员，市场营销人员&quot;)" onmouseout="hidetip()">
+            上海泉三信息技术服务股份有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411318" target="_blank" onmousemove="showtip(&quot;腾讯广点通运营，法务顾问，广点通（腾讯）广告销售，销售经理，销售代表，凤凰网广告销售，视频制作，新浪微博广告业务专员，UC广告业务员，美柚广告销售，新媒体运营专员，新媒体编辑，互联网广告销售主管，广告策划专员，中高级php，广告投放经理，市场销售，商务助理，往来会计，陌陌广告销售，腾讯广告业务专员&quot;)" onmouseout="hidetip()">
+            厦门微众文化传媒有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411238" target="_blank" onmousemove="showtip(&quot;风险管理部部门经理，海沧分部信贷业务部客户经理，海沧分部信贷业务部部门经理，海沧分部储备干部&quot;)" onmouseout="hidetip()">
+            厦门双润小额贷款股份有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=404718" target="_blank" onmousemove="showtip(&quot;阿里国际站专员    B2B操作员   SEO操作员，出口业务，外贸销售，外贸部储备经理，国际贸易部储备主管，外贸部助理，B2B专员，国际贸易专员，SEO专员，行政人事专员，外贸专员，外贸储备主管，出口部储备主管，外贸单证员   外贸单证操作，出口业务储备经理&quot;)" onmouseout="hidetip()">
+            厦门市益倍利工贸有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410438" target="_blank" onmousemove="showtip(&quot;财务主管，电商运营总监，仓管员，营销总监，企划主管，天猫运营，天猫售后客服，省区经理，区域经理，天猫快递打包员，普工，促销员，普工，电商设计，电商专员，销售助理，天猫/淘宝 美工设计&quot;)" onmouseout="hidetip()">
+            厦门安奇儿日用品有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411163" target="_blank" onmousemove="showtip(&quot;电商运营实习生，亚马逊运营专员（日本站），跨境电商运营助理&quot;)" onmouseout="hidetip()">
+            厦门麦诗电子商务有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410398" target="_blank" onmousemove="showtip(&quot;小学语文、小学数学、小学英语&quot;)" onmouseout="hidetip()">
+            华中师范大学厦门海沧附属小学
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411158" target="_blank" onmousemove="showtip(&quot;品质部经理，工程维护专员，保安，人力资源专员HR，厨师（员工餐厅），高级业务员，结构工程师，实验技术员，工业设计师/ID工程师，电子工程师，硬件工程师，结构工程师助理，电子工程师助理，CFD工程师，电子工程主管，工程部经理，QA组长，班长，PQC（品检），QE&quot;)" onmouseout="hidetip()">
+            厦门唯科健康科技有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=409523" target="_blank" onmousemove="showtip(&quot;采购员，销售经理，ERP文员，样品配料员，样衣工，面/辅料仓管员，IE，行政专员，总经理助理/总经理秘书，总计划，采购主管，计划员（应届生），生管员，设计师，服装外贸业务员，外贸业务员（应届生），外贸实习生，采购助理（应届生），QC跟单员，出口单证员（应届），应收应付款会计&quot;)" onmouseout="hidetip()">
+            厦门天翊进出口有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411960" target="_blank" onmousemove="showtip(&quot;高级售前顾问，战略客户经理，实施工程师（2019届毕业生），实施顾问—供应链、生产领域，实施顾问—财务方向，实施顾问—HR方向，开发工程师，项目经理，实施顾问，实施顾问（漳州），市场部主管，财务部经理，渠道经理&quot;)" onmouseout="hidetip()">
+            厦门金蝶软件有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411479" target="_blank" onmousemove="showtip(&quot;PHP高级工程师，HRBP，客服文员（周末双休、五险一金），渠道销售代表（带团出国、周末双休、五险一金），投资专员（众创空间），行程计调助理，人事助理，商务代表（销售），展会销售顾问（出国带团参展机会），新行业商务助理（销售），新行业商务代表（销售、出国参展机会），项目助理（周末双休、五险一金、紧急招聘），展会资源拓展专员（急聘），展会操作助理（英语、五险一金、周末双休），业务督导（HRBP、销售督导、周末双休、五险一金），销售行政助理，运输部助理（客服文员），运输部助理（销售类岗位）&quot;)" onmouseout="hidetip()">
+            厦门市盈拓商务有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411438" target="_blank" onmousemove="showtip(&quot;Web前端开发，微信小程序销售，销售精英，销售储备主管，销售专员（双休、不加班），售后客服，销售主管，百度推广 双休，客服专员，网站编辑&quot;)" onmouseout="hidetip()">
+            厦门君大科技有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410299" target="_blank" onmousemove="showtip(&quot;销售实习生（底薪4k），销售实习生/储备干部/管培生，【总部直聘】销售储干（退伍军人专场），【总部直聘】2018届应届生销售实习专场，房产销售顾问，【总部直聘】销售，【总部直聘】房屋租赁专员，【总部直聘】房屋买卖专员，高端房产销售，房产销售管培生，【总部直聘】置业顾问，【总部直聘】房产咨询服务顾问，【总部直聘】销售储备干部（应届实习毕业生专场），【总部直聘】豪宅销售，权证专员，校招专员（招聘岗），IT网络专员，【麦田总部】高级招聘专员，培训讲师，楼盘信息专员&quot;)" onmouseout="hidetip()">
+            厦门麦田人房地产代理有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411920" target="_blank" onmousemove="showtip(&quot;助理策划师（龙岩/连城恒大项目），建发销售/高底薪，人事专员，市场研究专员，助理策划师，房联宝渠道专员，顾问（红璞公寓），高级/策划师，助理策划师（厦门），高级策划师，贷后客服专员，房地产金融管培生，招商经理，咨询顾问（厦门），销售实习生/落户福利/包住，房产销售/上市公司平台/包住，（上市公司）一手房销售/置业顾问（保利叁仟栋项目），一手楼盘销售（漳州/厦门），一手楼盘销售/包住/快速晋升，销售管理培训生，市场营销专员/上市公司平台，三明/房产销售/六险一金，销售储备干部，销售储备干部，一手楼盘销售（万科 恒大 碧桂园 泰禾），一手楼盘销售精英（保利壹海里），销售管理培训生/六险一金，文员（集美、同安、翔安），置业顾问，业务运营管理专员（助理）——长租公寓业务方向，业务运营管理专员，业务运营管理专员（助理）——装修业务方向，业务运营管理专员（助理）——房联宝业务方向，拓展策划，客户经理（厦门）&quot;)" onmouseout="hidetip()">
+            厦门世联兴业房地产顾问有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411963" target="_blank" onmousemove="showtip(&quot;高端电话销售经理，北站驻点客户经理，客户经理（厦门）（003812），机场驻点专员&quot;)" onmouseout="hidetip()">
+            中信银行股份有限公司信用卡中心
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411962" target="_blank" onmousemove="showtip(&quot;外贸业务员，外贸业务助理，ERP 专员，打板师，制具开发设计人员，生产工艺工程师，生产经理，生管员，品质主管，仓管&quot;)" onmouseout="hidetip()">
+            厦门万朔进出口有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410899" target="_blank" onmousemove="showtip(&quot;中学数学教师，初高中语文教师，雅思考试教师，初高中英语教师，校区校长，SAT/剑桥英语、新概念英语教师，销售专员，托福、雅思助教，少儿英语教师，行政人员，少儿语文&quot;)" onmouseout="hidetip()">
+            厦门四门教育咨询有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=406418" target="_blank" onmousemove="showtip(&quot;平面设计/工业设计/产品设计/，翔安外企普工直招无夜班，喷砂工，抛光工，财务/会计/总账/主办会计，软件工程师/PHP开发工程师/web前端开发工程师，跨境电商运营/独立站运营，财务主管/财务经理&quot;)" onmouseout="hidetip()">
+            斯通派特（厦门）科技有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=399679" target="_blank" onmousemove="showtip(&quot;生产运行人员&quot;)" onmouseout="hidetip()">
+            厦门国贸中顺环保能源股份有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=409481" target="_blank" onmousemove="showtip(&quot;总经理助理，行政专员，货车司机，客服，海外客服中心经理，非洲航线经理，海运业务开发，海运操作/OP，应收应付财务，出纳，IT 运维专员，仓管员，销售专员，业务员，业务助理，海外业务开发（俄语），海外业务开发（英语），海外客服（俄语），海外客服（英语），商务专员，货代操作/OP，管培生（铁路公司），铁路业务专员，车务，拖车司机（含危险品），业务员（城市配送），市场专员（教育板块），行政前台（教育板块），采购助理，空压机技术人员，销售文员，优企一云诚聘人事经理，优企一云诚聘客户代表&quot;)" onmouseout="hidetip()">
+            厦门汉航集团有限责任公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=403398" target="_blank" onmousemove="showtip(&quot;采购专员，电商运营主管，电商运营专员，电话营销专员，商务代表，渠道销售（驻点泉州），客户经理，电话销售主管，销售经理（服务器业务），实习生，行政专员（兼前台），JAVA软件工程师，开发经理，技术主管（JAVA），软件研发总监，软件产品经理，售前工程师，系统集成项目经理，网络工程师，服务器运维工程师，高级售前工程师，IT技术工程师，储备干部（业务类），渠道销售（驻点福州），部门助理，销售助理，客服专员（客户关系维护），售后主管，储备干部（技术类），主办会计&quot;)" onmouseout="hidetip()">
+            厦门市四美达科技发展有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410939" target="_blank" onmousemove="showtip(&quot;工程师，Product Specialist 业务员，Operations Coordinator运营协调员，Merchandiser，QA Technician品检员，QA Specialist 质量专员&quot;)" onmouseout="hidetip()">
+            美国松实国际公司驻厦门代表处
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411838" target="_blank" onmousemove="showtip(&quot;急聘高中语文老师（宿务校区），高中数学教师（宿务校区），高中地理教师（宿务校区），高中历史教师（厦门校区），高中数学教师（厦门校区），高中英语教师（厦门校区），课程顾问，企划文案，人事专员，高中地理教师（厦门校区），行政专员，高中语文教师（厦门校区），高中化学教师（厦门校区），高中物理教师（厦门校区），政教老师，厦门校区校长，高中历史教师（宿务校区）&quot;)" onmouseout="hidetip()">
+            厦门市翔安区禹坤教育培训中心
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411818" target="_blank" onmousemove="showtip(&quot;高级销售代表&quot;)" onmouseout="hidetip()">
+            福建韩诚物流有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410900" target="_blank" onmousemove="showtip(&quot;JAVA开发工程师，ZigBee工程师，嵌入式系统工程师，JAVA 高级工程师，Java WEB 开发工程师，销售工程师，国内销售主管，数据挖掘工程师，销售总监，IQC技术员，海外销售工程师，IQC工程师，嵌入式软件工程师，测试工程师，产品外观结构设计工程师，生产技术员，海内/外技术支持工程师，嵌入式软件高级工程师，FPGA工程师，硬件工程师，国内销售工程师，射频工程师，FPGA工程师，高级嵌入式测试工程师，高级嵌入式软件工程师，layout工程师&quot;)" onmouseout="hidetip()">
+            厦门欧万智能科技有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411800" target="_blank" onmousemove="showtip(&quot;销售行政专员&quot;)" onmouseout="hidetip()">
+            林德（中国）叉车有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410859" target="_blank" onmousemove="showtip(&quot;工程保函担保经理，行政总台，风险经理，产品经理，信息技术岗，投资项目经理，融资担保经理，融资担保项目经理（海沧）&quot;)" onmouseout="hidetip()">
+            厦门市担保有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410879" target="_blank" onmousemove="showtip(&quot;船员主管&quot;)" onmouseout="hidetip()">
+            厦门海隆对外劳务合作有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=391478" target="_blank" onmousemove="showtip(&quot;渠道专员，人事行政主管，行政人事经理（急），财务助理，续费专员，优酷、土豆推广业务员，腾讯企业QQ销售专员，KA客服，新媒体销售代表，渠道客服，增值顾问，搜狗广告优化师，客服主管，搜狗福建营运中心客户代表，UC浏览器销售代表，搜狗福建营运中心电话销售，搜狗营销专员，搜狗高级营销专员，搜狗福建营运中心商务代表，搜狗福建营运中心销售代表，搜狗营运中心储备干部（销售方向），搜狗福建营运中心管理培训生（销售方向），搜狗福建营运中心销售顾问，搜狗福建营运中心实习生&quot;)" onmouseout="hidetip()">
+            厦门搜讯信息技术有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410799" target="_blank" onmousemove="showtip(&quot;销售专员、售后技术人员&quot;)" onmouseout="hidetip()">
+            厦门信创机电设备有限公司
+        </a> 
+        
+	</td><td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=384878" target="_blank" onmousemove="showtip(&quot;新能源应用工程师，销售数据分析员，发动机附件设计员，底盘总布置工程师，底盘总布置设计工程师，电器系统设计工程师，新能源硬件开发工程师，新能源车动力系统工程师，转向系统设计工程师，车身总布置工程师，企管/软件开发工程师，企管/软件维护工程师，电器整车设计工程师岗位，销售储备人员，电池系统工程师，研发人员储备干部，电器工艺师，新能源车总布置工程师，合同专员，新能源客车底盘工程师，新能源热管理及附件系统工程师，新能源制动系统/电附件工程师，新能源电器设计工程师，新能源项目管理工程师，新能源系统部件工程师，新能源系统硬件设计工程师，新能源系统软件设计工程师，新能源系统支持工程师，新能源储能系统软件工程师，新能源储能方案开发工程师，新能源电池性能试验工程师，空暖设计员岗位，内饰设计工程师，汽车材料运用分析，整车CAE研究，产品规划工程师，厨工，整车NVH研究，数模设计工程师，调试员，事务部秘书，配件销售工程师，空调系统工程师岗位，专用车设计工程师岗位，电子办公系统管理员岗位，电机控制系统工程师岗位，车身设计总负责人，车身设计工程师，新能源测试工程师岗位，总线、仪表、车联网工程师，公共申报工程师岗位，&quot;)" onmouseout="hidetip()">
+            厦门金龙旅行车有限公司
+        </a> 
+        
+	</td><td></td><td></td>
+	</tr><tr>
+		<td colspan="4" align="right">
+	
+	</td>
+	</tr>
+</tbody></table>
+        </div>
+        <div id="goldIcon">
+            
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=35776" target="_blank" title="豪氏威马（中国）有限公司"><img src="/images/xmrc/uploadfiles/2015/74658-20151102-163304-84871.gif" width="95" height="45" border="0" alt="豪氏威马（中国）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=132764" target="_blank" title="福建柒牌集团有限公司"><img src="/images/xmrc/uploadfiles/2017/99858-20170907-150924-59375.gif" width="95" height="45" border="0" alt="福建柒牌集团有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=74789" target="_blank" title="宸鸿科技（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2018/83398-20180322-170129-88987.gif" width="95" height="45" border="0" alt="宸鸿科技（厦门）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=57088" target="_blank" title="博格步（厦门）轻工制品有限公司"><img src="/images/xmrc/uploadfiles/2017/101812-20170925-083631-46775.gif" width="95" height="45" border="0" alt="博格步（厦门）轻工制品有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=76770" target="_blank" title="安踏（中国）有限公司"><img src="/images/xmrc/uploadfiles/2017/92297-20170907-151009-17187.gif" width="95" height="45" border="0" alt="安踏（中国）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=83071" target="_blank" title="九牧王股份有限公司"><img src="/images/xmrc/uploadfiles/2014/65445-20140327-082831-37396.gif" width="95" height="45" border="0" alt="九牧王股份有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=88244" target="_blank" title="富世华建筑产品（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2015/55908-20151117-100710-95526.gif" width="95" height="45" border="0" alt="富世华建筑产品（厦门）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=88420" target="_blank" title="厦门姚明织带饰品有限公司"><img src="/images/xmrc/uploadfiles/2018/74307-20180606-103723-74962.gif" width="95" height="45" border="0" alt="厦门姚明织带饰品有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=71025" target="_blank" title="海拉（厦门）汽车电子有限公司"><img src="/images/xmrc/uploadfiles/2017/71736-20170907-151114-42187.gif" width="95" height="45" border="0" alt="海拉（厦门）汽车电子有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=105411" target="_blank" title="斐乐体育有限公司"><img src="/images/xmrc/uploadfiles/2017/346384-20170907-151228-64062.gif" width="95" height="45" border="0" alt="斐乐体育有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=121461" target="_blank" title="网宿科技股份有限公司厦门分公司"><img src="/images/xmrc/uploadfiles/2017/74794-20170907-151323-59375.gif" width="95" height="45" border="0" alt="网宿科技股份有限公司厦门分公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=130603" target="_blank" title="厦门恒兴集团有限公司"><img src="/images/xmrc/uploadfiles/2017/9083-20170907-151400-76562.gif" width="95" height="45" border="0" alt="厦门恒兴集团有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=132007" target="_blank" title="陶朗分选技术（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2017/360552-20170830-161435-79537.gif" width="95" height="45" border="0" alt="陶朗分选技术（厦门）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=140884" target="_blank" title="四三九九网络股份有限公司"><img src="/images/xmrc/uploadfiles/2014/70742-20141223-112700-97322.gif" width="95" height="45" border="0" alt="四三九九网络股份有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=151896" target="_blank" title="厦门美图之家科技有限公司"><img src="/images/xmrc/uploadfiles/2014/354765-20141111-163402-20881.gif" width="95" height="45" border="0" alt="厦门美图之家科技有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=147080" target="_blank" title="厦门市建筑科学研究院集团股份有限公司"><img src="/images/xmrc/uploadfiles/2015/59531-20151023-102912-58262.gif" width="95" height="45" border="0" alt="厦门市建筑科学研究院集团股份有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=220318" target="_blank" title="特步（中国）有限公司"><img src="/images/xmrc/uploadfiles/2017/82219-20170907-151448-03125.gif" width="95" height="45" border="0" alt="特步（中国）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=275500" target="_blank" title="厦门滕王阁房地产开发有限公司"><img src="/images/xmrc/uploadfiles/2015/12662-20150306-113354-91690.gif" width="95" height="45" border="0" alt="厦门滕王阁房地产开发有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=326478" target="_blank" title="厦门市思明区新东方教育培训学校"><img src="/images/xmrc/uploadfiles/2016/293385-20160418-160312-30280.gif" width="95" height="45" border="0" alt="厦门市思明区新东方教育培训学校"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=353718" target="_blank" title="厦门锐泰利集团有限责任公司"><img src="/images/xmrc/uploadfiles/2017/666419-20171110-101434-18637.gif" width="95" height="45" border="0" alt="厦门锐泰利集团有限责任公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=354739" target="_blank" title="厦门千时科技有限公司"><img src="/images/xmrc/uploadfiles/2017/685753-20171110-103446-92075.gif" width="95" height="45" border="0" alt="厦门千时科技有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=374882" target="_blank" title="厦门易名科技股份有限公司"><img src="/images/xmrc/uploadfiles/2018/77438-20180308-151002-32737.gif" width="95" height="45" border="0" alt="厦门易名科技股份有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=375138" target="_blank" title="金日制药（中国）有限公司"><img src="/images/xmrc/uploadfiles/2017/35486-20170704-155431-53125.gif" width="95" height="45" border="0" alt="金日制药（中国）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=389018" target="_blank" title="厦门肯德基有限公司"><img src="/images/xmrc/uploadfiles/2016/8907-20160614-172619-30840.gif" width="95" height="45" border="0" alt="厦门肯德基有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=390141" target="_blank" title="正荣集团有限公司"><img src="/images/xmrc/uploadfiles/2016/344366-20160809-154417-40980.jpg" width="95" height="45" border="0" alt="正荣集团有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=396858" target="_blank" title="交通银行信用卡中心"><img src="/images/xmrc/uploadfiles/2017/100337-20170907-151550-78125.gif" width="95" height="45" border="0" alt="交通银行信用卡中心"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=397858" target="_blank" title="福建新意科技有限公司"><img src="/images/xmrc/uploadfiles/2018/372906-20180213-153849-81250.gif" width="95" height="45" border="0" alt="福建新意科技有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=402342" target="_blank" title="厦门科宏眼科医院"><img src="/images/xmrc/uploadfiles/2018/82549-20180323-112200-53050.gif" width="95" height="45" border="0" alt="厦门科宏眼科医院"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=402838" target="_blank" title="北京金色雨林教育科技有限公司"><img src="/images/xmrc/uploadfiles/2018/842970-20180328-155830-23362.gif" width="95" height="45" border="0" alt="北京金色雨林教育科技有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=402459" target="_blank" title="厦门盈趣科技股份有限公司"><img src="/images/xmrc/uploadfiles/2018/420965-20180329-165240-45237.gif" width="95" height="45" border="0" alt="厦门盈趣科技股份有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=403639" target="_blank" title="美克国际家居用品股份有限公司厦门分公司"><img src="/images/xmrc/uploadfiles/2018/726870-20180402-165454-23362.gif" width="95" height="45" border="0" alt="美克国际家居用品股份有限公司厦门分公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=404858" target="_blank" title="海德里希（厦门）真空机械制造有限公司"><img src="/images/xmrc/uploadfiles/2018/29417-20180302-114932-37500.gif" width="95" height="45" border="0" alt="海德里希（厦门）真空机械制造有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=405658" target="_blank" title="厦门市美亚柏科信息股份有限公司"><img src="/images/xmrc/uploadfiles/2018/6652-20180420-150303-09375.gif" width="95" height="45" border="0" alt="厦门市美亚柏科信息股份有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=406599" target="_blank" title="厦门阳光彼岸教育科技有限责任公司"><img src="/images/xmrc/uploadfiles/2018/366576-20180601-114159-71837.gif" width="95" height="45" border="0" alt="厦门阳光彼岸教育科技有限责任公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=407001" target="_blank" title="雷勃动力传动（漳州）有限公司"><img src="/images/xmrc/uploadfiles/2017/86078-20170323-151708-34062.gif" width="95" height="45" border="0" alt="雷勃动力传动（漳州）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=407038" target="_blank" title="华夏银行股份有限公司厦门分行"><img src="/images/xmrc/uploadfiles/2018/605450-20180507-084604-35937.gif" width="95" height="45" border="0" alt="华夏银行股份有限公司厦门分行"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=408204" target="_blank" title="惠尔康集团"><img src="/images/xmrc/uploadfiles/2018/499787-20180517-092456-03125.gif" width="95" height="45" border="0" alt="惠尔康集团"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=408219" target="_blank" title="百事联电子（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2018/97510-20180516-162717-03125.gif" width="95" height="45" border="0" alt="百事联电子（厦门）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=408280" target="_blank" title="厦门链家宝业房地产经纪有限公司"><img src="/images/xmrc/uploadfiles/2018/737389-20180517-100245-15625.gif" width="95" height="45" border="0" alt="厦门链家宝业房地产经纪有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=410039" target="_blank" title="厦门奥本进出口贸易有限公司"><img src="/images/xmrc/uploadfiles/2017/87349-20170519-172732-29687.gif" width="95" height="45" border="0" alt="厦门奥本进出口贸易有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=90043" target="_blank" title="友达光电（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2016/82211-20160318-095014-62280.gif" width="95" height="45" border="0" alt="友达光电（厦门）有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=410518" target="_blank" title="招商银行股份有限公司厦门分行"><img src="/images/xmrc/uploadfiles/2018/59745-20180226-171815-21875.jpg" width="95" height="45" border="0" alt="招商银行股份有限公司厦门分行"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=411001" target="_blank" title="厦门畅享信息技术有限公司"><img src="/images/xmrc/uploadfiles/2018/410066-20180608-155723-60900.gif" width="95" height="45" border="0" alt="厦门畅享信息技术有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=411323" target="_blank" title="厦门景逸商务管理有限公司万豪酒店分公司"><img src="/images/xmrc/uploadfiles/2018/918949-20180612-101226-82775.jpg" width="95" height="45" border="0" alt="厦门景逸商务管理有限公司万豪酒店分公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=411378" target="_blank" title="厦门美易美妆股份有限公司"><img src="/images/xmrc/uploadfiles/2018/387136-20180620-095231-34375.gif" width="95" height="45" border="0" alt="厦门美易美妆股份有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=411719" target="_blank" title="品谱（厦门）工业有限公司"><img src="/images/xmrc/uploadfiles/2014/82439-20140813-103156-56421.gif" width="95" height="45" border="0" alt="品谱（厦门）工业有限公司"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=411921" target="_blank" title="中信银行股份有限公司信用卡中心"><img src="/images/xmrc/uploadfiles/2018/319312-20180504-112043-89062.jpg" width="95" height="45" border="0" alt="中信银行股份有限公司信用卡中心"></a></div>
+    
+
+	<div class="goldenButton_1"><a href="/net/info/showinfo.aspx?id=412321" target="_blank" title="厦门启艺网络科技有限公司"><img src="/images/xmrc/uploadfiles/2018/436592-20180516-154603-57812.gif" width="95" height="45" border="0" alt="厦门启艺网络科技有限公司"></a></div>
+    
+
+     <div class="clear"></div>
+
+        </div>
+        <div id="pageLeft">
+            <div class="companyIcon">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=263258" target="_blank" title="戴尔（中国）有限公司"><img src="/images/xmrc/uploadfiles/2016/21308-20160923-173554-61400.gif" width="88" height="31" border="0" alt="戴尔（中国）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=69172" target="_blank" title="柯达（中国）有限责任公司"><img src="/images/xmrc/uploadfiles/2017/18016-20170907-114846-60937.gif" width="88" height="31" border="0" alt="柯达（中国）有限责任公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=23956" target="_blank" title="厦门建发集团有限公司"><img src="/images/xmrc/uploadfiles/2017/14777-20170907-114936-56250.gif" width="88" height="31" border="0" alt="厦门建发集团有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=69179" target="_blank" title="厦门太古可口可乐饮料有限公司"><img src="/images/xmrc/uploadfiles/2017/2465-20170907-115022-84375.gif" width="88" height="31" border="0" alt="厦门太古可口可乐饮料有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=69183" target="_blank" title="ABB（中国）有限公司"><img src="/images/xmrc/uploadfiles/2017/118138-20170907-115106-68750.gif" width="88" height="31" border="0" alt="ABB（中国）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=23954" target="_blank" title="林德（中国）叉车有限公司"><img src="/images/xmrc/uploadfiles/2017/4939-20170907-115148-87500.gif" width="88" height="31" border="0" alt="林德（中国）叉车有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=32825" target="_blank" title="诺尔起重设备（中国）有限公司"><img src="/images/xmrc/uploadfiles/2017/15717-20170616-165911-09375.gif" width="88" height="31" border="0" alt="诺尔起重设备（中国）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=149054" target="_blank" title="厦门夏商集团有限公司"><img src="/images/xmrc/uploadfiles/2017/1530-20170907-115228-20312.gif" width="88" height="31" border="0" alt="厦门夏商集团有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=69181" target="_blank" title="联想移动通信科技有限公司"><img src="/images/xmrc/uploadfiles/2015/56535-20150724-112006-22970.gif" width="88" height="31" border="0" alt="联想移动通信科技有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=32527" target="_blank" title="厦门宏发电声股份有限公司"><img src="/images/xmrc/uploadfiles/2014/4624-20140721-161637-48959.gif" width="88" height="31" border="0" alt="厦门宏发电声股份有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=23970" target="_blank" title="厦门灿坤实业股份有限公司"><img src="/images/xmrc/uploadfiles/2017/16589-20170907-115603-00000.gif" width="88" height="31" border="0" alt="厦门灿坤实业股份有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=24963" target="_blank" title="厦门太古飞机工程有限公司"><img src="/images/xmrc/uploadfiles/2014/4341-20140919-155629-34239.gif" width="88" height="31" border="0" alt="厦门太古飞机工程有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=50868" target="_blank" title="欣贺股份有限公司"><img src="/images/xmrc/uploadfiles/2016/74534-20161221-105147-36280.gif" width="88" height="31" border="0" alt="欣贺股份有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=53649" target="_blank" title="ECCO（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2014/73299-20141014-152103-96063.gif" width="88" height="31" border="0" alt="ECCO（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=28690" target="_blank" title="厦门市人脉人力资源管理服务有限公司"><img src="/images/xmrc/uploadfiles/2017/76820-20170907-115703-79687.gif" width="88" height="31" border="0" alt="厦门市人脉人力资源管理服务有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=43115" target="_blank" title="沙迪克（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2017/89182-20171027-154725-18637.gif" width="88" height="31" border="0" alt="沙迪克（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=53078" target="_blank" title="厦门钨业股份有限公司"><img src="/images/xmrc/uploadfiles/2017/59056-20170907-115807-67187.gif" width="88" height="31" border="0" alt="厦门钨业股份有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=53351" target="_blank" title="厦门松霖科技股份有限公司"><img src="/images/xmrc/uploadfiles/2018/1328-20180510-091457-18750.gif" width="88" height="31" border="0" alt="厦门松霖科技股份有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=98767" target="_blank" title="贝莱胜电子（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2018/44315-20180205-150039-14062.gif" width="88" height="31" border="0" alt="贝莱胜电子（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=128876" target="_blank" title="嘉里大通物流有限公司厦门分公司"><img src="/images/xmrc/uploadfiles/2016/57064-20161026-153639-05320.gif" width="88" height="31" border="0" alt="嘉里大通物流有限公司厦门分公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=166158" target="_blank" title="冠捷显示科技（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2017/327738-20170907-115951-28125.gif" width="88" height="31" border="0" alt="冠捷显示科技（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=374520" target="_blank" title="厦门金鹭特种合金有限公司"><img src="/images/xmrc/uploadfiles/2017/62110-20170907-120032-10937.gif" width="88" height="31" border="0" alt="厦门金鹭特种合金有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=225798" target="_blank" title="厦门麦当劳食品发展有限公司"><img src="/images/xmrc/uploadfiles/2017/55236-20170907-120216-67187.gif" width="88" height="31" border="0" alt="厦门麦当劳食品发展有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=238878" target="_blank" title="矽恩微电子（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2014/77747-20140424-172208-15321.gif" width="88" height="31" border="0" alt="矽恩微电子（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=286759" target="_blank" title="安费诺电子装配（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2015/17792-20150604-105256-41865.gif" width="88" height="31" border="0" alt="安费诺电子装配（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=361411" target="_blank" title="太平地毯（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2018/676518-20180322-172812-26487.gif" width="88" height="31" border="0" alt="太平地毯（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=373678" target="_blank" title="厦门翔业集团有限公司"><img src="/images/xmrc/uploadfiles/2018/96468-20180129-150542-06250.gif" width="88" height="31" border="0" alt="厦门翔业集团有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=374822" target="_blank" title="厦门厦钨新能源材料有限公司"><img src="/images/xmrc/uploadfiles/2017/833797-20170627-155243-10937.gif" width="88" height="31" border="0" alt="厦门厦钨新能源材料有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=387600" target="_blank" title="卡斯卡特（厦门）叉车属具有限公司"><img src="/images/xmrc/uploadfiles/2017/8044-20170811-175145-71875.gif" width="88" height="31" border="0" alt="卡斯卡特（厦门）叉车属具有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=402438" target="_blank" title="厦门全程德邦物流有限公司"><img src="/images/xmrc/uploadfiles/2017/264878-20170627-162953-12500.gif" width="88" height="31" border="0" alt="厦门全程德邦物流有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=405578" target="_blank" title="瑞声达听力技术（中国）有限公司"><img src="/images/xmrc/uploadfiles/2018/18199-20180420-090416-87500.gif" width="88" height="31" border="0" alt="瑞声达听力技术（中国）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=411039" target="_blank" title="厦门瑞飞尔电子科技有限公司"><img src="/images/xmrc/uploadfiles/2018/728253-20180611-170454-95275.gif" width="88" height="31" border="0" alt="厦门瑞飞尔电子科技有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=411278" target="_blank" title="中国光大银行股份有限公司厦门分行"><img src="/images/xmrc/uploadfiles/2018/53396-20180224-165807-35937.gif" width="88" height="31" border="0" alt="中国光大银行股份有限公司厦门分行"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=411358" target="_blank" title="厦门威尔邦新材料有限公司"><img src="/images/xmrc/uploadfiles/2018/734933-20180612-110241-70275.gif" width="88" height="31" border="0" alt="厦门威尔邦新材料有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=411938" target="_blank" title="厦门盛名吉成百货有限公司"><img src="/images/xmrc/uploadfiles/2018/589650-20180306-102600-99925.gif" width="88" height="31" border="0" alt="厦门盛名吉成百货有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=412325" target="_blank" title="厦门纳丰餐饮管理有限公司"><img src="/images/xmrc/uploadfiles/2018/894769-20180620-161131-34375.gif" width="88" height="31" border="0" alt="厦门纳丰餐饮管理有限公司"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+            
+            <div class="channelTitle">
+                <a href="/Net/Hunter/" target="_blank" class="a1">猎头委托招聘</a></div>
+            <div class="channel">                
+                <p>
+                    <img src="/net/images/an01.gif">
+                    <a href="/net/hunter/" target="_blank">猎头业务介绍</a></p>
+                
+<!--页面文字广告控件（例如黄金榜眼，求贤榜）-->
+<table id="ctl11_ctl00" cellspacing="0" border="0" width="100%">
+	<tbody><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412338" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            翔安区马巷第一中心幼儿园公开招聘若干名非在编合同教师
+        </a> 
+        <span class="gray smallFont">6-20</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411619" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            同益出入境边防检查站公开招聘5名非在编雇用人员
+        </a> 
+        <span class="gray smallFont">6-20</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411599" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门市翔安区内厝第一中心幼儿园招聘若干名非在编合同教师
+        </a> 
+        <span class="gray smallFont">6-20</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=403779" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门某食品公司委托猎头招聘副总经理
+        </a> 
+        <span class="gray smallFont">6-20</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=409881" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门大学能源学院招聘1-2名工程系列岗位人员
+        </a> 
+        <span class="gray smallFont">6-20</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=411458" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门市湖里区禾山街道社区卫生服务中心公开招聘1名非在编劳务派遣人员
+        </a> 
+        <span class="gray smallFont">6-19</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412138" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门日报社公开招聘2名工作人员
+        </a> 
+        <span class="gray smallFont">6-19</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=410599" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门市文联招聘协会会计和 工作人员各1名
+        </a> 
+        <span class="gray smallFont">6-19</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=412018" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门大学医院后勤设备科招聘工作人员1名
+        </a> 
+        <span class="gray smallFont">6-19</span>
+	</td>
+	</tr><tr>
+		<td valign="middle" height="18">
+        
+		<img src="/net/Images/an01.gif" border="0">
+        <a href="/net/info/showinfo.aspx?id=405121" target="_blank" onmousemove="showtip(&quot;&quot;)" onmouseout="hidetip()">
+            厦门某建设公司委托猎头招聘财务总监
+        </a> 
+        <span class="gray smallFont">6-19</span>
+	</td>
+	</tr><tr>
+		<td align="right">
+	<span>→ <a href="/net/info/Infos.aspx?Cat=451" class="Amenu">更多的....</a></span>
+	</td>
+	</tr>
+</tbody></table>
+            </div>
+            <div class="channelTitle jsKscp" style="display: none;">
+                <a href="http://www2.xmrc.com.cn/Net/Xmgrcp/Index.aspx" target="_blank" class="a1">考试测评</a></div>
+            <div class="channel jsKscp" style="display: none;">                
+                 <table id="ctl12_DataList1" cellspacing="0" align="Center" border="0" width="98%">
+	<tbody><tr>
+		<td align="right">
+        <span id="ctl12_DataList1_ctl00_Span2">→ <a href="/net/wcm/Infos.aspx?Cat=714" class="Amenu">更多的....</a></span>
+    </td>
+	</tr>
+</tbody></table>
+            </div>
+            <div class="channel">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=95031" target="_blank" title="网上人事代理服务平台"><img src="/images/xmrc/uploadfiles/2012/4a17d1c7-2ee9-4836-9103-a86fa4f269c9.gif" width="185" height="40" border="0" alt="网上人事代理服务平台"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=295159" target="_blank" title="测评考试"><img src="/images/xmrc/uploadfiles/2015/1-20150807-111041-57613.gif" width="185" height="40" border="0" alt="测评考试"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=117134" target="_blank" title="厦门市台湾人才服务部"><img src="/images/xmrc/uploadfiles/2014/1-20140515-085110-17728.gif" width="185" height="40" border="0" alt="厦门市台湾人才服务部"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=406458" target="_blank" title="学历认证"><img src="/images/xmrc/uploadfiles/2018/1-20180428-101552-12500.gif" width="185" height="40" border="0" alt="学历认证"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+            <div class="channelTitle">
+                人才人事资讯</div>
+            <div class="channel">
+                <table id="ctl14_DataList1" cellspacing="0" align="Center" border="0" width="98%">
+	<tbody><tr>
+		<td align="left" valign="middle" height="18">
+        1)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116125" target="_blank">
+            云南全面整合人才项目捧出创新创业“金饭碗”</a> 
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        2)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116124" target="_blank">
+            福建泉州构筑人才“港湾”群贤毕至让新兴产业异军突起</a> 
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        3)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116114" target="_blank">
+            浙江乐清围绕重点精准发力“千人计划”产业园成聚才主平台</a> 
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        4)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116113" target="_blank">
+            铜川耀州区：“名校长工作室”领航教育人才队伍</a> 
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        5)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116123" target="_blank">
+            潍坊高新区打造人才发展新生态</a> 
+    </td>
+	</tr><tr>
+		<td align="right">
+        <span id="ctl14_DataList1_ctl05_Span2">→ <a href="/net/wcm/Infos.aspx?Cat=132" class="Amenu">更多的....</a></span>
+    </td>
+	</tr>
+</tbody></table>
+            </div>
+            <div class="channelTitle">
+                人事动态</div>
+            <div class="channel">
+                <table id="ctl15_DataList1" cellspacing="0" align="Center" border="0" width="98%">
+	<tbody><tr>
+		<td align="left" valign="middle" height="18">
+        1)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116432" target="_blank">
+            厦门市人才服务中心关于夏令工作时间的通知</a> <span style="color: #808080; font-size: 9px;">
+                05-29</span>
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        2)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116012" target="_blank">
+            对农村人才实行精准培育</a> <span style="color: #808080; font-size: 9px;">
+                05-18</span>
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        3)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116004" target="_blank">
+            大陆新娘带领51位台胞来厦考察 半数台胞决定留厦创业</a> <span style="color: #808080; font-size: 9px;">
+                05-16</span>
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        4)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116003" target="_blank">
+            两岸创业特训班开始对外招生 报名截至5月27日</a> <span style="color: #808080; font-size: 9px;">
+                05-16</span>
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        5)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116002" target="_blank">
+            新零售就业能力大赛昨开赛 行业大佬当导师</a> <span style="color: #808080; font-size: 9px;">
+                05-15</span>
+    </td>
+	</tr><tr>
+		<td align="right">
+        <span id="ctl15_DataList1_ctl05_Span2">→ <a href="/net/wcm/Infos.aspx?Cat=347" class="Amenu">更多的....</a></span>
+    </td>
+	</tr>
+</tbody></table>
+            </div>
+            <div class="channel">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=222699" target="_blank" title="失物招领"><img src="/images/xmrc/uploadfiles/2013/55041-20131219-165213-95725.gif" width="185" height="50" border="0" alt="失物招领"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=222700" target="_blank" title="诈骗防身术"><img src="/images/xmrc/uploadfiles/2013/55041-20131219-165316-39475.jpg" width="185" height="50" border="0" alt="诈骗防身术"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+        </div>
+        <div id="pageMid">
+            <div class="midChannel">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="banner3Button_1"><a href="/net/info/showinfo.aspx?id=151254" target="_blank" title="厦门市人力资源与社会保障局"><img src="/images/xmrc/uploadfiles/2016/1-20161010-162422-11760.gif" width="184" height="55" border="0" alt="厦门市人力资源与社会保障局"></a></div>
+    
+
+	<div class="banner3Button_1"><a href="/net/info/showinfo.aspx?id=151255" target="_blank" title="厦门市人才服务中心毕业生频道"><img src="/images/xmrc/uploadfiles/2014/1-20141021-095436-40714.gif" width="184" height="55" border="0" alt="厦门市人才服务中心毕业生频道"></a></div>
+    
+
+	<div class="banner3Button_1"><a href="/net/info/showinfo.aspx?id=409100" target="_blank" title="影视平台专区"><img src="/images/xmrc/uploadfiles/2018/1-20180611-154831-74962.gif" width="184" height="55" border="0" alt="影视平台专区"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+            <div style="border: solid 1px #ccc; width: 100%; background-color: #FEEED5;">
+                <table width="100%">
+                    <tbody><tr height="25px" valign="middle">
+                        <td width="50%">
+                            <script type="text/javascript">
+                                function checkvalidform() {
+                                    var keyword = $("#formkeyword");
+                                    if (keyword.val() == "" || keyword.val() == "请输入关键字") {
+                                        alert("请输入关键字");
+                                        return false;
+                                    }
+
+                                    var url;
+                                    switch ($("#formCat").val()) {
+                                    case "2":
+                                        url = "/net/info/resultg.aspx?recruittype=1&keyword=" + encodeURIComponent(keyword.val());
+                                        break;
+                                    case "4":
+                                        url = "/net/info/resultg.aspx?recruittype=2&keyword=" + encodeURIComponent(keyword.val());
+                                        break;
+                                    case "5":
+                                        url = "/net/wcm/query.aspx?keyword=" + encodeURIComponent(keyword.val());
+                                        break;
+                                    case "1":
+                                    default:
+                                        url = "/net/wcm/query.aspx?catID=29&keyword=" + encodeURIComponent(keyword.val());
+                                        break;
+                                    }
+
+                                    window.location.href = url;
+                                }
+                            </script>
+                            <img src="" height="0" width="2">
+                            <select id="formCat" style="background-color: #ff9a00;">
+                                <option value="2">我要搜索职位 </option>
+                                <option value="4">搜索广告职位</option>
+                                <option value="5">搜索资讯中心</option>
+                            </select>
+                            <input onblur="javascript:if(this.value=='')this.value='请输入关键字';" onfocus="javascript:if(this.value=='请输入关键字')this.value='';" style="width: 100px;" type="text" id="formkeyword" value="请输入关键字">
+                            <input value="搜 索" type="button" onclick="return checkvalidform()" class="controlbtn" style="width: 50px; height: 20px" onmousemove="showtip(&quot;选择要查询的项目并输入查询关键字，多个关键字之间可以用+或用空格联接起来并选择要查询的项目&quot;)" onmouseout="hidetip()">
+                        </td>
+                        <td width="50%">
+                            
+<marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3" scrolldelay="50" width="280" height="18" behavior="scroll" direction="left">
+
+        <img src="/Net/Images/an09.gif"><a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=107242" target="_blank">厦门市人才市场人才交流会的举办地点及乘车路线</a>&nbsp;
+    
+        <img src="/Net/Images/an09.gif"><a href="http://hrss.xm.gov.cn/ztzl/12333/" target="_blank">欢迎拨打我市12333综合咨询服务热线咨询了解人社政策法规及业务流程（包括人事代理及档案管理业务等）</a>&nbsp;
+    
+</marquee>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="midChannel">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="bannerButton_2"><a href="/net/info/showinfo.aspx?id=411801" target="_blank" title="厦门宝镌商业管理有限公司"><img src="/images/xmrc/uploadfiles/2018/808813-20180614-170444-25000.jpg" width="570" height="60" border="0" alt="厦门宝镌商业管理有限公司"></a></div>
+    
+
+	<div class="bannerButton_2"><a href="/net/info/showinfo.aspx?id=410338" target="_blank" title="2018年赴台招聘菁英人才来厦就业计划邀请函"><img src="/images/xmrc/uploadfiles/2018/1-20180613-124344-78087.gif" width="570" height="60" border="0" alt="2018年赴台招聘菁英人才来厦就业计划邀请函"></a></div>
+    
+
+	<div class="bannerButton_2"><a href="/net/info/showinfo.aspx?id=400984" target="_blank" title="厦门人才市场现场交流会网上预约平台企业注册通知"><img src="/images/xmrc/uploadfiles/2018/1-20180328-115811-68675.gif" width="570" height="60" border="0" alt="厦门人才市场现场交流会网上预约平台企业注册通知"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tbody><tr>
+                    <td>
+                        <img src="/Net/Images/i_hot_over.gif">
+                    </td>
+                    <td>
+                        <a href="javascript:void(0)" onclick="show('政府公益非编')">
+                            <img src="/Net/Images/i_sy_1.gif"></a>
+                    </td>
+                    <td>
+                        <a href="/net/graduate/" target="_parent">
+                            <img src="/Net/Images/i_hot_graduate.gif"></a>
+                    </td>
+                    <td>
+                        <a href="/net/info/Resultg.aspx?a=a&amp;searchtype=4&amp;releasetime=365&amp;sortby=updatetime&amp;ascdesc=Desc" target="_parent">
+                            <img src="/Net/Images/i_wt.gif"></a>
+                    </td>
+                    
+                    <td width="30%">
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ff9a00" colspan="5" height="2">
+                    </td>
+                </tr>
+            </tbody></table>
+            
+<!--页面文字广告控件（例如黄金榜眼，求贤榜）-->
+<table id="ctl20_ctl00" cellspacing="0" border="0" width="100%">
+	<tbody><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		1)
+        <a href="/net/info/showinfo.aspx?id=412358" target="_blank" onmousemove="showtip(&quot;业务经理/外勤会计/外勤会计/主办会计/会计主管&quot;)" onmouseout="hidetip()">
+            厦门诚可达财务咨询有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		2)
+        <a href="/net/info/showinfo.aspx?id=410699" target="_blank" onmousemove="showtip(&quot;初中语文教师、初中数学教师、初中英语教师、初中化学教师、初中历史教师&quot;)" onmouseout="hidetip()">
+            华中师范大学厦门海沧附属中学
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		3)
+        <a href="/net/info/showinfo.aspx?id=411498" target="_blank" onmousemove="showtip(&quot;幼儿园专任教师、保健医生、保育员、保安、财务、保洁员&quot;)" onmouseout="hidetip()">
+            厦门大学幼儿园
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		4)
+        <a href="/net/info/showinfo.aspx?id=412042" target="_blank" onmousemove="showtip(&quot;智能家居销售经理（急招），航空机票客服（非销售岗），销售经理，商旅客户经理，技术支持工程师，机票客户经理&quot;)" onmouseout="hidetip()">
+            厦门莫柏科技有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		5)
+        <a href="/net/info/showinfo.aspx?id=411459" target="_blank" onmousemove="showtip(&quot;操作、单证、海外客服、会计&quot;)" onmouseout="hidetip()">
+            福建新运国际货运代理有限公司厦门分公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		6)
+        <a href="/net/info/showinfo.aspx?id=412043" target="_blank" onmousemove="showtip(&quot;海运单证、厦门、行政司机、业务发展代表/经理、福州&quot;)" onmouseout="hidetip()">
+            德迅（中国）货运代理有限公司厦门分公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		7)
+        <a href="/net/info/showinfo.aspx?id=412045" target="_blank" onmousemove="showtip(&quot;操作人员、单证人员&quot;)" onmouseout="hidetip()">
+            威成（中国）国际货代有限公司厦门分公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		8)
+        <a href="/net/info/showinfo.aspx?id=405979" target="_blank" onmousemove="showtip(&quot;OTA 网络运营专员，会计主办，物流运营专员，外贸财务部助理，财务成本会计专员（会计类专业线），会计部审计助理&quot;)" onmouseout="hidetip()">
+            厦门明承环保科技有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		9)
+        <a href="/net/info/showinfo.aspx?id=411298" target="_blank" onmousemove="showtip(&quot;营销副总、销售经理、新媒体营销人员&quot;)" onmouseout="hidetip()">
+            福建省广告公司厦门分公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		10)
+        <a href="/net/info/showinfo.aspx?id=404719" target="_blank" onmousemove="showtip(&quot;阿里国际站专员    B2B操作员   SEO操作员，出口业务，外贸销售，外贸部储备经理，国际贸易部储备主管，外贸部助理，B2B专员，国际贸易专员，SEO专员，行政人事专员，外贸专员，外贸储备主管，出口部储备主管，外贸单证员   外贸单证操作，出口业务储备经理&quot;)" onmouseout="hidetip()">
+            厦门市益倍利工贸有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#ffffff" height="18">
+        
+		11)
+        <a href="/net/info/showinfo.aspx?id=409642" target="_blank" onmousemove="showtip(&quot;检验助理，疫苗质量研究助理，高级销售代表，计量员，投标专员，空调技术员，免疫诊断试剂研发助理，研发QA，制剂员，研发助理（新产品开发），蛋白纯化助理，电工，设备技术员，单抗研发助理，生产技术员&quot;)" onmouseout="hidetip()">
+            厦门万泰凯瑞生物技术有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#ffffff" height="18">
+        
+		12)
+        <a href="/net/info/showinfo.aspx?id=403598" target="_blank" onmousemove="showtip(&quot;厦门工学院2018年招聘启事&quot;)" onmouseout="hidetip()">
+            厦门工学院
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#ffffff" height="18">
+        
+		13)
+        <a href="/net/info/showinfo.aspx?id=409440" target="_blank" onmousemove="showtip(&quot;工艺品业务/船务助理&quot;)" onmouseout="hidetip()">
+            厦门欧帕克国际贸易有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#ffffff" height="18">
+        
+		14)
+        <a href="/net/info/showinfo.aspx?id=411959" target="_blank" onmousemove="showtip(&quot;项目经理、客服主管、客服、工程主管、保安主管、保洁主管、绿化主管、维修电工、运行电工、综合主管、法务人员、档案管理员&quot;)" onmouseout="hidetip()">
+            厦门市天地和诚物业有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#ffffff" height="18">
+        
+		15)
+        <a href="/net/info/showinfo.aspx?id=411019" target="_blank" onmousemove="showtip(&quot;销售代表，行政兼业务助理&quot;)" onmouseout="hidetip()">
+            厦门华沪洋电子科技有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#ffffff" height="18">
+        
+		16)
+        <a href="/net/info/showinfo.aspx?id=411919" target="_blank" onmousemove="showtip(&quot;客户（订单）专员、文秘、商务助理&quot;)" onmouseout="hidetip()">
+            厦门普昕生物技术有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#ffffff" height="18">
+        
+		17)
+        <a href="/net/info/showinfo.aspx?id=411002" target="_blank" onmousemove="showtip(&quot;Drawing Engineer（制图工程师）&quot;)" onmouseout="hidetip()">
+            碎波石贸易（厦门）有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#ffffff" height="18">
+        
+		18)
+        <a href="/net/info/showinfo.aspx?id=407699" target="_blank" onmousemove="showtip(&quot;天猫客服，美工，售后客服，产品助理&quot;)" onmouseout="hidetip()">
+            厦门恒颐达贸易有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#ffffff" height="18">
+        
+		19)
+        <a href="/net/info/showinfo.aspx?id=411879" target="_blank" onmousemove="showtip(&quot;市政园林公司人事，市政园林公司绿化片区负责人，市政园林公司安全员，市政园林公司绿化技术管理人员，市政园林生产部技术员，市政园林公司水电技术主管，市政园林公司水处理技术主管，市政园林公司污水处理技术员A，市政园林公司污水处理技术员B，市政园林公司污水化学分析师，市政园林公司污水机械设备维修技术员，市政园林公司污水内勤资料员，旅游公司工程专员（百果园项目），旅游社接待部经理，物业公司物业主任，物业行政专员（法务方向），物业公司水电主管，物业公司工程部弱电主管，物业公司维序副经理，物业公司物管专员，环卫公司综合管理，环卫公司业务一部综合内务，环卫公司业务一部文秘，环卫公司业务二部文秘，保安公司行政党务，智能停车管理公司综合文员，智能停车管理公司行政专员，智能停车管理公司人事专员，智能停车管理公司会计，智能停车管理公司出纳，智能停车管理公司经营管理员A，智能停车管理公司经营管理员B，智能停车管理公司工程管理A，智能停车管理公司工程管理员B，智能停车管理公司督导员A，智能停车管理公司督导员B，市政园林公司党务&quot;)" onmouseout="hidetip()">
+            厦门市集美城市发展有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#ffffff" height="18">
+        
+		20)
+        <a href="/net/info/showinfo.aspx?id=409422" target="_blank" onmousemove="showtip(&quot;隧道电工、路灯维护电工、大车驾驶员&quot;)" onmouseout="hidetip()">
+            厦门市公路桥隧维护中心
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		21)
+        <a href="/net/info/showinfo.aspx?id=411858" target="_blank" onmousemove="showtip(&quot;外贸单证员，外贸业务员&quot;)" onmouseout="hidetip()">
+            厦门普灵进出口有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		22)
+        <a href="/net/info/showinfo.aspx?id=411798" target="_blank" onmousemove="showtip(&quot;天猫/唯品会/京东/淘宝店长，执行导演，淘宝客服，淘宝天猫高级美工，猫超运营助理，电商设计美工，企划专员，天猫店长，京东店长，售后客服，人事行政专员，运营助理（储备店长），新媒体专员&quot;)" onmouseout="hidetip()">
+            麦丹（厦门）食品有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		23)
+        <a href="/net/info/showinfo.aspx?id=411738" target="_blank" onmousemove="showtip(&quot;海运OP操作&quot;)" onmouseout="hidetip()">
+            友航（厦门）物流服务有限公司
+        </a> 
+        
+	</td><td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		24)
+        <a href="/net/info/showinfo.aspx?id=411658" target="_blank" onmousemove="showtip(&quot;业务代表&quot;)" onmouseout="hidetip()">
+            厦门市宾得商贸有限公司
+        </a> 
+        
+	</td>
+	</tr><tr>
+		<td valign="middle" bgcolor="#f5f5dc" height="18">
+        
+		25)
+        <a href="/net/info/showinfo.aspx?id=410778" target="_blank" onmousemove="showtip(&quot;会计、实习生会计&quot;)" onmouseout="hidetip()">
+            厦门诚利达会计代理有限公司
+        </a> 
+        
+	</td><td></td>
+	</tr><tr>
+		<td colspan="2" align="right" bgcolor="#f5f5dc">
+	
+	</td>
+	</tr>
+</tbody></table>
+            <div class="midChannel">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="bannerButton_2"><a href="/net/info/showinfo.aspx?id=407540" target="_blank" title="厦门市人才服务中心关于征集2018年度台生暑期实习岗位的通知"><img src="/images/xmrc/uploadfiles/2018/1-20180611-095912-17150.gif" width="570" height="60" border="0" alt="厦门市人才服务中心关于征集2018年度台生暑期实习岗位的通知"></a></div>
+    
+
+	<div class="bannerButton_2"><a href="/net/info/showinfo.aspx?id=382059" target="_blank" title="2017年优秀管理人才赴美MBA中长期培训"><img src="/images/xmrc/uploadfiles/2017/1-20170815-085846-68750.gif" width="570" height="60" border="0" alt="2017年优秀管理人才赴美MBA中长期培训"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+            <!--
+			<div style='' >
+			    
+				<IFRAME SRC="gn.aspx" FRAMEBORDER="0" WIDTH="98%" HEIGHT="65" SCROLLING="no" ALIGN="alignment" MARGINWIDTH="0" MARGINHEIGHT="0"></IFRAME>
+			       
+     		</div>
+			-->
+            <iframe src="/net/info/html/adrand.html" frameborder="0" width="98%" height="85" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tbody><tr>
+                    <td width="105">
+                        <img src="/Net/Images/i_qx_over.gif">
+                    </td>
+                    <td width="105">
+                        &nbsp;
+                    </td>
+                    <td width="105">
+                        <a href="http://www.xmrs.gov.cn/zjgzc/" target="_blank" style="display: none;">
+                            <img src="/Net/Images/i_doctor.gif"></a>
+                    </td>
+                    <td width="275">
+                        <script type="text/javascript">
+                            function searchQuery() {
+                                var qkeyword = $("#queryKeyword");
+                                if (qkeyword.val() == "") {
+                                    alert("请输入关键字");
+                                    return false;
+                                }
+
+                                window.location.href = "/net/info/resultg.aspx?recruittype=2&keyword=" + qkeyword.val();
+                            }
+                        </script>
+                        <table cellspacing="1" cellpadding="0" width="100%" align="right" border="0" bgcolor="#cccccc">
+                            <tbody><tr>
+                                <td bgcolor="#feeed5">
+                                    <img height="0" src="" width="10">
+                                    <font color="#ff0000">广告栏目职位搜索</font>
+                                    <input id="queryKeyword" type="text" style="width: 80px;">
+                                    <input value="搜  索" type="button" onclick="return searchQuery();" style="width: 50px;">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ff9a00" colspan="5" height="2">
+                    </td>
+                </tr>
+            </tbody></table>
+            
+    
+            <div id="tab_0" class="adTab show">
+                <table id="ctl22_AdRepeater_ctl00_AdItemDataList" cellspacing="0" border="0" width="100%">
+	<tbody><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                1)
+		                <a href="/net/info/showinfo.aspx?id=411618" target="_blank" onmousemove="showtip(&quot;储备干部&quot;)" onmouseout="hidetip()">厦门三裕丰能源有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl00_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                2)
+		                <a href="/net/info/showinfo.aspx?id=411620" target="_blank" onmousemove="showtip(&quot;理货员&quot;)" onmouseout="hidetip()">香港森木国际有限公司厦门代表处</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl01_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                3)
+		                <a href="/net/info/showinfo.aspx?id=412324" target="_blank" onmousemove="showtip(&quot;资产经营部储备干部&quot;)" onmouseout="hidetip()">厦门市旧城保护开发有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl02_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                4)
+		                <a href="/net/info/showinfo.aspx?id=412322" target="_blank" onmousemove="showtip(&quot;汽车维修师傅，前台接待员，汽车维修技师，销售精英&quot;)" onmouseout="hidetip()">厦门市吉仁汽车贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl03_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                5)
+		                <a href="/net/info/showinfo.aspx?id=412320" target="_blank" onmousemove="showtip(&quot;海外部航线客服、商务运价专员、海运单证&quot;)" onmouseout="hidetip()">汇利达国际货运代理（广州）有限公..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl04_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                6)
+		                <a href="/net/info/showinfo.aspx?id=412318" target="_blank" onmousemove="showtip(&quot;燃气远传抄表及技术支持&quot;)" onmouseout="hidetip()">厦门虹创科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl05_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                7)
+		                <a href="/net/info/showinfo.aspx?id=411598" target="_blank" onmousemove="showtip(&quot;单证、业务助理、会计文员&quot;)" onmouseout="hidetip()">哈其德物流香港有限公司驻厦门代表处</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl06_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                8)
+		                <a href="/net/info/showinfo.aspx?id=412298" target="_blank" onmousemove="showtip(&quot;会计，网络科日语助理&quot;)" onmouseout="hidetip()">日通国际物流（中国）有限公司厦门..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl07_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                9)
+		                <a href="/net/info/showinfo.aspx?id=399159" target="_blank" onmousemove="showtip(&quot;Course Consultant课程顾问（少儿）挑战高薪，Teaching Assistant（少儿培训师），设计专员，Teacher（成人老师），CSA（行政客服），Course Consultant（成人课程顾问）挑战高薪，IT专员，财务人员，销售储备干部，企划专员（青少校区），网络营销主管，教学储备干部，网络推广专员&quot;)" onmouseout="hidetip()">厦门市思明区白金汉英语培训学校</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl08_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                10)
+		                <a href="/net/info/showinfo.aspx?id=412238" target="_blank" onmousemove="showtip(&quot;高级销售工程师&quot;)" onmouseout="hidetip()">厦门图尔斯机电有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl09_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                11)
+		                <a href="/net/info/showinfo.aspx?id=411484" target="_blank" onmousemove="showtip(&quot;工程技术管理人员（栋号长）、土建施工员、安全员、资料员&quot;)" onmouseout="hidetip()">厦门中淮建设有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl10_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                12)
+		                <a href="/net/info/showinfo.aspx?id=412181" target="_blank" onmousemove="showtip(&quot;酒庄联络员&quot;)" onmouseout="hidetip()">厦门新九酒业有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl11_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                13)
+		                <a href="/net/info/showinfo.aspx?id=408982" target="_blank" onmousemove="showtip(&quot;工程技术人员、财务、工程试验检测人员&quot;)" onmouseout="hidetip()">福建省闽西交通工程有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl12_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                14)
+		                <a href="/net/info/showinfo.aspx?id=411481" target="_blank" onmousemove="showtip(&quot;销售代表，财务，海运操作&quot;)" onmouseout="hidetip()">超成（厦门）物流有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl13_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                15)
+		                <a href="/net/info/showinfo.aspx?id=410660" target="_blank" onmousemove="showtip(&quot;电子零件和无铅焊锡销售代表、车用润滑油销售代表&quot;)" onmouseout="hidetip()">厦门旺兴达贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl14_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                16)
+		                <a href="/net/info/showinfo.aspx?id=412159" target="_blank" onmousemove="showtip(&quot;会计&quot;)" onmouseout="hidetip()">瞄准（厦门）商贸有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl15_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                17)
+		                <a href="/net/info/showinfo.aspx?id=412218" target="_blank" onmousemove="showtip(&quot;单证&quot;)" onmouseout="hidetip()">上海沛联国际货运代理有限公司厦门..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl16_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                18)
+		                <a href="/net/info/showinfo.aspx?id=411478" target="_blank" onmousemove="showtip(&quot;赛事运营（急），培训班教练经理，文案策划（急），乒羽篮球馆运营经理，餐吧厨师，跆拳道教练（全/兼），销售专员，大客户专员，新媒体运营，健身/私人教练，泳池救生员，前台接待，前台收银，弱电工程&quot;)" onmouseout="hidetip()">厦门福隆体育产业发展有限公司健身..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl17_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                19)
+		                <a href="/net/info/showinfo.aspx?id=412098" target="_blank" onmousemove="showtip(&quot;国际快递客服&quot;)" onmouseout="hidetip()">厦门东拓顺捷物流有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl18_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                20)
+		                <a href="/net/info/showinfo.aspx?id=410600" target="_blank" onmousemove="showtip(&quot;总经理助理，QC，业务员，业务助理，外贸鞋类产品设计开发和配色，业务经理&quot;)" onmouseout="hidetip()">厦门仲成进出口有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl19_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                21)
+		                <a href="/net/info/showinfo.aspx?id=411401" target="_blank" onmousemove="showtip(&quot;装修施工员&quot;)" onmouseout="hidetip()">厦门市雅思装饰设计有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl20_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                22)
+		                <a href="/net/info/showinfo.aspx?id=394058" target="_blank" onmousemove="showtip(&quot;英文编辑，英语翻译编辑，英文网站编辑 网络编辑（英语），英文网站主编/英文责任编辑/英文编辑主管，英文链接建设员，英文外链接员/英文链接员/英文链接发布员，英文SEO,GOOGLE SEO,外贸SEO，销售业务员,销售工程师，外贸网站SEO优化销售工程师，经理助理，英文网络推广员，英语文员，销售文员，PHP程序员（高级），英文网站编辑,英语网络编辑，英文网站推广实习生&quot;)" onmouseout="hidetip()">厦门杰赢网络科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl21_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                23)
+		                <a href="/net/info/showinfo.aspx?id=411418" target="_blank" onmousemove="showtip(&quot;项目专员&quot;)" onmouseout="hidetip()">台湾贸易中心广州代表处</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl22_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                24)
+		                <a href="/net/info/showinfo.aspx?id=410444" target="_blank" onmousemove="showtip(&quot;外贸单证，出纳&quot;)" onmouseout="hidetip()">厦门华置进出口有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl23_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                25)
+		                <a href="/net/info/showinfo.aspx?id=411398" target="_blank" onmousemove="showtip(&quot;手机销售顾问——中博手机城，手机销售顾问、瑞景、加州、湾悦城，手机销售顾问—加州广场，手机销售顾问—-罗宾森，中国移动客户专员，手机销售顾问——瑞景  加州  湾月城，手机销售顾问—-SM南急，手机销售顾问—罗宾森 、中华城，中国移动社区经理——中博手机城，收银员—-SM，手机销售顾问——SM南区域，手机销售顾问—同安城区，手机销售顾问——海沧新垵，收银员——海沧新垵，手机销售顾问——霞梧，手机销售顾问（杏林碑头），手机销售顾问—集美霞梧，手机销售顾问—体育路松柏大润发，手机销售顾问-蔡塘大润发，手机销售顾问—集美大润发中博，手机销售顾问—龙岩万阳大润发，手机销售顾问，厦门集美大润发中博手机城，手机销售顾问-蔡塘大润发，手机销售顾问（龙岩万阳城大润发），手机销售顾问—-中华城 老虎城，三星客服前台——SM一期四楼（中博手机城），社区专员，电商客服专员——江头吕厝，外呼中心客服专员——SM一期四楼（中博手机城），电商运营（官网/APP电商），电商运营经理（官网/APP电商），文案—-急，品牌策划经理——中博手机城，平面设计（官网/APP电商），手机销售顾问—湾悦城&quot;)" onmouseout="hidetip()">厦门市中博贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl24_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                26)
+		                <a href="/net/info/showinfo.aspx?id=405238" target="_blank" onmousemove="showtip(&quot;高薪聘CAD室内设计师，实习室内设计师&quot;)" onmouseout="hidetip()">厦门一治装饰设计有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl25_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                27)
+		                <a href="/net/info/showinfo.aspx?id=412058" target="_blank" onmousemove="showtip(&quot;微信营销经理，业务员，销售代表，淘宝兼职美工，营销团队，业务员，行政助理，前台文员&quot;)" onmouseout="hidetip()">厦门利川音响有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl26_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                28)
+		                <a href="/net/info/showinfo.aspx?id=412038" target="_blank" onmousemove="showtip(&quot;维修部学徒工、维修保养人员、电梯销售人员、仓管员、会计、会计助理、维保业务人员、经理助理或文职人员&quot;)" onmouseout="hidetip()">厦门厦菱电梯安装工程有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl27_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                29)
+		                <a href="/net/info/showinfo.aspx?id=412039" target="_blank" onmousemove="showtip(&quot;出纳&quot;)" onmouseout="hidetip()">深圳威比利国际货运代理有限公司厦..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl28_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                30)
+		                <a href="/net/info/showinfo.aspx?id=407238" target="_blank" onmousemove="showtip(&quot;后勤人员，教学助理（班主任），销售经理&quot;)" onmouseout="hidetip()">厦门路透教育咨询有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl29_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                31)
+		                <a href="/net/info/showinfo.aspx?id=411319" target="_blank" onmousemove="showtip(&quot;供电技术管理、通信技术管理、业务管理、预算管理、运检电工&quot;)" onmouseout="hidetip()">厦门自贸片区港务电力有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl30_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                32)
+		                <a href="/net/info/showinfo.aspx?id=408818" target="_blank" onmousemove="showtip(&quot;储备管理精英（给你一个发展实力的空间），LED、电子技术员，二维制图员，预算员，行政文员，施工员，业务助理，投标专员&quot;)" onmouseout="hidetip()">厦门鑫路远交通设施有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl31_Font1" color="#808080" style="font-size:9px">6-19</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                33)
+		                <a href="/net/info/showinfo.aspx?id=409661" target="_blank" onmousemove="showtip(&quot;查勘定损岗、人伤法务岗、会计岗&quot;)" onmouseout="hidetip()">长安责任保险股份有限公司厦门分公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl32_Font1" color="#808080" style="font-size:9px">6-18</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                34)
+		                <a href="/net/info/showinfo.aspx?id=409640" target="_blank" onmousemove="showtip(&quot;行政专员、行政助理&quot;)" onmouseout="hidetip()">厦门西堤汇资产管理合伙企业（有限..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl33_Font1" color="#808080" style="font-size:9px">6-18</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                35)
+		                <a href="/net/info/showinfo.aspx?id=411239" target="_blank" onmousemove="showtip(&quot;水平衡测试技术人员、建设项目水文水资源项目评价员&quot;)" onmouseout="hidetip()">厦门宇扬节水科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl34_Font1" color="#808080" style="font-size:9px">6-18</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                36)
+		                <a href="/net/info/showinfo.aspx?id=404022" target="_blank" onmousemove="showtip(&quot;团队经理，行政前台，人事，客户经理&quot;)" onmouseout="hidetip()">北京恒远鑫达信息咨询有限公司厦门..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl35_Font1" color="#808080" style="font-size:9px">6-18</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                37)
+		                <a href="/net/info/showinfo.aspx?id=411160" target="_blank" onmousemove="showtip(&quot;装修施工员、工地仓管&quot;)" onmouseout="hidetip()">厦门市美裕装修设计工程有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl36_Font1" color="#808080" style="font-size:9px">6-18</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                38)
+		                <a href="/net/info/showinfo.aspx?id=411078" target="_blank" onmousemove="showtip(&quot;海运&quot;)" onmouseout="hidetip()">理运国际货运（中国）有限公司厦门..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl37_Font1" color="#808080" style="font-size:9px">6-18</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                39)
+		                <a href="/net/info/showinfo.aspx?id=411961" target="_blank" onmousemove="showtip(&quot;前台及行政人员，道路工程师，分院副总工，桥梁工程师，造价工程师，道路桥梁项目负责人，设计代表兼设计人员，电力设计人员，路线、立交设计人员&quot;)" onmouseout="hidetip()">四川西南交大土木工程设计有限公司..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl38_Font1" color="#808080" style="font-size:9px">6-16</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                40)
+		                <a href="/net/info/showinfo.aspx?id=409540" target="_blank" onmousemove="showtip(&quot;销售内勤，绘图设计，施工设计，办公室文员，行政助理，销售，家装零售主管，销售助理，销售经理，销售商务，工程销售，展厅销售员&quot;)" onmouseout="hidetip()">厦门泰星机电工程有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl39_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                41)
+		                <a href="/net/info/showinfo.aspx?id=411038" target="_blank" onmousemove="showtip(&quot;国际货代高级销售代表，海运操作客服OP，国际海运市场推广专员&quot;)" onmouseout="hidetip()">立星（厦门）物流有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl40_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                42)
+		                <a href="/net/info/showinfo.aspx?id=409539" target="_blank" onmousemove="showtip(&quot;销售人员、平面设计&quot;)" onmouseout="hidetip()">厦门港务酒业有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl41_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                43)
+		                <a href="/net/info/showinfo.aspx?id=409520" target="_blank" onmousemove="showtip(&quot;行政助理兼会计&quot;)" onmouseout="hidetip()">厦门市标准化与质量品牌协会招聘工..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl42_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                44)
+		                <a href="/net/info/showinfo.aspx?id=411958" target="_blank" onmousemove="showtip(&quot;电脑技术工程师、产品渠道专员 、商务专员&quot;)" onmouseout="hidetip()">厦门创大科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl43_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                45)
+		                <a href="/net/info/showinfo.aspx?id=409502" target="_blank" onmousemove="showtip(&quot;燕窝销售&quot;)" onmouseout="hidetip()">厦门市海沧区金丝东卿燕窝店</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl44_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                46)
+		                <a href="/net/info/showinfo.aspx?id=410999" target="_blank" onmousemove="showtip(&quot;海运拼箱航线操作、海运整柜航线操作、海运拼箱单证、客服专员、市场专员&quot;)" onmouseout="hidetip()">厦门亚沃环球国际货运代理有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl45_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                47)
+		                <a href="/net/info/showinfo.aspx?id=410998" target="_blank" onmousemove="showtip(&quot;业务员&quot;)" onmouseout="hidetip()">福神农（厦门）生物科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl46_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                48)
+		                <a href="/net/info/showinfo.aspx?id=411918" target="_blank" onmousemove="showtip(&quot;校车司机&quot;)" onmouseout="hidetip()">厦门国际学校</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl47_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                49)
+		                <a href="/net/info/showinfo.aspx?id=410278" target="_blank" onmousemove="showtip(&quot;前台兼行政助理，服装质检员（QC），社会责任审核员&quot;)" onmouseout="hidetip()">德国TAKKO有限公司驻厦门代表处</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl48_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                50)
+		                <a href="/net/info/showinfo.aspx?id=410242" target="_blank" onmousemove="showtip(&quot;电话营销经理，校园代理，副总经理，美术总监，舞蹈总监，策划总监，新媒体运营专员/主管，企划，平面设计，网络推广营销，总监助理，艺术总监助理，行政人事经理，留学部总监，销售部经理，市场部经理，产品经理，市场专员，销售经理，电话营销专员，国际艺术院校咨询顾问，实习生，德语老师/翻译，德语老师&quot;)" onmouseout="hidetip()">厦门德中缘文化传播有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl49_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                51)
+		                <a href="/net/info/showinfo.aspx?id=398172" target="_blank" onmousemove="showtip(&quot;工艺品设计师/工艺品外贸业务员&quot;)" onmouseout="hidetip()">厦门佳四创工贸有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl50_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                52)
+		                <a href="/net/info/showinfo.aspx?id=410940" target="_blank" onmousemove="showtip(&quot;美容师、美容学员、后勤助理&quot;)" onmouseout="hidetip()">厦门市思明区郭丽端美容店</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl51_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                53)
+		                <a href="/net/info/showinfo.aspx?id=411898" target="_blank" onmousemove="showtip(&quot;物流单证、客服、物流文员&quot;)" onmouseout="hidetip()">厦门致宣物流有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl52_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                54)
+		                <a href="/net/info/showinfo.aspx?id=409478" target="_blank" onmousemove="showtip(&quot;业务员&quot;)" onmouseout="hidetip()">威德利贸易（厦门）有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl53_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                55)
+		                <a href="/net/info/showinfo.aspx?id=391678" target="_blank" onmousemove="showtip(&quot;智能化现场管理人员，注册电气工程师，销售专员，行政专员，渠道专员，夜景照明工程设计师，智能化销售经理，售后服务技术员，暖通设计师，出纳，人事专员，人事经理，商务代表，商务经理，销售经理，项目经理（夜景照明工程），建筑智能化设计师，行政专员&quot;)" onmouseout="hidetip()">厦门升光信息科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl54_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                56)
+		                <a href="/net/info/showinfo.aspx?id=410219" target="_blank" onmousemove="showtip(&quot;静载现场检测人员、现场监测负责、辅助人员（测工）、前台业务受理员&quot;)" onmouseout="hidetip()">福建省建筑工程质量检测中心有限公..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl55_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                57)
+		                <a href="/net/info/showinfo.aspx?id=406741" target="_blank" onmousemove="showtip(&quot;人事专员，管理培训生，行政实习生，仓管，文案编辑，急求饲料检验化验员&quot;)" onmouseout="hidetip()">厦门创和美饲料科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl56_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                58)
+		                <a href="/net/info/showinfo.aspx?id=411878" target="_blank" onmousemove="showtip(&quot;语文、数学、体育、科学、美术、信息技术&quot;)" onmouseout="hidetip()">厦门市集美区曾营小学</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl57_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                59)
+		                <a href="/net/info/showinfo.aspx?id=409261" target="_blank" onmousemove="showtip(&quot;维修技师&quot;)" onmouseout="hidetip()">皇家空调设备工程（广东）有限公司..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl58_Font1" color="#808080" style="font-size:9px">6-15</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                60)
+		                <a href="/net/info/showinfo.aspx?id=410139" target="_blank" onmousemove="showtip(&quot;英语销售代表，外贸销售代表，外贸业务员&quot;)" onmouseout="hidetip()">厦门市万磁电子有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl59_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                61)
+		                <a href="/net/info/showinfo.aspx?id=411799" target="_blank" onmousemove="showtip(&quot;机构业务经理，区域经理，客户经理，独立经纪人&quot;)" onmouseout="hidetip()">中国银河证券股份有限公司厦门塔埔..</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl60_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                62)
+		                <a href="/net/info/showinfo.aspx?id=410881" target="_blank" onmousemove="showtip(&quot;钢琴教师，小提琴教师，古筝教师，铜管乐教师，美术专业、书法、国画教师，大提琴教师，少儿英语教师“高薪”，行政人员（琴行），课程顾问（高薪聘请），拼音教师，语、数、英兼职教师，运营总监，琴行销售，市场专员，初、高中文化课教师，国学教师，思维导图教师，课程顾问，快速阅读教师&quot;)" onmouseout="hidetip()">厦门市爱心实业有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl61_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                63)
+		                <a href="/net/info/showinfo.aspx?id=410878" target="_blank" onmousemove="showtip(&quot;行政文秘&quot;)" onmouseout="hidetip()">厦门市老年基金会</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl62_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                64)
+		                <a href="/net/info/showinfo.aspx?id=411758" target="_blank" onmousemove="showtip(&quot;海运操作（OP）&quot;)" onmouseout="hidetip()">厦门宁诺物流有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl63_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                65)
+		                <a href="/net/info/showinfo.aspx?id=408318" target="_blank" onmousemove="showtip(&quot;话务员（电话客服），客服人员，电销专员，销售精英，金融专员&quot;)" onmouseout="hidetip()">厦门二十二世纪管理咨询有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl64_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                66)
+		                <a href="/net/info/showinfo.aspx?id=411718" target="_blank" onmousemove="showtip(&quot;文秘、编辑、家庭教育、平面设计、网络技术人员&quot;)" onmouseout="hidetip()">厦门校外传媒有限责任公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl65_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                67)
+		                <a href="/net/info/showinfo.aspx?id=409138" target="_blank" onmousemove="showtip(&quot;客服专员，人事行政主管&quot;)" onmouseout="hidetip()">厦门派领投资有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl66_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                68)
+		                <a href="/net/info/showinfo.aspx?id=410418" target="_blank" onmousemove="showtip(&quot;外贸单证员&quot;)" onmouseout="hidetip()">越星（厦门）国际物流有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl67_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                69)
+		                <a href="/net/info/showinfo.aspx?id=409158" target="_blank" onmousemove="showtip(&quot;工程技术员、绘图员、制图员，IPQC，OQC，业务内勤，销售内勤，自动机台操作人员，IQC，储备干部，设备维修工程师、机修工程师、生技，应届毕业生，焊锡工，注塑工，应收应付会计，运营主管，行政人事专员，清洁工，现场工艺员，品管主管，采购员，品质工程师，销售业务员，网管员、网络负责人、IT员&quot;)" onmouseout="hidetip()">厦门爱瑞克电子有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl68_Font1" color="#808080" style="font-size:9px">6-14</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                70)
+		                <a href="/net/info/showco.aspx?CompanyID=409122" target="_blank" onmousemove="showtip(&quot;亚马运（Amazon）实习生、亚马逊运营专员 日语、亚马逊（Amazon）客服专员、亚马逊（Amazon）助理、Wish 运营主管、Wish 助理、跨境电商B2C运营主管、亚马逊（Amazon）运营专员、跨境电商实习生、速卖通销售&quot;)" onmouseout="hidetip()">厦门豪盾贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl69_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                71)
+		                <a href="/net/info/showco.aspx?CompanyID=80931" target="_blank" onmousemove="showtip(&quot;区域经理、销售客服、网络销售、电话营销、业务员、销售工程师、业务代表、销售代表&quot;)" onmouseout="hidetip()">厦门丰达欣贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl70_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                72)
+		                <a href="/net/info/showco.aspx?CompanyID=841132" target="_blank" onmousemove="showtip(&quot;WEB前端开发工程师、API初级开发工程师、软件研发项目经理、服务端开发工程师、ReactNative开发工程师、HTML／CSS工程师、软件测试【实习】、软件测试、Android高级开发工程师、iOS高级开发工程师、资深UI交互设计师、WEB前端架构师、WEB开发工程师【实习】、IOS开发工程师【实习】&quot;)" onmouseout="hidetip()">厦门歪兔网络科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl71_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                73)
+		                <a href="/net/info/showco.aspx?CompanyID=878989" target="_blank" onmousemove="showtip(&quot;助理、招聘沙坡尾IP开发专员、旅游开发专员、活动策划、IP开发实习生、社群运营专员、文创项目经理&quot;)" onmouseout="hidetip()">厦门和衡文创产业有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl72_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                74)
+		                <a href="/net/info/showco.aspx?CompanyID=375534" target="_blank" onmousemove="showtip(&quot;软件销售工程师、销售内勤、网络推广专员、内勤文员、物料管理员、软件项目拓展经理、软件销售代表、客服专员、生管（生产计划员）、JAVA高级工程师、销售助理、客服文员、区域业务经理（驻福州）、区域业务经理（驻泉州）、区域业务经理（驻漳州）、C#软件开发、图像识别工程师、java软件开发&quot;)" onmouseout="hidetip()">厦门倍诺信息科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl73_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                75)
+		                <a href="/net/info/showco.aspx?CompanyID=38016" target="_blank" onmousemove="showtip(&quot;助理产品管理师、SMT设备工程师、研发硬件工程师、研发硬件工程师（CAR）、急招！女 普工/作业员/操作工（长白班）、电子品检-QC（长白班）、IE工程师&quot;)" onmouseout="hidetip()">丞信电子科技（厦门）有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl74_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                76)
+		                <a href="/net/info/showco.aspx?CompanyID=683071" target="_blank" onmousemove="showtip(&quot;电话销售、金融销售代表、销售顾问、客户代表、电商顾问、市场专员、业务代表、技术服务、网络平台设计、售后服务、售后服务、阿里产地小二、大客户经理、区域销售经理、金融经理、培训经理/高级培训师、人事行政专员、招商业务、速卖通运营专员、招聘专员/人事专员、销售顾问/销售代表/商务顾问、销售经理/销售主管、客服总监、人力资源总监、人力资源主管 /HRBP、电商主管/运营主管、人事行政主管、摄影（兼职）、运营专员、运营助理、招商经理、客服主管、阿里巴巴B2B运营总监、市场媒介、运营店长、运营主管、运营专员（泉州）&quot;)" onmouseout="hidetip()">泉州市速腾网络科技有限公司厦门分公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl75_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                77)
+		                <a href="/net/info/showco.aspx?CompanyID=334565" target="_blank" onmousemove="showtip(&quot;商务代表、销售总监、行政前台、PHP开发/高级PHP研发、技术总监/PHP开发总监/项目经理、产品经理、市场公关、PHP技术总监/php高级工程师/PHP主管、web前端工程师/web前端开发、.net高级工程师（急聘）、.net中级工程师（急聘）、高级UI设计师、windows,linux,服务器维护,网管、客服专员、软件测试、PHP开发工程师（中级）、C#工程师、Java工程师&quot;)" onmouseout="hidetip()">厦门中恒天下网络科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl76_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                78)
+		                <a href="/net/info/showco.aspx?CompanyID=901492" target="_blank" onmousemove="showtip(&quot;销售经理、销售代表/业务员、销售运营副总经理、董事长助理、财务会计、商务运营/外联经理、销售主管、专利工程师、项目经理（南昌）、渠道专员/业务拓展专员&quot;)" onmouseout="hidetip()">金轩峰创（厦门）知识产权服务有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl77_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                79)
+		                <a href="/net/info/showco.aspx?CompanyID=702119" target="_blank" onmousemove="showtip(&quot;会计、外贸跟单员、服装外贸业务员&quot;)" onmouseout="hidetip()">厦门芭娜进出口有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl78_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                80)
+		                <a href="/net/info/showco.aspx?CompanyID=855334" target="_blank" onmousemove="showtip(&quot;海外地产投资顾问、澳洲房产投资顾问/置业顾问/销售顾问、渠道专员（急聘）、澳洲房产投资顾问、高级渠道专员、海外房产投资顾问、置业顾问、澳洲地产投资顾问、投资顾问/置业顾问/销售顾问、高级投资顾问、【高薪诚聘】澳洲地产销售经理、澳洲房产销售、移民留学顾问（澳洲）、海外房产经纪人、会计兼出纳、大客户经理、客服专员（文案方向）、运营专员&quot;)" onmouseout="hidetip()">金顶置业（上海）有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl79_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                81)
+		                <a href="/net/info/showco.aspx?CompanyID=844450" target="_blank" onmousemove="showtip(&quot;区域销售代表、轮胎销售（试用期保底6000元）、客服专员（非销售）、销售专员、供应链渠道销售客户经理、销售助理、销售经理（管理岗）、渠道销售经理&quot;)" onmouseout="hidetip()">厦门华创信贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl80_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                82)
+		                <a href="/net/info/showco.aspx?CompanyID=361648" target="_blank" onmousemove="showtip(&quot;关务助理（加工贸易）、保安、研发-生技、CNC操作员、数控加工中心技术员&quot;)" onmouseout="hidetip()">厦门机零壹光电有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl81_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                83)
+		                <a href="/net/info/showco.aspx?CompanyID=46746" target="_blank" onmousemove="showtip(&quot;业务人员、卖场促销员、区域业务主管、业务经理、销售代表、外贸文员&quot;)" onmouseout="hidetip()">厦门市豪冠贸易发展有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl82_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                84)
+		                <a href="/net/info/showco.aspx?CompanyID=375690" target="_blank" onmousemove="showtip(&quot;水电现场安装工、业务员、CAD制图员、财务文员&quot;)" onmouseout="hidetip()">厦门咏嘉联盛泳池工程有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl83_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                85)
+		                <a href="/net/info/showco.aspx?CompanyID=758491" target="_blank" onmousemove="showtip(&quot;无人售货店管理员、人事兼出纳、客服专员、网络推广、美工设计、办公室助理&quot;)" onmouseout="hidetip()">厦门网红网络科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl84_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                86)
+		                <a href="/net/info/showco.aspx?CompanyID=429144" target="_blank" onmousemove="showtip(&quot;急招 全自动封面机、纸盒成型机机长、助手&quot;)" onmouseout="hidetip()">厦门巨隆祥工贸有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl85_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                87)
+		                <a href="/net/info/showco.aspx?CompanyID=534808" target="_blank" onmousemove="showtip(&quot;时装佳丽、礼仪模特、化妆学徒、业余歌手、形象宝贝、会籍顾问、礼仪迎宾、商务公关、舞蹈演员（舞蹈爵士拉丁现代）、商务/平面/车展模特、胸/模、游艇baby、董事长助理、内衣模特、舞蹈学员、走秀模特、模特，歌手，舞蹈、T台模特、人事助理、公司白班前台接待、商务礼仪/模特、主持佳丽（舞台气氛）、瑜伽陪练（舞蹈）、活动驻场队、迎宾接待&quot;)" onmouseout="hidetip()">厦门景尚天文化传播有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl86_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                88)
+		                <a href="/net/info/showco.aspx?CompanyID=432428" target="_blank" onmousemove="showtip(&quot;洗碗工、SPA服务部副经理、餐厅领班（急）、古堡接待员、营销部经理、总账会计、兼职工（餐厅）、保洁员、前厅部经理、传菜员、电工（有高压电工证）、咖啡厅/美食餐厅/SPA-服务员、前台主管、迎宾、保安、会所经理、健身中心前台、营销策划、救生员、SPA前台主管、SPA 美疗师、足浴技师（急）、行政人事助理、SPA接待领班、餐厅主管、会籍顾问、会籍主管、各部门实习生（1年）、人事主管、会籍顾问、财务审单、维序副主管、美食餐厅经理、大堂礼宾（管家助理）、高级前台接待、总账会计主管、保洁员（临时工）、客房高级服务员（急）&quot;)" onmouseout="hidetip()">厦门原石滩酒店管理有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl87_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                89)
+		                <a href="/net/info/showco.aspx?CompanyID=83981" target="_blank" onmousemove="showtip(&quot;品检员、人事专员、人事、采购专员、采购助理、饰品手缝工、销售代表（驻深圳）、销售主管、手工（外发）、手工品检、临时工&quot;)" onmouseout="hidetip()">厦门汇易服装辅料有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl88_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                90)
+		                <a href="/net/info/showco.aspx?CompanyID=89528" target="_blank" onmousemove="showtip(&quot;结构工程师、仓管员、电工、淘宝客服、网络运营、外贸业务员、电焊工、氩焊工、SEO网络工程师、外贸业务经理、机电工程师&quot;)" onmouseout="hidetip()">厦门杰田科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl89_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                91)
+		                <a href="/net/info/showco.aspx?CompanyID=892429" target="_blank" onmousemove="showtip(&quot;平面设计、前台、会计、跨界营销部经理、生命管理事业中心营销部经理、体育事业部经理、健康营运经理、IT中心经理、大数据管理中心经理、餐饮销售经理、高端会员销售经理&quot;)" onmouseout="hidetip()">厦门凯歌体育健康产业有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl90_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                92)
+		                <a href="/net/info/showco.aspx?CompanyID=848420" target="_blank" onmousemove="showtip(&quot;客服专员、webapp前端开发工程师、H5开发工程师&quot;)" onmouseout="hidetip()">厦门拓客金融技术服务有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl91_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                93)
+		                <a href="/net/info/showco.aspx?CompanyID=383832" target="_blank" onmousemove="showtip(&quot;合同管理专员、新媒体运营（品牌推广）、项目专员—前端、项目专员—后端、人力资源专员、品牌策划专员、业务员/销售代表、科粒网平台运营工程师、行政兼出纳专员、线上咨询顾问、知识产权顾问、科技经纪人（销售精英）、流程专员、商标设计专员&quot;)" onmouseout="hidetip()">厦门卓联信息科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl92_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                94)
+		                <a href="/net/info/showco.aspx?CompanyID=89416" target="_blank" onmousemove="showtip(&quot;考评员、品牌经理、销售工程师、java工程师、行政助理、行政前台、考评文案编辑、市场商务专员、文案专员&quot;)" onmouseout="hidetip()">厦门四方中信科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl93_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                95)
+		                <a href="/net/info/showco.aspx?CompanyID=103229" target="_blank" onmousemove="showtip(&quot;执业（中）药师、营业员（糕点饮品）、彩超放射技师（海沧）、B超医生（急）、驻店药师/中药师、保洁、会计助理、药房调剂员、医学检验士/师、护士、妇科医生、医疗部经理助理（管理级别）、中西医结合医师、药店营业员、口腔科执业医师、内科医生（可兼职）、小儿推拿医生、外科医生、针灸推拿理疗医师、药师（卫生系统职称）、厨师（炒锅）&quot;)" onmouseout="hidetip()">厦门德善堂医药有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl94_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                96)
+		                <a href="/net/info/showco.aspx?CompanyID=627430" target="_blank" onmousemove="showtip(&quot;仓库文员（同安西柯镇）、wish运营专员、跨境电商专员、Amazon运营专员（日语）、ebay运营专员、Amazon运营主管、Amazon运营专员（西班牙语）、Amazon运营专员（德语）、Amazon运营专员（意大利语）、Amazon运营专员（法语）、亚马逊运营专员、物流文员、Amazon平台主管、意大利语专员、Amazon销售运营专员、法语外贸专员、德语外贸专员、西班牙语外贸专员、财务统计专员、数据统计专员、wish销售运营专员、统计员（应届毕业生）、wish运营主管、实习生、实习生（跨境电商）、亚马逊运营  意大利语、亚马逊运营  德语、亚马逊运营  法语、亚马逊运营 日语、亚马逊运营   西班牙语、产品开发专员   亚马逊、ebay销售专员&quot;)" onmouseout="hidetip()">厦门嵘瑞网络科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl95_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                97)
+		                <a href="/net/info/showco.aspx?CompanyID=59859" target="_blank" onmousemove="showtip(&quot;国内业务员、业务经理、机修电工、折弯、钣金技师、焊工、仓管、开发制图技术员、外贸业务跟单\业务经理、辅料采购、人事专员（急）、成本会计/成本主管、五金样品学徒工&quot;)" onmouseout="hidetip()">厦门蒙特实业有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl96_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                98)
+		                <a href="/net/info/showco.aspx?CompanyID=691376" target="_blank" onmousemove="showtip(&quot;星探、人事专员、高级招聘专员、总经理助理、设计策划人员、PHP程序主管、销售经理、业务员、场控专员、相亲主播（网络直播）、游戏主播、兼职主播、招聘专员、经纪人、运营经理/总监、运营专员、娱乐主播、化妆师/造型师、舞蹈师、营业员、兼职连麦人员、企划专员、行政前台、运营主管/经理、TMK（邀约专员）、客服专员、策划专员、艺人经纪人、主播经纪人&quot;)" onmouseout="hidetip()">不二城（厦门）科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl97_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                99)
+		                <a href="/net/info/showco.aspx?CompanyID=674511" target="_blank" onmousemove="showtip(&quot;微信运营、新媒体微信运营、SEO优化/SEO专员、php程序员/PHP工程师、微信编辑、新媒体编辑、网站编辑&quot;)" onmouseout="hidetip()">厦门掌游科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl98_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                100)
+		                <a href="/net/info/showco.aspx?CompanyID=690149" target="_blank" onmousemove="showtip(&quot;人力资源专员、出纳、业务、团购专员、理货员、促销员、仓管、人力资源及文员、销售主管、会计、会计实习生、经理助理、自带车送货司机司机、业务督导&quot;)" onmouseout="hidetip()">厦门市华丰瑞商贸有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl99_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                101)
+		                <a href="/net/info/showco.aspx?CompanyID=874496" target="_blank" onmousemove="showtip(&quot;外贸业务员、海外市场专员助理、亚马逊运营（运营主管方向）&quot;)" onmouseout="hidetip()">厦门艾美徕特照明有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl100_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                102)
+		                <a href="/net/info/showco.aspx?CompanyID=319812" target="_blank" onmousemove="showtip(&quot;品保QC、物控、无菌检验员、品保PQC、内、外贸业务助理、外贸业务员、物流主管、工程主管、人事专员、硅胶操作工、助理工程师&quot;)" onmouseout="hidetip()">厦门康勃医疗科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl101_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                103)
+		                <a href="/net/info/showco.aspx?CompanyID=97365" target="_blank" onmousemove="showtip(&quot;统计文员、化验员、制程品管员、原材料检验员、车间操作工、低压维修电工、统计文员、总经理秘书、仓管主管、食堂厨师、仓管员、收货部主管、面包车司机、面点师、工业会计、统计文员、搬运工、急招驾驶员、招聘驾驶员、采购员、备料员（干货仓库）、仓库员、市场策划主管、保安员、人事专员、男普工、销售统计、财务助理、备料员（冻品仓）、会计、业务员、制冷专员&quot;)" onmouseout="hidetip()">厦门市品佳贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl102_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                104)
+		                <a href="/net/info/showco.aspx?CompanyID=71699" target="_blank" onmousemove="showtip(&quot;慢走丝技术员、精密磨床操作员及学徒&quot;)" onmouseout="hidetip()">厦门市特克模具工业有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl103_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                105)
+		                <a href="/net/info/showco.aspx?CompanyID=363575" target="_blank" onmousemove="showtip(&quot;外贸业务（农业/温室大棚）、仓管员、外贸业务员（英语）、外贸业务员（日语）、品检员、结构工程师、西班牙语外贸业务&quot;)" onmouseout="hidetip()">厦门宇投太阳能科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl104_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                106)
+		                <a href="/net/info/showco.aspx?CompanyID=370548" target="_blank" onmousemove="showtip(&quot;包装物料员、外贸业务员、产品工程师、亚马逊（美国站）运营专员&quot;)" onmouseout="hidetip()">厦门福扬机电有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl105_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                107)
+		                <a href="/net/info/showco.aspx?CompanyID=910701" target="_blank" onmousemove="showtip(&quot;嵌入式软件工程师、VSLAM算法工程师、嵌入式硬件工程师、电控工程师、机械工程师、文秘、视觉工程师、软件工程师、招聘专员、室内导航/slam算法工程师、UI界面设计师、后勤管理员、前端工程师&quot;)" onmouseout="hidetip()">福建（泉州）哈工大工程技术研究院</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl106_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                108)
+		                <a href="/net/info/showco.aspx?CompanyID=94962" target="_blank" onmousemove="showtip(&quot;销售员（民办事业部）、销售内勤、施工图设计师、销售部主管、资深景观设计师、室内设计师、售后安装维修员、预决算员/造价员、工程/设计部经理、施工员/工程监理、行政人事经理、销售员（公办事业部）、行政人事、售后部主管、客户主任、应届生（室内设计、景观设计）&quot;)" onmouseout="hidetip()">厦门易智教育科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl107_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                109)
+		                <a href="/net/info/showco.aspx?CompanyID=911473" target="_blank" onmousemove="showtip(&quot;会计主管/总账会计、电商运营主管、文案策划/企划主管、第三方平台运营专员\特卖专员、淘宝天猫客服 售前售后客服（有经验）、自媒体编辑/新媒体专员、电商商品主管、天猫运营店长、电商运营总监、营销总监、童装设计师&quot;)" onmouseout="hidetip()">永高人儿童用品有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl108_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                110)
+		                <a href="/net/info/showco.aspx?CompanyID=831229" target="_blank" onmousemove="showtip(&quot;外贸业务员、wish专员、跨境电商业务员、初级运营专员、实习生/助理、亚马逊日本站（晋江）、美工、采购专员&quot;)" onmouseout="hidetip()">厦门易莱电子商务有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl109_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                111)
+		                <a href="/net/info/showco.aspx?CompanyID=844453" target="_blank" onmousemove="showtip(&quot;前厅经理、前台接待、客房服务员、按摩理疗师、客房服务员、餐厅服务员、前台主管、康复师、理疗师、人事行政主管/经理、按摩师&quot;)" onmouseout="hidetip()">厦门大方无隅酒店有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl110_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                112)
+		                <a href="/net/info/showco.aspx?CompanyID=381332" target="_blank" onmousemove="showtip(&quot;美学导师、美容经理、美发经理、美发总监、市场经理、财务专员、总经理秘书、驻店厨师、足浴技师、司机、行政前台、文案企划、外勤财务、高级招聘专员、美疗顾问、保洁、美容前台、水电工、出纳、美疗师、储备干部（应届生）、人事助理、收银员、服务生、拓客经理、摄影剪辑&quot;)" onmouseout="hidetip()">厦门依玖陆玖美疗庄园企业管理有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl111_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                113)
+		                <a href="/net/info/showco.aspx?CompanyID=715069" target="_blank" onmousemove="showtip(&quot;客服专员、iOS高级开发工程师、人事主管、运营总监、新媒体运营、产品经理（高级）—APP端、中级测试工程师、短视频运营、初级测试工程师、中级IOS开发工程师、客服主管、UI设计师、后端开发工程师（高级）-php、产品经理（中级）—APP端、中级JAVA开发工程师、后端开发工程师（高级）-Java&quot;)" onmouseout="hidetip()">厦门道拓科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl112_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                114)
+		                <a href="/net/info/showco.aspx?CompanyID=529408" target="_blank" onmousemove="showtip(&quot;行政助理、储备干部、招商经理、推广专员（可兼职）、客户渠道经理、培训助理、企业培训师（招商方向）、经理助理（招商方向）、急招~售后客服、前台、销售顾问、客服维护、高级商务专员、商城招商总监、文员（售后）、商城运营总监、招商总监、招商专员、客服专员、客服 急&quot;)" onmouseout="hidetip()">福建明人集团有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl113_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                115)
+		                <a href="/net/info/showco.aspx?CompanyID=648488" target="_blank" onmousemove="showtip(&quot;文案策划、产品运营经理、客服、会计课程研发人员、销售代表、教学助理、Java实习、会计教研老师、渠道经理、人事专员、客服、Java工程师、政府公关、司机、会计老师、产品助理、管理会计教研老师、会计课程质检、前端工程师、ERP实施顾问/财税顾问、教育培训机构咨询主管、教育培训机构市场主管、运营经理、初级测试工程师（应届）、会计人员&quot;)" onmouseout="hidetip()">厦门铸远教育科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl114_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                116)
+		                <a href="/net/info/showco.aspx?CompanyID=101911" target="_blank" onmousemove="showtip(&quot;实验室技术负责人、生物检测（DNA亲子鉴定）、实验室负责人（环境/食品）、运维工程师、运维  （物理学（光学、声学）、计算机科学、电子技术（含自动控制））、DNA亲子鉴定（法医学、生物学（生化、分子生物学）、遗传学、检验专业、鉴定助理（计算机科学、电子技术专业）、电子数据鉴定人、工程师（计算机科学、电子技术专业）、数据技术员（手机或硬盘类）&quot;)" onmouseout="hidetip()">福建历思司法鉴定所</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl115_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                117)
+		                <a href="/net/info/showco.aspx?CompanyID=72128" target="_blank" onmousemove="showtip(&quot;房产销售无责底薪4500+带薪培训、毕业生销售底薪4500+培训+落户厦门、商业地产 / 豪宅顾问年薪20万起、通往成功之路（房产销售快速成长）、储备店经理+销售管培生底薪4500、房产销售精英月薪8k起、金牌房产顾问起抽50%、置业顾问、招聘专员（总部）、区域房产总监、豪宅销售代表、房地产置业 / 销售精英高薪诚聘、销售应届毕业生（快速晋升）、售后总监、高级置业顾问、海沧房产经纪人、2018届销售管培生、2018校园招聘、豪宅置业顾问、一手项目专员&quot;)" onmouseout="hidetip()">厦门丹厦房产行销策划有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl116_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                118)
+		                <a href="/net/info/showco.aspx?CompanyID=642750" target="_blank" onmousemove="showtip(&quot;CNC操机、模具钳工师傅&quot;)" onmouseout="hidetip()">厦门锋畅工贸有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl117_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                119)
+		                <a href="/net/info/showco.aspx?CompanyID=322453" target="_blank" onmousemove="showtip(&quot;业务跟单员、市场拓展总监、摄影师、财务会计（电商）急聘、时尚女鞋买手、零售营运总监、商品企划/买手/设计师、招商总监、女包买手设计总监、京东运营店长（急聘）、零售营运经理、中高级电商美工、渠道总监助理、网络工程师、空间设计师、电商天猫客服（售前/售后）、商品专员、全国零售总监、招商经理/总监、运营助理/专员、设计助理（电商）、电商储备干部/管培生、电商客服专员、系统维护专员、零售督导、电商品牌策划/内容营销、应届毕业生/储备干部/管理培训生、品牌策划师、资深平面设计师、陈列专员、文案策划（电商）、商品主管、策划主管（电商）、数据分析专员（电商）、店长、行政文员、人力资源部经理、渠道行政助理、渠道招商主管、审计专员&quot;)" onmouseout="hidetip()">依思有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl118_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                120)
+		                <a href="/net/info/showco.aspx?CompanyID=406966" target="_blank" onmousemove="showtip(&quot;PHP开发工程师、运维管理、Linux运维、网络销售、销售代表&quot;)" onmouseout="hidetip()">厦门市乐速海盟网络技术有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl119_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                121)
+		                <a href="/net/info/showco.aspx?CompanyID=729879" target="_blank" onmousemove="showtip(&quot;采购专员（买手）、亚马逊Amazon、eBay、Aliexpress运营专员（急招）、电商业务助理（兼美工）、行政人事、产品图案设计师、仓管员、平面设计师、境外电商专员/速卖通专员/助理、美工、PHP研发工程师、亚马逊客服（英语）、B2C外贸专员、海外电子商务平台德语客服、会计、速卖通运营、亚马逊销售助理（欢迎应届毕业生）、跨境电商采购、Amazon运营组长、产品开发、Amazon经理（跨境电商经理）、PHP程序员、运营官（COO）、亚马逊SEO推广专员&quot;)" onmouseout="hidetip()">力宾（厦门）国际贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl120_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                122)
+		                <a href="/net/info/showco.aspx?CompanyID=772111" target="_blank" onmousemove="showtip(&quot;财务会计、项目专员、工商注册专员&quot;)" onmouseout="hidetip()">厦门馨利财务管理有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl121_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                123)
+		                <a href="/net/info/showco.aspx?CompanyID=91013" target="_blank" onmousemove="showtip(&quot;高级售后客服、软件测试、销售代表、应届毕业生业务实习代表、JAVA高级工程师、IOS研发工程师（急）、安卓Android研发工程师、HTML5前端开发工程师、大客户服务专员、产品专员、售后客服专员、JAVA开发工程师、行政前台、微信小程序开发工程师、商务经理&quot;)" onmouseout="hidetip()">厦门华资源科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl122_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                124)
+		                <a href="/net/info/showco.aspx?CompanyID=899070" target="_blank" onmousemove="showtip(&quot;国际贸易助理、常驻海外拓展经理、市场推广专员、港口机械外贸业务员、工程机械外贸业务员、物流机械外贸业务员、机械外贸业务员、驻外外贸业务员、初级外贸业务员、外贸专员、高级外贸业务员、外贸助理&quot;)" onmouseout="hidetip()">福建华南重工机械制造有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl123_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                125)
+		                <a href="/net/info/showco.aspx?CompanyID=689517" target="_blank" onmousemove="showtip(&quot;客服专员、新媒体运营、投资经理、文案策划、高级产品经理、PHP开发、高级前端工程师、高级数据分析师、Android开发工程师、高级PHP开发工程师、人事行政、iOS开发工程师、高级UI设计师&quot;)" onmouseout="hidetip()">上海星致金融信息服务有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl124_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                126)
+		                <a href="/net/info/showco.aspx?CompanyID=780550" target="_blank" onmousemove="showtip(&quot;网站编辑（欢迎应届生）、新媒体编辑（智能设备）、内容编辑、自媒体编辑、微信公众号推广专员、微信公众号编辑、自媒体运营&quot;)" onmouseout="hidetip()">厦门九二二九网络有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl125_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                127)
+		                <a href="/net/info/showco.aspx?CompanyID=271532" target="_blank" onmousemove="showtip(&quot;出纳岗、客服岗、组训岗、契约管理岗、Java开发工程师、人事管理岗、银行保险客户经理、服务专员、法务岗、理赔处负责人、市场企划岗、招募行政岗、培训发展岗、软件开发岗、精算岗（预算及财务预测方向）、文秘（董事会办公室）、投资信用分析员、柜面服务岗、业务发展处负责人&quot;)" onmouseout="hidetip()">君龙人寿保险有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl126_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                128)
+		                <a href="/net/info/showco.aspx?CompanyID=429416" target="_blank" onmousemove="showtip(&quot;天猫运营助理、天猫运营、京东运营专员、京东运营助理、电商项目经理、淘宝客服&quot;)" onmouseout="hidetip()">厦门淘猫网络科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl127_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#f5f5dc" height="18">
+		                129)
+		                <a href="/net/info/showco.aspx?CompanyID=928712" target="_blank" onmousemove="showtip(&quot;电销客服、客户咨询热线、高级客服、电话销售客服、美女客服&quot;)" onmouseout="hidetip()">奕昇（厦门）电子商务有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl128_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#f5f5dc" height="18">
+		                130)
+		                <a href="/net/info/showco.aspx?CompanyID=846278" target="_blank" onmousemove="showtip(&quot;生产线领班、品管员、工程、储备干部&quot;)" onmouseout="hidetip()">厦门诺葳亚科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl129_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                131)
+		                <a href="/net/info/showco.aspx?CompanyID=75473" target="_blank" onmousemove="showtip(&quot;电子软件工程师、跟单助理、仓管员、平面设计师、助理结构工程师、驻外实习业务、驻外业务经理、人事专员、前台、业务助理、人事行政主管、仓库主管、美工设计&quot;)" onmouseout="hidetip()">厦门贝多卫浴有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl130_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                132)
+		                <a href="/net/info/showco.aspx?CompanyID=74341" target="_blank" onmousemove="showtip(&quot;统计文员（石狮）、服装外贸拓展经理、业务助理（应届生）、针织/梭织外贸业务拓展经理（石狮）、国内针织/梭织业务拓展经理（石狮）、梭织跟单品管员（石狮）、国内针织/梭织业务拓展经理、统计、服装外贸业务拓展经理（石狮）、针织/梭织外贸业务拓展经理、财务文员、消防消控室人员&quot;)" onmouseout="hidetip()">厦门市晓东进出口有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl131_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                133)
+		                <a href="/net/info/showco.aspx?CompanyID=91917" target="_blank" onmousemove="showtip(&quot;风控专员-急聘、平面设计师/电商美工、电商运营总监、销售员-急聘、主办会计-急聘、销售经理、文案策划、销售经理、招聘主管、财务、财务副理、业务拓展/销售主管、会计&quot;)" onmouseout="hidetip()">厦门优传供应链有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl132_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                134)
+		                <a href="/net/info/showco.aspx?CompanyID=670583" target="_blank" onmousemove="showtip(&quot;策划/企划、会计员&quot;)" onmouseout="hidetip()">厦门乐腾贸易有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl133_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                135)
+		                <a href="/net/info/showco.aspx?CompanyID=86436" target="_blank" onmousemove="showtip(&quot;采购员、业务员、业务助理&quot;)" onmouseout="hidetip()">厦门宝祥瑞金属材料有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl134_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                136)
+		                <a href="/net/info/showco.aspx?CompanyID=70835" target="_blank" onmousemove="showtip(&quot;国际贸易经理助理、机修学徒、机修、电工、仓管员、品管员、总经理文员、保安、国内贸易业务员&quot;)" onmouseout="hidetip()">金冠（龙海）塑料包装有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl135_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                137)
+		                <a href="/net/info/showco.aspx?CompanyID=89842" target="_blank" onmousemove="showtip(&quot;临时活动主持人、软件技术维护实习、软件销售专员、软件实施维护工程师、ERP软件销售顾问&quot;)" onmouseout="hidetip()">厦门创捷通软件有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl136_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                138)
+		                <a href="/net/info/showco.aspx?CompanyID=85934" target="_blank" onmousemove="showtip(&quot;储运助理、文案编辑、淘宝客服、采购助理、财务助理、天猫客服、天猫助理、财务经理、客服文员&quot;)" onmouseout="hidetip()">厦门世纪慧泉文化传播有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl137_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr><tr>
+		<td bgcolor="#ffffff" height="18">
+		                139)
+		                <a href="/net/info/showco.aspx?CompanyID=811693" target="_blank" onmousemove="showtip(&quot;销售助理、.net研发工程师、销售区域经理、客户经理、电话销售、销售人员、销售助理、销售储备干部、售后客服经理、C#/ASP.NET研发工程师&quot;)" onmouseout="hidetip()">厦门市小泥鳅网络科技有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl138_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td><td bgcolor="#ffffff" height="18">
+		                140)
+		                <a href="/net/info/showco.aspx?CompanyID=74268" target="_blank" onmousemove="showtip(&quot;熟练车工、业务跟单员、司机、外贸业务员（急）、车工组长、品质主管、采购助理（文员）、采购、仓管员、品检、业务员、文员&quot;)" onmouseout="hidetip()">厦门黎发旅游用品有限公司</a> <font id="ctl22_AdRepeater_ctl00_AdItemDataList_ctl139_Font1" color="#808080" style="font-size:9px">6-20</font>
+	                </td>
+	</tr>
+</tbody></table>
+            </div> 
+       
+   <div class="clear"></div>
+   
+   <table cellspacing="0" cellpadding="0" width="100%" border="0" align="center" bgcolor="#f5f5dc">
+			    <tbody><tr><td height="2" colspan="2"> </td></tr>
+			    <tr>
+			       <td valign="top" align="center">
+				    <script type="text/javascript">
+				        function searchQuery2() {
+				            var qkeyword = $("#queryKeyword2");
+				            if (qkeyword.val() == "") {
+				                alert("请输入关键字");
+				                return false;
+				            }
+
+				            window.location.href = "/net/info/resultg.aspx?recruittype=2&keyword=" + qkeyword.val();
+				        }
+				   </script>
+				   <table align="right" border="0" cellpadding="0" cellspacing="0" width="100%">
+				      <tbody><tr>
+					  <td>
+						<img src="" height="0" width="2">
+						<font color="#ff0000">黄金榜眼/求贤榜/热点招聘关键字搜索：</font>
+						<input id="queryKeyword2" size="15" type="text">
+						<input value="搜索职位" type="submit" onclick="return searchQuery2();">
+					  </td>
+				      </tr>
+				   </tbody></table>
+			        </td>
+			       <td valign="top" align="center">
+				<div align="right"><a href="/net/info/Infos.aspx?Cat=343&amp;PageIndex=2" class="a2"><img src="/net/images/more.gif" border="0"></a>&nbsp;&nbsp;</div>
+			       </td>
+			    </tr>
+			    <tr><td height="2" colspan="2"> </td></tr>
+			</tbody></table>
+<script type="text/javascript">
+    function ShowTab(index) {
+        var imgs = document.getElementsByTagName("img");
+        for (var i = 0; i < imgs.length; i++) {
+            if (imgs[i].className == "navImg") {
+                imgs[i].src = imgs[i].src.replace("-2", "");
+            }
+        }
+
+        var divs = document.getElementsByTagName("div");
+        for (var i = 0; i < divs.length; i++) {
+            if (divs[i].className == "adTab show") {
+                divs[i].className = "adTab hide";
+                break;
+            }
+        }
+
+        var topNavImg = document.getElementById("topNav_" + index);
+        topNavImg.src = topNavImg.src.replace(".GIF", "-2.GIF");
+        var bottomNavImg = document.getElementById("bottomNav_" + index);
+        bottomNavImg.src = bottomNavImg.src.replace(".GIF", "-2.GIF");
+        var tab = document.getElementById("tab_" + index);
+        tab.className = "adTab show";
+    }   
+</script>
+        </div>
+        <div id="pageRight">
+            <div class="companyIcon">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=121548" target="_blank" title="厦门太古发动机服务有限公司"><img src="/images/xmrc/uploadfiles/2017/300585-20170907-112422-03125.gif" width="88" height="31" border="0" alt="厦门太古发动机服务有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=126701" target="_blank" title="麦克奥迪实业集团有限公司"><img src="/images/xmrc/uploadfiles/2017/7847-20170907-114554-62500.gif" width="88" height="31" border="0" alt="麦克奥迪实业集团有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=127817" target="_blank" title="翼华科技（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2016/65748-20160728-095813-56940.gif" width="88" height="31" border="0" alt="翼华科技（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=132196" target="_blank" title="北京外企人力资源服务福建有限公司"><img src="/images/xmrc/uploadfiles/2016/387428-20160726-112924-41260.gif" width="88" height="31" border="0" alt="北京外企人力资源服务福建有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=143580" target="_blank" title="厦门厦顺铝箔有限公司"><img src="/images/xmrc/uploadfiles/2016/8754-20160826-092638-45420.gif" width="88" height="31" border="0" alt="厦门厦顺铝箔有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=151293" target="_blank" title="百威英博（厦门）管理运营有限公司"><img src="/images/xmrc/uploadfiles/2015/336240-20150803-112654-94672.gif" width="88" height="31" border="0" alt="百威英博（厦门）管理运营有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=412158" target="_blank" title="厦门盈趣汽车电子有限公司"><img src="/images/xmrc/uploadfiles/2018/57954-20180619-173356-04687.gif" width="88" height="31" border="0" alt="厦门盈趣汽车电子有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=310038" target="_blank" title="上外（福建）人力资源服务有限公司"><img src="/images/xmrc/uploadfiles/2017/677750-20170329-110501-73087.gif" width="88" height="31" border="0" alt="上外（福建）人力资源服务有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=314942" target="_blank" title="联芯集成电路制造（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2016/659712-20160222-145811-28660.gif" width="88" height="31" border="0" alt="联芯集成电路制造（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=324341" target="_blank" title="厦门华电开关有限公司"><img src="/images/xmrc/uploadfiles/2016/59285-20160225-163228-86660.gif" width="88" height="31" border="0" alt="厦门华电开关有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=379418" target="_blank" title="玉晶光电（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2017/10949-20170907-114644-06250.gif" width="88" height="31" border="0" alt="玉晶光电（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=391880" target="_blank" title="开发晶照明（厦门）有限公司"><img src="/images/xmrc/uploadfiles/2015/404573-20150228-151927-85426.gif" width="88" height="31" border="0" alt="开发晶照明（厦门）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=397181" target="_blank" title="安思尔（厦门）防护用品有限公司"><img src="/images/xmrc/uploadfiles/2018/94305-20180206-145252-70312.gif" width="88" height="31" border="0" alt="安思尔（厦门）防护用品有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=395399" target="_blank" title="厦门尚品宅配家居用品有限公司"><img src="/images/xmrc/uploadfiles/2018/740432-20180116-085350-98437.gif" width="88" height="31" border="0" alt="厦门尚品宅配家居用品有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=402380" target="_blank" title="三六一度（中国）有限公司"><img src="/images/xmrc/uploadfiles/2018/325566-20180323-153316-59300.gif" width="88" height="31" border="0" alt="三六一度（中国）有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=404281" target="_blank" title="厦门市三安集成电路有限公司"><img src="/images/xmrc/uploadfiles/2016/623228-20160105-110246-34726.gif" width="88" height="31" border="0" alt="厦门市三安集成电路有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=406280" target="_blank" title="弘成科技发展有限公司"><img src="/images/xmrc/uploadfiles/2018/919170-20180427-144648-14062.gif" width="88" height="31" border="0" alt="弘成科技发展有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=408861" target="_blank" title="厦门广开电子有限公司"><img src="/images/xmrc/uploadfiles/2018/68580-20180612-174249-46837.jpg" width="88" height="31" border="0" alt="厦门广开电子有限公司"></a></div>
+    
+
+	<div class="companyButton_1"><a href="/net/info/showinfo.aspx?id=410099" target="_blank" title="厦门英特易信息科技股份有限公司"><img src="/images/xmrc/uploadfiles/2018/357442-20180531-163041-37462.gif" width="88" height="31" border="0" alt="厦门英特易信息科技股份有限公司"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+            
+            <div class="channelTitle">
+                快速通道</div>
+            <div class="channel">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=222798" target="_blank" title="厦漳泉闽南三地人才网"><img src="/images/xmrc/uploadfiles/2013/55041-20131220-115245-05376.gif" border="0" alt="厦漳泉闽南三地人才网"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=222799" target="_blank" title="毕业生人才档案查询"><img src="/images/xmrc/uploadfiles/2013/55041-20131220-115511-79846.gif" border="0" alt="毕业生人才档案查询"></a></div>
+    
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www2.xmrc.com.cn/client/10z/index.htm" target="_blank">谨防假冒，请认准唯一官方网站</a>
+    </p>
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/xmrc/information/Dynamic/201009/t20100913_52473.htm" target="_blank">给用人单位的重要提示</a>
+    </p>
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/net/wcm/Dispatch.aspx" target="_blank">人才派遣与外包</a>
+    </p>
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/net/talent/index.aspx" target="_blank">找工作：岗位搜索</a>
+    </p>
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/net/page/protocol.aspx" target="_blank">网上招聘新单位注册</a>
+    </p>
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=852" target="_blank">如何办理网上招聘</a>
+    </p>
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/net/page/protocol.aspx" target="_blank">免费人才登记</a>
+    </p>
+
+	
+    <p><img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=11527" target="_blank">给单位会员的重要提示</a>
+    </p>
+
+     <div class="clear"></div>
+
+            </div>
+            <div class="channelTitle">
+            </div>
+            <div class="channel">
+                
+<!--页面图片广告控件（例如黄金图标，名企图标）-->
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=222659" target="_blank" title="毕业生推荐"><img src="/images/xmrc/uploadfiles/2013/55041-20131219-154159-91037.gif" width="185" height="50" border="0" alt="毕业生推荐"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=222661" target="_blank" title="软件外包人才库"><img src="/images/xmrc/uploadfiles/2013/55041-20131219-155337-67600.gif" width="185" height="50" border="0" alt="软件外包人才库"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=272778" target="_blank" title="党员人才库"><img src="/images/xmrc/uploadfiles/2015/55041-20150227-153042-77755.gif" width="185" height="50" border="0" alt="党员人才库"></a></div>
+    
+
+	<div class="addButton_1"><a href="/net/info/showinfo.aspx?id=108633" target="_blank" title="厦门市情频道"><img src="/images/xmrc/uploadfiles/2016/1-20160621-173618-83560.gif" width="185" height="80" border="0" alt="厦门市情频道"></a></div>
+    
+
+     <div class="clear"></div>
+
+            </div>
+            <div class="channelTitle">
+                近期现场交流会预告</div>
+            <div class="channel">
+                <table id="ctl26_DataList1" cellspacing="0" align="Center" border="0" width="98%">
+	<tbody><tr>
+		<td align="left" valign="middle" height="18">
+        <img src="/net/Images/an01.gif" border="0">
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=1617" target="_blank">
+            厦门市人才市场交流会现场管理规定</a> 
+    </td>
+	</tr><tr>
+		<td align="right">
+        
+    </td>
+	</tr>
+</tbody></table>
+                
+        
+    
+        <div>
+     <img src="/net/Images/an01.gif" border="0">
+        <a href="/net/booth/v2018/result.aspx?issue=2829" target="_blank" class="a2">
+            06月27号 综合类人才交流会（周三）</a> 
+             </div>
+    
+        <div>
+     <img src="/net/Images/an01.gif" border="0">
+        <a href="/net/booth/v2018/result.aspx?issue=2828" target="_blank" class="a2">
+            06月26号 综合类人才交流会（周二）</a> 
+             </div>
+    
+        <div>
+     <img src="/net/Images/an01.gif" border="0">
+        <a href="/net/booth/v2018/result.aspx?issue=2827" target="_blank" class="a2">
+            06月23号 综合类人才交流会（周六）</a> 
+             </div>
+    
+        <div>
+     <img src="/net/Images/an01.gif" border="0">
+        <a href="/net/booth/v2018/result.aspx?issue=2826" target="_blank" class="a2">
+            06月22号 综合＋互联网企业人才专场（周五）</a> 
+             </div>
+    
+        <div>
+     <img src="/net/Images/an01.gif" border="0">
+        <a href="/net/booth/v2018/result.aspx?issue=2825" target="_blank" class="a2">
+            06月20号 综合类人才交流会（周三）</a> 
+             </div>
+    
+        <div class="text-right">
+            <span>→ <a href="/net/booth/V2018/BoothList.aspx" target="_parent" class="Amenu">更多的预告....</a></span>
+        </div>
+       
+    
+
+                
+                <div style="margin: 0 auto; width: 90%">
+                    <p class="bold brown">
+                        欢迎企事业单位报名参会</p>
+                    <p>
+                        地址：厦门市湖滨东路319号
+                    </p>
+                    <p class="red bold">
+                        交流会咨询电话：</p>
+                    <p class="red bold">
+                        5396651 5396693</p>
+                    <p class="red bold">
+                        
+                    </p>
+                    <p class="red bold">
+                        </p>
+                    
+                    
+                </div>
+                <div class="text-center">
+                        <a href="http://jobfair.xmrc.com.cn" target="_blank"><img src="/Net/Images/jobfair-min.gif"></a>
+                    </div>
+            </div>
+            <div class="channelTitle">
+                各地才市资讯</div>
+            <div class="channel">
+                <table id="ctl28_DataList1" cellspacing="0" align="Center" border="0" width="98%">
+	<tbody><tr>
+		<td align="left" valign="middle" height="18">
+        1)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116733" target="_blank">
+            厦门大学嘉庚学院2018年暑期实习生招聘会暨第三届校友企业专场招聘会邀请函</a> 
+    </td>
+	</tr><tr>
+		<td align="left" valign="middle" height="18">
+        2)
+        <a href="http://www.xmrc.com.cn/net/wcm/ShowInfo.aspx?docId=116572" target="_blank">
+            2018年赴台招聘菁英人才来厦就业计划邀请函</a> 
+    </td>
+	</tr><tr>
+		<td align="right">
+        <span id="ctl28_DataList1_ctl02_Span2">→ <a href="/net/wcm/Infos.aspx?Cat=463" class="Amenu">更多的....</a></span>
+    </td>
+	</tr>
+</tbody></table>
+            </div>
+            
+        </div>
+        
+<table width="100%" cellspacing="0" cellpadding="0" align="center" class="footerTable">
+  <tbody><tr> 
+    <td height="1" bgcolor="#6B2801"></td>
+  </tr>
+  <tr> 
+    <td height="5" bgcolor="#F86410"></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td align="center"> 
+	    <a href="/net/page/xmrc3D/aboutus.aspx" target="_parent" class="amenu">关于我们</a>
+	－ <a href="/net/page/protocol.aspx" target="_parent" class="amenu">信息管理规定</a>
+	－ <a href="/net/page/adservice.aspx" target="_parent" class="amenu">服务报价</a> 
+	－ <a href="/net/page/downloads.aspx" class="amenu">下载中心</a> 		
+    － <a href="/net/page/faq.aspx" target="_blank" class="amenu">服务问答</a> 
+	－ <a href="/net/page/link.aspx" target="_parent" class="amenu">友情链接</a> 
+    － <a href="/net/page/Aboutus.aspx" target="_parent" class="amenu">联系我们</a>
+    － <a href="/net/page/suggestion.aspx" target="_parent" class="amenu">主任信箱</a>
+    － <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzgwMDAzMzIxOF80NzYzMjlfODAwMDMzMjE4XzJf" target="_blank" class="amenu">联系客服</a>
+    </td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td align="center"> 
+        <table width="778" border="0" cellspacing="0" cellpadding="0">
+          <tbody><tr> 
+             <td width="178" align="right">
+	            <img src="/net/images/xmrc_1.gif" border="0">
+                </td>
+                <td align="center">
+	            <font face="georgia">©</font>2015&nbsp; 厦门人才网&nbsp; 版权所有<br>
+	            厦门人才网由厦门市人才服务中心、厦门市人才市场主办<br>
+                    厦门市人才服务中心人才网络信息服务部开发设计、维护<br>
+                    未经厦门人才网授权同意，不得转载本网站任何信息<br>
+	                    网站服务电话:0592-5396657 监督电话:0592-5396662<br>
+                    人事代理与档案及其他业务服务电话：12333<br>
+                网站投诉和服务邮件<a href="mailto:webmaster@xmrc.com.cn" class="amenu"><u>webmaster@xmrc.com.cn</u></a>
+                </td>
+                <td width="178" align="left">
+                  网站注册证号<br>
+                  20210000003585<br>
+                  <a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=021202001101000003" target="_blank">经营性网站备案信息</a><br>
+                  <a target="_blank" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action">闽ICP备05025868号</a><br>
+                  <div>
+				<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302000020">闽公网安备<br>35020302000020号</a>
+			</div>
+
+            </td>
+          </tr>
+        </tbody></table>
+    </td>
+  </tr>
+  <tr> 
+    <td align="center"><hr size="1" width="95%"></td>
+  </tr>
+  <tr> 
+    <td align="center">
+         本站支持以下浏览器：<a href="http://www.microsoft.com/zh-cn/download/internet-explorer-8-details.aspx" class="Amenu" target="_blank">IE8.0及以上版本</a>
+         、<a href="http://se.360.cn/" target="_blank">360浏览器</a>
+         、<a href="http://www.google.cn/intl/zh-CN/chrome/browser/" target="_blank" class="Amenu">Chrome浏览器</a>
+         、<a href="http://www.firefox.com.cn/" target="_blank" class="Amenu">Firefox</a>
+         、<a href="http://www.opera.com/download/" target="_blank" class="Amenu">Opera浏览器</a>
+        <br><br>
+    </td>
+  </tr>
+  <tr> 
+    <td align="center">
+        
+        <div style="width: 720px;" class=".clearfix">
+            <div class="left" style="width: 180px;">
+                <img src="/Net/Images/weixin_code.jpg" style="width: 100px; height: 100px;">
+                <br>
+                厦门人才网官方微信二维码
+            </div>
+            <div class="left" style="width: 180px; ">
+                <img src="/Net/Images/qrcode_rs.jpg" style="width: 100px; height: 100px;">
+                <br>
+                厦门人社微信二维码
+            </div>
+            <div class="left" style="width: 180px; ">
+                <a href="http://wap.xmrc.com.cn" target="_blank" class="Amenu"><img src="/Net/Images/qrcode_mxmrccomcn.png" style="width: 100px; height: 100px;"></a>
+                <br>
+                <a href="http://wap.xmrc.com.cn" target="_blank" class="Amenu">厦门人才网触屏版</a>
+            </div>
+            <div class="left" style="width: 180px; ">
+                <a href="http://www.xmrc.com.cn/client/phone/download.html" target="_blank" class="Amenu"><img src="/Net/Images/qrcode_appdownload.png" style="width: 100px; height: 100px;"></a>
+                <br>
+                <a href="http://www.xmrc.com.cn/client/phone/download.html" target="_blank" class="Amenu">厦门人才网App客户端下载</a>
+            </div>
+        </div>
+    </td>
+  </tr>
+</tbody></table>
+
+    </div>
+    
+		<script type="text/javascript" src="/Net/Scripts/float2.js"></script>
+        <script type="text/javascript">
+	
+		</script>
+	
+    
+<div style="display:none;">
+     <script type="text/javascript" src="/Net/Scripts/PageCounter.js?v=131286621862427890"></script><script type="text/javascript">var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-28867016-1"]);_gaq.push(["_setDomainName", "xmrc.com.cn"]);_gaq.push(["_trackPageview"]);(function() {  var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;  ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";  var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);})();</script><script src="https://s17.cnzz.com/stat.php?id=3869267&amp;web_id=3869267" language="JavaScript"></script><script src="https://c.cnzz.com/core.php?web_id=3869267&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=3869267" target="_blank" title="站长统计">站长统计</a>
+</div>
+    <div class="showIP">
+        <script type="text/javascript" src="/net/Common/GetIP.ashx"></script>您的IP是：112.17.79.156
+    </div>
+    
+    <div class="text-center">
+        <a href="http://bszs.conac.cn/sitename?method=show&amp;id=13461892D1540CFDE053022819ACFC6B" target="_blank"><img src="/Net/Images/sydw.png"></a>
+    </div>
+    
+     
+     <div id="TradeList" class="foldAdPanel">
+        <div class="foldAdTop hide">
+            <span title="展开广告" onclick="adSwitchTrade(this);">
+                <img src="/Net/Images/open-left.gif"></span>
+        </div>
+        <div class="foldAdBody">
+            <span title="收缩广告" onclick="adSwitchTrade(this);">
+                <img src="/Net/Images/close-left.png"></span>
+            <div class="jsTradeList"><div><a href="javascript:void(0)" onclick="show('互联网')">互联网</a><div><div><a href="javascript:void(0)" onclick="show('软件')">软件</a><div><div><a href="javascript:void(0)" onclick="show('通讯电子')">通讯电子</a><div><div><a href="javascript:void(0)" onclick="show('金融')">金融</a><div><div><a href="javascript:void(0)" onclick="show('商业贸易')">商业贸易</a><div><div><a href="javascript:void(0)" onclick="show('机械设备重工')">机械设备重工</a><div><div><a href="javascript:void(0)" onclick="show('旅游酒店餐饮')">旅游酒店餐饮</a><div><div><a href="javascript:void(0)" onclick="show('房产建筑')">房产建筑</a><div><div><a href="javascript:void(0)" onclick="show('文广传媒')">文广传媒</a><div><div><a href="javascript:void(0)" onclick="show('交通物流')">交通物流</a><div><div><a href="javascript:void(0)" onclick="show('教育培训')">教育培训</a><div><div><a href="javascript:void(0)" onclick="show('管理咨询服务业')">管理咨询服务业</a><div><div><a href="javascript:void(0)" onclick="show('快速消费品')">快速消费品</a><div><div><a href="javascript:void(0)" onclick="show('综合性集团')">综合性集团</a><div><div><a href="javascript:void(0)" onclick="show('光电新材料')">光电新材料</a><div><div><a href="javascript:void(0)" onclick="show('生物医药')">生物医药</a><div><div><a href="javascript:void(0)" onclick="show('农林牧渔')">农林牧渔</a><div><div><a href="javascript:void(0)" onclick="show('石油化工矿产')">石油化工矿产</a><div><div><a href="javascript:void(0)" onclick="show('制造业')">制造业</a><div><div><a href="javascript:void(0)" onclick="show('航空航天')">航空航天</a><div><div><a href="javascript:void(0)" onclick="show('政府公益非编')">政府公益非编</a><div><div><a href="javascript:void(0)" onclick="show('其他')">其他</a><div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+            <div>
+                
+                <br>
+                <img src="/Net/Images/homepage_notice.png">
+            </div>
+        </div>
+    </div>
+    <div id="HomePageSelectDiv" class="hide">
+        
+        <div class="jsTradeList "><div class="jsTradeMenu" style="border:1px solid #e8e8e8;padding:5px 5px;">行业类别：<div class="menu-panel"><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="互联网" onclick="loadData('互联网')">互联网</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="软件" onclick="loadData('软件')">软件</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="通讯电子" onclick="loadData('通讯电子')">通讯电子</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="金融" onclick="loadData('金融')">金融</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="商业贸易" onclick="loadData('商业贸易')">商业贸易</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="机械设备重工" onclick="loadData('机械设备重工')">机械设备重工</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="旅游酒店餐饮" onclick="loadData('旅游酒店餐饮')">旅游酒店餐饮</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="房产建筑" onclick="loadData('房产建筑')">房产建筑</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="文广传媒" onclick="loadData('文广传媒')">文广传媒</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="交通物流" onclick="loadData('交通物流')">交通物流</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="教育培训" onclick="loadData('教育培训')">教育培训</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="管理咨询服务业" onclick="loadData('管理咨询服务业')">管理咨询服务业</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="快速消费品" onclick="loadData('快速消费品')">快速消费品</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="综合性集团" onclick="loadData('综合性集团')">综合性集团</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="光电新材料" onclick="loadData('光电新材料')">光电新材料</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="生物医药" onclick="loadData('生物医药')">生物医药</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="农林牧渔" onclick="loadData('农林牧渔')">农林牧渔</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="石油化工矿产" onclick="loadData('石油化工矿产')">石油化工矿产</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="制造业" onclick="loadData('制造业')">制造业</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="航空航天" onclick="loadData('航空航天')">航空航天</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="政府公益非编" onclick="loadData('政府公益非编')">政府公益非编</a></span><span style="padding:0px 5px;" class="text-center"><a href="javascript:void(0)" data-text="其他" onclick="loadData('其他')">其他</a></span></div><div></div></div></div>
+        <div style="border:1px solid #e8e8e8;padding: 10px 10px;">
+            职位名称：<input type="text" name="recruit">
+            <input type="button" value="搜索" onclick="queryRecruit();" class="button-a button-a-blue w100">
+            
+            &nbsp;&nbsp;<input type="button" value="关闭" onclick="closeLayer();" class="button-a  w100">
+        </div>
+           
+        <div id="HomePageSelect" style="width: 1000px;">
+        </div>
+    </div>
+
+
+</body></html>

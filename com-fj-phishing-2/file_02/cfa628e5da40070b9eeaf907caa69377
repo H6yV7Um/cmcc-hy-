@@ -1,0 +1,2016 @@
+<!DOCTYPE html><html lang="zh"><head>
+
+<meta charset="gb2312">
+<base target="_blank">
+<base href="http://www.cnnb.com.cn/home/html/2017/">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="baidu-site-verification" content="o9gXbXkPDy">
+<title>中国宁波网-新闻-服务-论坛-门户</title>
+<meta name="description" content="中国宁波网由中共宁波市委宣传部和宁波日报报业集团联合主办，创办于2001年6月1日，是宁波市唯一一家经国务院新闻办公室批准正式建立的综合性重点新闻网站。中国宁波网作为宁波市级主流媒体，立足宁波、辐射华东，为用户提供新闻、资讯、服务、论坛、游戏等多种网络产品，以及宁波日报报业集团旗下《宁波日报》《宁波晚报》《东南商报》等10家报刊电子版。">
+<meta name="keywords" content="宁波,新闻,宁波新闻,宁波日报,宁波晚报,东南商报,社区,天一论坛,民生,宁波房产,宁波汽车,图片,金融,医疗,健康,视频,旅游,游戏,娱乐,女性,花嫁,红娘,交友">
+<link rel="stylesheet" href="css/home.css">
+<meta name="baidu-site-verification" content="6f154d9935f736c6a22afa6078f0ab57">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  /*var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?2eca574627295a3b2e49155de8787875";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);*/
+})();
+</script>
+
+
+<script src="http://www.cnnb.com.cn/javascript/jquery.js" type="text/javascript"></script>
+<script>
+        function SetHome(obj,url){
+            try{
+                obj.style.behavior='url(#default#homepage)';
+                obj.setHomePage(url);
+            }catch(e){
+                if(window.netscape){
+                    try{
+                        netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                    }catch(e){
+                        alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+                    }
+                }else{
+                    alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。");
+                }
+            }
+        };
+        window.onload = function(){
+            var ua=navigator.userAgent.toLowerCase();
+            var bIsIpad=ua.match(/ipad/i)=="ipad";
+            var bIsIphoneOs=ua.match(/iphone os/i)=="iphone os";
+            var bIsAndroid=ua.match(/android/i)=="android";
+            var bIsWM=ua.match(/windows mobile/i)=="windows mobile";
+            var foot1 = '<iframe width="1050" scrolling="no" height="534" frameborder="0" src="http://www.cnnb.com.cn/home/html/public/foot.html"></iframe>';
+            var foot2 = '<iframe width="1050" scrolling="no" height="244" frameborder="0" src="http://www.cnnb.com.cn/home/html/public/foot.html"></iframe>';
+            //var guide = "http://www.cnnb.com.cn/home/mobile/guide.html";
+            var guide = "http://www.cnnb.com.cn/home/index_mobile.html";
+            //if(bIsIpad||bIsIphoneOs||bIsAndroid||bIsWM){
+            if(bIsIphoneOs||bIsAndroid||bIsWM){
+                var referrer = document.referrer;
+                if(referrer.indexOf("guide") == -1 && referrer.indexOf("_mobile.html") == -1){
+                    // console.log(referrer);
+                    window.location.href = guide;
+                }else{
+                    // document.body.style.visibility = "visible";
+                }
+                document.getElementById('foot').innerHTML = foot1;
+            }else{
+                document.getElementById('foot').innerHTML = foot2;
+                // document.body.style.visibility = "visible";
+            }
+        };
+		
+		$(document).ready(function(){
+		$("#lantern1").mouseover(function(){
+		$("#lantern1").animate({top:'0px'},500)
+		});
+		$("#lantern1").mouseout(function(){
+		$("#lantern1").stop(true).animate({top:'-15px'},500)
+		});
+		$("#lantern2").mouseover(function(){
+		$("#lantern2").animate({top:'-24px'},500)
+		});
+		$("#lantern2").mouseout(function(){
+		$("#lantern2").stop(true).animate({top:'-39px'},500)
+		});
+		$("#lantern3").mouseover(function(){
+		$("#lantern3").animate({top:'0px'},500)
+		});
+		$("#lantern3").mouseout(function(){
+		$("#lantern3").stop(true).animate({top:'-15px'},500)
+		});
+		$("#lantern4").mouseover(function(){
+		$("#lantern4").animate({top:'-24px'},500)
+		});
+		$("#lantern4").mouseout(function(){
+		$("#lantern4").stop(true).animate({top:'-39px'},500)
+		});
+});
+		
+    </script>
+<script type="text/javascript" src="http://www.cnnb.com.cn/home/images/11/jquery11.js"></script>
+<script type="text/javascript" src="http://www.cnnb.com.cn/home/ad/ad.js"></script>
+<style type="text/css">
+        /*.ad_01_01,.ad_01_02{background-color: red;}
+        .ad_02_01,.ad_02_02,.ad_02_03{background-color: green;}
+        .ad_03_01,.ad_03_02{background-color: blue;}
+        .ad_04_01,.ad_04_02,.ad_04_03{background-color: yellow;}
+        .ad_05_01,.ad_05_02{background-color: gray;}
+        .ad_float{position: fixed;left: 0;top: 50%;background-color: red;width: 80px;height: 80px;}*/
+        /* 广告*/
+        .ad_container{display:none;}
+        .slider *{margin:0; padding:0;}
+        .slider{height:60px;}
+        .slider ul{position:absolute;}
+        .slider ul a {display: block;position: absolute;width:100%;height:100%;}
+        .slider ul a img {width:100%;height:100%;border:0px;}
+        .ad_container, .ad_container *{margin:0; padding:0;}
+        .ad_container{height:60px; overflow:hidden;position:relative;}
+        .slider{position:absolute;}
+        .slider li{list-style:none;display:inline;}
+        .slider img{height:60px; display:block;}
+    </style>
+</head><body>
+<!--<a href="http://zt.cnnb.com.cn/system/2017/04/26/008628170.shtml" target="_blank" style="position: absolute;top: 0;left: 0;width: 100%;height: 85px;"></a>-->
+<!-- AFP Control Code/Caption.AD-00-00-->
+<!--
+<SCRIPT LANGUAGE="JavaScript1.1" SRC="http://shows.cnnb.com.cn/adpolestar/door/;ap=579C4F4B_19A1_A712_B94A_988A744F87A5;ct=js;pu=cnnb;/?"></SCRIPT>-->
+<!--十四城纪行-->
+<!-- AFP Control Code End/No.AD-00-00-->
+<!--<div style="position: fixed;top: 0;right:0;display:inline-block;z-index:999;" id="ad_rt">
+    <a href="http://www.nbjw.gov.cn/ztzl/zztlzt/"><img src="images/ad_rt.png" alt="" style="display:block;"></a>
+    <div style="color:#000;" onclick="javascript:document.getElementById('ad_rt').style.display = 'none';">关闭</div>
+</div>-->
+<div>
+  <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=579C4F4B_19A1_A712_B94A_988A744F87A5;ct=js;pu=cnnb;/?"></script>
+</div>
+<a id="search" href="http://www.cnnb.com.cn/search/index.html" style="position: fixed; display: block; width: 45px; height: 108px; bottom: 20%; right: 15px;"><img src="images/search.jpg" alt=""></a>
+<div class="ad_float">
+  <!-- AFP Control Code/Caption.AD-L-330-->
+  <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=30649BCE_1B2D_6CE8_2E1B_6FDA0E292EBD;ct=js;pu=cnnb;/?"></script>
+  <!-- AFP Control Code End/No.AD-L-330-->
+  <!-- AFP Control Code/Caption.AD-L-530-->
+  <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=6068B74E_472F_D23D_09B8_781928146301;ct=js;pu=cnnb;/?"></script>
+  <!-- AFP Control Code End/No.AD-L-530-->
+  <!-- AFP Control Code/Caption.AD-R-330-->
+  <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=8F1C6091_D553_34F2_084C_DD86FEE9E8E3;ct=js;pu=cnnb;/?"></script>
+  <!-- AFP Control Code End/No.AD-R-330-->
+  <!-- AFP Control Code/Caption.AD-R-530-->
+  <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=93B556F0_05A8_E5FC_C20E_2CB6D62D7746;ct=js;pu=cnnb;/?"></script>
+  <!-- AFP Control Code End/No.AD-R-530-->
+</div>
+<style>
+    div#main .hotNewsArea{margin-top:20px;}
+</style>
+<div style="height:100%; width:100%;"> 
+  <div style="width: 1074px;margin: auto;background-color: white;">
+    <div id="head">
+      <div class="container"> <a class="logo block left" href="http://www.cnnb.com.cn/"></a>
+        <div class="block1 left">
+          <ul class="snsArea">
+            <li class="weibo left"><a href="http://weibo.com/duihua110">宁波网新浪微博</a></li>
+            <li class="wechat left"> <a href="" id="wechat">宁波网微信公众号</a>
+              <div style="display: none; position: absolute; width: 84px;z-index:999;"><img width="100%" src="./images/wechat.jpg" alt=""></div>
+            </li>
+          </ul>
+          <div class="usalInfoArea"> <span class="date block">2018.1.9&nbsp;&nbsp;星期二</span> <span class="weather block right">
+            <!--<iframe width="125" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://bak.qx121.com/web/plug/weather5.asp"></iframe>-->
+            </span> </div>
+        </div>
+        <div class="block2 left" id="dropdown" style="position:relative;z-index:999;"> <span>宁波日报【报网端】<br>
+          新 媒 体 矩 阵</span>
+          <div style="position:absolute;display:none;width:300px;height:428px;left:-1px;background-color:#fff;top:48px;z-index: 999;">
+            <iframe width="300" scrolling="no" height="428" frameborder="0" src="qrcode.html"></iframe>
+          </div>
+        </div>
+        <div class="block3 left">
+          <div class="loginArea">
+            <form class="mail" id="login" name="login" onsubmit="login_check();" method="post">
+              <label for="username">邮箱</label>
+              <input name="username" id="username" value="用户名" maxlength="20" size="6" onfocus="this.value=''">
+              <input type="hidden" name="mail_domain" id="mail_domain" value="cnnb.com.cn">
+              <input type="password" name="password" id="password" maxlength="25" size="6" value="****" onfocus="this.value=''">
+              <button type="submit" class="submit" name="imageField" id="imageField" style="background:transparent;">登录</button>
+            </form>
+          </div>
+          <div class="extrLinkArea"> <a href="http://nbjt.cnnb.com.cn/">宁波日报报业集团网站</a> <a href="http://www.cnnb.com.cn/search/index1.html">检索中心</a> </div>
+        </div>
+        <div class="block4 right">
+          <div class="collectionArea"> <span class="mrunit"><a href="http://www.cnnb.com.cn/home/sitemap.html" style="font-size:14px;" class="dot">网站地图</a></span> <span onclick="SetHome(this,'http://www.cnnb.com.cn/');" style="cursor:pointer;" class="dot">设为首页</span> </div>
+          <div class="hotLineArea"> <span>报料热线</span> </div>
+        </div>
+      </div>
+    </div>
+    <!--以下style要去掉-->
+    <div id="adgroup" class="overflowhidden" style="margin:0; padding-bottom:12px;">
+      <div class="container" style="height:60px;">
+        <ul id="ad_01_01" class="ad_01_01 left" style="width:202px;height:100%;margin-right: 4px;">
+          <div class="ad_container" id="Ad-01-01">
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-01-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=45949ADB_26ED_E419_16D1_96A89CBFB453;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=83A5BA0B_5227_B323_9320_EF5A7B4F4DE9;ap=45949ADB_26ED_E419_16D1_96A89CBFB453;pu=cnnb;ext_key=;/?http://hd.cnnb.com.cn/system/2016/12/20/008582363.shtml" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/1612211.gif" border="0" width="193" height="60"></a>
+              <!-- AFP Control Code End/No.AD-01-01-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-01-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=154A14A5_AF41_F582_27FF_CC4F24B9965D;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-01-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-01-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=0FD4D999_CF64_9CDD_E8A7_08A63B350B73;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-01-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-01-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=70083869_C29D_5A05_7275_EB9B3C93674F;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=0C71A6BF_4CC9_8F05_E9C9_4931C0AAD52D;ap=70083869_C29D_5A05_7275_EB9B3C93674F;pu=cnnb;ext_key=;/?http://www.cnnb.com.cn" target="_blank"><img src="http://www.cnnb.com.cn/ad/gy/20151218-193x60.gif" border="0" width="193" height="60"></a>
+              <!-- AFP Control Code End/No.AD-01-01-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-01-01-Slider">
+            <ul style="width:202px;overflow:hidden;">
+              <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=83A5BA0B_5227_B323_9320_EF5A7B4F4DE9;ap=45949ADB_26ED_E419_16D1_96A89CBFB453;pu=cnnb;ext_key=;/?http://hd.cnnb.com.cn/system/2016/12/20/008582363.shtml"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/ad/cnnb/1612211.gif" alt=""></ul>
+          </div>
+          <script>TransformView(5000,"Ad-01-01","Ad-01-01-Slider");</script>
+        </ul>
+        <ul id="ad_01_02" class="ad_01_02 left" style="width:610px;height:100%;">
+          <div class="ad_container" id="Ad-01-02">
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-02-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=26566A1D_E331_1939_471B_BFBA8EC9C71B;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=65BA5B34_22FD_65EC_10ED_E9C78AB5011E;ap=26566A1D_E331_1939_471B_BFBA8EC9C71B;pu=cnnb;ext_key=;/?http://www.hzwxq.com" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/180104_600x60.jpg" border="0" width="610" height="60"></a>
+              <!-- AFP Control Code End/No.AD-01-02-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-02-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=159ED5A3_C5BC_9066_467E_6E6DAD4046A4;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-02-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-02-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=57F537BE_F65C_D0C8_828D_EA82AA79B41E;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-02-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-02-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=9A624FD8_0666_31A9_599C_17E1FD15EC94;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-02-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-01-02-Slider">
+            <ul style="width:610px;overflow:hidden;">
+              <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=65BA5B34_22FD_65EC_10ED_E9C78AB5011E;ap=26566A1D_E331_1939_471B_BFBA8EC9C71B;pu=cnnb;ext_key=;/?http://www.hzwxq.com"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/ad/cnnb/180104_600x60.jpg" alt=""></ul>
+          </div>
+          <script>TransformView(5000,"Ad-01-02","Ad-01-02-Slider");</script>
+        </ul>
+        <ul id="ad_01_03" class="ad_01_03 right" style="width:210px;height:100%;">
+          <div class="ad_container" id="Ad-01-03">
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-03-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=17508C7C_B6C5_9AAE_B178_F3E1630C6759;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-03-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-03-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=C3D4D3EC_A176_1276_B14C_6155B5B1E31C;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-03-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-03-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=CFEAA1ED_02A6_4590_81AD_42C82991A73D;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-01-03-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-01-03-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=46B21409_E754_4A50_57B7_2228A8701D73;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=38791776_977E_1493_06D8_3825A1E10F08;ap=46B21409_E754_4A50_57B7_2228A8701D73;pu=cnnb;ext_key=;/?http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/170629.jpg" border="0" width="210" height="60"></a>
+              <!-- AFP Control Code End/No.AD-01-03-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-01-03-Slider">
+            <ul style="width:210px;overflow:hidden;">
+              <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=38791776_977E_1493_06D8_3825A1E10F08;ap=46B21409_E754_4A50_57B7_2228A8701D73;pu=cnnb;ext_key=;/?http://report.12377.cn:13225/toreportinputNormal_anis.do"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/ad/cnnb/170629.jpg" alt=""></ul>
+          </div>
+          <script>TransformView(5000,"Ad-01-03","Ad-01-03-Slider");</script>
+        </ul>
+      </div>
+      <div class="container" style="height:60px;margin-top:5px;">
+        <ul id="ad_02_01" class="ad_02_01 left" style="margin-right:4px;width:266px;height:100%;">
+          <div class="ad_container" id="Ad-02-01">
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-01-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=C1AC5AD7_4D0D_D32D_3C39_5148C6653F88;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=5A639203_0444_B824_2281_2A2AD2145014;ap=C1AC5AD7_4D0D_D32D_3C39_5148C6653F88;pu=cnnb;ext_key=;/?http://finance.cnnb.com.cn/system/2018/01/09/008715922.shtml" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/20170108_266x60.gif" border="0" width="266" height="60"></a>
+              <!-- AFP Control Code End/No.AD-02-01-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-01-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=4A10E7C3_13E3_BF29_3DD8_3B1DD6B5AAA2;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-01-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-01-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=7F218414_821E_1D57_0EA0_8EA0990B42EE;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-01-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-01-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=F16270CA_E9CA_203B_9808_7FC0420A6210;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=3BF43A63_29BD_BB8F_1ACD_8B3B3CC9188F;ap=F16270CA_E9CA_203B_9808_7FC0420A6210;pu=cnnb;ext_key=;/?http://www.cnnb.com.cn/" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/161101_256x60.jpg" border="0" width="256" height="60"></a>
+              <!-- AFP Control Code End/No.AD-02-01-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-02-01-Slider">
+            <ul style="width:266px;overflow:hidden;">
+              <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=5A639203_0444_B824_2281_2A2AD2145014;ap=C1AC5AD7_4D0D_D32D_3C39_5148C6653F88;pu=cnnb;ext_key=;/?http://finance.cnnb.com.cn/system/2018/01/09/008715922.shtml"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/ad/cnnb/20170108_266x60.gif" alt=""></ul>
+          </div>
+          <script>TransformView(5000,"Ad-02-01","Ad-02-01-Slider");</script>
+        </ul>
+        <ul id="ad_02_02" class="ad_02_02 left" style="width:546px;height:100%;">
+          <div class="ad_container" id="Ad-02-02">
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-02-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=634A69C0_84B7_541F_7533_6E12D08FC021;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-02-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-02-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=4628C773_63A7_598F_8FBA_006FEE0001EA;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=87A78B02_7A57_AE23_698F_95FA8762AB81;ap=4628C773_63A7_598F_8FBA_006FEE0001EA;pu=cnnb;ext_key=;/?http://hd.cnnb.com.cn/system/2016/03/11/008479648.shtml" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/170616_547x60.jpg" border="0" width="537" height="60"></a>
+              <!-- AFP Control Code End/No.AD-02-02-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-02-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=A3B3F5A5_AB18_0D3B_C3A6_25C7DFB2509F;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-02-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-02-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=69389A9A_AA2F_DE91_5F70_A17E3530FBA0;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-02-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-02-02-Slider">
+            <ul style="width:546px;overflow:hidden;">
+              <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=87A78B02_7A57_AE23_698F_95FA8762AB81;ap=4628C773_63A7_598F_8FBA_006FEE0001EA;pu=cnnb;ext_key=;/?http://hd.cnnb.com.cn/system/2016/03/11/008479648.shtml"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/ad/cnnb/170616_547x60.jpg" alt=""></ul>
+          </div>
+          <script>TransformView(5000,"Ad-02-02","Ad-02-02-Slider");</script>
+        </ul>
+        <ul id="ad_02_03" class="ad_02_03 right" style="width:210px;height:100%;">
+          <div class="ad_container" id="Ad-02-03">
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-03-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=8674244E_161D_6CDB_B5A9_A0CFCA6FC4B9;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=30935747_A52D_1D5C_32E2_56E66318A036;ap=8674244E_161D_6CDB_B5A9_A0CFCA6FC4B9;pu=cnnb;ext_key=;/?http://wsbs.nbjy.org.cn/exercitation/home.jspx" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/170612_210x60.jpg" border="0" width="210" height="60"></a>
+              <!-- AFP Control Code End/No.AD-02-03-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-03-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=4BBAD999_AEB4_0626_86E5_287DC9AA9C25;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-03-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-03-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=2E108CDB_898B_810C_C320_F35E6AE818FB;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-03-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-02-03-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=EA2DFBCF_C435_C57F_2723_62D106B5386B;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-02-03-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-02-03-Slider">
+            <ul style="width:210px;overflow:hidden;">
+              <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=30935747_A52D_1D5C_32E2_56E66318A036;ap=8674244E_161D_6CDB_B5A9_A0CFCA6FC4B9;pu=cnnb;ext_key=;/?http://wsbs.nbjy.org.cn/exercitation/home.jspx"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/ad/cnnb/170612_210x60.jpg" alt=""></ul>
+          </div>
+          <script>TransformView(5000,"Ad-02-03","Ad-02-03-Slider");</script>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--下方style只要改回就ok,以及很多地方改成1074-->
+  <div id="nav" style=" clear:both">
+    <div class="main">
+      <div class="container">
+        <ul class="part1 left">
+          <li class="left title"><a href="http://nbnews.cnnb.com.cn/">看宁波</a></li>
+          <li class="left"><a href="http://news.cnnb.com.cn/">看天下</a></li>
+          <li class="left"><a href="http://zt.cnnb.com.cn/">专题汇</a></li>
+          <li class="clearboth title left"><a href="http://www.cnnb.com.cn/ll/">理论</a></li>
+          <li class="left"><a href="http://opinion.cnnb.com.cn/">甬上观潮</a></li>
+          <li class="left"><a href="http://yy.cnnb.com.cn/">云涌创业</a></li>
+        </ul>
+        <ul class="part2 left">
+          <li class="left title"><a href="http://nb8185.cnnb.com.cn/">民生e点通</a></li>
+          <!--<li class="left"><a href="http://nb8185.cnnb.com.cn/tiezi/ys_list.php">好医生</a></li>-->
+          <li class="left" style="width:6em;"><a href="http://love.cnnb.com.cn/">三江缘</a></li>
+          <li class="left" style="width:4em;"><a href="http://finance.cnnb.com.cn/">经济</a></li>
+          <li class="left"><a href="http://nb8185.cnnb.com.cn/tiezi/minsheng_list.php">部门值守</a></li>
+          <li class="left title clearboth"><a href="http://bbs.cnnb.com.cn/">天一论坛</a></li>
+          <li class="left" style="width:6em;"><a href="http://photoningbo.cnnb.com.cn/">影像宁波</a></li>
+          <li class="left" style="width:4em;"><a href="http://travel.cnnb.com.cn/">旅游</a></li>
+          <li class="left"><a href="http://ty.cnnb.com.cn/">天一游戏</a></li>
+        </ul>
+        <ul class="part3 left">
+          <li class="left title"><a href="http://ggg.cnnb.com.cn/">三哥演义</a></li>
+          <li class="left" style="width: 4em;"><a href="http://dialog.cnnb.com.cn/">对话</a></li>
+          <li class="left" style="width: 5em;"><a href="http://jk.cnnb.com.cn/">健康</a></li>
+          <li class="left" style="width:6em;"><a href="http://nb8185.cnnb.com.cn/html/1573/">美丽宁波</a></li>
+          <li class="left title clearboth"><a href="http://v.cnnb.com.cn/">在线视听</a></li>
+          <li class="left" style="width: 4em;"><a href="http://www.nbrc.com.cn/">求职</a></li>
+          <li class="left" style="width: 5em;"><a href="http://car.cnnb.com.cn/">汽车</a></li>
+          <li class="left" style="width:6em;"><a href="http://www.cnnb.com.cn/dwhzlm/cxnb/">宁波治堵</a></li>
+        </ul>
+        <ul class="part4 left">
+          <li class="left"><a href="http://hsnews.cnnb.com.cn/">海曙</a></li>
+          <li class="left"><a href="http://jbxww.cnnb.com.cn/">江北</a></li>
+          <li class="left"><a href="http://zh.cnnb.com.cn/">镇海</a></li>
+          <li class="left"><a href="http://blnews.cnnb.com.cn/">北仑</a></li>
+          <li class="left"><a href="http://yz.cnnb.com.cn/">鄞州</a></li>
+          <li class="left clearboth"><a href="http://fh.cnnb.com.cn/">奉化</a></li>
+          <li class="left"><a href="http://yynews.cnnb.com.cn/">余姚</a></li>
+          <li class="left"><a href="http://cxnews.cnnb.com.cn/">慈溪</a></li>
+          <li class="left"><a href="http://nh.cnnb.com.cn/">宁海</a></li>
+          <li class="left"><a href="http://xs.cnnb.com.cn/">象山</a></li>
+        </ul>
+      </div>
+    </div>
+    <style>
+        .dubao{position: absolute;z-index: 999;top:36px;left:36px;display:none;width: 80px;background-color: #fff;}
+        #nav .submain .dubao{height: auto;border:1px solid #D6D6D6;border-top:none;}
+        .dubao a{display: inline-block;width:100%;text-align: left;font-size:14px;padding-left:10px;}
+    </style>
+    <div class="submain container" style="position:relative;"> <span class="block left title">读报</span> <span class="block left select" style="cursor:pointer;z-index:999;"> <a href="http://daily.cnnb.com.cn/nbrb/paperindex.htm">宁波日报</a>
+      <div class="dubao"> <a href="http://daily.cnnb.com.cn/nbwb/paperindex.htm">宁波晚报</a> <a href="http://daily.cnnb.com.cn/dnsb/paperindex.htm">东南商报</a>
+        <!-- <a href="http://daily.cnnb.com.cn/xqb/paperindex.htm">新侨报</a>-->
+        <a href="http://dzb.jinbaonet.com/">现代金报</a> </div>
+      </span>
+      <ul class="left">
+        <li class="left"><a href="http://www.nbrd.gov.cn/">宁波人大</a></li>
+        <li class="left"><a href="http://www.nbzx.gov.cn/">宁波政协</a></li>
+        <li class="left"><a href="http://nbcs.cnnb.com.cn/">慈善总会</a></li>
+        <li class="left"><a href="http://whlt.cnnb.com.cn/">文化礼堂</a></li>
+        <li class="left"><a href="http://www.nbdj.cnnb.com.cn/">基层教育</a></li>
+        <li class="left"><a href="http://www.nbjy.org.cn/">就业创业</a></li>
+        <li class="left"><a href="http://www.nbepb.gov.cn/">宁波环保</a></li>
+        <li class="left"><a href="http://www.nbemc.net/aqi/home/index.aspx">空气</a></li>
+        <li class="left"><a href="http://www.nbmetro.com/">宁波轨道交通</a></li>
+        <li class="left"><a href="http://nbjx.cnnb.com.cn/">记协</a></li>
+      </ul>
+      <div class="noticeArea left"> <span class="left block"><a href="http://bid.cnnb.com.cn/">招标公告:</a></span>
+        <p class="left overflowhidden">
+          <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="" direction="" scrollamount="2">
+
+<!--enorth cms block start [ name="home_nbztb" ]-->
+<a href="http://bid.cnnb.com.cn/system/2018/01/09/008715917.shtml" target="_blank">环城南路西延（薛家南路—机场路）一期工程桥面美化综合整治工程施工资格预审公告</a>&nbsp;
+<a href="http://bid.cnnb.com.cn/system/2018/01/09/008715916.shtml" target="_blank">福明路（长寿路—兴宁路）工程二期项目高架桥美化工程施工资格预审公告</a>&nbsp;
+<a href="http://bid.cnnb.com.cn/system/2018/01/04/008714731.shtml" target="_blank">宁波地区开闭所智能环境调控系统采购项目 中标公示</a>&nbsp;
+<a href="http://bid.cnnb.com.cn/system/2017/12/28/008713067.shtml" target="_blank">孔浦村安置房（一期）工程全过程工程咨询招标公告</a>&nbsp;
+<a href="http://bid.cnnb.com.cn/system/2017/12/26/008712350.shtml" target="_blank">某部队集体宿舍整修改造工程施工招标公告</a>&nbsp;
+<a href="http://bid.cnnb.com.cn/system/2017/12/22/008711270.shtml" target="_blank">铁路北站拆迁安置房二期标识标牌项目</a>&nbsp;
+<!--enorth cms block end [ name="home_nbztb" cost="9"]-->          </marquee>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div style="width: 1030px;margin: auto;overflow: hidden;height: auto;background-color: #fff;padding: 0 22px;">
+    <style>
+    #main .threeHotNewsArea li.sp img{height: auto;width: auto;}
+    #main .threeHotNewsArea li.sp a{float: left;padding-right: 0;font-size: 14px;font-weight: normal;color: #1f1f1f;}
+    #main ul.threeHotNewsArea li {width: 220px;float: left;}
+    #main ul.threeHotNewsArea li.sp {width: 370px;float: left;}
+</style>
+    <div id="main" class="container">
+      <ul class="threeHotNewsArea overflowhidden">
+        <li class="sp"> <a href="http://zt.cnnb.com.cn/system/2016/01/05/008452564.shtml"><img src="http://www.cnnb.com.cn/pic/003/000/152/00300015243_e0227ee5.png" alt=""></a>
+          <div style="width: 180px;overflow: hidden;">
+<!--enorth cms block start [ name="home_2015_hotnews_image" ]-->
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715790.shtml" target="_blank"><strong>习近平为国家最高<br>
+科技奖获得者颁奖</strong></a>&nbsp;
+<!--enorth cms block end [ name="home_2015_hotnews_image" cost="5"]--></div>
+        </li>
+<li><img class="block left" src="http://www.cnnb.com.cn/pic/003/001/936/00300193633_i1000055000055be_1b30811b.jpg" title="领航新征程
+贯彻十九大精神" alt="领航新征程
+贯彻十九大精神"><a href="http://zt.cnnb.com.cn/system/2017/04/26/008628170.shtml" title="领航新征程
+贯彻十九大精神"><strong>领航新征程<br>
+贯彻十九大精神</strong></a></li>
+<li><img class="block left" src="http://www.cnnb.com.cn/pic/003/002/379/00300237982_i1000055000055be_d704519b.png" title="改革开放40周年报道
+抢起来 干起来" alt="改革开放40周年报道
+抢起来 干起来"><a href="http://zt.cnnb.com.cn/system/2018/01/05/008715086.shtml" title="改革开放40周年报道
+抢起来 干起来"><strong>改革开放40周年报道<br>
+抢起来 干起来</strong></a></li>
+<li><img class="block left" src="http://www.cnnb.com.cn/pic/003/002/371/00300237177_2bad6da0.jpg" title="探寻张人亚精神
+新时代内涵" alt="探寻张人亚精神
+新时代内涵"><a href="http://zt.cnnb.com.cn/system/2017/11/15/008699363.shtml" title="探寻张人亚精神
+新时代内涵"><strong>探寻张人亚精神<br>
+新时代内涵</strong></a></li>
+<li><img class="block left" src="http://www.cnnb.com.cn/pic/003/002/150/00300215099_i1000055000055be_2e133e8e.jpg" title="大脚板走一线
+小分队破难题" alt="大脚板走一线
+小分队破难题"><a href="http://zt.cnnb.com.cn/system/2017/05/04/008631002.shtml" title="大脚板走一线
+小分队破难题"><strong>大脚板走一线<br>
+小分队破难题</strong></a></li>      </ul>
+      <div style="margin-bottom:15px;margin-top:15px;display:none;"> <a href="http://zt.cnnb.com.cn/system/2016/09/12/008548325.shtml"><img src="http://www.cnnb.com.cn/pic/003/000/985/00300098587_a205c7bb.jpg"></a> </div>
+      <style>
+       /*.bannerFull li a{display: block;width: 340px;height: 33px;line-height: 33px;margin-left: 401px;color: #f3c172;  font-size: 14px;}*/
+       #tempAdArea{display: none;}
+       #lianghui li *{font-size: 14px;}
+       #lianghui li{line-height: 30px;overflow: hidden; width: 120%;}
+       #lianghui li.sbc{line-height:50px;}
+       #lianghui li.sbc a{color: #03428a;font-weight: bold;font-size:17px;}
+    </style>
+      <!--通栏图片-->
+
+   <div style="width: 1030px; margin: auto; overflow: hidden; height: 100px; margin-top:20px;"><a href="http://zt.cnnb.com.cn/system/2017/11/15/008699363.shtml" target="_blank"><img src="http://www.cnnb.com.cn/pic/003/002/365/00300236505_37ec7469.jpg"></a></div>
+	 
+      <!--村民说事专区-->
+      <div style="height:200px;background:url(http://www.cnnb.com.cn/pic/003/000/697/00300069708_e1ec7819.jpg) no-repeat;margin:10px 0;position:relative;display:none;" id="lianghui"> <a href="http://zt.cnnb.com.cn/system/2016/07/28/008531598.shtml" style="position: absolute;display: block;width: 293px;height: 40px;top: 21px;left: 31px;"></a> <a href="http://zt.cnnb.com.cn/system/2016/08/08/008535543.shtml" style="position: absolute;display: block;width: 145px;height: 46px;bottom: 20px;left: 24px;"></a> <a href="http://zt.cnnb.com.cn/system/2016/08/08/008535540.shtml" style="position: absolute;display: block; width: 145px;height: 46px;bottom: 20px;left: 179px;"></a>
+        <ul style="overflow:hidden;position:absolute;width:310px;top:12px;left:350px;">
+          <li class="sbc"></li>
+        </ul>
+        <ul style="overflow:hidden;position:absolute;width:295px;top:12px;left:680px;">
+          <li class="sbc"></li>
+        </ul>
+      </div>
+      <script>
+        /*jQuery(function($){
+            $('#lianghui li').each(function(index){
+                if(index == 0 || index == 3){
+                    $(this).children('a').css('color','#de140a');
+                }
+            });
+        });*/
+    </script>
+      <!-- <ul class="bannerFull overflowhidden" style="height: 80px;width: 1000px;margin:10px 0;"> -->
+      <!-- <li style="background: url('http://www.cnnb.com.cn/home/images/15/tyy.jpg') no-repeat left top;width: 1000px;height: 110px;padding-top:10px;position: relative">
+<a href="http://news.cnnb.com.cn/system/2017/12/25/008711959.shtml" target="_blank" title="宁波这个服务大厅人好少啊 为这种"冷清"点赞">宁波这个服务大厅人好少啊 为这种"冷清"点赞</a>
+<a href="http://news.cnnb.com.cn/system/2017/12/22/008711271.shtml" target="_blank" title="互联网+定制 宁波80后"小娘舅"做调解有一套">互联网+定制 宁波80后"小娘舅"做调解有一套</a>
+<a href="http://news.cnnb.com.cn/system/2017/12/09/008707013.shtml" target="_blank" title="鄞州小山村响起久违锣鼓声 什么大喜事">鄞州小山村响起久违锣鼓声 什么大喜事</a>            <a href="http://news.cnnb.com.cn/system/2015/10/05/008409645.shtml" style="width: 400px;height: 120px;position: absolute;left: 0;top: 0;margin: 0;"></a>
+            <a href="http://news.cnnb.com.cn/system/2015/10/05/008409645.shtml" style="width: 260px;height: 120px;position: absolute;right: 0;top:0;margin: 0;"></a>
+        </li> -->
+      <!-- <li><a href="http://zt.cnnb.com.cn/system/2016/01/20/008459332.shtml"><img src="http://www.cnnb.com.cn/pic/0/04/17/41/4174147_692556.jpg" alt=""></a></li> -->
+      <!-- </ul> -->
+      <a href="http://zt.cnnb.com.cn/system/2017/01/18/008592578.shtml" target="_blank" style="margin-top:13px;display:none;"><img width="100%" src="http://www.cnnb.com.cn/home/html/2017/images/lhb.jpg"></a>
+      <div class="container overflowhidden" style="height:60px;margin:10px 0;" id="tempAdArea">
+        <ul id="ad_l_01_01" class="ad_l_01_01 left" style="margin-right:4px;width:192px;height:100%;">
+          <div class="ad_container" id="Ad-L-01-01">
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-1-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=0CE8FDA8_6DEB_B893_D609_913ECA92A523;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-1-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-1-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=1465DD8D_7416_4B47_9472_0F4C7FA4C9D5;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-1-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-1-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=BA7A098B_F1EB_F6CC_140F_92693DC5BCB2;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-1-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-1-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=F74E19D9_BF0C_586A_C15A_E385BB481842;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-1-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-L-01-01-Slider">
+            <ul style="width:192px;overflow:hidden;*overflow:hidden;">
+              <a><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            </ul>
+          </div>
+          <script>TransformView(5000,"Ad-L-01-01","Ad-L-01-01-Slider");</script>
+        </ul>
+        <ul id="ad_l_01_02" class="ad_l_01_02 left" style="width:600px;height:100%;">
+          <div class="ad_container" id="Ad-L-01-02">
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-2-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=F1E77441_F22F_18D2_1EA5_67D7E347EF7E;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-2-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-2-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=DC188C54_36CA_A352_B736_D4A2822367BE;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-2-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-2-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=0DD158E4_B88D_FAC2_8890_515CBF2F1FF9;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-2-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-2-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=FE53D505_A34A_8799_F65C_639A18595B27;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-2-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-L-01-02-Slider">
+            <ul style="width:600px;overflow:hidden;">
+              <a><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            </ul>
+          </div>
+          <script>TransformView(5000,"Ad-L-01-02","Ad-L-01-02-Slider");</script>
+        </ul>
+        <ul id="ad_l_01_03" class="ad_l_01_03 right" style="width:200px;height:100%;">
+          <div class="ad_container" id="Ad-L-01-03">
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-3-A-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=C5F13E79_E5D4_6DFC_FEFF_3535E14F7733;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-3-A-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-3-B-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=1928309A_ED38_6E77_6FC0_3867DDDD1031;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-3-B-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-3-C-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=94988BE1_1BE5_C16D_94D8_A656258B4408;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-3-C-->
+            </li>
+            <li>
+              <!-- AFP Control Code/Caption.AD-L-3-D-->
+              <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=7AC87256_3477_0F7A_0E85_DFF4FCA0FB29;ct=js;pu=cnnb;/?"></script>
+              <!-- AFP Control Code End/No.AD-L-3-D-->
+            </li>
+          </div>
+          <div class="slider" id="Ad-L-01-03-Slider">
+            <ul style="width:200px;overflow:hidden;">
+              <a><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            </ul>
+          </div>
+          <script>TransformView(5000,"Ad-L-01-03","Ad-L-01-03-Slider");</script>
+        </ul>
+      </div>
+      <div class="hotNewsArea">
+        <div class="hotNews left">
+          <ul id="slidesHot" style="overflow: hidden;">
+            <div class="slidesjs-container" style="overflow: hidden; position: relative; width: 790px; height: 83.53785900783289px;"><div class="slidesjs-control" style="position: relative; left: 0px; width: 790px; height: 83.53785900783289px;"><li class="slidesjs-slide" slidesjs-index="0" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 10; -webkit-backface-visibility: hidden;">
+              <div class="main">
+<!--enorth cms block start [ name="home_headlines" ]-->
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008716046.shtml" target="_blank">宁波多层住宅加装电梯实施意见正式出台 如何申请</a>&nbsp;
+<!--enorth cms block end [ name="home_headlines" cost="5"]--></div>
+              <div class="sub">
+<!--enorth cms block start [ name="home_headlines" ]-->
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715801.shtml" target="_blank"></a><a href="http://news.cnnb.com.cn/system/2018/01/09/008716046.shtml" target="_blank">老旧住宅小区加装电梯应当符合什么条件 申请加装电梯应当谁来申请 | 政府对加装电梯有哪些支持和补助政策</a>&nbsp;
+<!--enorth cms block end [ name="home_headlines" cost="4"]--><a href="http://news.cnnb.com.cn/toutiao/">&gt;&gt;更多头条</a></div>
+            </li><li class="slidesjs-slide" slidesjs-index="1" style="position: absolute; top: 0px; left: -790px; width: 100%; z-index: 0; display: block; -webkit-backface-visibility: hidden;">
+              <div class="main">
+<!--enorth cms block start [ name="home_headlines" ]-->
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715788.shtml" target="_blank">郑栅洁:加快建设高水平科研院所 对材料所要高看一眼</a>&nbsp;
+<!--enorth cms block end [ name="home_headlines" cost="4"]--></div>
+              <div class="sub">
+<!--enorth cms block start [ name="home_headlines" ]-->
+<a href="http://news.cnnb.com.cn/system/2018/01/07/008715461.shtml" target="_blank"><span style="color:#000000;">新年"双响炮"炸醒宁波 |</span></a>&nbsp;
+<a href="http://news.cnnb.com.cn/system/2018/01/07/008715430.shtml" target="_blank"><span style="color:#000000;">郑栅洁:只争朝夕"抢人才" |</span></a>&nbsp;
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715502.shtml" target="_blank"><span style="color:#000000;">宁波启动"1112"工程</span></a>&nbsp;
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715503.shtml" target="_blank"><span style="color:#000000;">| 评论：做好引才用才这篇重头文章</span></a>&nbsp;
+<!--enorth cms block end [ name="home_headlines" cost="10"]--><a href="http://news.cnnb.com.cn/toutiao/">&gt;&gt;更多头条</a></div>
+            </li></div></div>
+            
+            
+            
+            
+          <a class="slidesjs-previous slidesjs-navigation" href="#" title="Previous">Previous</a><a class="slidesjs-next slidesjs-navigation" href="#" title="Next">Next</a></ul>
+        </div>
+        <div style="background: url(http://www.cnnb.com.cn/home/html/2017/images/bdj.jpg) no-repeat center center;width: 204px;height: 70px;position: relative;float: right;"> <a href="http://nbnews.cnnb.com.cn/nbxw_ldhdbd/zzj/index.shtml" target="_blank" style="position: absolute;width: 62px;height: 22px;left: 27px;top: 12px;"></a> <a href="http://nbnews.cnnb.com.cn/nbxw_ldhdbd/qdy/index.shtml" target="_blank" style="position: absolute;width: 62px;height: 22px;right: 30px;top: 12px;"></a> </div>
+      </div>
+      <div class="part1 overflowhidden">
+        <div class="leftPart left">
+          <ul class="style1 overflowhidden">
+            <li class="title" style="margin-top:-10px;"> 
+<!--enorth cms block start [ name="home_2015_pointnews" ]-->
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715806.shtml" target="_blank">宁波教育局给民办校和培训机构下6条紧箍咒</a>&nbsp;
+<!--enorth cms block end [ name="home_2015_pointnews" cost="4"]--> </li>
+
+<!--enorth cms block start [ name="home_2015_pointnews" ]-->
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715691.shtml" target="_blank"></a><a href="http://zt.cnnb.com.cn/system/2018/01/03/008714406.shtml" target="_blank">围挡曝光后续 |</a>
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715783.shtml" target="_blank">副市长褚银良再督查城区围挡问题</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/07/008715452.shtml" target="_blank"></a><a href="http://zt.cnnb.com.cn/system/2018/01/03/008714406.shtml" target="_blank">围挡曝光后续 |</a>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008716047.shtml" target="_blank">宁波19家建设单位表态：加快进度</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715827.shtml" target="_blank"><span style="color:#FF0000;">喜迎两会</span> 宁波城乡建设新篇章 助推"名城名都"建设</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008716051.shtml" target="_blank">宁波白领平均薪酬排全国第五 月薪最高岗位竟是它</a>
+</li>
+<!--enorth cms block end [ name="home_2015_pointnews" cost="14"]-->            <li class="title"> 
+<!--enorth cms block start [ name="home_2015_pointnews" ]-->
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008716077.shtml" target="_blank">宁波四价宫颈癌疫苗开打了 3针共需2664元</a>&nbsp;
+<!--enorth cms block end [ name="home_2015_pointnews" cost="4"]--> </li>
+
+<!--enorth cms block start [ name="home_2015_pointnews" ]-->
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715899.shtml" target="_blank">一辈子交五险一金退休能拿多少 这些数字你知道吗</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715815.shtml" target="_blank">海曙一闲置20年的"农场" 市民询问能否改成停车场</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008716041.shtml" target="_blank">又是别人家的孩子！宁波12岁牛娃出了七本童话书</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715812.shtml" target="_blank">车损几千却要赔上万 "有手段"团伙盯上宁波酒驾者</a>
+</li>
+<!--enorth cms block end [ name="home_2015_pointnews" cost="11"]-->          </ul>
+          <h3><a href="http://opinion.cnnb.com.cn/index.shtml" style="color:#0075c2;">甬上观潮</a>：<a href="http://opinion.cnnb.com.cn/system/2018/01/09/008715932.shtml" target="_blank" title="以更实举措实施健康中国战略">以更实举措实施健康中国战略</a></h3>
+          <ul class="style2">
+<li><a class="item" href="http://opinion.cnnb.com.cn/system/2018/01/09/008715944.shtml">刘雪松：杭州与上海，谁是谁的后花园是伪命题</a></li>
+<li><a class="item" href="http://opinion.cnnb.com.cn/system/2018/01/09/008715973.shtml">陆敬平：“紫光阁地沟油”上热搜 别只当笑话听</a></li>
+<li><a class="item" href="http://opinion.cnnb.com.cn/system/2018/01/09/008715956.shtml">光明：专业打假人败诉，理由是浪费司法资源么</a></li>          </ul>
+        </div>
+        <div class="rightPart right">
+
+<!--enorth cms block start [ name="syhdp2017" ]-->
+<ul class="focusArea overflowhidden" id="slides" style="overflow: hidden;">
+			<div class="slidesjs-container" style="overflow: hidden; position: relative; width: 657px; height: 404px;"><div class="slidesjs-control" style="position: relative; left: 0px; width: 657px; height: 404px;"><li class="slidesjs-slide" slidesjs-index="0" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 10; -webkit-backface-visibility: hidden;">
+			<a class="block" href="http://news.cnnb.com.cn/system/2018/01/09/008715825.shtml" target="_blank">
+				<img src="http://www.cnnb.com.cn/pic/003/002/385/00300238501_69ac4f03.jpg">
+			</a>
+			<span class="meta">萌萌哒！考试周横幅原来可以这样写&nbsp;&nbsp;...<a href="http://news.cnnb.com.cn/jctp/">更多</a></span>
+		</li><li class="slidesjs-slide" slidesjs-index="1" style="position: absolute; top: 0px; left: 657px; width: 100%; z-index: 0; display: block; -webkit-backface-visibility: hidden;">
+			<a class="block" href="http://news.cnnb.com.cn/system/2018/01/09/008716052.shtml" target="_blank">
+				<img src="http://www.cnnb.com.cn/pic/003/002/386/00300238623_d36ee5c8.jpg">
+			</a>
+			<span class="meta">云南"冰花"男孩火了 真相却让人心疼&nbsp;&nbsp;...<a href="http://news.cnnb.com.cn/jctp/">更多</a></span>
+		</li><li class="slidesjs-slide" slidesjs-index="2" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;">
+			<a class="block" href="http://news.cnnb.com.cn/system/2018/01/09/008715835.shtml" target="_blank">
+				<img src="http://www.cnnb.com.cn/pic/003/002/385/00300238502_5f795f66.jpg">
+			</a>
+			<span class="meta">00后学霸告诉你：再不好好学地理，连情书都看不懂了&nbsp;&nbsp;...<a href="http://news.cnnb.com.cn/jctp/">更多</a></span>
+		</li><li class="slidesjs-slide" slidesjs-index="3" style="position: absolute; top: 0px; left: 0px; width: 100%; z-index: 0; display: none; -webkit-backface-visibility: hidden;">
+			<a class="block" href="http://news.cnnb.com.cn/system/2018/01/09/008715905.shtml" target="_blank">
+				<img src="http://www.cnnb.com.cn/pic/003/002/385/00300238526_9829e1ad.jpg">
+			</a>
+			<span class="meta">浙江“小仙女”改造200平方米荒地 造出绝美花园&nbsp;&nbsp;...<a href="http://news.cnnb.com.cn/jctp/">更多</a></span>
+		</li><li class="slidesjs-slide" slidesjs-index="4" style="position: absolute; top: 0px; left: -657px; width: 100%; z-index: 0; display: block; -webkit-backface-visibility: hidden;">
+			<a class="block" href="http://news.cnnb.com.cn/system/2018/01/09/008715892.shtml" target="_blank">
+				<img src="http://www.cnnb.com.cn/pic/003/002/385/00300238515_8ee08286.jpg">
+			</a>
+			<span class="meta">青海杂多发现野生藏狐冲镜头展现“迷之微笑”&nbsp;&nbsp;...<a href="http://news.cnnb.com.cn/jctp/">更多</a></span>
+		</li></div></div>
+		
+		
+		
+		
+<a class="slidesjs-previous slidesjs-navigation" href="#" title="Previous">Previous</a><a class="slidesjs-next slidesjs-navigation" href="#" title="Next">Next</a><ul class="slidesjs-pagination"><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="0" class="active">1</a></li><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="1">2</a></li><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="2">3</a></li><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="3">4</a></li><li class="slidesjs-pagination-item"><a href="#" data-slidesjs-item="4">5</a></li></ul></ul>
+<!--enorth cms block end [ name="syhdp2017" cost="166"]-->          <div class="bottomPart">
+            <ul style="width:436px;float:left;">
+              <li>
+                <!--<a href="http://zt.cnnb.com.cn/system/2016/10/20/008561273.shtml" style="color:#09226A;">距2017中东欧博览会、浙洽会、消博会<font color="red"><script>var a = new Date();var b = new Date(2017,05,08);var c = (b-a)/1000/3600/24;document.write(Math.ceil(c));</script></font>天</a>-->
+                <!--<a href="http://zt.cnnb.com.cn/system/2017/05/17/008636242.shtml" target="_blank"> <span style="color:#DD0606;"><strong>距中国-中东欧博览会浙洽会消博会<font color="black"><script>var a = new Date();var b = new Date(2017,05,08);var c = (b-a)/1000/3600/24;document.write(Math.ceil(c));</script></font>天&nbsp;&nbsp;</strong></span></a>-->
+                <a href="http://zt.cnnb.com.cn/system/2018/01/02/008714095.shtml" target="_blank"><span style="color:#000000;">我最喜爱的习总书记的一句话</span></a>&nbsp;
+<a href="http://zt.cnnb.com.cn/system/2017/09/26/008683634.shtml" target="_blank">"一带一路"建设综试区</a>&nbsp;
+<a href="http://zt.cnnb.com.cn/system/2017/11/09/008697586.shtml" target="_blank">品质社区</a>&nbsp; </li>
+              <li><a href="http://zt.cnnb.com.cn/system/2016/07/25/008530238.shtml" target="_blank">改革攻坚勇探索 最多跑一次</a>&nbsp;
+<a href="http://zt.cnnb.com.cn/system/2017/05/25/008639221.shtml" target="_blank">三改一拆</a>&nbsp;
+<a href="http://news.cnnb.com.cn/system/2017/05/17/008636214.shtml" target="_blank">网络文化节</a>&nbsp;
+<a href="http://zt.cnnb.com.cn/system/2016/08/22/008540978.shtml" target="_blank">市民巡访</a>&nbsp;</li>
+            </ul>
+
+<!--enorth cms block start [ name="sytwzt" ]-->
+<ul style="float:left;width:220px;margin-left:13px;padding-top:5px;">
+<li style="float:left;width:auto;height:100%;"><a href="http://news.cnnb.com.cn/system/2017/01/23/008594890.shtml" target="_blank"><img src="http://www.cnnb.com.cn/pic/003/001/549/00300154973_699957fc.jpg" width="100" height="50"></a></li>
+<li style="float:left;width:auto;height:100%;"><a href="http://news.cnnb.com.cn/system/2017/01/23/008594893.shtml" target="_blank"><img src="http://www.cnnb.com.cn/pic/003/001/549/00300154974_0d2913e2.jpg" width="100" height="50"></a></li>
+</ul>
+<!--enorth cms block end [ name="sytwzt" cost="146"]-->          </div>
+        </div>
+      </div>
+      <div class="part2 overflowhidden">
+        <div class="leftPart left overflowhidden">
+          <div class="modVedioBox left">
+            <div class="modTitle"> <span>宁波微视</span> <a href="http://www.cnnb.com.cn/nbzfxwfbh/" style="position:absolute;top:0;right:0;padding-right:110px;font-size:18px;display: inline-block;color: #393939;line-height: 48px;padding-left: 20px;*margin-top: -34px;">新闻发布</a> </div>
+            <div class="modContent">
+
+<!--enorth cms block start [ name="synbws" ]-->
+<dl class="videolist">
+<dt>
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715697.shtml" target="_blank">
+<div class="videobottom"><img src="http://www.cnnb.com.cn/pic/003/002/058/00300205815_8ac8efb2.jpg"></div>
+<div class="videotop"><img src="http://www.cnnb.com.cn/home/html/2017/images/video.png"></div>
+<div class="videometa">小区别墅业主将车位改成车库</div>
+</a>
+</dt>
+<dt>
+<a href="http://news.cnnb.com.cn/system/2018/01/04/008714748.shtml" target="_blank">
+<div class="videobottom"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238407_i1000160000100be_b9d00569.png"></div>
+<div class="videotop"><img src="http://www.cnnb.com.cn/home/html/2017/images/video.png"></div>
+<div class="videometa">对话刘自鸿：他把世界"掰弯"</div>
+</a>
+</dt>
+<dt>
+<a href="http://dialog.cnnb.com.cn/system/2017/12/21/008710877.shtml" target="_blank">
+<div class="videobottom"><img src="http://www.cnnb.com.cn/pic/003/002/337/00300233749_fa233ef2.jpg"></div>
+<div class="videotop"><img src="http://www.cnnb.com.cn/home/html/2017/images/video.png"></div>
+<div class="videometa">对话·会展人：爱“搞事”的中博</div>
+</a>
+</dt>
+<dt>
+<a href="http://www.cnnb.com.cn/spjj/system/2017/12/14/008708588.shtml" target="_blank">
+<div class="videobottom"><img src="http://www.cnnb.com.cn/pic/003/002/334/00300233487_bd9cd550.jpg"></div>
+<div class="videotop"><img src="http://www.cnnb.com.cn/home/html/2017/images/video.png"></div>
+<div class="videometa">新时代，如何重塑甬商精神？</div>
+</a>
+</dt>
+</dl>
+
+<style>
+.videolist{overflow:hidden;margin-top:30px;margin-bottom:5px;}
+.videolist dt{float:left;margin-right:10px;margin-bottom:10px;}
+.videolist a{position:relative;display:block;width:160px;height:120px;overflow:hidden;}
+.videolist .videobottom{position:absolute;z-index:1;width:100%;height:90px;overflow:hidden;}
+.videolist .videobottom img{width:100%;}
+.videolist .videotop{position:absolute;z-index:2;width:34px;height:34px;left:63px;top:28px;}
+.videolist .videometa{position:absolute;z-index:2;bottom:0;left:0;width:100%;height:30px;font-size:12px;line-height:30px;}
+</style>
+<!--enorth cms block end [ name="synbws" cost="141"]-->              <ul>
+<li>
+<a href="http://news.cnnb.com.cn/system/2015/05/27/008326597.shtml" target="_blank"><b>e眼关注</b> |</a>
+<a href="http://news.cnnb.com.cn/system/2017/12/29/008713398.shtml" target="_blank">紫郡小区河边公园遭开垦</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2016/01/22/008460640.shtml" target="_blank"><strong>三哥演义</strong> |</a>
+<a href="http://news.cnnb.com.cn/system/2017/04/24/008627382.shtml" target="_blank"></a><a href="http://ggg.cnnb.com.cn/system/2017/10/17/008689714.shtml" target="_blank">甬秀·港通天下 宁波的文化自信</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2015/05/21/008322596.shtml" target="_blank"><strong>新闻发布</strong> |</a>
+<a href="http://news.cnnb.com.cn/system/2017/12/05/008705503.shtml" target="_blank">2017中国(宁波)国际新材料展发布</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2017/08/08/008665966.shtml" target="_blank"><strong>社科云讲坛 </strong>| </a><a href="http://skyjt.cnnb.com.cn/system/2017/10/29/008693752.shtml" target="_blank">象山竹根雕 枯木断根焕新生</a>
+</li>              </ul>
+            </div>
+          </div>
+          <div class="labelBoxMini right">
+            <div class="tabTitle tabs">
+              <div class="titHide on"><a href="http://www.nb8185.com/">民生e点通</a></div>
+              <div class="titCurrent"><a href="http://nb8185.cnnb.com.cn/tiezi/minsheng_list.php" style="display: inline-block;padding-top: 8px;text-align: center;font-size: 13px;line-height:1.4em;"><strong style="font-size:14px;">113家部门</strong><br>
+                实时在线</a></div>
+              <div class="btnMore"><a href="http://nb8185.cnnb.com.cn/tiezi/minsheng_list.php" target="_blank" class="ie7lh">我要投诉</a></div>
+            </div>
+            <div class="tabContent">
+              <div class="conCurrent on">
+                <p style="font-weight:bold;"> <a href="http://www.cnnb.com.cn/test/system/2018/01/09/008715869.shtml" target="_blank" title="抢人才，宁波还有这些配套服务政策">抢人才，宁波还有这些配套服务政策</a> </p>
+                <ul>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008715867.shtml" target="_blank" title="回访 | 妇儿医院旁路边倒下的围挡已扶正固定"><span style="color:rgb(0, 153, 255)"><strong>回访 </strong></span>| 妇儿医院旁路边倒下的围挡已扶正固定</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008715865.shtml" target="_blank" title="热问 | 这两种情形 机动车未礼让行人会扣分吗"><span style="color:rgb(0, 153, 255)"><strong>热问 </strong></span>| 这两种情形 机动车未礼让行人会扣分吗</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/08/008715541.shtml" target="_blank" title="建议 | 咪表卡余额不足被开罚单?你可以这样做"><span style="color:rgb(0, 153, 255)"><strong>建议 </strong></span>| 咪表卡余额不足被开罚单?你可以这样做</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008715861.shtml" target="_blank" title="关注 | 天沁家园“海绵化”改造可否减少扰民"><span style="color:rgb(0, 153, 255)"><strong>关注 </strong></span>| 天沁家园“海绵化”改造可否减少扰民</a></li>                </ul>
+                <p class="second" style="font-weight:bold;"> <a href="http://www.cnnb.com.cn/test/system/2018/01/08/008715548.shtml" target="_blank" title="儿科门诊挂号能否学学餐饮排号系统">儿科门诊挂号能否学学餐饮排号系统</a> </p>
+                <ul>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/08/008715545.shtml" target="_blank" title="追踪 | 惠江路“僵尸车”拖离 网友点赞交警"><span style="color:rgb(0, 153, 255)"><strong>追踪 </strong></span>| 惠江路“僵尸车”拖离 网友点赞交警</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/08/008715543.shtml" target="_blank" title="盘点 | 上周:493个网友帖文已被相关部门受理"><span style="color:rgb(0, 153, 255)"><strong>盘点 </strong></span>| 上周:493个网友帖文已被相关部门受理</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008715863.shtml" target="_blank" title="答疑 | 东钱湖地区有规划建设新的医疗机构吗"><span style="color:rgb(0, 153, 255)"><strong>答疑 </strong></span>| 东钱湖地区有规划建设新的医疗机构吗</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/08/008715539.shtml" target="_blank" title="热点 | 配偶私自举债，自己能否不“被负债”"><span style="color:rgb(0, 153, 255)"><strong>热点 </strong></span>| 配偶私自举债，自己能否不“被负债”</a></li>                </ul>
+              </div>
+              <div class="conCurrent">
+                <p style="font-weight:bold;"> <a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716008.shtml" target="_blank" title="【江北】慈城彩云路为何停工半年不施工">【江北】慈城彩云路为何停工半年不施工</a> </p>
+                <ul>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716013.shtml" target="_blank" title="【鄞州】邱隘人民路火车路段双向车道变一车道">【鄞州】邱隘人民路火车路段双向车道变一车道</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716015.shtml" target="_blank" title="【残联】宁波什么时候能够引入带棚残疾车车型">【残联】宁波什么时候能够引入带棚残疾车车型</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716017.shtml" target="_blank" title="【海曙】清林闲庭小区43幢消防设施坏已10年">【海曙】清林闲庭小区43幢消防设施坏已10年</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716019.shtml" target="_blank" title="【供电】广泽嘉园南门被高压电线架围起存隐患">【供电】广泽嘉园南门被高压电线架围起存隐患</a></li>                </ul>
+                <p class="second" style="font-weight:bold;"> <a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716011.shtml" target="_blank" title="【公安】鄞县大道往宝瞻线的车道不合理">【公安】鄞县大道往宝瞻线的车道不合理</a> </p>
+                <ul>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716021.shtml" target="_blank" title="【东钱湖】钱湖景苑小区自来水呈黄色居民担忧">【东钱湖】钱湖景苑小区自来水呈黄色居民担忧</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716024.shtml" target="_blank" title="【教育】德陪小学晚上能否开放停车场方便家长">【教育】德陪小学晚上能否开放停车场方便家长</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716026.shtml" target="_blank" title="【文广新局】市图书馆何时搬迁到东部新城新馆">【文广新局】市图书馆何时搬迁到东部新城新馆</a></li>
+<li><a href="http://www.cnnb.com.cn/test/system/2018/01/09/008716029.shtml" target="_blank" title="【人社】异地退休的本地老人医保问题如何解决">【人社】异地退休的本地老人医保问题如何解决</a></li>                </ul>
+              </div>
+            </div>
+            <div class="tousu"> <div style="margin-top: 10px;text-align: center;background: url(http://www.cnnb.com.cn/home/html/2017/images/line-center.jpg) left center repeat-x;}">
+<a style="display:inline-block;background-color:#fff;padding:0 10px;" href="http://www.cnnb.com.cn/test/system/2017/11/13/008698508.shtml" target="_blank">名医大课堂</a>
+</div> </div>
+          </div>
+        </div>
+        <div class="rightPart right">
+          <div class="labelBoxBBS ">
+            <div class="tabTitle tabs">
+              <div class="titCurrent on"><a href="http://bbs.cnnb.com.cn/">论&nbsp;&nbsp;坛</a></div>
+              <div class="titHide"><a href="http://bbs.cnnb.com.cn/">热&nbsp;&nbsp;帖</a></div>
+              <div class="btnMore"><a href="http://bbs.cnnb.com.cn" target="_blank" class="ie7lh">我要发帖</a></div>
+            </div>
+            <div class="tabContent">
+              <div class="conCurrent on">
+                <p style="font-weight:bold;"> <a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715928.shtml" target="_blank" title="多城市限购松绑 今年宁波楼市会松绑么">多城市限购松绑 今年宁波楼市会松绑么</a> </p>
+                <ul>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715942.shtml" target="_blank">殷家花园小区业主成立业委会 为何阻挠重重？</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008716050.shtml" target="_blank">宝龙三江官邸毫无诚信 卖房连哄带骗退筹拖延</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715943.shtml" target="_blank">快过年了 大家都发了多少年终奖？出来晒一下</a>
+</li>                </ul>
+                <div class="conPicture">
+                  <div class="picBox" style="margin-right:9px;"><a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715949.shtml" target="__blank" title="徒步九龙湖"><div><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238551_62c1e823.jpg" width="150" height="100" alt="徒步九龙湖"></div><div class="picTitle">徒步九龙湖</div></a></div>
+                  <div class="picBox"><a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715945.shtml" target="__blank" title="周公宅水库"><div><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238553_a44138d7.jpg" width="150" height="100" alt="周公宅水库"></div><div class="picTitle">周公宅水库</div></a></div>
+                </div>
+                <ul>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715951.shtml" target="_blank">险！海曙实验学校旁路面结冰 多辆电动车滑倒</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715952.shtml" target="_blank">来说说公司里私生活混乱的同事 乱到什么程度</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/09/008715953.shtml" target="_blank">份子钱人家给你一千 还礼是不是起码要加两百</a>
+</li>                </ul>
+              </div>
+              <div class="conCurrent">
+                <p style="font-weight:bold;"> <a href="http://www.cnnb.com.cn/luntan/system/2018/01/08/008715661.shtml" target="_blank" title="这块土地已荒废了近20年 一代芳华流尽">这块土地已荒废了近20年 一代芳华流尽</a> </p>
+                <ul>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/08/008715670.shtml" target="_blank">锦绣江南小区楼下开洗车店 噪音困扰楼上居民</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/08/008715674.shtml" target="_blank">建议一院增设便民药房或便民诊室 以方便患者</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/08/008715764.shtml" target="_blank">宁波轨道交通在细节和资讯传播有待加以改进</a>
+</li>                </ul>
+                <div class="conPicture">
+                  <div class="picBox" style="margin-right:9px;"><a href="http://www.cnnb.com.cn/luntan/system/2018/01/08/008715657.shtml" target="__blank" title="观四明云海"><div><img src="http://www.cnnb.com.cn/pic/003/002/383/00300238372_93bcf7cd.jpg" width="150" height="100" alt="观四明云海"></div><div class="picTitle">观四明云海</div></a></div>
+                  <div class="picBox"><a href="http://www.cnnb.com.cn/luntan/system/2018/01/07/008715431.shtml" target="__blank" title="梦里天一阁"><div><img src="http://www.cnnb.com.cn/pic/003/002/382/00300238216_669b8d02.jpg" width="150" height="100" alt="梦里天一阁"></div><div class="picTitle">梦里天一阁</div></a></div>
+                </div>
+                <ul>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/05/008715098.shtml" target="_blank">300米路要修一年多 艰苦上学路何时是个头？</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/06/008715299.shtml" target="_blank">宁慈公路庄桥段整修后 道路狭窄花坛设计不妥</a>
+</li>
+<li>
+<a href="http://www.cnnb.com.cn/luntan/system/2018/01/06/008715306.shtml" target="_blank">市中心竟然有这样的母婴室 还不如不要设置呢</a>
+</li>                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style type="text/css">
+        .sbarea{overflow: hidden;}
+        .sbarea .modComTitle{height: 42px;border-bottom: 3px solid #d9d9da;color: #6e6e6e;position: relative;}
+        .sbarea .modComTitle .titCurrent{font-size: 20px;float: left;padding: 0 5px;line-height: 42px;}
+        .sbarea .modComTitle .titCurrent.on{color: #0280c5;border-bottom: 3px solid #0280c5;}
+        .sbarea .modComTitle .titCurrent a{color: #0280c5;font-size: 20px;}
+        .sbarea .modComTitle .titHide{font-size: 20px;float: left;padding:0 5px;line-height: 42px;}
+        .sbarea .modComTitle .titHide.on{color: #0280c5;border-bottom: 3px solid #0280c5;}
+        .sbarea .modComContent{font-size: 14px;line-height: 32px;margin-top: 21px;height: 387px;overflow: hidden;}
+    </style>
+      <div class="sbarea">
+        <div class="left" style="width:328px;margin-top: 20px;">
+          <div class="modComTitle tabs">
+            <div class="titCurrent on" style="margin-right:20px;"> <a href="http://nbnews.cnnb.com.cn" target="_blank">看宁波</a>&nbsp;&nbsp; <a href="http://news.cnnb.com.cn" target="_blank">看天下</a> </div>
+            <div class="titHide">要闻推送</div>
+          </div>
+          <div class="modComContent">
+            <div class="tabc on">
+
+<!--enorth cms block start [ name="syknbktx" ]-->
+<ul>
+			<li style="margin-bottom:24px;">
+			<a href="http://news.cnnb.com.cn/system/2018/01/09/008716078.shtml" target="_blank" style="overflow:hidden;display:block;">
+				<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238665_7593056b.jpg" width="100%"></span>
+				<span class="right" style="width:208px;overflow:hidden;display:block;">
+					<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3em;line-height: 1.3em;">宁波首部老小区加装电梯在白鹤街道孔雀小区启用</h2>
+					<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 14:53</p>
+				</span>
+			</a>
+		</li>
+		<li style="margin-bottom:24px;">
+			<a href="http://news.cnnb.com.cn/system/2018/01/09/008716071.shtml" target="_blank" style="overflow:hidden;display:block;">
+				<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238638_a7888939.jpg" width="100%"></span>
+				<span class="right" style="width:208px;overflow:hidden;display:block;">
+					<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3em;line-height: 1.3em;">女子被指以等老公为名阻拦高铁发车 铁路公安：正在核实</h2>
+					<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 14:32</p>
+				</span>
+			</a>
+		</li>
+		<li style="margin-bottom:24px;">
+			<a href="http://news.cnnb.com.cn/system/2018/01/09/008716065.shtml" target="_blank" style="overflow:hidden;display:block;">
+				<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238636_d58a6e6e.jpg" width="100%"></span>
+				<span class="right" style="width:208px;overflow:hidden;display:block;">
+					<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3em;line-height: 1.3em;">滴滴接管小蓝单车 原用户押金可转换成单车券用车</h2>
+					<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 14:29</p>
+				</span>
+			</a>
+		</li>
+		<li style="margin-bottom:24px;">
+			<a href="http://news.cnnb.com.cn/system/2018/01/09/008716060.shtml" target="_blank" style="overflow:hidden;display:block;">
+				<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238633_40c78b53.jpg" width="100%"></span>
+				<span class="right" style="width:208px;overflow:hidden;display:block;">
+					<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3em;line-height: 1.3em;">支付宝外还有N多APP都想要你的信息 再不看就晚了！</h2>
+					<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 14:25</p>
+				</span>
+			</a>
+		</li>
+</ul>
+<!--enorth cms block end [ name="syknbktx" cost="253"]-->            </div>
+            <div class="tabc">
+              <ul>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008716042.shtml" target="_blank">轿车侧翻跌入冰河 当地警民不顾冰天雪地合力救援</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715781.shtml" target="_blank">新一年如何看浙江的“最多跑一次”</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715777.shtml" target="_blank">全国推行湖长制 浙江怎么干</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715778.shtml" target="_blank">发力打造交通枢纽 衢州高铁高速县县贯通</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/08/008715769.shtml" target="_blank">补齐山区百姓民生短板 泰顺生态搬迁安民富民</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/06/008715332.shtml" target="_blank">时不我待 只争朝夕——学习贯彻习近平总书记在党的十九大精神研讨班开班式重要讲话</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/06/008715316.shtml" target="_blank">公交车起火市民奋力砸窗救人 司机果断停车为逃生赢得15秒</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/06/008715317.shtml" target="_blank">游客自驾游被困雪山 绝望之时民警敲响车窗救人</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/06/008715315.shtml" target="_blank">暖心2017 | 她是重度听障，也是阳光女主播！</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/06/008715314.shtml" target="_blank">暖心2017 |负重行走一亿步 两个侏儒儿子在她背上长大</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/06/008715313.shtml" target="_blank">暖心2017 | 警犬养老院：一起出生入死， 当你老了有我陪你</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/05/008715148.shtml" target="_blank">转发学习！习近平在十九大精神研讨班开班式上的金句</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/05/008715136.shtml" target="_blank">炮兵昼夜雪天拉动 提高远火营遂行多样化任务能力</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/05/008715137.shtml" target="_blank">陆航部队新年首飞从难从严 真抓实训真抗实练向实战化靠拢</a>
+</li>
+<li>
+<a href="http://news.cnnb.com.cn/system/2018/01/05/008715138.shtml" target="_blank">行驶公交车突然起火 热心市民奋力砸窗灭火救人</a>
+</li>              </ul>
+            </div>
+          </div>
+          <div style="line-height: 30px;height: 30px;text-align: center;background: url(http://www.cnnb.com.cn/home/mobile/images/sx.jpg) center center no-repeat;background-size: auto 65%;margin: 10px 0 -18px 0;cursor: pointer;" id="hrd"><img src="http://www.cnnb.com.cn/home/mobile/images/hyh.png" id="hyh" style="width:113px;height:18.85px;margin-top:5px;"></div>
+
+<!--enorth cms block start [ name="syknbktxsyxwcs" ]-->
+<ul style="margin-top: 30px;height:1980px;overflow:hidden;">
+				<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008716057.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238631_b23c2ceb.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">2018房地产迎长效机制关键年 调控趋向一城多策</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-09 14:23</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008716045.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238504_e89db140.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">朝方将派代表团参加平昌冬奥会 有意与韩方共同入场</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国际&nbsp;&nbsp;01-09 12:30</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008716044.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238612_78b87906.png" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">午盘：两市震荡沪指涨0.08% 喝酒吃药行情再起</h2>
+						<p style="font-size:14px;color:#a0a0a0;">财经&nbsp;&nbsp;01-09 12:15</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008716040.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238605_fa6ff31b.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">网上应征报名10日开通 优先批准大学毕业生入伍</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-09 11:11</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008716037.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238604_b34a9c30.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">中国中等收入群体超3亿是咋算的？ 快看你在不在内</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-09 10:50</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008716033.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/386/00300238601_526751bb.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">公交站等"有偿献血"揭秘： 用漏洞敛财 一单血液卖2000元</h2>
+						<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 10:43</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715991.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238591_5c9c5710.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">男子因看病贵自制抗癌药救母:每次给她喂药都心惊胆战</h2>
+						<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 10:27</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715979.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238569_40a5dfd5.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">20多省份出台重点群体增收计划 瞄准这七类人</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-09 10:18</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715972.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238565_88bda1d5.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">中国二手房价排名：北京6.8万居首 宁波排第十六位</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-09 10:14</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715810.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238477_24ad2995.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">最冷的三九四九开启了 宁波未来几天最低温都在零度以下</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 06:48</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715823.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238497_d7bb6ead.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">注意了！今日宁波开往这些地方的长途公路班线停班</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 07:19</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715826.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238498_6f664b4d.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">去年新能源车个人购买占4成 小排量车占比有所下降</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 07:23</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715913.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238531_822de0f7.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">2018年首个油价调整窗口12日开启 预计迎来上涨</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-09 09:07</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715819.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238492_d499da24.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">900多年前 曾巩在宁波都干了啥？后人昨来甬寻足迹</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 07:11</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715824.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238500_efc1b342.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">飞来横祸！集卡车撞上工程车 数名养护工被撞</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 07:21</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715816.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238487_12b450fe.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">大闹慈溪高速收费站的醉驾男一个月前已被吊销驾照</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 07:05</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715902.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238524_af93d19d.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">中国派出第十六批援中非医疗队 11名成员中9名来自宁波</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 08:58</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715891.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238516_d123a224.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">"一带一路"综试区+自由贸易港 智库眼中的2018"宁波号"新方</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 08:53</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715832.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238495_d199b31a.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">廿载再续一杯！天童足校球友成宁波足坛中坚力量</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-09 07:30</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715890.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238513_4ee43d50.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">人民币兑美元创四个月新高 今年市民不再盲目购汇</h2>
+						<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 08:49</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715888.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238522_i1000200000135be_2efdc3d1.png" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">感冒高发服药要谨慎 23岁小伙吃了几片感冒药胃出血了</h2>
+						<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 08:48</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/09/008715912.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238529_i1000200000135be_e8650634.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">紫光阁地沟油上微博热搜背后利益链：花钱就能上？</h2>
+						<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-09 09:06</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715808.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/373/00300237372_04eb8e97.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">2018年楼市调控放松？ 这只是你的一厢情愿</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-08 22:36</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715807.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238475_fc366828.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">别再转了！网上疯传奉化大润发2岁小孩被拐，是谣言</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 22:07</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715805.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238471_i1000200000135be_c1f44ec4.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">外交部证实:法国总统马克龙将向习近平赠送一匹国礼马</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-08 21:07</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715804.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238470_e67e8a46.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">气温骤降 宁波最近因天气引发的“奇葩”交通事故不少</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 20:50</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715803.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238469_e5d7af72.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">连打三个喷嚏 宁波86岁李奶奶胸椎骨折</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 20:36</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715802.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238468_46732e23.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">围挡曝光后续丨市住建委:25条品质路建设 围了就要做好</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 20:21</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715799.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238465_ab5d3292.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">中国又一城市GDP超万亿 万亿GDP俱乐部达14个(名单)</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-08 19:53</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715798.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238464_47c19e08.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">宁波生活垃圾分类管理条例列入今年立法计划</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 19:38</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715796.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238461_d0aa1b33.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">胡朝霞第四次踏上贵州 除了助学她还有一个任务</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 18:47</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715791.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238456_d0d43e1c.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">围挡曝光后续丨宁波各地排查工程建设项目及拆迁项目637个</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 18:36</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715787.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238445_5818dd74.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">心酸！江西乡党委书记遇袭身亡 背后故事让人唏嘘不已</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-08 16:49</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715782.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://cms-bucket.nosdn.127.net/3e597f326888446aa755f9641971a33120180108130822.gif" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">宁波滴滴司机被乘客打晕 只因事发前他发了这段语音…</h2>
+						<p style="font-size:14px;color:#a0a0a0;">宁波&nbsp;&nbsp;01-08 15:56</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715760.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238428_7d635185.png" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">收盘：沪指7连阳重上3400点 周期股领涨</h2>
+						<p style="font-size:14px;color:#a0a0a0;">财经&nbsp;&nbsp;01-08 15:12</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715749.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/384/00300238422_e6ddae69.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">帮帮这些孩子！这687名被解救孩子急寻亲人</h2>
+						<p style="font-size:14px;color:#a0a0a0;">社会&nbsp;&nbsp;01-08 14:45</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715714.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/383/00300238399_3c682826.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">中消协发2017维权热点：校园贷、共享单车等上榜</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-08 14:12</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715678.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/383/00300238377_47250e03.png" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">韩朝高层会谈9日启动 重点商冬奥会事宜</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国际&nbsp;&nbsp;01-08 11:18</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715669.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/383/00300238375_838a7d6e.jpg" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">审计署公布34个移送违纪违法问题线索查处情况</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-08 11:12</p>
+					</span>
+				</a>
+			</li>
+
+			<li style="margin-bottom:24px;">
+				<a href="http://news.cnnb.com.cn/system/2018/01/08/008715654.shtml" target="_blank" style="overflow:hidden;display:block;">
+					<span class="left" style="width:110px;overflow:hidden;display:block;height:73px;"><img src="http://www.cnnb.com.cn/pic/003/002/383/00300238364_i1000200000135be_1c873864.png" width="100%"></span>
+					<span class="right" style="width:208px;overflow:hidden;display:block;">
+						<h2 style="font-size:16px;font-weight:normal;white-space: normal;height: 3.5em">机票价格改革落地 你常坐的热门航线机票要涨价？</h2>
+						<p style="font-size:14px;color:#a0a0a0;">国内&nbsp;&nbsp;01-08 10:36</p>
+					</span>
+				</a>
+			</li>
+
+</ul>
+<!--enorth cms block end [ name="syknbktxsyxwcs" cost="675"]-->        </div>
+        <div class="right" style="width:665px;">
+
+<!--enorth cms block start [ name="syzjggw" ]-->
+<div style="height:60px;margin-bottom:5px;margin-top:20px;">
+    <ul id="ad_03_02" class="ad_03_02 right" style="width:665px;height:100%;">
+        <div class="ad_container" id="Ad-03-02">
+            <li>
+                <!-- AFP Control Code/Caption.AD-03-02-A-->
+                <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=FFFABF5F_1898_9A4A_25FA_8717575DE3B4;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=7E898793_916C_2EC9_C34F_6CA2A9CF2D38;ap=FFFABF5F_1898_9A4A_25FA_8717575DE3B4;pu=cnnb;ext_key=;/?http://zt.cnnb.com.cn/system/2015/04/07/008294889.shtml" target="_blank"><img src="http://www.cnnb.com.cn/ad/cnnb/mtxx05.jpg" border="0" width="665" height="60"></a>
+                <!-- AFP Control Code End/No.AD-03-02-A-->
+            </li>
+            <li>
+                <!-- AFP Control Code/Caption.AD-03-02-B-->
+                <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=85400BF4_B3BB_C957_A054_1700583A919D;ct=js;pu=cnnb;/?"></script>
+                <!-- AFP Control Code End/No.AD-03-02-B-->
+            </li>
+            <li>
+                <!-- AFP Control Code/Caption.AD-03-02-C-->
+                <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=66E6DBA7_37F3_1387_EDD6_E1AF8BB7853A;ct=js;pu=cnnb;/?"></script>
+                <!-- AFP Control Code End/No.AD-03-02-C-->
+            </li>
+            <li>
+                <!-- AFP Control Code/Caption.AD-03-02-D-->
+                <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=BE114E1A_9A7D_649A_2309_00CC8DEB36E9;ct=js;pu=cnnb;/?"></script>
+                <!-- AFP Control Code End/No.AD-03-02-D-->
+            </li>
+        </div>
+        <div class="slider" id="Ad-03-02-Slider">
+            <ul style="width:665px;overflow:hidden;">
+                <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=7E898793_916C_2EC9_C34F_6CA2A9CF2D38;ap=FFFABF5F_1898_9A4A_25FA_8717575DE3B4;pu=cnnb;ext_key=;/?http://zt.cnnb.com.cn/system/2015/04/07/008294889.shtml"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/ad/cnnb/mtxx05.jpg" alt=""></ul>
+        </div>
+        <script>TransformView(5000,"Ad-03-02","Ad-03-02-Slider");</script>
+    </ul>
+</div>
+<!--enorth cms block end [ name="syzjggw" cost="5"]-->
+<!--enorth cms block start [ name="syhz" ]-->
+<style type="text/css">
+	img{ border:0;}
+    .hezuo{font-size: 14px;}
+    .hezuo li{line-height: 2.4em;}
+</style>
+<div class="hezuo" style="margin-top:35px;overflow: hidden;">
+    <h2 style="margin-bottom: 20px;background: url(http://www.cnnb.com.cn/home/html/2017/images/hz-line.jpg) left center repeat-x;text-align: center;font-size: 14px;"><span style="display: inline-block;padding: 0 1em;background-color: #fff;color: #6B6B6B;">合作<span></span></span></h2>
+    <ul class="left">
+        <li><a href="http://yy.cnnb.com.cn/" target="_blank" style="font-size: 14px;color:#0280c5;padding-right:10px;"><img src="http://www.cnnb.com.cn/pic/003/002/359/00300235944_94bf3662.jpg" style="vertical-align: middle;"></a><a href="http://yy.cnnb.com.cn/system/2017/12/21/008710818.shtml" target="_blank">2017宁波市大学生就业之星评选</a>&nbsp;</li>
+        <li><a href="http://www.cnnb.com.cn/dwhzlm/yzey/index.shtml" target="_blank" style="font-size: 14px;color:#0280c5;padding-right:10px;"><img src="http://www.cnnb.com.cn/pic/003/002/359/00300235945_045fbfff.jpg" style="vertical-align: middle;"></a><a href="http://www.cnnb.com.cn/dwhzlm/system/2018/01/08/008715572.shtml" target="_blank">70岁以上男性约七成有前列腺疾病</a>&nbsp;</li>
+		<li><a href="http://hd.cnnb.com.cn/zt2017/hbzxd/" target="_blank" style="font-size: 14px;color:#0280c5;padding-right:10px;"><img src="http://www.cnnb.com.cn/pic/003/002/358/00300235824_2ab73137.png" style="vertical-align: middle;"></a><a href="http://hd.cnnb.com.cn/system/2017/12/28/008713085.shtml" target="_blank">北仑推进全域节水减污</a>&nbsp;</li>
+		
+		<li>
+        <!--<li></li>-->
+    </li></ul>
+    <ul class="right" style="width: 46%;">
+        <li><a href="http://js.cnnb.com.cn/system/2009/02/15/005990891.shtml">【宁波人大】</a><a href="http://dialog.cnnb.com.cn/system/2018/01/04/008714723.shtml" target="_blank">市人大常委会就工作报告稿征意见</a>&nbsp;</li>
+        <li><a href="http://www.nbzx.gov.cn/">【宁波政协】</a><a href="http://news.cnnb.com.cn/system/2017/12/14/008708545.shtml" target="_blank" title="市政协召开委员月谈会">市政协召开委员月谈会</a></li>
+		<li><a href="http://www.nbciq.gov.cn/">【宁波检验检疫】</a><a href="http://news.cnnb.com.cn/system/2017/12/27/008712762.shtml" target="_blank" title="没有把好出厂检验关 教训惨痛">没有把好出厂检验关 教训惨痛</a></li>
+		<li><b></b></li>
+		<!--<li></li>-->
+		
+    </ul>
+</div>
+<!--enorth cms block end [ name="syhz" cost="3"]-->
+<!--enorth cms block start [ name="syyp" ]-->
+<style>
+    div.labelBoxNormal .tabTitle{width: 663px;}
+    .labelBoxNormal .tabContent .left div.hotNewsBlock{width: 300px;height: 130px;padding: 20px 0;overflow: hidden;padding-bottom: 0px;}
+    .labelBoxNormal .tabContent .left div.hotNewsBlock img{float: left;width: 115px;height: 125px;}
+    .labelBoxNormal .tabContent .left div.hotNewsBlock .hotNewsTitle{width: 165px;line-height: 20px;}
+    .labelBoxNormal .tabContent .right .conPicture{overflow: hidden;padding-top: 18px;}
+    .labelBoxNormal .tabContent .right .picBox {width: 150px;height: 125px;position: relative;float: left;}
+    .labelBoxNormal .tabContent .right .picBox a {position: relative;width: 150px;height: 125px;display: block;}
+    .labelBoxNormal .tabContent .right .picTitle {left: 0;width: 150px;height: 30px;position: absolute;bottom: 0px;color: #fff;font-size: 12px;background: rgba(33,33,33,0.5);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F212121,endcolorstr=#7F212121);line-height: 30px;text-align: center;}
+    .labelBoxNormal .tabContent .left .hotNewsBlock div.hotNewsTitle a{color: #03428a;font-weight: bold;}
+    .labelBoxNormal .tabContent .left div.hotNewsBlock .hotNewsTitle p {line-height: 1.5em;font-size: 13px;margin-top: 10px;}
+</style>
+<div class="labelBoxNormal clearboth" style="margin-top: 30px;">
+    <div class="tabTitle clearboth tabs">
+        <div class="titCurrent on"><a href="http://www.cnnb.com.cn/yp/">甬    派</a></div>
+        <div class="titHide"><a href="http://www.cnnb.com.cn/yp/yqp/">有趣派</a></div>
+        <div class="titHide" style="left:204px;"><a href="http://www.cnnb.com.cn/yp/wy/">闻    艺</a></div>
+        <div class="btnMore"><a href="http://www.cnnb.com.cn/yp/"><img src="/home/html/2015/images/201603/yp_meta.png" height="48" alt=""></a></div>
+    </div>
+    <div class="tabContent overflowhidden">
+
+<!--enorth cms block start [ name="home_2015_yp" ]-->
+    <div class="conCurrent on" style="overflow:hidden;padding-top:15px;">
+        <div class="left"><a href="http://www.cnnb.com.cn/yp/system/2016/08/18/008539713.shtml"><img src="http://www.cnnb.com.cn/pic/003/000/981/00300098109_4c15631e.jpg" width="310" height="140"></a></div>
+        <div class="right"><a href="http://www.cnnb.com.cn/yp/system/2016/08/18/008539713.shtml"><h2 style="width:320px;line-height: 27px; font-size: 17px;color: #03428a;margin-bottom:10px;">点击进入  了解甬派</h2></a><span style="display:block;width:320px;font-size:14px;color:#393939;line-height:25px;">“甬派”是宁波日报报业集团根据中央、省市委关于“一市一端”的要求，做大做强移动互联网上新闻宣传和舆论引导主阵地、有效占领移动互联网新兴阵地的拳头产品。</span></div>
+    </div>
+    <div class="conCurrent" style="overflow:hidden;padding-top:15px;">
+        <div class="left"><a href="http://www.cnnb.com.cn/yp/system/2018/01/02/008714088.shtml"><img src="http://www.cnnb.com.cn/pic/003/002/371/00300237197_891ee75f.jpg" width="310" height="140"></a></div>
+        <div class="right"><a href="http://www.cnnb.com.cn/yp/system/2018/01/02/008714088.shtml"><h2 style="width:320px;line-height: 27px; font-size: 17px;color: #03428a;margin-bottom:10px;">福利|“大师班”琵琶艺术节</h2></a><span style="display:block;width:320px;font-size:14px;color:#393939;line-height:25px;">宁波作为首批全国文化消费试点城市，文化惠民方面做了许多推广，而甬派也开设了“文化卡”频道，推出一系列线上线下活动。许多派粉都知道甬派在文化艺术类的福利一直非常给力......</span></div>
+    </div>
+    <div class="conCurrent" style="overflow:hidden;padding-top:15px;">
+        <div class="left"><a href="http://www.cnnb.com.cn/yp/system/2017/07/17/008657842.shtml"><img src="http://www.cnnb.com.cn/pic/003/001/982/00300198247_696dd5f7.jpg" width="310" height="140"></a></div>
+        <div class="right"><a href="http://www.cnnb.com.cn/yp/system/2017/07/17/008657842.shtml"><h2 style="width:320px;line-height: 27px; font-size: 17px;color: #03428a;margin-bottom:10px;">兮甲盘1.85亿落槌 青铜器拍卖新纪录</h2></a><span style="display:block;width:320px;font-size:14px;color:#393939;line-height:25px;">“西周宣王五年青铜兮甲盘”最终以1.85亿元落槌，加佣金成交价为2.1275亿元，创下国内青铜器拍卖新纪录。</span></div>
+    </div>
+
+<!--enorth cms block end [ name="home_2015_yp" cost="71"]-->    </div>
+</div>
+<!--enorth cms block end [ name="syyp" cost="3"]-->
+<!--enorth cms block start [ name="syyycy" ]-->
+<style type="text/css">
+	.syyycy{margin-top: 35px;overflow: hidden;}
+	.syyycy .left li{line-height: 34px;}
+	.syyycy .right li{line-height: 34px;}
+	.syyycy h2 span a{padding-left: 1em;color: #A0A0A0;}
+	.syyycy .right img{width:100%;height:197px;margin-top:13px;}
+        .syyycy .headline {color: #027FCF;font-size: 22px; text-decoration:none;}
+</style>
+<div class="syyycy">
+	<h2 style="background: url(http://www.cnnb.com.cn/home/html/2017/images/sbbg.png) no-repeat left top;height: 40px;line-height: 40px;font-weight: normal;padding-left: 1em;margin-bottom: 20px;padding-top:6px;">
+		<a class="headline" href="http://yy.cnnb.com.cn" target="_blank">云涌创业</a>
+		<span style="font-size: 14px;display: inline-block;float:right;padding-right: 1em;">
+			<a href="http://yy.cnnb.com.cn/zxkd/" target="_blank">资讯快递</a>
+			<a href="http://yy.cnnb.com.cn/hd/" target="_blank">活动</a>
+			<a href="http://yy.cnnb.com.cn/cyy/yqjs/" target="_blank">创业园区</a>
+			<a href="http://yy.cnnb.com.cn/cygs/gsjs/" target="_blank">创业公司</a>
+			<a href="http://yy.cnnb.com.cn/cyjs/" target="_blank">创业集市</a>
+		</span>
+	</h2>
+	<ul class="left" style="width: 320px;">
+							<li style="line-height: 40px;"><a href="http://yy.cnnb.com.cn/system/2018/01/02/008713951.shtml" target="_blank" style="font-size: 17px;color: #333;font-weight:bold;">2017宁波十大流行热词榜单正式出炉</a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/29/008713431.shtml" target="_blank" style="font-size: 15px;">AI进入场景时代：强人工智能还有多远会到来</a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/29/008713420.shtml" target="_blank" style="font-size: 15px;">重磅 宁波11人上榜国家“万人计划”领军人才</a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/28/008713109.shtml" target="_blank" style="font-size: 15px;">“小程序+直播”引爆流量 微动天下产品发布会</a></li>
+					<li style="line-height: 40px;"><a href="http://yy.cnnb.com.cn/system/2017/12/21/008710818.shtml" target="_blank" style="font-size: 17px;color: #333;font-weight:bold;">2017宁波市大学生“就业之星”启动</a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/21/008710780.shtml" target="_blank" style="font-size: 15px;">2017年十大独角兽公司：中国和美国各占一半</a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/18/008709696.shtml" target="_blank" style="font-size: 15px;">打造中国漫威：中国泛娱乐产业离漫威还有多远</a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/21/008710730.shtml" target="_blank" style="font-size: 15px;">创业个人入选落户宁波高新区 最高获100万资助</a></li>
+	</ul>
+	<ul class="right" style="width: 300px;">
+					<li><a href="http://yy.cnnb.com.cn/system/2018/01/02/008714043.shtml" target="_blank" style="max-width: 300px;max-height: 197px;overflow: hidden;display: block;margin-bottom: 20px;"><img src="http://www.cnnb.com.cn/pic/003/002/371/00300237144_496fd121.jpg"></a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/29/008713235.shtml" target="_blank" style="font-size: 15px;">2017青年创业大赛有81个项目“扎根”宁波</a></li>
+					<li><a href="http://yy.cnnb.com.cn/system/2017/12/22/008711180.shtml" target="_blank" style="font-size: 15px;">2018年10大黑科技展望 最期待的竟然是它</a></li>
+	</ul>
+</div>
+<!--enorth cms block end [ name="syyycy" cost="157"]-->          <style>
+ .section-5 ul {}
+ .section-5 ul li.withPic {height: 100px;}
+ .section-5 ul li.withPic img {float: left;margin-right: 10px;width: 110px;}
+ .section-5 ul li.withPic .content {float: left;width: 175px;}
+ .section-5 ul li.withPic .content .title a{line-height: 36px;font-size: 15px; width:175px;display:block; white-space:inherit;}
+ .section-5 .headline {color: #027FCF;font-size: 22px; text-decoration:none;}
+			</style>
+          <div class="section-5" style="margin-top: 30px;">
+            <h2 style="background: url(http://www.cnnb.com.cn/home/html/2017/images/sbbg.png) no-repeat left top;height: 40px;line-height: 40px;font-weight: normal;padding-left: 1em;margin-bottom: 20px;padding-top:6px;"> <a class="headline" href="http://news.cnnb.com.cn/ylxw/" target="_blank">娱&nbsp;&nbsp;乐</a></h2>
+            <div style="width:665px; display:block; height:300px;">
+              <ul style="float:left;">
+
+<!--enorth cms block start [ name="home_entertainment" ]-->
+<li class="withPic">
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715883.shtml" target="_blank" title="调查显示:2017年观众最满意国产片为《战狼2》"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238509_ac962e95.jpg" alt="调查显示:2017年观众最满意国产片为《战狼2》"></a>
+<div class="content">
+<p class="title"><a href="http://news.cnnb.com.cn/system/2018/01/09/008715883.shtml" target="_blank" title="调查显示:2017年观众最满意国产片为《战狼2》">调查显示:2017年观众最满意国产片为《战狼2》</a></p>
+<!--<p class='date'>2018-01-09 08:45</p>-->
+</div>
+</li>
+<li class="withPic">
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715885.shtml" target="_blank" title="《勇敢者游戏：决战丛林》居北美周末票房榜首"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238510_83c83e22.jpg" alt="《勇敢者游戏：决战丛林》居北美周末票房榜首"></a>
+<div class="content">
+<p class="title"><a href="http://news.cnnb.com.cn/system/2018/01/09/008715885.shtml" target="_blank" title="《勇敢者游戏：决战丛林》居北美周末票房榜首">《勇敢者游戏：决战丛林》居北美周末票房榜首</a></p>
+<!--<p class='date'>2018-01-09 08:48</p>-->
+</div>
+</li>
+<li class="withPic">
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715875.shtml" target="_blank" title="金球奖新人成亮点 “90后”们凭演技脱颖而出"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238506_69f60e71.jpg" alt="金球奖新人成亮点 “90后”们凭演技脱颖而出"></a>
+<div class="content">
+<p class="title"><a href="http://news.cnnb.com.cn/system/2018/01/09/008715875.shtml" target="_blank" title="金球奖新人成亮点 “90后”们凭演技脱颖而出">金球奖新人成亮点 “90后”们凭演技脱颖而出</a></p>
+<!--<p class='date'>2018-01-09 08:45</p>-->
+</div>
+</li>
+<!--enorth cms block end [ name="home_entertainment" cost="7"]-->              </ul>
+              <ul style="float:right;">
+
+<!--enorth cms block start [ name="home_entertainment" ]-->
+<li class="withPic">
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715881.shtml" target="_blank" title="王菲演绎《无问西东》同名推广曲情感真挚动人"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238508_33c05965.jpg" alt="王菲演绎《无问西东》同名推广曲情感真挚动人"></a>
+<div class="content">
+<p class="title"><a href="http://news.cnnb.com.cn/system/2018/01/09/008715881.shtml" target="_blank" title="王菲演绎《无问西东》同名推广曲情感真挚动人">王菲演绎《无问西东》同名推广曲情感真挚动人</a></p>
+<!--<p class='date'>2018-01-09 08:45</p>-->
+</div>
+</li>
+<li class="withPic">
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715907.shtml" target="_blank" title="《卧底巨星》曝预告 陈奕迅车祸与李荣浩反目"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238525_dc21fc03.jpg" alt="《卧底巨星》曝预告 陈奕迅车祸与李荣浩反目"></a>
+<div class="content">
+<p class="title"><a href="http://news.cnnb.com.cn/system/2018/01/09/008715907.shtml" target="_blank" title="《卧底巨星》曝预告 陈奕迅车祸与李荣浩反目">《卧底巨星》曝预告 陈奕迅车祸与李荣浩反目</a></p>
+<!--<p class='date'>2018-01-09 09:04</p>-->
+</div>
+</li>
+<li class="withPic">
+<a href="http://news.cnnb.com.cn/system/2018/01/09/008715910.shtml" target="_blank" title="谢娜被曝生产系谣言：仍专注孕期休养中"><img src="http://www.cnnb.com.cn/pic/003/002/385/00300238528_ee9eca76.jpg" alt="谢娜被曝生产系谣言：仍专注孕期休养中"></a>
+<div class="content">
+<p class="title"><a href="http://news.cnnb.com.cn/system/2018/01/09/008715910.shtml" target="_blank" title="谢娜被曝生产系谣言：仍专注孕期休养中">谢娜被曝生产系谣言：仍专注孕期休养中</a></p>
+<!--<p class='date'>2018-01-09 09:04</p>-->
+</div>
+</li>
+<!--enorth cms block end [ name="home_entertainment" cost="8"]-->              </ul>
+            </div>
+          </div>
+
+<!--enorth cms block start [ name="syjj" ]-->
+<style type="text/css">
+	.syjj{margin-top: 35px;overflow: hidden;}
+	.syjj .left li{line-height: 34px;}
+	.syjj .right li{line-height: 34px;}
+	.syjj h2 span a{padding-left: 1em;color: #A0A0A0;}
+	.syjj .right img{width:100%;height:197px;margin-top:13px;}
+        .syjj .headline{color: #027FCF;font-size: 22px; text-decoration:none;}
+</style>
+<div class="syjj">
+	<h2 style="background: url(http://www.cnnb.com.cn/home/html/2017/images/sbbg.png) no-repeat left top;height: 40px;line-height: 40px;font-weight: normal;padding-left: 1em;margin-bottom: 20px;padding-top:6px;">
+                <a class="headline" href="http://yy.cnnb.com.cn" target="_blank">经&nbsp;&nbsp;济</a>
+		<span style="font-size: 14px;display: inline-block;float:right;padding-right: 1em;">
+			<a href="http://finance.cnnb.com.cn/shenyidu/" target="_blank">专栏</a>
+			<a href="http://finance.cnnb.com.cn/huodong/" target="_blank">活动</a>
+			<a href="http://finance.cnnb.com.cn/hulianwang/" target="_blank">互联网+</a>
+			<a href="http://finance.cnnb.com.cn/wenhua/" target="_blank">文化创意</a>
+			<a href="http://finance.cnnb.com.cn/bank/" target="_blank">银行</a>
+			<a href="http://finance.cnnb.com.cn/insurance/" target="_blank">保险</a>
+			<a href="http://finance.cnnb.com.cn/securities/" target="_blank">证券</a>
+			<a href="http://finance.cnnb.com.cn/jslc/" target="_blank">理财</a>
+		</span>
+	</h2>
+	<ul class="left" style="width: 320px;">
+							<li style="line-height: 40px;"><a href="http://finance.cnnb.com.cn/system/2017/12/29/008713362.shtml" target="_blank" style="font-size: 17px;color: #333;font-weight:bold;">宁波国内招商引资首次破千亿</a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/29/008713368.shtml" target="_blank" style="font-size: 15px;">宁波地铁进入“4分钟”时代</a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/29/008713364.shtml" target="_blank" style="font-size: 15px;">中国信保拉动宁波出口近300亿美元</a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/29/008713365.shtml" target="_blank" style="font-size: 15px;">穿山港区晋级“千万级”单体集装箱码头</a></li>
+					<li style="line-height: 40px;"><a href="http://finance.cnnb.com.cn/system/2017/12/28/008713011.shtml" target="_blank" style="font-size: 17px;color: #333;font-weight:bold;">三问全球首个“10亿吨”大港</a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/28/008713007.shtml" target="_blank" style="font-size: 15px;">宁波舟山港年货物吞吐量首破10亿吨</a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/28/008713009.shtml" target="_blank" style="font-size: 15px;">世界首个“10亿吨”超级大港诞生</a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/27/008712650.shtml" target="_blank" style="font-size: 15px;">宁波迈向高质量发展阶段</a></li>
+	</ul>
+	<ul class="right" style="width: 300px;">
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/29/008713363.shtml" target="_blank" style="max-width: 300px;max-height: 197px;overflow: hidden;display: block;margin-bottom: 20px;"><img src="http://www.cnnb.com.cn/pic/003/002/364/00300236420_cecb1031.jpg"></a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/25/008711902.shtml" target="_blank" style="font-size: 15px;">年终奖该如何打理？</a></li>
+					<li><a href="http://finance.cnnb.com.cn/system/2017/12/26/008712313.shtml" target="_blank" style="font-size: 15px;">规范双语标识，让宁波更加国际化</a></li>
+	</ul>
+</div>
+<!--enorth cms block end [ name="syjj" cost="152"]-->
+<!--enorth cms block start [ name="sygg3" ]-->
+<div style="height:60px;margin:20px 0;">
+    <ul id="ad_05_02" class="ad_05_02 right" style="width:665px;height:100%;">
+        <div class="ad_container" id="Ad-05-02">
+            <li>
+                <!-- AFP Control Code/Caption.AD-05-02-A-->
+                <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=CB060B60_500A_0397_1D23_83C22E045C4A;ct=js;pu=cnnb;/?"></script><a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=43B7DE08_F22C_0D85_361D_7FCCE6559562;ap=CB060B60_500A_0397_1D23_83C22E045C4A;pu=cnnb;ext_key=;/?http://www.12377.cn/" target="_blank"><img src="http://www.cnnb.com.cn/pic/003/001/668/00300166873_7dcf648a.jpg" border="0" width="665" height="60"></a>
+                <!-- AFP Control Code End/No.AD-05-02-A-->
+            </li>
+            <li>
+                <!-- AFP Control Code/Caption.AD-05-02-B-->
+                <script language="JavaScript1.1" src="http://shows.cnnb.com.cn/adpolestar/door/;ap=65FEC42F_17C1_A52D_1506_503F54BCFA0A;ct=js;pu=cnnb;/?"></script>
+                <!-- AFP Control Code End/No.AD-05-02-B-->
+            </li>
+        </div>
+        <div class="slider" id="Ad-05-02-Slider">
+            <ul style="width:665px;overflow:hidden;">
+                <a href="http://shows.cnnb.com.cn/adpolestar/wayl/;ad=43B7DE08_F22C_0D85_361D_7FCCE6559562;ap=CB060B60_500A_0397_1D23_83C22E045C4A;pu=cnnb;ext_key=;/?http://www.12377.cn/"><img src="http://www.cnnb.com.cn/home/images/blank.gif"></a>
+            <img src="http://www.cnnb.com.cn/pic/003/001/668/00300166873_7dcf648a.jpg" alt=""></ul>
+        </div>
+        <script>TransformView(5000,"Ad-05-02","Ad-05-02-Slider");</script>
+    </ul>
+</div>
+<!--enorth cms block end [ name="sygg3" cost="3"]-->
+<!--enorth cms block start [ name="syjkqc" ]-->
+<style type="text/css">
+	.syjkly{margin-top: 35px;overflow: hidden;}
+	.syjkly .left li{line-height: 34px;}
+	.syjkly .right li{line-height: 34px;}
+	.syjkly h2 span a{padding-left: 1em;color: #A0A0A0;}
+	.syjkly h2 span i{font-style: normal;}
+	.syjkly .right img{width:100%;height:197px;}
+        .syjkly .headline {color: #027FCF;font-size: 22px; text-decoration:none;}
+</style>
+<div class="syjkly">
+	<h2 style="background: url(http://www.cnnb.com.cn/home/html/2017/images/sbbg.png) no-repeat left top;height: 40px;line-height: 40px;font-weight: normal;padding-left: 0.5em;margin-bottom: 20px;padding-top:6px;">
+		<a class="headline" href="http://jk.cnnb.com.cn/" target="_blank">健康</a><b style="color: #027FCF;font-size: 22px; padding:0 10px;">·</b><a class="headline" href="http://car.cnnb.com.cn/" target="_blank">汽车</a>
+		<span style="font-size: 14px;display: inline-block;float:right;padding-right: 1em;display:none;">
+			<a href="http://travel.cnnb.com.cn/xjhw/index.shtml" target="_blank">乡见恨晚</a>
+			<a href="http://travel.cnnb.com.cn/xzcf/index.shtml" target="_blank">现在出发</a>
+			<a href="http://travel.cnnb.com.cn/qwfb/index.shtml" target="_blank">权威发布</a>
+			<a href="http://travel.cnnb.com.cn/gwms/index.shtml" target="_blank">购物美食</a>
+			<a href="http://jk.cnnb.com.cn/jkyy/" target="_blank">健康有约</a>
+			<a href="http://finance.cnnb.com.cn/insurance/" target="_blank">鄞医在线</a>
+			<a href="http://finance.cnnb.com.cn/securities/" target="_blank">证券</a>
+			<a href="http://finance.cnnb.com.cn/jslc/" target="_blank">理财</a>
+		</span>
+	</h2>
+	<ul class="left" style="width: 320px;">
+
+<!--enorth cms block start [ name="syjk" ]-->
+		<li style="overflow: hidden;margin-bottom: 10px;"><a href="http://jk.cnnb.com.cn/system/2017/11/27/008703144.shtml" target="_blank" style="display: block;float: left;max-width: 147px;max-height: 97px;overflow: hidden;"><img src="http://www.cnnb.com.cn/pic/003/002/298/00300229844_d2e8be8b.jpg" width="100%"></a>
+		<a href="http://jk.cnnb.com.cn/system/2017/11/27/008703147.shtml" target="_blank" style="display: block;float: right;max-width: 147px;max-height: 97px;overflow: hidden;"><img src="http://www.cnnb.com.cn/pic/003/002/298/00300229856_8b3ac658.jpg" width="100%"></a></li>
+			<li style="line-height: 40px;"><a href="http://jk.cnnb.com.cn/system/2017/11/27/008703146.shtml" target="_blank" style="font-size: 17px;color: #333;font-weight:bold;">葡萄柚与普通柚子，营养有何不同？哪个好？</a></li>
+			<li><a href="http://jk.cnnb.com.cn/system/2017/11/27/008703131.shtml" target="_blank" style="font-size: 15px;">血液科成功举办第二届造血干细胞移植病友会</a></li>
+			<li><a href="http://jk.cnnb.com.cn/system/2017/11/27/008703133.shtml" target="_blank" style="font-size: 15px;">陆勤康院长应邀出席“磐石行动”浙江省启动会并作交流</a></li>
+			<li><a href="http://jk.cnnb.com.cn/system/2017/11/27/008703134.shtml" target="_blank" style="font-size: 15px;">吃羊肉就要有膻味？你知道有可能加了这玩意吗？</a></li>
+			<li><a href="http://jk.cnnb.com.cn/system/2017/11/27/008703129.shtml" target="_blank" style="font-size: 15px;">“世界糖尿病日”，鄞医在行动</a></li>
+			<li><a href="http://jk.cnnb.com.cn/system/2017/11/27/008703127.shtml" target="_blank" style="font-size: 15px;">鄞州区卫生计生系统第四届职工运动会垂钓比赛赛况</a></li>
+
+<!--enorth cms block end [ name="syjk" cost="152"]-->	</ul>
+	<ul class="right" style="width: 300px;">
+
+<!--enorth cms block start [ name="syqcx" ]-->
+		<li><a href="http://auto.cnnb.com.cn/system/2018/01/05/008715123.shtml" target="_blank" style="max-width: 300px;max-height: 197px;overflow: hidden;display: block;margin-bottom: 20px;"><img src="http://www.cnnb.com.cn/pic/003/002/379/00300237975_a1661285.jpg" width="100%"></a></li>
+		<li><a href="http://auto.cnnb.com.cn/system/2018/01/05/008715120.shtml" target="_blank" style="font-size: 15px;">领克02动力信息曝光 百公里油耗不到6升</a></li>
+		<li><a href="http://auto.cnnb.com.cn/system/2018/01/05/008715119.shtml" target="_blank" style="font-size: 15px;">新款科雷傲上市 17.98万起售/享购置税补贴</a></li>
+		<li><a href="http://auto.cnnb.com.cn/system/2018/01/05/008715121.shtml" target="_blank" style="font-size: 15px;">东风日产年内推4款新车型 含全新电动车</a></li>
+
+<!--enorth cms block end [ name="syqcx" cost="142"]-->	</ul>
+</div>
+<!--enorth cms block end [ name="syjkqc" cost="2"]-->
+<!--enorth cms block start [ name="syhdldnew" ]-->
+<style type="text/css">
+	.syhdld{margin-top: 35px;overflow: hidden;}
+	.syhdld .left li{line-height: 34px;}
+	.syhdld .right li{line-height: 34px;}
+	.syhdld h2 span a{padding-left: 1em;color: #A0A0A0;}
+	.syhdld h2 span i{font-style: normal;}
+	.syhdld .right img{width:100%;height:197px;}
+	.syhdld .headline {color: #027FCF;font-size: 22px; text-decoration:none;}
+</style>
+<div class="syhdld">
+	<h2 style="background: url(http://www.cnnb.com.cn/home/html/2017/images/sbbg.png) no-repeat left top;height: 40px;line-height: 40px;font-weight: normal;padding-left: 0.5em;margin-bottom: 20px;padding-top:6px;">
+	<a class="headline" href="http://hd.cnnb.com.cn/" target="_blank">活动</a><b style="color: #027FCF;font-size: 22px; padding:0 10px;">·</b><a class="headline" href="http://hd.cnnb.com.cn/" target="_blank">联动</a>
+
+		<span style="font-size: 14px;display: inline-block;float:right;padding-right: 1em;display:none;">
+			<a href="http://finance.cnnb.com.cn/shenyidu/" target="_blank">专栏</a>
+			<a href="http://finance.cnnb.com.cn/huodong/" target="_blank">活动</a>
+			<a href="hhttp://finance.cnnb.com.cn/hulianwang/" target="_blank">互联网+</a>
+			<a href="http://finance.cnnb.com.cn/wenhua/" target="_blank">文化创意</a>
+			<a href="http://finance.cnnb.com.cn/bank/" target="_blank">银行</a>
+			<a href="http://finance.cnnb.com.cn/insurance/" target="_blank">保险</a>
+			<a href="http://finance.cnnb.com.cn/securities/" target="_blank">证券</a>
+			<a href="http://finance.cnnb.com.cn/jslc/" target="_blank">理财</a>
+		</span>
+	</h2>
+	<ul class="left" style="width: 320px;">
+
+<!--enorth cms block start [ name="syhd" ]-->
+	<li style="overflow: hidden;margin-bottom: 1px;margin-top:-12px;">
+		<p style="font-size: 14px;font-weight: bold;line-height: 3em;">苏州工业园区旅游资源创意推介活</p>
+		<a href="http://hd.cnnb.com.cn/system/2017/12/08/008706752.shtml" target="_blank" style="display: block;float: left;max-width: 150px;max-height: 80px;overflow: hidden;">
+			<img src="http://www.cnnb.com.cn/pic/003/002/323/00300232310_0dba7180.jpg" width="100%" height="80">
+		</a>
+		<p style="width: 156px;float: right;font-size: 12px;line-height: 1.6em;color: #6e6e6e;">现如今的苏州已经不只有粉墙黛瓦、小桥流水和古典园林，高楼林立、车水马龙、摩登绚烂...<a href="http://hd.cnnb.com.cn/system/2017/12/08/008706752.shtml" target="_blank">&gt;&gt;详情</a></p>
+	</li>
+	<li style="overflow: hidden;margin-bottom: 1px;">
+		<p style="font-size: 14px;font-weight: bold;line-height: 3em;">双12，宁波二百建店67周年庆提前</p>
+		<a href="http://hd.cnnb.com.cn/system/2017/12/08/008706748.shtml" target="_blank" style="display: block;float: left;max-width: 150px;max-height: 80px;overflow: hidden;">
+			<img src="http://www.cnnb.com.cn/pic/003/002/323/00300232306_c1c44d2e.png" width="100%" height="80">
+		</a>
+		<p style="width: 156px;float: right;font-size: 12px;line-height: 1.6em;color: #6e6e6e;">宁波二百的67周年建店庆转眼就要到了。作为一家拥有67年历史的百货商店，宁波二百以诚...<a href="http://hd.cnnb.com.cn/system/2017/12/08/008706748.shtml" target="_blank">&gt;&gt;详情</a></p>
+	</li>
+
+<!--enorth cms block end [ name="syhd" cost="156"]-->	</ul>
+	<ul class="right" style="width: 300px;">
+
+<!--enorth cms block start [ name="syld" ]-->
+	<li><a href="http://dalian.runsky.com/node_110934.htm" target="_blank" style="font-size: 14px;"><div>2017 大连夏季达沃斯年会</div>
+</a></li>
+	<li><a href="http://news.changsha.cn/html/110065/index.html" target="_blank" style="font-size: 14px;"><div>2017东亚文化之都 中国长沙活动</div>
+</a></li>
+	<li><a href="http://z.hangzhou.com.cn/2017/2017dmj/index.htm" target="_blank" style="font-size: 14px;">第十三届中国国际动漫节 中国杭州</a></li>
+	<li><a href="http://www.qzwb.com/spec/node/node_59618.htm?from=singlemessage&amp;isappinstalled=0" target="_blank" style="font-size: 14px;">海丝起点·多彩泉州 2017年泉州元宵网络灯会</a></li>
+	<li><a href="http://zt.cnnb.com.cn/system/2015/05/27/008326573.shtml" target="_blank" style="font-size: 14px;">【专题】百城老兵（宁波站）</a></li>
+	<li><a href="http://www.cnnb.com.cn/dwhzlm/system/2015/05/25/008324929.shtml" target="_blank" style="font-size: 14px;"><span style="font-size:medium">“全国百家网络媒体总编看重庆”活动</span></a></li>
+
+<!--enorth cms block end [ name="syld" cost="141"]-->	</ul>
+</div>
+<!--enorth cms block end [ name="syhdldnew" cost="2"]-->        </div>
+      </div>
+    </div>
+    <!--<div style="width:1016px;margin:auto;">
+
+    <iframe width="1016" scrolling="no" height="162" frameborder="0" src="http://lianbo.w010w.com.cn/html/tab/1000/index.html"></iframe>
+</div>-->
+    <div class="container">
+      <iframe width="1000" id="iframe" scrolling="no" height="221" frameborder="0" src="http://www.cnnb.com.cn/home/html/public/youlian.html"></iframe>
+    </div>
+    <div id="foot" style="width:1050px;margin:auto;"><iframe width="1050" scrolling="no" height="244" frameborder="0" src="http://www.cnnb.com.cn/home/html/public/foot.html"></iframe></div>
+  </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+<script src="js/jquery.marquee.min.js"></script>
+<script>
+    $('#hrd').click(function(){
+        $('#hyh').toggle();
+        var obj = $(this).next();
+        var item = $(this).next().find('li');
+        for(var i in item){
+            if(i < 20){
+                var tempItem = item[i];
+                item[i].remove();
+                obj.append(tempItem);
+            }
+        }
+    });
+
+    function time(){
+        var result = '';
+        var week = new Array('星期日','星期一','星期二','星期三','星期四','星期五','星期六');
+        var time = new Date();
+        var month = time.getMonth() + 1;
+        result = time.getFullYear() + '.' + month + '.' + time.getDate() + '&nbsp;&nbsp;' + week[time.getDay()];
+//        console.log(result);
+        return result;
+    }
+    (function($) {
+        $.fn.exist = function(){
+            if($(this).length>=1){
+                return true;
+            }
+            return false;
+        };
+    })(jQuery);
+    $(function(){
+        var xhr = new XMLHttpRequest();
+        if(!xhr){
+           xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xhr.open("HEAD",location.href,true);
+        xhr.onreadystatechange=function(){
+            if( xhr.readyState == 4 && xhr.status == 200 ){
+                var originalDate = new Date(xhr.getResponseHeader("Date"));
+                var currentDate = Date.parse(originalDate);
+                var startDate = Date.parse(new Date('Mon Dec 21 2015 00:00:00 GMT+0800 (CST)'));
+                var endDate = Date.parse(new Date('Fri Jan 1 2016 00:00:00 GMT+0800 (CST)'));
+                if(currentDate > startDate && currentDate < endDate){
+                    // alert(originalDate);
+                    $("#tempAdArea").css("display","block");
+                }
+            }
+        }
+        xhr.send(null);
+        $("#wechat").hover(function(){
+            $(this).next().css('display','block');
+        },function(){
+            $(this).next().css('display','none');
+        });
+        var date = time();
+        $('span.date.block').html(date);
+        var right = ($(document).width() - 1060) / 2 - 55;
+        $("#search").css("right",right);
+        $(window).resize(function(){
+            right = ($(document).width() - 1060) / 2 - 55;
+            $("#search").css("right",right);
+//            console.log(right);
+        });
+        $(".tabs div").not(".btnMore").hover(function(){
+            var index = $(this).index();
+            var obj = $(this).parent().next();
+//            console.log(index);
+            $(obj).children("div").eq(index).addClass("on").siblings("div").removeClass("on");
+            $(this).addClass("on").siblings("div").removeClass("on");
+        });
+        $("#slides").slidesjs({width: 657,height: 404,play: {auto: true},pagination:{active:true}});
+        var num = 0;
+        $("#slidesHot li").each(function(){
+            if($(this).children('.main').children('a').exist()){
+                num ++;
+            }else{
+                $(this).remove();
+            }
+        });
+        if(num > 1){
+            $("#slidesHot").slidesjs({width:766,height:81,play:{auto:true,effect:"fade"},pagination:{active:false}});
+        }
+        $('#dropdown').hover(function() {
+            $(this).children('div').css('display','block');
+        }, function() {
+            $(this).children('div').css('display','none');
+        });
+        $('span.block.left.select').hover(function() {
+            $('.dubao').css('display','block');
+        }, function() {
+            $('.dubao').css('display','none');
+        });
+        var url = new Array;
+        $('#slides').hover(function(){
+            $('.focusArea a.slidesjs-navigation').each(function(index){
+                url[index] = $(this).css("background-image");
+                var path = url[index].replace("prev","prev_hover");
+                path = path.replace("next","next_hover");
+                $(this).css("background-image",path);
+            });
+            // console.log(url);
+        },function(){
+            $('.focusArea a.slidesjs-navigation').each(function(index){
+                $(this).css("background-image",url[index]);
+            });
+        })
+    });
+    function login_check(){
+        if(document.login.username.value=="")  {
+            alert("请输入你的用户名.");
+            return false;
+        } else if(document.login.username.value.length<1) {
+            alert("用户名无效，请重新输入.");
+            return false;
+        } else if(document.login.username.value.length>30) {
+            alert("用户名无效，请重新输入.");
+            return false;
+        } else if(document.login.password.value=="") {
+            alert("请输入你的密码.");
+            return false;
+        } else if(document.login.password.value.length<2) {
+            alert("密码无效，请重新输入.");
+            return false;
+        } else if(document.login.password.value.length>8888){
+            alert("密码长度不能超过18位.");
+            return false;
+        } else  {
+            document.login.action = 'http://vipmail.cnnb.com.cn/cgi-bin/mailbox.cgi';
+            document.login.target = "_blank";
+            return true;
+        }
+    }
+</script>
+<script>
+(function(){
+    var cityUrl = 'http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js';
+    $.getScript(cityUrl, function(script, textStatus, jqXHR) {
+        var citytq = remote_ip_info.city ;// 获取城市
+        var url = "http://php.weather.sina.com.cn/iframe/index/w_cl.php?code=js&city=" + citytq + "&day=0&dfc=3";
+        $.ajax({
+            url : url,
+            dataType : "script",
+            scriptCharset : "gbk",
+            success : function(data) {
+                var _w = window.SWther.w[citytq][0];
+                var _f= _w.f1+"_0.png";
+                if(new Date().getHours() > 17){
+                     _f= _w.f2+"_1.png";                
+                }
+                var img = "<img width='16px' height='16px' src='http://i2.sinaimg.cn/dy/main/weather/weatherplugin/wthIco/20_20/" + _f + "' />";
+                //var tq = citytq + " " + img + " " + _w.s1 + " " + _w.t1 + "℃～" + _w.t2 + "℃  " + _w.d1 + _w.p1 + "级";
+                var tq = citytq + " " + img + " " + _w.s1 + " " + _w.t1 + "℃～" + _w.t2 + "℃  ";
+                //#weather自己修改,天气样式自己打断点调试
+                $('.weather').html(tq);
+            }
+        });
+    });
+})()
+</script>
+
+<!--流量统计系统100326-->
+<script src="http://webd.cnnb.com.cn/webdig.js?z=5" type="text/javascript"></script>
+<script type="text/javascript">wd_paramtracker("_wdxid=010040040350000000000000011200000000000000")</script>
+
+
+
+
+
+
+<!--enorth cms page [ enorth parse_date="2018/01/09 14:55:13.013", cost="3103", server=":=$encp$=:4c4bb872f4d38328f7341a67b81df86d", error_count="0"]-->
+<!--enorth cms page [ enorth parse_date="2018/01/09 14:54:47.047", cost="3", server=":=$encp$=:4c4bb872f4d38328f7341a67b81df86d", error_count="0"]--></body></html>

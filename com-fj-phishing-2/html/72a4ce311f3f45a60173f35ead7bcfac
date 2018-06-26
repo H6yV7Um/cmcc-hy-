@@ -1,0 +1,1142 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+	<meta charset="UTF-8">
+	<title>首页-官方积分商城，积分兑换</title>
+	<meta name="keywords" content="官方积分商城，积分兑换">
+	<meta name="description" content="提供官方兑换的积分商城">
+	<link href="/Public/fonts/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/Public/fonts/font-awesome.min.css">
+	<link href="/Public/Home/css/style.css" rel="stylesheet" type="text/css">
+	<script src="/Public/js/dist/jquery/jquery-1.11.1.min.js"></script>
+	<script src="/Public/js/dist/bootstrap/bootstrap.min.js"></script>
+	<script src="/Public/js/require.js"></script>
+	<script src="/Public/js/myconfig.js"></script>
+<meta name="token" content="6666cd76f96956469e7be39d750cc7d9_0c387e52a3f888d9d7464ca6298f5102"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="web/init" src="Public/js/web/init.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="Public/js/dist/jquery/jquery-1.11.1.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="Public/js/dist/bootstrap/bootstrap.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery.gcjs" src="Public/js/dist/jquery/jquery.gcjs.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="web/tip" src="Public/js/web/tip.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="web/form" src="Public/js/web/form.js"></script></head>
+<body>
+<div class="topbar">
+	<div class="container">
+		<ul class="list-inline mb-0 pull-left">
+			<li><a href="#">您好，欢迎您来到会员积分购物中心！</a></li>
+		</ul>
+		<ul class="list-inline mb-0 pull-right">
+							<li><a href="/index.php?m=Home&amp;c=Auth&amp;a=login">登录</a></li>
+				<li><a href="/index.php?m=Home&amp;c=Auth&amp;a=reg">注册</a></li>
+			<li class="cart-box active">
+				<a class="cart" href="/index.php?m=Home&amp;c=User&amp;a=cart">
+					<i class="fa fa-cart-plus"></i> 我的购物车（<span>0</span>）
+				</a>
+				<div class="cart-menu drop-down">
+					<div class="panel panel-default" id="cartHead">
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="header">
+	<div class="container">
+		<a href="/" class="head-logo pull-left">
+			<img style="max-height: 55px" src="/Public/mobile/images/logo.jpg">
+		</a>
+		<ul class="list-inline mb-0 pull-left head-nav">
+			<li><a href="/" class="allcat">首页</a></li>
+			<li><a href="/index.php?m=Home&amp;c=Goods&amp;a=index">全部商品分类</a></li>
+			<li class="allcat">
+					<a href="index.php?m=Home&amp;c=Article&amp;a=detail&amp;id=1">积分说明</a>
+				</li><li class="allcat">
+					<a href="index.php?m=Home&amp;c=Article&amp;a=index&amp;cateName=notice">公告通知</a>
+				</li><li class="allcat">
+					<a href="index.php?m=Home&amp;c=Jf&amp;a=index">积分查询</a>
+				</li>		</ul>
+		<form class="head-search pull-right pr" action="/index.php?m=Home&amp;c=Goods&amp;a=search">
+			<div class="input-group">
+				<input name="a" class="form-control" value="search" type="hidden">
+				<input name="c" class="form-control" value="Goods" type="hidden">
+				<input name="m" class="form-control" value="Home" type="hidden">
+				<input name="keywords" class="form-control" value="" type="text">
+                <span class="input-group-addon">
+                    <i class="fa fa-search"></i>
+                </span>
+			</div>
+		<input type="hidden" name="token" value="6666cd76f96956469e7be39d750cc7d9_0c387e52a3f888d9d7464ca6298f5102"></form>
+		<script>
+			$('.head-search input').focus(function(){
+				$('.head-search').addClass('active');
+			});
+			$('.head-search input').blur(function(){
+				$('.head-search').removeClass('active');
+			});
+			$('.head-search .input-group-addon').click(function(){
+				$('.head-search').submit();
+			});
+		</script>
+	</div>
+</div>
+
+
+
+<div class="container">
+  <div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li><li data-target="#myCarousel" data-slide-to="2" class=""></li><li data-target="#myCarousel" data-slide-to="3" class=""></li><li data-target="#myCarousel" data-slide-to="4" class=""></li>    </ol>
+    <div class="carousel-inner">
+      <div class="item active" onclick="location.href='#'">
+          <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/image/澳智健电脑端轮播图1140x428.jpg" alt="">
+        </div><div class="item " onclick="location.href='#'">
+          <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/image/美贝嘉1140pxx428px.jpg" alt="">
+        </div><div class="item " onclick="location.href='#'">
+          <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/image/优宝聪1140pxx428px.jpg" alt="">
+        </div><div class="item " onclick="location.href='#'">
+          <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/image/北欧电脑端轮播图1140x428(1).jpg" alt="">
+        </div>    </div>
+  </div>
+  ﻿<div class="home-two">
+  <div id="carousel-home2-generic" class="carousel slide" data-ride="carousel">
+    <h2 class="title pull-left">推荐单品</h2>
+    <div class="btn-group pull-right" role="group" aria-label="...">
+        <a href="#carousel-home2-generic" role="button" data-slide="prev" class="btn btn-default">
+          <span class="fa fa-angle-left" aria-hidden="true"></span>
+        </a>
+        <a href="#carousel-home2-generic" role="button" data-slide="next" class="btn btn-default">
+          <span class="fa fa-angle-right" aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="clearfix"></div>
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active"><div class="row">        <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-1">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=244">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g2.jpg" alt="澳贝佳配方羊乳粉400g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=244">澳贝佳配方羊乳粉400g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-2">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=247">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g2.jpg" alt="澳贝佳配方羊乳粉800g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=247">澳贝佳配方羊乳粉800g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-3">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=245">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g1.jpg" alt="澳贝佳配方羊乳粉400g1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=245">澳贝佳配方羊乳粉400g1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-4">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=248">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g1.jpg" alt="澳贝佳配方羊乳粉800g1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=248">澳贝佳配方羊乳粉800g1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-5">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=243">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g3.jpg" alt="澳贝佳配方羊乳粉400g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=243">澳贝佳配方羊乳粉400g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+        </div></div><div class="item "><div class="row">        <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-1">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=246">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g3.jpg" alt="澳贝佳配方羊乳粉800g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=246">澳贝佳配方羊乳粉800g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-2">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=189">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g1.jpg" alt="美贝嘉婴儿配方羊乳粉400g1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=189">美贝嘉婴儿配方羊乳粉400g1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-3">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=160">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g2.jpg" alt="美贝嘉较大婴儿配方羊乳粉400g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=160">美贝嘉较大婴儿配方羊乳粉400g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-4">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=167">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g3.jpg" alt="美贝嘉幼儿配方羊乳粉400g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=167">美贝嘉幼儿配方羊乳粉400g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-5">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=196">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉听800g1.jpg" alt="美贝嘉婴儿配方羊乳粉800g1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=196">美贝嘉婴儿配方羊乳粉800g1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+        </div></div><div class="item "><div class="row">        <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-1">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=155">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉听800g2.jpg" alt="美贝嘉较大婴儿配方羊乳粉800g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=155">美贝嘉较大婴儿配方羊乳粉800g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-2">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=157">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉听800g3.jpg" alt="美贝嘉幼儿配方羊乳粉800g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=157">美贝嘉幼儿配方羊乳粉800g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-3">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=231">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝盒1.png" alt="和氏宝贝配方羊乳粉400g1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=231">和氏宝贝配方羊乳粉400g1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-4">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=232">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝盒2.png" alt="和氏宝贝配方羊乳粉400g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=232">和氏宝贝配方羊乳粉400g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-5">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=233">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝盒3.png" alt="和氏宝贝配方羊乳粉400g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=233">和氏宝贝配方羊乳粉400g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+        </div></div><div class="item "><div class="row">        <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-1">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=234">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝听_1.png" alt="和氏宝贝配方羊乳粉800g1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=234">和氏宝贝配方羊乳粉800g1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-2">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=235">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝听2.png" alt="和氏宝贝配方羊乳粉800g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=235">和氏宝贝配方羊乳粉800g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-3">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=236">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝听_3.png" alt="和氏宝贝配方羊乳粉800g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=236">和氏宝贝配方羊乳粉800g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                96分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-4">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=256">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能盒1.png" alt="和氏莎能婴儿配方羊乳粉400g1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=256">和氏莎能婴儿配方羊乳粉400g1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-5">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=258">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能盒3.png" alt="和氏莎能幼儿配方羊乳粉400g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=258">和氏莎能幼儿配方羊乳粉400g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+        </div></div><div class="item "><div class="row">        <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-1">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=252">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/77ca1bc0a84743cbb1fc917fd51170f5.png" alt="北欧金钻-1段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=252">北欧金钻-1段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                120分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-2">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=257">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能盒2.png" alt="和氏莎能较大婴儿配方羊乳粉400g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=257">和氏莎能较大婴儿配方羊乳粉400g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                48分/盒              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-3">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=255">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能听3.png" alt="和氏莎能幼儿配方羊乳粉800g3段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=255">和氏莎能幼儿配方羊乳粉800g3段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                120分/听              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-md-12 col-20 col">
+          <div class="thumbnail text-center pro-4">
+            <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=254">
+              <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能听2.png" alt="和氏莎能较大婴儿配方羊乳粉800g2段">
+            </a>
+            <div class="caption">
+              <h5>
+                <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=254">和氏莎能较大婴儿配方羊乳粉800g2段</a>
+              </h5>
+              <div class="excerpt">
+
+              </div>
+              <div class="price">
+                120分/听              </div>
+            </div>
+          </div>
+        </div>
+        </div></div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="home-background">
+  <div class="container">
+    <div class="home-main home-main-1">
+      <h2 class="title pull-left">分类</h2>
+      <ul class="list-inline mb-0 pull-right">
+        <li><a href="/index.php?m=Home&amp;c=Goods&amp;a=index&amp;cate=3">和氏莎能产品兑换</a></li><li><a href="/index.php?m=Home&amp;c=Goods&amp;a=index&amp;cate=6">和氏宝贝产品兑换</a></li><li><a href="/index.php?m=Home&amp;c=Goods&amp;a=index&amp;cate=7">澳贝佳产品兑换</a></li><li><a href="/index.php?m=Home&amp;c=Goods&amp;a=index&amp;cate=8">美贝嘉产品兑换</a></li>      </ul>
+      <div class="clearfix"></div>
+      <div class="row">
+        <div class="col-md-12 col-20 col">
+          <a class="img-div" href="#" title="首页中部广告">
+            <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/image/网站首页图234x562.jpg">
+          </a>
+        </div>
+
+        <div class="col-md-12 col-80 col">
+          <div class="row">
+            <div class="col-md-3 col">
+                <div class="thumbnail text-center pro-0">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=244">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g2.jpg" alt="澳贝佳配方羊乳粉400g2段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=244">澳贝佳配方羊乳粉400g2段</a>
+                    </h5>
+
+                    <div class="price">
+                      48分/盒                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-3 col">
+                <div class="thumbnail text-center pro-1">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=247">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g2.jpg" alt="澳贝佳配方羊乳粉800g2段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=247">澳贝佳配方羊乳粉800g2段</a>
+                    </h5>
+
+                    <div class="price">
+                      96分/听                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-3 col">
+                <div class="thumbnail text-center pro-2">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=245">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g1.jpg" alt="澳贝佳配方羊乳粉400g1段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=245">澳贝佳配方羊乳粉400g1段</a>
+                    </h5>
+
+                    <div class="price">
+                      48分/盒                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-3 col">
+                <div class="thumbnail text-center pro-3">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=248">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g1.jpg" alt="澳贝佳配方羊乳粉800g1段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=248">澳贝佳配方羊乳粉800g1段</a>
+                    </h5>
+
+                    <div class="price">
+                      96分/听                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-3 col">
+                <div class="thumbnail text-center pro-4">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=243">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g3.jpg" alt="澳贝佳配方羊乳粉400g3段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=243">澳贝佳配方羊乳粉400g3段</a>
+                    </h5>
+
+                    <div class="price">
+                      48分/盒                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-3 col">
+                <div class="thumbnail text-center pro-5">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=246">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g3.jpg" alt="澳贝佳配方羊乳粉800g3段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=246">澳贝佳配方羊乳粉800g3段</a>
+                    </h5>
+
+                    <div class="price">
+                      96分/听                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-3 col">
+                <div class="thumbnail text-center pro-6">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=189">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g1.jpg" alt="美贝嘉婴儿配方羊乳粉400g1段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=189">美贝嘉婴儿配方羊乳粉400g1段</a>
+                    </h5>
+
+                    <div class="price">
+                      48分/盒                    </div>
+                  </div>
+                </div>
+              </div><div class="col-md-3 col">
+                <div class="thumbnail text-center pro-7">
+                  <span class="sale sale1">热卖</span>                  <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=160">
+                    <img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g2.jpg" alt="美贝嘉较大婴儿配方羊乳粉400g2段">
+                  </a>
+                  <div class="caption">
+                    <h5>
+                      <a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=160">美贝嘉较大婴儿配方羊乳粉400g2段</a>
+                    </h5>
+
+                    <div class="price">
+                      48分/盒                    </div>
+                  </div>
+                </div>
+              </div>          </div>
+        </div>
+      </div>
+    </div>
+    ﻿<div class="home-two">
+	<div id="carousel-home3-generic" class="carousel slide" data-ride="carousel">
+		<h2 class="title pull-left">促销单品</h2>
+		<div class="btn-group pull-right" role="group" aria-label="...">
+				<a href="#carousel-home3-generic" role="button" data-slide="prev" class="btn btn-default">
+					<span class="fa fa-angle-left" aria-hidden="true"></span>
+				</a>
+				<a href="#carousel-home3-generic" role="button" data-slide="next" class="btn btn-default">
+					<span class="fa fa-angle-right" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div class="clearfix"></div>		<div class="carousel-inner" role="listbox">
+			<div class="item active"><div class="row">
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-1">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=244">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g2.jpg" alt="澳贝佳配方羊乳粉400g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=244">澳贝佳配方羊乳粉400g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-2">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=247">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g2.jpg" alt="澳贝佳配方羊乳粉800g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=247">澳贝佳配方羊乳粉800g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-3">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=245">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g1.jpg" alt="澳贝佳配方羊乳粉400g1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=245">澳贝佳配方羊乳粉400g1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-4">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=248">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g1.jpg" alt="澳贝佳配方羊乳粉800g1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=248">澳贝佳配方羊乳粉800g1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-5">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=243">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/400g3.jpg" alt="澳贝佳配方羊乳粉400g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=243">澳贝佳配方羊乳粉400g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				</div></div><div class="item "><div class="row">
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-1">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=246">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/800g3.jpg" alt="澳贝佳配方羊乳粉800g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=246">澳贝佳配方羊乳粉800g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-2">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=189">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g1.jpg" alt="美贝嘉婴儿配方羊乳粉400g1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=189">美贝嘉婴儿配方羊乳粉400g1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-3">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=160">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g2.jpg" alt="美贝嘉较大婴儿配方羊乳粉400g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=160">美贝嘉较大婴儿配方羊乳粉400g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-4">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=167">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉盒400g3.jpg" alt="美贝嘉幼儿配方羊乳粉400g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=167">美贝嘉幼儿配方羊乳粉400g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-5">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=196">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉听800g1.jpg" alt="美贝嘉婴儿配方羊乳粉800g1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=196">美贝嘉婴儿配方羊乳粉800g1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				</div></div><div class="item "><div class="row">
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-1">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=155">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉听800g2.jpg" alt="美贝嘉较大婴儿配方羊乳粉800g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=155">美贝嘉较大婴儿配方羊乳粉800g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-2">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=157">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/美贝嘉听800g3.jpg" alt="美贝嘉幼儿配方羊乳粉800g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=157">美贝嘉幼儿配方羊乳粉800g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-3">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=231">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝盒1.png" alt="和氏宝贝配方羊乳粉400g1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=231">和氏宝贝配方羊乳粉400g1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-4">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=232">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝盒2.png" alt="和氏宝贝配方羊乳粉400g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=232">和氏宝贝配方羊乳粉400g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-5">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=233">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝盒3.png" alt="和氏宝贝配方羊乳粉400g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=233">和氏宝贝配方羊乳粉400g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				</div></div><div class="item "><div class="row">
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-1">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=234">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝听_1.png" alt="和氏宝贝配方羊乳粉800g1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=234">和氏宝贝配方羊乳粉800g1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-2">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=235">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝听2.png" alt="和氏宝贝配方羊乳粉800g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=235">和氏宝贝配方羊乳粉800g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-3">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=236">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏宝贝听_3.png" alt="和氏宝贝配方羊乳粉800g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=236">和氏宝贝配方羊乳粉800g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								96分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-4">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=256">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能盒1.png" alt="和氏莎能婴儿配方羊乳粉400g1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=256">和氏莎能婴儿配方羊乳粉400g1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-5">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=258">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能盒3.png" alt="和氏莎能幼儿配方羊乳粉400g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=258">和氏莎能幼儿配方羊乳粉400g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				</div></div><div class="item "><div class="row">
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-1">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=252">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/77ca1bc0a84743cbb1fc917fd51170f5.png" alt="北欧金钻-1段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=252">北欧金钻-1段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								120分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-2">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=257">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能盒2.png" alt="和氏莎能较大婴儿配方羊乳粉400g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=257">和氏莎能较大婴儿配方羊乳粉400g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								48分/盒							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-3">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=255">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能听3.png" alt="和氏莎能幼儿配方羊乳粉800g3段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=255">和氏莎能幼儿配方羊乳粉800g3段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								120分/听							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-20 col">
+					<div class="thumbnail text-center pro-4">
+						<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=254">
+							<img src="http://heshi.k58.com.cn/tongyi_ywy/upload/product/和氏莎能听2.png" alt="和氏莎能较大婴儿配方羊乳粉800g2段">
+						</a>
+						<div class="caption">
+							<h5>
+								<a href="/index.php?m=Home&amp;c=Goods&amp;a=detail&amp;id=254">和氏莎能较大婴儿配方羊乳粉800g2段</a>
+							</h5>
+							<div class="excerpt">
+
+							</div>
+							<div class="price">
+								120分/听							</div>
+						</div>
+					</div>
+				</div>
+				</div></div>
+</div>
+</div>
+</div>
+
+  </div>
+</div>
+<script>
+  $('.carousel').carousel({
+    interval: 5000
+  })
+</script>
+<footer id="lynn-footer">
+	<div class="lynn-footer-top">
+		<div class="lynn-footer-nav">
+			<a href="#">关于我们</a><a href="index.php?m=Home&amp;c=Goods&amp;a=index">我要兑换</a><a href="index.php?m=Home&amp;c=Jf&amp;a=index">我要积分</a><a href="index.php?m=Home&amp;c=Article&amp;a=index&amp;cateName=notice">公告通知</a><a href="#">如何积分</a><a href="#">联系我们</a>		</div>
+	</div>
+	<div class="lynn-footer-bot">
+		<div class="lynn-footer-bot-mid">
+			和氏积分商城			<p>  技术支持：杭州唯选信息技术有限公司提供技术支持 <br>
+				Copyright 2005-2020 All Reserved</p>
+		</div>
+		<div class="lynn-footer-bot-right">
+			<strong>4001836566</strong>
+			<p>周一至周六 上午08:00-12:00</p>
+			<a href="tencent://message/?uin=1273550614&amp;Site=和氏积分商城Menu=yes" target="_blank" class="kefu">北欧、美贝嘉QQ在线客服</a>
+			<br>
+			<a href="tencent://message/?uin=495820486&amp;Site=和氏积分商城Menu=yes" target="_blank" class="kefu">优宝聪、澳智健QQ在线客服</a>
+			<br>
+		</div>
+		<div class="lynn-index-top">
+			<a href="#">返回顶部</a>
+			<p>
+				<img src="/Public/mobile/images/weixin.jpg" width="125px" height="125px" alt="">
+				<span>扫描添加</span>
+				<span>官方微信</span>
+			</p>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+</footer>
+<script language="javascript">require(['web/init'],function(){
+	if($('.form-validate').length<=0) {  $('#page-loading').remove(); }
+});</script>
+
+<div id="tip-msgbox" class="alertbox"></div></body></html>

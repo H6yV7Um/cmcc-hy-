@@ -1,0 +1,485 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<title>立白集团</title>
+<link rel="stylesheet" type="text/css" href="/css/css_whir.css">
+<script type="text/javascript" src="/Scripts/jquery-1.7.2.min.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/Scripts/html5shiv.v3.72.min.js"></script>
+<![endif]--><link rel="stylesheet" type="text/css" href="/css/animate.css">
+<script type="text/javascript" src="/Scripts/jquery.bxslider.min.js"></script>
+<script src="/Scripts/template.js"></script>
+</head>
+
+<body><link href="http://v3.jiathis.com/code/css/jiathis_share.css" rel="stylesheet" type="text/css"><iframe frameborder="0" style="position: absolute; display: none; opacity: 0;"></iframe><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; top: 50%; left: 50%; overflow: auto;"></div><div class="jiathis_style" style="position: absolute; z-index: 1000000000; display: none; overflow: auto;"></div><iframe frameborder="0" src="http://v3.jiathis.com/code/jiathis_utility.html" style="display: none;"></iframe>
+<header class="header">
+    <div class="auto">
+    <div class="logo"><a href="/index.html"><img src="/images/logo.png"></a></div>
+    <nav class="nav">
+        <ul class="ul">
+            <li id="nav1" class="on"><b><a href="/index.html">首页</a></b></li>
+            <li id="nav250"><b><a href="/jtjj.html">关于我们</a></b>
+            <dl>
+            <span><a href="/jtjj.html">集团简介</a></span>
+            <span><a href="/zcyl.html">总裁语录</a></span>
+            <span><a href="/jtwh.html">集团文化</a></span>
+            <span><a href="/fzlc/index.html">发展历程</a></span>
+            <span><a href="/jtry/index.html">集团荣誉</a></span>
+            <span><a href="/yxwl.html">营销网络</a></span>
+            <span><a href="/scbj.html">生产布局</a></span>
+            </dl>
+            </li>
+            <li id="nav260"><b><a href="/shzrzl.html">社会责任</a></b>
+            <dl>
+            <span><a href="/shzrzl.html">社会责任战略</a></span>
+            <span><a href="/ygga.html">员工关爱</a></span>
+            <span><a href="/gzgy.html">合作共赢</a></span>
+            <span><a href="/lsfz.html">绿色发展</a></span>
+            <span><a href="/gysy.html">公益事业</a></span>
+            <span><a href="/libyzyz.html">立白志愿者</a></span>
+            <span><a href="/zerenbaogao/index.html">责任报告</a></span>
+            </dl>
+            </li>
+            <li id="nav269"><b><a href="/lb/index.html">品牌家族</a></b>
+            <dl>
+            <span><a href="/lb/index.html">立白</a></span>
+            <span><a href="/haobaba/index.html">好爸爸</a></span>
+            <span><a href="/liubizhi/index.html">六必治</a></span>
+            <span><a href="/lantian/index.html">蓝天</a></span>
+            <span><a href="/hehebaobei/index.html">呵呵宝贝</a></span>
+            <span><a href="/yingyuansu/index.html">婴元素</a></span>
+            <span><a href="/qingyi/index.html">清怡</a></span>
+            </dl>
+            </li>
+            <li id="nav320"><b><a href="/jtdt/index.html">企业新闻</a></b>
+            <dl>
+            <span><a href="/jtdt/index.html">集团动态</a></span>
+            <span><a href="/mtbd/index.html">媒体报道</a></span>
+            </dl>
+            </li>
+            <li id="nav358"><b><a href="/tzxx.html">党群信息</a></b>
+            </li>
+            <li id="nav325"><b><a href="/kjcx.html">创新科技</a></b>
+            <dl>
+            <span><a href="/kjcx.html">科技创新</a></span>
+            <span><a href="/qaliby/index.html">生活灵感</a></span>
+            </dl>
+            </li>
+            <li id="nav334"><b><a href="https://lgt.liby.com.cn/" target="_blank">立购台</a></b>
+            </li>
+            <li id="nav342"><b><a href="http://liby.hotjob.cn/Liby/web/index?brandCode=Liby" target="_blank">加入我们</a></b>
+            </li>
+            
+        </ul>
+    </nav>
+    <div class="search">
+    <input class="text" type="text" name="textfield" id="textfield">
+    <input class="btn" type="submit" name="button" id="button" value="">
+    </div>
+    <div class="icon-menu"><a>菜单</a></div>
+    </div>
+</header>
+<script>
+//手机菜单
+$(".icon-menu").click(function(){
+    $(".header .nav").toggleClass("show");
+	$(this).toggleClass("on");
+    $(".header .nav").siblings().removeClass("show");
+	$(this).siblings().removeClass("on");
+})
+
+var wHc=$(".header").width();
+if(wHc<640){
+$("#nav250 b a,#nav260 b a,#nav269 b a,#nav320 b a,#nav325 b a").attr("href","javascript:void(0);");
+}
+</script>
+
+<div class="ind-banner">
+<div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 416px;"><ul class="ul" style="width: 1075%; position: relative; -webkit-transition: 0s; transition: 0s; transform: translate3d(-2048px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 1024px;" class="bx-clone">
+                 <a href="http://www.liby.com.cn/jtdt/index.html" target="_blank"><img class="pc" src="/upload/cms/www/201710/160952069wsr.jpg"></a>
+			     <a href="http://www.liby.com.cn/jtdt/index.html" target="_blank"><img class="wap" src="/upload/cms/www/201710/16095222f5ga.jpg"></a>
+			</li>
+			<li style="float: left; list-style: none; position: relative; width: 1024px;">
+                 <a href="http://www.liby.com.cn/lsfz.html" target="_blank"><img class="pc" src="/upload/cms/www/201710/24142829mzen.jpg"></a>
+			     <a href="http://www.liby.com.cn/lsfz.html" target="_blank"><img class="wap" src="/upload/cms/www/201710/24152956sjcq.jpg"></a>
+			</li>
+			<li style="float: left; list-style: none; position: relative; width: 1024px;">
+                 <a href="http://www.liby.com.cn/jtwh.html" target="_blank"><img class="pc" src="/upload/cms/www/201710/16095327baxg.jpg"></a>
+			     <a href="http://www.liby.com.cn/jtwh.html" target="_blank"><img class="wap" src="/upload/cms/www/201710/16095330cf8y.jpg"></a>
+			</li>
+			<li style="float: left; list-style: none; position: relative; width: 1024px;">
+                 <a href="http://www.liby.com.cn/lsfz.html" target="_blank"><img class="pc" src="/upload/cms/www/201710/16095303diz2.jpg"></a>
+			     <a href="http://www.liby.com.cn/lsfz.html" target="_blank"><img class="wap" src="/upload/cms/www/201710/16095309daoq.jpg"></a>
+			</li>
+			<li style="float: left; list-style: none; position: relative; width: 1024px;">
+                 <a href="http://www.liby.com.cn/kjcx.html" target="_blank"><img class="pc" src="/upload/cms/www/201710/16095240aj8s.jpg"></a>
+			     <a href="http://www.liby.com.cn/kjcx.html" target="_blank"><img class="wap" src="/upload/cms/www/201710/160952457r67.jpg"></a>
+			</li>
+			<li style="float: left; list-style: none; position: relative; width: 1024px;">
+                 <a href="http://www.liby.com.cn/jtdt/index.html" target="_blank"><img class="pc" src="/upload/cms/www/201710/160952069wsr.jpg"></a>
+			     <a href="http://www.liby.com.cn/jtdt/index.html" target="_blank"><img class="wap" src="/upload/cms/www/201710/16095222f5ga.jpg"></a>
+			</li>
+<li style="float: left; list-style: none; position: relative; width: 1024px;" class="bx-clone">
+                 <a href="http://www.liby.com.cn/lsfz.html" target="_blank"><img class="pc" src="/upload/cms/www/201710/24142829mzen.jpg"></a>
+			     <a href="http://www.liby.com.cn/lsfz.html" target="_blank"><img class="wap" src="/upload/cms/www/201710/24152956sjcq.jpg"></a>
+			</li></ul></div><div class="bx-controls bx-has-pager"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link active">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div><div class="bx-pager-item"><a href="" data-slide-index="3" class="bx-pager-link">4</a></div><div class="bx-pager-item"><a href="" data-slide-index="4" class="bx-pager-link">5</a></div></div></div></div>
+</div>
+<div class="auto">
+    <div class="ind-photo">
+        <ul class="ul three" eachdelay="li" delaytime="200" reach="fadeInUp" effect="li">
+            <li class="fadeInUp animated" style="animation: 0s; -webkit-animation: 0s; visibility: visible;">
+                <a href="/lsfz.html">
+                    <h5 class="h5">绿色发展</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/24201401cwh2.jpg"></div>
+                </a>
+            </li>
+            <li class="fadeInUp animated" style="animation: 0.2s; -webkit-animation: 0.2s; visibility: visible;">
+                <a href="/gysy.html">
+                    <h5 class="h5">公益事业</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/24201601uv8y.jpg"></div>
+                </a>
+            </li>
+            <li class="fadeInUp animated" style="animation: 0.4s; -webkit-animation: 0.4s; visibility: visible;">
+                <a href="/ygga.html">
+                    <h5 class="h5">员工关爱</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/24201809nvd3.jpg"></div>
+                </a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="ind-brand">
+        <h5 class="h5">品牌家族<i>Brand family</i></h5>
+        <div class="empty">
+            <span class="n1"><a></a></span>
+            <span class="n2"><a></a></span>
+            <span class="n3"><a></a></span>
+            <span class="n4"><a></a></span>
+            <span class="n5"><a></a></span>
+            <span class="n6"><a></a></span>
+            <span class="n7"><a></a></span>
+            <span class="n8"><a></a></span>
+        </div>
+        <div class="brand">
+            <span class="n1 show"><a href="/lb/index.html"><img src="/upload/cms/www/201710/191613153l1v.png"></a></span>
+            <span class="n2"><a href="/liubizhi/index.html"><img src="/upload/cms/www/201710/31112123kmj2.png"></a></span>
+            <span class="n3"><a href="/lantian/index.html"><img src="/upload/cms/www/201710/19163509thnl.png"></a></span>
+            <span class="n4"><a href="/hehebaobei/index.html"><img src="/upload/cms/www/201710/191635516pf6.png"></a></span>
+            <span class="n5"><a href="/haobaba/index.html"><img src="/upload/cms/www/201710/19163711bwr5.png"></a></span>
+            <span class="n6"><a href="/yingyuansu/index.html"><img src="/upload/cms/www/201710/19163818aj65.png"></a></span>
+            <span class="n7"><a href="/qingyi/index.html"><img src="/upload/cms/www/201710/19163908ojfq.png"></a></span>
+        </div>
+        <div class="intro">
+            <div class="txt" style="display: block;">
+                <h6 class="h6"><a href="/lb/index.html">立白</a></h6>
+                
+  
+  
+  <dl>
+    立白”创立于1994年。作为中国洗涤用品领域的领导品牌，立白拥有全国销量领先的洗衣粉、洗洁精、洗衣皂、洗衣液和助洗类产品，荣获多项品牌荣誉。并率先研发生产出立白天然皂液、不烫手粉、生姜洗洁精，立白易漂洗洗衣粉、立白冷水速效洗衣粉、立白全自动浓缩洗衣粉、加酶粒子皂粉等引领行业潮流的产品。 
+  </dl>  
+ 
+
+                <a href="/lb/index.html" class="more"></a>
+                <div class="img"><img src="/upload/cms/www/201710/19162807o9nj.png"></div>
+            </div>
+            <div class="txt">
+                <h6 class="h6"><a href="/liubizhi/index.html">六必治</a></h6>
+                
+  
+  
+  <dl>
+    六必治，蓝天集团旗下的口腔护理品牌，传承百年企业中药口腔用品研发经验，将中医典籍的精髓融合现代科技，为中国人常见口腔问题提供防治之道，养护口腔健康。 
+  </dl>  
+ 
+
+                <a href="/liubizhi/index.html" class="more"></a>
+                <div class="img"><img src="/upload/cms/www/201710/191633549au2.png"></div>
+            </div>
+            <div class="txt">
+                <h6 class="h6"><a href="/lantian/index.html">蓝天</a></h6>
+                
+  
+  
+  <dl>
+    蓝天，是蓝天集团2012年以全新定位的高端品牌，基于“创新活力吸引年轻消费者群体”为出发点，立足“新生代口腔护理装备”，也被贴上了“乐活一族的标签”，以勇于创新、活力朝气的精神，玩转新生代；蓝天牙刷的成员主要有手动牙刷、电动牙刷、牙线棒、齿间刷等； 
+  </dl>  
+ 
+
+                <a href="/lantian/index.html" class="more"></a>
+                <div class="img"><img src="/upload/cms/www/201711/17084425al9n.png"></div>
+            </div>
+            <div class="txt">
+                <h6 class="h6"><a href="/hehebaobei/index.html">呵呵宝贝</a></h6>
+                
+  
+  
+  <dl>
+    愿景：中国儿童口腔护理第一品牌 
+   <br> 定位：食品级儿童口腔护理 
+   <br> slogan：天然食品级，更安全 
+  </dl>  
+ 
+
+                <a href="/hehebaobei/index.html" class="more"></a>
+                <div class="img"><img src="/upload/cms/www/201710/19163601falo.png"></div>
+            </div>
+           <div class="txt">
+                <h6 class="h6"><a href="/haobaba/index.html">好爸爸</a></h6>
+                
+  
+  
+  <dl>
+    好爸爸Kispa品牌诞生于2008年，由立白集团旗下创新品牌“去渍霸”更名而来。好爸爸Kispa始终坚持高端的定位、优质的配方，给消费者带来高端亲肤洗涤体验。 
+  </dl>  
+ 
+
+                <a href="/haobaba/index.html" class="more"></a>
+                <div class="img"><img src="/upload/cms/www/201710/1916372074f0.png"></div>
+            </div>
+            <div class="txt">
+                <h6 class="h6"><a href="/yingyuansu/index.html">婴元素</a></h6>
+                
+  
+  
+  <dl>
+    宝宝的世界，精彩不断 
+   <br> 怎能因为探索过程中的污渍 
+   <br> 就让宝宝丢掉好奇 
+  </dl>  
+ 
+
+                <a href="/yingyuansu/index.html" class="more"></a>
+                <div class="img"><img src="/upload/cms/www/201710/19163836hq8g.png"></div>
+            </div>
+            <div class="txt">
+                <h6 class="h6"><a href="/qingyi/index.html">清怡</a></h6>
+                
+  
+  
+  <dl>
+    在当下追求健康、推崇绿色环保的时代，倾向新天然、回归本源的心理情结成为洗护发轻时尚。 
+  </dl>  
+ 
+
+                <a href="/qingyi/index.html" class="more"></a>
+                <div class="img"><img src="/upload/cms/www/201710/191639130qir.png"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ind-photo">
+        <ul class="ul two" eachdelay="li" delaytime="200" reach="fadeInUp" effect="li">
+            <li style="animation: 0s; -webkit-animation: 0s;">
+                <a href="/jtdt/index.html">
+                    <h5 class="h5">集团动态</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/24202055tbm7.jpg"></div>
+                </a>
+            </li>
+            <li style="animation: 0.2s; -webkit-animation: 0.2s;">
+                <a href="/mtbd/index.html">
+                    <h5 class="h5">媒体报道</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/24202227hy9c.jpg"></div>
+                </a>
+            </li>
+            <li style="animation: 0.4s; -webkit-animation: 0.4s;">
+                <a href="/kjcx.html">
+                    <h5 class="h5">创新科技</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/242024327k39.jpg"></div>
+                </a>
+            </li>
+            <li style="animation: 0.6000000000000001s; -webkit-animation: 0.6000000000000001s;">
+                <a href="https://liby.tmall.com/?spm=a1z10.3-b-s.1997427721.d4918089.7129fe74WCPL3n">
+                    <h5 class="h5">新品上市</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/19165051mnap.jpg"></div>
+                </a>
+            </li>
+            <li style="animation: 0.8s; -webkit-animation: 0.8s;">
+                <a href="http://liby.hotjob.cn/Liby/web/index?brandCode=Liby" target="_blank">
+                    <h5 class="h5">加入我们</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/19165243g2va.jpg"></div>
+                </a>
+            </li>
+            <li style="animation: 1s; -webkit-animation: 1s;">
+                <a href="/qaliby/index.html">
+                    <h5 class="h5">生活灵感</h5>
+                    <dl></dl>
+                    <div><img src="/upload/cms/www/201710/24202512fmhl.jpg"></div>
+                </a>
+            </li>
+           
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<footer class="footer">
+<div class="auto">
+    <div class="nav">
+    <dl>
+                   <dt><a href="javascript:void(0);">关于我们</a></dt>
+           <dd>
+            <span><a href="/jtjj.html">集团简介</a></span>
+            <span><a href="/zcyl.html">总裁语录</a></span>
+            <span><a href="/jtwh.html">集团文化</a></span>
+            <span><a href="/fzlc/index.html">发展历程</a></span>
+            <span><a href="/jtry/index.html">集团荣誉</a></span>
+            <span><a href="/yxwl.html">营销网络</a></span>
+            <span><a href="/scbj.html">生产布局</a></span>
+        </dd>
+    </dl>
+    <dl>
+           <dt><a href="javascript:void(0);">社会责任</a></dt>
+           <dd>
+            <span><a href="/shzrzl.html">社会责任战略</a></span>
+            <span><a href="/ygga.html">员工关爱</a></span>
+            <span><a href="/gzgy.html">合作共赢</a></span>
+            <span><a href="/lsfz.html">绿色发展</a></span>
+            <span><a href="/gysy.html">公益事业</a></span>
+            <span><a href="/libyzyz.html">立白志愿者</a></span>
+            <span><a href="/zerenbaogao/index.html">责任报告</a></span>
+        </dd>
+    </dl>
+    <dl>
+           <dt><a href="javascript:void(0);">品牌家族</a></dt>
+           <dd>
+            <span><a href="/lb/index.html">立白</a></span>
+            <span><a href="/haobaba/index.html">好爸爸</a></span>
+            <span><a href="/liubizhi/index.html">六必治</a></span>
+            <span><a href="/lantian/index.html">蓝天</a></span>
+            <span><a href="/hehebaobei/index.html">呵呵宝贝</a></span>
+            <span><a href="/yingyuansu/index.html">婴元素</a></span>
+            <span><a href="/qingyi/index.html">清怡</a></span>
+        </dd>
+    </dl>
+    <dl>
+           <dt><a href="javascript:void(0);">企业新闻</a></dt>
+           <dd>
+            <span><a href="/jtdt/index.html">集团动态</a></span>
+            <span><a href="/mtbd/index.html">媒体报道</a></span>
+        </dd>
+    </dl>
+    <dl>
+           <dt><a href="javascript:void(0);">党群信息</a></dt>
+           <dd>
+            <span><a href="/tzxx.html">党群信息</a></span>
+           </dd>
+    </dl>
+    <dl>
+           <dt><a href="javascript:void(0);">创新科技</a></dt>
+           <dd>
+            <span><a href="/kjcx.html">科技创新</a></span>
+            <span><a href="/qaliby/index.html">生活灵感</a></span>
+        </dd>
+    </dl>
+    <dl>
+           <dt><a href="javascript:void(0);">加入我们</a></dt>
+           <dd>
+            <span><a href="http://liby.hotjob.cn/Liby/web/index?brandCode=Liby">加入我们</a></span>
+        </dd>
+    </dl>
+    <dl class="website">
+        <dt><a href="javascript:void(0);">旗下网站</a></dt>
+        <dd>
+  <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+     <option value="http://www.chinacheerwin.com/">超威</option>
+     <option value="http://www.cogi.cn/">高姿</option>
+    <!-- <option value="#">立白集团官网</option>
+    <option value="#">立白集团官网</option>
+    <option value="#">立白集团官网</option> -->
+  </select>
+        </dd>
+    </dl>
+    <dl class="share">
+        <dt><a href="javascript:void(0);">关注我们</a></dt>
+        <dd>
+        </dd>
+    </dl>
+    <div class="clear"></div>
+    
+     <div class="shop" style="display: none;">
+     
+     <span class="s1"><a href="https://shop.suning.com/30000486/index.html" target="_blank">苏宁立白官方旗舰店</a></span>
+     <span class="s2"><a href="https://liby.tmall.com/" target="_blank">天猫立白官方旗舰店</a></span>
+     </div>
+     <div class="shop" id="indshop" style="display: block;">
+     <span class="s3"><a href="http://www.cogi.cn/" target="_blank">高姿官网</a></span>
+     <span class="s4"><a href="http://www.chinacheerwin.com/" target="_blank">超威官网</a></span>
+     </div>
+     
+    <div class="other">
+         <div class="jiathis_style_32x32">
+         <a class="jiathis_button_cqq" title="分享到QQ好友"><span class="jiathis_txt jtico jtico_cqq"></span></a>
+         <a class="jiathis_button_tsina" title="分享到微博"><span class="jiathis_txt jtico jtico_tsina"></span></a>
+         <a class="jiathis_button_weixin" title="分享到微信"><span class="jiathis_txt jtico jtico_weixin"></span></a>
+         <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+        </div>
+    <div class="column">
+    <a href="/flsm.html">法律声明</a>&nbsp;&nbsp;&nbsp;<a href="/wzdt.html">网站地图</a>&nbsp;&nbsp;&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1264481161'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1264481161%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1264481161"><a href="http://www.cnzz.com/stat/website.php?web_id=1264481161" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></span><script src=" http://s19.cnzz.com/z_stat.php?id=1264481161&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1264481161&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script></div>
+    <div><span class="copyright">Copyright@2017 By LIBY Group co,ltd All Rights Reserved.</span> <span class="icp">粤ICP备11102647号.</span><span class="wanhu"><a href="http://www.wanhu.com.cn/" target="_blank">Designed by Wanhu</a></span></div>
+     
+
+     </div>
+    </div>
+    
+
+     
+     <div class="link">
+         <span><a href="http://www.ccia-cleaning.org/"><img src="/upload/cms/www/201710/25173342lith.png">中国洗涤用品工业协会</a></span>
+         <span><a href="http://www.gdlii.com/"><img src="/upload/cms/www/201710/25173320t7pf.png">广东省轻工业协会</a></span>
+         <span><a href="http://www.gdsmp.org.cn/index.html"><img src="/upload/cms/www/201710/2517325566ag.png">广东省卓越品牌研究所</a></span>
+         <span><a href="http://www.cocia.org/index.html"><img src="/upload/cms/www/201710/25173222dyhr.png">中国口腔清洁护理用品工业协会</a></span>
+         <span><a href="http://www.caffci.org/"><img src="/upload/cms/www/201710/25173149r7ed.png">中国香料香精化妆品工业协会</a></span>
+         <!-- <span><a href="http://www.ccia-cleaning.org/"><img src="/uploadfiles/images/link1.png" />中国洗涤用品工业协会</a></span>
+         <span><a href="http://www.gdlii.com/"><img src="/uploadfiles/images/link2.png" />广东省轻工业协会</a></span>
+         <span><a href="http://www.gdsmp.org.cn/index.html"><img src="/uploadfiles/images/link3.png" />广东省卓越品牌研究所</a></span>
+         <span><a href="http://www.cocia.org/index.html"><img src="/uploadfiles/images/link4.png" />中国口腔清洁护理用品工业协会</a></span>
+         <span><a href="http://www.caffci.org/"><img src="/uploadfiles/images/link5.png" />中国香料香精化妆品工业协会</a></span> -->
+     </div>
+</div>
+</footer>
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script><script type="text/javascript" src="http://v3.jiathis.com/code/plugin.client.js" charset="utf-8"></script><script type="text/javascript">	
+$("#nav1").addClass("on");
+$(".shop").css("display","none");
+$("#indshop").css("display","block");
+
+$('.ind-banner ul').bxSlider({
+  auto: true,
+  controls:false
+});
+
+
+	$(".ind-brand").each(function(i,item){
+		jQuery(item).find(".brand span").eq(0).addClass("show");								
+		jQuery(item).find(".txt").eq(0).css("display","block");							
+	});
+	$(".ind-brand .brand span").bind("mouseover", function () {
+		var index = $(this).index();
+		$(this).parents(".ind-brand").find(".brand span").removeClass("show");
+		$(this).addClass("show");
+		$(this).parents(".ind-brand").find(".txt").hide();
+		$(this).parents(".ind-brand").find(".txt").eq(index).show();
+	});
+</script>
+
+
+</body></html>

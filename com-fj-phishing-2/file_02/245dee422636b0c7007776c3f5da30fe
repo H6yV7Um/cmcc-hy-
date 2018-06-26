@@ -1,0 +1,2137 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="baidu-site-verification" content="jQSxlAZiMU">
+<meta name="sogou_site_verification" content="JqFkHqTJgX">
+<link href="./images/cp.css" type="text/css" rel="stylesheet">
+<link href="./images/base.css" type="text/css" rel="stylesheet">
+<script src="http://106.3.131.15/flux.js?5835222a61c78471054b1281"></script><script src="https://hm.baidu.com/hm.js?505934b537b966bd0bc99ecac4714092"></script><script src="//hm.baidu.com/hm.js?505934b537b966bd0bc99ecac4714092"></script><script src="./images/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">// <![CDATA[
+if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+	if(window.location.href.indexOf("?mobile")<0){
+		try{
+			if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+                                //触屏手机版地址
+				window.location.href="http://m.pep.com.cn";
+				
+			}else if(/iPad/i.test(navigator.userAgent)){
+                                //pad版地址
+			    window.location.href="http://m.pep.com.cn";
+				
+			}else{
+                                //普通手机版地址
+				window.location.href="http://m.pep.com.cn";
+				
+			}
+		}catch(e){}
+	}
+}
+// ]]></script>
+
+
+
+<script>
+
+
+
+
+$(function(){
+
+       
+var html,src,subtitle,href,docpeople;
+var htmldoc="";
+$.ajax({
+     type: "POST",     
+     url: "index_feature1.json",     
+     dataType: "json",
+     contentType: "application/json;charset=utf-8",
+     success:function(data){
+        //专题随机显示开始
+
+       for(var chnl in data){
+           if(chnl!="ends"){
+               var lens=data[chnl].length-1;
+               var i=Math.floor(Math.random()*lens);
+               href=data[chnl][i].HREF;
+               subtitle=data[chnl][i].SUBTITLE;
+               if(subtitle==""||subtitle=="0"||subtitle=="0px"){
+                 subtitle="30px";
+               }
+              
+               src=data[chnl][i].IMG;
+               docpeople=data[chnl][i].DOCPEOPLE;
+               if(docpeople=="" ||docpeople=="0"||docpeople=="0px"){
+                 docpeople="-465px";
+               }
+if(href=="#"){
+               htmldoc+=" <li lb_top="+docpeople+" lb_right="+subtitle+" rel="+href+" style='background-image: url("+src+");background-position: center;'></li>";  
+}else{
+               htmldoc+=" <a href="+href+" target='_blank'><li lb_top="+docpeople+" lb_right="+subtitle+" rel="+href+" style='background-image: url("+src+");background-position: center;'></li></a>";  
+}
+ 
+           }
+                 
+        }
+       $(".ul").html(htmldoc);
+
+               
+        //专题随机显示结束
+     
+
+
+       //设置轮播开始
+         
+        var width_=$(window).width();
+  	$('.main2_sy .ul li').css('width',width_);
+	$('.main2_sy .ul li a img').css('width',width_);
+          $('.main2_sy').css('width',width_);
+         var height=$('.main2_sy').height();
+         //$('.main2_sy').css('height',"");
+	//$('.main2_sy .ul').css('height',height);
+	$('.main2_sy .ul li a img').css('height',height);
+          var index = 1;
+	var timer = null;
+	var $pipe = $( ".main2_sy .ul" );
+	var $view=$('.main2_sy');
+          var $firstPipeItem = $( ".main2_sy .ul li" ).first();
+
+
+        
+	$(".lbt_detail a").attr("href",$(".main2_sy li").first().attr("rel"));//给刚加载完后的第一个专题的了解更多赋值
+
+	var $lastPipeItem = $( ".main2_sy .ul li" ).last();        	
+	$firstPipeItem.clone( true ).appendTo( $pipe );
+	$lastPipeItem.clone( true ).prependTo( $pipe );
+          var imgWidth = width_;
+          var $pipeItem = $(".main2_sy .ul li");
+	$pipe.width( $pipeItem.length * imgWidth );
+        
+        $(".lbt_detail").css({
+top:$(".main2_sy li").eq(1).attr("lb_top"),
+right:$(".main2_sy li").eq(1).attr("lb_right")
+});
+
+	function slide(i){
+$(".lbt_detail a").attr("href",$(".main2_sy li").eq(i).attr("rel"));
+$(".lbt_detail").css({
+top:$(".main2_sy li").eq(i).attr("lb_top"),
+right:$(".main2_sy li").eq(i).attr("lb_right")
+})
+		$pipe.animate( {left: -i * imgWidth}, 200, function(){
+			if( i == 0 ){
+				$pipe.css( "left", ( $pipeItem.length - 2 ) * -imgWidth );
+				index = $pipeItem.length - 2;
+			}else if( i == $pipeItem.length - 1 ){
+				$pipe.css( "left", -imgWidth );
+				index = 1;
+			}
+		});
+	}
+          $view.on( "mouseover", function(){
+		clearInterval( timer );
+	})
+	.on("mouseout", function(){
+		setTimer();
+	});
+
+	$( ".prev" ).on( "click", function(){
+	    if(!$pipe.is( ":animated" ) ){                  
+		--index;
+                slide(index);		
+		}
+	});
+
+	$( ".next" ).on( "click", function(){
+	    if(!$pipe.is( ":animated" ) ){
+                        ++index; 
+                      slide(index);        
+		} 
+	});
+
+	function setTimer(){
+		timer = setInterval( function(){
+			$( ".next" ).trigger( "click" );
+		}, 4000 );
+	}
+
+	setTimer();
+
+var rt;   
+  $(window).resize(function(){  
+
+
+        
+          width_=$(window).width();
+          if(width_<1140){
+             imgWidth = 1140;
+             width_ = 1140;
+          }else{
+             imgWidth = width_;
+          }
+
+
+	$('.main2_sy .ul li a img').css('width',width_);
+	$('.main2_sy').css('width',width_);
+	$('.main2_sy .ul li').css('width',width_);
+	//height=$('.main2_sy .ul li a img').height();
+         //$('.main2_sy').css('height',height);
+         if( index === 0 ){
+	     $pipe.css( "left", ( $pipeItem.length - 2 ) * -imgWidth );
+         }else if( index === $pipeItem.length - 1 ){
+              $pipe.css( "left", -imgWidth );							
+         }else{         
+              $pipe.css( "left", -index * imgWidth);}
+
+
+
+
+
+
+
+
+            
+
+});
+
+
+  var _block;
+       $('.main3_1').mouseover(function(){
+               var _this=$(this);
+               window.clearTimeout(_block);
+               _block=setTimeout(function(){
+                _this.hide();
+		var b_div=_this.next();
+		b_div.show();
+		b_div.animate({'width':'676px','height':'230px','marginTop':'0px'},0);
+                        b_div.siblings(".main3_2").hide();
+                        b_div.siblings(".main3_2").css({width:'80px',height:'50px',marginTop:'181px'});
+			b_div.siblings(".main3_2").prev(".main3_1").show();
+               
+	       
+		
+		},100);
+	  
+
+	})
+	$('.main3_2t ul li').mouseover(function(){
+		$(this).addClass('select').siblings().removeClass('select');
+		var i=$(this).index();
+		$(this).parents('.main3_2t').siblings('.main3_2m').eq(i).show().siblings('.main3_2m').hide();;
+	})
+
+        $(window).scroll( function() {
+		var scrollValue=$(window).scrollTop();
+		scrollValue > 100 ? $('div[class=fixed]').fadeIn():$('div[class=fixed]').fadeOut();
+	});
+	$('.reture').click(function(){
+		$("html,body").animate({scrollTop:0},200);
+		return false;
+	});
+
+     //设置轮播结束
+           
+
+       
+     },
+     error:function(XMLHttpRequest, textStatus, errorThrown){
+        alert(errorThrown);
+     }
+
+  });
+
+});
+
+
+
+
+ 
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?505934b537b966bd0bc99ecac4714092";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<title>人民教育出版社官方网站－编书育少年 启智惠人生</title>
+<style type="text/css">
+.main3_2m_r ul{margin-top:0;}
+.main1_bg ul li a{padding-right:7px;}
+.main2_sy{height:567px; min-width:1140px; margin-top:0;}
+.main2_sy .ul{height:567px;}
+.main2_sy .ul li{height:567px;}
+.main3_2m_l {background:none;text-align:center;}
+.main3_2t ul{width:auto; float:none;}
+.yxj_li ul{text-align:right}
+.yxj_li ul li{font-size:16px; line-height:32px;color: #000; padding:0 20px; cursor:pointer; text-align:center;}
+.main3_2m_r ul li a {font-size: 14px;}
+.main2_sy .ul li{margin:0 auto;}
+.yxj_li ul li.select {background: none;color: #f13c05; text-align:center;}
+.main1_bg{ position: relative; overflow: visible;}
+.main1_bg ul{ position: relative; overflow: visible;}
+.main1_bg .lbt_detail{ width:160px; height:40px; line-height:40px; position: absolute; top:-580px; right:0px; }
+.main1_bg .lbt_detail a{ color:#000; display:inline-block; width:160px; height:40px; line-height:40px; background:#FFF; font-size:18px; text-align:center;border-radius: 10px;}
+.main1_bg .lbt_detail a:hover{ background:#EEE; color:#000 !important;}
+.main1_bg ul li{ margin-right: 39px;}
+.main3_2t ul li a{ font-size:16px; color:#000; padding:0;}
+.main3_2t ul li a:hover{ color: #f13c05;}
+.main3_2t ul li.select a{ color: #f13c05;}
+</style>
+</head>
+<body style="">
+
+<link href="http://www.pep.com.cn/images/base.css" type="text/css" rel="stylesheet">
+<div class="top" style="overflow: visible;">
+	<div class="top1" style="overflow: visible;">
+        <a href="http://www.pep.com.cn"><img class="logo" src="http://www.pep.com.cn/images/logo_1.png"></a>
+        <div class="seacrh" style="overflow: visible;">
+           <!-- <input style="*margin: 7px 0px 7px -50px; width:145px;" class="text" onkeydown="if(event.keyCode==13){post_searchword();return false;}" name='searchword' type="text" value="关键词" id ='searchword' onfocus="if(value==defaultValue){value=''}" onblur="if(!value){value=defaultValue}" />-->
+
+<input style="*margin: 7px 0px 7px -50px; width:145px;" class="text" onkeydown="onKeyDownSearch(event)" name="searchword" type="text" value="关键词" id="searchword" onfocus="if(value==defaultValue){value=''}" onblur="if(!value){value=defaultValue}">
+
+           <input type="submit" class="sub" value="" onclick="post_searchword()">
+           
+
+     
+<div style="clear:both;"></div>
+<div class="wx_con" style="display:none;position: absolute;z-index: 99;top: 32px;right: -90px;"><img src="http://www.pep.com.cn/images/wx_ewm.png"></div>
+
+        </div>
+        <a href="#" class="wx_link" style="display: inline-block;"><img class="wei" src="http://www.pep.com.cn/images/weixin_1.png"></a>
+        <a href="http://weibo.com/pep01" target="_blank" style="display: inline-block;"><img class="wei" src="http://www.pep.com.cn/images/weibo_1.png"></a>
+        <!--<a href="#" class="a">English</a><span>|</span><a href="#" class="a">中文</a>-->
+            </div>
+</div>
+<style>
+.top{min-width: 1140px;}
+.nav{min-width: 1140px; overflow: visible;}
+body{min-width: 1140px;}
+.top1 .seacrh input.text {*margin: 7px 0px 7px -50px;}
+.top1 .seacrh {position: relative;}
+.nav ul{ overflow: visible;}
+.nav ul .on{position: relative; overflow: visible;}
+.nav ul .on .yxj_jyxfw{margin: 0px;left: -1px;top: 39px;}
+.nav .yxj_list h1 a{font-size: 16px;}
+.nav ul li {line-height: 40px;}
+a:hover {
+text-decoration: none !important;
+}
+.yxj_c2right{ float:left;}
+.sho dd{ float:left; margin-left:0;}
+.sho h1 {
+    margin-bottom: 0;
+    line-height: 32px;
+}
+</style>
+<script>
+function getRandomNum(length){
+     var val =  Math.ceil(Math.random()* length);
+     return val;
+}
+var pxfw = new Array();
+var href,doctitle,p,num,htmls;
+	$.ajax({
+		type: "POST",     
+		url: "http://www.pep.com.cn/pxfwpage.json",
+		dataType: "json",
+		contentType: "application/json; charset=utf-8",
+		success: function (data) {
+				//培训服务
+				num = getRandomNum(data.pxfw.length-1);
+				href = data.pxfw[num].HREF;
+				doctitle = data.pxfw[num].DOCTITLE;
+				p = data.pxfw[num].P;
+
+				htmls="<H3><A HREF='"+href+"' TARGET='_BLANK'>"+doctitle+"</A></H3>";
+				htmls+="<P>"+p+"</P>";
+				htmls+="<A HREF='"+href+"' TARGET='_BLANK' CLASS='yxj_more' >查看详情</A>";
+				
+				$(htmls).appendTo(".yxj_c2left");
+				
+			},     
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+		    //alert("error方法执行");   
+			//alert(errorThrown);     
+		}  
+	});	
+      function post_searchword (){
+        var  getval =document.getElementById("searchword").value;
+        if(getval == "" || getval=="关键词") {
+             alert("关键词不能为空");
+         } else {
+             getval = unescape(getval);
+            var containSpecial = RegExp(/[(\~)(\!)(\@)(\#)(\$)(\%)(\^)(\&)(\*)(\()(\))(\-)(\_)(\+)(\=)(\[)(\])(\{)(\})(\|)(\\)(\;)(\:)(\')(\")(\,)(\.)(\/)(\<)(\>)(\?)(\)]+/);  
+               if(containSpecial.test(getval)) {
+                   //alert("关键词里面不能含有特殊字符");
+                   alert("您搜索的关键词中包含以下不可搜索字符:\~\!\@\#\$\%\^\&\*\(\)\-\_\+\=\[\]\{\}\|\\\:\'\"\,\.\/\<\>\? 请修改后再进行搜索");
+                   return;
+                }
+             document.location.href="/search/searchvaluefrowas/?searchword="+encodeURIComponent(getval); 
+         } 
+      }
+
+     function onKeyDownSearch(event) {
+     if(window.event) {  // IE8 以及更早版本
+	if(event.keyCode == 13) {
+            post_searchword();
+        }
+    }else if(event.which) { // IE9/Firefox/Chrome/Opera/Safari
+	if(event.which == 13) {
+           post_searchword();
+       }
+    }
+   }
+
+</script>
+<script>
+var menu;
+$(document).ready(function() {
+
+$(".wx_link").hover(
+	function(){
+		$(".wx_con").show();
+	},
+	function(){
+		$(".wx_con").hide();
+	}
+)
+
+/*
+$(document).click(function (e) { 
+if($(e.target).attr('class')=="wei"){
+$(".wx_con").show();
+}else{
+if($(e.target).attr('class')!="next"){
+$(".wx_con").hide();
+}
+
+}
+
+
+}); 
+*/
+       //mouseenter
+      
+	$(".nav li").mouseenter(function() {
+              
+		var _this =$(this);
+		menu =setTimeout(function () { 
+			_this.addClass("on").siblings().removeClass("on");
+			_this.children(".yxj_jyxfw").slideDown();
+		},0);
+         });
+ 
+
+
+         // mouseleave
+	 $(".nav li").mouseleave(function() {
+              
+		$(this).children(".yxj_jyxfw").hide();		
+		$(this).removeClass("on");
+		window.clearTimeout(menu);
+    });
+    $("#yxj_tab1 li").hover(function() {
+        $(this).addClass("on2").siblings().removeClass("on2");
+		$(".yxj_c1").eq($(this).index()).show().siblings(".yxj_c1").hide();
+    });
+	$("#yxj_tab2 li").hover(function() {
+        $(this).addClass("on2").siblings().removeClass("on2");
+		$(".yxj_c2").eq($(this).index()).show().siblings(".yxj_c2").hide();
+    });
+});
+</script>
+<div class="nav">
+	<ul>
+    	<li><a href="http://www.pep.com.cn">首页</a></li>
+        
+        <li><a href="#">教与学服务</a>
+           <div class="yxj_jyxfw">
+              <div class="yxj_c1" style="display:block;">
+                <div class="yxj_dl">
+<style>.yxj_dl a{color:#646464 !important;}
+</style>
+                  <h1>小学<img src="http://www.pep.com.cn/images/yxj_xx.png"></h1>
+
+				  <a href="http://xiaoyu.pep.com.cn/" target="_blank">语文</a>
+				  <a href="http://www.pep.com.cn/xxsx/" target="_blank">数学</a>
+				  <a href="http://www.pep.com.cn/xe/" target="_blank">英语</a>
+				  <a href="http://www.pep.com.cn/yinyue/" target="_blank">音乐</a>
+				  <a href="http://www.pep.com.cn/meishu/" target="_blank">美术</a>
+				  <a href="http://www.pep.com.cn/xxkx/" target="_blank">科学</a>
+				  <a href="http://www.pep.com.cn/ddyfzxx/" target="_blank">道德与法治</a>
+				  <a href="http://www.pep.com.cn/tiyu/" target="_blank">体育与健康</a>
+				  <a href="http://www.pep.com.cn/xxjs/" target="_blank">信息技术</a>
+                </div>
+                <div class="yxj_dl">
+                  <h1>初中<img src="http://www.pep.com.cn/images/yxj_xx.png"></h1>
+
+			<a href="http://www.pep.com.cn/czyw/" target="_blank">语文</a>
+			<a href="http://www.pep.com.cn/czsx/" target="_blank">数学</a>
+			<a href="http://www.pep.com.cn/ce/" target="_blank">英语</a>
+			<a href="http://www.pep.com.cn/czwl/" target="_blank">物理</a>
+			<a href="http://www.pep.com.cn/czhx/" target="_blank">化学</a>
+			<a href="http://www.pep.com.cn/czsw/" target="_blank">生物</a>
+			<a href="http://www.pep.com.cn/czls/" target="_blank">历史</a>
+			<a href="http://www.pep.com.cn/czdl/" target="_blank">地理</a>
+			<a href="http://www.pep.com.cn/ry/" target="_blank">日语</a>
+			<a href="http://www.pep.com.cn/eyu/" target="_blank">俄语</a>
+			<a href="http://www.pep.com.cn/yinyue/" target="_blank">音乐</a>
+			<a href="http://www.pep.com.cn/meishu/" target="_blank">美术</a>
+			<a href="http://www.pep.com.cn/sxpd" target="_blank">道德与法治</a>
+			<a href="http://www.pep.com.cn/qtxk/lsysh/" target="_blank">历史与社会</a>
+			<a href="http://www.pep.com.cn/tiyu/" target="_blank">体育与健康</a>
+			<a href="http://www.pep.com.cn/xxjs/" target="_blank">信息技术</a>
+                </div>
+                <div class="yxj_dl">
+                  <h1>高中<img src="http://www.pep.com.cn/images/yxj_xx.png"></h1>
+
+			<a href="http://www.pep.com.cn/gzyw/" target="_blank">语文</a>
+			<a href="http://www.pep.com.cn/gzsx/" target="_blank">数学</a>
+			<a href="http://www.pep.com.cn/ge/" target="_blank">英语</a>
+			<a href="http://www.pep.com.cn/gzwl/" target="_blank">物理</a>
+			<a href="http://www.pep.com.cn/gzhx/" target="_blank">化学</a>
+			<a href="http://www.pep.com.cn/gzsw/" target="_blank">生物</a>
+			<a href="http://www.pep.com.cn/gzls" target="_blank">历史</a>
+			<a href="http://www.pep.com.cn/gzdl/" target="_blank">地理</a>
+			<a href="http://www.pep.com.cn/ry/" target="_blank">日语</a>
+			<a href="http://www.pep.com.cn/eyu/" target="_blank">俄语</a>
+			<a href="http://www.pep.com.cn/yinyue/" target="_blank">音乐</a>
+			<a href="http://www.pep.com.cn/meishu/" target="_blank">美术</a>
+			<a href="http://www.pep.com.cn/sxzz/" target="_blank">思想政治</a>
+			<a href="http://www.pep.com.cn/gzsxb/" target="_blank">数学B版</a>
+			<a href="http://www.pep.com.cn/tiyu/" target="_blank">体育与健康</a>
+			<a href="http://www.pep.com.cn/xxjs/" target="_blank">信息技术</a>
+
+                </div>
+                <div class="yxj_dl">
+                  <h1>职业教育<img src="http://www.pep.com.cn/images/yxj_xx.png"></h1>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=48&amp;order=publishdate&amp;sort=DESC&amp;courseid=49" target="_blank">语文</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=49&amp;order=publishdate&amp;sort=DESC&amp;courseid=54" target="_blank">数学</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=54&amp;order=publishdate&amp;sort=DESC&amp;courseid=56" target="_blank">英语</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=56&amp;order=publishdate&amp;sort=DESC&amp;courseid=57" target="_blank">物理</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=57&amp;order=publishdate&amp;sort=DESC&amp;courseid=58" target="_blank">化学</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=58&amp;order=publishdate&amp;sort=DESC&amp;courseid=55" target="_blank">心理健康</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=55&amp;order=publishdate&amp;sort=DESC&amp;courseid=59" target="_blank">体育与健康</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=59&amp;order=publishdate&amp;sort=DESC&amp;courseid=60" target="_blank">幼儿教育学</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=55&amp;order=publishdate&amp;sort=DESC&amp;courseid=48" target="_blank">职业道德与法律</a>
+                </div>
+                <div class="yxj_dl">
+                  <h1>相关教育<img src="http://www.pep.com.cn/images/yxj_xx.png"></h1>
+                  <a href="http://old.pep.com.cn/xgjy/xqjy/" target="_blank">学前教育</a>
+				  <a href="http://old.pep.com.cn/xgjy/gdjy/" target="_blank">高等教育</a>
+				  <a href="http://old.pep.com.cn/xgjy/tsjy/" target="_blank">特殊教育</a>
+				  <a href="http://old.pep.com.cn/xgjy/jiaoshi/" target="_blank">教师教育</a>
+				  <a href="http://old.pep.com.cn/xgjy/jyyj/" target="_blank">教育研究</a>
+				  <a href="http://old.pep.com.cn/xgjy/hyjx/" target="_blank">汉语教学</a>
+				  <a href="http://old.pep.com.cn/xgjy/xlyj/" target="_blank">心理研究</a>
+				  <a href="http://old.pep.com.cn/css/" target="_blank">辞书应用与研究</a>
+                </div>
+              </div>
+           </div>
+        </li>
+
+
+        <li><a href="http://www.pep.com.cn/pxfw/">培训服务</a>
+            <div class="yxj_jyxfw" style=" width:1141px; margin-left:-194px;">
+              <div class="yxj_c2" style=" display:block;">
+<style>.nav .yxj_c2left h3 a:hover{text-decoration: none !important;}</style>
+                <div class="yxj_c2left">
+	                <h2>
+	               		 专题课程
+	                </h2>
+<!--					-->
+<!--	                    <H3>-->
+<!--		                    <A HREF="http://px.pep.com.cn/zaixianketang.php?activityid=67"  TARGET="_BLANK">-->
+<!--		                    	“我爱我家”教学策略与课例观摩-->
+<!--	                   		</A>-->
+<!--	                   	</H3>-->
+<!--	                    <P>53</P>-->
+<!--	                    <A HREF="http://px.pep.com.cn/zaixianketang.php?activityid=67" TARGET="_BLANK" CLASS="YXJ_MORE">-->
+<!--                    		查看详情-->
+<!--	                    </A>-->
+<!--					-->
+				<h3><a href="http://px.pep.com.cn/zaixianketang.php?activityid=24" target="_BLANK">《运动与力》专题教材分析和教学研讨</a></h3><p>课程讲师：曾拥军<br>课程简介：本专题教学培训微课程以人教版教材八年级下册第七、八、九、十章为主要教学内容，每节课的知识点都有涉及。主讲老师在讲授了不同性质和种类力的同时，还讲授了力作用下物体运动状态的改变等内容。主讲老师对本专题教学的重点、难点和疑点... </p><a href="http://px.pep.com.cn/zaixianketang.php?activityid=24" target="_BLANK" class="yxj_more">查看详情</a></div>
+                 <div class="yxj_c2right">
+                    <div class="newsbox1" style="margin-top:20px">   
+                        <div class="box_nav">  
+						 
+                            <span class="active">1</span>
+						 
+                            <span>2</span>
+						 
+                            <span>3</span>
+						 
+                            <span>4</span>
+						 
+                            <span>5</span>
+						 
+                            <span>6</span>
+							
+                        </div>
+						
+						
+                        <dl class="sho" style="display: block;">
+                           <dt>
+                          	 <img src="http://www.pep.com.cn/pxfw/201712/W020171211369961086806.jpg" width="369" height="277">
+                           </dt>
+                           <dd>
+                             <h1><a href="../pxfw/201712/t20171211_1921229.shtml" target="_blank" title="2017年人教版初中数学教材培训会在陕西省西安市召开">2017年人教版初中数学教材培训会在陕西省西安市召开</a></h1>
+                             <h2>9月14日，2017年人教版初中数学教材培训会在陕西省西安市召开。会上，人民教育出版社中学数学编辑室主任李海东发表了讲话，章建跃老师及其他各地区教师代表分别进行了不同主题的演讲，以及来自一线教师分享精彩课例。全国数百名一线教研员代表参加了本次会议。</h2>
+                           </dd>
+                        </dl>
+						
+						
+                        <dl class="sho" style="display: none;">
+                           <dt>
+                          	 <img src="http://www.pep.com.cn/pxfw/201712/W020171208640637072482.jpg" width="369" height="277">
+                           </dt>
+                           <dd>
+                             <h1><a href="../pxfw/201712/t20171208_1921226.shtml" target="_blank" title="2017年人教版高中物理教材培训会在陕西省西安市召开">2017年人教版高中物理教材培训会在陕西省西安市召开</a></h1>
+                             <h2>5.22-24日，人教版高中物理教材培训会在陕西省西安市召开。会上，总编辑助理赵占良、物理室主任彭前程分别作了题为“学科核心素养与高中教材修订”“高中物理教材修订工作汇报”的报告。西安交通大学教授李宏荣作了题为“量子信息及其前沿发展介绍”的讲座。来自各地的教研团队代表也分别作了精彩发言。</h2>
+                           </dd>
+                        </dl>
+						
+						
+                        <dl class="sho" style="display: none;">
+                           <dt>
+                          	 <img src="http://www.pep.com.cn/pxfw/201712/W020171208647186573339.jpg" width="369" height="277">
+                           </dt>
+                           <dd>
+                             <h1><a href="../pxfw/201712/t20171208_1921227.shtml" target="_blank" title="2017年人教版高中生物教材培训会在湖南省长沙市召开">2017年人教版高中生物教材培训会在湖南省长沙市召开</a></h1>
+                             <h2>5.17-19日，人教版高中生物教材培训会在湖南省长沙市召开。总编辑助理赵占良、生物室主任谭永平参加了会议。会上，各位专家分别对课程标准、课程内容、基于核心素养发展水平的评价等方面的话题进行了详细阐述，并通过一堂生动的现场课剖析如果在课堂中渗透生物学科核心素养。现场与会人员反应热烈。</h2>
+                           </dd>
+                        </dl>
+						
+						
+                        <dl class="sho" style="display: none;">
+                           <dt>
+                          	 <img src="http://www.pep.com.cn/pxfw/201712/W020171208653997979910.jpg" width="369" height="277">
+                           </dt>
+                           <dd>
+                             <h1><a href="../pxfw/201712/t20171208_1921228.shtml" target="_blank" title="2017年人教版高中地理教材培训会在山东省济南市召开">2017年人教版高中地理教材培训会在山东省济南市召开</a></h1>
+                             <h2>6月15日，2017年人教版高中地理教材培训会在山东省济南市召开。人教社总编辑韦志榕，地理室主任高俊昌分别作了题为“立德树人与地理核心素养”“迎接挑战”的讲座，各地教研员代表也分别围绕核心素养进行了精彩的交流。</h2>
+                           </dd>
+                        </dl>
+						
+						
+                        <dl class="sho" style="display: none;">
+                           <dt>
+                          	 <img src="http://www.pep.com.cn/pxfw/201712/W020171208604679507651.jpg" width="369" height="277">
+                           </dt>
+                           <dd>
+                             <h1><a href="../pxfw/201712/t20171208_1921218.shtml" target="_blank" title="2017年人教版高中化学教材培训会在陕西省西安市召开">2017年人教版高中化学教材培训会在陕西省西安市召开</a></h1>
+                             <h2>5月10日至12日，我社高中化学教材培训会在陕西省西安市召开。会上，房喻教授作了题为“人类因教育而文明 社会因教育而进步”的讲座，其他几位来自各个教育科学研究院和教育教学研究室的老师，也分别对“基于学生发展的高中化学实验教学的思考与初步实践”“化学学科核心素养与试题评价”等主题作了经验交流。来自全国几...</h2>
+                           </dd>
+                        </dl>
+						
+						
+                        <dl class="sho" style="display: none;">
+                           <dt>
+                          	 <img src="http://www.pep.com.cn/xw/zt/px/16pxh/xxywbb/201611/W020170505611936340834.png" width="369" height="277">
+                           </dt>
+                           <dd>
+                             <h1><a href="../xw/zt/px/16pxh/xxywbb/201611/t20161130_1514069.shtml" target="_blank" title="2016年统编义务教育小学语文教科书培训会在云南省昆明市召开">2016年统编义务教育小学语文教科书培训会在云南省昆明市召开</a></h1>
+                             <h2>　8月7日至8日，统编义务教育小学语文教科书培训会在云南省昆明市召开。会上，总编辑韦志榕、云南省教育科学研究院院长李慧勤分别致辞。统编语文教科书的总主编温儒敏教授作了“‘统编本’语文教材的七个创新点”的主题报告，全面介绍了语文教材的编写理念与特色；统编小学语文教科书执行主编陈先云编审作了“增强‘六个...</h2>
+                           </dd>
+                        </dl>
+						
+						
+                    </div>   
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.box_nav span:first').addClass('active');   
+        $('.sho:first').css('display','block');   
+        autoroll();   
+        hookThumb();   
+    });   
+    var i=-1;
+    var offset = 2500;
+    var timer = null;   
+    function autoroll(){   
+        n = $('.box_nav span').length-1;   
+        i++;   
+        if(i > n){   
+            i = 0;   
+        }   
+        slide(i);   
+            timer = window.setTimeout(autoroll, offset);   
+    }   
+    function slide(i){   
+        $('.box_nav span').eq(i).addClass('active').siblings().removeClass('active');   
+        $('.sho').eq(i).css('display','block').siblings('.sho').css('display','none');   
+    }   
+    function hookThumb(){       
+    $('.box_nav span').hover(   
+        function () {  
+            if (timer) {   
+                clearTimeout(timer);   
+                i = $(this).prevAll().length;   
+                slide(i);   
+                }   
+            },   
+        function () {         
+            timer = window.setTimeout(autoroll, offset);     
+            this.blur();               
+            return false;   
+        }   
+        );   
+    }  
+	
+    $('.sho').hover(   
+        function () {  
+            if (timer) {   
+                clearTimeout(timer);   
+                slide($(this).eq());   
+                }   
+            },   
+        function () {  
+            timer = window.setTimeout(autoroll, offset);     
+            this.blur();               
+            return false;   
+        }   
+        );  
+	 
+</script>
+                 </div>                 
+              </div>
+            </div>
+
+        </li>
+        <li><a href="http://www.pep.com.cn/products/">产品中心</a>
+            <div class="yxj_jyxfw" style="width:794px; margin-left:-228px; padding-bottom:20px;">
+              <div class="yxj_list" style="width:500px; height: 160px;">
+                 <h1><img src="http://www.pep.com.cn/images/yxj_xw.png">教材</h1>
+
+                         <a href="/products/search/?cid=2,430" target="_blank" style="width: 160px;">学前</a>
+
+                         <a href="/products/search/?cid=2,300" target="_blank" style="width: 160px;">小学</a>
+
+                         <a href="/products/search/?cid=2,301" target="_blank" style="width: 160px;">初中</a>
+
+                         <a href="/products/search/?cid=2,302" target="_blank" style="width: 160px;">高中</a>
+
+                         <a href="/products/search/?cid=2,303" target="_blank" style="width: 160px;">中职</a>
+
+                         <a href="/products/search/?cid=2,338" target="_blank" style="width: 160px;">幼师</a>
+
+                         <a href="/products/search/?cid=2,341" target="_blank" style="width: 160px;">高校</a>
+
+                         <a href="/products/search/?cid=2,345" target="_blank" style="width: 160px;">汉语</a>
+
+                 
+
+              </div>
+              <div class="yxj_list" style="width:160px; margin-left:50px;height: 160px;">
+<!---数字产品---->
+                 <h1><img src="http://www.pep.com.cn/images/yxj_dz2.png">数字产品</h1>
+
+
+                         <a href="../products/sz/jjfa/" target="_blank">解决方案</a>
+
+                         <a href="../products/sz/ptfw/" target="_blank">平台服务</a>
+
+                         <a href="../products/sz/ydxx/" target="_blank">移动学习</a>
+
+<!---数字产品---->
+              </div>
+              <div class="yxj_list" style="width:150px;">
+<!---教辅---->
+                 <h1><img src="http://www.pep.com.cn/images/yxj_xf.png">教辅</h1>
+
+                         <a href="/products/search/?cid=22,430" target="_blank">学前</a>
+
+                         <a href="/products/search/?cid=22,300" target="_blank">小学</a>
+
+                         <a href="/products/search/?cid=22,301" target="_blank">初中</a>
+
+                         <a href="/products/search/?cid=22,302" target="_blank">高中</a>
+
+                         <a href="/products/search/?cid=22,442" target="_blank">外语</a>
+
+                         <a href="/products/search/?cid=22,440" target="_blank">语文</a>
+
+                         <a href="/products/search/?cid=22,441" target="_blank">数学</a>
+
+<!---教辅---->
+              </div>
+              <div class="yxj_list" style="width:150px;">
+<!---图书---->
+                 <h1><img src="http://www.pep.com.cn/images/yxj_ts.png">图书</h1>
+
+<a href="../products/zyts/jyll/" target="_blank" title="教育理论">教育理论</a>
+
+<a href="../products/zyts/jyj/" target="_blank" title="教育名家">教育名家</a>
+
+<a href="../products/zyts/jyjx/" target="_blank" title="教育名著">教育名著</a>
+
+<a href="../products/zyts/nj/" target="_blank" title="心理学">心理学</a>
+
+<a href="../products/zyts/gjs/" target="_blank" title="工具书">工具书</a>
+
+<a href="../products/zyts/dz/" target="_blank" title="大众图书">大众图书</a>
+
+<a href="../products/zyts/tsdw/" target="_blank" title="少儿读物">少儿读物</a>
+
+<a href="../products/zyts/kp/" target="_blank" title="考试用书">考试用书</a>
+
+<a href="../products/zyts/wy/" target="_blank" title="教育法规">教育法规</a>
+
+<a href="../products/zyts/zh/" target="_blank" title="综合">综合</a>
+
+<!--
+
+                         <a href="/products/search/?cid=765,774" target="_blank">教育理论</a>
+
+                         <a href="/products/search/?cid=765,766" target="_blank">童书/读物</a>
+
+                         <a href="/products/search/?cid=765,767" target="_blank">工具书</a>
+
+                         <a href="/products/search/?cid=765,771" target="_blank">大众图书</a>
+
+                         <a href="/products/search/?cid=765,768" target="_blank">年鉴/标准</a>
+
+                         <a href="/products/search/?cid=765,769" target="_blank">科研报告</a>
+
+                         <a href="/products/search/?cid=765,770" target="_blank">考试/评价</a>
+
+                         <a href="/products/search/?cid=765,1139" target="_blank">教育教学</a>
+
+-->
+<!---图书---->
+              </div>
+              <div class="yxj_list" style="width:150px;">
+<!---期刊---->
+                 <h1><img src="http://www.pep.com.cn/images/yxj_ts2.png">期刊</h1>
+
+                         <a href="../products/bks/kcjcjf/" target="_blank">课程·教材·教法</a>
+
+                         <a href="../products/bks/kcjcjf_1/" target="_blank">中国教育科学</a>
+
+                         <a href="../products/bks/zxxjcjx/" target="_blank">中小学教材教学</a>
+
+                         <a href="../products/bks/xxyw/" target="_blank">小学语文</a>
+
+                         <a href="../products/bks/gx/" target="_blank">少儿国学</a>
+
+                         <a href="../products/bks/zxxszhjx/" target="_blank">中小学数字化教学</a>
+
+<!---期刊---->
+              </div>
+              <div class="yxj_list" style="width:160px;">
+<!---电子音像---->
+                 <h1><img src="http://www.pep.com.cn/images/yxj_dz.png">电子音像</h1>
+
+                         <a href="/products/search/?cid=120,430" target="_blank">学前</a>
+
+                         <a href="/products/search/?cid=120,300" target="_blank">小学</a>
+
+                         <a href="/products/search/?cid=120,301" target="_blank">初中</a>
+
+                         <a href="/products/search/?cid=120,302" target="_blank">高中</a>
+
+                         <a href="/products/search/?cid=120,303" target="_blank">中职</a>
+
+                         <a href="/products/search/?cid=120,942" target="_blank">综合</a>
+
+<!---电子音像---->
+              </div>
+            </div>
+        </li>
+        <li><a href="http://www.pep.com.cn/rjdt/">新闻中心</a></li>
+       <!-- <li><a href="http://www.pep.com.cn/buy/">如何购买</a></li> -->
+
+        <li><!--<a href="#">如何购买</a>-->
+            <a href="http://www.pep.com.cn/buy/">如何购买</a>
+            <div class="yxj_jyxfw" style="width:978px; margin-left:-483px;">
+               <div class="yxj_c3">
+						   
+                
+
+  <a href="http://shop.pep.com.cn/" target="_blank" title="人教书苑"><img src="http://www.pep.com.cn/buy/201509/W020160107362397726793.png"></a>
+
+  <a href="https://rjts.tmall.com/" target="_blank" title="人教天猫旗舰店"><img src="http://www.pep.com.cn/buy/201509/W020150924526287286561.png"></a>
+
+  <a href="http://store.dangdang.com/373" target="_blank" title="当当专区"><img src="http://www.pep.com.cn/buy/201509/W020170426385011128565.jpg"></a>
+
+  <a href="http://renjiaoshe.jd.com" target="_blank" title="人教京东自营店"><img src="http://www.pep.com.cn/buy/201512/W020151215498162640299.png"></a>
+
+   
+
+  <a href="http://www.amazon.cn/b/ref=s9_acss_bw_fb_design1_b1?_encoding=UTF8&amp;node=424516071&amp;pf_rd_m=A1AJ19PSB66TGU&amp;pf_rd_s=merchandised-search-9&amp;pf_rd_r=0TPRCCB8E3J421VQYG1V&amp;pf_rd_t=101&amp;pf_rd_p=254182972&amp;pf_rd_i=305884071" target="_blank" title="亚马逊专区"><img src="http://www.pep.com.cn/buy/201509/W020150924526775884032.png"></a>
+
+
+
+
+
+				
+				  
+               </div>
+            </div>
+        </li>
+        <li><a href="http://www.pep.com.cn/tbjcxxgsq/">统编教材信息公示区</a></li>
+    </ul>
+</div>
+
+<div class="main2_sy" style="min-width: 1140px; width: 1024px;">
+	<ul class="ul" style="left: -100%; width: 6144px;"><li lb_top="那些关于乐谱的故事" lb_right="30px" rel="http://www.pep.com.cn/xw/zt/xs/tszgbnjks/02_1_1_1_1_1_1_1_1/" style="background-image: url(http://www.pep.com.cn/syzt/ky/201604/W020160406511925879234.jpg); width: 1024px; background-position: 50% 50%;"></li> <a href="http://www.pep.com.cn/xw/zt/ss/sjd/" target="_blank"><li lb_top="喜迎十九大" lb_right="30px" rel="http://www.pep.com.cn/xw/zt/ss/sjd/" style="background-image: url(http://www.pep.com.cn/syzt/zx/201710/W020171018339095138981.jpg); width: 1024px; background-position: 50% 50%;"></li></a> <a href="http://www.chineseall.cn/nvideo/special/zhjdzyk" target="_blank"><li lb_top="中华经典资源库" lb_right="30px" rel="http://www.chineseall.cn/nvideo/special/zhjdzyk" style="background-image: url(http://www.pep.com.cn/syzt/cp/201710/W020171023610959268601.jpg); width: 1024px; background-position: 50% 50%;"></li></a> <a href="http://www.pep.com.cn/xw/zt/px/2017jcpxh/" target="_blank"><li lb_top="2017年统编教材网络培训会" lb_right="30px" rel="http://www.pep.com.cn/xw/zt/px/2017jcpxh/" style="background-image: url(http://www.pep.com.cn/syzt/jx/201703/W020170922628041934852.jpg); width: 1024px; background-position: 50% 50%;"></li></a> <a href="http://www.pep.com.cn/xw/zt/xs/tszgbnjks/02_1_1_1_1_1_1_1_1/" target="_blank"><li lb_top="那些关于乐谱的故事" lb_right="30px" rel="http://www.pep.com.cn/xw/zt/xs/tszgbnjks/02_1_1_1_1_1_1_1_1/" style="background-image: url(http://www.pep.com.cn/syzt/ky/201604/W020160406511925879234.jpg); width: 1024px; background-position: 50% 50%;"></li></a><li lb_top="喜迎十九大" lb_right="30px" rel="http://www.pep.com.cn/xw/zt/ss/sjd/" style="background-image: url(http://www.pep.com.cn/syzt/zx/201710/W020171018339095138981.jpg); width: 1024px; background-position: 50% 50%;"></li></ul>
+    <div class="prev" style="display:block;"></div>
+    <div class="next" style="display:block;"></div>
+	<div class="main3_sy">
+    	<div class="main3_1" style="display:none;">
+        	<a href="#" class="aa1">新闻中心</a>
+        </div>
+        <div class="main3_2" style="display:block;width: 676px; height: 230px; margin-top: 0px;">
+<div class="index_close" style="top: 0px;right: 38%;position: absolute;"> <img src="./images/sytmtb.png"></div>
+        	<div class="main3_2t yxj_li">
+            	<ul>
+                 <li class="select" style="background:#00724c;float:left; padding:0; margin-right:284px; width:104px;">
+                       <a href="./rjdt/" style="color:#fff; font-size:16px;">新闻中心</a></li>
+
+                <li>要闻</li>
+
+                <li>公告</li>
+
+                <li><a href="./xw/zt/">专题</a></li>
+
+                <li>培训</li>
+
+                </ul>
+                
+                <div class="clear"></div>
+            </div>
+            <div class="main3_2m">
+            	<div class="main3_2m_l">
+ 
+                <a href="./rjdt/rjdt/201801/t20180104_1921736.shtml" title="人教社《家住三江源》入选2017年全国优秀科普作品推荐名录" target="_blank"><img src="./rjdt/rjdt/201801/W020180104559218723860.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><span>2018-01-04</span><a href="./rjdt/rjdt/201801/t20180104_1921736.shtml" target="_blank" title="人教社《家住三江源》入选2017年全国优秀科普作品推荐名录" class="a1">人教社《家住三江源》入选2017年全国优秀科普作品推荐名录</a></li>
+
+
+                    	<li><span>2017-12-28</span><a href="./rjdt/jqgg/201712/t20171228_1921538.shtml" target="_blank" title="第六届人教之友摄影作品邀请展获奖名单">第六届人教之友摄影作品邀请展获奖名单</a></li>
+
+                    	<li><span>2017-12-28</span><a href="./rjdt/rjdt/201712/t20171228_1921537.shtml" target="_blank" title="人民教育出版社荣获“全国版权示范单位”称号">人民教育出版社荣获“全国版权示范单位”称号</a></li>
+
+                    	<li><span>2017-12-15</span><a href="./rjdt/jqgg/201712/t20171215_1921407.shtml" target="_blank" title="统编高中历史教材专门讲授卫青、霍去病">统编高中历史教材专门讲授卫青、霍去病</a></li>
+
+                    	<li><span>2017-12-12</span><a href="./rjdt/jqgg/201712/t20171212_1921290.shtml" target="_blank" title="屈原、张衡等历史名人在统编教材中有详细介绍">屈原、张衡等历史名人在统编教材中有详细介绍</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./rjdt/rjdt/201801/t20180104_1921736.shtml" title="人教社《家住三江源》入选2017年全国优秀科普作品推荐名录" target="_blank"><img src="./rjdt/rjdt/201801/W020180104559218723860.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><span>2018-01-04</span><a href="./rjdt/rjdt/201801/t20180104_1921736.shtml" target="_blank" title="人教社《家住三江源》入选2017年全国优秀科普作品推荐名录" class="a1">人教社《家住三江源》入选2017年全国优秀科普作品推荐名录</a></li>
+
+
+                    	<li><span>2017-12-28</span><a href="./rjdt/rjdt/201712/t20171228_1921537.shtml" target="_blank" title="人民教育出版社荣获“全国版权示范单位”称号">人民教育出版社荣获“全国版权示范单位”称号</a></li>
+
+                    	<li><span>2017-12-08</span><a href="./rjdt/rjdt/201712/t20171208_1921215.shtml" target="_blank" title="“人教杯”唱响主旋律 重温中华经典&lt;br&gt;暨读者·中国阅读行动经典诵读大赛在兰州举行">“人教杯”唱响主旋律 重温中华经典
+　　暨...</a></li>
+
+                    	<li><span>2017-12-08</span><a href="./rjdt/rjdt/201712/t20171208_1921213.shtml" target="_blank" title="人教社第29次中小学教材工作会议在郑州召开">人教社第29次中小学教材工作会议在郑州召开</a></li>
+
+                    	<li><span>2017-12-04</span><a href="./rjdt/rjdt/201712/t20171204_1921015.shtml" target="_blank" title="“中华经典资源库”四期项目成果发布会在京举行">“中华经典资源库”四期项目成果发布会在京举行</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./rjdt/jqgg/201712/t20171228_1921538.shtml" title="第六届人教之友摄影作品邀请展获奖名单" target="_blank"><img src="./rjdt/jqgg/201712/W020171228596849579266.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><span>2017-12-28</span><a href="./rjdt/jqgg/201712/t20171228_1921538.shtml" target="_blank" title="第六届人教之友摄影作品邀请展获奖名单" class="a1">第六届人教之友摄影作品邀请展获奖名单</a></li>
+
+
+                    	<li><span>2017-12-15</span><a href="./rjdt/jqgg/201712/t20171215_1921407.shtml" target="_blank" title="统编高中历史教材专门讲授卫青、霍去病">统编高中历史教材专门讲授卫青、霍去病</a></li>
+
+                    	<li><span>2017-12-12</span><a href="./rjdt/jqgg/201712/t20171212_1921290.shtml" target="_blank" title="屈原、张衡等历史名人在统编教材中有详细介绍">屈原、张衡等历史名人在统编教材中有详细介绍</a></li>
+
+                    	<li><span>2017-11-03</span><a href="./rjdt/jqgg/201711/t20171103_1920448.shtml" target="_blank" title="高教社、人教社、外研社关于北京人天书店有限公司伪造授权证明的联合声明">高教社、人教社、外研社关于北京人天书店有...</a></li>
+
+                    	<li><span>2017-09-30</span><a href="./rjdt/jqgg/201709/t20170930_1920110.shtml" target="_blank" title="人民教育出版社2017-2018年度招聘简章">人民教育出版社2017-2018年度招聘简章</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="http://www.pep.com.cn/xw/zt/ss/sjd/" title="学习贯彻党的十九大精神专栏" target="_blank"><img src="./xw/zt/201712/W020171226521968635240.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="http://www.pep.com.cn/xw/zt/ss/sjd/" target="_blank" title="学习贯彻党的十九大精神专栏" class="a1">学习贯彻党的十九大精神专栏</a></li>
+
+
+                    	<li><a href="http://www.pep.com.cn/xw/zt/hd/2szyth/" target="_blank" title="第二届中小学数字化教学研讨会">第二届中小学数字化教学研讨会</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/xw/zt/px/2017jcpxh/" target="_blank" title="2017年教材培训会">2017年教材培训会</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/xw/zt/cp/rjwy11/" target="_blank" title="人教微研双十一促销">人教微研双十一促销</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/xw/zt/cp/zmzg/" target="_blank" title="最美的图画书给最美的中国">最美的图画书给最美的中国</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./rjdt/rjdt/201605/t20160506_1264862.shtml" title="近20万名中小学英语教师网络培训学教法" target="_blank"><img src="./rjdt/rjdt/201605/W020160506361253957700.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><span>2016-05-16</span><a href="./rjdt/rjdt/201605/t20160516_1264952.shtml" target="_blank" title="让教师培训在“六度”高空飞翔" class="a1">让教师培训在“六度”高空飞翔</a></li>
+
+
+                    	<li><span>2016-05-16</span><a href="./rjdt/rjdt/201605/t20160516_1264940.shtml" target="_blank" title="“人教数字校园”为青山教育信息化扬帆">“人教数字校园”为青山教育信息化扬帆</a></li>
+
+                    	<li><span>2016-05-10</span><a href="./rjdt/rjdt/201605/t20160510_1264893.shtml" target="_blank" title="教学专家“圈粉”无数　全国教师受益良多">教学专家“圈粉”无数　全国教师受益良多</a></li>
+
+                    	<li><span>2016-05-06</span><a href="./rjdt/rjdt/201605/t20160506_1264862.shtml" target="_blank" title="近20万名中小学英语教师网络培训学教法">近20万名中小学英语教师网络培训学教法</a></li>
+
+                    	<li><span>2015-03-09</span><a href="./rjdt/xw_tp/rjjx/201503/t20150309_1229743.shtml" target="_blank" title="人民教育出版社出版发行高级研修班在海南举办">人民教育出版社出版发行高级研修班在海南举办</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+           
+        </div>
+        <div class="main3_1">
+        	<a class="a1">教育科研</a>
+        </div>
+        <div class="main3_2">
+<div class="index_close" style="top: 0px;right: 26%;position: absolute;"> <img src="./images/sytmtb.png"></div>
+        	<div class="main3_2t yxj_li">
+            	<ul>
+                	<li class="select" style="background:#00724c;float:left; padding:0; margin-right:284px; width:104px;">
+                       <a href="./kcs/" target="_blank" style="color:#fff; font-size:16px;">教育科研</a></li>
+
+                <li>学术</li>
+
+                <li>课题</li>
+
+                <li>课程</li>
+
+                <li>基地</li>
+
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="main3_2m">
+            	<div class="main3_2m_l">
+                   
+                     <a href="./kydt/ky_xs/201508/t20150806_1236596.shtml" title="史上最火《教育学》是怎样炼成的" target="_blank"><img src="./kydt/ky_xs/201508/W020170223355698403528.jpg"></a>
+         
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="./kydt/ky_xs/201508/t20150806_1236596.shtml" target="_blank" title="史上最火《教育学》是怎样炼成的" class="a1">史上最火《教育学》是怎样炼成的</a></li>
+
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2015/80/201512/t20151216_1254598.shtml" target="_blank" title="国共教科书中的两种“抗日”">国共教科书中的两种“抗日”</a></li>
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2015/79/201512/t20151216_1254597.shtml" target="_blank" title="百年教科书中“西人东来”之印象">百年教科书中“西人东来”之印象</a></li>
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2015/78/201512/t20151216_1254596.shtml" target="_blank" title="民国小学社会教科书中的地图">民国小学社会教科书中的地图</a></li>
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2015/77/201512/t20151216_1254595.shtml" target="_blank" title="百年中学生物教科书中的“动物们”">百年中学生物教科书中的“动物们”</a></li>
+
+                    </ul>
+
+        
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./xw/zt/xs/tszgbnjks/20/201702/t20170227_1856511.htm" title="清末民国的教科书“自媒体”" target="_blank"><img src="./xw/zt/xs/tszgbnjks/20/201702/W020170227381442363621.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+                    <ul>
+
+                        <li><a href="./xw/zt/xs/tszgbnjks/20/201702/t20170227_1856511.htm" target="_blank" title="清末民国的教科书“自媒体”" class="a1">清末民国的教科书“自媒体”</a></li>
+
+
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2016/101/201702/t20170228_1862824.shtml" target="_blank" title="清末彪蒙书室与“实在易”白话文教科书初试">清末彪蒙书室与“实在易”白话文教科书初试</a></li>
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2016/100/201702/t20170228_1862823.shtml" target="_blank" title="“中华民族”概念在民国教科书如何演变？">“中华民族”概念在民国教科书如何演变？</a></li>
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2016/99/201702/t20170228_1862784.shtml" target="_blank" title="百年中学化学教科书中的“学而时习之”">百年中学化学教科书中的“学而时习之”</a></li>
+
+                    	<li><a href="./xw/zt/xs/zhdsb/2016/98/201702/t20170228_1862783.shtml" target="_blank" title="黑板、粉笔与黑板图画教科书">黑板、粉笔与黑板图画教科书</a></li>
+
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./kydt/ky_kt/201010/t20101021_939834.shtml" title="《农村中小学教学模式变革的研究与实验》开题报告会图片集" target="_blank"><img src="./kydt/ky_kt/201010/W020151127400102891224.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">                   
+
+
+                    <ul>
+
+                        <li><a href="./kcs/ktgl/sbgl/201210/t20121008_1140125.shtml" target="_blank" title="课程教材研究所“十二五”课题申报、审批与管理办法" class="a1">课程教材研究所“十二五”课题申报、审批与管理办法</a></li>
+
+
+                    	<li><a href="./kcs/ktgl/sbgl/201210/t20121008_1140120.shtml" target="_blank" title="课程教材研究所“十二五规划”课题申请·评审书">课程教材研究所“十二五规划”课题申请·评审书</a></li>
+
+                    	<li><a href="./kcs/ktgl/sbgl/201010/t20101008_923344.shtml" target="_blank" title="课程教材研究所“十一五”规划重点课题申报、审批与管理办法（试行）">课程教材研究所“十一五”规划重点课题申报...</a></li>
+
+                    	<li><a href="./kydt/ky_kt/201010/t20101021_939834.shtml" target="_blank" title="《农村中小学教学模式变革的研究与实验》开题报告会图片集">《农村中小学教学模式变革的研究与实验》开...</a></li>
+
+                    	<li><a href="./kcs/ktgl/sbgl/201010/t20101008_923343.shtml" target="_blank" title="课程教材研究所课题结题鉴定一览表">课程教材研究所课题结题鉴定一览表</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./kcs/kcyj/kgsj/xbkc/201112/t20111209_1088378.shtml" title="校本课程的特色与学校更新" target="_blank"><img src="./kcs/kcyj/kgsj/xbkc/201112/W020151127401650602188.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">                   
+
+
+                    <ul>
+
+                        <li><a href="./kcs/kcyj/kcll/kcss/201204/t20120410_1117959.shtml" target="_blank" title="探究式学习：学生知识的自主建构" class="a1">探究式学习：学生知识的自主建构</a></li>
+
+
+                    	<li><a href="./kcs/kcyj/kcll/kcss/201204/t20120410_1117960.shtml" target="_blank" title="鼓励创新：新课程课堂教学改革的核心">鼓励创新：新课程课堂教学改革的核心</a></li>
+
+                    	<li><a href="./kcs/kcyj/kcll/kcss/201204/t20120410_1117961.shtml" target="_blank" title="我们究竟需要什么样的基础">我们究竟需要什么样的基础</a></li>
+
+                    	<li><a href="./kcs/kcyj/kcll/kcss/201204/t20120410_1117956.shtml" target="_blank" title="关于课程标准的几点思考">关于课程标准的几点思考</a></li>
+
+                    	<li><a href="./kcs/kcyj/kcll/kcss/201204/t20120410_1117955.shtml" target="_blank" title="试论基于课程标准的学生学业成就评价*">试论基于课程标准的学生学业成就评价*</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./kcs/kydt/201504/t20150427_1232794.shtml" title="第一届人民教育出版社课程教材研究所实验基地交流研讨会在宜昌召开" target="_blank"><img src="./kcs/kydt/201504/W020151127405809557621.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">                   
+
+
+                    <ul>
+
+                        <li><a href="./rjdt/xw_tp/rjjx/201506/t20150616_1235736.shtml" target="_blank" title="人教社课程所唐山市实验基地授牌仪式暨学术报告会在河北省唐山市举行" class="a1">人教社课程所唐山市实验基地授牌仪式暨学术报告会在河北省唐山市举行</a></li>
+
+
+                    	<li><a href="./rjdt/xw_tp/rjjx/201506/t20150616_1235730.shtml" target="_blank" title="人教社课程所大连市实验基地授牌仪式暨学术报告会在辽宁省大连市举行">人教社课程所大连市实验基地授牌仪式暨学术...</a></li>
+
+                    	<li><a href="./rjdt/rjdt/201505/t20150519_1234128.shtml" target="_blank" title="人教社吕梁市实验基地挂牌仪式暨辛安亭教育思想座谈会召开">人教社吕梁市实验基地挂牌仪式暨辛安亭教育...</a></li>
+
+                    	<li><a href="./kcs/kydt/201504/t20150427_1232794.shtml" target="_blank" title="第一届人民教育出版社课程教材研究所实验基地交流研讨会在宜昌召开">第一届人民教育出版社课程教材研究所实验基...</a></li>
+
+                    	<li><a href="./kcs/kydt/201504/t20150427_1232769.shtml" target="_blank" title="第九次全国课程学术研讨会在上海召开">第九次全国课程学术研讨会在上海召开</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            
+        </div>
+        <div class="main3_1">
+        	<a href="#" class="a3">教与学</a>
+        </div>
+        <div class="main3_2">
+<div class="index_close" style="top: 0px;right: 14%;position: absolute;"> <img src="./images/sytmtb.png"></div>
+        	<div class="main3_2t yxj_li">
+            	<ul>
+                	<li class="select" style="background:#00724c;float:left; padding:0; margin-right:284px; width:104px;text-align: center;cursor: default;">
+                       <a style="color:#fff; font-size:16px;cursor: default;">教与学</a></li>
+
+                <li>资源</li>
+
+                <li>课程</li>
+
+                <li>培训</li>
+
+                <li>活动</li>
+
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="main3_2m">
+            	<div class="main3_2m_l" id="jys_sp"><a href="http://xiaoyu.pep.com.cn/xxsx_176803/xxsxwd/201711/t20171120_1920650.shtml" title="一年级上册第五单元单元说明 target=" _blank'=""><img src="http://xiaoyu.pep.com.cn/xxsx_176803/xxsxwd/201711/W020171120373509048511.png"></a></div>
+                <div class="main3_2m_r">
+                    <ul id="jys_list"><li><a href="http://xiaoyu.pep.com.cn/xxsx_176803/xxsxwd/201711/t20171120_1920650.shtml" target="_blank" class="a1" title="一年级上册第五单元单元说明">一年级上册第五单元单元说明</a></li><li><a href="http://www.pep.com.cn/czyw/czyw/001/201710/t20171030_1920328.shtml" target="_blank" title="八上第一单元简介">八上第一单元简介</a></li><li><a href="http://www.pep.com.cn/ddyfzxx/rjbddyfzxx/rjxxdfwd/201406/t20140627_1378986.html" target="_blank" title="日本小学课堂促进学生言语表达活动的教育主张及实践">日本小学课堂促进学生言语表达活动的教育主张及实践</a></li><li><a href="http://www.pep.com.cn/sxpd/bbbddyfzcz/wd/201705/t20170531_1893710.shtml" target="_blank" title="《享受学习》重难点分析">《享受学习》重难点分析</a></li><li><a href="http://www.pep.com.cn/czls/bbbczls/bbczlswd/201611/t20161117_1504023.shtml" target="_blank" title="《第2课　原始农耕生活》教学建议和案例">《第2课　原始农耕生活》教学建议和案例</a></li></ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+<script>
+
+    function getNumb(list_l,count){
+        var num = new Array();
+        for(var i = 0; i < count; i++){
+            var val =  Math.ceil(Math.random()* list_l);
+            var isEqu = false;
+            for(var idx in num){
+                if(num[idx] == val-1){isEqu = true; break;}
+            }
+            if(isEqu)
+                i--;
+            else
+                num[num.length] = val-1;
+        }
+        return num;
+    }
+
+var xxyw= new Array();
+var czyw= new Array();
+var xxdf= new Array();
+var czdf= new Array();
+var czls= new Array();
+
+var html ='';
+var title,href,dq,title_sub,docretime,img;
+
+
+	$.ajax({     
+		type: "POST",     
+		url: "hp_jyx.json",     
+		dataType: "json",
+		contentType: "application/json; charset=utf-8",     
+		success: function (data) {
+				//小学语文
+				xxyw= getNumb(data.xxyw.length,1);
+				dq = xxyw[0];
+				href = data.xxyw[dq].HREF;
+				title = data.xxyw[dq].TITLE;
+				title_sub = data.xxyw[dq].TITLE_SUB;
+				docretime = data.xxyw[dq].DOCRELTIME;
+				img = data.xxyw[dq].IMG;
+				$("<li><a href='"+href+"' target='_blank' class='a1' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jys_list");
+				$("<a href='"+href+"' title='"+title+" target='_blank'><img src='"+img+"' /></a>").appendTo("#jys_sp");
+
+
+				czyw= getNumb(data.czyw.length,1);
+				dq = czyw[0];
+				href = data.czyw[dq].HREF;
+				title = data.czyw[dq].TITLE;
+				title_sub = data.czyw[dq].TITLE_SUB;
+				docretime = data.czyw[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jys_list");
+
+				xxdf= getNumb(data.xxdf.length,1);
+				dq = xxdf[0];
+				href = data.xxdf[dq].HREF;
+				title = data.xxdf[dq].TITLE;
+				title_sub = data.xxdf[dq].TITLE_SUB;
+				docretime = data.xxdf[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jys_list");
+
+				czdf= getNumb(data.czdf.length,1);
+				dq = czdf[0];
+				href = data.czdf[dq].HREF;
+				title = data.czdf[dq].TITLE;
+				title_sub = data.czdf[dq].TITLE_SUB;
+				docretime = data.czdf[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jys_list");
+
+				czls= getNumb(data.czls.length,1);
+				dq = czls[0];
+				href = data.czls[dq].HREF;
+				title = data.czls[dq].TITLE;
+				title_sub = data.czls[dq].TITLE_SUB;
+				docretime = data.czls[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jys_list");
+
+
+			},     
+		error: function (XMLHttpRequest, textStatus, errorThrown) {     
+		alert(errorThrown);     
+		}  
+	});	
+</script>            
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l" id="jyxzy_sp"><a href="http://xiaoyu.pep.com.cn/xxsx_176803/xxsxwd/201711/t20171120_1920681.shtml" title="《雨点儿》教学设计 target=" _blank'=""><img src="http://xiaoyu.pep.com.cn/xxsx_176803/xxsxwd/201711/W020171120614840627712.png"></a></div>
+                <div class="main3_2m_r">
+                    <ul id="jyxzy"><li><a href="http://xiaoyu.pep.com.cn/xxsx_176803/xxsxwd/201711/t20171120_1920681.shtml" target="_blank" class="a1" title="《雨点儿》教学设计">《雨点儿》教学设计</a></li><li><a href="http://www.pep.com.cn/czyw/czyw/001/201710/t20171030_1920334.shtml" target="_blank" title="八上第三单元简介">八上第三单元简介</a></li><li><a href="http://www.pep.com.cn/ddyfzxx/bbbddyfzxx/wd/201711/t20171123_1920754.shtml" target="_blank" title="《美丽的冬天》教学设计第2课时">《美丽的冬天》教学设计第2课时</a></li><li><a href="http://www.pep.com.cn/sxpd/bbbddyfzcz/wd/201710/t20171011_1920192.shtml" target="_blank" title="第四课《社会生活讲道德》教学目标和设计依据">第四课《社会生活讲道德》教学目标和设计依据</a></li><li><a href="http://www.pep.com.cn/czls/bbbczls/bbczlswd/201711/t20171102_1920421.shtml" target="_blank" title="第7课《抗击八国联军》课后活动参考答案">第7课《抗击八国联军》课后活动参考答案</a></li></ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+
+<script>
+var xxyw1= new Array();
+var czyw1= new Array();
+var xxdf1= new Array();
+var czdf1= new Array();
+var czls1= new Array();
+
+var html ='';
+var title,href,dq,title_sub,docretime,img;
+
+
+	$.ajax({     
+		type: "GET",     
+		url: "hp_jyx.json",     
+		dataType: "json",
+		contentType: "application/json; charset=utf-8",     
+		success: function (data) {
+				//小学语文
+				xxyw= getNumb(data.xxyw_n.length,1);
+				dq = xxyw[0];
+				href = data.xxyw[dq].HREF;
+				title = data.xxyw[dq].TITLE;
+				title_sub = data.xxyw[dq].TITLE_SUB;
+				docretime = data.xxyw[dq].DOCRELTIME;
+				img = data.xxyw[dq].IMG;
+				$("<li><a href='"+href+"' target='_blank' class='a1' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jyxzy");
+				$("<a href='"+href+"' title='"+title+" target='_blank'><img src='"+img+"' /></a>").appendTo("#jyxzy_sp");
+
+
+				czyw= getNumb(data.czyw_n.length,1);
+				dq = czyw[0];
+				href = data.czyw[dq].HREF;
+				title = data.czyw[dq].TITLE;
+				title_sub = data.czyw[dq].TITLE_SUB;
+				docretime = data.czyw[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jyxzy");
+
+				xxdf= getNumb(data.xxdf_n.length,1);
+				dq = xxdf[0];
+				href = data.xxdf[dq].HREF;
+				title = data.xxdf[dq].TITLE;
+				title_sub = data.xxdf[dq].TITLE_SUB;
+				docretime = data.xxdf[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jyxzy");
+
+				czdf= getNumb(data.czdf_n.length,1);
+				dq = czdf[0];
+				href = data.czdf[dq].HREF;
+				title = data.czdf[dq].TITLE;
+				title_sub = data.czdf[dq].TITLE_SUB;
+				docretime = data.czdf[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jyxzy");
+
+				czls= getNumb(data.czls_n.length,1);
+				dq = czls[0];
+				href = data.czls[dq].HREF;
+				title = data.czls[dq].TITLE;
+				title_sub = data.czls[dq].TITLE_SUB;
+				docretime = data.czls[dq].DOCRELTIME;
+				$("<li><a href='"+href+"' target='_blank' title='"+title+"'>"+title_sub+"</a></li>").appendTo("#jyxzy");
+
+
+			},     
+		error: function (XMLHttpRequest, textStatus, errorThrown) {     
+		alert(errorThrown);     
+		}  
+	});	
+</script> 
+
+            
+            
+            
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="http://px.pep.com.cn/zaixianketang.php?activityid=67" title="“我爱我家”教学策略与课例观摩" target="_blank"><img src="./pxfw/zxzbkt/201704/W020170421523425660670.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="http://px.pep.com.cn/zaixianketang.php?activityid=67" target="_blank" title="“我爱我家”教学策略与课例观摩" class="a1">“我爱我家”教学策略与课例观摩</a></li>
+
+
+                    	<li><a href="http://px.pep.com.cn/zaixianketang.php?activityid=69" target="_blank" title="运用连结推论策略 培养学生良好习惯">运用连结推论策略 培养学生良好习惯</a></li>
+
+                    	<li><a href="http://px.pep.com.cn/zaixianketang.php?activityid=27" target="_blank" title="感悟真情，体悟写法(三）">感悟真情，体悟写法(三）</a></li>
+
+                    	<li><a href="http://px.pep.com.cn/zaixianketang.php?activityid=30" target="_blank" title="小学语文预测策略教学——以一年级下册第四单元为例(二）">小学语文预测策略教学——以一年级下册第四...</a></li>
+
+                    	<li><a href="http://px.pep.com.cn/zaixianketang.php?activityid=31" target="_blank" title="小学语文连接策略教学——以二年级下册第四单元为例(一）">小学语文连接策略教学——以二年级下册第四...</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="http://www.pep.com.cn/zt/16pxh/gzsx/gzsxsp/201611/t20161122_1504359.shtml" title="&lt;高中数学&gt;高中数学课程标准修订与数学核心素养" target="_blank"><img src="./jyx/jyx_px/201704/W020170421544960083267.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="http://www.pep.com.cn/zt/16pxh/gzsx/gzsxsp/201611/t20161122_1504359.shtml" target="_blank" title="&lt;高中数学&gt;高中数学课程标准修订与数学核心素养" class="a1">&lt;高中数学&gt;高中数学课程标准修订与数学核心素养</a></li>
+
+
+                    	<li><a href="http://www.pep.com.cn/zt/16pxh/gzhxpx/gzhxsp/201611/t20161117_1504011.shtml" target="_blank" title="&lt;高中化学&gt;创造性地开发和使用教材">&lt;高中化学&gt;创造性地开发和使用教材</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/zt/16pxh/tyyjk/tyjksp/201611/t20161117_1503971.shtml" target="_blank" title="&lt;高中体育与健康&gt;体育运动与现代人格塑造">&lt;高中体育与健康&gt;体育运动与现代人格塑造</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/zt/16pxh/yy/sp/201611/t20161117_1503928.shtml" target="_blank" title="&lt;音乐&gt;从教材、教法到课堂">&lt;音乐&gt;从教材、教法到课堂</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/zt/16pxh/gzyy/gzyysp/201611/t20161121_1504267.shtml" target="_blank" title="&lt;高中英语&gt;英语学科核心素养与课堂教学改革">&lt;高中英语&gt;英语学科核心素养与课堂教学改革</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="http://hd.pep.com.cn/web/index.php?/courselist/showDetail/135/1388" title="全国中学历史录像课评比活动人气作品欣赏之——《戊戌变法》" target="_blank"><img src="./jyx/jyx_hd/201704/W020170421575666209053.png"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="http://hd.pep.com.cn/web/index.php?/courselist/showDetail/135/1388" target="_blank" title="全国中学历史录像课评比活动人气作品欣赏之——《戊戌变法》" class="a1">全国中学历史录像课评比活动人气作品欣赏之——《戊戌变法》</a></li>
+
+
+                    	<li><a href="http://hd.pep.com.cn/web/index.php?/courselist/showDetail/135/1420" target="_blank" title="全国中学历史录像课评比活动人气作品欣赏之——《北方民族大融合》">全国中学历史录像课评比活动人气作品欣赏之...</a></li>
+
+                    	<li><a href="http://hd.pep.com.cn/web/index.php?/courselist/showDetail/135/1587" target="_blank" title="全国中学历史录像课评比活动人气作品欣赏之——《明朝君权的加强》">全国中学历史录像课评比活动人气作品欣赏之...</a></li>
+
+                    	<li><a href="http://hd.pep.com.cn/web/index.php?/courselist/showDetail/135/1526" target="_blank" title="全国中学历史录像课评比活动人气作品欣赏之——《鸦片战争》">全国中学历史录像课评比活动人气作品欣赏之...</a></li>
+
+                    	<li><a href="http://hd.pep.com.cn/web/index.php?/courselist/showDetail/135/1696" target="_blank" title="全国中学历史录像课评比活动人气作品欣赏之——《开辟新航路》">全国中学历史录像课评比活动人气作品欣赏之...</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+            
+        </div>
+        <div class="main3_1">
+        	<a href="#" class="a4">产品中心</a>
+        </div>
+        <div class="main3_2">
+<div class="index_close" style="top: 0px;right: 2%;position: absolute;"> <img src="./images/sytmtb.png"></div>
+        	<div class="main3_2t yxj_li">
+            	<ul>
+                	<li class="select" style="background:#00724c;float:left; padding:0; margin-right:284px; width:104px;">
+                       <a href="http://www.pep.com.cn/products/" style="color:#fff; font-size:16px;">产品中心</a></li>
+
+                <li>公告</li>
+
+                <li>最新</li>
+
+                <li>推荐</li>
+
+                <li>获奖</li>
+
+
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="main3_2m">
+            	<div class="main3_2m_l">
+<!-- 
+                     <a href="./cpdt/cp_gg/201702/t20170215_1785142.shtml" title="陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行" target="_blank"><img src="./cpdt/cp_gg/201702/W020170215533210076700.jpg" /></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="./cpdt/cp_gg/201702/t20170215_1785142.shtml" target="_blank" title="陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行" class='a1'>陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行</a></li>
+
+
+                    	<li><a href="./cpdt/cp_gg/201609/t20160902_1370219.shtml" target="_blank" title="《日本侵华殖民教育史料》首发式在京举行">《日本侵华殖民教育史料》首发式在京举行</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201508/t20150812_1236624.shtml" target="_blank" title="人教社2015年全国书城示范店合作推进会在上海市召开">人教社2015年全国书城示范店合作推进会在上...</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201508/t20150812_1236622.shtml" target="_blank" title="人教社召开2015年人教版音像教材发行工作语文专题推进会">人教社召开2015年人教版音像教材发行工作语...</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201508/t20150812_1236619.shtml" target="_blank" title="《温家宝谈教育》繁体字版由人教社正式出版并在全球首发"> 《温家宝谈教育》繁体字版由人教社正式出版...</a></li>
+
+                    </ul>
+-->
+
+     <a href="./products/dzyxn/cz/yw/201801/t20180104_1921713.shtml" title="义务教育课程标准实验教科书 语文 九年级下册 CD版" target="_blank"><img src="./products/dzyxn/cz/yw/201801/W020180105542480452980.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+   <ul>
+         
+                        <li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921713.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 九年级下册 CD版" class="a1">义务教育课程标准实验教科书 语文 九年级下册 CD版</a></li>
+
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921712.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 九年级上册 CD版">义务教育课程标准实验教科书 语文 九年级上...</a></li>
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921711.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 八年级下册 CD版">义务教育课程标准实验教科书 语文 八年级下...</a></li>
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921710.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 八年级上册 CD版">义务教育课程标准实验教科书 语文 八年级上...</a></li>
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921709.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 七年级下册 CD版">义务教育课程标准实验教科书 语文 七年级下...</a></li>
+
+                    </ul>
+
+
+                
+                </div>
+                <div class="clear"></div>
+            </div>
+           <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./cpdt/cp_gg/201702/t20170215_1785142.shtml" title="陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行" target="_blank"><img src="./cpdt/cp_gg/201702/W020170215533210076700.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="./cpdt/cp_gg/201702/t20170215_1785142.shtml" target="_blank" title="陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行" class="a1">陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行</a></li>
+
+
+                    	<li><a href="./cpdt/cp_gg/201609/t20160902_1370219.shtml" target="_blank" title="《日本侵华殖民教育史料》首发式在京举行">《日本侵华殖民教育史料》首发式在京举行</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201603/t20160314_1258917.shtml" target="_blank" title="人教社举行《陶行知大传》首发式">人教社举行《陶行知大传》首发式</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201601/t20160112_1254653.shtml" target="_blank" title="2015中国童书榜揭晓　人教童书榜上有名">2015中国童书榜揭晓　人教童书榜上有名</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201512/t20151224_1254635.shtml" target="_blank" title="《中华经典》弘扬传播经典，彰显中国精神，中国教育电视台盛大开播">《中华经典》弘扬传播经典，彰显中国精神，...</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+          
+<div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+<!--
+                    <a href="./cpdt/cp_zx/201505/t20150526_1234607.shtml" title="中小学校园足球学生用书" target="_blank"><img src="./cpdt/cp_zx/201505/W020151127411324847175.jpg" /></a>
+-->
+
+
+     <a href="./products/dzyxn/cz/yw/201801/t20180104_1921713.shtml" title="义务教育课程标准实验教科书 语文 九年级下册 CD版" target="_blank"><img src="./products/dzyxn/cz/yw/201801/W020180105542490172443.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+   <ul>
+         
+                        <li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921713.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 九年级下册 CD版" class="a1">义务教育课程标准实验教科书 语文 九年级下册 CD版</a></li>
+
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921712.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 九年级上册 CD版">义务教育课程标准实验教科书 语文 九年级上...</a></li>
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921711.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 八年级下册 CD版">义务教育课程标准实验教科书 语文 八年级下...</a></li>
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921710.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 八年级上册 CD版">义务教育课程标准实验教科书 语文 八年级上...</a></li>
+
+                    	<li><a href="./products/dzyxn/cz/yw/201801/t20180104_1921709.shtml" target="_blank" title="义务教育课程标准实验教科书 语文 七年级下册 CD版">义务教育课程标准实验教科书 语文 七年级下...</a></li>
+
+                    </ul>
+
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+<div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+<!--
+                    <a href="http://www.pepresource.com/product/show584.html" title="中华文化关键词挂图（第一辑）" target="_blank"><img src="./cpdt/cp_tj/201403/W020151127411880724045.jpg" /></a>
+-->
+
+
+     <a href="./products/zhytu/rjtsh/201610/t20161025_1461535.shtml" title="精神的三间小屋/语文素养读本（丛书）初中卷" target="_blank"><img src="./products/zhytu/rjtsh/201610/W020180105542497716591.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+
+   <ul>
+         
+                <li><a href="./products/zhytu/rjtsh/201610/t20161025_1461535.shtml" target="_blank" title="精神的三间小屋/语文素养读本（丛书）初中卷" class="a1">精神的三间小屋/语文素养读本（丛书）初中卷</a></li>
+         
+         
+                  <li><a href="./products/zhytu/rjtsh/xndbkg/201604/t20160422_1263708.shtml" target="_blank" title="奇妙的光/小牛顿百科馆 第一辑">奇妙的光/小牛顿百科馆 第一辑</a></li>
+         
+                  <li><a href="./products/zhytu/rjtsh/xndbkg/201604/t20160422_1263699.shtml" target="_blank" title="科学游戏(一)/小牛顿百科馆 第二辑">科学游戏(一)/小牛顿百科馆 第二辑</a></li>
+         
+                  <li><a href="./products/zhytu/rjtsh/xndbkg/201604/t20160422_1263686.shtml" target="_blank" title="文房四宝/小牛顿百科馆 第四辑">文房四宝/小牛顿百科馆 第四辑</a></li>
+         
+                  <li><a href="./products/zhytu/rjtsh/201603/t20160319_1259239.shtml" target="_blank" title="小鸟的晨歌 一年级 上册/语文素养读本 小学卷">小鸟的晨歌 一年级 上册/语文素养读本 小学卷</a></li>
+         
+    </ul>
+
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+<div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./cpdt/cp_hj/201603/t20160302_1258449.shtml" title="人民教育出版社两套丛书入选“图书版权输出奖励计划”" target="_blank"><img src="./cpdt/cp_hj/201603/W020160302580688501707.jpg"></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="./cpdt/cp_hj/201603/t20160302_1258449.shtml" target="_blank" title="人民教育出版社两套丛书入选“图书版权输出奖励计划”" class="a1">人民教育出版社两套丛书入选“图书版权输出奖励计划”</a></li>
+
+
+                    	<li><a href="./cpdt/cp_hj/201601/t20160129_1258114.shtml" target="_blank" title="人教社“数字化”发展再添三项荣誉">人教社“数字化”发展再添三项荣誉</a></li>
+
+                    	<li><a href="./cpdt/cp_hj/201509/t20150914_1252208.shtml" target="_blank" title="人教社《熊猫桐桐绘本丛书·彩虹蝴蝶结》获2015年“丝路书香工程”重点翻译项目资助">人教社《熊猫桐桐绘本丛书·彩虹蝴蝶结》获2...</a></li>
+
+                    	<li><a href="./cpdt/cp_hj/201507/t20150717_1236351.shtml" target="_blank" title="《2014年新闻出版产业分析报告》出炉&lt;br&gt;人民教育出版社第五次蝉联综合排名第一名">《2014年新闻出版产业分析报告》出炉
+　　人...</a></li>
+
+                    	<li><a href="./cpdt/cp_hj/201507/t20150717_1236349.shtml" target="_blank" title="人教社荣获2014—2015年度数字出版创新企业奖">人教社荣获2014—2015年度数字出版创新企业奖</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+<!--
+   
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./cpdt/cp_gg/201702/t20170215_1785142.shtml" title="陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行" target="_blank"><img src="./cpdt/cp_gg/201702/W020170215533210076700.jpg" /></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="./cpdt/cp_gg/201702/t20170215_1785142.shtml" target="_blank" title="陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行" class='a1'>陈自鹏教育思想研讨会暨《教师幸福追求之道》首发式举行</a></li>
+
+
+                    	<li><a href="./cpdt/cp_gg/201609/t20160902_1370219.shtml" target="_blank" title="《日本侵华殖民教育史料》首发式在京举行">《日本侵华殖民教育史料》首发式在京举行</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201603/t20160314_1258917.shtml" target="_blank" title="人教社举行《陶行知大传》首发式">人教社举行《陶行知大传》首发式</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201601/t20160112_1254653.shtml" target="_blank" title="2015中国童书榜揭晓　人教童书榜上有名">2015中国童书榜揭晓　人教童书榜上有名</a></li>
+
+                    	<li><a href="./cpdt/cp_gg/201512/t20151224_1254635.shtml" target="_blank" title="《中华经典》弘扬传播经典，彰显中国精神，中国教育电视台盛大开播">《中华经典》弘扬传播经典，彰显中国精神，...</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+   
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./cpdt/cp_zx/201505/t20150526_1234607.shtml" title="中小学校园足球学生用书" target="_blank"><img src="./cpdt/cp_zx/201505/W020151127411324847175.jpg" /></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="./cpdt/cp_zx/201505/t20150526_1234659.shtml" target="_blank" title="石版画研究" class='a1'>石版画研究</a></li>
+
+
+                    	<li><a href="./cpdt/cp_zx/201505/t20150526_1234652.shtml" target="_blank" title="中小学教师工作政策研究">中小学教师工作政策研究</a></li>
+
+                    	<li><a href="./cpdt/cp_zx/201505/t20150526_1234633.shtml" target="_blank" title="幼儿饮食行为与健康教育">幼儿饮食行为与健康教育</a></li>
+
+                    	<li><a href="./cpdt/cp_zx/201505/t20150526_1234607.shtml" target="_blank" title="中小学校园足球学生用书">中小学校园足球学生用书</a></li>
+
+                    	<li><a href="./cpdt/cp_zx/201505/t20150526_1234599.shtml" target="_blank" title="初中生物学习进阶指导">初中生物学习进阶指导</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+   
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="http://www.pepresource.com/product/show584.html" title="中华文化关键词挂图（第一辑）" target="_blank"><img src="./cpdt/cp_tj/201403/W020151127411880724045.jpg" /></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="http://www.pep.com.cn/xgjy/jyyj/jyts/qtts/xxywztjxyj/index.htm" target="_blank" title="《小学语文主题教学研究》" class='a1'>《小学语文主题教学研究》</a></li>
+
+
+                    	<li><a href="http://www.pep.com.cn/xgjy/jyyj/jyts/jysk/hysj/mkcsljylzx/index.htm" target="_blank" title="《牧口常三郎教育论著选》">《牧口常三郎教育论著选》</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/xgjy/jyyj/jyts/jysk/hysj/adjy/" target="_blank" title="《爱的教育》">《爱的教育》</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/xgjy/jyyj/jyts/qtts/lty_1_1_1_1/index.htm" target="_blank" title="《顾明远教育演讲录》">《顾明远教育演讲录》</a></li>
+
+                    	<li><a href="http://www.pep.com.cn/xgjy/jyyj/jyts/jysk/hysj/shmlsj/index.htm" target="_blank" title="《苏霍姆林斯基教育智慧格言》">《苏霍姆林斯基教育智慧格言》</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+   
+
+            <div class="main3_2m" style="display:none;">
+            	<div class="main3_2m_l">
+
+                    <a href="./cpdt/cp_hj/201603/t20160302_1258449.shtml" title="人民教育出版社两套丛书入选“图书版权输出奖励计划”" target="_blank"><img src="./cpdt/cp_hj/201603/W020160302580688501707.jpg" /></a>
+
+                </div>
+                <div class="main3_2m_r">
+
+                    <ul>
+
+                        <li><a href="./cpdt/cp_hj/201603/t20160302_1258449.shtml" target="_blank" title="人民教育出版社两套丛书入选“图书版权输出奖励计划”" class='a1'>人民教育出版社两套丛书入选“图书版权输出奖励计划”</a></li>
+
+
+                    	<li><a href="./cpdt/cp_hj/201601/t20160129_1258114.shtml" target="_blank" title="人教社“数字化”发展再添三项荣誉">人教社“数字化”发展再添三项荣誉</a></li>
+
+                    	<li><a href="./cpdt/cp_hj/201509/t20150914_1252208.shtml" target="_blank" title="人教社《熊猫桐桐绘本丛书·彩虹蝴蝶结》获2015年“丝路书香工程”重点翻译项目资助">人教社《熊猫桐桐绘本丛书·彩虹蝴蝶结》获2...</a></li>
+
+                    	<li><a href="./cpdt/cp_hj/201507/t20150717_1236351.shtml" target="_blank" title="《2014年新闻出版产业分析报告》出炉&lt;br&gt;人民教育出版社第五次蝉联综合排名第一名">《2014年新闻出版产业分析报告》出炉
+　　人...</a></li>
+
+                    	<li><a href="./cpdt/cp_hj/201507/t20150717_1236349.shtml" target="_blank" title="人教社荣获2014—2015年度数字出版创新企业奖">人教社荣获2014—2015年度数字出版创新企业奖</a></li>
+
+                    </ul>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+   -->       
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="main1_bg clearfix">
+	<ul>
+<!--<div class="lbt_detail" style='top:; right:;'><a href='<a href="http://www1.pep.com.cn/zt/16pxh">2016人教版义务教育新课标教材培训会</a>' target="_blank">&gt;&gt;了解更多</a></div>-->
+    	<li>
+        	<h2>小 学</h2>
+		    <a href="http://www.pep.com.cn/ddyfzxx/" target="_blank">道德与法治</a><br>
+		    <a href="http://xiaoyu.pep.com.cn/" target="_blank">语文</a>
+		    <a href="http://www.pep.com.cn/xxsx/" target="_blank">数学</a>
+		    <a href="http://www.pep.com.cn/xe/" target="_blank">英语</a><br>
+		    <a href="http://www.pep.com.cn/yinyue/" target="_blank">音乐</a>
+		    <a href="http://www.pep.com.cn/meishu/" target="_blank">美术</a>
+		    <a href="http://www.pep.com.cn/xxkx/" target="_blank">科学</a><br>
+		    <a href="http://www.pep.com.cn/tiyu/" target="_blank">体育与健康</a>
+		    <a href="http://www.pep.com.cn/xxjs/" target="_blank">信息技术</a>
+        </li>
+        <li>
+        	<h2>初 中</h2>
+			<a href="http://www.pep.com.cn/sxpd" target="_blank">道德与法治</a>
+			<a href="http://www.pep.com.cn/qtxk/lsysh/" target="_blank">历史与社会</a><br>
+			<a href="http://www.pep.com.cn/czyw/" target="_blank">语文</a>
+			<a href="http://www.pep.com.cn/czsx/" target="_blank">数学</a>
+			<a href="http://www.pep.com.cn/ce/" target="_blank">英语</a>
+			<a href="http://www.pep.com.cn/czwl/" target="_blank">物理</a>
+			<a href="http://www.pep.com.cn/czhx/" target="_blank">化学</a><br>
+			<a href="http://www.pep.com.cn/czsw/" target="_blank">生物</a>
+			<a href="http://www.pep.com.cn/czls/" target="_blank">历史</a>
+			<a href="http://www.pep.com.cn/czdl/" target="_blank">地理</a>
+			<a href="http://www.pep.com.cn/ry/" target="_blank">日语</a>
+			<a href="http://www.pep.com.cn/eyu/" target="_blank">俄语</a><br>
+			<a href="http://www.pep.com.cn/yinyue/" target="_blank">音乐</a>
+			<a href="http://www.pep.com.cn/meishu/" target="_blank">美术</a>
+			<a href="http://www.pep.com.cn/tiyu/" target="_blank">体育与健康</a>
+			<a href="http://www.pep.com.cn/xxjs/" target="_blank">信息技术</a><br>
+        </li>
+        <li>
+        	<h2>高 中</h2>
+            <a href="http://www.pep.com.cn/sxzz/" target="_blank">思想政治</a>
+			<a href="http://www.pep.com.cn/gzsxb/" target="_blank">数学B版</a><br>
+            <a href="http://www.pep.com.cn/gzyw/" target="_blank">语文</a>
+			<a href="http://www.pep.com.cn/gzsx/" target="_blank">数学</a>
+			<a href="http://www.pep.com.cn/ge/" target="_blank">英语</a>
+			<a href="http://www.pep.com.cn/gzwl/" target="_blank">物理</a>
+			<a href="http://www.pep.com.cn/gzhx/" target="_blank">化学</a><br>
+            <a href="http://www.pep.com.cn/gzsw/" target="_blank">生物</a>
+			<a href="http://www.pep.com.cn/gzls" target="_blank">历史</a>
+			<a href="http://www.pep.com.cn/gzdl/" target="_blank">地理</a>
+			<a href="http://www.pep.com.cn/ry/" target="_blank">日语</a>
+			<a href="http://www.pep.com.cn/eyu/" target="_blank">俄语</a><br>
+            <a href="http://www.pep.com.cn/yinyue/" target="_blank">音乐</a>
+			<a href="http://www.pep.com.cn/meishu/" target="_blank">美术</a>
+            <a href="http://www.pep.com.cn/tiyu/" target="_blank">体育与健康</a>
+			<a href="http://www.pep.com.cn/xxjs/" target="_blank">信息技术</a><br>
+        </li>
+<style>.main1_bg ul li a:hover{color: #f13c05;}</style>
+        <li>
+        	<h2><a href="http://zy.pep.com.cn" style="font-size:16px; color:#fff;" target="_blank">职业教育</a></h2>
+            <a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=55&amp;order=publishdate&amp;sort=DESC&amp;courseid=48" target="_blank">职业道德与法律</a><br>
+            <a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=48&amp;order=publishdate&amp;sort=DESC&amp;courseid=49" target="_blank">语文</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=49&amp;order=publishdate&amp;sort=DESC&amp;courseid=54" target="_blank">数学</a>
+		    <a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=54&amp;order=publishdate&amp;sort=DESC&amp;courseid=56" target="_blank">英语</a><br>
+            <a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=56&amp;order=publishdate&amp;sort=DESC&amp;courseid=57" target="_blank">物理</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=57&amp;order=publishdate&amp;sort=DESC&amp;courseid=58" target="_blank">化学</a>
+            <a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=58&amp;order=publishdate&amp;sort=DESC&amp;courseid=55" target="_blank">心理健康</a><br>
+            <a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=55&amp;order=publishdate&amp;sort=DESC&amp;courseid=59" target="_blank">体育与健康</a>
+			<a href="http://zy.pep.com.cn/resource.php?mod=search&amp;adv=yes&amp;searchsubmit=1&amp;keyword=&amp;producer=&amp;srchdate=0&amp;groupid=0&amp;gradeid=0&amp;courseid=59&amp;order=publishdate&amp;sort=DESC&amp;courseid=60">幼儿教育学</a><br>
+        </li>
+        <li>
+        	<h2>相关教育</h2>
+            <a href="http://old.pep.com.cn/xgjy/xqjy/" target="_blank">学前教育</a>
+			<a href="http://old.pep.com.cn/xgjy/gdjy/" target="_blank">高等教育</a><br>
+            <a href="http://old.pep.com.cn/xgjy/tsjy/" target="_blank">特殊教育</a>
+			<a href="http://old.pep.com.cn/xgjy/jiaoshi/" target="_blank">教师教育</a><br>
+            <a href="http://old.pep.com.cn/xgjy/jyyj/" target="_blank">教育研究</a>
+			<a href="http://old.pep.com.cn/xgjy/hyjx/" target="_blank">汉语教学</a><br>
+            <a href="http://old.pep.com.cn/xgjy/xlyj/" target="_blank">心理研究</a>
+			<a href="http://old.pep.com.cn/css/" target="_blank">辞书应用与研究</a><br>
+        </li>
+    </ul>
+</div>
+
+<link href="http://www.pep.com.cn/images/base.css" type="text/css" rel="stylesheet">
+<!--底部样式一-->
+<style>
+.footer .left{margin-right:75px;}
+.foot {min-width: 1140px;width: 100%;}
+.saowei img {
+display: block;
+width: 140px;
+height: 180px;
+}      
+.footer li a:hover {
+color: #f13c05; 
+</style>
+<div class="foot">
+	<div class="footer" style="padding: 20px 0 48px 0;">
+    	<div class="left">
+        	<h2>关于人教</h2>
+            <ul>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/rjjj/" target="_blank">人教简介</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/gc/" target="_blank">高层管理</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/zz/" target="_blank">组织机构</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/jc/" target="_blank">教材纵览</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/jyky/" target="_blank">教育科研</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/gj/" target="_blank">国际交流</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/rjls/" target="_blank">人教历史</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/gy/" target="_blank">公益事业</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/rjgl/ryy/" target="_blank">荣誉</a></li>
+				
+            </ul>
+        </div>
+        <div class="left">
+        	<h2>课程教材研究所</h2>
+            <ul>
+			
+            	<li><a href="http://www.pep.com.cn/kcs/ktgl/" target="_blank">课题管理</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/kcs/kcyj/" target="_blank">课程研究</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/kcs/jcyj/" target="_blank">教材研究</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/kcs/alyj/" target="_blank">案例研究</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/kcs/zyxz/" target="_blank">资源下载</a></li>
+				
+            </ul>
+        	<h2>合作学会</h2>
+            <ul>
+						
+            	<li><a href="http://www.pep.com.cn/xh/xyh/" target="_blank">小语专委会</a></li>
+						
+            	<li><a href="http://www.pep.com.cn/xh/zyh_174090/" target="_blank">中语专委会</a></li>
+						
+            	<li><a href="http://www.pep.com.cn/xh/xhdt/" target="_blank">生物学教学专业委员会</a></li>
+						
+            	<li><a href="http://www.pep.com.cn/xh/hxxh/" target="_blank">中国教育学会化学教学专业委员会</a></li>
+						
+            	<li><a href="http://www.pep.com.cn/xh/dlxh/" target="_blank">中国教育学会地理教学专业委员会</a></li>
+						
+            	<li><a href="http://www.pep.com.cn/xh/wlxh/" target="_blank">中国教育学会物理教学专业委员会</a></li>
+						
+            	<li><a href="http://www.pep.com.cn/xh/lsxh/" target="_blank">中国教育学会历史教学专业委员会</a></li>
+				
+            </ul>
+
+
+        </div>
+        <div class="left">
+
+            <h2>社属企业</h2>
+            <ul>
+				
+            	<li><a href="http://www.pepcbfx.com.cn/" target="_blank" title="人教教材中心有限责任公司">人教教材中心有限责任公司</a></li>
+				
+            	<li><a href="http://www.peeavp.com.cn" target="_blank" title="人民教育电子音像出版社">人民教育电子音像出版社</a></li>
+				
+            	<li><a href="http://szgs.pep.com.cn/" target="_blank" title="人教数字出版有限公司">人教数字出版有限公司</a></li>
+				
+            	<li><a href="http://www.pepyc.com.cn/" target="_blank" title="陕西西北人教玉成文化传媒有限公司">陕西西北人教玉成文化传媒有限公司</a></li>
+			
+            </ul>
+
+            <h2>友情链接</h2>
+            <ul>
+				
+            	<li><a href="http://www.cepmg.com.cn/" target="_blank" title="中国教育出版传媒集团有限公司">中国教育出版传媒集团有限公司</a></li>
+				
+            	<li><a href="http://www.cepmh.com/" target="_blank" title="中国教育出版传媒股份有限公司">中国教育出版传媒股份有限公司</a></li>
+				
+            	<li><a href="http://www.moe.gov.cn/" target="_blank" title="中华人民共和国教育部">中华人民共和国教育部</a></li>
+				
+            	<li><a href="http://www.gapp.gov.cn/" target="_blank" title="中华人民共和国国家新闻出版广电总局">中华人民共和国国家新闻出版广电总局</a></li>
+				
+            	<li><a href="http://www.gov.cn/" target="_blank" title="中华人民共和国中央人民政府">中华人民共和国中央人民政府</a></li>
+				
+            	<li><a href="http://www.sipo.gov.cn/" target="_blank" title="中华人民共和国国家知识产权局">中华人民共和国国家知识产权局</a></li>
+				
+            	<li><a href="http://www.miit.gov.cn/" target="_blank" title="中华人民共和国工业和信息化部">中华人民共和国工业和信息化部</a></li>
+			
+            </ul>
+
+
+        </div>
+        <div class="left">
+        	<h2>相关网站</h2>
+            <ul>
+				
+            	<li><a href="https://jcyjfk.pep.com.cn" target="_blank" title="中小学教材意见反馈平台">中小学教材意见反馈平台</a></li>
+				
+            	<li><a href="http://px.pep.com.cn" target="_blank" title="教师网络培训和服务平台">教师网络培训和服务平台</a></li>
+				
+            	<li><a href="http://www.pepszxy.com/" target="_blank" title="人教数字校园">人教数字校园</a></li>
+				
+            	<li><a href="http://www.mypep.cn/" target="_blank" title="人教e学">人教e学</a></li>
+				
+            	<li><a href="http://www.pepresource.com/" target="_blank" title="人教国际汉语资源">人教国际汉语资源</a></li>
+				
+            	<li><a href="http://www.pep.com.cn/tsg" target="_blank" title="人教图书馆">人教图书馆</a></li>
+				
+            	<li><a href="http://www.pep.com.cn/bks/" target="_blank" title="人教报刊社">人教报刊社</a></li>
+				
+            	<li><a href="http://zxxszhjx.pep.com.cn/" target="_blank" title="《中小学数字化教学》期刊">《中小学数字化教学》期刊</a></li>
+				
+            	<li><a href="http://bbs.pep.com.cn/" target="_blank" title="人教论坛">人教论坛</a></li>
+				
+            	<li><a href="http://shop.pep.com.cn/" target="_blank" title="人教书苑">人教书苑</a></li>
+				
+            	<li><a href="http://zy.pep.com.cn" target="_blank" title="人教版网络配套资源平台">人教版网络配套资源平台</a></li>
+				
+            	<li><a href="http://www.gopep.cn/" target="_blank" title="人教学习网">人教学习网</a></li>
+				
+            	<li><a href="http://send.pep.com.cn" target="_blank" title="人教网投稿平台">人教网投稿平台</a></li>
+				
+            	<li><a href="http://bkstg.pep.com.cn" target="_blank" title="人教报刊社投稿平台">人教报刊社投稿平台</a></li>
+			
+            </ul>
+        </div>
+        <div class="left">
+        	<h2>联系我们</h2>
+            <ul>
+			
+            	<li><a href="http://www.pep.com.cn/lxwm/khfw/" target="_blank">客户服务</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/lxwm/cy/" target="_blank">常用信息</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/lxwm/bj/" target="_blank">编辑部门</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/lxwm/zn/" target="_blank">职能部门</a></li>
+			
+            	<li><a href="http://www.pep.com.cn/lxwm/ss/" target="_blank">社属企业</a></li>
+			
+            </ul>
+        </div>
+        <div class="left" style="margin-right:0px;">
+        	<h2>咨询电话</h2>
+            <ul>
+            	<li><a href="#" class="a">电话：<b>010-58758866</b></a></li>
+                <li><a href="#" class="a">　　　<b>400-810-5788</b></a></li>
+				<li><a href="#" class="a">传真：010-58758877  </a></li>
+				<li><a href="#" class="a">邮箱：pep@pep.com.cn</a></li>
+            </ul>
+        </div>
+    	<div class="clear"></div>
+        <div class="saowei" style="display:none;">
+        	<img src="http://www.pep.com.cn/images/wei.jpg">
+            <!--<span>微信扫一扫<br>关注我们相关的信息</span>-->
+        </div>
+    </div>
+</div>
+<div class="foot1" style="min-width: 1140px;width: 100%;">
+	<div class="footer1">
+    	<ul>
+        	<li><a href="http://www.pep.com.cn/banquan/" target="_blank">版权信息</a><span>|</span></li>
+            <!--<li><a href="#">人才招聘</a><span>|</span></li>
+            <li><a href="#">网站地图</a><span>|</span></li>-->
+            <li><a href="http://www.pep.com.cn/lxwm/" target="_blank">联系我们</a><span>|</span></li>
+            <!--<li><a href="#">反馈</a><span>|</span></li>-->
+            <li><a href="http://old.pep.com.cn" target="_blank">旧站入口</a><span>|</span></li>
+            <!--li><a href="http://www.alexa.cn"  target="_blank">ALEXA</a><span style="opacity: 0;">|</span></li-->
+        </ul>
+<style>.footer1 p a{font-size: 12px;color: #fff;}</style>
+        <p>© 版权所有 人民教育出版社&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/publish/query/indexFirst.action" target="_blank">京ICP备05019902号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.pep.com.cn/rjgl/rjdt/201011/t20101103_944967.shtml" target="_blank">新出网证(京)字016</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备110402440009号</p>
+    </div>
+</div>
+<script>
+$(function(){
+	$('.yxj_left').css('height',$('.yxj_right').css('height'));
+	$('div[class=fixed]').hide();
+	$(window).scroll( function() {
+		var scrollValue=$(window).scrollTop();
+		scrollValue > 100 ? $('div[class=fixed]').fadeIn():$('div[class=fixed]').fadeOut();
+	});
+	$('.reture').click(function(){
+		$("html,body").animate({scrollTop:0},200);
+		return false;
+	})
+})
+</script>
+<div class="fixed" style="display: none;">
+    <a href="#" class="reture"></a>
+</div>
+
+<!--底部样式一-->
+
+<!--统计代码start-->
+<div style="display: none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?505934b537b966bd0bc99ecac4714092";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/19030531.js"></script><a href="https://www.51.la/?19030531" target="_blank" title="51.La 网站流量统计系统"><img alt="51.La 网站流量统计系统" src="//icon.users.51.la/icon_0.gif" style="border:none"></a>
+
+<noscript>&lt;a href="http://www.51.la/?19030531" target="_blank"&gt;&lt;img alt="我要啦免费统计" src="http://img.users.51.la/19030531.asp" style="border:none" /&gt;&lt;/a&gt;</noscript>
+<script>
+(function() {
+  var el = document.createElement("script");
+  el.src = "http://106.3.131.15/flux.js?5835222a61c78471054b1281";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(el, s);
+})();
+</script>
+
+</div>
+<!--统计代码end-->
+<script>
+$(function(){
+	$(".index_close").click(function(e) {
+		$(this).parent().attr("style","");
+		$(this).parent().prev("div").show();
+	});
+	
+});
+
+</script>
+
+
+
+</body></html>

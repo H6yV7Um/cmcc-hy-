@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
+	鹏保宝-文件加密-加密软件-视频加密-一机一码
+</title><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="google-site-verification" content="dTbzGOP_iAWhv6vC8xODEaUA2b-C_GLvmerFT7PWfcg"><meta name="alexaVerifyID" content="NvgXW8AYYebUBXPp-jMzMx5HpHA"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-language" content="zh-CN"><meta name="keywords" content="鹏保宝、文件加密、加密软件、视频加密、一机一码"><meta name="description" content="鹏保宝为原创数字内容保价护航！一机一码加密，视频/音频/文档加密软件，防复制、防另存，授权观看，杜绝课程肆意传播，为会计、金融、IT、建造师、考研、电商、医学等领域的培训机构，提供课程加密服务"><link href="css/main.css?v9" rel="Stylesheet" type="text/css"><link href="css/all.css?v=1.00" rel="Stylesheet" type="text/css">
+    <script type="text/javascript" defer="" async="" src="http://e.so.com/search/c.js?u=2846370269"></script><script charset="utf-8" src="https://tag.baidu.com/vcard/v.js?siteid=6123845&amp;url=http%3A%2F%2Fwww.pyc.com.cn%2F&amp;source=&amp;rnd=1461716199&amp;hm=1"></script><script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/b.js"></script>
+    <script src="js/countUp.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //获取url中的参数
+        function Request(strName) {
+            var strHref = window.document.location.href;
+            var intPos = strHref.indexOf("?");
+            var strRight = strHref.substr(intPos + 1);
+
+            var arrTmp = strRight.split("&");
+            for (var i = 0; i < arrTmp.length; i++) {
+                var arrTemp = arrTmp[i].split("=");
+                if (arrTemp[0].toUpperCase() == strName.toUpperCase()) return arrTemp[1];
+            }
+            return "";
+        }
+        if (Request("from") != "m") {
+            if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                window.location.href = "sj/pbb.aspx"; //可以换成http地址
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        var def = "main";
+        function loginout() {
+            Main.loginout().value;
+            $("#login_no").show();
+            $("#login_yes").hide();
+        }
+        $(function () {
+            if (def != "") {
+                $("#" + def).addClass("li_on");
+            }
+            $("#qqslideup").click(function () {
+                $("#qqinfo").animate({ width: "39px", height: "34px" }, 300);
+                setTimeout("$('#qqinfo').css('z-index', '9');", 300);
+            })
+            $("#qqshow").click(function () {
+                $('#qqinfo').css('z-index', '999');
+                $("#qqinfo").animate({ width: "99px", height: "500px" }, 300);
+            })
+        })
+    </script>
+</head>
+<body>
+    <form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2OTY0NDU3NTZkZPsBX2lfIN4V2TcjzwT0/TmmATe10Hg4XHnutnTOI/z4">
+</div>
+
+<script type="text/javascript" src="/ajax/common.ashx"></script><script type="text/javascript" src="/ajax/Main,App_Web_main.aspx.cdcab7d2.ashx"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="202EA31B">
+</div>
+        <div id="header">
+            <div class="main_style">
+                <div class="pbblogn">
+                    <a href="/">
+                        <img src="images/pbblogn.png?v=1.5" alt="鹏保宝" title="鹏保宝"></a>
+                </div>
+                <div class="login">
+                    <a href="login.aspx" id="login_no" class="login_btn noshow" style="display:block;">用户登录 &gt;</a>
+                    <span id="login_yes" class="noshow" style="display:none;">
+                        <span class="borrignt"><a href="myspace/myspace.aspx" class="greentext">您好，<span id="logname"></span>
+                        </a></span>
+                        <a onclick="loginout()" class="greentext">退出</a>
+                    </span>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li id="main" class="li_on"><a href="/">首页</a></li>
+                        <li id="down"><a href="Application/download.aspx">下载</a></li>
+                        <li id="business"><a href="OnlineService/OutSetDefault.aspx">案例</a></li>
+                        <li id="tar"><a href="myspace/payinfo.aspx">资费</a></li>
+                        <li id="tut"><a href="application/tutorial.aspx">教程</a></li>
+                        <li id="blog"><a href="News/ArticlesList.aspx">博文</a></li>
+                        <li id="support"><a href="company/support.aspx">帮助</a></li>
+                        <li id="about"><a href="company/about.aspx">关于</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="home_background">
+            <div class="main_style">
+                <div class="home_leftbg"></div>
+                <a href="MySpace/MySpace.aspx" target="_blank"><div class="home_rightbg"></div></a>
+                <ul class="home_bgul">
+                    <li>加密文件</li>
+                    <li>一机一码</li>
+                    <li>视频加密</li>
+                    <li>加密软件</li>
+                </ul>
+                <div class="home_number">
+                    已经交付                              
+                 <div class="home_number_list" id="numlist"><div class="home_card"><div class=" home_card_1"> <div class="home_card_t" style="transition: all 200ms linear 8000ms; -webkit-transition: all 200ms linear 8000ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 8000ms; -webkit-transition: all 200ms linear 8000ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 8000ms; -webkit-transition: all 200ms linear 8000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 8000ms; -webkit-transition: all 200ms linear 8000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div></div><div class="home_card"><div class=" home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 7800ms; -webkit-transition: all 200ms linear 7800ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 7800ms; -webkit-transition: all 200ms linear 7800ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div></div><div class="home_card"><div class=" home_card_6"> <div class="home_card_t" style="transition: all 200ms linear 7800ms; -webkit-transition: all 200ms linear 7800ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 7800ms; -webkit-transition: all 200ms linear 7800ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_5"> <div class="home_card_t" style="transition: all 200ms linear 7800ms; -webkit-transition: all 200ms linear 7800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 7800ms; -webkit-transition: all 200ms linear 7800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_4"> <div class="home_card_t" style="transition: all 200ms linear 7600ms; -webkit-transition: all 200ms linear 7600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 7600ms; -webkit-transition: all 200ms linear 7600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_3"> <div class="home_card_t" style="transition: all 200ms linear 7400ms; -webkit-transition: all 200ms linear 7400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 7400ms; -webkit-transition: all 200ms linear 7400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_2"> <div class="home_card_t" style="transition: all 200ms linear 7200ms; -webkit-transition: all 200ms linear 7200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 7200ms; -webkit-transition: all 200ms linear 7200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_1"> <div class="home_card_t" style="transition: all 200ms linear 7000ms; -webkit-transition: all 200ms linear 7000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 7000ms; -webkit-transition: all 200ms linear 7000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 6800ms; -webkit-transition: all 200ms linear 6800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 6800ms; -webkit-transition: all 200ms linear 6800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div></div><div class="home_card"><div class=" home_card_9"> <div class="home_card_t" style="transition: all 200ms linear 6600ms; -webkit-transition: all 200ms linear 6600ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 6600ms; -webkit-transition: all 200ms linear 6600ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_8"> <div class="home_card_t" style="transition: all 200ms linear 6600ms; -webkit-transition: all 200ms linear 6600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 6600ms; -webkit-transition: all 200ms linear 6600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_7"> <div class="home_card_t" style="transition: all 200ms linear 6400ms; -webkit-transition: all 200ms linear 6400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 6400ms; -webkit-transition: all 200ms linear 6400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_6"> <div class="home_card_t" style="transition: all 200ms linear 6200ms; -webkit-transition: all 200ms linear 6200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 6200ms; -webkit-transition: all 200ms linear 6200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_5"> <div class="home_card_t" style="transition: all 200ms linear 6000ms; -webkit-transition: all 200ms linear 6000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 6000ms; -webkit-transition: all 200ms linear 6000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_4"> <div class="home_card_t" style="transition: all 200ms linear 5800ms; -webkit-transition: all 200ms linear 5800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 5800ms; -webkit-transition: all 200ms linear 5800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_3"> <div class="home_card_t" style="transition: all 200ms linear 5600ms; -webkit-transition: all 200ms linear 5600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 5600ms; -webkit-transition: all 200ms linear 5600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_2"> <div class="home_card_t" style="transition: all 200ms linear 5400ms; -webkit-transition: all 200ms linear 5400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 5400ms; -webkit-transition: all 200ms linear 5400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_1"> <div class="home_card_t" style="transition: all 200ms linear 5200ms; -webkit-transition: all 200ms linear 5200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 5200ms; -webkit-transition: all 200ms linear 5200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 5000ms; -webkit-transition: all 200ms linear 5000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 5000ms; -webkit-transition: all 200ms linear 5000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div></div><div class="home_card"><div class=" home_card_9"> <div class="home_card_t" style="transition: all 200ms linear 4800ms; -webkit-transition: all 200ms linear 4800ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 4800ms; -webkit-transition: all 200ms linear 4800ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_8"> <div class="home_card_t" style="transition: all 200ms linear 4800ms; -webkit-transition: all 200ms linear 4800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 4800ms; -webkit-transition: all 200ms linear 4800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_7"> <div class="home_card_t" style="transition: all 200ms linear 4600ms; -webkit-transition: all 200ms linear 4600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 4600ms; -webkit-transition: all 200ms linear 4600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_6"> <div class="home_card_t" style="transition: all 200ms linear 4400ms; -webkit-transition: all 200ms linear 4400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 4400ms; -webkit-transition: all 200ms linear 4400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_5"> <div class="home_card_t" style="transition: all 200ms linear 4200ms; -webkit-transition: all 200ms linear 4200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 4200ms; -webkit-transition: all 200ms linear 4200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_4"> <div class="home_card_t" style="transition: all 200ms linear 4000ms; -webkit-transition: all 200ms linear 4000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 4000ms; -webkit-transition: all 200ms linear 4000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_3"> <div class="home_card_t" style="transition: all 200ms linear 3800ms; -webkit-transition: all 200ms linear 3800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 3800ms; -webkit-transition: all 200ms linear 3800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_2"> <div class="home_card_t" style="transition: all 200ms linear 3600ms; -webkit-transition: all 200ms linear 3600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 3600ms; -webkit-transition: all 200ms linear 3600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_1"> <div class="home_card_t" style="transition: all 200ms linear 3400ms; -webkit-transition: all 200ms linear 3400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 3400ms; -webkit-transition: all 200ms linear 3400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 3200ms; -webkit-transition: all 200ms linear 3200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 3200ms; -webkit-transition: all 200ms linear 3200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div></div><div class="home_card"><div class=" home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 3000ms; -webkit-transition: all 200ms linear 3000ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 3000ms; -webkit-transition: all 200ms linear 3000ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div></div><div class="home_card"><div class=" home_card_7"> <div class="home_card_t" style="transition: all 200ms linear 3000ms; -webkit-transition: all 200ms linear 3000ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 3000ms; -webkit-transition: all 200ms linear 3000ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_6"> <div class="home_card_t" style="transition: all 200ms linear 3000ms; -webkit-transition: all 200ms linear 3000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 3000ms; -webkit-transition: all 200ms linear 3000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_5"> <div class="home_card_t" style="transition: all 200ms linear 2800ms; -webkit-transition: all 200ms linear 2800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 2800ms; -webkit-transition: all 200ms linear 2800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_4"> <div class="home_card_t" style="transition: all 200ms linear 2600ms; -webkit-transition: all 200ms linear 2600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 2600ms; -webkit-transition: all 200ms linear 2600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_3"> <div class="home_card_t" style="transition: all 200ms linear 2400ms; -webkit-transition: all 200ms linear 2400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 2400ms; -webkit-transition: all 200ms linear 2400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_2"> <div class="home_card_t" style="transition: all 200ms linear 2200ms; -webkit-transition: all 200ms linear 2200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 2200ms; -webkit-transition: all 200ms linear 2200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_1"> <div class="home_card_t" style="transition: all 200ms linear 2000ms; -webkit-transition: all 200ms linear 2000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 2000ms; -webkit-transition: all 200ms linear 2000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 1800ms; -webkit-transition: all 200ms linear 1800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 1800ms; -webkit-transition: all 200ms linear 1800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div></div><div class="home_card"><div class=" home_card_8"> <div class="home_card_t" style="transition: all 200ms linear 1600ms; -webkit-transition: all 200ms linear 1600ms; opacity: 1;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 1600ms; -webkit-transition: all 200ms linear 1600ms; transform: rotateX(0deg); opacity: 1;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_7"> <div class="home_card_t" style="transition: all 200ms linear 1600ms; -webkit-transition: all 200ms linear 1600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 1600ms; -webkit-transition: all 200ms linear 1600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_6"> <div class="home_card_t" style="transition: all 200ms linear 1400ms; -webkit-transition: all 200ms linear 1400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 1400ms; -webkit-transition: all 200ms linear 1400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_5"> <div class="home_card_t" style="transition: all 200ms linear 1200ms; -webkit-transition: all 200ms linear 1200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 1200ms; -webkit-transition: all 200ms linear 1200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_4"> <div class="home_card_t" style="transition: all 200ms linear 1000ms; -webkit-transition: all 200ms linear 1000ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 1000ms; -webkit-transition: all 200ms linear 1000ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_3"> <div class="home_card_t" style="transition: all 200ms linear 800ms; -webkit-transition: all 200ms linear 800ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 800ms; -webkit-transition: all 200ms linear 800ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_2"> <div class="home_card_t" style="transition: all 200ms linear 600ms; -webkit-transition: all 200ms linear 600ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 600ms; -webkit-transition: all 200ms linear 600ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_1"> <div class="home_card_t" style="transition: all 200ms linear 400ms; -webkit-transition: all 200ms linear 400ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 400ms; -webkit-transition: all 200ms linear 400ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div><div class="mask-card home_card_0"> <div class="home_card_t" style="transition: all 200ms linear 200ms; -webkit-transition: all 200ms linear 200ms; opacity: 0;"><div class="home_card_i"></div></div><div class="home_card_b" style="transition: all 200ms linear 200ms; -webkit-transition: all 200ms linear 200ms; transform: rotateX(180deg); opacity: 0;"><div class="home_card_i"></div></div></div></div></div>
+                    份正版内容，总市值超过
+                    <div class="home_card_bg" id="menoycount">11.0</div>
+                    亿
+                </div>
+                <script type="text/javascript">
+                    //2016-03-14 交付文件数 1770821
+                    var counts = Main.getcounts().value;
+                    var num = (counts * 103 / 100000000).toFixed(2);
+                    if (num.length>=4) {
+                        num = num.substr(0,4);
+                    }
+                    $("#menoycount").html(num);
+                    count_num(counts);
+                    function count_num(t) {
+                        var r = 200,
+                        s = 0,
+                        d = $("#numlist");
+                        /^\d+$/.test(t) || (t = "0"),
+                        t = String(t);
+                        var o = t.split("");
+                        d.empty();
+                        for (var l = o.length - 1; l >= 0; l--) {
+                            var c = parseInt(o[l]),
+                            p = $('<div class="home_card"></div>');
+                            d.prepend(p);
+                            if (supportCss3('transition')) {
+                                for (var u = 0; c >= u; u++) {
+                                    var m = "mask-card";
+                                    u == c ? m = "" : s++;
+                                    var f = $('<div class="' + m + " home_card_" + u + '"> <div class="home_card_t"><div class="home_card_i"></div></div><div class="home_card_b" ><div class="home_card_i"></div></div></div>'),
+                                    v = r + "ms",
+                                    g = r * s + "ms",
+                                    y = a(v, g);
+                                    $.extend(y, {
+                                        opacity: 1
+                                    }),
+                                    f.find(".home_card_t").css(y);
+                                    var h = a(v, g);
+                                    $.extend(h, i(0)),
+                                    $.extend(h, {
+                                        opacity: 1
+                                    }),
+                                    f.find(".home_card_b").css(h),
+                                    //$(f).appendTo(p);
+                                    $(p).prepend(f);
+                                }
+                                var e = {
+                                    opacity: 0
+                                };
+                                setTimeout(function () {
+                                    var e = {
+                                        opacity: 0
+                                    };
+                                    $(".mask-card .home_card_t").css(e);
+                                    var n = {
+                                        opacity: 0
+                                    };
+                                    $.extend(n, i(180)),
+                                    $(".mask-card .home_card_b").css(n)
+                                }, r * s);
+                            } else {
+                                var f = $('<div class="home_card_' + c + '"> <div class="home_card_t"><div class="home_card_i"></div></div><div class="home_card_b" ><div class="home_card_i"></div></div></div>');
+                                $(p).prepend(f);
+                            }
+                        }
+                    }
+                    function a(e, n) {
+                        return {
+                            transition: "all " + e + " linear " + n,
+                            "-webkit-transition": "all " + e + " linear " + n,
+                            "-moz-transition": "all " + e + " linear " + n,
+                            "-ms-transition": "all " + e + " linear " + n,
+                            "-o-transition": "all " + e + " linear " + n
+                        }
+                    }
+                    function i(e) {
+                        return {
+                            transform: "rotateX(" + e + "deg)",
+                            "-ms-transform": "rotateX(" + e + "deg)",
+                            "-webkit-transform": "rotateX(" + e + "deg)",
+                            "-o-transform": "rotateX(" + e + "deg)",
+                            "-moz-transform": "rotateX(" + e + "deg)"
+                        }
+                    }
+                    //判断是否支持css3
+                    function supportCss3(style) {
+                        var prefix = ['webkit', 'Moz', 'ms', 'o'],
+                        i,
+                        humpString = [],
+                        htmlStyle = document.documentElement.style,
+                        _toHumb = function (string) {
+                            return string.replace(/-(\w)/g, function ($0, $1) {
+                                return $1.toUpperCase();
+                            });
+                        };
+
+                        for (i in prefix)
+                            humpString.push(_toHumb(prefix[i] + '-' + style));
+
+                        humpString.push(_toHumb(style));
+
+                        for (i in humpString)
+                            if (humpString[i] in htmlStyle) return true;
+
+                        return false;
+                    }
+
+
+                </script>
+
+            </div>
+        </div>
+        
+        <div class="home_intro backf1">
+            <div class="main_style">
+                <img src="images/main/main_seal1.png" class="main_seal" alt="超出设备">
+                <img src="images/main/main_seal2.png" class="main_seal" alt="超出次数">
+                <img src="images/main/main_seal3.png" class="main_seal" alt="超出时间">
+                <img src="images/main/main_seal4.png" class="main_seal" alt="身份不符">
+                <img src="images/main/main_seal5.png" class="main_seal mrightno" alt="符合条件">
+            </div>
+        </div>
+        <div class="home_intro back2">
+            <div class="main_style">
+                <img src="images/main/mian_fourimg.gif" alt="">
+            </div>
+        </div>
+        <div class="home_intro backf1">
+            <div class="main_style">
+                <div class="mixed_li" style="width:511px">
+                    <h2>应用案例</h2>
+                    <ul id="casediv" class="home_mtop30"><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/News/ArticlesView.aspx?aid=424" title="鹏保宝激发原创市场 版权保护不再尴尬">鹏保宝激发原创市场 版权保护不再尴尬 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/News/ArticlesView.aspx?aid=423" title="鹏保宝的昨天、今天和明天">鹏保宝的昨天、今天和明天 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/OnlineService/OutSetDefault.aspx" title="威客遇上鹏保宝，雇佣双方有保障">威客遇上鹏保宝，雇佣双方有保障 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/OnlineService/OutSetDefault.aspx" title="兼职外快、版权安全两不误">兼职外快、版权安全两不误 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/OnlineService/OutSetDefault.aspx" title="巧用鹏保宝收回工程尾款">巧用鹏保宝收回工程尾款 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/News/ArticlesView.aspx?aid=415" title="怎样加密可以使学员输入报名信息就能自动激活文件，且不能被复制传播？">怎样加密可以使学员输入报名信息就能自动激活文件，且不能被复制传播？ </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/News/ArticlesView.aspx?aid=418" title="把虚拟产品真正转化为线下交易的商品 鹏保宝帮你把知识变成财富">把虚拟产品真正转化为线下交易的商品 鹏保宝帮你把知识变成财富 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/News/ArticlesView.aspx?aid=413" title="线上+线下教育机构应用鹏保宝的典型成功案例">线上+线下教育机构应用鹏保宝的典型成功案例 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/News/ArticlesView.aspx?aid=414" title="线上培训机构应用鹏保宝的典型成功案例">线上培训机构应用鹏保宝的典型成功案例 </a></li><li><a class="greytext greentext" target="_blank" href="http://www.pyc.com.cn/OnlineService/OutSetDefault.aspx" title="按服务器连接效验激活，省心省力">按服务器连接效验激活，省心省力 </a></li></ul>
+                </div>
+                
+                <div class="mixed_li media" style="width:461px">
+                    <h2>媒体报道</h2>
+                    <div class="media_icon mtop30">
+                        <a href="http://it.sohu.com/20150304/n409331309.shtml" rel="external nofollow" target="_blank">
+                            <img src="images/main/sohu_it.jpg?v=1.00" height="29" alt="搜狐IT"></a>
+                        <a href="http://search.sina.com.cn/?range=all&amp;c=news&amp;q=%C5%F4%B1%A3%B1%A6&amp;from=top" rel="external nofollow" target="_blank">
+                            <img src="images/main/resina.jpg" height="28" alt="新浪科技"></a>
+                        <a href="http://eso.enet.com.cn/s?q=%C5%F4%B1%A3%B1%A6" rel="external nofollow" target="_blank">
+                            <img src="images/main/renet.jpg?v=1.00" alt="硅谷动力"></a>
+                        <a href="http://web.toutiao.com/toutiao/a4024524624/" rel="external nofollow" target="_blank">
+                            <img src="images/main/toutiao.jpg" height="28" alt="今日头条"></a>
+                        <a href="http://business.sohu.com/20150211/n408929725.shtml" rel="external nofollow" target="_blank">
+                            <img src="images/main/sohu.jpg" height="28" alt="搜狐"></a>
+                    </div>
+                    <ul class="mtop20">
+                        <li><a class="greytext greentext" href="http://chenjiying.baijia.baidu.com/article/291041?qq-pf-to=pcqq.c2c" rel="external nofollow" target="_blank">百亿《芈月传》被盗播，贾跃亭该吸取什么教训？！</a></li>
+                        <li><a class="greytext greentext" href="http://toutiao.com/a4024524624/" rel="external nofollow" target="_blank">付费数字内容钱景如何？</a></li>
+                        <li><a class="greytext greentext" href="http://business.sohu.com/20150211/n408929725.shtml" rel="external nofollow" target="_blank">鹏保宝激发原创市场 版权保护不再尴尬</a></li>
+                        <li><a class="greytext greentext" href="http://tech.sina.com.cn/roll/2013-12-27/10379046844.shtml" rel="external nofollow" target="_blank">互联网时代个人信息安全保护利器鹏保宝</a></li>
+                        <li><a class="greytext greentext" href="http://www.enet.com.cn/article/2014/0815/A20140815402703.shtml" rel="external nofollow" target="_blank">淘宝数字内容保护专家??鹏保宝</a></li>
+                        <li><a class="greytext greentext" href="http://www.enet.com.cn/article/2014/0611/A20140611383675.shtml" rel="external nofollow" target="_blank">新版鹏保宝的使用说明</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="home_intro home_intro6">
+            <div class="main_style">
+                <h2>合作伙伴</h2>
+                <div class="imgul">
+                    <a href="http://edu.qq.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_qq.jpg" alt="腾讯教育" title="腾讯教育"></a>
+                    <a href="http://www.tanzhoujiaoyu.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_tanzhou.jpg" alt="潭州教育" title="潭州教育"></a>
+                    <a href="http://www.niceloo.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_nicel00.jpg" alt="优路教育" title="优路教育"></a>
+                    <a href="http://www.huxiuvip.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_huxiu.jpg?v=1.00" alt="虎嗅商学院" title="虎嗅商学院"></a>
+                    <a href="http://www.nuosixing.net/" target="_blank" rel="external nofollow" class="imgli nomarign">
+                        <img src="images/main/in_nuosixing.jpg?v=1.00" alt="诺思星电商学院" title="诺思星电商学院"></a>
+                    <a href="http://www.zhiyebook.com/" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_huazhi.jpg?v=1.00" alt="华职教育" title="华职教育"></a>
+                    <a href="http://www.zjjypx.com/" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_zjxc.jpg" alt="中建兴创培训中心" title="中建兴创培训中心"></a>
+                    <a href="http://www.zzstep.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_zzstep.jpg" alt="中国教育出版网" title="中国教育出版网"></a>
+                    <a href="http://www.swufeky.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_swufexy.jpg" alt="西财考研网" title="西财考研网"></a>
+                    <span class="imgli nomarign">
+                        <img src="images/main/in_jianzhu.jpg" alt="山西省朔州市马邑人建筑教育咨询中心" title="山西省朔州市马邑人建筑教育咨询中心"></span>
+                    <a href="http://www.etiantian.org/" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_olgboy.jpg" alt="老男孩教育" title="老男孩教育"></a>
+                    <a href="http://shop103034199.taobao.com/?spm=a230r.7195193.1997079397.1.41FhCE" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_papa.jpg" alt="趴趴雅思小助手" title="趴趴雅思小助手"></a>
+                    <a href="http://www.3tx.cn/portal.php" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_texcun.jpg" alt="特讯网" title="特讯网"></a>
+                    <a href="http://www.xdschool.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_dro.jpg" alt="北京向导学校" title="北京向导学校"></a>
+                    <a href="http://www.jinduoduo.net/" target="_blank" rel="external nofollow" class="imgli nomarign">
+                        <img src="images/main/in_jinduoduo.jpg?v=1.00" alt="金多多教育" title="金多多教育"></a>
+                    <a href="http://www.itxdl.cn/" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_itxdl1.jpg" alt="兄弟连教育" title="兄弟连教育"></a>
+                    <a href="http://www.lxkjxx.com/" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_lixue.jpg" alt="四川立学科技信息中心" title="四川立学科技信息中心"></a>
+                    <a href="http://www.dgyxpxsp.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_dengguang.jpg" alt="灯光音响学习网" title="灯光音响学习网"></a>
+                    <a href="http://www.suizhi.com/DRM/proQuery/sellerStore/showStoreDetails/713b92ed-a189-469d-a51b-83383c70605f" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_quanpin.jpg" alt="全品文教" title="全品文教"></a>
+                    <a href="http://www.aero-edu.com/" target="_blank" rel="external nofollow" class="imgli nomarign">
+                        <img src="images/main/in_hangtian.jpg" alt="航天云教育" title="航天云教育"></a>
+                    <a href="http://www.songqinnet.com/" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_songqin.jpg" alt="松勤软件" title="松勤软件"></a>
+                    <a href="http://www.suizhi.com/DRM/proQuery/sellerStore/showStoreDetails/15ba0526-1024-4ce9-b4ff-180be9aff6e1" target="_blank" rel="external nofollow" class="imgli ">
+                        <img src="images/main/in_kaodian.jpg" alt="考典科技" title="考典科技"></a>
+                    <a href="http://www.zhkzw.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_zhkzw.jpg" alt="中华考资网" title="中华考资网"></a>
+                    <a href="http://www.doedu.com.cn" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_zsjy.png" alt="择善教育" title="择善教育"></a>
+                    <a href="https://shop117111168.taobao.com/index.htm?spm=a1z10.3-c.w5002-10649638880.2.9WssiL" target="_blank" rel="external nofollow" class="imgli nomarign">
+                        <img src="images/main/in_ruyi.jpg" alt="如意商学院" title="如意商学院"></a>
+                    <a href="https://shop124858977.taobao.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_xinman.jpg" alt="歆曼电商培训机构" title="歆曼电商培训机构"></a>
+                    <span class="imgli">
+                        <img src="images/main/in_jwl.jpg" alt="好未来" title="好未来"></span>
+                    <span class="imgli">
+                        <img src="images/main/in_zg.jpg" alt="中公教育" title="中公教育"></span>
+                    <a href="https://mold168.ke.qq.com/" target="_blank" rel="external nofollow" class="imgli">
+                        <img src="images/main/in_mh.jpg" alt="长沙明辉教育科技有限公司" title="长沙明辉教育科技有限公司"></a>
+                    <a href="https://handsome.ke.qq.com/" target="_blank" rel="external nofollow" class="imgli nomarign">
+                        <img src="images/main/in_hs.jpg" alt="嗨神课堂" title="嗨神课堂"></a>
+                </div>
+            </div>
+        </div>
+        <div class="qq_wpa" id="qq_wpa" style="margin-top:-225px;">
+            <div class="qq_back qq_title" id="qqshow"></div>
+            <div id="qqinfo">
+                <div class="qq_back qq_slideup" id="qqslideup">收起 <span class="marginleft_8">&gt;</span></div>
+                <div class="qq_back qq_info">
+                    <div class="qq_txt">售前咨询</div>
+                    <a class="qq_img" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3311535947&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3311535947:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+                    <a class="qq_img" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=44743591&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:44743591:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+                </div>
+                <div class="qq_back qq_info">
+                    <div class="qq_txt">售后服务</div>
+                    <a class="qq_img" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2382321478&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2382321478:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+                    <a class="qq_img" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2560177076&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2560177076:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+                    <a class="qq_img" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1735613437&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1735613437:51" alt="点击这里给我发消息" title="点击这里给我发消息"></a>         
+                </div>   
+                <div class="qq_back qq_info">
+                    <div class="qq_txt">工作时间</div>
+                    <div class="weixin_txt">
+                        周一至周五<br>9:30-18:30
+                    </div> 
+                </div>             
+                <div class="qq_back qq_info" style="border-bottom-style: solid; padding-top: 8px;">
+                    <img src="images/about_qq2.png" alt="QQ官方群" width="78">
+                    <div class="weixin_txt">
+                        扫一扫<br>
+                        加入QQ群
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div id="footor">
+            <div class="main_style">
+                <div class="weixin">
+                    
+                    <p class="margintop10"></p>
+                </div>
+                <div>
+                    <div class="foot_licss">
+                        <div class="posrelative">
+                            <script type="text/javascript">
+                                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9e5e154c5b23862220bba88820e1679c' type='text/javascript'%3E%3C/script%3E"));
+                            </script><script src=" http://hm.baidu.com/h.js?9e5e154c5b23862220bba88820e1679c" type="text/javascript"></script>
+                        </div>
+                        <div class="floatr home_mtop5">
+                            <script type="text/javascript" src="http://s14.cnzz.com/stat.php?id=2862516&amp;web_id=2862516&amp;show=pic"></script><script src="http://c.cnzz.com/core.php?web_id=2862516&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=2862516" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a>
+                            <script type="text/javascript" src="//s.union.360.cn/122576.js" async="" defer=""></script>
+                        </div>
+                        <div class="floatr">
+                            北京创世泰克科技股份有限公司&nbsp;&nbsp;版权所有
+                        </div>
+                    </div>
+                    <div class="foot_licss">京ICP备10040619号&nbsp;&nbsp;京公海网安备110108001054号</div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+<iframe name="398952" height="0" width="0" src="http://360fenxi.mediav.com/mv.html" style="display: none;"></iframe></body></html>

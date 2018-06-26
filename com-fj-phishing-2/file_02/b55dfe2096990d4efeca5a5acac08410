@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="zh-cmn-Hans"><head>
+    <meta charset="utf-8">
+    <title>码上淘</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="//img.alicdn.com/tps/i2/TB1diQnGVXXXXX4aXXXEDhGGXXX-32-32.png">
+    <link rel="apple-touch-icon" href="//img.alicdn.com/tps/i2/TB1diQnGVXXXXX4aXXXEDhGGXXX-32-32.png">
+    <link rel="stylesheet" href="//g.alicdn.com/sj/dpl/1.4.3/css/sui.min.css">
+    <link href="//g.alicdn.com/sj/dpl/1.4.3/css/sui-append.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//g.alicdn.com/sj/bunting/1.6.0/new/css/common.css" charset="utf-8">
+    <link rel="stylesheet" href="//g.alicdn.com/sj/bunting/1.6.0/new/css/page/home.css" charset="utf-8">
+    <link rel="stylesheet" href="//g.alicdn.com/sj/bunting/1.6.0/new/css/mod/sui_reset.css">
+   
+    
+    <script src="//g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//g.alicdn.com/sj/dpl/1.4.3/js/sui.min.js" charset="utf-8"></script>
+    <script src="//g.alicdn.com/sj/bunting/1.6.0/new/js/common/common.min.js" charset="utf-8"></script>
+    <script src="//g.alicdn.com/sj/bunting/1.6.0/new/js/page/home.min.js"></script><!--嵌套时不用，因为tms中都有了-->
+<!--黄金令箭埋点-->
+	<script>
+    function _sendGoldLog(goldId){
+				//alert("埋点："+goldId);
+                //增加黄金令箭埋点
+                var img = new Image();
+                var id = "_beacon_" + Math.random();
+                var ksVersion='';
+    			var KISSY = '';
+                if(KISSY){
+                    ksVersion = KISSY.version||'';
+                }
+                var uri =encodeURIComponent(window.location.href);
+                window[id] = img; // 防止img变量被浏览器过早回收
+                img.src = "//log.mmstat.com/" +goldId + "?type=9&_gm:id=mai-kissy-version&_r_=" + Math.random()+"&ks-version="+ksVersion+"&uri="+uri;
+                img.onload = function () {
+                    window[id] = null;
+                }
+            }
+    </script>   
+</head>
+<body class="ns-index">
+			<link rel="stylesheet" href="//at.alicdn.com/t/font_1418889820_1720166.css"> 
+<!--吊顶-->
+		    <div id="J_TopNav" class="top-nav">
+        <div id="J_TopNavBd" class="top-nav-bd">
+            <ul class="top-nav-bd-l">
+								<li> 
+                    <a class="J_Login" href="https://login.taobao.com/member/login.jhtml?from=ma&amp;redirectURL=http%3A%2F%2Fma.taobao.com%2Fweb%2Findex.htm">Hi,请登录</a>
+                </li>
+                <li> 
+                    <a class="J_Login" href="http://reg.taobao.com/member/new_register.jhtml?from=ma&amp;redirectURL=http%3A%2F%2Fma.taobao.com%2Fweb%2Findex.htm" onclick="_sendGoldLog('ewm.8.1.1')">我要注册</a>
+                </li>				
+				                <li>
+                    <a class="" href="//bangpai.taobao.com/group/thread/16081024-292602465.htm" target="_blank" onclick="_sendGoldLog('ewm.8.1.2')">了解新版</a>
+                </li>
+            </ul>
+            <ul class="top-nav-bd-r">
+                <li>
+                    <a class="" href="//wuxian.taobao.com" target="_blank" onclick="_sendGoldLog('ewm.8.1.3')">无线运营中心</a>
+                </li>
+                <li>
+                    <a class="" href="//ma.taobao.com/web/fuwu.htm" onclick="_sendGoldLog('ewm.8.1.4')" target="_blank">服务商专区</a>
+					<i class="iconfont icon-iconfontnew1"></i> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="head">
+            <a href="//ma.taobao.com/web/index.htm" class="logo" onclick="_sendGoldLog('ewm.7.1')"></a>
+            <ul class="head-nav">
+                <li class="active"><a href="//ma.taobao.com/web/index.htm" onclick="_sendGoldLog('ewm.8.2.1')">首页</a></li>
+                <li><a href="//ma.taobao.com/web/user_index.htm" onclick="_sendGoldLog('ewm.8.2.2')">我的码上淘</a></li>
+                <li><a href="//bangpai.taobao.com/group/16081024.htm" target="_blank" onclick="_sendGoldLog('ewm.8.2.3')">帮助中心</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="index-slide">
+        <!--图片轮播效果tms-->
+            <!--图片展示-->
+            <div class="slide-content">
+                
+                <!--登录框-->
+                <div class="iframe-container">
+										                    <iframe id="J_loginIframe" class="login-iframe " src="https://login.taobao.com//member/login.jhtml?style=miniall&amp;from=ma&amp;css_style=ma&amp;redirectURL=http%3A%2F%2Fma.taobao.com%2Fweb%2Fuser_index.htm" scrolling="no" frameborder="no" border="0" width="320"></iframe>						
+					                </div>
+
+            </div>
+            <!--小圆点-->
+           <ul class="slide-nav unstyled" style="margin-left: -10px;"><li class=""></li></ul>
+           
+            <!--左右按钮-->
+            <div class="slide-trigger">
+                <div class="prev icon-tb-demo">
+                    <i class="sui-icon icon-tb-back"></i>
+                </div>
+                <div class="next icon-tb-demo">
+                    <i class="sui-icon icon-tb-right"></i>
+                </div>
+            </div>
+            
+
+        <!--图片轮播效果-->
+    </section>
+    
+<!-- show -->
+<section class="index-show" id="showAll">
+    <div class="main-inner">
+        <h2>码上淘能帮您</h2>
+        <ul class="show-container">
+            <li>
+                <a class="help-logo" onclick="_sendGoldLog('ewm.8.3.1')" href="//bangpai.taobao.com/group/discussion/16081024-13226016.htm" target="_blank">
+                    <i class=" pic1"></i>
+                </a>
+                <p>轻松建码</p>
+                <span>通过码上淘可生成含商品百科、品牌互动、卡券领取、售后管理、游戏互动等不同场景需求内容的二维码。</span>
+                <a onclick="_sendGoldLog('ewm.8.3.1')" href="//bangpai.taobao.com/group/discussion/16081024-13226016.htm" target="_blank" class="sui-btn btn-bordered btn-xxlarge">了解更多</a>
+            </li>
+            <li>
+                <a class="help-logo" onclick="_sendGoldLog('ewm.8.3.2')" href="//bangpai.taobao.com/group/thread/16081024-292138817.htm" target="_blank">
+                     <i class="help-logo pic2"></i>
+                </a>
+                <p>灵活赋码</p>
+                <span>用户除淘宝店铺、商品包裹包装等自有渠道布码外，还能合作获得阿里专属报纸媒体及其他热门渠道布码。</span>
+                <a onclick="_sendGoldLog('ewm.8.3.2')" href="//bangpai.taobao.com/group/thread/16081024-292138817.htm" target="_blank" class="sui-btn btn-bordered btn-xxlarge">了解更多</a>
+            </li>
+            <li>
+                <a class="help-logo" onclick="_sendGoldLog('ewm.8.3.3')" href="//bangpai.taobao.com/group/discussion/16081024-13225513.htm" target="_blank">
+                     <i class=" pic3"></i>
+                </a>
+                <p>寻找码伴</p>
+                <span>码上淘联盟国内众多第三方赋码运营、模板开发、培训咨询等类型合作伙伴为用户提供丰富的二维码服务。</span>
+                <a onclick="_sendGoldLog('ewm.8.3.3')" href="//bangpai.taobao.com/group/discussion/16081024-13225513.htm" target="_blank" class="sui-btn btn-bordered btn-xxlarge">了解更多</a>
+            </li>
+            <li>
+                <a class="help-logo" onclick="_sendGoldLog('ewm.8.3.4')" href="//bangpai.taobao.com/group/discussion/16081024-13226014.htm" target="_blank">
+                     <i class=" pic4"></i>
+                </a>
+                <p>玩码专享</p>
+                <span>码上淘提供各项阿里二维码专利技术使用权，以及会不定期举行淘宝天猫官方扫码营销活动和基金扶持。</span>
+                <a onclick="_sendGoldLog('ewm.8.3.4')" href="//bangpai.taobao.com/group/discussion/16081024-13226014.htm" target="_blank" class="sui-btn btn-bordered btn-xxlarge">了解更多</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- brands tms-->
+
+
+
+
+<ul class="fixed-tip unstyled">
+        <li id="J_toTop">
+            <a href="javascript:void(0)" title="返回顶部"></a>
+        </li>
+</ul>
+
+<script type="text/javascript">
+    MB.init({
+
+    });
+</script>
+
+
+</body></html>

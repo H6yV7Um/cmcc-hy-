@@ -1,0 +1,2357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>交通银行首页</title>
+<link rel="stylesheet" href="/BankCommSite/shtml/zonghang/cn/css/index2011.css" type="text/css">
+<link rel="stylesheet" href="/BankCommSite/shtml/zonghang/cn/css/common2011.css" type="text/css">
+<link rel="stylesheet" href="/BankCommSite/shtml/zonghang/cn/css/poplayer2011.css" type="text/css">
+<script src="/BankCommSite/shtml/zonghang/cn/js/jquery-1[1].3.2.min.js" type="text/javascript"></script>
+<style type="text/css">
+
+/***右侧浮动广告***/
+div#flowAdv{position:absolute;right:-120px;top:12px;z-index:99999;}
+
+
+.HomeTitle {
+	z-index: 999;
+	width: 402px;
+	height: 276px;
+	line-height: 276px;
+	margin: 0 auto;
+	position: absolute;
+}
+
+img.close {
+	position: relative;
+	left: 323px;
+	top: 56px;
+	cursor: pointer;
+}
+
+img.nowSee {
+	position: relative;
+	top: -190px;
+	left: 70px;
+	border: 0;
+}
+
+img.nextSee {
+	position: relative;
+	top: -188px;
+	left: 83px;
+	cursor: pointer;
+	border: 0;
+}
+</style>
+<script type="text/javascript">
+	
+		//截取字符串的方法
+		function cutString(string, strLength) {
+			var currentLength = 0;
+			for (var i=0; i<=string.length; i++ ) {
+				if (currentLength>strLength) {
+					return string.substring(0,i-1)+"...";
+				}
+				var ch = string.charCodeAt(i);
+				if (ch > 256) {
+					currentLength++;
+				}
+				currentLength++;
+			}
+			return string;
+		}
+	
+		function isNull( str ){
+				if ( str == "") 
+					return true;
+				var regu = "^[ ]+$";
+				var re = new RegExp(regu);
+				return re.test(str);
+		}
+		function validate() {
+			var keywd = document.searchForm.search_text.value;			
+			if (isNull( keywd )) {
+				alert("友情提示：请输入搜索关键字！");
+				document.searchForm.search_text.focus();
+				return false;
+			}else{
+		 			return true; 
+		 		}
+		}
+		function cls(){
+			document.searchForm.search_text.value="";
+		}
+
+		function MM_findObj(n, d) { //v4.01
+			var p,i,x;  
+			if(!d) d=document; 
+			if((p=n.indexOf("?"))>0&&parent.frames.length) {
+				d=parent.frames[n.substring(p+1)].document; 
+				n=n.substring(0,p);
+			}
+			if(!(x=d[n])&&d.all) x=d.all[n]; 
+			for(i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+			for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+			if(!x && d.getElementById) x=d.getElementById(n); 
+			return x;
+		}
+
+		function MM_showHideLayers() { //v6.0
+			var i,p,v,obj,args=MM_showHideLayers.arguments;
+			for (i=0; i<(args.length-2); i+=3){
+				if ((obj=MM_findObj(args[i]))!=null) { 
+					v=args[i+2];
+					if (obj.style) { 
+						obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; 
+					}
+					obj.visibility=v; 
+					//if (obj.style) { obj=obj.style; v=(v=='show')?'block':(v=='hide')?'none':v; }
+					//obj.display=v;
+				}
+			}
+		}
+
+
+		var isFanTi = (document.location.href.search(':82/') != -1);	
+		
+	</script>
+	<script type="text/javascript" src="/BankCommSite/shtml/zonghang/cn/js/jquery.cookie.js"></script>
+<style>
+.header_top {z-index: 101;}
+.header_top .version{background: url("/BankCommSite/shtml/zonghang/simple/cn/images/tubiao1.jpg") no-repeat scroll 100% 50% transparent;left: 259px;position: absolute;top: 61px;width: 48px;}
+.header_top .version a{background: url("/BankCommSite/shtml/zonghang/simple/cn/images/version.gif") no-repeat scroll -18px -35px transparent;display: block;height: 18px;line-height: 18px;width: 48px;}
+.header_top .version a.ft{background-position: -18px -61px;}
+.choose {background: url("/BankCommSite/shtml/zonghang/simple/cn/images/choose_bg_gray.gif") no-repeat scroll 0 0 transparent;height: 60px;left: 240px;position: absolute;top: 52px;width: 80px;z-index: 999;visibility: hidden;}
+.choose ul, .choose li{margin: 0;padding: 0;}
+.choose ul {background: url("/BankCommSite/shtml/zonghang/simple/cn/images/wangyin_bg.jpg") no-repeat scroll 0 0 #F6F6F6;margin: 2px;_margin:2px 1px;text-align: center;float: left;width: 76px;}
+.choose ul li { height: 28px;line-height: 30px;text-align: left;text-indent: 18px;margin:0;float:left;width: 100%;overflow: hidden;background: url("/BankCommSite/shtml/zonghang/simple/cn/images/bb.jpg") no-repeat scroll center 0 transparent;}
+.choose ul li.cur{background: url("/BankCommSite/shtml/zonghang/simple/cn/images/tubiao1.jpg") no-repeat scroll 59px 14px; transparent;line-height: 28px;}
+.choose ul li a { color: #444444; text-decoration: none; display: block;height:28px;background:url("/BankCommSite/shtml/zonghang/simple/cn/images/version.gif") no-repeat scroll 0 0px transparent;}
+.choose a.jj{ background-position: 0 0;}
+.choose a.bz,.choose .cur a.bz:hover{ background-position: -1px -28px;}
+.choose a.ft{ background-position: 0 -55px;}
+.choose a.en{ background-position: 0 -83px;}
+.choose a.jj:hover { background-position: -76px 0px;}
+.choose a.bz:hover { background-position: -76px -28px;}
+.choose a.ft:hover { background-position: -76px -55px;}
+.choose a.en:hover { background-position: -76px -83px;}
+.header_top h1 {line-height: 20px;}
+.header_top h1 a {margin: 0 5px 0 0;vertical-align: middle;}
+</style>
+</head>
+<body>
+<div id="wrap">
+
+	<div style="display: block; top: 246px; left: 311px;" class="HomeTitle" id="picDiv">
+		<img class="close" src="/BankCommSite/shtml/zonghang/cn/img-new/close.jpg"> 
+		<img class="bigPic" src="/BankCommSite/shtml/zonghang/cn/img-new/bigPic.jpg" style="border-radius: 15px;">
+		<a href="http://www.bankcomm.com"> 
+			<img class="nowSee" src="/BankCommSite/shtml/zonghang/cn/img-new/nowSee.jpg">
+		</a> 
+		<img class="nextSee" src="/BankCommSite/shtml/zonghang/cn/img-new/nextSee.jpg">
+		
+	</div>
+	
+
+
+
+
+	<!-- 交行头部-->
+	 <script type="text/javascript" src="/BankCommSite/shtml/zonghang/en/js/jquery-global.js"></script>
+<script type="text/javascript">
+function isNull( str ){
+		if ( str == "") 
+			return true;
+		var regu = "^[ ]+$";
+		var re = new RegExp(regu);
+		return re.test(str);
+}
+function validate() {
+	var keywd = document.searchForm.search_text.value;			
+	if (isNull( keywd )) {
+		alert("友情提示：请输入搜索关键字！");
+		document.searchForm.search_text.focus();
+		return false;
+	}else{
+ 			return true; 
+ 		}
+}
+function cls(){
+	document.searchForm.search_text.value="";
+}
+
+function MM_findObj(n, d) { //v4.01
+	var p,i,x;  
+	if(!d) d=document; 
+	if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; 
+		n=n.substring(0,p);
+	}
+	if(!(x=d[n])&&d.all) x=d.all[n]; 
+	for(i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+	for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+	if(!x && d.getElementById) x=d.getElementById(n); 
+	return x;
+}
+
+function MM_showHideLayers() { //v6.0
+	var i,p,v,obj,args=MM_showHideLayers.arguments;
+	for (i=0; i<(args.length-2); i+=3){
+		if ((obj=MM_findObj(args[i]))!=null) { 
+			v=args[i+2];
+			if (obj.style) { 
+				obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; 
+			}
+			obj.visibility=v; 
+			//if (obj.style) { obj=obj.style; v=(v=='show')?'block':(v=='hide')?'none':v; }
+			//obj.display=v;
+		}
+	}
+}
+
+//截取字符串的方法
+		function cutString(string, strLength) {
+			var currentLength = 0;
+			for (var i=0; i<=string.length; i++ ) {
+				if (currentLength>strLength) {
+					return string.substring(0,i-1)+"...";
+				}
+				var ch = string.charCodeAt(i);
+				if (ch > 256) {
+					currentLength++;
+				}
+				currentLength++;
+			}
+			return string;
+		}
+
+$(function (){  
+/*---------------------------------------------*/   
+   //搜索文本框获得焦点事件处理
+	$("#search_text").focus(function(){
+	  $(this).val("").css({"color":"#000"}); 
+	  });
+   
+  /*--------banner上下切换按钮处理--------*/
+
+	
+    $("#play_next").click(function(){
+	         $(this).fadeOut(500);
+	         $("#play_prev").fadeIn(500);
+	         $("#thumbs ul").animate({top:"-201px"},500);
+			  return false;
+	});
+	 $("#play_prev").click(function(){
+	          $(this).fadeOut(500);
+	          $("#play_next").fadeIn(500);
+	          $("#thumbs ul").animate({top:"0"},500);
+	});
+	
+  //登录口标签选项切换
+  if($('.tabs span')){
+     $('.tabs span').click(function(){
+	          $(this).parent().find('span').removeClass("default"); 
+	          $(this).parent().parent().parent().find('.tab').removeClass("default"); 
+	          $(this).addClass("default"); 						  
+	          var ss = $(this).attr("rel");
+	          $(this).parent().parent().parent().find(".tab."+ ss).addClass("default"); 
+		  });
+  };
+  
+  /*
+	var isFanTi = (document.location.href.search('big5.bankcommm.com') != -1);
+	if(isFanTi){
+		$('#versionDiv').append('<a href="#" target="_blank" onmouseover="MM_showHideLayers(\'choose\',\'\',\'show\')" onmouseout="MM_showHideLayers(\'choose\',\'\',\'hide\')" class="ft"></a>');
+		$('.header_top ul').append('<li class="cur"><a class="ft"></a></li><li><a class="jj" href="ht' + 'tp://www.bankcomm.com/BankCommSite/default.shtml"></a></li>');
+		$('.header_top .hd_job').after('<a  href="ht'+'tp://www.bankcomm.com/BankCommSite/index.shtml"><img border="0" align="absmiddle" src="/BankCommSite/shtml/zonghang/cn/img/jtb1.gif"/></a>');
+	}else{
+		$('#versionDiv').append('<a href="#" target="_blank" onmouseover="MM_showHideLayers(\'choose\',\'\',\'show\')" onmouseout="MM_showHideLayers(\'choose\',\'\',\'hide\')" class="bz"></a>');
+		$('.header_top ul').append('<li class="cur"><a class="bz"></a></li><li><a class="jj" href="ht' + 'tp://www.bankcomm.com/BankCommSite/default.shtml"></a></li>');
+		$('.header_top .hd_job').after('<a  href="http://big5.bankcomm.com/gate/big5/www.bankcomm.com/BankCommSite/index.shtml"><img border="0" align="absmiddle" src="/BankCommSite/shtml/zonghang/cn/img/ftb1.gif"/></a>');
+	}
+	*/
+	var	params = $.URL2URI(location.href)
+	//var OTOCITY=params.querys.OTOCITY;
+	//alert("OTOCITY= "+OTOCITY);
+	if(params.querys.channelId != null)
+	{
+		if($("#"+params.querys.channelId+"").val()==undefined){
+				$("#2971").attr('class','menu_title default1');
+		}else{
+				$("#2971").attr('class','menu_title');
+			$("#"+params.querys.channelId+"").attr('class','menu_title default1');
+		
+		}
+	} else {
+		$(".topLi:eq(0)").find(".menu_title").addClass("default1");
+	}
+ 
+/*---------------------------------------------------------------------*/
+});
+</script>	
+<style>
+.header_top {z-index: 101;}
+.header_top .version{background: url("/BankCommSite/shtml/zonghang/cn/img/tubiao1.jpg") no-repeat scroll 100% 50% transparent;left: 259px;position: absolute;top: 61px;width: 48px;}
+.header_top .version a{background: url("/BankCommSite/shtml/zonghang/cn/img/version.gif") no-repeat scroll -18px -35px transparent;display: block;height: 18px;line-height: 18px;width: 48px;}
+.header_top .version a.ft{background-position: -18px -61px;}
+.choose {background: url("/BankCommSite/shtml/zonghang/cn/img/choose_bg_gray.gif") no-repeat scroll 0 0 transparent;height: 60px;left: 240px;position: absolute;top: 52px;width: 80px;z-index: 999;visibility: hidden;}
+.choose ul, .choose li{margin: 0;padding: 0;}
+.choose ul {background: url("/BankCommSite/shtml/zonghang/cn/img/wangyin_bg.jpg") no-repeat scroll 0 0 #F6F6F6;margin: 2px;_margin:2px 1px;text-align: center;float: left;width: 76px;}
+.choose ul li { height: 28px;line-height: 30px;text-align: left;text-indent: 18px;margin:0;float:left;width: 100%;overflow: hidden;background: url("/BankCommSite/shtml/zonghang/cn/img/bb.jpg") no-repeat scroll center 0 transparent;}
+.choose ul li.cur{background: url("/BankCommSite/shtml/zonghang/cn/img/tubiao1.jpg") no-repeat scroll 59px 14px; transparent;line-height: 28px;}
+.choose ul li a { color: #444444; text-decoration: none; display: block;height:28px;background:url("/BankCommSite/shtml/zonghang/cn/img/version.gif") no-repeat scroll 0 0px transparent;}
+.choose a.jj{ background-position: 0 0;}
+.choose a.bz,.choose .cur a.bz:hover{ background-position: -1px -28px;}
+.choose a.ft{ background-position: 0 -55px;}
+.choose a.en{ background-position: 0 -83px;}
+.choose a.jj:hover { background-position: -76px 0px;}
+.choose a.bz:hover { background-position: -76px -28px;}
+.choose a.ft:hover { background-position: -76px -55px;}
+.choose a.en:hover { background-position: -76px -83px;}
+.header_top h1 {line-height: 20px;}
+.header_top h1 a {margin: 0 5px 0 0;vertical-align: middle;}
+</style>
+<div id="header">
+	<div class="header_top" style="background:url(/BankCommSite/upload/lang/zonghang/cn/header_logobg_201_202.png)">
+		<div class="version" id="versionDiv">	
+			<script>
+				isFanTi = (document.location.href.search('big5.bankcomm.com') != -1);
+				if(isFanTi){
+					document.write('<a href="#" target="_blank" onmouseover="MM_showHideLayers(\'choose\',\'\',\'show\')" onmouseout="MM_showHideLayers(\'choose\',\'\',\'hide\')" class="ft"></a>');
+				} else {
+					document.write('<a href="#" target="_blank" onmouseover="MM_showHideLayers(\'choose\',\'\',\'show\')" onmouseout="MM_showHideLayers(\'choose\',\'\',\'hide\')" class="bz"></a>');
+				}
+			</script><a href="#" target="_blank" onmouseover="MM_showHideLayers('choose','','show')" onmouseout="MM_showHideLayers('choose','','hide')" class="bz"></a>
+		</div>
+      	<div onmouseout="MM_showHideLayers('choose','','hide')" onmouseover="MM_showHideLayers('choose','','show')" class="choose" id="choose">
+			<!--<div>选择版本<span>1</span></div> -->
+			<ul>
+				<script>
+					if(isFanTi){
+						document.write('<li class="cur"><a class="ft"></a></li><li><a class="jj" href="ht' + 'tp://www.bankcomm.com/BankCommSite/default.shtml"></a></li>');
+					} else {
+						document.write('<li class="cur"><a class="bz"></a></li><li><a class="jj" href="ht' + 'tp://www.bankcomm.com/BankCommSite/default.shtml"></a></li>');
+					}
+				</script><li class="cur"><a class="bz"></a></li><li><a class="jj" href="http://www.bankcomm.com/BankCommSite/default.shtml"></a></li>
+			</ul>
+		</div>
+		<h1>
+			<a href="http://www.bankcomm.com/BankCommSite/simple/cn/service/index.html" target="_blank" style="margin-left: 8px"><span style="font-size: 12px">在线客服</span></a>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/3596/list.shtml" target="_blank"><span style="font-size: 12px">网点查询</span></a>
+			<script>
+				document.write('<a href="ht'+'tp://job.bankcomm.com" target="_blank" class="hd_job"><span style="font-size: 12px">人才招聘</span></a>');
+				if(isFanTi){
+					document.write('<a href="ht'+'tp://www.bankcomm.com/BankCommSite/index.shtml"><img border="0" align="absmiddle" src="/BankCommSite/shtml/zonghang/cn/img/jtb1.gif"/></a>');
+				} else {
+					document.write('<a href="http://big5.bankcomm.com/gate/big5/www.bankcomm.com/BankCommSite/index.shtml"><img border="0" align="absmiddle" src="/BankCommSite/shtml/zonghang/cn/img/ftb1.gif"/></a>');
+				}
+			</script><a href="http://job.bankcomm.com" target="_blank" class="hd_job"><span style="font-size: 12px">人才招聘</span></a><a href="http://big5.bankcomm.com/gate/big5/www.bankcomm.com/BankCommSite/index.shtml"><img border="0" align="absmiddle" src="/BankCommSite/shtml/zonghang/cn/img/ftb1.gif"></a>
+			|&nbsp;<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/en/3153/list.shtml?channelId=3153" class="engver">English</a>
+		</h1>
+		<p><span class="s1"><font color="red">95559</font></span><span class="s2"><font color="red">400-800-9888</font></span></p>
+	   	<form id="searchForm" name="searchForm" target="_blank" action="http://search.bankcomm.com/GWebSearch/search.do" class="search_box" onsubmit="return validate();">
+			<input id="search_text" name="word" type="text" size="28" onclick="this.value='';" value="请输入您要搜索的关键字!">
+			<input type="hidden" value="cn" name="lang">
+			<input type="submit" value="搜 索" id="search_btn" onclick="return validate()">
+			<a class="a-detail" href="http://search.bankcomm.com/GWebSearch/searchDetail.do" target="_blank">高级搜索</a>
+         </form>
+	</div>
+	<div class="mainbav">
+		 <ul class="topUl">
+		          	<li class="topLi">
+			          				<a class="menu_title default1" id="2971" href="/BankCommSite/shtml/zonghang/cn/2971/list.shtml?channelId=2971">网站首页</a>
+			          		</li>
+		          	<li class="topLi">
+					          					<a class="menu_title" id="1705" href="/BankCommSite/shtml/zonghang/cn/1705/list.shtml?channelId=1705">个人业务</a>
+			          		<ul class="zolra-menu" style="left: 7px; width: 88px;">
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1714/1722/list.shtml?channelId=1705">储蓄存款</a>
+																<ul style="left: 88px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1722/list.shtml?channelId=1705">活期存款</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1720/list.shtml?channelId=1705">定期存款</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1717/list.shtml?channelId=1705">双利理财</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1718/list.shtml?channelId=1705">喜庆存单</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1716/list.shtml?channelId=1705">个人支票</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1719/list.shtml?channelId=1705">存款托收</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1715/list.shtml?channelId=1705">个人存款证明</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1714/1721/list.shtml?channelId=1705">挂失业务</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1706/1708/list.shtml?channelId=1705">个人贷款</a>
+																<ul style="left: 88px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1706/1708/list.shtml?channelId=1705">个人授信贷款</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1706/1707/list.shtml?channelId=1705">个人住房贷款</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1706/1710/list.shtml?channelId=1705">个人经营贷款</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1706/1709/list.shtml?channelId=1705">个人消费贷款</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1706/1711/list.shtml?channelId=1705">个人质押类贷款</a></li>
+																			<li><a target="_blank" href="http://rsas.bankcomm.com:9080/main/index.html">个人贷款申请</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1724/1726/list.shtml?channelId=1705">外汇服务</a>
+																<ul style="left: 88px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1724/1726/list.shtml?channelId=1705">个人结汇</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1724/1727/list.shtml?channelId=1705">个人购汇</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1724/1725/list.shtml?channelId=1705">个人外汇买卖</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1724/1728/list.shtml?channelId=1705">国际汇款</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1724/1730/list.shtml?channelId=1705">外币携带证与代理开户见证</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1724/1731/list.shtml?channelId=1705">票据业务</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1732/1736/list.shtml?channelId=1705">太平洋卡</a>
+																<ul style="left: 88px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1732/1736/list.shtml?channelId=1705">产品种类</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1732/1733/list.shtml?channelId=1705">产品功能</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1732/1738/list.shtml?channelId=1705">用卡安全</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1732/1739/list.shtml?channelId=1705">挂失服务</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1732/1734/list.shtml?channelId=1705">章程及合约</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1732/1737/list.shtml?channelId=1705">如何申请</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1732/1735/list.shtml?channelId=1705">在线申请</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1759/1761/list.shtml?channelId=1705">理财计划</a>
+																<ul style="left: 88px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1759/1761/list.shtml?channelId=1705">得利宝七彩系列</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1759/1760/list.shtml?channelId=1705">得利宝QDII系列</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1759/1762/list.shtml?channelId=1705">得利宝添利系列</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1759/1763/list.shtml?channelId=1705">得利宝至尊系列</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1742/1744/list.shtml?channelId=1705">投资服务</a>
+																<ul style="left: 88px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1742/1744/list.shtml?channelId=1705">开放式基金</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1742/1745/list.shtml?channelId=1705">第三方存管</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1742/1748/list.shtml?channelId=1705">黄金买卖</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1742/1746/list.shtml?channelId=1705">贵金属</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1742/1743/list.shtml?channelId=1705">国债投资</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1742/1747/list.shtml?channelId=1705">银期转帐</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/html/bxfw/index.html">保险服务</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/zonghang/cn/oto_riches/exclusive.jsp#fuwu">增值服务</a>
+													</li>
+			          				<li>
+																<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1767/list.shtml?channelId=1705">财富管理</a>
+																<ul style="left: 88px; width: 0px;">
+																			<li><a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1767/1770/list.shtml?channelId=1705">沃德财富</a></li>
+																			<li><a target="_blank" href="http://www.bankcomm.com/BankCommSite/html/jylc/index.html">交银理财</a></li>
+																			<li><a target="_blank" href="http://www.bankcomm.com/BankCommSite/html/shortcutfortune/index.html">快捷理财</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1767/1771/list.shtml?channelId=1705">理财顾问</a></li>
+																</ul>
+													</li>
+			          				<li>
+																<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1705/1764/list.shtml?channelId=1705">私人银行</a>
+													</li>
+			          				</ul>
+			          		</li>
+		          	<li class="topLi">
+					          					<a class="menu_title" id="1967" href="/BankCommSite/shtml/zonghang/cn/1967/list.shtml?channelId=1967">公司业务</a>
+			          		<ul class="zolra-menu" style="left: 1px; width: 100px;">
+			          				<li>
+																<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/1969/list.shtml?channelId=1967">业务申请</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/uploadFiles/wintoaccounthtml.1357632607843/index.html">现金管理</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/uploadFiles/autofinance.1357626998734/index.html?infoId=1332230717100">供应链金融</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/uploadFiles/wintofortunehtml.1359095385531/products3.html">投资银行</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/1984/1993/24577.shtml?channelId=1967">金融同业</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/1994/1995/list.shtml?channelId=1967">政府市场</a>
+																<ul style="left: 100px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/1994/1995/list.shtml?channelId=1967">缴税通</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/1994/1996/list.shtml?channelId=1967">银财工程</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/2001/2004/list.shtml?channelId=1967">资产托管</a>
+																<ul style="left: 100px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/2001/2004/list.shtml?channelId=1967">服务品种</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/2001/2003/list.shtml?channelId=1967">托管信息</a></li>
+																			<li><a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/2001/2002/list_1.shtml?channelId=1967">信息披露</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/1977/1980/list.shtml?channelId=1967">其它产品</a>
+																<ul style="left: 100px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/1977/1980/list.shtml?channelId=1967">融资业务</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/1977/1979/list.shtml?channelId=1967">结算业务</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/1967/1977/1978/list.shtml?channelId=1967">存款业务</a></li>
+																</ul>
+													</li>
+			          				</ul>
+			          		</li>
+		          	<li class="topLi">
+					          					<a class="menu_title" id="2145" href="/BankCommSite/shtml/zonghang/cn/2145/list.shtml?channelId=2145">小企业业务</a>
+			          		<ul class="zolra-menu" style="left: 1px; width: 100px;">
+			          				<li>
+				          							<a target="_blank" href="http://rsas.bankcomm.com:9080/main/enterprise_1.html">贷款申请</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2155/33596.shtml?channelId=2145">创业一站通</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2155/33591.shtml?channelId=2145">展业通</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2155/33597.shtml?channelId=2145">卓业一站通</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2154/list.shtml?channelId=2145">投融通</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2154/7441.shtml?channelId=2145">税融通</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2154/7454.shtml?channelId=2145">科贷通</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2171/2173/list.shtml?channelId=2145">携手通</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2154/7455.shtml?channelId=2145">惠农通</a>
+													</li>
+			          				</ul>
+			          		</li>
+		          	<li class="topLi">
+					          					<a class="menu_title" id="2072" href="/BankCommSite/shtml/zonghang/cn/2072/list.shtml?channelId=2072">国际业务</a>
+			          		<ul class="zolra-menu" style="left: -17px; width: 136px;">
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2072/2073/2075/list.shtml?channelId=2072">合-银行同业服务</a>
+																<ul style="left: 136px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2073/2075/list.shtml?channelId=2072">外资同业产品</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2073/2074/list.shtml?channelId=2072">中资同业产品</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2072/2095/2098/list.shtml?channelId=2072">通-国际业务服务</a>
+																<ul style="left: 136px; width: 0px;">
+																			<li><a target="_blank" href="http://www.95559.com.cn/BankCommSite/upload//infos/201412/10/37697/ryt/index.html">跨境人民币</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2095/2096/list.shtml?channelId=2072">交银通汇</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2095/2097/list.shtml?channelId=2072">融企通</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2072/2081/2082/list.shtml?channelId=2072">慧-外汇理财服务</a>
+																<ul style="left: 136px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2081/2082/list.shtml?channelId=2072">外币增值类理财</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2081/2084/list.shtml?channelId=2072">本币增值类理财</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2081/2083/list.shtml?channelId=2072">套期保值类理财</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2081/2085/list.shtml?channelId=2072">结售汇及兑换服务</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2072/2076/2078/list.shtml?channelId=2072">宝-外汇交易服务</a>
+																<ul style="left: 136px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2076/2078/list.shtml?channelId=2072">外汇宝</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2076/2080/list.shtml?channelId=2072">满金宝</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2076/2077/list.shtml?channelId=2072">乐兑宝</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2072/2076/2079/list.shtml?channelId=2072">期权宝</a></li>
+																</ul>
+													</li>
+			          				</ul>
+			          		</li>
+		          	<li class="topLi">
+				          						<a class="menu_title" id="2629" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/list.shtml?channelId=2629">电子银行</a>
+			          		<ul class="zolra-menu" style="left: -23px; width: 148px;">
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/2636/2637/list.shtml?channelId=2629">个人网银</a>
+																<ul style="left: 148px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2636/2637/list.shtml?channelId=2629">产品推荐</a></li>
+																			<li><a target="_blank" href="https://pbank.95559.com.cn/personbank/user_guide.html">使用指南</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2636/2639/list.shtml?channelId=2629">安全提示</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2636/2640/list.shtml?channelId=2629">常见问题</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/2645/2646/list.shtml?channelId=2629">企业网银</a>
+																<ul style="left: 148px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2645/2646/list.shtml?channelId=2629">产品推荐</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2645/2647/list.shtml?channelId=2629">使用指南</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2645/2648/list.shtml?channelId=2629">安全提示</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2645/2649/list.shtml?channelId=2629">常见问题</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/2671/2673/list.shtml?channelId=2629">联合在线网银</a>
+																<ul style="left: 148px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2671/2673/list.shtml?channelId=2629">功能介绍</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2671/2672/list.shtml?channelId=2629">使用指南</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2671/2674/list.shtml?channelId=2629">安全提示</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2671/2675/list.shtml?channelId=2629">常见问题</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/html/mobileBank/index.html">手机银行</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/2663/2667/list.shtml?channelId=2629">电话银行</a>
+																<ul style="left: 148px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2663/2667/list.shtml?channelId=2629">推荐功能</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2663/2664/list.shtml?channelId=2629">使用指南</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2663/2665/list.shtml?channelId=2629">安全提示</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2663/2666/list.shtml?channelId=2629">常见问题</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/2676/2677/list.shtml?channelId=2629">自助银行</a>
+																<ul style="left: 148px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2676/2677/list.shtml?channelId=2629">使用指南</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2676/2678/list.shtml?channelId=2629">安全提示</a></li>
+																			<li><a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/3596/list.shtml">自助网点查询</a></li>
+																</ul>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/2630/2631/list.shtml?channelId=2629">95559客户服务</a>
+																<ul style="left: 148px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2630/2631/list.shtml?channelId=2629">95559客户服务简介</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2630/2632/list.shtml?channelId=2629">交行点点通</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2630/2633/list.shtml?channelId=2629">在线客服</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2630/2635/list.shtml?channelId=2629">视频客服</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2630/2634/list.shtml?channelId=2629">短信客服</a></li>
+																</ul>
+													</li>
+			          				<li>
+																<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2668/list.shtml?channelId=2629">短信银行</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2629/2642/2644/list.shtml?channelId=2629">交易规则</a>
+																<ul style="left: 148px; width: 0px;">
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2642/2644/list.shtml?channelId=2629">电子银行服务协议</a></li>
+																			<li><a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2629/2642/2643/list.shtml?channelId=2629">电子银行交易规则</a></li>
+																</ul>
+													</li>
+			          				</ul>
+			          		</li>
+		          	<li class="topLi">
+				          						<a class="menu_title" id="3281" href="http://creditcard.bankcomm.com/content/pccc/index.html">信用卡</a>
+			          		</li>
+		          	<li class="topLi">
+			          						<a class="menu_title" id="3282" href="#">子公司</a>
+			          		<ul class="zolra-menu" style="left: -47px; width: 196px;">
+			          				<li>
+				          							<a target="_blank" href="http://www.jysld.com/">交银施罗德基金管理有限公司</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bocommtrust.com/">交银国际信托有限公司</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bocommleasing.com/">交银金融租赁有限责任公司</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bocommlife.com/">交银康联人寿保险有限公司</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bocomgroup.com/tw/index.html">交银国际控股有限公司</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.cbic.hk/">中国交银保险有限公司</a>
+													</li>
+			          				</ul>
+			          		</li>
+		          	<li class="topLi">
+			          						<a class="menu_title" id="3283" href="#">关于交行</a>
+			          		<ul class="zolra-menu" style="left: -5px; width: 112px;">
+			          				<li>
+				          							<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2971/list.shtml?channelId=2971&amp;anchor=layer_1">交行新闻</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2971/list.shtml?channelId=2971&amp;anchor=layer_2">财富指数</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2971/list.shtml?channelId=2971&amp;anchor=layer_3">国内宏观</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="/BankCommSite/shtml/zonghang/cn/2971/list.shtml?channelId=2971&amp;anchor=layer_4">国际经济</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/uploadFiles/ryb2014.1399641434802/index.html">荣誉榜</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/html/report/qiye/index.html">社会责任报告</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2278/3620/list.shtml?channelId=3620">投资者关系</a>
+													</li>
+			          				<li>
+				          							<a target="_blank" href="http://job.bankcomm.com">人才招聘</a>
+													</li>
+			          				</ul>
+			          		</li>
+		       </ul>
+	</div>		
+<div class="subnav">
+<h2>
+  <span class="title">重要公告：</span>
+	<ul id="voice">
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/43834.shtml?channelId=2971" target="_blank" title="交通银行关于门户网站升级的公告"><script>document.write(cutString('交通银行关于门户网站升级的公告','70'));</script>交通银行关于门户网站升级的公告</a>
+		    	<span class="date">[2016-01-22]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/43719.shtml?channelId=2971" target="_blank" title="关于调整薪金理财系列产品预期年化收益率的公告"><script>document.write(cutString('关于调整薪金理财系列产品预期年化收益率的公告','70'));</script>关于调整薪金理财系列产品预期年化收益率的公告</a>
+		    	<span class="date">[2016-01-21]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/42683.shtml?channelId=2971" target="_blank" title="关于2016年国际市场假日调整记账式原油交易时间的公告"><script>document.write(cutString('关于2016年国际市场假日调整记账式原油交易时间的公告','70'));</script>关于2016年国际市场假日调整记账式原油交易时间的公告</a>
+		    	<span class="date">[2016-01-12]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40441.shtml?channelId=2971" target="_blank" title="关于交通银行发行2016年贺岁币兑换网点的公告"><script>document.write(cutString('关于交通银行发行2016年贺岁币兑换网点的公告','70'));</script>关于交通银行发行2016年贺岁币兑换网点的公告</a>
+		    	<span class="date">[2015-12-30]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40423.shtml?channelId=2971" target="_blank" title="交通银行企业网银2015年终决算安排通知"><script>document.write(cutString('交通银行企业网银2015年终决算安排通知','70'));</script>交通银行企业网银2015年终决算安排通知</a>
+		    	<span class="date">[2015-12-28]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40407.shtml?channelId=2971" target="_blank" title="2015年离岸年终决算公告"><script>document.write(cutString('2015年离岸年终决算公告','70'));</script>2015年离岸年终决算公告</a>
+		    	<span class="date">[2015-12-25]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40404.shtml?channelId=2971" target="_blank" title="关于2016年元旦假期调整电子渠道个人结售汇业务办理时间的公告"><script>document.write(cutString('关于2016年元旦假期调整电子渠道个人结售汇业务办理时间的公告','70'));</script>关于2016年元旦假期调整电子渠道个人结售汇业务办理时间的公告</a>
+		    	<span class="date">[2015-12-25]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40391.shtml?channelId=2971" target="_blank" title="关于调整圣诞及元旦假期外汇交易时间的公告"><script>document.write(cutString('关于调整圣诞及元旦假期外汇交易时间的公告','70'));</script>关于调整圣诞及元旦假期外汇交易时间的公告</a>
+		    	<span class="date">[2015-12-23]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40348.shtml?channelId=2971" target="_blank" title="关于调整圣诞及元旦假期记账式原油交易时间的公告"><script>document.write(cutString('关于调整圣诞及元旦假期记账式原油交易时间的公告','70'));</script>关于调整圣诞及元旦假期记账式原油交易时间的公告</a>
+		    	<span class="date">[2015-12-17]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40219.shtml?channelId=2971" target="_blank" title="关于将外币钞转汇手续费适用范围扩展至对公客户的通知"><script>document.write(cutString('关于将外币钞转汇手续费适用范围扩展至对公客户的通知','70'));</script>关于将外币钞转汇手续费适用范围扩展至对公客户的通知</a>
+		    	<span class="date">[2015-11-27]</span></li>
+		     
+  
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/43834.shtml?channelId=2971" target="_blank" title="交通银行关于门户网站升级的公告"><script>document.write(cutString('交通银行关于门户网站升级的公告','70'));</script>交通银行关于门户网站升级的公告</a>
+		    	<span class="date">[2016-01-22]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/43719.shtml?channelId=2971" target="_blank" title="关于调整薪金理财系列产品预期年化收益率的公告"><script>document.write(cutString('关于调整薪金理财系列产品预期年化收益率的公告','70'));</script>关于调整薪金理财系列产品预期年化收益率的公告</a>
+		    	<span class="date">[2016-01-21]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/42683.shtml?channelId=2971" target="_blank" title="关于2016年国际市场假日调整记账式原油交易时间的公告"><script>document.write(cutString('关于2016年国际市场假日调整记账式原油交易时间的公告','70'));</script>关于2016年国际市场假日调整记账式原油交易时间的公告</a>
+		    	<span class="date">[2016-01-12]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40441.shtml?channelId=2971" target="_blank" title="关于交通银行发行2016年贺岁币兑换网点的公告"><script>document.write(cutString('关于交通银行发行2016年贺岁币兑换网点的公告','70'));</script>关于交通银行发行2016年贺岁币兑换网点的公告</a>
+		    	<span class="date">[2015-12-30]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40423.shtml?channelId=2971" target="_blank" title="交通银行企业网银2015年终决算安排通知"><script>document.write(cutString('交通银行企业网银2015年终决算安排通知','70'));</script>交通银行企业网银2015年终决算安排通知</a>
+		    	<span class="date">[2015-12-28]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40407.shtml?channelId=2971" target="_blank" title="2015年离岸年终决算公告"><script>document.write(cutString('2015年离岸年终决算公告','70'));</script>2015年离岸年终决算公告</a>
+		    	<span class="date">[2015-12-25]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40404.shtml?channelId=2971" target="_blank" title="关于2016年元旦假期调整电子渠道个人结售汇业务办理时间的公告"><script>document.write(cutString('关于2016年元旦假期调整电子渠道个人结售汇业务办理时间的公告','70'));</script>关于2016年元旦假期调整电子渠道个人结售汇业务办理时间的公告</a>
+		    	<span class="date">[2015-12-25]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40391.shtml?channelId=2971" target="_blank" title="关于调整圣诞及元旦假期外汇交易时间的公告"><script>document.write(cutString('关于调整圣诞及元旦假期外汇交易时间的公告','70'));</script>关于调整圣诞及元旦假期外汇交易时间的公告</a>
+		    	<span class="date">[2015-12-23]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40348.shtml?channelId=2971" target="_blank" title="关于调整圣诞及元旦假期记账式原油交易时间的公告"><script>document.write(cutString('关于调整圣诞及元旦假期记账式原油交易时间的公告','70'));</script>关于调整圣诞及元旦假期记账式原油交易时间的公告</a>
+		    	<span class="date">[2015-12-17]</span></li>
+					<li><a href="/BankCommSite/shtml/zonghang/cn/3235/40219.shtml?channelId=2971" target="_blank" title="关于将外币钞转汇手续费适用范围扩展至对公客户的通知"><script>document.write(cutString('关于将外币钞转汇手续费适用范围扩展至对公客户的通知','70'));</script>关于将外币钞转汇手续费适用范围扩展至对公客户的通知</a>
+		    	<span class="date">[2015-11-27]</span></li>
+		     
+  </ul>
+  <span class="more">
+  		<a href="/BankCommSite/shtml/zonghang/cn/3235/list_1.shtml?channelId=2971" target="_blank">更多»</a>
+  </span>			   
+</h2>
+</div>
+	 </div>
+
+	 
+	 <!-- 首页弹框 start-->
+	<script>
+	
+	
+		
+		
+	
+	</script>
+	<!-- 首页弹框 end-->
+	
+	<div id="mainbody" style="height: 1281px;">
+		<!-- 内容左侧 -->
+		<div class="main_left">
+			<div class="top_box">
+		     	<!-- 首页热点推荐 --> 
+					<div class="rdtj_box">
+						
+<div class="rt_top"><h4>热点推荐</h4></div>
+<div class="rt_content">
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+			<tbody><tr>
+							</tr><tr>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://e.bankcomm.com/" target="_blank">网上商城<img src="/BankCommSite/shtml/zonghang/cn/img/new2.gif"></a>
+						</td>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://www.bankcomm.com/BankCommSite/html/mobileBank/index.html" target="_blank">手机银行</a>
+						</td>
+							</tr><tr>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://www.bankcomm.com/BankCommSite/zonghang/cn/lcpd/index.jsp" target="_blank">理财产品</a>
+						</td>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2597/list.shtml" target="_blank">特惠商户</a>
+						</td>
+							</tr><tr>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://www.bankcomm.com/BankCommSite/html/jjcs.html" target="_blank">基金超市</a>
+						</td>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://www.bankcomm.com/BankCommSite/html/bxfw/index.html" target="_blank">保险服务</a>
+						</td>
+							</tr><tr>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="https://sftb.bankcomm.com/index_sftb.jsp?source=jbh&amp;param=paLiBill&amp;provCode=310&amp;cityCode=2900&amp;tranCode=PMP0302" target="_blank">生活缴费</a>
+						</td>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1374805165100/ghyy/index.html" target="_blank">医院挂号</a>
+						</td>
+							</tr><tr>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1348480569100/wintofortunehtml/index.html" target="_blank">蕴通财富</a>
+						</td>
+						<td width="112" height="38px" style="text-align:left; background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/jt.png&quot;) no-repeat scroll 14px 50% transparent;text-indent: 35px; border-bottom: 1px solid #E6E6E6;">
+								<a href="http://rsas.bankcomm.com:9080/main/index.html" target="_blank">贷款申请</a>
+						</td>
+			</tr>	
+	</tbody></table>
+</div>
+</div>
+				
+<script src="/BankCommSite/shtml/zonghang/cn/js/jquery.pshayslider.js" type="text/javascript"></script>
+				<!-- 首页Flash广告 -->
+				<div class="slide_box">
+		<style>
+				.pshaySlider{
+				background: #aaa;
+				border:1px solid #ccc;
+				overflow: hidden;
+				position: relative;
+				margin:0 auto;
+				}
+				
+				.pshaySlider * {
+				border: 0 none;
+				list-style: none outside none;
+				margin: 0;
+				padding: 0;
+				font: 10px/1.5 Verdana,'microsoft yahei',serif;
+				}
+				
+				
+				.pshaySlider .nav{
+				position: absolute;
+				top: 50%;
+				width: 42px;
+				height: 42px;
+				overflow: hidden;
+				text-indent: -9999em;
+				margin-top: -25px;
+				z-index: 110;
+				cursor: pointer;
+				
+				}
+				.pshaySlider .prev {
+				left: 35px;
+				/*background: url("prev.png") no-repeat scroll left top transparent;*/
+				}
+				
+				.pshaySlider .next {
+				right: 35px;
+				/*background: url("next.png") no-repeat scroll left top transparent;*/
+				}
+				
+				
+				.pshaySlider .slider-container {
+				overflow: hidden;
+				}
+				
+				
+				.pshaySlider .slider-container .slider-imgLink, .pshaySlider .slider-container .slider-imgLable{
+				display: block;
+				z-index: 90;
+				}
+				
+				.pshaySlider .slider-container .slider-imgLink .slider-img{
+				display: none;
+				}
+				
+				.pshaySlider .slider-container .slice-box, .pshaySlider .slider-container .slice-box img{
+				position: absolute;
+				overflow: hidden;
+				z-index: 100;
+				}
+				
+				.pshaySlider .slider-thumbs-bg {
+				background: url("/BankCommSite/shtml/zonghang/cn/img/btn-bg.png") no-repeat scroll right bottom transparent;
+				bottom: 0;
+				_bottom: -1px;
+				height: 16px;
+				left: 0;
+				position: absolute;
+				width: 100%;
+				z-index: 110;
+				_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/BankCommSite/shtml/zonghang/cn/img/btn-bg.png'); /* IE6 */
+				_ background-image: none; /* IE6 */
+				}
+				
+				
+				.pshaySlider .slider-thumbs {
+				bottom: 0;
+				_bottom: -1px;
+				color: #FFFFFF;
+				height: 16px;
+				position: absolute;
+				right: 0;
+				z-index: 120;
+				}
+				
+				.pshaySlider .slider-thumbs .thumb{
+				cursor: pointer;
+				float: left;
+				height: 16px;
+				line-height: 16px;
+				position: relative;
+				text-align: center;
+				width: 18px;
+				border-left: 1px solid #aaa;
+				}
+				
+				.pshaySlider .slider-thumbs .hover, .pshaySlider .slider-thumbs .active {
+				background: #a00;
+				}
+		</style>
+		<div id="slider" style="width:506px;height:227px;overflow:hidden;margin:0 auto;" class="pshaySlider">
+					<script type="text/javascript">
+							var lnk = "http://bocomlf.staronair.cn";
+						document.write('<img src="/BankCommSite/upload//infos/201601/14/42858/20160114083232_xiaoxiaojinrongjia.jpg" img-link="' + lnk + '" img-lable=""/></a>');
+					</script><img src="/BankCommSite/upload//infos/201601/14/42858/20160114083232_xiaoxiaojinrongjia.jpg" img-link="http://bocomlf.staronair.cn" img-lable="" style="display: none;">
+					<script type="text/javascript">
+							var lnk = "http://www.bankcomm.com/BankCommSite/upload/infos/201601/11/42674/xinlaomenhuduibi/index.html";
+						document.write('<img src="/BankCommSite/upload//infos/201601/12/42681/20160112135021_xinlaomenhuduibi.jpg" img-link="' + lnk + '" img-lable=""/></a>');
+					</script><img src="/BankCommSite/upload//infos/201601/12/42681/20160112135021_xinlaomenhuduibi.jpg" img-link="http://www.bankcomm.com/BankCommSite/upload/infos/201601/11/42674/xinlaomenhuduibi/index.html" img-lable="" style="display: none;">
+					<script type="text/javascript">
+							var lnk = "http://www.bankcomm.com/BankCommSite/upload/infos/201512/25/40405/tishengyouli/index.html";
+						document.write('<img src="/BankCommSite/upload//infos/201512/25/40406/20151225141037_tishengyouli.jpg" img-link="' + lnk + '" img-lable=""/></a>');
+					</script><img src="/BankCommSite/upload//infos/201512/25/40406/20151225141037_tishengyouli.jpg" img-link="http://www.bankcomm.com/BankCommSite/upload/infos/201512/25/40405/tishengyouli/index.html" img-lable="" style="display: none;">
+					<script type="text/javascript">
+							var lnk = "/BankCommSite/upload/infos/201511/17/40154/fengxianfangfan/index.html";
+						document.write('<img src="/BankCommSite/upload//infos/201511/17/40154/20151117172817_fengxianfangfan.jpg" img-link="' + lnk + '" img-lable=""/></a>');
+					</script><img src="/BankCommSite/upload//infos/201511/17/40154/20151117172817_fengxianfangfan.jpg" img-link="/BankCommSite/upload/infos/201511/17/40154/fengxianfangfan/index.html" img-lable="" style="display: none;">
+		<div class="nav prev" style="opacity: 0.3; display: none;">prev</div><div class="nav next" style="opacity: 0.3; display: none;">next</div><div class="slider-thumbs-bg"></div><div class="slider-thumbs"><b class="thumb active">1</b><b class="thumb">2</b><b class="thumb">3</b><b class="thumb">4</b></div><div class="slider-container"><div class="slider-active"><a href="http://bocomlf.staronair.cn" class="slider-imgLink" target="_blank"><img class="slider-img" src="/BankCommSite/upload//infos/201601/14/42858/20160114083232_xiaoxiaojinrongjia.jpg" style="width: 506px; height: 227px; opacity: 0.12287430963194812; display: inline;"></a><div class="slider-imgLable"></div></div></div></div>
+		<script>
+		$('#slider').pshaySlider();
+		</script>
+</div>
+			</div>
+		    
+			<div class="ywzx_box">
+				<!-- 首页业务在线处理 -->
+	      <!-- 首页业务在线处理 -->
+<div class="jwzxsl_box">
+<div class="rt_top"><h4>业务在线申请</h4></div>
+<div class="rt_content">
+	<ul>
+			<li>
+				  <!--<a href="https://pbank.95559.com.cn/personbank/bankDebitCardApply.jsp" target="_blank">借记卡办卡申请</a>&nbsp;&nbsp;-->
+				  <a href="javascript:void(0);" target="_blank" rel="poplayer_jjksq" id="jjksq_btn">借记卡办卡申请</a>&nbsp;&nbsp;
+				  
+				  <a href="https://pbank.95559.com.cn/personbank/bankCardActivate.jsp" target="_blank">在线激活</a>		  
+				  
+			</li>
+	  
+			<li>
+				  <a href="javascript:void(0);" target="_blank" rel="poplayer_xyksq" id="xyksq_btn">信用卡业务申请</a>&nbsp;&nbsp;
+				  
+			</li>
+	  
+			<li>
+				  <a href="http://www.bankcomm.com/BankCommSite/html/mobileBank/ktxz.html" target="_blank">手机银行开通</a>&nbsp;&nbsp;
+				  
+				  <a href="https://pbank.95559.com.cn/personbank/customer/csEAccOpenNoLogin.do" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;电子账户申请</a>		  
+				  
+			</li>
+	  
+			<li>
+				  <a href="javascript:void(0);" target="_blank" rel="poplayer_dzyh" id="dzyh_btn">电子银行业务申请</a>&nbsp;&nbsp;
+				  
+			</li>
+	  
+			<li>
+				  <a href="javascript:void(0);" target="_blank" rel="poplayer_qyyw" id="qyyw_btn">企业业务在线申请</a>&nbsp;&nbsp;
+				  
+			</li>
+	</ul>
+	<script>
+	$(function(){
+
+			$('.jwzxsl_box li a').each(function(){
+
+				if($(this).html()=="借记卡办卡申请"){
+					$(this).attr({rel:"poplayer_jjksq",id:"jjksq_btn",href:"javascript:void(0);"});
+				}
+				if($(this).html()=="电子银行业务申请"){
+					$(this).attr({rel:"poplayer_dzyh",id:"dzyh_btn",href:"javascript:void(0);"});
+				}
+				if($(this).html()=="信用卡业务申请"){
+					$(this).attr({rel:"poplayer_xyksq",id:"xyksq_btn",href:"javascript:void(0);"});
+				}
+				if($(this).html()=="企业业务在线申请"){
+					$(this).attr({rel:"poplayer_qyyw",id:"qyyw_btn",href:"javascript:void(0);"});
+				}
+
+			});
+			$('#down').click(function(){
+				$('#download').show(1200);
+				$('#download').css('display','none');
+				});
+	});
+	</script>
+	<div id="poplayer_jjksq" class="poplayer poplayer_jjksq" style="">
+		<h4><span>借记卡办卡申请</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+		<div id="tc_content">	  
+			<div class="tc2">
+				<p class="tcon1">
+					<a target="_blank" href="https://pbank.95559.com.cn/personbank/bankDebitCardApply.jsp">» 借记卡办卡申请</a>
+					<a target="_blank" href="https://pbank.95559.com.cn/personbank/bankSwatchBellamyCardApply.jsp">» 借记卡（支付腕表）申请</a>   
+				</p>
+			</div>
+			<div class="tc3">
+				<a target="_blank" href="http://www.bankcomm.com/BankCommSite/simple/cn/service/index.html" class="tc_24online"><img src="/BankCommSite/shtml/zonghang/cn/img/tc/tc_24online.gif" title="在线客服"></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="poplayer_dzyh" class="poplayer poplayer_dzyh" style="">
+		<h4><span>电子银行业务申请</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+		<div id="tc_content">	  
+			<div class="tc2">
+				<p class="tcon1">
+					<a target="_blank" href="https://pbank.95559.com.cn/personbank/bankBsnApply.jsp">» 信用卡业务办理</a>
+					<a target="_blank" href="https://pbank.95559.com.cn/personbank/bankBsnApply.jsp">» 借记卡业务办理</a>   
+				</p>
+			</div>
+			<div class="tc3">
+				<a target="_blank" href="http://www.bankcomm.com/BankCommSite/simple/cn/service/index.html" class="tc_24online"><img src="/BankCommSite/shtml/zonghang/cn/img/tc/tc_24online.gif" title="在线客服"></a>
+			</div>
+		</div>
+	</div>
+	<div id="poplayer_qyyw" class="poplayer poplayer_qyyw" style="">
+		<h4><span>企业业务在线申请</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+		<div id="tc_content">	  
+			<div class="tc2">
+				<p class="tcon1">
+					<a target="_blank" href="https://ebank.95559.com.cn/CEBS/oa/sign_corporbank.do?bocom_locale_langFlg=zh_CN">» 企业网银在线申请</a>
+					<a target="_blank" href="https://ebank.95559.com.cn/CEBS/oa/sign_corporbank.do?bocom_locale_langFlg=zh_CN">» 联合在线申请</a>
+					
+					<a target="_blank" href="https://ebank.95559.com.cn/CEBS/oa/open_account.do?bocom_locale_langFlg=zh_CN">» 在线申请单位银行结算账户</a>    
+					
+					<a target="_blank" id="tc2_down">» 空白申请表下载</a>
+				</p>
+				<p class="tcon2"><a href="http://www.bankcomm.com/BankCommSite/uploadFiles/qywy.zip">企业网银</a> 
+				<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/lhzxwy.zip">联合在线网银</a></p>
+			</div>
+			<div class="tc3">
+				<a target="_blank" href="http://www.bankcomm.com/BankCommSite/simple/cn/service/index.html" class="tc_24online"><img src="/BankCommSite/shtml/zonghang/cn/img/tc/tc_24online.gif" title="在线客服"></a>
+			</div>
+		</div>
+	</div>
+	<div id="poplayer_xyksq" class="poplayer poplayer_xyksq" style="">
+		<h4><span>信用卡业务申请</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+		<div id="tc_content">	  
+			<div class="tc2">
+				<p class="tcon1">
+					<a target="_blank" href="https://creditcardapp.bankcomm.com/applynew/front/apply/index.html">» 信用卡办卡申请</a>
+					<a target="_blank" href="https://creditcardapp.bankcomm.com/member/apply/status/preinquiry.html">» 办卡进度查询</a>
+					<a target="_blank" href="https://creditcardapp.bankcomm.com/member/card/activation/index.html">» 信用卡在线激活</a>
+				</p>
+			</div>
+			<div class="tc3">
+				<a target="_blank" href="http://www.bankcomm.com/BankCommSite/simple/cn/service/index.html" class="tc_24online"><img src="/BankCommSite/shtml/zonghang/cn/img/tc/tc_24online.gif" title="在线客服"></a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+				
+				<!-- 首页优惠资讯 -->
+				
+				<div class="yhzx">
+					
+
+<h4><span>优惠资讯</span>
+	<a href="/BankCommSite/shtml/zonghang/cn/2971/2981/list_1.shtml?channelId=2971" class="more" target="_blank">更多 »</a>
+</h4>
+	<ul>
+							
+				<li class="yh1">
+					<p>
+					
+						<img width="114px" height="50px" src="/BankCommSite/upload//infos/201412/31/35221/20141231142612_135x90.jpg">
+						
+						<span><b>01</b>
+								<a href="http://www.bankcomm.com/BankCommSite/upload/infos/201412/30/37833/shoujiyinhangmianfei/index.html" target="_blank" title="手机银行零手续费优惠"><script>document.write(cutString('手机银行零手续费优惠','25'));</script>手机银行零手续费优惠</a>
+						</span>
+					</p>
+				</li>
+	</ul>
+				</div>
+			</div>
+			
+			<!-- 首页个人业务 -->
+			<div class="gryw_box">
+	<div class="gryw_top"><h3>个人业务</h3></div>
+    <div class="gryw_content">
+		<div class="zdtj">
+		    <h4>重点推荐</h4>
+		    
+			    <div class="content">
+					<dl>
+								<dt>
+									<img src="/BankCommSite/upload//infos/201406/05/2866/20140605155516_wode_1316785465078.jpg">
+									<span>沃德财富您的个人财富管理</span><br>
+										<a href="http://www.bankcomm.com/BankCommSite/html/oto_riches/index.html" target="_blank">(了解详情)</a>
+								</dt>
+								<dd>
+										<a href="/BankCommSite/shtml/zonghang/cn/2971/2974/3563/2867.shtml?channelId=2971" target="_blank">“基金营养组合”——“持”到营养、“持”出健康！</a>
+								</dd>
+								<dd>
+										<a href="/BankCommSite/shtml/zonghang/cn/2971/2974/3563/2868.shtml?channelId=2971" target="_blank">沃德金、沃德银——承载【沃德】品牌，体现文化底蕴</a>
+								</dd>
+								<dd>
+										<a href="/BankCommSite/shtml/zonghang/cn/2971/2974/3563/2869.shtml?channelId=2971" target="_blank">“沃德交易金”——投入一份资金，运作多倍黄金！</a>
+								</dd>
+				  </dl>
+				    	<a href="/BankCommSite/shtml/zonghang/cn/2971/2974/3563/list_1.shtml?channelId=2971" class="more" target="_blank">更多 »</a>
+			    </div>
+		</div>
+		<div class="kstd">
+			<h4>
+				快速通道
+			</h4>
+				<div class="content">
+					<ul>
+							<li><a class="text" href="/BankCommSite/shtml/zonghang/cn/2971/2974/2975/7965.shtml?channelId=2971" target="_blank">在线缴费</a></li>
+							<li><a class="text" href="/BankCommSite/shtml/zonghang/cn/2971/2974/2975/33985.shtml?channelId=2971" target="_blank">转账直通车</a></li>
+							<li><a class="text" href="/BankCommSite/shtml/zonghang/cn/2971/2974/2975/7967.shtml?channelId=2971" target="_blank">个人结售汇</a></li>
+							<li><a class="text" href="/BankCommSite/shtml/zonghang/cn/2971/2974/2975/7968.shtml?channelId=2971" target="_blank">双利理财</a></li>
+							<li><a class="text" href="/BankCommSite/shtml/zonghang/cn/2971/2974/2975/33986.shtml?channelId=2971" target="_blank">外汇宝</a></li>
+							<li><a class="text" href="/BankCommSite/shtml/zonghang/cn/2971/2974/2975/33987.shtml?channelId=2971" target="_blank">黄金买卖</a></li>
+					</ul>
+				</div>
+		</div>
+		<div class="fwjs">
+			<h4>服务介绍
+					<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/list.shtml?channelId=1705" class="more" target="_blank">更多 »</a>
+				</h4>
+					<div class="content">
+						<ul>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/html/oto_riches/index.html" target="_blank">沃德财富</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/html/jylc/index.html" target="_blank">交银理财</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/html/shortcutfortune/index.html" target="_blank">快捷理财</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1705/1742/1743/list.shtml?channelId1705" target="_blank">国债投资</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/zonghang/cn/lcpd/index.jsp" target="_blank">理财产品</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2178/2180/list_1.shtml?channelId=2178" target="_blank">常见问题</a></li>
+						</ul>
+					</div>
+		</div>
+		
+	</div>
+</div>
+	    <!-- 首页公司业务 -->
+			<div class="gsyw_box">
+	<div class="gsyw_top"><h3>公司业务</h3></div>
+    <div class="gsyw_content">
+		<div class="zdtj">
+		    <h4>重点推荐</h4>
+		    
+			    <div class="content">
+					<dl>
+								<dt>
+									<img src="/BankCommSite/upload//infos/201406/05/23991/20140605154057_winto_1350891886709.jpg">
+									<span>蕴通财富企业财富管理</span><br>
+										<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1348480569100/wintofortunehtml/index.html" target="_blank">(了解详情)</a>
+								</dt>
+								<dd>
+										<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1348480569100/wintofortunehtml/products3.html" target="_blank">投资银行-贴合个性化需求的组合服务方案</a>
+								</dd>
+								<dd>
+										<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1348480569100/wintofortunehtml/products2.html" target="_blank">供应链金融-提供10大行业供应链金融服务方案</a>
+								</dd>
+								<dd>
+										<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1348480569100/wintofortunehtml/products.html" target="_blank">蕴通账户-现金管理解决方案</a>
+								</dd>
+				  </dl>
+				    	<a href="/BankCommSite/shtml/zonghang/cn/2971/2983/3564/list_1.shtml?channelId=2971" class="more" target="_blank">更多 »</a>
+			    </div>
+		</div>
+		<div class="kstd">
+			<h4>
+				快速通道
+			</h4>
+				<div class="content">
+					<ul>
+								<li><a class="text" href="http://www.bankcomm.com/BankCommSite/uploadFiles/cwt.1224812961080/index.html?infoId1224813096100" target="_blank">财务通</a></li>
+								<li><a class="text" href="http://www.bankcomm.com/BankCommSite/uploadFiles/tzlc.1224814282954/index.html?infoId1224814415100" target="_blank">投资理财</a></li>
+								<li><a class="text" href="http://www.bankcomm.com/BankCommSite/uploadFiles/xjgl.1224814329610/index.html?infoId1224814462100" target="_blank">现金管理</a></li>
+					</ul>
+				</div>
+		</div>
+		<div class="fwjs">
+			<h4>服务介绍
+					<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/list.shtml?channelId=1967" class="more" target="_blank">更多 »</a>
+				</h4>
+					<div class="content">
+						<ul>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2145/2153/2155/33588.shtml?channelId=2145" target="_blank">小企业信贷</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1408514748100/danweijiesuanka/index.html" target="_blank">单位结算卡</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/html/winToFortune/tzyh.htm" target="_blank">投资银行</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/uploadFiles/autofinancehtml.1358494612640/index.html?infoId1301307568100" target="_blank">汽车供应链</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/2001/2004/list.shtml?channelId=1967" target="_blank">资产托管</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1967/1977/1979/7954.shtml?channelId=1967" target="_blank">转账结算</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/html/winToFortune/28_zwrz.htm" target="_blank">债务融资</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2072/2081/2084/list.shtml?channelId2072" target="_blank">外汇理财</a></li>
+									<li><a class="text" href="http://www.bankcomm.com/BankCommSite/html/help/help.html" target="_blank">常见问题</a></li>
+						</ul>
+					</div>
+		</div>
+		
+	</div>
+</div>
+			<!-- 首页交行新闻 -->
+		    
+
+ <div class="jhnews_box">
+          <div class="jhnews_top">
+                 <h4 id="info">
+	                <span rel="layer_1" class="default">交行新闻</span>
+	                <span rel="layer_2" id="layer_2">财富指数</span>
+	                <span rel="layer_3">国内宏观</span>
+	                <span rel="layer_4">国际经济</span> 
+	                <a href="http://www.bankcomm.com/BankCommSite/uploadFiles/ryb2014.1399641434802/index.html?infoId=1296036155100" target="_blank" class="t1">荣誉榜</a>
+					<a href="http://www.bankcomm.com/BankCommSite/html/report/qiye/index.html" target="_blank" class="t2">社会责任报告</a>
+					<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2278/3620/list.shtml?channelId=2278" target="_blank" class="t3">投资者关系</a>                        </h4>
+          </div>
+		  <div class="jhnews_content">
+		    
+		  <!-- 交行新闻 -->
+		  	  <ul class="layer layer_1 default">
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/45738.shtml?channelId=2971" target="_blank" title="交通银行启动营销变革 粉丝营销破解同质化竞争迷局"><script>document.write(cutString('交通银行启动营销变革 粉丝营销破解同质化竞争迷局','25'));</script>交通银行启动营销变革 粉丝...</a>
+						<span class="date1">[2016-09-20]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/39751.shtml?channelId=2971" target="_blank" title="特色服务赢好口碑——交行重庆东和春天支行获全国银行业雷锋岗称号"><script>document.write(cutString('特色服务赢好口碑——交行重庆东和春天支行获全国银行业雷锋岗称号','25'));</script>特色服务赢好口碑——交行...</a>
+						<span class="date1">[2015-09-18]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/43791.shtml?channelId=2971" target="_blank" title="交通银行太平洋借记卡——斯沃琪贝拉米支付腕表正式在中国发售"><script>document.write(cutString('交通银行太平洋借记卡——斯沃琪贝拉米支付腕表正式在中国发售','25'));</script>交通银行太平洋借记卡——...</a>
+						<span class="date1">[2016-01-22]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/43572.shtml?channelId=2971" target="_blank" title="交行上海市分行创新自贸区银团合作模式 "><script>document.write(cutString('交行上海市分行创新自贸区银团合作模式 ','25'));</script>交行上海市分行创新自贸区...</a>
+						<span class="date1">[2016-01-19]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/43571.shtml?channelId=2971" target="_blank" title="交行湖南省分行多措并举提升惠民服务水平"><script>document.write(cutString('交行湖南省分行多措并举提升惠民服务水平','25'));</script>交行湖南省分行多措并举提...</a>
+						<span class="date1">[2016-01-19]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/43563.shtml?channelId=2971" target="_blank" title="百尺竿头  精进十载——交通银行博士后科研工作站成立十周年论坛"><script>document.write(cutString('百尺竿头  精进十载——交通银行博士后科研工作站成立十周年论坛','25'));</script>百尺竿头  精进十载——交...</a>
+						<span class="date1">[2016-01-18]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/43562.shtml?channelId=2971" target="_blank" title="交行浙江省分行为杭州首批出租车正式开通金融ＩＣ卡支付"><script>document.write(cutString('交行浙江省分行为杭州首批出租车正式开通金融ＩＣ卡支付','25'));</script>交行浙江省分行为杭州首批...</a>
+						<span class="date1">[2016-01-18]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/43561.shtml?channelId=2971" target="_blank" title="开拓消费金融“新蓝海”——交通银行江西省分行打造个贷亲民品牌"><script>document.write(cutString('开拓消费金融“新蓝海”——交通银行江西省分行打造个贷亲民品牌','25'));</script>开拓消费金融“新蓝海”—...</a>
+						<span class="date1">[2016-01-18]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/42695.shtml?channelId=2971" target="_blank" title="交通银行湘西分行成立  交行湖南省分行与湘西州人民政府签署战略合作协议"><script>document.write(cutString('交通银行湘西分行成立  交行湖南省分行与湘西州人民政府签署战略合作协议','25'));</script>交通银行湘西分行成立  交...</a>
+						<span class="date1">[2016-01-13]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/40447.shtml?channelId=2971" target="_blank" title="交行上海市分行大力支持众创空间发展  推进大众创新创业"><script>document.write(cutString('交行上海市分行大力支持众创空间发展  推进大众创新创业','25'));</script>交行上海市分行大力支持众...</a>
+						<span class="date1">[2015-12-31]</span>
+				 </li>
+			   <li>
+						<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/40446.shtml?channelId=2971" target="_blank" title="助力农村精准脱贫 交行宁波分行结对帮扶坑口村"><script>document.write(cutString('助力农村精准脱贫 交行宁波分行结对帮扶坑口村','25'));</script>助力农村精准脱贫 交行宁波...</a>
+						<span class="date1">[2015-12-31]</span>
+				 </li>
+		</ul>
+			<a href="/BankCommSite/shtml/zonghang/cn/2971/2977/list_1.shtml?channelId=2971" id="layer_1_a" class="more" target="_blank">更多 »</a>
+  
+			
+			
+			<!-- 财富指数 -->
+			<div class="layer layer_2" id="layer2">				
+				<div class="first">
+		  		<!-- 指数报告 -->
+					<h4>指数报告</h4>
+<div class="content">
+  <dl>
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3022/39441.shtml?channelId=2971" target="_blank" title="交银中国财富景气指数报告[第30期]"><script>document.write(cutString('交银中国财富景气指数报告[第30期]','36'));</script>交银中国财富景气指数报告[第30期] 
+					
+						</a>
+				<span class="date1">[2015-08-10]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3022/38907.shtml?channelId=2971" target="_blank" title="交银中国财富景气指数报告[第29期]"><script>document.write(cutString('交银中国财富景气指数报告[第29期]','36'));</script>交银中国财富景气指数报告[第29期] 
+					
+						</a>
+				<span class="date1">[2015-06-09]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3022/38469.shtml?channelId=2971" target="_blank" title="交银中国财富景气指数报告[第28期]"><script>document.write(cutString('交银中国财富景气指数报告[第28期]','36'));</script>交银中国财富景气指数报告[第28期] 
+					
+						</a>
+				<span class="date1">[2015-04-08]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3022/38102.shtml?channelId=2971" target="_blank" title="交银中国财富景气指数报告[第27期]"><script>document.write(cutString('交银中国财富景气指数报告[第27期]','36'));</script>交银中国财富景气指数报告[第27期] 
+					
+						</a>
+				<span class="date1">[2015-02-10]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3022/37691.shtml?channelId=2971" target="_blank" title="交银中国财富景气指数报告[第26期]"><script>document.write(cutString('交银中国财富景气指数报告[第26期]','36'));</script>交银中国财富景气指数报告[第26期] 
+					
+						</a>
+				<span class="date1">[2014-12-10]</span>
+			</dd>																		
+</dl>
+		<a target="_blank" class="tomore" href="/BankCommSite/shtml/zonghang/cn/2971/3021/3022/list_1.shtml?channelId=2971">更多 »</a>
+</div>	
+				</div>
+				
+				<div class="second">
+		  			<!--新闻报道 -->
+					<h4>新闻报道</h4>
+<div class="content">
+  <dl>
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3023/39442.shtml?channelId=2971" target="_blank" title="股市震荡导致财富景气指数重挫"><script>document.write(cutString('股市震荡导致财富景气指数重挫','36'));</script>股市震荡导致财富景气指数重挫 
+					
+						</a>
+				<span class="date1">[2015-08-10]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3023/38910.shtml?channelId=2971" target="_blank" title="交银中国财富景气指数全面回升"><script>document.write(cutString('交银中国财富景气指数全面回升','36'));</script>交银中国财富景气指数全面回升 
+					
+						</a>
+				<span class="date1">[2015-06-09]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3023/38470.shtml?channelId=2971" target="_blank" title="交银中国财富景气指数小幅下滑"><script>document.write(cutString('交银中国财富景气指数小幅下滑','36'));</script>交银中国财富景气指数小幅下滑 
+					
+						</a>
+				<span class="date1">[2015-04-08]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3023/38103.shtml?channelId=2971" target="_blank" title="小康家庭当前不动产投资意愿出现回升"><script>document.write(cutString('小康家庭当前不动产投资意愿出现回升','36'));</script>小康家庭当前不动产投资意愿出现回升 
+					
+						</a>
+				<span class="date1">[2015-02-10]</span>
+			</dd>																		
+			<dd style="position: relative;">
+							<a href="/BankCommSite/shtml/zonghang/cn/2971/3021/3023/37692.shtml?channelId=2971" target="_blank" title="财富景气指数总体平稳 不动产投资意愿止跌回升"><script>document.write(cutString('财富景气指数总体平稳 不动产投资意愿止跌回升','36'));</script>财富景气指数总体平稳 不动产投资意愿... 
+					
+						</a>
+				<span class="date1">[2014-12-10]</span>
+			</dd>																		
+</dl>
+		<a target="_blank" class="tomore" href="/BankCommSite/shtml/zonghang/cn/2971/3021/3023/list_1.shtml?channelId=2971">更多 »</a>
+</div>	
+				</div>
+			</div>
+		
+			<!-- 国内宏观国际经济 -->
+			<ul class="layer layer_3">
+	       <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8717037.shtml?channelId=2991" target="_blank" title="深圳平均工资上调至7480元 工伤保险待遇上调"><script>document.write(cutString('深圳平均工资上调至7480元 工伤保险待遇上调','25'));</script>深圳平均工资上调至7480元 ...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8717082.shtml?channelId=2991" target="_blank" title="2017年1-6月份二连浩特市就业工作目标完成情况"><script>document.write(cutString('2017年1-6月份二连浩特市就业工作目标完成情况','25'));</script>2017年1-6月份二连浩特市就...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8717083.shtml?channelId=2991" target="_blank" title="上半年宜昌利用外资23546万美元"><script>document.write(cutString('上半年宜昌利用外资23546万美元','25'));</script>上半年宜昌利用外资23546万...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8717036.shtml?channelId=2991" target="_blank" title="到2020年 江西农村居民年人均纯收入达1.5万元"><script>document.write(cutString('到2020年 江西农村居民年人均纯收入达1.5万元','25'));</script>到2020年 江西农村居民年人...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8717081.shtml?channelId=2991" target="_blank" title="新疆上半年城镇新增就业33.6万人"><script>document.write(cutString('新疆上半年城镇新增就业33.6万人','25'));</script>新疆上半年城镇新增就业33....</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8715294.shtml?channelId=2991" target="_blank" title="猪肉鸡蛋降价一成多，服务价格走高"><script>document.write(cutString('猪肉鸡蛋降价一成多，服务价格走高','25'));</script>猪肉鸡蛋降价一成多，服务...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8716356.shtml?channelId=2991" target="_blank" title="商务部：降低制度性技术性成本 继续推进降费减税"><script>document.write(cutString('商务部：降低制度性技术性成本 继续推进降费减税','25'));</script>商务部：降低制度性技术性...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8716183.shtml?channelId=2991" target="_blank" title="统计局：2016年末我国常住人口城镇化率达57.4%"><script>document.write(cutString('统计局：2016年末我国常住人口城镇化率达57.4%','25'));</script>统计局：2016年末我国常住...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8714859.shtml?channelId=2991" target="_blank" title="沈丹阳从容转身"><script>document.write(cutString('沈丹阳从容转身','25'));</script>沈丹阳从容转身</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8714798.shtml?channelId=2991" target="_blank" title="“盛宴”接近收场 流动性料回归中性水平"><script>document.write(cutString('“盛宴”接近收场 流动性料回归中性水平','25'));</script>“盛宴”接近收场 流动性料...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8714854.shtml?channelId=2991" target="_blank" title="对话沈丹阳：中国依然需要“开放”"><script>document.write(cutString('对话沈丹阳：中国依然需要“开放”','25'));</script>对话沈丹阳：中国依然需要...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/8714812.shtml?channelId=2991" target="_blank" title="人均住房面积数据为何引来一片质疑声"><script>document.write(cutString('人均住房面积数据为何引来一片质疑声','25'));</script>人均住房面积数据为何引来...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+</ul>
+<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2991/list_1.shtml?channelId=2991" id="layer_3_a" class="more" style="display:none;" target="_blank">更多 »</a>
+	
+<ul class="layer layer_4">
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8716246.shtml?channelId=2993" target="_blank" title="G20汉堡峰会：坚持开放包容 推动联动增长"><script>document.write(cutString('G20汉堡峰会：坚持开放包容 推动联动增长','25'));</script>G20汉堡峰会：坚持开放包容...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8716250.shtml?channelId=2993" target="_blank" title="聚焦G20汉堡峰会"><script>document.write(cutString('聚焦G20汉堡峰会','25'));</script>聚焦G20汉堡峰会</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8716339.shtml?channelId=2993" target="_blank" title="让“一带一路”倡议融入G20共识"><script>document.write(cutString('让“一带一路”倡议融入G20共识','25'));</script>让“一带一路”倡议融入G20...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8715309.shtml?channelId=2993" target="_blank" title="美元对其他主要货币汇率10日涨跌互现"><script>document.write(cutString('美元对其他主要货币汇率10日涨跌互现','25'));</script>美元对其他主要货币汇率10...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714846.shtml?channelId=2993" target="_blank" title="老郑说汇:美元短期走稳 本周变数仍多"><script>document.write(cutString('老郑说汇:美元短期走稳 本周变数仍多','25'));</script>老郑说汇:美元短期走稳 本...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714902.shtml?channelId=2993" target="_blank" title="iPhone 7高调宣传防水功能 进了水却不保修"><script>document.write(cutString('iPhone 7高调宣传防水功能 进了水却不保修','25'));</script>iPhone 7高调宣传防水功能 ...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714765.shtml?channelId=2993" target="_blank" title="日本5月份核心机械订单继续下降"><script>document.write(cutString('日本5月份核心机械订单继续下降','25'));</script>日本5月份核心机械订单继续...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714864.shtml?channelId=2993" target="_blank" title="与普京会面无助拨开疑云 特朗普面临“通俄门”升级"><script>document.write(cutString('与普京会面无助拨开疑云 特朗普面临“通俄门”升级','25'));</script>与普京会面无助拨开疑云 特...</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714764.shtml?channelId=2993" target="_blank" title="全球媒体扫描"><script>document.write(cutString('全球媒体扫描','25'));</script>全球媒体扫描</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714684.shtml?channelId=2993" target="_blank" title="GIC缩减风险资产敞口"><script>document.write(cutString('GIC缩减风险资产敞口','25'));</script>GIC缩减风险资产敞口</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714630.shtml?channelId=2993" target="_blank" title="日本央行上调国内经济评估"><script>document.write(cutString('日本央行上调国内经济评估','25'));</script>日本央行上调国内经济评估</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+     <li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/8714766.shtml?channelId=2993" target="_blank" title="日经指数重返20000点"><script>document.write(cutString('日经指数重返20000点','25'));</script>日经指数重返20000点</a>
+			<span class="date1">[07-11]</span>
+		 </li>
+</ul>
+<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/2993/list_1.shtml?channelId=2993" id="layer_4_a" class="more" style="display:none;" target="_blank">更多 »</a>
+		  </div>
+		</div>
+					
+
+		</div>
+		
+		<!-- 内容右侧 -->    
+		<div class="main_right">
+			<!-- 首页网银登陆 -->
+		  <!-- 首页网银登陆 -->
+<div class="wy_login">
+				
+<style>
+ .dzhd{
+ 	background: url('/BankCommSite/shtml/zonghang/cn/img/btn/lhline_btn.gif') repeat scroll 0 0 transparent;
+    display: block;
+    font-family: '宋体';
+    font-size: 12px;
+    font-weight: 700;
+    height: 22px;
+    text-align: center;
+    margin:8px 19px;
+    width: 187px;
+    padding-top:6px;
+ }
+</style>
+    <div class="login_top">
+	    <h3 class="tabs"><span rel="tab_1" class="default">个人网银</span><span rel="tab_2">企业网银</span></h3>
+	</div>
+	<div class="login_content">
+	     <div class="tab tab_1 default">
+		     <div class="login_index">
+                 <div class="login_index_btn"><a href="https://pbank.95559.com.cn/personbank/logon.jsp" target="_blank"></a></div>
+                 <div class="index_find">
+                     <a class="a1" href="https://pbank.95559.com.cn/personbank/system/syFindAlias.do" target="_blank">找回用户名</a><a href="https://pbank.95559.com.cn/personbank/system/syResetpwd.do" target="_blank">找回密码</a><a class="none" href="https://pbank.95559.com.cn/personbank/download1.html" target="_blank">下载中心</a>
+                 </div>
+                 <div class="index_user_add">
+                     <a href="https://pbank.95559.com.cn/personbank/system/syRegist.do" target="_blank"><img src="/BankCommSite/shtml/zonghang/cn/img/login_add.jpg"><strong>新用户注册</strong></a>
+                     <span>|</span>
+                     <a href="https://pbank.95559.com.cn/personbank/demo/index.html" target="_blank"><img src="/BankCommSite/shtml/zonghang/cn/img/demo.jpg"><strong>操作演示</strong></a>
+                 </div>
+            </div>
+		</div>
+		<div class="tab tab_2">
+		     <ul>
+				 <li>
+				 <script>
+				 	document.write("<a  href='ht"+"tps://ebank.95559.com.cn/CEBS/cebs/logon.do?bocom_locale_langFlg=zh_CN#tabs-1' target='_blank'>企业普通用户登录</a>");
+				 </script><a href="https://ebank.95559.com.cn/CEBS/cebs/logon.do?bocom_locale_langFlg=zh_CN#tabs-1" target="_blank">企业普通用户登录</a>
+				 </li>
+				 <li>
+				 <script>
+				 	document.write("<a  href='ht"+"tps://ebank.95559.com.cn/CEBS/cebs/logon.do?bocom_locale_langFlg=zh_CN#tabs-2' target='_blank'>企业证书用户登录</a>");
+				 </script><a href="https://ebank.95559.com.cn/CEBS/cebs/logon.do?bocom_locale_langFlg=zh_CN#tabs-2" target="_blank">企业证书用户登录</a>
+				 </li>
+			 </ul>
+			 <p><a href="#" id="qywy_btn" rel="poplayer_qywy">操作指南</a><a href="https://ebank.95559.com.cn/CEBS/guides/help_corporbankGuide_input.html" class="red" target="_blank">安全提示</a></p>
+			 <div class="dzhd">
+			   <script>
+			     document.write("<a  href='ht"+"tps://offshore.95559.com.cn/corporbank/logon.jsp?channel=qywy&oldWay=0' target='_blank' style='color: #FFFFFF;'>离岸网银</a>");
+				 document.write("&nbsp;&nbsp;");
+			     document.write("<a  href='ht"+"tps://ebank.95559.com.cn/CEBS/cebs/wisdomLogon.do?bocom_locale_langFlg=zh_CN' target='_blank' style='color: #FFFFFF;'>汽车金融</a>");
+			   </script><a href="https://offshore.95559.com.cn/corporbank/logon.jsp?channel=qywy&amp;oldWay=0" target="_blank" style="color: #FFFFFF;">离岸网银</a>&nbsp;&nbsp;<a href="https://ebank.95559.com.cn/CEBS/cebs/wisdomLogon.do?bocom_locale_langFlg=zh_CN" target="_blank" style="color: #FFFFFF;">汽车金融</a>
+			 </div>
+		 	
+			 <div class="dzhd">
+			   <script>
+                   document.write("<a href='ht"+"tps://offshore.95559.com.cn/corporbank/annu_logon.jsp' target='_blank' style='color: #FFFFFF'>年金查询</a>");
+               </script><a href="https://offshore.95559.com.cn/corporbank/annu_logon.jsp" target="_blank" style="color: #FFFFFF">年金查询</a>
+               &nbsp;<a href="https://ebs.95559.com.cn" target="_blank" style="color: #FFFFFF;">电子对账</a>
+             </div>
+            
+		    </div>
+		 <!-- 企业网银操作指南开始 -->
+		  <div id="poplayer_qywy" class="poplayer poplayer_qywy" style="height: 200px;">
+          <h4><span>企业网银操作指南</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+           <div class="contnet">
+           
+              <p><a href="https://ebank.95559.com.cn/CEBS/guides/newHand_corporbankGuide_req.html" class="one" target="_blank">新手指南</a></p>
+              <p><a href="https://ebank.95559.com.cn/CEBS/guides/help_corporbankGuide_p2.html" class="two" target="_blank">帮助中心</a></p>
+              <p><a href="https://ebank.95559.com.cn/CEBS/guides/help_corporbankGuide_p4.html" class="five" target="_blank">软件下载</a></p>
+              <p><a href="https://offshore.95559.com.cn/corporbank/certdown/DownloadCertCA.html" class="eight" target="_blank">证书下载</a></p>
+            </div>
+        </div>
+        <!-- 企业网银操作指南结束 -->
+	</div>
+</div>
+			
+			<!-- 首页交行E生活 -->
+			<div class="jhesh_box">
+<div class="rt_top"><h4>常用信息</h4></div>
+<div class="rt_content">
+	<ul class="elife">
+		<li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/3596/list.shtml" class="wd" target="_blank">网点查询</a>
+			<a href="#" id="fhwz_btn" rel="poplayer_fhwz" class="fh" target="_blank">分行网站</a>
+		</li>
+		<li>
+			<a href="#" id="ll_btn" rel="poplayer_ll" class="ll" target="_blank">存贷款利率</a>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/3254/3612/34069.shtml" class="pj" target="_blank">外汇牌价</a>
+		</li>
+		<li>
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/3254/3640/34101.shtml" class="lx" target="_blank">利息计算</a>
+			<a href="http://www.bankcomm.com/BankCommSite/html/whmm.html" target="_blank" style="left:120px;background: url(&quot;/BankCommSite/shtml/zonghang/cn/img/whzx.gif&quot;) no-repeat -5px 50%;">汇市资讯</a>
+		</li>
+		<li>
+			<!-- >a href="http://www.bankcomm.com/BankCommSite/cn/survey/index.html" class="myd" target="_blank">满意度调查</a-->
+			<a href="http://www.bankcomm.com/BankCommSite/html/fwml/index.html" class="fwml" target="_blank">服务收费名录</a>
+			<!--<a href="http://www.bankcomm.com/BankCommSite/cn/exchange_channel/enterprise_year_index.jsp?type=index" class="nj" target="_blank">企业年金</a>-->
+			<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/1909/3638/list.shtml?channelId=3638" class="nj" target="_blank">企业年金</a>
+		</li>
+	</ul>	
+	
+	<div id="poplayer_ll" class="poplayer poplayer_ll">
+        <h4><span>存贷款利率</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+        <div class="contnet">
+         		 		<p><a href="/BankCommSite/shtml/zonghang/cn/2971/3254/3256/33978.shtml?channelId=2971" target="_blank">人民币存款利率表</a></p>
+         		 		<p><a href="/BankCommSite/shtml/zonghang/cn/2971/3254/3256/33977.shtml?channelId=2971" target="_blank">外币存款利率表</a></p>
+         		 		<p><a href="/BankCommSite/shtml/zonghang/cn/2971/3254/3256/33976.shtml?channelId=2971" target="_blank">人民币贷款基准利率表</a></p>
+         		 		<p><a href="/BankCommSite/shtml/zonghang/cn/2971/3254/3256/33975.shtml?channelId=2971" target="_blank">人民币贷款基础利率报价</a></p>
+        </div>
+  </div>
+        
+        
+	<div id="poplayer_fhwz" class="poplayer poplayer_fhwz" style="">
+	    <h4><span>分行网站</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+	    	<div class="contnet">
+					    	<div class="left w_138">
+					    		<h5><span class="one">境内分行</span></h5>
+					        <ul>   	
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/beijing/cn/2059/list.shtml?channelId=2059" target="_blank">» 北京市分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/guangdong/cn/2220/list.shtml?channelId=2220" target="_blank">» 广东省分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/hubei/cn/2584/list.shtml?channelId=2584" target="_blank">» 湖北省分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/henan/cn/2440/list.shtml?channelId=2440" target="_blank">» 河南省分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/shanghai/cn/1692/list.shtml" target="_blank">» 上海市分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/shenzhen/cn/2531/list.shtml?channelId=2531" target="_blank">» 深圳分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/wuxi/cn/2350/list.shtml?channelId=2350" target="_blank">» 无锡分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/jiangsu/cn/2389/list.shtml?channelId=2389" target="_blank">» 江苏省分行 </a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/shanxi/cn/2833/list.shtml?channelId=2833" target="_blank">» 陕西省分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com/BankCommSite/shtml/qingdao/cn/2879/list.shtml?channelId=2879" target="_blank">» 青岛分行</a>
+						            		</li>
+				           <br>
+				         	</ul>
+				   		</div>
+					     	<div class="right w_138">
+					     		<h5><span class="two">境外分行</span></h5>
+					        <ul>   	
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com.tw" target="_blank">» 台北分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com.mo" target="_blank">» 澳门分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.jp" target="_blank">» 东京分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.co.kr" target="_blank">» 首尔分行</a>
+						            		</li>
+													  <li style="{PADDING-LEFT: 0px;LINE-HEIGHT: 23px;HEIGHT: 23px}">
+						                <a href="http://www.bankcomm.com.hk" target="_blank">» 香港分行</a>
+						            		</li>
+				           <br>
+				         	</ul>
+				   		</div>
+	   		<div class="clear"></div>
+	   		</div>
+	</div>
+	
+</div>
+</div>
+			
+			<!-- 首页下载专区-->
+			<div class="xzzq_box">
+	<div class="rt_top"><h4>下载专区</h4></div>
+	<div class="rt_content">
+		<ul>
+					<li>
+							<p><a href="http://www.bankcomm.com/BankCommSite/html/mobileBank/ktxz2.html" target="_blank" title="手机银行客户端"><img src="/BankCommSite/upload//infos/201109/23/3262/20110923212358_sjkhd.png" border="0" alt="手机银行客户端"></a></p>
+							<p><a href="http://www.bankcomm.com/BankCommSite/html/mobileBank/ktxz2.html" target="_blank" title="手机银行客户端">手机银行客户端</a></p>
+					</li>
+					<li>
+							<p><a href="https://pbank.95559.com.cn/personbank/newuserhelp2.html" target="_blank" title="网银向导"><img src="/BankCommSite/upload//infos/201109/23/3259/20110923212534_wyxd.png" border="0" alt="网银向导"></a></p>
+							<p><a href="https://pbank.95559.com.cn/personbank/newuserhelp2.html" target="_blank" title="网银向导">网银向导</a></p>
+					</li>
+					<li>
+							<p><a href="http://gesdl.95559.com.cn/setup.exe" target="_blank" title="玖玖黄金交易"><img src="/BankCommSite/upload//infos/201109/23/3261/20110923212358_99.png" border="0" alt="玖玖黄金交易"></a></p>
+							<p><a href="http://gesdl.95559.com.cn/setup.exe" target="_blank" title="玖玖黄金交易">玖玖黄金交易</a></p>
+					</li>
+					<li>
+							<p><a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1409131298100/mjb/index.html" target="_blank" title="满金宝客户端"><img src="/BankCommSite/upload//infos/201210/17/3258/20121017091956_mjb.png" border="0" alt="满金宝客户端"></a></p>
+							<p><a href="http://www.bankcomm.com/BankCommSite/uploadFiles/res/1409131298100/mjb/index.html" target="_blank" title="满金宝客户端">满金宝客户端</a></p>
+					</li>
+		</ul>
+	</div>
+</div>
+			
+			<!-- 首页右栏广告区 -->
+			<div class="adv_box">
+						<div class="tab_0">
+									<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/wode.1323400016903/index.html" target="_blank"><img src="/BankCommSite/upload//advinfos/201405/23/33843/20140527202519_01-yuanmengdai.jpg" width="226" height="78" border="0"></a>
+						</div>
+						<div class="tab_1">
+									<a href="http://www.bankcomm.com/BankCommSite/html/mobileBank/thhd_pic6.html" target="_blank"><img src="/BankCommSite/upload//advinfos/201405/23/33841/20140527203251_1.jpg" width="226" height="78" border="0"></a>
+						</div>
+						<div class="tab_2">
+									<a href="http://www.bankcomm.com/BankCommSite/uploadFiles/lhcf_html.1322879703203/index.html" target="_blank"><img src="/BankCommSite/upload//advinfos/201408/01/35244/20140801094808_guanggao3.jpg" width="226" height="78" border="0"></a>
+						</div>
+		  </div>
+		   	
+			<!-- 首页信息发布 -->
+			<div class="xxfb_box">
+				
+
+
+
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script>
+			function showtabs(m,n,count){
+				for(var i=1;i<=count;i++){
+	
+				if (i==n){
+						getObject('menutab_'+m+'_'+i).style.display='';
+					getObject('menu_'+m+'_'+i).className='menub1_1';
+				} else {
+					getObject('menutab_'+m+'_'+i).style.display='none';
+					getObject('menu_'+m+'_'+i).className='menub1_2';
+					}
+				}
+			}
+			function getObject(objectId) {
+				if(document.getElementById && document.getElementById(objectId)){
+					return document.getElementById(objectId);
+				} else if (document.all && document.all(objectId)) {
+					return document.all(objectId);
+				} else if (document.layers && document.layers[objectId]) {
+					return document.layers[objectId];
+				} else {return false;}
+			}
+	
+	        function closeDiv(){
+				document.getElementById('popDiv').style.display='none';
+				document.getElementById('bg').style.display='none';
+			}
+			$(document).ready(
+			function(){
+				$("#assert").click(function(){
+					$("#gjs_popDiv").css("display","block");
+			
+						//$("#message").show('300').css("display","block");
+			
+							});
+				$("#close").click(function(){
+					$("#gjs_popDiv").css("display","none");
+							});
+			});
+ 		</script>
+		<style type="text/css">
+		 	.metalTab td, .metalTab th{
+		 		line-height:18px;
+		 	}
+		</style>
+	
+	
+			<!-- 	 首页信息发布 和 股票市场 -->
+			<style type="text/css">
+	body,div,ul,li{margin:0;padding:0;list-style:none;}
+	.stockBody {width:224px;}
+	.gjs_assert {margin: 0 !important;left:2px;top:80px;}
+	.gjs_assert ul {width:220px;}
+	.gjs_assert ul li {width:220px;}
+	.gjs_assert .content{width:auto;height:auto;}
+ 	.metalTab td, .metalTab th{
+ 		line-height:18px;
+ 	}
+	.tabs2 ul li a{cursor:pointer;}
+</style>
+<div class="stockBody">
+	<div class="tabs2">
+		<ul>
+			<li class="menub1_1" id="menu_3_1" onclick="showtabs(3,1,2)"><a title="贵金属牌价">贵金属牌价</a></li>
+			<li class="menub1_2" id="menu_3_2" onclick="showtabs(3,2,2)"><a title="股票市场">股票市场</a></li>
+		</ul>
+	</div>
+		<div class="menugtab" id="menutab_3_1">
+			<table border="0" cellpadding="0" cellspacing="0" class="metalTab">
+				<tbody><tr>
+					<td class="t_title" colspan="3" style="text-align:center">
+					<span style="font-size:12px;"><strong>更新时间：2018-01-09 14:37:03</strong></span>
+					</td>
+				</tr>
+				<tr>
+					<th><label>名称</label></th>
+					<th width="34%"><label>价格</label></th>
+					<th width="34%"><label>涨跌</label></th> 
+				</tr>
+						<tr>
+							<td><span>Au100g    </span></td>
+							<td><span>277.00</span></td>
+								<td style="color:#FF0000;"><span>+0.07&nbsp;↑</span></td> 
+						</tr>
+						<tr>
+							<td><span>Au99.95   </span></td>
+							<td><span>277.10</span></td>
+								<td style="color:#FF0000;"><span>+0.50&nbsp;↑</span></td> 
+						</tr>
+						<tr>
+							<td><span>Au(T+D)   </span></td>
+							<td><span>277.07</span></td>
+								<td style="color:#FF0000;"><span>+0.58&nbsp;↑</span></td> 
+						</tr>
+						<tr>
+							<td><span>Au99.99   </span></td>
+							<td><span>277.30</span></td>
+								<td style="color:#FF0000;"><span>+0.70&nbsp;↑</span></td> 
+						</tr>
+						<tr>
+							<td><span>Ag(T+D)   </span></td>
+							<td><span>3792.00</span></td>
+								<td style="color:#FF0000;"><span>+5.00&nbsp;↑</span></td> 
+						</tr>
+				
+			    <tr>
+					<td class="t_title" colspan="3" style="text-align:center">
+					<span style="font-size:12px;"><strong>每日交行基础报价<span>&nbsp;&nbsp;&nbsp;</span>2018-01-09</strong></span>
+					</td>
+				</tr>
+						<tr>
+							<td>Au99.99   </td>
+							<td>276.95</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Ag(T+D)   </td>
+							<td>3.78</td>
+							<td>&nbsp;</td>
+						</tr>
+			 	<tr style="border-top: 1px dashed #ccc;line-height: 26px;">
+					<td align="left" style="text-align: right; border-bottom: 0px none;font-weight:bold;" colspan="3">
+						<a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2971/3259/3921/list.shtml" target="_blank" style="color:#017DC5;">详细信息</a>
+						<span id="assert" style="margin-left:20px;color:#017DC5;cursor: pointer;">[免责声明]</span>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+		<div class="menugtab" id="menutab_3_2" style="display:none;">
+		     <iframe frameborder="0" scrolling="no" src="http://222.73.4.154/bankcomm/fund/StockPriceBoCom_gweb.htm" width="226px" height="220px"></iframe>
+		</div>
+</div>
+<div id="gjs_popDiv" class="gjs_assert" style="display:none;">
+	<ul>
+		<li class="title">免责声明</li>
+		<li class="content"><span>此牌价信息为延时信息，非实际交易价格，故仅供参考。资料如有错漏而令阁下蒙受损失，本公司概不负责。</span></li>
+		<li class="title" id="close" title="关闭"><span>[&nbsp;&nbsp;&nbsp;关&nbsp;&nbsp;闭&nbsp;&nbsp;&nbsp;]</span></li>
+	</ul>
+</div>
+		<div id="gjs_popDiv" class="gjs_assert" style="display:none;">
+			<ul>
+				<li class="title">免责声明</li>
+				<li class="content"><span>此牌价信息为延时信息，非实际交易价格，故仅供参考。资料如有错漏而令阁下蒙受损失，本公司概不负责。</span></li>
+				<li class="title" id="close" title="关闭"><span>[&nbsp;&nbsp;&nbsp;关&nbsp;&nbsp;闭&nbsp;&nbsp;&nbsp;]</span></li>
+			</ul>
+		</div>
+	
+
+
+			</div>
+		</div>
+		
+		<!-- 右侧浮动广告 -->
+		<div id="flowAdv">
+			
+
+
+
+
+
+
+
+		<style type="text/css">
+		<!--
+		#adv_right_content {width: 112px;height:auto;border:1px solid #DDDDDD;font-size:12px;}
+		#adv_right_img {padding:5px;}
+		#adv_right_img img {cursor: pointer;}
+		#adv_right_img img.current {display:block;}
+		#adv_right_img div{width:102px;padding:0;overflow: hidden;}
+		#adv_right_title ul {padding:0px 5px 5px;margin:0px;text-align:center;}
+		#adv_right_title li {list-style: none;line-height: 20px;width:102px;border-top: 2px solid #FFFFFF;padding:2px 0;}
+		
+		#adv_right_title li a,#adv_right_title li a:visited{text-decoration: none;color:#000000;}
+		#adv_right_title li a div{width:98px;cursor: pointer;margin:0 auto;}
+		
+		#adv_right_title li.common {background-color: #DDDDDD;}
+		#adv_right_title li.common a {color: #000000 !important;}
+		
+		#adv_right_title li.current {background-color: #247CD3;}
+		#adv_right_title li.current a {color: #FFFFFF !important;}
+		
+		#adv_right_title li.hover{background-color: #FF5800;}
+		#adv_right_title li.hover a{color: #FFFFFF !important;}
+		-->
+		</style>
+		<script type="text/javascript"> 
+			var $adv_title = $('<ul></ul>');
+			var adv_html = "";
+			function closeAdvRight(){
+				document.getElementById('flowAdv').style.display="none";
+			}
+		</script>
+		
+		<div id="adv_right_content" style="display: block;">
+			<div id="adv_right_img">
+				<div>
+					  		
+					  		<img src="/BankCommSite/upload//advinfos/201508/19/39515/20150819173907_siyinerweima.jpg" alt="点击查看详情" title="点击查看详情" border="0" width="102px" rel="1378449387100" class="IMG_A" style="display: inline; opacity: 0.3183743847635108;">
+					  		
+										<script type="text/javascript">
+											adv_html += '<li class="common"><div>私人银行</div></li>';
+										</script>
+								
+					  		
+					  		<img src="/BankCommSite/upload//advinfos/201502/06/38085/20150206202710_wx001.jpg" alt="点击查看详情" title="点击查看详情" border="0" width="102px" rel="1378449387100" class="IMG_A" style="display: none;">
+					  		
+										<script type="text/javascript">
+											adv_html += '<li class="common"><a href="http://www.bankcomm.com/BankCommSite/upload/infos/201412/31/37851/weixinhongbao/index.html" target="_blank" title="微银行"><div>微银行</div></a></li>';
+										</script>
+								
+					  		
+					  		<img src="/BankCommSite/upload//advinfos/201405/23/33844/20150206205613_sj002.jpg" alt="点击查看详情" title="点击查看详情" border="0" width="102px" rel="1378449387100" class="IMG_A" style="display: none;">
+					  		
+										<script type="text/javascript">
+											adv_html += '<li class="common"><a href="http://www.bankcomm.com/BankCommSite/html/mobileBank/ktxz2.html" target="_blank" title="手机银行"><div>手机银行</div></a></li>';
+										</script>
+								
+				
+				</div>
+			</div>
+			<div id="adv_right_title">
+				<script type="text/javascript">
+						$('#adv_right_content').hide();
+						$adv_title.html(adv_html);
+						$('#adv_right_title').append($adv_title);
+						$('#adv_right_img img').eq(0).show();
+						$('#adv_right_content').show();
+						
+						$(function(){
+							var imgRight_index = 0;
+							var imgRight_li = $('#adv_right_title li');
+							var imgRight_count = imgRight_li.length;
+							imgRight_li.eq(0).css('border','none');
+							
+							function circleRight(){
+								if(imgRight_index >= imgRight_count){
+									imgRight_index = 0;
+								}
+								
+								imgRight_li.removeClass('current').addClass('common').eq(imgRight_index).removeClass('common').addClass('current');
+								$('#adv_right_img img').hide().eq(imgRight_index).fadeIn('slow');
+								imgRight_index++;
+								if(imgRight_count > 1)
+									setTimeout(circleRight,6000);
+							}
+							circleRight();
+							
+							$('#adv_right_img img').click(function(){
+								var _index = $('#adv_right_img img').index(this);
+								var _href = $('#adv_right_title li').eq(_index).find('a').attr('href');
+								if(_href.length>0){
+									window.open(_href,'');
+								}
+							});
+							
+							$('#adv_right_title li').hover(function(){
+								$(this).addClass('hover');
+							},function(){
+								$(this).removeClass('hover');
+							});
+						});
+				</script><ul><li class="current" style="border: none;"><div>私人银行</div></li><li class="common"><a href="http://www.bankcomm.com/BankCommSite/upload/infos/201412/31/37851/weixinhongbao/index.html" target="_blank" title="微银行"><div>微银行</div></a></li><li class="common"><a href="http://www.bankcomm.com/BankCommSite/html/mobileBank/ktxz2.html" target="_blank" title="手机银行"><div>手机银行</div></a></li></ul>
+			</div>
+			<div id="adv_right_close">
+				<table width="102" height="13px" border="0" cellpadding="0" cellspacing="0" summary="Slideshow Toolbar" align="center">
+					<tbody><tr>
+						<td align="right">
+							<a href="javascript:closeAdvRight()">
+							<img src="/BankCommSite/shtml/zonghang/cn/img/close_ad.jpg" width="9" height="9" border="0" alt="关闭" title="关闭">
+							</a>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+
+			
+		</div>   
+	</div>
+
+	<!-- 清除浮动 -->  
+	<div class="clear"></div>
+	
+	<!-- 首页底部 -->
+	
+
+
+
+<!-- 可信网站LOGO安装开始 --> 
+  <script type="text/JavaScript"> 
+    function CNNIC_change(eleId)
+      {
+        var str= document.getElementById(eleId).href;
+        var str1 =str.substring(0,(str.length-6));
+        str1+=CNNIC_RndNum(6);  
+        document.getElementById(eleId).href=str1;
+      }
+    function CNNIC_RndNum(k)
+      {
+        var rnd="";                   
+        for (var i=0;i<k;i++)                   
+          rnd+=Math.floor(Math.random()*10); 
+          return rnd;
+      }
+	  
+      </script>    
+     <!-- 可信网站LOGO安装结束 --> 
+     
+	 			 <div id="footer">
+	       <p class="footer_t1"><a href="http://www.bankcomm.com/BankCommSite/shtml/zonghang/cn/2968/2969/list_1.shtml" target="_blank">网站地图</a>&nbsp;&nbsp;&nbsp;&nbsp;|<a href="http://www.bankcomm.com/BankCommSite/simple/cn/service/index.html" target="_blank">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+	       <a href="#" id="yqlj_btn" rel="poplayer_6">友情链接</a>&nbsp;&nbsp;&nbsp;&nbsp;|<a href="http://job.bankcomm.com" target="_blank">人才招聘</a> </p>
+		<p class="footer_t2">			
+         <span class="f1"><img src="/BankCommSite/shtml/zonghang/cn/img/ICP_logo.gif"></span>
+         <span class="text">@ 2011 交通银行 版权所有 未经许可不得转载<br>Email:95559@bankcomm.com 二十四小时服务热线：95559</span>
+  		 <a href="https://ss.knet.cn/verifyseal.dll?sn=2011010400100004092&amp;pa=294005" class="f2" id="urlknet" tabindex="-1" target="_blank">
+         	<img alt="可信网站" name="CNNIC_seal" border="true" src="/BankCommSite/shtml/zonghang/cn/img/footer_b2.jpg" oncontextmenu="return false;" onclick="CNNIC_change('urlknet')">
+        </a>
+		<a href="https://search.szfw.org/cert/l/CX20111223001132001153" style="position: absolute;right: -138px;top: 12px;" id="___szfw_logo___" target="_blank"><img src="/BankCommSite/shtml/zonghang/cn/img/cert.png"></a>
+		</p>
+		<script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+	</div>
+	<div id="poplayer_6" class="poplayer poplayer_6" style="margin-top: -500px;">
+       <h4><span>友情连接</span><a href="#" class="close"><img src="/BankCommSite/shtml/zonghang/cn/img/bg/close_x.png"></a></h4>
+       <div class="contnet">
+           <ul>
+            
+                <li><a href="http://www.ndac.org.cn/" target="_blank">中国国债协会</a></li>
+             
+                <li><a href="http://www.zgjrj.com/" target="_blank">中国金融家</a></li>                         
+             
+                <li><a href="http://www.pbc.gov.cn/" target="_blank">中国人民银行</a></li>
+                                        
+                <li><a href="http://china.fxstreet.com/" target="_blank">FXstreet.com外汇市场</a></li>
+             
+                <li><a href="http://bank.cnfol.com/" target="_blank">中金在线</a></li>
+             
+                <li><a href="http://www.jysld.com" target="_blank">交银施罗德基金管理 ...</a></li>
+             
+                <li><a href="http://www.hsbcjt.cn/" target="_blank">汇丰晋信基金管理公司</a></li>
+             
+                <li><a href="http://www.china-cba.net/" target="_blank">中国银行业协会</a></li>
+             
+                <li><a href="http://ebanking.ciweekly.com/" target="_blank">互联网周刊</a></li>
+             
+                <li><a href="http://business.sohu.com/" target="_blank">搜狐财经</a></li>
+             
+                <li><a href="http://www.hexun.com/" target="_blank">和讯网</a></li>
+                                      
+                <li><a href="http://www.bocomgroup.com/tw/index.html" target="_blank">交银国际控股有限公司</a></li>
+             
+                <li><a href="http://www.ccins.com.hk/" target="_blank">中国交通保险有限公司</a></li>
+             
+                <li><a href="http://www.chinaunionpay.com/" target="_blank">中国银联</a></li>
+             
+                <li><a href="http://www.chinafph.com" target="_blank">中国金融出版社</a></li>
+             
+            </ul>
+        </div>
+	</div>
+	
+	<script src="/BankCommSite/shtml/zonghang/cn/js/navigation.js" type="text/javascript"></script>
+  <script src="/BankCommSite/shtml/zonghang/cn/js/common.js" type="text/javascript"></script>
+  <script src="/BankCommSite/shtml/zonghang/cn/js/poplayer.js" type="text/javascript"></script>
+
+
+
+
+		
+</div>
+<!--
+<script src="/BankCommSite/shtml/zonghang/cn/js/navigation.js"  type="text/javascript"></script>
+<script src="/BankCommSite/shtml/zonghang/cn/js/jquery-jhbar.js"  type="text/javascript"></script>
+<script src="/BankCommSite/shtml/zonghang/cn/js/common.js"  type="text/javascript"></script>
+<script src="/BankCommSite/shtml/zonghang/cn/js/jquery.cookie.js"  type="text/javascript"></script>
+-->
+<script type="text/javascript">
+$(function (){  
+/*---------------------------------------------*/   
+   //搜索文本框获得焦点事件处理
+	$("#search_text").focus(function(){
+	  $(this).val("").css({"color":"#000"}); 
+	  });
+   
+  //标签选项切换
+  if($('.tabs span')){
+     $('.tabs span').click(function(){
+	          $(this).parent().find('span').removeClass("default"); 
+	          $(this).parent().parent().parent().find('.tab').removeClass("default"); 
+	          $(this).addClass("default"); 						  
+	          var ss = $(this).attr("rel");
+	          $(this).parent().parent().parent().find(".tab."+ ss).addClass("default"); 
+		  });
+  };
+  //
+   $('h4#info span').click(function(){
+	          $(this).parent().find('span').removeClass("default"); 
+	          $(this).parent().parent().parent().find('.layer').removeClass("default"); 
+	          $(this).addClass("default"); 						  
+	          var ss = $(this).attr("rel");
+			  $('.jhnews_content .more').hide();
+			  $('#' + ss + "_a").show();
+	          $(this).parent().parent().parent().find(".layer."+ ss).addClass("default"); 
+		  });
+
+	//锚点
+	var _anchor = "null";	
+	if(_anchor=="null" ){
+		var href = window.location.href;
+		var index = href.indexOf("anchor=");
+		if(index>-1){
+			_anchor = href.substring(index+7);
+		}
+	}
+	if(_anchor != null && _anchor != "null"){
+		$("h4#info span").each(function(){
+			if($(this).attr("rel") == _anchor){
+				$(this).click();
+				this.scrollIntoView();
+				return;
+			}
+		});
+	}
+		
+	var scrollId = null;
+	$(window).scroll(function(){
+		clearTimeout(scrollId);
+		var _top = 12 + Math.max(document.documentElement.scrollTop,document.body.scrollTop);	
+		scrollId = setTimeout(function(){
+			$('#flowAdv').animate({top:_top},500);
+		},100);
+	});
+	
+/*---------------------------------------------------------------------*/
+});
+</script>
+
+<!-- 漂浮广告  -->
+<style type="text/css">
+img{border:0;}
+</style>
+<script type="text/javascript">
+function addEvent(obj,evtType,func,cap){
+    cap=cap||false;
+if(obj.addEventListener){
+     obj.addEventListener(evtType,func,cap);
+   return true;
+}else if(obj.attachEvent){
+        if(cap){
+         obj.setCapture();
+         return true;
+     }else{
+      return obj.attachEvent("on" + evtType,func);
+   }
+}else{
+   return false;
+    }
+}
+function getPageScroll(){
+    var xScroll,yScroll;
+if (self.pageXOffset) {
+   xScroll = self.pageXOffset;
+} else if (document.documentElement && document.documentElement.scrollLeft){
+   xScroll = document.documentElement.scrollLeft;
+} else if (document.body) {
+   xScroll = document.body.scrollLeft;
+}
+if (self.pageYOffset) {
+   yScroll = self.pageYOffset;
+} else if (document.documentElement && document.documentElement.scrollTop){
+   yScroll = document.documentElement.scrollTop;
+} else if (document.body) {
+   yScroll = document.body.scrollTop;
+}
+arrayPageScroll = new Array(xScroll,yScroll);
+return arrayPageScroll;
+}
+function GetPageSize(){
+    var xScroll, yScroll;
+    if (window.innerHeight && window.scrollMaxY) { 
+        xScroll = document.body.scrollWidth;
+        yScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        xScroll = document.body.scrollWidth;
+        yScroll = document.body.scrollHeight;
+    } else {
+        xScroll = document.body.offsetWidth;
+        yScroll = document.body.offsetHeight;
+    }
+    var windowWidth, windowHeight;
+    if (self.innerHeight) {
+        windowWidth = self.innerWidth;
+        windowHeight = self.innerHeight;
+    } else if (document.documentElement && document.documentElement.clientHeight) {
+        windowWidth = document.documentElement.clientWidth;
+        windowHeight = document.documentElement.clientHeight;
+    } else if (document.body) {
+        windowWidth = document.body.clientWidth;
+        windowHeight = document.body.clientHeight;
+    } 
+    if(yScroll < windowHeight){
+        pageHeight = windowHeight;
+    } else { 
+        pageHeight = yScroll;
+    }
+    if(xScroll < windowWidth){ 
+        pageWidth = windowWidth;
+    } else {
+        pageWidth = xScroll;
+    }
+    arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+    return arrayPageSize;
+}
+var AdMoveConfig=new Object();
+AdMoveConfig.IsInitialized=false;
+AdMoveConfig.ScrollX=0;
+AdMoveConfig.ScrollY=0;
+AdMoveConfig.MoveWidth=0;
+AdMoveConfig.MoveHeight=0;
+AdMoveConfig.Resize=function(){
+    var winsize=GetPageSize();
+    AdMoveConfig.MoveWidth=winsize[2];
+    AdMoveConfig.MoveHeight=winsize[3];
+    AdMoveConfig.Scroll();
+}
+AdMoveConfig.Scroll=function(){
+    var winscroll=getPageScroll();
+    AdMoveConfig.ScrollX=winscroll[0];
+    AdMoveConfig.ScrollY=winscroll[1];
+}
+addEvent(window,"resize",AdMoveConfig.Resize);
+addEvent(window,"scroll",AdMoveConfig.Scroll);
+function AdMove(id){
+
+    if(!AdMoveConfig.IsInitialized){
+        AdMoveConfig.Resize();
+        AdMoveConfig.IsInitialized=true;
+    }
+    var obj=document.getElementById(id);
+	if(obj!=null &&obj!="null"){
+     obj.style.position="absolute";
+     var W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+     var H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+     var x = W*Math.random(),y = H*Math.random();
+     var rad=(Math.random()+1)*Math.PI/6;
+     var kx=Math.sin(rad),ky=Math.cos(rad);
+     var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1);
+     var step = 1;
+     var interval;
+     this.SetLocation=function(vx,vy){x=vx;y=vy;}
+     this.SetDirection=function(vx,vy){dirx=vx;diry=vy;}
+        obj.CustomMethod=function(){
+        obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+        obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+        rad=(Math.random()+1)*Math.PI/6;
+        W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+        H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+        x = x + step*kx*dirx;
+        if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);}
+        y = y + step*ky*diry;
+        if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);}
+     }
+    }
+    this.Run=function(){
+      if(obj!=null &&obj!="null"){
+        var delay = 10;
+        interval=setInterval(obj.CustomMethod,delay);
+        obj.onmouseover=function(){clearInterval(interval);}
+        obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);
+      }
+    }
+  }
+}
+</script>
+
+
+<!--首页漂浮：结束-->
+<script type="text/javascript">
+ function closeAdv(){
+   document.getElementById("ad1").style.display="none";
+ }
+<!--
+  var ad1=new AdMove("ad1");
+  ad1.Run();
+  //可兼容多组漂浮
+  //var ad1=new AdMove("ad2");
+        //ad2.Run();
+    //-->
+</script>
+<!--弹出广告  -->
+<script type="text/javascript">
+	
+	
+		var newMaskWidth = document.body.scrollWidth;//遮罩层宽度
+		var newMaskHeight = document.body.scrollHeight;//遮罩层高度
+
+		//显示提示层方法
+		function showDiv() {
+			var target = document.getElementById("picDiv");
+			target.style.display = "block";
+		}
+		
+		
+		
+		openDiv('newDiv');
+		
+		function openDiv(newDivID) {
+			var newMaskID = "mask"; //遮罩层id
+			//mask遮罩层  
+			var newMask = document.createElement("div");//创建遮罩层
+			newMask.id = newMaskID;//设置遮罩层id
+			newMask.style.position = "absolute";//遮罩层位置
+			newMask.style.zIndex = "900";//遮罩层zIndex
+			newMask.style.width = newMaskWidth + "px";//设置遮罩层宽度
+			newMask.style.height = newMaskHeight + "px";//设置遮罩层高度
+			newMask.style.top = "0px";//设置遮罩层于上边距离
+			newMask.style.left = "0px";//设置遮罩层左边距离
+			newMask.style.filter = "alpha(opacity=40)";//遮罩层透明度IE
+			newMask.style.opacity = "0.50";//遮罩层透明度FF
+			newMask.style.background = 'black';
+			document.body.appendChild(newMask);//遮罩层添加到DOM中
+
+		}
+		$(function() {
+			var height = $(".HomeTitle").height();
+			var width = $(".HomeTitle").width();
+			var top = (document.body.clientHeight - height) / 2;
+			var left = ( document.body.clientWidth- width) / 2;
+			if(navigator.appVersion.match(/MSIE 7.0/)){
+				$(".close").css('top','180px');
+				top=0;
+			}
+			$(".HomeTitle").css({
+				"top" : top,
+				"left" : left
+			});
+			
+			
+			$(".close,.nextSee").click(function() {
+				$(".HomeTitle").hide();
+				$("#newDiv").hide();
+				$("#mask").hide();
+			});
+			showDiv();
+		});
+
+
+		
+	</script><div id="mask" style="position: absolute; z-index: 900; width: 1124px; height: 1615px; top: 0px; left: 0px; opacity: 0.5; background-color: black; background-position: initial initial; background-repeat: initial initial;"></div>
+
+
+
+</body></html>

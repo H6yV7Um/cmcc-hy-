@@ -1,0 +1,513 @@
+<!DOCTYPE html><!-- saved from url=(0034)http://app.taobao.com/index_zs.htm --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="keywords" content="淘宝,手机助手,安全,官方发布,支付,PC版本,客户端,安卓,android,智能手机,app下载,安装,手机">
+<meta name="description" content="淘宝应用官方发布平台">
+<title>淘宝手机助手</title>
+<link rel="icon" href="/public/app-tb/pc/favicon.ico" mce_href="/public/app-tb/pc/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/public/app-tb/pc/favicon.ico" mce_href="/public/app-tb/pc/favicon.ico" type="image/x-icon">
+<link type="text/css" rel="stylesheet" href="/public/app-tb/pc/res/base.css?t=20151225">
+<link type="text/css" rel="stylesheet" href="/public/app-tb/pc/res/footer.css">
+<script async="" src="http://g.alicdn.com/alilog/s/6.1.11/aplus_v2.js"></script><script type="text/javascript" async="" src="/public/app-tb/pc/res/index.js"></script><script type="text/javascript" src="/public/app-tb/pc/res/pcassisdownloadurl.php"></script>
+ <script src="/public/app-tb/pc/res/saved_resource"></script>
+<style>
+/*reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{display:block;margin:0;padding:0;}mark{background:#ff0;}#header,#content,#footer{margin-left:auto;margin-right:auto;}.col-main{float:left;width:100%;min-height:1px;}.col-sub,.col-extra{float:left;}.layout:after,.main-wrap:after,.col-sub:after,.col-extra:after{content:'\20';display:block;height:0;clear:both;}.layout,.main-wrap,.col-sub,.col-extra{*zoom:1;}.ks-hidden{display:none;}.ks-invisible{visibility:hidden;}.ks-clear:after,.clearfix:after{content:'\20';display:block;height:0;clear:both;}.ks-clear,.clearfix{*zoom:1;}.ks-inline-block{display:inline-block;*display:inline;}
+
+a:hover {text-decoration: none;}
+
+/*  清除浮动
+----------------------------------------------------------------------------------------------------*/
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: visible;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden; 
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+.navigator .zsLogo{float:left;width:200px; height:100%;}
+#page {
+    font-family: "Microsoft Yahei", "微软雅黑";
+    color: #333;
+}
+
+.limitsb {
+    width: 998px;
+    margin: 0 auto;
+}
+/* 底部区域 */
+#main {
+    background: url(http://gtms01.alicdn.com/tps/i1/T1SuVBFBFXXXcVVrb6-50-992.png) repeat-x 0 -540px;
+}
+#introduction {
+    color: #2b3138;
+    height: 452px;
+}
+#introduction .space {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+#introduction .icon {
+    width: 399px;
+    height: 50px;
+    float: left;
+    background-image: url(http://gtms01.alicdn.com/tps/i1/T1hVviFexfXXXmmlv5-47-302.png);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    padding-left: 94px;
+    margin-bottom: 55px;
+}
+#introduction h1 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+}
+#introduction p {
+    color: #7a7a7a;
+    font-size: 12px;
+}
+#icon1 {
+    background-position: 37px 3px;
+}
+#icon2 {
+    background-position: 37px -48px;
+}
+#icon3 {
+    background-position: 37px -99px;
+}
+#icon4 {
+    background-position: 37px -150px;
+}
+#icon5 {
+    background-position: 37px -201px;
+}
+#icon6 {
+    background-position: 37px -252px;
+}
+#feather h1 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    border-left: 6px solid #388ad9;
+    padding: 0 0 3px 12px;
+    margin: 61px 0 12px 14px;
+}
+#notification {
+    width: 376px;
+    height: 260px;
+    float: left;
+}
+#notification .item {
+    font-size: 14px;
+    height: 27px;
+    padding-left: 42px;
+    _padding-left: 44px;
+    background: url(http://gtms01.alicdn.com/tps/i1/T1uBtBFudeXXXjY2za-6-10.png) no-repeat 30px 8px;
+    _background: url(http://gtms01.alicdn.com/tps/i1/T1uBtBFudeXXXjY2za-6-10.png) no-repeat 32px 8px;
+}
+#notification .item a {
+    line-height: 27px;
+    color: #2b3138;
+}
+#notification .item a:hover {
+    color: #388ad9;
+    text-decoration: none;
+}
+#contact {
+    width: 376px;
+    height: 214px;
+    float: left;
+}
+#contact p {
+    font-size: 14px;
+    padding-left: 37px;
+}
+/* banner区域设置 */
+#banner {
+    height: 418px;
+    background: url(http://gtms01.alicdn.com/tps/i1/T1SuVBFBFXXXcVVrb6-50-992.png) repeat-x 0 -122px;
+    overflow: hidden;
+    text-indent: -999px;
+}
+#banner span {
+    display: none;
+}
+#pose {
+    width: 998px;
+    height: 418px;
+    background: url(http://gtms01.alicdn.com/tps/i1/TB1gDcWFFXXXXcvXFXXPiHa3VXX-1323-420.jpg) no-repeat 0 0;
+    position: relative;
+    zoom:1;
+    overflow:hidden;
+}
+#download-pc, #download-mobile {
+    width: 217px;
+    height: 60px;
+    background: url(http://gtms01.alicdn.com/tps/i1/T1BYVyFuBjXXXxo7ky-217-131.png) no-repeat;
+    position: absolute;
+    left: 185px;
+    text-indent: -999px;
+}
+#download-pc {
+    top: 130px;
+}
+#download-mobile {
+    background-position: 0 -69px;
+    top: 192px;
+}
+#pose .extra {
+    width: 325px;
+    height: 418px;
+    background: url(http://gtms01.alicdn.com/tps/i1/T1bU6EFatmXXbNLhgE-1323-420.jpg) no-repeat -998px 0;
+    position: absolute;
+    left: 998px;
+}
+::-moz-selection {
+    color: #fff;
+    background-color: #fd8639;
+}
+::selection {
+    color: #fff;
+    background-color: #fd8639;
+}
+#J_Footer {
+    display:none;
+}
+.qrcode {
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    background-image: url(http://gtms03.alicdn.com/tps/i3/TB1A_GTIFXXXXaUXXXX4_MlUFXX-280-280.png);
+    top: 130px;
+    left: 37px;
+	background-size: 125px;
+}
+.phone-num-ul{
+    position: absolute;
+    z-index: 2;
+    text-indent: 0;
+    top:287px;
+    left:37px;
+
+}
+.phone-num-ul .phone-num-tips{
+    position: absolute;
+    top: -25px;
+    left:21px;
+    color:#f00;
+    font-size: 12px;
+    background:inherit;
+}
+#banner .phone-num-ul .fillet-input-wrap{
+    display:block;
+    position: relative;
+    float: left;   
+    height: 40px;
+    padding-top:10px;
+    background:url(http://gtms02.alicdn.com/tps/i2/T1YL8LFtlbXXXimpjO-365-40.png) no-repeat ;
+
+}
+#banner .phone-num-ul .li-1 .fillet-input-wrap{
+    width:340px;
+}
+#banner .phone-num-ul .li-1 .fillet-input-wrap input{
+    width:330px;
+}
+#banner .phone-num-ul .li-2 .fillet-input-wrap{
+    width:93px;
+}
+#banner .phone-num-ul .li-2 .fillet-input-wrap input{
+    width:78px;
+}
+#banner .phone-num-ul .li-1{
+    height:40px;
+}
+#banner .phone-num-ul .li-2{
+    padding-top:10px;
+}
+#banner .phone-num-ul .li-2 img{
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+    height: 40px;
+    width:96px;
+}
+#banner .phone-num-ul .fillet-input-wrap input::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #999;
+        font-weight: normal;
+        font-size: 14px;
+    }
+#banner .phone-num-ul .fillet-input-wrap input{
+    margin-left: 15px;
+    border: 0 solid;
+    font-weight: bold;
+    outline:none;
+     color: #666;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+ }
+#banner .phone-num-ul .fillet-input-wrap i{
+    position: absolute;
+    right: -18px;
+    top:0;
+    display: block;
+    height: 40px;
+    width: 20px;
+    background:url(http://gtms02.alicdn.com/tps/i2/T1YL8LFtlbXXXimpjO-365-40.png) no-repeat -345px 0;
+
+}
+#banner .phone-num-ul .btn-submit-send-sms{
+    float: left;
+    width:130px;
+    height: 42px;
+    background: url(http://gtms02.alicdn.com/tps/i2/T1qu8LFBRwXXceUfI_-130-48.png) no-repeat;
+    text-align: center;
+    margin-left: 10px;
+}
+#banner .phone-num-ul .disable{
+    background: url(http://gtms04.alicdn.com/tps/i4/T1auVNFv0aXXXDD2I_-130-50.png) no-repeat;
+    color: #929292;
+    font-size: 14px;
+    line-height: 40px;
+    cursor: default;
+}
+</style>
+<script type="text/javascript" async="" id="tb-beacon-aplus" exparams="category=&amp;userid=67626833&amp;aplus" src="/public/app-tb/pc/res/aplus_v2.js"></script><script type="text/javascript" async="" id="tb-beacon-aplus" exparams="category=&amp;userid=&amp;aplus" src="/public/app-tb/pc/res/aplus_v2.js"></script><style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;}</style><script type="text/javascript" async="" id="tb-beacon-aplus" exparams="category=&amp;userid=67626833&amp;aplus" src="http://a.tbcdn.cn/s/aplus_v2.js"></script><script type="text/javascript" async="" id="tb-beacon-aplus" exparams="category=&amp;userid=&amp;aplus" src="http://a.tbcdn.cn/s/aplus_v2.js"></script></head>
+<body style="zoom: 1;"><script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=67626833&aplus");
+t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+<script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus");
+t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+
+<div id="page">
+		<script type="text/javascript" src="/public/app-tb/pc/res/pcassisdownloadurl.php"></script>
+   <!--[if IE 6]>
+	<script src="http://a.tbcdn.cn/apps/shipin/common/v7/DD_belatedPNG.js"> </script>
+	<script>
+	DD_belatedPNG.fix('#ad4store .icon img');
+	DD_belatedPNG.fix('#ad4store .star,#ad4store .star span');
+	DD_belatedPNG.fix('#ad4store .sumofinstall');
+	DD_belatedPNG.fix('#J_Slide .star,#J_Slide .star span');
+	DD_belatedPNG.fix('.rankinglist .mask,.image-cover');
+	DD_belatedPNG.fix('#pose a');
+	DD_belatedPNG.fix('#J_Slide_taoapp .star,#J_Slide_taoapp .star span');
+	DD_belatedPNG.fix('#J_Slide_taoapp .aboutapp');
+    DD_belatedPNG.fix('.fillet-input-wrap');
+    DD_belatedPNG.fix('.fillet-input-wrap i');
+
+	</script>
+	<script>
+	 KISSY.ready(function(S){
+        var $=S.all;
+		KISSY.Event.on(".app, .appItem","mouseover",function(){
+			$(this).addClass("hover");
+		});
+
+		KISSY.Event.on(".app, .appItem","mouseout",function(){
+			$(this).removeClass("hover");
+		});
+		function fixPlaceholder(element) {
+			var placeholder = '';
+			if (element && !("placeholder" in document.createElement("input")) && (placeholder = element.getAttribute("placeholder"))) {
+				element.onfocus = function() {
+					if (this.value === placeholder) {
+						this.value = "";
+					}
+					this.style.color = '';
+				};
+				element.onblur = function() {
+					if (this.value === "") {
+						this.value = placeholder;
+						this.style.color = 'graytext';    
+					}
+				};
+
+				//样式初始化
+				if (element.value === "") {
+					element.value = placeholder;
+					element.style.color = 'graytext';    
+				}
+			}
+		};
+		fixPlaceholder(KISSY.DOM.query("#search-form input")[0]);
+    });
+	</script>
+<![endif]-->
+<div id="pageheader">
+	<div class="navigator limit">
+        <a class="zsLogo" href="http://app.taobao.com/"></a>
+		<div class="bar">
+			<a class="active" href="http://app.taobao.com/index_zs.htm?pageCur=1">首页</a>
+			<a href="http://android.25pp.com/?taobao">下载应用<span class="hot"></span></a>
+			<a href="http://dev.pp.cn/?taobao">开发者门户</a>
+			<a href="http://bbs.uc.cn/forum-537-1.html">用户论坛</a>               
+		</div>
+	</div>
+</div>
+	
+
+    <div id="banner">
+        <span>淘宝手机助手 淘宝应用官方发布平台</span>
+        <div id="pose" class="limit">
+            <div class="extra"></div>
+			
+            <a id="download-pc" href="http://pro.25pp.com/pp_win_android">淘宝手机助手PC客户端下载</a>
+            <div class="qrcode"></div>
+            <a id="download-mobile" href="http://android-apps.25pp.com/ppandroid/taobao/taobaoAssistant_PT_4.apk">淘宝手机助手手机客户端下载</a>   
+             <ul class="phone-num-ul" style="display:none;">
+                <li class="phone-num-tips" id="tipStatus"></li>
+                <li class="li-1"><span class="fillet-input-wrap"><input id="inputPhoneNumber" type="text" class="fillet-input" placeholder="输入手机号获取下载链接" value=""><i></i></span></li>
+                <li class="li-2">
+                            <span class="fillet-input-wrap"><input maxlength="4" id="inputCheckCode" type="text" class="fillet-input" placeholder="输入验证码" value=""><i></i></span>
+                        <img id="checkCodeImg" title="点击刷新验证码" class="img-check-code" src="http://pin.aliyun.com/get_img?sessionid=2C14163EF42BAB7FB4C055309F0D2AF8&amp;identity=app.taobao.com&amp;type=default&amp;t=0.06663405307414438">
+                        <a id="btnSendSMS" href="javascript:void(0);" class="btn-submit-send-sms"></a>
+                       </li>
+            </ul>         
+        </div>
+    </div>
+    <div id="main">
+        <div class="limitsb">
+            <div id="introduction" class="clearfix">
+                <div class="space"></div>
+                <div id="icon1" class="icon">
+                    <h1>轻松省钱赚钱</h1>
+                    <p>每天安装应用送集分宝，10亿集分宝等你来拿</p>
+                </div>
+                <div id="icon2" class="icon">
+                    <h1>购物支付安全保障</h1>
+                    <p>加强手机防护，保障交易安全，手机上淘宝必备利器</p>
+                </div>
+                <div id="icon3" class="icon">
+                    <h1>最新最热应用集合地</h1>
+                    <p>100w必备应用+好玩游戏，萌小编精选每日推荐</p>
+                </div>
+                <div id="icon4" class="icon">
+                    <h1>清理小超人</h1>
+                    <p>一键加速，拒绝卡顿，给手机一个纯净的空间</p>
+                </div>
+                <div id="icon5" class="icon">
+                    <h1>省流量更新</h1>
+                    <p>高速下载、省流量更新省时间省钱</p>
+                </div>
+                <div id="icon6" class="icon">
+                    <h1>简洁流畅的使用体验</h1>
+                    <p>5MB安装包，安装更迅速，使用更流畅</p>
+                </div>                  
+            </div>
+            <div id="feather" class="clearfix">
+                <div id="notification" style="padding-left:50px;height:300px;">
+                    <h1>最新公告</h1>
+                    <div class="item">
+                        <a target="_blank" href="http://bangpai.taobao.com/group/thread/14924043-287911000.htm?spm=0.0.0.0.niU4wn">装应用赚集分宝活动火热进行中</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" href="http://bangpai.taobao.com/group/thread/14924043-287917200.htm">开发者后台使用流程以及常见问题</a>
+                    </div>
+                    <div class="item">
+                        <a target="_blank" href="http://bangpai.taobao.com/group/thread/14924043-287921089.htm?spm=0.0.0.0.niU4wn">淘宝手机助手资源申请流程</a>
+                    </div>
+                </div>
+                <div id="contact" style="padding-left:150px;">
+                    <h1>联系我们</h1>
+                    <p>客服QQ：2011513065</p>
+                    <p>开发者Q群：450852120</p>
+                    <p>平台官方邮箱：ppdev@service.alibaba.com</p>
+                    <p>版权邮箱：appcopyright@service.alibaba.com</p>
+                    <p>平台重大升级，欢迎访问：http://dev.pp.cn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<textarea id="url-data" style="display:none">    {
+    "step1":"http://app.taobao.com/download/channels.htm",
+    "step2":"http://app.taobao.com/download/devices.htm",
+    "checkLoginApi":"http://app.taobao.com/json/check_login.do",
+    "loginUrl":"https://login.taobao.com/member/login.jhtml?style=mini&amp;is_ignore=false&amp;redirect_url="
+    }
+</textarea>
+<script>
+if (window.pcassisdownloadurl) {
+	//KISSY.DOM.attr("#download-pc","href", window.pcassisdownloadurl);
+}
+</script>
+<script src="/public/app-tb/pc/res/jquery-1.9.1.min.js"></script>
+<script src="/public/app-tb/pc/res/index(1).js"></script>
+<textarea id="url-data" style="display:none">    {
+    "step1":"http://app.taobao.com/download/channels.htm",
+    "step2":"http://app.taobao.com/download/devices.htm",
+    "checkLoginApi":"http://app.taobao.com/json/check_login.do",
+    "loginUrl":"https://login.taobao.com/member/login.jhtml?style=mini&amp;is_ignore=false&amp;redirect_url="
+    }
+</textarea>
+
+<div id="footer">
+	<div class="limit" style="padding-top: 30px;">
+		<div class="footer-ali">
+			<a href="http://www.taobao.com/">淘宝网</a>
+			<b>|</b>
+			<a href="http://www.tmall.com/">天猫</a>
+			<b>|</b>
+			<a href="http://ju.taobao.com/">聚划算</a>
+			<b>|</b>
+			<a href="http://www.etao.com/">一淘</a>
+			<b>|</b>
+			<a href="http://www.alimama.com/">阿里妈妈</a>
+			<b>|</b>
+			<a href="http://www.aliyun.com/">阿里云计算</a>
+			<b>|</b>
+			<a href="http://www.yunos.com/">云OS</a>
+			<b>|</b>
+			<a href="http://www.net.cn/">万网</a>
+			<b>|</b>
+			<a href="http://www.alipay.com/">支付宝</a>
+			<b>|</b>
+			<a href="http://www.laiwang.com/">来往</a>
+		</div>
+		<div class="footer-nav">
+			<a href="http://www.taobao.com/about/">关于淘宝</a>
+			<a href="http://www.taobao.com/about/partners.php">合作伙伴</a>
+			<a href="http://pro.taobao.com/">营销中心</a>
+			<a href="http://service.taobao.com/support/main/service_center.htm">服务中心</a>
+			<a href="http://open.taobao.com/">开放平台</a>
+			<a href="http://www.taobao.com/about/join.php">诚征英才</a>
+			<a href="http://www.taobao.com/about/contact.php">联系我们</a>
+			<a href="http://www.taobao.com/sitemap.php">网站地图</a>
+			<a href="http://www.taobao.com/about/copyright.php">版权说明</a>
+		</div>
+		<div class="copyright">© 2014 淘宝(中国)软件有限公司 版权所有</div>
+	</div>
+</div>
+<div style="display:none">
+<script src="/public/app-tb/pc/res/z_stat.php" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=1000290741&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1000290741" target="_blank" title="站长统计">站长统计</a><script src="/public/app-tb/pc/res/core.php" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1000290741" target="_blank" title="站长统计">站长统计</a><a href="http://www.cnzz.com/stat/website.php?web_id=1000290741" target="_blank" title="站长统计">站长统计</a>
+</div>
+<div style="display:none">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255311108' style='display:none'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1255311108' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1255311108" style="display:none"><a href="http://www.cnzz.com/stat/website.php?web_id=1255311108" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s95.cnzz.com/z_stat.php?id=1255311108" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1255311108&amp;t=z" charset="utf-8" type="text/javascript"></script><span id="cnzz_stat_icon_1255311108" style="display:none"><a href="http://www.cnzz.com/stat/website.php?web_id=1255311108" target="_blank" title="站长统计">站长统计</a></span><script src="/public/app-tb/pc/res/z_stat(1).php" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1255311108&amp;t=z" charset="utf-8" type="text/javascript"></script><script src="/public/app-tb/pc/res/core(1).php" charset="utf-8" type="text/javascript"></script>
+</div>
+
+</body></html>

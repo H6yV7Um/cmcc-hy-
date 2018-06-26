@@ -1,0 +1,1677 @@
+<!DOCTYPE html><html lang="en"><head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   	<link rel="stylesheet" href="/statics/CN/PC/css/main.css">
+	<link rel="stylesheet" href="/statics/CN/PC/css/swiper.css">
+	<link rel="stylesheet" href="/statics/CN/PC/css/animate.css">
+	<script type="text/javascript" async="" defer="" src="//creditcard.cmbc.com.cn/piwik/piwik.js"></script><script src="http://api.map.baidu.com/api?v=2.0&amp;ak=Anm9vEoHiq0EfuW8kUKts7U3UwGp1Wor&amp;s=1" type="text/javascript"></script>
+	<script src="/statics/CN/PC/js/jquery.min.js"></script>
+	<script src="/statics/CN/PC/js/main.js"></script>
+	<script src="/statics/CN/PC/js/swiper.js"></script>
+	<script src="/statics/CN/PC/js/wow.min.js"></script>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+				  
+	 
+				  
+	   
+	 
+				  
+	 
+				  
+	   
+
+<meta name="shareImg" content="/statics/CN/WAP/image/zft.png">
+
+    <title>中国民生银行信用卡官方网站 - 民生信用卡一卡行天下-首页</title>
+	<script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+		<script src="/statics/CN/PC/account/js/jquery-1.7.1.js"></script>
+		<script src="/statics/CN/PC/account/js/weixin_share.js"></script>
+
+<script type="text/javascript">
+	var wow = new WOW({
+		boxClass: 'wow',
+		animateClass: 'animated',
+		offset: 0,
+		mobile: true,
+		live: true
+	});
+	wow.init();
+	</script>
+<script type="text/javascript" charset="utf-8">
+var type="";
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+}
+	var browser = {
+		versions : function() {
+		var u = navigator.userAgent, app = navigator.appVersion;
+		return {//移动终端浏览器版本信息                                                              
+		mobile : (!!u.match(/AppleWebKit.*Mobile/) || !!u.match(/Windows Phone/) || !!u.match(/Android/) || !!u.match(/MQQBrowser/)) && !u.match(/iPad/)//是否为移动终端                                 
+		};
+		}()
+		}
+		if(browser.versions.mobile && "pc" != GetQueryString("type")){
+		 window.location.href="/home/cn/wap/index/index.shtml";
+		}
+</script>
+</head>
+
+<body>
+	<!-- header -->
+	
+
+
+
+
+
+<meta name="viewport" content="width=1200px">
+<script type="text/javascript" src="/statics/CN/PC/js/alert.js"></script>	
+<script type="text/javascript" src="/statics/CN/PC/account/js/http.js"></script>
+<script type="text/javascript" src="/statics/CN/PC/account/js/verificationed.js"></script>
+<script type="text/javascript" src="/statics/CN/PC/account/js/accountlogined.js"></script>	
+<script type="text/javascript" src="/statics/CN/PC/account/js/accountSecurityed.js"></script>
+<script type="text/javascript" src="/statics/CN/PC/js/map.js"></script>	
+<link type="text/css" rel="stylesheet" href="/statics/CN/PC/account/js/need/laydate.css">
+<link type="text/css" rel="stylesheet" href="/statics/CN/PC/account/js/skins/huanglv/laydate.css" id="LayDateSkin">
+
+    <script type="text/javascript">
+	function step(){
+			$('.ms_home_page_nav_list').removeClass('ms_home_page_nav_list_show');
+				var taidf = $.PopupBox({
+				type: 'fail',
+			        headcont:'近期开放查询，敬请期待！',
+			        headcontimgsrc:'/statics/CN/PC/images/close.png'
+				});
+				return;
+	}
+
+
+
+
+
+		function check(){
+		$.ajax({
+
+				
+				url:rootPath + "/op_exchange_rate/islogined.gsp",
+				type:"post",
+				dataType:"json",
+				success:function(r) {
+					if(r.retCode == "0000"){
+						$(".ms_home_page_header_li5_box").remove();
+						var taidf = $.PopupBox({
+							type: 'headConfirm',
+							headcont:'您确定注销当前账号吗？',
+							confirmBtn: '确定',
+							cancelBtn:'取消',
+						});
+					}else {
+						//var backimg=document.getElementById("loginicon").currentStyle.backgroundImage;
+						var backimg=document.getElementById("loginicon");
+						var imageUrl=window.getComputedStyle?window.getComputedStyle(backimg,null).backgroundImage:backimg.currentStyle.backgroundImage;
+						//var imageUrl = $(".ms_home_page_header_li_a1").css("background");
+						imageUrl = imageUrl.split("url(")[1].split(")")[0];
+						if(imageUrl.indexOf("user1")!=-1){
+							var taidf = $.PopupBox({
+							type: 'error',
+							headcont:'登录已失效，请重新登录',
+							confirmBtn: '确定',
+							cancelBtn:'返回首页'
+							});
+							return false;
+						}else{
+							$('.ms_home_page_header_li5_box').toggle();
+						}
+						
+						
+					}
+				},
+				error:function(r) {
+					alert("连接失败");
+				}
+			});
+        
+
+    }
+    </script>
+	<script>
+		//刷新验证码
+		function changeImg(){
+			$("#safeCodeImg_head").attr("src",rootPath+"opencard/safeCode.gsp?rd="+Math.random());//?rd="+new Date()
+		}
+
+</script>
+
+	<script type="text/javascript">  
+
+
+
+	//判断浏览器是否支持 placeholder属性  
+	function isPlaceholder(){  
+	    var input = document.createElement('input');  
+	    return 'placeholder' in input;  
+	}  
+	  
+	if (!isPlaceholder()) {//不支持placeholder 用jquery来完成  
+	    $(document).ready(function() {  
+	        if(!isPlaceholder()){  
+	            $("input").not("input[type='password']").each(//把input绑定事件 排除password框  
+	                function(){  
+	                    if($(this).val()=="" && $(this).attr("placeholder")!=""){  
+						$(this).css("color","#cccccc");
+							$(this).css("height","34px;","line-height","34px;");
+	                        $(this).val($(this).attr("placeholder"));  
+	                        $(this).focus(function(){  
+							$(this).css("color","#1a1a1a");
+	                            if($(this).val()==$(this).attr("placeholder")) $(this).val("");  
+	                        });  
+	                        $(this).blur(function(){  
+							if($(this).val()==""){
+								$(this).css("color","#cccccc");
+							}else{
+								$(this).css("color","#1a1a1a");
+							}
+	                            if($(this).val()=="") $(this).val($(this).attr("placeholder"));  
+	                        });  
+	                    }  
+	            });  
+
+	            
+	            //对password框的特殊处理1.创建一个text框 2获取焦点和失去焦点的时候切换  
+	            var pwdField  = $("input[type=password]");  
+	            var pwdVal = pwdField.attr('placeholder');  
+	            pwdField.after('<input id="pwdPlaceholder" type="text" value='+pwdVal+' autocomplete="off" />');  
+	            var pwdPlaceholder = $('#pwdPlaceholder');  
+
+	            pwdPlaceholder.show();  
+	            pwdField.hide();  
+
+	            pwdPlaceholder.focus(function(){  
+	                pwdPlaceholder.hide();  
+	                pwdField.show();  
+	                pwdField.focus();  
+	            });  
+	              
+	            pwdField.blur(function(){  
+	                if(pwdField.val() == '') {  
+	                    pwdPlaceholder.show();  
+	                    pwdField.hide();  
+	                }  
+	            });  
+	              
+	        }  
+	    });  
+	      
+	}  
+	</script>  
+<style type="text/css">
+
+        table
+        {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        .sip-box
+        {
+            width: 670px;
+            background: #C0C0C0;
+            border: 1px solid #e5e5e5;
+        }
+        .sip-box-table
+        {
+            width:670px;
+            cellpadding:2;
+            cellspacing:0;
+            border:0;
+        }
+        .g-button
+        {
+            display: inline-block;
+            border: 1px solid #3079ed;
+            color: #fff;
+            text-shadow: 0 1px rgba(0,0,0,0.1);
+            background-color: #4d90fe;
+            min-width: 46px;
+            text-align: center;
+            font-size: 11px;
+            font-weight: bold;
+            height: 27px;
+        }
+    </style>
+	<script language="javascript" for="SecEditBox" event="PressTab(	)">
+        PressTab1(BstrName);
+    </script>
+		
+	<script language="javascript" for="SecEditBox" event="KeyPressSuccess(BstrName)">
+        KeyPressSuccess1(BstrName);
+	</script>
+		
+	<script language="javascript" for="SecEditBox" event="KeyPressFailure(BstrName)">
+        KeyPressFailure1(BstrName);
+	</script>
+		
+	<script language="javascript" for="SecEditBox" event="PressEnter(BstrName)">
+        PressEnter1(BstrName);
+	</script>
+	
+	<script language="javascript" for="SecEditBox" event="FocusSet(BstrName)">
+        FocusSet1(BstrName);
+	</script>
+	
+	<script language="javascript" for="SecEditBox" event="FocusKill(BstrName)">
+        FocusKill1(BstrName);
+	</script>
+<script>
+  function search(){
+	   	if(searchForm.searchValue.value=="" || searchForm.searchValue.value=="请输入关键字"){
+	   		alert("关键字为必填项");
+	   		searchForm.searchValue.focus();
+	   		return;
+	   	}else{
+	   		searchForm.submit();
+	    }
+	}
+  </script>
+	<!-- header -->
+		<div class="keyboard ms-PageWidth ms_home_page_header">
+			<ul class="ms_home_page_header_ul">
+				<li class="ms_home_page_header_li">
+					<a href="javascript:;" class="ms_home_page_logo"></a>
+				</li>
+				<li class="ms_home_page_header_li">
+					<a href="javascript:;">
+						<img src="/statics/CN/PC/images/logo2.png" alt="" class="ms_home_page_header_li_img2">
+					</a>
+				</li>
+				<li class="ms_home_page_header_li ms_home_page_header_li3">
+					<a href="javascript:;">
+						<i class="ms_home_page_header_li_i"></i>
+						<span class="ms_home_page_logo_span">北京市</span>
+					</a>
+				</li>
+
+			 <li class="ms_home_page_header_li ms_home_page_header_li6">
+			 <form name="searchForm" id="searchForm" method="post" action="/fe/fullSearch.go">
+				<input type="text" class="ms_home_page_header_li_input" id="home_page_search" onkeyup="isWords(this);" value="请输入关键字" onfocus="if(this.value=='请输入关键字'){this.value=''};" onblur="if(this.value==''||this.value=='请输入关键字'){this.value='请输入关键字';}" name="searchValue">
+				<input type="hidden" name="currentPage" value="1"> 
+		  		<input type="hidden" name="dispatchURL" value="/jsp/search/search_index.jsp">  
+		  		<input type="hidden" name="pageSize" value="10">
+		  		<input type="hidden" name="currentPageNumber" value="1">
+				<a href="javascript:search()" class="ms_home_page_header_li_a2" style="background-repeat:no-repeat;margin-top:2px;"></a><a href="javascript:search()" class="ms_home_page_header_li_a2 ms_home_page_header_li_a3" style="background-repeat:no-repeat;margin-top:2px;"></a>
+		     </form> 
+			 </li>
+
+				<li class="ms_home_page_header_li ms_home_page_header_li5">
+					<!--<a href="javascript:;" style="width:48px;" id="loginicon" onclick="check()" class="ms_home_page_header_li_a1"> 
+					</a>-->
+					<div class="ms_home_page_header_li5_box" style="height:320px;">
+						<div class="ms_home_page_header_li5_box_div">
+							<span class="ms_home_page_header_select_span1"></span>
+							<select name="" id="sKeyType1"><option value="01">身份证</option><option value="03">军官证</option><option value="12">中国护照</option><option value="13">外国护照</option><option value="14">香港通行证</option><option value="15">澳门通行证</option><option value="16">台湾通行证</option><option value="20">其他</option></select>
+						</div>
+						<div class="ms_home_page_header_li5_box_div">
+							<span class="ms_home_page_header_select_span2"></span>
+							<input type="text" id="sCustId1" value="" placeholder="请输入您的证件号码" sytle="height:35px;ling-height:35px;" style="height: 35px; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;">
+						</div>
+						<div class="ms_home_page_header_li5_box_div" style="position:relative;z-index:1;overflow:hidden;">
+							<span class="ms_home_page_header_select_span3" id="sss"></span>
+							<input onclick="safe1()" style="width:82.5%;" type="text" id="sNewPinData1" value="" placeholder="请输入您的信用卡查询密码">
+							<div id="FakeSecEditBox1" style="float: left;width: 240px;height:1px;position: absolute; top: 0px; left: 38px; z-index: -1;"><object id="SecEditBox1" type="application/npSecEditCtlAdv.CMBC.x86" width="260" height="38"><param name="ObjectID" value="SecEditBox"><param name="MinLength" value="8"><param name="MaxLength" value="16"><param name="CipherType" value="0"><param name="BorderWidth" value="0"><param name="BorderColorFocused" value="#00FF00"><param name="BorderColorNormal" value="#CCFF99"><param name="BackgroundColor" value="#F3F3F3|#FFF"><param name="RestrictRegExp" value="([!-~]+)"><param name="IntensityRegExp" value="(^[!-~]*[A-Za-z]+[!-~]*[0-9]+[!-~]*$)|(^[!-~]*[0-9]+[!-~]*[A-Za-z]+[!-~]*$)"><param name="ServerRandom" value="03C3A4"><param name="ServerPublicKey" value="30818902818100ce7c6b0cd58515a19cf671161fcfa69bd95d4812f49ed3ec315861f5e0c1267365ff0115a8e9f086b134134e27c122c9c52f8b708e3470b66b77e9bc6eddfeada38a76150e9731671b47e7352e0b94d1c6a45fd08ac0fafd871a6ae26409d4ff86426c709d10d2434345730a2fc0049bd2a9de06f459a810e4ce16d8af557b670203010001"><param name="ServerPublicKeySig" value="559619033A90C581085E7CDD311F381FB91267A6F121EF2670F4C9ADE3729CE07202AB7A2AA5371335E36061C5C7BA6CB0EBC16A6B27E722CF9D77633D0D6B4C77A844B85831B6B2EC8003CBA247BFEEE5D90C6BDCB81E7A05CAADF92355C8411391B732AE8B24CADF5803622E7ECA90968B0F8A79FAE45C7766520AA7DAF672"><param name="OnScreenKeyboard" value="1"></object></div>
+                        	<div style="clear: both;height:0px"></div>
+						</div>
+						
+						<div class="ms_home_page_header_li5_box_div">
+							<span style="background-image: url(/statics/CN/PC/images/alert_title3.jpg);"></span>
+							<input type="text" id="safeCode_head" value="" class="ms_home_page_header_input" placeholder="请输入附加码">
+							<img id="safeCodeImg_head" src="/fe/opencard/safeCode.gsp" alt="" onclick="changeImg();" style="margin-top: 6px;position: absolute; margin-left: 15px;">
+						</div>
+						
+						<div class="ms_home_page_header_li5_box_div">
+							<span class="ms_home_page_header_select_span4"></span>
+							<input type="text" id="DYPW1" value="" class="ms_home_page_header_input" placeholder="请输入短信验证码" style="height: 35px;">
+							<a id="btnSendCode1" href="javascript:;">
+								获取验证码
+							</a>
+						</div>
+						<a onclick="submitLogin1()" id="login1" class="com-btn com-btnsty1 com-btnsty4 com-btnsty8 ms_home_page_header_li5_btn">立即验证</a>
+					</div>
+				</li>
+				
+				<li class="ms_home_page_header_li ms_home_page_header_li5 IconLink">
+                			<a href="https://online.creditcard.cmbc.com.cn/" class="ms_home_page_header_li_aTelLink"></a>
+            	</li>
+
+				<li class="linkText ms_home_page_header_li ms_home_page_header_li5">
+					<a href="http://www.cmbc.com.cn" style="font-size: 14px;">进入中国民生银行网站&gt;</a>&nbsp;&nbsp;&nbsp;<a href="http://www.creditcard.cmbc.com.cn" style="font-size: 14px;">进入旧版网站&gt;</a>
+				</li>
+
+
+			</ul>
+
+		</div>
+	<!-- nav -->
+		<div class="ms_home_page_nav_min_w">
+			<ul class="ms-PageWidth ms_home_page_nav_box ms_home_page_nav_box_02">
+			
+			
+				
+				<li class="ms_home_page_nav_li ms_home_page_nav_li_show">
+					<a href="/home/cn/web/index/index.shtml">
+						首页
+					</a>
+				</li>
+				
+				
+			
+				
+				<li class="ms_home_page_nav_li">
+					<a href="/home/cn/web/product/index.shtml">
+						产品中心
+					</a>
+				</li>
+				
+				
+			
+				
+				<li class="ms_home_page_nav_li ms_home_page_nav_li02">
+					<a href="javascript:;">
+						精彩优惠
+					</a>
+				</li>
+				
+				
+			
+				
+				<li class="ms_home_page_nav_li ms_home_page_nav_li02">
+					<a href="javascript:;">
+						业务办理
+					</a>
+				</li>
+				
+				
+			
+				
+				<li class="ms_home_page_nav_li ms_home_page_nav_li02">
+					<a href="javascript:;">
+						客户服务
+					</a>
+				</li>
+				
+				
+			
+				
+				<li class="ms_home_page_nav_li ms_home_page_nav_li02">
+					<a href="javascript:;">
+						关于我们
+					</a>
+				</li>
+				
+				
+			
+			</ul>
+		</div>
+		<!-- 首页 -->
+		<div class="ms-PageWidth ms_home_page_nav_list ms_home_page_nav_list_02">
+
+		</div>
+		<!-- 产品中心 -->
+		<div class="ms-PageWidth ms_home_page_nav_list ms_home_page_nav_list_02">
+
+		</div>
+		<!-- 精彩优惠 -->
+		<div class="ms-PageWidth ms_home_page_nav_list ">
+			<ul class="ms_home_page_nav_list_ul">
+			
+				
+				<li class="ms_home_page_nav_list_li">
+					<a href="/fe/jsp/activity/activityListPc.jsp">
+						<h3 class="ms_home_page_nav_list_li_h3">优惠活动</h3>
+					</a>
+					
+						<a href="/fe/jsp/activity/activityListPc.jsp?kindName=0" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							全国
+						</a>
+					
+						<a href="/fe/jsp/activity/activityListPc.jsp?kindName=1" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							境外
+						</a>
+					
+						<a href="/fe/jsp/activity/activityListPc.jsp?kindName=2" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							区域
+						</a>
+					
+				</li>
+				
+			
+				
+				<li class="ms_home_page_nav_list_li">
+					<a href="/fe/common/shop-Business-list.jsp">
+						<h3 class="ms_home_page_nav_list_li_h3">特惠商户</h3>
+					</a>
+					
+						<a href="/fe/common/shop-Business-list.jsp?kindName=1" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							美食
+						</a>
+					
+						<a href="/fe/common/shop-Business-list.jsp?kindName=2" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							休闲娱乐
+						</a>
+					
+						<a href="/fe/common/shop-Business-list.jsp?kindName=3" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							购物
+						</a>
+					
+						<a href="/fe/common/shop-Business-list.jsp?kindName=8" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							生活服务
+						</a>
+					
+						<a href="/fe/common/shop-Business-list.jsp?kindName=7" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							酒店
+						</a>
+					
+						<a href="/fe/common/shop-Business-list.jsp?kindName=6" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							健身
+						</a>
+					
+						<a href="/fe/common/shop-Business-list.jsp?kindName=4" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							其他
+						</a>
+					
+				</li>
+				
+			
+				
+				<li class="ms_home_page_nav_list_li">
+					<a href="/home/cn/web/wonderful/leshare/list.shtml">
+						<h3 class="ms_home_page_nav_list_li_h3">悦享服务</h3>
+					</a>
+					
+						<a href="/home/cn/web/wonderful/leshare/list.shtml?id=62236" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							服务全览
+						</a>
+					
+						<a href="/home/cn/web/wonderful/leshare/list.shtml?id=16250" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							百夫长系列
+						</a>
+					
+						<a href="/home/cn/web/wonderful/leshare/list.shtml?id=16314" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							无限卡 钻石卡
+						</a>
+					
+						<a href="/home/cn/web/wonderful/leshare/list.shtml?id=16123" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							豪华白金卡
+						</a>
+					
+						<a href="/home/cn/web/wonderful/leshare/list.shtml?id=16059" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							标准白金卡
+						</a>
+					
+						<a href="/home/cn/web/wonderful/leshare/list.shtml?id=15995" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							金普卡
+						</a>
+					
+				</li>
+				
+			
+				
+				
+					<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li2">
+					<div class="ms_home_page_nav_list_li_div">
+						<a href="http://mall.cmbc.com.cn/">
+							<h3 class="ms_home_page_nav_list_li_h3">民生商城</h3>
+						</a>
+					</div>
+					<div class="ms_home_page_nav_list_li_div ms_home_page_nav_list_li_div2">
+						<a href="http://shop.cmbc.com.cn/">
+							<h3 class="ms_home_page_nav_list_li_h3">积分商城</h3>
+						</a>
+					</div>
+
+				</li>
+				<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li3">
+					
+						<a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/history/ttmsr/index.htm" target="_blank">
+							<img src="/resource/830/846/901/9143/57858/57942/15118634106661480454710.jpg" alt="">
+						</a>
+					
+				</li>
+			</ul>
+		</div>
+		<!-- 业务办理 -->
+		<div class="ms-PageWidth ms_home_page_nav_list ms_home_page_nav_list_h">
+			<ul class="ms_home_page_nav_list_ul">
+				
+					<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li02">
+						<a href="/home/cn/web/product/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">我要办卡</h3>
+						</a>
+						
+					</li>
+				
+					<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li02">
+						<a href="/home/cn/web/business/account/progress/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">我的账户</h3>
+						</a>
+						
+						
+						<a href="/fe/jsp/include/common/islogin.jsp?fun=bk" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							办卡进度
+						</a>
+						
+						
+						
+						<a href="/home/cn/web/business/account/activated/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							开卡激活
+						</a>
+						
+						
+						
+						<a href="javascript:step();" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							额度查询
+						</a>
+						
+						
+						
+						<a href="javascript:step();" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							账单查询
+						</a>
+						
+						
+						
+						<a href="javascript:step();" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							积分查询
+						</a>
+						
+						
+					</li>
+				
+					<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li02">
+						<a href=" 	https://nper.cmbc.com.cn/pweb/static/login.html">
+							<h3 class="ms_home_page_nav_list_li_h3">网上银行</h3>
+						</a>
+						
+						
+						<a href="https://nper.cmbc.com.cn/pweb/static/login.html" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							个人卡
+						</a>
+						
+						
+						
+						<a href="https://per.cmbc.com.cn/pweb/static/cclogin.html" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							商务卡
+						</a>
+						
+						
+					</li>
+				
+					<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li02">
+						<a href="/home/cn/web/business/stage/billing/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">我要分期</h3>
+						</a>
+						
+						
+						<a href="/home/cn/web/business/stage/cash/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							现金分期
+						</a>
+						
+						
+						
+						<a href="/home/cn/web/business/stage/billing/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							账单分期
+						</a>
+						
+						
+						
+						<a href="/home/cn/web/business/stage/free/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							自由分期
+						</a>
+						
+						
+						
+						<a href="/home/cn/web/business/stage/automatic/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							自动分期
+						</a>
+						
+						
+						
+						<a href="/home/cn/web/business/stage/car/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							汽车分期
+						</a>
+						
+						
+						
+						<a href="/home/cn/web/business/stage/house/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+							家装分期
+						</a>
+						
+						
+					</li>
+				
+				<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li2 ms_home_page_nav_list_li02">
+					<div class="ms_home_page_nav_list_li_div02">
+						
+						<a href="/home/cn/web/business/repay/repayment/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">我要还款</h3>
+						</a>
+						
+						<a href="/home/cn/web/business/repay/repayment/index.shtml" class="ms_home_page_nav_list_li_a">
+							还款渠道介绍
+						</a>
+						
+						<a href="/home/cn/web/business/repay/inquiry/index.shtml" class="ms_home_page_nav_list_li_a">
+							汇率查询
+						</a>
+						
+					</div>
+					<div class="ms_home_page_nav_list_li_div02 ms_home_page_nav_list_li_div2">
+						
+						<a href="/home/cn/web/business/silver/dimensional/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">我要收银</h3>
+						</a>
+						
+						<a href="/home/cn/web/business/silver/dimensional/index.shtml" class="ms_home_page_nav_list_li_a">
+							二维码收银
+						</a>
+						
+						<a href="/home/cn/web/business/silver/c76929/index.shtml" class="ms_home_page_nav_list_li_a">
+							POS收银
+						</a>
+						
+					</div>
+
+				</li>
+				<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li2 ms_home_page_nav_list_li03">
+					<div class="ms_home_page_nav_list_li_div02 ">
+					
+						<a href="/home/cn/web/business/mobile/pay/apple/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">移动支付</h3>
+						</a>
+						
+							
+							<a href="/home/cn/web/business/mobile/pay/apple/index.shtml" class="ms_home_page_nav_list_li_a">
+								支付攻略
+							</a>
+							
+						
+							
+							<a href="/home/cn/web/business/mobile/Payment/list.shtml" class="ms_home_page_nav_list_li_a">
+								支付优惠
+							</a>
+							
+						
+					</div>
+					<div class="ms_home_page_nav_list_li_div02 ms_home_page_nav_list_li_div2 ">
+						
+						<a href="/home/cn/web/business/other/quick/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">其它支付</h3>
+						</a>
+						
+							<a href="/home/cn/web/business/other/quick/index.shtml" class="ms_home_page_nav_list_li_a">
+								快捷支付
+							</a>
+						
+							<a href="/home/cn/web/business/other/currency/index.shtml" class="ms_home_page_nav_list_li_a">
+								网银支付
+							</a>
+						
+							<a href="/home/cn/web/business/other/gateway/index.shtml" class="ms_home_page_nav_list_li_a">
+								网关支付
+							</a>
+						
+							<a href="/home/cn/web/business/other/visa/index.shtml" class="ms_home_page_nav_list_li_a">
+								Visa-checkout支付
+							</a>
+						
+							<a href="/home/cn/web/business/other/3d/index.shtml" class="ms_home_page_nav_list_li_a">
+								3D验证
+							</a>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 客户服务 -->
+		<div class="ms-PageWidth ms_home_page_nav_list">
+			<ul class="ms_home_page_nav_list_ul">
+			
+				<li class="ms_home_page_nav_list_li">
+					<a href="/home/cn/web/customer/import/list.shtml" target="_blank">
+						<h3 class="ms_home_page_nav_list_li_h3">重要公告</h3>
+					</a>
+					
+				</li>
+			
+				<li class="ms_home_page_nav_list_li">
+					<a href="https://kefu.creditcard.cmbc.com.cn/" target="_blank">
+						<h3 class="ms_home_page_nav_list_li_h3">服务大厅</h3>
+					</a>
+					
+				</li>
+			
+				<li class="ms_home_page_nav_list_li">
+					<a href="/home/cn/web/customer/card/konw/index.shtml" target="_blank">
+						<h3 class="ms_home_page_nav_list_li_h3">用卡百科</h3>
+					</a>
+					
+						<a href="/home/cn/web/customer/card/konw/index.shtml" class="ms_home_page_nav_list_li_a" target="_blank">
+							用卡须知
+						</a>
+					
+						<a href="/home/cn/web/customer/card/guide/index.shtml" class="ms_home_page_nav_list_li_a" target="_blank">
+							用卡指南
+						</a>
+					
+						<a href="https://kefu.creditcard.cmbc.com.cn/rmwtindex.shtml" class="ms_home_page_nav_list_li_a" target="_blank">
+							常见问题
+						</a>
+					
+						<a href="https://kefu.creditcard.cmbc.com.cn/znkfindex.shtml" class="ms_home_page_nav_list_li_a" target="_blank">
+							我的知识库
+						</a>
+					
+				</li>
+			
+				<li class="ms_home_page_nav_list_li">
+					<a href="/home/cn/web/customer/network/marketing/index.shtml" target="_blank">
+						<h3 class="ms_home_page_nav_list_li_h3">网点查询</h3>
+					</a>
+					
+						<a href="http://www.cmbc.com.cn/sy/lxwm/fwwd/index.htm" class="ms_home_page_nav_list_li_a" target="_blank">
+							营业网点
+						</a>
+					
+						<a href="http://www.cmbc.com.cn/sy/lxwm/fwwd/index.htm" class="ms_home_page_nav_list_li_a" target="_blank">
+							ATM
+						</a>
+					
+				</li>
+			
+				<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li3">
+					
+						<a href="https://creditcard.cmbc.com.cn/home/cn/web/wonderful/active/country/20171031/1380344.shtml" target="_blank">
+							<img src="/resource/830/846/901/9143/57881/57968/1511863387947749245272.jpg" alt="">
+							<span class="ms_home_page_nav_list_li3_span">轻奢品牌 开卡任选</span>
+						</a>
+					
+				</li>
+			</ul>
+		</div>
+		<!-- 关于我们 -->
+		 <div class="ms-PageWidth ms_home_page_nav_list">
+			<ul class="ms_home_page_nav_list_ul">
+				
+					<li class="ms_home_page_nav_list_li">
+						<a href="/home/cn/web/about/introduction/.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">民生介绍</h3>
+						</a>
+						
+						
+							<a href="/home/cn/web/about/introduction/creditCenter/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+								信用卡中心介绍
+							</a>
+						
+						
+					</li>
+				
+					<li class="ms_home_page_nav_list_li">
+						<a href="/home/cn/web/about/dynamics/attention/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">民生动态</h3>
+						</a>
+						
+						
+							<a href="/home/cn/web/about/dynamics/attention/list.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+								媒体关注
+							</a>
+						
+							<a href="/home/cn/web/about/dynamics/advert/brand/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+								视频欣赏
+							</a>
+						
+							<a href="/home/cn/web/about/dynamics/welfare/index.shtml" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+								社会责任
+							</a>
+						
+						
+					</li>
+				
+					<li class="ms_home_page_nav_list_li">
+						<a href="/home/cn/web/about/welfare/index.shtml">
+							<h3 class="ms_home_page_nav_list_li_h3">人才招聘</h3>
+						</a>
+						
+						
+							<a href="http://cmbcbj.zhiye.com" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+								人才招聘
+							</a>
+						
+							<a href="http://ehr.creditcard.cmbc.com.cn/hrss/rm/RmMain.jsp?dsName=ncmshr" class="ms_home_page_nav_list_li_a ms-textEllipsis">
+								员工信息登记
+							</a>
+						
+						
+					</li>
+				
+				<li class="ms_home_page_nav_list_li">
+
+				</li>
+				<li class="ms_home_page_nav_list_li ms_home_page_nav_list_li3">
+				
+					<a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/history/hrt/index.htm" target="_blank">
+						<img style="margin-right:12px" src="/resource/830/846/901/9143/57904/58020/151186336986535543513.jpg" alt="" class="ms_home_page_nav_list_li3_img1">
+					</a>
+				
+					<a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/history/woman/index.htm" target="_blank">
+						<img style="margin-right:12px" src="/resource/830/846/901/9143/57904/57994/15118633494211359563983.jpg" alt="" class="ms_home_page_nav_list_li3_img1">
+					</a>
+				
+				</li>
+			</ul>
+		</div>
+		<div align="center" style="display: none">
+    <button data-mini="true" class="g-button" id="getSIPBox1Value" name="SIPBox1" onclick="GetData()">获取控件结果</button>
+    <br>
+    <textarea id="encryptedResult" name="encryptedResult" cols="80" rows="35" type="hidden"></textarea>
+    <textarea id="KeyPress" name="KeyPress" cols="80" rows="5"></textarea>
+    </div>
+	<!-- nav ent -->
+	<!-- nav ent -->
+	
+		<!-- 轮播 -->
+	
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+				  
+	 
+				  
+	   
+	 
+				  
+	 
+				  
+	   
+
+  
+   	<div class="ms_home_page_carousel_box wow pulse animated" style="visibility: visible; animation: pulse; -webkit-animation: pulse;">
+			<ul class="ms_home_page_carousel">
+			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/1811249/1513847028615345839424.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; z-index: 2; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/home/cn/web/product/travel/c1808653/index.shtml" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/896520/1514977811298592584962.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/home/cn/web/product/entertainment/c1880043/index.shtml" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/1820153/15139250675842129106723.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/myzyH5/index.html" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/1754978/1513336148175506919372.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/qmdjH5/index.html" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/56658/1509446610717683305930.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/home/cn/web/wonderful/active/country/20171031/1380344.shtml" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/972069/151151304287520011995.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/xglilaH5/index.html" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/1504838/15131523132651823774185.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/home/cn/web/wonderful/leshare/all/20170523/289940.shtml" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/624818/15136793735701094922101.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/jwposfx/index.html" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/590833/15088413485582096554077.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="http://8.498.net/shangquan.php/Pc" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+				<li class="ms_home_page_carousel_li" style="background-image: url(https://creditcard.cmbc.com.cn/resource/830/846/901/9143/56610/1924292/15149783325141061040004.jpg); background-size: cover; width: 100%; position: absolute; left: 0px; top: 0px; background-position: 50% 50%; background-repeat: initial initial;">
+          			 
+          			 <a href="https://creditcard.cmbc.com.cn/active/web/wonderful/active/taoppH5/index.html" target="_blank">
+           			 </a>
+           			 
+           		</li>
+           		
+   			
+				
+
+			</ul>
+			<div class="ms_home_page_carousel_page" style="z-index: 99999999;">
+			
+			
+				<span class="carousel_page_span carousel_page_span_show"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			
+				<span class="carousel_page_span"></span>
+			
+   			
+			</div>
+
+		</div>
+		<div class="ms_home_page_carousel_telephone_position">
+			<a href="https://online.creditcard.cmbc.com.cn">
+				<img src="/statics/CN/PC/images/telephone_position.png" alt="">
+			</a>
+		</div>
+		<!-- 产品详情列表 -->
+			
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+				  
+	 
+				  
+	   
+	 
+				  
+	 
+				  
+	   
+
+ 
+ 
+<script type="text/javascript">
+	function getUrl(url)
+	{
+		document.getElementById("home_page_iframe").setAttribute("src", url);
+
+		}
+	
+	</script>
+<div class="ms-PageWidth ms_home_page_product_list_box ">
+		 
+        <h2 class="ms_home_page_product_list_h2 wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation: fadeInUp 0.5s; -webkit-animation: fadeInUp 0.5s;">您想要的优惠全在这儿</h2>
+        <ul class="ms_home_page_product_title_list_ul wow fadeInUp animated" data-wow-delay=".6s" style="visibility: visible; animation: fadeInUp 0.6s; -webkit-animation: fadeInUp 0.6s;">
+        
+            <li class="ms_home_page_product_title_list_li ms_home_page_product_title_list_li_active" onclick="getUrl('/home/cn/web/index/benefit/product/index.shtml');">产品中心</li>
+            
+            <li class="ms_home_page_product_title_list_li" onclick="getUrl('/home/cn/web/index/benefit/discount/index.shtml');">优惠活动</li>
+            
+            <li class="ms_home_page_product_title_list_li" onclick="getUrl('/home/cn/web/index/benefit/shop/index.shtml');">特惠商户</li>
+            
+            <li class="ms_home_page_product_title_list_li" onclick="getUrl('/home/cn/web/index/benefit/stage/index.shtml');">理财分期</li>
+            
+            <li class="ms_home_page_product_title_list_li" onclick="getUrl('/home/cn/web/index/benefit/leshear/index.shtml');">悦享服务</li>
+            
+            <li class="ms_home_page_product_title_list_li" onclick="getUrl('/home/cn/web/index/benefit/codeshop/index.shtml');">积分商城</li>
+            
+            <li class="ms_home_page_product_title_list_li" onclick="getUrl('/home/cn/web/index/benefit/msshop/index.shtml');">民生商城</li>
+            
+        </ul>
+        
+        <div class="ms_home_page_product_content_list wow fadeInUp animated" data-wow-delay=".7s" style="visibility: visible; animation: fadeInUp 0.7s; -webkit-animation: fadeInUp 0.7s;">
+            <iframe src="/home/cn/web/index/benefit/product/index.shtml" id="home_page_iframe" width="1320" height="486" scrolling="no" frameborder="0"></iframe>
+        </div>
+    </div>
+		<!-- 您想知道的最新消息 -->
+		<div class="ms-PageWidth ms_home_page_product_list_box2" style="margin-top: 7px;">
+			<h2 class="ms_home_page_product_list_h2 wow fadeInUp" data-wow-delay=".5s" style="position: relative; visibility: hidden; animation: none 0.5s; -webkit-animation: none 0.5s;">
+				您想知道的最新消息
+			</h2>
+			
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+				  
+	 
+				  
+	   
+	 
+				  
+	 
+				  
+	   
+
+  
+
+
+<ul class="ms_home_page_product_list_ul wow fadeInUp " data-wow-delay=".7s" style="visibility: hidden; animation: none 0.7s; -webkit-animation: none 0.7s;">
+
+				<li class="ms_home_page_product_list_li">
+				
+					<div class="ms_home_page_product_list_li_title">
+						<span class="product_list_li_title_h3">
+							重要公告
+						</span>
+						<a href="/home/cn/web/customer/import/list.shtml">
+							<span class="product_list_li_title_span">
+								更多&gt;
+							</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div ms-textEllipsis">
+						<a href="/home/cn/web/customer/import/20171222/1820230.shtml" target="_blank">
+							<span class="ms_home_page_product_list_li_div_span">
+								关于民生车车信用卡1元洗车服务到期的温馨提示
+							</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div ms-textEllipsis">
+						<a href="/home/cn/web/customer/import/20171213/1736139.shtml" target="_blank">
+							<span class="ms_home_page_product_list_li_div_span">
+								民生信用卡关于机场贵宾服务全面升级及收费标准调整正式上线的公告
+							</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div ms-textEllipsis">
+						<a href="/home/cn/web/customer/import/20171207/1686013.shtml" target="_blank">
+							<span class="ms_home_page_product_list_li_div_span">
+								关于12月8日民生信用卡系统维护的公告
+							</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div ms-textEllipsis">
+						<a href="/home/cn/web/customer/import/20171206/1677153.shtml" target="_blank">
+							<span class="ms_home_page_product_list_li_div_span">
+								关于自扣还款增加二次扣款的公告
+							</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div ms-textEllipsis">
+						<a href="/home/cn/web/customer/import/20171201/1635492.shtml" target="_blank">
+							<span class="ms_home_page_product_list_li_div_span">
+								关于信用卡交易信息短信服务调整的公告
+							</span>
+						</a>
+					</div>
+					
+				</li>
+				
+				
+				<li class="ms_home_page_product_list_li ms_home_page_product_list_li2">
+				
+					<div class="ms_home_page_product_list_li_title">
+						<span class="product_list_li_title_h3">
+						我的知识库
+						</span>
+						<a href="https://kefu.creditcard.cmbc.com.cn/znkfindex.shtml">
+							<span class="product_list_li_title_span">
+								更多&gt;
+							</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="https://kefu.creditcard.cmbc.com.cn/znkfcwxgcwmcindex.shtml" target="_blank">
+							<img src="/resource/830/846/863/2401/14157/17476/18925/57575/14891290838121139762179.png" alt="">
+							<span>财务相关</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="https://kefu.creditcard.cmbc.com.cn/znkfykaqsqkpindex.shtml" target="_blank">
+							<img src="/resource/830/846/863/2401/14157/17476/18925/57611/14891290839471342791837.png" alt="">
+							<span>用卡安全</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="
+https://kefu.creditcard.cmbc.com.cn/znkfzzqdsmwsyxindex.shtml" target="_blank">
+							<img src="/resource/830/846/863/2401/14157/17476/18925/57647/14891290841021036473807.png" alt="">
+							<span>自动渠道说明</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="https://kefu.creditcard.cmbc.com.cn/znkffqsmzyfqindex.shtml" target="_blank">
+							<img src="/resource/830/846/863/2401/14157/17476/18925/57683/14891290844341340615322.png" alt="">
+							<span>分期说明</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="https://kefu.creditcard.cmbc.com.cn/znkfhkznwlhkindex.shtml" target="_blank">
+							<img src="/resource/830/846/863/2401/14157/17476/18925/57719/1489129084569625967570.png" alt="">
+							<span>还款指南</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="https://kefu.creditcard.cmbc.com.cn/znkfmmfwcxmmindex.shtml" target="_blank">
+							<img src="/resource/830/846/863/2401/14157/17476/18925/57755/1489129084705712955228.png" alt="">
+							<span>密码服务</span>
+						</a>
+					</div>
+					
+				</li>
+				
+				
+				<li class="ms_home_page_product_list_li ms_home_page_product_list_li2">
+				
+					<div class="ms_home_page_product_list_li_title">
+						<span class="product_list_li_title_h3">
+							我的账户
+						</span>
+						<a href="/home/cn/web/business/account/progress/index.shtml">
+							
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="/fe/jsp/include/common/islogin.jsp?fun=bk">
+							<img src="/resource/830/846/863/2401/14221/16890/17739/17763/1489126388177920436442.png" alt="">
+							<span>办卡进度</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="/home/cn/web/business/account/activated/index.shtml">
+							<img src="/resource/830/846/863/2401/14221/16890/17603/17627/14891264116091442964186.png" alt="">
+							<span>开卡激活</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="javascript:step();">
+							<img src="/resource/830/846/863/2401/14221/16890/17539/17563/1489126434738541018235.png" alt="">
+							<span>额度查询</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="javascript:step();">
+							<img src="/resource/830/846/863/2401/14221/16890/17412/17436/14891264543241456583593.png" alt="">
+							<span>账单查询</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="javascript:step();">
+							<img src="/resource/830/846/863/2401/14221/16890/17348/17372/1489126477281278036129.png" alt="">
+							<span>积分查询</span>
+						</a>
+					</div>
+					
+				</li>
+				
+				
+				<li class="ms_home_page_product_list_li ms_home_page_product_list_li2 ms_home_page_product_list_li3">
+				
+					<div class="ms_home_page_product_list_li_title">
+						<span class="product_list_li_title_h3">
+							支付攻略
+						</span>
+						<a href="/home/cn/web/business/mobile/pay/apple/index.shtml">
+							<span class="product_list_li_title_span">
+								更多&gt;
+							</span>
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="/home/cn/web/business/mobile/pay/apple/index.shtml">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/21099/21123/1489736969317753934318.png" alt="">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/21099/21123/14926519971261039126536.png" alt="" class="home_page_product_img">
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="/home/cn/web/business/mobile/pay/samaung/index.shtml">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/21036/21060/14925679809071192946335.png" alt="">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/21036/21060/14926520130882071551137.png" alt="" class="home_page_product_img">
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="/home/cn/web/business/mobile/pay/mi/index.shtml">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/20972/20996/14897370031852057153577.png" alt="">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/20972/20996/1492652026860248663257.png" alt="" class="home_page_product_img">
+						</a>
+					</div>
+					
+					<div class="ms_home_page_product_list_li_div">
+						<a href="/home/cn/web/business/mobile/pay/huawei/index.shtml">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/20908/20932/14925680048031295178627.png" alt="">
+							<img src="/resource/830/846/863/2401/14221/16442/20780/20908/20932/14926520493271937878037.png" alt="" class="home_page_product_img">
+						</a>
+					</div>
+					
+				</li>
+				</ul>
+		</div>
+
+	<!-- footer -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="footer">
+		<div class="ms-PageWidth ms_home_page_footer_box">
+			<ul class="ms_home_page_footer_list">
+			
+				<li class="ms_home_page_footer_li">
+					<a href="/home/cn/web/about/introduction/creditCenter/index.shtml"><h3 class="ms_home_page_footer_li_h3">民生介绍</h3></a>
+					
+					<a href="/home/cn/web/about/introduction/creditCenter/index.shtml
+" class="ms_home_page_footer_li_a">
+						信用卡中心介绍
+					</a>
+					
+				</li>
+			
+				<li class="ms_home_page_footer_li">
+					<a href="/home/cn/web/about/dynamics/attention/list.shtml"><h3 class="ms_home_page_footer_li_h3">民生动态</h3></a>
+					
+					<a href="/home/cn/web/about/dynamics/attention/list.shtml
+" class="ms_home_page_footer_li_a">
+						媒体关注
+					</a>
+					
+					<a href="/home/cn/web/about/dynamics/advert/brand/index.shtml" class="ms_home_page_footer_li_a">
+						视频欣赏
+					</a>
+					
+					<a href="/home/cn/web/about/dynamics/welfare/index.shtml
+" class="ms_home_page_footer_li_a">
+						社会责任
+					</a>
+					
+				</li>
+			
+				<li class="ms_home_page_footer_li">
+					<a href="/home/cn/web/customer/card/konw/index.shtml"><h3 class="ms_home_page_footer_li_h3">用卡百科</h3></a>
+					
+					<a href="/home/cn/web/customer/card/konw/index.shtml
+" class="ms_home_page_footer_li_a">
+						用卡须知
+					</a>
+					
+					<a href="/home/cn/web/customer/card/guide/index.shtml
+" class="ms_home_page_footer_li_a">
+						用卡指南
+					</a>
+					
+					<a href="https://kefu.creditcard.cmbc.com.cn/rmwtindex.shtml" class="ms_home_page_footer_li_a">
+						常见问题
+					</a>
+					
+					<a href="https://kefu.creditcard.cmbc.com.cn/znkfindex.shtml" class="ms_home_page_footer_li_a">
+						我的知识库
+					</a>
+					
+				</li>
+			
+				<li class="ms_home_page_footer_li">
+					<a href="http://cmbcbj.zhiye.com"><h3 class="ms_home_page_footer_li_h3">人才招聘</h3></a>
+					
+					<a href="http://cmbcbj.zhiye.com" class="ms_home_page_footer_li_a">
+						人才招聘
+					</a>
+					
+					<a href="http://ehr.creditcard.cmbc.com.cn/hrss/rm/RmMain.jsp?dsName=ncmshr
+" class="ms_home_page_footer_li_a">
+						员工信息登记
+					</a>
+					
+				</li>
+			
+				<li class="ms_home_page_footer_li">
+					<a href="/home/cn/web/customer/network/marketing/index.shtml"><h3 class="ms_home_page_footer_li_h3">网点查询</h3></a>
+					
+					<a href="http://www.cmbc.com.cn/sy/lxwm/fwwd/index.htm" class="ms_home_page_footer_li_a">
+						营业网点
+					</a>
+					
+					<a href="http://www.cmbc.com.cn/sy/lxwm/fwwd/index.htm" class="ms_home_page_footer_li_a">
+						ATM
+					</a>
+					
+				</li>
+			
+				<li class="ms_home_page_footer_li">
+					<a href="https://kefu.creditcard.cmbc.com.cn/"><h3 class="ms_home_page_footer_li_h3">服务大厅</h3></a>
+					
+				</li>
+			
+				<div class="ms-clear"></div>
+			</ul>
+			<div class="ms_home_page_footer_div1">
+				<div class="ms_home_page_footer_div_title">
+				
+				
+					<a href="http://www.cmbc.com.cn/sy/flsm/index.htm" class="ms_home_page_footer_title_a">
+						法律声明
+					</a>
+					<span class="ms_home_page_footer_title_span">|</span>
+				
+				
+				
+					<a href="http://www.cmbc.com.cn/sy/ysqzc/index.htm" class="ms_home_page_footer_title_a">
+						隐私权政策
+					</a>
+					<span class="ms_home_page_footer_title_span">|</span>
+				
+				
+				
+					<a href="/home/cn/web/customer/card/konw/index.shtml
+" class="ms_home_page_footer_title_a">
+						安全说明
+					</a>
+				
+				
+				</div>
+				<p class="ms_home_page_footer_div1_p">
+					中文域名:中国民生银行 京ICP证040430号京ICP备05020372号电信业务审批[2004]字第440函电信业务审批[2004]字第520函<br>
+					客户热线电话：400-66-95568
+				</p>
+			</div>
+			<div class="ms_home_page_footer_div2">
+			
+				<a class="ms_home_page_footer_div2_a1">
+						 
+					 <img src="/resource/830/846/863/2401/55302/56230/56372/1502847580050705702042.jpg" alt="">
+					
+				</a>
+			
+				<a class="ms_home_page_footer_div2_a2">
+						 
+					 <img src="/resource/830/846/863/2401/55302/56230/56398/150284760562520519789.jpg" alt="">
+					
+				</a>
+			
+				<a class="ms_home_page_footer_div2_a3">
+						 
+					 <img src="/resource/830/846/863/2401/55302/56230/56424/14944703935461175859639.png" alt="">
+					
+				</a>
+			
+				<a href="http://weibo.com/cmbccreditcard" target="_blank" class="ms_home_page_footer_div2_a4">
+					
+				</a>
+			
+			</div>
+			<div class="ms-clear"></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//creditcard.cmbc.com.cn/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<script>
+    $(function(){
+        $('.ms_home_page_product_title_list_li').each(function(index){
+            $('.ms_home_page_product_title_list_li').eq(index).click(function(){
+                $(this).addClass('ms_home_page_product_title_list_li_active').siblings().removeClass('ms_home_page_product_title_list_li_active');
+                $('.cardInfo_product_list_ul').eq(index).addClass('cardInfo_product_list_ul_show').siblings().removeClass('cardInfo_product_list_ul_show');
+                $('#home_page_iframe').attr("height","");
+                $('#iframe_card').attr("height",'');
+                $('.detailBox').eq(index).addClass('cardInfo_product_title_nav_box_show').siblings().removeClass('cardInfo_product_title_nav_box_show');
+            });
+        });
+    });
+</script>
+
+
+</body></html>

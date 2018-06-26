@@ -1,0 +1,102 @@
+<!DOCTYPE html><html><head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+    <link rel="stylesheet" href="http://student.xue.xdf.cn/student_xue_portalUI/style/style.css?v=20150813">
+    <script src="http://student.xue.xdf.cn/student_xue_portalUI/js/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="http://student.xue.xdf.cn/student_xue_portalUI/js/common.js" type="text/javascript"></script>
+    <style type="text/css">
+        .login-box .inner
+        {
+            padding: 30px 32px 0 32px;
+        }
+    </style>
+</head>
+<body class="login-bj">
+    <div class="login_wrap">
+        <div class="w1000">
+            <a class="login-logo" href="javascript:void(0);" title="新东方互动教学平台">新东方互动教学平台</a>
+        </div>
+        <div class="bj-wrap">
+            <div class="w1000 login-inner">
+                <div class="login-posi clear">
+                    <div class="login-style fl">
+                        <div class="buld-wrap">
+                            <div class="bulb-bg"></div>
+                            <div class="bulb-bg-color"></div>
+                            <div class="l-video"></div>
+                            <div class="l-skill"></div>
+                            <div class="l-method"></div>
+                            <div class="l-capacity"></div>
+                            <div class="l-achievement"></div>
+                            <div class="l-aircraft"><i></i></div>
+                        </div>
+                    </div>
+                    <div id="login">
+                        <div class="login-box-post">
+                            <div class="login-box front">
+                                <div class="inner clear">
+                                    <div class="head clear">
+                                        <h1 class="fl">欢迎登录</h1>
+                                        <a id="register" class="fr green" href="javascript:void(0);">立即注册</a>
+                                    </div>
+                                    <div class="blank_20"></div>
+
+                                    <iframe src="http://passport.xdf.cn/i/u8/popIndex.aspx?appId=10&amp;returnUrl=http%3a%2f%2fspoc.xdf.cn%2fHome%2fU2Routing%2f%3freturnUrl%3dhttp%3a%2f%2fspoc.xdf.cn%2frouting%2fhome%2f" allowtransparency="true" scrolling="no" frameborder="no" border="0" style="width:325px; height:280px; border:0; overflow:hidden;background: transparent;"></iframe>
+                                </div>
+                            </div>
+                            <div class="login-box back register-box">
+                                <div class="inner clear">
+                                    <div class="head clear">
+                                        <h1 class="fl">注册</h1>
+                                        <p class="fr yet-register">我已注册，现在就<a id="loginBtn" class="green" href="javascript:void(0);">登录</a></p>
+                                    </div>
+                                    <div class="blank_20"></div>
+                                     <iframe src="http://passport.xdf.cn/i/u8/popRegister.aspx?appId=10&amp;returnUrl=http%3a%2f%2fspoc.xdf.cn%2fHome%2fU2Routing%2f%3freturnUrl%3dhttp%3a%2f%2fspoc.xdf.cn%2frouting%2fhome%2f" allowtransparency="true" scrolling="no" frameborder="no" border="0" style="width:325px; height:340px; border:0; overflow:hidden;background: transparent;"></iframe>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="login-footer">
+            <p class="footer-nav"><a href="mailto:president@xdf.cn">总裁信箱</a>|<a href="http://www.neworiental.org/">neworiental.org</a>|<a href="http://zhaopin.xdf.cn/">加入我们</a>|<a href="http://www.xdf.cn/about/contact.html">联系我们</a>|<a href="http://www.xdf.cn/about/law.html">法律声明</a>|<a href="http://dh.xdf.cn/">教育导航</a>|<a href="http://www.xdf.cn/about/guest.html">服务监督</a>|<a href="http://www.xdf.cn/about/link.html">友情链接</a>|<a href="http://www.xdf.cn/csr/">社会责任</a>|<a href="http://t.xdf.cn/">企业微博</a>|<a href="http://english.neworiental.org/">English Website</a></p>
+            <div class="copyright">
+                <p>北京新东方教育科技（集团）有限公司</p>
+                <p>经营许可证编号：京ICP备05067667 | 京ICP证060601号 | 京公网安备1101084985</p>
+                <p>Copyright 2011-2012 Neworiental Corporation, All Rights Reserved</p>
+                <p>© 2011-2013 新东方 版权所有</p>
+            </div>
+        </div>
+    </div>
+
+
+
+<script>
+    $(function () {
+        //登录
+        var $register = $('#register');
+        var $loginBtn = $('#loginBtn');
+        var $loginBoxPost = $('.login-box-post');
+        $register.on('click', function () {
+            $loginBoxPost.addClass('login-box-anim');
+        });
+        $loginBtn.on('click', function () {
+            $loginBoxPost.removeClass('login-box-anim');
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

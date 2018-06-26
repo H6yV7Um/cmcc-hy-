@@ -1,0 +1,2361 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"><meta name="apple-mobile-web-app-status-bar-style" content="black"><title>
+	首页 - 周大福官方商城
+</title><link rel="stylesheet" href="/css/register.css"><link rel="stylesheet" href="/css/animation.css"><link rel="stylesheet" href="/css/common.css"><link rel="stylesheet" href="css/home.css"><link rel="stylesheet" href="/css/public.css">
+    <script type="text/javascript" src="https://st8.live800.com/live800/chatClient/staticButtonStatic.js"></script><script type="text/javascript" src="/js/zepto.min.js"></script>
+        <script type="text/javascript" src="/js/zepto.picLazyLoad.min.js"></script>
+    <style>
+        .slideBox1 {
+            position: relative;
+            overflow: hidden;
+            max-width: 640px;
+        }
+
+        .cards {
+            padding-bottom: .05rem;
+        }
+
+            .cards .col-1 {
+                margin-left: .03rem;
+            }
+
+        .ft-zx {
+            height: 0rem;
+        }
+        
+    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="image/x-icon" rel="shortcut icon" href="/images/favicon.ico"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="description" content="周大福－亚洲值得信赖的钻石、黄金珠宝品牌,为您提供优质的在线购物服务,数千款钻石、钻戒、戒指、吊坠、项链、黄金饰品供您选购！"><meta name="keywords" content="周大福,钻石,戒指,钻戒,铂金,足金饰品,钟表">	<script type="text/javascript" src="/include/tools.js"></script>
+	<script type="text/javascript" src="/include/ajax.js"></script>
+	<script type="text/javascript">_oztime = (new Date()).getTime();</script>
+</head>
+<body>
+    <form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Y4yP3Rh/XjmScrcpyYLtFn7PNsdk2uvubKRnhBNAQq33vqLP3EBJFs5tUf/42bXJnakDZhwCKQ8Owhe2D1Ia985LkbPx841sKsjmisBRZfgOUFyzWzNLC7Vl9T8=">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+</div>
+        <div class="body_main" id="section_container" style="-webkit-user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <!--头部-->
+            
+<style>
+    /*固定header*/
+    /*.fixHeader
+    {
+        width: 100% !important;
+        position: fixed !important;
+    }
+    */
+
+    .zc .remove em
+    {
+        margin-left: -.1rem !important;
+    }
+
+    .removeH
+    {
+        height: .32rem;
+        line-height: .32rem;
+        text-align: center;
+        border-bottom: .01rem solid #d0d0d0;
+        margin-bottom: .18rem;
+        color: #666;
+        background: #f8f8f8;
+    }
+</style>
+<script src="/include/checkssl.js"></script>
+<header id="header" class="fixHeader">
+    <input type="text" style="display: none;">
+    
+    <div class="logo">
+        <img src="https://cdn.ctfmall.com/path/LOGO-WAP.jpg?o=/images/logo.png" alt="周大福">
+    </div>
+    <div class="search sar1">
+        <div class="sear-bj zc">
+            <div id="search" class="t-tips">
+                <from action="javascript:return true;"><input type="search" class="text focus searchword" placeholder="十二生肖"><span class="remove r11"><em></em></span></from>              
+            </div>
+            <input type="button" class="btn searchSure">
+        </div>
+    </div>
+    
+</header>
+<!--搜索列表-->
+<div class="sear-s p-sear i-sear">
+    <div class="mk-s">
+        
+        <div class="ss_key">
+            
+            <div class="s-k" id="hot" style="display: block;">
+                <ul class="sear-l">
+                    <li><span>幸福礼金卡</span><div class="add-q"><span class="rept"></span></div></li><li><span>生肖鸡</span><div class="add-q"><span class="rept"></span></div></li><li><span>17916</span><div class="add-q"><span class="rept"></span></div></li><li><span>Ringism系列</span><div class="add-q"><span class="rept"></span></div></li><li><span>花月佳期系列</span><div class="add-q"><span class="rept"></span></div></li><li><span>Hello Kitty</span><div class="add-q"><span class="rept"></span></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-rgb"></div>
+</div>
+<!--搜索列表 end-->
+<script type="text/javascript" src="/include/ocookie.js"></script>
+<script type="text/javascript">
+    /**清除历史隐藏or显示**/
+    if ($("#history").children().length == 0) {
+        $(".removeH").hide();
+        $(".keywords").hide();
+        $("#hot").show();
+    } else {
+        $(".removeH").show();
+        $(".keywords").show();
+    }
+    /**搜索动作**/
+    var search = function () {
+        //alert(OUI.rgx.match(location.href,OUI.rgx.domain));
+        var url = "/product/product_list.aspx?";
+        var kw = $(".text.focus").val();
+        if (kw.trim() != "") {
+            url = url + "keywords=" + encodeURI(encodeURI(kw.trim()));
+            ajax.AddHistoryKwds($(".text.focus").val(), url);
+        } else {
+            //默认跳转
+            if ($(".text.focus").attr("placeholder") != "") {
+                url = url + "keywords=" + encodeURI(encodeURI($(".text.focus").attr("placeholder")));
+                ajax.AddHistoryKwds($(".text.focus").attr("placeholder"), url);
+            }
+            else {
+                location.href = "/product/product_list.aspx";
+            }
+        }
+    }
+    /**确定搜索按钮点击事件**/
+    $(".searchSure").on("click", function () {
+        search();
+    })
+
+    /**点击搜索文本框事件**/
+    $(".text.focus").on("click", function () {
+        $(".i-sear").show();
+    });
+    /**点击历史关键词或热门关键词事件**/
+    $(".sear-l>li").on("click", function () {
+        //alert(OUI.rgx.match(location.href, OUI.rgx.domain));
+        var url = "/product/product_list.aspx?";
+        url = url + "keywords=" + encodeURI(encodeURI($(this).children().html()));
+        ajax.AddHistoryKwds($(this).children().eq(0).html(), url);
+    });
+
+    /**点击清除历史关键词事件**/
+    $(".removeH").on("click", function () {
+        ajax.DelHistoryKwds($("#history"));
+    })
+    /**初始化搜索框**/
+    $(function () {
+        var keywords = decodeURI(decodeURI(OUI.getUrlParam("keywords")));
+        //var keywords = OUI.getUrlParam("keywords");
+        if (OUI.getUrlParam("keywords") != null) {
+            $(".searchword").val(keywords);
+        }
+    });
+    /**直接点击手机键盘中前往按钮，搜索**/
+    function keyDown(e) {
+        var keycode = e.which;
+        if (parseInt(keycode) == 13) {
+            search();
+        }
+    }
+    document.onkeydown = keyDown;
+    /**回删搜索框至无内容，隐藏x图标**/
+    $("#search").find("input").on("input", function () {
+        if ($(this).attr("value") == "") {
+            $(".remove.r11").hide();
+        } else {
+            $(".remove.r11").show();
+        }
+    })
+
+    //获取(_oran_isproduct_before_page）cookie，保存除了product_list的上一页
+    var isProduct = OCookie.GetCookie("_oran_isproduct_before_page");
+    if (!isProduct) {
+        OCookie.SetCookie("_oran_isproduct_before_page", location.href);
+    } else {
+        var prevPage = document.referrer;
+        if (parseInt(prevPage.indexOf("product_list")) < 0) {
+            OCookie.SetCookie("_oran_isproduct_before_page", prevPage);
+        }
+    }
+    $("#returnPrev").on("tap", function () {
+        location.href = OCookie.GetCookie("_oran_isproduct_before_page");
+        //history.go(-1);
+    })
+
+
+    //$(function () {
+    //    if (window.history && window.history.pushState) {
+    //        $(window).on('popstate', function () {
+    //            var hashLocation = location.hash;
+    //            var hashSplit = hashLocation.split("#!/");
+    //            var hashName = hashSplit[1];
+    //            if (hashName !== '') {
+    //                var hash = window.location.hash;
+    //                if (hash === '') {
+    //                    location.href = location.href;
+    //                }
+    //            }
+    //        });
+    //    }
+    //});
+</script>
+
+            <!--头部 end-->
+             <!--开屏广告位-->
+                  
+               
+            <!--开屏广告位 end-->            
+            <!--主体内容-->          
+            <div class="container">
+                <!--内容区-->
+                 <div id="topAnchor"></div>
+                <div class="conwp back" id="conwp" style="min-height:100%;height:auto!important">
+                    <!--图片轮播-->
+                    
+<div id="slideBox_0" class="slideBox">
+    <div class="bd" style="opacity: 1;">
+        <div class="tempWrap" style="overflow:hidden; position:relative;"><ul style="width: 4480px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition: 600ms; -webkit-transition: 600ms; transform: translate(-640px, 0px) translateZ(0px);">
+            
+            <!-- 轮播开始 02 喜狮-->
+   <li style="display: table-cell; vertical-align: top; width: 640px;"><a class="pic" href="https://m.ctfmall.com/special/theme.aspx?fn=XFLJH">
+                <img src="https://cdn.ctfmall.com/path/waplunbo103.jpg"></a>
+  </li><li style="display: table-cell; vertical-align: top; width: 640px;"><a class="pic" href="https://m.ctfmall.com/special/theme.aspx?fn=sqxshd">
+                <img src="https://cdn.ctfmall.com/path/waplunbo203.jpg"></a>
+  </li>
+<!-- 轮播结束 02-->
+
+<!-- 轮播开始 01 妖猫-->
+   <li style="display: table-cell; vertical-align: top; width: 640px;"><a class="pic" href="/special/theme.aspx?fn=ymz">
+                <img src="https://cdn.ctfmall.com/path/waplunbo200.jpg"></a>
+  </li>
+<!-- 轮播结束 01-->
+
+
+<!-- 轮播开始 01 裸钻-->
+   <li style="display: table-cell; vertical-align: top; width: 640px;"><a class="pic" href="https://www.ctfmall.com/special/done/">
+                <img src="https://cdn.ctfmall.com/path/luozuandingzhi2222.jpg"></a>
+  </li>
+<!-- 轮播结束 01-->
+
+<!-- 轮播开始 03 赵丽颖-->
+   <li style="display: table-cell; vertical-align: top; width: 640px;"><a class="pic" href="https://m.ctfmall.com/special/theme.aspx?fn=RYSX">
+                <img src="https://cdn.ctfmall.com/path/lunbo184.jpg"></a>
+  </li>
+<!-- 轮播结束 03-->
+
+
+
+<!-- 轮播开始 03 礼金卡-->
+   <li style="display: table-cell; vertical-align: top; width: 640px;"><a class="pic" href="https://m.ctfmall.com/special/theme.aspx?fn=XFLJH">
+                <img src="https://cdn.ctfmall.com/path/waplunbo103.jpg"></a>
+  </li>
+<!-- 轮播结束 03-->
+        <li style="display: table-cell; vertical-align: top; width: 640px;"><a class="pic" href="https://m.ctfmall.com/special/theme.aspx?fn=sqxshd">
+                <img src="https://cdn.ctfmall.com/path/waplunbo203.jpg"></a>
+  </li></ul></div>
+    </div>
+    <div class="hd" style="opacity: 1;">
+        <ul><li class="on">1</li><li class="">2</li><li class="">3</li><li class="">4</li><li class="">5</li></ul>
+    </div>
+<div class="loading icon" style="display: none;"></div></div>
+
+                    <!--图片轮播 end-->
+                    <br>
+                    <!--导航-->
+                    <script type="text/javascript">
+                        var allowSendInfoCoupon = 0;
+                        var hasNewCoupon = '0';
+                    </script>
+                    <img src="https://cdn.ctfmall.com/path/wapguanggao.png" style="
+    position: relative;
+    top: -26px;
+    z-index: 10;
+    width:18px;
+    height:8px
+">
+<div class="sort">
+    <ul>
+        <li><a href="/product/product_list.aspx"><span class="ico">
+            <img src="https://cdn.ctfmall.com/path/94x94.png" alt="全部商品"></span><span class="cate-name">全部商品</span></a></li>
+        <li><a href="/user/user_center.aspx"><span class="ico">
+            <script type="text/javascript">
+if(typeof(allowSendInfoCoupon)!='undefined'&&allowSendInfoCoupon=='1'){
+           document.write('<img src="../../../images/i-ico21.png" alt="" />');} else{document.write('<img src="../../../images/i-ico2.png" alt="" />');}
+if(typeof(hasNewCoupon)!='undefined'&&hasNewCoupon=='1'){
+document.write('<i style="color: #9e0028;position: absolute;">●</i>');
+}
+</script><img src="../../../images/i-ico2.png" alt=""></span><span class="cate-name">用户中心</span></a></li>
+        <li><a href="https://m.ctfmall.com/special/SeriesZero/SeriesZero.aspx"><span class="ico">
+            <img src="../../../images/i-ico3.png" alt="新品汇"></span><span class="cate-name">新品汇</span></a></li>
+        <li><a href="/user/good_validate.aspx"><span class="ico">
+            <img src="../../../images/i-ico4.png" alt="商品核验"></span><span class="cate-name">商品核验</span></a></li>
+						<li><a href="/user/EInvoice.aspx"><span class="ico">
+            <img src="../../../images/i-ico6.png" alt="发票管家"></span><span class="cate-name">发票管家</span></a></li>
+    </ul>
+</div>
+
+
+                    <!--导航 end-->
+                    <!--文字滚动-->
+                    
+<style>
+    .autoup {
+        float: left;
+        margin: .05rem .3rem .05rem .09rem;
+    }
+
+    .price1 {
+        text-align: center;
+        font-size: 0.16rem;
+        color: #9e0028;
+    }
+
+    .pop-img {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: url(../../../images/pop.png) !important;
+        z-index: 99990;
+    }
+
+    .todaygold {
+        background-color: #fff;
+        width: 80%;
+        padding-top: 0.2rem;
+        padding-bottom: 0.1rem;
+        border: 2px solid #A7A4A4;
+        float: left;
+        text-align: center;
+        border-radius: 0.1rem;
+    }
+
+        .todaygold ul li span {
+            color: #9e0028;
+            font-weight: bold;
+        }
+
+        .todaygold ul li {
+            line-height: .3rem;
+        }
+
+    .vote_btn {
+        width: 0.3rem;
+        position: fixed;
+        right: 7%;
+        margin-top: -.32rem;
+    }
+
+    .price img {
+        width: .1rem;
+    }
+
+    .retailprice {
+        display: inline-block;
+        vertical-align: top;
+        height: 0.35rem;
+        font-size: 0.18rem;
+        padding: 0.2rem 5% 0.1rem 5%;
+        margin-right: 5%;
+        border-right: 1px solid #9e0028;
+        float: left;
+    }
+
+    .retailpricedetail {
+        display: inline-block;
+        text-align: left;
+        float: left;
+    }
+
+        .retailpricedetail span {
+            color: #9e0028;
+        }
+
+        .retailpricedetail i {
+            display: inline-block;
+            width: 0.66rem;
+            text-align: right;
+        }
+
+    .pricearea {
+        background-color: #E6E6E6;
+        margin: 0.1rem;
+        padding-top: 0.1rem;
+    }
+</style>
+<hr style="height: 1px; border: none; border-top: 1px solid #d5d5d5; margin: 0rem; margin-top: 0.05rem;">
+<div class="autoup" style="width: 96%;">
+    <div class="price">
+        <img src="/images/j-price.png" alt="">
+        今日金价：
+    </div>
+    <ul id="autoupUI">
+        <li>足金零售价：<span>¥358.00</span>元/克</li>
+        <li>金条/金章零售价：<span>¥347.00</span>元/克</li>
+        <li>投资产品零售价：<span>¥317.00</span>元/克</li>
+        <li>足金换购价：<span>¥316.00</span>元/克</li>
+        <li>金条/金章换购价：<span>¥316.00</span>元/克</li>
+        <li>足金回购价：<span>¥256</span>元/克</li>
+        <li>金条/金章回购价：<span>¥270</span>元/克</li>
+    </ul>
+    <p class="LookMore" style="float: right;">查看更多</p>
+</div>
+<div style="clear: both;"></div>
+<hr style="height: 1px; border: none; border-bottom: 1px solid #d5d5d5; margin: 0rem;">
+
+<div class="pop-img" id="pop-img" style="display: none;">
+    <div class="goldtop" style="height: 10%;"></div>
+    <div class="goldleft" style="width: 9%; height: 2.4rem; float: left;"></div>
+    <div class="todaygold">
+        <img src="../../../images/Step2_03.png" class="vote_btn">
+        <div class="price1" style="margin-bottom: 0rem;">
+            今日金价
+        </div>
+        <p style="margin-top: 0.1rem;">更新于2018/01/09 10:20</p>
+        <div class="pricearea">
+            <div class="retailprice">
+                零售价
+            </div>
+            <div class="retailpricedetail">
+                <p><i>足金：</i><span>¥358.00</span>元/克</p>
+                <p><i>金条/金章：</i><span>¥347.00</span>元/克</p>
+                <p><i>投资产品：</i><span>¥317.00</span>元/克</p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="pricearea">
+            <div class="retailprice" style="height: 0.2rem; padding: 0.1rem 5% 0.1rem 5%;">
+                换购价
+            </div>
+            <div class="retailpricedetail">
+                <p><i>足金：</i><span>¥316.00</span>元/克</p>
+                <p><i>金条/金章：</i><span>¥316.00</span>元/克</p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="pricearea">
+            <div class="retailprice" style="height: 0.2rem; padding: 0.1rem 5% 0.1rem 5%;">
+                回购价
+            </div>
+            <div class="retailpricedetail">
+                <p><i>足金：</i><span>¥256</span>元/克</p>
+                <p><i>金条/金章：</i><span>¥270</span>元/克</p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        
+    </div>
+    <div class="goldright" style="width: 9%; height: 2.4rem; float: left;"></div>
+    <div style="clear: both;"></div>
+    <div class="goldbuttom" style="height: 100%"></div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        //弹出弹框
+        $('.LookMore').click(function () {
+            $("#pop-img").show();
+            $('.navigationbar').css("z-index", "1");
+            $('.gotop').css("z-index", "1");
+            //调整浮框的位置
+            $('.goldleft').css('height', $('.todaygold').height() + 'px');
+            $('.goldright').css('height', $('.todaygold').height() + 'px');
+            $('.goldtop').css('height', ($('.pop-img').height() - $('.todaygold').height()) / 2 + 'px');
+        });
+
+        //隐藏弹框
+        $(".goldtop,.goldleft,.goldright,.goldbuttom,.vote_btn").click(function () {
+            $("#pop-img").hide();
+            $('.navigationbar').css("z-index", "9999");
+            $('.gotop').css("z-index", "99");
+        });
+
+
+    });
+</script>
+                    <!--文字滚动 end-->
+                    <!--装修区-->
+                    
+<style type="text/css">
+    .xp, .rx, .yh {
+        border-radius: .03rem;
+        padding: .02rem .07rem;
+        color: #fff;
+        font-weight: normal;
+        margin-left: .06rem;
+        font-size: .12rem;
+    }
+    #red_packet {
+        background-image:url(../../../images/bg_hb.png);
+        height:2.2rem;
+        background-size:cover;
+        position:relative;
+    }
+    .pop-img_hb {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding-top: 1.3rem;
+        top: 0;
+        left: 0;
+        background: url(../../../images/pop.png);
+        z-index: 9999;
+    }
+    .slideBox_hb {
+        position: relative;
+        overflow: hidden;
+        max-width: 6.4rem;
+        margin: 0 auto;
+    }
+    .slideBox_hb .bd_hb {
+        position: relative;
+        z-index: 0;
+        opacity: 0;
+        text-align: center;
+        width: 70%;
+        height:4rem;
+        margin: 0 auto;
+        background-image:url(../../../images/pic_hb.png);
+        background-repeat:no-repeat;
+        background-size: contain;
+    }
+    #redPacketMoney {
+        font-size:.35rem;
+        color:#FDDB31;
+    }
+    #redPacketCount {
+        color:#EA6082;
+        font-size:.20rem;
+    }
+    @media (min-width:500px) {
+        #qd {
+            width:35% !important;
+        }
+        #red_packet {
+            height:2.6rem !important;
+        }
+        .slideBox_hb .bd_hb {
+            height: 5.5rem !important;
+            width:70% !important;
+        }
+        #hby {
+            width: 35% !important;
+            height: 1.65rem !important;
+        }
+        #toHby {
+            height: .38rem !important;
+            bottom: .12rem !important;
+        }
+        #btn_hb {
+            margin-top: -.48rem !important;
+        }
+        #tip1 {
+            margin: 0 0 .15rem 1.2rem !important;
+        }
+    }
+    @media (max-width: 400px) {
+        #hbdetail span {
+            font-size:.2rem !important;
+        }
+        #redPacketCount {
+            font-size:.18rem !important;
+        }
+        .bd_hb {
+            height:3.7rem !important;
+        }
+        #tip1 {
+            margin: 0 0 .15rem .15rem !important;
+        }
+        #toHby {
+            bottom: .2rem !important;
+        }
+        #tip1 {
+            margin: 0 0 .15rem .1rem !important;
+        }
+    }
+    @media (max-width: 375px) {
+        #toHby {
+            bottom: .22rem !important;
+        }
+    }
+    @media (max-width: 360px) {
+        #toHby {
+            height: .24rem !important;
+            bottom: .29rem !important;
+        }
+        #tip_hb {
+            font-size: .14rem !important;
+        }
+        #red_packet {
+            height: 2rem !important;
+        }
+    }
+    @media (max-width: 320px){
+        #red_packet
+        {
+            height: 1.8rem !important;
+        }
+        #tip_hb {
+            font-size:.1rem !important;
+            bottom: .0rem !important;
+        }
+        #tip1 {
+            margin: 0 0 .15rem .2rem !important;
+        }
+        .hx {
+            margin-top: .05rem !important;
+        }
+        #toHby {
+            height: .22rem !important;
+            bottom: .2rem !important;
+        }
+        #hby {
+            height: 1rem !important;
+        }
+        .slideBox_hb .bd_hb {
+            height: 3.1rem !important;
+        }
+        #redpacketM {
+            bottom: 1rem !important;
+        }
+        #hbdetail span {
+            font-size:.16rem !important;
+        }
+        #redPacketCount {
+            font-size:.16rem !important;
+        }
+        #btn_hb {
+            margin-top: -.35rem !important;
+        }
+        #get_hb {
+            bottom: .4rem !important;
+        }
+    }
+    
+    
+</style>
+
+
+<script type="text/javascript">
+    $(function () {
+        if ('False' == "True" && '0' != '11') {
+            $("#redPacketCount").html("0.00"+"元").css("font-size",".32rem")
+        }
+        $("#btn_hb").on("click", function () {
+            var type = 1;//签到红包
+            if('False' != "True"){
+                window.location.href = "/user/login.aspx?refurl=/default.aspx";
+                return false;
+            }
+            if ('0' == '11') {
+                alert("免注册购物用户不能领取红包");
+                return false;
+            }
+            ajax.GetRedPacket(type, 1,function (data) {
+                if (data.state == "1") {
+                    E.hideMask("loading...");
+                    $("#redPacketMoney").html(data.amount+"元");
+                    $("#pop-img_hb").css("visibility", "visible");
+                    $(".bd_hb").css("opacity", "1");
+                    $("#redPacketCount").html(data.redPacket_Left + "元");
+                    $("#btn_hb").hide();
+                    $("#btn_yqd").show();
+                } else if (data.state == "-1") {
+                    E.hideMask("loading...");
+                    E.showToast(data.msg, "40%", "toast", 1250);
+                } else if (data.state == "-3") {
+                    E.hideMask("loading...");
+                    E.showToast(data.msg, "40%", "toast", 1250);
+                    $("#btn_hb").hide();
+                    $("#btn_yqd").show();
+                }
+                else {
+                    E.hideMask("loading...");
+                    E.showToast(data.msg, "40%", "toast", 1250);
+                }
+            });
+            //$("#pop-img_hb").css("visibility", "visible");
+            //$(".bd_hb").css("opacity", "1");
+            
+        });
+        $(".get_hb").on("click", function () {
+            $("#pop-img_hb").css("visibility", "hidden");
+            $(".bd_hb").css("opacity", "0");
+        });
+        $("#toHby1111").on("click", function () {
+            if ("False" == "False") {
+                E.showToast("活动暂未开始", "40%", "toast", 1250);
+                return false;
+            } else if ("False" == "True") {
+                E.showToast("当前活动已参加，请留意下次活动", "40%", "toast", 1250);
+                return false;
+             }else{
+                window.location.href = "/special/red_packet/";
+            }
+        })
+    });
+</script>
+
+
+        <div id="Div3" class="slideBox1" style="margin: inherit;height:100%; width:100%;"><a class="pic" href="http://m.ctfmall.com/user/register_new.aspx?refurl=http%3A%2F%2Fm.ctfmall.com%2F"> <img style="border-radius: .05rem; width:49%;" src="http://cdn.ctfeshop.com.cn/misc/20160624101740_1490.jpg" alt=""></a> <a class="pic" onclick="GetCoupon('SQXS30')"> <img style="border-radius: .05rem; width:49%;" src="http://cdn.ctfeshop.com.cn/misc/20160624101740_5504.jpg" alt=""></a></div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td><a href="/product/product_list.aspx?keywords=%25E6%2588%2592%25E6%258C%2587"><img src="https://cdn.ctfmall.com/misc/20161018043117_8385.jpg" width="170" height="200" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E9%25A1%25B9%25E9%2593%25BE"><img src="https://cdn.ctfmall.com/misc/20161018043117_2615.jpg" width="170" height="200" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E5%2590%258A%25E5%259D%25A0"><img src="https://cdn.ctfmall.com/misc/20161018043117_1143.jpg" width="170" height="200" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E8%25BD%25AC%25E8%25BF%2590%25E7%258F%25A0"><img src="https://cdn.ctfmall.com/misc/20161018043117_4372.jpg" width="170" height="200" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td><a href="/product/product_list.aspx?keywords=%25E6%2589%258B%25E9%2593%25BE"><img src="https://cdn.ctfmall.com/misc/20161018043117_7600.jpg" width="170" height="180" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E6%2589%258B%25E9%2595%25AF"><img src="/images/20161018043117_6128.jpg" width="170" height="180" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E8%2580%25B3%25E9%25A5%25B0"><img src="https://cdn.ctfmall.com/misc/20161018043117_9357.jpg" width="170" height="180" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E9%2587%2591%25E6%259D%25A1"><img src="https://cdn.ctfmall.com/misc/20161018043117_7885.jpg" width="170" height="180" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td><a href="/product/product_list.aspx?keywords=%25E9%25BB%2584%25E9%2587%2591"><img src="https://cdn.ctfmall.com/misc/20161018043117_2114.jpg" width="170" height="194" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E9%2593%2582%25E9%2587%2591"><img src="https://cdn.ctfmall.com/misc/20161018043117_5343.jpg" width="170" height="194" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=K%25E9%2587%2591"><img src="https://cdn.ctfmall.com/misc/20161018043117_3871.jpg" width="170" height="194" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E9%2592%25BB%25E7%259F%25B3"><img src="https://cdn.ctfmall.com/misc/20161018043117_7100.jpg" width="170" height="194" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td><a href="/product/product_list.aspx?keywords=%25E9%2593%25B6"><img src="https://cdn.ctfmall.com/misc/20161018043117_5627.jpg" width="170" height="183" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E5%25AE%259D%25E7%259F%25B3"><img src="https://cdn.ctfmall.com/misc/20161018043117_8856.jpg" width="170" height="183" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E7%258F%258D%25E7%258F%25A0"><img src="https://cdn.ctfmall.com/misc/20161018043117_3086.jpg" width="170" height="183" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E7%258E%2589"><img src="https://cdn.ctfmall.com/misc/20161018043117_1614.jpg" width="170" height="183" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=F160760"><img src="https://cdn.ctfmall.com/misc/20161018044138_1297.jpg" width="340" height="359" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=E111457"><img src="https://cdn.ctfmall.com/misc/20161018044138_7755.jpg" width="340" height="359" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=F160760"><img src="https://cdn.ctfmall.com/misc/20161018044138_6282.jpg" width="340" height="327" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=F196601"><img src="https://cdn.ctfmall.com/misc/20161018044138_9511.jpg" width="340" height="327" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=u124492"><img src="https://cdn.ctfmall.com/misc/20170414040957_5849.jpg" width="340" height="354" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=U126765"><img src="https://cdn.ctfmall.com/misc/20161018044138_5497.jpg" width="340" height="354" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=r21371"><img src="https://cdn.ctfmall.com/path/wangdaofeiqi2.jpg" width="340" height="352" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=u166562"><img src="https://cdn.ctfmall.com/path/pengran-2.jpg" width="340" height="352" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=R21371"><img src="https://cdn.ctfmall.com/path/wangdaofeiqi1.jpg" width="340" height="326" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=e123052"><img src="https://cdn.ctfmall.com/path/maoyao-3.jpg" width="340" height="326" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=f203907"><img src="https://cdn.ctfmall.com/path/huayuejiaqi-4.jpg" width="340" height="348" border="0" alt=""></a></td>
+  <td colspan="2"><a href="https://m.ctfmall.com/product/show.aspx?no=IF846"><img src="https://cdn.ctfmall.com/path/yuanbao-5.jpg" width="340" height="348" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable">
+<p style="text-align: center;"><a href="https://m.ctfmall.com/special/activity/Register.aspx?Activity_ID=4521"><img src="https://cdn.ctfmall.com/misc/20171221054450_2534.jpg" alt=""></a></p>
+<p style="text-align: center;"><!--页面内容开始--> <a href="https://m.ctfmall.com/special/theme.aspx?fn=17916"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170614114035_9370.png" width="640" height="294" border="0" alt=""></a></p>
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <!-- Save for Web Slices (hgtgyug.jpg) --> <!--页面内容结束-->
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E5%25A9%259A%25E5%25AB%2581"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/ctfmallwap1_35.jpg" alt="" width="340" height="597" border="0"></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E9%2587%2591%25E6%259D%25A1"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/ctfmallwap1_36.jpg" alt="" width="340" height="597" border="0"></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="https://m.ctfmall.com/product/product_list.aspx?keywords=K%25E9%2587%2591"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/ctfmallwap1_37.jpg" width="340" height="441" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E5%25A4%25A7%25E8%25AF%259D%25E8%25A5%25BF%25E6%25B8%25B8"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170331070600_7732.png" width="340" height="441" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="4"><a href="/product/product_list.aspx"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/ctfmallwap1_39.jpg" alt="" width="680" height="132" border="0"></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E5%25A5%25B3%25E6%2580%25A7"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018045529_6940.jpg" width="340" height="591" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E7%2594%25B7%25E6%2580%25A7"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018045529_4399.jpg" width="340" height="591" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E9%2580%2581%25E7%2588%25B6%25E6%25AF%258D"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/ctfmallwap1_42.jpg" width="340" height="432" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E5%2584%25BF%25E7%25AB%25A5"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/ctfmallwap1_43.jpg" width="340" height="432" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="http://www.ctfmall.com/special/lzdz/"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018045529_7912.jpg" width="340" height="443" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/special/theme.aspx?fn=XFHJ"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018045529_9668.jpg" width="340" height="455" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=f194023"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170414054006_4747.jpg" width="340" height="353" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E9%25BB%2584%25E9%2587%2591"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018050509_3460.jpg" width="340" height="353" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=f199421"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170414054007_8760.jpg" width="340" height="341" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=f195884"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170414054006_6503.jpg" width="340" height="341" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=r19083"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170414054006_1017.jpg" width="340" height="338" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=F189568"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018050509_1203.jpg" width="340" height="338" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=F156901"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018050509_8729.jpg" width="340" height="344" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=R13859"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018050509_2959.jpg" width="340" height="344" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=F159053"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018050509_1487.jpg" width="340" height="360" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=F1284"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018050509_7945.jpg" width="340" height="360" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=F197230"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018050509_6472.jpg" width="340" height="333" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=f199384"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170414054007_7004.jpg" width="340" height="333" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=PT148874"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051030_1099.jpg" width="340" height="342" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E9%2593%2582%25E9%2587%2591"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051030_4328.jpg" width="340" height="342" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=PT17766"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051030_2855.jpg" width="340" height="341" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=PT150507"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051030_6084.jpg" width="340" height="341" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=PT157202"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051030_7841.jpg" width="340" height="340" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=pt148625"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170119040226_3946.jpg" width="340" height="340" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=PT148796"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051030_9597.jpg" width="340" height="352" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=PT36656"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051030_3827.jpg" width="340" height="352" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=u136886"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170119040226_9717.jpg" width="340" height="346" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E9%2592%25BB%25E7%259F%25B3"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051746_6930.jpg" width="340" height="346" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=U149967"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051746_1160.jpg" width="340" height="339" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=A133553"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051746_8686.jpg" width="340" height="339" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=cp505"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/20161018051746_2916.jpg" width="340" height="341" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=A124804"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051746_4673.jpg" width="340" height="341" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=NA19"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051746_7902.jpg" width="340" height="335" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=U153272"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018051746_6429.jpg" width="340" height="335" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=nx974"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_6643.jpg" width="340" height="343" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=K%25E9%2587%2591"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_5170.jpg" width="340" height="343" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=E121150"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_6927.jpg" width="340" height="343" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=U153271"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_1157.jpg" width="340" height="343" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=E119762"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_4386.jpg" width="340" height="338" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=E105489"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_2913.jpg" width="340" height="338" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/show.aspx?no=E119574"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_4670.jpg" width="340" height="348" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/show.aspx?no=E112845"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018052637_7899.jpg" width="340" height="348" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="4"><a href="/product/product_list.aspx?keywords=%25E6%2583%2585%25E7%25BA%25A6"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053153_5669.jpg" width="680" height="499" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E7%25A6%258F%25E6%2598%259F%25E5%25AE%259D%25E5%25AE%259D"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053322_5975.jpg" width="340" height="380" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E8%25BF%25AA%25E5%25A3%25AB%25E5%25B0%25BC"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053322_7732.jpg" width="340" height="383" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E6%259D%258F"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053322_6259.jpg" width="340" height="384" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=HELLO%20KITTY"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053322_9488.jpg" width="340" height="384" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E5%258D%2581%25E4%25BA%258C%25E7%2594%259F%25E8%2582%2596"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170119064343_1790.jpg" width="340" height="382" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=y%25E6%2597%25B6%25E4%25BB%25A3"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053322_5474.jpg" width="340" height="382" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="2"><a href="/special/theme.aspx?fn=QXNS"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20170119063904_4714.jpg" width="340" height="384" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E9%25BB%2584%25E9%2593%2582"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053322_1461.jpg" width="340" height="384" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td colspan="4"><a href="/product/product_list.aspx"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053322_8987.jpg" width="680" height="101" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Save for Web Slices (好货提前购-09.jpg) -->
+<p><style type="text/css">
+.mytable table{ margin-left:auto; margin-right:auto;}
+.mytable img{ vertical-align:middle;border:0;}
+.mytable a{ outline:none; border:0;}
+</style></p>
+<div class="mytable"><!--页面内容开始-->
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
+ <tbody>
+  <tr>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E6%2588%2592%25E6%258C%2587"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053639_6106.jpg" width="340" height="181" border="0" alt=""></a></td>
+  <td colspan="2"><a href="/product/product_list.aspx?keywords=%25E8%25BD%25AC%25E8%25BF%2590%25E7%258F%25A0"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053639_9335.jpg" width="340" height="181" border="0" alt=""></a></td>
+  </tr>
+  <tr>
+  <td><a href="/product/product_list.aspx?keywords=%25E5%2590%258A%25E5%259D%25A0"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053640_3565.jpg" width="170" height="181" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E6%2589%258B"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053640_2092.jpg" width="170" height="181" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E9%25A1%25B9%25E9%2593%25BE"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053640_5321.jpg" width="170" height="181" border="0" alt=""></a></td>
+  <td><a href="/product/product_list.aspx?keywords=%25E8%2580%25B3%25E9%25A5%25B0"><img src="/images/grey.gif" data-original="https://cdn.ctfmall.com/misc/20161018053640_3849.jpg" width="170" height="181" border="0" alt=""></a></td>
+  </tr>
+  <!--页面内容结束-->
+ </tbody>
+</table>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="title" style="clear:both;"><span>黄金专区</span></div>
+<div class="pad" style="margin-bottom: .03rem;">
+<div class="picScroll">&nbsp;</div>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                            <ul>
+                            <li mouldno="F196601" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=F196601" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/F196601.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">周大福X西游记之三打系列紧箍咒黄金足金戒指</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="F196601"><span class="price1">¥728.20</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="F160760" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=F160760" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/F160760.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">猴赛雷黄金足金吊坠</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="F160760"><span class="price1">¥1,203.60<em class="rx" style="background: #b81a02;">热</em></span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                            <ul>
+                            <li mouldno="F199501" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=F199501" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/F199501.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">可爱生肖猴足金吊坠</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="F199501"><span class="price1">¥917.20<em class="rx" style="background: #b81a02;">热</em></span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="F197230" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=F197230" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/F197230.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">日月星云电黄金足金耳环</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="F197230"><span class="price1">¥620.80</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="car-type pad"><a href="
+/product/product_list.aspx?keywords=%25E9%25BB%2584%25E9%2587%2591 " data-selected="selected">查看更多</a></div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="title" style="clear:both;"><span>钻石专区</span></div>
+<div class="pad" style="margin-bottom: .03rem;">
+<div class="picScroll">&nbsp;</div>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                            <ul>
+                            <li mouldno="U115877" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=U115877" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/U115877.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">迪士尼公主天鹅18K金镶钻石吊坠</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="U115877"><span class="price1">¥1,900.00</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="NA711" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=NA711" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/NA711.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">周大福水中花系列PT950铂金镶钻石耳钉</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="NA711"><span class="price1">¥3,100.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                            <ul>
+                            <li mouldno="U136886" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=U136886" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/U136886.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">周大福怦然系列灵动优雅18K金镶钻石吊坠</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="U136886"><span class="price1">¥2,900.00</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="NA13" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=NA13" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/NA13.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">【刻字】周大福情约系列花款Pt950铂金钻石戒指</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="NA13"><span class="price1">¥3,600.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="car-type pad"><a href="
+/product/product_list.aspx?keywords=%25E9%2592%25BB%25E7%259F%25B3 " data-selected="selected">查看更多</a></div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="title" style="clear:both;"><span>K铂金专区</span></div>
+<div class="pad" style="margin-bottom: .03rem;">
+<div class="picScroll">&nbsp;</div>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                            <ul>
+                            <li mouldno="E118846" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=E118846" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/E118846.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">典雅高贵百花齐放双色18K玫瑰金戒指</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="E118846"><span class="price1">¥680.00<em class="rx" style="background: #b81a02;">热</em></span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="PT156838" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=PT156838" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/PT156838.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">花漾滴水PT950黄铂金耳环</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="PT156838"><span class="price1">¥1,460.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                            <ul>
+                            <li mouldno="PT148434" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <span style="height: .32rem;line-height: .32rem;text-align: center;color: #fff;background: rgba(152,152,151,0.8);position: absolute;bottom: 0;left: 0;width: 98%;border-radius: 0 0 .05rem .05rem;">售罄</span>
+                                    <a href="/product/show.aspx?no=PT148434" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/PT148434.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">多面元宝PT950铂金项链</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="PT148434"><span class="price1" style="color: #666;">¥2,400.00</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="PT157276" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <span style="height: .32rem;line-height: .32rem;text-align: center;color: #fff;background: rgba(152,152,151,0.8);position: absolute;bottom: 0;left: 0;width: 98%;border-radius: 0 0 .05rem .05rem;">售罄</span>
+                                    <a href="/product/show.aspx?no=PT157276" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/PT157276.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">扭转太阳花Pt950黄铂金吊坠</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="PT157276"><span class="price1" style="color: #666;">¥988.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="car-type pad"><a href="
+/product/product_list.aspx?keywords=%25E9%2593%2582%25E9%2587%2591 " data-selected="selected">查看更多</a></div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="title" style="clear:both;"><span>珍珠&amp;宝石专区</span></div>
+<div class="pad" style="margin-bottom: .03rem;">
+<div class="picScroll">&nbsp;</div>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                            <ul>
+                            <li mouldno="V107603" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=V107603" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/V107603.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">花朵玫瑰色18K金镶碧玺钻石项链</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="V107603"><span class="price1">¥2,680.00</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="U151391" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <span style="height: .32rem;line-height: .32rem;text-align: center;color: #fff;background: rgba(152,152,151,0.8);position: absolute;bottom: 0;left: 0;width: 98%;border-radius: 0 0 .05rem .05rem;">售罄</span>
+                                    <a href="/product/show.aspx?no=U151391" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/U151391.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">焕美天然彩宝系列STELLA18K金红宝石手链</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="U151391"><span class="price1" style="color: #666;">¥2,380.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                            <ul>
+                            <li mouldno="NX958" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <span style="height: .32rem;line-height: .32rem;text-align: center;color: #fff;background: rgba(152,152,151,0.8);position: absolute;bottom: 0;left: 0;width: 98%;border-radius: 0 0 .05rem .05rem;">售罄</span>
+                                    <a href="/product/show.aspx?no=NX958" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/NX958.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">福禄寿黄色18K金镶和田玉吊坠</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="NX958"><span class="price1" style="color: #666;">¥1,800.00</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="AQ33197" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <span style="height: .32rem;line-height: .32rem;text-align: center;color: #fff;background: rgba(152,152,151,0.8);position: absolute;bottom: 0;left: 0;width: 98%;border-radius: 0 0 .05rem .05rem;">售罄</span>
+                                    <a href="/product/show.aspx?no=AQ33197" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/AQ33197.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">几何银925镶珍珠耳饰</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="AQ33197"><span class="price1" style="color: #666;">¥460.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="car-type pad"><a href="/product/product_list.aspx?keywords=%25E7%258F%258D%25E7%258F%25A0 " data-selected="selected">查看更多</a></div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="title" style="clear:both;"><span>银饰专区</span></div>
+<div class="pad" style="margin-bottom: .03rem;">
+<div class="picScroll">&nbsp;</div>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                            <ul>
+                            <li mouldno="AB37485" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=AB37485" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/AB37485.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">尊尚皇冠银925戒指</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="AB37485"><span class="price1">¥290.00</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="AB38397" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=AB38397" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/AB38397.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">LOVE 925银项链</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="AB38397"><span class="price1">¥460.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                            <ul>
+                            <li mouldno="AN6842" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <i class="shop" onclick="addCartShow(this)" style="width: 17%;height: 17%;">                              
+                                  <img src="https://cdn.ctfmall.com/wap/images/shop.png">
+                           </i>
+                                    <a href="/product/show.aspx?no=AN6842" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/AN6842.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">清新紫韵银925吊坠</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="AN6842"><span class="price1">¥380.00</span></div>
+                                
+                                
+                            </li>
+                        
+                            
+                            <li mouldno="AQ33148" class="pro-inner">
+                                <div class="shop-i " data-lazyload="true" style="width: 308px; height: 308px;">
+                                    <span style="height: .32rem;line-height: .32rem;text-align: center;color: #fff;background: rgba(152,152,151,0.8);position: absolute;bottom: 0;left: 0;width: 98%;border-radius: 0 0 .05rem .05rem;">售罄</span>
+                                    <a href="/product/show.aspx?no=AQ33148" data-lazyload="true" style="width: 308px; height: 308px;">
+                                        <img src="https://cdn.ctfmall.com/wap/images/errorimg.jpg" data-original="https://cdn.ctfmall.com/thumb/AQ33148.jpg" onerror="OUI.imgError(this)">
+                                        
+                                    </a>
+                                </div>
+                                <span class="tit">花漾银925镶珍珠项链</span>
+                                <div class="proPrice" id="officialPrice" style="color:#9e0028;font-size: .1rem;text-align: left;" mouldno="AQ33148"><span class="price1" style="color: #666;">¥960.00</span></div>
+                                </li></ul>
+                                <div style="clear: both;"></div>
+                            
+                        
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="car-type pad"><a href=";/product/product_list.aspx?keywords=%25E7%258F%258D%25E7%258F%25A0" data-selected="selected">查看更多</a></div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="pad" style="margin-bottom: .03rem;">
+<div class="picScroll">&nbsp;</div>
+</div>
+<div class="prefecture" style="height: 100%;">
+<div class="cards grid">
+<div id="Div3" class="slideBox1"><img style="border-radius: .05rem;" src="/images/grey.gif" data-original="https://cdn.ctfmall.com/path/wapshouyedibu.jpg" alt=""></div>
+</div>
+</div>
+        <div class="pad">
+            <div class="picScroll">
+                <div class="bd">
+                    
+                </div>
+            </div>
+        </div>
+
+    
+
+
+
+                    <!--装修区end-->
+                </div> 
+                
+<div id="footer" style="width: 100%;">
+    
+    
+    <div class="ft-zx">
+        
+    </div>
+    <div style="clear:both;"></div>
+    <div class="ft-fw">
+        <div class="ft-copy">
+            <a href="javascript:void(0)"><span id="uc_footer_sigin">登录</span></a><i style="color:#333333;">|</i><a href="javascript:void(0)"><span id="uc_footer_sigup">注册</span></a>
+
+                    
+            <i style="color:#333333;">|</i><a href="/clause.aspx">服务细则</a>
+            <i style="color:#333333;">|</i><a href="/feedback.aspx">意见反馈</a> 
+        </div>
+        <div class="ft-Address">© www.ctfmall.com</div>
+    </div>
+    <div class="pc"><a href="http://www.ctfmall.com/"><i></i>电脑版</a></div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#uc_footer_logout,.uc_footer_logout").click(function () {
+            if (IsWeiXin() && false) {
+                var $openid = OCookie.GetCookie("__oran__mem_weixin_openid");
+
+                if ($openid == "" || $openid == null) {
+                    location.href = "http://wx-uat.ctf.com.cn/zdfwxfwh/dsfapi/getRedirectUrl/175?redirectUrl=" + encodeURI("http://58.251.6.80/weixin/weixin_visit.aspx?method=3" + "&scopeType=1");
+                }
+                else {
+                    location.href = "/weixin/weixin_visit.aspx?method=3&openid=" + $openid;
+                }
+            } else {
+                ajax.UserLogout(function (data) {
+                    window.location.href = "/message.aspx";
+                });
+            }
+        });
+
+        $("#uc_footer_login").click(function () {
+            location.href = "/user/user_center.aspx";
+        });
+
+        $("#uc_footer_sigin").click(function () {
+            if (location.href.indexOf("message.aspx") > 0) {
+                location.href = "/user/login.aspx";
+            }
+            location.href = "/user/login.aspx?refurl=" + encodeURIComponent(location.href);
+        });
+
+        $("#uc_footer_sigup").click(function () {
+            if (location.href.indexOf("message.aspx") > 0) {
+                location.href = "/user/register_new.aspx";
+            }
+            location.href = "/user/register_new.aspx?refurl=" + encodeURIComponent(location.href.indexOf('message.aspx')>0?'/default.aspx':location.href);
+        });
+
+        var isGetVipNo = 'False';
+        if (isGetVipNo == 'True') {
+            ajax.getUserVipNo();//异步同步到CRM
+        }
+    });
+</script>
+                                      
+            </div>
+            <!--主体内容 end--> 
+                 
+        </div>      
+        <!--分页弹出-->
+        <div id="E_PageNavContainer">
+            <div class="gotop" style="-webkit-border-top-left-radius: .05rem; border-bottom-left-radius: .05rem;">
+                <div class="icons-gotop"></div>
+            </div>
+        </div>   
+             
+        <!--首页底部导航栏-->
+        
+
+
+<!--首页底部导航栏-->
+<style type="text/css">
+    .nav {
+        padding-top: .04rem;
+        border-top: .01rem solid #b9b9b9;
+        z-index: 999999 !important;
+    }
+
+    .navList p {
+        margin-bottom: 0rem;
+        padding: 0rem 0rem .07rem 0rem;
+    }
+
+    .navList i {
+        width: .4rem;
+        height: .3rem;
+    }
+
+    .navList a.nav1 i {
+        background-image: url(https://cdn.ctfmall.com/path/nav_home1.png);
+    }
+
+    .navList a.nav2 i {
+        background-image: url(https://cdn.ctfmall.com/path/nav_product1.png);
+    }
+
+    .navList a.nav3 i {
+        background-image: url(https://cdn.ctfmall.com/path/nav_shopping1.png);
+    }
+
+    .navList a.nav3_has i {
+        background-image: url(https://cdn.ctfmall.com/path/nav_shopping2.png);
+    }
+
+    .navList a.nav5 i {
+        background-image: url(https://cdn.ctfmall.com/path/nav_user1.png);
+    }
+
+    .navList a.nav5_has i {
+        background-image: url(https://cdn.ctfmall.com/path/nav_user2.png);
+    }
+
+    .navList a.nav6 i {
+        background-image: url(https://cdn.ctfmall.com/path/nav_service1.png);
+    }
+
+    #header, .head-ind {
+        position: absolute;
+        top: 0;
+    }
+
+    .container {
+        top: 40px;
+        position: absolute;
+        overflow: scroll;
+        bottom:56px;
+        -webkit-overflow-scrolling:touch;
+        z-index:8;
+    }
+
+    #section_container {
+    height:100%;
+    }
+    .picScroll .shop-i i {
+        z-index: 0;
+    }
+
+    .gotop {
+        right:.05rem;
+        bottom: .61rem;
+    }
+    .nav1 p{
+        color:#9e0028;
+    }
+</style>
+
+<div class="nav_footer"></div>
+<div style="position: absolute; bottom: 0px; left: 0px; right: 0px; display: block; z-index:9999" class="navigationbar">
+    <div class="nav">
+        <div class="navList clear">
+            <a href="/default.aspx" class="nav1"><i></i>
+                <p>首页</p>
+            </a>
+            <a href="/product/product_list.aspx" class="nav2"><i></i>
+                <p>全部商品</p>
+            </a>
+            <a href="/cart/shopping_cart.aspx" class="nav3" id="acartempty"><i></i>
+                <p>购物车</p>
+            </a>
+            <a href="/cart/shopping_cart.aspx" class="nav3_has" id="acartfill" style="display: none;"><i></i>
+                <p>购物车</p>
+            </a>
+            <a href="/user/user_center.aspx" class="nav5" id="acenterempty"><i></i>
+                <p>用户中心</p>
+            </a>
+            <a href="/user/user_center.aspx" class="nav5_has" id="acenterfill" style="display: none;"><i></i>
+                <p>用户中心</p>
+            </a>
+            <a href="javascript:void(0)" target="_blank" onclick="ShowLive800()" class="nav6"><i></i>
+                <p>联系客服</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //$(function () {
+    //    $('.nav_footer').css('height', $('.nav').height());
+    //})
+    var cart = OCookie.GetCookie("__oran__cart");
+    if (cart == null || cart == "") {
+        $("#acartempty").show();
+        $("#acartfill").hide();
+    } else {
+        $("#acartempty").hide();
+        $("#acartfill").show();
+    }
+    ajax.Fu(function (data) {
+        if (data.msg.indexOf('allowSendInfoCoupon:1') > -1) {
+            $(".nav5").addClass("nav51").removeClass("nav5");
+        }
+        if (data.msg.indexOf('hasNewCoupon:1') > -1) {
+            $("#acenterempty").hide();
+            $("#acenterfill").show();
+
+        } else {
+            $("#acenterempty").show();
+            $("#acenterfill").hide();
+        }
+    });
+    $('body,html').tap(function () {
+        setTimeout(function () {
+            var cart = OCookie.GetCookie("__oran__cart");
+            if (cart == null || cart == "") {
+                $("#acartempty").show();
+                $("#acartfill").hide();
+            } else {
+                $("#acartempty").hide();
+                $("#acartfill").show();
+            }
+            ajax.Fu(function (data) {
+                if (data.msg.indexOf('allowSendInfoCoupon:1') > -1) {
+                    $(".nav5").addClass("nav51").removeClass("nav5");
+                }
+                if (data.msg.indexOf('hasNewCoupon:1') > -1) {
+                    $("#acenterempty").hide();
+                    $("#acenterfill").show();
+                } else {
+                    $("#acenterempty").show();
+                    $("#acenterfill").hide();
+                }
+            });
+        }, 500)
+    })
+</script>
+<div id="live800code" style="display: none;"><a id="live800iconlink" target="_blank" href="javascript:void(0)" onclick="return live800.navigateToUrl('https://v2.live800.com/live800/chatClient/chatbox.jsp?companyID=254330&amp;configID=123392&amp;lan=en&amp;jid=5270445339&amp;enterurl=https%3A%2F%2Fm.ctfmall.com%2F&amp;timestamp=1515479677855&amp;pagereferrer=http%3A%2F%2Fm%2Ectfmall%2Ecom%2F&amp;firstEnterUrl=https%3A%2F%2Fm%2Ectfmall%2Ecom%2F&amp;pagetitle=%E9%A6%96%E9%A1%B5+%2D+%E5%91%A8%E5%A4%A7%E7%A6%8F%E5%AE%98%E6%96%B9%E5%95%86%E5%9F%8E', 'chatbox254330', globalWindowAttribute,this);"><img name="live800icon" id="live800icon" src="https://v2.live800.com/live800/SurferServer?cmd=111&amp;companyID=254330&amp;configID=123392&amp;online=https://icon.live800.com/fileupload/CustomFileDownloadServer?companyID=254330&amp;fna=1480057545487254330&amp;offline=https://icon.live800.com/fileupload/CustomFileDownloadServer?companyID=254330&amp;fna=1480057590755254330" border="0"></a><a href="javascript:void(0);" id="live800:link" style="visibility:hidden;position:absolute;top:0px;right:0px;">&amp;#160;</a></div>
+<script type="text/javascript" src="/js/live800.js"></script>
+<!--首页底部导航栏 end-->
+
+        <!--首页底部导航栏end-->        
+           
+        
+<script type="text/javascript" src="/include/ocookie.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+
+
+
+<!-- 99click跟踪代码: 开始-->
+<script type="text/javascript">
+    var _ozuid = '';
+    //if ((typeof(_ozprm)!="undefined"&&_ozprm!="0")||_ozuid != "") {
+    document.write("<scr" + "ipt src=\"/include/om_code.js\"></sc" + "ript>");
+    //}
+</script><script src="/include/om_code.js"></script>
+<!-- 99click跟踪代码: 结束-->
+
+<!--
+<script type="text/javascript">
+    //调用西瓜数据分析API, 传递参数为西瓜数据分析系统给小网分配的ID
+    var _dcq = _dcq || [];
+    _dcq.push(['_systemid', '999902']);
+    document.write(unescape("%3Cscript src='http://api.ctfeshop.com.cn/DataCollect/Scripts/dc.js?name=eshop' type='text/javascript'%3E%3C/script%3E"));
+</script>-->
+
+
+
+<script type="text/javascript">
+    var getopenidfailedtime = parseInt('0');
+    function IsWeiXin() {
+        var ua = window.navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+            OCookie.SetCookie("__oran__weixin_browser", "1");
+            //console.log("weixin:" + ua);
+            return true;
+        } else {
+            OCookie.SetCookie("__oran__weixin_browser", "0");
+            //console.log("wap:" + ua);
+            return false;
+        }
+    }
+    function Is1QianBao() {
+        var ua = window.navigator.userAgent.toLowerCase();
+        if (ua.indexOf('1qianbao') > 0) {
+            OCookie.SetCookie("__oran__1qianbao_browser", "1");
+            //console.log("weixin:" + ua);
+            return true;
+        } else {
+            OCookie.SetCookie("__oran__1qianbao_browser", "0");
+            //console.log("wap:" + ua);
+            return false;
+        }
+    }
+    Is1QianBao();
+    function IsYingztApp() {
+        var ua = window.navigator.userAgent.toLowerCase();
+        if (ua.indexOf('yingztgoldapp') > -1 || ua.indexOf('yingztapp') > -1) {
+            OCookie.SetCookie("__oran__yingztapp_browser", "1");
+            //console.log("weixin:" + ua);
+            return true;
+        } else {
+            OCookie.SetCookie("__oran__yingztapp_browser", "0");
+            //console.log("wap:" + ua);
+            return false;
+        }
+    }
+    IsYingztApp();
+    if (IsYingztApp()){
+        document.write("<scr" + "ipt src=\"https://www.xiaoying.com/assets/app/js/release/model/goldNew/ctf.js\"></sc" + "ript>");
+    }
+    
+</script>
+
+<script src="/js/fastclick.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', function () {
+        FastClick.attach(document.body);
+    }, false);
+    //FastClick.attach(document.body); //阻止点透事件
+
+    var browser = {
+        versions: function () {
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {
+                //移动终端浏览器版本信息
+                trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或uc浏览器
+                iPhone: u.indexOf('iPhone') > -1, //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+                xiaoMi: u.indexOf('XiaoMi') > -1,//是否是小米浏览器
+                yingztAPP: u.indexOf('yingztGoldApp') > -1 || u.toLowerCase().indexOf('yingztapp') > -1//是否是赢众通大福金app
+            };
+        }(),
+        language: (navigator.browserLanguage || navigator.language).toLowerCase()
+    }
+    //$(function () {
+    //    $("#section_container_mask").on("tap", function () {
+    //        $(".product .pro-inner a").removeClass("pointer-events");
+    //    });
+    //});
+
+    if (browser.versions.xiaoMi) {
+        $(document).on('tap', '#section_container_mask', function (e) {
+            //$("a").removeClass("pointer-events");
+            //$("a").css("pointer-events", "all");
+            OpenA();
+        });
+
+        $(document).on('tap', '.bg-rgb', function (e) {
+            //$("a").removeClass("pointer-events");
+            //$("a").css("pointer-events", "all");
+            OpenA();
+        });
+
+        $(document).on('tap', '#e_popup_mask', function (e) {
+            //$("a").removeClass("pointer-events");
+            //$("a").css("pointer-events", "all");
+            OpenA();
+        });
+
+        $(document).on('tap', 'a[data-target=\'menu\']', function (e) {
+            //$("a").addClass("pointer-events");
+            //$(".product .pro-inner a").addClass("pointer-events");
+            //$("#mA").removeClass("pointer-events");
+            //$("#tA").removeClass("pointer-events");
+            //$("#pA").removeClass("pointer-events");
+            //$(".navList a").removeClass("pointer-events");
+
+            //$("a").css("pointer-events", "none");
+            //$(".product .pro-inner a").css("pointer-events", "none");
+            //$("#mA").css("pointer-events", "all");
+            //$("#tA").css("pointer-events", "all");
+            //$("#pA").css("pointer-events", "all");
+            //$(".navList a").css("pointer-events", "all");
+
+            CloseA();
+        });
+
+        $(document).on('tap', '#search', function (e) {
+            //$("a").addClass("pointer-events");
+            //$(".product .pro-inner a").addClass("pointer-events");
+            //$("#mA").removeClass("pointer-events");
+            //$("#tA").removeClass("pointer-events");
+            //$("#pA").removeClass("pointer-events");
+            //$(".navList a").removeClass("pointer-events");
+
+            //$("a").css("pointer-events", "none");
+            //$(".product .pro-inner a").css("pointer-events", "none");
+            //$("#mA").css("pointer-events", "all");
+            //$("#tA").css("pointer-events", "all");
+            //$("#pA").css("pointer-events", "all");
+            //$(".navList a").css("pointer-events", "all");
+
+            CloseA();
+        });
+
+        $(document).on('tap', '#fu', function (e) {
+            //$("a").addClass("pointer-events");
+            //$(".product .pro-inner a").addClass("pointer-events");
+            //$("#mA").removeClass("pointer-events");
+            //$("#tA").removeClass("pointer-events");
+            //$("#pA").removeClass("pointer-events");
+            //$(".navList a").removeClass("pointer-events");
+
+            //$("a").css("pointer-events", "none");
+            //$(".product .pro-inner a").css("pointer-events", "none");
+            //$("#mA").css("pointer-events", "all");
+            //$("#tA").css("pointer-events", "all");
+            //$("#pA").css("pointer-events", "all");
+            //$(".navList a").css("pointer-events", "all");
+
+            CloseA();
+        });
+
+        $(".pagenav").bind("touchstart", function () {
+            CloseA();
+        }).bind("touchend", function () {
+            OpenA();
+        });
+    }
+
+    function CloseA() {
+        $("a").each(function () {
+            if ($(this).attr("id") == "mA" || $(this).attr("id") == "tA" || $(this).attr("id") == "pA" || $(this).attr("id") == "filter" || $(this).parent().hasClass("navList")) {
+                return true;
+            }
+            var href = $(this).attr("href");
+            $(this).attr("href", "javascript:void(0)");
+            $(this).attr("contextmenu", href);
+        });
+        $(".array.hs").css("pointer-events", "none");
+    }
+
+    function OpenA() {
+        setTimeout(function () {
+            $("a").each(function () {
+                if ($(this).attr("id") == "mA" || $(this).attr("id") == "tA" || $(this).attr("id") == "pA" || $(this).attr("id") == "filter" || $(this).parent().hasClass("navList")) {
+                    return true;
+                }
+                var href = $(this).attr("contextmenu");
+                $(this).attr("href", href);
+                $(this).removeAttr("contextmenu");
+            });
+        }, 320);
+        $(".product .pro-inner a").removeClass("pointer-events");
+        $(".array.hs").css("pointer-events", "all");
+    }
+
+</script>
+
+<script type="text/javascript">
+    var _dcq = _dcq || [];
+    _dcq.push(['_timestamp', '1/9/2018 2:34:36 PM']);
+    _dcq.push(['_sign', 'a1578873c990155a5c9bff9708e857c84916f3d6912e3d201ac65824e320706e']);
+    _dcq.push(['_source', '2']);
+    document.write(unescape("%3Cscript src='/include/requestlog.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="/include/requestlog.js" type="text/javascript"></script>
+<script type="text/javascript">
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: 'wx3f5b02234a66dd5a', // 必填，公众号的唯一标识
+    timestamp: 1515479676, // 必填，生成签名的时间戳
+     nonceStr: 'rPPkFOSdeEtrdKM', // 必填，生成签名的随机串
+    signature: '259fea8ab80bb2f99d7cac1cd0bf34fb1094759c',// 必填，签名，见附录1
+    jsApiList: ['onMenuShareTimeline',
+                    'onMenuShareAppMessage',
+                    'onMenuShareQQ',
+                    'onMenuShareWeibo',
+                    'onMenuShareQZone',
+                    'startRecord',
+                    'stopRecord',
+                    'onVoiceRecordEnd',
+                    'playVoice',
+                    'pauseVoice',
+                    'stopVoice',
+                    'onVoicePlayEnd',
+                    'uploadVoice',
+                    'downloadVoice',
+                    'chooseImage',
+                    'previewImage',
+                    'uploadImage',
+                    'downloadImage',
+                    'translateVoice',
+                    'getNetworkType',
+                    'openLocation',
+                    'getLocation',
+                    'hideOptionMenu',
+                    'showOptionMenu',
+                    'hideMenuItems',
+                    'showMenuItems',
+                    'hideAllNonBaseMenuItem',
+                    'showAllNonBaseMenuItem',
+                    'closeWindow',
+                    'scanQRCode',
+                    'chooseWXPay',
+                    'openProductSpecificView',
+                    'addCard',
+                    'chooseCard',
+                    'openCard'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+    });
+
+    wx.ready(function () {
+        var parentTitle = '首页 - 周大福官方商城';
+        var shareTitle = '';
+        var shareimg='https://cdn.ctfmall.com/misc/20170913092251_9531.png';// 分享图标
+        var sharelink='https://m.ctfmall.com/'; // 分享链接
+        var sharetitle=shareTitle==""||shareTitle==null ? parentTitle:shareTitle;// 分享标题
+        var sharedesc='';// 分享描述
+        wx.onMenuShareAppMessage({
+            title: sharetitle, // 分享标题
+            desc: sharedesc, // 分享描述
+            link: sharelink, // 分享链接
+            imgUrl: shareimg, // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+                //用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+    });
+    wx.onMenuShareTimeline({
+        title: sharetitle, // 分享标题
+        link: sharelink, // 分享链接
+        imgUrl: shareimg, // 分享图标
+        success: function () {
+            
+            // 用户确认分享后执行的回调函数
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+
+    wx.hideMenuItems({
+        menuList: [] // 要隐藏的菜单项，所有menu项见附录3'menuItem:copyUrl','menuItem:openWithQQBrowser','menuItem:openWithSafari'
+    });
+});
+
+</script>
+
+<noscript>Your browser does not support JavaScript!</noscript>
+
+        <!--备注：在套用程序时请将功能JS也放置在底部，会提高加载速度-->
+
+        <!--页面JS调用-->
+        <script type="text/javascript" src="/js/EIMS.min.js"></script>
+        <script type="text/javascript" src="/js/template.min.js"></script>
+        <script type="text/javascript" src="/js/TouchSlide.1.1.js"></script>
+        <script type="text/javascript" src="/js/hammer.min.js"></script>
+        <script type="text/javascript" src="/js/common.js"></script>
+        <script type="text/javascript" src="/js/show-product.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                if (!$('#e_popup_mask')[0]) {
+                    E.dialog.init();
+                }
+                if (!$("#E_toast")[0]) {
+                    E.Toast.init();
+                }
+                TouchSlide({
+                    slideCell: "#picScroll",
+                    titCell: ".hd ul",
+                    autoPage: true,
+                    pnLoop: false,
+                    effect: "leftLoop"
+                });
+                $(".slideBox").each(function (index) {
+                    $(this).attr("id", "slideBox_" + index);
+                    TouchSlide({
+                        slideCell: $(this).attr("id"),
+                        titCell: ".hd ul",
+                        mainCell: ".bd ul",
+                        effect: "leftLoop",
+                        autoPage: true,
+                        autoPlay: true,
+                        loadbool: true
+                    });
+                });
+
+                //滑动分页异步获取
+                E.PageNav({ container: "#E_PageNavContainer", pageCount: 100 }, function () { });
+
+                /*搜索模块*/
+                $('#search').on('tap', function () {
+                    $('html').addClass('sift-move-i');
+                    $('.i-sear').show();
+                    $(".focus").focus();
+
+                    $(".container a").each(function () {
+                        var href = $(this).attr("href");
+                        $(this).attr("href", "javascript:void(0)");
+                        $(this).attr("contextmenu", href).attr("onclick", "return false");
+                    });
+
+                })
+
+                $(".bg-rgb").on("tap", function () {
+                    setTimeout(function () {
+                        $(".container a").each(function () {
+                            var href = $(this).attr("contextmenu");
+                            $(this).attr("href", href);
+                            $(this).removeAttr("contextmenu").removeAttr("onclick");
+                        });
+                    }
+                    , 1000);
+                });
+                $('body').bind('touchmove', function (e) {
+                    $("img").picLazyLoad({ threshold: 100 })
+                    setTimeout("$('img').picLazyLoad({ threshold: 200 })", 1000);
+                })
+                $("img").picLazyLoad({ threshold: 200 });//懒人加载
+            });
+            var el = document.getElementById("section_container");
+            var mc = new Hammer(el, {
+                touchAction: 'pan-y'
+            });
+            mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+            mc.on("pan", function (ev) {
+                var Y = ev.deltaY;
+                if (Y > 0) {
+                    $('#E_PageNavContainer').show();
+                } else if (Y < 0) {
+                    $('#E_PageNavContainer').hide();
+                }
+            });
+            $(".gotop").on("tap", function () {
+                location.href = "#topAnchor";
+            });
+
+            function WritePay(content) {
+                ajax.WritePay(content, function (data) {
+
+                });
+            }
+
+            //软键盘展开时避免将头部脚部挤开
+                $('.searchword').bind('focus', function () {
+                    $("#header").css({ 'top': '0' });
+                    $('.navigationbar').css({ 'position': 'static', 'bottom': '0' });
+
+                }).bind('blur', function () {
+                    $("#header").css({ 'top': '0' });
+                    $('.navigationbar').css({ 'position': 'absolute','bottom': '0' });
+
+                });
+
+           
+        </script>
+    </form>
+
+
+<div id="e_popup" data-toast="true"></div><div id="e_popup_mask" class="e_popup_mask"></div><div id="E_toast"></div><script type="text/javascript" async="" src="https://v2.live800.com/live800/chatClient/staticButton.js?jid=5270445339&amp;companyID=254330&amp;configID=123392&amp;codeType=custom&amp;delayload=1&amp;renderid=live800code"></script></body></html>

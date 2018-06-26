@@ -1,0 +1,1087 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>医学论坛网-网聚医学的力量</title>
+<meta name="Keywords" content="医学,药学,生物,医生,临床,医学知识,病例讨论,医学论坛,医学论坛网,心血管疾病,肿瘤与血液疾病,内分泌与糖尿病,消化系统疾病,感染性疾病,肾脏与泌尿疾病,呼吸系统疾病,神经系统疾病,精神卫生,骨关节疾病,风湿疾病,急诊急救,重症医学,麻醉医学,妇产儿科疾病,药物,医疗器械,医学门户网站,医学网推荐,医学专业网站推荐,最好医学网站,最好医学论坛">
+<meta name="Description" content="医学论坛网,汇聚全球医学的力量,做中国最好的医学门户网站！">
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta property="qc:admins" content="2451256737635463756367">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta http-equiv="Cache-Control" content="no-transform">
+<link rel="stylesheet" type="text/css" href="http://www.cmt.com.cn/Public/css/base.css">
+<link rel="stylesheet" type="text/css" href="http://www.cmt.com.cn/Public/css/index.css?20140307">
+<link rel="stylesheet" type="text/css" href="http://www.cmt.com.cn/Public/css/xixi.css">
+<link rel="stylesheet" type="text/css" href="http://www.cmt.com.cn/Public/css/main.css">
+<script type="text/javascript" async="" charset="utf-8" src=" http://www.cmt.com.cn/Public/cmtia.js?app=home&amp;aid=100000"></script><script type="text/javascript" src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.cmt.com.cn/Public/js/slides.jquery.js"></script>
+<script type="text/javascript" src="http://www.cmt.com.cn/Public/js/lrtk.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".all_kes,.all_kes_menu").mouseleave(function(){
+       $(".all_kes_menu").hide();
+});
+	$(".all_kes_menu").mouseleave(function(){
+       $(".all_kes_menu").hide();
+});
+	$(".all_kes").mouseenter(function(){
+       $(".all_kes_menu").show();
+});
+	$(".all_kes_menu").mouseenter(function(){
+       $(".all_kes_menu").show();
+});
+	$("#msg_key").focus(function(){
+		var test1 = $(this).val();
+		if(test1 == "请输入关键词"){
+			$(this).val("")
+		}
+	});
+	$("#msg_key").blur(function(){
+		var test1 = $(this).val();
+		if(test1 == ""){
+			$(this).val("请输入关键词")
+		}
+	});
+
+})
+</script>
+</head>
+<body>
+<div class="top_bg">
+ <div class="top_cen">
+  <div class="top_cen_left">
+  <div id="denglu" style="display:none">
+  <p><strong id="uname"></strong>&nbsp;您好，欢迎来到医学论坛网！&nbsp;&nbsp;<strong><a href="http://user.cmt.com.cn/UserProfileBase">设置</a></strong>
+  <strong><a href="http://user.cmt.com.cn/user/logout">退出</a></strong></p>
+ </div>
+ <div id="weidenglu" style="">
+   <p>您好，欢迎来到医学论坛网！请<strong><a href="http://user.cmt.com.cn/user/login">登录</a></strong>，我要<strong><a href="http://user.cmt.com.cn/user/reg" target="_blank">注册</a></strong>！</p>
+  </div>
+  </div>
+  <div class="top_cen_right" style="width:326px">
+   <a href="http://www.cmt.com.cn/app/tx/" target="_blank"><p>图享&nbsp;&nbsp;</p></a>
+   <a href="/dl/app/index.html" target="_blank"><p>APP&nbsp;&nbsp;</p></a>
+   <a href="/dl/weixin/index.html" target="_blank"><p>微信&nbsp;&nbsp;</p></a>
+
+   <a href="/about/sitemap" target="_blank"><img src="http://www.cmt.com.cn/Public/images/img_01.jpg" class="web_map">
+   <p style="cursor:pointer">网站地图</p></a>
+   <a href="http://e.weibo.com/u/2357703693"><img src="http://www.cmt.com.cn/Public/images/img_02.jpg" class="sina_logo">
+   <p style="cursor:pointer">医学论坛微博</p></a>
+  </div>
+ </div>
+</div>
+
+<div class="logo_cen">
+<!--<img src="http://www.cmt.com.cn/Public/images/logoxinnian.jpg" class="logo" /> -->
+ <a href="http://www.cmt.com.cn"><img src="http://www.cmt.com.cn/Public/images/logo.jpg" class="logo"></a>
+ <div class="logo_right">
+ <form method="get" action="http://www.cmt.com.cn/Index/search" name="form1">
+  <input type="text" id="msg_key" name="msg_key" class="search_text" value="请输入关键词">
+  <input type="image" src="http://www.cmt.com.cn/Public/images/img_03.jpg" class="search_submit" onclick="dosubmit();">
+  <p class="search_p"><a href="/discourse">医学文献检索</a></p>
+  <p class="keyword" style="width:390px;"><strong>热门：</strong><a href="http://www.cmt.com.cn/search/心血管" target="_blank">心血管</a><a href="http://www.cmt.com.cn/search/糖尿病" target="_blank">糖尿病</a><a href="http://www.cmt.com.cn/search/内分泌" target="_blank">内分泌</a><a href="http://www.cmt.com.cn/search/外科" target="_blank">外科</a><a href="http://www.cmt.com.cn/search/骨科" target="_blank">骨科</a><a href="http://www.cmt.com.cn/search/麻醉" target="_blank">麻醉</a></p>
+ <input type="hidden" name="__hash__" value="6666cd76f96956469e7be39d750cc7d9_81b7b82e4392395ebe4bbe975797fda7"></form>
+ </div>
+</div>
+
+<div class="menu_bg">
+ <div class="menu_cen">
+ <ul>
+ <li><strong class="menu_cen_sy">首页</strong></li>
+ <li><a href="http://news.cmt.com.cn">医学新闻</a></li>
+ <li><a href="/featured">医学专题</a></li>
+ <li><a href="http://video.cmt.com.cn">医学视频</a></li>
+ <li><a href="http://negm.cmt.com.cn">医学期刊</a></li>
+ <li><a href="http://discourse.cmt.com.cn/">医学文献</a></li>
+ <li><a href="http://case.cmt.com.cn/">临床病例</a></li>
+ <li><a href="http://health.cmt.com.cn/">健康教育</a></li>
+ <li><a href="http://yz.cmt.com.cn/">圆桌</a></li>
+ <li><a href="http://drug.cmt.com.cn/Home/Index/index.html">药品信息</a></li>
+ </ul>
+ <div class="all_kes">
+ </div>
+ <div class="all_kes_menu">
+ <ul>
+ <li>
+   <h1><a href="http://www.cmt.com.cn/slist/1.html" target="_blank">内科</a></h1>
+   <a href="http://respir.cmt.com.cn" target="_blank">呼吸</a><strong>|</strong>
+   <a href="http://gi.cmt.com.cn" target="_blank">消化</a><strong>|</strong>
+   <a href="http://circ.cmt.com.cn" target="_blank">心血管</a><strong>|</strong>
+   <a href="http://kidney.cmt.com.cn" target="_blank">肾内科</a><strong>|</strong>
+   <a href="http://rheum.cmt.com.cn" target="_blank">风湿</a><strong>|</strong>
+   <a href="http://endo.cmt.com.cn" target="_blank">内分泌</a><strong>|</strong>
+   <a href="http://www.cmt.com.cn/slist/15.html" target="_blank">血液</a><strong>|</strong>
+   <a href="http://www.cmt.com.cn/slist/17.html" target="_blank">重症医学</a><strong>|</strong>
+   <a href="http://infect.cmt.com.cn" target="_blank">感染</a><strong>|</strong>
+   <a href="http://cancer.cmt.com.cn" target="_blank">肿瘤</a><strong>|</strong>
+   <a href="http://neur.cmt.com.cn" target="_blank">神经</a><strong>|</strong>
+   <a href="http://diabetes.cmt.com.cn" target="_blank">糖尿病</a><strong>|</strong>
+   <a href="http://psy.cmt.com.cn" target="_blank">精神卫生</a><strong>|</strong>
+   <a href="http://hep.cmt.com.cn" target="_blank">肝病</a>
+ </li>
+ <li>
+   <h1><a href="http://Surg.cmt.com.cn" target="_blank">外科</a></h1>
+   <a href="http://www.cmt.com.cn/slist/20.html" target="_blank">普通外科</a><strong>|</strong>
+   <a href="http://www.cmt.com.cn/slist/21.html" target="_blank">胸心外科</a><strong>|</strong>
+   <a href="http://www.cmt.com.cn/slist/22.html" target="_blank">神经外科</a><strong>|</strong>
+   <a href="http://www.cmt.com.cn/slist/23.html" target="_blank">泌尿外科</a><strong>|</strong>
+   <a href="http://orth.cmt.com.cn" target="_blank">骨科</a><strong>|</strong>
+   <a href="http://www.cmt.com.cn/slist/26.html" target="_blank">烧伤科</a><strong>|</strong>
+   <a href="/slist/28.html" target="_blank">整形外科</a><strong>|</strong>
+   <a href="/slist/30.html" target="_blank">麻醉</a>
+ </li>
+ <li>
+   <h1><a href="http://ent.cmt.com.cn" target="_blank">五官科</a></h1>
+   <a href="http://www.cmt.com.cn/slist/36.html" target="_blank">耳鼻咽喉</a><strong>|</strong>
+   <a href="http://dental.cmt.com.cn" target="_blank">口腔</a><strong>|</strong>
+   <a href="http://www.cmt.com.cn/Clist/14143.html" target="_blank">眼科</a>
+ </li>
+ <li>
+   <h1><a href="/slist/7.html" target="_blank">其他</a></h1>
+   <a href="/slist/56.html" target="_blank">卫生管理</a><strong>|</strong>
+   <a href="/slist/61.html" target="_blank">预防医学</a><strong>|</strong>
+ </li>
+ <li style="border:none;">
+   <b style="margin-right:6px;"><a href="http://obgyn.cmt.com.cn" target="_blank">妇产科</a></b>
+   <b><a href="http://www.cmt.com.cn/slist/8.html" target="_blank">中医</a></b>
+   <b><a href="http://ped.cmt.com.cn" target="_blank">儿科</a></b>
+   <b><a href="http://emerg.cmt.com.cn" target="_blank">急诊</a></b>
+   <b><a href="http://dermatology.cmt.com.cn" target="_blank">皮肤性病</a></b>
+   <b><a href="http://pharm.cmt.com.cn" target="_blank">药械</a></b>
+   <b><a href="http://www.cmt.com.cn/slist/105.html" target="_blank">政策法规</a></b>
+   <b><a href="http://www.cmt.com.cn/slist/106.html" target="_blank">医学影像</a></b>
+   <b><a href="http://www.cmt.com.cn/slist/122.html" target="_blank">公共卫生</a></b>
+   <b><a href="http://www.cmt.com.cn/slist/123.html" target="_blank">医学教育</a></b>
+   <b><a href="http://www.cmt.com.cn/slist/124.html" target="_blank">基础医学</a></b>
+   <b><a href="http://gp.cmt.com.cn" target="_blank">全科医学</a></b>
+   <b><a href="http://ger.cmt.com.cn" target="_blank">老年医学</a></b>
+ </li>
+ </ul>
+ </div>
+ </div>
+</div>
+
+<div class="menu02_cen">
+ <ul class="menu02_ul">
+  <li>
+      <p class="menu02_r_10"><strong><a href="http://circ.cmt.com.cn" target="_blank">心血管</a></strong><a href="http://diabetes.cmt.com.cn" target="_blank">糖尿病</a><a href="http://respir.cmt.com.cn" target="_blank">呼<b></b>吸</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_20"><strong><a href="http://neur.cmt.com.cn" target="_blank">神经</a></strong><a href="http://psy.cmt.com.cn" target="_blank">精神</a><a href="http://hep.cmt.com.cn" target="_blank">肝病</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_20">
+      <strong><a href="http://orth.cmt.com.cn" target="_blank">骨科</a></strong><a href="http://www.cmt.com.cn/slist/21.html" target="_blank">心胸外</a><a href="http://www.cmt.com.cn/slist/30.html" target="_blank">麻醉</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_10"><strong><a href="http://emerg.cmt.com.cn" target="_blank">急诊网</a></strong><a href="http://www.cmt.com.cn/slist/17.html" target="_blank">重症医学</a><a href="http://ent.cmt.com.cn" target="_blank">五<b></b>官</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_30"><strong><a href="http://gp.cmt.com.cn" target="_blank">全科医学</a></strong><a href="http://dental.cmt.com.cn" target="_blank">口腔网</a></p>
+  </li>
+  <li style="background:none;">
+      <p class="menu02_r_10" style="margin-right:32px;_margin-right:24px;"><strong><a href="http://hum.cmt.com.cn" target="_blank">医学人文</a></strong></p>
+  </li>
+  <li style="background:none;">
+      <p class="menu02_r_10 hot_bg"><strong><a href="http://diaocha.cmt.com.cn" style="color:#537f26;">有奖调查</a></strong></p>
+  </li>
+ </ul>
+
+ <ul class="menu02_ul">
+  <li>
+      <p class="menu02_r_10"><strong><a href="http://cancer.cmt.com.cn" target="_blank">肿瘤网</a></strong><a href="http://endo.cmt.com.cn" target="_blank">内分泌</a><a href="http://gi.cmt.com.cn" target="_blank">消<b></b>化</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_20"><strong><a href="http://infect.cmt.com.cn" target="_blank">感染</a></strong><a href="http://kidney.cmt.com.cn" target="_blank">肾内</a><a href="http://rheum.cmt.com.cn" target="_blank">风湿</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_10 chrome_r_10"><strong><a href="http://www.cmt.com.cn/slist/20.html" target="_blank">普外</a></strong><a href="http://www.cmt.com.cn/slist/22.html" target="_blank">神<b></b>外</a><a href="http://pharm.cmt.com.cn" target="_blank">药械</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_10"><strong><a href="http://obgyn.cmt.com.cn" target="_blank">妇产科</a></strong><a href="http://cpstcc.cmt.com.cn" target="_blank">控烟网</a><a href="http://ped.cmt.com.cn" style="margin-left:11px;" target="_blank">儿<b></b>科</a></p>
+  </li>
+  <li>
+      <p class="menu02_r_20"><strong><a href="http://dermatology.cmt.com.cn" target="_blank">皮肤性病</a></strong><a href="http://ger.cmt.com.cn" target="_blank">老年医学</a></p>
+  </li>
+  <li style="background:none;">
+    <p class="menu02_r_10" style="margin-right:31px;_margin-right:24px;"><strong><a href="http://www.cmt.com.cn/slist/122.html" target="_blank">公共卫生</a></strong></p>
+  </li>
+ </ul>
+</div>
+
+<script>
+
+$(document).ready(function(){
+
+  $.post("/User/is_login", function(data){
+
+      if(data.uid>0)
+        {
+	    $("#denglu").show();
+	    $("#weidenglu").hide();
+	    $("#uname").html(data.username);
+        }else{
+	    $("#weidenglu").show();
+	    $("#denglu").hide();
+        }
+     },'json');
+
+});
+</script>
+
+
+<script language="javascript">
+$(document).ready(function(){
+	var menuYloc = $("#erweima").offset().top;
+    var yloc = menuYloc + 145;
+	var xloc=yloc+145;
+    $('#wedma').css({top:menuYloc+"px"});
+    $('#erweima').css({top:yloc+"px"});
+    $('#three').css({top:xloc+"px"});
+	$(window).scroll(function (){
+	    var offsetTop = 145 + menuYloc + $(window).scrollTop() +"px";
+        var offsetweb = menuYloc + $(window).scrollTop() +"px";
+		var offsetweb2 = xloc + $(window).scrollTop() +"px";
+        $("#erweima").animate({top : offsetTop },{ duration:600 , queue:false });
+        $("#wedma").animate({top : offsetweb },{ duration:600 , queue:false });
+		$("#three").animate({top : offsetweb2 },{ duration:600 , queue:false });
+	    });
+	});
+</script>
+<!-- 二维码 -->
+<div id="wedma" style="position: absolute; z-index: 1000; left: 0px; top: 222px;" width="100" height="140"><a href="http://app.medtrib.cn/cmtopdr.html"><img src="http://www.cmt.com.cn/Public/images/yisheng1.jpg" width="100" height="140"></a></div>
+<div id="erweima" style="position: absolute; z-index: 1000; left: 0px; top: 367px;"><img src="http://www.cmt.com.cn/Public/images/erweima_copy.jpg" width="100" height="140">
+
+</div>
+
+
+<div class="center_box">
+<!-- 广告 -->
+ <div class="banner_330"><script src="http://ad.cmt.com.cn/Ad/237.js" type="text/javascript"></script><layer id="BannerZoneAD_Div237" width="330px" height="80px"><a href="http://www.cmt.com.cn/show/index/3426" target="_blank" title="http://www.cmt.com.cn/show/index/3426"><img name="AD_619" id="AD_619" src="http://ad.cmt.com.cn/upload/20171031/201710311516565468.jpg" width="330" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/237.js" type="hidden"></div>
+
+ <div class="top_banner_right_box">
+ <div class="banner_318"><script src="http://ad.cmt.com.cn/Ad/253.js" type="text/javascript"></script><layer id="BannerZoneAD_Div253" width="315px" height="80px"><a href="http://www.cmt.com.cn/show/index/3459" target="_blank" title="炎症性肠病"><img name="AD_626" id="AD_626" src="http://ad.cmt.com.cn/upload/20180102/201801021105037740.jpg" width="315" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/253.js" type="hidden"></div>
+  <div class="top_right_banner"><script src="http://ad.cmt.com.cn/Ad/254.js" type="text/javascript"></script><layer id="BannerZoneAD_Div254" width="315px" height="80px"><a href="http://www.cmt.com.cn/show/index/3423" target="_blank" title="http://www.cmt.com.cn/show/index/3423"><img name="AD_621" id="AD_621" src="http://ad.cmt.com.cn/upload/20171031/201710311531066875.jpg" width="315" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/254.js" type="hidden"></div>
+ </div>
+<!-- 广告 -->
+ <div class="news_list_330">
+  <div class="top_text_330">
+   <h1><a href="http://circ.cmt.com.cn/detail/1330654.html" title="2017年心血管领域重磅级研究成果" target="_blank">2017年心血管领域重磅级研究成</a></h1>
+   <p><a href="http://circ.cmt.com.cn/detail/1330654.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;2017年心血管领域重磅级研究成果。</a><strong><a href="http://circ.cmt.com.cn/detail/1330654.html" target="_blank">[详情]</a></strong></p>  </div>
+
+  <ul>
+  <li><strong class="font_weight_700"><a href="http://cmt.com.cn/detail/1330986.html" title="引发乳腺癌又一大因素“香肠”" target="_blank">·引发乳腺癌又一大因素“香肠”</a></strong></li>   <li><a href="http://psy.cmt.com.cn/detail/1331130.html" title="注意！饮食对于孩子精神健康至关重要！" target="_blank">·注意！饮食对于孩子精神健康至关重要！</a></li><li><a href="http://cmt.com.cn/detail/1331129.html" title="喝热茶好处多，能降低青光眼患病！" target="_blank">·喝热茶好处多，能降低青光眼患病！</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331128.html" title="天了噜！太冷，也增加癌症风险！" target="_blank">·天了噜！太冷，也增加癌症风险！</a></li><li><a href="http://cmt.com.cn/detail/1331111.html" title="病毒能通过增强免疫功能而治疗脑瘤" target="_blank">·病毒能通过增强免疫功能而治疗脑瘤</a></li><li><a href="http://infect.cmt.com.cn/detail/1331110.html" title="基因疗法有一天会彻底消灭艾滋病" target="_blank">·基因疗法有一天会彻底消灭艾滋病</a></li>  </ul>
+
+  <ul>
+  <li><strong class="font_weight_700"><a href="http://neur.cmt.com.cn/detail/1331096.html" title="早发帕金森症有哪些迹象？" target="_blank">·早发帕金森症有哪些迹象？</a></strong></li>   <li><a href="http://diabetes.cmt.com.cn/detail/1331084.html" title="糖尿病会将预期寿命减少5年到7年" target="_blank">·糖尿病会将预期寿命减少5年到7年</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1331080.html" title="糖尿病的护理和治疗的颠覆性革命" target="_blank">·糖尿病的护理和治疗的颠覆性革命</a></li><li><a href="http://circ.cmt.com.cn/detail/1331075.html" title="警惕：这一类心脏病不容易发现" target="_blank">·警惕：这一类心脏病不容易发现</a></li><li><a href="http://circ.cmt.com.cn/detail/1331073.html" title="研究揭示脂肪是如何破坏心脏健康的！" target="_blank">·研究揭示脂肪是如何破坏心脏健康的！</a></li><li><a href="http://psy.cmt.com.cn/detail/1331064.html" title="被误解几百年的精神分裂症" target="_blank">·被误解几百年的精神分裂症</a></li>  </ul>
+
+  <ul>
+  <li><strong class="font_weight_700"><a href="http://rheum.cmt.com.cn/detail/1331050.html" title="手指一掰，就咔咔响？小心招惹关节炎！" target="_blank">·手指一掰，就咔咔响？小心招惹关节炎！</a></strong></li>   <li><a href="http://rheum.cmt.com.cn/detail/1331044.html" title="口干眼也干？警惕干燥症！" target="_blank">·口干眼也干？警惕干燥症！</a></li><li><a href="http://cmt.com.cn/detail/1331039.html" title="总局公告，修订两药品说明书" target="_blank">·总局公告，修订两药品说明书</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331022.html" title="微生物组指导的精准医疗" target="_blank">·微生物组指导的精准医疗</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331021.html" title="首个针对肝癌的PD-1抗体获FDA批准" target="_blank">·首个针对肝癌的PD-1抗体获FDA批</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331019.html" title="2017年乳腺癌外科热点问题总结" target="_blank">·2017年乳腺癌外科热点问题总结</a></li>  </ul>
+<a href="/Clist/4" style="color:#49761e;float:right;margin-right:20px;margin-bottom:40px" target="_blank">更多&gt;</a>
+ </div>
+ <!--左侧列表结束 右侧开始-->
+ <div class="news_right_638">
+  <div class="news_flash_636">
+  <div class="focus">
+    <ul class="rslides f426x240 rslides1" style="max-width: 638px;">
+      <li id="rslides1_s0" class="rslides1_on" style="display: list-item; float: left; position: relative;">
+        <a href="http://gi.cmt.com.cn/detail/1329905.html"><img src="http://pic1.cmt.com.cn/newspic/images/20171228_160126.jpg" alt="【专题】炎症性肠病诊疗进展" title="【专题】炎症性肠病诊疗进展"></a>
+        <div class="News_img_bg"><p><a href="http://gi.cmt.com.cn/detail/1329905.html">【专题】炎症性肠病诊疗进展</a></p></div>
+        </li><li id="rslides1_s1" style="display: none;">
+        <a href="http://orth.cmt.com.cn/detail/1329710.html"><img src="http://pic1.cmt.com.cn/newspic/images/20180102_105703.jpg" alt="【专题】肩关节疾病，你要知道这些！" title="【专题】肩关节疾病，你要知道这些！"></a>
+        <div class="News_img_bg"><p><a href="http://orth.cmt.com.cn/detail/1329710.html">【专题】肩关节疾病，你要知道这些！</a></p></div>
+        </li><li id="rslides1_s2" style="display: none;">
+        <a href="http://diabetes.cmt.com.cn/detail/1329401.html"><img src="http://pic1.cmt.com.cn/newspic/images/20171222_174035.jpg" alt="CDS2017中华医学会糖尿病学分会" title="CDS2017中华医学会糖尿病学分会"></a>
+        <div class="News_img_bg"><p><a href="http://diabetes.cmt.com.cn/detail/1329401.html">CDS2017中华医学会糖尿病学分会</a></p></div>
+        </li><li id="rslides1_s3" style="display: none;">
+        <a href="http://dermatology.cmt.com.cn/detail/1327874.html"><img src="http://pic1.cmt.com.cn/newspic/images/20171208_174828.jpg" alt="【专题】2017世界艾滋病日" title="【专题】2017世界艾滋病日"></a>
+        <div class="News_img_bg"><p><a href="http://dermatology.cmt.com.cn/detail/1327874.html">【专题】2017世界艾滋病日</a></p></div>
+        </li><li id="rslides1_s4" style="display: none;">
+        <a href="http://gi.cmt.com.cn/detail/1326666.html"><img src="http://pic1.cmt.com.cn/newspic/images/20171207_091308.jpg" alt="【专题】肠道菌群，为何如此神奇" title="【专题】肠道菌群，为何如此神奇"></a>
+        <div class="News_img_bg"><p><a href="http://gi.cmt.com.cn/detail/1326666.html">【专题】肠道菌群，为何如此神奇</a></p></div>
+        </li>    </ul><a href="#" class="rslides_nav rslides1_nav prev">Previous</a><a href="#" class="rslides_nav rslides1_nav next">Next</a><ul class="rslides_tabs rslides1_tabs"><li class="rslides_here"><a href="#" class="rslides1_s1">1</a></li><li><a href="#" class="rslides1_s2">2</a></li><li><a href="#" class="rslides1_s3">3</a></li><li><a href="#" class="rslides1_s4">4</a></li><li><a href="#" class="rslides1_s5">5</a></li></ul>
+</div>
+  </div>
+  <div class="news_flash_bottom_list">
+  <ul>
+  <!--原来的
+   <li><a href="http://circ.cmt.com.cn/detail/1326662.html" title="【专题】肺动脉高压研究进展" target="_blank">【专题】肺动脉高压研究进展</a></li><li><a href="http://cmt.com.cn/detail/1325989.html" title="风云人物榜 张能维" target="_blank">风云人物榜 张能维</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1325749.html" title="【专题】2017世界糖尿病日" target="_blank">【专题】2017世界糖尿病日</a></li><li><a href="http://pharm.cmt.com.cn/detail/1324718.html" title="【专题】马兜铃酸可引起肝癌吗？" target="_blank">【专题】马兜铃酸可引起肝癌吗？</a></li>-->
+   <!--修改的-->
+          <li><a href="http://circ.cmt.com.cn/detail/1326662.html" title="【专题】肺动脉高压研究进展" target="_blank">【专题】肺动脉高压研究进展</a></li><li><a href="http://cmt.com.cn/detail/1325989.html" title="风云人物榜 张能维" target="_blank">风云人物榜 张能维</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1325749.html" title="【专题】2017世界糖尿病日" target="_blank">【专题】2017世界糖尿病日</a></li><li><a href="http://pharm.cmt.com.cn/detail/1324718.html" title="【专题】马兜铃酸可引起肝癌吗？" target="_blank">【专题】马兜铃酸可引起肝癌吗？</a></li>  </ul>
+  </div>
+  <div class="YiXZT_head">
+  <h1><a href="/featured" target="_blank">医学专题</a></h1>
+  <strong><a href="/featured" target="_blank">更多<b>&gt;</b></a></strong>
+  </div>
+  <ul class="yxzt_img_ul">
+  <!--原来的代码
+  <li>
+   <a href="http://www.cmt.com.cn/show/index/3460" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20180102_105009.jpg" alt="肩关节疾病，你要知道这" title="肩关节疾病，你要知道这" class="yxzt_img" /></a>
+   <div class="yxzt_text">
+    <h1><a href="http://www.cmt.com.cn/show/index/3460" title="肩关节疾病，你要知道这" target="_blank">肩关节疾病，你要知道这</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3460" title="肩关节疾病，你要知道这" target="_blank">肩关节疾病，你要知道这些！</a>
+</p>
+   </div>
+  </li><li>
+   <a href="http://www.cmt.com.cn/show/index/3459" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171228_155937.jpg" alt="炎症性肠病诊疗进展" title="炎症性肠病诊疗进展" class="yxzt_img" /></a>
+   <div class="yxzt_text">
+    <h1><a href="http://www.cmt.com.cn/show/index/3459" title="炎症性肠病诊疗进展" target="_blank">炎症性肠病诊疗进展</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3459" title="炎症性肠病诊疗进展" target="_blank">炎症性肠病诊疗进展</a>
+</p>
+   </div>
+  </li><li>
+   <a href="http://www.cmt.com.cn/show/index/3458" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171222_172154.jpg" alt="中华医学会糖尿病学分会" title="中华医学会糖尿病学分会" class="yxzt_img" /></a>
+   <div class="yxzt_text">
+    <h1><a href="http://www.cmt.com.cn/show/index/3458" title="中华医学会糖尿病学分会" target="_blank">中华医学会糖尿病学分会</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3458" title="中华医学会糖尿病学分会" target="_blank">中华医学会糖尿病学分会第二十一次全国学术会议</a>
+</p>
+   </div>
+  </li><li>
+   <a href="http://www.cmt.com.cn/show/index/3454" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171207_090702.jpg" alt="肠道菌群，为何如此神奇" title="肠道菌群，为何如此神奇" class="yxzt_img" /></a>
+   <div class="yxzt_text">
+    <h1><a href="http://www.cmt.com.cn/show/index/3454" title="肠道菌群，为何如此神奇" target="_blank">肠道菌群，为何如此神奇</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3454" title="肠道菌群，为何如此神奇" target="_blank">肠道菌群</a>
+</p>
+   </div>
+  </li>-->
+<li>
+   <a href="http://www.cmt.com.cn/show/index/3460" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20180102_105009.jpg" alt="肩关节疾病，你要知道这" title="肩关节疾病，你要知道这" class="yxzt_img"></a>
+   <div class="yxzt_text">
+    <!-- <h1><a href="http://www.cmt.com.cn/show/index/3460" title="肩关节疾病，你要知道这" target="_blank">肩关节疾病，你要知道这</a></h1> -->
+    <h1><a href="http://www.cmt.com.cn/show/index/3460" title="肩关节疾病，你要知道这" target="_blank">肩关节疾病，你要知道这</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3460" title="肩关节疾病，你要知道这" target="_blank">肩关节疾病，你要知道这些！</a>
+</p>
+   </div>
+  </li><li>
+   <a href="http://www.cmt.com.cn/show/index/3459" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171228_155937.jpg" alt="炎症性肠病诊疗进展" title="炎症性肠病诊疗进展" class="yxzt_img"></a>
+   <div class="yxzt_text">
+    <!-- <h1><a href="http://www.cmt.com.cn/show/index/3459" title="炎症性肠病诊疗进展" target="_blank">炎症性肠病诊疗进展</a></h1> -->
+    <h1><a href="http://www.cmt.com.cn/show/index/3459" title="炎症性肠病诊疗进展" target="_blank">炎症性肠病诊疗进展</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3459" title="炎症性肠病诊疗进展" target="_blank">炎症性肠病诊疗进展</a>
+</p>
+   </div>
+  </li><li>
+   <a href="http://www.cmt.com.cn/show/index/3458" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171222_172154.jpg" alt="中华医学会糖尿病学分会" title="中华医学会糖尿病学分会" class="yxzt_img"></a>
+   <div class="yxzt_text">
+    <!-- <h1><a href="http://www.cmt.com.cn/show/index/3458" title="中华医学会糖尿病学分会" target="_blank">中华医学会糖尿病学分会</a></h1> -->
+    <h1><a href="http://www.cmt.com.cn/show/index/3458" title="中华医学会糖尿病学分会" target="_blank">中华医学会糖尿病学分会</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3458" title="中华医学会糖尿病学分会" target="_blank">中华医学会糖尿病学分会第二十一次全国学术会议</a>
+</p>
+   </div>
+  </li><li>
+   <a href="http://www.cmt.com.cn/show/index/3454" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171207_090702.jpg" alt="肠道菌群，为何如此神奇" title="肠道菌群，为何如此神奇" class="yxzt_img"></a>
+   <div class="yxzt_text">
+    <!-- <h1><a href="http://www.cmt.com.cn/show/index/3454" title="肠道菌群，为何如此神奇" target="_blank">肠道菌群，为何如此神奇</a></h1> -->
+    <h1><a href="http://www.cmt.com.cn/show/index/3454" title="肠道菌群，为何如此神奇" target="_blank">肠道菌群，为何如此神奇</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3454" title="肠道菌群，为何如此神奇" target="_blank">肠道菌群</a>
+</p>
+   </div>
+  </li><!-- <li>
+   <a href="http://www.cmt.com.cn/show/index/" target="_blank"><img src="/Public/2_no_smallimg.jpg" alt="" title="" class="yxzt_img" /></a>
+   <div class="yxzt_text">
+    <h1><a href="http://www.cmt.com.cn/show/index/" title="" target="_blank"></a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/" title="" target="_blank"></a>
+</p>
+   </div>
+  </li>   -->
+<!--
+ <li>
+   <a href="http://www.cmt.com.cn/show/index/3458" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171222_172154.jpg" alt="中华医学会糖尿病学分会" title="中华医学会糖尿病学分会" class="yxzt_img" /></a>
+   <div class="yxzt_text">
+    <h1><a href="http://www.cmt.com.cn/show/index/3458" title="中华医学会糖尿病学分会" target="_blank">中华医学会糖尿病学分会</a></h1>
+    <p><a href="http://www.cmt.com.cn/show/index/3458" title="中华医学会糖尿病学分会" target="_blank">中华医学会糖尿病学分会第二十一次全国学术会议</a>
+</p>
+   </div>
+  </li> -->
+
+  </ul>
+   <!--图文列表结束 文字列表开始-->
+ <ul class="yxzt_list">
+ <!-- <li><a href="http://www.cmt.com.cn/show/index/3454" title="肠道菌群，为何如此神奇" target="_blank">·肠道菌群，为何如此神奇</a></li> -->
+ <li><a href="http://www.cmt.com.cn/show/index/3454" title="肠道菌群，为何如此神奇" target="_blank">·肠道菌群，为何如此神奇</a></li><!-- <li><a href="http://www.cmt.com.cn/show/index/3453" title="肺动脉高压研究进展" target="_blank">·肺动脉高压研究进展</a></li> -->
+ <li><a href="http://www.cmt.com.cn/show/index/3453" title="肺动脉高压研究进展" target="_blank">·肺动脉高压研究进展</a></li><!-- <li><a href="http://www.cmt.com.cn/show/index/3452" title="2017世界糖尿病日" target="_blank">·2017世界糖尿病日</a></li> -->
+ <li><a href="http://www.cmt.com.cn/show/index/3452" title="2017世界糖尿病日" target="_blank">·2017世界糖尿病日</a></li><!-- <li><a href="http://www.cmt.com.cn/show/index/3451" title="马兜铃酸可引起肝癌吗？" target="_blank">·马兜铃酸可引起肝癌吗？</a></li> -->
+ <li><a href="http://www.cmt.com.cn/show/index/3451" title="马兜铃酸可引起肝癌吗？" target="_blank">·马兜铃酸可引起肝癌吗？</a></li><!-- <li><a href="http://www.cmt.com.cn/show/index/3429" title="有关抗生素的林林总总" target="_blank">·有关抗生素的林林总总</a></li> -->
+ <li><a href="http://www.cmt.com.cn/show/index/3429" title="有关抗生素的林林总总" target="_blank">·有关抗生素的林林总总</a></li><!-- <li><a href="http://www.cmt.com.cn/show/index/3428" title="维生素D那些事儿" target="_blank">·维生素D那些事儿</a></li> -->
+ <li><a href="http://www.cmt.com.cn/show/index/3428" title="维生素D那些事儿" target="_blank">·维生素D那些事儿</a></li> </ul>
+ </div>
+ <!--第一部分新闻列表内容结束 分列框架开始-->
+ <!--左侧第一栏开始-->
+ <div class="all_655">
+  <div class="head_655">
+  <div class="head_655_left">
+  </div>
+  <a><img src="http://www.cmt.com.cn/Public/images/head_icon.jpg"></a>
+  <h1><a href="http://www.cmt.com.cn/slist/1.html" target="_blank">内科学</a></h1>
+    <div class="head_655_right">
+  </div>
+  <!-- <p><a href="#">乳腺癌</a><strong>|</strong><a href="#">高血压</a><strong>|</strong><a href="#">心血管</a><strong>|</strong><a href="#">糖尿病</a><strong>|</strong><a href="#">胰岛素</a><strong>|</strong><a href="#">禽流感</a></p> -->
+
+  </div>
+
+  <div class="news_flash_300">
+  <div id="slides" class="banner_small">
+<div class="bannerImg">
+	<div class="slides_container" style="overflow: hidden; position: relative; display: block;">
+    <div class="slides_control" style="position: relative; width: 2775px; height: 230px; left: -925px;"><div style="position: absolute; top: 0px; left: 925px; z-index: 0;"><a href="http://gi.cmt.com.cn/detail/1329905.html" title="【专题】炎症性肠病诊疗进展" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171228_160114.jpg" alt="【专题】炎症性肠病诊疗进展" title="【专题】炎症性肠病诊疗进展" width="300" height="200"></a><div class="img_bg"><p>【专题】炎症性肠病诊疗进展</p></div></div><div style="position: absolute; top: 0px; left: 925px; z-index: 0; display: none;"><a href="http://gi.cmt.com.cn/detail/1326666.html" title="【专题】肠道菌群，为何如此神奇" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171207_091252.jpg" alt="【专题】肠道菌群，为何如此神奇" title="【专题】肠道菌群，为何如此神奇" width="300" height="200"></a><div class="img_bg"><p>【专题】肠道菌群，为何如此神奇</p></div></div><div style="position: absolute; top: 0px; left: 925px; z-index: 0; display: none;"><a href="http://circ.cmt.com.cn/detail/1326662.html" title="【专题】肺动脉高压研究进展" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171207_092149.jpg" alt="【专题】肺动脉高压研究进展" title="【专题】肺动脉高压研究进展" width="300" height="200"></a><div class="img_bg"><p>【专题】肺动脉高压研究进展</p></div></div></div>	</div>
+<div class="bannerPage"><ul class="pagination"><li class="current"><a href="#0">1</a></li><li><a href="#1">2</a></li><li><a href="#2">3</a></li></ul></div></div>
+</div>
+<script>
+	//保证导航栏背景与图片轮播背景一起显示
+	$("#mainbody").removeClass();
+	$("#mainbody").addClass("index_bg05");
+</script>
+<script>
+	$(function(){
+		//滚动Banner图片的显示
+		$('#slides').slides({
+			preload: false,
+			preloadImage: '/images/loading.gif',
+			effect: 'fade',
+			slideSpeed: 400,
+			fadeSpeed: 100,
+			play: 3000,
+			pause: 100,
+			hoverPause: true
+		});
+    	});
+	</script>
+  </div>
+
+
+  <ul class="news_flash_right_list">
+    <li><h1><a href="http://circ.cmt.com.cn/detail/1330654.html" title="2017年心血管领域重磅级研究成果" target="_blank">·2017年心血管领域重磅级研究成果</a></h1></li>  <li><a href="http://psy.cmt.com.cn/detail/1331130.html" title="注意！饮食对于孩子精神健康至关重要！" target="_blank">·注意！饮食对于孩子精神健康至关重要！</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331128.html" title="天了噜！太冷，也增加癌症风险！" target="_blank">·天了噜！太冷，也增加癌症风险！</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330859.html" title="头颈部肿瘤放疗者营养与支持治疗专家共识" target="_blank">·头颈部肿瘤放疗者营养与支持治疗专家共</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330847.html" title="重磅级成果！新型糖尿病药物或能促进癌细胞对化疗药物变得更加敏感" target="_blank">·重磅级成果！新型糖尿病药物或能促进癌</a></li><li><a href="http://cmt.com.cn/detail/1330830.html" title="北京市癌症疼痛管理规范（2017年版）" target="_blank">·北京市癌症疼痛管理规范（2017年版</a></li><li><a href="http://kidney.cmt.com.cn/detail/1330759.html" title="二甲双胍治疗2型糖尿病和慢性肾脏病效果分析！" target="_blank">·二甲双胍治疗2型糖尿病和慢性肾脏病效</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330631.html" title="新研究确定引发许多癌症的“根源”！" target="_blank">·新研究确定引发许多癌症的“根源”！</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330630.html" title="基因融合下游致癌信号被揭示" target="_blank">·基因融合下游致癌信号被揭示</a></li>  </ul>
+ </div>
+
+  <!--左侧布局结束 右侧布局框架开始-->
+<div class="all_313">
+<!-- 广告 -->
+ <div class="banner_313"><script src="http://ad.cmt.com.cn/Ad/239.js" type="text/javascript"></script><layer id="BannerZoneAD_Div239" width="313px" height="80px"><a href="http://www.cmt.com.cn/show/index/3377" target="_blank" title=""><img name="AD_512" id="AD_512" src="http://ad.cmt.com.cn/upload/20170331/201703311457264407.jpg" width="313" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/239.js" type="hidden"></div>
+<!-- 广告 -->
+ <div class="right_313_frame">
+   <div class="right_313_head">
+     <h1><a href="/video" target="_blank">医学视频</a></h1>
+     <p><a href="/video" target="_blank">更多<strong>&gt;</strong></a></p>
+   </div>
+   <ul class="YiX_img_frame">
+    <li>
+       <a href="http://hum.cmt.com.cn/detail/1330236.html" title="广东：流感爆发疫情高于往年同期  " target="_blank"><img src="http://pic1.cmt.com.cn/newspic/videopic/20180102/5a4b4f522fdd7.jpg" alt="广东：流感爆发疫情高于往年同期  " title="广东：流感爆发疫情高于往年同期  "></a>
+       <p><a href="http://hum.cmt.com.cn/detail/1330236.html" title="广东：流感爆发疫情高于往年同期  " target="_blank">广东：流感爆发疫</a></p>
+     </li><li>
+       <a href="http://hum.cmt.com.cn/detail/1330235.html" title="广东：流感爆发疫情高于往年同期  " target="_blank"><img src="http://pic1.cmt.com.cn/newspic/videopic/20180102/5a4b4f522fdd7.jpg" alt="广东：流感爆发疫情高于往年同期  " title="广东：流感爆发疫情高于往年同期  "></a>
+       <p><a href="http://hum.cmt.com.cn/detail/1330235.html" title="广东：流感爆发疫情高于往年同期  " target="_blank">广东：流感爆发疫</a></p>
+     </li>   </ul>
+   <ul class="YiX_ul">
+    <li><a href="http://health.cmt.com.cn/detail/1329784.html" title="智慧医疗 普惠民生" target="_blank">智慧医疗 普惠民生</a></li><li><a href="http://cmt.com.cn/detail/1329571.html" title="国家卫计委谈家庭医生签约 不能签而不约 为签而签" target="_blank">国家卫计委谈家庭医生签约 不能签而不</a></li><li><a href="http://cmt.com.cn/detail/1329018.html" title="演示痔疮切除手术全过程，直肠手术 " target="_blank">演示痔疮切除手术全过程，直肠手术 </a></li><li><a href="http://cmt.com.cn/detail/1328559.html" title="神操作！女医生边给患者看病边“打麻将” " target="_blank">神操作！女医生边给患者看病边“打麻将</a></li><li><a href="http://cmt.com.cn/detail/1328277.html" title="国家卫计委 统筹儿科医疗资源应对疾病高发期" target="_blank">国家卫计委 统筹儿科医疗资源应对疾病</a></li><li><a href="http://cmt.com.cn/detail/1327870.html" title="记者报道不公正，医院说对护士影响大" target="_blank">记者报道不公正，医院说对护士影响大</a></li><li><a href="http://cmt.com.cn/detail/1327674.html" title="洗脑神药莎普爱思遭声讨 揭秘白内障到底咋治" target="_blank">洗脑神药莎普爱思遭声讨 揭秘白内障到</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+<!-- 广告 -->
+ <div class="banner_313"><script src="http://ad.cmt.com.cn/Ad/240.js" type="text/javascript"></script><layer id="BannerZoneAD_Div240" width="313px" height="80px"><a href="http://www.cmt.com.cn/show/index/3385" target="_blank" title="http://www.cmt.com.cn/show/index/3385"><img name="AD_525" id="AD_525" src="http://ad.cmt.com.cn/upload/20170414/201704141713386008.jpg" width="313" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/240.js" type="hidden"></div>
+<!-- 广告 -->
+   <!--医学视频结束 健康教育开始-->
+   <div class="right_313_frame">
+   <div class="right_313_head">
+     <h1><a href="http://yz.cmt.com.cn" target="_blank">圆桌</a></h1>
+     <p><a href="http://yz.cmt.com.cn" target="_blank">更多<strong>&gt;</strong></a></p>
+   </div>
+   <div class="LinC_img_frame">
+    <a href="http://yz.cmt.com.cn/detail/index?tid=306786" title="英国人类免疫缺陷病毒感染患者肾脏和胰腺移植指南" target="_blank"><img src="http://yz.cmt.com.cn/tnb/87/69/upload/Biaoti/000/30/67/306786.jpg" alt="英国人类免疫缺陷病毒感染患者肾脏和胰腺移植指南" title="英国人类免疫缺陷病毒感染患者肾脏和胰腺移植指南"></a>
+   <h1><a href="http://yz.cmt.com.cn/detail/index?tid=306786" title="英国人类免疫缺陷病毒感染患者肾脏和胰腺移植指南" target="_blank">英国人类免疫缺陷病毒感染患</a></h1>
+   <p><a href="http://yz.cmt.com.cn/detail/index?tid=306786" title="英国人类免疫缺陷病毒感染患者肾脏和胰腺移植指南" target="_blank">1.1.3 HIV 阳性患者只在以下条件下能够被列...</a></p>   </div>
+   <ul class="LinC_ul" style="_margin-bottom:0px;_height:190px;">
+   <li><a href="http://yz.cmt.com.cn/detail/index?tid=306609" title="屠呦呦获2016国家最高科技奖" target="_blank">屠呦呦获2016国家最高科技奖</a></li><li><a href="http://yz.cmt.com.cn/detail/index?tid=306725" title="自身免疫性肝病诊断和治疗指南" target="_blank">自身免疫性肝病诊断和治疗指南</a></li><li><a href="http://yz.cmt.com.cn/detail/index?tid=306600" title="过半家庭不愿生二孩，症结何在" target="_blank">过半家庭不愿生二孩，症结何在</a></li><li><a href="http://yz.cmt.com.cn/detail/index?tid=305879" title="《中国高血压基层管理指南》要点" target="_blank">《中国高血压基层管理指南》要点</a></li><li><a href="http://yz.cmt.com.cn/detail/index?tid=306599" title="2017，医护人员的八个新年愿望" target="_blank">2017，医护人员的八个新年愿望</a></li><li><a href="http://yz.cmt.com.cn/detail/index?tid=306597" title="肝癌饮食三大原则" target="_blank">肝癌饮食三大原则</a></li><li><a href="http://yz.cmt.com.cn/detail/index?tid=306595" title="治疗甲状腺后声带受损 医院责任几何？" target="_blank">治疗甲状腺后声带受损 医院责任几何？</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+   <!-- 医学人文开始-->
+
+    <div class="right_313_frame yxrw_hack">
+   <div class="right_313_head">
+     <h1><a href="http://hum.cmt.com.cn" target="_blank">医学人文</a></h1>
+     <p><a href="http://hum.cmt.com.cn" target="_blank">更多<strong>&gt;</strong></a></p>
+   </div>
+
+   <div class="LinC_img_frame">
+   <a href="http://hum.cmt.com.cn/detail/1325840.html" title="国务院批复“中国医师节”" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171121_102900.jpg" alt="国务院批复“中国医师节”" title="国务院批复“中国医师节”"></a>
+   <h1><a href="http://hum.cmt.com.cn/detail/1325840.html" title="国务院批复“中国医师节”" target="_blank">国务院批复“中国医师节”</a></h1>
+   <p><a href="http://hum.cmt.com.cn/detail/1325840.html" title="国务院批复“中国医师节”" target="_blank"> 日前，国务院同意批复国家卫生计生委...</a></p>   </div>
+   <ul class="JianK_ul">
+   <li>·<a href="http://hum.cmt.com.cn/detail/1330221.html" title="CFDA发文：近90%的中" target="_blank">CFDA发文：近90%的中成药需改说</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1330220.html" title="这6个问题最让护士崩溃，该" target="_blank">这6个问题最让护士崩溃，该怎么回答？</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1330219.html" title="医药代表从业新规征求意见：" target="_blank">医药代表从业新规征求意见：医药代表不</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1330216.html" title="我造血干细胞捐献达7000" target="_blank">我造血干细胞捐献达7000例</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1330213.html" title="记住这些要点 有效应对医疗" target="_blank">记住这些要点 有效应对医疗暴力</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1330211.html" title="湖北公立医院按病种收费 1" target="_blank">湖北公立医院按病种收费 101个病种</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1329987.html" title="医疗“繁荣”背后隐患 健康" target="_blank">医疗“繁荣”背后隐患 健康科普被忽略</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+
+
+<!-- 广告 -->
+ <div class="yxrw_bottom_banner_hack"><script src="http://ad.cmt.com.cn/Ad/242.js" type="text/javascript"></script><layer id="BannerZoneAD_Div242" width="313px" height="80px"><a href="http://www.cmt.com.cn/Survey" target="_blank" title="http://www.cmt.com.cn/Survey"><img name="AD_289" id="AD_289" src="http://ad.cmt.com.cn/upload/20131022/201310221334443986.jpg" width="313" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/242.js" type="hidden"></div>
+<!-- 广告 -->
+
+    <!-- 临床病例开始-->
+   <div class="right_313_frame hack_m_t_8">
+   <div class="right_313_head">
+     <h1><a href="/case" target="_blank">临床病例</a></h1>
+     <p><a href="/case" target="_blank">更多<strong>&gt;</strong></a></p>
+   </div>
+   <div class="LinC_img_frame">
+   <a href="http://cmt.com.cn/detail/1327196.html" title="肝中叶巨大肿瘤切除联合肝右" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171204_110527.jpg" alt="肝中叶巨大肿瘤切除联合肝右" title="肝中叶巨大肿瘤切除联合肝右"></a>
+   <h1><a href="http://cmt.com.cn/detail/1327196.html" title="肝中叶巨大肿瘤切除联合肝右" target="_blank">肝中叶巨大肿瘤切除联合肝右</a></h1>
+   <p><a href="http://cmt.com.cn/detail/1327196.html" title="肝中叶巨大肿瘤切除联合肝右" target="_blank">巨大肝中叶肝癌切除术被视为切肝手术中...</a></p>   </div>
+   <ul class="LinC_ul" style="margin-bottom:20px;*margin-bottom:10px;_height:210px;">
+   <li><a href="http://cmt.com.cn/detail/1330527.html" title="华中地区首例经皮肺动脉带瓣" target="_blank">华中地区首例经皮肺动脉带瓣支架植入术</a></li><li><a href="http://cmt.com.cn/detail/1329809.html" title="为胃镜建“侧门”，一例高难" target="_blank">为胃镜建“侧门”，一例高难度ERCP</a></li><li><a href="http://cancer.cmt.com.cn/detail/1329383.html" title="微小肿瘤4年长成25公分巨" target="_blank">微小肿瘤4年长成25公分巨大胃间质瘤</a></li><li><a href="http://ped.cmt.com.cn/detail/1328920.html" title="小儿难治性癫痫服药无效咋办" target="_blank">小儿难治性癫痫服药无效咋办？</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1327197.html" title="小儿胰岛细胞移植治疗糖尿病" target="_blank">小儿胰岛细胞移植治疗糖尿病</a></li><li><a href="http://infect.cmt.com.cn/detail/1326422.html" title="世界首例成人HIV抗体阴性" target="_blank">世界首例成人HIV抗体阴性艾滋病合并</a></li><li><a href="http://emerg.cmt.com.cn/detail/1318061.html" title="深呼吸，准备全身抽筋 | " target="_blank">深呼吸，准备全身抽筋 | 急诊界 </a></li><li><a href="http://cmt.com.cn/detail/1318005.html" title="难道以前都被误诊为颈动脉夹" target="_blank">难道以前都被误诊为颈动脉夹层了？</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+
+   <!--微博互动 -->
+      <div class="right_313_frame wbhd_hack">
+   <div class="right_313_head" style="width:310px;">
+     <h1><a href="http://e.weibo.com/u/2357703693">微博互动</a></h1>
+     <p><a href="http://e.weibo.com/u/2357703693">医学论坛网微博</a></p>
+    <iframe width="308" height="248" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=0&amp;height=0&amp;fansRow=1&amp;ptype=1&amp;speed=100&amp;skin=1&amp;isTitle=0&amp;noborder=0&amp;isWeibo=1&amp;isFans=1&amp;uid=2357703693&amp;verifier=1ccfb61e&amp;dpc=1"></iframe>
+   </div>
+   </div>
+
+   <!-- 广告 -->
+ <div class="wbhd_bottom_banner_hack"><script src="http://ad.cmt.com.cn/Ad/244.js" type="text/javascript"></script><layer id="BannerZoneAD_Div244" width="313px" height="80px"><a href="http://www.cmt.com.cn/show/index/3422" target="_blank" title="http://www.cmt.com.cn/show/index/3422"><img name="AD_617" id="AD_617" src="http://ad.cmt.com.cn/upload/20171020/201710201133198556.jpg" width="313" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/244.js" type="hidden"></div>
+<!-- 广告 -->
+
+      <div class="right_313_frame" style="margin:10px 0 0 0;margin:13px 0 0 0\9;">
+   <div class="right_313_head">
+     <h1><a href="http://pharm.cmt.com.cn" target="_blank">药械</a></h1>
+     <p><a href="http://pharm.cmt.com.cn" target="_blank">更多<strong>&gt;</strong></a></p>
+   </div>
+   <ul class="ZaZ_ul">
+   <li>·<a href="http://pharm.cmt.com.cn/detail/1331116.html" title="总局通报：20批药品不合格" target="_blank">总局通报：20批药品不合格</a></li><li>·<a href="http://cmt.com.cn/detail/1331028.html" title="云南力推“农村便民药柜”" target="_blank">云南力推“农村便民药柜”</a></li><li>·<a href="http://cmt.com.cn/detail/1330992.html" title="各大省市发文按病种付费 药品营销颠覆" target="_blank">各大省市发文按病种付费 药品营销颠覆</a></li><li>·<a href="http://cmt.com.cn/detail/1330991.html" title="动物源性医疗器械注册技术审查指导原则" target="_blank">动物源性医疗器械注册技术审查指导原则</a></li><li>·<a href="http://cmt.com.cn/detail/1330989.html" title="山东要求中医院中药处方不低于60%" target="_blank">山东要求中医院中药处方不低于60%</a></li><li>·<a href="http://cmt.com.cn/detail/1330533.html" title="膀胱过度活动症药物临床试验指导原则" target="_blank">膀胱过度活动症药物临床试验指导原则</a></li><li>·<a href="http://cmt.com.cn/detail/1330532.html" title="《生物制品批签发管理办法》发布" target="_blank">《生物制品批签发管理办法》发布</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+   <!--临床病例结束 杂志论坛报开始-->
+   <div class="right_313_frame zgyxltb_hack">
+   <div class="right_313_head">
+     <h1><a href!="/medical">中国医学论坛报</a></h1>
+     <p><a href="/medical"><!--更多--><strong></strong></a></p>
+   </div>
+   <ul class="ZaZ_ul">
+   <li>·<a href="http://pharm.cmt.com.cn/detail/1324718.html" title="【专题】马兜铃酸可引起肝癌吗？" target="_blank">【专题】马兜铃酸可引起肝癌吗？</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1306637.html" title="行医路上“法”与“情”" target="_blank">行医路上“法”与“情”</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1306636.html" title="行医路上，用“法”规范行为，用“情”化解矛盾" target="_blank">行医路上，用“法”规范行为，用“情”</a></li><li>·<a href="http://hum.cmt.com.cn/detail/1306635.html" title="“合情”还是“合法”，一名好医生应如何选择？" target="_blank">“合情”还是“合法”，一名好医生应如</a></li><li>·<a href="http://cmt.com.cn/detail/1300193.html" title="安宁疗护实践指南：开端良好，仍待完善" target="_blank">安宁疗护实践指南：开端良好，仍待完善</a></li><li>·<a href="http://cmt.com.cn/detail/1300192.html" title="医学目的再认识：是“接受死亡”而不是“选择死亡”" target="_blank">医学目的再认识：是“接受死亡”而不是</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+
+   <!-- 广告 -->
+ <div class="banner_313"><script src="http://ad.cmt.com.cn/Ad/251.js" type="text/javascript"></script><layer id="BannerZoneAD_Div251" width="313px" height="80px"><a href="http://js.chealth.org.cn/" target="_blank" title="合理膳食"><img name="AD_370" id="AD_370" src="http://ad.cmt.com.cn/upload/20161008/201610081848264062.jpg" width="313" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/251.js" type="hidden"></div>
+<!-- 广告 -->
+   <div class="right_313_frame">
+   <div class="right_313_head">
+     <h1><a href="/negm" target="_blank">医学期刊</a></h1>
+     <p><a href="/negm" target="_blank">更多<strong>&gt;</strong></a></p>
+   </div>
+   <ul class="ZaZ_ul">
+   <li>·<a href="http://respir.cmt.com.cn/detail/1329475.html" title="长期较粗PM暴露与儿童哮喘相关！" target="_blank">长期较粗PM暴露与儿童哮喘相关！</a></li><li>·<a href="http://diabetes.cmt.com.cn/detail/1329385.html" title="降糖药可促进糖尿病创口修复" target="_blank">降糖药可促进糖尿病创口修复</a></li><li>·<a href="http://cmt.com.cn/detail/1329164.html" title="卒中二级预防吡格列酮对高风险者更有效" target="_blank">卒中二级预防吡格列酮对高风险者更有效</a></li><li>·<a href="http://cmt.com.cn/detail/1329163.html" title="危重患者输注新鲜红细胞还是陈旧红细胞" target="_blank">危重患者输注新鲜红细胞还是陈旧红细胞</a></li><li>·<a href="http://ped.cmt.com.cn/detail/1329014.html" title="母亲接种流感疫苗对婴儿的保护作用！" target="_blank">母亲接种流感疫苗对婴儿的保护作用！</a></li><li>·<a href="http://respir.cmt.com.cn/detail/1328302.html" title="提高以磨玻璃影为主的肺癌的检出率" target="_blank">提高以磨玻璃影为主的肺癌的检出率</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+   <!--报纸结束 微博互动开始-->
+
+   <div class="right_313_frame" style="margin:0px;">
+   <div class="right_313_head">
+     <h1><a href="/meeting" target="_blank">医学会议</a></h1>
+     <p><a href="/meeting" target="_blank">更多<strong>&gt;</strong></a></p>
+   </div>
+   <ul class="ZaZ_ul">
+   <li>·<a href="http://cancer.cmt.com.cn/detail/1330961.html" title="2018年欧洲肿瘤医学协会会议（ESMO）" target="_blank">2018年欧洲肿瘤医学协会会议（ES</a></li><li>·<a href="http://circ.cmt.com.cn/detail/1330960.html" title="2018年第67届美国心脏病年会（ACC）" target="_blank">2018年第67届美国心脏病年会（A</a></li><li>·<a href="http://cmt.com.cn/detail/1330959.html" title="2018年第33届欧洲泌尿外科大会" target="_blank">2018年第33届欧洲泌尿外科大会</a></li><li>·<a href="http://diabetes.cmt.com.cn/detail/1330958.html" title="2018年第54届欧洲糖尿病研究协会年会" target="_blank">2018年第54届欧洲糖尿病研究协会</a></li><li>·<a href="http://neur.cmt.com.cn/detail/1330957.html" title="2018第143届美国神经学协会年会" target="_blank">2018第143届美国神经学协会年会</a></li><li>·<a href="http://hep.cmt.com.cn/detail/1330956.html" title="2018年国际肝病大会" target="_blank">2018年国际肝病大会</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+
+<!-- 广告 -->
+<!-- 新加广告第二个里内嵌 margin:10px 0;其他无改动-->
+ <div class="banner_313" style="margin:10px 0;"><script src="http://ad.cmt.com.cn/Ad/252.js" type="text/javascript"></script><layer id="BannerZoneAD_Div252" width="313px" height="80px"><a href="http://ad.cmt.com.cn/ADCount.aspx?Action=Click&amp;ADID=604" target="_blank" title="http://www.cmt.com.cn/show/index/3412"><img name="AD_604" id="AD_604" src="http://ad.cmt.com.cn/upload/20170815/201708151523043106.jpg" width="313" height="80" border="0"></a></layer><script src="http://ad.cmt.com.cn/ADCount.aspx?Action=View&amp;ADID=604"></script>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/252.js" type="hidden"></div>
+<!-- 广告 -->
+
+   <!--健康教育结束 阅读排行榜开始-->
+   <div class="right_313_frame ydphb_hack">
+   <div class="right_313_head">
+     <h1><a>阅读排行榜</a></h1>
+
+   </div>
+   <ul class="YueD_ul">
+    <li><h1><a href="http://gp.cmt.com.cn/detail/1330194.html" title="美国治疗费用排名前 10 的慢性病" target="_blank">美国治疗费用排名前 10 的慢性病</a></h1></li>   <li><a href="http://cancer.cmt.com.cn/detail/1330206.html" target="_blank">一种抗癌药有助治疗重症肝硬化</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330207.html" target="_blank">改善生活方式可预防1/3癌症！</a></li><li><a href="http://cmt.com.cn/detail/1330332.html" target="_blank">脑袋里取出活蟑螂算啥</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330346.html" target="_blank">如何预防癌症之6个“最”！</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330349.html" target="_blank">2018年，这些肿瘤免疫疗法、基因疗</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1330438.html" target="_blank">“老药新用”？ 一糖尿病药物有望逆转</a></li><li><a href="http://gp.cmt.com.cn/detail/1330455.html" target="_blank">你正在吃的那些药，不一定是真的在“救</a></li>   </ul>
+   <div style="clear:both;"></div>
+   </div>
+   <div style="clear:both;"></div>
+
+
+
+</div>
+<!--右侧布局框架结束 左侧开始-->
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://circ.cmt.com.cn" target="_blank">心血管<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://circ.cmt.com.cn" target="_blank">心血管专区</a></p>
+  </div>
+  <ul class="list_320">
+    <li><h1><a href="http://circ.cmt.com.cn/detail/1330654.html" title="2017年心血管领域重磅级研究成果" target="_blank">·2017年心血管领域重磅级研究成果</a></h1></li>  <li><a href="http://circ.cmt.com.cn/detail/1331075.html" title="警惕：这一类心脏病不容易发现" target="_blank">·警惕：这一类心脏病不容易发现</a></li><li><a href="http://circ.cmt.com.cn/detail/1331073.html" title="研究揭示脂肪是如何破坏心脏健康的！" target="_blank">·研究揭示脂肪是如何破坏心脏健康的！</a></li><li><a href="http://circ.cmt.com.cn/detail/1331072.html" title="ARIC研究：隐匿性心梗患者应警惕心衰" target="_blank">·ARIC研究：隐匿性心梗患者应警惕心衰</a></li><li><a href="http://circ.cmt.com.cn/detail/1331071.html" title="高血压女士从事重体力工作增加冠心病风险   " target="_blank">·高血压女士从事重体力工作增加冠心病风险 </a></li>
+  </ul>
+
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://cancer.cmt.com.cn" target="_blank">肿瘤科<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://cancer.cmt.com.cn" target="_blank">肿瘤科专区</a></p>
+  </div>
+  <ul class="list_320">
+ <li><h1><a href="http://cancer.cmt.com.cn/detail/1331128.html" title="天了噜！太冷，也增加癌症风险！" target="_blank">·天了噜！太冷，也增加癌症风险！</a></h1></li>  <li><a href="http://cancer.cmt.com.cn/detail/1331029.html" title="NC-6004联合吉西他滨治疗晚期实体肿瘤" target="_blank">·NC-6004联合吉西他滨治疗晚期实体肿</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331025.html" title="2018年1月第1期BMJ研究精选" target="_blank">·2018年1月第1期BMJ研究精选</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331022.html" title="微生物组指导的精准医疗" target="_blank">·微生物组指导的精准医疗</a></li><li><a href="http://cancer.cmt.com.cn/detail/1331021.html" title="首个针对肝癌的PD-1抗体获FDA批准" target="_blank">·首个针对肝癌的PD-1抗体获FDA批准</a></li>  </ul>
+ </div>
+
+
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://diabetes.cmt.com.cn" target="_blank">糖尿病<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://diabetes.cmt.com.cn" target="_blank">糖尿病专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://diabetes.cmt.com.cn/detail/1331084.html" title="糖尿病会将预期寿命减少5年到7年" target="_blank">·糖尿病会将预期寿命减少5年到7年</a></h1></li>  <li><a href="http://diabetes.cmt.com.cn/detail/1331080.html" title="糖尿病的护理和治疗的颠覆性革命" target="_blank">·糖尿病的护理和治疗的颠覆性革命</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1331078.html" title="中国的低糖尿病发病率怎么突然就改变了？" target="_blank">·中国的低糖尿病发病率怎么突然就改变了？</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1330924.html" title="糖尿病患者长寿的方法，真的存在" target="_blank">·糖尿病患者长寿的方法，真的存在</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1330922.html" title="基因疗法重编程β细胞，实现血糖水平长期正常！" target="_blank">·基因疗法重编程β细胞，实现血糖水平长期正</a></li>  </ul>
+ </div>
+
+
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://endo.cmt.com.cn" target="_blank">内分泌<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://endo.cmt.com.cn" target="_blank">内分泌专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://endo.cmt.com.cn/detail/1331092.html" title="没进餐，胰岛素还要不要注射？  " target="_blank">·没进餐，胰岛素还要不要注射？  </a></h1></li>  <li><a href="http://endo.cmt.com.cn/detail/1331090.html" title="托格列净降低体脂量并改善外周胰岛素抵抗！" target="_blank">·托格列净降低体脂量并改善外周胰岛素抵抗！</a></li><li><a href="http://endo.cmt.com.cn/detail/1331086.html" title="Cell：揭示瘦素促进身体燃烧脂肪之谜" target="_blank">·Cell：揭示瘦素促进身体燃烧脂肪之谜</a></li><li><a href="http://cmt.com.cn/detail/1330987.html" title="孕期服用扑热息痛可降低女儿的生育能力" target="_blank">·孕期服用扑热息痛可降低女儿的生育能力</a></li><li><a href="http://endo.cmt.com.cn/detail/1330918.html" title="研究发现一种酶可能是打击癌症的重要靶点！" target="_blank">·研究发现一种酶可能是打击癌症的重要靶点！</a></li>  </ul>
+ </div>
+<!-- 广告 -->
+ <div class="banner_655"><script src="http://ad.cmt.com.cn/Ad/241.js" type="text/javascript"></script><layer id="BannerZoneAD_Div241" width="655px" height="80px"><a href="http://www.cmt.com.cn/show/index/3460" target="_blank" title="肩关节疾病"><img name="AD_627" id="AD_627" src="http://ad.cmt.com.cn/upload/20180102/201801021107249771.jpg" width="655" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/241.js" type="hidden"></div>
+<!-- 广告 -->
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://gi.cmt.com.cn" target="_blank">消化<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://gi.cmt.com.cn" target="_blank">消化专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://gi.cmt.com.cn/detail/1326666.html" title="【专题】肠道菌群，为何如此神奇" target="_blank">·【专题】肠道菌群，为何如此神奇</a></h1></li>  <li><a href="http://gi.cmt.com.cn/detail/1330585.html" title="孕妇皮肤瘙痒别轻视，小心得了这个病" target="_blank">·孕妇皮肤瘙痒别轻视，小心得了这个病</a></li><li><a href="http://gi.cmt.com.cn/detail/1330582.html" title="HBV pgRNA用于乙肝相关肝癌的肿瘤分型" target="_blank">·HBV pgRNA用于乙肝相关肝癌的肿瘤</a></li><li><a href="http://gi.cmt.com.cn/detail/1330581.html" title="病例分享 | 肝移植术后严重贫血一例" target="_blank">·病例分享 | 肝移植术后严重贫血一例</a></li><li><a href="http://gi.cmt.com.cn/detail/1330437.html" title="麸质饮食对功能性消化不良的影响" target="_blank">·麸质饮食对功能性消化不良的影响</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://hep.cmt.com.cn" target="_blank">肝病<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://hep.cmt.com.cn" target="_blank">肝病专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://hep.cmt.com.cn/detail/1331113.html" title="IAP抑制剂乙肝适应症获批临床" target="_blank">·IAP抑制剂乙肝适应症获批临床</a></h1></li>  <li><a href="http://hep.cmt.com.cn/detail/1331101.html" title="老男孩体内存在乙肝治疗的重要线索" target="_blank">·老男孩体内存在乙肝治疗的重要线索</a></li><li><a href="http://hep.cmt.com.cn/detail/1330695.html" title="转化生长因子-β信号通路对肝癌影响" target="_blank">·转化生长因子-β信号通路对肝癌影响</a></li><li><a href="http://gi.cmt.com.cn/detail/1330582.html" title="HBV pgRNA用于乙肝相关肝癌的肿瘤分型" target="_blank">·HBV pgRNA用于乙肝相关肝癌的肿瘤</a></li><li><a href="http://gi.cmt.com.cn/detail/1330406.html" title="一种抗癌药有助治疗重症肝硬化" target="_blank">·一种抗癌药有助治疗重症肝硬化</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://infect.cmt.com.cn" target="_blank">感染<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://infect.cmt.com.cn" target="_blank">感染专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://infect.cmt.com.cn/detail/1331112.html" title="罗伊氏乳杆菌或能缓解婴儿过度哭闹" target="_blank">·罗伊氏乳杆菌或能缓解婴儿过度哭闹</a></h1></li>  <li><a href="http://infect.cmt.com.cn/detail/1331110.html" title="基因疗法有一天会彻底消灭艾滋病" target="_blank">·基因疗法有一天会彻底消灭艾滋病</a></li><li><a href="http://infect.cmt.com.cn/detail/1331109.html" title="常见的节育措施与HIV感染风险有关" target="_blank">·常见的节育措施与HIV感染风险有关</a></li><li><a href="http://infect.cmt.com.cn/detail/1331104.html" title="糖添加剂可能会带动一个最激进的超级细菌的崛起" target="_blank">·糖添加剂可能会带动一个最激进的超级细菌的</a></li><li><a href="http://cmt.com.cn/detail/1330983.html" title="40年后埃博拉幸存者体内仍留存病毒抗体" target="_blank">·40年后埃博拉幸存者体内仍留存病毒抗体</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://respir.cmt.com.cn" target="_blank">呼吸<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://respir.cmt.com.cn" target="_blank">呼吸专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://respir.cmt.com.cn/detail/1330707.html" title="氧化应激标志物与哮喘的特点分析！" target="_blank">·氧化应激标志物与哮喘的特点分析！</a></h1></li>  <li><a href="http://respir.cmt.com.cn/detail/1330706.html" title="饮酒对急性呼吸窘迫综合征风险的影响！" target="_blank">·饮酒对急性呼吸窘迫综合征风险的影响！</a></li><li><a href="http://respir.cmt.com.cn/detail/1330705.html" title="糖尿病对限制性和阻塞性肺功能损害影响" target="_blank">·糖尿病对限制性和阻塞性肺功能损害影响</a></li><li><a href="http://respir.cmt.com.cn/detail/1330704.html" title="吸烟、血浆可替宁与房颤风险！" target="_blank">·吸烟、血浆可替宁与房颤风险！</a></li><li><a href="http://respir.cmt.com.cn/detail/1330703.html" title="结核分枝杆菌突变与耐药" target="_blank">·结核分枝杆菌突变与耐药</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://neur.cmt.com.cn" target="_blank">神经<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://neur.cmt.com.cn" target="_blank">神经专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://neur.cmt.com.cn/detail/1331097.html" title="帕金森病患者冬季护理需要注意哪些问题？" target="_blank">·帕金森病患者冬季护理需要注意哪些问题</a></h1></li>  <li><a href="http://ger.cmt.com.cn/detail/1331063.html" title="端粒效应——揭开染色体与衰老之间的秘密" target="_blank">·端粒效应——揭开染色体与衰老之间的秘密</a></li><li><a href="http://neur.cmt.com.cn/detail/1331061.html" title="这十类人服用阿司匹林要谨慎！  " target="_blank">·这十类人服用阿司匹林要谨慎！  </a></li><li><a href="http://neur.cmt.com.cn/detail/1331055.html" title="深部脑刺激对颈肌张力障碍的局部缓解" target="_blank">·深部脑刺激对颈肌张力障碍的局部缓解</a></li><li><a href="http://neur.cmt.com.cn/detail/1330929.html" title="急诊视神经头水肿发病率、特征及诊断" target="_blank">·急诊视神经头水肿发病率、特征及诊断</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://psy.cmt.com.cn" target="_blank">精神卫生<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://psy.cmt.com.cn" target="_blank">精神卫生专区</a></p>
+  </div>
+  <ul class="list_320">
+ <li><h1><a href="http://psy.cmt.com.cn/detail/1331130.html" title="注意！饮食对于孩子精神健康至关重要！" target="_blank">·注意！饮食对于孩子精神健康至关重要！</a></h1></li>  <li><a href="http://psy.cmt.com.cn/detail/1331064.html" title="被误解几百年的精神分裂症" target="_blank">·被误解几百年的精神分裂症</a></li><li><a href="http://psy.cmt.com.cn/detail/1331062.html" title="AI 调控的深脑刺激，会是抑郁症患者的福音吗？" target="_blank">·AI 调控的深脑刺激，会是抑郁症患者的福</a></li><li><a href="http://psy.cmt.com.cn/detail/1331054.html" title="加拿大脑研究所开放自闭症研究数据" target="_blank">·加拿大脑研究所开放自闭症研究数据</a></li><li><a href="http://psy.cmt.com.cn/detail/1330584.html" title="每天一份叶菜大脑更年轻" target="_blank">·每天一份叶菜大脑更年轻</a></li>  </ul>
+ </div>
+
+  <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://rheum.cmt.com.cn" target="_blank">风湿<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://rheum.cmt.com.cn" target="_blank">风湿专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://rheum.cmt.com.cn/detail/1331048.html" title="有一种海产，痛风患者也能吃！" target="_blank">·有一种海产，痛风患者也能吃！</a></h1></li>  <li><a href="http://rheum.cmt.com.cn/detail/1331047.html" title="尿酸不高也痛风？尿酸降了也要吃药！" target="_blank">·尿酸不高也痛风？尿酸降了也要吃药！</a></li><li><a href="http://rheum.cmt.com.cn/detail/1331046.html" title="稳定多年的狼疮复发，竟是因为吃了......" target="_blank">·稳定多年的狼疮复发，竟是因为吃了....</a></li><li><a href="http://rheum.cmt.com.cn/detail/1331045.html" title="真焦虑还是假强直？" target="_blank">·真焦虑还是假强直？</a></li><li><a href="http://rheum.cmt.com.cn/detail/1331044.html" title="口干眼也干？警惕干燥症！" target="_blank">·口干眼也干？警惕干燥症！</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://kidney.cmt.com.cn" target="_blank">肾病<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://kidney.cmt.com.cn" target="_blank">肾病专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://kidney.cmt.com.cn/detail/1330759.html" title="二甲双胍治疗2型糖尿病和慢性肾脏病效果分析！" target="_blank">·二甲双胍治疗2型糖尿病和慢性肾脏病效</a></h1></li>  <li><a href="http://kidney.cmt.com.cn/detail/1330603.html" title="10个告诉你肾脏可能出现问题的警讯！" target="_blank">·10个告诉你肾脏可能出现问题的警讯！</a></li><li><a href="http://kidney.cmt.com.cn/detail/1330594.html" title="肾病患者最应该关注的两个指标" target="_blank">·肾病患者最应该关注的两个指标</a></li><li><a href="http://kidney.cmt.com.cn/detail/1330591.html" title="为什么，建议肾友必要时补充维生素K？" target="_blank">·为什么，建议肾友必要时补充维生素K？</a></li><li><a href="http://kidney.cmt.com.cn/detail/1330467.html" title="高血压导致肾病与肾病导致高血压的区别" target="_blank">·高血压导致肾病与肾病导致高血压的区别</a></li>  </ul>
+ </div>
+
+<!-- 广告 -->
+ <div class="banner_655"><script src="http://ad.cmt.com.cn/Ad/243.js" type="text/javascript"></script><layer id="BannerZoneAD_Div243" width="655px" height="80px"><a href="http://www.cmt.com.cn/show/index/3366" target="_blank" title="http://www.cmt.com.cn/show/index/3366"><img name="AD_435" id="AD_435" src="http://ad.cmt.com.cn/upload/20170210/201702101425088646.jpg" width="655" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/243.js" type="hidden"></div>
+<!-- 广告 -->
+ <div class="all_655">
+  <div class="head_655">
+  <div class="head_655_left">
+  </div>
+  <a><img src="http://www.cmt.com.cn/Public/images/head_icon.jpg"></a>
+  <h1><a href="http://Surg.cmt.com.cn" target="_blank">外科学</a></h1>
+    <div class="head_655_right">
+  </div>
+  <!-- <p><a href="#">乳腺癌</a><strong>|</strong><a href="#">高血压</a><strong>|</strong><a href="#">心血管</a><strong>|</strong><a href="#">糖尿病</a><strong>|</strong><a href="#">胰岛素</a><strong>|</strong><a href="#">禽流感</a></p> -->
+
+  </div>
+   <div class="news_flash_300">
+  <div id="slides_02" class="banner_small">
+<div class="bannerImg">
+	<div class="slides_container" style="overflow: hidden; position: relative; display: block;">
+    <div class="slides_control" style="position: relative; width: 2775px; height: 230px; left: -925px;"><div style="position: absolute; top: 0px; left: 925px; z-index: 0;"><a href="http://orth.cmt.com.cn/detail/1329710.html" title="【专题】肩关节疾病，你要知道这些！" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20180102_105645.jpg" alt="【专题】肩关节疾病，你要知道这些！" title="【专题】肩关节疾病，你要知道这些！" width="300" height="200"></a><div class="img_bg"><p>【专题】肩关节疾病，你要知道这些！</p></div></div><div style="position: absolute; top: 0px; left: 925px; z-index: 0; display: none;"><a href="http://dermatology.cmt.com.cn/detail/1327235.html" title="咦！难道不是术后一周拆线吗？" target="_blank"><img src="http://cache1.medsci.cn/webeditor/uploadfile/201711/20171119123942487_s.jpg" alt="咦！难道不是术后一周拆线吗？" title="咦！难道不是术后一周拆线吗？" width="300" height="200"></a><div class="img_bg"><p>咦！难道不是术后一周拆线吗？</p></div></div><div style="position: absolute; top: 0px; left: 925px; z-index: 0; display: none;"><a href="http://cmt.com.cn/detail/1327229.html" title="肺部小结节意外情况定位" target="_blank"><img src="http://cache1.medsci.cn/webeditor/uploadfile/201711/20171127214803510.png" alt="肺部小结节意外情况定位" title="肺部小结节意外情况定位" width="300" height="200"></a><div class="img_bg"><p>肺部小结节意外情况定位</p></div></div></div>  </div>
+<div class="bannerPage"><ul class="pagination"><li class="current"><a href="#0">1</a></li><li><a href="#1">2</a></li><li><a href="#2">3</a></li></ul></div></div>
+</div>
+<script>
+	$(function(){
+		//滚动Banner图片的显示
+		$('#slides_02').slides({
+			preload: false,
+			preloadImage: '/images/loading.gif',
+			effect: 'fade',
+			slideSpeed: 400,
+			fadeSpeed: 100,
+			play: 3000,
+			pause: 100,
+			hoverPause: true
+		});
+    	});
+	</script>
+  </div>
+  <ul class="news_flash_right_list">
+  <li><h1><a href="http://cmt.com.cn/detail/1330617.html" title="每天涂胳膊上就能避孕" target="_blank">·每天涂胳膊上就能避孕</a></h1></li>  <li><a href="http://cmt.com.cn/detail/1330614.html" title="新标志物让乳腺癌“现形”" target="_blank">·新标志物让乳腺癌“现形”</a></li><li><a href="http://cmt.com.cn/detail/1330527.html" title="华中地区首例经皮肺动脉带瓣支架植入术！" target="_blank">·华中地区首例经皮肺动脉带瓣支架植入术！</a></li><li><a href="http://cmt.com.cn/detail/1330504.html" title="结直肠癌综合治疗中的研究进展" target="_blank">·结直肠癌综合治疗中的研究进展</a></li><li><a href="http://cmt.com.cn/detail/1330502.html" title="血透通路构建及维护新进展" target="_blank">·血透通路构建及维护新进展</a></li><li><a href="http://cmt.com.cn/detail/1330335.html" title="左侧桥小脑角表皮样囊肿致三叉神经痛" target="_blank">·左侧桥小脑角表皮样囊肿致三叉神经痛</a></li><li><a href="http://cmt.com.cn/detail/1330331.html" title="【典型案例】胸腔镜微创手术显神通" target="_blank">·【典型案例】胸腔镜微创手术显神通</a></li><li><a href="http://cmt.com.cn/detail/1330328.html" title="外科专家杨春康：什么人易患大肠癌？" target="_blank">·外科专家杨春康：什么人易患大肠癌？</a></li><li><a href="http://cmt.com.cn/detail/1330172.html" title="肾移植术：腹腔镜VS开放" target="_blank">·肾移植术：腹腔镜VS开放</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://www.cmt.com.cn/slist/20.html" target="_blank">普外<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://www.cmt.com.cn/slist/20.html" target="_blank">普外专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://cmt.com.cn/detail/1330614.html" title="新标志物让乳腺癌“现形”" target="_blank">·新标志物让乳腺癌“现形”</a></h1></li>  <li><a href="http://cmt.com.cn/detail/1320882.html" title="健康素养与腹部外科手术预后" target="_blank">·健康素养与腹部外科手术预后</a></li><li><a href="http://cmt.com.cn/detail/1320814.html" title="新研究使肝移植成功率大大增加！" target="_blank">·新研究使肝移植成功率大大增加！</a></li><li><a href="http://cmt.com.cn/detail/1320277.html" title="布洛芬比口服吗啡更好地在小手术后疼痛儿童缓解" target="_blank">·布洛芬比口服吗啡更好地在小手术后疼痛儿童</a></li><li><a href="http://cmt.com.cn/detail/1320139.html" title="全球首例肝脏 " 热移植""="" target="_blank">·全球首例肝脏 "热移植"</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://orth.cmt.com.cn" target="_blank">骨科<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://orth.cmt.com.cn" target="_blank">骨科专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://orth.cmt.com.cn/detail/1329710.html" title="【专题】肩关节疾病，你要知道这些！" target="_blank">·【专题】肩关节疾病，你要知道这些！</a></h1></li>  <li><a href="http://orth.cmt.com.cn/detail/1331095.html" title="股骨头坏死慎服止痛药 " target="_blank">·股骨头坏死慎服止痛药 </a></li><li><a href="http://orth.cmt.com.cn/detail/1331093.html" title="你的肩胛骨在正确的位置上吗? " target="_blank">·你的肩胛骨在正确的位置上吗? </a></li><li><a href="http://orth.cmt.com.cn/detail/1330916.html" title="莫要忽视肋软骨骨折，防千里之堤溃于蚁穴！" target="_blank">·莫要忽视肋软骨骨折，防千里之堤溃于蚁穴！</a></li><li><a href="http://orth.cmt.com.cn/detail/1330915.html" title="自体脂肪干细胞治疗膝关节炎安全、有效" target="_blank">·自体脂肪干细胞治疗膝关节炎安全、有效</a></li>  </ul>
+ </div>
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://www.cmt.com.cn/slist/21.html" target="_blank">心胸外<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://www.cmt.com.cn/slist/21.html" target="_blank">心胸外专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://cmt.com.cn/detail/1331107.html" title="戒烟的最佳方法，降低您的肺癌风险" target="_blank">·戒烟的最佳方法，降低您的肺癌风险</a></h1></li>  <li><a href="http://cmt.com.cn/detail/1330527.html" title="华中地区首例经皮肺动脉带瓣支架植入术！" target="_blank">·华中地区首例经皮肺动脉带瓣支架植入术！</a></li><li><a href="http://cmt.com.cn/detail/1330331.html" title="【典型案例】胸腔镜微创手术显神通" target="_blank">·【典型案例】胸腔镜微创手术显神通</a></li><li><a href="http://cmt.com.cn/detail/1329967.html" title="科学家利用细菌纤维素开发气管假体" target="_blank">·科学家利用细菌纤维素开发气管假体</a></li><li><a href="http://cmt.com.cn/detail/1329720.html" title="新方法可提前诊断乳腺癌" target="_blank">·新方法可提前诊断乳腺癌</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://www.cmt.com.cn/slist/22.html" target="_blank">神外<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://www.cmt.com.cn/slist/22.html" target="_blank">神外专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://cmt.com.cn/detail/1328306.html" title="产后卒中的时机及危险因素分析！" target="_blank">·产后卒中的时机及危险因素分析！</a></h1></li>  <li><a href="http://neur.cmt.com.cn/detail/1328304.html" title="阿尔茨海默病潜在可变风险因素研究" target="_blank">·阿尔茨海默病潜在可变风险因素研究</a></li><li><a href="http://cmt.com.cn/detail/1328301.html" title="空腹血糖与脑出血风险有关" target="_blank">·空腹血糖与脑出血风险有关</a></li><li><a href="http://cmt.com.cn/detail/1327565.html" title="皮质下微梗死人群的血压轨迹异常" target="_blank">·皮质下微梗死人群的血压轨迹异常</a></li><li><a href="http://cmt.com.cn/detail/1327458.html" title="脑瘫治疗要早 术后康复要全" target="_blank">·脑瘫治疗要早 术后康复要全</a></li>  </ul>
+ </div>
+
+<!-- 广告 -->
+ <div class="banner_655"><script src="http://ad.cmt.com.cn/Ad/245.js" type="text/javascript"></script><layer id="BannerZoneAD_Div245" width="655px" height="80px"><a href="http://circ.cmt.com.cn/detail/1289397.html" target="_blank" title="http://circ.cmt.com.cn/detail/1289397.html"><img name="AD_487" id="AD_487" src="http://ad.cmt.com.cn/upload/20170320/201703201135002650.jpg" width="655" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/245.js" type="hidden"></div>
+<!-- 广告 -->
+ <div class="all_655">
+  <div class="head_655">
+  <div class="head_655_left">
+  </div>
+  <a><img src="http://www.cmt.com.cn/Public/images/head_icon.jpg"></a>
+  <h1><a href="http://obgyn.cmt.com.cn" target="_blank">妇儿</a></h1>
+    <div class="head_655_right">
+  </div>
+  <!-- <p><a href="#">乳腺癌</a><strong>|</strong><a href="#">高血压</a><strong>|</strong><a href="#">心血管</a><strong>|</strong><a href="#">糖尿病</a><strong>|</strong><a href="#">胰岛素</a><strong>|</strong><a href="#">禽流感</a></p> -->
+
+  </div>
+ </div>
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://obgyn.cmt.com.cn" target="_blank">妇产科<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://obgyn.cmt.com.cn" target="_blank">妇产科专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://obgyn.cmt.com.cn/detail/1330718.html" title="不良妊娠结局与中年血压的关系！" target="_blank">·不良妊娠结局与中年血压的关系！</a></h1></li>  <li><a href="http://obgyn.cmt.com.cn/detail/1330717.html" title="孕早期托吡酯使用与新生儿唇腭裂风险" target="_blank">·孕早期托吡酯使用与新生儿唇腭裂风险</a></li><li><a href="http://obgyn.cmt.com.cn/detail/1330716.html" title="PM1超标可导致早产" target="_blank">·PM1超标可导致早产</a></li><li><a href="http://obgyn.cmt.com.cn/detail/1330713.html" title="新辅助化疗可提高晚期上皮性卵巢癌3年生存期" target="_blank">·新辅助化疗可提高晚期上皮性卵巢癌3年生存</a></li><li><a href="http://obgyn.cmt.com.cn/detail/1330711.html" title="宫颈癌淋巴结切除适应证和争议" target="_blank">·宫颈癌淋巴结切除适应证和争议</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://ped.cmt.com.cn" target="_blank">儿科<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://ped.cmt.com.cn" target="_blank">儿科专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://ped.cmt.com.cn/detail/1328920.html" title="小儿难治性癫痫服药无效咋办？" target="_blank">·小儿难治性癫痫服药无效咋办？</a></h1></li>  <li><a href="http://ped.cmt.com.cn/detail/1330222.html" title="全国告急！儿科候诊超8小时，谁来破解急诊不急的难题?" target="_blank">·全国告急！儿科候诊超8小时，谁来破解急诊</a></li><li><a href="http://cmt.com.cn/detail/1330150.html" title="阴茎假体的初级和继发植入后的并发症" target="_blank">·阴茎假体的初级和继发植入后的并发症</a></li><li><a href="http://cmt.com.cn/detail/1330149.html" title="阴茎勃起功能障碍病人中潜在的结核感染研究" target="_blank">·阴茎勃起功能障碍病人中潜在的结核感染研究</a></li><li><a href="http://cmt.com.cn/detail/1330148.html" title="做爱要小心！阴茎折断对心理影响时间较长" target="_blank">·做爱要小心！阴茎折断对心理影响时间较长</a></li>  </ul>
+ </div>
+
+ <div class="all_655">
+  <div class="head_655">
+  <div class="head_655_left">
+  </div>
+  <a><img src="http://www.cmt.com.cn/Public/images/head_icon.jpg"></a>
+  <h1><a href="/clist/18837.html">综合</a></h1>
+    <div class="head_655_right">
+  </div>
+  <!-- <p><a href="#">乳腺癌</a><strong>|</strong><a href="#">高血压</a><strong>|</strong><a href="#">心血管</a><strong>|</strong><a href="#">糖尿病</a><strong>|</strong><a href="#">胰岛素</a><strong>|</strong><a href="#">禽流感</a></p> -->
+
+  </div>
+
+   <div class="news_flash_300">
+  <div id="slides_03" class="banner_small">
+<div class="bannerImg">
+	<div class="slides_container" style="overflow: hidden; position: relative; display: block;">
+    <div class="slides_control" style="position: relative; width: 2775px; height: 230px; left: -925px;"><div style="position: absolute; top: 0px; left: 925px; z-index: 0;"><a href="http://gi.cmt.com.cn/detail/1326666.html" title="【专题】肠道菌群，为何如此神奇" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171207_091252.jpg" alt="【专题】肠道菌群，为何如此神奇" title="【专题】肠道菌群，为何如此神奇" width="300" height="200"></a><div class="img_bg"><p>【专题】肠道菌群，为何如此神奇</p></div></div><div style="position: absolute; top: 0px; left: 925px; z-index: 0; display: none;"><a href="http://hum.cmt.com.cn/detail/1325840.html" title="国务院批复“中国医师节”" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171121_102900.jpg" alt="国务院批复“中国医师节”" title="国务院批复“中国医师节”" width="300" height="200"></a><div class="img_bg"><p>国务院批复“中国医师节”</p></div></div><div style="position: absolute; top: 0px; left: 925px; z-index: 0; display: none;"><a href="http://rheum.cmt.com.cn/detail/1320074.html" title="风云人物榜之刘湘源" target="_blank"><img src="http://pic1.cmt.com.cn/newspic/images/20171009_141244.jpg" alt="风云人物榜之刘湘源" title="风云人物榜之刘湘源" width="300" height="200"></a><div class="img_bg"><p>风云人物榜之刘湘源</p></div></div></div>	</div>
+<div class="bannerPage"><ul class="pagination"><li class="current"><a href="#0">1</a></li><li><a href="#1">2</a></li><li><a href="#2">3</a></li></ul></div></div>
+</div>
+<script>
+	$(function(){
+		//滚动Banner图片的显示
+		$('#slides_03').slides({
+			preload: false,
+			preloadImage: '/images/loading.gif',
+			effect: 'fade',
+			slideSpeed: 400,
+			fadeSpeed: 100,
+			play: 3000,
+			pause: 100,
+			hoverPause: true
+		});
+
+    	});
+	</script>
+  </div>
+  <ul class="news_flash_right_list">
+  <li><h1><a href="http://cancer.cmt.com.cn/detail/1330872.html" title="戒烟的最佳方法，降低您的肺癌风险" target="_blank">·戒烟的最佳方法，降低您的肺癌风险</a></h1></li>  <li><a href="http://cancer.cmt.com.cn/detail/1330631.html" title="新研究确定引发许多癌症的“根源”！" target="_blank">·新研究确定引发许多癌症的“根源”！</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330630.html" title="基因融合下游致癌信号被揭示" target="_blank">·基因融合下游致癌信号被揭示</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330629.html" title="解析重离子如何治疗肿瘤" target="_blank">·解析重离子如何治疗肿瘤</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330628.html" title="2018年值得关注的肿瘤免疫治疗药物" target="_blank">·2018年值得关注的肿瘤免疫治疗药物</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330627.html" title="乳腺癌细胞化疗耐药的重要信号通路！" target="_blank">·乳腺癌细胞化疗耐药的重要信号通路！</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330626.html" title="如何保证DPYD变异的肿瘤患者用药更安全？" target="_blank">·如何保证DPYD变异的肿瘤患者用药更</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330625.html" title="2018年或将是中国肿瘤创新药上市大年" target="_blank">·2018年或将是中国肿瘤创新药上市大</a></li><li><a href="http://cancer.cmt.com.cn/detail/1330624.html" title="2018年1月Gastroenterology研究精选" target="_blank">·2018年1月Gastroenter</a></li>  </ul>
+ </div>
+  <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://gp.cmt.com.cn" target="_blank">全科医学<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://gp.cmt.com.cn" target="_blank">全科医学专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://gp.cmt.com.cn/detail/1331060.html" title="探索极端天气对人类健康的长期影响迫在眉睫" target="_blank">·探索极端天气对人类健康的长期影响迫在</a></h1></li>  <li><a href="http://gp.cmt.com.cn/detail/1331057.html" title="深度学习将眼睛变成健康“指示器”" target="_blank">·深度学习将眼睛变成健康“指示器”</a></li><li><a href="http://gp.cmt.com.cn/detail/1330752.html" title="今年流感堪比SARS，必须扼杀在摇篮！" target="_blank">·今年流感堪比SARS，必须扼杀在摇篮！</a></li><li><a href="http://respir.cmt.com.cn/detail/1330705.html" title="糖尿病对限制性和阻塞性肺功能损害影响" target="_blank">·糖尿病对限制性和阻塞性肺功能损害影响</a></li><li><a href="http://respir.cmt.com.cn/detail/1330698.html" title="今年流感威力远超你想象！" target="_blank">·今年流感威力远超你想象！</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://ger.cmt.com.cn" target="_blank">老年医学<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://ger.cmt.com.cn" target="_blank">老年医学专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://ger.cmt.com.cn/detail/1331099.html" title="帕金森不光是手抖，这些问题同样很重要" target="_blank">·帕金森不光是手抖，这些问题同样很重要</a></h1></li>  <li><a href="http://ger.cmt.com.cn/detail/1331098.html" title="蓝莓可改善老年人的大脑功能" target="_blank">·蓝莓可改善老年人的大脑功能</a></li><li><a href="http://ger.cmt.com.cn/detail/1330538.html" title="老年人常服用的骨质疏松类药物隐藏着可怕的副作用" target="_blank">·老年人常服用的骨质疏松类药物隐藏着可怕的</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1330438.html" title="“老药新用”？ 一糖尿病药物有望逆转老年痴呆" target="_blank">·“老药新用”？ 一糖尿病药物有望逆转老年</a></li><li><a href="http://ger.cmt.com.cn/detail/1329646.html" title="专家揭秘长寿的两大秘诀！  " target="_blank">·专家揭秘长寿的两大秘诀！  </a></li>  </ul>
+ </div>
+  <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://dental.cmt.com.cn" target="_blank">口腔<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://dental.cmt.com.cn" target="_blank">口腔专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://dental.cmt.com.cn/detail/1320763.html" title="牙周炎越重，肺功能越差" target="_blank">·牙周炎越重，肺功能越差</a></h1></li>  <li><a href="http://dental.cmt.com.cn/detail/1320762.html" title="如何做好学龄前及学龄期的口腔保健" target="_blank">·如何做好学龄前及学龄期的口腔保健</a></li><li><a href="http://dental.cmt.com.cn/detail/1320707.html" title="99%的人都会犯的牙齿急救错误" target="_blank">·99%的人都会犯的牙齿急救错误</a></li><li><a href="http://dental.cmt.com.cn/detail/1320703.html" title="朱仁义：口腔科用水检测及消毒研究" target="_blank">·朱仁义：口腔科用水检测及消毒研究</a></li><li><a href="http://dental.cmt.com.cn/detail/1320702.html" title="牙医技巧：口内缝合术" target="_blank">·牙医技巧：口内缝合术</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://emerg.cmt.com.cn" target="_blank">急诊<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://emerg.cmt.com.cn" target="_blank">急诊专区</a></p>
+  </div>
+  <ul class="list_320">
+   <li><h1><a href="http://emerg.cmt.com.cn/detail/1329154.html" title="ICU镇静，怎样更安逸地停留？" target="_blank">·ICU镇静，怎样更安逸地停留？</a></h1></li>  <li><a href="http://emerg.cmt.com.cn/detail/1329028.html" title="急性毒品中毒（三）：右美沙芬中毒" target="_blank">·急性毒品中毒（三）：右美沙芬中毒</a></li><li><a href="http://emerg.cmt.com.cn/detail/1325123.html" title="急性中毒—碳氮氧化合物（三）：氨" target="_blank">·急性中毒—碳氮氧化合物（三）：氨</a></li><li><a href="http://emerg.cmt.com.cn/detail/1325119.html" title="逢胸话急 | 合理评估，规范治疗" target="_blank">·逢胸话急 | 合理评估，规范治疗</a></li><li><a href="http://emerg.cmt.com.cn/detail/1325099.html" title="秋天的故事2 | 急诊界" target="_blank">·秋天的故事2 | 急诊界</a></li>  </ul>
+ </div>
+
+  <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://cpstcc.cmt.com.cn" target="_blank">控烟<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://cpstcc.cmt.com.cn" target="_blank">控烟专区</a></p>
+  </div>
+  <ul class="list_320">
+  <li><h1><a href="http://endo.cmt.com.cn/detail/1325587.html" title="科学研究表明：大量饮酒和吸烟与明显的衰老迹象有关" target="_blank">·科学研究表明：大量饮酒和吸烟与明显的</a></h1></li>  <li><a href="http://cmt.com.cn/detail/1323640.html" title="吸烟的又一大危害被揭发！" target="_blank">·吸烟的又一大危害被揭发！</a></li><li><a href="http://diabetes.cmt.com.cn/detail/1321436.html" title="吸烟导致患糖尿病风险增高 预防糖尿病应避免能量过剩" target="_blank">·吸烟导致患糖尿病风险增高 预防糖尿病应避</a></li><li><a href="http://cmt.com.cn/detail/1320699.html" title="吸烟如何影响男性精子质量？" target="_blank">·吸烟如何影响男性精子质量？</a></li><li><a href="http://cmt.com.cn/detail/1320698.html" title="吸烟与血管疾病" target="_blank">·吸烟与血管疾病</a></li>  </ul>
+ </div>
+
+ <div class="box_320">
+  <div class="head_320">
+  <h1><a href="http://dermatology.cmt.com.cn" target="_blank">皮肤性病<strong>&gt;&gt;</strong></a></h1>
+  <p><a href="http://dermatology.cmt.com.cn" target="_blank">皮肤性病专区</a></p>
+  </div>
+  <ul class="list_320">
+   <li><h1><a href="http://dermatology.cmt.com.cn/detail/1327874.html" title="【专题】2017世界艾滋病日" target="_blank">·【专题】2017世界艾滋病日</a></h1></li>  <li><a href="http://dermatology.cmt.com.cn/detail/1320904.html" title="MS 治疗或发生重大突破" target="_blank">·MS 治疗或发生重大突破</a></li><li><a href="http://dermatology.cmt.com.cn/detail/1320818.html" title="严重牛皮癣的治疗方案大全" target="_blank">·严重牛皮癣的治疗方案大全</a></li><li><a href="http://dermatology.cmt.com.cn/detail/1320678.html" title="BMJ Open：唐索奇恩格里翁在治疗常年变应性鼻炎的效果和安全性分析预告" target="_blank">·BMJ Open：唐索奇恩格里翁在治疗常</a></li><li><a href="http://dermatology.cmt.com.cn/detail/1320677.html" title="吸烟是否与化脓性汗腺炎相关？" target="_blank">·吸烟是否与化脓性汗腺炎相关？</a></li>  </ul>
+ </div>
+<!-- 广告 -->
+ <div class="banner_980"><script src="http://ad.cmt.com.cn/Ad/246.js" type="text/javascript"></script><layer id="BannerZoneAD_Div246" width="980px" height="80px"><a href="http://zt.cmt.com.cn/zt/cmt30/index.html" target="_blank" title="http://zt.cmt.com.cn/zt/cmt30/index.html"><img name="AD_294" id="AD_294" src="http://ad.cmt.com.cn/upload/20130925/201309250952057812.jpg" width="980" height="80" border="0"></a></layer>
+ <input name="js" class="js" value="http://ad.cmt.com.cn/Ad/246.js" type="hidden"></div>
+<!-- 广告 -->
+</div>
+<!--底部信息开始-->
+<div class="bottom_all_bg">
+ <div class="bottom_980">
+   <div class="bottom_left">
+     <h1><a>关于医学论坛网</a></h1>
+     <ul>
+       <li><a href="#" target="_blank">广告条款</a></li>
+       <li><a href="http://www.zhongzi.com.cn/" target="_blank">法律顾问</a></li>
+       <li><a href="http://www.cmt.com.cn/About/Contact" target="_blank">联系我们</a></li>
+       <li><a href="http://www.cmt.com.cn/About/link" target="_blank">友情链接</a></li>
+       <li><a href="http://www.cmt.com.cn/About/Reserved" target="_blank">版权声明</a></li>
+       <li><a href="http://www.cmt.com.cn/About/Rrans" target="_blank">关于我们</a></li>
+       <li><a href="http://www.cmt.com.cn/About/Elite" target="_blank">诚聘英才</a></li>
+       <li><a href="http://www.cmt.com.cn/About/sitemap" target="_blank">网站地图</a></li>
+     </ul>
+   </div>
+
+   <div class="bottom_cen">
+     <h1><a>医学论坛网旗下网站</a></h1>
+     <ul>
+       <li><a href="http://cancer.cmt.com.cn" target="_blank">医学论坛网-肿瘤网</a></li>
+       <li><a href="http://emerg.cmt.com.cn" target="_blank">医学论坛网-急诊网</a></li>
+       <li><a href="http://dental.cmt.com.cn" target="_blank">医学论坛网-口腔网</a></li>
+       <li><a href="http://hep.cmt.com.cn" target="_blank">医学论坛网-肝病网</a></li>
+       <li><a href="http://cpstcc.cmt.com.cn" target="_blank">医学论坛网-控烟网</a></li>
+       <li><a href="http://dermatology.cmt.com.cn" target="_blank">医学论坛网-皮肤性病网</a></li>
+       <li><a href="http://ger.cmt.com.cn" target="_blank">医学论坛网-老年网</a></li>
+     </ul>
+   </div>
+
+   <div class="bottom_right">
+     <h1><a>战略合作伙伴</a></h1>
+     <ul>
+       <li><a href="http://www.moh.gov.cn/" target="_blank">国家卫生和计划生育委员会</a></li>
+       <li><a href="http://www.cma.org.cn/" target="_blank">中华医学会</a></li>
+       <li><a href="http://www.cmda.net/" target="_blank">中国医师协会</a></li>
+       <li><a href="http://www.chinacdc.cn/" target="_blank">中国疾病预防控制中心</a></li>
+       <li><a href="http://www.cpma.org.cn/" target="_blank">中华预防医学会</a></li>
+       <li><a href="http://www.cndent.com" target="_blank">中华口腔医学会</a></li>
+       <li><a href="http://jamanetwork.com/index.aspx#&amp;slider1=1" target="_blank">美国医学会杂志</a></li>
+       <li><a href="http://bjdentist.com/" target="_blank">北京口腔医学会</a></li>
+       <li><strong><a href="/Case/hezuo" target="_blank">更多伙伴&gt;</a></strong></li>
+     </ul>
+   </div>
+
+   <div class="bottom_YouQLJ">
+   <h1><a>友情链接</a></h1>
+   <p>
+   <a href="http://yixue.baidu.com/" target="_blank">百度医学</a>
+   <a href="http://yiliao.qq.com/" target="_blank">腾讯医疗</a>
+   <a href="http://www.medline.org.cn/" target="_blank">中华医学会杂志社</a>
+   <a href="http://www.jkb.com.cn/" target="_blank">健康报网</a>
+   <a href="http://www.elseviermed.cn/" target="_blank">爱唯医学网</a>
+   <a href="http://www.cn-healthcare.com/" target="_blank">中国健康界</a>
+   <a href="http://www.familydoctor.com.cn" target="_blank">家庭医生在线</a>
+   <a href="http://www.ccmtv.cn" target="_blank">医学视频网</a>
+   <a href="http://www.haoyisheng.com" target="_blank">好医生</a>
+   <strong><a href="http://www.cmt.com.cn/About/link" target="_blank">更多&gt;</a></strong>
+   </p>
+   </div>
+ </div>
+
+ <div class="BanQ_bg">
+  <div class="BanQ_980">
+    <p><strong>copyright©</strong>医学论坛网 版权所有，未经许可不得复制、转载或镜像 京ICP证120392号 京公网安备11010502031486号</p>
+    <!--
+    <p style="margin:0px;">互联网医疗保健信息服务审核同意书 互联网药品信息服务资格证书</p>
+    <br />-->
+<p><a href="http://www.cmt.com.cn/index/shenhezhengshu" target="_blank">京卫网审[2013]第0193号</a></p>
+<!-- <p><a href="http://www.cmt.com.cn/index/zizhizhengshu" target="_blank">互联网药品信息服务资格证书：（京）-经营性-2012-0005 </a></p> -->
+  </div>
+ </div>
+</div>
+
+<!-- <div class="YiJFK"></div> -->
+<!--192.168.10.3-->
+
+
+
+
+<div style="display:none">
+//站内统计
+<script type="text/JavaScript" language="javascript">
+//全站PVUV
+//app article,special,category,keshi,home
+(function() {
+        var ia = document.createElement('script');ia.type = 'text/javascript';ia.async = true;
+        ia.charset = 'utf-8';
+        ia.src = ' http://www.cmt.com.cn/Public/cmtia.js?'+'app=home'+'&aid=100000';
+        var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ia,s);
+})();
+</script>
+//百度统计
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe8a364517f535aa410071c6d23f36497' type='text/javascript'%3E%3C/script%3E"));
+</script><script src=" http://hm.baidu.com/h.js?e8a364517f535aa410071c6d23f36497" type="text/javascript"></script><a href="http://tongji.baidu.com/hm-web/welcome/ico?s=e8a364517f535aa410071c6d23f36497" target="_blank"><img border="0" src="http://eiv.baidu.com/hmt/icon/21.gif" width="20" height="20"></a>
+<!--CNZZ统计代码-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260208785'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1260208785' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1260208785"><a href="http://www.cnzz.com/stat/website.php?web_id=1260208785" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s11.cnzz.com/z_stat.php?id=1260208785" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1260208785&amp;t=z" charset="utf-8" type="text/javascript"></script>
+//站长统计
+<script src="http://s19.cnzz.com/stat.php?id=2889481&amp;web_id=2889481&amp;show=pic" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=2889481&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=2889481" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000063189'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000063189%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1000063189"><a href="http://www.cnzz.com/stat/website.php?web_id=1000063189" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic1.gif"></a></span><script src=" http://s22.cnzz.com/z_stat.php?id=1000063189&amp;show=pic1" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1000063189&amp;show=pic1&amp;t=z" charset="utf-8" type="text/javascript"></script>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".toggle_click,.down").click(function(){
+	    $(".FanK_position").toggle();
+	  })
+  $("#feedbackbtn").click(function(){
+    var feedbackemail=$('#input_mail').val();
+    var feedback=$("#feedback").val();
+    var feedbackname=$("#feedbackname").val();
+    if($.trim(feedback)==''){
+      alert("反馈内容不能为空");
+    }else{
+      $.post("/Feedback",{feedback:feedback,feedbackemail:feedbackemail,feedbackname:feedbackname},function(data){
+        if(data.status){
+         $('#input_mail').val('');
+         $("#feedback").val('');
+         $("#feedbackname").val('');
+          $(".FanK_position").toggle(1000);
+         alert('我们已收到您的反馈。谢谢!');
+        }else{
+          alert('提交失败');
+        }
+      },"json");
+    }
+  })
+});
+</script>
+<link rel="stylesheet" type="text/css" href="/cmt/Tpl/Public/ideaa/css/index.css">
+<div class="YiJFK">
+<div class="toggle_click"></div>
+<div class="FanK_position">
+
+      <div class="down"></div>
+      <span><i>*</i>我要反馈：</span>
+      <textarea id="feedback"></textarea>
+      <span>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</span>
+      <input type="text" name="feedbackname" id="feedbackname">
+      <span id="Fk_mail">邮&nbsp;&nbsp;&nbsp;&nbsp;箱：</span>
+      <input type="text" name="mail" id="input_mail">
+      <button type="button" id="feedbackbtn"></button>
+
+</div>
+</div></body></html>

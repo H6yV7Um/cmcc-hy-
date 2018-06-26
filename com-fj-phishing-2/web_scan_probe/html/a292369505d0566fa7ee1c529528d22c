@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<base href="http://fd.edufe.com.cn/">
+<title>东财在线学生社区</title>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/jquery.tools.scroller.min.js" type="text/javascript"></script>
+<script src="js/jquery.flash.min.js" type="text/javascript"></script>
+<script src="js/photo-gallery.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/bbs_index.css">
+<link type="text/css" rel="stylesheet" href="css/setting.css">
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/bbs.css">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<!--[if IE 6]>
+<script src="/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+<script>
+ DD_belatedPNG.fix('.png-ie6');
+</script>
+<![endif]-->
+<script src="js/hzslider.js" type="text/javascript"></script>
+<script>
+    function login_click()
+    {
+        var inner_html = '<form name="myform_top" id="myform_top" method="post" action="login.php" onsubmit="return r_submit(this);">';
+            inner_html += '<div class="dl_top"><input type="submit"  value=""/></div>';
+            inner_html += '<div class="login_dt">';
+            inner_html += '<div class="fleft" >用户名<input name="username" type="text"  style="width:130px;" class="input"/></div>';
+            inner_html += '<div class="fright">密码<input name="password" type="password" style="width:130px;" class="input"/></div>';
+            inner_html += '</div>';
+            inner_html += '<input type="hidden" name="refer" value="">';
+            inner_html += '</form>';
+            var top_login = document.getElementById("top_login");
+            top_login.innerHTML = inner_html ;
+    }
+</script>
+</head>
+<body>
+<!--头部-->
+<div id="header"><a href="http://fd.edufe.com.cn/" class="logo"></a>
+
+  
+
+<!--用户名-->
+
+<!--学生头像-->
+<!--学生头像-->
+
+<div id="top_login">
+    <div class="dl_top"><input type="submit" value="" onclick="login_click();"></div>
+</div>
+  </div><!--头部-->
+
+  <div id="globnav"><!--主导航背景-->
+  <div id="navbox"><!--主导航外容器-->
+  <div id="tel"></div><!--咨询电话-->
+  <div id="nav"><!--主导航列表-->
+  <ul>
+  <li><a href="http://www.edufe.com.cn/" id="edufe_nav"></a></li>
+  <li><a href="http://fd.edufe.com.cn/" id="index_nav" class="current_h"></a></li>
+  <li><a href="http://fd.edufe.com.cn/bbs.php" id="bbs_nav"></a></li>
+  <li><a href="http://fd.edufe.com.cn/magazine/index.php" id="magzina_nav"></a></li>
+  <li><a href="http://fd.edufe.com.cn/active/index.php" id="action_nav"></a></li>
+  </ul>
+  </div><!--主导航列表-->
+  </div><!--主导航外容器-->
+  </div><!--主导航背景--><div id="wrapper"><!--外容器-->
+<!--活动大图片-->
+<div id="photonews">
+<div id="slide-news" class="slide-news">
+<div class="slide-bd">
+<div class="slide-cnt" style="left: -618px;"><div class="cloned"><a href="http://www.edufe.com.cn/active/nbddp201804" target="_blank"><img src="upload/2018/0504/20180504022905680.jpg" width="618" height="348"></a></div>
+                        <div><a href="http://www.edufe.com.cn/active/dcby201806/" target="_blank"><img src="upload/2018/0601/20180601095359558.jpg" width="618" height="348"></a></div>
+                        <div><a href="http://www.edufe.com.cn/active/yxx201805y/" target="_blank"><img src="upload/2018/0529/20180529045942463.jpg" width="618" height="348"></a></div>
+                        <div><a href="http://www.edufe.com.cn/active/yxx201805/" target="_blank"><img src="upload/2018/0517/20180517023229882.jpg" width="618" height="348"></a></div>
+                        <div><a href="http://www.edufe.com.cn/active/nbddp201804" target="_blank"><img src="upload/2018/0504/20180504022905680.jpg" width="618" height="348"></a></div>
+            <div class="cloned"><a href="http://www.edufe.com.cn/active/dcby201806/" target="_blank"><img src="upload/2018/0601/20180601095359558.jpg" width="618" height="348"></a></div></div>
+</div>
+<div class="slide-desc">
+<div class="slide-desc-bd">
+            <p>“东财人·母校情”2018年毕业纪念活动报 </p>
+            <p class="hidden">益学习——申请学位常见问题解答</p>
+            <p class="hidden">益学习——关于毕业应该知道的那些事</p>
+            <p class="hidden">南北对对碰——西藏旅行分享</p>
+            </div>
+<b></b>
+</div>
+<ul class="slide-nav">
+                <li class="slide-act"><span>1</span></li>
+                <li><span>2</span></li>
+                <li><span>3</span></li>
+                <li><span>4</span></li>
+        </ul>
+</div><!-- 滑动图片新闻 -->
+<script>
+(function(){
+var desc = $(".slide-desc-bd").find("p"), index;
+$(".slide-bd").scrollable({
+circular: true,
+onSeek: function(event, tabIndex) {
+if(index !== tabIndex) {
+desc.addClass("hidden");
+$(desc[tabIndex]).removeClass("hidden");
+}
+index = tabIndex;
+}
+}).navigator({
+navi: ".slide-nav",
+naviItem: 'li',
+activeClass: 'slide-act'
+}).autoscroll({interval: 5000});
+})()
+</script>
+</div><!--活动大图片end-->
+
+<div class="stu_news"><!-- 活动列表 -->
+<div class="h1">
+            <a title="益学习——关于毕业应该知道的那些事" target="_blank" href="http://www.edufe.com.cn/active/yxx201805/">益学习——关于毕业应该知道...</a>
+    </div>
+            <a class="stu_act_t1" title="2018全国两会知识学习竞赛活动获奖名单发布" target="_blank" href="active/index.php?action=content&amp;id=1488">2018全国两会知识学习竞赛活动获奖名单发布</a>
+    <div class="line_te"></div><!-- 占位线 -->
+    <div class="h1">
+        <a title="南北对对碰——西藏旅行分享" target="_blank" href="http://www.edufe.com.cn/active/nbddp201804">南北对对碰——西藏旅行分享</a>
+    </div>
+        <a class="stu_act_t1" title="大学新鲜人-2018春" target="_blank" href="http://www.edufe.com.cn/active/dxxxr201804">大学新鲜人-2018春</a>
+    <div class="line_te"></div><!-- 占位线 -->
+<ul>
+<li><a title="《南北对对碰》学生访谈活动" target="_blank" href="http://www.edufe.com.cn/active/nbddp201712/">【文娱竞赛】《南北对对碰》学生访谈活动</a></li>
+<li><a title="东财网院第二届迎新网络才艺大赛活动开始啦！" target="_blank" href="http://www.edufe.com.cn/active/cyds201712/">【文娱竞赛】东财网院第二届迎新网络才艺大赛活动...</a></li>
+<li><a title="十九大理论学习知识竞赛活动开始啦！" target="_blank" href="http://fd.edufe.com.cn/view_topic.php?tid=ca4b1f59-de07-11e7-94aa-00505699c50b&amp;pid=e217a9ab-de07-11e">【文娱竞赛】十九大理论学习知识竞赛活动开始啦！</a></li>
+<li><a title="2017年学生母校行活动纪实" target="_blank" href="http://www.edufe.com.cn/active/mxx201709/">【母校游】2017年学生母校行活动纪实</a></li>
+<li><a title="2017年毕业纪念活动回顾" target="_blank" href="http://www.edufe.com.cn/active/bybm201706/">【毕业典礼】2017年毕业纪念活动回顾</a></li>
+<li><a title="“一路同行”线上主题交流活动(第一期) " target="_blank" href="http://fd.edufe.com.cn/view_topic.php?tid=8a31458a-6b21-11e6-959d-842b2bfad6a2">【文娱竞赛】“一路同行”线上主题交流活动(第一期...</a></li>
+</ul>
+<a href="active/index.php?action=special" class="fright MR10 stu_more">更多&gt;&gt;</a>
+</div><!-- 活动列表 -->
+<!--帖子列表-->
+<div id="postli" class="clear ">
+<ul>
+  <li class="fleft">
+  <div id="sun">
+  <div class="kec"><span class="s6"></span><span class="P14">课程辅导</span></div>
+  <dl style="height:182px;margin-left:15px;">
+        <dt><a href="/view_topic.php?tid=49cc399a-f95c-11e6-959d-842b2bfad6a2" target="_blank">会计学习方法</a></dt>
+    <dt><a href="/view_topic.php?tid=1aad6d32-be4d-11e5-8524-842b2bfad6a2" target="_blank">股权分散上市公司如何规避收购风险</a></dt>
+    <dt><a href="/view_topic.php?tid=cffccef4-be4c-11e5-8524-842b2bfad6a2" target="_blank">财政部 国家税务总局关于非营利组织免税资格...</a></dt>
+    <dt><a href="/view_topic.php?tid=f847dbce-be4c-11e5-8524-842b2bfad6a2" target="_blank">中天城投2015年中报点评:地产转型金融先锋,...</a></dt>
+    <dt><a href="/view_topic.php?tid=9688463a-be4c-11e5-8524-842b2bfad6a2" target="_blank">精华资料：管理会计新思维助零售业转型</a></dt>
+    <dt><a href="/view_topic.php?tid=b86058ec-be4c-11e5-8524-842b2bfad6a2" target="_blank">个税改革要动真格:抵扣范围明确</a></dt>
+      </dl>
+  <div class="more fright">
+        <a href="/board.php?bid=67dec91e-1631-11e3-b33f-005056b168c6">更多&gt;&gt;</a>
+    </div>
+  </div>
+  </li>
+  
+  
+  
+  <li class="fleft">
+  <div id="sun">
+  <div class="kec P14"><span class="s7"></span>阳光热线</div>
+  <dl style="height:182px;margin-left:15px;">
+    <dt title="学位咨询"><a href="/view_topic.php?tid=86da5cd3-6e22-11e8-94aa-00505699c50b" target="_blank">学位咨询</a></dt>
+    <dt title="关于学位下发"><a href="/view_topic.php?tid=fc6d55e8-68e2-11e8-94aa-00505699c50b" target="_blank">关于学位下发</a></dt>
+    <dt title="学位审核结果"><a href="/view_topic.php?tid=8c44a772-66f8-11e8-94aa-00505699c50b" target="_blank">学位审核结果</a></dt>
+    <dt title="学位英语考试有没有学习课程和学习材料"><a href="/view_topic.php?tid=aeaa8037-6305-11e8-94aa-00505699c50b" target="_blank">学位英语考试有没有学习课程和学习材料</a></dt>
+    <dt title="材料阅读如何下载"><a href="/view_topic.php?tid=810a4cc4-5e80-11e8-94aa-00505699c50b" target="_blank">材料阅读如何下载</a></dt>
+    <dt title="学位申请怎么停止了"><a href="/view_topic.php?tid=8f9a3fba-5c78-11e8-94aa-00505699c50b" target="_blank">学位申请怎么停止了</a></dt>
+    </dl>
+  <div class="more fright">
+      <a href="/board.php?bid=f40aefe0-d679-11e3-a35c-005056b168c6">进入&gt;&gt;</a>
+  </div>
+  </div>
+  </li>
+  <li class="fleft">
+  <div id="stu">
+  <div class="kec"><span class="s8"></span><span class="P14">学生交流</span></div>
+  <dl style="height:182px;margin-left:15px;">
+    <dt title="机考"><a href="/view_topic.php?tid=24b920cc-6f9d-11e8-94aa-00505699c50b" target="_blank">机考</a></dt>
+    <dt title="毕业"><a href="/view_topic.php?tid=fce7ba05-589e-11e8-94aa-00505699c50b" target="_blank">毕业</a></dt>
+    <dt title="总部合成"><a href="/view_topic.php?tid=e8b4fa5d-2d7f-11e8-94aa-00505699c50b" target="_blank">总部合成</a></dt>
+    <dt title="考研"><a href="/view_topic.php?tid=0b4555d3-29d9-11e8-94aa-00505699c50b" target="_blank">考研</a></dt>
+    <dt title="考研"><a href="/view_topic.php?tid=0b457024-29d9-11e8-94aa-00505699c50b" target="_blank">考研</a></dt>
+    <dt title="网院学生可以享受哪些东财的教学资源？"><a href="/view_topic.php?tid=9debad72-29d1-11e8-94aa-00505699c50b" target="_blank">网院学生可以享受哪些东财的教学资源？</a></dt>
+    </dl>
+  <div class="more fright">
+      <a href="/board.php?bid=11d1b768-d3f3-11e3-a35c-005056b168c6">进入&gt;&gt;</a>
+  </div>
+  </div>
+  </li>
+  </ul></div>
+<!--帖子列表-->
+
+<div id="picjs" class=""><!--兴趣图片区-->
+<div class="int_01 int_block">
+                <a target="_blank" href="/magazine/index.php"><img src="upload_export/2014/0527/20140527114730128.png" width="152" height="152">
+            <div class="cover" style="top: 152px; display: block;">
+                <p class="cover-text">
+                    猫                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<div class="int_02 int_block">
+            <a target="_blank" href="/magazine/index.php?action=content&amp;catid=77839820-e545-11e3-a35c-005056b168c6"><img src="upload_export/2014/0527/20140527114921538.png" width="314" height="152">
+            <div class="cover" style="top: 152px; display: block;">
+                <p class="cover-text">
+                    桥影                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<div class="int_03 int_block">
+            <a target="_blank" href="/magazine/index.php?action=content&amp;catid=5a344b02-e545-11e3-a35c-005056b168c6"><img src="upload_export/2014/0527/20140527114704800.png" width="152" height="152">
+            <div class="cover" style="top: 152px; display: block;">
+                <p class="cover-text">
+                    古井扬波                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<div class="int_04 int_block">
+            <a target="_blank" href="/magazine/index.php?action=content&amp;catid=5a344b02-e545-11e3-a35c-005056b168c6"><img src="upload_export/2014/0527/20140527114909625.png" width="312" height="314">
+            <div class="cover" style="top: 314px; display: block;">
+                <p class="cover-text">
+                    往事如烟                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<div class="int_05 int_block">
+            <a target="_blank" href="/magazine/index.php?action=content&amp;catid=5a344b02-e545-11e3-a35c-005056b168c6"><img src="upload_export/2014/0527/20140527114827562.png" width="152" height="152">
+            <div class="cover" style="top: 152px; display: block;">
+                <p class="cover-text">
+                    生活就是快乐                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<div class="int_06 int_block">
+            <a target="_blank" href="/magazine/index.php"><img src="upload_export/2014/0527/20140527114816906.png" width="152" height="152">
+            <div class="cover" style="top: 152px; display: block;">
+                <p class="cover-text">
+                    早有蜻蜓立上头                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<div class="int_07 int_block">
+            <a target="_blank" href="/magazine/index.php?action=content&amp;catid=743c0140-dfdf-11e3-a35c-005056b168c6"><img src="upload_export/2014/0527/20140527114804438.png" width="152" height="152">
+            <div class="cover" style="top: 152px; display: block;">
+                <p class="cover-text">
+                    玉龙雪山                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<div class="int_08 int_block">
+            <a target="_blank" href="/magazine/index.php"><img src="upload_export/2014/0527/20140527114741567.png" width="152" height="152">
+            <div class="cover" style="top: 152px; display: block;">
+                <p class="cover-text">
+                    闲                </p>
+                <b class="cover-bg"></b>
+            </div>
+        </a>
+            </div>
+<script>
+$(function() {
+var $pics = $('#picjs').find('.int_block');
+$pics.each(function() {
+var $pic = $(this), $cover = $pic.find('.cover'), height = $pic.height(), timer, enabled;
+
+$cover.css({ top: height + 'px', display: 'block'});
+$pic.hover(function() {
+enabled = false;
+timer = setTimeout(function() {
+enabled = true;
+$cover.css({top: height + 'px'}).stop(true, false).animate({top: '0'}, 'normal', 'easeInOutExpo');
+}, 100)
+}, function() {
+if(timer) {
+clearTimeout(timer);
+timer = null;
+}
+if(enabled) {
+$cover.stop(true, false).animate({top: '-' + height + 'px'}, 'normal', 'easeInOutExpo');
+}
+});
+});
+});
+</script>
+
+</div><!--兴趣图片区end-->
+
+</div>
+<!--外容器-->
+   <!--页脚-->
+
+    <!--页脚-->
+   <div id="footer"><p><a href="/">返回首页</a> |<a href="#"> 网站地图</a>|  <a href="#">关于我们</a> | <a href="#">联系我们</a> </p><p>东财在线旗下站点<a href="#">：东财在线学历教育站</a> <a href="#">东财在线e-training</a> 阳光服务热线: 0411-84738880 <a href="#">在线客服</a> <a href="#">投诉举报</a> </p></div><!--页脚-->
+    <!--页脚-->
+<!-- 登录 -->
+<form name="myform_login" id="myform_login" method="post" action="login.php" onsubmit="return r_submit(this);">
+<div id="outdiv">
+<div id="div2">  
+      
+        <div class="sut png-ie6"></div>
+        <img src="/css/images/login_35.png" width="54" height="23" class="png-ie6" style="margin-top:15px; margin-right:20px; float: left;">
+        <div style="float: left; margin-top:15px; margin-right: 10px;">用户名 <input name="username" type="text"></div> <div style=" margin-right: 10px; margin-top:15px; float: left;">密码 <input name="password" type="password"></div> <span class="login_dl"><input type="submit" value="" class="submit"></span>
+    </div>
+<div id="div1"></div>
+    <input type="hidden" name="refer" value="">
+<a href="javascript:;" class="outdiv-close png-ie6" onclick="this.parentNode.style.display='none'"></a>
+</div>
+</form>
+<!-- /登录 -->
+
+
+</body></html>

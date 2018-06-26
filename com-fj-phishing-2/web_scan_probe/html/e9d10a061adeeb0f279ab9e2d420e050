@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script language="javascript" src="dwr/interface/Demo.js"></script>
+	<script language="javascript" src="dwr/engine.js"></script>
+	<script language="javascript" src="dwr/util.js"></script>
+	<script language="javascript" src="common/resources/js/jquery.js"></script>
+<title>http client 测试</title>
+<script type="text/javascript">
+function sub(){
+	Demo.login(
+			document.getElementById("name").value,
+			document.getElementById("pwd").value,
+			function(data){
+				alert("通过DWR访问："+data);
+				window.location.href="GPS/page/custinfo/custinfo_search.jsp";
+			}
+		);
+}
+function sub2(){
+	$.ajax({
+		   url: "Demo5",
+		   data: "oprid=John&pwd=Boston",
+		   type: "post",
+		   success: function(msg){
+		     alert( "通过jquery-ajax-servlet访问: " + msg );
+		   },
+		   error:function(dom,e){
+					alert(e);
+			   }
+		});
+}
+function sub3(){
+	$.ajax({
+		   url: "demo6.do",
+		   data: "oprid=John&pwd=Boston&method=Login",
+		   type: "post",
+		   success: function(msg){
+		     alert( "通过jquery-ajax-action访问: " + msg );
+		   },
+		   error:function(dom,e){
+					alert(e);
+			   }
+		});
+}
+</script>
+</head>
+<body>
+	<input type="text" id="name" name="name">
+	<input type="password" id="pwd" name="pwd">
+	<input type="button" onclick="sub();" value="通过DWR访问后台">
+	<input type="button" onclick="sub2();" value="通过jquery-ajax-servlet访问后台">
+	<input type="button" onclick="sub3();" value="通过jquery-ajax-action访问后台">
+
+</body></html>

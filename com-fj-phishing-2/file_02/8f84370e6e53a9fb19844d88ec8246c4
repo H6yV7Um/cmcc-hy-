@@ -1,0 +1,36 @@
+<html><head>
+	<meta charset="utf-8">
+	 <meta http-equiv="Access-Control-Allow-Origin" content="*">
+	  <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	  <meta content="telephone=no,email=no" name="format-detection">
+	<title>创客云商</title>
+	<style type="text/css">
+html{margin:0; padding: 0;}
+body{font-size: 16px; font-family: 微软雅黑; margin: 0; padding: 0; }
+*{margin:0; padding: 0;}
+section{  height: 300px; margin-top: -200px; position: absolute; top: 50%; width: 100%; text-align: center; line-height: 30px;}
+section img{ margin:0 auto; }
+.btnindex{width: 100px; height: 35px; line-height: 35px; background: #f75151; margin: 30px auto; color: #fff;border-radius: 5px;cursor: hand;}
+section .photo{width: 100%;}
+section .picture{width: 300px;}
+section p{margin-bottom: 5px;color: #545454;}
+section .box{width: 210px;margin: 0 auto;position: relative;}
+section .box span{position: absolute;left: 0;bottom: 0;font-size: 22px;}
+</style>
+</head>
+<body>
+
+<section>
+	<div class="box">
+		<img src="../img/network1.jpg" class="photo">
+		<span>出错啦！</span>
+	</div>
+	
+	
+	<p>您访问的页面可能去外星球了</p>
+	<img src="../img/network2.jpg" class="picture">
+	<div class="btnindex" onclick="javascript:location.href='index.html'">返回首页</div>
+</section>
+
+
+</body></html>

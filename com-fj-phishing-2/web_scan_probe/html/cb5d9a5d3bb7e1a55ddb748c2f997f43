@@ -1,0 +1,40 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>haoxx17正在进入</title>
+</head>
+<body>
+<form name="loading"> 
+　<p align="center"> <font color="#0066ff" size="2">haoxx17正在进入，请稍等</font><font color="#0066ff" size="2" face="Arial">...</font>
+　　<input type="text" name="chart" size="46" style="font-family:Arial; font-weight:bolder; color:#0066ff; background-color:#fef4d9; padding:0px; border-style:none;"> 
+　　
+　　<input type="text" name="percent" size="47" style="color:#0066ff; text-align:center; border-width:medium; border-style:none;"> 
+　　<script>　 
+var bar=0　 
+var line="||"　 
+var amount="||"　 
+count()　 
+function count(){　 
+bar=bar+2　 
+amount =amount + line　 
+document.loading.chart.value=amount　 
+document.loading.percent.value=bar+"%"　 
+if (bar<99)　 
+{setTimeout("count()",50);}　 
+else　 
+{window.location = "http://www.haoxx17.com/?301";}　 
+}</script> 
+　</p> 
+</form> 
+<p align="center"> 如果您的浏览器不支持跳转,<a style="text-decoration: none" href="http://www.haoxx17.com/?302"><font color="#FF0000">请点这里</font></a>.</p><br><br>
+<p align="center"> 记住本站最新地址<a style="text-decoration: none" href="http://www.haoxx17.com/"><font color="#FF0000">www.haoxx17.com</font></a></p>
+
+
+
+
+
+<div style="display:none">
+<script src="https://s13.cnzz.com/z_stat.php?id=1261991617&amp;web_id=1261991617" language="JavaScript"></script><script src="https://c.cnzz.com/core.php?web_id=1261991617&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1261991617" target="_blank" title="站长统计">站长统计</a>
+<script language="javascript" type="text/javascript" src="//js.users.51.la/19268703.js"></script><a href="//www.51.la/?comId=19268703" title="51.La 网站流量统计系统" target="_blank"><span style="display:inline-block;background-color:#EF5350;color:#fff;padding:2px 5px;font-family:arial;font-size:12px;font-weight:bold;">51La</span></a>
+<noscript>&lt;a href="//www.51.la/?19268703" target="_blank"&gt;&lt;img alt="&amp;#x6211;&amp;#x8981;&amp;#x5566;&amp;#x514D;&amp;#x8D39;&amp;#x7EDF;&amp;#x8BA1;" src="//img.users.51.la/19268703.asp" style="border:none" /&gt;&lt;/a&gt;</noscript>
+</div>
+</body></html>

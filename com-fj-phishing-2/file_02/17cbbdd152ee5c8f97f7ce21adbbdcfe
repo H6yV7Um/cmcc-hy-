@@ -1,0 +1,375 @@
+<!DOCTYPE html><html><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-imagesweb-app-capable" content="yes">
+	<title>广州银行信用卡-官网</title>
+    <meta name="keywords" content="广州银行,广州银行信用卡,广州银行手机版,广州银行信用卡手机版,广州银行信用卡官网手机版,广州银行信用卡中心,广州银行信用卡中心官网手机版">
+	<meta name="Description" content="广州银行信用卡官网手机版，您可以在此进行广州银行信用卡在线申请，了解信用卡优惠资讯，玩转信用卡积分，还可以随时申请最高额度达50万元的免抵押信用贷款。">
+	<script src="//hm.baidu.com/hm.js?1f75bf83d1bf818a77eed302d987b085"></script><script type="text/javascript" src="jquery.1.7.2.min.js"></script>
+	<style type="text/css">
+		* {margin: 0; padding: 0;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+		body {font-family: "苹方", Helvetica Pro, Helvetica, Tahoma, "Microsoft YaHei", "微软雅黑", Heiti, "黑体";background-color: #fff;font-size: 12px;overflow-x: hidden;}
+		ul {list-style: none;}
+		a {text-decoration: none;color: inherit;}
+		select,input[type="text"],input[type="tel"],input[type="number"] {appearance: none;-webkit-appearance: none;-moz-appearance: none;border: 0px;}
+		select,input {background-color: #fff;}
+		label {display: block;}
+		img {display: block;}
+		.clearfix:after {content:"";clear: both;display: block;}
+		.clearfix {zoom: 1;}
+		.right {float: right;}
+
+		#top {position: absolute;top:0;height: 48px;text-align: center;color: #fff;background: rgba(0,0,0,.8);z-index: 99;width: 100%;}
+		#top a {position: absolute;top: 0;background-color: rgba(255,255,255,.1);border-radius: 3px;line-height: 30px;margin-top: 9px;padding: 0 5px;}
+		#top a.bank {left: 2%;}
+		#top #logo {display: inline-block;}
+		#top a.notice {right: 2%;padding-left: 30px;}
+		#top a.notice:before {content: "";position: absolute;background: url(imgs/icon_alert.png);background-size: 100%; width: 20px;height: 20px;left:5px;top: 5px;}
+		#top img {height: 30px;margin-top: 9px;}
+		#content {width: 100%;position: relative;overflow: hidden;}
+		#bn-wrap {position: relative;width: 100%;}
+		#banner {position: relative;width: 100%;}
+		#banner li {position: absolute;top: 0;left: 0;display: none;z-index: 1;}
+		#banner li.active {display: block;z-index: 4 !important;}
+		#banner li.prev {display: block;z-index: 2 !important;}
+		#banner li a {display: block;}
+		#banner img {width: 100%;}
+		#banner li.a-fore {-webkit-animation: fore .5s ease;animation: fore .5s ease;display: block;z-index: 3;}
+		#banner li.a-after {-webkit-animation: after .5s ease;animation: after .5s ease;display: block;z-index: 3;}
+		@-webkit-keyframes fore {
+			0% {-webkit-transform: translateX(-100%);}
+			100% {-webkit-transform: translateX(0);}
+		}
+		@keyframes fore {
+			0% {transform: translateX(-100%);}
+			100% {transform: translateX(0);}
+		}
+		@keyframes after {
+			0% {transform: translateX(100%);}
+			100% {transform: translateX(0);}
+		}
+
+		#dashnav {position: absolute;bottom: 10px;width:100%;z-index: 9;text-align: center;}
+		#dashnav ul {margin: 0 auto;display: inline-block;}
+		#dashnav ul:after {content:"";clear: both;}
+		#dashnav li {float: left;margin: 0 5px;}
+		#dashnav a{height: 22px;width: 50px;display: block;padding: 10px 0;position: relative;}
+		#dashnav a:before{content:"";width: 50px;height:2px;display:block;background: rgba(128,128,128,.2);}
+		#dashnav li a .progress{background: rgb(128,128,128);height: 2px;width: 0.00px;position: absolute;left:0;top: 10px;-webkit-transition: none;-moz-transition: none;transition: none;}
+		#dashnav li.active a .progress{width: 50.00px;}
+		#dashnav li.active.animate a .progress {-webkit-transition: width 3.5s linear;-moz-transition: width 3.5s linear;transition: width 3.5s linear;}
+		.bigad {width: 100%;margin: 2px 0;}
+
+		#linkList {padding-left: 15px;background-color: #f2f2f2;}
+		#linkList .tab {overflow: hidden;position: relative;border-bottom: 1px solid rgb(227,227,227);}
+		#linkList .tabname {width: 100%;color: rgb(51,51,51);line-height: 38px;font-size: 12px;height: 38px;display: block;position: relative;background-color: #f2f2f2;z-index: 2;}
+		#linkList .tab.active .tabname {color: #000;font-weight: bold;}
+		#linkList .tab .tabname:after {content: "+";position: absolute;right: 20px;-webkit-transition: -webkit-transform .3s ease;-moz-transition: -moz-transform .3s ease;transition: transform .3s ease;-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+		#linkList .tab.active .tabname:after {-moz-transform: rotate(45deg);-webkit-transform: rotate(45deg);transform: rotate(45deg); }
+		#linkList .tab .sublist {position: absolute;visibility: visible;width: 100%;top: -62px;padding-bottom: 15px;-webkit-transition: top .3s ease;-moz-transition: top .3s ease;transition: top .3s ease;z-index: 1;}
+		#linkList .tab.active .sublist {top: 38px;}
+		#linkList .sublist li {line-height: 30px;color: rgb(102,102,102);width: 100%;padding: 0 14px;}
+		#linkList .sublist li a {display: block;}
+
+		#foot {color: #999;font-size: 12px;padding: 30px 0;text-align: center;background-color:#F2F2F2;}
+		#foot .down {font-size: 12px;}
+	</style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?1f75bf83d1bf818a77eed302d987b085";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+	<div id="container">
+		<div id="top">
+			<a href="http://creditcard.gzcb.com.cn/mall/weiindex/weiCreditIndex.action" class="bank">积分商城</a>
+			<a href="http://creditcard.gzcb.com.cn/gzcb_web/noticeList.action" class="notice">公告</a>
+			<img id="logo" src="imgs/logo.png">
+		</div>
+		<div id="content">
+			<div id="bn-wrap">
+				<ul id="banner" style="height: 1001px;">
+					<li class="active">
+						<a href="http://h.creditcard.gzcb.com.cn/1703preference">
+							<img src="imgs/ad_1_1.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://h.creditcard.gzcb.com.cn/first">
+							<img src="imgs/ad_1_2.png">
+						</a>
+					</li>
+					<li>
+						<a href="https://i.creditcard.gzcb.com.cn/card/1004D2.html?channel=mindex&amp;id=ad_1_3">
+							<img src="imgs/ad_1_3.png">
+						</a>
+					</li>
+				</ul>
+				<div id="dashnav">
+					<ul>
+						<li class="animate active">
+							<a href="#">
+								<div class="progress"></div>
+							</a>
+						</li>
+						<li class="animate">
+							<a href="#">
+								<div class="progress"></div>
+							</a>
+						</li>
+						<li class="animate">
+							<a href="#">
+								<div class="progress"></div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+				<a href="https://i.creditcard.gzcb.com.cn/card/?channel=mindex&amp;id=ad_2"><img class="bigad" src="imgs/ad_2.png"></a>
+				<a href="https://i.creditcard.gzcb.com.cn/tuijian/card/index.html?source=Mindex"><img class="bigad" src="imgs/ad_3.png"></a>
+				<a href="https://i.creditcard.gzcb.com.cn/loan"><img class="bigad" src="imgs/ad_4.png"></a>
+				<a href="http://a.app.qq.com/o/simple.jsp?pkgname=cn.com.gzbank.mbank"><img class="bigad" src="imgs/ad_5.png"></a>
+			<nav id="linkList">
+				<div class="tab">
+					<a class="tabname" href="javascript:void(0);">信用卡</a>
+					<ul class="sublist">
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/1010T1.html?channel=mindex&amp;id=ad_tab">腾讯简卡（白金信用卡）</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/0001.html?channel=mindex&amp;id=ad_tab">标准信用卡·普卡</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/0002.html?channel=mindex&amp;id=ad_tab">标准信用卡·金卡</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/1004D2.html?channel=mindex&amp;id=ad_tab">移动联名卡·王尼玛</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/1004D5.html?channel=mindex&amp;id=ad_tab">移动联名卡·律动版</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/1004D6.html?channel=mindex&amp;id=ad_tab">移动联名卡·弹幕版</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/1004.html?channel=mindex&amp;id=ad_tab">移动联名卡·经典版</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/1006.html?channel=mindex&amp;id=ad_tab">南航明珠白金卡·精英版</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/1007.html?channel=mindex&amp;id=ad_tab">南航明珠白金卡·高端版</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/0030.html?channel=mindex&amp;id=ad_tab">环球Visa白金卡</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/card/?channel=mindex&amp;id=ad_tab">》》信用卡在线办理</a></li>
+					</ul>
+				</div>
+				<div class="tab">
+					<a class="tabname" href="javascript:void(0);">消费信贷</a>
+					<ul class="sublist">
+						<li><a href="https://i.creditcard.gzcb.com.cn/loan/jixiangdai.html">即享贷·现金分期</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/loan/jiazhuang.html">家装分期</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/loan/gouche.html">购车分期</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/loan/dae.html">大额消费分期（旅游、留学、婚礼等消费用途）</a></li>
+						<li><a href="https://i.creditcard.gzcb.com.cn/loan">》》信用借款在线申请</a></li>
+					</ul>
+				</div>
+				<div class="tab">
+					<a class="tabname" href="javascript:void(0);">广赢卡</a>
+					<ul class="sublist">
+						<li><a href="http://h.creditcard.gzcb.com.cn/archives/923">关于广赢卡</a></li>
+						<li><a href="http://h.creditcard.gzcb.com.cn/archives/927">广赢卡功能介绍</a></li>
+						<li><a href="http://h.creditcard.gzcb.com.cn/archives/930">如何申请广赢卡</a></li>
+					</ul>
+				</div>
+				<div class="tab">
+					<a class="tabname" href="javascript:void(0);">信用卡积分·商城</a>
+					<ul class="sublist">
+						<li><a href="http://h.creditcard.gzcb.com.cn/archives/1678">哪些消费计积分</a></li>
+						<li><a href="http://h.creditcard.gzcb.com.cn/archives/828">如何查询信用卡积分</a></li>
+						<li><a href="http://creditcard.gzcb.com.cn/mall/weiindex/weiCreditIndex.action">》》积分商城·快捷积分兑换</a></li>
+					</ul>
+				</div>
+				<div class="tab">
+					<a class="tabname" href="javascript:void(0);">信用卡办理的常见问题</a>
+					<ul class="sublist">
+						<li>一、广州银行信用卡办理条件有哪些？<br>
+						1）中国大陆籍18-65周岁居民，港澳台及外籍人士暂不受理。<br>
+						2）网络办卡限在以下地区工作：广州、深圳、中山、东莞、惠州、江门、肇庆、佛山。<br>
+						3）工资流水高于 2500元/月，3万元/年。<br>
+						4）工作时间：高中及以下学历要求在本单位工作满3年。<br><br>
+						</li>
+						<li>二、广州银行信用卡申请免费吗？<br>
+						申请只需填写基本资料，不收取任何费用。<br><br>
+						</li>
+						<li>三、广州银行信用卡快速办理方式是什么？<br>
+						<a href="https://i.creditcard.gzcb.com.cn/card/?channel=mindex&amp;id=ad_tab_2">》》点击在线办理</a><br>
+						</li>
+						<li>四、广州银行信用卡额度有多高？<br>
+						广州银行普通信用卡额度最高10万元，具体信用卡审批额度由您申请的卡片类型与个人情况决定。<br><br>
+						</li>
+						<li>五、广州银行信用卡如何申请？<br>
+						1）关注“广州银行信用卡中心”官方微信，点击菜单【我的服务】-【办卡】进行在线办理。<br>
+						2）或者在广州银行各个网点进行线下申请办理。<br>
+						<a href="https://i.creditcard.gzcb.com.cn/card/?channel=mindex&amp;id=ad_tab_3">3）也可直接》》点击在线办理</a><br>
+						</li>
+						<li>六、广州银行信用卡办理需要什么资料？<br>
+						网上申请信用卡只需在线填写资料，申请成功后开卡激活需准备二代身份证、也可以同时提交工作证明、工资流水等资料方便提升额度。<br><br>
+						</li>
+						<li>七、广州银行信用卡怎么免年费？<br>
+						1）公务卡免年费。<br>
+						2）普卡、金卡免首年年费，刷卡1次免次年年费。<br>
+						3）南航明珠白金信用卡（精英版）当年刷卡3次或累计消费5000元记里程消费免次年年费。<br>
+						4）移动联名卡、环球Visa白金卡2017年12月31日前办理，有效期内免年费。<br><br>
+						</li>
+						<li>八、广州银行信用卡积分有什么用？<br>
+						1）进入积分商城进行礼品兑换<br>
+						2）部分卡种积分可以兑换南航里程，进而购买机票。<br><br>
+						</li>
+						<li>九、办理大额信用卡需要什么条件？<br>办理大额信用卡需要申请人的经济状况良好，没有不良征信记录，通常名下需要有房产或车产等固定资产。如果申请人在该银行有大额定期存款，或已经购买我行的理财产品，会有助于大额信用卡的申请和办理。<br><br>
+						</li>
+						<li>十、办理信用卡对个人征信的影响有哪些？<br>
+						1）信用卡申请记录，会在人行信用记录显示，但不会造成负面影响。<br>
+						2）申请成功后信用卡的审批额度会在人行征信中显示。<br>
+						3）如果超期未还款，将在人行记录中显示，所以各位亲记得按时还款，避免超期哦~<br><br>
+						</li>
+						<li>十一、信用卡如何提额？<br>
+						广州银行的提额标准调额及可调整的最高额度条件如下：<br>
+						1）开卡满半年，无逾期等不良用卡行为。<br>
+						2）持卡时间、消费情况、还款记录、征信报告等因素<br>
+						如果您用卡情况符合上述因素的标准，可通过我行官方微信、官方信用卡APP或官方客服96699调整额度。
+						</li>
+					</ul>
+				</div>
+				<div class="tab">
+					<a class="tabname" href="javascript:void(0);">关于卡中心</a>
+					<ul class="sublist">
+						<li><a href="http://h.creditcard.gzcb.com.cn/noticelist">公告信息</a></li>
+						<li><a href="http://h.creditcard.gzcb.com.cn/archives/1867">关于我们</a></li>
+						<!-- <li><a href="javascript:void(0);">*服务客户</a></li>
+						<li><a href="javascript:void(0);">*社会责任</a></li>
+						<li><a href="javascript:void(0);">*员工发展</a></li>
+						<li><a href="javascript:void(0);">*工作机会</a></li>
+						<li><a href="http://h.creditcard.gzcb.com.cn/archives/1869">联系我们</a></li> -->
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div id="foot">
+			<span class="up">如有任何疑问或建议，致电 <b style="color:#0070c9">020-96699</b> 联系我们。</span>
+			<br>
+			<br>
+			<span class="down">广州银行版权所有&nbsp;粤ICP备11058376</span>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			var blilen = $("#banner li").length;
+			var bindex = 0;
+			var interval,timeout,allmovewidth;
+			var cntWidth = $("#content").width();
+			var touchnext;
+			var image = new Image();
+			image.onload = function(){
+				$("#banner").css({height:$("#banner li").eq(0).height()});
+			}
+			image.src = $("#banner li").eq(0).find("img")[0].src;
+			function changeBannerDash(){
+				if (!$("#dashnav ul li").eq(bindex).hasClass("active"))
+					$("#dashnav ul li").removeClass("active").eq(bindex).addClass("active");
+			}
+			changeBannerDash();
+			function nextBanner(x){
+				x = x | 0;
+				if (touchnext) {touchnext.removeAttr("style");};
+				$("#banner li").removeClass("a-fore a-after");
+				$("#banner li.prev").removeClass("prev");
+				$("#banner li").eq(bindex).removeClass().addClass("prev");
+				bindex = bindex == (blilen - 1 - x) ? x : (bindex + 1 + x);
+				$("#banner li").eq(bindex).addClass("a-after active");
+				changeBannerDash();
+			}
+			function prevBanner(x){
+				x = x | 0;
+				if (touchnext) {touchnext.removeAttr("style");};
+				$("#banner li").removeClass("a-fore a-after");
+				$("#banner li.prev").removeClass("prev");
+				$("#banner li").eq(bindex).removeClass().addClass("prev");
+				bindex = bindex == x ? (blilen-1) : (bindex - 1 - x);
+				$("#banner li").eq(bindex).addClass("a-fore active");
+				changeBannerDash();
+			}
+			interval = setInterval(nextBanner,3500);
+			var remove = false;
+			$("#banner").on({touchstart:function(e){
+				var touch = e.originalEvent.targetTouches[0];
+				allmovewidth = 0;
+				clearInterval(interval);
+				nextplace = touch.pageX;
+				remove = true;
+				$("#dashnav li").removeClass("animate");
+			},touchmove:function(e){
+				if (remove) {
+					$("#banner li").removeAttr("style");
+					$("#banner li").removeClass("prev");
+					$("#banner li.active").removeClass("active").addClass("prev");
+				};
+				remove = false;
+				var touch = e.originalEvent.targetTouches[0];
+				moveplace = touch.pageX;
+				allmovewidth += nextplace - moveplace;
+				nextplace = moveplace;
+				if(allmovewidth < 0){
+					touchnext = $("#banner li").eq(bindex == 0 ? (blilen-1) : (bindex - 1));
+					touchnext.addClass("active").css("transform","translateX(" + (-cntWidth - allmovewidth) + "px)");
+				} else {
+					touchnext = $("#banner li").eq(bindex == (blilen-1) ? 0 : (bindex + 1));
+					touchnext.addClass("active").css("transform","translateX(" + (cntWidth-allmovewidth) + "px)");
+				}
+			},
+			touchend:function(e){
+				$("#dashnav li").addClass("animate");
+				if (touchnext) {touchnext.css("transition","all .3s ease-in-out")};
+				if(allmovewidth < 0 && Math.abs(allmovewidth) > cntWidth/3){
+					touchnext.css({transform:"translateX(0)"});
+					$("#banner li").eq(bindex == (blilen-1) ? 0 : (bindex + 1)).removeClass("prev");
+					$("#banner li").eq(bindex).removeClass().addClass("prev");
+					bindex = bindex == 0 ? (blilen-1) : (bindex - 1);
+					changeBannerDash();
+				} else if(allmovewidth > 0 && allmovewidth > cntWidth/3){
+					touchnext.css({transform:"translateX(0)"});
+					$("#banner li").eq(bindex == 0 ? (blilen-1) : (bindex - 1)).removeClass("prev");
+					$("#banner li").eq(bindex).removeClass().addClass("prev");
+					bindex = bindex == (blilen-1) ? 0 : (bindex + 1);
+					changeBannerDash();
+				} else {
+					function restart(){
+						$("#banner li").eq(bindex).removeClass().addClass("active");
+						if (touchnext) {touchnext.removeClass("active")};
+					}
+					if(allmovewidth < 0){
+						touchnext.css({transform:"translateX(-" + cntWidth +"px)"});
+						restart();
+					} else if(allmovewidth > 0) {
+						touchnext.css({transform:"translateX(" + cntWidth +"px)"});
+						restart();
+					}
+				}
+				interval = setInterval(nextBanner,3500);
+			}});
+			$("#dashnav li").on("click",function(){
+				if ($(this).hasClass("active")) return;
+				var index = $(this).index() - $("#dashnav li.active").index();
+				if (index < 0) {
+					index = Math.abs(index) - 1;
+					prevBanner(index);
+				} else {
+					index = Math.abs(index) - 1;
+					nextBanner(index);
+				}
+			});
+			$("#linkList .tab .tabname").on("click",function(e){
+				_this = $(this).parent();
+				var tnh = _this.find(".tabname").height();
+				var sbh = _this.find(".sublist")[0].offsetHeight;
+				if (_this.hasClass("active")) {
+					_this.removeClass("active");
+					_this.css({height:tnh});
+				} else {
+					_this.addClass("active");
+					_this.css({height:tnh + sbh});
+				}
+			});
+		});
+	</script>
+
+</body></html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html><html><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no ">
+    <title>明星产品专区</title>
+	  <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/md5.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+		  $(".layer a").click(function(){$(".layer").css({"display":"none"});});
+		});
+	</script>
+    <script>
+		function onBridgeReady(){
+		 WeixinJSBridge.call('hideOptionMenu');
+		}
+		if (typeof WeixinJSBridge == "undefined"){
+			if( document.addEventListener ){
+				document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+			}else if (document.attachEvent){
+				document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+				document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+			}
+		}else{
+			onBridgeReady();
+		}
+    </script>
+    </head>
+
+    <body>
+      <div class="warp">
+        <div class="header"><img src="images/logo.png"></div>
+        <div class="banner"> <img src="images/header.jpg" width="100%">
+        </div>
+        <div class="product">
+          <ul class="list">
+              <a href="lynnb/wap/index.html" id="index_a_lynnb">
+                <li>
+                  <p class="img"><img src="images/p_31.png"></p>
+                  <p class="title">家庭财富，保驾护航</p>
+                </li>
+              </a>
+              <a href="axb2/wap/index.html" id="index_a_axb2">
+                <li>
+                  <p class="img"><img src="images/p_30.png"></p>
+                  <p class="title">百万保障，出行无忧</p>
+                </li>
+              </a>
+              <a href="secnb/wap/index.html" id="index_a_secnb">
+                <li>
+                  <p class="img"><img src="images/p_29.png"></p>
+                  <p class="title">超能护卫，宝贝无忧</p>
+                </li>
+              </a> 
+              <a href="mthzx/wap/index.html" class="">
+              <li>
+                <p class="img"><img src="images/mthzx.png"></p>
+                <p class="title">温情陪伴·尊享荣华</p>
+              </li>
+            </a>
+            <a href="zyhzx/wap/index.html" class="">
+              <li>
+                <p class="img"><img src="images/zyhzx.png"></p>
+                <p class="title">温情陪伴·尊享一生</p>
+              </li>
+            </a>
+            <a href="xfxbzx/wap/index.html" class="hide">
+              <li>
+                <p class="img"><img src="images/xfxbzx.png"></p>
+                <p class="title">幸福相伴 财富相依</p>
+              </li>
+            </a>
+            <a href="awy/wap/index.html">
+              <li>
+                <p class="img"><img src="images/p_00.png"></p>
+                <p class="title">防癌5优 爱无忧</p>
+              </li>
+            </a>
+            <a href="jyrs/wap/index.html">
+              <li>
+                <p class="img"><img src="images/p_07.png"></p>
+                <p class="title">全能递增，重级保障</p>
+              </li>
+            </a>
+            <a href="yyh/wap/index.html">
+              <li>
+                <p class="img"><img src="images/p_14.png"></p>
+                <p class="title">投资养老 尊荣长享</p>
+              </li>
+            </a> 
+        <!--<a href="lynn/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_01.png"></p>
+            <p class="title">双高内核 理财首选</p>
+          </li>
+        </a> -->
+        <a href="xay/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_27.png"></p>
+            <p class="title">突破社保 关怀加倍</p>
+          </li>
+        </a> 
+        <!-- <a href="axb/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_15.png"></p>
+            <p class="title">百万护驾，安行安心</p>
+          </li>
+        </a> -->
+        <a href="yfak/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_26.png"></p>
+            <p class="title">老人专享,花样年华</p>
+          </li>
+        </a>
+        <a href="cjb/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_24.png"></p>
+            <p class="title">一种投资，五项准备</p>
+          </li>
+        </a>
+        <a href="qsb/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_20.png"></p>
+            <p class="title">全心全意，顺行世界</p>
+          </li>
+        </a>
+        <a href="fuyou/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_18.png"></p>
+            <p class="title">42种重疾，身价保障</p>
+          </li>
+        </a>
+        <a href="frak/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_10.png"></p>
+            <p class="title">12项轻疾，加保专享</p>
+          </li>
+        </a>
+        <a href="shak/wap/index.html">
+          <li>
+            <p class="img"><img src="images/p_22.png"></p>
+            <p class="title">专业防癌，健康服务</p>
+          </li>
+        </a> 
+      </ul>
+      <script>
+    showrisk();
+    </script>
+    </div>
+      <div class="layer" style="display:none1;">下拉浏览更多产品<a></a></div>
+    </div>
+
+</body></html>

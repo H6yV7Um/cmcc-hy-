@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+	 
+<script type="text/javascript" language="javascript">
+var isAllLoad = false;
+var loadStartTime = new Date().getTime();
+setTimeout(function() {
+	if (!isAllLoad) {
+		var loadEndTime = new Date().getTime();
+		var popup = document.getElementById('switchingServerPopup');
+		if (popup) {
+			popup.style.display="";
+			document.getElementById("usedTime").innerHTML = loadEndTime - loadStartTime;
+		}
+	}
+}, 1000 * 10);
+
+function closeSwitchingServerPopup() {
+	document.getElementById('switchingServerPopup').style.display="none";
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>登录认证</title>
+<link href="css/common.css?v=201708" type="text/css" rel="stylesheet">
+<link href="css/login1.css?v=201708" type="text/css" rel="stylesheet">
+<script src="js/jquery-1.7.1.min.js" language="javascript"></script>
+<script src="js/login.js?v=201708" language="javascript"></script>
+<!--[if lte IE 6]>
+<script src="js/ie6png-min.js" language="javascript" ></script>
+<script>DD_belatedPNG.fix('.pngfix'); </script>
+<![endif]-->
+<script>
+var templateType= 1;
+var invalidUser = '非法用户名';
+var invalidcode='请输入合法的验证码。';
+var invalidsmscode='请输入合法的手机登录码。';
+var tosystem = 'mail';
+var locale = 'zh_CN';
+var mailver_full_alt='切换到极速版，可使用邮局基础功能，全面提升加载速度';
+var mailver_lite_alt='切换到旗舰版，可使用邮局所有功能，完整体验企业邮箱';
+var ver_style = 'ver_img_ch';
+var mailAllwayHttpsUrl = 'https://smail180.cn4e.com/Sofia.jsp';
+var serviceUrl = 'http://mail.chinacsf.com/Sofia.jsp';
+var isFullDomainLogin = false;
+var isProxy = false;
+var allWayHttpsChoose = 0;
+
+function drawImage(ImgD,iwidth,iheight) {    
+    //参数(图片,允许的宽度,允许的高度)    
+    var image=new Image();    
+    image.src=ImgD.src;
+    if(image.width>0 && image.height>0){    
+      if(image.width/image.height>= iwidth/iheight){    
+          if(image.width>iwidth){      
+              ImgD.width=iwidth;    
+              ImgD.height=(image.height*iwidth)/image.width;    
+          }else{    
+              ImgD.width=image.width;      
+              ImgD.height=image.height;    
+          }    
+      }else{    
+          if(image.height>iheight){      
+              ImgD.height=iheight;    
+              ImgD.width=(image.width*iheight)/image.height;            
+          }else{    
+              ImgD.width=image.width;      
+              ImgD.height=image.height;    
+          }    
+      }    
+    }    
+}
+</script>
+</head>
+<body>
+
+<div id="Pagetop" class="pagetop clearfix">
+    <div class="lang_list">
+        <div class="lang_wrap">
+             
+		    	<a hidefocus="true" class="mgR" href="javascript:switch_language('zh_CN');">简体中文</a>
+		    
+		    	<a hidefocus="true" class="mgR" href="javascript:switch_language('zh_HK');">繁体中文</a>
+		    
+		    	<a hidefocus="true" class="mgR" href="javascript:switch_language('en');">English</a>
+		    
+		    	<a hidefocus="true" class="mgR" href="javascript:switch_language('ja_JP');">日本語</a>
+		    
+		    	<a hidefocus="true" class="mgR" href="javascript:switch_language('kr');">한국어</a>
+		    
+        </div>
+    </div>
+</div>
+<div id="Container">
+	<div id="Container_wrap">    	        
+        <div id="login_header" class="login_header">
+          <div class="header_wrap">
+            <div class="header_logo"><a href="#" hidefocus="true"><img class="pngfix" src="/accounts/domainlogo/chinacsf_com.png?v=1528100337851" width="150" height="50" onload="javascript:drawImage(this,984,100);" style="top:0px"></a></div>
+          </div>
+        </div>        
+        <div id="login_main" class="login_main login_protection">
+        	<div class="login_main_top clearfix">            	
+            </div>
+            <div class="login_main_c clearfix">
+                <div class="sidebar_left" style="height:368px">
+               		
+
+
+
+
+
+
+
+<script>
+			    
+var size = 5;
+var timer = setInterval(runImages , 10000);
+var currentIndex = 1;
+var lists = new Array();
+var timeout;
+function runImages(index){
+	if(lists.length<=0){
+		lists=$('div[id^=user_define_img_]');
+	}
+	if(!index){
+		index = getNext();
+	}
+	
+	
+	for(var i=0;i<lists.length;i++){
+		var one = $(lists[i]);
+		one.hide();
+	}
+	var showEle = $(lists[index]);
+	showEle.animate({ width: "+500px", opacity: 'show'}, 'slow');
+}
+function getNext(){
+	++currentIndex;
+	if(currentIndex>=lists.length){
+		currentIndex=0;
+	}
+	return currentIndex;
+	
+}
+function removeTimer(event){
+		clearInterval(timer);
+		if(timeout){
+			clearTimeout(timeout);
+		}
+	
+}
+function restartTimer(event){
+	timeout = setTimeout(runImages,1000);
+		timer=setInterval(runImages , 10000);
+}
+
+	
+</script>
+<!-- 自定义上传图片,不需要轮播，也不需要再图片上加按钮连接 -->
+
+				<div class="user_define_img_display_none" id="user_define_img_0" onmouseover="removeTimer()" onmouseout="restartTimer()">
+
+
+    	    	<img src="/accounts/images/mail/mainleft_1_2.jpg" width="467" height="365" onload="javascript:drawImage(this,488,365);">
+    	    </div>
+
+    	        <div class="user_define_img" id="user_define_img_1" onmouseover="removeTimer()" onmouseout="restartTimer()">
+
+
+					<div style=" display:block;position:absolute;top:320px;" class="mail_ftn">
+						<span><i class="login_pro_icon"></i>邮箱登录保护</span>
+						<span>
+							<input type="checkbox" id="openit"><label for="open-now-1">登录后设置</label>
+						</span>
+					</div>
+
+    	    	<img src="/accounts/images/mail/mainleft_1_1.jpg" width="470" height="365" onload="javascript:drawImage(this,488,365);">
+    	    </div>
+
+				<div class="user_define_img_display_none" id="user_define_img_2" onmouseover="removeTimer()" onmouseout="restartTimer()">
+
+
+					<a class="user_define_img_btn6" href="http://help.mail.35.com/mailman/81.html" target="_blank"><img src="/accounts/images/mail/mainleft_1_6_btn.png"></a>
+
+    	    	<img src="/accounts/images/mail/mainleft_1_6.jpg" width="468" height="365" onload="javascript:drawImage(this,488,365);">
+    	    </div>
+
+				<div class="user_define_img_display_none" id="user_define_img_3" onmouseover="removeTimer()" onmouseout="restartTimer()">
+
+
+					<a class="user_define_img_btn5" href="http://help.mail.35.com/mailman/80.html" target="_blank"><img src="/accounts/images/mail/mainleft_1_5_btn.png"></a>
+
+    	    	<img src="/accounts/images/mail/mainleft_1_5.jpg" width="468" height="365" onload="javascript:drawImage(this,488,365);">
+    	    </div>
+
+				<div class="user_define_img_display_none" id="user_define_img_4" onmouseover="removeTimer()" onmouseout="restartTimer()">
+
+
+					<a class="user_define_img_btn4" href="http://help.mail.35.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=13&amp;id=37" target="_blank"><img src="/accounts/images/mail/mainleft_1_4_btn.png"></a>
+
+    	    	<img src="/accounts/images/mail/mainleft_1_4.jpg" width="468" height="365" onload="javascript:drawImage(this,488,365);">
+    	    </div>
+
+
+
+
+
+                    <div class="mail_ftn"></div>
+                </div>
+                <div class="sidebar_right">
+                    <div class="login_box">
+                        <div class="login_box_in">
+                            <div class="login_box_inner">    
+    	   <form id="loginform" name="loginform" action="https://smail180.cn4e.com/accounts/verifylogin" method="post">
+                        <input type="hidden" id="username" name="username" value="">
+                        <input type="hidden" id="domain" name="domain" value="chinacsf.com">
+                        <input type="hidden" id="service" name="service" value="http://mail.chinacsf.com/Sofia.jsp">        
+                        <input type="hidden" id="system" name="system" value="mail">
+                        <input type="hidden" id="localeTemp" name="localeTemp" value="zh_CN">
+                        <input type="hidden" id="locale" name="locale" value="zh_CN">
+                        <input type="hidden" id="fromUrl" name="fromUrl" value="">
+                        <input type="hidden" id="oldBrowser" name="oldBrowser" value="0">
+                        <input type="hidden" id="targetService" name="targetService" value="">                                                    
+                                <div class="enter_box">
+                                     
+
+
+
+
+
+
+
+
+
+
+
+
+<h2><span>欢迎使用云办公</span></h2>
+
+ <dl class="versionsel_zone">
+	<!--<dt>邮箱版本：</dt>-->
+	<dt id="dt_curr_ver">
+	<i id="ver_lagship" class="current" onclick="choose_mail_version('mail');">旗舰版</i>
+	<i id="ver_topspeed" onclick="choose_mail_version('lite');">极速版</i>
+	<span id="span_curr_ver" mail_version="mail"></span></dt>
+   <!-- 
+   <dd>									   
+       <a class="link" href="javascript:void(0)" id="a_curr_ver" onclick="switchMailVersion();" hidefocus="true"><span id="span_curr_ver" mail_version='mail'></span></a>
+       <a class="link" href="javascript:void(0)" onclick="$('#mail_version_list').toggle();" hidefocus="true"><span id="span_curr_ver" mail_version='mail'></span><i class="icon ico_arrowd"></i></a>
+       <div id="mail_version_list" class="seloption" style="display:none;">
+         <ul>
+           <li id="li_mail_ver_mail" class="option_cur"><i class="icon ico_selected"></i><a class="current" id="a_mail_ver_mail" onclick="choose_mail_version('mail');" style="cursor:pointer" hidefocus="true">切换到极速版</a></li>
+           <li id="li_mail_ver_lite"><i class="icon ico_selected"></i><a id="a_mail_ver_lite" onclick="choose_mail_version('lite');" style="cursor:pointer" hidefocus="true" title="切换到旗舰版，可使用邮局所有功能，完整体验企业邮箱">切换到旗舰版</a></li>
+         </ul>
+       </div>
+   </dd>
+    -->
+ </dl>
+
+
+
+                                    <noscript>
+                                    	&lt;div class="login_box_msg noScript"&gt;您的浏览器不支持或已经禁止网页脚本，您无法正常登录。&lt;/div&gt;
+                                   	</noscript>                                    
+                                    <div class="tb_loginbox">
+                                    	
+	                                    	<div class="tr clearfix">
+	                                        	<div id="username_box" class="username_box">
+	                                                <table cellspacing="0" cellpadding="0" border="0" width="100%" class="tb_username">
+	                                                    <tbody><tr>
+	                                                      <td class="td_username">
+	                                                        <table cellspacing="0" cellpadding="0" border="0">
+	                                                            <tbody><tr>
+	                                                                <td>
+	                                                                    <div class="logtxtbox logtxtbox_on" id="user_box_id">
+			                                                                    <label class="username_msg" id="user_hold" style="">用户名</label>                                                                            
+	                                                                            <input type="text" maxlength="50" id="user" name="user" tabindex="1" value="">
+																				
+	                                                                    </div>
+	                                                                </td>
+	                                                            </tr>
+	                                                        </tbody></table>
+	                                                      </td>
+	                                                      <td class="td_domain">
+	                                                        <div class="domain">
+	                                                            <div class="inner">@chinacsf.com</div>
+	                                                        </div>
+	                                                      </td>
+	                                                    </tr>
+	                                                </tbody></table>
+	                                            </div>                                                                                   
+	                                        </div>
+                                        
+                                        <div class="tr clearfix">
+                                            <div class="logtxtbox" id="password_box_id">                                             
+	                                            <label class="pwd_msg" id="password_hold">密码</label>	   
+                                                <input type="password" tabindex="2" class="input_pwd" name="password" id="password">												
+                                            </div>
+                                        </div>
+	                                    
+                                        <div class="tr tr_btnbox clearfix btn_box">
+                                            <!-- <input type="submit" id="submitBtn" class="enter_btn" tabindex="4" onclick="return loginSubmit();" value='登&nbsp;录'/>-->
+                                            <button type="submit" id="submitBtn" class="enter_btn" tabindex="4" onclick="return loginSubmit();"><b><span>登&nbsp;录</span></b></button>
+                                            
+	                                            		<label class="label" id="allWayHttpsContainer"><input type="checkbox" id="allWayHttps" name="allWayHttps" onchange="javascript:changeAllWayHttpsLoginStatus(this);" title="SSL全程保护">SSL全程保护</label>
+	                                            
+                                            
+                                            
+											    <a class="adminlogin" href="../domain"><i class="icon ico_arrow"></i>管理员登录</a>
+											
+                                        </div>
+                                        
+                                        <div class="quick-login">用其他账号登录：<br>
+                                            <a href="#" class="xlwb" style="display:none">新浪微博</a><a href="https://smail180.cn4e.com/accounts/bindMail?serverName=mail.chinacsf.com&amp;locale=zh_CN" class="qq">腾讯QQ</a><a href="#" class="txwb" style="display:none">腾讯微博</a>
+                                        </div>
+                                        
+                                        <div id="info" class="td_tipinfo">
+                                            <div class="tif_border">
+                                                <span id="fail" class="fail">
+                                                	
+                                                	
+                                                </span>
+                                            </div>
+                                        </div>
+                                                        
+                                    </div>
+                                  
+                                    <div class="login_tools login_tools_new">
+                                        
+
+
+
+
+
+
+
+<div class="tools_cell tools_mail">
+     <ul>
+         <li class="clearfix">                                                    
+             <div class="popup_tag clearfix">
+                 <div id="tag_1" class="tagcur" onmouseover="mouseover('1')"><i class="iCur"></i><a href="javascript:void(0)"><span>android客户端</span></a></div>
+                 <div id="tag_2" onmouseover="mouseover('2')"><i class="iCur"></i><a href="javascript:void(0)"><span>iPhone客户端</span></a></div>
+                 <div id="tag_3" onmouseover="mouseover('3')"><i class="iCur"></i><i class="brLeft"></i><a href="javascript:void(0)"><span>企业即时通讯</span><i class="ico_more"></i></a></div>
+             </div>
+             <div id="phonecon_1" class="tagcon clearfix">
+                 <dl id="downld_box_mail" class="downld_box_mail">
+                     <dd class="dd_green"><a href="https://mcapi.mailchat.cn/go/35apk" hidefocus="true" target="_blank"><i class="icon ico_cmpt"></i>下载到电脑</a></dd>
+	                   	 <dd class="dd_blue">
+	                         <a id="link_shortmsg_mail" href="javascript:void(0)" hidefocus="true"><i class="icon ico_phone"></i>短信下载</a>
+	                         <div id="ppbox_shortmsg" class="popbox" style="bottom:30px; left:-13px; width:285px; display:none;">
+	                             <i class="icon ico_corner ico_corner_downL"></i>
+	                             <div class="popbox_con">
+	                                 <table border="0" cellspacing="0" cellpadding="0" class="tb_writeLR">
+		                                <tbody><tr>
+		                                  <th>手机号：</th>
+		                                  <td><input type="text" class="txt-input2" id="smsnumber"><input type="hidden" id="smssystem" value="mail"></td>
+		                                </tr>
+		                                <tr>
+		                                  <th>验证码：</th>
+		                                  <td>
+		                                      <input type="text" class="txt-input2 input_authcode" id="phoneverify" style="width:85px">
+		                                      <span class="authcode"><img id="phone_verify_img" onclick="refresh_validcode('phone_verify_img')" src="" border="0" style="width:100px;height:28px;cursor:pointer;"></span>
+		                                  </td>
+		                                </tr>
+		                                <tr>
+		                                  <th></th>
+		                                  <td><input type="button" value="发送到手机" class="btn_gray" name="sendtophone" onclick="javascript:sms_send_code();">
+		                                  <span id="smstip" style="color:red"></span></td>
+		                                </tr>
+		                             </tbody></table>
+	                                 <div class="note">  
+	                                     <i class="icon ico_lamp"></i>
+	                                     <span>
+		                                     此短信不造成任何费用，三五互联承诺不会将您的手机号码透露给第三方，请放心使用。
+		                                 </span>
+	                                 </div>
+	                             </div>
+	                         </div>
+	                     </dd>
+                     <dd class="dd_dark">
+                         <a id="link_2dcode_mail" href="javascript:void(0)" hidefocus="true"><i class="icon ico_2dcode"></i>通过二维码</a>
+                         <div id="ppbox_2dcode" class="popbox" style="bottom:30px; left:-9px; width:175px; display:none;">
+                             <i class="icon ico_corner ico_corner_downL"></i>
+                             <div class="popbox_con">
+                                 <div class="twodcode_img">
+                                     <img src="images/mail/mailchat.png">
+                                 </div>                                	
+                                 <div class="twodcode_txt">
+                                     可通过手机二维码扫描软件，扫描二维码即可立即下载。
+                                 </div>
+                             </div>
+                         </div>
+                     </dd>
+                 </dl>
+                 <div class="clear"></div>
+                 	<!-- <div class="msg">手机浏览器直接输入"d.35.com/2Ta"</div> -->
+             </div>
+	          <div id="phonecon_2" class="tagcon hide clearfix">
+                 <dl id="downld_box_mail" class="downld_box_mail">
+                     <dd class="dd_green"><a href="https://mcapi.mailchat.cn/go/35iphone" target="_blank" hidefocus="true"><i class="icon ico_cmpt"></i>通过Appstore免费下载</a></dd>
+                     <dd class="dd_dark">
+                         <a id="link_2dcode_mail_phone" href="javascript:void(0)" hidefocus="true"><i class="icon ico_2dcode"></i>通过二维码</a>
+                         <div id="ppbox_2dcode_phone" class="popbox" style="bottom:30px; left:-9px; width:175px; display:none;">
+                             <i class="icon ico_corner ico_corner_downL"></i>
+                             <div class="popbox_con">
+                                 <div class="twodcode_img">
+                                     <img src="images/mail/mailchat.png">
+                                 </div>                                	
+                                 <div class="twodcode_txt">
+                                 	可通过手机二维码扫描软件，扫描二维码即可立即下载。
+                                 </div>
+                             </div>
+                         </div>
+                     </dd>
+                 </dl>
+                 <div class="clear"></div>
+                 <!-- <div class="msg">直接通过iPhone手机Appstore搜索"35mail"更快捷</div> -->                                                   
+	          </div>
+	          <div id="phonecon_3" class="tagcon hide clearfix">
+               <dl id="downld_box_mail" class="downld_box_mail">
+                 <dd class="dd_green"><a href="http://mcfile.mailchat.cn/win/MailChat_35_Setup.exe" target="_blank" hidefocus="true"><i class="icon ico_cmpt"></i>下载电脑客户端</a></dd>
+                 <!-- 
+                 <dd class="dd_dark"> <a id="link_3dcode_mail_phone" href="javascript:void(0)" hidefocus="true"><i class="icon ico_2dcode"></i>通过二维码</a>
+                   <div id="ppbox_3dcode_phone" class="popbox" style="bottom:30px; left:-9px; width:175px; display:none;"> <i class="icon ico_corner ico_corner_downL"></i>
+                     <div class="popbox_con">
+                       <div class="twodcode_img"> <img src="images/mail/35pushmail.app.png" /> </div>
+                       <div class="twodcode_txt"> 可通过手机二维码扫描软件，扫描二维码即可立即下载。 </div>
+                     </div>
+                   </div>
+                 </dd>
+                  -->
+               </dl>
+               <div class="clear"></div>
+             </div>   
+         </li>
+
+         
+         <li>
+         	
+         		<a class="icon ico_arr_rig" href="shortcutdownload?service=http%3A%2F%2Fmail.chinacsf.com%2FSofia.jsp&amp;domain=chinacsf.com" target="_blank" hidefocus="true">桌面快捷方式</a>
+         	
+         	<a class="icon ico_arr_rig" href="http://help.mail.35.com" target="_blank" hidefocus="true">常见问题</a>
+            <a class="icon ico_arr_rig" href="/jsp/tools/speed.jsp?locale=zh_CN" target="_blank" hidefocus="true" id="switchingServerEle">登录太慢？</a>
+         </li>
+         
+     </ul>
+ </div>
+
+
+                                    </div>
+                                  
+                                </div></form>
+                            </div>
+                        </div>
+                        <div class="ui-dialog-server" id="switchingServerPopup" style="display:none">
+                            <div class="hd"><span style="display:none" id="usedTime"></span><a href="javascript:void(0)" onclick="closeSwitchingServerPopup()" class="btn-close-dialog"><img src="images/dialog-server-btn-close.png"></a></div>
+                            <div class="bd">
+                                <div class="tips">登录速度有点慢哦，可能是由于网络问题造成的</div>
+                                <div style="padding:20px 0;"><img src="images/dialog-server-img.png"></div>
+                                <div class="btnbar"><a href="javascript:void(0)" onclick="closeSwitchingServerPopup()" class="btn" style="margin-top: 0;">继续等待</a>
+                                 <a href="/jsp/tools/speed.jsp?locale=zh_CN" class="btn btn-main" style="margin-top: 0;">切换线路</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        	<div class="login_main_bot clearfix"></div>
+        </div>
+        <div id="login_footer" class="login_footer clearfix">
+          <div class="footer_content">
+		  	
+			地址：厦门市软件园二期观日路8号(三五互联) <br>邮编：361008  <br>电话：0592-5391800 <br>传真：0592-5391808
+          </div>
+        </div>
+    </div>
+</div>
+<div class="low_vers_tip" id="eisp2_tip" style="_top:713px;display:none;">
+	<i class="icon icon_note"></i>您正在使用的<strong><span id="browserVersionTip">IE7.0</span></strong>版本浏览器将<strong>严重影响邮局安全性及运行速度</strong>！建议升级到<a href="javascript:ie8Click();">IE8.0</a>或更换浏览器。<a class="close" href="javascript:closeBrowerTip();">我知道了！</a>
+</div>
+<iframe src="../ec/clearSession.jsp" frameborder="0" height="0" width="0"></iframe>
+<iframe src="../clearSession.jsp" frameborder="0" height="0" width="0"></iframe>
+
+
+</body></html>

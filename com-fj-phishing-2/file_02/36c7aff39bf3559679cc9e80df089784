@@ -1,0 +1,1101 @@
+<!DOCTYPE html><html><head>
+<title>【地标商城】买特色美食上地标商城 DBMALL.COM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="baidu-site-verification" content="v2F5V8od4b">
+    <meta name="keywords" content="中国地理标志产品商城,地标产品,地理标志产品,高品质食材,土特产网购,特产网购商城,地标商城">
+    <meta name="description" content="地标商城以中国地理标志产品为核心,以提供高品质食材为出发点,提供新鲜地道的地方特产,让消费者足不出户就可以享受到真正安全美味的高品质食材.各种特产食材都蕴含当地丰富的自然与人文元素,满足客户对特定地域的特色食品和高品质食材的需求.">
+    <meta name="baidu-site-verification" content="fRauzmw0Uk">
+<!-- <link rel="stylesheet" type="text/css" href="http://www.dbmall.com/shop/templates/default/css/dbmall_2016_02_23.css"/> -->
+	<link rel="stylesheet" type="text/css" href="http://www.dbmall.com/shop/resource/css/swiper-3.4.2.min.css">
+	<script src="//hm.baidu.com/hm.js?5a74a1aa2333382de7ec6295b684ea35"></script><script charset="utf-8" src="https://tag.baidu.com/vcard/v.js?siteid=8005259&amp;url=http%3A%2F%2Fwww.dbmall.com%2F&amp;source=&amp;rnd=1150449196&amp;hm=1"></script><script src="//hm.baidu.com/hm.js?5a74a1aa2333382de7ec6295b684ea35"></script><script type="text/javascript" src="http://www.dbmall.com/shop/resource/js/swiper-3.4.2.min.js"></script>
+</head>
+<body>
+	
+		
+		<!-- S Header -->
+
+<link rel="stylesheet" type="text/css" href="http://www.dbmall.com/shop/templates/default/css/dbmall_2016_02_23.css?t=201712121731">
+<script type="text/javascript" src="http://www.dbmall.com/data/resource/js/jquery.js"></script>
+<script>
+
+var _hmt = _hmt || [];
+
+(function() {
+
+  var hm = document.createElement("script");
+
+  hm.src = "//hm.baidu.com/hm.js?5a74a1aa2333382de7ec6295b684ea35";
+
+  var s = document.getElementsByTagName("script")[0];
+
+  s.parentNode.insertBefore(hm, s);
+
+})();
+
+</script>
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+	<div class="top_container">
+		<div class="top">
+			<!-- S 顶部 用户登录信息 -->
+			<div class="top-1">
+									您好，欢迎来到					<a href="http://www.dbmall.com" title="首页" alt="首页">
+                    	地标商城</a>
+                    	<a href="http://www.dbmall.com/shop/index.php?act=login&amp;op=index">[登录]</a>
+						<!--<a href="<?/*=urlShop('login','register')*/?>">[<?/*=$lang['nc_register']*/?>]</a>-->
+						<a href="http://www.dbmall.com/shop/index.php?act=login&amp;op=index">[注册]</a>
+							</div>
+			<!-- E 顶部 用户登录信息 -->
+			
+			<!-- S 顶部 右侧导航 -->
+			<div class="top-2">
+				<ul>
+					<li class="top-2-phone"><a href="http://www.dbmall.com/wap"><img src="../shop/templates/default/images/new/dbmall_03.jpg">手机版</a></li>
+					<li>/</li>
+					<li><a href="http://www.dbmall.com/shop/index.php?act=member_order">我的订单</a></li>
+					<li>/</li>
+					<li><a href="http://www.dbmall.com/shop/index.php?act=member_goodsbrowse&amp;op=list">我的足迹</a></li>
+					<li>/</li>
+					<li class="top-2-kffw">
+						客户服务<img class="top-2-kffw-jt" src="../shop/templates/default/images/new/dbmall_06.jpg">
+						<ul>
+							<li><a href="http://www.dbmall.com/shop/index.php?act=article&amp;op=article&amp;ac_id=1">帮助中心</a></li>
+							<li><a href="http://www.dbmall.com/shop/index.php?act=article&amp;op=article&amp;ac_id=4">售后服务</a></li>
+						</ul>
+					</li>
+					<li>/</li>
+					<li class="top-2-gywm">
+						关注我们<img class="top-2-gywm-jt" src="../shop/templates/default/images/new/dbmall_06.jpg">
+						<ul>
+							<li>
+								扫描二维码<br>关注微信公众号<br>
+								<img src="http://www.dbmall.com/shop/templates/default/images/mall/qr100.png"><br>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<!-- E 顶部 右侧导航 -->
+			<div class="clear"></div>
+		</div>
+
+
+<script>
+
+//顶部菜单
+$('.top-2-kffw,.top-2-gywm').mouseover(function(){
+	$(this).find('ul').show();
+	$("."+$(this).attr('class')+'-jt').attr('src','../shop/templates/default/images/new/dbmall_07.jpg');
+});
+
+$('.top-2-kffw,.top-2-gywm').mouseleave(function(){
+	$(this).find('ul').hide();
+	$("."+$(this).attr('class')+'-jt').attr('src','../shop/templates/default/images/new/dbmall_06.jpg');
+});
+
+
+
+    //document.oncontextmenu=function(){return false};
+    $(function(){
+        function over(){
+            $(".button2").stop();
+            $(this).next(".button2").animate({
+                width:"120px"
+            },500);
+        }
+
+        function out(){
+            $(".button2").stop();
+            $(".button2").animate({
+                width:"40px"
+            },500);
+        }
+
+        $(".button1").bind("mouseover",over);
+
+        $(".button1").bind("mouseout",out);
+
+
+        $(".map_open_goods").mouseover(function(){
+            $(this).stop().animate({
+                marginTop:"-10px"
+            },600);
+        });
+
+        $(".map_open_goods").mouseout(function(){
+            $(this).stop().animate({
+                marginTop:"0px"
+            },600);
+        });
+    });
+</script>		<div class="logo">
+			<div>
+				<div class="logo-1">
+                    <h1>
+                        <a href="http://www.dbmall.com"><img src="../shop/templates/default/images/new/dbmall__03.png"></a>
+                    </h1>
+                    <img id="logo_right_title" src="http://www.dbmall.com/shop/templates/default/images/new/dbmall__06.png?t=201610111533">
+                   <!--  <div class="logo-ad">
+                        <a href="http://www.dbmall.com/shop/index.php?act=active&op=doubletenth"><img src="http://www.dbmall.com/shop/templates/default/images/new/sy_tpic.jpg"></a><br/>
+                        <img id="logo_right_title" src="http://www.dbmall.com/shop/templates/default/images/new/dbmall__06.png">
+                    </div> -->
+				</div>
+                                <div class="logo-2">
+                    <form id="search_form" action="http://www.dbmall.com/shop/index.php" method="get">
+                        <input type="hidden" name="act" value="search">
+                        <input class="search_info" type="text" name="keyword" placeholder="搜索商品" value="" style="color:black;">
+                        <a onclick="document.getElementById('search_form').submit();" class="search_btn">搜索</a>
+                    </form>
+                    <div class="keyword">
+                        <ul>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E5%A4%A7%E9%97%B8%E8%9F%B9" target="_blank">大闸蟹</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E8%9C%82%E8%9C%9C" target="_blank">蜂蜜</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E6%9D%BF%E6%A0%97%E4%BB%81" target="_blank">板栗仁</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E8%9B%8B%E9%BB%84%E9%85%A5" target="_blank">蛋黄酥</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E9%9D%92%E6%9F%A0%E6%AA%AC" target="_blank">青柠檬</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E6%B0%B4%E6%9E%9C%E7%BD%90%E5%A4%B4" target="_blank">水果罐头</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E9%BB%91%E6%9C%A8%E8%80%B3" target="_blank">黑木耳</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E8%9E%BA%E8%9B%B3%E7%B2%89" target="_blank">螺蛳粉</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E8%B4%B5%E5%B7%9E" target="_blank">贵州</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E6%B0%B4%E6%9E%9C" target="_blank">水果</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E7%BA%A2%E6%9E%A3" target="_blank">红枣</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E9%93%B6%E8%80%B3" target="_blank">银耳</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E7%8C%95%E7%8C%B4%E6%A1%83" target="_blank">猕猴桃</a></li>
+                                                    <li><a href="http://www.dbmall.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E6%9F%9A" target="_blank">柚</a></li>
+                                                </ul>
+                  </div> 
+                </div>
+				<div class="logo-3"><a href="http://www.dbmall.com/shop/index.php?act=member&amp;op=home">我的商城</a><a id="my_cart" href="http://www.dbmall.com/shop/index.php?act=cart">我的购物车</a></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+<!-- E Header -->
+
+<script>
+    $(function(){
+        dbmall.show_cart_goods_num();
+    });
+
+    var dbmall = {
+        show_cart_goods_num : function(){
+            $.ajax({
+                url : 'http://www.dbmall.com/index.php?act=cart&op=ajax_load',
+                type : 'GET',
+                dataType: "json",
+                success : function(data){
+                    var $cart_num = $("#my_cart");
+                    if(data.cart_goods_num>0)
+                    {
+                        $cart_num.show();
+                        $cart_num.html("我的购物车<span><span>"+data.cart_goods_num+"</span></span>");
+                    }else{
+                    	$cart_num.html("我的购物车");
+                    }
+                }
+            });
+        }
+    };
+</script>
+		<!-- S Menu -->
+	<div class="menu-out">
+		<div class="menu">
+			<a id="area_all" href="http://www.dbmall.com/all">全部地标展馆</a>
+			
+			
+			
+			<a id="type_20" href="http://www.dbmall.com/dibiaozhenpin">地标珍品</a>
+			
+			<a id="type_21" href="http://www.dbmall.com/liangyoufushi">粮油副食</a>
+			
+			<a id="type_19" href="http://www.dbmall.com/jiushuichayin">酒水茶饮</a>
+			
+			<a id="type_18" href="http://www.dbmall.com/shanzhenhaiwei">山珍海味</a>
+			
+			<a id="type_17" href="http://www.dbmall.com/shengxianguoshu">生鲜果蔬</a>
+			
+			<a id="type_16" href="http://www.dbmall.com/xiuxianlingshi">休闲零食</a>
+			
+<!-- 			<a id="type_" href="http://www.dbmall.com/dibiaochanpinshujuzhongxin" target="_blank">地标产品数据中心 </a>
+			 -->
+<!-- 
+
+<div class="menu-focus">
+				<div>
+					<span>华北</span>
+					<a id="area_beijing" href="http://www.dbmall.com/zg/beijing">北京市</a>
+					<a id="area_tianjin" href="http://www.dbmall.com/zg/tianjin">天津市</a>
+					<a id="area_shanxi" href="http://www.dbmall.com/zg/shanxi">山西省</a>
+					<a id="area_shandong" href="http://www.dbmall.com/zg/shandong">山东省</a>
+					<a id="area_hebei" href="http://www.dbmall.com/zg/hebei">河北省</a>
+					<a id="area_neimenggu" href="http://www.dbmall.com/zg/neimenggu">内蒙古</a>
+				</div>
+				<div>
+					<span>东北</span>
+					<a id="area_liaoning" href="http://www.dbmall.com/zg/liaoning">辽宁</a>
+					<a id="area_jiling" href="http://www.dbmall.com/zg/jiling">吉林</a>
+					<a id="area_heilongjiang" href="http://www.dbmall.com/zg/heilongjiang">黑龙江</a>
+				</div>
+				<div>
+					<span>华东</span>
+					<a id="area_shanghai" href="http://www.dbmall.com/zg/shanghai">上海</a>
+					<a id="area_jiangsu" href="http://www.dbmall.com/zg/jiangsu">江苏</a>
+					<a id="area_zhejiang" href="http://www.dbmall.com/zg/zhejiang">浙江</a>
+					<a id="area_anhui" href="http://www.dbmall.com/zg/anhui">安徽</a>
+					<a id="area_jiangxi" href="http://www.dbmall.com/zg/jiangxi">江西</a>
+				</div>
+				<div>
+					<span>华中</span>
+					<a id="area_hunan" href="http://www.dbmall.com/zg/hunan">湖南</a>
+					<a id="area_hebei" href="http://www.dbmall.com/zg/hubei">湖北</a>
+					<a id="area_henan" href="http://www.dbmall.com/zg/henan">河南</a>
+				</div>
+				<div>
+					<span>华南</span>
+					<a id="area_guangdong" href="http://www.dbmall.com/zg/guangdong">广东</a>
+					<a id="area_guangxi" href="http://www.dbmall.com/zg/guangxi">广西</a>
+					<a id="area_fujian" href="http://www.dbmall.com/zg/fujian">福建</a>
+					<a id="area_hainan" href="http://www.dbmall.com/zg/hainan">海南</a>
+				</div>
+				<div>
+					<span>西北</span>
+					<a id="area_shanxi" href="http://www.dbmall.com/zg/shanxi">陕西</a>
+					<a id="area_xinjiang" href="http://www.dbmall.com/zg/xinjiang">新疆</a>
+					<a id="area_gansu" href="http://www.dbmall.com/zg/gansu">甘肃</a>
+					<a id="area_ningxia" href="http://www.dbmall.com/zg/ningxia">宁夏</a>
+					<a id="area_qinghai" href="http://www.dbmall.com/zg/qinghai">青海</a>
+				</div>
+				<div>
+					<span>西南</span>
+					<a id="area_chongqing" href="http://www.dbmall.com/zg/chongqing">重庆</a>
+					<a id="area_yunnan" href="http://www.dbmall.com/zg/yunnan">云南</a>
+					<a id="area_guizhou" href="http://www.dbmall.com/zg/guizhou">贵州</a>
+					<a id="area_xizang" href="http://www.dbmall.com/zg/xizang">西藏</a>
+					<a id="area_sichuan" href="http://www.dbmall.com/zg/sichuan">四川</a>
+				</div>
+			</div>
+-->
+
+			<div class="menu-focus">
+				<div>
+					<span>华北</span>
+
+					<a target="_blank" id="area_shanxii" href="http://www.dbmall.com/shanxii">山西馆</a>
+					<a target="_blank" id="area_shandong" href="http://www.dbmall.com/shandong">山东馆</a>
+					<a target="_blank" id="area_hebei" href="http://www.dbmall.com/hebei">河北馆</a>
+
+				</div>
+				<div>
+					<span>东北</span>
+					<a target="_blank" id="area_liaoning" href="http://www.dbmall.com/liaoning">辽宁馆</a>
+					<a target="_blank" id="area_jilin" href="http://www.dbmall.com/jilin">吉林馆</a>
+					<a target="_blank" id="area_heilongjiang" href="http://www.dbmall.com/heilongjiang">黑龙江馆</a>
+				</div>
+				<div>
+					<span>华东</span>
+
+					<a target="_blank" id="area_zhejiang" href="http://www.dbmall.com/zhejiang">浙江馆</a>
+					<a target="_blank" id="area_anhui" href="http://www.dbmall.com/anhui">安徽馆</a>
+					<a target="_blank" id="area_jiangxi" href="http://www.dbmall.com/jiangxi">江西馆</a>
+					<a target="_blank" id="area_jiangsu" href="http://www.dbmall.com/jiangsu">江苏馆</a>
+				</div>
+				<div>
+					<span>华中</span>
+					<a target="_blank" id="area_hunan" href="http://www.dbmall.com/hunan">湖南馆</a>
+					<a target="_blank" id="area_hubei" href="http://www.dbmall.com/hubei">湖北馆</a>
+					<a target="_blank" id="area_henan" href="http://www.dbmall.com/henan">河南馆</a>
+				</div>
+				<div>
+					<span>华南</span>
+					<a target="_blank" id="area_guangdong" href="http://www.dbmall.com/guangdong">广东馆</a>
+					<a target="_blank" id="area_guangxi" href="http://www.dbmall.com/guangxi">广西馆</a>
+					<a target="_blank" id="area_fujian" href="http://www.dbmall.com/fujian">福建馆</a>
+				</div>
+				<div>
+					<span>西北</span>
+					<a target="_blank" id="area_shanxi" href="http://www.dbmall.com/shanxi">陕西馆</a>
+					<a target="_blank" id="area_xinjiang" href="http://www.dbmall.com/xinjiang">新疆馆</a>
+					<a target="_blank" id="area_gansu" href="http://www.dbmall.com/gansu">甘肃馆</a>
+					<a target="_blank" id="area_ningxia" href="http://www.dbmall.com/ningxia">宁夏馆</a>
+					<a target="_blank" id="area_qinghai" href="http://www.dbmall.com/qinghai">青海馆</a>
+				</div>
+				<div>
+					<span>西南</span>
+					<a target="_blank" id="area_guizhou" href="http://www.dbmall.com/guizhou">贵州馆</a>
+					<a target="_blank" id="area_xizang" href="http://www.dbmall.com/xizang">西藏馆</a>
+					<a target="_blank" id="area_sichuan" href="http://www.dbmall.com/sichuan">四川馆</a>
+					<a target="_blank" id="area_yunnan" href="http://www.dbmall.com/yunnan">云南馆</a>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div>
+
+	</div>
+<!-- E Menu -->
+
+<script type="text/javascript">
+    $(function(){
+        var a_element_id = '';
+
+		if(a_element_id == 'area_index' || a_element_id == 'area_all' || a_element_id == ""){
+
+			if(a_element_id == 'area_index' || a_element_id == ""){
+				//$('a[id='+a_element_id+']').prev().remove();
+				$('a[id=area_index]').remove();
+			}
+			
+		}else{
+			$right_title = $('a[id=]').html();
+			$("#logo_right_title").after('<span id="logo_right_title">'+$right_title+'</span>');
+			$("#logo_right_title").remove();
+		}
+		
+    	$(".menu a").each(function(){
+    		
+    		var id=$(this).attr("id");
+
+    		if(id==a_element_id){
+    			$(this).addClass('menu-select').siblings().removeClass('menu-select');
+    			return;
+    		}
+  
+    	});
+    	
+        
+    	//全部地标展馆菜单
+    	var mark = true;
+    	
+    	function leave(){
+    		setTimeout(function(){
+    			if(mark){
+    				$('.menu a').first().css('backgroundImage','url(http://www.dbmall.com/shop/templates/default/images/new/menu_jt_1.png)');
+    				$('.menu a').first().css('backgroundColor','#f71127');
+    				$('.menu a').first().css('color','#f6eced');
+    				$('.menu-focus').hide();
+    			}
+    		},100);
+    	}
+    	
+    	$('.menu a').first()
+    	.mouseover(function(){
+    		$('.menu a').first().css('backgroundImage','url(http://www.dbmall.com/shop/templates/default/images/new/menu_jt_2.png)');
+    		$('.menu a').first().css('backgroundColor','#f7f7f7');
+    		$('.menu a').first().css('color','#f83240');
+    		$('.menu-focus').show();
+    	})
+    	.mouseleave(function(){
+    		leave();
+    	});
+    	
+    	$('.menu-focus')
+    	.mouseover(function(){
+    		mark = false;
+    	})
+    	.mouseleave(function(){
+    		mark = true;
+    		leave();
+    	});
+ 
+
+
+    	
+    });
+
+    
+</script>
+		
+		<div class="banner">
+			<div class="swiper-container swiper-container-horizontal swiper-container-fade">
+                <div class="swiper-wrapper" style="transition: 0ms; -webkit-transition: 0ms;">
+                	                    	<div class="swiper-slide swiper-slide-prev" style="width: 1200px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="http://www.dbmall.com/2653.html" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05684588305373055.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+					                    	<div class="swiper-slide swiper-slide-active" style="width: 1200px; opacity: 1; transform: translate3d(-1200px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="http://www.dbmall.com/2350.html" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05669352190420851.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+					                    	<div class="swiper-slide swiper-slide-next" style="width: 1200px; opacity: 0; transform: translate3d(-2400px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="http://www.dbmall.com/2652.html" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05687199504200933.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+					                    	<div class="swiper-slide" style="width: 1200px; opacity: 0; transform: translate3d(-3600px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="http://www.dbmall.com/2682.html" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05688220537866210.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+					                    	<div class="swiper-slide" style="width: 1200px; opacity: 0; transform: translate3d(-4800px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="http://www.dbmall.com/2660.html" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05682874623444576.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+					                    	<div class="swiper-slide" style="width: 1200px; opacity: 0; transform: translate3d(-6000px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="http://www.dbmall.com/wap/tmpl/pintuan/pintuan_detail.html?t_id=10000395" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05684017770545297.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+					                    	<div class="swiper-slide" style="width: 1200px; opacity: 0; transform: translate3d(-7200px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05677689148897586.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+					                    	<div class="swiper-slide" style="width: 1200px; opacity: 0; transform: translate3d(-8400px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;">
+                    		<a href="http://www.dbmall.com/2594.html" target="_blank">
+                    			<img src="http://img.dbmall.com/data/upload/home/05684017031483087.jpg" alt="" width="100%;">
+                    		</a>
+                    	</div>
+						
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+			</div>
+	</div>
+		
+			 <!-- 优惠券 --> 
+		<!-- <div class="ticket_box" >
+			<a href="javascript:AOPGetVoucher('88')"><img src="http://www.dbmall.com/shop/templates/default/images/voucherimages/tips_01.png"/></a>
+			<a href="javascript:AOPGetVoucher('87')"><img src="http://www.dbmall.com/shop/templates/default/images/voucherimages/tips_02.png"/></a>
+			<a href="javascript:AOPGetVoucher('86')"><img src="http://www.dbmall.com/shop/templates/default/images/voucherimages/tips_03.png"/></a>
+			<a href="javascript:AOPGetVoucher('85')"><img src="http://www.dbmall.com/shop/templates/default/images/voucherimages/tips_04.png"/></a>
+		</div> -->
+		<!-- 消息通知 -->
+		<!-- <div class="inform">
+			<span class="inform_ico"></span>
+			<span>【温馨提醒】尊敬的用户，国庆中秋节期间，由于部分商家不能正常发货，下单前请知悉相关商品发货信息（以页面说明为准）。感谢您的理解和支持，祝您假期愉快！</span>	
+		</div>
+ -->
+		<div class="sy-left">
+			<ul style="top: 254px;">
+				<li><a href="#xp">新品</a></li>
+				<li><a href="#ts">特色</a></li>
+				<li><a href="#zl">珍礼</a></li>
+				<li><a href="#zb">滋补</a></li>
+				<li><a href="#ly">粮油</a></li>
+				<li><a href="#cy">茶叶</a></li>
+				<li><a href="#mj">美酒</a></li>
+				<li><a href="#gs">果蔬</a></li>
+				<li><a href="#ls">零食</a></li>
+				
+				
+			</ul>
+		</div>
+		<!-- 导航图  暂时隐藏-->
+		<!--  <div class="sy-body1">
+		  		</div>-->
+		<!-- 特价优惠精选 -->
+		<div class="gq_bg">
+			<div class="sy-body2">
+				<div><img src="http://www.dbmall.com/shop/templates/default/images/new/dbmall_26.png"></div> 
+				<!-- <div><a href="http://www.dbmall.com/shop/index.php?act=active&op=doubletenth"><img src="http://www.dbmall.com/shop/templates/default/images/new/sy_cpic.jpg"/></a></div> -->
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2176.html"><img src="http://img.dbmall.com/data/upload/home/05688238831306244.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2372.html"><img src="http://img.dbmall.com/data/upload/home/05688238831339858.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2163.html"><img src="http://img.dbmall.com/data/upload/home/05592224343328776.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2173.html"><img src="http://img.dbmall.com/data/upload/home/05675111394066520.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2528.html"><img src="http://img.dbmall.com/data/upload/home/05675266680199838.jpg" alt=""></a>
+							</div>
+		</div>
+		<!-- 新品上市 -->
+		<a name="xp"></a>
+		<div class="ssy_bg">
+			<div class="sy-body3">
+				<div class="sy-body3-a">
+					<img src="http://www.dbmall.com/shop/templates/default/images/new/dbmall_34.png">
+					<h2 class="h_sort">新品上市</h2>
+				</div>
+				<div class="sy-body3-b">
+									<a target="_blank" class="animate" href="http://www.dbmall.com/2460.html"><img src="http://img.dbmall.com/data/upload/home/05620960365548751.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/2481.html"><img src="http://img.dbmall.com/data/upload/home/05670184584672852.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/2394.html"><img src="http://img.dbmall.com/data/upload/home/05637126322232301.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/2354.html"><img src="http://img.dbmall.com/data/upload/home/05636205101498303.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/2396.html"><img src="http://img.dbmall.com/data/upload/home/05636205101502502.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/2458.html"><img src="http://img.dbmall.com/data/upload/home/05636205101500224.jpg" alt=""></a>
+					
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="ad_img_box">
+			<a href="http://www.dbmall.com/g458.html" target="_blank" class="ad_img"></a>
+		</div> -->
+		<!-- 地标特色 -->
+		<a name="ts"></a>
+		<div class="ssy_bg">
+			<div class="sy-body4">
+				<div class="sy-body4-a">
+					<img src="http://www.dbmall.com/shop/templates/default/images/new/dbmall_34.png">
+					<h2 class="h_sort">地标特色</h2>
+				</div>
+				<div class="sy-body4-b">
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1007.html"><img src="http://img.dbmall.com/data/upload/home/05515323505642987.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1472.html"><img src="http://img.dbmall.com/data/upload/home/05515323505649804.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1926.html"><img src="http://img.dbmall.com/data/upload/home/05540528199074979.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/511.html"><img src="http://img.dbmall.com/data/upload/home/05515323505653071.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1347.html"><img src="http://img.dbmall.com/data/upload/home/05540528199082062.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1582.html"><img src="http://img.dbmall.com/data/upload/home/05515324219376813.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1538.html"><img src="http://img.dbmall.com/data/upload/home/05620959740050256.jpg" alt=""></a>
+					
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- 地标珍理 -->
+		<a name="zl"></a>
+		<div class="ssy_bg">
+			<div class="sy-body5">
+				<div class="sy-body5-a">
+					<img src="http://www.dbmall.com/shop/templates/default/images/new/dbmall_34.png">
+					<h2 class="h_sort">地标珍礼</h2>
+				<a target="_blank" href="http://www.dbmall.com/dibiaozhenpin">查看更多&gt;&gt;</a></div>
+				<div class="sy-body5-b">
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1484.html"><img src="http://img.dbmall.com/data/upload/home/05400333019012633.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/129.html"><img src="http://img.dbmall.com/data/upload/home/05584406949745097.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1503.html"><img src="http://img.dbmall.com/data/upload/home/05515327130417296.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1445.html"><img src="http://img.dbmall.com/data/upload/home/05400333019032038.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1482.html"><img src="http://img.dbmall.com/data/upload/home/05540528520291915.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/2060.html"><img src="http://img.dbmall.com/data/upload/home/05540528520304350.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/381.html"><img src="http://img.dbmall.com/data/upload/home/05428229115392255.jpg" alt=""></a>
+									<a target="_blank" class="animate" href="http://www.dbmall.com/1007.html"><img src="http://img.dbmall.com/data/upload/home/05515327130466641.jpg" alt=""></a>
+					
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- 地标珍品-->
+		<a name="zb"></a>
+		<div class="ssy_bg">
+			<div class="sy-body6">
+				<h2>
+					<a target="_blank" href="http://www.dbmall.com/dibiaozhenpin"><img src="http://img.dbmall.com/data/upload/home/05448117564750836.jpg" alt=""></a>
+				</h2>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2065.html"><img src="http://img.dbmall.com/data/upload/home/05580990039390329.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2248.html"><img src="http://img.dbmall.com/data/upload/home/05688078497434496.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/381.html"><img src="http://img.dbmall.com/data/upload/home/05540570715663393.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2596.html"><img src="http://img.dbmall.com/data/upload/home/05636198180381500.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1446.html"><img src="http://img.dbmall.com/data/upload/home/05636198180395384.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1926.html"><img src="http://img.dbmall.com/data/upload/home/05671059497076156.jpg" alt=""></a>
+								<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 粮油副食 -->
+		<a name="ly"></a>
+		<div class="ssy_bg">
+			<div class="sy-body6">
+				<h2>
+					<a target="_blank" href="http://www.dbmall.com/liangyoufushi"><img src="http://img.dbmall.com/data/upload/home/05448117746627529.jpg" alt=""></a>
+				</h2>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1907.html"><img src="http://img.dbmall.com/data/upload/home/05683721733294605.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1365.html"><img src="http://img.dbmall.com/data/upload/home/05638977522283224.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1308.html"><img src="http://img.dbmall.com/data/upload/home/05580902595194948.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1893.html"><img src="http://img.dbmall.com/data/upload/home/05636232681115798.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1494.html"><img src="http://img.dbmall.com/data/upload/home/05638796451542847.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/145.html"><img src="http://img.dbmall.com/data/upload/home/05580990575628274.jpg" alt=""></a>
+								<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 酒水茶饮-->
+		<a name="cy"></a>
+		<div class="ssy_bg">
+			<div class="sy-body6">
+				<h2>
+					<a target="_blank" href="http://www.dbmall.com/jiushuichayin"><img src="http://img.dbmall.com/data/upload/home/05448117893236597.jpg" alt=""></a>
+				</h2>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1874.html"><img src="http://img.dbmall.com/data/upload/home/05688239574175322.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1354.html"><img src="http://img.dbmall.com/data/upload/home/05580900785451434.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1503.html"><img src="http://img.dbmall.com/data/upload/home/05672668463734731.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2277.html"><img src="http://img.dbmall.com/data/upload/home/05629293278807494.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1441.html"><img src="http://img.dbmall.com/data/upload/home/05638795910037975.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1443.html"><img src="http://img.dbmall.com/data/upload/home/05580900982669272.jpg" alt=""></a>
+								<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 山珍海味 -->
+		<a name="mj"></a>
+		<div class="ssy_bg">
+			<div class="sy-body6">
+				<h2>
+					<a target="_blank" href="http://www.dbmall.com/shanzhenhaiwei"><img src="http://img.dbmall.com/data/upload/home/05448095674865971.jpg" alt=""></a>
+				</h2>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2225.html"><img src="http://img.dbmall.com/data/upload/home/05638977674810638.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2049.html"><img src="http://img.dbmall.com/data/upload/home/05636197855451853.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1583.html"><img src="http://img.dbmall.com/data/upload/home/05581076822167441.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1582.html"><img src="http://img.dbmall.com/data/upload/home/05580991722368932.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1581.html"><img src="http://img.dbmall.com/data/upload/home/05638795597023837.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1332.html"><img src="http://img.dbmall.com/data/upload/home/05638795690919379.jpg" alt=""></a>
+								<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 生鲜果蔬 -->
+		<a name="gs"></a>
+		<div class="ssy_bg">
+			<div class="sy-body6">
+				<h2>
+					<a target="_blank" href="http://www.dbmall.com/shengxianguoshu"><img src="http://img.dbmall.com/data/upload/home/05448096875735476.jpg" alt=""></a>
+				</h2>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1931.html"><img src="http://img.dbmall.com/data/upload/home/05636197625502220.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2489.html"><img src="http://img.dbmall.com/data/upload/home/05683781805900754.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2302.html"><img src="http://img.dbmall.com/data/upload/home/05665674035428545.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2056.html"><img src="http://img.dbmall.com/data/upload/home/05683781725539477.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2344.html"><img src="http://img.dbmall.com/data/upload/home/05671059164538653.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2064.html"><img src="http://img.dbmall.com/data/upload/home/05590729087099358.jpg" alt=""></a>
+								<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 休闲零食 -->
+		<a name="ls"></a>
+		<div class="ssy_bg">
+			<div class="sy-body6">
+				<h2>
+					<a target="_blank" href="http://www.dbmall.com/xiuxianlingshi"><img src="http://img.dbmall.com/data/upload/home/05127458132372966.jpg" alt=""></a>
+				</h2>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2229.html"><img src="http://img.dbmall.com/data/upload/home/05647430712112464.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1739.html"><img src="http://img.dbmall.com/data/upload/home/05620957439970567.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2136.html"><img src="http://img.dbmall.com/data/upload/home/05636197174924181.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2177.html"><img src="http://img.dbmall.com/data/upload/home/05665674320893140.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/1844.html"><img src="http://img.dbmall.com/data/upload/home/05638794658625745.jpg" alt=""></a>
+								<a target="_blank" class="animate" href="http://www.dbmall.com/2154.html"><img src="http://img.dbmall.com/data/upload/home/05586404151468570.jpg" alt=""></a>
+								<div class="clear"></div>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+<!--S新闻资讯  -->
+
+
+		<div class="sy-body7">
+			<div>
+				<div class="sy-body7-a">
+					<span>美食资讯<a href="http://www.dbmall.com/index.php?act=article&amp;op=articleClassShow&amp;type=food" target="_blank">更多&gt;</a></span>
+					<span>公司动态<a href="http://www.dbmall.com/index.php?act=article&amp;op=articleClassShow&amp;type=company" target="_blank">更多&gt;</a></span>
+				</div>
+				<div class="sy-body7-b">
+					<ul>
+																							<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=437" target="_blank"><span>你知道糖醋鸡蛋吗？这味道有点让人迷醉~快来试试吧</span><span>2018.01.08</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=436" target="_blank"><span>这道美味的糖醋排骨，家常必备！</span><span>2018.01.05</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=435" target="_blank"><span>千万别扔！教你几招，让宴客剩饭秒变硬菜～</span><span>2018.01.04</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=434" target="_blank"><span>一碗热气腾腾的排骨汤，这么做，补而不腻！全家都爱~</span><span>2018.01.02</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=433" target="_blank"><span>酸甜番茄米饭盅，一碗两碗都不够！</span><span>2017.12.27</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=431" target="_blank"><span>想不想吃一碗销魂的面？教你两道，保证回味无穷！</span><span>2017.12.26</span></a></li>
+																	</ul>
+					<ul>
+																							<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=432" target="_blank"><span>地标商城携手58同城，开启年终品牌盛典！</span><span>2017.12.26</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=423" target="_blank"><span>人山人海，网红聚集！食上嘻哈到底发生了什么？</span><span>2017.12.12</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=421" target="_blank"><span>这个棒球赛有点萌，还有帅气小哥哥。</span><span>2017.12.01</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=418" target="_blank"><span>来，请你喝酒！</span><span>2017.11.21</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=412" target="_blank"><span>庆周年|地标商城2岁啦！</span><span>2017.11.07</span></a></li>
+																				<li><a href="index.php?act=article&amp;op=index1&amp;artic_id=407" target="_blank"><span>还有2天，地标商城将有大事发生！！！</span><span>2017.10.30</span></a></li>
+																	</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+<!--E新闻资讯  -->
+		<!-- S Footer -->
+<div class="sidebar_dbmall">
+    <div class="sidebar_dbmall_img"></div>
+    <div class="sidebar_dbmall_main">
+        <div class="sidebar_dbmall_main_body">
+        	<div class="sidebar_dbmall_main_online" dir="">
+		    	<a href="http://tb.53kf.com/webCompany.php?arg=9000225&amp;style=2" target="_blank"></a>
+		    </div>
+		    <img src="http://www.dbmall.com/shop/templates/default/images/sidebar_dbmall4.png">
+		    <div class="sidebar_dbmall_main_phone" dir="sidebar_dbmall2.png">
+		    	<a href="javascripr:;"></a>
+		    </div>
+		    <img src="http://www.dbmall.com/shop/templates/default/images/sidebar_dbmall4.png">
+		    <div class="sidebar_dbmall_main_weixin" dir="sidebar_dbmall3.png">
+		    	<a href="javascripr:;"></a>
+		    </div>
+		    <img src="http://www.dbmall.com/shop/templates/default/images/sidebar_dbmall4.png">
+		    <div class="sidebar_dbmall_main_top">
+		    	<a href="#"></a>
+		    </div>
+        </div>
+	</div>
+</div>
+<div style="clear:both;"></div>
+
+		<div class="foot">
+			<div class="foot-1">
+				<ul>
+					<li><img src="../shop/templates/default/images/new/dbmall_88.png"><br>地标认证</li>
+					<li><img src="../shop/templates/default/images/new/dbmall_90.png"><br>正宗原产</li>
+					<li><img src="../shop/templates/default/images/new/dbmall_92.png"><br>品质保障</li>
+					<li><img src="../shop/templates/default/images/new/dbmall_95.png"><br>价格优势</li>
+					<li><img src="../shop/templates/default/images/new/dbmall_98.png"><br>售后无忧</li>
+				</ul>
+			</div>
+			<div class="foot-2">
+				<div class="foot-2-a">
+				
+				<!-- S 底部 文章列表 -->
+            
+                                    <div>
+                        <ul>
+                                                            <li>
+                                    新手帮助                                </li>
+                                
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=1" title="注册新用户" rel="nofollow"> 注册新用户                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=2" title="购物流程" rel="nofollow"> 购物流程                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=3" title="会员制度" rel="nofollow"> 会员制度                                            </a>
+                                        </li>
+                                                                    
+                                                    </ul>
+                    </div>
+                                    <div>
+                        <ul>
+                                                            <li>
+                                    配送方式                                </li>
+                                
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=4" title="配送说明" rel="nofollow"> 配送说明                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=5" title="运费说明" rel="nofollow"> 运费说明                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=6" title="验货签收" rel="nofollow"> 验货签收                                            </a>
+                                        </li>
+                                                                    
+                                                    </ul>
+                    </div>
+                                    <div>
+                        <ul>
+                                                            <li>
+                                    支付方式                                </li>
+                                
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=7" title="支付常见问题" rel="nofollow"> 支付常见问题                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=8" title="支付宝支付" rel="nofollow"> 支付宝支付                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=9" title="微信支付" rel="nofollow"> 微信支付                                            </a>
+                                        </li>
+                                                                    
+                                                    </ul>
+                    </div>
+                                    <div>
+                        <ul>
+                                                            <li>
+                                    售后服务                                </li>
+                                
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=10" title="正品承诺" rel="nofollow"> 正品承诺                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=11" title="售后咨询" rel="nofollow"> 售后咨询                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=12" title="退换货办理" rel="nofollow"> 退换货办理                                            </a>
+                                        </li>
+                                                                    
+                                                    </ul>
+                    </div>
+                
+
+                        <!-- E 底部 文章列表 -->
+
+				</div>
+				<div class="foot-2-b">
+					<ul>
+						<li><a><img src="../shop/templates/default/images/new/dbmall_106.png"><span>400-855-7128</span></a></li>
+						<li><a href="http://tb.53kf.com/webCompany.php?arg=9000225&amp;style=2" target="_blank" rel="nofollow"><img src="../shop/templates/default/images/new/dbmall_111.png"><span>在线客服</span></a></li>
+						<li><a href="http://weibo.com/360dbmall" target="_blank" rel="nofollow"><img src="../shop/templates/default/images/new/dbmall_114.png"><span>新浪微博</span></a></li>
+					</ul>
+				</div>
+				<div class="foot-2-c">
+					<ul>
+						<li><img src="http://www.dbmall.com/shop/templates/default/images/mall/qr.jpg"></li>
+						<li><span>地标商城官方微信</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			
+						
+			<div class="foot-3">
+				友情链接：
+				                                            <a target="_blank" href="http://www.360bot.com/">指南针商品交易市场</a>
+                     /                                         <a target="_blank" href="http://b2b.360bot.com/">指南针现货交易</a>
+                     /                                         <a target="_blank" href="http://news.360bot.com/">指南针资讯</a>
+                     /                                         <a target="_blank" href="http://kjs.aqsiq.gov.cn/dlbzcpbhwz" rel="nofollow">地理标志产品保护政府网</a>
+                     /                                         <a target="_blank" href="http://goods.dbmall.com/">地标产品数据库</a>
+                     /                                         <a target="_blank" href="http://www.51qiyiguo.com">猕猴桃价格</a>
+                     /                                         <a target="_blank" href="http://www.eczunyi.org.cn">遵义电子商务行业协会</a>
+                     /                                         <a target="_blank" href="http://yoyopt.cn">优优辣品</a>
+                                    			</div>
+            			
+			
+						<div class="foot-4">
+				<a href="http://www.dbmall.com">首页</a>/
+				<a href="http://www.dbmall.com/shop/index.php?act=active&amp;op=sitemap">网站地图</a>
+				                        / <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=13">招聘英才</a>
+                                        / <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=14">合作和商家入驻</a>
+                                        / <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=15">联系我们</a>
+                                        / <a target="_blank" href="http://www.dbmall.com/shop/index.php?act=article&amp;op=show&amp;article_id=16">关于我们</a>
+                			</div>
+            
+            	<div class="foot-5">
+	    <!-- <a href="http://61.144.227.239:9003/webrecord/form_query.jsp" target = "_blank" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/public_infomation.png" /></a>
+                <a href="http://www.sznet110.gov.cn/netalarm/index.jsp" target = "_blank" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/online_110.png" /></a> -->
+        <a href="javascript:;" target="_blank" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/public_infomation.png"></a>
+        <a href="javascript:;" target="_blank" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/online_110.png"></a>    
+        <a href="javascript:void(0);" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/alipay_logo.png"></a>
+        <a href="javascript:void(0);" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/wxpay_logo.png"></a>
+        <a href="javascript:void(0);" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/dbmall_118.jpg"></a>
+        <!-- <a href="http://szcert.ebs.org.cn/4446b0ca-c09b-401e-840c-298eda7bb086" target="_blank" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/gswj.png" /></a> -->
+        <a href="http://szcert.ebs.org.cn/65c59de9-ea6b-4898-b749-cb381fb52f06" target="_blank" rel="nofollow"><img style="height:35px;width:90px;" src="http://www.dbmall.com/shop/templates/default/images/mall/gswj.png"></a>
+	</div>
+	<div class="foot-6">
+	      Copyright © 2015 dbmall.com，All Rights Reserved <a href="http://www.miibeian.gov.cn" target="_blank">粤ICP备15109472号</a> 深公网安备4403300900603<br> 食品流通许可证SP4403052015027332
+                        使用本网站即表示接受<a href="http://www.dbmall.com/shop/index.php?act=document&amp;op=index&amp;code=agreement" target="_blank">地标商城用户协议</a>。版权所有 深圳华夏地标电子商务有限公司
+	</div>
+<script>
+$(function(){
+    $.ajax({
+        url:"/index.php?act=record&op=visit_record",
+        type:"get",
+        data:{
+            goods_id : 0,
+            channel_code : '0'
+        },
+        success:function(result){
+            //不做处理
+            return;
+        }
+    });
+});
+</script>
+<div style="display:none;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256676780'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1256676780' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1256676780"><a href="http://www.cnzz.com/stat/website.php?web_id=1256676780" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s4.cnzz.com/z_stat.php?id=1256676780" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1256676780&amp;t=z" charset="utf-8" type="text/javascript"></script>
+</div>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?5a74a1aa2333382de7ec6295b684ea35";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+            
+            <script>
+
+				$(".dbmall_main1_map1_pic_a img").mouseover(function(){
+					$(this).stop().animate({
+						marginTop:"-10px"
+					},600);
+				});
+				
+				$(".dbmall_main1_map1_pic_a img").mouseout(function(){
+					$(this).stop().animate({
+						marginTop:"0px"
+					},600);
+				});
+				
+				$(".sidebar_dbmall_main_phone,.sidebar_dbmall_main_weixin").mouseover(function () {
+					$(".sidebar_dbmall_img").html("<img src='http://www.dbmall.com/shop/templates/default/images/" + $(this).attr('dir') + "'/>");
+					$(".sidebar_dbmall_img").css("opacity","0");
+					$(".sidebar_dbmall_img").css("marginRight","-100px");
+					if($(this).attr("dir")=="sidebar_dbmall3.png"){
+						$(".sidebar_dbmall_img").css("marginTop","30px");
+						/*$(".sidebar_dbmall_img").css("marginTop","0px");*/
+					}else{
+						$(".sidebar_dbmall_img").css("marginTop","40px");
+					}
+					$(".sidebar_dbmall_img").stop().animate({
+						opacity:1,
+						marginRight:"0px"
+					},800);
+				});
+				
+				$(".sidebar_dbmall_main_phone,.sidebar_dbmall_main_weixin").mouseleave(function () {
+					$(".sidebar_dbmall_img").stop().animate({
+						opacity:0,
+						marginRight:"-100px"
+					},800);
+				});
+				
+				$(function(){
+					$(window).scroll(function(){
+						var top = $(".sidebar_dbmall").position().top;
+						if(top<800){
+							$(".sidebar_dbmall_main_top").stop().animate({
+								opacity:0
+							},100,function(){
+								$(".sidebar_dbmall_main_top").hide();
+							});
+						}else{
+							$(".sidebar_dbmall_main_top").show();
+							$(".sidebar_dbmall_main_top").stop().animate({
+								opacity:1
+							},100);
+						}
+					});
+				});
+			</script>
+		</div>
+
+	<script type="text/javascript">
+		$(function(){
+			//首页banner轮播--首页--分类
+			var length = $(".swipe-wrap>div").length;
+			if(length>1){
+				for(var i=0;i<length;i++){
+					$(".banner ul").append("<li></li> ");
+				}
+			}
+
+			var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                autoplaying:true,
+                autoplay:3000,
+                effect : 'fade',
+                autoplayDisableOnInteraction : false,
+            });
+			
+			//全部地标展馆菜单--菜单
+			var mark = true;
+			
+			function leave(){
+				setTimeout(function(){
+					if(mark){
+						$('.menu-focus').hide();
+					}
+				},100);
+			}
+			
+			$('.menu a').first().mouseover(function(){
+				$('.menu-focus').show();
+			});
+			
+			$('.menu a').first().mouseover(function(){
+				mark = false;
+			}).mouseleave(leave);
+			
+			$('.menu-focus').mouseleave(function(){
+				mark = true;
+				leave();
+			});
+			
+			//动画 --首页
+			/* var width = null;
+			var height = null;
+			$('.animate').mouseover(function(){
+				width = parseFloat($(this).width());
+				height = parseFloat($(this).height());
+				$(this).find('img').stop().animate({
+					width:(width+3)+'px',
+					height:(height+3)+'px'
+					marginLeft: '-1px',
+					marginTop: '-1px' 
+				},300);
+			});
+			
+			$('.animate').mouseleave(function(){
+				$(this).find('img').stop().animate({
+					width:width+'px',
+					height:height+'px',
+					marginLeft: '0px',
+					marginTop: '0px'
+				},300);
+			}); */
+			//侧边显示与隐藏--首页
+			$('.sy-left ul').css('top',($(window).height()-$('.sy-left ul').height())/2+'px');
+			$(window).scroll(function(){
+				var stop = $(window).scrollTop();
+				if($(".xq").html()!=null && $(".xq").html()!=""){
+					var a = false;
+					setTimeout(function(){
+						a = true;
+						if(a && stop>500){
+							$('.xq-body-buy').stop().animate({
+								top:'0px'
+							},200);
+						}else{
+							$('.xq-body-buy').stop().animate({
+								top:'-95px'
+							},200);
+						}
+					},50,function(){
+						a = false;
+					});
+				}
+				var index = null;
+				
+				if(stop>500){
+					index = 100;
+				}
+				
+				if(stop>$('a[name=xp]').position().top-300){
+					index = 1;
+				}
+				
+				if(stop>$('a[name=ts]').position().top-300){
+					index = 2;
+				}
+				
+				if(stop>$('a[name=zl]').position().top-300){
+					index = 3;
+				}
+				
+				if(stop>$('a[name=zb]').position().top-300){
+					index = 4;
+				}
+				
+				if(stop>$('a[name=ly]').position().top-300){
+					index = 5;
+				}
+				
+				if(stop>$('a[name=cy]').position().top-300){
+					index = 6;
+				}
+				
+				if(stop>$('a[name=mj]').position().top-300){
+					index = 7;
+				}
+				
+				if(stop>$('a[name=gs]').position().top-400){
+					index = 8;
+				}
+				
+				if(stop>$('a[name=ls]').position().top-400){
+					index = 9;
+				}
+				
+				if(stop>$('.foot').position().top-890){
+					index = null;
+				}
+				
+				if(index!=null){
+					$('.sy-left ul li a').css('color','#505458');
+					$('.sy-left ul li').eq(index-1).find('a').css('color','#c54d52');
+					$('.sy-left ul').show();
+				}else{
+					$('.sy-left ul').hide();
+				}
+			});
+			
+			})
+	</script>
+	
+
+
+
+<!-- 优惠卷领取 -->
+<script type="text/javascript" src="http://www.dbmall.com/static/pc/v2/src/js/mod/aop/voucher_lingqu.js"></script>
+
+</div></body></html>

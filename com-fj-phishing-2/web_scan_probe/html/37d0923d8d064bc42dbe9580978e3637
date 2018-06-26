@@ -1,0 +1,166 @@
+<!DOCTYPE html><html data-dpr="1" style="font-size: 56px;"><head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	    <title>易哈佛考试题库</title>
+	    <link rel="stylesheet" type="text/css" href="static/css/index.css?20184191819">
+		<script src="https://apps.bdimg.com/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script src="../shop/ydui/build/js/ydui.flexible.js"></script>
+		<style type="text/css">
+			#micromsg_tip {display: none;position: absolute;z-index: 980;top: 0;left: 0;width: 100%;transition: top .6s;background-color: rgba(0,0,0,.8);height: 100%;overflow: visible;text-align: right;}
+	        .micromsg_tip_img { max-width: 100%;border: 0;}
+        </style>
+	</head>
+	<body style="height: 768px;">
+		<div class="page">
+	        <div class="logo_big"></div>
+	        <div class="title">
+	            易哈佛考试题库	        </div>
+	        <div class="note">
+	            每天做题10分钟  
+	            提高95%通过率
+	        </div>
+	        <div class="btn">立即下载</div>
+	        <div class="desc">已有<span id="ct">11734456</span>位考生下载</div>
+	    </div>
+		<div id="micromsg_tip">
+            <img src="img/tip_browser.png" class="micromsg_tip_img">
+        </div>
+		<script>
+			var browser = 'other';
+	        var os = 'android';
+	        //如果是安卓+浏览器环境，直接唤起应用市场下载
+	        if(browser == 'other' && os == 'android') {
+	            var iframe = document.createElement('iframe');
+	            iframe.width=0;
+	            iframe.height=0;
+	            iframe.src="market://details?id=app.ehafo";
+	            document.body.appendChild(iframe);
+	        }
+
+			$(window).resize(function () {
+				$('body').height(window.innerHeight);
+				$('li').width(window.innerWidth);
+			});
+			//用js判断而非css，解决横竖屏问题
+			var judgeWidth = Math.min(window.innerWidth, window.innerHeight);
+
+			if(judgeWidth >= 414) {
+				$('html').css('font-size', '15px');
+			} else if(judgeWidth >= 360) {
+				$('html').css('font-size', '12px');
+			}
+
+			$('body').height(window.innerHeight);
+
+			$('.btn').on('click', function() {
+				if(browser != 'other' && os == 'android') {//如果是安卓+（微信、手Q）环境，提示浏览器打开
+					$('#micromsg_tip').show();
+					
+					return true;
+                }
+                $.get('https://sdk.ehafo.com/app.php?ac=down', {appid: 1}, function (ret) {
+                    location.href = 'market://details?id=app.ehafo';
+                }, 'json');
+			});
+			$('body').on('click','#micromsg_tip',function() {
+				$(this).hide();
+			});
+
+
+			// $('body').on('touchstart touchmove', function(e) {
+			// 	e.preventDefault();
+			// 	e.stopPropagation();
+			// });
+
+			$('li').width(window.innerWidth);
+
+			var currentSlider = 0;
+			var sliderCount = 5;
+			var carouselList = $('ul');
+
+			var swipeSlider = function(e) {
+				if(Math.abs(e.gesture.deltaX) < 1.5 * Math.abs(e.gesture.deltaY) || this.suspend === true) {
+					return;
+				}
+				e.gesture.preventDefault();
+				e.stopPropagation();
+				if(e.gesture.deltaX < 0) {
+					slideSliders(currentSlider + 1);
+				} else {
+					slideSliders(currentSlider - 1);
+				}
+				e.gesture.stopDetect();
+			};
+
+			var dragSlider = function(e) {
+
+				e.stopPropagation();
+				e.gesture.stopPropagation();
+				e.gesture.preventDefault();
+				var sliderOffset = -100 * (currentSlider / sliderCount),
+			    	dragOffset = 100 * e.gesture.deltaX / (window.innerWidth * sliderCount);
+
+			    //开始和结束的幻灯片添加缓动
+			    if((currentSlider == 0 && e.gesture.deltaX >= 0) || (currentSlider == sliderCount - 1 && e.gesture.deltaX < 0)) {
+			        dragOffset *= 0.5;
+			    }
+
+			    setOffset(dragOffset + sliderOffset);
+			}
+
+			var releaseSlider = function(e) {
+
+				e.stopPropagation();
+				e.gesture.preventDefault();
+			    if(Math.abs(e.gesture.deltaX) > window.innerWidth / 10) {
+			        if(e.gesture.deltaX < 0) {
+			            slideSliders(currentSlider + 1);
+			        } else {
+			            slideSliders(currentSlider - 1);
+			        }
+			    } else {
+			        slideSliders(currentSlider);
+			    }
+			}
+
+			var slideSliders = function(dest) {
+				var tmpCurrent = currentSlider;
+			    currentSlider = Math.min(Math.max(dest, 0), sliderCount - 1);
+			    setOffset(-((100 / sliderCount) * currentSlider), true);
+			    if(currentSlider == 5) {
+			    	return;
+			    }
+			    if(currentSlider == 0) {
+			    	$('.logo').hide();
+			    } else {
+			    	$('.logo').show();
+			    }
+			    $('.dot').removeClass('active').eq(currentSlider).addClass('active');
+			}
+
+			var setOffset = function(percent, animation) {
+				carouselList.removeClass('animate');
+				if(animation) {
+					carouselList.addClass('animate');
+				}
+				carouselList.css({
+					'-webkit-transform': 'translate3d(' + percent + "%, 0, 0)",
+					'transform': 'translate3d(' + percent + "%, 0, 0)"
+				});
+			}
+
+			//获取统计数据
+	        $.ajax({
+	        	type: 'get',
+	        	url: '/wxapp/ajax.php?action=sum_user',
+	        	dataType: 'json',
+	        	success: function(data) {
+	        		var ct = data.data;
+	        		$('#ct').html(ct);
+	        	}
+	        });
+		</script><iframe width="0" height="0" src="market://details?id=app.ehafo"></iframe>
+	
+
+</body></html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh_CN" xml:lang="zh_CN"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+		<title>淘宝IP地址库</title>
+		<link rel="stylesheet" type="text/css" href="
+		static/js/lib/jquery-ui-1.8.16/css/redmond/jquery-ui-1.8.16.custom.css">
+		<link rel="stylesheet" type="text/css" href="
+		static/js/lib/jqGrid-4.3.0/css/ui.jqgrid.css">
+		<link rel="stylesheet" type="text/css" href="
+		static/css/global.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="static/css/index.css">
+		<script type="text/javascript" src="static/js/lib/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="static/js/lib/jquery.cookie.js"></script>
+		<script type="text/javascript" src="static/js/lib/jquery.json-2.3.min.js"></script>
+		<script type="text/javascript" src="static/js/lib/jquery-ui-1.8.16/js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript" src="static/js/lib/jquery.multiselect.min.js"></script>
+		<script type="text/javascript" src="static/js/date.js"></script>
+		<script charset="UTF-8" type="text/javascript" src="static/js/lib/jquery-ui-1.8.16/js/jquery.ui.datepicker-zh-CN.js"></script>
+		<script charset="UTF-8" type="text/javascript" src="static/js/lib/jqGrid-4.3.0/js/i18n/grid.locale-cn.js"></script>
+		<script type="text/javascript" src="static/js/lib/jqGrid-4.3.0/js/jquery.jqGrid.src.js"></script>
+		<script type="text/javascript" src="static/js/lib/jquery.query-2.1.7.js"></script>
+		<script type="text/javascript" src="static/js/tuna.js"></script>
+		<script type="text/javascript" src="static/js/mvc.js"></script>
+		<script type="text/javascript" src="static/js/ui.js"></script>
+		<script type="text/javascript" src="static/js/models.js"></script>
+		<script type="text/javascript">
+	WEB_ROOT = '';
+	IMG_ROOT = '/static';
+	</script>
+	</head>
+	<body class="js before-login not-win7 not-winxp not-ie not-ie6 linux not-windows not-macos lowres">
+		<script type="text/javascript">
+	(function()
+	{
+	var ua = window.navigator.userAgent; 
+	var bd = document.body;
+	bd.className = bd.className.replace('nojs', 'js');
+	jQuery.each({'Windows NT 6.1':'win7','Windows NT 5.1':'winxp','MSIE':'ie','MSIE 6.0':'ie6','Linux':'linux','Windows':'windows','Mac OS':'macos'}, function(k, v){
+		bd.className += ua.indexOf(k) === -1 ? ' not-' + v : ' ' + v;
+	});
+	bd.className += window.screen.width <= 1024 ? ' lowres' : ' highres'; 
+	})();
+	</script>
+<script type="text/javascript" src="static/js/pages/index.js?v=2"></script>
+<div id="head-wrapper">
+	<div id="header-group">
+		<div id="header-logo">
+			<a href="index.php"><img src="static/images/logo.png"> </a>
+		</div>
+		<div class="uinfo">
+			<ul>
+				<li class="last">
+					<a href="issue.php">帮助</a>
+				</li>
+			</ul>
+		</div>
+		<div style="clear: both"></div>
+	</div>
+</div>
+<div class="content">
+	<div class="menu">
+		<ul id="global-nav">
+			<li class="navfirst">
+				<a id="in" href="index.php" title="Home" class="current">首页</a>
+			</li>
+			<li class="navmiddle">
+				<a id="is" href="ipSearch.php" title="Home"><b>IP</b>查询</a>
+			</li>
+			<li class="navmiddle">
+				<a id="ra" href="instructions.php" title="Home"><b>Rest API</b>
+				</a>
+			</li>
+			<li class="navend" style="border-right: none;">
+				<a id="ips" href="accurancy.php" style="width: 248px"><b>IP</b>统计</a>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+function onLoginSuccess(csrf_token) {
+    window.CSRF_TOKEN = csrf_token;
+	jQuery(document.body).addClass('after-login').removeClass('before-logon');
+	jQuery('.current-username').html(jQuery.cookie('wangwang_id'));
+	try{LOGIN_DIALOG.destroy();}catch(e){}
+	TN.Class.EventCenter.emit('loginSuccess');
+}
+
+jQuery(document).ready(function(){
+    jQuery('#global-nav').find('a').each(function(){
+    var pathname = this.pathname.indexOf('/') !== 0 ? '/' + this.pathname : this.pathname;
+	var cpath = window.location.pathname;
+	cpath = cpath === '/' ? '/index.php' : cpath;
+        if (pathname == cpath) {
+            jQuery(this).addClass('current');
+                    return false;
+        }  
+    });
+	$('#login').click(function(){
+		LOGIN_DIALOG = CDN.Ui.alert({
+			modal:true,
+			done:'取消',
+			content:$('#login_dialog').html()
+		});
+	});
+	$('#logout').click(function(){
+		$( "#dialog-confirmLogout" ).dialog({
+			resizable: false,
+			modal: true,
+			buttons:{
+				"确定": function(){
+					$(this).dialog( "close" );
+					window.location.href='/service/logout.php';
+				},
+				"取消": function() {
+					$(this).dialog( "close" );
+					return;
+				}
+			}
+		});    
+	});
+});
+</script>
+	<script type="text/tmpl" id="login_dialog" style="display: none">
+		<iframe id="login-frame"
+			src="https://login.taobao.com/member/login.jhtml?from=ip.taobao.com&style=minisimple&minipara=0,1,1&redirectURL=http%3A%2F%2Fip.taobao.com%2Fservice%2Flogin.php%3F_r%3D10592851&full_redirect=false"
+			width="280" height="230" frameborder=0 style="margin-left: -10px;">
+		</iframe>
+	</script>
+	<div id="dialog-confirmLogout" title="提示" style="display: none">
+		<p>
+			<span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>确定退出吗？
+		</p>
+	</div>
+<div class="content_resize">
+	<div class="content_left">
+	<div id="info">
+		<ul id="index-nav">
+			<li>
+				<a href="index.php" class="a_current">关于我们</a>
+			</li>
+			<li>
+				<a href="news.php">最新新闻</a>
+			</li>
+			<li>
+				<a href="issue.php">常见问题</a>
+			</li>
+		</ul>
+	</div>
+	<div style="margin: 80px 10px 14px 10px;font-size:14px;text-align: center;">
+		请输入要查询的IP：
+	</div>
+	<div style="margin: 10px 25px 20px 25px;">
+		<p>
+			<input id="ipInfo" class="index_input">
+		</p>
+		<p>&nbsp;</p>
+		<p style="text-align:center;">
+			<button id="ipSearch" class="bluebuttonb">
+				查询
+			</button>
+		</p>
+	</div>
+	<div class="now_ip"> 
+		当前IP：<a id="aIp" href="ipSearch.php"><span id="nowIp">218.205.115.221</span> </a>
+	</div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+    jQuery('#in').addClass('current');
+	jQuery('#index-nav').find('a').each(function(){
+    var pathname = this.pathname.indexOf('/') !== 0 ? '/' + this.pathname : this.pathname;
+	var cpath = window.location.pathname;
+	cpath = cpath === '/' ? '/index.php' : cpath;
+        if (pathname == cpath) {
+            jQuery(this).addClass('a_current');
+                    return false;
+        }  
+    });
+});
+</script>	<div class="content_right">
+		<div style="width: 750px; margin: 0 auto;">
+			<div class="detect_title">
+				关于淘宝<b>IP</b>地址库
+			</div>
+			<div class="content_info">
+				<p>
+					<b>我们目前提供的服务包括：</b>
+				</p>
+				<p>
+					1. 根据用户提供的IP地址，快速查询出该IP地址所在的地理信息和地理相关的信息，包括国家、省、市和运营商。
+				</p>
+				<p>
+					2. 用户可以根据自己所在的位置和使用的IP地址更新我们的服务内容。
+				</p>
+				<p>
+					<b>我们的优势：</b>
+				</p>
+				<p>
+					1. 提供国家、省、市、县、运营商全方位信息，信息维度广，格式规范。
+				</p>
+				<p>
+					2. 提供完善的统计分析报表，省准确度超过99.8%，市准确度超过96.8%，数据质量有保障。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="clear: both"></div>
+<div style="background-color: #1990CA;height:7px;margin:10px auto;width:990px"></div>
+<div class="footer-nav">
+	<a href="http://www.taobao.com/about/">关于淘宝</a>
+	<a href="http://www.taobao.com/about/partners.php">合作伙伴</a>
+	<a href="http://pro.taobao.com/">营销中心</a>
+	<a href="http://service.taobao.com/support/main/service_center.htm">服务中心</a>
+	<a href="http://open.taobao.com/">开放平台</a>
+	<a href="http://www.taobao.com/about/join.php">诚征英才</a>
+	<a href="http://www.taobao.com/about/contact.php">联系我们</a>
+	<a href="http://www.taobao.com/sitemap.php">网站地图</a>
+	<a href="http://www.taobao.com/about/copyright.php">版权说明</a>
+</div>
+<div class="ali-group">
+	<a href="http://china.alibaba.com/">中国站</a>
+	<a href="http://www.alibaba.com/">国际站</a>
+	<a href="http://www.alibaba.co.jp/">日文站</a>|
+	<a href="http://www.taobao.com/?id=shouye_taobao">淘宝网</a>
+	<a href="http://www.tmall.com">天猫</a>
+	<a href="http://www.etao.com/">一淘网</a>|
+	<a href="http://www.alipay.com/">支付宝</a>
+	<a href="http://www.aliyun.com/">阿里云</a>
+	<a href="http://www.yahoo.com.cn/">中国雅虎</a>
+	<a href="http://www.koubei.com/">口碑网</a>
+	<a href="http://www.aliresearch.com/">阿里研究中心</a>
+	<a href="http://www.alihz.com">阿里会展</a>|
+	<a href="http://tianxia.taobao.com/?id=shouye_tianxia">淘宝天下</a>
+	<a href="http://hitao.taobao.com/">快乐淘宝</a>
+	<a href="http://ju.atpanel.com/?url=http://www.taohua.com?ad_id=100041572056c2394930&amp;am_id=&amp;cm_id=&amp;pm_id=">淘花网</a>
+
+</div>
+<div class="copyright pr" style="text-align: center; margin-left: 0px;">
+	<p>
+		Copyright&nbsp;2003-2012&nbsp;Taobao.com&nbsp;版权所有
+	</p>
+</div>
+
+
+</div></body></html>

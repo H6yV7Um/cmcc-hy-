@@ -1,0 +1,38 @@
+<html><head>
+		<meta charset="UTF-8">
+		<title>康师傅冰红茶</title>
+	<style type="text/css">
+		*{padding: 0;margin: 0;}
+		html,body{height: 100%;width: 100%;}
+	
+		.bg-img{
+			position: absolute;
+			top:0;
+			left:0;
+		}
+
+		@keyframes hand_move{
+			50%{ transform: rotate(30deg)}
+			100%{ transform: rotate(0);}
+			
+		}
+		.hand-animate{
+			transition: all 1.5s linear;
+			 -webkit-animation: hand_move 2s infinite;
+			 animation: hand_move 2s infinite;
+			 cursor: pointer;
+			 margin-top:70vh;
+		}
+	</style></head>
+	
+	
+	<body style="height: 100%;width: 100%;overflow: hidden;">
+		<div class="img" style="text-align: center;height: 100%;width: 100%;">
+			<img class="bg-img" height="100%" width="100%" src="../static/images/pc_bg.jpg">
+			<img class="shakelink hand-animate" style="width:222px;height:164px;" onclick="javascript:(location.href='http://ksfproduce101.fuyiweb.com')" src="../static/images/index4shour1c1.png">
+			
+		</div>
+	
+	
+
+</body></html>

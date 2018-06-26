@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head>
+			<meta charset="UTF-8">
+			<title>IP地址查询--手机号码查询归属地</title>
+			<meta content="width=device-width,user-scalable=no" name="viewport">
+			<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+			<link type="text/css" rel="stylesheet" href="/style/common.css">
+	</head>
+	<body>
+		<div class="wraper">
+			<div class="header">
+				<div class="header-box">
+					<a href="/" class="logo"><img src="/image/logo.png" width="47" height="35">iP138</a>
+					<span class="naver" id="naver"><span class="naver-text">导航</span><span class="naver-icon"></span></span>
+					<div class="naver-sub" id="naver-sub" style="display: none;">
+						<ul>
+							<li><a href="/ip.html">iP查询</a></li>
+							<li><a href="/mobile.html">手机号码归属地查询</a></li>
+							<li><a href="/huilv/">汇率查询</a></li>
+							<li><a href="/youbian/">邮编区号查询</a></li>
+							<li><a href="/kuaidi/">快递查询</a></li>
+							<li><a href="http://qq.ip138.com/tianqi/">天气预报查询</a></li>
+							<li><a href="http://qq.ip138.com/shenfenzheng/">身份证号码查询</a></li>
+							<li><a href="http://qq.ip138.com/huoche/">列车时刻表查询</a></li>
+							<li><a href="http://qq.ip138.com/daishoudian/mobile.htm">火车票代售点查询</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="module">
+					<h3>www.ip138.com IP查询</h3>
+					<p class="infos">搜索IP地址的地理位置</p>
+					<p class="infos">
+							<iframe src="http://www.1356789.com/" rel="nofollow" frameborder="0" scrolling="no" width="210" height="60" allowtransparency="true" style="background-color: #f4f4f4"></iframe>
+					</p>
+					<p class="form-hd">IP地址或者域名：</p>
+					<div class="form">
+						<form action="ip.asp" method="get">
+							<input type="text" name="ip" size="30" class="form-text">
+							<input type="submit" value="查询" class="form-btn">
+						</form>
+					</div>
+				</div>
+				<div class="hr"></div>
+				<div class="module">
+					<h3>手机号码所在地区强力查询</h3>
+					<p class="infos">输入手机号即可知道用户所在的地区</p>
+					<p class="form-hd">手机号码（段）：</p>
+					<div class="form">
+						<form action="mobile.asp" method="get">
+							<input type="text" name="mobile" size="30" maxlength="11" class="form-text" onkeyup="this.value=this.value.replace(/\D/g,'')">
+							<input type="submit" value="查询" class="form-btn">
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="linker">
+					<span>友情链接：</span>
+					<a href="http://m.3533.com/" target="_blank">手机世界</a>
+					<a href="http://m.yy138.com/" target="_blank">应用下载</a>
+				</div>
+				<div class="footer-nav">
+					<ul>
+					<li><a href="https://www.92987.com/360shoujizhushou.htm" target="_blank">360手机助手</a></li>
+					<li><a href="https://www.92987.com/yingyongbao.htm" target="_blank">应用宝</a></li>
+					<li><a href="https://www.92987.com/wandoujia.htm" target="_blank">豌豆荚</a></li>
+					<li><a href="https://www.92987.com/360shoujiweishi.htm" target="_blank">360手机卫士</a></li>
+					</ul>
+				</div>
+				<a href="http://www.miitbeian.gov.cn/" rel="nofollow" target="_blank">沪ICP备10013467号-1</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="/script/common.js"></script>
+	
+</body></html>

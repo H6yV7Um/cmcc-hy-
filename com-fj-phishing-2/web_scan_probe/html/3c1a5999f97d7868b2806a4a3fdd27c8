@@ -1,0 +1,3966 @@
+<!DOCTYPE html><html lang="en" class=""><head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<link href="http://www.aidiao.com/" rel="canonical"><title>爱钓网 - 与您一起分享钓鱼的乐趣.</title>
+<meta name="keywords" content="钓鱼，钓鱼网，钓鱼爱好者，钓鱼论坛"><meta name="description" content="爱钓网是一个真实的钓鱼爱好者社交网络，通过它您可以寻找周边的钓友，并与他们保持更紧密的联系，与他们分享你钓鱼的乐趣，也可以及时的了解身边与钓鱼有关的动态，包括钓技、饵料、钓场、渔获、装备……"><meta name="apple-mobile-web-app-capable" content="yes">
+ <link rel="stylesheet" href="http://src.aidiao.com/m/css/style.css?v=1629">
+ 
+ 
+</head>
+<body>
+<div id="menu" style="height: 768px;">
+ <div class="scroller">
+		<div class="search-wrap">
+			<form action="">
+				<input type="text" class="search-input" placeholder="暂不可用">
+				<i class="input-reset"></i>
+			</form>
+		</div>
+		<ul class="nav-list">
+			<li class="list-item item-area J-areaOpen">
+				<div class="box">
+					<i class="ico ico-nav-area"></i>
+					<span id="city_name_left"></span>
+					<i class="ico ico-nav-arrow"></i>
+				</div>
+			</li>
+			<li class="list-item ">
+				<a class="box" href="http://m.aidiao.com">
+					<i class="ico ico-nav-home"></i>
+					<span>首页</span>
+					<i class="ico ico-nav-arrow"></i>
+				</a>
+			</li>
+			<li class="list-item ">
+				<a class="box" href="http://m.aidiao.com/b/">
+					<i class="ico ico-nav-theme"></i>
+					<span>话题</span>
+					<i class="ico ico-nav-arrow"></i>
+				</a>
+			</li>
+			<li class="list-item ">
+				<a class="box" href="http://m.aidiao.com/news/">
+					<i class="ico ico-nav-news"></i>
+					<span>资讯</span>
+					<i class="ico ico-nav-arrow"></i>
+				</a>
+			</li>
+			<li class="list-item">
+				<a class="box" href="http://m.aidiao.com/pinpai/">
+					<i class="pinpai"></i>
+					<span>品牌</span>
+					<i class="ico ico-nav-arrow"></i>
+				</a>
+			</li>
+			<li class="list-item">
+				<a class="box" href="http://m.aidiao.com/yuju/">
+					<i class="yuju"></i>
+					<span>钓具</span>
+					<i class="ico ico-nav-arrow"></i>
+				</a>
+			</li>
+            <li class="list-item ">
+                <a class="box" href="http://m.aidiao.com/baike/">
+                 <i class="ico ico-nav-firend"></i>
+                 <span>钓鱼百科</span>
+                 <i class="ico ico-nav-arrow"></i>
+                </a>
+            </li>
+            <li class="list-item ">
+              <a class="box" href="http://m.aidiao.com/baike/">
+                <i class="ico ico-nav-weal"></i>
+                 <span>金币商城</span>
+                <i class="ico ico-nav-arrow"></i>
+              </a>
+            </li>
+			<li class="list-item">
+				<a class="box" href="http://m.aidiao.com/shipin/">
+					<i class="ico ico-nav-video"></i>
+					<span>钓鱼视频</span>
+					<i class="ico ico-nav-arrow"></i>
+				</a>
+			</li>
+            
+		</ul>
+  </div>
+</div>
+<div id="user"><div class="account">
+		<div class="fl">
+			还没有账号
+			<a href="javascript:void(0);" id="J-regNow" _zhuce="1">立刻注册</a>
+		</div>
+		<div class="fr">
+			<a href="javascript:void(0);" _wangjimima="1">忘记密码</a>
+		</div>
+	</div>
+ <form id="login_form_left" onsubmit="return false;">
+	<div class="login-box wrap">
+		<label for="" class="warning">
+			<i class="ico" id="ico_warning"></i><span id="ico_show">请输入用户名和密码</span>
+		</label>
+		<div class="form">
+			<div class="form-item">
+                <input id="user_username" name="user[username]" type="text" value="" maxlength="14" placeholder="昵称/手机号">
+				<i class="ico ico-clear"></i>
+			</div>
+			<div class="form-item">
+                <input id="user_userpwd" name="user[userpwd]" type="password" placeholder="密码">
+				<i class="ico ico-clear"></i>
+			</div>
+             <button class="btn-main" id="btn_login_form" style="width: 100%;" onclick="LoginActionLeft();">立即登录</button>
+		</div>
+	</div>
+ </form>
+ <script>
+ function is_weixin(){
+		var ua = navigator.userAgent.toLowerCase();
+		if(ua.match(/MicroMessenger/i)=="micromessenger") {
+			return true;
+	 	} else {
+			return false;
+		}
+	}
+	if(is_weixin()){
+	 	$('#btn_login_form').after('<button class="btn-main" id="btns_weixin" style="width: 100%;background-color: #3EB447;margin-top: 50px;" onclick="LoginActionWind();">微信登录</button>');
+	 	$("#btns_weixin").bind('click',function(){
+	 		window.location.href="http://weixin.aidiao.com/reg/m_weixin/?m_url="+window.location.href;
+	 	});
+	 	$(".account #J-regNow").bind('click',function(){
+	 		window.location.href="http://weixin.aidiao.com/reg/m_weixin/?m_url="+window.location.href;
+	 	});
+	}
+ </script></div>
+
+ <header id="header">
+  <div class="menu">
+   <i class="ico ico-menu J-menuOpen"></i>
+   <span class="area-open" id="city_name"></span>
+   <i class="ico ico-menu-arrow"></i>
+  </div>
+  <div class="logo">
+   <a href="http://m.aidiao.com">
+    <img src="http://src.aidiao.com/m/img/logo.png">
+   </a>
+  </div>
+  <div class="user-open J-userOpen">
+   <i class="ico ico-user"></i>
+  </div>
+ </header>
+ 
+ <div id="container">
+  <div id="slide" class="slide" style="visibility: visible;">
+  <div class="slide-wrap" style="width: 2504px;">
+  <div class="item" data-index="0" style="width: 626px; left: 0px; transition: 0ms; -webkit-transition: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+    <a href="http://m.aidiao.com/b/41133.html">
+     <img src="http://src.aidiao.com/img/2018/06/21/15295462735677.jpeg" title="【转帖】钓鱼遇到复杂鱼情，可尝试逗钓方法">
+    </a>
+   </div><div class="item" data-index="1" style="width: 626px; left: -626px; transition: 0ms; -webkit-transition: 0ms; transform: translate(626px, 0px) translateZ(0px);">
+    <a href="http://m.aidiao.com/b/41132.html">
+     <img src="http://src.aidiao.com/img/2018/06/21/15295462059816.jpg" title="【原创】晨钓小河乐黄颡鱼多多">
+    </a>
+   </div><div class="item" data-index="2" style="width: 626px; left: -1252px; transition: 0ms; -webkit-transition: 0ms; transform: translate(626px, 0px) translateZ(0px);">
+    <a href="http://m.aidiao.com/b/41131.html">
+     <img src="http://src.aidiao.com/img/2018/06/21/15295421344270.jpg" title="《原创》小钓见好鲤">
+    </a>
+   </div><div class="item" data-index="3" style="width: 626px; left: -1878px; transition: 0ms; -webkit-transition: 0ms; transform: translate(-626px, 0px) translateZ(0px);">
+    <a href="http://m.aidiao.com/b/41130.html">
+     <img src="http://src.aidiao.com/img/2018/06/20/15294986827742.jpg" title="【原创】岳阳渔政长江七弓岭擒电鱼船">
+    </a>
+   </div>   </div>
+   <div class="slide-title">加载中……</div>
+   <div class="trigger">
+    <div class="wrap">
+     <span class="current"></span>
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+   </div>
+  </div>
+  
+  <div class="primary-tab">
+   <div class="tab-nav">
+    <div class="nav-item current"><span>钓鱼日记</span></div>
+    <div class="nav-item"><span>最新资讯</span></div>
+    <div class="nav-item"><span>精彩话题</span></div>
+   </div>
+   <div class="tab-cnt">
+    <div class="tab-item">
+     <ul class="pic-list">
+     <li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41132.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/21/15295462059816.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">【原创】晨钓小河乐黄颡鱼多多</h6>
+         <p class="name"><i class="ico ico-name"></i>野战旅长</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           安徽 宣城          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           17分钟前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41131.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/21/15295421344270.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">《原创》小钓见好鲤</h6>
+         <p class="name"><i class="ico ico-name"></i>琅琊洋葱</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           安徽 滁州          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           1小时前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41117.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/20/15294640146274.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">【原创】搞一条上桌的鱼没有问题十分钟给你送来</h6>
+         <p class="name"><i class="ico ico-name"></i>开心鱼乐</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           湖南 岳阳          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           1天前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41113.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/19/15293780941961.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">【原创】【18年渔乐小计五】---今天白条大一些</h6>
+         <p class="name"><i class="ico ico-name"></i>大白鲨1955</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           山东 潍坊          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           2天前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41112.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/19/15293766467377.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">【原创】钓阳城六路九龙湖排洪沟</h6>
+         <p class="name"><i class="ico ico-name"></i>鱼翁010</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           山东 滨州          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           2天前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41100.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/14/15289466168098.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">【原创】独钓小野河、一晨快乐多</h6>
+         <p class="name"><i class="ico ico-name"></i>野战旅长</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           安徽 宣城          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           7天前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41099.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/14/15289445214233.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">【原创】【18年渔乐小计四】---白条十几条</h6>
+         <p class="name"><i class="ico ico-name"></i>大白鲨1955</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           山东 潍坊          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           7天前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41096.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/14/15289385512088.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">《原创》周日水库小收获</h6>
+         <p class="name"><i class="ico ico-name"></i>琅琊洋葱</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           安徽 滁州          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           7天前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41093.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/13/15288819627558.jpg@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">【原创】还是老地方，鱼情大变样</h6>
+         <p class="name"><i class="ico ico-name"></i>无欲则渔</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           安徽 六安          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           1周前          </span>
+         </div>
+        </div>
+       </a>
+      </li><li class="item">
+       <a class="alist" href="http://m.aidiao.com/b/41087.html">
+        <div class="pic">
+         <img src="http://src.aidiao.com/img/2018/06/12/15287712198874.png@!s"> 
+        </div>
+        <div class="info">
+         <h6 class="title">难定输赢的野钓pk</h6>
+         <p class="name"><i class="ico ico-name"></i>三约</p>
+         <div class="other">
+          <span class="locus">
+           <i class="ico ico-locus"></i>
+           内蒙古 呼和浩特          </span>
+          <span class="date">
+           <i class="ico ico-date"></i>
+           1周前          </span>
+         </div>
+        </div>
+       </a>
+      </li>     </ul>
+     <a href="http://m.aidiao.com/b/list_1.html" class="btn-home-more">查看更多钓鱼日记</a>
+    </div>
+    <div class="tab-item">
+     <div class="wrap">
+      <ul class="news-list">
+      <li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5849.html">邵阳：湖南新宁集中销毁一批非法采砂设备和禁用渔具</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5848.html">上海：金汇达令港河突现电捕鱼 这是违法行为</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5847.html">西非沿海大陆架：一幅趣味盎然的捕鱼图</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5846.html">苏州：鱼群浮出水面引来暴力捕鱼者 不少人满载而归</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5845.html">南通：打击电捕鱼还须多方给力</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5844.html">宁波：市民反映有人在县江非法捕鱼</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5843.html">济南：鹤鸣湖渔乐节开幕快来体验捕鱼乐趣</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5842.html">武汉：女子禁渔期直播丈夫公公捕鱼挣打赏 三人被查处</a>
+		<span class="date">2018-06-20</span>
+       </li><li class="item">
+        <span class="green">[新闻]</span>
+        <a href="http://m.aidiao.com/news/yule/5841.html">济宁：违法捕鱼 判你放鱼</a>
+		<span class="date">2018-06-20</span>
+       </li>      </ul>
+      <a href="http://m.aidiao.com/news/" class="btn-home-more">查看更多最新资讯</a>
+     </div>
+    </div>
+    <div class="tab-item">
+     <div class="wrap">
+      <ul class="news-list">
+      <li class="item">
+        <a href="http://m.aidiao.com/b/11533.html">大板鲫</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         2.0万+        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11528.html">爽钓黄金鲫</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         1.3万+        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11489.html">【渔人码头】夏季垂钓哪里去，渔人码头带你飞</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         7220        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11460.html">再上羊毛湾、爽依旧！</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         6188        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11454.html">情系山水 爽乐无边</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         2115        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11450.html">雨钓小池塘</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         5427        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11445.html">打黑奇遇</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         6989        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11407.html">第一次参加黑坑竞赛记实</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         5434        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11403.html">舌尖上的鱼肴美味</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         2473        </span>
+       </li><li class="item">
+        <a href="http://m.aidiao.com/b/11389.html">野钓圣地羊山湖</a>
+        <span class="reading">
+         <i class="ico ico-eye"></i>
+         9888        </span>
+       </li>      </ul>
+      <a href="http://m.aidiao.com/b/" class="btn-home-more">查看更多精彩话题</a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+
+  <div class="home-video">
+   <div class="hd">钓鱼视频</div>
+   <div class="bd">
+    <ul class="pic-list">
+    <li class="item">
+      <a href="http://m.aidiao.com/shipin/yzyw/12837.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/yzyw.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">第20180620期 2018钓友联谊赛 百名钓手同场角逐</h6>
+        <p class="desc">
+         视频导读：2018钓鱼友谊赛，鲍广涛获得季军;上鱼应用开启三大世界杯互动;跟着大        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/lq/12836.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/lq.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">第一季第三十九期 再战漳州双第 找准方法狂连竿</h6>
+        <p class="desc">
+         视频导读：上期节目中老唐在漳州双第亚光大物池连钓两场，收获两尾青鱼。青鱼的个头较        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/sycmdjt/12835.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/sycmdjt.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">第三十二期 淡水手竿的调钓(一)</h6>
+        <p class="desc">
+         视频导读：本期北京资深钓鱼人漆有光老师本期跟大家分享日常垂钓中手竿的调钓方法。在        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/xxly/12834.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/xxly.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">巨鲈诱惑 | 上篇 长江北堤的对比实战 </h6>
+        <p class="desc">
+         本期小汐路亚视频导视：本次小汐一行人出钓长江，乘船来到长江北堤头作钓，选择这里是        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/dywpsp/12833.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/dywpsp.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">三本先生之雷强：水花生地大扫荡（七）</h6>
+        <p class="desc">
+         视频导读：背风弯口，有水草的地方，都是点钓黑鱼的区域。黑鱼喜欢在风平浪静的水草边        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/hdwj/12830.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/hdwj.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">2017MPIT海钓大奖赛（三）</h6>
+        <p class="desc">
+         视频导读：参加本次比赛的海吉雅战队虽然很年轻，经验不足，动作生硬，但队员们依旧没        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/dsjxs/12829.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/dsjxs.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">“木一杯”2018年中国钓鱼大师明星赛安徽临泉站</h6>
+        <p class="desc">
+         视频导读：本期钓赛进行时为大家转播“木一杯”2018年中国钓鱼大师明星赛安徽临泉        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/hkjh/12828.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/hkjh.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">去钓鱼(220) 跟着美女主持游日照 海洋牧场探鱼忙</h6>
+        <p class="desc">
+         视频导读：张国刚画说野鱼，热闹的溪流小世界;跟着美女主持游日照，海洋牧场探鱼忙;        </p>
+       </div>
+      </a>
+     </li><li class="item">
+      <a href="http://m.aidiao.com/shipin/dsdsj/12826.html">
+       <div class="pic">
+        <img src="http://src.aidiao.com/m/images/cate/dsdsj.jpg"> 
+       </div>
+       <div class="info">
+        <h6 class="title">FTT中国垂钓电视直播精英赛 2018FTT湖北站四强夺冠赛</h6>
+        <p class="desc">
+         视频导读：本期钓赛大事件给大家带来2018FTT湖北站四强夺冠赛，经过下午的对阵        </p>
+       </div>
+      </a>
+     </li>    </ul>
+   </div>
+   <div class="ft">
+    <a href="http://m.aidiao.com/shipin/" class="btn-home-more">查看更多精彩钓鱼视频</a>
+   </div>
+  </div>
+
+  <footer id="footer">
+   <div class="btns hidden">
+    <a href="javascript:;">客户端下载</a>
+    <a href="javascript:;">回到顶部</a>
+   </div>
+   <div class="links hidden">
+    <a href="javascript:;">触屏站</a><span class="gap-line">|</span>
+    <a href="http://www.aidiao.com">电脑站</a>
+    
+   </div>
+  </footer>
+  <br><br>
+  
+  <div class="push-msk"></div>
+ </div>
+
+<div class="loading-dark"></div>
+ <div id="loading-mask">
+  <div class="loading-mask">
+   <ul class="anm">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+   </ul>
+  </div>
+ </div>
+
+<script type="text/javascript">var srcurl= "http://src.aidiao.com/m/";var imgurl= "http://src.aidiao.com/";var domain= "m.aidiao.com"; var islogin = 0;</script>
+<script src="http://src.aidiao.com/m/js/zepto.min.js?v=1629"></script>
+<script src="http://src.aidiao.com/m/js/zepto.cookie.min.js?v=1629"></script>
+<script src="http://src.aidiao.com/m/js/misc.js?v=1629"></script>
+<script src="http://src.aidiao.com/m/js/iscroll.js?v=1629"></script>
+<script src="http://src.aidiao.com/m/js/script.js?v=1629"></script>
+<script src="http://src.aidiao.com/m/js/fastclick.js?v=1629"></script>
+<script src="http://m.aidiao.com/LoginStatus.js?t=1529547243"></script><div class="dialog login" id="login-content">
+		<div class="hd">
+			<div class="wrap">
+				<div class="title">
+					<span class="name">登录爱钓网</span>
+					<i class="ico ico-top-close J-dialogClose"></i>
+				</div>
+			</div>
+		</div>
+		<div class="bd" style="height: 718px;">
+            <form id="login_forms" onsubmit="return false;">
+			<div class="wrap">
+				<div class="account">
+					<div class="fl">
+						还没有账号
+						<a href="javascript:void(0);" id="J-regNow" _zhuce="1">立刻注册</a>
+					</div>
+					<div class="fr">
+						<a href="javascript:void(0);" _wangjimima="1">忘记密码</a>
+					</div>
+				</div>
+				<label for="" class="warning">
+					<i class="ico" id="icos_warning"></i><span id="icos_show">请输入用户名和密码</span>
+				</label>
+				<div class="form">
+					<div class="form-item">
+						<input id="username" name="user[username]" type="text" value="" maxlength="14" placeholder="昵称/手机号">
+						<i class="ico ico-clear"></i>
+					</div>
+					<div class="form-item">
+						<input id="userpwd" name="user[userpwd]" type="password" placeholder="密码">
+						<i class="ico ico-clear"></i>
+					</div>
+					<button class="btn-main" id="btns_login_form" style="width: 100%;" onclick="LoginActionWind();">立即登录</button>
+					
+				</div>
+			</div>
+           </form>
+		</div>
+	</div>
+	<div class="dialog reg-dialog" id="reg-content">
+		<div class="hd">
+			<div class="wrap">
+				<div class="title">
+					<span class="name">注册爱钓网</span>
+					<i class="ico ico-top-close J-dialogClose"></i>
+				</div>
+			</div>
+		</div>
+		<div class="bd" style="height: 718px;">
+			<div class="wrap">
+                <form id="register_add" onsubmit="return false;">
+                <input id="msg_id" type="hidden" name="msg_id" autocomplete="off"> 
+                <input id="invited" type="hidden" name="invited" value=""> 
+                <input id="fromurl" type="hidden" name="fromurl" value=""> 
+                <input id="form_province" type="hidden" name="user[province]" value=""> 
+                <input id="form_city" type="hidden" name="user[city]" value="">
+				<label for="" class="warning">
+                  <i class="ico" id="ico_warning"></i><span id="ico_show">请填写完整的注册信息</span>
+                 </label>
+				<div class="form">
+					<div class="form-item">
+						<input id="user_username" name="user[username]" type="text" placeholder="昵称">
+						<i class="ico ico-clear"></i>
+					</div>
+					<div class="form-item">
+						<input id="user_userpwd" name="user[userpwd]" type="password" placeholder="密码">
+						<i class="ico ico-clear"></i>
+					</div>
+					<div class="form-item">
+						<input id="passwordconfirm" name="passwordconfirm" type="password" placeholder="确认密码">
+						<i class="ico ico-clear"></i>
+					</div>
+					<div class="form-item" id="city">
+						<input id="province" type="text" name="province" placeholder="所在地区" disabled="disabled">
+						<i class="ico ico-input-arrow"></i>
+					</div>
+					<div class="form-item">
+						<input id="user_telephone" maxlength="11" name="user[telephone]" type="text" placeholder="手机号">
+						<i class="ico ico-clear"></i>
+					</div>
+					<div class="form-item">
+						<input id="sms_code" name="sms_code" maxlength="6" type="text" placeholder="验证码">
+                         <span class="security" id="sms_click">获取验证码</span>
+					</div>
+					<button class="btn-main" id="btn_reg" style="width:100%" onclick="CityList(true)">立即注册</button>
+				</div>
+               </form>
+			</div>
+		</div>
+	</div>
+	<div class="dialog findpwd-dialog" id="findpwd-content">
+		<div class="hd">
+			<div class="wrap">
+				<div class="title">
+					<span class="name">找回密码</span>
+					<i class="ico ico-top-close J-dialogClose"></i>
+				</div>
+			</div>
+		</div>
+		<div class="bd" style="height: 718px;">
+			<div class="wrap" id="wjmm_one">
+                <form id="regweb" onsubmit="return false;">
+				<label for="" class="warning">
+                  <i class="ico" id="ico_warning"></i><span id="ico_show">请填写注册时填写的手机号码</span>
+                 </label>
+                 <input id="msg_id" type="hidden" name="user[msg_id]" autocomplete="off">
+				<div class="form">
+					<div class="form-item">
+                        <input id="user_telephone" name="user[telephone]" maxlength="11" type="text" placeholder="手机号">
+						<i class="ico ico-clear"></i>
+					</div>
+					<div class="form-item">
+                        <input id="sms_code" name="user[verify]" type="text" maxlength="6" placeholder="验证码">
+						<span class="security" id="sms_click">获取验证码</span>
+					</div>
+					<button id="wjmm_click" class="btn-main" style="width:100%">下一步</button>
+				</div>
+                </form>
+			</div>
+			<div class="wrap hidden" id="wjmm_two">
+                <form id="modifyform" onsubmit="return false;">
+                <input id="usermsg" type="hidden" name="usermsg">
+				<label for="" class="warning">
+                  <i class="ico" id="ico_warning"></i><span id="ico_show">请填写密码！</span>
+                 </label>
+				<div class="form">
+					<div class="form-item">
+                        <input id="userpwd" name="userpwd" type="password" maxlength="20" placeholder="新密码">
+						<i class="ico ico-clear"></i>
+					</div>
+					<div class="form-item">
+                        <input id="userpwd2" name="userpwd2" type="password" maxlength="20" placeholder="确认密码">
+						<i class="ico ico-clear"></i>
+					</div>
+                     <button class="btn-main" id="submit_modifypassword" style="width:100%">提 交</button>
+				</div>
+                </form>
+			</div>
+			<label for="" class="succ hidden " id="pwd_ok">
+				<i class="ico ico-succ"></i>恭喜您，您的密码设置成功！
+			</label>
+			<label for="" class="error hidden " id="pwd_no">
+				<i class="ico ico-error"></i>对不起，您的密码设置失败！
+			</label>
+		</div>
+	</div>
+<script>
+function is_weixin(){
+	var ua = navigator.userAgent.toLowerCase();
+	if(ua.match(/MicroMessenger/i)=="micromessenger") {
+		return true;
+ 	} else {
+		return false;
+	}
+}
+if(is_weixin()){
+ 	$('#btns_login_form').after('<button class="btn-main" id="btns_weixin" style="width: 100%;background-color: #3EB447;margin-top: 50px;" onclick="LoginActionWind();">微信登录</button>');
+ 	$("#btns_weixin").bind('click',function(){
+ 		window.location.href="http://weixin.aidiao.com/reg/m_weixin/?m_url="+window.location.href;
+ 	});
+ 	$(".account #J-regNow").bind('click',function(){
+ 		window.location.href="http://weixin.aidiao.com/reg/m_weixin/?m_url="+window.location.href;
+ 	});
+}
+</script><script src="http://m.aidiao.com/city_reg.js"></script><style>.hui{color:#333333}</style>
+<div class="dialog area-dialog" id="areae-content">
+  <div class="hd">
+   <div class="wrap">
+    <div class="title">
+     <span class="name">选择城市</span>
+     <i class="ico ico-top-close J-dialogClosee"></i>
+    </div>
+   </div>
+  </div>
+  <div class="bd" style="height: 718px;">
+   <div class="scroller">
+    <ul class="area-list">
+                 <li class="area-item" _por="安徽">
+           <span>安徽</span>
+          </li>       <li class="sub-item" _province="安徽" _city="滁州" style="display: none;">
+         <span>滁州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="阜阳" style="display: none;">
+         <span>阜阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="合肥" style="display: none;">
+         <span>合肥</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="蚌埠" style="display: none;">
+         <span>蚌埠</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="芜湖" style="display: none;">
+         <span>芜湖</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="淮南" style="display: none;">
+         <span>淮南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="马鞍山" style="display: none;">
+         <span>马鞍山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="安庆" style="display: none;">
+         <span>安庆</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="宿州" style="display: none;">
+         <span>宿州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="亳州" style="display: none;">
+         <span>亳州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="黄山" style="display: none;">
+         <span>黄山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="淮北" style="display: none;">
+         <span>淮北</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="铜陵" style="display: none;">
+         <span>铜陵</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="宣城" style="display: none;">
+         <span>宣城</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="六安" style="display: none;">
+         <span>六安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="巢湖" style="display: none;">
+         <span>巢湖</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="安徽" _city="池州" style="display: none;">
+         <span>池州</span>
+         <i class="check"></i>
+        </li><li class="area-item" _city="北京">
+          <span>北京</span>
+          <i class="check"></i>
+          </li>
+                          <li class="area-item" _por="重庆">
+           <span>重庆</span>
+          </li>                 <li class="area-item" _por="福建">
+           <span>福建</span>
+          </li>       <li class="sub-item" _province="福建" _city="福州" style="display: none;">
+         <span>福州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="厦门" style="display: none;">
+         <span>厦门</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="宁德" style="display: none;">
+         <span>宁德</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="莆田" style="display: none;">
+         <span>莆田</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="泉州" style="display: none;">
+         <span>泉州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="漳州" style="display: none;">
+         <span>漳州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="龙岩" style="display: none;">
+         <span>龙岩</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="三明" style="display: none;">
+         <span>三明</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="福建" _city="南平" style="display: none;">
+         <span>南平</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="广东">
+           <span>广东</span>
+          </li>       <li class="sub-item" _province="广东" _city="广州" style="display: none;">
+         <span>广州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="汕尾" style="display: none;">
+         <span>汕尾</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="阳江" style="display: none;">
+         <span>阳江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="揭阳" style="display: none;">
+         <span>揭阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="茂名" style="display: none;">
+         <span>茂名</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="江门" style="display: none;">
+         <span>江门</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="韶关" style="display: none;">
+         <span>韶关</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="惠州" style="display: none;">
+         <span>惠州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="梅州" style="display: none;">
+         <span>梅州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="汕头" style="display: none;">
+         <span>汕头</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="深圳" style="display: none;">
+         <span>深圳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="珠海" style="display: none;">
+         <span>珠海</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="佛山" style="display: none;">
+         <span>佛山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="肇庆" style="display: none;">
+         <span>肇庆</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="湛江" style="display: none;">
+         <span>湛江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="中山" style="display: none;">
+         <span>中山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="河源" style="display: none;">
+         <span>河源</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="清远" style="display: none;">
+         <span>清远</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="云浮" style="display: none;">
+         <span>云浮</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="潮州" style="display: none;">
+         <span>潮州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广东" _city="东莞" style="display: none;">
+         <span>东莞</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="广西">
+           <span>广西</span>
+          </li>       <li class="sub-item" _province="广西" _city="来宾" style="display: none;">
+         <span>来宾</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="贺州" style="display: none;">
+         <span>贺州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="崇左" style="display: none;">
+         <span>崇左</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="玉林" style="display: none;">
+         <span>玉林</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="防城港" style="display: none;">
+         <span>防城港</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="南宁" style="display: none;">
+         <span>南宁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="柳州" style="display: none;">
+         <span>柳州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="桂林" style="display: none;">
+         <span>桂林</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="梧州" style="display: none;">
+         <span>梧州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="贵港" style="display: none;">
+         <span>贵港</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="百色" style="display: none;">
+         <span>百色</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="钦州" style="display: none;">
+         <span>钦州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="河池" style="display: none;">
+         <span>河池</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="广西" _city="北海" style="display: none;">
+         <span>北海</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="贵州">
+           <span>贵州</span>
+          </li>       <li class="sub-item" _province="贵州" _city="贵阳" style="display: none;">
+         <span>贵阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="遵义" style="display: none;">
+         <span>遵义</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="安顺" style="display: none;">
+         <span>安顺</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="黔南" style="display: none;">
+         <span>黔南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="黔东南" style="display: none;">
+         <span>黔东南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="铜仁" style="display: none;">
+         <span>铜仁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="毕节" style="display: none;">
+         <span>毕节</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="六盘水" style="display: none;">
+         <span>六盘水</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="贵州" _city="黔西南" style="display: none;">
+         <span>黔西南</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="甘肃">
+           <span>甘肃</span>
+          </li>       <li class="sub-item" _province="甘肃" _city="陇南" style="display: none;">
+         <span>陇南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="武威" style="display: none;">
+         <span>武威</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="嘉峪关" style="display: none;">
+         <span>嘉峪关</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="临夏" style="display: none;">
+         <span>临夏</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="兰州" style="display: none;">
+         <span>兰州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="定西" style="display: none;">
+         <span>定西</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="平凉" style="display: none;">
+         <span>平凉</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="庆阳" style="display: none;">
+         <span>庆阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="金昌" style="display: none;">
+         <span>金昌</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="张掖" style="display: none;">
+         <span>张掖</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="酒泉" style="display: none;">
+         <span>酒泉</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="天水" style="display: none;">
+         <span>天水</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="甘南" style="display: none;">
+         <span>甘南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="甘肃" _city="白银" style="display: none;">
+         <span>白银</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="黑龙江">
+           <span>黑龙江</span>
+          </li>       <li class="sub-item" _province="黑龙江" _city="鸡西" style="display: none;">
+         <span>鸡西</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="七台河" style="display: none;">
+         <span>七台河</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="鹤岗" style="display: none;">
+         <span>鹤岗</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="双鸭山" style="display: none;">
+         <span>双鸭山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="伊春" style="display: none;">
+         <span>伊春</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="哈尔滨" style="display: none;">
+         <span>哈尔滨</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="齐齐哈尔" style="display: none;">
+         <span>齐齐哈尔</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="牡丹江" style="display: none;">
+         <span>牡丹江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="佳木斯" style="display: none;">
+         <span>佳木斯</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="黑河" style="display: none;">
+         <span>黑河</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="绥化" style="display: none;">
+         <span>绥化</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="大庆" style="display: none;">
+         <span>大庆</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="黑龙江" _city="大兴安岭" style="display: none;">
+         <span>大兴安岭</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="河北">
+           <span>河北</span>
+          </li>       <li class="sub-item" _province="河北" _city="邯郸" style="display: none;">
+         <span>邯郸</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="石家庄" style="display: none;">
+         <span>石家庄</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="保定" style="display: none;">
+         <span>保定</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="张家口" style="display: none;">
+         <span>张家口</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="承德" style="display: none;">
+         <span>承德</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="唐山" style="display: none;">
+         <span>唐山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="廊坊" style="display: none;">
+         <span>廊坊</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="沧州" style="display: none;">
+         <span>沧州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="衡水" style="display: none;">
+         <span>衡水</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="邢台" style="display: none;">
+         <span>邢台</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河北" _city="秦皇岛" style="display: none;">
+         <span>秦皇岛</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="河南">
+           <span>河南</span>
+          </li>       <li class="sub-item" _province="河南" _city="商丘" style="display: none;">
+         <span>商丘</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="郑州" style="display: none;">
+         <span>郑州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="安阳" style="display: none;">
+         <span>安阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="新乡" style="display: none;">
+         <span>新乡</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="许昌" style="display: none;">
+         <span>许昌</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="平顶山" style="display: none;">
+         <span>平顶山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="信阳" style="display: none;">
+         <span>信阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="南阳" style="display: none;">
+         <span>南阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="开封" style="display: none;">
+         <span>开封</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="洛阳" style="display: none;">
+         <span>洛阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="焦作" style="display: none;">
+         <span>焦作</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="鹤壁" style="display: none;">
+         <span>鹤壁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="濮阳" style="display: none;">
+         <span>濮阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="周口" style="display: none;">
+         <span>周口</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="漯河" style="display: none;">
+         <span>漯河</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="驻马店" style="display: none;">
+         <span>驻马店</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="三门峡" style="display: none;">
+         <span>三门峡</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="河南" _city="济源" style="display: none;">
+         <span>济源</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="湖北">
+           <span>湖北</span>
+          </li>       <li class="sub-item" _province="湖北" _city="武汉" style="display: none;">
+         <span>武汉</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="仙桃" style="display: none;">
+         <span>仙桃</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="天门" style="display: none;">
+         <span>天门</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="潜江" style="display: none;">
+         <span>潜江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="襄阳" style="display: none;">
+         <span>襄阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="鄂州" style="display: none;">
+         <span>鄂州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="孝感" style="display: none;">
+         <span>孝感</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="黄冈" style="display: none;">
+         <span>黄冈</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="黄石" style="display: none;">
+         <span>黄石</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="咸宁" style="display: none;">
+         <span>咸宁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="荆州" style="display: none;">
+         <span>荆州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="宜昌" style="display: none;">
+         <span>宜昌</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="十堰" style="display: none;">
+         <span>十堰</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="随州" style="display: none;">
+         <span>随州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="荆门" style="display: none;">
+         <span>荆门</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="恩施" style="display: none;">
+         <span>恩施</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖北" _city="神农架" style="display: none;">
+         <span>神农架</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="湖南">
+           <span>湖南</span>
+          </li>       <li class="sub-item" _province="湖南" _city="岳阳" style="display: none;">
+         <span>岳阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="长沙" style="display: none;">
+         <span>长沙</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="湘潭" style="display: none;">
+         <span>湘潭</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="株洲" style="display: none;">
+         <span>株洲</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="衡阳" style="display: none;">
+         <span>衡阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="郴州" style="display: none;">
+         <span>郴州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="常德" style="display: none;">
+         <span>常德</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="益阳" style="display: none;">
+         <span>益阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="娄底" style="display: none;">
+         <span>娄底</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="邵阳" style="display: none;">
+         <span>邵阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="湘西" style="display: none;">
+         <span>湘西</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="张家界" style="display: none;">
+         <span>张家界</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="怀化" style="display: none;">
+         <span>怀化</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="湖南" _city="永州" style="display: none;">
+         <span>永州</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="海南">
+           <span>海南</span>
+          </li>       <li class="sub-item" _province="海南" _city="三亚" style="display: none;">
+         <span>三亚</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="儋州" style="display: none;">
+         <span>儋州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="东方" style="display: none;">
+         <span>东方</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="文昌" style="display: none;">
+         <span>文昌</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="琼海" style="display: none;">
+         <span>琼海</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="五指山" style="display: none;">
+         <span>五指山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="万宁" style="display: none;">
+         <span>万宁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="海口" style="display: none;">
+         <span>海口</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="白沙" style="display: none;">
+         <span>白沙</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="三沙" style="display: none;">
+         <span>三沙</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="保亭" style="display: none;">
+         <span>保亭</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="昌江" style="display: none;">
+         <span>昌江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="澄迈" style="display: none;">
+         <span>澄迈</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="定安" style="display: none;">
+         <span>定安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="乐东" style="display: none;">
+         <span>乐东</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="临高" style="display: none;">
+         <span>临高</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="陵水" style="display: none;">
+         <span>陵水</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="琼中" style="display: none;">
+         <span>琼中</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="海南" _city="屯昌" style="display: none;">
+         <span>屯昌</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="吉林">
+           <span>吉林</span>
+          </li>       <li class="sub-item" _province="吉林" _city="长春" style="display: none;">
+         <span>长春</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="吉林" style="display: none;">
+         <span>吉林</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="延边" style="display: none;">
+         <span>延边</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="四平" style="display: none;">
+         <span>四平</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="通化" style="display: none;">
+         <span>通化</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="白城" style="display: none;">
+         <span>白城</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="辽源" style="display: none;">
+         <span>辽源</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="松原" style="display: none;">
+         <span>松原</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="吉林" _city="白山" style="display: none;">
+         <span>白山</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="江西">
+           <span>江西</span>
+          </li>       <li class="sub-item" _province="江西" _city="鹰潭" style="display: none;">
+         <span>鹰潭</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="新余" style="display: none;">
+         <span>新余</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="南昌" style="display: none;">
+         <span>南昌</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="九江" style="display: none;">
+         <span>九江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="上饶" style="display: none;">
+         <span>上饶</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="抚州" style="display: none;">
+         <span>抚州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="宜春" style="display: none;">
+         <span>宜春</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="吉安" style="display: none;">
+         <span>吉安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="赣州" style="display: none;">
+         <span>赣州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="景德镇" style="display: none;">
+         <span>景德镇</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江西" _city="萍乡" style="display: none;">
+         <span>萍乡</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="江苏">
+           <span>江苏</span>
+          </li>       <li class="sub-item" _province="江苏" _city="南京" style="display: none;">
+         <span>南京</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="无锡" style="display: none;">
+         <span>无锡</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="镇江" style="display: none;">
+         <span>镇江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="苏州" style="display: none;">
+         <span>苏州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="南通" style="display: none;">
+         <span>南通</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="扬州" style="display: none;">
+         <span>扬州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="盐城" style="display: none;">
+         <span>盐城</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="徐州" style="display: none;">
+         <span>徐州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="淮安" style="display: none;">
+         <span>淮安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="连云港" style="display: none;">
+         <span>连云港</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="常州" style="display: none;">
+         <span>常州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="泰州" style="display: none;">
+         <span>泰州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="江苏" _city="宿迁" style="display: none;">
+         <span>宿迁</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="辽宁">
+           <span>辽宁</span>
+          </li>       <li class="sub-item" _province="辽宁" _city="沈阳" style="display: none;">
+         <span>沈阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="铁岭" style="display: none;">
+         <span>铁岭</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="大连" style="display: none;">
+         <span>大连</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="鞍山" style="display: none;">
+         <span>鞍山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="抚顺" style="display: none;">
+         <span>抚顺</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="本溪" style="display: none;">
+         <span>本溪</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="丹东" style="display: none;">
+         <span>丹东</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="锦州" style="display: none;">
+         <span>锦州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="营口" style="display: none;">
+         <span>营口</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="阜新" style="display: none;">
+         <span>阜新</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="辽阳" style="display: none;">
+         <span>辽阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="朝阳" style="display: none;">
+         <span>朝阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="盘锦" style="display: none;">
+         <span>盘锦</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="辽宁" _city="葫芦岛" style="display: none;">
+         <span>葫芦岛</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="宁夏">
+           <span>宁夏</span>
+          </li>       <li class="sub-item" _province="宁夏" _city="中卫" style="display: none;">
+         <span>中卫</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="宁夏" _city="银川" style="display: none;">
+         <span>银川</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="宁夏" _city="石嘴山" style="display: none;">
+         <span>石嘴山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="宁夏" _city="吴忠" style="display: none;">
+         <span>吴忠</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="宁夏" _city="固原" style="display: none;">
+         <span>固原</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="内蒙古">
+           <span>内蒙古</span>
+          </li>       <li class="sub-item" _province="内蒙古" _city="呼伦贝尔" style="display: none;">
+         <span>呼伦贝尔</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="呼和浩特" style="display: none;">
+         <span>呼和浩特</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="包头" style="display: none;">
+         <span>包头</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="乌海" style="display: none;">
+         <span>乌海</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="乌兰察布" style="display: none;">
+         <span>乌兰察布</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="通辽" style="display: none;">
+         <span>通辽</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="赤峰" style="display: none;">
+         <span>赤峰</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="鄂尔多斯" style="display: none;">
+         <span>鄂尔多斯</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="巴彦淖尔" style="display: none;">
+         <span>巴彦淖尔</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="锡林郭勒" style="display: none;">
+         <span>锡林郭勒</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="兴安" style="display: none;">
+         <span>兴安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="内蒙古" _city="阿拉善" style="display: none;">
+         <span>阿拉善</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="青海">
+           <span>青海</span>
+          </li>       <li class="sub-item" _province="青海" _city="海北" style="display: none;">
+         <span>海北</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="青海" _city="西宁" style="display: none;">
+         <span>西宁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="青海" _city="海东" style="display: none;">
+         <span>海东</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="青海" _city="黄南" style="display: none;">
+         <span>黄南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="青海" _city="果洛" style="display: none;">
+         <span>果洛</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="青海" _city="玉树" style="display: none;">
+         <span>玉树</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="青海" _city="海西" style="display: none;">
+         <span>海西</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="青海" _city="海南" style="display: none;">
+         <span>海南</span>
+         <i class="check"></i>
+        </li><li class="area-item" _city="上海">
+          <span>上海</span>
+          <i class="check"></i>
+          </li>
+                          <li class="area-item" _por="山东">
+           <span>山东</span>
+          </li>       <li class="sub-item" _province="山东" _city="泰安" style="display: none;">
+         <span>泰安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="菏泽" style="display: none;">
+         <span>菏泽</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="济南" style="display: none;">
+         <span>济南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="青岛" style="display: none;">
+         <span>青岛</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="淄博" style="display: none;">
+         <span>淄博</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="德州" style="display: none;">
+         <span>德州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="烟台" style="display: none;">
+         <span>烟台</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="潍坊" style="display: none;">
+         <span>潍坊</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="济宁" style="display: none;">
+         <span>济宁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="威海" style="display: none;">
+         <span>威海</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="临沂" style="display: none;">
+         <span>临沂</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="滨州" style="display: none;">
+         <span>滨州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="东营" style="display: none;">
+         <span>东营</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="枣庄" style="display: none;">
+         <span>枣庄</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="日照" style="display: none;">
+         <span>日照</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="莱芜" style="display: none;">
+         <span>莱芜</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山东" _city="聊城" style="display: none;">
+         <span>聊城</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="山西">
+           <span>山西</span>
+          </li>       <li class="sub-item" _province="山西" _city="朔州" style="display: none;">
+         <span>朔州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="忻州" style="display: none;">
+         <span>忻州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="太原" style="display: none;">
+         <span>太原</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="大同" style="display: none;">
+         <span>大同</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="阳泉" style="display: none;">
+         <span>阳泉</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="晋中" style="display: none;">
+         <span>晋中</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="长治" style="display: none;">
+         <span>长治</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="晋城" style="display: none;">
+         <span>晋城</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="临汾" style="display: none;">
+         <span>临汾</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="吕梁" style="display: none;">
+         <span>吕梁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="山西" _city="运城" style="display: none;">
+         <span>运城</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="陕西">
+           <span>陕西</span>
+          </li>       <li class="sub-item" _province="陕西" _city="西安" style="display: none;">
+         <span>西安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="咸阳" style="display: none;">
+         <span>咸阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="延安" style="display: none;">
+         <span>延安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="榆林" style="display: none;">
+         <span>榆林</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="渭南" style="display: none;">
+         <span>渭南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="商洛" style="display: none;">
+         <span>商洛</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="安康" style="display: none;">
+         <span>安康</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="汉中" style="display: none;">
+         <span>汉中</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="宝鸡" style="display: none;">
+         <span>宝鸡</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="陕西" _city="铜川" style="display: none;">
+         <span>铜川</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="四川">
+           <span>四川</span>
+          </li>       <li class="sub-item" _province="四川" _city="成都" style="display: none;">
+         <span>成都</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="眉山" style="display: none;">
+         <span>眉山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="资阳" style="display: none;">
+         <span>资阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="攀枝花" style="display: none;">
+         <span>攀枝花</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="自贡" style="display: none;">
+         <span>自贡</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="绵阳" style="display: none;">
+         <span>绵阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="南充" style="display: none;">
+         <span>南充</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="达州" style="display: none;">
+         <span>达州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="遂宁" style="display: none;">
+         <span>遂宁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="广安" style="display: none;">
+         <span>广安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="巴中" style="display: none;">
+         <span>巴中</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="泸州" style="display: none;">
+         <span>泸州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="宜宾" style="display: none;">
+         <span>宜宾</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="内江" style="display: none;">
+         <span>内江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="乐山" style="display: none;">
+         <span>乐山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="凉山" style="display: none;">
+         <span>凉山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="雅安" style="display: none;">
+         <span>雅安</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="甘孜" style="display: none;">
+         <span>甘孜</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="阿坝" style="display: none;">
+         <span>阿坝</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="德阳" style="display: none;">
+         <span>德阳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="四川" _city="广元" style="display: none;">
+         <span>广元</span>
+         <i class="check"></i>
+        </li><li class="area-item" _city="天津">
+          <span>天津</span>
+          <i class="check"></i>
+          </li>
+                          <li class="area-item" _por="西藏">
+           <span>西藏</span>
+          </li>       <li class="sub-item" _province="西藏" _city="拉萨" style="display: none;">
+         <span>拉萨</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="西藏" _city="日喀则" style="display: none;">
+         <span>日喀则</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="西藏" _city="山南" style="display: none;">
+         <span>山南</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="西藏" _city="林芝" style="display: none;">
+         <span>林芝</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="西藏" _city="昌都" style="display: none;">
+         <span>昌都</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="西藏" _city="那曲" style="display: none;">
+         <span>那曲</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="西藏" _city="阿里" style="display: none;">
+         <span>阿里</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="新疆">
+           <span>新疆</span>
+          </li>       <li class="sub-item" _province="新疆" _city="伊犁" style="display: none;">
+         <span>伊犁</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="塔城" style="display: none;">
+         <span>塔城</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="哈密" style="display: none;">
+         <span>哈密</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="和田" style="display: none;">
+         <span>和田</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="阿勒泰" style="display: none;">
+         <span>阿勒泰</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="博尔塔拉" style="display: none;">
+         <span>博尔塔拉</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="克拉玛依" style="display: none;">
+         <span>克拉玛依</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="乌鲁木齐" style="display: none;">
+         <span>乌鲁木齐</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="石河子" style="display: none;">
+         <span>石河子</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="昌吉" style="display: none;">
+         <span>昌吉</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="吐鲁番" style="display: none;">
+         <span>吐鲁番</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="巴音郭楞" style="display: none;">
+         <span>巴音郭楞</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="阿克苏" style="display: none;">
+         <span>阿克苏</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="喀什" style="display: none;">
+         <span>喀什</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="克孜勒苏" style="display: none;">
+         <span>克孜勒苏</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="阿拉尔" style="display: none;">
+         <span>阿拉尔</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="五家渠" style="display: none;">
+         <span>五家渠</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="新疆" _city="图木舒克" style="display: none;">
+         <span>图木舒克</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="云南">
+           <span>云南</span>
+          </li>       <li class="sub-item" _province="云南" _city="西双版纳" style="display: none;">
+         <span>西双版纳</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="德宏" style="display: none;">
+         <span>德宏</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="昭通" style="display: none;">
+         <span>昭通</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="昆明" style="display: none;">
+         <span>昆明</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="大理" style="display: none;">
+         <span>大理</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="红河" style="display: none;">
+         <span>红河</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="曲靖" style="display: none;">
+         <span>曲靖</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="保山" style="display: none;">
+         <span>保山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="文山" style="display: none;">
+         <span>文山</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="玉溪" style="display: none;">
+         <span>玉溪</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="楚雄" style="display: none;">
+         <span>楚雄</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="普洱" style="display: none;">
+         <span>普洱</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="临沧" style="display: none;">
+         <span>临沧</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="怒江" style="display: none;">
+         <span>怒江</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="迪庆" style="display: none;">
+         <span>迪庆</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="云南" _city="丽江" style="display: none;">
+         <span>丽江</span>
+         <i class="check"></i>
+        </li>          <li class="area-item" _por="浙江">
+           <span>浙江</span>
+          </li>       <li class="sub-item" _province="浙江" _city="衢州" style="display: none;">
+         <span>衢州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="杭州" style="display: none;">
+         <span>杭州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="湖州" style="display: none;">
+         <span>湖州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="嘉兴" style="display: none;">
+         <span>嘉兴</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="宁波" style="display: none;">
+         <span>宁波</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="绍兴" style="display: none;">
+         <span>绍兴</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="台州" style="display: none;">
+         <span>台州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="温州" style="display: none;">
+         <span>温州</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="丽水" style="display: none;">
+         <span>丽水</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="金华" style="display: none;">
+         <span>金华</span>
+         <i class="check"></i>
+        </li><li class="sub-item" _province="浙江" _city="舟山" style="display: none;">
+         <span>舟山</span>
+         <i class="check"></i>
+        </li>    </ul>
+   </div>
+  </div>
+ </div>
+ <script>
+
+ $("[_province]").each(function(index){
+	 $(this).hide();
+ })
+ $("[_por]").click(function(){
+		var por=$(this).attr('_por');
+		$("[_province="+por+"]").each(function(index){
+			$(this).toggle($(this).attr("display"));
+		})
+		my_scroll.refresh();
+	})
+$('[_city]').click(function (){
+	var city=$(this).attr('_city');
+	var pro=$(this).attr('_province');
+	if(pro=='' || pro==null ||pro=='null' ||pro=='undefined' ||pro==undefined)pro=city;
+	$('#form_province').val(pro);
+	$('#form_city').val(city);
+	$('#province').val(pro+'    '+city);
+	$('#areae-content').removeClass('show');
+})
+ </script><script src="http://src.aidiao.com/m/js/md5.min.js"></script><script src="http://src.aidiao.com/m/js/regjs.js"></script><script src="http://src.aidiao.com/m/js/LoginAction.js"></script>
+<script src="http://src.aidiao.com/m/js/place.js?v=1629"></script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253687844'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1253687844' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1253687844"><a href="http://www.cnzz.com/stat/website.php?web_id=1253687844" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s4.cnzz.com/stat.php?id=1253687844" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1253687844&amp;t=z" charset="utf-8" type="text/javascript"></script>
+<script src="http://hm.baidu.com/hm.js?2c042181d57f1f654077837424277373"></script>
+<script src="http://src.aidiao.com/m/js/linshi/top.js?v=1629"></script>
+<script src="http://m.aidiao.com/city.js"></script><style>.hui{color:#333333}</style>
+<div class="dialog area-dialog" id="area-content">
+  <div class="hd">
+   <div class="wrap">
+    <div class="title">
+     <span class="name">选择省市</span>
+     <div id="CityDropParent">
+     <input id="CityDrop" type="text" class="search-input hidden " placeholder="请输入城市名或拼音">
+     </div>
+     <i class="ico ico-top-close J-dialogClose"></i>
+    </div>
+   </div>
+  </div>
+  <div class="bd" style="height: 718px;">
+   <div class="scroller">
+    <ul class="area-list">
+       <li class="area-item" _index_por="安徽">
+          <span>安徽</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/chuzhou/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>滁州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/fuyang/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>阜阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hefei/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>合肥</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/bengbu/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>蚌埠</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wuhu/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>芜湖</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huainan/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>淮南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/maanshan/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>马鞍山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/anqing/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>安庆</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/sz/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>宿州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/bozhou/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>亳州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huangshan/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>黄山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huaibei/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>淮北</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tongling/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>铜陵</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xuancheng/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>宣城</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/luan/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>六安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chaohu/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>巢湖</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chizhou/" class="hui">
+        <li class="sub-item" _index_province="安徽" style="display: none;">
+         <span>池州</span>
+         <i class="check"></i>
+        </li>
+        </a>          <a href="http://m.aidiao.com/city/beijing/" class="hui">
+          <li class="area-item" _index_por="北京">
+          <span>北京</span>
+          <i class="check"></i>
+          </li>
+          </a>                 <a href="http://m.aidiao.com/city/chongqing/" class="hui">
+          <li class="area-item" _index_por="重庆 ">
+          <span>重庆 </span>
+          <i class="check"></i>
+          </li>
+          </a>       <li class="area-item" _index_por="福建">
+          <span>福建</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/fuzhou/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>福州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xiamen/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>厦门</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ningde/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>宁德</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/putian/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>莆田</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/quanzhou/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>泉州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhangzhou/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>漳州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/longyan/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>龙岩</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/sanming/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>三明</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/nanping/" class="hui">
+        <li class="sub-item" _index_province="福建" style="display: none;">
+         <span>南平</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="广东">
+          <span>广东</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/guangzhou/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>广州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shanwei/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>汕尾</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yangjiang/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>阳江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jieyang/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>揭阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/maoming/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>茂名</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiangmen/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>江门</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shaoguan/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>韶关</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huizhou/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>惠州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/meizhou/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>梅州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shantou/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>汕头</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shenzhen/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>深圳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhuhai/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>珠海</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/foshan/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>佛山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhaoqing/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>肇庆</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhanjiang/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>湛江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhongshan/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>中山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/heyuan/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>河源</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qingyuan/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>清远</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yunfu/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>云浮</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chaozhou/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>潮州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dongguan/" class="hui">
+        <li class="sub-item" _index_province="广东" style="display: none;">
+         <span>东莞</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="广西">
+          <span>广西</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/laibin/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>来宾</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hezhou/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>贺州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chongzuo/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>崇左</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yulin/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>玉林</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/fangchenggang/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>防城港</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/nanning/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>南宁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/liuzhou/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>柳州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/guilin/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>桂林</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wuzhou/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>梧州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/guigang/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>贵港</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baise/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>百色</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qinzhou/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>钦州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hechi/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>河池</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/beihai/" class="hui">
+        <li class="sub-item" _index_province="广西" style="display: none;">
+         <span>北海</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="贵州">
+          <span>贵州</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/guiyang/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>贵阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zunyi/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>遵义</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/anshun/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>安顺</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qiannan/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>黔南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qiandongnan/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>黔东南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tongren/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>铜仁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/bijie/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>毕节</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/liupanshui/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>六盘水</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qianxinan/" class="hui">
+        <li class="sub-item" _index_province="贵州" style="display: none;">
+         <span>黔西南</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="甘肃">
+          <span>甘肃</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/longnan/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>陇南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wuwei/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>武威</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiayuguan/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>嘉峪关</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/linxia/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>临夏</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lanzhou/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>兰州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dingxi/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>定西</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/pingliang/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>平凉</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qingyang/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>庆阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jinchang/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>金昌</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhangye/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>张掖</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiuquan/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>酒泉</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tianshui/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>天水</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/gannan/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>甘南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baiyin/" class="hui">
+        <li class="sub-item" _index_province="甘肃" style="display: none;">
+         <span>白银</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="黑龙江">
+          <span>黑龙江</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/jixi/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>鸡西</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qitaihe/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>七台河</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hegang/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>鹤岗</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shuangyashan/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>双鸭山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yc/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>伊春</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/haerbin/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>哈尔滨</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qiqihaer/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>齐齐哈尔</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/mudanjiang/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>牡丹江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiamusi/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>佳木斯</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/heihe/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>黑河</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/suihua/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>绥化</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/daqing/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>大庆</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/daxinganling/" class="hui">
+        <li class="sub-item" _index_province="黑龙江" style="display: none;">
+         <span>大兴安岭</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="河北">
+          <span>河北</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/handan/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>邯郸</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shijiazhuang/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>石家庄</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baoding/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>保定</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhangjiakou/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>张家口</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chengde/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>承德</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tangshan/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>唐山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/langfang/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>廊坊</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/cangzhou/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>沧州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hengshui/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>衡水</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xingtai/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>邢台</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qinhuangdao/" class="hui">
+        <li class="sub-item" _index_province="河北" style="display: none;">
+         <span>秦皇岛</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="河南">
+          <span>河南</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/shangqiu/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>商丘</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhengzhou/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>郑州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/anyang/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>安阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xinxiang/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>新乡</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xuchang/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>许昌</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/pingdingshan/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>平顶山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xinyang/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>信阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/nanyang/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>南阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/kaifeng/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>开封</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/luoyang/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>洛阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiaozuo/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>焦作</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hebi/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>鹤壁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/puyang/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>濮阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhoukou/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>周口</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/luohe/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>漯河</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhumadian/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>驻马店</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/sanmenxia/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>三门峡</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiyuan/" class="hui">
+        <li class="sub-item" _index_province="河南" style="display: none;">
+         <span>济源</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="湖北">
+          <span>湖北</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/wuhan/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>武汉</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xiantao/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>仙桃</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tianmen/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>天门</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qianjiang/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>潜江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xiangyang/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>襄阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ezhou/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>鄂州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xiaogan/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>孝感</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huanggang/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>黄冈</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huangshi/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>黄石</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xianning/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>咸宁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jingzhou/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>荆州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yichang/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>宜昌</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shiyan/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>十堰</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/suizhou/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>随州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jingmen/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>荆门</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/enshi/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>恩施</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shennongjia/" class="hui">
+        <li class="sub-item" _index_province="湖北" style="display: none;">
+         <span>神农架</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="湖南">
+          <span>湖南</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/yueyang/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>岳阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/changsha/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>长沙</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xiangtan/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>湘潭</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhuzhou/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>株洲</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hengyang/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>衡阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chenzhou/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>郴州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/changde/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>常德</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yiyang/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>益阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/loudi/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>娄底</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shaoyang/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>邵阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xiangxi/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>湘西</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhangjiajie/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>张家界</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huaihua/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>怀化</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yongzhou/" class="hui">
+        <li class="sub-item" _index_province="湖南" style="display: none;">
+         <span>永州</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="海南">
+          <span>海南</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/sanya/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>三亚</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/danzhou/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>儋州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dongfang/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>东方</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wenchang/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>文昌</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qionghai/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>琼海</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wuzhishan/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>五指山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wanning/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>万宁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/haikou/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>海口</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baisha/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>白沙</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/sansha/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>三沙</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baoting/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>保亭</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/changjiang/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>昌江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chengmai/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>澄迈</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dingan/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>定安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ledong/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>乐东</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lingao/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>临高</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lingshui/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>陵水</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qiongzhong/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>琼中</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tunchang/" class="hui">
+        <li class="sub-item" _index_province="海南" style="display: none;">
+         <span>屯昌</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="吉林">
+          <span>吉林</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/changchun/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>长春</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jilin/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>吉林</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yanbian/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>延边</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/siping/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>四平</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tonghua/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>通化</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baicheng/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>白城</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/liaoyuan/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>辽源</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/songyuan/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>松原</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baishan/" class="hui">
+        <li class="sub-item" _index_province="吉林" style="display: none;">
+         <span>白山</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="江西">
+          <span>江西</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/yingtan/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>鹰潭</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xinyu/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>新余</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/nanchang/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>南昌</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiujiang/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>九江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shangrao/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>上饶</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/fz/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>抚州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yichun/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>宜春</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jian/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>吉安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ganzhou/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>赣州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jingdezhen/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>景德镇</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/pingxiang/" class="hui">
+        <li class="sub-item" _index_province="江西" style="display: none;">
+         <span>萍乡</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="江苏">
+          <span>江苏</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/nanjing/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>南京</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wuxi/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>无锡</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhenjiang/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>镇江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/suzhou/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>苏州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/nantong/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>南通</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yangzhou/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>扬州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yancheng/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>盐城</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xuzhou/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>徐州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huaian/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>淮安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lianyungang/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>连云港</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/changzhou/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>常州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/taizhou/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>泰州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/suqian/" class="hui">
+        <li class="sub-item" _index_province="江苏" style="display: none;">
+         <span>宿迁</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="辽宁">
+          <span>辽宁</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/shenyang/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>沈阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tieling/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>铁岭</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dalian/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>大连</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/anshan/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>鞍山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/fushun/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>抚顺</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/benxi/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>本溪</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dandong/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>丹东</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jinzhou/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>锦州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yingkou/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>营口</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/fuxin/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>阜新</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/liaoyang/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>辽阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhaoyang/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>朝阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/panjin/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>盘锦</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huludao/" class="hui">
+        <li class="sub-item" _index_province="辽宁" style="display: none;">
+         <span>葫芦岛</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="宁夏">
+          <span>宁夏</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/zhongwei/" class="hui">
+        <li class="sub-item" _index_province="宁夏" style="display: none;">
+         <span>中卫</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yinchuan/" class="hui">
+        <li class="sub-item" _index_province="宁夏" style="display: none;">
+         <span>银川</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shizuishan/" class="hui">
+        <li class="sub-item" _index_province="宁夏" style="display: none;">
+         <span>石嘴山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wuzhong/" class="hui">
+        <li class="sub-item" _index_province="宁夏" style="display: none;">
+         <span>吴忠</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/guyuan/" class="hui">
+        <li class="sub-item" _index_province="宁夏" style="display: none;">
+         <span>固原</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="内蒙古">
+          <span>内蒙古</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/hulunbeier/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>呼伦贝尔</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huhehaote/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>呼和浩特</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baotou/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>包头</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wuhai/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>乌海</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wulanchabu/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>乌兰察布</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tongliao/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>通辽</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chifeng/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>赤峰</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/eerduosi/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>鄂尔多斯</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/bayannaoer/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>巴彦淖尔</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xilinguole/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>锡林郭勒</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xingan/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>兴安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/alashan/" class="hui">
+        <li class="sub-item" _index_province="内蒙古" style="display: none;">
+         <span>阿拉善</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="青海">
+          <span>青海</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/haibei/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>海北</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xining/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>西宁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/haidong/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>海东</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huangnan/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>黄南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/guoluo/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>果洛</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yushu/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>玉树</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/haixi/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>海西</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hainan/" class="hui">
+        <li class="sub-item" _index_province="青海" style="display: none;">
+         <span>海南</span>
+         <i class="check"></i>
+        </li>
+        </a>          <a href="http://m.aidiao.com/city/shanghai/" class="hui">
+          <li class="area-item" _index_por="上海">
+          <span>上海</span>
+          <i class="check"></i>
+          </li>
+          </a>                 <a href="http://m.aidiao.com/city/shenzhen/" class="hui">
+          <li class="area-item" _index_por="深圳">
+          <span>深圳</span>
+          <i class="check"></i>
+          </li>
+          </a>       <li class="area-item" _index_por="山东">
+          <span>山东</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/taian/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>泰安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/heze/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>菏泽</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jinan/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>济南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qingdao/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>青岛</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zibo/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>淄博</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dezhou/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>德州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yantai/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>烟台</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/weifang/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>潍坊</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jining/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>济宁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/weihai/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>威海</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/linyi/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>临沂</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/binzhou/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>滨州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dongying/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>东营</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zaozhuang/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>枣庄</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/rizhao/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>日照</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/laiwu/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>莱芜</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/liaocheng/" class="hui">
+        <li class="sub-item" _index_province="山东" style="display: none;">
+         <span>聊城</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="山西">
+          <span>山西</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/shuozhou/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>朔州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xinzhou/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>忻州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/taiyuan/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>太原</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/datong/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>大同</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yangquan/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>阳泉</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jinzhong/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>晋中</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/changzhi/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>长治</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jincheng/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>晋城</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/linfen/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>临汾</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lvliang/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>吕梁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yuncheng/" class="hui">
+        <li class="sub-item" _index_province="山西" style="display: none;">
+         <span>运城</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="陕西">
+          <span>陕西</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/xian/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>西安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/xianyang/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>咸阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yanan/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>延安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yl/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>榆林</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/weinan/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>渭南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shangluo/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>商洛</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ankang/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>安康</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hanzhong/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>汉中</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baoji/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>宝鸡</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tongchuan/" class="hui">
+        <li class="sub-item" _index_province="陕西" style="display: none;">
+         <span>铜川</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="四川">
+          <span>四川</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/chengdu/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>成都</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/meishan/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>眉山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ziyang/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>资阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/panzhihua/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>攀枝花</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zigong/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>自贡</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/mianyang/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>绵阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/nanchong/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>南充</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dazhou/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>达州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/suining/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>遂宁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/guangan/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>广安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/bazhong/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>巴中</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/luzhou/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>泸州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yibin/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>宜宾</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/neijiang/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>内江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/leshan/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>乐山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/liangshan/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>凉山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yaan/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>雅安</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ganzi/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>甘孜</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/aba/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>阿坝</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/deyang/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>德阳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/guangyuan/" class="hui">
+        <li class="sub-item" _index_province="四川" style="display: none;">
+         <span>广元</span>
+         <i class="check"></i>
+        </li>
+        </a>          <a href="http://m.aidiao.com/city/tianjin/" class="hui">
+          <li class="area-item" _index_por="天津">
+          <span>天津</span>
+          <i class="check"></i>
+          </li>
+          </a>       <li class="area-item" _index_por="西藏">
+          <span>西藏</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/lasa/" class="hui">
+        <li class="sub-item" _index_province="西藏" style="display: none;">
+         <span>拉萨</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/rikaze/" class="hui">
+        <li class="sub-item" _index_province="西藏" style="display: none;">
+         <span>日喀则</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shannan/" class="hui">
+        <li class="sub-item" _index_province="西藏" style="display: none;">
+         <span>山南</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/linzhi/" class="hui">
+        <li class="sub-item" _index_province="西藏" style="display: none;">
+         <span>林芝</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/changdou/" class="hui">
+        <li class="sub-item" _index_province="西藏" style="display: none;">
+         <span>昌都</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/naqu/" class="hui">
+        <li class="sub-item" _index_province="西藏" style="display: none;">
+         <span>那曲</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ali/" class="hui">
+        <li class="sub-item" _index_province="西藏" style="display: none;">
+         <span>阿里</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="新疆">
+          <span>新疆</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/yili/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>伊犁</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tacheng/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>塔城</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hami/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>哈密</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hetian/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>和田</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/aletai/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>阿勒泰</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/boertala/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>博尔塔拉</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/kelamayi/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>克拉玛依</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wulumuqi/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>乌鲁木齐</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shihezi/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>石河子</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/changji/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>昌吉</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tulufan/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>吐鲁番</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/bayinguoleng/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>巴音郭楞</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/akesu/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>阿克苏</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/kashi/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>喀什</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/kezilesu/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>克孜勒苏</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/alaer/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>阿拉尔</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wujiaqu/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>五家渠</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tumushuke/" class="hui">
+        <li class="sub-item" _index_province="新疆" style="display: none;">
+         <span>图木舒克</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="云南">
+          <span>云南</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/xishuangbanna/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>西双版纳</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dehong/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>德宏</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhaotong/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>昭通</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/kunming/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>昆明</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/dali/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>大理</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/honghe/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>红河</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/qujing/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>曲靖</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/baoshan/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>保山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wenshan/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>文山</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/yuxi/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>玉溪</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/chuxiong/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>楚雄</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/puer/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>普洱</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lincang/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>临沧</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/nujiang/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>怒江</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/diqing/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>迪庆</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lijiang/" class="hui">
+        <li class="sub-item" _index_province="云南" style="display: none;">
+         <span>丽江</span>
+         <i class="check"></i>
+        </li>
+        </a><li class="area-item" _index_por="浙江">
+          <span>浙江</span>
+          <i class="check"></i>
+          </li>
+                 <a href="http://m.aidiao.com/city/quzhou/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>衢州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/hangzhou/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>杭州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/huzhou/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>湖州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jiaxing/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>嘉兴</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/ningbo/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>宁波</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/shaoxing/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>绍兴</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/tz/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>台州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/wenzhou/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>温州</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/lishui/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>丽水</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/jinhua/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>金华</span>
+         <i class="check"></i>
+        </li>
+        </a><a href="http://m.aidiao.com/city/zhoushan/" class="hui">
+        <li class="sub-item" _index_province="浙江" style="display: none;">
+         <span>舟山</span>
+         <i class="check"></i>
+        </li>
+        </a>    </ul>
+   </div>
+  </div>
+ </div>
+ <script type="text/javascript">
+ $("[_index_province]").each(function(index){
+	 $(this).hide();
+ })
+ $("[_index_por]").click(function(){
+		var por=$(this).attr('_index_por');
+		$("[_index_province="+por+"]").each(function(index){
+			$(this).toggle($(this).attr("display"));
+		})
+		my_scroll.refresh();
+	})
+	$('.J-dialogClose').click(function() {
+    $('.dialog').removeClass('show');
+    return false;
+});
+ </script>
+<script src="http://src.aidiao.com/m/js/swipe.js"></script>
+<script type="text/javascript">
+		window.mySwipe = $('#slide').Swipe({
+		     auto: 3000,
+		  // stopPropagation: true,
+		  	callback: function(idx, element) {
+		  		var $dotsList = $(".trigger span");
+		    	$dotsList.each(function(index){
+		    		if(index === idx){
+		    			$dotsList.each(function(){
+		    				$(this).removeClass("current");
+		    			});
+		    			$(this).addClass("current");
+		    		}
+		    	});
+		    	$(".slide-title").html($(element).find('img').attr('title'));
+		  	},
+		  // transitionEnd: function(index, element) {}
+		}).data('Swipe');
+		$city=$.fn.cookie('aidiao_location_city');
+		$("#city_name").html($city);
+</script>
+
+</body></html>

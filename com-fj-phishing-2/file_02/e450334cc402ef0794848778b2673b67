@@ -1,0 +1,375 @@
+<!DOCTYPE html><html lang="zh-CN" style="overflow: hidden; height: 100%;"><head>
+    <title>壹亿互动（厦门）科技有限公司 智慧展务、门禁识别、展会门禁、厦门展会门禁、福建展会门禁、展会售票、展会管理、活动签到、展会门闸机、RFID无障碍通行、rfid签到、微信签到、3D微信签到、分享系统</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content=" 福建首家活动互联网+  专注展会智能信息化数据解决方案。团队是由一群有梦想、有创意的、懂科技的精英人 才汇聚而成。我们用专业的技术、最大的努力以及一流的服务为所有客户提供最优质的用户体验。" name="Description">
+    <meta content="智慧展务,门禁识别,厦门展会门禁,福建展会门禁,展会售票,活动签到,展会门闸机,RFID无障碍通行,rfid签到" name="Keywords">
+    <!--<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <link rel="stylesheet" href="assets/frontend/plugins/fullUDSlider/css/jquery.fullPage.css">
+    <link href="assets/frontend/plugins/slider/css/poposlides.css" rel="stylesheet" >
+    <link rel="stylesheet" href="assets/frontend/css/global.css"/>-->
+  <link rel="stylesheet" href="assets/frontend/css/total.css">
+</head>
+<body style="overflow: hidden; height: 100%;">
+    <div class="wrapper"> 
+        <div class="head">
+          <div class="head-main clearfix">
+            <div class="logo">
+              <img src="assets/frontend/images/logo.png" width="400" height="200">
+            </div>
+            <div class="menuDiv">
+              <ul class="menu clearfix">
+               <li>
+                  <a class="active" href="">
+                   <div style="font-size:25px; color:#ff00000;"> 福建首家活动互联网+  专注展会智能信息化数据解决方案</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="linkTel">
+              联系电话 : 0592-5067159   18060999119
+              
+            </div>
+          </div>
+        </div>
+        <div class="content">
+        
+            <div id="dowebok" class="fullpage-wrapper" style="height: 100%; position: relative; transform: translate3d(0px, 0px, 0px);">
+                <div class="section section1 fp-section active fp-table" style="height: 768px; background-color: transparent; opacity: 1;"><div class="fp-tableCell" style="height:768px;">
+                   <div class="slides-box" style="height: 678px;">
+                      <ul class="slides">
+                        <li style="background-image: url(http://11cm.com.cn/assets/frontend/plugins/slider/images/1.jpg); background-size: cover; display: list-item; background-position: 50% 50%; background-repeat: initial initial;"></li>
+                        <li style="background-image: url(http://11cm.com.cn/assets/frontend/plugins/slider/images/2.jpg); background-size: cover; display: none; background-position: 50% 50%; background-repeat: initial initial;"></li>
+                        <li style="background-image: url(http://11cm.com.cn/assets/frontend/plugins/slider/images/3.jpg); background-size: cover; display: none; background-position: 50% 50%; background-repeat: initial initial;"></li>
+                        <li style="background-image: url(http://11cm.com.cn/assets/frontend/plugins/slider/images/4.jpg); background-size: cover; display: none; background-position: 50% 50%; background-repeat: initial initial;"></li>
+                      </ul><ul class="pagination" style="position: absolute; left: 50%; bottom: 5px; margin-left: -72px; z-index: 99;"><li><a href="javascript:void(0)" class="active"></a></li><li><a href="javascript:void(0)"></a></li><li><a href="javascript:void(0)"></a></li><li><a href="javascript:void(0)"></a></li></ul>
+                  </div>
+                </div></div>
+                <div class="section section2 fp-section fp-table" style="height: 768px; background-color: transparent;"><div class="fp-tableCell" style="height:768px;">
+                    <div class="qxgd hide">
+                        <div class="qxgdT">
+                          <img src="assets/frontend/images/page1.png" alt="">
+                        </div>
+                         <ul class="qxMune">
+                           <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/qx1.jpg" alt="">
+                                </a>
+                                <div class="info">
+                                    <div class="inforCon">
+                                      <div class="title">会展门禁</div>
+                                      <div class="con">
+                                        通过无线感应芯片可实时获取来宾信息，在安检可无障碍通行，彰显尊贵，在展区可通过芯片判断人群分布，做到喜好分析等大数据汇聚。
+                                      </div>
+                                    </div>
+                                </div>
+                           </li>
+                           <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/qx2.jpg" alt="">
+                                </a>
+                                <div class="info">
+                                    <div class="inforCon">
+                                      <div class="title">展会售票</div>
+                                      <div class="con">
+                                        网上购票以后会得到一条购票短信点击短信中的链接即可获得电子门票的二维码，在现场使用二维码制证后即可入场
+                                      </div>
+                                    </div>
+                                </div>
+                           </li>
+                           <li class="mr0">
+                                <a class="normal">
+                                  <img src="assets/frontend/images/qx3.jpg" alt="">
+                                </a>
+                               <div class="info">
+                                    <div class="inforCon">
+                                      <div class="title">展会制证</div>
+                                      <div class="con">
+                                        凭入场劵二维码扫码，现场售票处打印门票；
+（可在门票上添加广告区域）
+                                      </div>
+                                    </div>
+                                </div>
+                           </li>
+                          <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/qx4.jpg" alt="">
+                                </a>
+                                <div class="info">
+                                    <div class="inforCon">
+                                      <div class="title">展会数据</div>
+                                      <div class="con">
+                                        一次数据收集可为下一次的展会提供全面的体验提升
+                                      </div>
+                                    </div>
+                                </div>
+                           </li>
+                            <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/qx5.jpg" alt="">
+                                </a>
+                                <div class="info">
+                                    <div class="inforCon">
+                                      <div class="title">展会分析</div>
+                                      <div class="con">
+                                       数据可视化系统可分析入场男女比率、场内人数、等一些基础数据，提高整个展会档次。
+                                      </div>
+                                    </div>
+                                </div>
+                           </li>
+                           <li class="mr0">
+                                <a class="normal">
+                                  <img src="assets/frontend/images/qx6.jpg" alt="">
+                                </a>
+                                <div class="info">
+                                    <div class="inforCon">
+                                      <div class="title">展会管控</div>
+                                      <div class="con">
+                                        通过可视化的管控程序实时手机参展人员在展区内的活动轨迹和观看数据
+                                      </div>
+                                    </div>
+                                </div>
+                           </li>
+                       </ul>
+                    </div>
+                </div></div>
+                <div class="section section3 fp-section fp-table" style="height: 768px; background-color: transparent;"><div class="fp-tableCell" style="height:768px;">
+                   <div class="qxgd style">
+                        <div class="qxgdT">
+                          <img src="assets/frontend/images/page2.png" alt="">
+                        </div>
+                        <ul class="wmanMenu clearfix">
+                        </ul>
+                         <div class="anCase">
+                          <div class="active">
+                            <ul class="wmal">
+                           <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/s1.jpg" alt="">
+                                </a>
+                           </li>
+                           <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/s2.jpg" alt="">
+                                </a>
+                           </li>
+                           <li class="mr0">
+                                <a class="normal">
+                                  <img src="assets/frontend/images/s3.jpg" alt="">
+                                </a>
+                           </li>
+                          <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/s4.jpg" alt="">
+                                </a>
+                           </li>
+                            <li>
+                                <a class="normal">
+                                  <img src="assets/frontend/images/s5.jpg" alt="">
+                                </a>
+                           </li>
+                           <li class="mr0">
+                                <a class="normal">
+                                  <img src="assets/frontend/images/s6.jpg" alt="">
+                                </a>
+                           </li>
+                       </ul>
+                          </div>
+                          <div></div>
+                          <div></div>
+                          <div> </div>
+                         </div>
+                    </div>
+                </div></div>
+                <div class="section section4 hide fp-section fp-table" style="display: none; height: 768px; background-color: transparent;"><div class="fp-tableCell" style="height:768px;">
+                    <div class="qxgd overflow">
+                        <div class="qxgdT">
+                         <img src="assets/frontend/images/page3.png" alt="">
+                        </div>
+                         <div class="qxxw clearfix">
+                          <div class="leftInfor">
+                            <div class="clearfix">
+                              <div class="lInfor">
+                               <p class="title">
+                                 
+                               </p>
+                               <div></div>
+                            </div>
+                            <div class="rDate">
+                               <p class="title"></p>
+                               <p></p>
+                            </div>
+                            </div>
+                              <div class="clearfix">
+                              <div class="lInfor">
+                              <p class="title">
+                                 
+                               </p>
+                               <div>
+                                  
+                               </div>
+                            </div>
+                            <div class="rDate">
+                               <p class="title"></p>
+                               <p></p>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="xian">
+                            <img src="assets/frontend/images/xian.png" alt="">
+                          </div>
+                          <div class="rightInfor">
+
+                              <div class="clearfix">
+                              <div class="lInfor">
+                              <p class="title">
+                                  
+                              </p>
+                              <div>
+                                
+                              </div>
+                            </div>
+                            <div class="rDate">
+                               <p class="title"></p>
+                               <p></p>
+                            </div>
+                            </div>
+                              <div class="clearfix">
+                              <div class="lInfor">
+                              <p class="title">
+                                 
+                              </p>
+                                <div>
+                                   
+                                </div>
+                            </div>
+                            <div class="rDate">
+                               <p class="title"></p>
+                               <p></p>
+                            </div>
+                            </div>
+                            <div class="clearfix">
+                              <div class="lInfor">
+                              <p class="title">
+              
+                              </p>
+                               <div>
+                                  
+                               </div>
+                            </div>
+                            <div class="rDate">
+                               <p class="title"></p>
+                               <p></p>
+                            </div>
+                            </div>
+                          </div>                          
+                         </div>
+                         <button class="lookMore"></button>
+                    </div>
+                </div></div>
+                <div class="section section5 fp-section fp-table" style="height: 768px; background-color: transparent;"><div class="fp-tableCell" style="height:768px;">
+                  <div class="qxgd h600">
+                    <div class="qxgdT">
+                      <img src="assets/frontend/images/page4.png" alt="">
+                    </div>
+                    <div class="gywm">
+                      <ul class="gywmMenu clearfix">
+                        <li>
+                          <div class="wmHead">
+                            <div>
+                                <img src="assets/frontend/images/icon1.png" alt="">//
+                            </div>
+                          </div>
+                          <div class="wmCon">
+                            <p class="title">公司简介</p>
+                            <p>
+                                公司成立于2014年，以“诚信经营、精湛技术、用心服务”为核心价值，志在通过我们的专业一流和不懈努力为各大活动公司提供数字化服务。
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="wmHead">
+                            <div>
+                                <img src="assets/frontend/images/icon2.png" alt="">
+                            </div>
+                          </div>
+                          <div class="wmCon">
+                            <p class="title">团队介绍</p>
+                            <p>
+                                壹亿团队是由一群有梦想、有创意的、懂科技的精英人 才汇聚而成。我们用专业的技术、最大的努力以及一流的服务为所有客户提供最优质的用户体验。
+                            </p>
+                          </div>
+                        </li>
+                        <li class="mr0">
+                          <div class="wmHead">
+                            <div>
+                                <img src="assets/frontend/images/icon3.png" alt="">
+                            </div>
+                          </div>
+                          <div class="wmCon">
+                            <p class="title">加入壹亿</p>
+                            <p>
+                                (1)项目运营实习生 岗位职责： <br>办理观众证件，负责观众填写信息审核，负责扫描进出口人流，负责控制人流，引导。
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div></div>
+                <div class="section section6 fp-section fp-table" style="height: 768px; background-color: transparent;"><div class="fp-tableCell" style="height:768px;">
+                  <div class="qxgd h500">
+                      <div class="qxgdT">
+                        <img src="assets/frontend/images/page5.png" alt="">
+                      </div>
+                      <div class="lxwm">
+                        <p class="title">创新引领未来</p>
+                        <ul class="lxwmMenu clearfix">
+                          <li>
+                            <div>
+                              <img src="assets/frontend/images/link1.png" alt=""> 
+                            </div>
+                            0592-5067159 
+                          </li>
+                         <li>
+                            <div>
+                              <img src="assets/frontend/images/link2.png" alt=""> 
+                            </div>
+                            18060999119 
+                        </li>
+                         <li>
+                            <div>
+                              <img src="assets/frontend/images/link3.png" alt=""> 
+                            </div>
+                            41050586@qq.com 
+                          </li>
+                           <li class="mr0">
+                            <div>
+                              <img src="assets/frontend/images/link4.png" alt=""> 
+                            </div>
+                            中国·厦门市思明区将军祠28号群鸿文创城16栋502
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+                  
+                     </div></div>
+                  </div>
+                </div>
+            </div>
+        
+    
+    <script src="assets/global/plugins/jquery.min.js"></script>
+    <script src="assets/frontend/plugins/fullUDSlider/js/jquery.fullPage.min.js"></script>
+    <script src="assets/frontend/plugins/fullUDSlider/js/jquery.easing.min.js"></script>
+    <script src="assets/frontend/js/resumeAnimate.js"></script>
+    <script src="assets/frontend/plugins/slider/js/poposlides.js"></script> 
+    <script>
+      (function($){
+        $(".slides").poposlides();
+      })(jQuery)
+    </script>
+    <script src="assets/frontend/js/gloabl.js"></script>
+
+
+<div id="fp-nav" class="right" style="color: rgb(0, 0, 0); margin-top: -63.5px;"><ul><li><a href="#" class="active"><span></span></a></li><li><a href="#"><span></span></a></li><li><a href="#"><span></span></a></li><li><a href="#"><span></span></a></li><li><a href="#"><span></span></a></li><li><a href="#"><span></span></a></li></ul></div></body></html>

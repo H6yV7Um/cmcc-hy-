@@ -1,0 +1,103 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>中国移动应用商场</title><link href="http://i1.mm-img.mmarket.com/mm2.11/css/base.css" rel="stylesheet" type="text/css"><link href="http://i1.mm-img.mmarket.com/mm2.11/css/index.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="http://i1.mm-img.mmarket.com/mm2.11/js/jquery-1.9.1.min.js"></script><script type="text/javascript" src="http://i1.mm-img.mmarket.com/mm2.11/js/index.js"></script></head><body><div class="outer"><div class="transhow" style="height: 768px;"><div class="mainer" style="height: 768px;"><div class="list" data-url="" style="background-image: url(http://i1.mm-img.mmarket.com/uploadpath/catimagepath/a2fcdf2613d64c7aa6ed8964194f9833.jpg); height: 768px; width: 1024px; background-position: 50% 0%; background-repeat: no-repeat repeat;"><div class="temper" style="height: 768px;"><img src="http://i1.mm-img.mmarket.com/uploadpath/catimagepath/d12d4de6f1514c30ab9c79ea98324491.png" class="innerPic" style="height: 537.5999999999999px; width: auto; top: 115px;"></div></div><div class="list" data-url="" style="background-image: url(http://i1.mm-img.mmarket.com/uploadpath/catimagepath/8f7b05998c3541319af29fc6b92f7785.jpg); height: 768px; width: 1024px; background-position: 50% 0%; background-repeat: no-repeat repeat;"><div class="temper" style="height: 768px;"><img src="http://i1.mm-img.mmarket.com/uploadpath/catimagepath/f5431845c33743a6ac6baa1444967158.png" class="innerPic" style="height: 537.5999999999999px; width: auto; top: 115px;"></div></div></div><div class="slider"></div><div class="adv_nav_access"><div class="nav_access_clmp"><a target="_blank" href="http://www.10086.cn/" class="zgyd"></a><a target="_blank" href="http://mm.10086.cn/" class="market"></a><div class="the_route_way"><a href="/" class="son_itemize on index">首页
+                        <i></i></a><a href="/store" class="son_itemize store">应用商店
+                        <i></i></a><a href="http://dev.10086.cn/" class="son_itemize dev">开发者社区
+                        <i></i></a></div><div class="ferret_frame"><div class="putin_key"><input type="text" placeholder="请输入关键字" name="" value="" id="key_search"></div><a href="javascript:;" class="ferrrt_smicon"></a></div></div></div><div id="com_footer_set"><a href="http://mm.10086.cn/help/copyright" target="_blank"><span>版权声明 |</span></a><a href="http://mm.10086.cn/onlineservice" target="_blank"><span>在线客服 |</span></a><a href="http://www.10086.cn/aboutus/" target="_blank"><span>关于移动 |</span></a><a href="http://mm.10086.cn/help" target="_blank"><span>帮助中心 |</span></a><a href="http://www.miibeian.gov.cn/" target="_blank"><span>粤ICP备08034647号 |</span></a><a href="http://cmic.chinamobile.com/" target="_blank"><span>中移互联网有限公司 |</span></a><a href="http://net.china.com.cn/index.htm" target="_blank"><span>暴恐音视频举报</span></a></div></div></div><div id="scancode"><div class="titsc">MM商城 6得出彩</div><div class="erweima"></div><a href="http://mm.10086.cn/download/android/300000863435?from=www" class="mobilevs">手机版
+        <span class="current_gift">送流量</span><span class="notic_receive_cur">去哪！进来抽流量！你不领谁领！</span></a><a href="/store" class="webvs">网页版</a></div><script>    $(document).ready(function () {
+        $(".list").bind('click', function () {
+            var redirectUrl = $(this).attr("data-url");
+            var re = "/https?:.*"
+            if (redirectUrl) {
+                window.open(redirectUrl);
+            }
+        })
+
+        $(".ferrrt_smicon").bind("click", function () {
+            var keyword = $("#key_search").val()
+            console.log(keyword)
+            if (keyword) {
+                window.open("http://mm.10086.cn/searchapp?st=0&q=" + keyword);
+            }
+        })
+    })
+</script><script type="text/javascript">    var _udataProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _udataProtocol +
+        "da.mmarket.com/udata/udata.js%3faid%3d300009974188' type='text/javascript'%3E%3C/script%3E"));
+
+    function _geturllastpar(url, index) {
+        if (!url) return false;
+        if (index) {
+            return url.match(/fw=\d+\.(\d+)/)[1] || 0;
+        } else {
+            return url.split('/').pop().split('?').shift();
+        }
+    }
+
+    $(function () {
+        /*
+        * 导航栏开始
+        * ----------------------------------------------------------------------
+        * */
+        $('.adv_nav_access .nav_access_clmp .zgyd').click(function () {
+            var href = _geturllastpar($(this)[0].href);
+            _udata.push(['sendEvent', 'mobile_' + href, 'index_' + href + '_links']);
+        });
+        $('.adv_nav_access .nav_access_clmp .market').click(function () {
+            var href = _geturllastpar($(this)[0].href);
+            _udata.push(['sendEvent', 'market_' + href, 'index_' + href + '_links']);
+        });
+        $('.adv_nav_access .nav_access_clmp .the_route_way .son_itemize.index').click(function () {
+            _udata.push(['sendEvent', "index", 'index']);
+        });
+        $('.adv_nav_access .nav_access_clmp .the_route_way .son_itemize.store').click(function () {
+            _udata.push(['sendEvent', "market", 'index']);
+        });
+        $('.adv_nav_access .nav_access_clmp .the_route_way .son_itemize.dev').click(function () {
+            _udata.push(['sendEvent', "dev", 'index']);
+        });
+        $('.mobilevs').click(function () {
+            _udata.push(['sendEvent', "web", 'index']);
+        });
+        $('.webvs').click(function () {
+            _udata.push(['sendEvent', "mobile", 'index']);
+        });
+        /*
+        *   导航栏结束-----------------------------------------------------
+        * */
+
+        //轮播图点击
+        $('.the_main_area .banner_list_box a').on('click', function () {
+            var index = $(this).index() + 1;
+            _udata.push(['sendEvent', 'brands_click_' + index, 'brands_' + index + '_links']);
+        });
+        //导航栏：首页、游戏、软件、装机必备、活动、专题、创业计划、小和玛的应用按钮点击量。手机版、pc版、白名单按钮点击量。
+        $('.com_headed_dot .adv_nav_access a').on('click', function () {
+            var className = $(this).attr('class');
+            _udata.push(['sendEvent', className, 'navi']);
+        });
+        //三个专题的点击量
+        $('.leftcontent .tjzt .maintopic a').on('click', function () {
+            var className = $(this).attr('class');
+            _udata.push(['sendEvent', className, 'topic']);
+        });
+        //置顶资源位点击
+        $('.tuijian .tjhe a').on('click', function () {
+            _udata.push(['sendEvent', 'ad', 'top']);
+        });
+        //排行榜点击情况
+        $('.rightside .rank_charts_area .rank_chart_list .rank_icon_step a').on('click', function () {
+            var className = $(this).attr('class');  //链接和下载点击
+            _udata.push(['sendEvent', className, 'topic']);
+        });
+
+        //中国移动和装机必备
+        $('.leftcontent .zq_common_btn .zq_app_display .app_des_icon a').on('click', function () {
+            var className = $(this).attr('class');  //链接和下载点击
+            _udata.push(['sendEvent', className, 'mobile']);
+        });
+        //排行榜
+        $('.com_area_recommend .re_sw_colloction .re_software_push a').on('click', function () {
+            var className = $(this).attr('class');  //链接和下载点击
+            _udata.push(['sendEvent', className, 'subtopic']);
+        });
+    });
+</script><script src=" http://da.mmarket.com/udata/udata.js?aid=300009974188" type="text/javascript"></script></body></html>

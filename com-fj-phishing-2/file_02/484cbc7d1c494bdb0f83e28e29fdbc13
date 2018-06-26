@@ -1,0 +1,1461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>天津移动商城</title>
+    <link rel="shortcut icon" type="images/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="index/css/css.css">
+    <link rel="stylesheet" type="text/css" href="index/css/index.css">
+<link type="text/css" rel="stylesheet" href="http://tj.10086.cn/mall/plugin/layer/skin/layer.css" id="skinlayercss"></head>
+
+<body>
+    <!-- 头部 -->    
+    <div class="topmune">
+        <div class="topright w1200"><a class="carmine" href="javascript:login();">登录</a>
+            <span>|</span>
+            <a class="shopgc" href="app?service=page/base.PersonalCenter&amp;listener=initPage">我的商城</a>
+            <span>|</span>
+            <a title="收藏网上商城" onclick="javascript:addfavor('http://tj.10086.cn/mall/','收藏移动商城');" href="javascript:void(0)">收藏移动商城</a>
+            <span>|</span>
+            <a href="http://www.10086.cn/cmccclient">手机营业厅</a>
+			<span>|</span>
+			<a href="javascript:void(0)" onclick="mobilesc()">触屏版</a>
+            <span>|</span>
+            <a href="http://jf.10086.cn">积分商城</a>
+        </div>
+    </div>
+    <div class="topbar">
+        <!-- LOGO -->    
+        <div class="fl logo">
+            <a href="/mall/index.html" target="_blank">
+                <img border="0" src="index/img/logo.gif"></a>
+        </div>
+        <!-- 链接 -->    
+        <!-- 搜索 -->    
+        <div class="fr">
+            <label class="searchbar mt15">
+                <form id="frm_search_id" onsubmit="return chk_frm_search();" target="_blank" method="get" action="" name="frm_search">
+                    <input value="OPPO R9s yidongdingzhiban（R9st）quanwangtong=OPPO R9s 移动定制版（R9st）全网通,OPPO R9s yddzb（R9st）qwt=OPPO R9s 移动定制版（R9st）全网通,OPPO R9s 移动定制版（R9st）全网通=OPPO R9s 移动定制版（R9st）全网通,meilan3S Y685Q16G=魅蓝3S Y685Q16G,ml3S Y685Q16G=魅蓝3S Y685Q16G,魅蓝3S Y685Q16G=魅蓝3S Y685Q16G,meilan U20=魅蓝 U20,ml U20=魅蓝 U20,魅蓝 U20=魅蓝 U20,meilan3S Y685Q16G=魅蓝3S Y685Q16G,ml3S Y685Q16G=魅蓝3S Y685Q16G,魅蓝3S Y685Q16G=魅蓝3S Y685Q16G,huaweiBLN-TL10rongyaochangwan6X 3+32G(LTE)=华为BLN-TL10荣耀畅玩6X 3+32G(LTE),hwBLN-TL10rycw6X 3+32G(LTE)=华为BLN-TL10荣耀畅玩6X 3+32G(LTE),华为BLN-TL10荣耀畅玩6X 3+32G(LTE)=华为BLN-TL10荣耀畅玩6X 3+32G(LTE),PRA-TL10Xrongyao8qingchunban 4+64G(LTE)=PRA-TL10X荣耀8青春版 4+64G(LTE),PRA-TL10Xry8qcb 4+64G(LTE)=PRA-TL10X荣耀8青春版 4+64G(LTE),PRA-TL10X荣耀8青春版 4+64G(LTE)=PRA-TL10X荣耀8青春版 4+64G(LTE),WAS-TL10 novaqingchunban(LTE)=WAS-TL10 nova青春版(LTE),WAS-TL10 novaqcb(LTE)=WAS-TL10 nova青春版(LTE),WAS-TL10 nova青春版(LTE)=WAS-TL10 nova青春版(LTE),DUK-TL30rongyaoV9 6+64G(LTE)=DUK-TL30荣耀V9 6+64G(LTE),DUK-TL30ryV9 6+64G(LTE)=DUK-TL30荣耀V9 6+64G(LTE),DUK-TL30荣耀V9 6+64G(LTE)=DUK-TL30荣耀V9 6+64G(LTE),meilan3S Y685Q32G=魅蓝3S Y685Q32G,ml3S Y685Q32G=魅蓝3S Y685Q32G,魅蓝3S Y685Q32G=魅蓝3S Y685Q32G,OPPO A37t jinse=OPPO A37t 金色,OPPO A37t js=OPPO A37t 金色,OPPO A37t 金色=OPPO A37t 金色,OPPO A37t meiguijin=OPPO A37t 玫瑰金,OPPO A37t mgj=OPPO A37t 玫瑰金,OPPO A37t 玫瑰金=OPPO A37t 玫瑰金,mobaihe（jidiban）=魔百和（基地版）,mbh（jdb）=魔百和（基地版）,魔百和（基地版）=魔百和（基地版）,R11t=R11t,R11t=R11t,huaweirongyao9 STF-TL10 6+64G（LTE)=华为荣耀9 STF-TL10 6+64G（LTE),hwry9 STF-TL10 6+64G（LTE)=华为荣耀9 STF-TL10 6+64G（LTE),华为荣耀9 STF-TL10 6+64G（LTE)=华为荣耀9 STF-TL10 6+64G（LTE),OPPO R9s Plust(LTE)=OPPO R9s Plust(LTE),meilan3S Y685Q32G=魅蓝3S Y685Q32G,ml3S Y685Q32G=魅蓝3S Y685Q32G,魅蓝3S Y685Q32G=魅蓝3S Y685Q32G,huaweichangxiang6S=华为畅享6S,hwcx6S=华为畅享6S,华为畅享6S=华为畅享6S,OPPO R9s Plust(LTE)=OPPO R9s Plust(LTE),OPPO R9s Plust(LTE)=OPPO R9s Plust(LTE),OPPO R11 Pluskt=OPPO R11 Pluskt,OPPO R11 Pluskt=OPPO R11 Pluskt,OPPO R11 Pluskt=OPPO R11 Pluskt,meilan5S 16G(LTE)=魅蓝5S 16G(LTE),ml5S 16G(LTE)=魅蓝5S 16G(LTE),魅蓝5S 16G(LTE)=魅蓝5S 16G(LTE),meilan5S 16G(LTE)=魅蓝5S 16G(LTE),ml5S 16G(LTE)=魅蓝5S 16G(LTE),魅蓝5S 16G(LTE)=魅蓝5S 16G(LTE),meilan5S 32G(LTE)=魅蓝5S 32G(LTE),ml5S 32G(LTE)=魅蓝5S 32G(LTE),魅蓝5S 32G(LTE)=魅蓝5S 32G(LTE),hemuC13zhinengjiankongshexiangtou=和目C13智能监控摄像头,hmC13znjksxt=和目C13智能监控摄像头,和目C13智能监控摄像头=和目C13智能监控摄像头,huaweirongyaochangwan6A 2+16G(LTE)=华为荣耀畅玩6A 2+16G(LTE),hwrycw6A 2+16G(LTE)=华为荣耀畅玩6A 2+16G(LTE),华为荣耀畅玩6A 2+16G(LTE)=华为荣耀畅玩6A 2+16G(LTE),BLN-TL10rongyaochangwan6X 3+32G(LTE)=BLN-TL10荣耀畅玩6X 3+32G(LTE),BLN-TL10rycw6X 3+32G(LTE)=BLN-TL10荣耀畅玩6X 3+32G(LTE),BLN-TL10荣耀畅玩6X 3+32G(LTE)=BLN-TL10荣耀畅玩6X 3+32G(LTE),heping ViMo1=和屏 ViMo1,hp ViMo1=和屏 ViMo1,和屏 ViMo1=和屏 ViMo1,OPPO A57t=OPPO A57t" id="autocomplete1" type="hidden" name="autocomplete1">                    
+						<div class="headinputbox">
+								  <div style="height: 38px" onkeydown="keyUp()">
+						<input id="skeywords" title="关键字必须至少有两个汉字或英文字母" maxlength="20" onblur="closeDiv(this , 'iPhone 6s')" name="qt" value="iPhone 6s" class="input" onkeyup="changeValue()" onfocus="showDiv(this , 'iPhone 6s')" type="text" autocomplete="off" disableautocomplete="">
+						<input id="keyword" maxlength="20" style="display:none" name="qt" value="iPhone 6s" onclick="getTips('skeywords', 'keyNoopTips', 'autocomplete1');" class="input" autocomplete="off" disableautocomplete=""> </div>
+								  <div id="keyNoopTips" style="display: none;"></div>
+								  <input type="hidden" id="frm_database" name="database" value="">
+								</div>
+                    <input id="searchbtn" class="bt" onclick="search()" value="搜索">                
+                </form>
+            </label>
+            <a class="fl head_codwrap rel" href="javascript:void(0);">
+                <img src="index/img/img_headCode.png">
+                <img class="head_hideCode" src="index/img/img_headCode_big.png">
+            </a>
+            <div class="head_hotSearch">
+                <label class="f_gray3">热门搜索：</label>
+                <a onclick="searchKey(this)" target="_blank" value="iPhone 6s">
+                    iPhone 6s
+                </a>
+                 <a onclick="searchKey(this)" target="_blank" value="小米">
+                    小米
+                </a>
+                 <a onclick="searchKey(this)" target="_blank" value="中国移动">
+                    中国移动
+                </a>
+                 <a onclick="searchKey(this)" target="_blank" value="oppo">
+                    oppo
+                </a>
+                 <a onclick="searchKey(this)" target="_blank" value="华为">
+                    华为
+                </a>
+                 <a onclick="searchKey(this)" target="_blank" value="三星">
+                    三星
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 商城导航 -->
+    <div class="navBg">
+        <div class="w1200 clearfix rel">
+            <div class="business_hall_sidebar">
+                <div class="nav">
+                    <h3>
+                        <a href="/mall/">全部商品分类</a>
+                    </h3>
+                </div>
+                <div class="sh_menu" id="sh_menu">
+                    <ul class="sh_mainmenu">
+                        <!-- 菜单 -->                    
+                        <!--<li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="1" class="sh_mainmenu_li">
+                                <a target="_blank" href=/mall/app?service=page/base.GraduatedMarket&listener=initPage>毕业季来袭</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>-->
+                        <li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="2" class="sh_mainmenu_li">
+                                <a target="_blank" href="/mall/list.html?filter_category=110047">移动合约机</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>
+                        <li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="3" class="sh_mainmenu_li">
+                                <a target="_blank" href="/mall/list.html?filter_category=100377">裸机直供</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>
+                        <!--<li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="4" class="sh_mainmenu_li">
+                                <a target="_blank" href=/mall/list.html?filter_category=100378>京东特惠</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>-->
+                        <li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="5" class="sh_mainmenu_li">
+                                <a target="_blank" href="/mall/app?service=page/base.OrderBackUpCard&amp;listener=initPage">4G预约换卡</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>
+                        <li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="6" class="sh_mainmenu_li">
+                                <a target="_blank" href="/mall/list.html?filter_category=110128">IPhone 6S</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>
+                        <li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="7" class="sh_mainmenu_li">
+                                <a target="_blank" href="/mall/list.html?filter_category=110383">合作专区</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>
+                        <li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="6" class="sh_mainmenu_li">
+                                <a target="_blank" href="http://www.tj.10086.cn/app2.0/?WT.mc_id=mall">客户端下载</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>
+                        <li class="sh_mainmenu_nav" href="javascript:void(0);">
+                            <div lang="7" class="sh_mainmenu_li" style="border-bottom-style: none;">
+                                <a target="_blank" href="http://tj.10086.cn/mall/activity/20160412PC/SecondMarketing.html">终端大促</a>
+                                <label class="trip_r1"></label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 顶导航 -->    
+            <div class="indexnav">
+                <ul class="clearfix">
+                    <li name="addNavMenu on" id="2015020200104636">
+                        <a href="/mall/index.html" target="_blank">首页</a>
+                    </li>
+                    <li name="addNavMenu" id="2015020200104637">
+                        <a href="/mall/list.html" target="_blank">选机中心</a>
+                    </li>
+                    <li name="addNavMenu" id="2015020200104638">
+                        <a href="http://tj.10086.cn/mall/app?service=page/base.ChooseNumCard&amp;listener=initPage" target="_blank">选号入网</a>
+                    </li>
+                    <li name="addNavMenu" id="2015020200104639">
+                        <a href="http://shop.10086.cn/i/?f=rechargecredit" target="_blank">充值特惠</a>
+                    </li>
+					<li name="addNavMenu" id="2015020200104639">
+						<a href="http://service.tj.10086.cn/ics/zone/bandHome.html" target="_blank">和宽带预约</a>
+					</li>
+                    <li name="addNavMenu" id="2015020200104640">
+                        <a href="http://service.tj.10086.cn/ics/index.html" target="_blank">网上营业厅</a>
+                    </li>
+                </ul>
+            </div>
+            <!--<a class="idx_nav_advTip" href="http://tj.10086.cn/mall/Activity.html" target="_blank"><img src="index/img/idx_nav_advTip.png" width="192" height="34" /></a>-->
+        </div>
+    </div>
+    <form class="form-horizontal" method="post" action="app?service=page/Login&amp;listener=initPage" id="loginForm">
+        <input type="text" value="" id="loginParam" name="loginParam" style="display:none">
+    </form>
+
+    <!-- 内容 -->
+        <!-- 顶部模块 -->
+    <div class="topBlock">
+        <!--banner切换广告-->
+        <div class="menu_pannel dis">
+		
+                <div class="pannel_slider_content">
+                		
+                	<!--<div class="pannel_slider_list dis" style="opacity:1;z-index:1;background: rgb(47, 202, 222);">
+                        <div class="banner_container banner_init">
+                            <a href="http://tj.10086.cn/mall/activity/20170106PC/index.html" target="_blank">
+                                <img class="banner_img" src="images/2017_pc.jpg" width="990"  height="390"/>
+                            </a>
+                        </div>
+                    </div>-->
+										
+                    <!--<div class="pannel_slider_list dis" style="opacity:1;z-index:1;background: rgb(47, 202, 222);">
+                        <div class="banner_container banner_init">
+                            <a href="http://service.tj.10086.cn/ics/promotion/KKCJ.html"  target="_blank">
+                                <img class="banner_img" src="images/shopcard.jpg" width="990"  height="390"/>
+								
+                            </a>
+                        </div>
+                    </div>-->
+                    <div class="pannel_slider_list" style="opacity:0;z-index:0;background: rgb(238, 137, 45);">
+                        <div class="banner_container banner_init banner_exposure">
+                            <a href="http://tj.10086.cn/mall/clairvoyance.html" target="_blank">
+                                <img class="banner_img" src="images/clairvoyance.jpg" width="990" height="390">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="pannel_slider_list dis" style="opacity:1;z-index:1;background: rgb(47, 202, 222);">
+                        <div class="banner_container banner_init">
+                            <a href="http://tj.10086.cn/mall/cloudmirror.html" target="_blank">
+                                <img class="banner_img" src="images/cloudmirror.jpg" width="990" height="390">
+								
+                            </a>
+                        </div>
+                    </div>
+					
+					<!--<div class="pannel_slider_list" style="opacity:0;z-index:0;background: rgb(238, 137, 45);">
+                        <div class="banner_container banner_init">
+                            <a href="http://shop.10086.cn/hd/winter?WT.mc_id=1711_DJYXPC220" target="_blank">
+                                <img class="banner_img" src="images/yearEnd.jpg" width="990"  height="390"/>
+                            </a>
+                        </div>
+                    </div>
+					<div class="pannel_slider_list" style="opacity:0;z-index:0;background: rgb(238, 137, 45);">
+                        <div class="banner_container banner_init">
+                            <a href="http://211.103.90.103:8088/apptr02/H5/contractPhone/index.html" target="_blank">
+                                <img class="banner_img" src="images/double11.jpg" width="990"  height="390"/>
+                            </a>
+                        </div>
+                    </div>-->
+					<!--<div class="pannel_slider_list" style="opacity:0;z-index:0;background: rgb(238, 137, 45);">
+                        <div class="banner_container banner_init">
+                            <a href="http://www.tj.10086.cn/app2.0/?WT.mc_id=wap" target="_blank">
+                                <img class="banner_img" src="images/Mallbanner.png" width="990"  height="390"/>
+                            </a>
+                        </div>
+                    </div>-->
+					
+                </div>
+                <ul class="panner_silder_nav">
+                    <li class="on" id="slider1"></li>
+                    <li id="slider2"></li>
+							
+					
+					
+                </ul>
+        <!--//banner切换广告-->
+        </div>
+    </div>
+    <div class="w1200 clearfix">
+        <!--限时抢购-->
+        <div class="clearfix">
+            <div class="limittime fl" id="comp_xsqg">
+			<div class="titline1 rel">
+			</div>
+                <div class="titline rel">
+                    <img class="limittime_tit" src="index/img/bac_blocktit.png" width="173" height="44">
+                    <a class="limittime_morebtn" target="_blank" href="http://tj.10086.cn/mall/list.html"></a>
+                </div>
+                <div class="con clearfix">
+                    <ul class="pro-list clearfix" id="limitbuy">                      
+                               
+                                 <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111444.html" onclick="golimitbuy(this);">
+                                        <img src="upload/201710/2017103111010282_lit.jpg" title="红米5A">
+                                    </a>
+                                      <i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111444.html" target="_blank" onclick="golimitbuy(this);">
+                                        <p class="promo f_14 over_elip" title="红米5A">
+                                            红米5A
+                                        </p>
+                                        <p class="promo roseo over_elip" title="高通骁龙425四核A53、3000mAh大容量8天超长待机">
+                                            高通骁龙425四核A53、3000mAh大容量8天超长待机
+                                        </p>
+                                    </a>    
+                                    
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        599.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>599.00</em>
+                                    </span>
+                                </div>
+                                    
+                            </li>  
+							<li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111487.html" onclick="golimitbuy(this);">
+                                        <img src="upload/201711/2017112311010882_lit.jpg" title="荣耀畅玩6 2+16G">
+                                    </a>
+                                      <i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111487.html" target="_blank" onclick="golimitbuy(this);">
+                                        <p class="promo f_14 over_elip" title="荣耀畅玩6 2+16G">
+                                            荣耀畅玩6 2+16G
+                                        </p>
+                                        <p class="promo roseo over_elip" title="前置柔光灯，美得很自然">
+                                            前置柔光灯，美得很自然
+                                        </p>
+                                    </a>    
+                                    
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        699.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>699.00</em>
+                                    </span>
+                                </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+							<li class="noborder rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111489.html" onclick="golimitbuy(this);">
+                                        <img src="upload/201712/2017120111011082_lit.jpg" title="荣耀V9 PLAY">
+                                    </a>
+                                      <i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111489.html" target="_blank" onclick="golimitbuy(this);">
+                                        <p class="promo f_14 over_elip" title="荣耀V9 PLAY">
+                                            荣耀V9 PLAY
+                                        </p>
+                                        <p class="promo roseo over_elip" title="一种颜色 双重质感">
+                                            一种颜色 双重质感
+                                        </p>
+                                    </a>    
+                                    
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        1399.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>1399.00</em>
+                                    </span>
+                                </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+                    </ul>
+                </div>
+                <a href="/mall/product/111451.html" target="_blank" name="addPic" id="100378_2426_foot"><img src="index/img/iphone8.jpg" width="890" height="150" alt=""></a>
+            </div>
+            <div class="idx_floor1_right fl">
+                <div class="salenews">
+                    <div id="saletit" class="saletit f_16 tit">
+                        <span class="roseo pr_5">HOT</span>
+                        热销手机排行
+                    </div>
+                    <div id="salecon" class="salecon con">
+                        <ul class="tab-main salelist" id="weektop">
+                            
+                            <li class="list-item">
+                                <a class="img" target="_blank" href="product/111141.html" title="荣耀8青春版 4+64G(LTE)">
+                                    <img src="upload/201610/2016101411006452_lit.jpg">
+                                </a>
+                                <div class="list_iteminfo clearfix">
+                                    <a href="product/111141.html" target="_blank" title="荣耀8青春版 4+64G(LTE)">
+                                        <div class="fl phone_info over_elip">
+                                            <b class="fl sort_num"><img src="index/img/liocon_02.png" style="margin-top:12px"></b>
+                                            <span class="fl phone_name">荣耀8青春版 4+64G(LTE)</span>
+                                        </div>
+                                        <span class="fr phone_price over_elip">
+                                            ¥ <i>1700</i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <a class="img" target="_blank" href="product/111269.html" title="OPPO A57t">
+                                    <img src="upload/201708/2017080411009102_lit.jpg">
+                                </a>
+                                <div class="list_iteminfo clearfix">
+                                    <a href="product/111269.html" target="_blank" title="OPPO A57t">
+                                        <div class="fl phone_info over_elip">
+                                            <b class="fl sort_num">
+												<img src="index/img/liocon_05.png" style="margin-top:12px">
+											</b>
+                                            <span class="fl phone_name">OPPO A57t</span>
+                                        </div>
+                                        <span class="fr phone_price over_elip">
+                                            ¥ <i>1399</i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <a class="img" target="_blank" href="product/110923.html" title="OPPO R9s 移动定制版（R9st）全网通">
+                                    <img src="upload/201611/2016112911006640_lit.jpg">
+                                </a>
+                                <div class="list_iteminfo clearfix">
+                                    <a href="product/111273.html" target="_blank" title="OPPO R9s Plust(LTE)">
+                                        <div class="fl phone_info over_elip">
+                                            <b class="fl sort_num">
+												<img src="index/img/liocon_07.png" style="margin-top:12px">
+													
+												
+											</b>
+										
+                                            <span class="fl phone_name">OPPO R9s 移动定制版（R9st）全网通</span>
+                                        </div>
+                                        <span class="fr phone_price over_elip">
+                                            ¥ <i>2399</i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="list-item selected">
+                                <a class="img" target="_blank" href="product/111273.html" title="OPPO R9s Plust(LTE)">
+                                    <img src="upload/201708/2017080411009086_lit.jpg">
+                                </a>
+                                <div class="list_iteminfo clearfix">
+                                    <a href="product/111273.html" target="_blank" title="OPPO R9s Plust(LTE)">
+                                        <div class="fl phone_info over_elip">
+                                            <b class="fl sort_num"><img src="index/img/liocon_09.png" style="margin-top:12px"></b>
+                                            <span class="fl phone_name">OPPO R9s Plust(LTE)</span>
+                                        </div>
+                                        <span class="fr phone_price over_elip">
+                                            ¥ <i>3498</i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                           
+                            <li class="list-item selected">
+                                <a class="img" target="_blank" href="product/111369.html" title="三星S8">
+                                    <img src="upload/201709/2017092911009898_lit.jpg">
+                                </a>
+                                <div class="list_iteminfo clearfix">
+                                    <a href="product/111369.html" target="_blank" title="三星S8">
+                                        <div class="fl phone_info over_elip">
+                                            <b class="fl sort_num"><img src="index/img/liocon_09.png" style="margin-top:12px"></b>
+                                            <span class="fl phone_name">三星S8</span>
+                                        </div>
+                                        <span class="fr phone_price over_elip">
+                                            ¥ <i>5500</i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab_news">
+                    <h3 class="tit">公告</h3>
+                    <ul class="tab_newslist">					
+                        <li>
+                                    <a class="roseo" href="app?service=page/base.BulletinDetail&amp;listener=showNoticeDetail&amp;type=0&amp;BULLETIN_ID=11202998" target="_blank">关于天津移动网上商城更换电子发票的通告</a>
+                                    <br>
+                                </li>    
+						<!--<li>
+                                    <a class="roseo" href="app?service=page/base.BulletinDetail&listener=showNoticeDetail&type=0&BULLETIN_ID=3646" target="_blank">系统优化升级通告</a>
+                                    <br>
+                                </li> -->
+						<li>
+                                    <a class="roseo" href="app?service=page/base.BulletinDetail&amp;listener=showNoticeDetail&amp;type=0&amp;BULLETIN_ID=11248627" target="_blank">关于变更纳税人识别号发票系统升级公告</a>
+                                    <br>
+                                </li> 		
+                    </ul>  
+                </div>
+            </div>
+        </div>
+        <!--div class="contli conli_floor1" id="comp_rmsp"-->
+		<!--<div class="contli conli_floor1">
+			<div class="tit">
+				<div class="contli_titL clearfix"><span class="louceng_2">1F/</span> iPhone 6s</div>
+				<a class="more" onclick="goList(110128)" target="_blank">全部机型 ></a>
+			</div>
+			<div class="con clearfix">
+					<div class="lfad" name="addPic" id="100378_2424_top">
+						<a target="_blank" href="/mall/product/110118.html" >
+							<img src="index/img/20150923153537.jpg">
+						</a>
+					</div>
+				<div class="contli-product">
+					 <ul class="pro-list clearfix">
+						<li class="pro_list_adv">
+							<a target="_blank" href="/mall/product/110103.html " >
+								<img src="index/img/img_flooradv_1.jpg"/>
+							</a>
+						</li>
+						<li class="rel">
+							<div class="imgBox">
+								<a target="_blank" href="product/110102.html" onclick="goOneFloor(this);">
+									<img src="upload/201509/2015092311001236_lit.jpg" title="iPhone 6s 16G版"></a>
+							</div>
+							<div class="info">
+								<a href="product/110102.html" target="_blank" onclick="goOneFloor(this);">
+									<p class="promo over_elip" title="iPhone 6s 16G版">iPhone 6s 16G版</p>
+									<p class="promo f_gray2 over_elip" title="A9芯片 3D Touch 1200W像素">A9芯片 3D Touch 1200W像素</p>
+								</a>
+							</div>
+							<div class="price">
+								市场价：
+								<span class="gray1 textline"> <i>¥</i>
+									5288.00
+								</span>
+							</div>
+							<div class="price">
+								商城价：
+								<span class="red f16"> <i>¥</i> <em>5000.00</em>
+								</span>
+							</div>
+							<div class="list_remWrap" title="赠送500元即时到账话费">
+								  <em></em>
+								  <p class="mod_goods_rem list_goodsrem">
+									赠送500元即时到账话费
+								  </p>
+							</div>							
+						</li>
+						<li class="rel">
+							<div class="imgBox">
+								<a target="_blank" href="product/110103.html" onclick="goOneFloor(this);">
+									<img src="upload/201509/2015092311001246_lit.jpg" title="iPhone 6s 64G版"></a>
+							</div>
+							<div class="info">
+								<a href="product/110103.html" target="_blank" onclick="goOneFloor(this);">
+									<p class="promo over_elip" title="iPhone 6s 64G版">iPhone 6s 64G版</p>
+									<p class="promo f_gray2 over_elip" title="A9芯片 3D Touch 1200W像素">A9芯片 3D Touch 1200W像素</p>
+								</a>
+							</div>
+							<div class="price">
+								市场价：
+								<span class="gray1 textline"> <i>¥</i>
+									6088.00
+								</span>
+							</div>
+							<div class="price">
+								商城价：
+								<span class="red f16"> <i>¥</i> <em>5775.00</em>
+								</span>
+							</div>
+							<div class="list_remWrap" title="赠送500元即时到账话费">
+								  <em></em>
+								  <p class="mod_goods_rem list_goodsrem">
+									赠送500元即时到账话费
+								  </p>
+								</div>
+						</li>
+						<li class="rel">
+							<div class="imgBox">
+								<a target="_blank" href="product/110109.html" onclick="goOneFloor(this);">
+									<img src="upload/201509/2015092311001250_lit.jpg" title="iPhone 6s 128G版"></a>
+							</div>
+							<div class="info">
+								<a href="product/110109.html" target="_blank" onclick="goOneFloor(this);">
+									<p class="promo over_elip" title="iPhone 6s 128G版">iPhone 6s 128G版</p>
+									<p class="promo f_gray2 over_elip" title="A9芯片 3D Touch 1200W像素">A9芯片 3D Touch 1200W像素</p>
+								</a>
+							</div>
+							<div class="price">
+								市场价：
+								<span class="gray1 textline"> <i>¥</i>
+									6888.00
+								</span>
+							</div>
+							<div class="price">
+								商城价：
+								<span class="red f16"> <i>¥</i> <em>6545.00</em>
+								</span>
+							</div>
+							<div class="list_remWrap" title="赠送500元即时到账话费">
+								  <em></em>
+								  <p class="mod_goods_rem list_goodsrem">
+									赠送500元即时到账话费
+								  </p>
+								</div>
+						</li>
+						<li class="rel">
+							<div class="imgBox">
+								<a target="_blank" href="product/110111.html" onclick="goOneFloor(this);">
+									<img src="upload/201509/2015092311001258_lit.jpg" title="iPhone 6s plus 16G版"></a>
+							</div>
+							<div class="info">
+								<a href="product/110111.html" target="_blank" onclick="goOneFloor(this);">
+									<p class="promo over_elip" title="iPhone 6s plus 16G版">iPhone 6s plus 16G版</p>
+									<p class="promo f_gray2 over_elip" title="A9芯片 3D Touch 1200W像素">A9芯片 3D Touch 1200W像素</p>
+								</a>
+							</div>
+							<div class="price">
+								市场价：
+								<span class="gray1 textline"> <i>¥</i>
+									6088.00
+								</span>
+							</div>
+							<div class="price">
+								商城价：
+								<span class="red f16"> <i>¥</i> <em>5775.00</em>
+								</span>
+							</div>
+							<div class="list_remWrap" title="赠送500元即时到账话费">
+								  <em></em>
+								  <p class="mod_goods_rem list_goodsrem">
+									赠送500元即时到账话费
+								  </p>
+								</div>
+						</li>
+						<li class="rel">
+							<div class="imgBox">
+								<a target="_blank" href="product/110118.html" onclick="goOneFloor(this);">
+									<img src="upload/201509/2015092311001272_lit.jpg" title="iPhone 6s plus 64G版"></a>
+							</div>
+							<div class="info">
+								<a href="product/110118.html" target="_blank" onclick="goOneFloor(this);">
+									<p class="promo over_elip" title="iPhone 6s plus 64G版">iPhone 6s plus 64G版</p>
+									<p class="promo f_gray2 over_elip" title="A9芯片 3D Touch 1200W像素">A9芯片 3D Touch 1200W像素</p>
+								</a>
+							</div>
+							<div class="price">
+								市场价：
+								<span class="gray1 textline"> <i>¥</i>
+									6888.00
+								</span>
+							</div>
+							<div class="price">
+								商城价：
+								<span class="red f16"> <i>¥</i> <em>6545.00</em>
+								</span>
+							</div>
+							<div class="list_remWrap" title="赠送500元即时到账话费">
+								  <em></em>
+								  <p class="mod_goods_rem list_goodsrem">
+									赠送500元即时到账话费
+								  </p>
+								</div>
+						</li>
+						<li class="rel">
+							<div class="imgBox">
+								<a target="_blank" href="product/110120.html" onclick="goOneFloor(this);">
+									<img src="upload/201509/2015092311001276_lit.jpg" title="iPhone 6s plus 128G版"></a>
+							</div>
+							<div class="info">
+								<a href="product/110120.html" target="_blank" onclick="goOneFloor(this);">
+									<p class="promo over_elip" title="iPhone 6s plus 128G版">iPhone 6s plus 128G版</p>
+									<p class="promo f_gray2 over_elip" title="A9芯片 3D Touch 1200W像素">A9芯片 3D Touch 1200W像素</p>
+								</a>
+							</div>
+							<div class="price">
+								市场价：
+								<span class="gray1 textline"> <i>¥</i>
+									7788.00
+								</span>
+							</div>
+							<div class="price">
+								商城价：
+								<span class="red f16"> <i>¥</i> <em>7315.00</em>
+								</span>
+							</div>
+							<div class="list_remWrap" title="赠送500元即时到账话费">
+								  <em></em>
+								  <p class="mod_goods_rem list_goodsrem">
+									赠送500元即时到账话费
+								  </p>
+								</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</div>-->
+		<!--div class="contli conli_floor2" id="comp_rmsp"-->
+		<div class="contli conli_floor1">
+                <div class="tit">
+                    <div class="contli_titL clearfix"><span class="louceng_2">1F/</span> 热销机型</div>
+                    <a class="more" onclick="goList(100375)" target="_blank">全部机型 &gt;</a>
+                </div>
+                <!--div class="con" id="preferential"-->
+                <div class="con clearfix">
+					<div class="lfad" name="addPic" id="100375_49450_top">
+						<a target="_blank" href="./product/111464.html">
+							<img src="index/img/oppoR11.jpg">
+						</a>
+					</div>
+                    <div class="contli-product">
+                         <ul class="pro-list clearfix">
+                            <li class="pro_list_adv">
+                                <a target="_blank" href="./product/111445.html">
+                                    <img src="index/img/hongmi5A.jpg">
+                                </a>
+                            </li>
+														<li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/110934.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201612/2016120911006736_lit.jpg" title="OPPO A37t 金色">
+                                    </a>
+                                      <i class="post post51">促销</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/110934.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="OPPO A37t 金色">
+                                            OPPO A37t 金色
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="全新升级的美颜4.0和500万像素前置摄像头。强大的64位8核处理器与2GB大运存亲密协作，支持NFC功能。">
+                                            全新升级的美颜4.0和500万像素前置摄像头。强大的64位8核处理器与2GB大运存亲密协作，支持NFC功能。
+                                        </p>
+                                    </a>     
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        1299.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>999.00</em>
+                                    </span>
+                                </div>
+                                   
+                            </li>
+                            
+                           
+                              
+                              <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111444.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201710/2017103111010282_lit.jpg" title="红米5A">
+                                    </a>
+                                      <i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111444.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="红米5A">
+                                            红米5A
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="高通骁龙425四核A53、3000mAh大容量8天超长待机">
+                                            高通骁龙425四核A53、3000mAh大容量8天超长待机
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        599.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>599.00</em>
+                                    </span>
+                                </div>                                
+                            </li>
+							
+							
+                            <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111451.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201711/2017110211010324_lit.jpg" title="苹果iPhone8plus">
+                                    </a>
+                                      <i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111451.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="苹果iPhone8plus">
+                                            苹果iPhone8plus
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="1.5.5英寸in-cell 大屏 2.主屏分辨率：1920x1080像素 3.苹果 A11+M11协处理器">
+                                         1.5.5英寸in-cell 大屏 2.主屏分辨率：1920x1080像素 3.苹果 A11+M11协处理器
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        6688.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>6688.00</em>
+                                    </span>
+                                </div>
+                                    
+                            </li>
+                           </ul>
+                    </div>
+                </div>
+        </div>
+        <!--div class="contli conli_floor3" id="comp_rmsp"-->
+        <div class="contli conli_floor2">
+                <div class="tit">
+                    <div class="contli_titL clearfix"><span class="louceng">2F/</span> 高端明星</div>
+                    <a class="more" onclick="goList(100376)" target="_blank">全部机型 &gt;</a>
+                </div>
+                <!--div class="con" id="preferential"-->
+                <div class="con clearfix">
+                        <div class="lfad" name="addPic" id="100376_49453_top">
+                            <a target="_blank" href="./product/111448.html">
+                                <img src="index/img/2017iphone8.jpg">
+                            </a>
+                        </div>
+                    <div class="contli-product">
+                         <ul class="pro-list clearfix">
+                            <li class="pro_list_adv">
+                                <a target="_blank" href="./product/111447.html">
+                                    <img src="index/img/2017note8.jpg">
+                                </a>
+                            </li>
+                           
+                       
+                            <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111193.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201706/2017061511008292_lit.jpg" title="R11t">
+                                    </a>
+									<i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111193.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="R11t">
+                                            R11t
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="移动4G+版R11t。拍照不一样，2000万超清双摄，2000万前置摄像头，旗舰机影像处理器。外观轻薄手感好，OPPO独有小蛮腰设计曲面金属机身。安全闪充不断电。支持应用分屏，夜间护眼，快捷安全支付等小惊喜。">
+                                            移动4G+版R11t。拍照不一样，2000万超清双摄，2000万前置摄像头，旗舰机影像处理器。外观轻薄手感好，OPPO独有小蛮腰设计曲面金属机身。安全闪充不断电。支持应用分屏，夜间护眼，快捷安全支付等小惊喜。
+                                        </p>
+                                    </a>     
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        2999.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>2999.00</em>
+                                    </span>
+                                </div>
+                                    
+                            </li>
+						
+							<li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111447.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201711/2017110111010294_lit.jpg" title="三星Galaxy Note8">
+                                    </a>
+                                      <i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111447.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="三星Galaxy Note8">
+                                            三星Galaxy Note8
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="1.6.3英寸Super AMOLED 全视曲面屏 2.支持无线充电">
+                                            1.6.3英寸Super AMOLED 全视曲面屏 2.支持无线充电
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        6988.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>6988.00</em>
+                                    </span>
+                                </div>
+                                   
+                            </li>
+                            <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111448.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201711/2017110211010302_lit.jpg" title="苹果iPhone8plus">
+                                    </a>
+                                      <i class="post post13">新品</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111448.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="苹果iPhone8plus">
+                                            苹果iPhone8plus
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="1.5.5英寸in-cell 大屏 2.主屏分辨率：1920x1080像素 3.苹果 A11+M11协处理器">
+                                            1.5.5英寸in-cell 大屏 2.主屏分辨率：1920x1080像素 3.苹果 A11+M11协处理器
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        6688.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>6688.00</em>
+                                    </span>
+                                </div>
+                                   
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <!--div class="contli conli_floor4" id="comp_rmsp"-->
+        <div class="contli conli_floor3">
+                <div class="tit">
+                    <div class="contli_titL clearfix"><span class="louceng_3">3F/</span> 裸机直供</div>
+                    <a class="more" href="list.html?filter_category=100377" target="_blank">全部机型 &gt;</a>
+                </div>
+                <!--div class="con" id="preferential"-->
+                <div class="con clearfix">
+                        <div class="lfad" name="addPic" id="100377_49456_top">
+                            <a target="_blank" href="./product/100219.html">
+                                <img src="index/img/20150812155131.jpg">
+                            </a>
+                        </div>
+                    <div class="contli-product">
+                         <ul class="pro-list clearfix">
+                            <li class="pro_list_adv">
+                                <a target="_blank" href="./product/100277.html">
+                                    <img src="index/img/img_flooradv_4.jpg">
+                                </a>
+                            </li>
+                            <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/110872.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201609/2016092311006318_lit.jpg" title="和屏 ViMo1">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="product/110872.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="和屏 ViMo1">
+                                            和屏 ViMo1
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="无线同屏＆无线媒体分享">
+                                            无线同屏＆无线媒体分享
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        300.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>299.00</em>
+                                    </span>
+                                </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+                            <li class="rel">
+                                <div class="imgBox">
+                                     <a target="_blank" href="product/111139.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201705/2017050811007824_lit.jpg" title="魔百和（基地版）">
+                                    </a>
+									<i class="post post11">新品</i>
+                                </div>
+                                <div class="info">
+                                     <a href="product/111139.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="魔百和（基地版）">
+                                            魔百和（基地版）
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="海量大片随意看，高清4K好体验">
+                                            海量大片随意看，高清4K好体验
+                                        </p>
+                                    </a>  
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        400.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>240.00</em>
+                                    </span>
+                                </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+							  <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111346.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201709/2017091911009682_lit.jpg" title="和目C13智能监控摄像头">
+                                    </a>
+                                      <i class="post post11">促销</i>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111346.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="和目C13智能监控摄像头">
+                                            和目C13智能监控摄像头
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="能听能看能说与家时刻相伴">
+                                            能听能看能说与家时刻相伴
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>¥</i>
+                                        199.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>¥</i> <em>199.00</em>
+                                    </span>
+                                </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <!--div class="contli conli_floor5" id="comp_rmsp"-->
+		
+       <!-- <div class="contli conli_floor4">
+                <div class="tit">
+                     <div class="contli_titL clearfix"><span class="louceng_4">4F/</span> 合作专区</div>
+                    <a class="more" onclick="goList(110383)" target="_blank">全部机型 ></a>
+                </div>
+               
+                <div class="con clearfix">
+                    <div class="lfad" name="addPic" id="100378_49459_top">
+                            <a target="_blank" href="./product/110570.html" >
+                                <img src="index/img/edges7.jpg">
+                            </a>
+                        </div>
+                    <div class="contli-product">
+                         <ul class="pro-list clearfix">
+						  <li class="pro_list_adv">
+                                <a target="_blank" href="./product/111069.html">
+                                    <img src="index/img/inphone71.jpg"/>
+                                </a>
+                            </li>
+                            <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/110570.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201603/2016032111003694_lit.jpg" title="三星  G9350  S7 edge">
+                                    </a>
+                                      <i class="post post51">限量</i>
+                                </div>
+                                <div class="info">
+                                   <a href="product/110570.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="三星  G9350  S7 edge">
+                                            三星  G9350  S7 edge
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="IP68级防尘防水    侧屏快捷应用，方便快捷">
+                                            IP68级防尘防水    侧屏快捷应用，方便快捷
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>&yen;</i>
+                                        4999.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>&yen;</i> <em>4999.00</em>
+                                    </span>
+                                </div>
+                                   <div class="list_remWrap" title="赠送 三星Gear VR*1">
+                                      <em></em>
+                                      <p class="mod_goods_rem list_goodsrem">
+                                        赠送 三星Gear VR*1
+                                      </p>
+                                    </div>
+                            </li>
+                          <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/110790.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201606/2016062111005764_lit.jpg" title="三星C5000">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                   <a href="product/110790.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="三星C5000">
+                                            三星C5000
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="机身薄至6.7mm      搭载骁龙617处理器       1600+500万像素">
+                                            机身薄至6.7mm      搭载骁龙617处理器       1600+500万像素
+                                        </p>
+                                    </a>      
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>&yen;</i>
+                                        2199.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>&yen;</i> <em>1999.00</em>
+                                    </span>
+                                </div>
+                                    <div class="list_remWrap" title="赠送水晶壳">
+                                      <em></em>
+                                      <p class="mod_goods_rem list_goodsrem">
+                                        赠送水晶壳
+                                      </p>
+                                    </div>
+                            </li>
+                                  <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/110791.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201606/2016062111005772_lit.jpg" title="三星C5000">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="product/110791.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="三星C5000">
+                                            三星C5000
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="机身薄至6.7mm      搭载骁龙617处理器          1600+500万像素">
+                                            机身薄至6.7mm      搭载骁龙617处理器          1600+500万像素
+                                        </p>
+                                    </a>   
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>&yen;</i>
+                                        2199.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>&yen;</i> <em>1999.00</em>
+                                    </span>
+                                </div>
+                                    <div class="list_remWrap" title="赠送水晶壳">
+                                      <em></em>
+                                      <p class="mod_goods_rem list_goodsrem">
+                                        赠送水晶壳
+                                      </p>
+                                    </div>
+                            </li>
+                             <li class="rel">
+                                <div class="imgBox">
+                                   <a target="_blank" href="product/111047.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201702/2017022311007486_lit.jpg" title="中国移动A1S  M631">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                   <a href="product/111047.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="中国移动A1S  M631">
+                                            中国移动A1S  M631
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="移动4G智能手机   双卡双待    5.0英寸大屏幕">
+                                            移动4G智能手机   双卡双待    5.0英寸大屏幕
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>&yen;</i>
+                                        559.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>&yen;</i> <em>459.00</em>
+                                    </span>
+                                </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+                             <li class="rel">
+                                <div class="imgBox">
+                                     <a target="_blank" href="product/111048.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201702/2017022311007488_lit.jpg" title="中国移动A1S  M631">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111048.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="中国移动A1S  M631">
+                                            中国移动A1S  M631
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="移动4G智能手机   双卡双待    5.1英寸大屏幕">
+                                            移动4G智能手机   双卡双待    5.1英寸大屏幕
+                                        </p>
+                                    </a>    
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>&yen;</i>
+                                        559.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>&yen;</i> <em>459.00</em>
+                                    </span>
+                                </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+                                 <li class="rel">
+                                <div class="imgBox">
+                                    <a target="_blank" href="product/111049.html" onclick="goOneFloor(this);">
+                                        <img src="upload/201702/2017022311007494_lit.jpg" title="中国移动A1S  M631">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <a href="product/111049.html" target="_blank" onclick="goOneFloor(this);">
+                                        <p class="promo f_14 over_elip" title="中国移动A1S  M631">
+                                            中国移动A1S  M631
+                                        </p>
+                                        
+                                        <p class="promo roseo over_elip" title="移动4G智能手机   双卡双待    5.0英寸大屏幕">
+                                            移动4G智能手机   双卡双待    5.0英寸大屏幕
+                                        </p>
+                                    </a>      
+                                    
+
+                                </div>
+                                <div class="price">
+                                    市场价：
+                                    <span class="gray1 textline"> <i>&yen;</i>
+                                        559.00
+                                    </span>
+                                </div>
+                                <div class="price">
+                                    商城价：
+                                    <span class="red f16"> <i>&yen;</i> <em>459.00</em>
+                                    </span>
+                                </div>
+								<div class="list_remWrap" title="赠送水晶壳">
+                                      <em></em>
+                                      <p class="mod_goods_rem list_goodsrem">
+                                        赠送水晶壳
+                                      </p>
+                                    </div>
+                                    <p class="promo nodeco"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>-->
+    </div>
+    <div class="clear"></div>
+    
+    <!--20140101 tower 侧边导航-->
+    <div class="right_sliderWrap">
+        <ul class="right_sliderUl">
+            <li class="slider_myMarket">
+                <a class="fixSliderR_Nav" href="app?service=page/base.PersonalCenter&amp;listener=initPage"><p>我的商城</p></a>
+            </li>
+            <li class="sliderR_border"></li>
+            <li class="slider_orderInq">
+                <a class="fixSliderR_Nav" href="app?service=page/Login&amp;listener=initOrderPage">
+                    <p>订单查询</p>
+                </a>
+                
+            </li>                
+            <li class="slider_code2d">
+                <a class="fixSliderR_Nav"></a>
+                <div class="hidePop fixBar_codeWrap">
+                    <div class="pop_pointTrigle"></div>
+                    <div class="pop_pointTrigle_in"></div>
+                    <a href="javascript:void(0);"><img src="index/images/index_code2d.png" width="100" height="100" alt=""></a>
+                </div>
+            </li>
+             <li class="slider_goTop" id="sliderGoTop">
+                <a class="fixSliderR_Nav"></a>
+            </li>
+        </ul>
+    </div>
+
+    <!--20140112 CQ 顶部搜索框-->    
+    <div class="topFixWrap" id="topFixWrap">
+        <div class="w1000 clearfix">
+            <div class="fl logoWrap">
+                <img src="index/img/img_fixbarLogo.png">    
+            </div>
+            <div class="searchbar inputWrap">
+                <input class="searchinput" value="荣耀畅玩4X" id="skeyword" autocomplete="off" disableautocomplete="" onfocus="focusInput(this, '荣耀畅玩4X');" onblur="blurInput(this, '荣耀畅玩4X');" onkeyup="setValue();" type="text" title="关键字必须至少有两个汉字或英文字母" name="qt" maxlength="20">    
+                <input id="searchbtnCq" class="bt02" onclick="searchForCq()" value=""></div>
+        </div>
+    </div>
+    <!-- 帮助信息 -->    
+    <div class="help">
+        <div class="w1200 ovh">
+            <div class="helpList">
+                <dt> <b class="fore1"></b>
+                    新手上路
+                </dt>
+                <ul>
+                    <li>
+                        <a href="help.html#flow" target="_blank">订购流程</a>
+                    </li>
+                    <li>
+                        <a href="help.html#aboutinvoice" target="_blank">关于发票</a>
+                    </li>
+                    <li>
+                        <a href="help.html#necessary" target="_blank">签收必备物</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="helpList">
+                <dt> <b class="fore2"></b>
+                    配送方式
+                </dt>
+                <ul>
+                    <li>
+                        <a href="help.html#range" target="_blank">配送范围</a>
+                    </li>
+                    <li>
+                        <a href="help.html#deliveringtime" target="_blank">配送时间</a>
+                    </li>
+                    <li>
+                        <a href="help.html#distributioncosts" target="_blank">配送费用标准</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="helpList">
+                <dt>
+                    <b class="fore3"></b>
+                    支付方式
+                </dt>
+                <ul>
+                    <li>
+                        <a href="help.html#zxzf" target="_blank">在线支付</a>
+                    </li>
+                    <li>
+                        <a href="help.html#zxzftk" target="_blank">关于在线支付退款</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="helpList">
+                <dt>
+                    <b class="fore4"></b>
+                    售后服务及其他
+                </dt>
+                <ul>
+                    <li>
+                        <a href="help.html#service" target="_blank">售后服务</a>
+                    </li>
+                    <li>
+                        <a href="help.html#back" target="_blank">退换机申请</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--左侧固定导航-->
+    <ul class="idx_fixedNav_left">
+        <li class="on">
+            <a data-scroll="1128">
+                <div class="fixedNav_floorName">1F</div>
+                <div class="fixedNav_floorInfo">
+                   <p>热销</p>
+                    <p>机型</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a data-scroll="1700">
+                <div class="fixedNav_floorName">2F</div>
+                <div class="fixedNav_floorInfo">
+                    <p>高端</p>
+                    <p>明星</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a data-scroll="2300">
+                <div class="fixedNav_floorName">3F</div>
+                <div class="fixedNav_floorInfo">
+                    <p>裸机</p>
+                    <p>直供</p>
+                </div>
+            </a>
+        </li>
+       <!-- <li>
+            <a data-scroll="2900">
+                <div class="fixedNav_floorName">4F</div>
+                <div class="fixedNav_floorInfo">
+                   <p>合作</p>
+                    <p>专区</p>
+                </div>
+            </a>
+        </li>
+		--><!--
+        <li>
+            <a data-scroll="3500">
+                <div class="fixedNav_floorName">4F</div>
+                <div class="fixedNav_floorInfo">
+                    <p>合作</p>
+                    <p>专区</p>
+                </div>
+            </a>
+        </li>
+    --></ul>
+    <script language="javascript" type="text/javascript" src="index/js/jquery-1.9.1.min.js"></script>
+    <script language="javascript" type="text/javascript" src="index/js/JSON2.js"></script>
+    <script language="javascript" type="text/javascript" src="index/js/config.js"></script>
+    <script language="javascript" type="text/javascript" src="index/js/effect.js"></script>
+    <script language="javascript" type="text/javascript" src="index/js/bannerTurn.js"></script>
+    <script language="javascript" type="text/javascript" src="index/js/Countdown.js"></script>
+    <script language="javascript" type="text/javascript" src="index/js/jquery.cookie.js"></script>
+    <script language="javascript" type="text/javascript" src="js/head.js"></script>
+    <script language="javascript" type="text/javascript" src="js/jquery.blockUI.js"></script>
+    <script language="javascript" type="text/javascript" src="js/ajax-jquery-plugin.js"></script>
+    <script language="javascript" type="text/javascript" src="js/public_common.js"></script>
+    <script language="javascript" type="text/javascript" src="plugin/layer/layer.min.js"></script>
+    <script language="javascript" type="text/javascript" src="index/js/chama.js"></script>
+    <script language="javascript" type="text/javascript" src="js/maintain.js"></script>
+	<script type="text/javascript" src="js/searchNoopTips.js"></script>  
+	<script type="text/javascript" src="js/chama.js"></script><script language="javascript" src="js/sdc_TJ.js"></script><script type="text/javascript">_tag.trackEvent();</script>
+<meta name="WT.mobile" content=""> 
+
+<img src="http://service.tj.10086.cn:7070/app/webtrends/dcs.gif?WT.branch=tjemal&amp;dcssip=tj.10086.cn&amp;WT.host=tj.10086.cn&amp;dcsuri=%2Fmall%2Findex.html&amp;WT.es=http%3A%2F%2Ftj.10086.cn%2Fmall%2Findex.html&amp;WT.sr=1024x768&amp;WT.ti=%E5%A4%A9%E6%B4%A5%E7%A7%BB%E5%8A%A8%E5%95%86%E5%9F%8E&amp;WT.mobile=&amp;WT.co_f=2c0800cba54d0b2ff0f1515480326655&amp;dcsdat=1515480326656"></body></html>

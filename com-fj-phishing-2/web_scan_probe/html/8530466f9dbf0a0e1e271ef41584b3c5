@@ -1,0 +1,952 @@
+<!DOCTYPE html><html><head> 
+  <meta charset="utf-8"> 
+  <title>财产保险,网上保险,保险服务-泰康在线移动官网</title> 
+  <meta name="description" content="泰康在线移动官网为您提供专业保险服务，涵盖意外险、健康险、理财险、财产险、寿险等数十种产品，移动投保简单、便捷、安全！"> 
+  <meta name="keywords" content="泰康,泰康在线,保险服务，财产保险,网上投保,保险产品,泰康保险公司，健康险，意外险，互联网保险，移动保险"> 
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,target-densitydpi=medium-dpi"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <link href="/resource/tkms/wap/css/swiper.min.css" rel="stylesheet" type="text/css"> 
+  <link href="/resource/tkms/wap/css/wap_style.css" rel="stylesheet" type="text/css"> 
+  <script src="/resource/tkms/wap/js/jquery-1.8.3.min.js"></script> 
+  <script src="http://ecuat.taikang.com/tkcommon/login/login.js"></script> 
+  <!-- <script src='https://www.appadhoc.com/downloads/sdk/ab.js'></script> --> 
+  <!-- adhoc sdk --> 
+  <script src="https://sdk.appadhoc.com/ab.plus.js"></script><style type="text/css"></style><style type="text/css"></style> 
+  <script>
+        adhoc('init', {
+              appKey: 'ADHOC_b1468aa6-f3bd-4597-97b4-a73e5ebe6231'
+        })
+</script> 
+  <!-- adhoc sdk end --> 
+  <style>
+
+    .festival{
+        width: 3.8rem;
+        height: 3.8rem;
+        border-radius: 0;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        margin: 0 auto 0.8rem;
+        background-size: contain !important;
+    }
+    .fesd1{background: url(../images/2017festival/tab1.png);}
+    .fesd2{background: url(../images/2017festival/tab2.png);}
+    .fesd3{background: url(../images/2017festival/tab3.png);}
+    .fesd4{background: url(../images/2017festival/tab4.png);}
+    .fesd5{background: url(../images/2017festival/tab5.png);}
+    .tabmenu{
+        width: 2.2rem;
+        height: 2.2rem;
+        background-size: contain !important;
+        display: block;
+        margin: 0 auto 0.3rem;
+    }
+    .tabicon1{background: url(../images/2017festival/d1.png);}
+    .tabicon2{background: url(../images/2017festival/d2.png);}
+    .tabicon3{background: url(../images/2017festival/d3.png);}
+    .tabicon4{background: url(../images/2017festival/d4.png);}
+    .tabicon5{background: url(../images/2017festival/d5.png);}
+
+</style> 
+  <script src="/resource/tkms/wap/js/adhoc.js"></script> 
+  <script>
+	//adhoc.setFlagDef({'isoriginalpic':true})//设置试验变量默认值（网络异常或获取试验变量失败时使用）
+	//adhoc.init('ADHOC_03e8c0e0-0fd3-43bc-87f1-e93800ddc496')//初始化
+    function initABTesting(){
+     //   adhoc.getExperimentFlags(applyFlags);
+    }
+function showFocus(windou) {
+window.blur();
+setTimeout(window.focus,10);
+}
+
+
+    function applyFlags(flags) {
+      if (flags.get('isoriginalpic') === true){
+        var text = " Hey，我是原始版本";
+		$('.hotProducts').hide();
+        $('.bannerapp').show();
+      } else {
+        var text = " Hey, 我是试验版本！";
+        $('.hotProducts').show();
+		$('.bannerapp').hide();
+      }
+      console.log(text);
+    }
+    function toNextpage1(){
+    	adhoc.incrementStatArray(['numofclick','sumnumofclick'],function(){
+    		location.href = 'http://m.tk.cn/product/premium/1003.html';
+    	},function(){
+    		location.href= 'http://m.tk.cn/product/premium/1003.html';
+    	});
+    	_smqEvent('首页', '爆款推荐','点击');
+    	return false;
+    }
+    function toNextpage2(){
+    	adhoc.incrementStatArray(['sumnumofclick'],function(){
+    		location.href = 'http://m.tk.cn/product/wap/S20160266.html';
+    	},function(){
+    		location.href= 'http://m.tk.cn/product/wap/S20160266.html';
+    	});
+    	_smqEvent('首页', '爆款推荐','点击1');
+    	return false;
+    }
+    function toNextpage3(){
+    	adhoc.incrementStatArray(['numofclick','sumnumofclick'],function(){
+    		location.href = 'http://m.tk.cn/product/wap/S20160158.html';
+    	},function(){
+    		location.href= 'http://m.tk.cn/product/wap/S20160158.html';
+    	});
+    	_smqEvent('首页', '爆款推荐','点击2')
+    	return false;
+    }
+    function toNextpage4(){
+    	adhoc.incrementStatArray(['sumnumofclick'],function(){
+    		location.href = 'http://m.tk.cn/product/wap/S20160272.html';
+    	},function(){
+    		location.href= 'http://m.tk.cn/product/wap/S20160272.html';
+    	});
+    	_smqEvent('首页', '爆款推荐','点击3')
+    	return false;
+    }
+</script> 
+ <style type="text/css"></style><style type="text/css"></style><style type="text/css"></style><style type="text/css"></style></head> 
+ <body class="bg-w" onload="initABTesting()"> 
+  <input type="hidden" id="pageName" value="新首页">  
+  <section class="container"> 
+   <div class="shch_w"> 
+    <div id="shch_top" class="shch_top column" name="commonHead" runat="server"> 
+     <script>
+;(function(){
+	$(function(){
+		if(!window.sessionStorage.getItem('newad')){
+			var $mask=$('<div id="mask" style="height:2500px!important;"></div>').appendTo($('body'));
+			var $newad=$('<div class="newad" style="width:24rem;position:fixed;left:50%;top:40%;margin:-14rem 0 0 -12rem;z-index:100001;"><a href="http://m.tk.cn/product/mobile/v3/present/index.html?productId=S20180088"><img src="http://m.tk.cn/resource/tkms/wap/wap-images/zeng16Waptan.jpg" style="width:100%;display:block;border-radius:4px;"/></a><span class="newad-close" style="background:url(/resource/tkms/wap/newWapIndex/close.png) no-repeat;background-size:contain;width:2.6rem;height:2.6rem;position:absolute;right:42%;bottom:-65px;"></span></div>').appendTo($('body'));
+			//$mask.height($(document).height()).show();
+                        $mask.show();
+			$newad.show();
+			$('.newad-close').click(function(){
+				$mask.remove();
+				$newad.remove();
+			})
+			window.sessionStorage.setItem('newad',1);
+		}
+	})
+}());
+</script>
+
+<style>
+body{font-size:12px; background-color:#F7F7F7!important;box-sizing: border-box;overflow-x: hidden;}
+
+.container {box-sizing: border-box;background:#F7F7F7;padding:0}
+.container .tkLogo {width:10.1rem;vertical-align: middle;}
+
+.container header {box-sizing:border-box;display: -webkit-box; display: -webkit-flex; display: -ms-flexbox;display:flex;align-items: center; justify-content: space-between; height:4.8rem;line-height:4.8rem;}
+.container .search-box {margin-left:0.5rem;-webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box; height:2.5rem;line-height:2.5rem;width:13.75rem;padding-left:0.8rem;border:1px solid #ddd;border-radius:1.25rem;}
+.container .search-box input {box-sizing:border-box;background:#F7F7F7;font-size:1.2rem;color:#999;height:2rem;line-height:2rem;width:10rem;margin-left:0.3rem;}
+.container .search-box .glass {vertical-align: sub; background:url("../imgs/search.png") no-repeat center;width:1.25rem;height:1.3rem;background-size:contain;display:inline-block;}
+.container .login-btn {margin-left:0.5rem;text-align:center;font-size:1.4rem;color:#666;display:inline-block;}
+.container .cancel-btn {flex: 2;font-size:1.4rem;color:#333333;display:inline-block;text-align:center;}
+.container .search-con-box {flex: 10;}
+.container .search-con-box input {width:15rem;color:#333;}
+.container .search-header {border-bottom:1px solid #ddd;padding:0 1rem 0;}
+.login_head{background:url('/resource/tkms/wap/newWapIndex/login_head.jpg') no-repeat;background-size: contain;width: 2.8rem;height: 2.8rem;}
+</style>
+<div class="download-ad" adstorage="adStorage1">
+<a onclick="ipAnFn()" data-adhoc-stat="true">
+<img src="/resource/tkms/wap/wap-images/appload.png">
+</a>
+<span class="close-ad" data-adhoc-stat="true">
+</span>
+</div>
+<div class="container">
+    <header class="clearfix" style="padding:0 1rem 1rem;">
+        <a href="http://g.eqxiu.com/s/KxF4uxK4" onclick="_smqEvent('标题栏', 'logo','首页')"><img src="/resource/tkms/wap/newWapIndex/tkLogo.png" class="tkLogo" alt=""></a>
+        <div class="search-box" onclick="javascript:window.location.href='http://m.tk.cn/service/wap2.0/search.html';TKTracker.send({event:'首页',subType:'搜索',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}});">
+            <span class="glass"></span>
+            <input type="text" placeholder="泰爱保·百万医疗" class="search-btn" disabled="">
+        </div>
+<!--        <a class="search-box" href='http://m.tk.cn/service/wap2.0/search.html'>
+            <span class="glass"></span>
+            <input type="text"  placeholder="泰爱保·百万医疗" class="search-btn"  disabled  />
+        </a>  -->
+        <!--<a href="http://m.tk.cn/login.html" class="login-btn" id="btn_login" onclick="setLocVal('login_num',66);setLocVal('seoUrl','//m.tk.cn');_smqEvent('首页', '登录','标题栏');TKTracker.send({event:'首页',subType:'登录',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}});"> 登录</a>-->
+         <a href="javascript:;;" class="login-btn" id="btn_login" onclick="_smqEvent('首页', '登录','标题栏');TKTracker.send({event:'首页',subType:'登录',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}});"> 登录</a>
+    </header>
+</div>
+
+<script>
+
+    function ipAnFn(){
+        if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+            //alert(navigator.userAgent);
+            window.location.href ="https://itunes.apple.com/cn/app/tai-kang-zai-xian/id909185021";
+        } else if (/(Android)/i.test(navigator.userAgent)) {
+            //alert(navigator.userAgent);
+            window.location.href ="http://m.tk.cn/apkdownload/taikang_60227.apk ";
+        }
+    }
+ $(function(){
+    try {
+            sessionStorage.setItem("productIdtest", "11");
+        } catch (e) {
+            messageBox("无痕浏览模式暂时无法领取，更改成非无痕浏览模式立享好保障吧！");
+            return false;
+        }
+});
+
+
+</script>
+ 
+    </div> 
+   </div> 
+   <div class="container_inner"> 
+    <!--          轮播       --> 
+    <div class="portlet" _portlet_div_index="portlet_div_101" ref_module="6uA10336"> 
+     <div ref_portlet_container="DIV_portlet_div_101"> 
+      <style>
+.swiper-focus .swiper-pagination .swiper-pagination-bullet {
+    box-shadow:none;
+}
+.swiper-slide img {border-radius:20px;}
+</style> 
+      <!-- adhoc sdk --> 
+      <script src="https://sdk.appadhoc.com/ab.plus.js"></script> 
+      <script>adhoc('init', {  appKey: 'ADHOC_b1468aa6-f3bd-4597-97b4-a73e5ebe6231'})</script> 
+      <!-- adhoc sdk end --> 
+      <article class="swiper-container swiper-focus"> 
+       <div class="swiper-wrapper" id="wapSwiper"> 
+        <!--   --> 
+        <!--     <div class="swiper-slide"><a href="https://m.tk.cn/promo/20180618dx2/"><img src="/resource/tkms/wap/image/article_img/20180607180043118.jpg" class="swiperImg" onclick="_smqEvent(\'首页\', \'轮播图\','+(article_index+1)+')"></a></div>--> 
+        <!--    --> 
+        <!--     <div class="swiper-slide"><a href="http://m.tk.cn/promo/201806fqj/"><img src="/resource/tkms/wap/image/article_img/20180612153446766.jpg" class="swiperImg" onclick="_smqEvent(\'首页\', \'轮播图\','+(article_index+1)+')"></a></div>--> 
+        <!--    --> 
+        <!--     <div class="swiper-slide"><a href="https://m.tk.cn/promo/201806dx1/"><img src="/resource/tkms/wap/image/article_img/20180606160513942.jpg" class="swiperImg" onclick="_smqEvent(\'首页\', \'轮播图\','+(article_index+1)+')"></a></div>--> 
+        <!--    --> 
+        <!--     <div class="swiper-slide"><a href="https://m.tk.cn/promo/201805zyb/  "><img src="/resource/tkms/wap/image/article_img/20180608101241903.jpg" class="swiperImg" onclick="_smqEvent(\'首页\', \'轮播图\','+(article_index+1)+')"></a></div>--> 
+        <!--    --> 
+        <!--     <div class="swiper-slide"><a href="https://m.tk.cn/promo/201806dx2/"><img src="/resource/tkms/wap/image/article_img/20180604152318139.jpg" class="swiperImg" onclick="_smqEvent(\'首页\', \'轮播图\','+(article_index+1)+')"></a></div>--> 
+        <!--   --> 
+       </div> 
+       <div class="swiper-pagination swiper-pagination-focus"></div> 
+      </article> 
+      <script>
+$(document).ready(function(){
+    var condition = {"map":{"article_source_names":"顶部轮播","article_source_ids":"270","title_number":"14","abstrcation_number":"50","article_column":"9","more_word":"...","info_sort":"sort_num_asc","article_row":"1"}};
+    var articleSourceIds = condition.map.article_source_ids;
+    var url = "/TKSearch/ggonline/searchAdvertising";
+    var articleColumn = condition.map.article_column;
+    var infoSort= condition.map.info_sort;
+    var infoSortType = infoSort.split('_')[2];
+
+  function dataSortFunc (datas, type, infoSortType) {
+    var newArr = null;
+    if (infoSortType == 'asc') {
+      newArr = datas.sort(function (pre, next) {
+        if (type == 'sortNum') {
+          return pre[type] - next[type]
+        } else {
+          return Date.parse(pre.articleHistory[type]) - Date.parse(next.articleHistory[type])
+        }
+      })
+    } else {
+      newArr = datas.sort(function (pre, next) {
+        if (type == 'sortNum') {
+          return next[type] - pre[type]
+        } else {
+          return Date.parse(next.articleHistory[type]) - Date.parse(pre.articleHistory[type]) 
+        }
+      })
+    }
+    return newArr;
+  }
+
+    $.ajax({
+            url: url,
+            type : "post",
+            dataType: "json",
+            contentType: "application/json",
+            data: JSON.stringify({
+                articleHistory: {
+                  pageInfoId: articleSourceIds
+                }
+            }),
+            success: function(data){
+    var sortResult = null;
+    switch(infoSort){
+        case 'create_time_asc' || 'create_time_desc':
+            sortResult = dataSortFunc(data.data,'createTime',infoSortType);
+            break;
+        case 'display_time_asc' || 'display_time_desc':
+            sortResult = dataSortFunc(data.data,'displayTime',infoSortType);
+            break;
+        case 'sort_num_asc' || 'sort_num_desc':
+            sortResult = dataSortFunc(data.data,'sortNum',infoSortType);
+            break;
+        default:
+          sortResult = data.data;
+    }
+    for (var i = 0; i < sortResult.length; i++) {
+      sortResult[i].setTop && sortResult.unshift(sortResult.splice(i, 1)[0]);
+    }
+    sortResult = sortResult.slice(0,articleColumn)
+              var wapSwiper= "";
+              sortResult.forEach(function(val){
+                  var data = val.articleHistory;
+
+                  wapSwiper += "<div class='swiper-slide'><a href='" + data.redirectUrl + "'><img src='" + data.advPicUrl + "' class='swiperImg' onclick='_smqEvent(\"首页\", \"轮播图\",\"+(article_index+1)+\")'/></a></div>";
+              })
+              $("#wapSwiper").html(wapSwiper)
+       },
+       error: function(){
+             console.log("请求失败")
+      }
+    })
+})
+
+</script> 
+     </div> 
+    </div> 
+    <!--            --> 
+    <!--             --> 
+    <!--             --> 
+    <!--        爆款推荐 开始       --> 
+    <div class="portlet" _portlet_div_index="portlet_div_201" ref_module="370aZW50"> 
+     <div ref_portlet_container="DIV_portlet_div_201"> 
+      <link href="/resource/tkms/wap/newWapIndex/style.css" rel="stylesheet" type="text/css"> 
+      <style>.product2018-pro .more-txt em {vertical-align: middle; font-style:normal;text-align:center;display:inline-block;width:1rem;height:1rem;line-height:1rem;background:#4C4C4C;color:#fff;font-size:1rem;margin-top:-0.2rem;}
+.product2018-pro .more-txt em {vertical-align: middle; background:url("/resource/tkms/wap/newWapIndex/more_arr.png") no-repeat center;width:0.95rem;height:1.05rem;background-size:contain;}
+
+.product2018-pro .serve-item li:nth-child(1) {background:url("/resource/tkms/wap/newWapIndex/serve1.png") no-repeat center;background-size:cover;text-align:center;}
+.product2018-pro .serve-item li:nth-child(2) {background:url("/resource/tkms/wap/newWapIndex/serve2.png") no-repeat center;background-size:cover;text-align:center;margin:0 0.6rem 0;}
+.product2018-pro .serve-item li:nth-child(3) {background:url("/resource/tkms/wap/newWapIndex/serve3.png") no-repeat center;background-size:cover;text-align:center;}
+
+.hr{display:none;}</style> 
+      <div class="product2018-pro" id="product2018-pro"> 
+       <h2 class="clearfix"> 大家都在买<a href="/malltk/" class="more-txt fr" onclick="_smqEvent('首页', '更多','大家都在买');TKTracker.send({event:'首页大家都在买',subType:'更多',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})">更多 <em>&nbsp;</em></a> </h2> 
+       <div class="main-item clearfix"> 
+        <div class="clearfix"> 
+         <a href="http://m.tk.cn/product/441/S20170290_p.html" class="fl big-item" onclick="_smqEvent('首页', '图1：百万医疗','大家都在买');TKTracker.send({event:'首页大家都在买',subType:'泰爱保·百万医疗',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})" style="width: 586px;"><h3> 泰爱保·百万医疗 </h3> <p> 200万保障 <br>进口药也能报 </p><span class="price"><small>￥</small> 118<span class="trip_size">起</span> <em>&nbsp;</em> </span><img src="/resource/tkms/wap/image/article_img/20180412230800727.jpg" class="item_im1" alt=""></a> 
+         <a href="http://m.tk.cn/product/411/598_p.html" class="fr small-item" onclick="_smqEvent('首页', '图2：康护一生','大家都在买');TKTracker.send({event:'首页大家都在买',subType:'康护一生',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"><h3> 康护一生 </h3> <p> 保100种疾病 </p><img src="/resource/tkms/wap/image/article_img/20180412231018949.jpg" class="item_im2" alt=""></a> 
+        </div> 
+        <div class="item-dv"> 
+         <ul class="item-uu"> 
+          <li onclick="_smqEvent('首页', '图3：康护一生','大家都在买');TKTracker.send({event:'首页大家都在买',subType:'孝心保',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> <a href="http://m.tk.cn/product/426/S20170517_p.html"><h3> 孝心保 </h3> <p> 老年防癌0免赔 <br>80岁3高也能买 </p><span class="price"><small>￥</small> 1108 <span class="trip_size">起</span> <em>&nbsp;</em> </span></a> </li> 
+          <li onclick="_smqEvent('首页', '图3：康护一生','大家都在买');TKTracker.send({event:'首页大家都在买',subType:'综合意外',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> <a href="http://m.tk.cn/product/459/S20170422_p.html"><h3> 综合意外 </h3> <p> 大小意外全保 <br>工作、旅游必备 </p><span class="price"><small>￥</small> 60 <span class="trip_size">起</span> <em>&nbsp;</em> </span></a> </li> 
+          <li onclick="_smqEvent('首页', '图3：康护一生','大家都在买');TKTracker.send({event:'首页大家都在买',subType:'住院保',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> <a href="http://m.tk.cn/product/487/S20180024_p.html"><h3> 住院保 </h3> <p> 意外、住院二合， <br>百元即赔 </p><span class="price"><small>￥</small> 269 <span class="trip_size">起</span> <em>&nbsp;</em> </span></a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <script>var liWidth = $(".item-uu li").outerWidth() * 3;
+var space = ($(".item-uu").outerWidth() - liWidth) / 2;
+var itemWidth = $(".main-item").outerWidth() - $(".small-item").outerWidth() - space;
+  $(".big-item").width(itemWidth);</script> 
+      <script src="https://mall.tk.cn/track/recommend/jquery.md5.js"></script> 
+      <script src="https://mall.tk.cn/track/recommend/wapAutoRecommend.js"></script> 
+     </div> 
+    </div> 
+    <!--     爆款推荐 结束        --> 
+    <!--       保单查询 开始         --> 
+    <div class="portlet" _portlet_div_index="portlet_div_301" ref_module="Vb89rS77"> 
+     <div ref_portlet_container="DIV_portlet_div_301"> 
+      <div class="product2018-pro"> 
+       <h2 class="clearfix">热门服务 
+        <!--<a href="#" class="more-txt fr" onclick="_smqEvent(&#39;首页&#39;, &#39;更多&#39;,&#39;热门服务&#39;);TKTracker.send({event:'首页热门服务',subType:'更
+
+多',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})">更多 <em>&nbsp;</em> </a>--></h2> 
+       <div class="serve-item clearfix"> 
+        <ul> 
+         <li><a id="btn_policyQuery1" href="##" onclick="_smqEvent('首页', '保单查询','热门服务');TKTracker.send({event:'首页热门服务',subType:'保单查询',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})">保单查询</a></li> 
+         <li><a id="btn_valueQuery" style="visibility:visible!important;opacity:1!important;" href="http://m.tk.cn/wanneng_gongbu.html" onclick="_smqEvent('首页','净值公布','热门服务');TKTracker.send({event:'首页热门服务',subType:'净值公布',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})">价格公布</a></li> 
+         <li><a id="btn_financialQuery1" href="##" onclick="_smqEvent('首页', '投连收益','热门服务');TKTracker.send({event:'首页热门服务',subType:'投连收益',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})">投连收益</a></li> 
+        </ul> 
+        <div class="serve-item2"> 
+         <a href="http://m.tk.cn/promo/2018index_zzlp" class="serve-dv" id="btn_selfQuery">自助理赔</a> 
+         <a href="javascript:;;" class="serve-dv" id="btn_serveQuery1">续保服务</a> 
+        </div> 
+       </div> 
+       <!-- 保险头条<div class="top-line clearfix"><span class="toper">保险头条</span> <em class="notice ">公告</em> <span class="info">关于泰康在线会员等级调整的ddddd</span><img src="./imgs/top_line_arr.png" class="top_line_arr" alt=""/></div>--> 
+      </div> 
+      <script>/*登录状态按钮事件*/
+$('#btn_login').click(function(){
+    getloginstatus('//m.tk.cn');
+})
+
+$('#btn_policyQuery1').click(function(){
+    setLocVal('baodanFrom','index');
+    _smqEvent('首页', '快捷服务','保单查询');
+    licaiTracker('首页','保单查询');
+    // location.href = '//m.tk.cn/mybaodan.html';
+    getloginstatus('//m.tk.cn/mybaodan.html')
+});
+$('#btn_financialQuery1').click(function(){
+    _smqEvent('首页', '快捷服务','理财收益');
+    licaiTracker('首页','理财收益');
+    setLocVal('financialFrom','index');
+    // location.href = '//m.tk.cn/index_finance.html';
+    getloginstatus('//m.tk.cn/index_finance.html')
+});
+// $('#btn_claimQuery').click(function(){
+//     _smqEvent('首页', '快捷服务','在线理赔');
+//     licaiTracker('首页','在线理赔');
+//     // location.href = '//m.tk.cn/claimEntrance.html';
+//     getloginstatus('//m.tk.cn/claimEntrance.html')
+// });
+     // 续保服务
+$('#btn_serveQuery1').click(function(){
+    _smqEvent('首页', '快捷服务','续保服务');
+    licaiTracker('首页','续保服务');
+    // location.href = '//m.tk.cn/service/xubao/xubao1.html';
+    getloginstatus('//m.tk.cn/service/xubao/xubao1.html')
+});</script> 
+     </div> 
+    </div> 
+    <!--       保单查询 结束         --> 
+    <!--                --> 
+    <div class="hr"></div> 
+    <!--                  --> 
+    <!--        ker头条 开始           --> 
+    <div class="portlet" _portlet_div_index="portlet_div_401" ref_module="y83LJRd1"> 
+     <div ref_portlet_container="DIV_portlet_div_401"> 
+      <div class="product2018-pro"> 
+       <div class="top-line clearfix" onclick="_smqEvent('首页', '保险头条','保险头条')"> 
+        <span class="toper">保险头条</span> 
+        <!--<em class="notice ">公告</em> --> 
+        <style>
+.scrollDiv{height:30px;min-height:30px;line-height:30px;overflow:hidden;margin-left:1rem;margin-bottom:0.2rem;}
+.scrollDiv .info_parent{height:38px;line-height:32px;}
+.product2018-pro .top-line .notice,.product2018-pro .top-line .toper{white-space:nowrap;}
+.mulitline{float:left;}
+</style> 
+        <div class="scrollDiv"> 
+         <div class="mulitline"> 
+          <div class="info_parent"> 
+           <a class="info" href="https://mp.weixin.qq.com/s?__biz=MzIyMzk2MzQyOQ==&amp;mid=2247484354&amp;idx=1&amp;sn=ccb7e0188dc0419e2a546f4f39df076a&amp;chksm=e8177388df60fa9ead6acf4ca276205c87238c89bf843c775633f9bc8cfd4c28b2c67581b940&amp;mpshare=1&amp;scene=1&amp;srcid=0413ExdMg7DdYXTEYMq9HAJf&amp;pass_ticket=jxTiQWA%2FZiNoIZN5hfGSZm7mxmcy0%2FVZPgjy1y10keA%3D#rd" title="【头条】国家安全教育日！">【头条】国家安全教育日！</a> 
+          </div> 
+          <div class="info_parent"> 
+           <a class="info" href="https://m.tk.cn/promo/20180618dx1/" title="保险狂欢节，百万医疗618礼...">保险狂欢节，百万医疗618礼...</a> 
+          </div> 
+          <div class="info_parent"> 
+           <a class="info" href="/wapindex/ker/00057734/" title="关于“泰康盈e生A款年金保险...">关于“泰康盈e生A款年金保险...</a> 
+          </div> 
+          <div class="info_parent"> 
+           <a class="info" href="http://m.tk.cn/insurance/" title="保险百科，手把手教你选保险！">保险百科，手把手教你选保险！</a> 
+          </div> 
+          <div class="info_parent"> 
+           <a class="info" href="http://m.tk.cn/promo/2018newsinfo4 " title="90%人都需要的“经济适用型...">90%人都需要的“经济适用型...</a> 
+          </div> 
+          <div class="info_parent"> 
+           <a class="info" href="http://m.tk.cn/promo/2018newsinfo3" title="爸妈年纪大了，还能买什么保险...">爸妈年纪大了，还能买什么保险...</a> 
+          </div> 
+         </div> 
+        </div> 
+        <a href="/waphome/toutiao" class="more-txt" style="font-size:1.1rem;padding-left:2.5rem;margin-top:0.2rem;"> 更多 <img src="/resource/tkms/wap/newWapIndex/top_line_arr.png" class="top_line_arr" alt=""> </a> 
+        <script type="text/javascript">
+$(document).ready(function(){
+    //多行应用
+    var _wrap=$('.mulitline');//定义滚动区域
+    var _interval=3000;//定义滚动间隙时间
+    var _moving;//需要清除的动画
+    _wrap.hover(function(){
+        clearInterval(_moving);//当鼠标在滚动区域中时,停止滚动
+    },function(){
+       _moving=setInterval(function(){
+            var _field=_wrap.find('.info_parent:first');//此变量不可放置于函数起始处,li:first取值是变化的
+            var _h=_field.height();//取得每次滚动高度
+            _field.animate({marginTop:-_h+'px'},600,function(){//通过取负margin值,隐藏第一行
+                _field.css('marginTop',0).appendTo(_wrap);//隐藏后,将该行的margin值置零,并插入到最后,实现无缝滚动
+            })
+        },_interval)//滚动间隔时间取决于_interval
+    }).trigger('mouseleave');//函数载入时,模拟执行mouseleave,即自动滚动
+});
+</script> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <!--         ker头条 结束          --> 
+    <!--                --> 
+    <div class="hr"></div> 
+    <!--                        --> 
+    <!--         0元秒杀 小白买保险 开始       --> 
+    <div class="portlet" _portlet_div_index="portlet_div_501" ref_module="9h3JDXfe"> 
+     <div ref_portlet_container="DIV_portlet_div_501"> 
+      <div class="product2018-item" onclick="_smqEvent('首页', '少儿综合意外','宝贝');TKTracker.send({event:'首页父母',subType:' 孝心保·老年防癌',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> 
+       <h3> 父母<span> &nbsp;给父母最好的礼物</span> </h3> 
+       <a href="http://m.tk.cn/product/426/S20170517_p.html" class="pro-item" style="background: #F1EAE5"><h6> 孝心保·老年防癌 </h6> <p> 80岁三高也能投 </p><span class="price"><small>￥</small> 1108 <span style="font-size:0.8rem;">起</span></span> <img src="/resource/tkms/wap/image/article_img/20180417172725905.jpg" class="pro_item" alt=""> </a> 
+      </div> 
+      <div class="product2018-item" onclick="_smqEvent('首页', '少儿综合意外','宝贝');TKTracker.send({event:'首页为自己',subType:' 住院保',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> 
+       <h3> 为自己<span> &nbsp;住院医疗有补充</span> </h3> 
+       <a href="https://m.tk.cn/product/487/S20180024_p.html" class="pro-item" style="background: #E4E9F3"><h6> 住院保 </h6> <p> 意外+住院全包含 </p><span class="price"><small>￥</small> 269 <span style="font-size:0.8rem;">起</span></span> <img src="/resource/tkms/wap/image/article_img/20180612183308178.jpg" class="pro_item" alt=""> </a> 
+      </div> 
+      <div class="product2018-item" onclick="_smqEvent('首页', '少儿综合意外','宝贝');TKTracker.send({event:'首页为自己',subType:' 重疾保',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> 
+       <h3> 为自己<span> &nbsp;重疾轻症全包含</span> </h3> 
+       <a href="http://m.tk.cn/product/457/S20180048_p.html" class="pro-item" style="background: #E4E9F3"><h6> 重疾保 </h6> <p> 70种重疾+10种轻症 </p><span class="price"><small>￥</small> 45 <span style="font-size:0.8rem;">起</span></span> <img src="/resource/tkms/wap/image/article_img/20180417172741415.jpg" class="pro_item" alt=""> </a> 
+      </div> 
+      <div class="product2018-item" onclick="_smqEvent('首页', '少儿综合意外','宝贝');TKTracker.send({event:'首页宝贝',subType:' 少儿综合意外',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> 
+       <h3> 宝贝<span> &nbsp;全年保障，放心、更安心</span> </h3> 
+       <a href="http://m.tk.cn/product/wap/S20160114.html" class="pro-item" style="background: #E5F0EE"><h6> 少儿综合意外 </h6> <p> 熊孩子必备 </p><span class="price"><small>￥</small> 118 <span style="font-size:0.8rem;">起</span></span> <img src="/resource/tkms/wap/image/article_img/20180417172752074.jpg" class="pro_item" alt=""> </a> 
+      </div> 
+      <div class="product2018-item" onclick="_smqEvent('首页', '少儿综合意外','宝贝');TKTracker.send({event:'首页为宝贝',subType:' 全能保（少儿版）',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> 
+       <h3> 为宝贝<span> &nbsp;熊孩子的全能保单</span> </h3> 
+       <a href="http://m.tk.cn/product/494/S20180137_p.html" class="pro-item" style="background: #E5F0EE"><h6> 全能保（少儿版） </h6> <p> 重疾+轻症+意外+医疗 </p><span class="price"><small>￥</small> 321 <span style="font-size:0.8rem;">起</span></span> <img src="/resource/tkms/wap/image/article_img/20180613142725476.jpg" class="pro_item" alt=""> </a> 
+      </div> 
+     </div> 
+    </div> 
+    <!--          0元秒杀 小白买保险 结束            --> 
+    <!--     精选 开始        --> 
+    <div class="hr"></div> 
+    <article class="treasure"> 
+     <div class="portlet" _portlet_div_index="portlet_div_601" ref_module="Q2ipuqy5"> 
+      <div ref_portlet_container="DIV_portlet_div_601"> 
+       <div class="product2018-pro"> 
+        <h2 class="clearfix"> 资讯<a href="/waphome/zixun" class="more-txt fr" onclick="_smqEvent('资讯', '更多','首页');TKTracker.send({event:'首页资讯',subType:'查看全部',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})">查看全部 <em>&nbsp;</em></a> </h2> 
+        <div class="information"> 
+         <a href="https://mp.weixin.qq.com/s?__biz=MzIyMzk2MzQyOQ==&amp;mid=2247484265&amp;idx=1&amp;sn=ffcb11f4cde6a419d9a51380865119e7&amp;chksm=e8177323df60fa357a41d3287229586ebac5dfc95777c5ed0cd693d830ab2a481417c6fbff60&amp;mpshare=1&amp;scene=1&amp;srcid=0302PsiaNKBxEmFTwZUuirpC&amp;pass_ticket=YNsaLz91WVKULm2Q6f%2FMc%2B1sYO3%2BrjQvkhfzBA01MQw%3D#rd" class="information-tip" onclick="_smqEvent('首页', '图文','资讯');TKTracker.send({event:'首页资讯',subType:'陈东升：致敬这个伟大的时代',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})" style="background:url('/resource/tkms/wap/image/article_img/20180416151916092.jpg') no-repeat center; background-size:100% 100%;height:12.8rem;width:100%;"> <span class="bottomer">陈东升：致敬这个伟大的时代</span> </a> 
+         <a href="https://mp.weixin.qq.com/s?__biz=MzA3MDM0ODIxNQ==&amp;mid=2651192245&amp;idx=1&amp;sn=a025a06011d02c4e58accfa1f5ef3da4&amp;chksm=84cf676db3b8ee7b00a28841b7385181db43974d28f3d989f1ca14200a2ab0bd2d13b2448205&amp;mpshare=1&amp;scene=1&amp;srcid=0115YNoIKErkRcu8Cmde1Oft&amp;pass_ticket=Z8E6eQVkarP7m%2B6SWOnbW0MqNLZ7Jg8b16o2H%2FBY3Cw%3D#rd" class="clearfix info-mes" onclick="_smqEvent('首页', '图文','资讯');TKTracker.send({event:'首页资讯',subType:'泰康集团陈东升董事长2018年新年致辞',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> <p class="fl mes-p">泰康集团陈东升董事长2018年新年致辞</p> 
+          <div class="info-image fr"> 
+           <img src="/resource/tkms/wap/image/article_img/20180416164812460.jpg" alt=""> 
+          </div> </a> 
+         <a href="https://mp.weixin.qq.com/s?__biz=MzIyMzk2MzQyOQ==&amp;mid=2247483928&amp;idx=1&amp;sn=6cd57002aaa501190f02982e366dd974&amp;chksm=e8177252df60fb440dc78d1ceb407225e0874ade0d0f8a2a28c879458073343e7ef9fcd07375&amp;mpshare=1&amp;scene=1&amp;srcid=1211JwXJHdOXjLB9jzx5Mq7I&amp;pass_ticket=r2iRw6POvm3QllNnrOk3xkpfWwvyLE0SkKR8lcX7R5E%3D#rd" class="clearfix info-mes" onclick="_smqEvent('首页', '图文','资讯');TKTracker.send({event:'首页资讯',subType:'泰康在线亮相乌镇世界互联网大会',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> <p class="fl mes-p">泰康在线亮相乌镇世界互联网大会</p> 
+          <div class="info-image fr"> 
+           <img src="/resource/tkms/wap/image/article_img/20180416171610323.jpg" alt=""> 
+          </div> </a> 
+         <a href="https://mp.weixin.qq.com/s?__biz=MzIyMzk2MzQyOQ==&amp;mid=2247483775&amp;idx=1&amp;sn=55d0b5681d6eb33b36928ffbaa765856&amp;chksm=e8177135df60f823a1bb7c18e8601dee720fbea2fe5cad3f53bb47a84fd5f90fa4b4452d3d2d&amp;mpshare=1&amp;scene=1&amp;srcid=1103RTFTyaI6EvqNsSQp8plH&amp;pass_ticket=08HZ%2B7K%2BI%2FgBGahdpHMKrMPbNId82YpUSVyWxzbLSrc%3D#rd" class="clearfix info-mes" onclick="_smqEvent('首页', '图文','资讯');TKTracker.send({event:'首页资讯',subType:'泰康在线推出新产品—微医保',label:{lrt_id:'',lrtName:'',classifyName:'',productId:'',productName:'',fromId:''}})"> <p class="fl mes-p">泰康在线推出新产品—微医保</p> 
+          <div class="info-image fr"> 
+           <img src="/resource/tkms/wap/image/article_img/20180416171628657.jpg" alt=""> 
+          </div> </a> 
+        </div> 
+       </div> 
+       <div style="height:5rem;"></div> 
+      </div> 
+     </div> 
+     <div class="info" style="padding-top: 0;"> 
+      <div class="treasure_rm treasure_div portlet" _portlet_div_index="portlet_div_701" ref_module="R8va51yD"> 
+       <div ref_portlet_container="DIV_portlet_div_701"> 
+        <style>/*新手指引*/
+.guide {box-sizing:border-box;padding-top:1rem;}
+.guide .btn-i-know {width:6.9rem;}
+.guide1 {position:absolute;width:100%; left:0;top:0;z-index: 9999;text-align:center;}
+.guide1 .guide1_im1 {width:16.3rem;height:2.9rem;position:absolute;right:5rem;top:1rem;}
+.guide1 .guide1_im2 {width:18.2rem;position:absolute;right:20%;margin-left:-9.1rem;top:5rem;}
+.guide1 .btn-i-know {width:6.9rem;position:absolute;left:50%;margin-left:-3.45rem;top:14rem;}
+/*2*/
+.guide2 {position:absolute;width:100%; left:0;top:18rem;z-index: 9999;text-align:center;}
+.guide2 .guide2_im1 {width:30rem;position:absolute;left:50%;margin-left:-15rem;}
+.guide2 .guide2_im2 {width:29rem;position:absolute;left:50%;margin-left:-15rem;top:23rem;}
+.guide2 .btn-i-know {width:6.9rem;position:absolute;left:50%;margin-left:-3.45rem;top:29rem;}
+/*3*/
+.guide3 {position:absolute;width:100%; left:0;top:46rem;z-index: 9999;text-align:center;}
+.guide3 .guide3_im1 {width:30rem;position:absolute;left:50%;margin-left:-15rem;}
+.guide3 .guide3_im2 {width:17.55rem;position:absolute;left:50%;margin-left:-8.775rem;top:11rem;}
+.guide3 .btn-i-know {width:6.9rem;position:absolute;left:50%;margin-left:-3.45rem;top:20rem;}
+/*4*/
+.guide4 {position:absolute;width:100%; left:0;top:79rem;z-index: 9999;text-align:center;}
+.guide4 .guide4_im1 {width:30rem;position:absolute;left:50%;margin-left:-15rem;}
+.guide4 .guide4_im2 {width:22rem;position:absolute;left:50%;margin-left:-11rem;top:19rem;}
+.guide4 .btn-i-know {width:6.9rem;position:absolute;left:50%;margin-left:-3.45rem;top:28rem;}
+
+  #mask{ width:100%; background:rgba(0,0,0,0.7); position:absolute; left:0; top:0; z-index:9996; display:block;}
+.appointbox{ background:#FFF7AB; padding:3rem 0 0; height:32rem; top:8rem;}</style> 
+        <!--新手指导--> 
+        <div class="guide guide1 hide"> 
+         <img src="/resource/tkms/wap/newWapIndex/guide1_im1.jpg" class="guide1_im1 guide_p" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/guide1_im2.png" class="guide1_im2" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/btn_next.png" class="btn-i-know btn_know1 " alt=""> 
+        </div> 
+        <div class="guide guide2 hide"> 
+         <img src="/resource/tkms/wap/newWapIndex/guide2_im1.jpg" class="guide2_im1 guide_p" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/guide2_im2.png" class="guide2_im2" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/btn_next.png" class="btn-i-know btn_know2 " alt=""> 
+        </div> 
+        <div class="guide guide3 hide"> 
+         <img src="/resource/tkms/wap/newWapIndex/guide3_im1.jpg" class="guide3_im1 guide_p" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/guide3_im2.png" class="guide3_im2" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/btn_next.png" class="btn-i-know btn_know2 " alt=""> 
+        </div> 
+        <div class="guide guide4 hide"> 
+         <img src="/resource/tkms/wap/newWapIndex/guide4_im1.jpg" class="guide4_im1 guide_p" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/guide4_im2.png" class="guide4_im2" alt=""> 
+         <img src="/resource/tkms/wap/newWapIndex/btn_next.png" class="btn-i-know btn_know2 " alt=""> 
+        </div> 
+        <script>$(function(){
+  
+  //  try {
+  // if (!localStorage.getItem('maskTime12')) {
+  //    guideFn ()
+  //    localStorage.setItem('maskTime12','on')
+  //      } else {
+  //          $('.guide').hide();
+  //      }
+  //} catch (e) {
+  //  $('.guide1').hide();
+  //}
+
+
+        function guideFn (){
+            var oMask=$('<div id="mask"></div>').css({'width':$(document).width(),'height':$(document).height()}).appendTo($('body'));
+            var  oGuidePositon =   $('.guide_p'),
+                    oBtnNext = $('.guide .btn-i-know'),
+                    oGuide = $('.guide');
+            oMask.css({'width':$(document).width(),'height':$(document).height()})
+              
+              
+
+            oBtnNext.on('click',function(){
+                var oThat =  oBtnNext.index(this);
+                if(oThat < 3){ //导向个数
+                    oGuide.hide().eq(oThat+1).show();
+//                    $(window).scrollTop(oGuidePositon.eq(oThat+1).offset().top-100);
+                    $('html, body').animate({ scrollTop: oGuidePositon.eq(oThat+1).offset().top-50}, 500);
+                    return false;
+                }else if (oThat == 3){
+//                    $(window).scrollTop(0);
+                    oGuide.hide()
+                    $('html, body').animate({ scrollTop: 0}, 500);
+                    oMask.remove();
+                }
+            })
+        }
+
+})</script> 
+       </div> 
+      </div> 
+      <div class="treasure_lc treasure_div portlet hide" _portlet_div_index="portlet_div_801">  
+      </div> 
+      <div class="treasure_jk treasure_div portlet hide" _portlet_div_index="portlet_div_901">  
+      </div> 
+      <div class="treasure_yw treasure_div portlet hide" _portlet_div_index="portlet_div_1001">  
+      </div> 
+      <div class="treasure_cc treasure_div portlet hide" _portlet_div_index="portlet_div_1101">  
+      </div> 
+     </div> 
+    </article> 
+    <!--         精选结束           --> 
+    <!--       中部轮播开始           --> 
+    <div class="hr"></div> 
+    <div class="portlet" _portlet_div_index="portlet_div_1201">  
+    </div> 
+    <!--         中部轮播结束            --> 
+    <!--        达人说 开始          --> 
+    <div class="hr"></div> 
+    <div class="portlet" _portlet_div_index="portlet_div_1301">  
+    </div> 
+    <!--         达人说结束              --> 
+    <!-- 大数据推荐 开始 --> 
+    <div class="hr"></div> 
+    <div class="portlet" _portlet_div_index="portlet_div_1401">  
+    </div> 
+    <!-- 大数据推荐 结束 --> 
+    <!--        泰有范 开始          --> 
+    <div class="hr"></div> 
+    <div class="portlet" _portlet_div_index="portlet_div_1501">  
+    </div> 
+    <!--         泰有范 结束            --> 
+    <!--          foot 开始            --> 
+    <div class="hr"></div> 
+    <!--          foot  结束         --> 
+   </div> 
+   <div class="shch_w"> 
+    <div id="shch_top" class="shch_top column" name="commonFoot" runat="server"> 
+      
+    </div> 
+   </div> 
+  </section> 
+  <!-- 底部导航  开始 --> 
+  <div class="navHeight"> 
+   <div class="portlet" _portlet_div_index="portlet_div_1601" ref_module="uHC62n6L"> 
+    <div ref_portlet_container="DIV_portlet_div_1601"> 
+     <nav class="main-menu"> 
+      <a href="index.html" class="active"><p class="ico ico-menu1"></p>首页</a> 
+      <a href="/malltk/"><p class="ico ico-menu2"></p>保险</a> 
+      <a href="/health/"><p class="ico ico-menu3"></p>健康</a> 
+      <a href="/financial/"><p class="ico ico-menu4"></p>财富</a> 
+      <a id="loginpage"><p class="ico ico-menu5"></p>我的</a> 
+     </nav> 
+     <div id="mask" style="height:100%; position: fixed;display:none;"></div> 
+     <div class="dialog3 dialog-code3"> 
+      <img src="/resource/tkms/wap/wap_images/index_03.gif" style="width:82%" class="pic_link"> 
+      <a class="close"></a> 
+     </div> 
+     <ul class="barrage"></ul> 
+     <!--弹幕--> 
+    </div> 
+   </div> 
+   <div> 
+    <!-- 底部导航 结束--> 
+    <div id="mask" style="height:100%; position: fixed;display:none;"></div> 
+    <div class="dialog3 dialog-code3"> 
+     <img src="/resource/tkms/wap/wap_images/index_03.gif" style="width:82%" class="pic_link"> 
+     <a class="close"></a> 
+    </div> 
+    <ul class="barrage"></ul> 
+    <!--弹幕--> 
+    <script src="/resource/tkms/wap/js/swiper.min.js"></script> 
+    <!--<script src="/resource/tkms/wap/js/wap_data.js"></script>--> 
+    <script src="/resource/tkms/wap/js/wap_public.js"></script> 
+    <script>
+$(function(){
+	getloginstatus();
+	//getheadImgdata();
+	//getadImgdata();
+	//common.init();
+//aaa();
+	/*setTimeout(function(){
+		var opendialog = sessionStorage.getItem("dialogIndex");
+		if(opendialog != "opened"){
+			dialog();
+		}
+	},1000);*/
+	loadTracker('H5', 'clue_H5_website_001', function() {
+    // 执行 TKTracker 的 send() 方法，开始行为跟踪
+	    TKTracker.send({
+	        userId:getLocVal("memberid")?getLocVal("memberid"):"",
+	        event:'index首页'
+	     });
+	});
+	$('.close-ad').on('click',function(){
+		$(this).parent().remove();	
+	});
+	//秒杀倒计时
+	setInterval(function() { 
+    	getCountDownTime(); 
+    }, 1000);
+    //分享文案
+    var fTitle = '泰康在线移动官网'; //分享标题
+	var fDesc = '互联网保险专家，助你任性保无忧、享健康、赚大钱！'; //分享描述
+	var fImgurl = location.origin + '/wap_images/sharepic/indexshare.jpg'; //分享给朋友图片链接
+	var fcImgurl = location.origin + '/wap_images/sharepic/indexshare.jpg'; //分享到朋友圈图片链接
+	var pageUrl = location.href.split('#')[0];
+	var fLink = location.origin;
+    loadingsharejs(fTitle,fDesc,fImgurl,fcImgurl,pageUrl,fLink);
+})
+
+/*理财弹窗
+function dialog(){
+	var $mask=$('#mask');
+	var $dialog;
+	$dialog=$('.dialog3');
+	$mask.height($(document).height()).fadeIn(100);
+	$dialog.addClass('animate');
+
+	$('.dialog3').find('.pic_link').click(function(){
+		window.sessionStorage.setItem("dialogIndex","opened");
+		location.href = "http://m.tk.cn/promo/201612lc1/";
+		_smqEvent('首页', '12月理财活动弹窗','查看详情');
+	})
+
+	$('.dialog3').find('.close').click(function(){
+		window.sessionStorage.setItem("dialogIndex","opened");
+		$mask.fadeOut(100);
+		$(this).hide().parent().removeClass('animate');
+		$(document).off('touchmove');
+		_smqEvent('首页', '12月理财活动弹窗','关闭');
+	})
+}
+*/
+/*秒杀倒计时*/
+function getCountDownTime(){
+	var NowTime = new Date();
+	var endDate = new Date(NowTime.getFullYear(), NowTime.getMonth(), NowTime.getDate(), "23", "59", "59");
+	var leftTime = endDate.getTime() - NowTime.getTime();
+	var leftsecond = parseInt(leftTime / 1000);
+    var hour = Math.floor((leftsecond) / 3600) < 10 ? "0" + Math.floor((leftsecond) / 3600) : Math.floor((leftsecond) / 3600);
+    var minute = Math.floor((leftsecond - hour * 3600) / 60) < 10 ? "0" + Math.floor((leftsecond - hour * 3600) / 60) : Math.floor((leftsecond - hour * 3600) / 60);
+    var second = Math.floor(leftsecond - hour * 3600 - minute * 60) < 10 ? "0" + Math.floor(leftsecond - hour * 3600 - minute * 60) : Math.floor(leftsecond - hour * 3600 - minute * 60);
+    $('#countdown').html('<span>'+hour+'</span>:<span>'+minute+'</span>:<span>'+second+'</span>');
+}
+
+function loginBack(backUrl) {
+	getSingleLogin({
+		loginSuccess:function(info){
+			$('#btn_login').hide();
+			location.href = backUrl;
+		}
+	});
+}
+
+/*判断登陆状态*/
+function getloginstatus(locationUrl){
+	var date = new Date();
+    var url = wap_Url + "service/member?function_code=checkLoginStatus&" + date.getTime();
+    $.ajax({  
+        type:"post",
+        url:url,  
+        dataType:"json",
+        error : function(e) {
+
+        },
+        success: function(data){
+            if(data.result == '0000'){
+            	// yesloginClick();
+            	
+				$('#loginpage').click(function(){
+					//location.href = '//m.tk.cn/huiyuan.html';
+                                        location.href = '//m.tk.cn/my_module/my_module.html';
+				});
+
+				$('#btn_login').addClass("login_head")
+				$('#btn_login').text('');
+				//$('#btn_login').attr('href',"//m.tk.cn/huiyuan.html");
+				$('#btn_login').attr('href',"//m.tk.cn/my_module/my_module.html");
+				if (locationUrl) {
+					location.href = locationUrl;
+				}
+            }else{
+				// notloginClick();
+				
+				$('#loginpage').click(function(){
+					//location.href = '//m.tk.cn/person.html';
+                                         location.href = '//m.tk.cn/my_module/my_module.html';
+				});
+
+				$('#btn_login').removeClass("login_head");
+				$('#btn_register').text('注册');
+				$('#btn_login').show();
+
+				if (locationUrl) {
+					loginBack(locationUrl);
+				}
+            }
+        }
+    });
+}
+
+/*head轮播图
+function getheadImgdata(){
+	var url="/get?key=820docId";
+	$.ajax({
+		type:"POST",
+		url:url,  
+		dataType:"text",
+		success:function(data){
+			var dataStr= "[" + data.split("[")[1];
+			dataStr = JSON.parse(dataStr);
+			var imgStr = "";
+			for(var i=0;i<dataStr.length;i++){
+				 imgStr += '<div class="swiper-slide"><a href="'+dataStr[i].openFunction+'"><img src="'+dataStr[i].url+'"  onclick="_smqEvent(\'首页\', \'轮播图\','+(i+1)+')"></a></div>';
+			}
+			$(".swiper-focus").find('.swiper-wrapper').html(imgStr);
+			common.swiper.Focus();
+		},
+		error:function(){
+			var imgStr = '<div class="swiper-slide"><a href="http://m.tk.cn/promo/201608lc2/"><img src="images/focus_pic1.jpg"></a></div>';
+			$(".swiper-focus").find('.swiper-wrapper').html(imgStr);
+			common.swiper.Focus();
+		}
+	});	
+}
+*/
+/*ad轮播图
+function getadImgdata(){
+	var url="/get?key=804docId";  //测试804  生产：待定
+	$.ajax({
+		type:"POST",
+		url:url,  
+		dataType:"text",
+		success:function(data){
+			var dataStr= "[" + data.split("[")[1];
+			dataStr = JSON.parse(dataStr);
+			var imgStr = "";
+			for(var i=0;i<dataStr.length;i++){
+				 imgStr += '<div class="swiper-slide"><a href="'+dataStr[i].openFunction+'"><img src="'+dataStr[i].url+'" onclick="_smqEvent(\'首页\', \'轮播图\','+(i+1)+')"></a></div>';
+			}
+			$(".swiper-ad").find('.swiper-wrapper').html(imgStr);
+			common.swiper.Ad();
+		},
+		error:function(){
+			var imgStr = '<div class="swiper-slide"><a href="http://m.tk.cn/promo/2016ylsq/index.html"><img src="images/ad_pic1.jpg">';
+			$(".swiper-ad").find('.swiper-wrapper').html(imgStr);
+			common.swiper.Ad();
+		}
+	});	
+}*/
+var focusSwiper;
+var adSwiper;
+var treasureSwiper;
+$(document).ready(function(){
+   var longTime=200;
+   var mytimer = null;
+	
+mytimer = window.setInterval(startRunFocus,longTime);
+
+function startRunFocus(){
+var swiperfocus=$('.swiper-focus');
+if(swiperfocus && swiperfocus.length>0){
+   window.clearInterval(mytimer);
+   focusSwiper=new Swiper('.swiper-focus',{
+			pagination:'.swiper-pagination-focus',
+			paginationClickable: true,
+			autoplay:4000,
+			autoplayDisableOnInteraction : false,
+                        parallax:true
+		});
+ }
+}
+
+ var adTimer = window.setInterval(startRunAd,longTime);
+function startRunAd(){
+var swiperad=$('.swiper-ad');
+if(swiperad && swiperad.length>0){
+   window.clearInterval(adTimer);
+   adSwiper=new Swiper('.swiper-ad',{
+			pagination:'.swiper-pagination-ad',
+			paginationClickable: true,
+                        parallax:true
+  });
+ }
+}
+
+var jingxuanTimer= window.setInterval(startRunJingxuan,longTime);
+function startRunJingxuan() {
+var treasure = $(".swiper-treasure");
+if(treasure && treasure.length > 0) {
+console.log("1111");
+window.clearInterval(jingxuanTimer);
+treasureSwiper=new Swiper('.swiper-treasure',{
+			slidesPerView:3.2,
+			freeMode:true,
+			observer:true
+		});
+}
+}
+
+var guessTimer= window.setInterval(startRunGuess,longTime);
+function startRunGuess() {
+var treasure1 = $(".swiper-treasure1");
+if(treasure1 && treasure1.length > 0) {
+window.clearInterval(guessTimer);
+var guess = new Swiper('.swiper-treasure1',{
+			slidesPerView:3.2,
+			freeMode:true,
+			observer:true
+		});
+}
+}
+
+});
+
+function setNav(tabName,tabValue) {
+  _smqEvent('首页', '精选保贝',tabName);
+  $('.treasure div.treasure_div').addClass('hide');
+  $('.treasure-nav a').removeClass('active');
+  $('.treasure div.treasure_'+tabValue).removeClass('hide');
+  $('a[data-name='+tabValue+']').addClass('active');
+var treasureSwiper=new Swiper('.'+tabValue,{
+			slidesPerView:3.2,
+			//spaceBetween:10,
+			freeMode:true,
+			observer:true
+		});
+}
+
+</script> 
+    <script src="/resource/tkms/wap/js/reference.js"></script> 
+   </div> 
+  </div>  
+ 
+<div id="mask" style="height:2500px!important;"></div><div class="newad" style="width:24rem;position:fixed;left:50%;top:40%;margin:-14rem 0 0 -12rem;z-index:100001;"><a href="http://m.tk.cn/product/mobile/v3/present/index.html?productId=S20180088"><img src="http://m.tk.cn/resource/tkms/wap/wap-images/zeng16Waptan.jpg" style="width:100%;display:block;border-radius:4px;"></a><span class="newad-close" style="background:url(/resource/tkms/wap/newWapIndex/close.png) no-repeat;background-size:contain;width:2.6rem;height:2.6rem;position:absolute;right:42%;bottom:-65px;"></span></div></body></html>

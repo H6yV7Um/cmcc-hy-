@@ -1,0 +1,41 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta name="author" content="zhouyunlong">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>3周年初心不忘</title>
+    <meta name="keywords" content="3周年初心不忘">
+    <meta name="description" content="3周年初心不忘">
+    <meta name="renderer" content="webkit">
+    <link href="//image.tanwan.com/m/platform/3year/css/style.css" rel="stylesheet" type="text/css">
+    <base target="_self">
+</head>
+<body>
+<!--[if lt IE 7]>
+<div id="js-ie-tips" style="display:block;position:absolute;left:0;top:0;width:100%;height:50px;background:#2fc1c6;text-align:center;line-height:50px;font-size:18px;z-index: 2048;">
+    <a style="color:#fff;text-decoration:underline;" href="https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads" target="_blank">当前的浏览器版本过低，可能会影响本网页浏览，建议升级到最新版本。</a>
+    <a href="javascript:;" style="color:#fff;" id="js-ie-tips-close" onclick="(function () {document.getElementById('js-ie-tips').style.display = 'none';})()">×</a>
+</div>
+<![endif]-->
+<div class="wrap">
+    <a href="http://m.tanwan.com/" class="logo">贪玩手戏</a>
+    <a href="http://m.tanwan.com/" class="start">进入官网</a>
+    <div id="J_parallax" style="position: relative; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;">
+        <div class="layer" data-depth="0.50" style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden;"><div class="xz"></div></div>
+    </div>
+</div>
+
+<script src="//image.tanwan.com/jsCommon/jquery-1.11.2.min.js"></script>
+<script src="//image.tanwan.com/jsCommon/jquery.parallax.js"></script>
+<script type="text/javascript">
+    $('#J_parallax').parallax({
+        invertX: true,
+        invertY: true,
+        limitX: 500,
+        limitY: 1000,
+    });
+</script>
+<div style="display:none">
+    <script src="http://s95.cnzz.com/z_stat.php?id=1257073416&amp;web_id=1257073416" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=1257073416&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1257073416" target="_blank" title="站长统计">站长统计</a>
+</div>
+
+</body></html>

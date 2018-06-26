@@ -1,0 +1,2521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html lang="en-US" class="js"><head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2012                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="text/javascript" http-equiv="Content-Script-Type"><meta content="text/css" http-equiv="Content-Style-Type"><meta id="MetaDescription" name="DESCRIPTION" content="View Andor's range of cameras for astronomy, including our EMCCD, sCMOS and CCD solutions."><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN"><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright [year] by DotNetNuke Corporation"><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke "><meta id="MetaAuthor" name="AUTHOR" content="Andor"><meta name="RESOURCE-TYPE" content="DOCUMENT"><meta name="DISTRIBUTION" content="GLOBAL"><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW"><meta name="REVISIT-AFTER" content="1 DAYS"><meta name="RATING" content="GENERAL"><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)"><meta name="msvalidate.01" content="89078AF53A679CB58B4797E2417B4A18"><meta name="baidu-site-verification" content="yRTe29wXKK"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><meta name="msvalidate.01" content="6242D65B3B828BF65D848C2414674122"><link rel="stylesheet" type="text/css" href="/portals/_default/Skins/andor/slick.css"><link rel="stylesheet" type="text/css" href="/portals/_default/Skins/andor/slick-theme.css"><style id="StylePlaceholder" type="text/css">     
+    </style><link href="/Portals/_default/default.css?cdv=359" type="text/css" rel="stylesheet"><link href="/Portals/_default/Skins/andor/skin.css?cdv=359" type="text/css" rel="stylesheet"><link href="/Portals/_default/Containers/DarkKnight/container.css?cdv=359" type="text/css" rel="stylesheet"><link href="/admin/ControlPanel/module.css?cdv=359" type="text/css" rel="stylesheet"><link href="/Portals/_default/Skins/_default/WebControlSkin/Default/ComboBox.Default.css?cdv=359" type="text/css" rel="stylesheet"><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js"></script><script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=359" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=359" type="text/javascript"></script><link id="Styles1" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/andor/button.css"><link id="Styles2" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/andor/css.css"><link id="Styles5" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/andor/homepage.css"><link id="Styles6" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/andor/topmenu.css"><link id="Styles8" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/andor/footer.css"><link id="Styles9" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/andor/cameras.css"><link id="Styles10" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/andor/product.css">
+    <!--[if IE]>
+    <link type="text/css" href="/Portals/_default/Skins/andor/skin_ie.css" rel="stylesheet" />
+    <![endif]-->
+	<script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "logo": "http://www.andor.com/images/andor_logo.png",
+      "name" : "Andor Technology",
+      "url" : "http://www.andor.com",
+      "sameAs" : [ "https://www.facebook.com/AndorTech",
+        "https://twitter.com/AndorTechnology",
+        "https://plus.google.com/u/0/+AndorTech/posts?hl=en",
+        "https://www.linkedin.com/company/andor-technology"] 
+    }
+    </script>
+    <script type="text/javascript">
+        if (typeof jQuery != 'undefined') {
+            jQuery(document).ready(function ($) {
+                var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
+                var baseHref = '';
+                if (jQuery('base').attr('href') != undefined)
+                    baseHref = jQuery('base').attr('href');
+                jQuery('a').each(function () {
+                    var href = jQuery(this).attr('href');
+                    if (href && (href.match(/^https?\:/i)) && (!href.match(document.domain))) {
+                        jQuery(this).click(function () {
+                            var extLink = href.replace(/^https?\:\/\//i, '');
+                            _gaq.push(['_trackEvent', 'External', 'Click', extLink]);
+                            if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                                setTimeout(function () { location.href = href; }, 200);
+                                return false;
+                            }
+                        });
+                    }
+                    else if (href && href.match(/^mailto\:/i)) {
+                        jQuery(this).click(function () {
+                            var mailLink = href.replace(/^mailto\:/i, '');
+                            _gaq.push(['_trackEvent', 'Email', 'Click', mailLink]);
+                        });
+                    }
+                    else if (href && href.match(filetypes)) {
+                        jQuery(this).click(function () {
+                            var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                            var filePath = href;
+                            _gaq.push(['_trackEvent', 'Main Content', 'Click-' + extension, filePath]);
+                            _gaq.push(['_trackPageview', filePath]);
+                            //                        if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                            //                            setTimeout(function () { location.href = baseHref + href; }, 200);
+                            //                            return false;
+                            //                        }
+                        });
+                    }
+                });
+            });
+        }
+
+        //$(function () { $("[id$='Username_registerLink']").attr("href", "http://www.andor.com/my/user/Account.aspx"); });
+        // above script is to redirect View Profile link into MyAndor
+
+    </script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-55534-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+
+        function ShowPdfModal(elem) {
+            var url = $(elem).attr("pdfurl");
+            $('#basic-modal-content-pdf-dynamic iframe')[0].src = url;
+            $('#basic-modal-content-pdf-dynamic').css('height', $(window).height() * 0.8);
+            $('#basic-modal-content-pdf-dynamic').css('width', $(window).width() * 0.8);
+            _gaq.push(['_setAccount', 'UA-55534-1']);
+            _gaq.push(['_trackEvent', 'Camera Filter Sidebar', 'Click-pdf', url]);
+            _gaq.push(['_trackPageview', url]);
+
+
+            $.ajax({
+                type: "POST",
+                url: "/ProductFilterService.asmx/LogPdfOpened",
+                data: '{rawUrl : "' + url + '"}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json"
+            });
+
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) && url) {
+                window.open(url);
+            }
+            else {
+                $('#basic-modal-content-pdf-dynamic').modal();
+                $("#basic-modal-content-pdf-dynamic .basic-modal-open").click(function () { window.open($('#basic-modal-content-pdf-dynamic iframe')[0].src) });
+                $("#basic-modal-content-pdf-dynamic .basic-modal-copy").zclip({
+                    path: "/js1/zclip/ZeroClipboard.swf",
+                    copy: function () { return $('#basic-modal-content-pdf-dynamic iframe')[0].src; }
+                });
+            }
+            return false;
+        }
+    </script>  
+
+    <!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }; if (!f._fbq) f._fbq = n;
+        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    } (window,
+document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '395081280877191'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+</script>
+<noscript>&lt;img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=395081280877191&amp;ev=PageView&amp;noscript=1"
+/&gt;</noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<script type="text/javascript">
+    $('#dnn_pricequote_BtnSendForm').click(function () {
+        fbq('track', 'AddToCart', {
+        });
+    });
+</script>
+
+    <meta name="google-site-verification" content="MUwC0Em-p3g0UmSaa60KZffo6B5oOV9oqJszvpAKx6g">
+    <style type="text/css">
+        a.pdfmodal
+        {
+            cursor: pointer;
+            color: Blue;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write("<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>" + "</sc" + "ript>"); 
+</script><script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script> 
+
+<meta name="description" content="Andor Cameras for Astronomy"><title>
+	Andor | Cameras for Astronomy
+</title></head>
+<body id="Body">
+    <form name="Form" method="post" action="/astronomy" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="">
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value=";;System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35:en:eb198dbd-2212-44f6-bb15-882bde414f00:ea597d4b:b25378d2">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=3MqGSmegqNiRU5xap-xiRm_bHYxdM3_MFN6Fo0BrcCVpKR3seBWuTXIrdsWYJsFzl2A-6LMIOwa0YR5V0&amp;t=636271707501517547" type="text/javascript"></script>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d3.5.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3aeb198dbd-2212-44f6-bb15-882bde414f00%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', document.getElementById('Form'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+        <script src="/Resources/Shared/Scripts/jquery/jquery.hoverIntent.min.js?cdv=359" type="text/javascript"></script><script src="/js/dnn.jquery.js?cdv=359" type="text/javascript"></script><script src="/Resources/ControlPanel/ControlPanel.debug.js?cdv=359" type="text/javascript"></script><script src="/js/dnncore.js?cdv=359" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=359" type="text/javascript"></script>
+        
+        
+
+
+
+
+
+
+    <link href="http://www.andor.com/portals/_default/Skins/andor/media.css" rel="stylesheet" type="text/css">
+    <link href="http://www.andor.com/portals/_default/Skins/andor/styles.css" rel="stylesheet" type="text/css">
+<!-- script for Request quote -->
+<link type="text/css" href="/Portals/_default/Skins/andor/js1/Lightbox/css/demo.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/Portals/_default/Skins/andor/js1/Lightbox/css/basic.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/Portals/_default/Skins/andor/webform.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/Portals/_default/Skins/andor/flat_buttons.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/Portals/_default/Skins/andor/flat_buttons.css" rel="stylesheet" media="screen">
+<link type="text/css" href="/Portals/_default/Skins/andor/responsive.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="/js1/Slider_ImageGallery/css/prettyPhoto.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/responsive-nav.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/Lightbox/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="/js1/zclip/jquery.zclip.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/Lightbox/basic.js"></script>
+<script src="/js1/Slider_ImageGallery/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<style type="text/css">
+	
+	
+	
+	#footer table th
+	{
+		font-size: 12px;
+	}
+
+	#footer table tr td
+	{
+		font-size: 11px;
+	}
+
+	#footer
+	{
+		padding-top: 1px;
+	}
+
+	#footercontent th
+	{
+		height: 23px;
+	}
+
+	#footercontent td
+	{
+		line-height: 1.5em;
+	}
+
+	.mainContentPane
+	{
+		width: 100%;
+	}
+	
+	p {
+	font-family:'Raleway', sans-serif!important;
+	font-size:16px!important;
+	line-height:24px!important;
+	text-align:justify!important;	
+	}
+	
+	#maincontent ul {
+	font-family:'Raleway', sans-serif!important;
+	font-size:16px!important;
+	line-height:32px!important;
+	margin-top: 20px;
+	}
+	
+	.landing {
+	font-size:38px;
+	font-weight:500;
+	font-family:'Raleway', sans-serif;
+	margin-bottom:12px;	
+	}
+	
+	.subs {
+	font-size:28px;
+	font-weight:500;
+	line-height:36px;
+	font-family:'Raleway', sans-serif;
+	color: #161616;	
+	}
+	
+	hr {
+	background-color:#ed7700;
+	height:2.5px;	
+	}
+
+	figure  {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	overflow: hidden;
+	}
+
+	figure:hover figcaption {
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	filter: alpha(opacity=100);
+	opacity: 1;
+	top: 0;
+	}
+
+	figcaption {
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	filter: alpha(opacity=0);
+	opacity: 0;
+	position: absolute;
+	height: 144px;
+	width: 144px;
+	padding:0px;
+	left:0!important;
+	margin:0px!important;
+	bottom:initial;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	transition: all .1s ease;
+	-webkit-transition-delay: .1s;
+	-moz-transition-delay: .1s;
+	-o-transition-delay: .1s;
+	-ms-transition-delay: .1s;
+	transition-delay: .1s;
+	}
+	
+	figure:before {
+	background: url('/images/info.png');
+	width:12px!important;
+	height:12px!important;
+	bottom:40px!important;	
+	left:10px!important;
+	content:"";
+	}
+
+	figcaption h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	line-height:14px;
+	color: #ed7700;
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 0;
+	position: relative;
+	margin-top:8px;
+	font-size: 13px;
+	text-align:left;
+	}
+
+	figcaption p {
+	font-family: 'Raleway', sans-serif;
+	padding: 0px 10px;
+	margin-bottom: 0;
+	margin-top: 15px;
+	position: relative;
+	left: 100%;
+	font-size: 12px!important;
+	line-height:14px!important;
+	color:#fff;
+	}
+
+	figure:hover h3,figure:hover p {
+	left: 0;
+	}
+
+	figcaption a {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 4px 10px;
+	text-decoration: none;
+	}
+
+	figcaption a:hover {
+	color: #fff;
+	background: #ed7700;
+	text-decoration: none;
+	}
+	#menutop {
+	 position:fixed;
+	 top:0px;
+	 z-index:900;
+	 padding-top: 2px;
+	 background: #fff;	 
+	 left: 0px;
+	 width: 100%; 
+	 background-color: rgba(255, 255, 255, 0.98);
+	}
+	#menutop a
+	{
+	    color: #1C2674;
+	}
+	#rightmenutop
+	{
+	 float: right; 
+	}
+	#toplinks
+	{
+	 position: absolute;
+	 left: 0px;
+	 top: 24px;
+	 width: 100% !important;  
+	 height: 54px !important;
+	 webkit-box-shadow: 0px 3px 4px #021 !important;
+     box-shadow: 0px 3px 4px #021 !important;
+	 border-bottom: solid 2px #ed7700; 
+	 z-index:3;
+	}
+	#maincontent
+	{
+	    margin-top: 95px;
+	}
+	.toplogo
+	{
+	    margin: 5px;
+	}
+	#menutoptext
+	{
+	    width: 952px;
+	    margin: 0 auto;
+	}
+	#dnn_Username_registerLink
+	{
+	   color: #e98300 !important;
+	}
+	#toplinkscontent
+	{
+	    width: 952px;
+	    margin: 0 auto;
+	}
+	#toplinks ul
+	{
+	    width: 744px;
+        float: right;
+        margin-top: 19px;
+	}
+	#menutop a
+	{
+	    margin-left: 0px;
+	    margin-right: 10px;
+	}
+	#toplinks img
+	{
+	    margin: 7px;
+	    margin-left: 0px;
+	    width: 160px;
+	}
+	.search
+	{
+	    width: 199px !important;
+	    margin-top: 8px !important;
+	}
+	
+	.models {
+	font-family: 'Raleway', sans-serif;	
+	}
+	
+	.models th {
+	background-color:#1c2674;
+	color:#fff;	
+	text-align:center;
+	border-bottom:1px solid #fff;
+	border-right: 1px solid #fff;
+	}
+	
+	.models tr:nth-child(even) {
+	background-color:#e6e7ee;
+	color:#000;
+	}
+	
+	.models tr:nth-child(odd) {
+	background-color:#f3f3f7;
+	color:#000;	
+	}
+	
+	.hide-content {
+	display:inline-block;
+	margin-left:15px;
+	width:24px;
+	height:24px;
+	}
+	
+	.show-content {
+	display:none;
+	margin-left:15px;
+	width:24px;
+	height:24px;
+	}
+	
+	.gallery-subs {
+	font-family:'Raleway', sans-serif;
+	font-size:18px;
+	color:#1C2674;
+	font-weight:normal;
+	}
+	
+	.wrapper {
+	width:952px; 
+	margin:0 auto;	
+	}
+	
+	.weiss {
+	color:#fff;
+	}
+	
+	.hover-menu {
+	font-family:'Raleway', sans-serif;
+	font-size: 14px;
+	padding:20px 6px;
+	border-radius:1px;
+	background-color: #1C2674;
+	color:#fff;
+	}
+	
+	.hover-menu:hover {
+	background-color:#ed7700;
+	cursor:pointer;	
+	}
+	
+	.hover-content {
+	padding:20px 0px;
+	}
+	
+	#options {
+	width:100%; 
+	margin-top:38px;
+	text-align:center;	
+	}
+	
+	#filament-tracing, #data-vis, #cell-analysis, #lineage-tracing, #sample-comparison {
+	width:16.2%;
+	float:left;
+	display:inline-block;	
+	margin-right:3.1%;
+	}
+	
+	#widefield, #tirf, #multi-point {
+	width:51%;
+	float:left;
+	display:inline-block;	
+	margin-bottom:2%;	
+	}
+	
+	.hidden {
+	display:none;
+	}
+	
+	#intro-content  {
+	background:#000;
+	position:relative;
+	border-bottom:2px solid #161616;
+	z-index:2;	
+	}
+	
+	#events-content, #technology-content {
+	background:url('http://www.andor.com/images/istar_white_bg.png') center; 
+	}
+	
+	#test-results-content, #simple-data-content {
+	background:url('http://www.andor.com/images/istar_black_bg.png') center;
+	}
+	
+	.new {
+	font-family:'Raleway', Helvetica, sans-serif;
+	font-size:16px;
+	line-height:24px;	
+	}
+	
+	.menu {
+    position: fixed;
+    background:#f5f5f5;
+    color:#1C2674;
+	font-family:'Raleway', sans-serif;
+    right: 0;
+    top: calc(50% - 150px);
+    width: 7em;
+    margin-top: -2.5em;
+    border-radius: 6px 0em 0em 6px;
+    padding:15px 20px 15px 0px;
+    text-align:right;
+	border:3px solid #ddd;
+	border-right:none;
+	z-index:3;
+    }
+    .menu a {
+    color:#1C2674;
+    cursor:pointer;
+    }
+    .menu a:hover {
+    text-decoration:none;
+    color:#ed7700!important;
+    }
+	
+	.active-bg {
+	background:#ed7700;	
+	}
+	
+	.active {
+	color:#ed7700!important;	
+	}
+	
+	.imageContainer, .imageContainer img {
+	min-width:148px!important;
+	height:148px!important;	
+	margin:0px 5px 5px 0px;
+	}
+	
+	.imageLineContainer {
+	max-height:466px!important;	
+	}
+	
+	.name, .email, .web, .text, #productboxp {
+	font-family: 'Arimo', sans-serif!important;
+	font-size: 12px!important;
+	line-height: 18px!important;	
+	}
+	
+	.check {
+	color:#0C0;
+	font-weight:bolder;	
+	}
+	
+	a {
+	color:#ed7700;
+	cursor:pointer;
+	}
+	
+	.raleway {
+		font-family:'Raleway', Helvetica, sans-serif;
+		font-size:16px;
+		line-height:24px;	
+	}
+	
+	.no-list {
+	list-style-type:none;	
+	}
+	
+	.orange-check {
+	color: #ed7700;
+	font-size: 20px;
+	font-weight: bolder;	
+	}
+	
+	#featured-holder {
+	width:29%;
+	margin-right:2.6%;
+	border:1px solid #fff;	
+	display:inline-block;
+	padding:10px;
+	}
+	
+	#featured-holder p {
+	margin-bottom:0px;	
+	}
+	
+	#featured-holder img {
+	width:275px;
+	height:207px;	
+	}
+	
+	.include-box {
+	float:right;
+	width:30%;
+	border:2px solid #ed7700;
+	margin:21px 0px 0px 25px;
+	background: #fdfdfd;
+	border-radius:5px;	
+	}
+	
+	.ch-grid {
+	margin: 40px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+    }
+
+    .ch-grid:after,
+    .ch-item:before {
+	    content: '';
+        display: table;
+    }
+
+    .ch-grid:after {
+	    clear: both;
+    }
+
+    .ch-grid li {
+	    width: 174px;
+	    height: 174px;
+	    display: inline-block;
+	    margin-right: 16px;
+    }
+	
+    .ch-item {
+	    width: 100%;
+	    height: 100%;
+	    border-radius: 50%;
+	    position: relative;
+	    cursor: default;
+		border: solid 1px #1c2674;
+	    box-shadow: inset 0 0 0 8px rgba(255,255,255,0.85),
+		0 1px 2px rgba(0,0,0,0.1);
+	    -webkit-transition: all 0.4s ease-in-out;
+	    -moz-transition: all 0.4s ease-in-out;
+	    -o-transition: all 0.4s ease-in-out;
+	    -ms-transition: all 0.4s ease-in-out;
+	    transition: all 0.4s ease-in-out;
+    }
+
+    .ch-img-1 { 
+	    background-image: url(http://www.bitplane.com/images/embo_ls.png);
+    }
+
+    .ch-img-2 { 
+	    background-image: url(http://www.bitplane.com/images/munich_ls.png);
+    }
+
+    .ch-img-3 { 
+	    background-image: url(http://www.bitplane.com/images/expansion_ls.png);
+    }
+
+    .ch-img-4 { 
+	    background-image: url(http://www.bitplane.com/images/dresden_ls.png);
+    }
+
+    .ch-img-5 { 
+	    background-image: url(http://www.bitplane.com/images/lsfm_ls.png);
+    }
+
+    .ch-info {
+	    position: absolute;
+	    background: rgba(28,38,116, 0.8);
+	    width: inherit;
+	    height: inherit;
+	    border-radius: 50%;
+	    opacity: 0;
+	
+	    -webkit-transition: all 0.4s ease-in-out;
+	    -moz-transition: all 0.4s ease-in-out;
+	    -o-transition: all 0.4s ease-in-out;
+	    -ms-transition: all 0.4s ease-in-out;
+	    transition: all 0.4s ease-in-out;
+	
+	    -webkit-transform: scale(0);
+	    -moz-transform: scale(0);
+	    -o-transform: scale(0);
+	    -ms-transform: scale(0);
+	    transform: scale(0);
+	
+	    -webkit-backface-visibility: hidden;
+
+    }
+
+    .ch-info h3 {
+	    color: #fff;
+	    text-transform: uppercase;
+	    letter-spacing: 2px;
+	    font-size: 14px;
+	    line-height:20px;
+	    margin: 0 20px;
+	    padding: 40px 0 0 0;
+	    height: 70px;
+	    font-family: 'Raleway', Arial, sans-serif;
+	    text-shadow: 
+		    0 0 1px #fff, 
+		    0 1px 2px rgba(0,0,0,0.3);
+    }
+
+    .ch-info p {
+	    color: #fff;
+	    padding: 10px 5px;
+	    font-style: italic;
+	    margin: 0 30px;
+	    font-size: 12px!important;
+	    line-height:14px!important;
+	    text-align:center!important;
+	    border-top: 1px solid rgba(255,255,255,0.5);
+	    opacity: 0;
+	    -webkit-transition: all 1s ease-in-out 0.4s;
+	    -moz-transition: all 1s ease-in-out 0.4s;
+	    -o-transition: all 1s ease-in-out 0.4s;
+	    -ms-transition: all 1s ease-in-out 0.4s;
+	    transition: all 1s ease-in-out 0.4s;
+    }
+
+    .ch-info p a {
+	    display: block;
+	    color: #fff;
+	    color: rgba(255,255,255,0.7);
+	    font-style: normal;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	    font-size: 9px;
+	    letter-spacing: 1px;
+	    padding-top: 4px;
+	    font-family: 'Raleway', Arial, sans-serif;
+    }
+
+    .ch-info p a:hover {
+	    color: #fff222;
+	    color: rgba(255,242,34, 0.8);
+    }
+
+    .ch-item:hover {
+	    box-shadow: 
+		    inset 0 0 0 1px rgba(255,255,255,0.1),
+		    0 1px 2px rgba(0,0,0,0.1);
+		cursor:pointer;    
+    }
+    .ch-item:hover .ch-info {
+	    -webkit-transform: scale(1);
+	    -moz-transform: scale(1);
+	    -o-transform: scale(1);
+	    -ms-transform: scale(1);
+	    transform: scale(1);
+	    opacity: 1;
+    }
+
+    .ch-item:hover .ch-info p {
+	    opacity: 1;
+    }
+    
+    #fast-anim,
+    #slow-anim {
+    width: 2%;
+    margin-top: 10px;
+    opacity: .95;
+    display: block;
+    float: left
+    }
+
+    #speed-anim {
+    width: 495px;
+    height: 100px;
+    margin-bottom: 38px;
+    border-left: solid 1px #f5f5f5
+    }
+
+    #slow-anim {
+    height: 35px;
+    background-color: #9a9b9c
+    }
+
+    #fast-anim {
+    height: 35px;
+    background-color: #ed7700;
+    clear: left
+    }
+
+    .speedtext {
+    height: 35px;
+    line-height: 35px;
+    width: 465px;
+    color: #000;
+    font-family: arial;
+    font-size: 12px;
+    position: absolute
+    }
+
+#iframehead
+{
+	margin-left: calc((-1920px + 100vw)/2);
+	position: absolute;
+	margin-top: -150px;
+}
+
+</style>
+
+<script>    
+$( document ).ready(function() {   
+$("#intro").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#intro-content").offset().top - 40
+    }, 600);
+	$("#ixon-emccd, #neo-scmos, #ikon-xl, #apogee-ccd, #decision-tree").removeClass("active");
+	$("#intro").addClass("active");
+});
+
+$("#ixon-emccd").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ixon-emccd-content").offset().top - 40
+    }, 600);
+    $("#intro, #neo-scmos, #ikon-xl, #apogee-ccd, #decision-tree").removeClass("active");
+	$("#ixon-emccd").addClass("active");
+});
+
+$("#neo-scmos").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#neo-scmos-content").offset().top - 40
+    }, 600);
+    $("#into, #ixon-emccd, #ikon-xl, #apogee-ccd, #decision-tree").removeClass("active");
+	$("#neo-scmos").addClass("active");
+});
+
+$("#ikon-xl").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#ikon-xl-content").offset().top - 40
+    }, 600);
+    $("#into, #ixon-emccd, #neo-scnos, #apogee-ccd, #decision-tree").removeClass("active");
+    $("#ikon-xl").addClass("active");
+});
+
+$("#apogee-ccd").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#apogee-ccd-content").offset().top - 40
+    }, 600);
+    $("#into, #ixon-emccd, #neo-scmos, #ikon-xl, #decision-tree").removeClass("active");
+	$("#apogee-ccd").addClass("active");
+});
+
+$("#decision-tree").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#decision-tree-content").offset().top - 40
+    }, 600);
+    $("#intro, #ixon-emccd, #neo-scnos, #ikon-xl, #apogee-ccd").removeClass("active");
+	$("#decision-tree").addClass("active");
+});
+});
+</script>
+
+
+	<div id="container" style="width:100%;">
+		<div id="menutop">
+        <div id="menutoptext">
+			<a href="/ContactSupport.aspx?type=c">Contact</a> <a href="/ContactSupport.aspx?type=s">
+				Support</a>
+			<div id="rightmenutop">
+            	<a href="https://instagram.com/andortechnology/">
+					<img src="/images/instagram_icon.png" alt="Instagram" title="Follow us on Instagram">
+				</a>
+				<a href="https://twitter.com/#!/AndorTechnology">
+					<img src="/images/twitter_icon.png" alt="Twitter" title="Follow Andor on Twitter">
+				</a>
+                <a href="https://www.facebook.com/AndorTech">
+					<img src="/images/facebook_icon.png" alt="Facebook" title="Like Andor on Facebook">
+				</a>
+                <a href="https://www.youtube.com/user/AndorTechnology ">
+					<img src="/images/youtube_icon.png" alt="YouTube" title="Subscribe to Andor on YouTube">
+				</a>
+                <a href="http://www.linkedin.com/company/andor-technology">
+					<img src="/images/linkedin_icon.png" alt="LinkedIN" title="Find Andor on LinkedIn">
+				</a>
+                <a href="https://plus.google.com/u/0/105462578200049887769/posts?hl=en">
+					<img src="/images/googleplus_icon.png" alt="GooglePlus" title="Add Andor on Google+">
+				</a>
+
+<div style="width: auto; float: right; margin-right: 10px;">        
+     
+    
+<a style="color: #4d4f53" href="/my">MyAndor</a> | <b><a id="dnn_LOGIN1_loginLink" class="LoginLink" href="http://www.andor.com/Default.aspx?tabid=256">Login</a>
+</b> | <a style="margin-right: 5px; color: #4d4f53" href="/Default.aspx?tabid=257">Register</a> | <a style="color: #4d4f53" href="/learning-academy">Learning Center</a>
+             
+			</div>
+        </div>
+	</div>
+</div>
+
+
+        <header>
+        <div style="width:100%; height:54px;">
+        <div id="toplinkscontent">
+        <a href="/"><img src="http://www.andor.com/images/andor_logo_landing.png" alt="Andor" style="margin:2px 2px 2px 0px"></a>
+            <a href="#" class="nav-toggle" aria-hidden="true">Menu</a><nav class="nav-collapse nav-collapse-0 closed" aria-hidden="false" style="transition: max-height 284ms; -webkit-transition: max-height 284ms; position: relative;">
+            <ul>
+              	<li class="menu-item active"><a href="/scientific-cameras">CAMERAS</a></li>
+          		<li class="menu-item"><a href="/spectroscopy">SPECTROSCOPY</a></li>
+          		<li class="menu-item"><a href="/microscopy-systems">MICROSCOPY</a></li>
+          		<li class="menu-item"><a href="/scientific-software">SOFTWARE</a></li>
+                <li class="menu-item"><a href="/downloads">DOWNLOADS</a></li>
+                
+<script type="text/javascript">
+
+    $(window).load(function () {
+
+        var BodyScript = $('.bodyscript').val();
+
+        $('body').append(BodyScript);
+
+        $('.search1').val('Search the site');
+        $(".search1").focusin(function () {
+            if ($('.search1').val() == 'Search the site') {
+                $('.search1').val('');
+                $('.search1').focus();
+            }
+        });
+
+        $(".search1").focusout(function () {
+            var value = $('.search1').val();
+
+            if (value == 'Search the site') {
+                $('.search1').blur();
+            }
+            else if (value == '') {
+                $('.search1').val('Search the site');
+                $('.search1').blur();
+            }
+            else {
+                $('.search1').focus();
+            }
+        });
+    });
+
+</script>
+
+<li class="search">
+    
+    
+    <div style="float:right; width:201px;height:20px;">
+    <div class="googlesearchboxdiv" style="position:relative; top:1px;">
+                <input name="dnn$ctrsearch$txtsearch" type="text" id="dnn_ctrsearch_txtsearch" style="width: 158px; font-size: 12px; float:left; line-height:normal !important; margin:0px -2px 0px 0px; border: solid 1px white; height: 31px; color: #4d4f53; padding-left: 5px; " value="Search the site" size="8" class="search1">
+                </div>
+    <div class="googlesearchbuttondiv" style="position:relative; margin-left:160px; top:1px;">
+                <input type="image" name="dnn$ctrsearch$Image1" id="dnn_ctrsearch_Image1" src="/images/button-search.gif" vertical-align="top" style="border-width:0px;margin-top: 0px;border-width:0px; border: solid 1px #9A9B9C; line-height:normal !important;">
+                </div>
+    </div>
+    
+    </li>
+<input name="dnn$ctrsearch$hdBodyScript" type="hidden" id="dnn_ctrsearch_hdBodyScript" class="bodyscript">
+
+				<xxxxelmt>
+            </xxxxelmt>
+            </ul>
+           </nav>
+           </div>
+           </div>
+        </header>
+        
+        
+        <ul class="menu" dir="rtl" style="font-size: 14px !important; line-height: 22px !important;">
+            <li><a id="intro">Introduction</a></li>
+            <li><a id="ikon-xl">iKon-XL CCD</a></li>
+            <li><a id="ixon-emccd">iXon EMCCD</a></li>
+            <li><a id="neo-scmos">Neo sCMOS</a></li>                 
+            <li><a id="apogee-ccd">Apogee CCD</a></li>       
+            <li><a id="decision-tree">Decision Tree</a></li>
+		</ul>
+        
+
+       
+        
+	    <div id="maincontent" style="display:none;">
+			<div id="dnn_ContentPane" class="mainContentPane" style="height:50px;">
+			<div class="DnnModule DnnModule-DNN_HTML DnnModule-1194"><a name="1194"></a>
+<div class="c_DNN6_SubTitle c_DNN6">
+    
+    <div id="dnn_ctr1194_ContentPane">
+    <!-- Start_Module_1194 --><div id="dnn_ctr1194_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr1194_HtmlModule_lblContent" class="Normal">
+	
+</div>
+
+</div><!-- End_Module_1194 --></div>
+</div>
+</div></div>
+		</div>
+
+
+
+
+             
+        <div id="intro-content" style="background: url('/images/astronomy/astronomy_header.jpg') top center no-repeat;width:100%;left:0;display:block;padding:120px 0px 60px 0px; height: 320px; overflow: hidden;">
+        <div class="wrapper">
+			
+    
+        <div style="position: relative;" id="iframeheadcontent">
+            <h1 class="landing" style="color:#fff;">Cameras for Astronomy</h1>
+            <p class="weiss shadow" style="margin:30px 0px;">Andor's product portfolio incorporates a range of high performance detector solutions for Astronomy, from fast time resolution EMCCDs and sCMOS cameras to the slow scan, very large area CCDs. Crucially, Andor’s unparalleled commitment to superb quality and ease of maintenance is designed to maximize your observing time and to minimize cost of ownership.</p>
+            <ul class="raleway" style="color:#fff;margin-bottom:30px;">
+            	<li><strong><a target="_blank" href="/scientific-cameras/ixon-emccd-camera-series">iXon EMCCD series</a></strong> - single photon sensitivity and &gt; 90% QE at high speed</li>
+                <li><strong><a target="_blank" href="/scientific-cameras/neo-and-zyla-scmos-cameras">Neo and Zyla sCMOS</a></strong> - high resolution at very high speed with ultra-low noise floor</li>
+                <li><strong><a target="_blank" href="/scientific-cameras/ikon-xl-and-ikon-large-ccd-series">iKon CCD series</a></strong> - up to 16 Megapixel back-illuminated CCDs with -100 °C TE cooling</li>
+                <li><strong><a target="_blank" href="/scientific-cameras/apogee-camera-range">Apogee CCD</a></strong> - high resolution slow scan CCDs</li>
+            </ul>
+                    <div style="float: left;" id="basic-modal">
+                    <a name="basic" class=" basic buttons buttons-rounded buttons-flat-action" onclick="BindDetails(this);" style="white-space:nowrap; padding:5px 25px!important;">CONTACT OUR SPECIALISTS</a>
+                 <a href="#decision" class="" style="text-decoration: underline;background: none; margin-left:16px; white-space:nowrap; padding:10px 5px 5px 5px!important;height: 32px;line-height: 30px;font-weight: 300;font-size: 14px;font-family: Arial; color: White;">Need help deciding?</a>
+
+                 </div>
+                  </div>
+  
+        </div>
+        </div>
+        
+        <div id="ikon-xl-content" style="background: url('/images/astronomy/astronomy_polar.jpg') bottom center no-repeat;width:100%;left:0;display:block;padding:60px 0px 60px 0px; overflow: hidden;">
+     <div class="wrapper">
+			<h1 class="landing">Large Area CCDs for Astronomy</h1>
+            <p style="margin:30px 0px; width:70%;">Andor’s innovative approach to ultra-high performance has delivered iKon-XL, a very large area CCD platform that uniquely cools a back-illuminated 16.8 MP sensor to -100°C. The 4 MP iKon-L camera has long been the mainstay detector for many observing projects, including SuperWasp and Next Generation Transit Survey exoplanet programs.</p>
+            <ul class="raleway" style="margin-bottom:30px;">
+            	<li>16.8 Megapixel back-illuminated CCDs (e2v)</li>
+                <li>TE cooling to -100 °C - NO liquid nitrogen or cryo-cooling</li>
+                <li>Near Infra-Red optimization</li>
+                <li>18-bit Extended Dynamic Range technology</li>
+            </ul>
+            <p style="width:69%;"><strong>Key Applications:</strong> Wide field spectroscopic survey, Deep space observation, Exoplanet detection &amp; Radial velocimetry, Large sky surveys and NEO detection</p>
+  <div style="float: left;" id="basic-modal">
+                    <a name="basic" class=" basic buttons buttons-rounded buttons-flat-highlight" onclick="BindDetails(this);" style="white-space:nowrap; padding:5px 25px!important;">REQUEST PRICING</a>
+                    <input value="75" type="hidden" class="seriesid">
+                    <input type="hidden" class="quoteSettings" comments="" productmodel="" productfamily="75" producttype="1"></div>
+  <a class="buttons buttons-rounded buttons-flat-primary" style="margin-left:16px; white-space:nowrap; padding:5px 25px!important;" href="/scientific-cameras/ikon-xl-and-ikon-large-ccd-series" target="_blank">FIND OUT MORE</a>
+<a href="#decision" class="" style="text-decoration: underline;background: none; margin-left:16px; white-space:nowrap; padding:5px 5px!important;height: 32px;line-height: 30px;font-weight: 300;font-size: 14px;font-family: Arial; color: #1c2674;">Need help deciding?</a>                   
+     
+        </div>
+        </div>
+        
+        
+        
+           <div id="ixon-emccd-content" style="background: url('/images/astronomy/astronomy_sofia.jpg') bottom center no-repeat;width:100%;left:0;display:block;padding:60px 0px 60px 0px; overflow: hidden;">
+     <div class="wrapper">
+			<h1 class="landing" style="color: #fff;">EMCCDs for Fast Time Resolution</h1>
+            <p class="weiss shadow" style="margin:30px 0px;">Featuring single photon sensitivity, TE cooling to -100 °C and &gt; 95% QE, the iXon EMCCD range has been central to many demanding observing initiatives, such as the RAVEN ‘Multi-Object Adaptive Optics’ system at the Subaru Telescope (Hawaii), CHIMERA, the Caltech high speed multi-color camera for detecting transiting objects in the Kuiper Belt and SOFIA (pictured).</p>
+            <ul class="raleway" style="color:#fff;margin-bottom:30px;">
+            	<li>Single photon sensitivity</li>
+                <li>Quantum efficiency &gt; 95%</li>
+                <li>Up to 1 Megapixel</li>
+                <li>26 - 515 full frames per second</li>
+            </ul>
+            <p class="weiss" style="width:46%;"><strong>Key Applications:</strong> Wavefront sensors, High time resolution astrophysics, Speckle imaging and Transit surveys</p>
+  <div style="float: left;" id="basic-modal">
+                    <a name="basic" class=" basic buttons buttons-rounded buttons-flat-highlight" onclick="BindDetails(this);" style="white-space:nowrap; padding:5px 25px!important;">REQUEST PRICING</a>
+                    <input value="53" type="hidden" class="seriesid">
+                    <input type="hidden" class="quoteSettings" comments="" productmodel="" productfamily="53" producttype="1"></div>
+  <a class="buttons buttons-rounded buttons-flat-primary" style="margin-left:16px; white-space:nowrap; padding:5px 25px!important;" href="/scientific-cameras/ixon-emccd-camera-series" target="_blank">FIND OUT MORE</a>
+   <a href="#decision" class="" style="text-decoration: underline;background: none; margin-left:16px; white-space:nowrap; padding:5px 5px!important;height: 32px;line-height: 30px;font-weight: 300;font-size: 14px;font-family: Arial; color: White;">Need help deciding?</a>
+                    
+     
+        </div>
+        </div>
+        
+        
+        
+        
+        
+           <div id="neo-scmos-content" style="background: url('/images/astronomy/astronomy_moon.jpg') bottom center no-repeat;width:100%;left:0;display:block;padding:60px 0px 60px 0px; overflow: hidden;">
+     <div class="wrapper">
+			<h1 class="landing" style="color: #fff;">sCMOS for Fast Time Resolution</h1>
+            <p class="weiss shadow" style="margin:30px 0px;">Scientific CMOS (sCMOS) technology is especially relevant for fast time resolution astronomy, combining high resolution / large field of view coverage of the sky with very fast time resolution, yet without sacrificing ultra-low noise performance. We are currently developing a next-generation, very large area sCMOS camera – enquire for further details!</p>
+            <ul class="raleway" style="color:#fff;margin-bottom:30px;">
+            	<li>Extremely low noise down to 0.9 e<sup>-</sup></li>
+                <li>Rapid frame rates up to 100 fps (full frame)</li>
+                <li>High resolution up to 5.5 Megapixel</li>
+                <li>Wide dynamic range up to 33,000:1</li>
+            </ul>
+            <p class="weiss" style="width:56%;"><strong>Key Applications:</strong> Solar astronomy, Near Earth Object detection, Space debris tracking, Transit surveys and Wavefront sensors</p>
+  <div style="float: left;" id="basic-modal">
+                    <a name="basic" class=" basic buttons buttons-rounded buttons-flat-highlight" onclick="BindDetails(this);" style="white-space:nowrap; padding:5px 25px!important;">REQUEST PRICING</a>
+                    <input value="56" type="hidden" class="seriesid">
+                    <input type="hidden" class="quoteSettings" comments="" productmodel="" productfamily="56" producttype="1"></div>
+  <a class="buttons buttons-rounded buttons-flat-primary" style="margin-left:16px; white-space:nowrap; padding:5px 25px!important;" href="/scientific-cameras/neo-and-zyla-scmos-cameras" target="_blank">FIND OUT MORE</a>
+<a href="#decision" class="" style="text-decoration: underline;background: none; margin-left:16px; white-space:nowrap; padding:5px 5px!important;height: 32px;line-height: 30px;font-weight: 300;font-size: 14px;font-family: Arial; color: White;">Need help deciding?</a>
+        </div>
+        </div>
+
+           
+        
+          <div id="apogee-ccd-content" style="background: url('/images/astronomy/astronomy_apogee.jpg') bottom center no-repeat;width:100%;left:0;display:block;padding:60px 0px 60px 0px; overflow: hidden;">
+     <div class="wrapper">
+			<h1 class="landing" style="color: #fff;">Apogee High-Resolution CCD Range</h1>
+            <p class="weiss shadow" style="margin:30px 0px;">Andor’s Apogee Camera Range presents a wide selection of ‘mid-range’ full frame and interline cooled CCD options, offering high resolution imaging solutions across a variety of budget levels.</p>
+            <ul class="raleway" style="color: #fff; margin-bottom:30px;">
+            	<li>Up to 16 Megapixel cooled to 50 °C below ambient</li>
+                <li>USB 2.0 connectivity and Ethernet connectivity</li>
+                <li>Full range of filters, filter wheels and adapters</li>
+            </ul>
+  <div style="float: left;" id="basic-modal">
+                    <a name="basic" class=" basic buttons buttons-rounded buttons-flat-highlight" onclick="BindDetails(this);" style="white-space:nowrap; padding:5px 25px!important;">REQUEST PRICING</a>
+                    <input value="116" type="hidden" class="seriesid">
+                    <input type="hidden" class="quoteSettings" comments="" productmodel="" productfamily="116" producttype="1"></div>
+  <a class="buttons buttons-rounded buttons-flat-primary" style="margin-left:16px; white-space:nowrap; padding:5px 25px!important;" href="/scientific-cameras/apogee-camera-range" target="_blank">FIND OUT MORE</a>
+<a href="#decision" class="" style="text-decoration: underline;background: none; margin-left:16px; white-space:nowrap; padding:5px 5px!important;height: 32px;line-height: 30px;font-weight: 300;font-size: 14px;font-family: Arial; color: White;">Need help deciding?</a>
+                  
+     
+        </div>
+        </div>
+        
+        
+        
+         <div id="decision-tree-content" style="background: url('/images/astronomy/astronomy_white.jpg') bottom center no-repeat;width:100%;left:0;display:block;padding:60px 0px 60px 0px; overflow: hidden;">
+     <div class="wrapper">
+			<h1 class="landing">Which Astronomy camera do I need?</h1>
+            <p style="margin:30px 0px;">The illustration below should help you to find the perfect solution for your Astronomy needs. Whether it is speed, resolution, field of view or even budget that you care most about, you can find it here. Alternatively, <span id="basic-modal"><a name="basic" class="basic" onclick="BindDetails(this);">contact our Astronomy specialists</a></span> and let them know what it is you're looking for.</p>
+  <div style="display: block; width: 100%; height: 385px;">
+  <img id="decision" src="/images/astronomy/astronomy-tree.png" alt="">
+  </div>
+ 
+     
+        </div>
+        </div>
+        
+
+
+        <div id="footer">
+		<div id="footercontent">
+        <a target="_blank" title="An Oxford Instruments Company" href="http://www.oxford-instruments.com/"><img src="/images/oxford_instruments_logo.png" alt="An Oxford Instruments Company" style="float: left; margin-top: 20px; border:2px solid #fff;"></a>
+			<table>
+                <tbody><tr>
+                    <th>
+                        COMPANY
+                    </th>
+                    <th>
+                        PORTFOLIO
+                    </th>
+                    <th>
+                        CAMERAS
+                    </th>
+                    <th>
+                        RESOURCES
+                    </th>                  
+                    <th>
+                        CONTACT
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/company">About Andor</a><br>
+                        <a href="/latest-news">Latest News</a><br>
+                        <a href="/events-schedule">Upcoming Events</a><br>
+                        <a href="/jobs-careers">Job Opportunities</a><br>
+                        <a target="_blank" href="http://www.oxford-instruments.com/investors">Investor Relations</a>
+                    </td>
+                    <td>
+                        <a href="/scientific-cameras">Scientific Cameras</a><br>
+                        <a href="/spectroscopy">Spectrographs</a><br>
+                        <a href="/microscopy-systems">Microscopy Systems</a><br>
+                        <a href="/scientific-software">Software</a><br>
+                        <a href="/ex-demo">Ex-Demonstration</a>
+                    </td>
+                    <td>
+                        <a href="/scientific-cameras/neo-and-zyla-scmos-cameras">sCMOS Cameras</a><br> 
+                        <a href="/scientific-cameras/ixon-emccd-camera-series">EMCCD Cameras</a><br>
+                        <a href="/scientific-cameras/ikon-ccd-camera-series">Interline CCD Cameras</a><br>
+                        <a href="/cameras-for-microscopy">Cameras for Microscopy</a><br>
+                        <a href="/scientific-cameras/idus-spectroscopy-cameras">Spectroscopy Cameras</a>
+                    </td>
+                    <td>
+                        <a href="/andorsitemap.aspx">Sitemap</a><br>
+                        <a href="/Publications.aspx">Publications Search</a><br>
+                        <a href="/ResolutionCalculator.aspx">Resolution Calculator</a><br>
+                        <a href="/learning-academy">Learning Center</a><br>
+                        <a href="http://www.andor.com/learning-academy/third-party-imaging-software-support-support-partners">Supported Software</a>
+                    </td>
+                    <td>
+                        <a href="/ContactSupport.aspx?type=c">Office Details</a><br>
+                        <a href="/ContactSupport.aspx?type=s">Product Support</a><br>
+                        <a href="/ContactSupport.aspx?type=c">Contact Form</a><br>
+                        <a href="/map.aspx">Sales Map</a>
+                    </td>
+                </tr>
+            </tbody></table>
+		</div>
+        <div id="mobile-footer-content"><a target="_blank" title="An Oxford Instruments Company" href="http://www.oxford-instruments.com/"><img src="/images/oxford_instruments_logo.png" alt="An Oxford Instruments Company" style="float: left; margin-top: 20px; border:2px solid #fff;width: 36%;"></a>
+		<div style="float: right; font-size:13px; position: relative;top: 19px;padding-right: 10%;">
+          <a href="">ABOUT</a><br>
+          <a href="">NEWS</a><br>
+          <a href="">CAMERAS</a><br>
+          <a href="">RESOURCES</a><br>
+          <a href="">CONTACT</a>
+          </div>
+ 		</div>
+        
+        
+	    <div id="Div1" style="display:none;">
+			<div id="dnn_Div2" class="mainContentPane DNNEmptyPane">
+			</div>
+		</div>
+        
+        	<!-- preload the images -->
+	<div style="display: none">
+		<img src="/Portals/_default/Skins/andor/js1/Lightbox2/img/basic/x.png" alt="">
+	</div>
+   <div id="content">
+        <div id="basic-modal-content" style="display: none; width: 360px">
+            
+<link rel="Stylesheet" type="text/css" href="/Portals/_default/Skins/andor/css_003.css">
+<link rel="Stylesheet" type="text/css" href="/Portals/_default/Skins/andor/webform.css">
+<link rel="Stylesheet" type="text/css" href="/Portals/_default/Skins/andor/css_002.css">
+<link rel="Stylesheet" type="text/css" href="/Portals/_default/Skins/andor/button.css">
+<script src="/js1/Validate.js" type="text/javascript"></script>
+<style type="text/css">
+        #expandproductspan
+        {
+            color: Blue;
+            font-size: 9px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        #expandproductspan a
+        {
+            color: Blue;
+        }
+        #expandproductspan a:hover
+        {
+            text-decoration: underline;
+        }
+        #productboxp
+        {
+            color: #ed7700;
+            font-size:12px!important;
+        }
+        #productboxspan
+        {
+            color: black; 
+            margin: 0px 59px 0px 10px;
+            padding: 9px 0; 
+			font-family: 'Arimo', sans-serif;
+			font-size:12px;
+			line-height:18px;
+        }
+        
+        ul li
+        {
+            list-style-type: disc;
+        }
+        
+        .radio table tr td
+        {
+            color: black;
+            font-family: 'Arimo' ,sans-serif;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .radio label
+        {
+            margin-left: 28px;
+            margin-top: -15px;
+        }
+        
+      .submit .orange
+        {
+            color: #ffffff;
+            border: solid 1px #da7c0c;
+            background: #f78d1d;
+            background: -webkit-gradient(linear, left top, left bottom, from(#ff950c), to(#e98300));
+            background: -moz-linear-gradient(top,  #ff950c,  #e98300);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff950c', endColorstr='#e98300');
+        }
+      .submit .orange:hover
+        {
+            background: #f47c20;
+            background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+            background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+        }
+       .submit .orange:active
+        {
+            color: #fcd3a5;
+            background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+            background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+        }
+       .submit .button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% 'Arimo', sans-serif;
+	font-weight: bold;
+	padding: .7em 2em .7em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	margin-right: 20px;
+	margin-top: -5px;
+}
+.submit .button:hover {
+	text-decoration: none;
+}
+.submit .button:active {
+	position: relative;
+	top: 1px;
+}
+/*.contactform input
+{
+    width:155px;
+}
+.contactform select
+{
+  width:155px;   
+    }*/
+.contactform p .radio input
+{
+    width:auto;
+}
+
+
+    </style>
+<style type="text/css">
+	ul li
+	{
+		list-style-type: disc;
+	}
+	
+	.radio table tr td
+	{
+		color: black;
+		font-family: 'Arimo' ,sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+	}
+</style>
+<script type="text/javascript" language="javascript">
+
+    $(document).ready(function () {
+  
+        var ProductFamilyID = document.getElementById('dnn_pricequote_DrpProductFamily2').value;
+        var ProductModelId = document.getElementById('dnn_pricequote_DrpProductModel').value;
+
+      
+        if (ProductFamilyID == '0') {
+            $('#dnn_pricequote_DrpProductFamily2').attr("disabled", "disabled");
+         }
+
+        if (ProductModelId == '0') {
+            $('#dnn_pricequote_DrpProductModel').attr("disabled", "disabled");
+        }
+
+// below code appears here and in the BindDetails section down the page
+
+        var ProductTypeDropDown = document.getElementById('dnn_pricequote_DrpProductType2');
+        var ProductTypeSelected = ProductTypeDropDown.options[ProductTypeDropDown.selectedIndex].text;
+        var ProductFamilyDropDown = document.getElementById('dnn_pricequote_DrpProductFamily2');
+        var ProductFamilySelected = ProductFamilyDropDown.options[ProductFamilyDropDown.selectedIndex].text;
+        var ProductModelDropDown = document.getElementById('dnn_pricequote_DrpProductModel');
+        var ProductModelSelected = ProductModelDropDown.options[ProductModelDropDown.selectedIndex].text;
+        var ProductFamilyID = document.getElementById('dnn_pricequote_DrpProductFamily2').value;
+        var ProductModelId = document.getElementById('dnn_pricequote_DrpProductModel').value;
+
+        $("#productboxinfo").html("<p id='productboxp'><span id='productboxspan'>Product</span>" + ProductModelSelected + " <span id='expandproductspan'>(<a onclick='fnExpandProductSelection()'>change</a>)</span></p>");
+
+        if (ProductFamilyID == '0') {
+            $("#productboxinfo").html("<p id='productboxp'><span id='productboxspan'>Product</span>None selected... <span id='expandproductspan'>(<a onclick='fnExpandProductSelection()'>change</a>)</span></p>");
+        }
+
+        if (ProductModelId == '0') {
+            $("#productboxinfo").html("<p id='productboxp'><span id='productboxspan'>Product</span>" + ProductFamilySelected + " <span id='expandproductspan'>(<a onclick='fnExpandProductSelection()'>change</a>)</span></p>");
+        }
+
+
+        if (ProductModelSelected == 'Komet 7 and 7‑GLP') {
+            $("#demorequestdiv").show();
+        }
+
+
+    });
+
+	function postbackdata() {
+	    document.getElementById('dnn_pricequote_hdnPostback').value = "FireSubmitEvent";
+		__doPostBack("btnPopupSubmit");
+		return true;
+	}
+
+	function fnCheckValidation() {
+		postbackdata();
+		return true;
+	}
+
+	function fnExpandProductSelection() {
+	    $("#productboxes").show();
+	    $("#productboxinfo").hide();
+	        var currentquoteboxheight = $('.simplemodal-container').height();
+	        var newquoteboxheight = currentquoteboxheight + 110;
+	        $('.simplemodal-container').height(newquoteboxheight);
+	}
+
+  
+    
+</script>
+<script type="text/javascript">
+	function enableStates() {
+		var country = $('.clscountry[id*="pricequote"]>option:selected').text();
+		if (country == 'United States') {
+		    $('.clsstate[id*="pricequote"]').removeAttr('disabled');
+		    if ($('#statestogglediv').css('display') == 'none') {
+		        var currentquoteboxheight = $('.simplemodal-container').height();
+		        var newquoteboxheight = currentquoteboxheight + 48;
+		        $('.simplemodal-container').height(newquoteboxheight);
+		    }
+            $('#statestogglediv').show();
+		}
+		else {
+		    $('.clsstate[id*="pricequote"]').attr('disabled', 'true');
+		    $('.clsstate[id*="pricequote"]').val('0');
+		    if ($('#statestogglediv').css('display') == 'block') {
+		        var currentquoteboxheight = $('.simplemodal-container').height();
+		        var newquoteboxheight = currentquoteboxheight - 48;
+		        $('.simplemodal-container').height(newquoteboxheight);
+		    }
+		    $('#statestogglediv').hide();
+		}
+	}
+
+	function ProductModelGet() {
+		var e = document.getElementById('dnn_pricequote_DrpProductFamily2').value;
+		if (e == '0') {
+			var listItems = "";
+			listItems += "<option value='" + 0 + "'>" + "Please Select...." + "</option>";
+			$("#dnn_pricequote_DrpProductModel").html(listItems);
+			$('#dnn_pricequote_DrpProductModel').attr("disabled", "disabled");
+		}
+		else {
+			$.ajax({
+				type: "POST",
+				url: "/ProductFilterService.asmx/ProductModel_Get",
+				data: '{Value : "' + e + '"}',
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				async: false,
+				success: OnSuccess1,
+				error: OnError
+			});
+		}
+	}
+
+	function OnSuccess1(data, status) {
+		var listItems = "";
+		listItems += "<option value='" + 0 + "'>" + "Please Select...." + "</option>";
+		for (var i = 0; i < data.d.length; i++) {
+			listItems += "<option value='" + data.d[i].ProductID + "'>" + data.d[i].Name + "</option>";
+		}
+
+		$("#dnn_pricequote_DrpProductModel").html(listItems);
+		$('#dnn_pricequote_DrpProductModel').removeAttr('disabled');
+	}
+
+
+	function OnError(request, status, error) {
+		//        alert("Error is " + error);
+	}
+   
+   
+</script>
+<script language="javascript" type="text/javascript">
+
+	function ProductFamilyGet() {
+		var e = document.getElementById('dnn_pricequote_DrpProductType2').value;
+		if (e == '0') {
+			var listItems1 = "";
+			listItems1 += "<option value='" + 0 + "'>" + "Please Select...." + "</option>";
+			$("#dnn_pricequote_DrpProductFamily2").html(listItems1);
+			$("#dnn_pricequote_DrpProductModel").html(listItems1);
+			$('#dnn_pricequote_DrpProductFamily2').attr("disabled", "disabled");
+			$('#dnn_pricequote_DrpProductModel').attr("disabled", "disabled");
+		}
+		else {
+			$.ajax({
+				type: "POST",
+				url: "/ProductFilterService.asmx/ProductFamily_Get",
+				data: '{Value : "' + e + '"}',
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				async: false,
+				success: OnSuccess,
+				error: OnError
+			});
+		}
+	}
+
+	function OnSuccess(data, status) {
+		var listItems = "";
+		listItems += "<option value='" + 0 + "'>" + "Please Select...." + "</option>";
+		for (var i = 0; i < data.d.length; i++) {
+			listItems += "<option value='" + data.d[i].SeriesID + "'>" + data.d[i].Name + "</option>";
+		}
+		$('#dnn_pricequote_DrpProductFamily2').removeAttr('disabled');
+		$("#dnn_pricequote_DrpProductFamily2").html(listItems);
+	}
+
+
+	function OnError(request, status, error) {
+		// alert("Error is " + error);
+	}
+  
+</script>
+<script type="text/javascript">
+	function GetHTMLContentForQuotation() {
+		var Name = document.getElementById('dnn_pricequote_name').value;
+		var Email = document.getElementById('dnn_pricequote_email').value;
+		var Org = document.getElementById('dnn_pricequote_org').value;
+		var Phone = document.getElementById('dnn_pricequote_phone').value;
+		var Country = $("#dnn_pricequote_DrpCountry").find('option').filter(':selected').text();
+		var ProductType = $("#dnn_pricequote_DrpProductType2").find('option').filter(':selected').text();
+		var ProductFamily = $("#dnn_pricequote_DrpProductFamily2").find('option').filter(':selected').text();
+		var ProductModel = $("#dnn_pricequote_DrpProductModel").find('option').filter(':selected').text();
+		var Comment = document.getElementById('dnn_pricequote_TxtComments2').value;
+		var CountryID = document.getElementById('dnn_pricequote_DrpCountry').value;
+		var State = $("#dnn_pricequote_dropDownState").val() == "0"
+			? ""
+			: $("#dnn_pricequote_dropDownState").find('option').filter(':selected').text();
+		var StateID = document.getElementById('dnn_pricequote_dropDownState').value;
+		var SelectedTags = $('.clsselval').val();		
+        var DemoRequested = "no";
+        if ($('#demorequestchk').is(':checked')) {
+            DemoRequested = "yes";
+        }
+
+        //google tracking data
+        function _uGC(e, t, c) { if (!e || "" == e || !t || "" == t || !c || "" == c) return "-"; var u, m, n, r = "-"; return u = e.indexOf(t), n = t.indexOf("=") + 1, u > -1 && ((m = e.indexOf(c, u)) < 0 && (m = e.length), r = e.substring(u + n, m)), r } var pageTracker = _gat._getTracker("UA-1-1"); pageTracker._trackPageview(); var z = _uGC(document.cookie, "__utmz=", ";"), source = _uGC(z, "utmcsr=", "|"), medium = _uGC(z, "utmcmd=", "|"), term = _uGC(z, "utmctr=", "|"), content = _uGC(z, "utmcct=", "|"), campaign = _uGC(z, "utmccn=", "|"), gclid = _uGC(z, "utmgclid=", "|"); "-" != gclid && (source = "google", medium = "cpc"); var csegment = _uGC(document.cookie, "__utmv=", ";"); if ("-" != csegment) { var csegmentex = /[1-9]*?\.(.*)/; csegment = (csegment = csegment.match(csegmentex))[1] } else csegment = "(not set)"; var a = _uGC(document.cookie, "__utma=", ";"), aParts = a.split("."), nVisits = aParts[5];
+        //google tracking data end
+        //var googleinfo = " [END OF MESSAGE] Source: " + source + " | Medium: " + medium + " | Term: " + term + " | Content: " + content + " | Campaign: " + campaign + " | Segment: " + csegment + " | Number of visits: " + nVisits;
+
+        var WebSource = source
+        var WebMedium = medium
+        var WebTerm = term
+        var WebContent = content
+        var WebCampaign = campaign
+        var WebSegment = csegment
+        var WebVisits = nVisits
+
+        // google tracking data (utma cookie creation date)
+        // function _uGC(e, t, c) { if (!e || "" == e || !t || "" == t || !c || "" == c) return "-"; var u, m, n, r = "-"; return u = e.indexOf(t), n = t.indexOf("=") + 1, u > -1 && ((m = e.indexOf(c, u)) < 0 && (m = e.length), r = e.substring(u + n, m)), r } var pageTracker = _gat._getTracker("UA-1-1"); pageTracker._trackPageview(); var z = _uGC(document.cookie, "__utma=", ";"), firstcreated = _uGC(z, "utmcsr=", "|"); 
+        // end of google tracking data (utma cookie creation date)
+        // var firstvisitdate = firstcreated;
+
+
+       // var values = {};
+       // var cookie = getCookie("__utma");
+      //  if (cookie) {
+       //     var z = cookie.split('.');
+        //    var googledate1 = z[0];
+        //    var googledate2 = z[1];
+         //   var googledate3 = z[2];
+         //   var googledate4 = z[3];
+        //    var googledate5 = z[4];
+      //  }
+
+        $.ajax({
+			type: "POST",
+			url: "/ProductFilterService.asmx/QuotationRequest",
+			data: '{Name : "' + Name + '",Email : "' + Email + '",Org : "' + Org + '",Phone : "' + Phone + '",Country : "' + Country + '",ProductType : "' + ProductType + '",ProductFamily: "' + ProductFamily + '",ProductModel: "' + ProductModel + '",Comment: "' + Comment + '",CountryID: "' + CountryID + '",SelectedVals: "' + SelectedTags + '",State: "' + State + '",StateID: "' + StateID + '",DemoRequested: "' + DemoRequested + '",WebSource: "' + source + '",WebMedium: "' + medium + '",WebTerm: "' + term + '",WebContent: "' + content + '",WebCampaign: "' + campaign + '",WebSegment: "' + csegment + '",WebVisits: "' + nVisits + '"}',
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
+			success: OnSuccessGetHTMLContentForQuotation,
+			error: OnError
+		});
+	}
+	function OnSuccessGetHTMLContentForQuotation(data, status) {
+	    document.getElementById("dnn_pricequote_BtnSendForm").style.background = '#5b8f22';
+	    document.getElementById("dnn_pricequote_BtnSendForm").style.border = 'solid 1px green';
+	    document.getElementById("dnn_pricequote_BtnSendForm").value = 'REQUEST HAS BEEN RECEIVED!';
+
+       var Email = document.getElementById('dnn_pricequote_email').value;
+
+		_gaq.push(['_setAccount', 'UA-55534-1']);
+		_gaq.push(['_trackEvent', 'Quote Request - COMPLETED', Email, window.location.href]);
+		_gaq.push(['_trackPageview', '/contact_us/thank_you/default.aspx?status=new']);
+
+		// ensures the optimizely object is defined globally using
+		window['optimizely'] = window['optimizely'] || [];
+
+		// sends a tracking call to Optimizely for the given event name. 
+		window.optimizely.push(["trackEvent", "QuoteSubmit"]);
+
+	}
+
+
+	function OnError(request, status, error) {
+		//  alert("Error is " + error);
+	}
+
+</script>
+<script type="text/javascript">
+
+	function BindDetails(e) {	    
+        var settings = $(e).parent().find(".quoteSettings");
+		if (settings.length > 0) {
+			if (settings.attr("comments")) {
+				$("#dnn_pricequote_TxtComments2").val(settings.attr("comments"));
+			}
+			if (settings.attr("productType")) {
+				$('#dnn_pricequote_DrpProductType2').removeAttr('disabled');
+				$("#dnn_pricequote_DrpProductType2").val(settings.attr("productType"));
+				$("#dnn_pricequote_DrpProductType2").change();
+			}
+			if (settings.attr("productFamily")) {
+				$('#dnn_pricequote_DrpProductFamily2').removeAttr('disabled');
+				$("#dnn_pricequote_DrpProductFamily2").val(settings.attr("productFamily"));
+				$("#dnn_pricequote_DrpProductFamily2").change();
+			}
+			if (settings.attr("productModel")) {
+				$('#dnn_pricequote_DrpProductModel').removeAttr('disabled');
+				$("#dnn_pricequote_DrpProductModel").val(settings.attr("productModel"));
+			}
+		}
+
+		var pagename = $('.pagename').val();
+		if (pagename == 'camera') {
+			var camera_series_id = null;
+			var product_id = null;
+			camera_series_id = ($(e).next().next().val());
+			camera_product_id = ($(e).next().next().next().val());
+			if (camera_series_id != null) {
+				$("#dnn_pricequote_DrpProductType2").val(1);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(camera_product_id);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(camera_series_id);
+			}
+		}
+
+		if (pagename == 'spectrograph') {
+			var spectrograph_series_id = null;
+			var spectrograph_id = null;
+			spectrograph_series_id = ($(e).next().next().val());
+			spectrograph_product_id = ($(e).next().next().next().val());
+			if (spectrograph_series_id != null) {
+				$("#dnn_pricequote_DrpProductType2").val(2);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(spectrograph_product_id);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(spectrograph_series_id);
+			}
+			$('#dnn_pricequote_DrpProductModel').removeAttr('disabled');
+			$("#dnn_pricequote_DrpProductFamily2").removeAttr('disabled');
+		}
+
+		if (pagename == 'system') {
+			var system_series_id = null;
+			var system_id = null;
+			system_series_id = ($(e).next().next().val());
+			system_product_id = ($(e).next().next().next().val());
+			if (system_series_id != null) {
+				$("#dnn_pricequote_DrpProductType2").val(3);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(system_product_id);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(system_series_id);
+			} 
+			$('#dnn_pricequote_DrpProductModel').removeAttr('disabled');
+			$("#dnn_pricequote_DrpProductFamily2").removeAttr('disabled');
+		}
+
+		if (pagename == 'software') {
+			var software_series_id = null;
+			var software_id = null;
+			software_series_id = ($(e).next().next().val());
+			software_product_id = ($(e).next().next().next().val());
+			if (software_series_id != null) {
+				$("#dnn_pricequote_DrpProductType2").val(4);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(software_product_id);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(software_series_id);
+			} 
+			$('#dnn_pricequote_DrpProductModel').removeAttr('disabled');
+			$("#dnn_pricequote_DrpProductFamily2").removeAttr('disabled');
+		}
+
+		if (pagename == 'cameradetails') {
+			var spectrograph_series_id = null;
+			var spectrograph_product_id = null;
+			spectrograph_series_id = ($(e).next('.seriesid').val());
+			spectrograph_product_id = ($(e).next('.seriesid').next('.productid').val());
+			if (spectrograph_series_id != null) {
+				$("#dnn_pricequote_DrpProductType2").val(1);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(spectrograph_series_id);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(spectrograph_product_id);
+			}
+		}
+		if (pagename == 'spectrographdetails') {
+			var spectrograph_series_id1 = null;
+			var spectrograph_product_id1 = null;
+			spectrograph_series_id1 = ($(e).next('.seriesid').val());
+			spectrograph_product_id1 = ($(e).next('.seriesid').next('.productid').val());
+			if (spectrograph_series_id1 != null) {
+				$("#dnn_pricequote_DrpProductType2").val(2);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(spectrograph_series_id1);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(spectrograph_product_id1);
+			}
+		}
+
+		if (pagename == 'systemdetails') {
+			var spectrograph_series_id = null;
+			var spectrograph_id = null;
+			spectrograph_series_id = ($(e).next('.seriesid').val());
+			spectrograph_product_id = ($(e).next('.seriesid').next('.productid').val());
+			if (spectrograph_series_id != null) {
+				$("#dnn_pricequote_DrpProductType2").val(3);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(spectrograph_series_id);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(spectrograph_product_id);
+			}
+		}
+
+		if (pagename == 'softwaredetails') {
+			var spectrograph_series_id = null;
+			var spectrograph_id = null;
+			spectrograph_series_id = ($(e).next('.seriesid').val());
+			spectrograph_product_id = ($(e).next('.seriesid').next('.productid').val());
+			if (spectrograph_series_id != null) {
+				$("#dnn_pricequote_DrpProductType2").val(4);
+				$("#dnn_pricequote_DrpProductType2").change();
+				$("#dnn_pricequote_DrpProductFamily2").val(spectrograph_series_id);
+				$("#dnn_pricequote_DrpProductFamily2").change();
+				$("#dnn_pricequote_DrpProductModel").val(spectrograph_product_id);
+			}
+}
+
+var ProductTypeDropDown = document.getElementById('dnn_pricequote_DrpProductType2');
+var ProductTypeSelected = ProductTypeDropDown.options[ProductTypeDropDown.selectedIndex].text;
+var ProductFamilyDropDown = document.getElementById('dnn_pricequote_DrpProductFamily2');
+var ProductFamilySelected = ProductFamilyDropDown.options[ProductFamilyDropDown.selectedIndex].text;
+var ProductModelDropDown = document.getElementById('dnn_pricequote_DrpProductModel');
+var ProductModelSelected = ProductModelDropDown.options[ProductModelDropDown.selectedIndex].text;
+var ProductFamilyID = document.getElementById('dnn_pricequote_DrpProductFamily2').value;
+var ProductModelId = document.getElementById('dnn_pricequote_DrpProductModel').value;
+
+$("#productboxinfo").html("<p id='productboxp'><span id='productboxspan'>Product</span>" + ProductModelSelected + " <span id='expandproductspan'>(<a onclick='fnExpandProductSelection()'>change</a>)</span></p>");
+
+if (ProductFamilyID == '0') {
+    $("#productboxinfo").html("<p id='productboxp'><span id='productboxspan'>Product</span>None selected... <span id='expandproductspan'>(<a onclick='fnExpandProductSelection()'>change</a>)</span></p>");
+}
+
+if (ProductModelId == '0') {
+    $("#productboxinfo").html("<p id='productboxp'><span id='productboxspan'>Product</span>" + ProductFamilySelected + " <span id='expandproductspan'>(<a onclick='fnExpandProductSelection()'>change</a>)</span></p>");
+}
+
+
+
+        _gaq.push(['_setAccount', 'UA-55534-1']);
+        _gaq.push(['_trackEvent', 'Quote Request - OPEN', window.location.href]);
+
+		$.ajax({
+			type: "POST",
+			url: "/ProductFilterService.asmx/LogQuoteOpened",
+			data: '{rawUrl : "' + document.URL + '"}',
+			contentType: "application/json; charset=utf-8",
+			dataType: "json"
+		});
+	}
+
+	function validationcheck() {
+	    
+		var result = ValidateText('2', 'dnn_pricequote')
+		if (result == true) {
+		    document.getElementById("dnn_pricequote_BtnSendForm").disabled = true;
+		    document.getElementById("dnn_pricequote_BtnSendForm").style.background = '#9a9b9c';
+		    document.getElementById("dnn_pricequote_BtnSendForm").style.border = 'black';
+            document.getElementById("dnn_pricequote_BtnSendForm").value = 'SENDING. PLEASE WAIT...';
+            GetHTMLContentForQuotation();
+	    	}
+		else {
+			return false;
+		}
+	}
+</script>
+<div class="contactform">
+	<p class="modelhtmltext" style="margin: 10px; margin-bottom: -5px; color: #8D060A;">
+	</p>
+	<span id="dnn_pricequote_hdFunction"></span>
+	<div class="form">
+		<p class="name">
+			<label for="name">
+				Name</label>
+			<input name="dnn$pricequote$name" type="text" id="dnn_pricequote_name" class="clsname">
+			<span id="dnn_pricequote_rfvName" style="color: Red"></span>
+		</p>
+		<p class="email">
+			<label for="email">
+				E-mail</label>
+			<input name="dnn$pricequote$email" type="text" id="dnn_pricequote_email" class="clsemail">
+			<span id="dnn_pricequote_rfvEmail" style="color: Red;"></span>
+			<br>
+			<span id="dnn_pricequote_rgvEmail" style="color: Red;"></span>
+		</p>
+		<p class="web">
+			<label for="web">
+				Organization</label>
+			<input name="dnn$pricequote$org" type="text" id="dnn_pricequote_org" class="clsorg">
+			<span id="dnn_pricequote_rfvOrg" style="color: Red"></span>
+		</p>
+		<p class="text">
+			<label for="web">
+				Telephone</label>
+			<input name="dnn$pricequote$phone" type="text" id="dnn_pricequote_phone" class="clsphone">
+			<span id="dnn_pricequote_rfvPhone" style="color: Red"></span>
+		</p>
+		<p class="text">
+			<label for="web">
+				Country</label>
+			<select name="dnn$pricequote$DrpCountry" id="dnn_pricequote_DrpCountry" class="clscountry" onchange="enableStates();" style="width: 155px;">
+	<option value="0">Please Select...</option>
+	<option value="778">Aaland Islands</option>
+	<option value="769">Afghanistan</option>
+	<option value="596">Albania</option>
+	<option value="498">Algeria</option>
+	<option value="800">American Samoa
+</option>
+	<option value="597">Andorra</option>
+	<option value="499">Angola</option>
+	<option value="801">Anguilla
+</option>
+	<option value="780">Antarctica</option>
+	<option value="644">Antigua And Barbuda</option>
+	<option value="691">Argentina</option>
+	<option value="544">Armenia</option>
+	<option value="777">Aruba</option>
+	<option value="673">Australia</option>
+	<option value="598">Austria</option>
+	<option value="546">Azerbaijan</option>
+	<option value="645">Bahamas</option>
+	<option value="547">Bahrain</option>
+	<option value="548">Bangladesh</option>
+	<option value="646">Barbados</option>
+	<option value="599">Belarus</option>
+	<option value="600">Belgium</option>
+	<option value="648">Belize</option>
+	<option value="500">Benin</option>
+	<option value="802">Bermuda
+</option>
+	<option value="549">Bhutan</option>
+	<option value="692">Bolivia</option>
+	<option value="601">Bosnia And Herzegowina</option>
+	<option value="501">Botswana</option>
+	<option value="803">Bouvet Island
+</option>
+	<option value="693">Brazil</option>
+	<option value="804">British Indian Ocean Territory
+</option>
+	<option value="551">Brunei Darussalam</option>
+	<option value="602">Bulgaria</option>
+	<option value="502">Burkina Faso</option>
+	<option value="503">Burundi</option>
+	<option value="552">Cambodia</option>
+	<option value="504">Cameroon</option>
+	<option value="649">Canada</option>
+	<option value="505">Cape Verde</option>
+	<option value="805">Cayman Islands
+</option>
+	<option value="506">Central African Republic</option>
+	<option value="507">Chad</option>
+	<option value="694">Chile</option>
+	<option value="553">China</option>
+	<option value="806">Christmas Island
+</option>
+	<option value="807">Cocos (Keeling) Islands
+</option>
+	<option value="696">Colombia</option>
+	<option value="508">Comoros</option>
+	<option value="509">Congo</option>
+	<option value="808">Cook Islands
+</option>
+	<option value="650">Costa Rica</option>
+	<option value="603">Croatia</option>
+	<option value="651">Cuba</option>
+	<option value="554">Cyprus</option>
+	<option value="604">Czech Republic</option>
+	<option value="605">Denmark</option>
+	<option value="510">Djibouti</option>
+	<option value="652">Dominica</option>
+	<option value="653">Dominican Republic</option>
+	<option value="697">Ecuador</option>
+	<option value="511">Egypt</option>
+	<option value="655">El Salvador</option>
+	<option value="512">Equatorial Guinea</option>
+	<option value="513">Eritrea</option>
+	<option value="606">Estonia</option>
+	<option value="514">Ethiopia</option>
+	<option value="810">Falkland Islands</option>
+	<option value="787">Faroe Islands</option>
+	<option value="674">Fiji</option>
+	<option value="607">Finland</option>
+	<option value="608">France</option>
+	<option value="811">French Guiana
+</option>
+	<option value="812">French Polynesia
+</option>
+	<option value="813">French Southern Territories
+</option>
+	<option value="515">Gabon</option>
+	<option value="773">Gambia</option>
+	<option value="610">Georgia</option>
+	<option value="611">Germany</option>
+	<option value="516">Ghana</option>
+	<option value="776">Gibraltar</option>
+	<option value="612">Greece</option>
+	<option value="774">Greenland</option>
+	<option value="656">Grenada</option>
+	<option value="814">Guadeloupe
+</option>
+	<option value="815">Guam
+</option>
+	<option value="657">Guatemala</option>
+	<option value="517">Guinea</option>
+	<option value="518">Guinea-Bissau</option>
+	<option value="698">Guyana</option>
+	<option value="658">Haiti</option>
+	<option value="816">Heard And Mc Donald Islands
+</option>
+	<option value="660">Honduras</option>
+	<option value="771">Hong Kong</option>
+	<option value="613">Hungary</option>
+	<option value="614">Iceland</option>
+	<option value="556">India</option>
+	<option value="557">Indonesia</option>
+	<option value="558">Iran</option>
+	<option value="559">Iraq</option>
+	<option value="615">Ireland</option>
+	<option value="561">Israel</option>
+	<option value="616">Italy</option>
+	<option value="809">Ivory Coast</option>
+	<option value="661">Jamaica</option>
+	<option value="562">Japan</option>
+	<option value="563">Jordan</option>
+	<option value="564">Kazakhstan</option>
+	<option value="519">Kenya</option>
+	<option value="675">Kiribati</option>
+	<option value="567">Kuwait</option>
+	<option value="568">Kyrgyzstan</option>
+	<option value="569">Lao People's Democratic Republic</option>
+	<option value="617">Latvia</option>
+	<option value="570">Lebanon</option>
+	<option value="520">Lesotho</option>
+	<option value="521">Liberia</option>
+	<option value="522">Libyan Arab Jamahiriya</option>
+	<option value="618">Liechtenstein</option>
+	<option value="619">Lithuania</option>
+	<option value="620">Luxembourg</option>
+	<option value="817">Macau
+</option>
+	<option value="621">Macedonia</option>
+	<option value="523">Madagascar</option>
+	<option value="524">Malawi</option>
+	<option value="571">Malaysia</option>
+	<option value="572">Maldives</option>
+	<option value="525">Mali</option>
+	<option value="622">Malta</option>
+	<option value="678">Marshall Islands</option>
+	<option value="818">Martinique
+</option>
+	<option value="526">Mauritania</option>
+	<option value="785">Mauritius</option>
+	<option value="819">Mayotte
+</option>
+	<option value="663">Mexico</option>
+	<option value="679">Micronesia</option>
+	<option value="623">Moldova, Republic Of</option>
+	<option value="624">Monaco</option>
+	<option value="573">Mongolia</option>
+	<option value="820">Montserrat
+</option>
+	<option value="527">Morocco</option>
+	<option value="821">Mozambique
+</option>
+	<option value="779">Myanmar</option>
+	<option value="770">Namibia</option>
+	<option value="680">Nauru</option>
+	<option value="575">Nepal</option>
+	<option value="628">Netherlands</option>
+	<option value="822">Netherlands Antilles
+</option>
+	<option value="781">New Caledonia</option>
+	<option value="681">New Zealand</option>
+	<option value="665">Nicaragua</option>
+	<option value="529">Niger</option>
+	<option value="531">Nigeria</option>
+	<option value="823">Niue
+</option>
+	<option value="824">Norfolk Island
+</option>
+	<option value="565">North Korea</option>
+	<option value="825">Northern Mariana Islands
+</option>
+	<option value="629">Norway</option>
+	<option value="576">Oman</option>
+	<option value="577">Pakistan</option>
+	<option value="751">Palau</option>
+	<option value="788">Palestinian Territory</option>
+	<option value="667">Panama</option>
+	<option value="684">Papua New Guinea</option>
+	<option value="700">Paraguay</option>
+	<option value="702">Peru</option>
+	<option value="579">Philippines</option>
+	<option value="826">Pitcairn
+</option>
+	<option value="630">Poland</option>
+	<option value="631">Portugal</option>
+	<option value="753">Puerto Rico</option>
+	<option value="580">Qatar</option>
+	<option value="827">Reunion
+</option>
+	<option value="632">Romania</option>
+	<option value="581">Russian Federation</option>
+	<option value="786">Rwanda</option>
+	<option value="828">Saint Helena
+</option>
+	<option value="668">Saint Kitts And Nevis</option>
+	<option value="669">Saint Lucia</option>
+	<option value="829">Saint Pierre And Miquelon
+</option>
+	<option value="670">Saint Vincent And The Grenadines</option>
+	<option value="686">Samoa</option>
+	<option value="633">San Marino</option>
+	<option value="532">Sao Tome And Principe</option>
+	<option value="582">Saudi Arabia</option>
+	<option value="533">Senegal</option>
+	<option value="634">Serbia And Montenegro</option>
+	<option value="534">Seychelles</option>
+	<option value="535">Sierra Leone</option>
+	<option value="583">Singapore</option>
+	<option value="635">Slovakia</option>
+	<option value="637">Slovenia</option>
+	<option value="687">Solomon Islands</option>
+	<option value="830">Somalia
+</option>
+	<option value="767">South Africa</option>
+	<option value="831">South Georgia And The South Sandwich Islands
+</option>
+	<option value="566">South Korea</option>
+	<option value="638">Spain</option>
+	<option value="584">Sri Lanka</option>
+	<option value="536">Sudan</option>
+	<option value="703">Suriname</option>
+	<option value="832">Svalbard And Jan Mayen Islands
+</option>
+	<option value="537">Swaziland</option>
+	<option value="639">Sweden</option>
+	<option value="640">Switzerland</option>
+	<option value="585">Syrian Arab Republic</option>
+	<option value="586">Taiwan</option>
+	<option value="587">Tajikistan</option>
+	<option value="538">Tanzania</option>
+	<option value="588">Thailand</option>
+	<option value="555">Timor-Leste</option>
+	<option value="539">Togo</option>
+	<option value="833">Tokelau
+</option>
+	<option value="688">Tonga</option>
+	<option value="671">Trinidad &amp; Tobago</option>
+	<option value="540">Tunisia</option>
+	<option value="589">Turkey</option>
+	<option value="590">Turkmenistan</option>
+	<option value="834">Turks And Caicos Islands
+</option>
+	<option value="689">Tuvalu</option>
+	<option value="541">Uganda</option>
+	<option value="641">Ukraine</option>
+	<option value="591">United Arab Emirates</option>
+	<option value="642">United Kingdom</option>
+	<option value="791">United States</option>
+	<option value="835">United States Minor Outlying Islands
+</option>
+	<option value="705">Uruguay</option>
+	<option value="592">Uzbekistan</option>
+	<option value="690">Vanuatu</option>
+	<option value="643">Vatican City State (Holy See</option>
+	<option value="707">Venezuela</option>
+	<option value="593">Vietnam</option>
+	<option value="836">Virgin Islands (British
+</option>
+	<option value="837">Virgin Islands (U.S
+</option>
+	<option value="838">Wallis And Futuna Islands
+</option>
+	<option value="772">Western Sahara</option>
+	<option value="594">Yemen</option>
+	<option value="542">Zambia</option>
+	<option value="543">Zimbabwe</option>
+
+</select>
+			<span id="dnn_pricequote_rfvCountry" style="color: Red"></span>
+		</p>
+		<div style="display: none;" id="statestogglediv"> 
+        <p class="text">
+			<label for="web">
+				State</label>
+			<select name="dnn$pricequote$dropDownState" id="dnn_pricequote_dropDownState" class="clsstate" disabled="true" style="width: 155px;">
+	<option value="0">Please Select...</option>
+	<option value="709">Alabama</option>
+	<option value="710">Alaska</option>
+	<option value="711">Arizona</option>
+	<option value="712">Arkansas</option>
+	<option value="713">California</option>
+	<option value="714">Colorado</option>
+	<option value="715">Connecticut</option>
+	<option value="716">Delaware</option>
+	<option value="717">District Of Columbia</option>
+	<option value="719">Florida</option>
+	<option value="790">Georgia</option>
+	<option value="720">Hawaii</option>
+	<option value="721">Idaho</option>
+	<option value="722">Illinois</option>
+	<option value="723">Indiana</option>
+	<option value="724">Iowa</option>
+	<option value="725">Kansas</option>
+	<option value="726">Kentucky</option>
+	<option value="727">Louisiana</option>
+	<option value="728">Maine</option>
+	<option value="732">Maryland</option>
+	<option value="733">Massachusetts</option>
+	<option value="734">Michigan</option>
+	<option value="735">Minnesota</option>
+	<option value="736">Mississippi</option>
+	<option value="737">Missouri</option>
+	<option value="738">Montana</option>
+	<option value="739">Nebraska</option>
+	<option value="740">Nevada</option>
+	<option value="741">New Hampshire</option>
+	<option value="742">New Jersey</option>
+	<option value="743">New Mexico</option>
+	<option value="744">New York</option>
+	<option value="745">North Carolina</option>
+	<option value="746">North Dakota</option>
+	<option value="747">Ohio</option>
+	<option value="748">Oklahoma</option>
+	<option value="749">Oregon</option>
+	<option value="752">Pennsylvania</option>
+	<option value="754">Rhode Island</option>
+	<option value="755">South Carolina</option>
+	<option value="756">South Dakota</option>
+	<option value="757">Tennessee</option>
+	<option value="758">Texas</option>
+	<option value="759">Utah</option>
+	<option value="760">Vermont</option>
+	<option value="761">Virginia</option>
+	<option value="762">Washington</option>
+	<option value="763">West Virginia</option>
+	<option value="764">Wisconsin</option>
+	<option value="765">Wyoming</option>
+
+</select>
+			<span id="dnn_pricequote_rfvState" style="color: Red"></span>
+		</p>
+        </div>
+		<div id="productboxinfo"><p id="productboxp"><span id="productboxspan">Product</span>Please Select... <span id="expandproductspan">(<a onclick="fnExpandProductSelection()">change</a>)</span></p></div>
+        <div style="display: none;" id="productboxes">
+        <p class="text">
+			<label for="web">
+				Product Type
+			</label>
+			<select name="dnn$pricequote$DrpProductType2" id="dnn_pricequote_DrpProductType2" onchange="ProductFamilyGet()" class="clsQuotationProductType">
+	<option value="0">Please Select...</option>
+	<option value="1">Scientific Cameras</option>
+	<option value="2">Spectrographs</option>
+	<option value="3">Microscopy Systems</option>
+	<option value="4">Software</option>
+	<option value="5">Accessories</option>
+
+</select>
+			<span id="dnn_pricequote_rfvQuotationProductType" style="color: Red"></span>
+		</p>
+		<p class="text">
+			<label for="web">
+				Product Family</label>
+			<select name="dnn$pricequote$DrpProductFamily2" id="dnn_pricequote_DrpProductFamily2" onchange="ProductModelGet()" class="clsProductFamilyForQuotation" disabled="disabled">
+	<option value="0">Please Select...</option>
+
+</select>
+			<span id="dnn_pricequote_rfvQuotationProductFamily" style="color: Red"></span>
+		</p>
+		<p class="text">
+			<label for="web">
+				Product Model</label>
+			<select name="dnn$pricequote$DrpProductModel" id="dnn_pricequote_DrpProductModel" class="clsProductModel" disabled="disabled">
+	<option value="0">Please Select...</option>
+
+</select>
+			<span id="dnn_pricequote_rfvPRoductModel" style="color: Red"></span>
+		</p>
+        </div>
+		<p class="text">
+			<label for="web">
+				Comments</label>
+			<textarea name="dnn$pricequote$TxtComments2" id="dnn_pricequote_TxtComments2" class="clsQuotationComments"></textarea>
+			<span id="dnn_pricequote_rfvQuotationComments" style="color: Red"></span>
+		</p>
+<div id="demorequestdiv" style="display: none;">
+			
+           <input id="demorequestchk" style="float: left; margin-left: 12px; margin-right: 5px; width: 15px;" type="checkbox"><p style="margin-top: 2px; margin-bottom: 5px; color: #4d4f53;">I would like to request a demo license of Komet 7</p>
+		</div>
+	</div>
+	<p class="submit" style="margin-left: 10px; width: 290px; float: left;">
+		<input type="submit" name="dnn$pricequote$BtnSendForm" value="SUBMIT REQUEST" onclick="return validationcheck();" id="dnn_pricequote_BtnSendForm" class="button orange" style="width: 100%;">
+	</p>
+</div>
+<input type="hidden" name="dnn$pricequote$hdnPostback" id="dnn_pricequote_hdnPostback">
+
+        </div>    
+    </div>
+</div>
+</div>
+
+<script>
+
+    $(window).scroll(function () {
+
+        var scroll = $(window).scrollTop();
+        if (scroll >= 400 && $("#plasma").hasClass("menuhighlight") == false) {
+
+            setTimeout(function () { $("#plasma").addClass("menuselected") }, 1500);
+            $("#plasma").addClass("menuhighlight");
+            setTimeout(function () { $("#plasma").removeClass("menuselected") }, 2500);
+            setTimeout(function () { $("#libs").addClass("menuselected") }, 2500);
+            setTimeout(function () { $("#libs").removeClass("menuselected") }, 3500);
+            setTimeout(function () { $("#combustion").addClass("menuselected") }, 3500);
+            setTimeout(function () { $("#combustion").removeClass("menuselected") }, 4500);
+            setTimeout(function () { $("#optics").addClass("menuselected") }, 4500);
+            setTimeout(function () { $("#optics").removeClass("menuselected") }, 5500);
+            setTimeout(function () { $("#luminescence").addClass("menuselected") }, 5500);
+            setTimeout(function () { $("#luminescence").removeClass("menuselected") }, 6500);
+        }
+
+        if (scroll >= 1000 && $("#gating").hasClass("menuhighlight") == false) {
+
+            setTimeout(function () { $("#gating").addClass("menuselected") }, 1500);
+            $("#gating").addClass("menuhighlight");
+            setTimeout(function () { $("#gating").removeClass("menuselected") }, 2500);
+            setTimeout(function () { $("#intensify").addClass("menuselected") }, 2500);
+            setTimeout(function () { $("#intensify").removeClass("menuselected") }, 3500);
+
+        }
+
+
+    }); 
+
+</script>
+    
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/graph-animate.js"></script>   
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/graph-animate2.js"></script>     
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/fastclick.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/scroll.js"></script>
+<script type="text/javascript" src="/Portals/_default/Skins/andor/js1/fixed-responsive-nav.js"></script>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop">
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="{&quot;__scdoff&quot;:&quot;1&quot;}">
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form><div class="mask"></div>
+    
+    
+    <script type="text/javascript">
+        //<![CDATA[
+
+        //This code is to force a refresh of browser cache
+        //in case an old version of dnn.js is loaded
+        //It should be removed as soon as .js versioning is added
+        jQuery(document).ready(function () {
+            if (navigator.userAgent.indexOf(" Chrome/") == -1) {
+                if ((typeof dnnJscriptVersion === 'undefined' || dnnJscriptVersion !== "6.0.0") && typeof dnn !== 'undefined') {
+                    window.location.reload(true);
+                }
+            }
+        });
+        //]]>
+    </script>
+    <div id="containerDynamicPdf" style="display: none;">
+        <div id="contentDynamicPdf">
+            <div id="basic-modal-content-pdf-dynamic">
+                <div class="basic-modal-copy-holder">
+                    <a class="basic-modal-open">Open PDF in new window</a> <a class="basic-modal-copy">Copy
+                        URL to clipboard</a>
+                </div>
+                <iframe id="iframeDynamicPdf" class="iframspec" height="100%" width="100%" pdfsrc="">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" language="JavaScript" src="http://email.andor.com/js/frs-app.js"></script>
+    <script type="text/javascript">frt(96231);</script>
+      <script type="text/javascript">
+          $(document).ready(function () {
+
+              var CTAtitle = $("#CTAslider").find('h2').text();
+
+              if (document.cookie.indexOf(CTAtitle) >= 0) {
+
+              }
+              else {
+
+                  interval = setInterval(function () {
+                      $('#CTAslider').animate({
+                          bottom: 0
+                      }, "slow");
+                  }, 12000);
+
+              }
+
+              $("#CTAclose").click(function () {
+                  $('#CTAslider').animate({
+                      bottom: -225
+                  }, "slow");
+                  clearInterval(interval);
+
+                  var CTAtitle = $("#CTAslider").find('h2').text();
+                  if (document.cookie.indexOf(CTAtitle) >= 0) {
+
+                  }
+                  else {
+                      document.cookie = CTAtitle + "=closed";
+                  }
+
+
+              });
+          });
+
+    </script>
+    <script type="text/javascript">
+        //for newsletter
+
+        function validatefieldsNewsletter() {
+            var txtname = $('.navNewsName').val();
+            var txtemail = $('.navNewsEmail').val();
+            var chkphysical = $('.navNewsPhysical').is(':checked') ? "Yes" : "No";
+            var chklife = $('.navNewsLife').is(':checked') ? "Yes" : "No";
+            var checked = $("#newsletterform input:checked").length > 0;
+            $('#accept').click(function () {
+                var permission = this.checked ? "Y" : "N";
+                console.log(permission);
+            });
+            var returnval = true;
+            if (txtname == '') {
+                $('.navNewsName').css({ "border": "2px inset red" });
+                return returnval = false;
+            }
+            else {
+                $('.navNewsName').css({ "border": "2px inset white" });
+            }
+            if (txtemail == "") {
+                $('.navNewsEmail').css({ "border": "2px inset red" });
+                return returnval = false;
+            }
+            else {
+                $('.navNewsEmail').css({ "border": "2px inset white" });
+            }
+            if (!checked) {
+                $('#rfvNewsVersion').html('*');
+                return returnval = false;
+            }
+            else {
+                $('#rfvNewsVersion').html(' ');
+            }
+            var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            if (reg.test(txtemail) == false) {
+                $('.navNewsEmail').css({ "border": "2px inset red" });
+                return returnval = false;
+            }
+            else {
+                $('.navNewsEmail').css({ "border": "2px inset white" });
+
+            }
+            if (returnval == true) {
+                $('.navNewsButton').css({ "background": "grey" });
+                $('.navNewsButton').css({ "border": "solid 1px #4d4f53" });
+                $('.navNewsButton').text('PLEASE WAIT...');
+                SendMailCTANewsletter(txtname, txtemail, chkphysical, chklife);
+            }
+        }
+        //for sending mail in case of newsletter
+        function SendMailCTANewsletter(txtname, txtemail, chkphysical, chklife) {
+            $.ajax({
+                type: "POST",
+                url: "/ProductFilterService.asmx/SendMailCTANewsletter",
+                data: '{Name : "' + txtname + '",Email : "' + txtemail + '",Physical : "' + chkphysical + '",Life : "' + chklife + '"}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessMsg,
+                error: OnErrorMsg
+            });
+        }
+
+        function OnSuccessMsg(data, status) {
+            $('.navNewsButton').css({ "background": "#5B8F22" });
+            $('.navNewsButton').css({ "border": "solid 1px #385815" });
+            $('.navNewsButton').text('THANK YOU!');
+            $('.navNewsName').val('');
+            $('.navNewsEmail').val('');
+            $('.navNewsOrg').val('');
+            $('.navNewsTel').val('');
+            $('.navNewsTime').val('');
+            $('.navNewsSoftware').val('');
+
+            //           set cookie 
+            var CTAtitle = $("#CTAslider").find('h2').text();
+            document.cookie = CTAtitle + "=submitted; max-age=63115200";
+
+        }
+
+        function OnErrorMsg(request, status, error) {
+            //  alert("Error is " + error);
+        }
+    </script>
+
+
+
+
+
+<!-- Be'ian License Number - China
+沪ICP备15030362号-3
+Shanghai ICP No. 15030362 -3
+-->
+</body></html>

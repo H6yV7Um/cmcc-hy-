@@ -1,0 +1,274 @@
+<!DOCTYPE html><html><head><base href="http://mtrh.com.cn:80/">
+
+
+
+
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-table.css" rel="stylesheet">
+<link href="css/rmt_plate.css" rel="stylesheet">
+<link href="css/red.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+<link href="css/bootstrap-dialog.min.css" rel="stylesheet">
+<link href="css/fileinput.min.css" rel="stylesheet">
+<link href="css/bootstrap-treeview.min.css" rel="stylesheet">
+<link href="css/select2.min.css" rel="stylesheet">
+<link href="css/app.css" rel="stylesheet">
+<script type="text/javascript">
+	javascript: window.history.forward(1);
+	document.onkeypress = banBackSpace;
+	document.onkeydown = banBackSpace;
+	function banBackSpace(e) {
+		var ev = e || window.event;
+		var obj = ev.target || ev.srcElement;
+		var t = obj.type || obj.getAttribute('type');
+		var vReadOnly = obj.getAttribute('readonly');
+		var vEnabled = obj.getAttribute('enabled');
+		vReadOnly = (vReadOnly == null) ? false : vReadOnly;
+		vEnabled = (vEnabled == null) ? true : vEnabled;
+		var flag1 = (ev.keyCode == 8 && (t == "password" || t == "text" || t == "textarea" || t == "tel" || t == "email" ) && (vReadOnly == true || vEnabled != true)) ? true: false;
+		var flag2 = (ev.keyCode == 8 && t != "password" && t != "text" && t != "textarea"  && t != "tel" && t != "email") ? true: false;
+
+		//bugId 1819;   20170605 add by linsheng begin
+		if ( ev.keyCode == 8 && t=="search" && vReadOnly == false &&  vEnabled==true ){
+		    return true
+        }
+        //20170605 add by linsheng end
+		if (flag2) {
+			return false;
+		}
+		if (flag1) {
+			return false;
+		}
+	}
+</script>
+
+
+<title>融媒体后台管理系统</title>
+<style type="text/css">
+a{
+bblr:expression(this.onFocus=this.blur());/*IE使用*/
+outline-style:none;/*FF使用*/
+} /*去除a标签带来的虚框*/ 
+
+</style>
+</head>
+<body>
+
+<div style="height:86px"></div>
+<div class="login-wrap"> 
+  <div class="login-form">
+    <section class="login gradient">
+    <div class="container"> 
+    <div class="row">
+
+      <div class="col-xs-12 text-center login-title hidden-xs">
+        <a href="/" class="logo">福建日报</a>
+      </div><!--/col-->
+
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+        <div class="well login-well">
+          <h5 class="text-center login-title">
+         	   欢迎登录
+          </h5>
+          <form action="login.shtml" method="post" id="signInForm">
+            <div class="form-group">
+              <label for="email">账号</label>
+              <div class="input-group">
+     		<div class="input-group-btn">
+      		<input name="staff_code" id="staff_code" type="text" class="form-control" required="" placeholder="请输入账号" tabindex="1" autofocus="" aria-required="true">
+    		</div>
+    		</div><!-- /input-group -->
+              
+            </div>
+
+            <div class="form-group">
+              <label for="password">密码</label>
+              <input type="password" id="staff_pass" name="password" class="form-control" placeholder="请输入密码" tabindex="2" required="" aria-required="true">
+            </div>
+            
+            <div class="form-group">
+              <label for="regCode">验证码</label>
+              
+              <div>
+	               <input name="regCode" id="regCode" type="text" class="form-control" style="width:65%;float: left;" required="" placeholder="图形验证码" tabindex="3" aria-required="true">
+	               <a onclick="changeReg();" title="看不清，再换一张" style="float: left;" tabindex="4">
+	                <img style="vertical-align:middle;border:none;height:35px;width:100px;float:left;" src="http://mtrh.com.cn:80//public/checkcodeLogin.jsp" alt="点击更换图片" id="reg" border="0">
+	               </a>
+              </div>
+              
+            </div>
+            
+            <br>
+            <br>           
+			<p id="resultMsg" style="color: red;"></p>
+             <div class="form-group">
+                    <div class="checkbox">
+                      <label>
+                        <div class="icheckbox_square-red"><input type="checkbox" id="remember" tabindex="5" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); border: 0px; opacity: 0; background-position: initial initial; background-repeat: initial initial;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); border: 0px; opacity: 0; background-position: initial initial; background-repeat: initial initial;"></ins></div>
+                        <span class="text">记住账号及密码</span> </label>
+                    </div>
+                  </div>
+             
+            <div class="form-group btn-group-lg">
+              <button type="button" data-loading-text="Logging in..." onclick="Save()" class="btn btn-login btn-block btn-danger" tabindex="6">登录</button>
+            </div>
+
+            
+          </form>
+           <div class="row">
+            <div class="col-sm-8"><a href="preResetpwd.shtml" tabindex="7">忘记密码?</a></div>
+            <div class="col-sm-4 text-right"><a href="preReg.shtml" tabindex="8">申请账号</a></div>
+        </div> 
+        </div>
+      </div><!--/col-->
+    </div><!--/row-->
+  </div><!--/container -->
+  </section>
+
+  
+   </div>
+</div>
+ 
+<!-- 修改元素定位为 static 20170605  modify by linsheng begin -->
+<div class="copy-right" style="position: static">
+<!-- 修改元素定位为 static 20170605  modify by linsheng end -->
+  <p>版权所有 福建日报Copyright © 2018 Inc. All Rights 
+    Reserved.</p>
+<p><a href="http://www.miitbeian.gov.cn" title="闽ICP备15008128号-4" target="_blank" rel="nofollow">闽ICP备15008128号-4</a></p>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.base64.js"></script>
+<script type="text/javascript" src="js/tableExport.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/blob.js"></script>
+<script type="text/javascript" src="js/FileSaver.min.js"></script>
+<script type="text/javascript" src="js/xlsx.core.min.js"></script>
+<script type="text/javascript" src="js/comet4j.js"></script>
+<!--èå-->
+<script type="text/javascript" src="js/fonee.js"></script>
+<!--éé¡¹å¡-->
+<script type="text/javascript" src="js/bootstrap-addtabs.js"></script>
+<!--åé-->
+<script src="js/icheck.js"></script>
+<!--æ¥ææ§ä»¶-->
+<script src="js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+<script src="js/bootstrap-datetimepicker.zh-CN.js?v=1.0" charset="UTF-8"></script>
+<script src="js/bootstrap-table.js"></script>
+<script src="js/bootstrap-table-zh-CN.js"></script>
+<script src="js/bootstrap-dialog.min.js"></script>
+<script src="js/serializeJson.js?v=2.1117"></script>
+
+<script src="js/fileinput.min.js"></script>
+<script src="js/fileinput_locale_zh.js?v=2.111"></script>
+<script src="js/ajaxfileupload.js"></script>
+<script src="js/bootstrap-treeview.min.js"></script>
+<script src="js/select2.js?v=2.115"></script>
+<script src="js/app.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script src="js/bootstrap-popover.js"></script>
+
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+       if (window != top)  top.location.href = location.href; 
+        if ($.cookie("remember") == "true") {
+	        $("#remember").prop("checked", true);
+	        $("#staff_code").val($.cookie("staffCode"));
+	        $("#staff_pass").val($.cookie("staffPass"));
+        }
+        
+        $('input').iCheck({
+                checkboxClass: 'icheckbox_square-red',
+                radioClass: 'iradio_square-red',
+                increaseArea: '20%'
+              });
+        
+        //IE9以下的版本
+        if(navigator.appName == "Microsoft Internet Explorer"&&parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE",""))<9){
+            alert("您使用的IE浏览器版本低于IE9，在使用过程中可能会出现页面显示或功能不兼容等问题，建议您升级至IE9版本，或下载谷歌、火狐、360（极速模式）浏览器使用！");
+            //warningAlert("您使用的IE浏览器版本低于IE9，在使用过程中可能会出现页面显示或功能不兼容等问题，建议您升级至IE9版本，或下载谷歌、火狐、360（极速模式）浏览器使用！");
+        }
+        
+    });
+    
+    //记住用户名密码
+    function Save() {
+        if ($("#remember").is(":checked")) {
+            var staffCode = $("#staff_code").val();
+            var staffPass = $("#staff_pass").val();
+            
+            $.cookie("remember", "true", { expires: 7 }); //存储一个带7天期限的cookie
+            $.cookie("staffCode", staffCode, { expires: 7 });
+            $.cookie("staffPass", staffPass, { expires: 7 });
+        }else {
+            $.cookie("remember", "false", { expire: -1 });
+            $.cookie("staffCode", "", { expires: -1 });
+            $.cookie("staffPass", "", { expires: -1 });
+        }
+        
+        //表单提交方式改为ajax方式实现登录错误仍保留帐号密码
+       var staffCode = $("#staff_code").val();
+       var staffPass = $("#staff_pass").val();
+       var regCode = $("#regCode").val();
+       if(staffCode == "" || staffCode == undefined || staffCode == null){
+	       	$('#resultMsg').html('请输入账号!');
+	       	return;
+       }
+       if(staffPass == "" || staffPass == undefined || staffPass == null){
+          	$('#resultMsg').html('请输入密码!');
+          	return;
+       }
+       if(regCode == "" || regCode == undefined || regCode == null){
+	       	$('#resultMsg').html('请输入验证码!');
+	       	return;
+       }
+	
+       $.ajax({ 
+           type:"POST", 
+           url:"ajaxVerifyLogin.shtml", 
+           data : "staff_code=" + staffCode+'&password='+staffPass+'&regCode='+regCode,
+           dataType : "json",
+           success:function(data){
+        	   if(data.RESULT_CODE==0){
+        		   window.location.href='index.shtml';
+        	   }
+        	   if(data.RESULT_CODE==1){
+        		   $('#resultMsg').html(data.RESULT_MESSAGE);
+        		   changeReg();
+        	   }
+           } 
+        }); 
+    }
+    
+    function changeReg(){
+    	//var timestamp = (new Date()).valueOf();
+    	//document.getElementById("reg").src ='/servlet/regCode?timestamp='+timestamp;
+    	//20170616 suna 登录部分验证码改为纯数字
+    	var imgurl = chgUrl("public/checkcodeLogin.jsp");
+    	document.getElementById("reg").src ='/'+imgurl;
+    }
+
+	function chgUrl(url) {
+		var timestamp = (new Date()).valueOf();
+		url = url + "?timestamp=" + timestamp;
+		return url;
+	}
+	
+	//改了登录按钮事件,改为监听keydown
+	$("body").keydown(function(event) {
+		 if (event.keyCode == 13 || event.which == 13) {  
+			 Save();
+		    }  
+	});  
+
+	 
+    
+</script>
+
+
+</body></html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>货车帮 中国公路物流基础设施</title>
+	<meta name="Keywords" content="货车帮,物流,合作,货车,货物,货源">
+    <meta name="description" content="货车帮,物流,合作,货车,货物,货源">
+    <script type="text/javascript">
+    	if(location.host == 'www.56qq.com' && location.protocol == 'http:'){
+    		location.protocol = 'https';
+    	}
+    </script>
+	
+	<!--加 icon-->
+	<link type="image/x-icon" rel="shortcut icon" href="statics/favicon.ico">
+	<!-- 引入css文件 -->
+	<link rel="stylesheet" href="http://dev.hcb.cn/staticConsignorBase/src/css/final.css">
+</head>
+<body>
+	<div class="win_hate_ie" id="JS_win_ie">
+		<div class="win_mask"></div>
+		<div class="win_content">
+			<p class="p0"><i class="icon_worn"></i></p>
+			<p class="p1">你的浏览器版本过低</p>
+			<p class="p2">建议你下载以下浏览器版本</p>
+			<div class="down_load">
+				<a href="http://sw.bos.baidu.com/sw-search-sp/software/fc14f1545b7/ChromeStandalone_51.0.2704.106_Setup.exe" class="item">
+					<i class="icon_chorme"></i>
+					<span class="unhover">谷歌</span>
+					<span class="hover">下载谷歌</span>
+				</a>
+				<a href="http://www.baidu.com/link?url=hpdPPLvqQ3YPskmDc1tQuOmH_rsHO9e2FUuAO13nUESTnire1sQaSgk3lTqVTxvs2-zhHCKp8y5p0eUoJGw1cq63O44Z5OdWWp4T9Zf9Yhm" class="item">
+					<i class="icon_ie"></i>
+					<span class="unhover">IE</span>
+					<span class="hover">下载IE</span>
+				</a>
+				<a href="http://sw.bos.baidu.com/sw-search-sp/software/e4f31c572a7/Firefox_47.0.1.6018_setup.exe" class="item">
+					<i class="icon_firefox"></i>
+					<span class="unhover">Firefox</span>
+					<span class="hover">下载火狐</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		(function(){
+			var isIE7Up = function(){
+			    var DEFAULT_VERSION = "7.0";
+			    var ua = navigator.userAgent.toLowerCase();
+			    var isIE = (ua.indexOf("msie") != -1);
+			    var safariVersion;
+			    if(isIE){
+			        safariVersion =  ua.match(/msie ([\d.]+)/)[1];
+			        if( parseInt(safariVersion) > parseInt(DEFAULT_VERSION)){
+			            return true;
+			        }else{
+			            return false;
+			        }
+			    }
+			    return true
+			}
+			var isOpenWin = function(){
+				if(!isIE7Up()){
+					document.getElementById('JS_win_ie').style.display = 'block';
+				}
+			}
+			isOpenWin();
+		})()
+	</script>
+
+	<div class="iframe_box">
+		<div class="wrap">
+			<div class="header_box">
+				<!-- 导航栏 -->
+				<div class="header_nav" id="JS_header_nav">
+					<ul>
+						<li>
+							<a href="javascript:;" class="nav_tab_a nav_tab_on"><span>找货</span><i class="icon_nav_down"></i></a>
+							<div class="sub_nav">
+								<a href="javascript:;" class="nav_sub_a">联系货源</a>
+								<a href="javascript:;" class="nav_sub_a">查看货源</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="nav_tab_a"><span>发货</span><i class="icon_nav_down"></i></a>
+							<div class="sub_nav">
+								<a href="javascript:;" class="nav_sub_a">通话记录</a>
+								<a href="javascript:;" class="nav_sub_a">查看货源</a>
+								<a href="javascript:;" class="nav_sub_a">常发货源</a>
+								<a href="javascript:;" class="nav_sub_a">运单</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="nav_tab_a"><span>保险</span><i class="icon_nav_down"></i></a>
+						</li>
+						<li>
+							<a href="javascript:;" class="nav_tab_a"><span>车库</span><i class="icon_nav_down"></i></a>
+							<div class="sub_nav">
+								<a href="javascript:;" class="nav_sub_a">熟车</a>
+								<a href="javascript:;" class="nav_sub_a">车源</a>
+								<a href="javascript:;" class="nav_sub_a">联系记录</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;" class="nav_tab_a"><span>我要</span><i class="icon_nav_down"></i></a>
+							<div class="sub_nav">
+								<a href="javascript:;" class="nav_sub_a">设置</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 跑马灯 -->
+				<div class="road_hourse" id="road_box">
+			        <table>
+			            <tbody><tr>
+		                <td id="js_road1">
+		                    <span></span>
+			                </td>
+		                <td id="js_road2">
+		                    <span></span>
+			                </td>
+			            </tr>
+			            </tbody></table>
+		    	</div>
+				<!-- 地区 -->
+				<div class="choose_panel">
+					<ul>
+						<li>
+							<div class="p2">
+								<div class="choose_area">
+									<span class="js_c_txt">全国</span>
+								</div>
+								<i class="icon_list_down"></i>
+							</div>
+						</li>
+						<li>
+							<div class="p2">
+								<div class="choose_area">
+									<span class="js_c_txt">全国</span>
+								</div>
+								<i class="icon_list_down"></i>
+							</div>
+						</li>
+						<li>
+							<div class="p2">
+								<div class="choose_area">
+									<span class="js_c_txt">不限</span>
+								</div>
+								<i class="icon_list_down"></i>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content_box">
+				<div class="def_box">
+					<p style="color:#92979e;">未登录账号用户，已达到查看货源上限。</p>
+					<p class="txt_center mt_5" id="JS_go_login">
+						<a href="javascript:;" class="btn js_go_login">登录</a>
+					</p>
+				</div>
+			</div>
+			<div id="JS_code" class="code_bg">
+				<i href="javascript:;" class="code_close" id="JS_code_close"></i>
+				<div class="code_top"></div>
+				<div class="code_middle"></div>
+				<!-- <div class="code_footer" id="JS_code_footer"></div> -->
+			</div>
+		</div>
+	</div>
+	<div class="logo_top"><a href="http://about.56qq.com" style="width:100%;height:100%;display:block;"></a></div>
+	<div class="logo_bottom" style="width: 900px">
+		<div class="logo_qr"></div>
+		<p class="gray mt_10">版权所有2017 贵阳货车帮科技有限公司 蜀ICP备11012333号-3 增值电信业务经营许可证编号：川B2-20110079 <a class="link_about gray" href="http://about.56qq.com">关于我们</a><a target="_blank" style="color: #000;position: relative;padding-left: 10px;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51019002001011">
+                        <img src="//s.56qq.com/staticHcb/dist/20161202/images/record.png" style="position: relative;top: 4px;">
+                        川公网安备 51019002001011号
+                    </a></p>
+	</div>
+
+<script type="text/javascript" src="https://s.56qq.com/staticBase/dist/20160622/js/lib/lib.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var index = {
+				init: function(){
+					this._road();
+					this._event();
+					this._render();
+				},
+
+				_event: function(){
+					var target = $('#JS_code');
+					var wrap = $('#JS_warp');
+					var footer = $('#JS_code_footer');
+
+					$('#JS_code_close').on('click', function(){
+						target.hide();
+					})
+
+					$('#JS_header_nav, #JS_go_login').on('click', 'a', function(){
+						target.show();
+					})
+
+					$(window).on('resize', function(){
+						var h = $(this).height();
+						if(h <= 752){
+							footer.addClass('pos');
+						}else{
+							footer.removeClass('pos');
+						}
+					});
+				},
+
+				_render: function(){
+					var h = $(window).height();
+					var footer = $('#JS_code_footer');
+					if(h <= 752){
+						footer.addClass('pos');
+					}else{
+						footer.removeClass('pos');
+					}
+				},
+
+				_road : function() {
+		            var speed = 50,
+		                road1 = document.getElementById('js_road1'),
+		                road2 = document.getElementById('js_road2'),
+		                roadBox = document.getElementById('road_box');
+
+		            if(!road1 || !road2){
+		            	return;
+		            }
+		            
+		            road2.innerHTML = road1.innerHTML;
+		            function Marquee() {
+		                if (roadBox.scrollLeft >= road1.scrollWidth) {
+		                    roadBox.scrollLeft = 0;
+		                }
+		                else {
+		                    roadBox.scrollLeft++;
+		                }
+		            }
+
+		            var MyMar = setInterval(Marquee, speed);
+		            roadBox.onmouseover = function () {
+		                clearInterval(MyMar);
+		            };
+		            roadBox.onmouseout = function () {
+		                MyMar = setInterval(Marquee, speed);
+		            };
+		        }
+			}
+		index.init();
+	})
+</script>
+</body></html>

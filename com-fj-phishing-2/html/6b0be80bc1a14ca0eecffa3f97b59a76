@@ -1,0 +1,165 @@
+<!DOCTYPE html><html><head>
+    <script language="JavaScript">CsmContextPath = '';</script>
+    <title>搜券吧</title>
+    <meta name="description" content="搜券吧">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/preloader.css ">
+    <link href="/css/charisma-app.css" rel="stylesheet">
+
+    <style>
+        #imgCaptcha {
+            position: absolute;
+            right: 3px;
+            top: 3px;
+            z-index: 999;
+        }
+        body{
+            overflow-x:hidden;
+        }
+    </style>
+<script src="/bower_components/jquery/1.11.2/jquery-1.11.2.min.js" class="lazyload" charset="utf-8"></script><link href="/css/bootstrap.min.css" rel="stylesheet" class="lazyload" charset="utf-8"></head>
+
+<body onload="onload()" class="loaded">
+<div id="loader-wrapper">
+    <div id="loader"></div>
+</div>
+<div class="ch-container" style="">
+    <div class="row">
+
+        <div class="row">
+            <div class="col-md-12 center login-header">
+                <h2>欢迎登入系统</h2>
+            </div>
+            <!--/span-->
+        </div>
+        <!--/row-->
+
+        <div class="row">
+            <div class="well col-md-5 col-xs-10 center login-box">
+                <div id="divInfo" class="alert alert-info">
+                        请输入您的手机号码和密码.
+                    </div>
+                <form id="loginForm" onsubmit="return validateForm()" class="form-horizontal" method="post" action="/login/login.do">
+                    <fieldset>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-phone red"></i></span>
+                            <input id="loginname" value="" name="loginname" autofocus="" type="text" class="form-control" placeholder="手机号码或账号">
+                        </div>
+                        <div class="clearfix"></div>
+                        <br>
+
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
+                            <input id="password" name="password" type="password" class="form-control" placeholder="密码">
+                        </div>
+                        <div class="clearfix"></div>
+                        <br>
+
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-eye-open red"></i></span>
+                            <img id="imgCaptcha" title="点击更换验证码" src="/login/captcha.do" onclick="reloadCaptcha()">
+                            <input id="captcha" name="captcha" maxlength="8" type="text" class="form-control" placeholder="验证码">
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                        <br>
+                        <p class="center col-md-5">
+                            <button type="submit" id="btnSubmit" class="btn btn-primary" data-loading-text="登入中...">登入
+                            </button>
+                        </p>
+                        
+                        <div class="clearfix"></div>
+                        <br>
+						</fieldset>
+                </form>
+            </div>
+            <!--/span-->
+        </div>
+        <!--/row-->
+    </div>
+    <!--/fluid-row-->
+
+</div>
+<!--/.fluid-container-->
+<script src="/js/lazyload.js"></script>
+<script>
+    function reloadCaptcha() {
+        $("#imgCaptcha").attr("src", "/login/captcha.do?" + new Date().getTime());
+    }
+    function validateForm() {
+        if ($("#loginname").val() == '') {
+            $('#divInfo').addClass("alert-danger").text('请填写手机号码!');
+            return false;
+        } else if ($("#password").val() == '') {
+            $('#divInfo').addClass("alert-danger").text('请填写密码!');
+            return false;
+        } else if ($("#captcha").val() == '') {
+            $('#divInfo').addClass("alert-danger").text('请填写验证码!');
+            return false;
+        }
+        $("#btnSubmit").button("loading");
+        NProgress.start();
+        NProgress.inc();
+        return true;
+    }
+    if (top != self) {
+        top.location.href = location.href;
+    }
+    function onload() {
+        LazyLoad.js('/bower_components/jquery/1.11.2/jquery-1.11.2.min.js', function () {
+            LazyLoad.css('/css/bootstrap.min.css', function () {
+                $('body').addClass('loaded');
+                $(".ch-container").show();
+                setTimeout(function () {
+                    LazyLoad.js(['/js/jquery.form.js',
+                        '/bower_components/bootstrap/dist/js/bootstrap.min.js',
+                        '/js/jquery.cookie.js',
+                        '/bower_components/moment/min/moment.min.js',
+                        '/bower_components/fullcalendar/dist/fullcalendar.min.js',
+                        '/js/jquery.dataTables.min.js',
+                        '/js/dataTables.bootstrap.js',
+                        '/bower_components/chosen/chosen.jquery.min.js',
+                        '/bower_components/colorbox/jquery.colorbox-min.js',
+                        '/js/jquery.noty.packaged.min.js',
+                        '/bower_components/bootstrap-tour/build/js/bootstrap-tour.min.js',
+                        '/js/jquery.raty.min.js',
+                        '/js/jquery.iphone.toggle.js',
+                        '/js/jquery.autogrow-textarea.js',
+                        '/js/jquery.history.js',
+                        '/js/bootstrap-datepicker.js',
+                        '/js/bootstrap-datepicker.zh-CN.js',
+                        '/js/prism.js',
+                        '/js/bootbox.js',
+                        '/js/summernote.js',
+                        '/js/summernote-zh-CN.js',
+                        '/js/jquery.formautofill.js',
+                        '/js/nprogress.js',
+                        '/js/base.js',
+                        '/js/charisma.js']);
+                    LazyLoad.css([
+                        '/css/base.css',
+                        '/css/charisma-app.css',
+                        '/bower_components/fullcalendar/dist/fullcalendar.css',
+                        '/bower_components/fullcalendar/dist/fullcalendar.print.css',
+                        '/bower_components/chosen/chosen.min.css',
+                        '/bower_components/colorbox/example3/colorbox.css',
+                        '/bower_components/bootstrap-tour/build/css/bootstrap-tour.min.css',
+                        '/css/elfinder.min.css',
+                        '/css/elfinder.theme.css',
+                        '/css/jquery.iphone.toggle.css',
+                        '/css/uploadify.css',
+                        '/css/animate.min.css',
+                        '/css/dataTables.bootstrap.css',
+                        '/css/datepicker3.css',
+                        '/css/prism.css',
+                        '/css/nprogress.css',
+                        '/css/summernote.css',
+                        '/css/font-awesome.min.css']);
+                }, 1000);
+            });
+        });
+    }
+</script>
+
+</body></html>

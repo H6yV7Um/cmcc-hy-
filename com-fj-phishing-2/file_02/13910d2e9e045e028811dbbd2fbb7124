@@ -1,0 +1,961 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" style="font-size: 50px;"><head><script async="" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js?_=1515479645457"></script><script async="" src="http://www.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&amp;SERVLET_NAME=WCCMainPlatV5&amp;TXCODE=NHY000&amp;jsoncallback=jQuery18308868772677770256_1515479645069&amp;_=1515479645439"></script><script async="" src="http://www.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&amp;SERVLET_NAME=WCCMainPlatV5&amp;TXCODE=NHY000&amp;jsoncallback=jQuery18308868772677770256_1515479645068&amp;_=1515479645426"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" id="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" href="/cn/mobilev3/v3/images/desk_icon.png">
+    <title>建行移动门户</title>
+    <link rel="stylesheet" type="text/css" href="http://m.ccb.com/cn/v3/css/public.css" media="(max-width:1100px)">
+    <link rel="stylesheet" type="text/css" href="http://m.ccb.com/cn/mobilev3/v3/css/swiper.css" media="(max-width:1100px)">
+    <link rel="stylesheet" type="text/css" href="http://m.ccb.com/cn/mobilev3/v3/css/mobile.css" media="(max-width:1100px)">
+    <link rel="stylesheet" type="text/css" href="http://m.ccb.com/cn/mobilev3/v3/css/m_index.css" media="(max-width:1100px)">
+    <link rel="stylesheet" type="text/css" href="http://m.ccb.com/cn/mobilev3/v3/css/m_style.css" media="(max-width:1100px)">
+    <link rel="stylesheet" type="text/css" href="http://m.ccb.com/cn/mobilev3/v3/css/m_search.css">
+    <style>
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #aaa;
+        }
+
+        .tab_two .zixun_tab .title i.left {
+            left: 0.4rem;
+        }
+
+        .tab_two .zixun_tab .title i.right {
+            background: url(http://image2.ccb.com/cn/mobilev3/v3/images/default/right.png) no-repeat center;
+            background-size: 46%;
+        }
+
+        .youhui .near_sale_main_top img {
+            height: 3.8rem;
+        }
+
+        .qgyh_main .swiper-slide img {
+            height: 7.5rem;
+        }
+    </style>
+    <script type="text/javascript" src="/cn/mobilev3/v3/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/cn/v3/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/cn/mobilev3/v3/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/cn/mobilev3/v3/js/set.js"></script>
+    <script type="text/javascript" src="/cn/v3/js/ccb_toolkit.js"></script>
+    <script type="text/javascript" src="/cn/mobilev3/v3/js/m_map.js"></script><script id="mapscript" type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=bbWh0VFhTwT9o0X8ZPNUAQ3c3sxKYS0c"></script><script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&amp;ak=bbWh0VFhTwT9o0X8ZPNUAQ3c3sxKYS0c&amp;services=&amp;t=20180102152545"></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/m_public.js" defer=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/dz_index.js" defer=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/dz_page.js" defer=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/mobile_pc.js" async=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/Sortable.min.js" async=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/indexAdv.js" async=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/fund_insurance_finance.js" async=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/m_net.js" async=""></script>
+    <script type="text/javascript" src="http://m.ccb.com/cn/mobilev3/v3/js/tao.js" async=""></script>
+    <script type="text/javascript" src="/cn/mobilev3/v3/js/index_search.js" async=""></script>
+</head>
+
+<body>
+    <!--mobile star-->
+    <div class="mobile_body">
+        <!--头部star-->
+        <div class="m_head ">
+            <style type="text/css">
+	/*页头*/
+
+	.m_head {
+		background: #449cff;
+		padding: 0.44rem;
+		color: #fff;
+	}
+	/*由于搜索框不能添加overflow: hidden属性*/
+
+	.logo_bar {
+		overflow: hidden;
+	}
+
+	.logo_bar .m_fl {
+		float: left;
+	}
+
+	.logo_bar .m_fr {
+		float: right;
+	}
+
+	.m_logo {
+		width: 46%;
+		padding-top: 5px
+	}
+
+	.head_right_box {
+		padding-top: 0.1rem;
+	}
+
+	.head_right_box span {
+		font-size: 0.4rem;
+		text-align: center;
+		display: block;
+	}
+
+	.m_logo img {
+		display: inline-block;
+	}
+
+	.m_location,
+
+
+	.m_location img,
+	.m_location {
+		/* margin-right: 0.6rem;*/
+		max-width: 60%;
+		height: 0.8rem;
+		line-height: 0.9rem;
+		padding-left: 0.7rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		background: url(http://image3.ccb.com/cn/mobilev3/v3/images/default/location.png ) no-repeat left center;
+		background-size: contain;
+		width: auto;
+	}
+	/*个人菜单*/
+
+	.m_fl {
+		float: left;
+	}
+
+	.m_fr {
+		float: right;
+	}
+
+	.mask {
+		display: none;
+		position: fixed;
+		left: 50%;
+		top: 0;
+		bottom: 0;
+		width: 15rem;
+		margin-left: -7.5rem;
+		z-index: 15;
+		background: rgba(0, 0, 0, .6);
+	}
+	/*登录提示*/
+
+	.personInforPop {
+		position: fixed;
+		left: 50%;
+		top: 2.4rem;
+		width: 15rem;
+		height: 100%;
+		margin-left: -7.5rem;
+		background: rgba(0, 0, 0, 0.5);
+		z-index: 12;
+	}
+
+	.personInforPop::before {
+		position: absolute;
+		right: 2.3rem;
+		top: -0.2rem;
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-bottom: 12px solid #fff;
+		content: '';
+	}
+
+	.login_tip_head {
+		overflow: hidden;
+		background: #fff;
+		border-bottom: 1px solid #dcdcdc;
+		padding: 0.4rem 0.6rem;
+		position: relative;
+		z-index: 1;
+	}
+
+	.login_tip_head p {
+		font-size: 0.56rem;
+		text-align: center;
+		padding: 0.6rem 0;
+		color: #0066b3;
+	}
+
+	
+</style>
+
+<div class="logo_bar">
+	<div class="m_fl m_logo" onclick="location.href='/cn/home/indexv3m.html'">
+		<img src="http://image3.ccb.com/cn/mobilev3/v3/images/logo.png" alt="">
+	</div>
+	<div class="m_fr head_right_box">
+		<div onclick="location.href='http://m.ccb.com/cn/creditcard/molsvc/vservice.html?userType=56'">
+			<img src="http://image3.ccb.com/cn/mobilev3/v3/images/default/kefu1_w.png" alt="">
+		</div>
+		<div class="menu_right_js" id="headdiv">
+			<img src="http://image3.ccb.com/cn/mobilev3/v3/images/default/menu.png" alt="" class="person_menu_btn">
+			<!--<img src="http://image3.ccb.com/cn/mobilev3/v3/images/close1.png" alt="" class="personInfor_close" style="display: none;">-->
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<style type="text/css">
+	.mask {
+		display: none;
+		position: fixed;
+		left: 50%;
+		top: 0;
+		bottom: 0;
+		width: 15rem;
+		margin-left: -7.5rem;
+		z-index: 15;
+		background: rgba(0, 0, 0, .6);
+	}
+
+	.siderMenu {
+		display: block;
+		position: fixed;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 11.4rem;
+		z-index: 16;
+		background: #fff;
+		overflow: auto;
+		transition: right 0.5s ease;
+	}
+
+	.siderMenuBg {
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+	}
+
+	.siderMenu .close {
+		position: absolute;
+		left: 0.58rem;
+		top: 0.58rem;
+		width: 0.68rem;
+		height: 0.68rem;
+		background: url(http://image2.ccb.com/cn/mobilev3/v3/images/close.png) no-repeat center center;
+		background-size: contain;
+	}
+
+	.siderMenu .avatarBox {
+		font-size: 0.6rem;
+		color: #fff;
+		text-align: center;
+		overflow: hidden;
+		background: rgba(0, 0, 0, 0);
+		padding-top: 2rem;
+		margin-bottom: 1.2rem;
+	}
+
+	.siderMenu .avatarBox p {
+		color: #fff;
+		font-size: 0.56rem;
+		padding-top: 0.16rem;
+	}
+
+	.siderMenu .avatarBox img {
+		width: 2.8rem;
+		display: inline-block;
+	}
+
+	.siderMenu .avatarBox .img_box {
+		margin: 0.2rem 0.4rem 0.4rem 2rem;
+	}
+
+	.siderMenu .avatarBox .btn_exit {
+		margin: 0.4rem 0 0.4rem 0.75rem;
+	}
+
+	.siderMenu .avatarBox .btn_exit h3 {
+		color: #fff;
+		font-size: 0.56rem;
+		font-weight: normal;
+		max-width: 4.8rem;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.siderMenu .avatarBox .btn_exit a {
+		border: 1px solid #0066b3;
+		padding: 0.2rem 0.4rem;
+		border-radius: 1rem;
+		margin-top: 0.3rem;
+		display: inline-block;
+		font-size: 0.52rem;
+	}
+
+	.siderMenu .avatarBox .btn_exit a:link,
+	a:hover {
+		color: #0066b3;
+	}
+
+	.siderMenu .avatarBox .clear_over {
+		overflow: hidden;
+	}
+
+	.siderMenu .login_tips {
+		text-align: center;
+		color: #fff;
+		font-size: 0.48rem;
+	}
+
+	.login_tips span:first-child {
+		margin-right: 0.4rem;
+	}
+
+	.siderMenuListBox {
+		padding: 0 0.6rem;
+		margin-right: 0.52rem;
+		width: 100%;
+	}
+
+	.siderMenuListBox .item {
+		position: relative;
+		display: block;
+		margin: 0;
+		padding: 0 0.8rem 0 2.4rem;
+		height: 2.4rem;
+		line-height: 2.4rem;
+		font-size: 0.6rem;
+		color: #333;
+		border-bottom: 1px solid #eee;
+		background: no-repeat 10.5% center;
+		background-size: 8%;
+	}
+
+	.siderMenuBottom {
+		background: #449cfe;
+		box-sizing: border-box;
+		text-align: center;
+		width: 100%;
+		padding: 0.4rem 1.6rem;
+	}
+
+	.siderMenu.sticky .siderMenuBottom {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.siderMenuBottom a {
+		position: relative;
+		margin: 0;
+		padding: 0 0.44rem;
+		line-height: 1.2rem;
+		font-size: 0.56rem;
+		color: #fff;
+	}
+
+	.siderMenuBottom a.cur:before {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		width: 2px;
+		height: 18px;
+		margin-top: -9px;
+		margin-right: -4px;
+		background: rgba(255, 255, 255, 0.8);
+		content: '';
+	}
+
+	.siderMenu .home_btn {
+		position: absolute;
+		top: 0.5rem;
+		right: 0.5rem;
+		width: 0.9rem;
+		height: 1.1rem;
+		background-size: 100%;
+		background-position: inherit;
+		margin: 0;
+	}
+
+	img {
+		display: block;
+	}
+</style>
+<!--   个人菜单star  -->
+<div class="siderMenu" style="right: -11.4rem;">
+	<img class="siderMenuBg" src="http://image2.ccb.com/cn/mobilev3/v3/images/seder_memuBg.png">
+	<div class="home_btn" onclick="location.href='/cn/home/indexv3m.html'"></div>
+	<div class="siderMenuBody">
+		<span class="close"></span>
+		<div class="avatarBox">
+			<img src="http://image2.ccb.com/cn/mobilev3/v3/images/avatar_menu.png" onclick="location.href='http://login.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&amp;SERVLET_NAME=WCCMainPlatV5&amp;TXCODE=NHYS11&amp;tourl=http://m.ccb.com/cn/home/indexv3m.html'">
+			<p onclick="location.href='http://login.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&amp;SERVLET_NAME=WCCMainPlatV5&amp;TXCODE=NHYS11&amp;tourl=http://m.ccb.com/cn/home/indexv3m.html'">点击登录</p>
+		</div>
+		<div class="siderMenuListBox">
+			<a href="/cn/creditcard/mobilev3/index.html" class="item" style="background-image:url(http://image2.ccb.com/cn/mobilev3/v3/images/memu_01.png)">信用卡</a>
+			<a href="/cn/fund/mobilev3/fund_list.html" class="item" style="background-image:url(http://image2.ccb.com/cn/mobilev3/v3/images/memu_02.png)">基金</a>
+			<a href="/cn/finance/mobilev3/financeProducts.html" class="item" style="background-image:url(http://image2.ccb.com/cn/mobilev3/v3/images/memu_03.png)">理财</a>
+			<a href="/cn/insurance/mobilev3/guide/chanpinsousuo.html" class="item" style="background-image:url(http://image2.ccb.com/cn/mobilev3/v3/images/memu_04.png)">保险</a>
+			<a href="http://life.ccb.com/cn/paymentv3/v3/include/category/mobile/more_service.html" class="item" style="background-image:url(http://image2.ccb.com/cn/mobilev3/v3/images/memu_06.png)">悦生活</a>
+		</div>
+		<div class="siderMenuBottom">
+			<a href="http://group.ccb.com/cn/ccbtoday/indexv3.html" class="cur">今日建行</a>
+			<a href="http://group.ccb.com/cn/investor/indexv3.html">投资者关系</a>
+		</div>
+	</div>
+</div>
+<div class="mask close" style="display: none;"></div>
+<!--   个人菜单end  -->
+<div class="personInforPop " style="display:none;">
+	<div class="login_tip_head">
+		<p><span id="showName"></span>，欢迎您登录建设银行！</p>
+	</div>
+</div>
+<script type="text/javascript">
+	$(".menu_right_js").click(function () {
+		$("body").height($(window).height())
+		$(".mask").show();
+		$(".siderMenu").css({ "right": "0" });
+		$(this).addClass("show_menu");
+	});
+
+	r();
+	$(window).on('resize', r)
+	function r() {
+		window.innerHeight > $(".siderMenuBody").height() ? $(".siderMenu").addClass('sticky') : $(".siderMenu").removeClass('sticky')
+	}
+	$(".siderMenu").on('touchmove', function (e) {
+		e.stopPropagation()
+		e.stopImmediatePropagation()
+	})
+
+	$(".close").click(function () {
+		$(".mask").hide();
+		$(".siderMenu").css({ "right": "-11.4rem" });
+		$(this).removeClass("show_menu");
+		$('body').css('height', '');
+	});
+
+	$("#status").parent().attr("onclick", "location.href='http://login.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHYS11&tourl=" + location.href + "'");
+	$('.avatarBox').children().attr("onclick", "location.href='http://login.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHYS11&tourl=" + location.href + "'");
+	//加载页面后发送交易查询是否登陆
+	$.ajax({
+		type: "post",
+		cache: false,
+		url: "http://www.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHY000&jsoncallback=?",
+		dataType: "jsonp",
+		success: function (data) {
+			var output = data;
+			var loginStatus = output.loginStatus;
+			var locat = top.location.href;
+			if (loginStatus == 0) {           //处于登陆状态;
+				$("#status").text("我的");
+				var name = output.showName;
+				$("#showName").text(name);
+				$("#status").parent().attr("onclick", "location.href='http://m.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHYY00'");
+				var name = output.showName;
+				var images = '/cn/mobilev3/v3/images/tx_01.png';
+				var time = output.lastLoginTime;
+
+				var loginHtml = '<div class="clear_over">\
+									<div class="m_fl img_box" onclick="location.href=\'http://m.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHYY00\'">\
+										<img src="http://member.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=D20020" alt="" style="-webkit-border-radius: 50%;">\
+									</div>\
+									<div class="m_fl btn_exit">\
+										<h3 title="'+ name + '">' + name + '</h3>\
+										<a href="javascript:out();">安全退出</a>\
+									</div>\
+								</div>';
+				$('.avatarBox').html(loginHtml);
+			}
+		},
+		error: function () {
+
+		}
+	}).done(function () {
+		var cookie = $.cookie("mobileLoginShow");
+		if (cookie) {
+			$(".personInforPop").fadeIn();
+			setTimeout(function () {
+				$(".personInforPop").fadeOut();
+			}, 2000)
+			$.cookie("mobileLoginShow", "second", { expires: -1, path: "/", domain: "ccb.com", secure: false })
+		}
+	});
+	function out() {
+		$.ajax({
+			type: "post",
+			cache: false,
+			url: "/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHY001&jsoncallback=?",
+			dataType: "jsonp",
+			success: function (data) {
+
+				if (typeof mustNeedLogin != "undefined" && mustNeedLogin == true) {
+					top.location.href = "http://login.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=NHY010&tourl=http://life.ccb.com/cn/home/indexv3.html";
+				} else {
+					location.reload();
+				}
+			}
+		});
+	}
+
+</script>
+
+<script>
+	
+
+	$(function () {
+		//得到定位的省市
+		m$tool.getCity("cityOfHead").then(function (data) {
+			var city = data.cityName;
+			var date = +new Date();
+			data.date = date + "";
+			document.cookie = "cityOfHead=" + encodeURIComponent(JSON.stringify(data)) + ";path=/;domain=.ccb.com"
+			//localStorage.setItem("cityOfHead", JSON.stringify(data));
+			//$('.city_name').eq(0).html(city);
+		})
+	})
+</script>
+            <div class="header_menu_list">
+                <div id="cxfw_box"> </div>
+                <div class="add_menu_btn  js_add_menu_btn"> <img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/show_more.png" alt="">
+                    <div>全部</div>
+                </div>
+            </div>
+            <div class="head_search">
+                <span>乐享龙支付 最高满减40</span>
+                <div class="search_fdj"><img id="search_btn" src="http://image2.ccb.com/cn/mobilev3/v3/images/default/search.png" alt=""></div>
+            </div>
+            
+<script>
+	!function () {
+		var now = new Date, startTime = toDate('2017-11-16'), endTime = toDate('2018-11-22'), valid = now > startTime && now < endTime;
+		if (valid) {
+			var keyword = '龙支付', placeholder='乐享龙支付 最高满减40';
+			$('.head_search span').text(placeholder);
+			$(function () {
+				var event=toolkit.Event();
+				event.listen('search_loaded',function () {
+					$("#search_input").attr({ 'placeholder': placeholder, 'def_search': keyword })
+				})
+			})
+		}
+		function toDate(str){
+			var match=str.match(/(\d{4})-(\d{2})-(\d{2})/), d=null;
+			if(match){
+				d=new Date();
+				d.setFullYear(match[1]),d.setMonth(match[2]-1),d.setDate(match[3]);
+			}
+			return d;
+		}
+	}()
+</script>
+
+
+        </div>
+        <!--头部endr-->
+
+        <!--广告图star-->
+        <div class="device">
+            <div class="swiper-container swiper-container-banner_m ">
+                <div class="swiper-wrapper" id="D1pic1m">
+
+                </div>
+                <div class="swiper-pagination swiper-pagination-banner_m"></div>
+            </div>
+        </div>
+        <!--广告图end-->
+        <!--   公告star -->
+        
+		
+			
+				<div class="index_notice">
+				    <div class="notice_icon m_fl">
+				        <img src="/cn/mobilev3/v3/images/default/notice.png" alt="">
+				    </div>
+				    <div class="notice_main m_fl" style="width:88%">
+				        <div class="swiper-container swiper-container_notice swiper-container-vertical">
+				            <div class="swiper-wrapper" style="transition: 0ms; -webkit-transition: 0ms; transform: translate3d(0px, -80px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" style="height: 80px;" onclick="location.href='../mobilev3/news/20171012_1507795536.html'">
+					        “手机银行交易送好礼”
+					        <div class="notice_date m_fr">2017-10-12</div>
+					    </div>  
+				                
+				                
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+						
+					    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="height: 80px;" onclick="location.href='../mobilev3/news/20171215_1513308420.html'">
+					        关于龙卡信用卡现金转出业务新增ATM...
+					        <div class="notice_date m_fr">2017-12-15</div>
+					    </div>
+			
+						
+					    <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="height: 80px;" onclick="location.href='../mobilev3/news/20171213_1513150189.html'">
+					        中国建设银行龙卡家庭挚爱信用卡银联...
+					        <div class="notice_date m_fr">2017-12-13</div>
+					    </div>
+			
+						
+					    <div class="swiper-slide" data-swiper-slide-index="2" style="height: 80px;" onclick="location.href='../mobilev3/news/20171205_1512455589.html'">
+					        关于“和”字书法—楷书普通纪念币预...
+					        <div class="notice_date m_fr">2017-12-05</div>
+					    </div>
+			
+						
+					    <div class="swiper-slide" data-swiper-slide-index="3" style="height: 80px;" onclick="location.href='../mobilev3/news/20171116_1510803147.html'">
+					        关于龙卡信用卡现金转出业务新增STM...
+					        <div class="notice_date m_fr">2017-11-16</div>
+					    </div>
+			
+						
+					    <div class="swiper-slide" data-swiper-slide-index="4" style="height: 80px;" onclick="location.href='../mobilev3/news/20171012_1507795536.html'">
+					        “手机银行交易送好礼”
+					        <div class="notice_date m_fr">2017-10-12</div>
+					    </div>
+			
+
+   
+								
+				            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="height: 80px;" onclick="location.href='../mobilev3/news/20171215_1513308420.html'">
+					        关于龙卡信用卡现金转出业务新增ATM...
+					        <div class="notice_date m_fr">2017-12-15</div>
+					    </div></div>
+				        </div>
+				    </div>
+				    
+				</div> 
+			
+		
+	
+        <div class="clear"></div>
+        <!--   公告end  -->
+        <div class="line_grey"></div>
+        <div class="new_floor ">
+            <div class="floor_tab_space">&nbsp;</div>
+            <ul class="floor_tab_nav ">
+                <li id="cp_li_js" class="cur_red">产品</li>
+                <li id="yh_li_js">优惠</li>
+                <li id="zx_li_js">资讯</li>
+            </ul>
+        </div>
+        <!--楼层star-->
+        <div class="tabs bg_color tab_two">
+            <!--  产品star-->
+            <div class="tab_item  products ">
+                <!--信用卡-->
+                <div class="default ">
+                    <div class="title">
+                        <div class="icon xinyongka">信用卡</div>
+                        <i onclick="location.href='/cn/creditcard/mobilev3/index.html'"></i>
+                    </div>
+                    <div class="contents xyk_box">
+                        <div class="swiper-container swiper-container_xyk swiper-container-horizontal">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide-active"> <img src="http://image2.ccb.com/cn/mobilev3/v3/images/sin1.png" alt="" onclick="location.href='/cn/creditcard/apply/mobile/new2/apply.html'">                                    </div>
+                                <div class="swiper-slide swiper-slide-next" onclick="location.href='/cn/mobilev3/creditcard/credcrdprogress.html'"> <img src="http://image2.ccb.com/cn/mobilev3/v3/images/sin2.png" alt=""> </div>
+                                <div class="swiper-slide" onclick="location.href='/cn/creditcard/mobilev3/activity/detail_instalments.html?type=1'"> <img src="http://image2.ccb.com/cn/mobilev3/v3/images/sin3.png" alt=""> </div>
+                                <div class="swiper-slide" onclick="location.href='/cn/creditcard/mobilev3/activity/detail_instalments.html?type=2'"> <img src="http://image2.ccb.com/cn/mobilev3/v3/images/cashfenqi.png " alt=""> </div>
+                                <div class="swiper-slide" onclick="location.href='/cn/creditcard/mobilev3/activity/favourableList.html'"> <img src="http://image2.ccb.com/cn/mobilev3/v3/images/favoriblelist.png" alt=""> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--投资理财-->
+                <div class="default funds">
+                    <div class="title">
+                        <div class="icon tz_licai">投资理财</div>
+                    </div>
+                    <div class="contents funds_in">
+                        <div class="licai_box" style="display:none;">
+
+                        </div>
+                        <div class="jijin_box" style="display:none;">
+
+                        </div>
+                        <div class="baoxian_box" style="display:none;">
+
+                        </div>
+                    </div>
+                </div>
+                <!--龙支付-->
+                
+		
+			
+			<div class="default long_pay_box" style="overflow: hidden;" title="龙支付" sort="item_1">
+			    <div class="title">
+			    <div class="long_zhifu icon">龙支付</div>
+			    </div>
+			    <div class="contents ">
+			        <div class="contents_left"><img src="/cn/v3/upload//20171206143036611627.jpg" alt=""></div>
+			        <div class="contents_right">
+			            <div>龙行天下   支付无忧</div>
+			            <div>收付款便捷 支付方式多样</div>
+			            <div class="right_btn">
+						<a class="item" href="/cn/mobilev3/items/detail_lzf.html" sort="item_1">马上开通</a></div>
+			        </div>
+			    </div>
+			</div>
+
+		
+		
+	
+                <!--个人快贷-->
+                
+		
+			
+			<div class="default long_pay_box" style="overflow: hidden;" title="快贷" sort="item_2">
+			    <div class="title">
+			    <div class="kuaidai icon">快贷</div>
+			    </div>
+			    <div class="contents ">
+			        <div class="contents_left"><img src="/cn/v3/upload//20171206150451208987.png" alt=""></div>
+			        <div class="contents_right">
+			            <div>建行快贷 一触即贷</div>
+			            <div>秒申、秒批、秒到账，全流程线上办理</div>
+			            <div class="right_btn">
+						<a class="item" href="/cn/mobilev3/items/loan_personal.html" sort="item_2">查看更多</a></div>
+			        </div>
+			    </div>
+			</div>
+
+		
+		
+	
+                <!--悦享生活-->
+                <div class="default ">
+                    <div class="title">
+                        <div class="icon yuexiang_live">悦享生活</div>
+                        <i onclick="location.href='http://life.ccb.com/cn/paymentv3/v3/include/category/mobile/more_service.html'"></i>
+                    </div>
+                    <div class="contents">
+                        <ul class="yx_live_box">
+                            <li onclick="location.href='http://life.ccb.com/cn/paymentv3/mobile/index.html?backUrl=http://life.ccb.com/cn/paymentv3/mobile/item_detail/201401191026289714.html'"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/dangfei.jpg?1" alt=""></li>
+                            <li onclick="location.href='http://life.ccb.com/cn/paymentv3/mobile/index.html?backUrl=http://life.ccb.com/cn/paymentv3/mobile/item_detail/2012051419310794854673.html'"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/yue2.png?1" alt=""></li>
+                            <li onclick="location.href='http://life.ccb.com/cn/paymentv3/v3/include/category/mobile/login_search.html'"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/yue1.png?1" alt=""></li>
+                            <li onclick="location.href='http://life.ccb.com/cn/paymentv3/v3/include/category/mobile/more_service.html'"><img src="http://image1.ccb.com/cn/mobilev3/v3/images/yue4.png?1" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--网点服务-->
+                <div class="default net_fuwu_box">
+                    <div class="title">
+                        <div class="icon net_fuwu">网点服务</div>
+                        <i onclick="location.href='/cn/mobilev3/netAndATM/index_new.html'"></i>
+                    </div>
+                    <div class="contents">
+                        <div class="contents_left" style="display:none;"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/nmap.jpg" alt=""></div>
+                        <div class="contents_right">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="addto_table">
+                    <img src="http://image2.ccb.com/cn/mobilev3/v3/images/savetoPhone.png">
+                </div>
+            </div>
+            <!--  产品end-->
+            <!--  优惠star-->
+            <div class="tab_item youhui m_hide">
+                <div id="yh_box"></div>
+                <!-- 优惠end -->
+                <div class="emend_more"> <a class="dz_btn_js" href="/cn/mobilev3/service_customize/dz_zbyh_step.html?page=1"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/discover.png"></a>
+                    <p>自定义我的优惠</p>
+                </div>
+            </div>
+            <!--  优惠end-->
+            <!--  资讯star-->
+            <div class="tab_item zixun_tab m_hide">
+                <div id="zx_box"></div>
+                <!-- 市场资讯end -->
+                <div class="emend_more"> <a class="dz_btn_js" href="/cn/mobilev3/service_customize/dz_jrzx.html?page=2"> <img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/discover.png"> </a>
+                    <p>自定义我的资讯</p>
+                </div>
+            </div>
+            <!--  资讯end-->
+        </div>
+        <!-- 楼层end-->
+        <!--页尾 star-->
+        <style type="text/css">
+/*页尾*/
+.m_footer{padding:0.8rem 0 ;background:#257fcf; overflow:hidden;  width:100%; color:#fff;}
+.m_nav_bottom li{width:33%; float:left; text-align:center;  font-size:0.56rem; }
+.m_nav_bottom li img{width:12%; vertical-align: middle;display:inline-block;}
+.m_nav_bottom li span{ vertical-align: middle; display:inline-block;padding-left:0.2rem;}
+.m_copyRight{  text-align:center; font-size: 0.56rem; color:#fff; padding-top:0.4rem;}
+.m_copyRight span{ padding-left: 0.6rem;}.m_copyRight a{color:#fff;}
+/*按钮浮层*/
+.page_float_box,.page_return_box{ width:2.2rem; height:2.2rem; position: fixed; right:0.4rem; bottom:1.2rem;z-index: 1;z-index:2;}
+.page_return_box{ bottom:6rem; width:2rem; height:2rem;}
+.page_float_box > div{ width:2.2rem; height:2.2rem;}
+.user_float_btn,.service_float_btn,.page_float_btn,.home_float_btn{ position:absolute; top:0 ; right:0; opacity:0;}
+.page_float_btn{opacity:1; z-index:2;}
+/*二维码弹框*/
+.hide{display: none;}
+.tk_box{ width:100%; height:100%; position:fixed; left:0; top:0; z-index:100; background:rgba(0,0,0,0.5); font-size:0.52rem;}
+.erweima_box{ width:11.80rem; height:13.0rem;  border-radius:0.6rem; background:#fff; position:relative; left:50%; top:50%; margin:-6.6rem 0 0 -5.74rem; box-sizing: border-box;}
+.erweima_img{ padding:0.6rem 0 0.4rem; text-align:center; position:relative;}
+.ewm_text{ font-size: 0.56rem;}
+.erweima_img > img{ width:4.8rem; display:inline-block;}
+.tk_box_close{ position:absolute; top:0.6rem; right:0.8rem;}
+.tk_box_close img{ width:0.8rem;}
+.caozuo{ border-top:1px dashed #666; padding:0.6rem; overflow:hidden; color:#999;font-size:0.56rem;}
+.caozuo p{ padding-top:0.6rem;}
+.caozuo p:first-child{ font-size:0.48rem; padding:0;}
+</style>
+<!-- 二维码弹框 -->
+<div class="tk_box hide">
+	<div class="erweima_box">
+		<div class="erweima_img">
+			<img src="http://image2.ccb.com/cn/mobilev3/v3/images/new_weixin.jpg?1512547709468" alt="" class="j_ewm">
+			<p class="ewm_text">微信银行</p>
+			<span class="tk_box_close"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/search_close.png" alt=""></span>
+		</div>
+
+		<div class="caozuo">
+			<p>如何操作</p>
+			<p>1.长按二维码，保存图片至本地相册</p>
+			<p>2.打开微信，选择“扫一扫”</p>
+			<p>3.点击右上角，选择“从相册选取二维码”</p>
+		</div>
+	</div>
+</div>
+<!-- 页脚 -->
+<div class="m_footer">
+	<ul class="m_nav_bottom">
+		<li><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/wechat.png" alt=""><span>微信银行</span></li>
+		<li><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/sina.png" alt=""><span>官方微博</span></li>
+		<li onclick="location.href='http://www.ccb.com/cn/home/indexv3.html'"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/computer.png" alt=""><span>电脑版</span></li>
+	</ul>
+	<div class="clear"></div>
+	<p class="m_copyRight">客服与投诉热线：<a href="tel:95533">95533</a>
+		<span class="m_copyRight">京ICP备 13030780号</span>
+	</p>
+	<p class="m_copyRight"><span>京公安网备  110102000450</span></p>
+	<div class="page_float_box" id="floating_img">
+		<div class="page_float_btn "><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/float.png" alt=""></div>
+		<div class="user_float_btn"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/user.png" alt=""></div>
+		<div class="home_float_btn"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/tb.png" onclick="location.href='http://m.ccb.com/cn/home/indexv3m.html'" alt=""></div>
+		<div class="service_float_btn"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/service.png" onclick="location.href='http://echat.ccb.com/cn/creditcard/molsvc/vservice.html?userType=56'" alt=""></div>
+	</div>
+	<div class="page_return_box m_hide" style="display: none;">
+		<div class="page_returnt_btn"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/back-top.png" alt=""></div>
+	</div>
+	<script src="/cn/mobilev3/v3/include/headfoot/footer.js"></script>
+</div>
+        <!--页尾 end-->
+        <!--   浮层公告star  -->
+        
+		
+			
+		
+	
+        <!--   浮层公告end  -->
+    </div>
+    <!--   添加桌面提示操作star  -->
+    <div class="add_desk_box m_hide">
+        <div class="head_title  ">
+            <div class="head_return_btn_unique add_desk_btn_close_js head_return_btn"><img src="http://image2.ccb.com/cn/creditcard/v3/mobile/images/new2/return_btn.png" alt=""></div>
+            <div class="head_title_center">添加到桌面指南</div>
+        </div>
+        <div class="add_desk_box_main"><img alt=""></div>
+    </div>
+    <!--   更多应用star  -->
+    <div class="more_apply  js_more_apply m_hide">
+        <div class="apply_box_top"> <span class="apply_box_colse"><img src="http://image2.ccb.com/cn/mobilev3/v3/images/default/close.png" alt=""></span>            全部功能 </div>
+        <div class="apply_box_title">
+            <div class="apply_title_left added_function">首页功能<span>点击“编辑”可删增首页功能</span></div>
+            <div class="apply_title_right"><span>编辑</span></div>
+            <div class="clear"></div>
+        </div>
+        <div class="index_apply_list index_apply_added ">
+            <ul id="more_applt_drag">
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="apply_box_title">
+            <div class="apply_title_left more_function">更多功能<span></span></div>
+        </div>
+        <div class="index_apply_list index_apply_more ">
+            <ul>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--   更多应用end  -->
+    <script type="text/javascript">
+        var mSwiper_xyk = new Swiper('.swiper-container_xyk', {
+            // pagination: '.swiper-pagination',
+            slidesPerView: 'auto',
+        });
+        /*公告栏内容轮播*/
+        var mSwiper_index_notice = new Swiper('.swiper-container_notice', {
+            direction: 'vertical',
+            paginationClickable: true,
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: 4000,
+            autoplayDisableOnInteraction: false,
+            loop: true,
+        });
+    </script>
+
+
+</body></html>

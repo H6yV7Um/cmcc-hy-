@@ -1,0 +1,374 @@
+<!DOCTYPE html><html><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="renderer" content="webkit">
+
+
+
+
+
+
+
+<script type="text/javascript">
+var Com_Parameter = {
+	ContextPath:"/",
+	ResPath:"/resource/",
+	Style:"default",
+	JsFileList:new Array,
+	StylePath:"/resource/style/default/",
+	Lang:"zh-cn",
+	CurrentUserId:"1300706359d3eef42aec7d8406d99a68",
+	Cache:1515472676782,
+	FirstDayInWeek: parseInt('1') - 1
+};
+</script>
+<script type="text/javascript" src="/resource/js/domain.js?s_cache=1515472676782"></script>
+<script type="text/javascript" src="/sys/ui/js/LUI.js?s_cache=1515472676782"></script>
+<script type="text/javascript" src="/resource/js/common.js?s_cache=1515472676782"></script>
+<script type="text/javascript" src="/resource/js/sea.js?s_cache=1515472676782"></script>
+<script type="text/javascript">
+seajs.config({
+	themes : {
+    "panel": ["sys/ui/extend/theme/default/style/panel.css"],
+    "icon": ["sys/ui/extend/theme/default/style/icon.css"],
+    "toolbar": ["sys/ui/extend/theme/default/style/toolbar.css"],
+    "criteria": ["sys/ui/extend/theme/default/style/criteria.css"],
+    "form": ["sys/ui/extend/theme/default/style/form.css"],
+    "common": ["sys/ui/extend/theme/default/style/common.css"],
+    "portal": ["sys/ui/extend/theme/default/style/portal.css"],
+    "menu": ["sys/ui/extend/theme/default/style/menu.css"],
+    "list": ["sys/ui/extend/theme/default/style/list.css"],
+    "listview": ["sys/ui/extend/theme/default/style/listview.css"],
+    "sns": ["sys/ui/extend/theme/default/style/sns.css"],
+    "contextmenu": ["sys/ui/extend/theme/default/style/contextmenu.css"],
+    "category": ["sys/ui/extend/theme/default/style/category.css"],
+    "tree": ["sys/ui/extend/theme/default/style/tree.css"],
+    "address": ["sys/ui/extend/theme/default/style/address.css"],
+    "popup": ["sys/ui/extend/theme/default/style/popup.css"],
+    "chart": ["sys/ui/extend/theme/default/style/chart.css"],
+    "prompt": ["sys/ui/extend/theme/default/style/prompt.css"],
+    "dialog": ["sys/ui/extend/theme/default/style/dialog.css"],
+    "dataview": ["sys/ui/extend/theme/default/style/dataview.css"],
+    "step": ["sys/ui/extend/theme/default/style/step.css"],
+    "paging": ["sys/ui/extend/theme/default/style/paging.css"],
+    "zone": ["sys/ui/extend/theme/default/style/zone.css"],
+    "calendar": ["sys/ui/extend/theme/default/style/calendar.css"]
+},
+	paths: {
+		'lui': 'sys/ui/js'
+	},
+	alias: {
+		'lui/jquery': 'resource/js/jquery',
+		'lui/jquery-ui': 'resource/js/jquery-ui/jquery.ui'
+	},
+	preload: ['/resource/js/plugin-theme.js','/resource/js/plugin-lang.js'],
+	debug: true,
+ 	base: '',
+ 	env : {
+ 	 	contextPath: '',
+ 		now : '2018-01-09 14:28',
+ 		pageMaxWidth:'1200px',
+ 		pattern : {
+ 			date : 'yyyy-MM-dd',
+ 			datetime : 'yyyy-MM-dd HH:mm',
+ 			time : 'HH:mm'
+ 		},
+ 		locale : "zh-cn",
+ 		config : {},
+ 		cache : 1515472676782
+ 	}
+});
+seajs.use([ 'lui/parser', 'lui/jquery', 'theme!common', 'theme!icon' ],
+	function(parser, $) {
+		$(document).ready(function() {
+			parser.parse();
+		});
+	}); 
+</script><script charset="utf-8" async="" src="http://ekp.canc.com.cn/resource/js/plugin-theme.js?s_cache=1515472676782"></script><script charset="utf-8" async="" src="http://ekp.canc.com.cn/resource/js/plugin-lang.js?s_cache=1515472676782"></script>
+<link rel="shortcut icon" href="/favicon.ico">
+
+        <link type="text/css" rel="stylesheet" href="/resource/style/default/login_guoqinzq2017_random/css/login.css?s_cache=1515472676782">
+        <link type="text/css" rel="stylesheet" href="/resource/style/default/login_guoqinzq2017_random/css/animate.css?s_cache=1515472676782">
+		<script>
+			Com_IncludeFile("jquery.js");
+			Com_IncludeFile("jquery.fullscreenr.js|custom.js", "style/default/login_guoqinzq2017_random/js/");
+		</script><script src="/resource/js/jquery.js?s_cache=1515472676782"></script><link charset="utf-8" rel="stylesheet" href="http://ekp.canc.com.cn/sys/ui/extend/theme/default/style/common.css?s_cache=1515472676782"><link charset="utf-8" rel="stylesheet" href="http://ekp.canc.com.cn/sys/ui/extend/theme/default/style/icon.css?s_cache=1515472676782"><script charset="utf-8" async="" src="http://ekp.canc.com.cn/sys/ui/js/parser.js?s_cache=1515472676782"></script><script charset="utf-8" async="" src="http://ekp.canc.com.cn/resource/js/jquery.js?s_cache=1515472676782"></script><script charset="utf-8" async="" src="http://ekp.canc.com.cn/sys/ui/js/util/str.js?s_cache=1515472676782"></script><script charset="utf-8" async="" src="http://ekp.canc.com.cn/sys/ui/js/topic.js?s_cache=1515472676782"></script><script charset="utf-8" async="" src="http://ekp.canc.com.cn/sys/ui/js/Evented.js?s_cache=1515472676782"></script>
+<script src="/resource/style/default/login_guoqinzq2017_random/js/jquery.fullscreenr.js?s_cache=1515472676782"></script>
+<script src="/resource/style/default/login_guoqinzq2017_random/js/custom.js?s_cache=1515472676782"></script>
+
+ 	
+<script type="text/javascript">
+	function checkLocation(){
+		if(top==window){
+			return;
+		}
+		domain.call(window.top,"login");
+	}
+	try{
+		checkLocation();
+	}catch(e){window.console(e);}
+</script>
+<title>登录系统</title>
+<script charset="utf-8" async="" src="http://ekp.canc.com.cn/sys/ui/js/Class.js?s_cache=1515472676782"></script><script charset="utf-8" async="" src="http://ekp.canc.com.cn/sys/ui/js/base.js?s_cache=1515472676782"></script><link charset="utf-8" rel="stylesheet" href="http://ekp.canc.com.cn/sys/ui/extend/theme/default/style/dataview.css?s_cache=1515472676782"><script charset="utf-8" async="" src="http://ekp.canc.com.cn/sys/ui/js/util/env.js?s_cache=1515472676782"></script></head>
+<body style="">
+  
+        <!-- 背景图片 Starts -->
+        <div class="login-background-img"><img src="/resource/style/default/login_guoqinzq2017_random/images/login_bg01.jpg" id="login-bgImg" style="height: 768px; width: 1365.3333333333333px; left: -170.5px; top: 0px;"></div>
+        <script type="text/javascript">
+            // 您必须指定你的背景图片的大小
+            var FullscreenrOptions = { width: 1920, height: 1080, bgID: '#login-bgImg' };
+            // 此处将会激活全屏背景
+            jQuery.fn.fullscreenr(FullscreenrOptions);
+        </script>
+        <!-- 背景图片 Ends -->
+        <div class="login_header">
+        	<div class="login_top_bar">
+        	<ul><li><a data-value="zh-CN" href="javascript:void(0);">中文</a></li></ul></div>
+            <div class="main_content">
+                <span class="logo"></span>
+            </div>
+        </div>
+        <!--
+        <div class="login_content main_content">
+            <!-- 登录框 开始 -->
+            <div class="login_iframe">
+                <div class="header">&nbsp;&nbsp;</div>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+Com_IncludeFile("security.js");
+</script><script src="/resource/js/security.js?s_cache=1515472676782"></script><script src="/resource/js/des.js?s_cache=1515472676782"></script>
+<script src="/resource/js/base64.js?s_cache=1515472676782"></script>
+
+
+
+<script type="text/javascript">
+function kmss_onsubmit(){
+	var loginInput = "请输入用户名和密码";
+	cleanerErrorMsg();
+	if(document.forms[0].j_username.value==""){
+		showErrorMsg(loginInput);
+		document.forms[0].j_username.focus();
+		return false;
+	}
+	if(document.forms[0].j_password.value==""){
+		showErrorMsg(loginInput);
+		document.forms[0].j_password.focus();
+		return false;
+	}
+	
+	document.getElementsByName("btn_submit")[0].disabled = true;	 
+	encryptPassword();
+	return true;
+}
+//显示错误信息
+function showErrorMsg(msg) {
+	var info = "系统提示：";
+	$(".lui_login_message_div").addClass("tip_message").html(info + msg);
+}
+//清除错误信息
+function cleanerErrorMsg() {
+	$(".lui_login_message_div").removeClass('tip_message').html("");
+}
+seajs.use(['lui/jquery'], function($) {
+	window.onload = function(){
+		var j_username = document.getElementsByName('j_username')[0].value;
+		if(j_username==""){ 
+			document.getElementsByName('j_username')[0].focus();
+		}
+		else{
+			document.getElementsByName('j_password')[0].focus();
+		}
+		
+		$(document).keypress(function(e) {
+			//if (e.which == 13)
+			//	$("form").submit();
+		});
+	}
+});
+function encryptPassword(){ 
+	document.forms[0].j_password.value = desEncrypt(document.forms[0].j_password.value);
+}
+</script>
+<form action="j_acegi_security_check" method="POST" onsubmit="return kmss_onsubmit();" autocomplete="off">
+	<table class="lui_login_form_table">
+		 
+		<tbody><tr>
+			<td colspan="2" class="lui_login_message_td">
+				<div class="lui_login_message_div tip_message">
+					
+					系统提示：
+					
+						
+							请输入用户名和密码
+						
+						
+						
+					
+				</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="lui_login_input_title">用户名：</td>
+			<td class="lui_login_input_td">
+				<div class="lui_login_input_div">
+						
+							
+							
+								
+							
+						
+					<input type="text" name="j_username" class="lui_login_input_username" onfocus="select();" value="" placeholder="用户名" autocomplete="off">
+				<i class="icon_del"></i></div>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="lui_login_input_title">密　码：</td>
+			<td class="lui_login_input_td">
+				<div class="lui_login_input_div">
+					<input type="password" name="j_password" class="lui_login_input_password" placeholder="密码" autocomplete="off">
+				<i class="icon_del"></i></div>
+			</td>
+		</tr>
+		
+		
+		
+		<tr>
+			<td colspan="2" class="lui_login_message_td">
+				
+					
+					系统提示：
+					
+						
+							请输入用户名和密码
+						
+						
+						
+					
+					<a href="/sys/organization/sys_org_person/chgPersonInfo.do?method=chgOneself" target="_blank">
+						<font style="color: red">
+						忘记密码
+						</font>
+					</a>
+				
+			</td>
+		</tr>
+	 	
+	 	
+			<tr>
+				<td class="lui_login_input_title">语　言：</td>
+				<td class="lui_login_input_td">
+					<div class="lui_login_input_div">
+						<select name="j_lang" onchange="changeLang(this.options[this.selectedIndex].value);"><option value="zh-CN">中文</option></select>
+					</div>
+					<script>
+						//语言切换
+						function changeLang(value){
+							var url = document.location.href;
+							url = Com_SetUrlParameter(url, "lang", value);
+							url = Com_SetUrlParameter(url, "username", document.getElementsByName("j_username")[0].value);
+							location.href = url;
+						}
+					</script>
+				</td>
+			</tr>
+		
+		
+		<tr>
+			<td class="lui_login_button_td" colspan="2">
+				<a href="javascript:document.getElementsByName('btn_submit')[0].click();">
+					<div class="lui_login_button_div_l">
+	                	<div class="lui_login_button_div_r">
+	                         	<div class="lui_login_button_div_c">登录</div>
+	                    </div>
+	                </div>
+             	 </a>
+			</td>
+		</tr>
+	</tbody></table>		
+<input type="hidden" name="j_redirectto" value="http://ekp.canc.com.cn/index.jsp">
+<input type="submit" style="border: 0px; width: 0px; height: 0px; background: none;" name="btn_submit">
+</form>
+                <!-- 下拉弹出窗 Starts 
+                <div class="login-dropbox">
+                    <div class="login-dropbox-toggle">
+                        <div class="iconbox">
+                            <span class="icon-QRcode"></span>
+                            <span class="icon-PC"></span>
+                        </div>
+                    </div>
+                    <div class="login-dropbox-menu">
+                        <div class="header">扫一扫</div>
+                        <ul class="login-dropbox-QRcode-list">
+                            <li>
+                                <div class="login-QRcode-box">
+                                    <h4 class="title">KK5.0</h4>
+                                    <div class="QRcode"><img src="/resource/style/default/login_single_random/images/code_kk5.png" /></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="login-QRcode-box">
+                                    <h4 class="title">蓝凌微云</h4>
+                                    <div class="QRcode"><img src="/resource/style/default/login_single_random/images/login_QRcode_weiyun.png" /></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="login-QRcode-box">
+                                    <h4 class="title">微服务平台</h4>
+                                    <div class="QRcode"><img src="/resource/style/default/login_single_random/images/login_QRcode_weixin.png" /></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                -- 下拉弹出窗 Ends 
+                -->
+            </div>
+            <!-- 登录框 结束 -->
+        
+        
+        <script type="text/javascript">
+        
+         LUI.ready(function(){
+                if("" != null && "" == 'en-US'){
+                    console.log("英文环境");
+                	//英文环境
+                    $('body').addClass('muilti_eng');
+                }
+            });
+        </script>
+	
+
+
+
+
+</body></html>

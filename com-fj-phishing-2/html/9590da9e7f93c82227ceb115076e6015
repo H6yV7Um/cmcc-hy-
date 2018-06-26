@@ -1,0 +1,1013 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width ,initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="canonical" href="http://hz.loupan.com/">
+    <title>杭州房产_杭州房产网_杭州房地产信息网 - 杭州楼盘网</title>
+    <meta name="Keywords" content="杭州房产网,杭州房产,杭州房地产,杭州房地产信息网">
+    <meta name="description" content="杭州房产网是杭州房产信息网权威平台，是为杭州楼市提供杭州房产、杭州房地产、杭州楼盘、杭州房价、杭州楼盘地图等资讯服务的杭州房地产网，楼盘网杭州站打造杭州房产网旗舰品牌。">
+    <link rel="stylesheet" href="http://mimg.loupan.com/css/swiper.min.css">
+    <link rel="stylesheet" media="all" href="http://mimg.loupan.com/css/new/head_n.css?v=20180510">
+    <link rel="stylesheet" media="all" href="http://mimg.loupan.com/css/new/index_n.css?v=20180510">
+    <link rel="stylesheet" media="all" href="http://mimg.loupan.com/css/new/footer.css">
+    <link rel="stylesheet" media="all" href="http://mimg.loupan.com/css/new/xfssjg.css?v=2">
+    <link rel="stylesheet" media="all" href="http://mimg.loupan.com/css/new/m_new.css?v=20180528">
+    <link rel="stylesheet" media="all" href="http://mimg.loupan.com/css/new/m-layer.css?v=1">
+    <script charset="utf-8" src="http://lxbjs.baidu.com/lxb.js?sid=10378179"></script><script src="https://hm.baidu.com/hm.js?c3ecc996b09c60b59615ae824a065659"></script><script src="//hm.baidu.com/hm.js?4900141126f29e4b4985573e9bcc03b8"></script><script type="text/javascript" async="" charset="utf-8" src="http://c.cnzz.com/core.php?web_id=30090299&amp;t=q"></script><script type="text/javascript" src="http://mimg.loupan.com/js/new/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="/js/new/jquery.flexslider-min.js"></script>-->
+    <script type="text/javascript" src="http://mimg.loupan.com/js/swiper.min.js"></script>
+    <script type="text/javascript" src="http://mimg.loupan.com/js/new/hhSwipe.js"></script>
+    <!--<script type="text/javascript">
+        $(document).ready(function() {
+            $('.myflexslider').flexslider({
+                controlNav: true,
+                directionNav: false,
+                animation: "slide"
+                //manualControls: ".myflexslider .slidenav"
+            });
+        });
+    </script>-->
+</head>
+<body style="">
+<div id="so_none">
+    <div class="top">
+        <a href="#" class="back fl" id="id_close"></a>
+        <div class="so fl" id="So_txt">
+            <form action="/hz/loupan" onsubmit="javascript:return check('top_search_input');" method="get">
+                <input type="text" class="input_text" style=" width:100%;height:3rem;background:#fff; border:0; outline:none; font-size:15px;color:#c9c9c9;" autocomplete="off" id="top_search_input" onblur="if(this.value=='') this.value='请输入楼盘名、地址、学校等...';this.style.color='#c9c9c9';" onfocus="if(this.value=='请输入楼盘名、地址、学校等...') this.value='';this.style.color='#000';" value="请输入楼盘名、地址、学校等..." name="q">
+                <input type="hidden" id="cityid" value="85">
+                <input type="hidden" id="lp_url" value="/hz/loupan">
+                <div><input type="submit" id="sobtn" value=""></div>
+            </form>
+        </div>
+    </div>
+    <div class="list" id="iterm">
+        <p id="searchtips">最近热搜</p>
+        <ul style="background:#fff; border-bottom:0;" id="top_search_ul">
+                            <li><a href="/hz/loupan/7018476"><i></i>绿地华家池印公寓</a></li>
+                            <li><a href="/hz/loupan/7018529"><i></i>钱塘大观</a></li>
+                            <li><a href="/hz/loupan/6158143"><i></i>众安·白马山庄</a></li>
+                            <li><a href="/hz/loupan/6158107"><i></i>美莱国际中心</a></li>
+                            <li><a href="/hz/loupan/6159554"><i></i>湘湖九号</a></li>
+                    </ul>
+            </div>
+    <div id="get_url" data-tag="/hz/loupan"></div>
+</div>
+
+<!--head s-->
+
+<header id="head">
+    <div class="logobox">
+        <div class="logo"></div>
+        <div class="tel">
+            <span></span>
+            <b>咨询电话：</b>
+            <a href="tel:17374106089">17374106089</a>
+        </div>
+    </div>
+    <div class="search">
+        <a href="/citylist" class="city">杭州</a>
+        <div class="searchBox">
+            <form id="search_form" name="search_form" action="/hz/loupan/" onsubmit="javascript:return check('top_search_input_old');" method="get">
+                <input name="q" type="text" class="full-width rounds has-border" onblur="if(this.value=='') this.value='请输入楼盘名、地址、学校等...';" onfocus="if(this.value=='请输入楼盘名、地址、学校等...') this.value='';" value="请输入楼盘名、地址、学校等..." id="top_search_input_old" autocomplete="off">
+                <ul class="tab-list" style="display:none;z-index:10;" id="top_search_ul"></ul>
+            </form>
+        </div>
+    </div>
+</header>
+<div class="clear"></div>
+<!--幻灯片 开始-->
+        <article>
+            <!--scroll-->
+            <div class="scroll relative">
+                <div class="scroll_box" id="scroll_img" style="visibility: visible;">
+                    <ul class="scroll_wrap" style="width: 2560px;">
+                                            <li data-index="0" style="width: 640px; left: 0px; transition: 0ms; -webkit-transition: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                            <a href="http://hz.loupan.com/loupan/puyugongguan">
+                               <img src="http://static.loupan.com/upfile2/media/20180408/20180408163944_9333169.jpg" width="100%">
+                             </a>
+                        </li>
+                                            <li data-index="1" style="width: 640px; left: -640px; transition: 0ms; -webkit-transition: 0ms; transform: translate(640px, 0px) translateZ(0px);">
+                            <a href="http://hz.loupan.com/loupan/7079826.html">
+                               <img src="http://static.loupan.com/upfile2/media/20180504/20180504145509_9717293.jpg" width="100%">
+                             </a>
+                        </li>
+                                            <li data-index="2" style="width: 640px; left: -1280px; transition: 0ms; -webkit-transition: 0ms; transform: translate(640px, 0px) translateZ(0px);">
+                            <a href="http://hz.loupan.com/loupan/7018476.html">
+                               <img src="http://static.loupan.com/upfile2/media/20180511/20180511133821_8971418.jpg" width="100%">
+                             </a>
+                        </li>
+                                            <li data-index="3" style="width: 640px; left: -1920px; transition: 0ms; -webkit-transition: 0ms; transform: translate(-640px, 0px) translateZ(0px);">
+                            <a href="http://hz.loupan.com/loupan/7079611.html">
+                               <img src="http://static.loupan.com/upfile2/media/20180511/20180511152219_46325.jpg" width="100%">
+                             </a>
+                        </li>
+                                        </ul>
+                </div>
+                <ul class="scroll_position" id="scroll_position" style="margin-top: -28px;">
+                                        <li class="on">
+                        <a href="javascript:void(0);">1</a>
+                    </li>
+                                        <li class="on">
+                        <a href="javascript:void(0);">2</a>
+                    </li>
+                                        <li class="on">
+                        <a href="javascript:void(0);">3</a>
+                    </li>
+                                        <li class="on">
+                        <a href="javascript:void(0);">4</a>
+                    </li>
+                                    </ul>
+            </div>
+            <!--scroll-->
+        </article>
+<!--幻灯片 结束-->
+<div class="clear"></div>
+<div class="icon_new">
+    <div class="swiper-container swiper-container-horizontal">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-active" style="width: 1024px;"><a href="/hz/loupan/"><span class="new-icon"></span><i>新房</i></a><a href="/hz/business/"><span class="biz-icon"></span><i>商业地产</i></a><a href="/hz/esf/p1/"><span class="youhui-icon"></span><i>二手房</i></a><a href="/hz/zu/p1/"><span class="fujin-icon"></span><i>租房</i></a><a href="/hz/news/"><span class="ershou-icon"></span><i>资讯</i></a><a href="/hz/ask/"><span class="zufang-icon"></span><i>问答</i></a><a href="/fangdai/"><span class="news-icon"></span><i>房贷计算器</i></a><a href="http://user2.loupan.com"><span class="user-icon"></span><i>个人中心</i></a></div><div class="swiper-slide swiper-slide-next" style="width: 1024px;"><a href="/hz/community/"><span class="xq-icon"></span><i>小区</i></a><a href="/hz/group/"><span class="shoucang-icon"></span><i>团购报名</i></a><a href="/hz/baike/"><span class="bk-icon"></span><i>百科</i></a><a href="/zhuanti/"><span class="fc-icon"></span><i>房产知识</i></a><a href="/hz/zhuanti/"><span class="gf-icon"></span><i>购房指南</i></a><a href="/hz/fangjia/"><span class="fj-icon"></span><i>房价</i></a><a href="/zhishi/"><span class="zs-icon"></span><i>楼盘知识</i></a><a href="/index.php/cookie/showXinfangFavor/"><span class="wenda-icon"></span><i>收藏</i></a></div><div class="swiper-slide" style="width: 1024px;"></div>        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="new_lptj">
+    <div class="list-title2">
+        <span></span>
+        <p>
+            <i></i>
+            <b>猜你喜欢</b>
+        </p>
+    </div>
+    <div class="list-title">新房<i></i></div>
+    <div class="new_lp_list">
+                    <div class="new_loupan-item3">
+                    <a class="" href="/hz/loupan/7079945">
+                        <div class="img">
+                            <img src="http://static.loupan.com/upfile2/image/20180510/20180510100835_2065295.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'" alt="">
+                                                            <span>在售</span>
+                                                    </div>
+                        <div class="text">
+                            <div class="top">
+                                <div class="tit">金隅空港公馆</div>
+                            </div>
+                            <div class="desc">
+                                <div class="adr">江干-</div>
+                                <div class="btn">
+                                    <button data-value="400-818-0066,372081#" class="mobileTel">售楼热线</button>
+                                </div>
+                            </div>
+                            <div class="tagBox">
+                                <div class="tag">
+                                                                                                                                                                        <span>精装修</span>
+                                                                                                                                    <span></span>
+                                                                                                            </div>
+                                                                    <div class="price"><span>17000</span>元/㎡</div>
+                                                            </div>
+                        </div>
+                    </a>
+                                    </div>
+                        <div class="new_loupan-item3">
+                    <a class="" href="/hz/loupan/7078154">
+                        <div class="img">
+                            <img src="http://static.loupan.com/upfile2/image/20180312/20180312111309_2105390.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'" alt="">
+                                                            <span>现房</span>
+                                                    </div>
+                        <div class="text">
+                            <div class="top">
+                                <div class="tit">中国铁建国际公馆</div>
+                            </div>
+                            <div class="desc">
+                                <div class="adr">拱墅-</div>
+                                <div class="btn">
+                                    <button data-value="400-818-0066,584689#" class="mobileTel">售楼热线</button>
+                                </div>
+                            </div>
+                            <div class="tagBox">
+                                <div class="tag">
+                                                                                                                                                                        <span></span>
+                                                                                                                                    <span>酒店式公寓 商铺</span>
+                                                                                                            </div>
+                                                                    <div class="price"><span></span>价格待定</div>
+                                                            </div>
+                        </div>
+                    </a>
+                                    </div>
+                        <div class="new_loupan-item3">
+                    <a class="" href="/hz/loupan/7079435">
+                        <div class="img">
+                            <img src="http://static.loupan.com/upfile2/image/20180412/20180412101811_6246647.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'" alt="">
+                                                            <span>现房</span>
+                                                    </div>
+                        <div class="text">
+                            <div class="top">
+                                <div class="tit">山水半岛</div>
+                            </div>
+                            <div class="desc">
+                                <div class="adr">桐庐-</div>
+                                <div class="btn">
+                                    <button data-value="400-818-0066,145338#" class="mobileTel">售楼热线</button>
+                                </div>
+                            </div>
+                            <div class="tagBox">
+                                <div class="tag">
+                                                                                                                                                                        <span>精装修</span>
+                                                                                                                                    <span></span>
+                                                                                                            </div>
+                                                                    <div class="price"><span>12000</span>元/㎡</div>
+                                                            </div>
+                        </div>
+                    </a>
+                                    </div>
+                        <div class="new_loupan-item3">
+                    <a class="" href="/hz/loupan/7020043">
+                        <div class="img">
+                            <img src="http://static.loupan.com/upfile/image/20151205/20151205151347_54961.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'" alt="">
+                                                            <span>在售</span>
+                                                    </div>
+                        <div class="text">
+                            <div class="top">
+                                <div class="tit">中国铁建江南国际城</div>
+                            </div>
+                            <div class="desc">
+                                <div class="adr">萧山-</div>
+                                <div class="btn">
+                                    <button data-value="400-818-0066,802459#" class="mobileTel">售楼热线</button>
+                                </div>
+                            </div>
+                            <div class="tagBox">
+                                <div class="tag">
+                                                                                                                                                                        <span>精装修</span>
+                                                                                                            </div>
+                                                                    <div class="price"><span>27000</span>元/㎡</div>
+                                                            </div>
+                        </div>
+                    </a>
+                                    </div>
+                        <div class="new_loupan-item3">
+                    <a class="noline" href="/hz/loupan/7079436">
+                        <div class="img">
+                            <img src="http://static.loupan.com/upfile2/image/20180412/20180412103755_6333425.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'" alt="">
+                                                            <span>在售</span>
+                                                    </div>
+                        <div class="text">
+                            <div class="top">
+                                <div class="tit">富春新天地荣域公馆</div>
+                            </div>
+                            <div class="desc">
+                                <div class="adr">富阳-</div>
+                                <div class="btn">
+                                    <button data-value="400-818-0066,712497#" class="mobileTel">售楼热线</button>
+                                </div>
+                            </div>
+                            <div class="tagBox">
+                                <div class="tag">
+                                                                                                                                                                        <span></span>
+                                                                                                                                    <span>Loft</span>
+                                                                                                                                                        </div>
+                                                                    <div class="price"><span>24000</span>元/㎡</div>
+                                                            </div>
+                        </div>
+                    </a>
+                                    </div>
+                <div class="more-title"><a href="/hz/loupan/">新房频道<i>&gt;</i></a></div>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="new_lptj">
+    <div class="list-title">房产资讯<i></i></div>
+    <div class="new_lp_list">
+                <a href="/hz/news/201806/3264449">
+            <div class="news_info_item ">
+                                <ul>
+                    <li class="ui-name"><i id="info_title">二手房交易更便捷高效 北京购房人资格审核足不出户</i> </li>
+                    <li class="fn-text-ly">
+                       <span>中国经济网</span>
+                        <span>2018-06-04</span>
+                        <p>
+                            <i></i>
+                            <b>行业动态</b>
+                        </p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/news/201806/3264334">
+            <div class="news_info_item ">
+                                <ul>
+                    <li class="ui-name"><i id="info_title">房企加速多元化：抢滩产城布局为哪般？</i> </li>
+                    <li class="fn-text-ly">
+                       <span>21cn</span>
+                        <span>2018-06-04</span>
+                        <p>
+                            <i></i>
+                            <b>行业动态</b>
+                        </p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/news/201806/3264275">
+            <div class="news_info_item ">
+                                <ul>
+                    <li class="ui-name"><i id="info_title">购绿色建筑或可享公积金贷款优惠</i> </li>
+                    <li class="fn-text-ly">
+                       <span>广州日报</span>
+                        <span>2018-06-04</span>
+                        <p>
+                            <i></i>
+                            <b>行业动态</b>
+                        </p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/news/201806/3264250">
+            <div class="news_info_item ">
+                                <ul>
+                    <li class="ui-name"><i id="info_title">95后程序员买房连摇11次未中 有人开挂三摇三中</i> </li>
+                    <li class="fn-text-ly">
+                       <span>钱江晚报</span>
+                        <span>2018-06-04</span>
+                        <p>
+                            <i></i>
+                            <b>行业动态</b>
+                        </p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/news/201806/3264233">
+            <div class="news_info_item ">
+                                <ul>
+                    <li class="ui-name"><i id="info_title">买二手房遇涨价“套路”：交定金后房不卖了咋维权</i> </li>
+                    <li class="fn-text-ly">
+                       <span>华商报</span>
+                        <span>2018-06-04</span>
+                        <p>
+                            <i></i>
+                            <b>行业动态</b>
+                        </p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <div class="more-title"><a href="/hz/news/">资讯频道<i>&gt;</i></a></div>
+    </div>
+</div>
+
+
+<!-- 二手房 -->
+<div class="clear"></div>
+<div id="new_lptj">
+    <div class="list-title">二手房<i></i></div>
+    <div class="new_lp_list">
+                <a href="/hz/esf/40303907/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/esf/20180603/20180603090914_74386.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">复兴路民安苑 水澄桥站口 满五年 三房沿河东边套 简单装修</li>
+                    <li class="esf-area">
+                        <span></span>
+                        <p>&nbsp;民安苑</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>3室1厅</span>
+                        <span>&nbsp;69m²</span>
+                        <p>288万</p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/esf/40303099/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/esf/20180602/20180602092052_46302.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">复兴路美政花苑 满五年 客厅居中带窗  两房朝南户型可伶包住</li>
+                    <li class="esf-area">
+                        <span></span>
+                        <p>&nbsp;美政花苑南区</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>2室1厅</span>
+                        <span>&nbsp;50m²</span>
+                        <p>220万</p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/esf/40303092/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/esf/20180602/20180602090806_47515.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">复兴路美政花苑 满五年 精装南北通透户型 低楼层非底楼 两房</li>
+                    <li class="esf-area">
+                        <span></span>
+                        <p>&nbsp;美政花苑南区</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>2室1厅</span>
+                        <span>&nbsp;44m²</span>
+                        <p>200万</p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/esf/40298205/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/esf/20180527/20180527093911_80533.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">复兴路次新小区 此房满五年 中间楼层采光充足 简单装修拎包住</li>
+                    <li class="esf-area">
+                        <span></span>
+                        <p>&nbsp;美政花苑南区</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>2室2厅</span>
+                        <span>&nbsp;70m²</span>
+                        <p>300万</p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/hz/esf/40298204/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/esf/20180527/20180527093905_86503.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">复兴路次新小区 此房满五年 客厅居中带窗 全明户型且南北通透</li>
+                    <li class="esf-area">
+                        <span></span>
+                        <p>&nbsp;美政花苑南区</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>3室1厅</span>
+                        <span>&nbsp;72m²</span>
+                        <p>300万</p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <div class="more-title"><a href="/hz/esf/p1/">二手房频道<i>&gt;</i></a></div>
+    </div>
+</div>
+<!-- 租房 -->
+<div class="clear"></div>
+<div id="new_lptj">
+    <div class="list-title">租房<i></i></div>
+    <div class="new_lp_list">
+                
+        <a href="/hz/zu/10194516/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/zu/20180513/20180513095822_87929.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">明怡花苑杭州湾信息港宝龙广场电商园房东自住装修急租</li>
+                    <li class="esf-area">
+                        <span>萧山</span>
+                        <p>经开区</p>
+                        <p>德圣博奥城</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>2室2厅</span>
+                        <span>&nbsp;89m²</span>
+                                                    <p>4000元/月</p>
+                                            </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                
+        <a href="/hz/zu/10194515/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/zu/20180513/20180513095803_58638.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">建设三路口绿都百瑞独门独户可做房采光好交通便利</li>
+                    <li class="esf-area">
+                        <span>萧山</span>
+                        <p>经开区</p>
+                        <p>绿都百瑞广场</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>1室1厅</span>
+                        <span>&nbsp;45m²</span>
+                                                    <p>2480元/月</p>
+                                            </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                
+        <a href="/hz/zu/10194514/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/zu/20180513/20180513095739_25521.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">顺发恒园本公司有大量房源1房2房3房4房都有真诚为你服务</li>
+                    <li class="esf-area">
+                        <span>萧山</span>
+                        <p>经开区</p>
+                        <p>顺发恒园</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>3室2厅</span>
+                        <span>&nbsp;120m²</span>
+                                                    <p>5000元/月</p>
+                                            </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                
+        <a href="/hz/zu/10194513/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/zu/20180513/20180513095718_90149.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">建设三路口雷迪森旁一室一厅大成名座绿都百瑞实拍</li>
+                    <li class="esf-area">
+                        <span>萧山</span>
+                        <p>经开区</p>
+                        <p>大成名座</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>1室1厅</span>
+                        <span>&nbsp;55m²</span>
+                                                    <p>2400元/月</p>
+                                            </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                
+        <a href="/hz/zu/10194512/">
+            <div class="new_loupan-item ">
+                <img src="http://static.loupan.com/fy2/zu/20180513/20180513095652_38404.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="esf-bt">丽晶国际 宝盛世纪中心 2号线 银泰天虹市民中心保亿传化博地</li>
+                    <li class="esf-area">
+                        <span>萧山</span>
+                        <p>钱江世纪城</p>
+                        <p>宝盛世纪中心</p>
+                    </li>
+                    <li class="esf-price">
+                        <span>1室1厅</span>
+                        <span>&nbsp;51m²</span>
+                                                    <p>3100元/月</p>
+                                            </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <div class="more-title"><a href="/hz/zu/p1/">租房频道<i>&gt;</i></a></div>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="new_lptj">
+    <div class="list-title">问答<i></i></div>
+    <div class="new_lp_list" id="new_thelist">
+                <a href="/ask/671349.htm">
+            <div class="news_info_item ">
+                <img src="http://static.loupan.com/upfile2/ask/20180604/20180604105635_9187443.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="ui-name">
+                        <i id="info_title">买房需要购房者提供什么材料？</i> </li>
+                    <li class="fn-text-overflow"><span class="fn-text-date">2018-06-04</span><span class="fn-text-title-zan">3</span>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/ask/671348.htm">
+            <div class="news_info_item ">
+                <img src="http://static.loupan.com/upfile2/ask/20180604/20180604105313_1751497.png" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="ui-name">
+                        <i id="info_title">现在购房首付能贷款吗？</i> </li>
+                    <li class="fn-text-overflow"><span class="fn-text-date">2018-06-04</span><span class="fn-text-title-zan">2</span>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/ask/671347.htm">
+            <div class="news_info_item ">
+                <img src="http://static.loupan.com/upfile2/ask/20180604/20180604104727_377579.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="ui-name">
+                        <i id="info_title">首套房买房流程是怎样的首套房是怎么买的呢</i> </li>
+                    <li class="fn-text-overflow"><span class="fn-text-date">2018-06-04</span><span class="fn-text-title-zan">3</span>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/ask/671323.htm">
+            <div class="news_info_item ">
+                <img src="http://static.loupan.com/upfile2/ask/20180528/20180528170249_5626235.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="ui-name">
+                        <i id="info_title">家里的房子是央产房能卖吗？要交哪些税？</i> </li>
+                    <li class="fn-text-overflow"><span class="fn-text-date">2018-05-28</span><span class="fn-text-title-zan">1</span>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <a href="/ask/671322.htm">
+            <div class="news_info_item ">
+                <img src="http://static.loupan.com/upfile2/ask/20180528/20180528170259_4625246.jpg" onerror="this.src='http://mimg.loupan.com/images/nopic.jpg'">
+                <ul>
+                    <li class="ui-name">
+                        <i id="info_title">法拍房是什么?</i> </li>
+                    <li class="fn-text-overflow"><span class="fn-text-date">2018-05-28</span><span class="fn-text-title-zan">1</span>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </a>
+                <div class="more-title"><a href="/hz/ask/">问答频道<i>&gt;</i></a></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<footer id="footer">
+    <p>
+                Copyright © 2018 LouPan.com <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" rel="nofollow" target="_blank">湘ICP备12003586号-55</a>
+    </p>
+    <div class="webs">
+        <a href="http://hz.loupan.com/?nom=1">电脑版</a>
+        <a href="http://m.loupan.com/" class="active">手机版</a>
+        <a href="http://app.loupan.com/" style="border-right:0;">客户端</a>
+    </div>
+    <div id="openwindow" class="m-layer m-layer0" style="display: none"><div class="m-layershade"></div><div class="m-layermain"><div class="m-layersection"><div class="m-layerchild  m-layeranim"><div class="m-layercont" id="open_content">GPS定位到您所在城市是长沙，是否切换？</div><div class="m-layerbtn"><span type="0" onclick="hide_div();">取消</span><span type="1" onclick="turn_url();">切换</span></div></div></div></div></div>
+</footer>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=nRiAbKC245QLSOiFInQgqTU7"></script><script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&amp;ak=nRiAbKC245QLSOiFInQgqTU7&amp;services=&amp;t=20180529182003"></script>
+<script type="text/javascript" src="http://mimg.loupan.com/js/new/sq.js?v=20170210"></script>
+<script type="text/javascript" src="http://mimg.loupan.com/js/new/index.js?v=3"></script>
+<a href="javascript:;" id="backTop"></a>
+<script>
+    $("#backTop").click(function(){
+        window.scrollTo(0,1);
+    });
+</script>
+<!--div class="floatApp" id="floatApp">
+    <a id="wapdsy_D05_04" class="linkbox" href="http://www.loupan.com/app_down.html">
+        <span class="btn">立即下载</span>
+        <img width="36" src="< ?php echo MIMG; ?>/assets/images/index.png">
+        <div class="text">
+            <p class="f14" style="line-height:17px">
+                <span style="font-size:1.5em;">APP浏览更方便</span><br><span style="font-size:1.5em;">速度更快，流量更省!</span>
+            </p>
+        </div>
+    </a>
+    <a class="off" href="#off" onClick="javascript:document.getElementById('floatApp').style.display='none'"><span>x</span></a>
+</div-->
+
+
+
+ 
+
+<div id="sign_form" class="sign_popu" style="display:none">
+<div class="sign_box">
+    <div class="sign_main">
+          <div class="i_close" id="close_btn"></div>
+		  <div class="tz-tit">
+            <span>参与楼盘网购房团报名</span>
+         </div>
+		 <form name="group_form" id="group_form_house" action="/group_buy/Groupbuymsg" enctype="multipart/form-data" method="post">
+		    <input type="hidden" name="group[site_id]" value="85">
+			<input name="group[group_buy_id]" value="1070" type="hidden">
+           <ul class="sign-list">
+        	<li><input type="text" class="sign-text" name="group[name]" id="group_form_name" autocomplete="off" placeholder="请输入您的姓名"></li>
+        	<li><input type="text" class="sign-text" name="group[mobile]" id="group_form_phone" autocomplete="off" placeholder="请输入您的手机号码"></li>
+             </ul>
+		    <p class="tz-word"><label><input type="checkbox" class="xieyi" name="xieyi" checked="">同意<a href="http://user.loupan.com/home/pro" target="_blank">楼盘网相关协议</a></label></p>
+		   <div class="tz-btn flexbox">
+            <input type="submit" onclick="return check_form_house()" value="立即报名">
+           </div>
+		</form>
+		
+     </div>
+ </div>
+</div>
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=nRiAbKC245QLSOiFInQgqTU7"></script><script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&amp;ak=nRiAbKC245QLSOiFInQgqTU7&amp;services=&amp;t=20180529182003"></script>
+<script>
+    var ipcity="杭州";
+    var gotype=1;
+    var getcity="";
+    //var test=< ?php echo $test;?>
+    //通过百度LocalCity定位得到城市信息第二种方法 此方法为辅助方法
+    function get_city_baidu(){
+        var myCity = new BMap.LocalCity();
+        myCity.get(myFun);
+    }
+
+    function myFun(result){
+        var cityName = result.name;
+        if(cityName!="")cityName=cityName.replace("市","");
+        return cityName;
+    }
+
+    //console.log(gotype);
+    //通过百度Geolocation定位得到城市信息第一种方法 此方法用gps精确定位
+    if(gotype==1){
+        var geolocation = new BMap.Geolocation();
+        //console.log(geolocation.getCurrentPosition);
+        geolocation.getCurrentPosition(function(r){
+            //console.log("r="+r);
+            if(this.getStatus() == BMAP_STATUS_SUCCESS){
+                var get_url="/index.php/home/get_baidu_map_city/?lat="+r.point.lat+"&lng="+r.point.lng+"&type=city";
+                $.get(get_url, function(data){
+                    //$("#get_city_box").hide();
+                    getcity=data;
+                    //console.log(ipcity+'|'+getcity+'|'+gotype);
+//                    if(test!=0){
+//                        $("#open_content").text("GPS定位到您所在城市是aaa"+getcity+"，是否切换？");
+//                        $("#openwindow").show();
+//                    }
+                    if(ipcity!=getcity && getcity!=""){
+                        //openWindow();
+                        $("#open_content").text("GPS定位到您所在城市是"+getcity+"，是否切换？");
+                        $("#openwindow").show();
+                    }
+                });
+            }else{
+                getcity=get_city_baidu();//通过百度LocalCity定位得到城市信息第二种方法
+                //console.log(ipcity+'|'+getcity+'|'+gotype);
+                if(ipcity!=getcity && getcity!=""){
+                    //openWindow();
+                    $("#open_content").text("GPS定位到您所在城市是"+getcity+"，是否切换？");
+                    $("#openwindow").show();
+                }
+            }
+        },{enableHighAccuracy: true});
+    }
+
+    function hide_div(){
+        $("#openwindow").hide();
+    }
+
+    function turn_url(){
+        url="/?city="+getcity+'&goto_city=2';
+        window.location.href=url;
+    }
+
+    var slider = Swipe(document.getElementById('scroll_img'), {
+        auto: 3000,
+        continuous: true,
+        callback: function (pos) {
+            var i = bullets.length;
+            while (i--) {
+                bullets[i].className = ' ';
+            }
+            bullets[pos].className = 'on';
+        }
+    });
+    var bullets = document.getElementById('scroll_position').getElementsByTagName('li');
+    $(function () {
+        $('.scroll_position_bg').css({
+            width: $('#scroll_position').width()
+        });
+    });
+
+</script>
+
+
+<script type="text/javascript">
+  $(function(){
+	  $(".mmq-fb-btn").click(function(){
+		  $(".sign_popu").fadeIn();
+		  })
+	  $("#close_btn").click(function(){
+		  $(".sign_popu").fadeOut();
+		  })
+		  
+	 check_form_house = function(){
+        if(!$("#sign_form").find(".xieyi").prop("checked"))
+	        {
+			   alert("请确认楼盘网协议!");
+			   return false;
+	        }
+        var name = $('#group_form_name');
+        var phone = $('#group_form_phone');
+
+        if(name.val() == ''){
+            alert('请输入您的姓名');
+            name.focus();
+            return false;
+        }
+        if(phone.val() == ''){
+            alert('请输入您的手机号码');
+            phone.focus();
+            return false;
+        }
+        if(phone.val() != '' && phone.val() != undefined){
+            var re;
+            mobile = phone.val();
+            re = /^0?1[3|4|5|6|7|8][0-9]\d{8}$/;
+            if (re.test(mobile)) {
+                return true;
+            } else {
+                alert('手机号码不正确');
+                phone.focus();
+                return false;
+            }
+        }
+    };	  
+  });
+
+    var navIcon = new Swiper ('.icon_new .swiper-container', {
+        pagination: '.swiper-pagination',
+    });
+
+    /* 猜你喜欢-拨打电话 */
+    $('.mobileTel').on('click', function(e) {
+        e.preventDefault();
+
+    });
+    function tels() {
+        var body = $(document.body);
+        var ele = $('.mobileTel');
+        var ua = navigator.userAgent.toLowerCase();
+        var box = '';
+        
+        ele.on('click', function(e) {
+            var that = $(this);
+            var href = that.data('value');
+            var arr = (href.replace(/tel\:/g,'')).split(',');
+            e.preventDefault();
+            if(ua.indexOf('android') > -1 || ua.indexOf('mzbrowser') > -1) {
+                if(arr.length > 1) {
+                    //if(arr[1].indexOf('#')) {
+                        arr[1] = arr[1].replace(/\#/g,'');
+                        var box = '<div class="layerTel"><div class="layerTel-box"><p>电话拨通后，请拨打分机号</p><span>'+arr[1]+'</span><a href="tel:'+arr[0]+'" id="to_tel">拨打电话</a></div><div class="layerTel-bg"></div></div>';
+                        body.append(box);
+                    //}
+                }else{
+                    window.location.href = 'tel:'+href;
+                }
+            }else{
+                window.location.href = 'tel:'+href;
+            }
+        });
+
+        $(body).on('click', '.layerTel-bg', function() {
+            $('.layerTel', body).remove();
+        });
+    }
+    tels();
+</script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js?v=20170330"></script>
+    <script>
+    wx.config({
+        debug: false,
+        appId: '',
+        timestamp: '',
+        nonceStr: '',
+        signature: '',
+        jsApiList: [
+            'onMenuShareTimeline',
+            'onMenuShareAppMessage',
+            'onMenuShareQQ',
+            'onMenuShareWeibo'
+        ]
+    });
+
+    var shareObj = {
+        title: '杭州楼盘网',
+        desc: '杭州房产网是杭州房产信息网权威平台，是为杭州楼市提供杭州房产、杭州房地产、杭州楼盘、杭州房价、杭州楼盘地图等资讯服务的杭州房地产网，楼盘网杭州站打造杭州房产网旗舰品牌。',
+        link: window.location.href,
+        img: 'http://mimg.loupan.com/css/i/share-icon.png?v=20180503'
+    }
+    
+    wx.ready(function () {
+        /*2. 分享接口
+          2.1 监听“分享给朋友”，按钮点击、自定义分享内容及分享结果接口*/
+        wx.onMenuShareAppMessage({
+            title: shareObj.title,
+            desc: shareObj.desc,
+            link: shareObj.link,
+            /*imgUrl: "",*/
+            imgUrl: shareObj.img,
+            trigger: function (res) {
+                /*不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+                alert('用户点击发送给朋友');*/
+            },
+            success: function (res) {
+                /*alert('已分享');*/
+            },
+            cancel: function (res) {
+                /*alert('已取消');*/
+            },
+            fail: function (res) {
+                console.log(JSON.stringify(res));
+            }
+        });
+
+        /*2.2 监听“分享到朋友圈”按钮点击、自定义分享内容及分享结果接口*/
+        wx.onMenuShareTimeline({
+            title: shareObj.title,
+            link: shareObj.link,
+            /*imgUrl: "",*/
+            imgUrl: shareObj.img,
+            trigger: function (res) {
+                /*不要尝试在trigger中使用ajax异步请求修改本次分享的内容，因为客户端分享操作是一个同步操作，这时候使用ajax的回包会还没有返回
+                alert('用户点击分享到朋友圈');*/
+            },
+            success: function (res) {
+                /*alert('已分享');*/
+            },
+            cancel: function (res) {
+                /*alert('已取消');*/
+            },
+            fail: function (res) {
+                alert(JSON.stringify(res));
+            }
+        });
+        
+        /*2.3 监听“分享到QQ”按钮点击、自定义分享内容及分享结果接口*/
+        wx.onMenuShareQQ({
+            title: shareObj.title,
+            desc: shareObj.desc,
+            link: shareObj.link,
+            /*imgUrl: "",*/
+            imgUrl: shareObj.img,
+            trigger: function (res) {
+                /*alert('用户点击分享到QQ');*/
+            },
+            complete: function (res) {
+                /*alert(JSON.stringify(res));*/
+            },
+            success: function (res) {
+                /*alert('已分享');*/
+            },
+            cancel: function (res) {
+                /*alert('已取消');*/
+            },
+            fail: function (res) {
+                /*alert(JSON.stringify(res));*/
+            }
+        });
+
+        /*2.4 监听“分享到微博”按钮点击、自定义分享内容及分享结果接口*/
+        wx.onMenuShareWeibo({
+            title: shareObj.title,
+            desc: shareObj.desc,
+            link: shareObj.link,
+            /*imgUrl: "",*/
+            imgUrl: shareObj.img,
+            trigger: function (res) {
+                /*alert('用户点击分享到微博');*/
+            },
+            complete: function (res) {
+                /*alert(JSON.stringify(res));*/
+            },
+            success: function (res) {
+                /*alert('已分享');*/
+            },
+            cancel: function (res) {
+                /*alert('已取消');*/
+            },
+            fail: function (res) {
+                /*alert(JSON.stringify(res));*/
+            }
+        });
+
+        /*8.2 显示右上角菜单*/
+        wx.showOptionMenu();
+
+    });
+
+    wx.error(function (res) {
+        console.log(res.errMsg);
+    });
+</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_30090299'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D30090299' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_30090299"></span><script src=" http://w.cnzz.com/c.php?id=30090299" type="text/javascript"></script><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?4900141126f29e4b4985573e9bcc03b8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c3ecc996b09c60b59615ae824a065659";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></body></html>

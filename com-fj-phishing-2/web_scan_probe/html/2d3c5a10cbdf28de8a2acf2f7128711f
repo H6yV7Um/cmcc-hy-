@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- saved from url=(0025)http://www.spriteapp.com/ --><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh_cn" lang="zh_cn"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="baidu_union_verify" content="ea5753a720317c056039ac90fcba0171">
+    <meta name="description" content="">
+    <meta name="keywords" content="北京速秒,速秒,速秒传媒,北京速秒传媒科技有限公司">
+    <title>北京速秒传媒科技有限公司</title>
+    <link href="xunhba/css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="xunhba/js/jquery-1.8.min.js"></script>
+    <script type="text/javascript" src="xunhba/js/common.js"></script>
+</head>
+<body>
+<!--顶部-->
+<!--start top-->
+
+<div id="top">
+    <div id="logo">
+        <a href="index.html" id="logo-image"><img src="xunhba/images/logo.jpg"></a>
+    </div>
+    <div id="nav">
+        <ul>
+            <li class="nav active" id="home"><a href="index.html">首页</a></li>
+            <li class="nav" id="products"><a href="xunhba/products-1.html">产品介绍&amp;下载</a></li>
+            <li class="nav" id="cooperation"><a href="xunhba/cooperation.html">商务合作</a></li>
+            <li class="nav" id="joinus"><a href="xunhba/joinus.html">加入我们</a></li>
+            <li class="nav" id="aboutus"><a href="xunhba/aboutus.html">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+<!--start index_main-->
+<div class="content">
+    <div id="silder">
+        <div id="slider_image">
+            <ul style="left: 0px; width: 960px;">
+                <!--<li><a href="products.html" data-des="觅爱，帮助单身男女找到理想对象，让恋爱如此简单。青春稍纵即逝，还在为迟迟找不到对象而烦恼烦恼吗，找对象，就用觅爱手机客户端。方便快捷，约会成功率高，距离约到心上人，只差两秒！免费下载，一键注册，立即开启寻爱之旅吧！" data-src="images/banner-baisi.png"><img src="images/banner-baisi.jpg"></a></li>-->
+                <li><a href="xunhba/products-1.html" data-des="寻欢吧是国内最专业的实名认证婚恋平台，相亲、找对象、谈恋爱的必备神器。身份认证+个人资料审核的双重保证，让您放心找对象。" data-src="xunhba/images/banner-bizhi.jpg"><img src="xunhba/images/banner-bizhi.jpg"></a></li>
+                <!--<li><a href="products-2.html" data-des=" "-->
+                <!--data-src="images/banner-bizhi.jpg"><img src="images/banner-bizhi.jpg"></a></li>-->
+            </ul>
+            <div class="btnBg" style="opacity: 0.5;"></div>
+            <div class="preNext pre" style="opacity: 0.2;"></div>
+            <div class="preNext next" style="opacity: 0.2;"></div>
+        <div class="btnBg" style="opacity: 0.5;"></div><div class="btn"><span></span></div><div class="preNext pre" style="opacity: 0.2;"></div><div class="preNext next" style="opacity: 0.2;"></div></div>
+        <div id="slide-title-wraper">
+            <div id="slider-title">
+                <span id="slider-contents">寻欢吧是国内最专业的实名认证婚恋平台，相亲、找对象、谈恋爱的必备神器。身份认证+个人资料审核的双重保证，让您放心找对象。</span>
+            </div>
+        </div>
+        <div id="products">
+            <div id="title">
+                精品应用
+            </div>
+
+
+            <div id="product1" class="product">
+                <div class="product-image">
+                    <img src="xunhba/images/product-image2.png">
+                </div>
+                <div class="product-describe">
+                    <div class="product-title">
+                        <span class="product-name">寻欢吧</span>
+                        <span class="name-describe">（Android）</span>
+                    </div>
+                    <div class="product-contents">
+                        寻欢吧是国内最专业的实名认证婚恋平台，相亲、找对象、谈恋爱的必备神器。身份认证+个人资料审核的双重保证，让您放心找对象。
+                    </div>
+                </div>
+                <div class="product-download">
+                    <a href="xunhba/products-1.html" title="免费下载">免费下载</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var nav = "home";
+        $(function () {
+            $('#slider_image a').each(function () {
+                $(this).html('<' + 'img src="' + $(this).attr('data-src') + '"\/>');
+            });
+            var sWidth = $("#slider_image").width(); //获取焦点图的宽度（显示面积）
+            var len = $("#slider_image ul li").length; //获取焦点图个数
+            var index = 0;
+            var picTimer;
+
+            //以下代码添加数字按钮和按钮后的半透明条，还有上一页、下一页两个按钮
+            var btn = '<div class="btnBg"><\/div><div class="btn">';
+            for (var i = 0; i < len; i++) {
+                btn += '<span></span>';
+            }
+            btn += '</div><div class="preNext pre"><\/div><div class="preNext next"><\/div>';
+            $("#slider_image").append(btn);
+            $("#slider_image .btnBg").css("opacity", 0.5);
+
+
+            //上一页、下一页按钮透明度处理
+            $("#slider_image .preNext").css("opacity", 0.2).hover(function () {
+                $(this).stop(true, false).animate({"opacity": "0.5"}, 300);
+            }, function () {
+                $(this).stop(true, false).animate({"opacity": "0.2"}, 300);
+            });
+
+            //上一页按钮
+            $("#slider_image .pre").click(function () {
+                index -= 1;
+                if (index == -1) {
+                    index = len - 1;
+                }
+                showPics(index);
+            });
+
+            //下一页按钮
+            $("#slider_image .next").click(function () {
+                index += 1;
+                if (index == len) {
+                    index = 0;
+                }
+                showPics(index);
+            });
+
+            //本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
+            $("#slider_image ul").css("width", sWidth * (len));
+
+            //鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
+            $("#slider_image").hover(function () {
+                clearInterval(picTimer);
+            }, function () {
+                picTimer = setInterval(function () {
+                    showPics(index);
+                    index++;
+                    if (index == len) {
+                        index = 0;
+                    }
+                }, 3000); //此3000代表自动播放的间隔，单位：毫秒
+            }).trigger("mouseleave");
+
+            //显示图片函数，根据接收的index值显示相应的内容
+            function showPics(index) { //普通切换
+                var nowLeft = -index * sWidth; //根据index值计算ul元素的left值
+                $('#slider-contents').html($('#slider_image li').eq(index).children('a').attr('data-des'));
+                $("#slider_image ul").stop(true, false).animate({"left": nowLeft}, 300); //通过animate()调整ul元素滚动到计算出的position
+                //$("#slider_image .btn span").removeClass("on").eq(index).addClass("on"); //为当前的按钮切换到选中的效果
+                $("#slider_image .btn span").stop(true, false).animate({"opacity": "0.4"}, 300).eq(index).stop(true, false).animate({"opacity": "1"}, 300); //为当前的按钮切换到选中的效果
+            }
+        });
+    </script>
+
+    <!--底部-->
+
+    <!--start footer-->
+    <div id="bottom">
+        <span id="copyright">北京速秒传媒科技有限公司 | ©2014 | 京ICP备17023874号-1 <br>地址:北京市朝阳区北京香颂221 | 联系方式:18310056703</span>
+    </div>
+    <!--stop footer-->
+
+
+
+</div></body></html>

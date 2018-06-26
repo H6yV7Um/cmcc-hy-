@@ -1,0 +1,1239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Lancome</title>
+<link rel="stylesheet" type="text/css" href="/lancome-web/resources/css/jquery-ui-1.8.15.custom.css">
+<link rel="stylesheet" type="text/css" href="/lancome-web/resources/css/homepage.css">
+<link rel="stylesheet" type="text/css" href="/lancome-web/resources/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="/lancome-web/resources/css/slides-min-jquery.css">
+<link rel="stylesheet" type="text/css" href="/lancome-web/resources/css/scroll-gift-jquery.css">
+<link rel="stylesheet" type="text/css" href="/lancome-web/resources/css/login-con.css">
+<link rel="stylesheet" type="text/css" href="/lancome-web/resources/css/login.css?version=2.3">
+
+
+<script type="text/javascript" async="" src="https://ssl.gridsumdissector.com/js/Clients/GWD-002249-D08BA5/gs.js"></script><script type="text/javascript" src="/lancome-web/resources/js/jquery.min.js"></script>
+<script type="text/javascript" src="/lancome-web/resources/js/jquery-ui-1.8.15.custom.min.js"></script>
+<script type="text/javascript" src="/lancome-web/resources/js/jquery.blockUI.js"></script>
+<script type="text/javascript" src="/lancome-web/resources/js/jquery.bgiframe.js"></script>
+<script type="text/javascript" src="/lancome-web/resources/js/jst.js"></script>
+<script type="text/javascript" src="/lancome-web/resources/js/common.js"></script>
+<script type="text/javascript">
+	var ctx = "/lancome-web";
+	$(function(){
+		
+		$("body").click(function(evt){
+			if(evt.target.className == "page") {
+			    window.open("http://gen1409.rosebeauty.com.cn/");
+			}
+		})
+	});
+</script>
+<!--[if IE 6]>
+<script src="/lancome-web/resources/js/DD_belatedPNG_0.0.8a.js"></script>
+<script>
+	DD_belatedPNG.fix('img');
+</script>
+<![endif]-->
+
+
+<script type="text/javascript" src="/lancome-web/resources/js/login/login.js"></script>
+<script type="text/javascript" src="/lancome-web/resources/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/lancome-web/resources/js/slides.min.jquery.js"></script>
+<!-- Swiper -->
+<link rel="stylesheet" href="../resources/css/swiper.min.css">
+<script type="text/javascript" src="/lancome-web/resources/js/swiper.min.js"></script>
+<style type="text/css">
+.container.bottom1 {
+    font-size: 12px;
+    color: #999;
+}
+</style>
+</head>
+
+
+	
+	
+	
+<body class="index">
+	<div class="page">	
+	
+<!-- zhiyu -->
+<div class="" style="background-color:#fff;">
+  
+
+     
+
+
+
+
+<style type="text/css">
+    .btn-rose {
+        border-color: #d54577;
+        background-color: #da5a86;
+        color: #fff;
+    }
+
+    .mask {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1002;
+        background-color: #000000;
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        -moz-opacity: 0.6;
+    }
+
+    @media screen and (min-width: 768px) {
+        .modal-dialog {
+            top: 30%;
+            left: 35%;
+            margin: 30px auto;
+        }
+
+        .modal.fade .modal-dialog {
+            -webkit-transition: -webkit-transform .3s ease-out;
+            -moz-transition: -moz-transform .3s ease-out;
+            -o-transition: -o-transform .3s ease-out;
+            transition: transform .3s ease-out;
+            -webkit-transform: translate(0, -25%);
+            transform: translate(0, -25%);
+            -ms-transform: translate(0, -25%);
+        }
+
+        .modal.in .modal-dialog {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+        }
+
+        .modal-dialog {
+            position: absolute;
+            z-index: 9999;
+            width: auto;
+        }
+
+        .modal-content {
+            position: relative;
+            outline: 0;
+            border: 1px solid #999;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            background-color: #fff;
+            background-clip: padding-box;
+            -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-header {
+            padding: 15px;
+            min-height: 16.42857143px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .modal-header .close {
+            margin-top: -2px;
+        }
+
+        .close {
+            float: right;
+            color: #000;
+            text-shadow: 0 1px 0 #fff;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 1;
+            opacity: .2;
+            filter: alpha(opacity=20);
+        }
+
+        .close:hover, .close:focus {
+            color: #000;
+            text-decoration: none;
+            opacity: .5;
+            cursor: pointer;
+            filter: alpha(opacity=50);
+        }
+        .modal-footer1 {
+            margin-top: 15px;
+            padding: 20px 20px 20px 20px;
+            border-top: 1px solid #e5e5e5;
+            text-align: right;
+            text-align: center;
+        }
+
+        .modal-footer {
+            margin-top: 40px;
+            padding: 20px 20px 20px 20px;
+            border-top: 1px solid #e5e5e5;
+            text-align: right;
+            text-align: center;
+        }
+
+        .modal-footer:before, .modal-footer:after {
+            display: table;
+            content: " ";
+        }
+        .modal-footer1:before, .modal-footer:after {
+            display: table;
+            content: " ";
+        }
+
+        .modal-footer:after {
+            clear: both;
+        }
+        .modal-footer1:after {
+            clear: both;
+        }
+
+        .modal-footer:before, .modal-footer1:after {
+            display: table;
+            content: " ";
+        }
+        
+        .modal-footer1:before, .modal-footer1:after {
+            display: table;
+            content: " ";
+        }
+
+        .modal-footer:after {
+            clear: both;
+        }
+        .modal-footer1:after {
+            clear: both;
+        }
+
+        .modal-footer .btn + .btn {
+            margin-bottom: 0;
+            margin-left: 5px;
+        }
+        .modal-footer1 .btn + .btn {
+            margin-bottom: 0;
+            margin-left: 5px;
+        }
+
+        .modal-footer .btn-group .btn + .btn {
+            margin-left: -1px;
+        }
+        
+        .modal-footer1 .btn-group .btn + .btn {
+            margin-left: -1px;
+        }
+
+        .modal-footer .btn-block + .btn-block {
+            margin-left: 0;
+        }
+        
+        .modal-footer1 .btn-block + .btn-block {
+            margin-left: 0;
+        }
+
+        button.close {
+            padding: 0;
+            border: 0;
+            background: transparent;
+            cursor: pointer;
+            -webkit-appearance: none;
+        }
+
+        .modal-header .close {
+            margin-top: -2px;
+        }
+
+        .modal-title {
+            margin: 0;
+            line-height: 1.42857143;
+        }
+
+        .modal-body {
+            position: relative;
+            padding: 12px 20px 10px 20px;
+        }
+
+        #btm1 {
+            display: inline-block;
+            margin-bottom: 0;
+            padding: 6px 12px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            background-image: none;
+            vertical-align: middle;
+            text-align: center;
+            white-space: nowrap;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.42857143;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        .breath {
+            overflow: hidden;
+            /* 溢出隐藏 */
+            margin: 5% auto;
+            /* width: 50px; */
+            /* height: 4px; */
+            /* background: #99dd33; */
+            opacity: 0.5;
+            /* 不透明度 */
+
+            /* IE10、Firefox and Opera，IE9以及更早的版本不支持 */
+            animation-name: breath;
+            /* 动画名称 */
+            animation-duration: 3s;
+            /* 动画时长3秒 */
+            animation-timing-function: ease-in-out;
+            /* 动画速度曲线：以低速开始和结束 */
+            animation-iteration-count: infinite;
+            /* 播放次数：无限 */
+            /* Safari and Chrome */
+            -webkit-animation-name: breath;
+            /* 动画名称 */
+            -webkit-animation-duration: 3s;
+            /* 动画时长3秒 */
+            -webkit-animation-timing-function: ease-in-out;
+            /* 动画速度曲线：以低速开始和结束 */
+            -webkit-animation-iteration-count: infinite;
+            /* 播放次数：无限 */
+        }
+
+        @keyframes breath {
+            from {
+                opacity: 0.5;
+            }
+            /* 动画开始时的不透明度 */
+            50% {
+                opacity: 1;
+            }
+            /* 动画50% 时的不透明度 */
+            to {
+                opacity: 0.5;
+            }
+            /* 动画结束时的不透明度 */
+        }
+
+        @-webkit-keyframes breath {
+            from {
+                opacity: 0.5;
+            }
+            /* 动画开始时的不透明度 */
+            50% {
+                opacity: 1;
+            }
+            /* 动画50% 时的不透明度 */
+            to {
+                opacity: 0.5;
+            }
+            /* 动画结束时的不透明度 */
+        }
+    }
+</style>
+<script>
+    $(function () {
+        $("div.pull-left a").click(function () {
+            $(this).addClass("cur1").siblings().removeClass("cur1");
+        }).hover(function () {
+            $(this).addClass("cur");
+        }, function () {
+            $(this).removeClass("cur");
+        });
+
+        $(".WeChat").hover(function () {
+            $("#wechat_QR_div").show();
+        }, function () {
+            $("#wechat_QR_div").hide();
+        });
+
+
+        //icon_story();
+    });
+
+    /* function imghide(){
+     $('#channel_head').hide();
+     }
+     function imgshow(){
+     $('#channel_head').show();
+     } */
+</script>
+
+<div style="display: none;">lancome-web-login</div>
+
+<div id="selectDialog" style="position: absolute;background: rgba(0, 0, 0, 0.5);margin: auto;width: 100%;height: 107%;z-index: 10000;text-align: center;align-content: center;display: none;">
+    <div style="margin: 15% 22% 15% 22%;padding: 0em;padding-bottom: 1em;background-color: white;box-shadow: 40px 40px 25px rgba(0, 0, 0, 0.65);border-radius: 15px;min-width: 550px;">
+        <div style="background-color:#cd0067;color: white;font-size: 20px;margin: 0px 0px 12px 0px;text-shadow: 0px 0px;min-width: 550px;min-height:50px;line-height:50px;top: 50%;margin-top:-50px;border-radius:15px 15px 0px 0px;; " align="left">
+            &nbsp;&nbsp;&nbsp;&nbsp;温馨提示
+        </div>
+        <div style="margin: 0em;padding: 10px 40px 40px 40px;padding-bottom: 1em;background-color: white;border-radius: 15px;min-width: 550px;">
+            <div style="color: black;font-size: 17px;margin: 0px 0px 12px 0px;text-shadow: 0px 0px;" align="left">
+                目前您的手机对应多张兰蔻会员卡，请选择其中一个卡号进行本次登录。如您希望合并卡号，请稍后致电400-820-8017在线合并。
+            </div>
+            <div style="width: 100%;">
+                <table cellspacing="0" align="center" id="selectTable" style="margin: auto;width: 100%;color: black;"></table>
+            </div>
+            <div style="border-radius:5px;background-color:#cd0067; margin: 3% 45% 0% 45%;font-size: 16px;color: aliceblue;min-hight: 50px; ">
+                <span onclick="closeSelectDialog()" style="margin-top: 14px;font-size: 16px;color: white;text-shadow: 0px 0px;">关闭</span>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    html {
+        overflow-y: scroll;
+    }
+
+    form {
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+        font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+        color: #000;
+        background-color: #fff;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .justify {
+        text-align: justify;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .nostart {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .clear:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+    }
+
+    .clear {
+        display: inline-block;
+    }
+
+    html[xmlns] .clear {
+        display: block;
+    }
+
+    * html .clear {
+        height: 1%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        outline: none;
+        text-decoration: none;
+        color: #9c9c9c
+    }
+
+    .color_grey {
+        color: #969696
+    }
+
+    .color_red {
+        color: #df2664
+    }
+
+    .fl_left {
+        float: left;
+    }
+
+    .fl_right {
+        float: right;
+    }
+
+    .imgholder, .imgl, .imgr {
+        padding: 4px;
+        border: 1px solid #DEDACB;
+        text-align: center;
+    }
+
+    .imgl {
+        float: left;
+        margin: 0 15px 15px 0;
+        clear: left;
+    }
+
+    .imgr {
+        float: right;
+        margin: 0 0 15px 15px;
+        clear: right;
+    }
+
+    .imgl img, .imgr img {
+        float: inherit;
+    }
+
+    #topbar, #header, #container, #footer {
+        display: block;
+        margin: 0 auto;
+        width: 1200px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 1200px) {
+        body {
+            width: 100%;
+        }
+    }
+
+    *::-webkit-input-placeholder {
+        color: #fff;
+    }
+
+    *:-moz-placeholder {
+        color: #fff;
+    }
+
+    *:-ms-input-placeholder {
+        color: #fff;
+    }
+
+    input[placeholder], [placeholder], *[placeholder] {
+        color: #fff !important;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    #header {
+        height: 110px;
+        line-height: 64px;
+    }
+
+    #headlogo {
+        position: relative;
+        margin: 36px auto;
+        width: 400px;
+        height: auto;
+        margin-left: 160px;
+        display: inline-block;
+    }
+
+    .login {
+        position: relative;
+        font-size: 15px;
+        width: 160px;
+        height: 64px;
+        margin-top: 60px;
+        display: block;
+        float: right;
+        color: #000
+    }
+
+    .login_userinfo {
+        position: relative;
+        font-size: 15px;
+        width: 160px;
+        height: 64px;
+        margin-top: 60px;
+        display: block;
+        float: right;
+        color: #000;
+        background: transparent
+    }
+
+    .login_userhead {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: hidden;
+        background: #BD282B;
+        color: #000000;
+    }
+
+    .login_userdetail1 {
+        max-width: 140px;
+        height: 16px;
+        position: absolute;
+        left: 32px;
+        top: 0px;
+        background: transparent;
+        line-height: 16px;
+        color: #fff;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .login_userdetail1 a {
+        margin-left: 3px;
+        margin-right: 3px;
+        max-width: 82px;
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        color: #000000;
+        float: left
+    }
+
+    .login_userhead img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: auto
+    }
+
+    .login1 {
+        color: #000;
+        min-width: 30px
+    }
+
+    .login1:hover {
+        color: #999;
+    }
+
+    .login2 {
+        color: #000
+    }
+
+    .login2:hover {
+        color: #999
+    }
+
+    .login3 {
+        color: #000
+    }
+
+    .login3:hover {
+        color: #999
+    }
+
+    .sepbar {
+        width: 1200px;
+        height: 6px;
+        position: relative;
+        background: #e22c6b;
+        display: none;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        width: 1200px;
+        height: 10px;
+        position: relative;
+        background: #e22c6b;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .navbtn {
+        width: 105px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-bottom: #e22c6b 4px solid;
+        padding-bottom: 5px;
+        position: relative;
+        color: #fff;
+        font-size: 16px;
+        line-height: 35px;
+        display: block;
+        top: 10px;
+        float: left
+    }
+
+    .navbtn:hover {
+        border-bottom: #ffb7cf 4px solid;
+    }
+
+    .navbtn_now {
+        border-bottom: #ffb7cf 4px solid;
+    }
+
+    .search_form {
+        width: 160px;
+        height: 18px;
+        position: relative;
+        color: #fff;
+        font-size: 16px;
+        line-height: 18px;
+        display: block;
+        top: 18px;
+        right: -60px;
+        float: right;
+        border-bottom: 1px solid #FFF;
+    }
+
+    #search {
+        float: left;
+        margin-left: 0px;
+    }
+
+    #search_txt {
+        width: 140px;
+        float: left;
+        font-size: 12px;
+        color: #fff;
+        background: none;
+        border: hidden
+    }
+
+    #pst {
+        width: 90px;
+        height: 30px;
+        position: relative;
+        display: block;
+        float: right;
+        color: #fff;
+        top: 19px;
+        left: 323px;
+    }
+
+    .pst_ico {
+        display: block;
+        position: relative;
+        float: left;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    #pst span {
+        position: relative;
+        display: block;
+        float: left;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center
+    }
+
+    .pst_txt {
+        color: #fff
+    }
+
+    .pst_txt:hover {
+        color: #000
+    }
+
+    .snav {
+        position: relative;
+        width: 1200px;
+        height: 35px;
+        line-height: 35px;
+        display: block;
+        margin: 0 auto;
+        color: #000
+    }
+
+    .snav span {
+        color: #969696
+    }
+</style>
+<form id="loginForm" action="/lancome-web/memberProfile/init" style="color:#000; background-color:#fff;">
+<input type="hidden" value="" id="isAdd" name="isAdd">
+<input type="hidden" value="73mgyb" id="yzCode" name="yzCode">
+    <div id="container_top">
+        <div id="header">
+            <img id="headlogo" src="/lancome-web/resources/img/new_login/20160615/logo.png">
+            <!--<div class="login" id="user_info"><a class="login1" 
+                                                 target="_blank" rel="nofollow">登录</a>|<a class="login2"
+                                                                                          
+                                                                                          target="_blank"
+                                                                                          rel="nofollow">注册</a></div>->
+                                                                                    
+                 <!--   注销掉弃用的链接
+                        href="http://www.rosebeauty.com.cn/member/login"      
+                        href="http://www.rosebeauty.com.cn/member/login?r=1"     --> 
+                        
+            <!--登录注册-->
+
+            
+        </div>
+
+        <div class="sepbar"></div>
+        <div class="navbar">
+           <!-- <a  class="navbtn  center" id="indexPage"
+               onclick="indexTrackingFunction()" target="_blank">首页</a>
+            <a  class="navbtn  center" id="productPage"
+               target="_blank">产品中心</a>
+            <a  class="navbtn  center" id="reviewPage" target="_blank"
+               onclick="reviewTrackingFunction()">热门评测</a>
+            <a  class="navbtn  center" id="trialPage" target="_blank"
+               onclick="trialTrackingFunction()">抢先试用</a>
+            <a href="http://club.rosebeauty.com.cn/lancome-web/login/init" class="navbtn  center" target="_blank"
+               onclick="giftTrackingFunction()">积分兑礼</a>
+            <div class="search_form clear">
+                <input id="search_txt" type="text" placeholder="请输入产品名称或关键字">
+                <a  target="_blank"><img id="search"
+                                                                            src="/lancome-web/resources/img/new_login/20160615/search_ico.png"
+                                                                            alt="检索"></a>-
+            </div>->
+            <div id="pst"><span>|</span><img class="pst_ico"
+                                             src="/lancome-web/resources/img/new_login/20160615/pst_ico.png"><span><a
+                     class="pst_txt" id="publish" rel="nofollow"
+                    target="_blank" onclick="postTrackingFunction()">发帖</a></span></div>
+                    
+                    
+                     <!-- 注销掉弃用的链接
+                        href="http://www.rosebeauty.com.cn"      
+                        href="http://www.rosebeauty.com.cn/product/index"
+                        href="http://www.rosebeauty.com.cn/review/index"
+                        href="http://www.rosebeauty.com.cn/trial/index" 
+                        href="http://www.rosebeauty.com.cn"
+                        href="http://www.rosebeauty.com.cn/member/login"    --> 
+        </div>
+    </div>
+    <div class="snav"></div>
+
+    <div class="conment_new">
+
+        <!-- Swiper -->
+        <div class="swiper-container swiper-container-h swiper-container-horizontal" style=" width: 550px; height: 307px; float: left;">
+            <div class="swiper-wrapper" style="transform: translate3d(-600px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 550px; margin-right: 50px;">
+                    <h4 class="conment_fens">当期热门兑礼礼品</h4>
+                    <div id="giftLeft" class="pic_lub_l" name="ngiftLeft">
+                        <a href="" title="" class="pic_a"><img class="giftLeftImg" src=""></a>
+                    </div>
+                    <div id="giftRight" class="pic_lub_r" name="ngiftRight">
+                        <h5 id="giftLeftName" class="pic_text" name="ngiftLeftName">
+                        </h5>
+                        <h5 id="giftLeftPoint" class="pic_text" name="ngiftLeftPoint">
+                        </h5>
+                        <a class="link_a_1" name="notChosen" href="/lancome-web/page/faq?headerMenu=8#rights" style="color:#e12063 !important; text-decoration:underline;" target="_blank">如何获得积分?</a>
+                        <a name="notChosen" id="giftMore" href="/lancome-web/gift" class="pic_more">更多好礼立即兑换</a>
+                        <a href="" title="" class="pic_b"><img class="giftRightImg" src=""></a>
+                        <a href="" title="" class="pic_c"><img class="giftRightImg" src=""></a>
+                        <a href="" title="" class="pic_d"><img class="giftRightImg" src=""></a>
+                    </div>
+                </div>
+                
+                    <div class="swiper-slide swiper-slide-active" style="background-image: url(https://club.lancome.com.cn/lancome-web/resources/img/upload/RID_1_webPicture.jpg); width: 550px; margin-right: 50px; background-position: initial initial; background-repeat: no-repeat no-repeat;" onclick="window.open('http://www.lancome.com.cn/landing/shopping18.html?lid=1&amp;lcat=618%E5%B9%B4%E4%B8%AD%E7%9B%9B%E5%85%B8')" data-swiper-slide-index="0"></div>
+                
+                    <div class="swiper-slide swiper-slide-next" style="background-image: url(https://club.lancome.com.cn/lancome-web/resources/img/upload/RID_2_webPicture.jpg); width: 550px; margin-right: 50px; background-position: initial initial; background-repeat: no-repeat no-repeat;" onclick="window.open('http://www.lancome.com.cn/landing/new-labsolu-rouge.html?lid=2&amp;lcat=%E5%A4%8F%E6%97%A5%E6%96%B0%E8%8C%B6%E8%89%B2')" data-swiper-slide-index="1"></div>
+                
+
+
+                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 550px; margin-right: 50px;">
+                    <h4 class="conment_fens">当期热门兑礼礼品</h4>
+                    <div id="giftLeft" class="pic_lub_l" name="ngiftLeft">
+                        <a href="" title="" class="pic_a"><img class="giftLeftImg" src=""></a>
+                    </div>
+                    <div id="giftRight" class="pic_lub_r" name="ngiftRight">
+                        <h5 id="giftLeftName" class="pic_text" name="ngiftLeftName">
+                        </h5>
+                        <h5 id="giftLeftPoint" class="pic_text" name="ngiftLeftPoint">
+                        </h5>
+                        <a class="link_a_1" name="notChosen" href="/lancome-web/page/faq?headerMenu=8#rights" style="color:#e12063 !important; text-decoration:underline;" target="_blank">如何获得积分?</a>
+                        <a name="notChosen" id="giftMore" href="/lancome-web/gift" class="pic_more">更多好礼立即兑换</a>
+                        <a href="" title="" class="pic_b"><img class="giftRightImg" src=""></a>
+                        <a href="" title="" class="pic_c"><img class="giftRightImg" src=""></a>
+                        <a href="" title="" class="pic_d"><img class="giftRightImg" src=""></a>
+                    </div>
+                </div>
+            <div class="swiper-slide swiper-slide-duplicate" style="background-image: url(https://club.lancome.com.cn/lancome-web/resources/img/upload/RID_1_webPicture.jpg); width: 550px; margin-right: 50px; background-position: initial initial; background-repeat: no-repeat no-repeat;" onclick="window.open('http://www.lancome.com.cn/landing/shopping18.html?lid=1&amp;lcat=618%E5%B9%B4%E4%B8%AD%E7%9B%9B%E5%85%B8')" data-swiper-slide-index="0"></div></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination-h swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+        </div>
+
+
+        <div class="link_b">
+            <h3 class="link_b_text">
+                <span>消费积分</span>
+                查询&amp;兑礼专区
+            </h3>
+            <div class="link_b_login">
+                <div class="form-content">
+                    <div class="input-group">
+                        <label style="font-size:14px;">手机号:</label>
+                        <input type="text" value="" tabindex="1" id="loginId" name="loginId" autocomplete="off">
+                    </div>
+                    <div class="input-group">
+                        <label style="font-size:14px;">密　码:</label>
+                        <input type="password" value="" id="password" name="password" tabindex="2" autocomplete="off">
+                    </div>
+                    <div class="clearfix password" style="color:#000; background-color:#fff;">
+                        <label class="pull-left"><input type="checkbox" id="keepMe" style="cursor: pointer;">&nbsp;记住密码
+                        </label>
+                        <a class="pull-left" id="dd" href="#" onclick="getPwdSmsFitstOne()" style="margin-left:6px;-webkit-margin-left:5px; color:#e12063 !important;">首次登录获取密码</a>
+                    </div>
+                    <div class="clearfix">
+                        <a class="btn" href="#" onclick="login()" style="margin-right:14px;">登 &nbsp;录</a>
+                        <a class="btn" href="#" onclick="getPwdSmsTwo()">找回密码</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="link_c" target="_blank"></a>
+        <a href="/lancome-web/page/memberRights/?headerMenu=4" class="link_d" target="_blank"></a>
+        
+        
+                       <!-- 注销掉弃用的链接
+                        href="http://www.rosebeauty.com.cn/thread/detail?id=5710bc9ace348fb63ef398d8"   --> 
+
+    </div>
+
+    <div class="modal-dialog" style="display:none;width: 30%;max-width: 450px;min-width: 450px;" id="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="document.getElementById('modal-dialog').style.display='none';$('#send').attr('disabled',false);document.getElementById('mask').style.display='none';$('#btn1').removeClass('btn-default');$('#btn1').removeClass('btn btn-rose');$('#btn1').addClass('btn-default');$('#btn1').attr('disabled',true);$('#isYes').attr('checked',false);">
+                    <span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="title3" style="text-align:center; "></h4>
+            </div>
+            <div class="modal-body">
+                <!-- 弹窗内容开始 -->
+                <style>
+                    .sunmt {
+                        height: 15px;
+                        clear: both
+                    }
+
+                    .sunpt {
+                        padding-top: 7px
+                    }
+
+                    .shiduan {
+                        background: #fafafa;
+                        margin: 0 0 1em 3.5%;
+                        border: solid 1px #DDD;
+                        border-radius: 0.35em;
+                        cursor: pointer;
+                        position: relative
+                    }
+
+                    .shiduan h5 {
+                        margin-bottom: 5px;
+                        margin-top: 7px
+                    }
+
+                    .shiduan p {
+                        color: #999;
+                        margin-bottom: 5px
+                    }
+
+                    .shiduan span {
+                        position: absolute;
+                        right: 12px;
+                        top: 27px;
+                        color: #3e9317;
+                        font-size: 1.2em
+                    }
+
+                    .shiduan.clicked {
+                        background: #ffe1e1;
+                        border: solid 1px #ebc8c7
+                    }
+
+                    .shiduan.current {
+                        background: #fafafa;
+                        border: solid 1px #3e9317
+                    }
+
+                    @media all and (max-width: 767px) {
+                        .shiduan {
+                            margin-left: 6%
+                        }
+
+                        .sunp .col-sm-9 {
+                            position: absolute;
+                            left: 55px;
+                            top: 0
+                        }
+                    }
+                </style>
+                <div class="container-fluid bg-white">
+                    <div class="row">
+
+                        <div class="col-sm-12 form-group row" style="padding-right: 0px; width: 100%">
+                            <table style="width:100% !important ;min-width: 300px;">
+                                <tbody>
+                                 <tr>
+                               	<!--	<td colspan="3">
+                                	<div class="col-sm-4">
+                                    		<p style="font-size: 10px;">应国家相关法律要求，自6月1日起使用信息发布、即时通讯等互联网服务需进行身份信息验证。为保障您对相关服务功能的正常使用，建议您尽快完成手机号验证，感谢您的理解和支持。</p>
+                                    	</div>
+                                	</td>
+                               	</tr> 
+                                <tr style="display: block;padding-top:10px;">-->
+                                    <td colspan="3">
+                                        <div class="col-sm-4">
+                                            <input class="tel" id="tel" type="text" style="width:100% !important ;height: 45px; border: 1px solid #ccc;padding-left:5px;min-width: 390px;" maxlength="11" ;="">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="display: block;padding-top:10px;">
+                                    <td style="width:40%;min-width: 200px;"><input class="identify" id="code1" type="text" style="width:100% !important ;height: 43px; border: 1px solid #ccc;padding-left:5px;" maxlength="6"></td>
+                                    <td style="width:20% !important ;"></td>
+                                    <td style="width:40% !important ;min-width:120px; border: 1px solid #ccc;vertical-align:middle;">
+                                        <div id="vCode1" style="height: 33px; width: 100%; position: relative; overflow: hidden; cursor: pointer; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;"><span style="font-size: 24px; color: rgb(238, 44, 44); position: absolute; left: 2px; transform: rotate(7deg); font-family: 'Hiragino Sans GB'; font-weight: 400;">7</span><span style="font-size: 24px; color: rgb(238, 44, 44); position: absolute; left: 24px; transform: rotate(-10deg); font-family: 'Times New Roman'; font-weight: 400;">3</span><span style="font-size: 24px; color: rgb(238, 44, 44); position: absolute; left: 44px; transform: rotate(-8deg); font-family: Georgia; font-weight: 400;">m</span><span style="font-size: 24px; color: rgb(238, 44, 44); position: absolute; left: 65px; transform: rotate(4deg); font-family: arial; font-weight: 400;">g</span><span style="font-size: 24px; color: rgb(238, 44, 44); position: absolute; left: 86px; transform: rotate(-8deg); font-family: serif; font-weight: 400;">y</span><span style="font-size: 24px; color: rgb(238, 44, 44); position: absolute; left: 108px; transform: rotate(-10deg); font-family: serif; font-weight: 400;">b</span><div style="width: 100%; height: 100%; top: 0px; position: absolute; cursor: pointer; z-index: 9999999;"></div></div>
+                                    </td>
+                                </tr>
+                                <tr style="display: block;padding-top:10px;">
+                                <td style="text-align: center;vertical-align: middle;"><input id="isYes" type="checkbox" style="width: 30px;height: 30px;"></td>
+                               		<td colspan="2">
+                                    		<p id="yinsip" style="font-size: 10px;">
+                                    		我同意依照本
+                                    		<a href="http://policy.lorealchina.com/termsofusewebsite" class="cookie_b" target="_blank">使用条款</a>
+                                    		和
+                                    		<a href="http://policy.lorealchina.com/privacypolicy" class="cookie_b" target="_blank">隐私政策</a>
+                                    		对我个人信息进行收集和使用;
+                                    		<br>
+                                    		我已阅读并确认已被给予充分机会理解该
+                                    		<a href="http://policy.lorealchina.com/termsofusewebsite" class="cookie_b" target="_blank">使用条款</a>
+                                    		和
+                                            <a href="http://policy.lorealchina.com/privacypolicy" class="cookie_b" target="_blank">隐私政策</a>内容。</p>
+                                	</td>
+                               	</tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div style="height: 10px">
+                <label id="errorText" style="text-align:center; font-family: sans-serif;font-size:14px;color:#e12063;display: none">验证码错误请重新输入</label>
+                       <label id="errorText1" style="text-align:center; font-family: sans-serif;font-size:14px;color:#e12063;display: none">请同意隐私条款条款</label>
+            </div>
+            <div class="modal-footer1">
+                <button type="button" class="btn-default" disabled="disabled" id="btn1" style="width: 30%;margin-top: 0px;display: inline-block;float:none;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    height:37px;
+    -o-user-select: none;
+    user-select: none;">确认
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="mask" class="mask"></div>
+    <div id="cookieButClose">
+    <span>浏览该网 站表示您接受并同意我们使用 cookies为您提供个性化的浏览体验。<a id="cookie_a" style="" href="http://policy.lorealchina.com/cookiespolicy" target="_blank">点击 Cookies政策</a> 了解详情。</span>
+    <a href="#" class="button gray" onclick="cookieButClose()">关闭</a>
+    </div>
+    
+</form>
+<style type="text/css"> 
+	#cookie_a:link{text-decoration: underline; color:black;  font-family: 微软雅黑;}
+    #cookie_a:visited{ color:black;}
+    #cookie_a:hover{text-decoration: underline;}
+    #cookie_a:active{text-decoration: blink;}
+    
+    .cookie_b:link{text-decoration: underline; color:black;  font-family: 微软雅黑;}
+    .cookie_b:visited{ color:black;}
+    .cookie_b:hover{text-decoration: underline;}
+    .cookie_b:active{text-decoration: blink;}
+   
+#cookieButClose{  
+    position:fixed;   
+    bottom:0;
+    width:100%;   
+    height: 50px;   
+    background: #e3e5e7;
+    text-align: center;
+    display:inline;
+    z-index:9999;
+      
+} 
+.button {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px/25px Arial, sans-serif;
+} 
+.gray {
+	color: #515151;
+
+	background: #d3d3d3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d3d3d3 0%, #8a8a8a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#8a8a8a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* IE10+ */
+	background: linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* W3C */
+}
+.button:hover {
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5);
+}
+.button:active {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(0,0,0, .8);
+	-moz-box-shadow: inset 0px 0px 3px rgba(0,0,0, .8);
+	box-shadow: inset 0px 0px 3px rgba(0,0,0, .8);
+}
+</style> 
+<script type="text/javascript" src="/lancome-web/resources/js/login/efchic.js"></script>
+<script type="text/javascript">
+if(document.domain=="club.rosebeauty.com.cn"){
+	window.location.href='/lancome-web/login/error';
+}
+</script>
+<script>
+    //img.init();
+    //img.play(0);
+    //阻止事件冒泡
+    function estop(e) {
+        var e = arguments.callee.caller.arguments[0] || event;
+        if (e && e.stopPropagation) {
+            //因此它支持W3C的stopPropagation()方法
+            e.stopPropagation();
+        } else {
+            //否则，我们需要使用IE的方式来取消事件冒泡
+            window.event.cancelBubble = true;
+            return false;
+        }
+    }
+    var swiperH = new Swiper('.swiper-container-h', {
+        pagination: '.swiper-pagination-h',
+        paginationClickable: true,
+        autoplay: 3000,
+        spaceBetween: 50,
+        speed: 500,
+        loop: true,
+        observer: true,
+        observeParents: true,
+        autoplayDisableOnInteraction: false
+    });
+    function cookieButClose(){
+    	$("#cookieButClose").hide();
+    }
+</script>
+<!--infoDialog style="display:none;"-->
+    <div class="modal fade" id="myModal_privacy" style="display:none;" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" onclick="document.getElementById('myModal_privacy').style.display='none';$('#send').attr('disabled',false);document.getElementById('mask').style.display='none';" aria-hidden="true">×</button>
+	                <h4 class="modal-title" id="myModalLabel">隐私政策</h4>
+	            </div>
+	            <div class="modal-body">
+	            	<form class="form-horizontal">	            	
+	            	<div class="modal-text" style="padding: 0px 20px 20px 20px;">
+	            		亲爱的顾客，兰蔻在此通知您，兰蔻已根据新的中国法律法规更新了其<a href="http://policy.lorealchina.com/privacypolicy" class="cookie_b" target="_blank">隐私政策</a>
+	            	</div>
+	            	<div class="form-group" style="padding: 0px 20px 0px 0px;">
+					    <div style="float:left;padding: 0px 10px 20px 25px;"><input id="accept" type="checkbox" style="width: 30px;height: 30px;"></div>
+					    <div style="float:left">
+					    	<p style="font-size: 10px;">
+                                    		我同意依照本
+                                    		<a href="http://policy.lorealchina.com/termsofusewebsite" class="cookie_b" target="_blank">使用条款</a>
+                                    		和
+                                    		<a href="http://policy.lorealchina.com/privacypolicy" class="cookie_b" target="_blank">隐私政策</a>
+                                    		对我个人信息进行收集和使用;
+                                    		<br>
+                                    		我已阅读并确认已被给予充分机会理解该
+                                    		<a href="http://policy.lorealchina.com/termsofusewebsite" class="cookie_b" target="_blank">使用条款</a>
+                                    		和
+                                            <a href="http://policy.lorealchina.com/privacypolicy" class="cookie_b" target="_blank">隐私政策</a>内容。</p>
+					    </div>
+					</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+	                <button type="button" class="btn-default" disabled="disabled" id="accept_button" style="width: 30%;
+	                		margin-top: 0px;
+	                		display: inline-block;float:none;
+						    margin-bottom: 0;
+						    font-weight: normal;
+						    text-align: center;
+						    vertical-align: middle;
+						    cursor: pointer;
+						    background-image: none;
+						    border: 1px solid transparent;
+						    white-space: nowrap;
+						    padding: 6px 12px;
+						    font-size: 14px;
+						    line-height: 1.42857143;
+						    border-radius: 4px;
+						    -webkit-user-select: none;
+						    -moz-user-select: none;
+						    -ms-user-select: none;
+						    height:37px;
+						    -o-user-select: none;
+						    user-select: none;">同意
+						                </button>
+	           </div>
+	        </div>
+	    </div>
+	</div>
+	<!--infoDialog END-->
+
+
+	<div class="clearfix bottom container" style="background-color:#fff;">
+		<div class="pull-left"><br><br>
+			兰蔻客服热线：400 820 8017  周一至周日9:00-18:00
+		</div>
+		<div class="pull-right yours"></div>
+	</div>
+	<div class="clearfix bottom1 container" style="background-color:#fff;">
+		<div class="pull-left">
+			© L’Oreal China 欧莱雅（中国）有限公司版权所有
+			<a style="margin-left: 6px;" target="_blank" href="https://218.242.124.22:8082/businessCheck/verifKey.do?showType=extShow&amp;serial=9031000020170518090333000001788070-SAIC_SHOW_310000-20171128192223428408">
+				<img src="http://www.lancome.com.cn/on/demandware.static/-/Sites-lancome-cn-Library/default/dw10959db2/footer/footer_icons/social_icons/police_badge_icon.png">
+				中国工商
+			</a>
+			<a style="margin-left: 6px;" target="_blank" href="http://www.miibeian.gov.cn">沪ICP备08100043号-19</a>
+			<a style="margin-left: 6px;" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602001526">
+				<img src="http://www.lancome.com.cn/on/demandware.static/-/Sites-lancome-cn-Library/default/dwbf3ec718/footer/footer_icons/footer-record.png">
+				沪公网安备31010602001526号
+			</a>
+			<a style="margin-left: 6px;" target="_blank" href="http://policy.lorealchina.com/termsofusewebsite">使用条款</a>
+			<a style="margin-left: 6px;" target="_blank" href="http://policy.lorealchina.com/cookiespolicy">cookie政策</a>
+			<a style="margin-left: 6px;" target="_blank" href="http://policy.lorealchina.com/privacypolicy">隐私政策</a>
+		</div>
+	</div>
+	<div class="clearfix bottom container" style="background-color:#fff;"></div>
+	<div class="clearfix bottom container" style="background-color:#fff;"></div>
+</div>
+</div>
+
+<div class="blockUI" style="display:none"></div><div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6000000238418579; cursor: wait; position: fixed;"></div><div class="blockUI blockMsg blockPage" style="z-index: 1011; position: fixed; padding: 15px; margin: 0px; width: 350px; top: 30%; left: 35%; text-align: center; color: rgb(255, 255, 255); border: none; cursor: wait; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; opacity: 0.5;"><img src="/lancome-web/resources/img/common/loading.gif"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-dialog-message" style="display: block; z-index: 1002; outline: 0px; height: auto; width: 300px; top: 306px; left: 359px;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-dialog-message">提示信息</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">hide</span></a></div><div id="dialog-message" class="ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0" style="display: block; width: auto; min-height: 57.27999973297119px; height: auto;"><span>对不起，您的操作失败。可能由于网络问题或系统内部错误引起的，请您稍后再试。</span></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-focus" role="button" aria-disabled="false"><span class="ui-button-text">确定</span></button></div></div></div><div class="ui-widget-overlay" style="width: 1200px; height: 831px; z-index: 1001;"></div></body></html>

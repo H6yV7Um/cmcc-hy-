@@ -1,0 +1,99 @@
+<!DOCTYPE html><html class="ui-mobile"><head><base href="http://oa.brccchina.com/startpageAction.do?noAjax=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta content="email=no" name="format-detection">
+  <title>BRCC 与睿咨询</title>
+  <!-- jQuery and jQuery Mobile 基本样式 -->
+  <link rel="stylesheet" href="webAppMain/css/jquery.mobile-1.3.1.min.css">
+  <link rel="stylesheet" href="webAppMain/css/jquery.mobile.panel.css">
+
+  <!-- 自定义样式 custom CSS -->
+  <link rel="stylesheet" href="webAppMain/css/global.css">
+
+  <!-- jQuery and jQuery Mobile -->
+  <script src="webAppMain/js/common/jquery-1.9.1.min.js"></script>
+  <script src="webAppMain/js/common/jquery.mobile-1.3.1.min.js"></script>
+  <script src="webAppMain/js/common/jquery.cycle.all.min.js"></script>
+  <script src="js/common/jsencrypt.min.js" language="javascript"></script>
+  
+  <!-- 登陆页脚本 -->
+  <script type="text/javascript" src="js/lang/JSLocale_login_zh_CN.js"></script>
+  <script type="text/javascript" src="js/common/milanlib.js"></script>
+  <script type="text/javascript" src="webAppMain/js/page/page_webapp_login.js"></script>
+  <script type="text/javascript" src="webAppMain/js/common/webapp.MilanWidgetDialog.js"></script>
+
+  </head>
+  <body class="ui-mobile-viewport ui-overlay-c">
+  	<!-- 弹出框及消息弹出框层 -->
+	<div id="dialogDiv" class="popup"></div>
+	<!-- 遮罩层 -->
+	<div id="loadingDiv" class="mask" style="display:none;"></div>
+	
+	<div data-role="page" id="page" data-url="page" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 768px;"> 
+	<!--主内容begin-->
+	<div class="content ui-content" id="Content" data-role="content" role="main">
+		<div class="top_img"><img src="webAppMain/images/login_top.jpg"></div>
+        <div class="login_in">
+        <div class="login_box">
+        	<form name="loginFormName" id="loginFormId" action="https://bj08.oa.35.com/userAction.do" method="post" onsubmit="return false;">
+  				<input id="actionType" name="actionType" type="hidden" value="17">
+				<input id="usbKeyUserInfo" name="usbKeyUserInfo" type="hidden" value="">
+				<input id="usbKeyId" name="usbKeyId" type="hidden" value="">
+				<input id="skin" name="skin" type="hidden" value="default">
+				<input id="accessUrl" name="accessUrl" type="hidden" value="http://oa.brccchina.com">		
+				<input id="language" name="language" type="hidden" value="zh">
+				<input id="country" name="country" type="hidden" value="CN">	
+	            <dl>
+	                <dd class="dd_l">账　号：</dd>
+	                <dd class="dd_r">
+	                	<input style="width:30%;" title="用户名" type="text" data-role="none" class="txt_login" name="userName" value="" id="userName">
+	                	
+	                	<input style=" width:70%;margin-left: -6px;" type="text" data-role="none" class="txt_login" value="@brccchina.com">
+	                	<input name="userDomain" type="hidden" id="userDomain" value="brccchina.com">
+	                	
+	                </dd>
+	            </dl>
+	            <dl>
+	                <dd class="dd_l">密　码：</dd>
+	                <dd class="dd_r"><input class="txt_login" title="密码" data-role="none" type="password" name="userPwd" value="" id="userPwd"></dd>
+	            </dl>
+	            <dl>
+	            
+	            </dl>
+	            <input type="button" value="登录" class="btn_login" data-role="none" id="btnLogin" name="btnLogin" onclick="Login()">
+             	<div id="info" class="td_tipinfo" style="display:none;">
+                 	<div class="tif_border">
+                     	<span id="fail" class="fail">用户名或密码错误，请重新输入!</span>
+                 	</div>
+             	</div>
+            </form>
+        </div>
+       <div class="version_load">
+           <a target="_blank" href="http://www.35.com/mid/download/?f=35PushOA.apk&amp;id=527238" class="tel_android ui-link"><i class="icon_android"></i><span>安卓客户端下载</span></a>
+           <a target="_blank" href="http://www.35promotion.cn/adv/income.php?place_id=7167" class="tel_iphone ui-link"><i class="icon_iphone"></i><span>苹果客户端下载</span></a>
+       </div>
+       <a href="javascript:void(0)" onclick="gotoWebLoginPage();" class="ui-link">进入35OA网页版</a>
+       </div>
+       <div class="cpn_info">
+           <div class="cpn_in">
+               <p>地址：厦门市软件园二期观日路8号(三五互联)</p>
+               <p>邮编：361008 　电话：0592-5391800  传真：0592-5391808</p>
+           </div>
+       </div>
+	</div>
+	<!--主内容end-->
+</div>
+
+
+<script type="text/javascript">
+//屏蔽JqueryMobile loading载入中的样式
+window.onload = function(){
+	jQuery(".ui-loader").hide();
+	var userName = CoookieUtils.get("userName");
+	if(userName != "" && userName != undefined && userName != null){
+		jQuery("#userName").val(userName);
+	}
+};
+</script><div class="ui-loader ui-corner-all ui-body-a ui-loader-default" style="display: none;"><span class="ui-icon ui-icon-loading"></span><h1>loading</h1></div></body></html>

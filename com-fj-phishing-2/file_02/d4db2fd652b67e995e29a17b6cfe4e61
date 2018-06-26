@@ -1,0 +1,1033 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="/card/cn/statics/card/cn/css/css.css" type="text/css" media="all">  
+    <script src="/card/cn/statics/card/cn/js/jquery-1.7.1.js" type="text/javascript" language="javascript"></script>
+    <script src="/card/cn/statics/card/cn/js/main.js" type="text/javascript" language="javascript"></script>
+    <script src="/card/cn/statics/card/cn/js/jquery.superslide.2.1.1.js" type="text/javascript" language="javascript"></script>
+    <script src="/card/cn/statics/card/cn/js/jquery.jqprint.js"></script>
+    <script>
+      //打印
+      $(function(){
+      	$(".pro_brint").click(function(){
+      		var $this = $(this);
+      		var pointObj = $this.attr("pd");
+      		$(pointObj).jqprint();
+      	});
+      });
+    </script>
+    <title>华夏银行信用卡-信用卡首页</title>
+  </head>
+
+<body>
+  <script type="text/javascript" src="/card/cn/statics/card/cn/js/verificationInput.js"></script>
+  <script type="text/javascript">
+    function search(){
+       	if(searchForm.searchValue1.value=="" || searchForm.searchValue1.value=="请输入关键字"){
+       		alert("请输入关键字");
+       		searchForm.searchValue1.focus();
+       		return;
+       	}else{
+       		searchForm.submit();
+        }
+    }
+    //收藏本站
+    function collect(){
+    	var url = document.URL;  
+        var title = document.title;  
+        var ua = navigator.userAgent.toLowerCase();  
+        if (ua.indexOf("360se") > -1) {  
+            alert("您的浏览器不支持,请按 Ctrl+D 手动收藏!");  
+        }else if (ua.indexOf("msie 8") > -1) {  
+            window.external.AddToFavoritesBar(url, title); //IE8  
+        }else if (document.all) {  
+          try{  
+            window.external.addFavorite(url, title);  
+          }catch(e){  
+            alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');  
+          }  
+        } else if (window.sidebar) {
+    		try{
+    			window.sidebar.addPanel(title, url, "");  
+    		}catch(e){
+    			alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');  
+    		}
+        } else {  
+            alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');  
+        }
+    }
+  </script>
+  <script language="javascript">
+    function openwin() { 
+    	window.open ("http://looyu.hxb.com.cn/looyu/chat/p.do?c=1&g=54", "newwindow", "height=460, width=544, toolbar=no, menubar=no, scrollbars=no, top=250, left=400, resizable=no,location=no, status=no")
+    }
+  </script>
+  <div class="header">
+    <div class="ov">
+      <div class="header_right_top">
+    	  <div class="header_right_top_left"></div>
+      	<div class="header_right_top_main">
+      	  <a href="#">繁体版</a> | <a href="/card/cn/index.shtml">简体版</a> | <a href="/card/en/index.shtml" target="_blank">EN</a><a href="javascript:openwin();"><img src="/card/cn/statics/card/cn/images/header_icon_1.gif" alt="在线客服">在线客服</a><a href="http://www.hxb.com.cn/index.shtml"><img src="/card/cn/statics/card/cn/images/header_icon_2.gif" alt="华夏银行主站">华夏银行主站</a><a href="javascript:collect();"><img src="/card/cn/statics/card/cn/images/header_icon_3.gif" alt="添加到收藏夹">添加到收藏夹</a>
+      	</div>
+        <div class="header_right_top_right"></div>
+      </div>
+    </div>
+    <div class="ov">
+    	<div class="logo"><a href="http://www.hxb.com.cn/index.shtml"><img src="/card/cn/statics/card/cn/images/logo.gif" alt="华夏银行信用卡"></a></div>
+      <div class="header_right">
+        <div class="Search">
+                    <form name="searchForm" id="searchForm" method="post" action="/ts/card/cn/search.jsp">
+
+<input name="query" class="Search_text" type="text" id="searchValue1" onkeyup="isWords(this)" value="请输入关键字" onfocus="if(this.value=='请输入关键字'){this.value=''};" onblur="if(this.value==''||this.value=='请输入关键字'){this.value='请输入关键字';}">
+	  <input type="button" value="智能搜索" onclick="search();" class="Search_bottom" style="cursor:pointer">
+			<input type="hidden" name="start" value="0"> 
+		  	<input type="hidden" name="catalog" value="hxyh_xyk_cn">  
+		  	<input type="hidden" name="hitsPerPage" id="pageSize1" value="15">
+		  	<input type="hidden" name="showSummaryies" value="true">
+            <input type="hidden" name="qsort" value="RELEVANCE"> 
+		  	<input type="hidden" name="data1" value="/">  
+		  	<input type="hidden" name="data2" value="/">
+		  	<input type="hidden" name="qdate" value="modifed">
+		
+
+		 </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+   <!-- 首页导航栏 -->
+    <div class="nav">
+  	<ul>
+    
+      <li class="nav_hover"><a href="/card/cn/index.shtml" class="nav_a">信用卡首页</a>
+  			<div class="nav_div nav_div_1">
+  			
+  			</div>
+  		</li>
+    
+      <li class="nav_hover"><a href="/card/cn/zxyh/ykyhhd/index.shtml" class="nav_a">最热优惠</a>
+  			<div class="nav_div nav_div_2">
+  			
+          <a class="" href="/card/cn/zxyh/ykyhhd/index.shtml">用卡优惠活动</a>
+        
+          <a class="" href="/card/cn/zxyh/cstshd/index.shtml">城市特色活动</a>
+        
+          <a class="border_none" href="/card/cn/zxyh/kpzsyh/index.shtml">卡片专属优惠</a>
+        
+  			</div>
+  		</li>
+    
+      <li class="nav_hover"><a href="/card/cn/cpygn/cpjs/index.shtml" class="nav_a">产品与功能</a>
+  			<div class="nav_div nav_div_3">
+  			
+          <a class="" href="/card/cn/cpygn/cpjs/index.shtml">产品介绍</a>
+        
+          <a class="border_none" href="/card/cn/cpygn/gnjs/index.shtml">功能介绍</a>
+        
+  			</div>
+  		</li>
+    
+      <li class="nav_hover"><a href="http://creditshop.hxb.com.cn/mall/ui/giftIndex.action" class="nav_a">信用卡商城</a>
+  			<div class="nav_div nav_div_4">
+  			
+  			</div>
+  		</li>
+    
+      <li class="nav_hover"><a href="http://creditcardtravel.hxb.com.cn/BTSFlightM/ui/index" class="nav_a">商旅通</a>
+  			<div class="nav_div nav_div_5">
+  			
+  			</div>
+  		</li>
+    
+      <li class="nav_hover"><a href="/card/cn/thsh/cyms/index.shtml" class="nav_a">特惠商户</a>
+  			<div class="nav_div nav_div_6">
+  			
+          <a class="" href="/card/cn/thsh/cyms/index.shtml">餐饮美食</a>
+        
+          <a class="" href="/card/cn/thsh/ylxx/index.shtml">娱乐休闲</a>
+        
+          <a class="" href="/card/cn/thsh/shfw/index.shtml">生活服务</a>
+        
+          <a class="border_none" href="/card/cn/thsh/jdly/index.shtml">酒店旅游</a>
+        
+  			</div>
+  		</li>
+    
+      <li class="nav_hover"><a href="/card/cn/fqlc/index.shtml" class="nav_a">分期理财</a>
+  			<div class="nav_div nav_div_7">
+  			
+          <a class="" href="/card/cn/fqlc/lhfq/index.shtml">灵活分期</a>
+        
+          <a class="" href="/card/cn/fqlc/zdfq/index.shtml">账单分期</a>
+        
+          <a class="" href="/card/cn/zxyh/ykyhhd/2017/11/17302.shtml">自动分期</a>
+        
+          <a class="" href="/card/cn/fqlc/ydj/index.shtml">易达金</a>
+        
+          <a class="border_none" href="/card/cn/fqlc/bxzzfw/index.shtml">保险增值服务</a>
+        
+  			</div>
+  		</li>
+    
+      <li class="nav_hover"><a href="/card/cn/khfw/index.shtml" class="nav_a">客户服务</a>
+  			<div class="nav_div nav_div_8">
+  			
+          <a class="" href="/card/cn/khfw/zygg/index.shtml">重要公告</a>
+        
+          <a class="" href="/card/cn/khfw/zcjlyhy/index.shtml">章程及领用合约</a>
+        
+          <a class="" href="/card/cn/khfw/wszfjs/index.shtml">网上支付介绍</a>
+        
+          <a class="" href="/card/cn/khfw/hkt/index.shtml">还款通</a>
+        
+          <a class="" href="http://www.hxb.com.cn/jrhx/khfw/sfbz/cpyfwxsjmml/index.shtml">收费标准</a>
+        
+          <a class="" href="/card/cn/customerservice/chatme/list.shtml">与我沟通</a>
+        
+          <a class="border_none" href="/card/cn/khfw/cjwt/index.shtml">常见问题</a>
+        
+  			</div>
+  		</li>
+    
+  	</ul>
+  	<div class="nav_div_bg"></div>
+  </div>
+    
+
+  <div class="index_main">
+  	<div class="index_left">
+  	        <div class="banner">
+        <ul class="banner_main" style="position: relative; height: 342px;">
+          
+            <li style="position: absolute; left: 0px; top: 0px;"><a href="http://creditcard.hxb.com.cn/card/cn/zxyh/ykyhhd/2017/12/17564.shtml" target="_blank"><img src="/card/cn/images/xyksy/syhftp/2018/01/04/0410132343FF573EF99AEE81C5A92368C3C089D8.jpg" style="width:769px;height:335px;"></a></li>      
+          
+            <li style="position: absolute; left: 0px; top: 0px; display: none;"><a href="http://creditcard.hxb.com.cn/card/cn/cpygn/cpjs/hxlmxl/2017/07/17452.shtml" target="_blank"><img src="/card/cn/images/xyksy/syhftp/2017/12/07/071037102858FA1D7513A018AB125FBA115A754D.jpg" style="width:769px;height:335px;"></a></li>      
+          
+            <li style="position: absolute; left: 0px; top: 0px; display: none;"><a href="http://creditcard.hxb.com.cn/card/cn/zxyh/ykyhhd/2017/11/16000.shtml" target="_blank"><img src="/card/cn/images/xyksy/syhftp/2017/11/09/09154637F85B6C950AA4000C3D4148F88FECFB50.jpg" style="width:769px;height:335px;"></a></li>      
+          
+            <li style="position: absolute; left: 0px; top: 0px; display: none;"><a href="https://creditcloud.hxb.com.cn/" target="_blank"><img src="/card/cn/images/xyksy/syhftp/2017/02/20/2017054482376AD4BFF83B59A3891D240041440B.jpg" style="width:769px;height:335px;"></a></li>      
+          
+            <li style="position: absolute; left: 0px; top: 0px; display: none;"><a href="http://creditcard.hxb.com.cn/card/cn/zxyh/ykyhhd/2017/09/15244.shtml" target="_blank"><img src="/card/cn/images/xyksy/syhftp/2017/10/25/251441118C5DD5C19C1424D3410E9C71A11A4B85.jpg" style="width:769px;height:335px;"></a></li>      
+          
+        </ul>
+        <div class="num">
+          <ul><li class="on">1</li><li>2</li><li>3</li><li>4</li><li>5</li></ul>
+        </div>
+      </div>
+    <!-- 首页横幅图片 -->
+      
+      <div class="Events">
+           <!--引入优惠图片公告信息 @wangguochang-->
+                 	<ul>
+          
+          <!-- 判断内外链接  -->
+        	<li>
+          	<a href="http://creditcard.hxb.com.cn/card/cn//zxyh/ykyhhd/2017/12/17512.shtml" class="Events_img">
+          	  <img src="/card/cn/images/xyksy/syzjyhhd/2018/01/02/021334137358F00CF8C31E8DE2638EF7281A3E8F.jpg">
+          	</a>
+            <div class="Events_text">
+            	<div class="Events_title">
+            	  <a href="http://creditcard.hxb.com.cn/card/cn//zxyh/ykyhhd/2017/12/17512.shtml">全球签证99元起!</a>
+            	</div>
+              <div class="Event_text">
+              	<a href="http://creditcard.hxb.com.cn/card/cn//zxyh/ykyhhd/2017/12/17512.shtml"><p>　　华夏伴您，享世界精彩！</p></a>
+              </div>
+            </div>
+            <div class="Events_icon"></div>
+        	</li>
+          
+          <!-- 判断内外链接  -->
+        	<li>
+          	<a href="https://creditapply.hxb.com.cn/" class="Events_img">
+          	  <img src="/card/cn/images/xyksy/syzjyhhd/2017/02/23/231045484DEAB57BE351697E539BE080552117FD.jpg">
+          	</a>
+            <div class="Events_text">
+            	<div class="Events_title">
+            	  <a href="https://creditapply.hxb.com.cn/">网络办卡 即刻申请</a>
+            	</div>
+              <div class="Event_text">
+              	<a href="https://creditapply.hxb.com.cn/">新客户办卡 快捷通道</a>
+              </div>
+            </div>
+            <div class="Events_icon"></div>
+        	</li>
+          
+          <!-- 判断内外链接  -->
+        	<li class="margin_none">
+          	<a href="/card/cn/khfw/zygg/2017/05/9623.shtml" class="Events_img">
+          	  <img src="/card/cn/images/xyksy/syzjyhhd/2017/07/10/101455514C7CA98400C7A62E21873E506D1163AC.jpg">
+          	</a>
+            <div class="Events_text">
+            	<div class="Events_title">
+            	  <a href="/card/cn/khfw/zygg/2017/05/9623.shtml">华夏信用卡APP</a>
+            	</div>
+              <div class="Event_text">
+              	<a href="/card/cn/khfw/zygg/2017/05/9623.shtml"><p>动动手指,智享生活</p></a>
+              </div>
+            </div>
+            <div class="Events_icon"></div>
+        	</li>
+
+           
+           
+      	</ul>
+
+      </div>
+
+      <div class="Offers">
+      	<div class="Offers_title">
+      		<ul>
+      			<li><a href="javascript:void(0)" class="se">特惠活动</a></li>
+      			<li><a href="javascript:void(0)">热点产品</a></li>
+      			<li><a href="javascript:void(0)">城市特色活动</a></li>
+      			<li class="padding_none"> <a href="javascript:void(0)">重要公告</a></li>
+      		</ul>
+        </div>
+        <div class="Offers_main">
+         
+         <div class="ov">
+            <!--引入特惠活动内容 @wangguochang-->
+            
+
+<div class="Offers_left">
+              <ul>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2018/01/17568.shtml" target="_blank">境外消费返现多，最高达20%</a>
+                  </div>
+                  <div class="Offers_time">2018-01-08</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2018/01/17565.shtml" target="_blank">刷万事达环球卡，速来领取你的i...</a>
+                  </div>
+                  <div class="Offers_time">2018-01-08</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/12/17564.shtml" target="_blank">2018我们要发，刷卡抽奖百“...</a>
+                  </div>
+                  <div class="Offers_time">2018-01-04</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/12/17512.shtml" target="_blank">全球签证，99元起！</a>
+                  </div>
+                  <div class="Offers_time">2017-12-15</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/12/17326.shtml" target="_blank">刷万事达环球卡境外消费多重返现...</a>
+                  </div>
+                  <div class="Offers_time">2017-12-15</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/11/17302.shtml" target="_blank">自动分期，给生活添动力</a>
+                  </div>
+                  <div class="Offers_time">2017-12-01</div>
+                </li>
+          
+              </ul>
+            </div>
+
+
+
+<div class="Offers_right">
+              <ul>
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/11/16000.shtml" target="_blank">分期超低费率，即刻申领！</a>
+                  </div>
+                  <div class="Offers_time"> 2017-11-09</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/09/15954.shtml" target="_blank">刷华夏万事达信用卡，赢取格莱美...</a>
+                  </div>
+                  <div class="Offers_time"> 2017-11-09</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/09/15135.shtml" target="_blank">华夏京东“小白”卡，京东商城满...</a>
+                  </div>
+                  <div class="Offers_time"> 2017-10-26</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/09/15244.shtml" target="_blank">积FUN圆梦 为爱行动</a>
+                  </div>
+                  <div class="Offers_time"> 2017-10-25</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/09/14954.shtml" target="_blank">华夏银联信用卡精英排位赛 最高...</a>
+                  </div>
+                  <div class="Offers_time"> 2017-09-20</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/ykyhhd/2017/08/14834.shtml" target="_blank">华夏银联信用卡，刷卡许愿，带你...</a>
+                  </div>
+                  <div class="Offers_time"> 2017-09-20</div>
+                </li>
+   
+          
+            </ul>
+          	  <li><div class="Offers_time"><a href="/card/cn/zxyh/ykyhhd/index.shtml">更多&gt;&gt;</a></div></li>
+     </div>
+          
+
+         </div>
+
+          <div class="ov" style="display:none">
+             <!--引入热点产品内容 @wangguochang-->
+             
+
+<div class="Offers_left">
+              <ul>
+
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxbjxl/2017/02/17516.shtml" target="_blank">华夏精英VISA智程信用卡</a>
+                  </div>
+                </li>
+        
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxbjxl/2017/06/9111.shtml" target="_blank">华夏精英环球信用卡</a>
+                  </div>
+                </li>
+        
+          
+
+ 
+
+              
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hx_jxl/2017/02/17514.shtml" target="_blank">华夏万事达钛金信用卡（单标识）...</a>
+                  </div>
+                </li>
+        
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hx_jxl/2017/02/3513.shtml" target="_blank">华夏钛金信用卡</a>
+                  </div>
+                </li>
+        
+          
+
+              
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxczxl/2017/02/3525.shtml" target="_blank">华夏易达金卡</a>
+                  </div>
+                </li>
+        
+          
+
+              
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxbzxl/2017/07/17560.shtml" target="_blank">华夏万事达金卡（单标识）</a>
+                  </div>
+                </li>
+        
+          
+              </ul>
+            </div>
+
+             
+
+<div class="Offers_right">
+              <ul>
+
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxlmxl/2017/07/17452.shtml" target="_blank">华夏海航联名信用卡</a>
+                  </div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxlmxl/2017/07/15966.shtml" target="_blank">华夏时尚芭莎联名信用卡</a>
+                  </div>
+                </li>
+          
+
+                       
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxgwxl/2017/02/3588.shtml" target="_blank">华夏公务信用卡（聊城市）</a>
+                  </div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hxgwxl/2017/02/3586.shtml" target="_blank">华夏公务信用卡（西安市）</a>
+                  </div>
+                </li>
+          
+
+             
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hx_fxl/2017/02/3730.shtml" target="_blank">时尚密码系列SS04(已停止发...</a>
+                  </div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/cpygn/cpjs/hx_fxl/2017/02/3728.shtml" target="_blank">时尚密码系列SS03(已停止发...</a>
+                  </div>
+                </li>
+          
+
+          
+          </ul>
+             
+              <li><div class="Offers_time"><a href="/card/cn/cpygn/cpjs/index.shtml">更多&gt;&gt;</a></div></li>
+ </div>
+
+
+          </div>
+                
+          <div class="ov" style="display:none">
+             <!--引入城市特色活动内容 @wangguochang-->
+              
+
+<div class="Offers_left">
+              <ul>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/cstshd/2017/07/14638.shtml" target="_blank">“加油85折，百万油惠返”活动...</a>
+                  </div>
+                  <div class="Offers_time">2017-07-11</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/cstshd/2017/07/14655.shtml" target="_blank">“8元看电影”活动</a>
+                  </div>
+                  <div class="Offers_time">2017-07-11</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/cstshd/2017/07/9755.shtml" target="_blank">杭州分行华夏银联1元洗车福利</a>
+                  </div>
+                  <div class="Offers_time">2017-07-11</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/cstshd/2017/07/9701.shtml" target="_blank">杭州分行格瓦拉观影促销活动</a>
+                  </div>
+                  <div class="Offers_time">2017-07-10</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/zxyh/cstshd/2017/07/9699.shtml" target="_blank">杭州分行世纪联华满减促销活动</a>
+                  </div>
+                  <div class="Offers_time">2017-07-10</div>
+                </li>
+          
+              </ul>
+            </div>
+
+
+
+<div class="Offers_right">
+              <ul>
+          
+            </ul>
+          	  <li><div class="Offers_time"><a href="/card/cn/zxyh/cstshd/index.shtml">更多&gt;&gt;</a></div></li>
+     </div>
+          
+
+         </div>
+                
+          <div class="ov" style="display:none">
+              <!--引入重要公告内容 @wangguochang-->
+              
+
+<div class="Offers_left">
+              <ul>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/12/17563.shtml" target="_blank">关于开展华夏易达金优惠费率活动...</a>
+                  </div>
+                  <div class="Offers_time">2017-12-20</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/12/17467.shtml" target="_blank">“刷华夏万事达信用卡，赢取60...</a>
+                  </div>
+                  <div class="Offers_time">2017-12-15</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/12/17325.shtml" target="_blank">关于我行继续开展信用卡业务收费...</a>
+                  </div>
+                  <div class="Offers_time">2017-12-13</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/12/17465.shtml" target="_blank">关于暂停汽车代驾和道路救援服务...</a>
+                  </div>
+                  <div class="Offers_time">2017-12-12</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/12/17318.shtml" target="_blank">关于华夏银行信用卡预借现金业务...</a>
+                  </div>
+                  <div class="Offers_time">2017-12-11</div>
+                </li>
+          
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/11/17350.shtml" target="_blank">关于发行华夏海航联名信用卡及相...</a>
+                  </div>
+                  <div class="Offers_time">2017-12-01</div>
+                </li>
+          
+              </ul>
+            </div>
+
+
+
+<div class="Offers_right">
+              <ul>
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2016/11/16751.shtml" target="_blank">华夏银行系统升级公告</a>
+                  </div>
+                  <div class="Offers_time"> 2017-11-22</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/11/16750.shtml" target="_blank">关于我行新增年费及优惠费率的公...</a>
+                  </div>
+                  <div class="Offers_time"> 2016-11-30</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/11/16351.shtml" target="_blank">保险增值服务外呼号码变更公告</a>
+                  </div>
+                  <div class="Offers_time"> 2017-11-16</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/10/15964.shtml" target="_blank">积分秒爱奇艺VIP会员月卡活动...</a>
+                  </div>
+                  <div class="Offers_time"> 2017-11-08</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/10/15142.shtml" target="_blank">关于升级我行万事达信用卡3D安...</a>
+                  </div>
+                  <div class="Offers_time"> 2017-10-27</div>
+                </li>
+   
+          
+
+                <li>
+                  <div class="Offers_ul_title">
+                    <a href="/card/cn/khfw/zygg/2017/09/15140.shtml" target="_blank">关于提前结束“全球WIFI，8...</a>
+                  </div>
+                  <div class="Offers_time"> 2017-10-27</div>
+                </li>
+   
+          
+            </ul>
+          	  <li><div class="Offers_time"><a href="/card/cn/khfw/zygg/index.shtml">更多&gt;&gt;</a></div></li>
+     </div>
+          
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="site_map">
+             	<div class="site_map_left"><a>网站地图</a></div>
+          <div class="site_map_right">
+          	<ul>
+                    <!--引入网站地图 @wangguochang-->
+                                  	<li>
+              		
+                  	<div class="site_map_text_title">
+                  	<a href="/card/cn/zxyh/ykyhhd/index.shtml">最热优惠</a></div>
+                
+                      <div class="site_map_a">
+                      	<a href="/card/cn/zxyh/ykyhhd/index.shtml">用卡优惠活动</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/zxyh/cstshd/index.shtml">城市特色活动</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/zxyh/kpzsyh/index.shtml">卡片专属优惠</a>
+                      </div>
+                  
+                  </li>
+  <!--引入最新优惠 -->
+                                  	<li>
+              		
+                  	<div class="site_map_text_title">
+                  	<a href="/card/cn/cpygn/cpjs/index.shtml">产品介绍</a></div>
+                
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/cpjs/hxbjxl/index.shtml">华夏白金系列</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/cpjs/hx_jxl/index.shtml">华夏钛金系列</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/cpjs/hxczxl/index.shtml">华夏财智系列</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/cpjs/hxbzxl/index.shtml">华夏标准系列</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/cpjs/hxlmxl/index.shtml">华夏联名系列</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/cpjs/hxgwxl/index.shtml">华夏公务系列</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/cpjs/hx_fxl/index.shtml">华夏缤纷系列一已停售</a>
+                      </div>
+                  
+                  </li>
+  <!--引入产品介绍 -->
+                                  	<li>
+              		
+                  	<div class="site_map_text_title">
+                  	<a href="/card/cn/cpygn/gnjs/index.shtml">功能介绍</a></div>
+                
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/gnjs/aqwy/index.shtml">安全无忧</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/gnjs/czyf/index.shtml">财智有方</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/gnjs/kljf/index.shtml">快乐积分</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/gnjs/yyzz/index.shtml">优越增值</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/cpygn/gnjs/bjhk/index.shtml">便捷还款</a>
+                      </div>
+                  
+                  </li>
+  <!--引入功能介绍 -->
+                    <!--              	<li>
+              		
+                  	<div class="site_map_text_title">
+                  	<a href="/card/cn/lxjf/zxtj/index.shtml">礼享积分</a></div>
+                
+                  </li>
+  引入礼享积分 -->
+                                  	<li>
+              		
+                  	<div class="site_map_text_title">
+                  	<a href="/card/cn/thsh/cyms/index.shtml">特惠商户</a></div>
+                
+                      <div class="site_map_a">
+                      	<a href="/card/cn/thsh/cyms/index.shtml">餐饮美食</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/thsh/ylxx/index.shtml">娱乐休闲</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/thsh/shfw/index.shtml">生活服务</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/thsh/jdly/index.shtml">酒店旅游</a>
+                      </div>
+                  
+                  </li>
+  <!--引入特惠商户 -->
+                                  	<li>
+              		
+                  	<div class="site_map_text_title">
+                  	<a href="/card/cn/khfw/index.shtml">客户服务</a></div>
+                
+                      <div class="site_map_a">
+                      	<a href="/card/cn/khfw/zygg/index.shtml">重要公告</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/khfw/zcjlyhy/index.shtml">章程及领用合约</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/khfw/wszfjs/index.shtml">网上支付介绍</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/khfw/hkt/index.shtml">还款通</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="http://www.hxb.com.cn/jrhx/khfw/sfbz/cpyfwxsjmml/index.shtml">收费标准</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/customerservice/chatme/list.shtml">与我沟通</a>
+                      </div>
+                  
+                      <div class="site_map_a">
+                      	<a href="/card/cn/khfw/cjwt/index.shtml">常见问题</a>
+                      </div>
+                  
+                  </li>
+  <!--引入客户服务 -->
+
+              </ul>
+          </div>
+      </div>
+    
+      </div>
+    
+       <div class="inde_right">
+      <div class="login">
+      
+        <div class="login_title">信用卡网上银行</div>
+      
+          <div class="login_botton">
+      
+            <a target="_blank" href="https://sbank.hxb.com.cn/easybanking/jsp/indexComm.jsp" class="login_botton_1">签约版登录</a>
+      
+            <a target="_blank" href="https://dbank.hxb.com.cn/easybanking/jsp/indexCert.jsp" class="login_botton_1">证书版登录</a>
+      
+          </div>
+          <div class="login_link">
+      
+            <a target="_blank" href="https://sbank.hxb.com.cn/easybanking/PLoginRegister/PLoginRegisterAction.do?actionType=entry" class="">注册</a> | 
+      
+            <a target="_blank" href="http://www.hxb.com.cn/chinese/demo/pbank_ndemo/login.html" class="">演示</a> | 
+      
+            <a target="_blank" href="http://www.hxb.com.cn/jrhx/khfw/xzzq/index.shtml" class="">下载</a> | 
+      
+            <a target="_blank" href="http://www.hxb.com.cn/chinese/dbankcert/index.html" class="">帮助</a> | 
+      
+          </div>
+      
+      </div>
+      <!--20171130 delete from liyf
+    <div class="login_2">
+        
+      	<div class="login_title">网上交易3D验证</div>
+        <div class="login_bootton2">
+        
+        		<a href="https://acs.cupdata.com/acsenroll/enroment/index/welcome.do?bankId=7" target="_blank" class="login_botton2_1">登录 〉</a>
+        
+        		<a href="https://acs.cupdata.com/acsenroll/enroment/index/welcome.do?bankId=7 " target="_blank" class="login_botton2_2">注册 〉</a>
+        
+        </div>
+      </div>
+   delete 20171130-->
+
+        <div class="login_3">
+        
+        <div class="login_title">
+          <a target="_blank" href="/card/cn/xyksy/kfrx/2017/02/3459.shtml">客户服务热线及投诉渠道：</a>
+        </div>
+        <div class="login_tel">24小时客服热线</div>
+        <div class="login_text">
+          <a href="/card/cn/xyksy/kfrx/2017/02/3459.shtml" target="_blank">400-66-95577   010-66209577</a><br>
+          <a href="/card/cn/xyksy/kfrx/2017/02/3459.shtml" target="_blank">400-86-95577   010-57835677</a>
+        </div>
+        <div class="login_tel">24小时海外客服热线</div>
+        <div class="login_text">
+          <a href="/card/cn/xyksy/kfrx/2017/02/3459.shtml" target="_blank">+8610-66209577   +8610-57835677</a>
+        </div>
+        <div class="login_tel">信用卡中心信箱</div>
+        <div class="login_text">
+          <a href="/card/cn/xyksy/kfrx/2017/02/3459.shtml" target="_blank">creditadmin@hxb.com.cn</a>
+        </div>
+        <div class="login_tel">信用卡中心信箱</div>
+        <div class="login_text">
+          <a href="/card/cn/xyksy/kfrx/2017/02/3459.shtml" target="_blank"> 北京100033 -58信箱华夏银行信用卡中心收</a><br>
+          <a href="/card/cn/xyksy/kfrx/2017/02/3459.shtml" target="_blank">邮政编码：100033</a>
+        </div>
+      </div>
+      <div class="Shortcuts">
+      
+        <div class="right_banner_1">
+          <a href="http://cn.unionpay.com/safeCard/safelianhexuanchuan/file_118064206.html" target="_blank">
+            <img style="width:100%;height:120px;" src="/card/cn/images/xyksy/syycggt/2017/02/21/211116041F78C8624E1156358710BC9E0C255225.gif">
+          </a>
+        </div>
+      
+        <div class="right_banner_2">
+          <a href="/card/cn/creditcard/xfzqy/index.html" target="_blank">
+            <img style="width:100%;height:120px;" src="/card/cn/images/xyksy/syycggt/2017/02/21/21111524E435F1085CFF10BB6633C0CAC5CD9105.jpg">
+          </a>
+        </div>
+      
+        <div class="right_menu">
+        	<ul>
+        	
+            <li><div class="right_menu_icon_1"></div><a target="_blank" href="/card/cn/khfw/wszfjs/index.shtml">网上支付简介</a><span><img src="/card/cn/images/xyksy/kjfw/2017/02/21/2111262200031B76CA10785C11092BABAF71A73B.gif"></span></li>
+          
+            <li><div class="right_menu_icon_2"></div><a target="_blank" href="/card/cn/khfw/hkt/index.shtml">还款通</a><span><img src="/card/cn/images/xyksy/kjfw/2017/02/21/211125544799C50F3AA71F28186679D185B22D56.gif"></span></li>
+          
+            <li><div class="right_menu_icon_3"></div><a target="_blank" href="http://www.hxb.com.cn/jrhx/khfw/sfbz/cpyfwxsjmml/index.shtml">收费标准</a><span><img src="/card/cn/images/xyksy/kjfw/2017/02/21/211125243FFF5757B26C422319E958FDF67E6FE5.gif"></span></li>
+          
+            <li><div class="right_menu_icon_4"></div><a target="_blank" href="/card/cn/customerservice/chatme/list.shtml">交流信箱</a><span><img src="/card/cn/images/xyksy/kjfw/2017/02/21/2111233629DDC4A423849056240D37FDD6A787D3.gif"></span></li>
+          
+          </ul>
+        </div>
+      </div>
+  
+      <div class="wx_index">
+        
+        <div class="weixin_1">
+        	<div class="weixin_1_left">
+            <img src="/card/cn/images/xyksy/ycewm/2017/02/21/211140575A9284E91A95E2C5B1DFC948B42C0ED5.gif" alt="">
+        	</div>
+          <div class="weixin_1_right">
+            <div>华夏银行</div>
+            <div class="font_14">手机银行</div>
+          </div>
+        </div>
+        
+        <div class="weixin_1">
+        	<div class="weixin_1_left">
+            <img src="/card/cn/images/xyksy/ycewm/2017/02/21/21114038CE9C735C06E4BD80399A43242BED3B07.jpg" alt="">
+        	</div>
+          <div class="weixin_1_right">
+            <div>华夏银行</div>
+            <div class="font_14">官方微信</div>
+          </div>
+        </div>
+        
+        <div class="weixin_text">关注官方微信 获取更多精彩资讯</div>
+      </div>
+    </div>
+    <!-- 右侧通用栏 -->
+  </div>
+
+	<div class="foot"> Copyright 版权所有 华夏银行 京ICP备11019362号 </div>
+  <div class="float_box" style="display:none">
+  	<div class="float_tit">重要公告：</div>
+    <div class="float_text">
+      <ul id="list" style="overflow:hidden;height:47px;">
+      </ul>
+    </div>
+    <div class="float_close"><img src="/card/cn/statics/card/cn/images/float_close.gif" width="18" height="17"></div>
+  </div>
+  <script type="text/javascript">    
+    function scroll(element, delay, speed, lineHeight) {  
+        var numpergroup = 1;  
+        var slideBox = (typeof element == 'string')?document.getElementById(element):element;
+        var delay = delay||1000;
+        var speed=speed||20;  
+        var lineHeight = lineHeight||14;  
+        var tid = null, pause = false;  
+        var liLength = slideBox.getElementsByTagName('li').length;
+        var lack = numpergroup-liLength%numpergroup;
+        for(i=0;i<lack-1;i++){  
+        slideBox.appendChild(document.createElement("li"));  
+        }  
+        var start = function() {  
+             tid=setInterval(slide, speed);  
+        };  
+        var slide = function() {  
+             if (pause) return;  
+             slideBox.scrollTop += 2;  
+             if ( slideBox.scrollTop % lineHeight == 0 ) {  
+                    clearInterval(tid);  
+                    for(i=0;i<numpergroup;i++){  
+                        slideBox.appendChild(slideBox.getElementsByTagName('li')[0]);  
+                    }  
+                    slideBox.scrollTop = 0;  
+                    setTimeout(start, delay);  
+             }  
+        };  
+        slideBox.onmouseover=function(){pause=true;};  
+        slideBox.onmouseout=function(){pause=false;};  
+        setTimeout(start, delay);  
+    }  
+    scroll('list', 5000, 1, 14 );//停留时间，相对速度（越小越快）,每次滚动多少，最好和Li的Line-height一致。   
+  </script>
+
+
+</body></html>

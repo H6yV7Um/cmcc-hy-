@@ -1,0 +1,400 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="shortcut icon" type="image/x-icon" href="
+">
+<title>咪咕音乐
+</title>
+</head>
+<body>
+<link href="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306909.css" rel="stylesheet">
+<!--core.css -->
+<link href="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306910.css" rel="stylesheet">
+<!--swiper.3.1.2.min.css -->
+<link href="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306908.css" rel="stylesheet">
+<!--active.css -->
+<link href="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306913.css" rel="stylesheet">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<!--audio.css --><!--jquery--><script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306902.js "></script><!--util--><script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306907.js"></script><script type="text/javascript" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20160702/1312269.js"></script><!--migu.js--><script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20160702/1312270.js"></script>
+<style type="text/css">
+    body{padding-bottom: 1.3rem;}</style>
+<div class="banner">
+    <!-- 轮播图开始 -->
+    <div class="mod"><div class="swiper-container swiper-container-horizontal swiper-container-android">
+	 <div class="swiper-wrapper" style="transition: 0ms; -webkit-transition: 0ms; transform: translate3d(-2048px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate" id="ad106" data-swiper-slide-index="5" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9878&amp;j=l&amp;blockId=17336"><img alt="水木年华" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180102/1334701.jpg"></a></div>
+
+      <div class="swiper-slide swiper-slide-prev" id="ad101" data-swiper-slide-index="0" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9966&amp;j=l&amp;blockId=17336"><img alt="最音乐" src="http://mcontent.10086.cn/web/fs/media/p/149/163/9966/image/20180105/1334882.jpg"></a></div>
+
+      <div class="swiper-slide swiper-slide-active" id="ad102" data-swiper-slide-index="1" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/s/?s=153&amp;p=308&amp;c=9957&amp;j=l&amp;blockId=17336"><img alt="娱乐大事件" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5112/image/20180105/1334891.jpg"></a></div>
+
+      <div class="swiper-slide swiper-slide-next" id="ad103" data-swiper-slide-index="2" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9978&amp;j=l&amp;blockId=17336"><img alt="赵传" src="http://mcontent.10086.cn/web/fs/media/p/149/163/9978/image/20180108/1334907.jpg"></a></div>
+
+      <div class="swiper-slide" id="ad104" data-swiper-slide-index="3" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9952&amp;j=l&amp;blockId=17336"><img alt="谢霆锋" src="http://mcontent.10086.cn/web/fs/media/p/149/163/9952/image/20180104/1334786.jpg"></a></div>
+
+      <div class="swiper-slide" id="ad105" data-swiper-slide-index="4" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9946&amp;j=l&amp;blockId=17336"><img alt="大神猜歌" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5112/image/20180103/1334740.jpg"></a></div>
+
+      <div class="swiper-slide" id="ad106" data-swiper-slide-index="5" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9878&amp;j=l&amp;blockId=17336"><img alt="水木年华" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180102/1334701.jpg"></a></div>
+     
+
+<div class="swiper-slide swiper-slide-duplicate" id="ad101" data-swiper-slide-index="0" style="width: 1024px;">
+<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9966&amp;j=l&amp;blockId=17336"><img alt="最音乐" src="http://mcontent.10086.cn/web/fs/media/p/149/163/9966/image/20180105/1334882.jpg"></a></div></div>
+<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+</div>
+</div>
+    <!-- 轮播图结束 --><!--搜索框--><a class="addpersonbtn" href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5107&amp;j=l"><img alt="" class="person_img" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20171128/1333170.png"></a>
+    <div class="search_div">
+        <div class="search_con">
+            <img alt="" class="login" src="http://m.10086.cn/migu/fs/media/p/149/163/5129/image/20151025/1306824.png"> <input placeholder="搜索铃声、歌曲、歌手" type="text"></div>
+    </div>
+</div>
+<div class="search_tc">
+    <div class="seainput_div">
+        <div class="left_con">
+            <input id="researchBox" type="text" value="刘德华"><a id="researchBtn">搜索</a></div>
+        <div class="quxiao">
+            返回</div>
+        <div class="clear">
+            &nbsp;</div>
+    </div>
+    <div class="mod"><input id="searchKeys" type="hidden" value="咪咕汇@新时代@Lady Killer@回音哥@One Love@谢霆锋@琅琊榜之风起长林@20">
+</div>
+    <div class="mod"><div class="hot_div">
+	<h1>
+		热门搜索</h1>
+	<a href="/?blockId=17750">咪咕汇</a> <a href="/?blockId=17750">新时代</a> <a href="/?blockId=17750">Lady Killer</a> <a href="/?blockId=17750">回音哥</a> <a href="/?blockId=17750">One Love</a> <a href="/?blockId=17750">谢霆锋</a> <a href="/?blockId=17750">琅琊榜之风起长林</a> <a href="/?blockId=17750">20</a></div>
+</div>
+</div>
+<ul class="seainput_list">
+</ul>
+<div class="mod"><div class="mod">
+    <nav class="index_nav  clearfix">
+        <a class="active" href="http://m.10086.cn/migu/home/?blockId=17554">首页</a>
+        <a href="http://m.10086.cn/migu/home/l/149_163_5347_17783/0140014/01/?blockId=17554">首发</a>
+        <a href="http://m.10086.cn/migu/l/?s=149&amp;p=202&amp;c=5873&amp;j=l&amp;blockId=17554">票务</a>
+        <a href="http://m.10086.cn/migu/home/l/149_163_5645_17554/002002A/01/?blockId=17554">演艺</a>
+        <a href="http://m.10086.cn/migu/l/?s=153&amp;p=284&amp;c=8568&amp;j=l&amp;blockId=17554">咪咕汇</a>
+        <a>.....</a> <a href="http://m.10086.cn/migu/home/l/149_163_5102_17554/002002A/01//?blockId=17554" style="display: none;">榜单</a>
+        <a href="http://m.10086.cn/migu/home/l/149_163_5103_17554/002002A/01/?blockId=17554" style="display: none;">MV</a>
+        <a href="http://m.10086.cn/migu/home/l/149_163_5106_17554/002002A/01/?blockId=17554" style="display: none;">会员</a> 
+        <a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5136&amp;j=l&amp;blockId=17554" style="display: none;">专辑</a> 
+        <a href="http://wm.10086.cn/view/wap/musicindex.do?cType=sst_client&amp;nodeId=7638&amp;cid=0140912&amp;ucid=" id="lmCode" style="display: none;">客户端</a>
+    </nav>
+</div>
+<!--jquery.js-->
+<script src="http://m.10086.cn/migu/fs/media/p/152/246/7346/pubAttachment/20170420/1323270.js"></script>
+<!--咪咕首页头部tab切换.js-->
+<script class="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20171115/1332682.js"></script>
+</div>
+<section id="index_section">
+    <div class="mod"><div class="hot_sug part">
+	<h2>
+		<img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/5129/image/20151025/1306810.png">
+		单曲推荐
+		<a class="more" href="/migu/home/l/149_163_5098_17738/002002A/01//?blockId=17738">更多</a>
+	       </h2>
+	       <ul class="hot_list part_list  clearfix">	
+ <li>
+	<a href="/migu/l/?s=149&amp;p=163&amp;c=5108&amp;j=l&amp;cid=1108605941&amp;blockId=17738"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180109/1334946.gif">
+		</a>
+		<p>20</p>
+		<p>Ty+王心凌</p>
+                      </li>	
+   <li>
+	<a href="/migu/l/?s=149&amp;p=163&amp;c=5108&amp;j=l&amp;cid=1108606774&amp;blockId=17738">	<img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180109/1334947.gif">	
+		</a>
+		<p>循环</p>
+		<p>黄钧泽</p>
+		   </li>
+ <li>
+	<a href="/migu/l/?s=149&amp;p=163&amp;c=5108&amp;j=l&amp;cid=1108605549&amp;blockId=17738"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180105/1334902.gif">
+		</a>
+		<p>花错</p>
+		<p>陈明憙</p>
+                      </li>  	
+                       </ul>
+</div>
+</div>
+    <!--音乐视频-->
+    <div class="mod"><div class="mod">
+        <div class="hot_sug part">
+            <h2><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/8738/image/20171019/1331289.png">音乐视频<a class="more" href="http://m.10086.cn/migu/home/l/149_163_7720_0/002002A/01/?blockId=17950">更多</a></h2>
+            <ul class="part_list  clearfix">
+                <li><a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9946&amp;j=l&amp;blockId=17950"><strong>2.9万</strong><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/9945/image/20180103/1334738.jpg"></a><span>求助大神这叫什么歌N0.03</span></li>
+                <li><a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9940&amp;j=l&amp;blockId=17950"><strong>5.2万</strong><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/9940/image/20180102/1334708.jpg"></a><span>为第十一届咪咕汇疯狂打call</span></li>
+                <li><a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9910&amp;j=l&amp;blockId=17950"><strong>4万</strong><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/9910/image/20171228/1334584.jpg"></a><span>那年花开月正圆之插曲篇</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="part music_active">
+        <h2>
+            <img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/5129/image/20151025/1306805.png">音乐活动<a class="more" href="http://m.10086.cn/migu/home/l/149_163_5099_0/002002A/01">更多</a></h2>
+        <div class="mod"><ul class="part_list  clearfix">
+	<li>
+		<a href="http://m.10086.cn/migu/s/?p=287&amp;s=152&amp;c=9691&amp;j=l&amp;blockId=17334"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20171218/1334210.jpg"></a><span>来战！音乐江湖</span></li>
+	<li>
+		<a href="http://m.10086.cn/migu/l/?s=153&amp;p=284&amp;c=8568&amp;j=l&amp;blockId=17334"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/153/284/9672/image/20171205/1333498.jpg"></a><span>咪咕汇盛典回放</span></li>
+	<li>
+		<a href="http://m.10086.cn/migu/l/?s=149&amp;p=277&amp;j=l&amp;blockId=17334"><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/5129/image/20170907/1329312.jpg"></a><span>蒙面唱将猜猜猜</span></li>
+</ul>
+</div>
+    </div>
+    <div id="select_card">
+        <div class="card_con  clearfix">
+            <div class="card active" id="card0">
+                <a>今日推荐</a></div>
+            <div class="card noactive" id="card1">
+                <a>歌单广场</a></div>
+            <div class="card noactive" id="card2">
+                <a>音乐专辑</a></div>
+        </div>
+        <div class="triangle">
+            &nbsp;</div>
+        <div class="sel_content">
+            <div class="scontent0 addscontent block">
+                <div class="mod">		<ul>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9901&amp;j=l"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/9901/image/20171227/1334510.jpg">
+		<div>
+			<h3>
+			[咪咕最in乐]跨年演唱会的新面孔</h3>
+			<p>在今年几大卫视的跨年演唱会舞台上，一些新面孔也将惊喜亮相，一起为他们打call！</p></div>
+		</a></li>
+</ul></div>
+		</li>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+                                <li class="clearfix">
+                                    <a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9880&amp;j=l">
+                                        <em>
+                                            <img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/9880/image/20171228/1334527.jpg">
+                                            <strong>1.4万</strong>
+                                        </em>
+                                        <div>
+                                            <h3>星梦璀璨丨和SNH48“爱在一起吧”！</h3>
+                                            <p>甜蜜冬夜，少女温柔的歌声唤醒最初的祝愿。</p>
+                                        </div>
+                                    </a></li>
+                            </ul></div>
+		</li>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9785&amp;j=l"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5112/image/20171226/1334449.jpg">
+		<div>
+			<h3>
+				[咪咕最in乐]666！网红主播进军乐坛</h3>
+			<p>
+				他们在网络世界聚集了超高人气，是向“老铁们”展示“十八般武艺”的草根。</p>
+		</div>
+		</a></li>
+</ul>
+</div>
+		</li>
+		</ul>
+		<div class="pageNum">
+		</div>
+</div>
+                <div class="more_list">
+                    <a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5135&amp;j=l&amp;blockId=17381">展示全部</a></div>
+            </div>
+            <div class="scontent1 addscontent hide">
+                <div class="mod">		<ul>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9970&amp;j=l"><em><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/9970/image/20180109/1334950.jpg"> <strong>1.4万</strong> </em>
+		<div>
+			<h3>
+				起床大作战！这些歌为你解除被窝封印</h3>
+			<p>
+				在寒风凛冽的冬日早晨，起床是一件非常“要命”的事。这些音乐可以给你满满的能量，温柔地为你解除被窝封印~早安~喵！</p>
+		</div>
+		</a></li>
+</ul>
+</div>
+		</li>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9960&amp;j=l"><em><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/9961/image/20180104/1334854.jpg"> <strong>1.2万</strong> </em>
+		<div>
+			<h3>
+				悦耳动心丨阿鲲影视金曲</h3>
+			<p>
+				本歌单包括《舌尖上的中国》、《红高粱》、《鬼吹灯之牧野诡事》、《华胥引》、《芈月传》、《急诊科医生》专辑中的经典曲目。</p>
+		</div>
+		</a></li>
+</ul>
+</div>
+		</li>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=9935&amp;j=l"><em><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20180103/1334744.jpg"> <strong>1.2万</strong> </em>
+		<div>
+			<h3>
+				千面影帝陈坤#生日快乐#！</h3>
+			<p>
+				1月4日是“千面”影帝陈坤的生日，愿42岁的陈坤，继续保持行走于世的力量，洗涤于心的修行！</p>
+		</div>
+		</a></li>
+</ul>
+</div>
+		</li>
+		</ul>
+</div>
+                <div class="more_list">
+                    <a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5164&amp;j=l&amp;blockId=17382">更多</a></div>
+            </div>
+            <div class="scontent2 addscontent hide">
+                <div class="mod">		<ul>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9984&amp;j=l"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180109/1334942.jpg">
+		<div>
+			<h3>
+				“鼓王”王澜原创EP《四舍五入》</h3>
+			<p>整张专辑承载着创作者对音乐与生活的热爱，希望能够有更多的人了解和喜欢中国摇滚乐。</p>
+		</div>
+		</a></li>
+</ul></div>
+		</li>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9983&amp;j=l"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180109/1334920.jpg">
+		<div>
+			<h3>
+				《琅琊榜之风起长林》电视原声</h3>
+			<p>《琅琊榜之风起长林》原声带配乐由孟可、吕亮创作，延续了《琅琊榜》的精神内核。</p>
+		</div>
+		</a></li>
+</ul>
+</div>
+		</li>
+		<li>
+			<div class="navi"><ul class="music_list  clearfix">
+	<li class="clearfix">
+		<a href="http://m.10086.cn/migu/s/?s=149&amp;p=163&amp;c=9982&amp;j=l"><img alt="" src="http://mcontent.10086.cn/web/fs/media/p/149/163/5129/image/20180109/1334916.jpg">
+		<div>
+			<h3>
+				回音哥全新专辑《长不小的大人》</h3>
+			<p>《长不小的大人》是一张以回音哥的成长为主线串联每一首作品的创作专辑。</p>
+		</div>
+		</a></li>
+</ul></div>
+		</li>
+		</ul>
+</div>
+                <div class="more_list">
+                    <a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5136&amp;j=l&amp;blockId=17383">更多</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="part migu_music" id="miguMusic">
+        <h2>
+            <img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/5129/image/20151025/1306817.png">咪咕彩铃<a class="more" href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5184&amp;j=l&amp;nid=10955383">更多</a></h2>
+        <div class="song_list"><div class="mg_musicList  clearfix"><img class="zj_img" alt="" src="http://mcontent.10086.cn/newlv2/new/album/20171221/1108424973/m_PM08Urxn8yWrV9xk.jpg"> <div class="music_name clearfix"><div class="left"><h4 title="60078702129">别说(网剧《器灵Ⅱ》片尾曲)<img class="addHd" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20161222/1318717.png"></h4><p class="name_gs">孙雪宁</p></div><div class="audio_div"><span class="play_btn play_1" src="http://tyst.migu.cn/public%2Fproduct06%2F2017%2F12%2F20%2F2017%E5%B9%B412%E6%9C%8820%E6%97%A517%E7%82%B913%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E5%94%90%E7%BE%BD%E6%96%87%E5%8C%961%E9%A6%96%2F%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD%2FMP3_40_16_Stero%2F%E5%88%AB%E8%AF%B4%28%E7%BD%91%E5%89%A7%E3%80%8A%E5%99%A8%E7%81%B5%E2%85%A1%E3%80%8B%E7%89%87%E5%B0%BE%E6%9B%B2%29-%E5%AD%99%E9%9B%AA%E5%AE%81.mp3"></span><span class="dj_span"></span></div></div><div class="clear"></div><div class="audiojs"><div class="scrubber" style="width: 75%; height: 0.5rem; margin-top: -0.1rem; background-image: none; border-top-style: none; background-position: initial initial; background-repeat: initial initial;">正在加载中...</div><div class="play-pause" style="width:.7rem"><p class="loading">loading</p><p class="error">error</p></div><div class="gbdel"></div></div></div><div class="mg_musicList  clearfix"><img class="zj_img" alt="" src="http://mcontent.10086.cn/newlv2/new/album/20171220/1108416799/m_B5trBlx1kGcqxDT5.jpg"> <div class="music_name clearfix"><div class="left"><h4 title="69906703289">能随心情来听歌<img class="addHd" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20161222/1318717.png"></h4><p class="name_gs">鹿先森乐队</p></div><div class="audio_div"><span class="play_btn play_1" src="http://tyst.migu.cn/public%2Fproduct06%2F2017%2F12%2F19%2F2017%E5%B9%B412%E6%9C%8819%E6%97%A511%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E4%B8%AD%E5%8A%B2%E8%BF%9C%E4%B8%9C1%E9%A6%96%2F%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD%2FMP3_40_16_Stero%2F%E8%83%BD%E9%9A%8F%E5%BF%83%E6%83%85%E6%9D%A5%E5%90%AC%E6%AD%8C-%E9%B9%BF%E5%85%88%E6%A3%AE.mp3"></span><span class="dj_span"></span></div></div><div class="clear"></div><div class="audiojs"><div class="scrubber" style="width: 75%; height: 0.5rem; margin-top: -0.1rem; background-image: none; border-top-style: none; background-position: initial initial; background-repeat: initial initial;">正在加载中...</div><div class="play-pause" style="width:.7rem"><p class="loading">loading</p><p class="error">error</p></div><div class="gbdel"></div></div></div><div class="mg_musicList  clearfix"><img class="zj_img" alt="" src="http://mcontent.10086.cn/newlv2/new/album/20171219/1108415634/m_trqz3jMs4obhra9S.jpg"> <div class="music_name clearfix"><div class="left"><h4 title="69906400307">声优<img class="addHd" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20161222/1318717.png"></h4><p class="name_gs">林采欣</p></div><div class="audio_div"><span class="play_btn play_1" src="http://tyst.migu.cn/public%2Fproduct06%2F2017%2F12%2F19%2F2017%E5%B9%B412%E6%9C%8819%E6%97%A511%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E5%90%AC%E8%A7%81%E6%97%B6%E4%BB%A31%E9%A6%96%2F%E6%8C%AF%E9%93%83%2F2_mp3-48s%2F%E5%A3%B0%E4%BC%98-%E6%9E%97%E9%87%87%E6%AC%A3.mp3"></span><span class="dj_span"></span></div></div><div class="clear"></div><div class="audiojs"><div class="scrubber" style="width: 75%; height: 0.5rem; margin-top: -0.1rem; background-image: none; border-top-style: none; background-position: initial initial; background-repeat: initial initial;">正在加载中...</div><div class="play-pause" style="width:.7rem"><p class="loading">loading</p><p class="error">error</p></div><div class="gbdel"></div></div></div><div class="mg_musicList  clearfix"><img class="zj_img" alt="" src="http://mcontent.10086.cn/newlv2/new/album/20171228/1108418470/m_HMYHd8ngBGDm6qex.jpg"> <div class="music_name clearfix"><div class="left"><h4 title="63273402028">甜蜜盛典<img class="addHd" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20161222/1318717.png"></h4><p class="name_gs">SNH48</p></div><div class="audio_div"><span class="play_btn play_1" src="http://tyst.migu.cn/public%2Fproduct06%2F2017%2F12%2F20%2F2017%E5%B9%B412%E6%9C%8820%E6%97%A509%E7%82%B951%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%891%E9%A6%96%2F%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD%2FMP3_40_16_Stero%2F%E7%94%9C%E8%9C%9C%E7%9B%9B%E5%85%B8-SNH48.mp3"></span><span class="dj_span"></span></div></div><div class="clear"></div><div class="audiojs"><div class="scrubber" style="width: 75%; height: 0.5rem; margin-top: -0.1rem; background-image: none; border-top-style: none; background-position: initial initial; background-repeat: initial initial;">正在加载中...</div><div class="play-pause" style="width:.7rem"><p class="loading">loading</p><p class="error">error</p></div><div class="gbdel"></div></div></div><div class="mg_musicList  clearfix"><img class="zj_img" alt="" src="http://mcontent.10086.cn/newlv2/new/album/20171228/1108418470/m_HMYHd8ngBGDm6qex.jpg"> <div class="music_name clearfix"><div class="left"><h4 title="63273402027">祝你新年快乐<img class="addHd" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20161222/1318717.png"></h4><p class="name_gs">SHY48</p></div><div class="audio_div"><span class="play_btn play_1" src="http://tyst.migu.cn/public%2Fproduct06%2F2017%2F12%2F18%2F2017%E5%B9%B412%E6%9C%8818%E6%97%A514%E7%82%B904%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%891%E9%A6%96%2F%E6%AD%8C%E6%9B%B2%E4%B8%8B%E8%BD%BD%2FMP3_40_16_Stero%2F%E7%A5%9D%E4%BD%A0%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90-SHY48.mp3"></span><span class="dj_span"></span></div></div><div class="clear"></div><div class="audiojs"><div class="scrubber" style="width: 75%; height: 0.5rem; margin-top: -0.1rem; background-image: none; border-top-style: none; background-position: initial initial; background-repeat: initial initial;">正在加载中...</div><div class="play-pause" style="width:.7rem"><p class="loading">loading</p><p class="error">error</p></div><div class="gbdel"></div></div></div></div>
+    </div>
+    <div class="part music_news">
+        <h2>
+            <img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/5129/image/20151025/1306803.png">音乐资讯<a class="more" href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5162&amp;j=l">更多</a></h2>
+        <div class="mod">		<ul>
+		<li>
+			<a href="?j=d&amp;s=149&amp;p=163&amp;c=5104&amp;r=1334932&amp;blockId=17386">李玉刚吉克隽逸唱《我和你》 韦杰“仿佛秀”</a>
+		</li>
+		<li>
+			<a href="?j=d&amp;s=149&amp;p=163&amp;c=5104&amp;r=1334934&amp;blockId=17386">《歌手》李圣杰打破常规 首秀英文歌超绅士</a>
+		</li>
+		<li>
+			<a href="?j=d&amp;s=149&amp;p=163&amp;c=5104&amp;r=1334936&amp;blockId=17386">烎潮音发布夜公布全新艺人海报 李宇春秀长腿</a>
+		</li>
+		<li>
+			<a href="?j=d&amp;s=149&amp;p=163&amp;c=5104&amp;r=1334938&amp;blockId=17386">林俊杰两登台演绎静动双曲 再展现场live实力</a>
+		</li>
+		<li>
+			<a href="?j=d&amp;s=149&amp;p=163&amp;c=5104&amp;r=1334940&amp;blockId=17386">品冠新曲《言外之意》MV首发 追逐爱情回忆</a>
+		</li>
+		</ul>
+		<div class="pageNum">
+		</div>
+</div>
+    </div>
+</section>
+<!--浙江活动引流-->
+<!-- adapter_block_common resolve error.-->
+<!--首页底部引流-->
+<div class="mod"><div id="footer_yl" style=" width: 100%;padding: 10px 0rem;background-color: #fdfae3;text-align: center;position: fixed;bottom: 0px;left: 0px;z-index: 1000">
+    <img alt="" onclick="closeimg()" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20161011/1315560.png" style=" width: 15px;position: absolute;right: 10px;top: 5px;">
+    <a href="http://wm.10086.cn/view/wap/musicindex.do?cType=sst_client&amp;nodeId=7638&amp;cid=0140912&amp;ucid=&amp;blockId=17345"><img alt="" src="http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20161219/1318558.png" style=" text-align: center;width: 80%;"></a>
+    <script>
+        function closeimg(){
+            var footer_yl=document.getElementById('footer_yl');
+            footer_yl.style.display='none';
+            $('body').css('padding','0px')
+        }
+    </script>
+</div>
+</div>
+<div class="mod"><footer class="footer" style="position:relative;bottom:auto;">
+	<div class="addmess" style="display: block; background-image: url(http://m.10086.cn/migu/fs/media/p/149/163/5112/image/20160503/1310549.jpg);">
+		<script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306902.js "></script><script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20170512/1324229.js"></script></div>
+	<a href="http://wm.10086.cn/view/wap/musicindex.do?cType=sst_client&amp;nodeId=7638&amp;cid=0140912&amp;ucid=&amp;blockId=17345">客户端</a> <a href="http://m.10086.cn/migu/s/?s=153&amp;p=300&amp;j=l&amp;blockId=17345">在线客服</a> <a href="http://m.10086.cn/migu/l/?s=149&amp;p=163&amp;c=5107&amp;j=l&amp;blockId=17345">个人中心</a> <a class="get_top" href="http://m.10086.cn/migu/home/?blockId=17345">返回首页</a></footer>
+</div>
+<div class="mod"><div class="tc_div" id="loginBox">
+    <!--登录弹窗-->
+    <div class="tc_con">
+        <div class="del_gb close">
+            &nbsp;</div>
+        <div class="login_ways clearfix" id="loginTab">
+            <div class="way_sj active" index="1">
+                随机码登录</div>
+            <div class="way_zh" index="0">
+                咪咕账号登录</div>
+        </div>
+        <div id="loginContentBox">
+            <!--随机码登录模块-->
+            <div class="sj_con clearfix">
+                <div class="zh_div">
+                    <span>手机号码</span> <input id="mobileContentRan" maxlength="11" placeholder="请输入移动手机号" type="tel" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"></div>
+                <div class="zh_div" id="imgCodeDiv">
+                    <span>验证码</span><input placeholder="图形验证码" type="text" id="imgCode" maxlength="4" class="sj_input" style="text-indent: 5px;"><img src="/migu/captcha" id="changeCheckCode" style="width: 1.57rem;height: .7rem;"></div>
+                <div class="zh_div">
+                    <span>验证码</span> <input class="sj_input" id="checkCode" maxlength="6" placeholder="请输入验证码" type="tel" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"><input class="get_sjm disabled" disabled="disabled" id="checkCodeBtn" type="button" value="点击获取"></div>
+                <p class="fadeOutUp" id="softTip">
+                    密码错误</p>
+                <button class="login_btn" id="pwLoginBtnRan">登录</button></div>
+            <!--咪咕账号登录模块-->
+            <div class="mgzh_con">
+                <div class="zh_div">
+                    <span>账号</span> <input id="mobileContent" maxlength="20" placeholder="移动手机号/用户名/邮箱" type="text"></div>
+                <div class="zh_div">
+                    <span>密码</span> <input class="sj_input" id="pwContent" maxlength="20" placeholder="请输入密码" type="password"></div>
+                <p class="fadeOutUp" id="softTip">
+                    密码错误</p>
+                <button class="login_btn" id="pwLoginBtn">登录</button>
+                <div class="bottom_div">
+                    <a href="/migu/l/?s=149&amp;p=163&amp;c=5151&amp;j=l&amp;blockId=17559">注册</a> <a href="/migu/l/?s=149&amp;p=163&amp;c=5155&amp;j=l&amp;blockId=17559">忘记密码</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--audio/swipe--><script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306903.js"></script><!--request--><script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306901.js"></script><!--common--><script src="http://m.10086.cn/migu/fs/media/p/149/163/5112/pubAttachment/20151103/1306906.js"></script>
+
+
+<div id="payDetailTag" style="background: rgba(0,0,0,.6);position: fixed;z-index: 1000;left: 0;top: 0;display: none;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;-moz-align-items: center;align-items: center; width: 100%;height: 100%"><div style="width: 100%; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: -moz-flex; -webkit-box-pack: center;  -ms-flex-pack: center; -webkit-justify-content: center; -moz-justify-content: center; justify-content: center; text-align: center; height: 100%"><iframe id="frame" src="http://webpay.migu.cn:8080/migunetsdk/webJs/frame.html?netId=c3cfef93376b4538aaa910f4303a081b&amp;umark=Common&amp;client=WAP" name="__migu_web_pay_frame" class="miguframe" style="position: absolute; top: 0; left: 0; border: 0; width: 100%; height: 100%;"></iframe></div></div></body></html>

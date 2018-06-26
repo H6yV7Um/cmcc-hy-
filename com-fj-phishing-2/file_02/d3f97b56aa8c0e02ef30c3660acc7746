@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>永利娱乐场红包</title>
+<meta name="keywords" content=" ">
+<meta name="description" content=" ">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<style>
+html{width: 100%;height: 100%;}
+body{width: 100%;height: 100%;margin: 0;overflow:hidden;overflow-x: auto;*overflow:visible;*overflow-x:visible;_overflow:hidden;_overflow-x:auto;}
+</style>
+		<script>
+		function browserRedirect() {
+		  var sUserAgent = navigator.userAgent.toLowerCase();
+		  var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+		  var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+		  var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+		  var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+		  var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+		  var bIsAndroid = sUserAgent.match(/android/i) == "android";
+		  var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+		  var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+		  if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+		   
+		  }else{
+			window.location.href='luckweb/index_hb2_wap.html?ac=admin';
+		  }
+		}
+		browserRedirect();
+		</script>
+</head>
+<frameset rows="*,0,0" frameborder="NO" border="0" framespacing="0">
+<frame name="mem_index" id="mem_index" src="luckweb/index_hb1.html?ac=admin">
+<frame src="" noresize="" scrolling="NO" name="act">
+<frame src="" noresize="" scrolling="NO" name="upupMsg">
+</frameset>
+
+<noframes>
+&lt;!--[if lte IE 6]&gt; &lt;div id="ie6-warning"&gt;您正在使用 Internet Explorer 6，在本页面的显示效果可能有差异。建议您升级到 &lt;a href="http://www.microsoft.com/china/windows/internet-explorer/" target="_blank"&gt;Internet Explorer 8&lt;/a&gt; 或以下浏览器： &lt;a href="http://www.mozillaonline.com/"&gt;Firefox&lt;/a&gt; / &lt;a href="http://www.google.com/chrome/?hl=zh-CN"&gt;Chrome&lt;/a&gt; / &lt;a href="http://www.apple.com.cn/safari/"&gt;Safari&lt;/a&gt; / &lt;a href="http://www.operachina.com/"&gt;Opera&lt;/a&gt; &lt;/div&gt; &lt;script language="javascript" type="text/javascript"&gt; function position_fixed(el, eltop, elleft){ // check if this is IE6 if(!window.XMLHttpRequest) window.onscroll = function(){ el.style.top = (document.documentElement.scrollTop + eltop)+"px"; el.style.left = (document.documentElement.scrollLeft + elleft)+"px"; } else el.style.position = "fixed"; } position_fixed(document.getElementById("ie6-warning"),0, 0); &lt;/script&gt; 
+&lt;![endif]--&gt;  </noframes>
+
+</html>

@@ -1,0 +1,2006 @@
+<!DOCTYPE html><html><head>
+<link rel="shortcut icon" type="image/ico" href="http://ossweb-img.qq.com/images/wusp/img/ico/tab.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="1.qq.com，腾讯精品页游，腾讯精品，腾讯页游，1.qq，游戏联盟，网页游戏，开服表">
+<meta name="Description" content="1.qq.com是腾讯游戏旗下全球最火爆的顶尖专业网页游戏运营平台，为广大玩家提供最新的精品网页游戏，致力于为游戏玩家提供精细化运营和优质的玩家服务，腾讯出品，必属精品！">
+<title>腾讯精品页游——全球第一webgame平台</title>
+<!-- 2018-01-09 14:02:02 -->
+<!-- 页面设计:afoncheng|页面制作:yihuiliu|创建日期:2015/01/12 -->
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=43929550" charset="UTF-8"></script>
+<script src="http://ossweb-img.qq.com/images/js/milo/util/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://ossweb-img.qq.com/images/js/milo/milo.js" charset="gbk"></script>
+<script type="text/javascript" src="http://ossweb-img.qq.com/images/wan/script/launchmc.js" charset="gbk"></script><script type="text/javascript" src="http://weiduan.qq.com/crontabjs/gamePluginWhitelist.js"></script>
+<script src="http://ossweb-img.qq.com/images/wusp/js/common.js"></script>
+<script src="http://ossweb-img.qq.com/images/wusp/js/sign.js"></script>
+<script src="http://ossweb-img.qq.com/images/js/comm/ScrollPic.min.js"></script>
+<script src="http://ossweb-img.qq.com/images/wusp/js/index.js"></script>
+
+
+<style>
+body,div,em,i,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,table,th,td,input,button,label,select{padding:0;margin:0;outline:0 none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body{font:12px/1.5 "Arial","Hiragino Sans GB","Microsoft YaHei",'\5FAE\8F6F\96C5\9ED1',tahoma,sans-serif;background:#fff;color:#3b3a3a;}
+a{outline:0 none;cursor:pointer;text-decoration:none;color:#626161;}
+a:hover{text-decoration:none;}
+ul,ol{list-style:none;}
+img{border:0 none;}
+em,i{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4{font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+.clr{zoom:1;}
+.clr:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.t-hd{overflow:hidden;text-indent:-9999em;font-size:0;height:0;}
+.f-lt{float:left;}
+.f-rg{float:right;}
+.p-rel{position:relative;}
+.p-abs{position:absolute;}
+.header{height:90px;}
+.wrapper{width:1190px;margin:0 auto;position:relative;z-index:99;}
+.inner-wrapper{width:1190px; height: 110px; margin:0 auto;position:relative;z-index:99;}
+.cor{border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+.t-c{text-align:center;}
+.logo{width:400px;height:90px;left:8px;top:10px;background:url(http://ossweb-img.qq.com/images/1/web201501/logo.png) no-repeat 0 0;display:block;}
+.top{height:32px;border-bottom:1px solid #e7e7e7;background:url(http://ossweb-img.qq.com/images/1/web201501/topbg.png) repeat-x 0 0;}
+.spr,i{background:url(http://ossweb-img.qq.com/images/1/web201501/spr.png) no-repeat -9999px -9999px;display:block;float:left;_display:inline;vertical-align:-4px;}
+.b-arr{background:url(http://ossweb-img.qq.com/images/1/web201501/ico_arr.jpg) no-repeat right 2px;padding:0 15px 0 0;bottom:2px;right:10px;}
+.nav a,.nav i,.u-bar p,.menu dl,.menu dd a,.u-box div,.tab a,.aside,.main,.col,.g-ls-jp li,.g-img,.g-info,.btn-bar a,.g-ls-e li,.g-all li{float:left;_display:inline;}
+/*icon*/
+.nav i{width:16px;height:16px;margin:1px 2px 0 0;}
+.nav .i-1{background-position:0 0;}
+.nav .i-2{background-position:-32px 0;}
+.nav .i-3{background-position:-16px 0;}
+.nav .i-4{background-position:-48px 0;}
+.menu .i-5{background-position:0 -15px;margin:2px 8px 0 10px;}
+.menu .i-6{background-position:0 -40px;}
+.menu .i-7{background-position:0 -65px;}
+.menu .i-8{background-position:0 -90px;}
+.menu .i-90{background-position:0 -154px;}
+.menu a:hover,.menu .i-curr{color:#e75845;}
+.menu a:hover .i-5,.menu .i-curr .i-5{background-position:-32px -15px;}
+.menu a:hover .i-6,.menu .i-curr .i-6{background-position:-32px -40px;}
+.menu a:hover .i-7,.menu .i-curr .i-7{background-position:-32px -65px;}
+.menu a:hover .i-8,.menu .i-curr .i-8{background-position:-32px -90px;}
+.menu a:hover .i-90,.menu .i-curr .i-90{background-position:-36px -154px;}
+.menu .i-n{background-position:-64px -2px;width:11px;height:11px;top:4px;right:-16px;}
+.i-cir{width:11px;height:11px;background-position:-76px -2px;color:#fff;line-height:11px;text-align:center;font-size:11px;top:-3px;left:75px;}
+h2 i{width:20px;height:18px;margin:8px 5px 0 0;}
+h2 i.i-17 {margin-top: 3px;}
+h2 .i-9{background-position:-64px -34px;}
+h2 .i-10{background-position:-64px -55px;width:23px;height:21px;}
+.g-ls .i-11{background-position:-87px 0;width:25px;height:25px;text-align:center;color:#9a2017;line-height:23px;position:absolute;top:13px;left:7px;}
+.g-ls .hover .i-11{top:24px;background-position:-87px -25px;padding:2px 0 0 5px;text-align:left;}
+.i-12{width:23px;height:25px;background-position:-64px -79px;}
+.i-13{width:23px;height:27px;background-position:-64px -106px;}
+.i-14{width:25px;height:22px;background-position:-87px -48px;}
+.i-15{width:25px;height:25px;background-position:-87px -70px;}
+.i-16{width:25px;height:20px;background-position:-65px -135px;}
+.i-17{width:28px;height:25px;background-position:-65px -160px;}
+.nav{padding:8px 0 0 5px;} 
+.nav a{margin:0 18px 0 0;line-height:16px;}
+.bn{background:#ff8000;color:#fff;text-align:center;line-height:18px;height:18px;padding:0 12px;}
+.u-bar{right:0;top:8px;}
+.u-bar p{margin:0 5px 0 0;}
+.u-bar em{padding:0 12px;}
+.u-bar b{font-weight:normal}
+.u-bar span{color:#f13434;}
+.hd{height:580px;}
+.menu{padding:18px 0 0;}
+.menu dl{width:140px;margin-left:40px;}
+.menu dt{padding:0 0 6px 18px;}
+.menu dt a{font-size:18px;color:#000;}
+
+.menu dd a{width:70px;display:block;margin:1px 0; font-size: 13px; text-align: right;}
+.menu dd a.red {color: #f00;}
+.menu dd a.disabled {color: #ccc; cursor: Default;}
+.menu i{width:32px;height:25px;margin:0 5px 0 0;}
+.gg-box{margin:20px 0 0;overflow:hidden;height:450px;width:100%;position:relative;background:#3E3E3E;}
+.gg-box li{width:1920px;height:450px;/*float:left;_display:inline;overflow:hidden;*/}
+.gg-box li a{display:block;width:100%;height:100%}
+.do{overflow:hidden;zoom:1;top:422px; height: 13px; width: 100%; position:absolute; text-align: center; z-index: 999999;}
+.do span{ padding: 6px; display: inline-block; margin-right:15px; background-color:#fff;cursor:pointer;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;}
+.do span.dotItem{padding: 6px 12px;}
+.unlogin{padding:10px 0 0;}
+.side-gg img{width:206px;height:294px;display:block;margin:8px auto 0;border:1px solid #f1f0f0;overflow:hidden;}
+.btn-login{width:208px;height:124px;background:url(http://ossweb-img.qq.com/images/1/web201501/b_login.png) no-repeat 0 0;display:block;margin:0 auto;}
+.usr{width:220px;height:448px;border-bottom:4px solid #ff5c00;background:#fff;top:111px;left:0;}
+.logined{padding:15px 0 0;}
+.u-box{width:220px;height:55px;padding:0 0 0 18px;}
+.u-img{border:1px solid #e7e7e7;padding:1px;width:55px;height:55px;margin:0 10px 0 0;}
+.u-img img{width:55px;height:55px;}
+.u-info,.b-chk{display:block;}
+.u-info span{display:block;width:125px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.b-chk{color:#ff5c00;padding:18px 5px 0 0}
+.b-chk i{width:20px;height:17px;background-position:-64px -15px;margin:0 5px 0 0;}
+.btns{top:70px;right:15px;}
+h2{height:35px;color:#000;font-size:16px;font-weight:normal;line-height:35px;padding:22px 0 5px 15px;}
+.t-h{width:222px;color:#d7d7d7;}
+.data-ls{width:220px;height:295px;overflow:hidden;position:relative;}
+.data-ls li{width:155px;padding:9px 0 9px 62px;overflow:hidden;zoom:1;position:relative;height:40px;vertical-align:top;}
+.data-ls img{display:block;width:40px;height:40px;float:left;margin-left:-47px;_display:inline;}
+.data-ls .desc{color:#000;}
+.data-ls span{display:block;padding-top:4px;color:#6e7780;}
+.data-ls .btn-enter{display:none;right:10px;top:30px;color:#fff;text-align:center;font-size:12px;width:44px;height:18px;position:absolute;background:#f87620;line-height:18px;}
+.data-ls li:hover,.data-ls .hover{background:#f8f8f8;}
+.data-ls li:hover .btn-enter,.data-ls .hover .btn-enter{display:block}
+.aside{width:220px;}
+.task-box{width:218px;height:140px; border:1px solid #ddd; /*border:1px solid #f2f1f1;*/padding:10px 0;}
+.task_box{width:218px;height:167px; border:1px solid #ddd;}
+
+.tab{margin-bottom:5px;line-height:20px;padding:0 0 0 16px;}
+.tab a{display:block;width:90px;height:20px;color:#000;font-size:16px;text-align:center;}
+.tab .curr{font-weight:bold;}
+.tab span{color:#eaeaea;}
+
+.tbox2 {padding-top: 8px;}
+#taskBox .cbox{padding-left: 20px; padding-bottom: 5px; height: 120px;}
+
+.ctn{padding:10px 20px;height:100px;display:none;}
+.ctn2{padding:10px 20px;height:100px;display:none;}
+.task_box .ctn2{padding: 0; height: 167px;}
+.task_box .ctn2 a.pic {width: 218px; height: 167px; display: block; position: relative;}
+.task_box .ctn2 a.pic img {width: 218px; height: 167px;}
+.task_box .i-21 {display:block; width: 48px; height: 48px; background: url(http://ossweb-img.qq.com/images/1/web201501/i-21.png) no-repeat left top; position: absolute; left: 0;top: 0; z-index: 9;}
+.task_box .btn-bar {position: static; width: 218px; padding: 8px 0 0 8px;}
+.task_box .b-gs {top: 97px; left: 70px;}
+.task_box a.pic span.b-gs {display: none;}
+.task_box a.pic:hover span.b-gs {display: block;}
+
+
+.ctn li{background:url(http://ossweb-img.qq.com/images/1/web201501/ico_dot.jpg) no-repeat 0 11px;padding:0 0 0 12px;line-height:24px;}
+.t-s{width:208px;height:36px;border:1px solid #ddd;/*border:1px solid #f1f0f0;*/padding:0 0 0 10px;background:#f7f7f7;margin:25px 0 5px;}
+#gameList{/*height:807px;*/ height: 522px; margin-bottom: 20px; overflow: hidden;}
+.g-ls{border:1px solid #ddd;/*border:1px solid #f1f0f0;*/}
+.g-ls .br{width:202px;overflow:hidden;margin-left:18px;border-left:1px dashed #ccc;}
+.g-ls img{display:block;float:left;_display:inline;width:16px;height:16px;margin:6px 4px 0 0;}
+.g-ls .desc{color:#000;float:left;}
+.g-ls .desc a{width:65px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.g-ls li{position:relative;color:#787878;zoom:1;vertical-align:top;}
+.g-ls .item{width:182px;margin:0 auto;padding:10px 0 10px 15px;height:30px;line-height:30px;}
+.indshow .item img {display: none; font-size: 0; height: 0; line-height: 0;}
+.g-ls .item span{width:40px;line-height:24px;float:left;_display:inline;}
+.g-ls span{display:block;color:#919191;margin-top:3px;}
+.g-ls a{float:left;_display:inline;margin-right:10px;}
+.g-ls em{position:absolute;right:10px;top:10px;color:#919191;}
+.g-ls .btn,.g-ls .hover .btn{width:40px;height:17px;background:#f87620;border:1px solid #d03e1d;text-align:center;color:#fff;position:absolute;top:35px;right:10px;z-index:100;text-indent:0;line-height:17px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+.layer{display:none;}
+.g-ls i{width:7px;height:9px;position:absolute;right:82px;top:16px;}
+.g-ls .hover{background:#f4f4f4;}
+.g-ls .hover .layer{width:146px;height:52px;padding:10px 0 10px 56px;color:#000;z-index:9;position:relative;display:block;}
+.g-ls .hover .layer p{padding:6px 0 0 8px;color:#000;}
+.g-ls .item i{top:20px;right:80px;}
+.g-ls .hover .item{display:none;}
+.g-ls .hover em{top:15px;}
+.g-ls .hover .layer img{width:40px;height:40px;float:left;margin:6px 0 0 -40px;display:block;_display:inline;}
+.bd{padding-bottom:50px;}
+.main{width:760px;margin:0 15px;}
+.main h2,.col h2,.news_tour h2{padding:0;}
+.main .b-arr{bottom:4px;}
+.b-spk{background:url(http://ossweb-img.qq.com/images/1/web201501/ico_spk.jpg) no-repeat 0 2px;height:18px;line-height:18px;padding:0 0 0 18px;color:#ff5c00;display:block;top:12px;right:60px;}
+.b-spk:hover{text-decoration:underline}
+.g-ls-jp,.g-ls-e,.g-all{border-top:1px solid #ddd;/*border-top:1px solid #efefef;*/ margin:6px 0 0;}
+.g-ls-jp ul,.g-ls-e ul,.g-all ul{padding:18px 0 0;}
+.g-ls-jp li{width:360px;height:145px;position:relative;margin:0 15px 50px 0;}
+.g-ls-jp .g-img{width:206px;}
+.g-ls-jp .g-info{width:135px;margin-left:18px;}
+.g-ls-jp h3 a{font-size:16px;font-weight:normal;color:#000;}
+.g-ls-jp .g-info p{padding:10px 0 0;text-align:justify;}
+.b-gs{width:84px;height:26px;line-height:26px;text-align:center;color:#fff;background:#ff5c00;top:120px;right:10px;}
+.g-ls-jp b{background:#000;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;z-index:8;display:none;}
+.g-ls-jp b,.btn-bar{width:206px;height:30px;position:absolute;left:0;top:115px;z-index:10;}
+.btn-bar{top:120px;left:4px;display:none;}
+.btn-bar a{padding:0 11px;line-height:20px;height:20px;color:#fff;text-align:center;background:#ff8f45;margin:0 2px;}
+.btn-bar .col-yl:hover{background:#ffdb44;color:#000;}
+.main .mg-r-0{margin-right:0;}
+.g-ls-e{padding-bottom:20px;}
+.g-ls-e li{margin-right:12px;position:relative;width:180px;height:170px;}
+.g-ls-e img{display:block;width:180px;height:126px;margin-bottom:8px;position:absolute;top:0;left:0;z-index:20;}
+.g-ls-e .tit-bar{width:160px;height:42px;line-height:42px;background:#090909;color:#ffdb44;position:absolute;top:84px;padding:0 10px;z-index:18;}
+.g-ls-e .tit-bar a{position:absolute;right:10px;top:12px;width:63px;height:19px;line-height:19px;text-align:center;color:#000;background:#ffdb44;}
+.g-ls-e li p{text-align:center;width:178px;height:33px;line-height:33px;border:1px solid #ddd;/*border:1px solid #eee;*/margin-top:136px;}
+.g-type{top:12px;right:65px;padding:0;margin:0;}
+.g-type a{padding:0 5px;display:inline;font-size:12px;text-align:left;width:auto;height:auto;}
+.g-type a.curr{font-weight:bold;color:#000;}
+.g-all{border:1px solid #efefef;padding:0 0 0 30px;/*height:296px;*/ height: 304px; overflow:hidden}
+.g-all ul{display:none;padding-top:12px}
+.g-all li{width:75px;height:120px;margin:12px;font-size:14px;text-align:center;padding:0;line-height:18px;overflow:hidden;}
+.g-all p a{display:block;width:70px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;*padding:3px 0;}
+.g-all span{display:block;color:#b8b8b8;font-size:12px;}
+.col{width:180px;}
+#pkgList{/*height:375px;*/height:208px; padding-top: 5px;}
+#pkgList .b-arr{bottom:7px;}
+#pkgList .layer{display:block;}
+#pkgList .layer p,#pkgList .hover .layer p{padding:3px 0 0 8px;color:#000;}
+#pkgList span{display:block;color:#919191;margin-top:0;}
+#pkgList a{display:block;float:none;color:#000;}
+#pkgList em{position:absolute;right:10px;top:10px;color:#919191;}
+#pkgList .btn{width:40px;height:17px;background:#fbfbfb;border:0 none;text-align:center;color:#e5e5e5;position:absolute;top:48px;right:10px;z-index:100;text-indent:0;line-height:18px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+#pkgList .hover .btn{background:#f87620;color:#fff;}
+#pkgList .hover{background:#fff;}
+#pkgList .layer,#pkgList .hover .layer{width:113px;height:52px;padding:5px 0 5px 65px;color:#000;z-index:9;position:relative;display:block;}
+#pkgList .layer img,#pkgList .hover .layer img{width:50px;height:50px;float:left;margin:6px 0 0 -50px;float:left;display:block;_display:inline;}
+
+#pkgList2{height:208px; padding-top: 5px; margin-bottom: 10px;}
+#pkgList2 .b-arr{bottom:7px;}
+#pkgList2 .layer{display:block;}
+#pkgList2 .layer p,#pkgList2 .hover .layer p{padding:3px 0 0 8px;color:#000;}
+#pkgList2 span{display:block;color:#919191;margin-top:0;}
+#pkgList2 a{display:block;float:none;color:#000;}
+#pkgList2 em{position:absolute;right:10px;top:10px;color:#919191;}
+#pkgList2 .btn{width:60px;height:17px;background:#fbfbfb;border:0 none;text-align:center;color:#e5e5e5;position:absolute;top:48px;right:10px;z-index:100;text-indent:0;line-height:18px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+#pkgList2 .hover .btn{background:#f87620;color:#fff;}
+#pkgList2 .hover{background:#fff;}
+#pkgList2 .layer,#pkgList2 .hover .layer{width:113px;height:52px;padding:5px 0 5px 65px;color:#000;z-index:9;position:relative;display:block;}
+#pkgList2 .layer img,#pkgList2 .hover .layer img{width:50px;height:50px;float:left;margin:6px 0 0 -50px;float:left;display:block;_display:inline;}
+
+.col .tab{margin-bottom:5px;line-height:21px;padding:25px 0 0 6px;}
+.col .tab a{width:75px;}
+.col .tab span{padding:0 10px;}
+.col .b-arr{bottom:7px;}
+#gameBox .ctn{padding:5px 0 0 0;height:493px;margin:10px 0 0;}
+#gameBox li{background:none;padding:0;}
+#gameBox .g-ls .br{width:168px;border:0 none;margin-left:12px;}
+#gameBox .g-ls .item{padding:6px 0 6px 10px; height: 26px;height: 26px;}
+#gameBox .g-ls i{width:14px;height:16px;line-height:16px;text-align:center;left:5px;top:12px;background:#dbdbdb;color:#fff;-webkit-text-size-adjust:none;font-size:10px;}
+#gameBox .g-ls .hover .layer img{width:64px;height:64px;margin:0 0 0 -46px;}
+#gameBox .g-ls .hover .layer{width:112px;}
+#gameBox .g-ls .btn{top:55px;}
+#gameBox .g-ls .hover .layer p{padding-top:8px;line-height:17px;}
+#gameBox .g-ls .hover .layer p a{color:#000;font-size:14px;float:none;overflow:hidden;white-space:nowrap;text-overflow:ellipsis; display:block;}
+#gameBox .g-ls span{margin:0;}
+#gameBox .g-ls em{top:7px;}
+#gameBox .g-ls .hover i{background:#f87620;}
+#gameBox .g-ls .hover .cell img{display:block;float:left;_display:inline;width:16px;height:16px;margin:6px 4px 0 3px;}
+#gameBox .g-ls .hover .cell{width:152px;padding: 6px 0 6px 7px;height:30px;line-height:30px;}
+#gameBox .g-ls .hover .cell .btn{top:10px;right:1px;}
+#footer_ied{width:700px;margin:0 auto; text-align:center; line-height:25px;}
+.reg_text_left span,.inner-btn {background: url(http://ossweb-img.qq.com/images/1/web201501/spr2.jpg) no-repeat;}
+.per_regist {width: 686px; height: 617px; background: url(http://ossweb-img.qq.com/images/1/web201501/per_registbg.png) no-repeat;}
+.pop1_close {width: 36px; height: 37px; right: 14px; top: 14px; background: url(http://ossweb-img.qq.com/images/1/web201501/close1.jpg) no-repeat; text-indent: -999em;}
+.regist_cent {width: 610px; margin: 74px auto 0;}
+.regist_cent p {width: 195px; height: 32px; background: url(http://ossweb-img.qq.com/images/1/web201501/regist_tit.jpg) no-repeat; overflow: hidden; line-height: 32px; text-align: center; margin: 0 auto; color: #cd845a; font-size: 20px;}
+.reg_calendar span {display: block; float: left; width: 86px; height: 47px; background: #cd845a; text-align: center; line-height: 47px; font-size: 16px; color: #fff; border-right: 1px solid #eec295;}
+.reg_calendar span.week {color: #8f3400;}
+.reg_calendar span.wk1 {padding-left: 1px;}
+.reg_calendar ul {width: 609px; border-left: 1px solid #e6c1ac;}
+.reg_calendar ul li {float: left; width: 87px; position: relative; height: 49px; text-align: center; font-size: 20px; line-height: 50px; color: #5b5b5b; background: url(http://ossweb-img.qq.com/images/1/web201501/datybg.jpg) no-repeat;}
+.reg_calendar ul li.no_month {color: #d0d0d0;}
+.reg_calendar ul li em {display: block; width: 88px; height: 50px; position: absolute; top: -1px; left: -1px; z-index: 9px; background: url(http://ossweb-img.qq.com/images/1/web201501/rgico_q.png) no-repeat;}
+.reg_calendar ul li em.rgico {background: url(http://ossweb-img.qq.com/images/1/web201501/rgico_h.png) no-repeat;}
+.reg_text {margin: 17px 0 0;}
+.reg_text_left {width: 310px; float: left;}
+.reg_text_left span {display: block; width: 93px; height: 25px; margin-bottom: 7px; background-position: 0 -98px; font-size: 16px; color: #fff; text-indent: 7px;}
+.reg_text_left li {color: #707070;}
+.reg_text_right {width: 190px; float: right;}
+.reg_text_right p {width: 183px; height: 50px; border: 1px solid #edecec; line-height: 50px; text-align: center; font-size: 14px; color: #5a5a5a; background: none;}
+.reg_text_right p em {color: #ff5c00; font-size: 24px;}
+.reg_text_right p i { color: #ff5c00; font-size: 12px; float: none; display: inline; vertical-align: center;}
+.lnkjf {display: block; text-indent: -9999em; width: 187px; height: 51px; background-position: 0 -128px; margin-top: 17px;}
+.top .wrapper{z-index:100;}
+#b-WX{position:relative;}
+#b-WX img{position:absolute;top:25px;left:-20px;display:none;}
+#b-WX:hover img{display:block;}
+.nav_scrol {width: 190px; height:16px; overflow: hidden; float: right; background: url(http://ossweb-img.qq.com/images/1/web201501/arr2.png) no-repeat left center; *background: url(http://ossweb-img.qq.com/images/1/web201501/arr2.png) no-repeat left 3px; position:absolute;right:35px;top:12px}
+.nav_scrol li {padding-left: 24px;}
+
+.ctn33 {width: 218px; height: 256px; border: 1px solid #e7e7e7;}
+.ctn33 .i-22{width: 50px; height: 50px; background: url(http://ossweb-img.qq.com/images/1/web201501/i-22.png) no-repeat left top; position: absolute; left: 0; top: 0;}
+#gameAllBox {margin-top: 20px;}
+
+</style>
+
+</head>
+<body>
+
+<div class="top">
+	<div class="wrapper">
+    	<div class="nav">
+        	<a href="javascript:createDesktopShortcut(0,'http://1.qq.com');" onclick="pgvSendClick({hottag:'WUP.TOPPAGE.ADDDESK.INDEX'})"><i class="i-1"></i>添加到桌面</a>
+            <a href="javascript:SetHomepage('http://1.qq.com');" onclick="pgvSendClick({hottag:'WUP.TOPPAGE.SETHOME.INDEX'})"><i class="i-2"></i>设为首页</a>
+            <a href="javascript:addFavorite('http://1.qq.com');" onclick="pgvSendClick({hottag:'WUP.TOPPAGE.ADDFA.INDEX'})"><i class="i-3"></i>加入收藏</a>
+            <a href="javascript:;" id="b-WX" onclick="pgvSendClick({hottag:'WUP.TOPPAGE.WEIXIN.INDEX'})"><i class="i-4"></i>专享精品服务<img src="http://ossweb-img.qq.com/images/1/web201501/wx.jpg"></a>
+        </div>
+         <div class="u-bar p-abs">
+        	<!--未登录-->
+        	<div id="unloginCredit" style="display:block">
+                <a href="#" class="bn cor" id="logintop" onclick="pgvSendClick({hottag:'WUP.TOPPAGE.LOGIN.INDEX'})">登录</a>
+            </div>
+            <!--登录后-->
+            <div style="display:none;" id="loginCredit">
+               <p><b class="n" id="iHeadNickname"></b><em id="iHeadVipInfo">(<span></span>)</em>积分(<span id="iHeadPoint"></span>)</p>
+                <a href="#" class="bn cor" id="logouttop" onclick="pgvSendClick({hottag:'WUP.TOPPAGE.LOGOUT.INDEX'})">注销</a>
+            </div>
+        </div>
+    </div>
+     <!-- 用于添加到桌面快捷方式的dom结构 -->
+    <!-- <OBJECT ID="MicroIeHelper" CLASSID="CLSID:3C703AE7-8973-4700-B362-26185B404A6A" style='width:0px;height:0px;overflow:hidden;position:absolute;'></OBJECT>
+	<embed type="application/npqqwebgame" style='width:0px;height:0px;overflow:hidden;position:absolute;' id="plugin"/> -->
+</div>
+<div class="hd">
+	<div class="wrapper clr">
+		<a href="http://1.qq.com" class="logo t-hd p-abs" onclick="pgvSendClick({hottag:'WUP.HEADER.LOGO.INDEX'})">腾讯精品网页服务</a>
+        <div class="menu f-rg clr">
+        	<dl>
+            	<dt><a href="http://1.qq.com/game/gameList.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.GAMEMALL.INDEX'})"><i class="i-5"></i>游戏大厅</a></dt>
+                <dd>
+                	<a href="http://1.qq.com/game/open.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.OPEN.INDEX'})">开服表</a>
+                    <a href="http://1.qq.com/game/gameList.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.GAMELIST.INDEX'})">游戏分类</a>
+                    <a href="http://1.qq.com/game/3dGame.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.3DGAME.INDEX'})">3D游戏</a>
+                    <a href="http://1.qq.com/game/newtour.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.XINYOU.INDEX'})">新游专区</a>
+                </dd>
+            </dl>
+            <!--dl>
+            	<dt><a href="http://1.qq.com/mall/list.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.TEQUAN.INDEX'})"><i class="i-8"></i>特权中心</a></dt>
+                <dd>
+                	<a href="http://1.qq.com/mall/list.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.JFMALL.INDEX'})">积分商城</a>
+                    <a href="http://1.qq.com/help/extremeVip.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.EXTVIP.INDEX'})">至尊VIP</a>
+                    <a href="http://1.game.qq.com/user/privil/" onclick="pgvSendClick({hottag:'WUP.HEADER.PRIVIL.INDEX'})">特权体系</a>
+                    <a href="javascript:;" class="disabled" onclick="pgvSendClick({hottag:'WUP.HEADER.NEWGAMETRY.INDEX'})">新游试玩</a>
+                </dd>
+            </dl-->
+            <dl>
+            	<dt><a href="http://1.game.qq.com/user/account/" onclick="pgvSendClick({hottag:'WUP.HEADER.ACCOUNTCENTER.INDEX'})"><i class="i-6"></i>用户中心</a></dt>
+                <dd>
+                	<a href="http://1.game.qq.com/user/account/" onclick="pgvSendClick({hottag:'WUP.HEADER.ACCOUNT.INDEX'})">我的帐号</a>
+                    <a href="http://1.game.qq.com/user/game/" onclick="pgvSendClick({hottag:'WUP.HEADER.MYGAME.INDEX'})">我的游戏</a>
+                    <a href="http://1.game.qq.com/user/task/" onclick="pgvSendClick({hottag:'WUP.HEADER.MYTASK.INDEX'})">我的任务</a>
+                    <!--a href="http://1.game.qq.com/user/point/" onclick="pgvSendClick({hottag:'WUP.HEADER.MYJF.FRONT'})">我的积分</a-->
+                    <a href="http://1.game.qq.com/user/privil/" onclick="pgvSendClick({hottag:'WUP.HEADER.PRIVIL.INDEX'})">特权体系</a>
+                </dd>
+            </dl>
+            <dl>
+            	<dt><a href="http://1.qq.com/task_center/list.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.ACTCENTER.INDEX'})"><i class="i-7"></i>活动中心</a></dt>
+                <dd>
+                	<a href="http://1.qq.com/task_center/list.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.TASKCENTER.INDEX'})">任务集市</a>
+                    <a href="javascript:showCalendar();" class="p-rel" onclick="pgvSendClick({hottag:'WUP.HEADER.SIGN.INDEX'})">积分签到<i class="i-n p-abs"></i></a>
+                    <!-- <a href="http://1.qq.com/mall/lottery.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.LOTTERY.INDEX'})">积分抽奖</a> -->
+                    <a href="http://1.qq.com/mall/list.shtml" onclick="pgvSendClick({hottag:'WUP.HEADER.JFMALL.INDEX'})">积分商城</a>
+                    <a href="http://1.qq.com/act/a20150803h5/index.html" class="red" onclick="pgvSendClick({hottag:'WUP.HEADER.H5GAME.INDEX'})">H5创意赛</a>
+                </dd>
+            </dl>
+            <dl>
+            	<dt><a href="http://1.qq.com/zixun/index.shtml"><i class="i-90"></i>游戏资讯</a></dt>
+                <dd>
+			<a href="http://1.qq.com/webcms/info/news_version1/42/list_1.shtml">Q游囧报</a>
+                    <a href="http://1.qq.com/webcms/info/news_version1/43/list_1.shtml">Q游评分</a>
+                    <a href="http://1.qq.com/webcms/info/news_version1/44/list_1.shtml">Q游靓照</a>
+                    <a href="http://1.qq.com/zixun/Qgame.shtml">Q游攻略</a>
+                </dd>
+            </dl>
+        </div>
+        
+        <div class="usr p-abs">
+        
+        
+           <!-- 首页未登录 Start-->
+           <div id="unlogin" class="unlogin clr" style="display: block;">
+            	<a href="javascript:;" class="btn-login t-hd" id="dologin" title="QQ号码直接登录" onclick="pgvSendClick({hottag:'WUP.LOGIN.INDEX.MAIN'})">QQ号码直接登录</a>
+                <div class="side-gg">
+                	                	<a href="http://1.qq.com/help/startgameV2.htm?adid=3000012-1&amp;x5pid=10001-1&amp;iAppid=1102501967&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank"><img src="http://ossweb-img.qq.com/images/wusp/img/home/adv_1445307677_366.jpg"></a>
+                	                </div>
+            </div>
+           <!-- 首页未登录 End-->
+           
+           <!-- 首页已登录 Start-->
+           <div id="logined" class="logined clr" style="display:none;">
+	           	<div class="u-box clr">
+	                <div class="u-img"><img id="login_qq_face" src=""></div>
+	                <div class="u-info">
+	                	<span id="login_nickname_span"></span>
+	                    <a href="javascript:showCalendar();" class="b-chk" onclick="pgvSendClick({hottag:'WUP.HEADER.SIGN.SIDEBAR'})"><i></i>签到日历</a>
+	                </div>
+	                <div class="btns p-abs"><a href="javascript:;" id="dologout" title="退出" onclick="pgvSendClick({hottag:'WUP.LOGINOUT.INDEX.MAIN'})">退出</a></div>
+	            </div>
+                <h2 class="t-h"><i class="i-9"></i>最近玩过的游戏</h2>
+                <div class="data-ls">
+                    <ul id="tRecentGameList_content"></ul>  
+                    <script type="text/html" id="tRecentGameList_template">
+						{for oneserverinfo in login_index.jData.game}
+                    		<li>
+								<a href="${oneserverinfo.sLink}?iAppid=${oneserverinfo.iAppId}&iServerid=${oneserverinfo.iServerId}&iWlop=0&iUnion=0&pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.LASTLOGIN'})">
+								<img src="http://ctc.i.gtimg.cn/qzonestyle/act/qzone_app_img/app${oneserverinfo.iAppId}_${oneserverinfo.iAppId}_75.png" style="display:block">
+								<div class='desc'><span>${oneserverinfo.sAppName}</span><span>${oneserverinfo.sServerName}</span></div>
+								</a>
+								<a href="${oneserverinfo.sLink}?iAppid=${oneserverinfo.iAppId}&iServerid=${oneserverinfo.iServerId}&iWlop=0&iUnion=0&pf=" target="_blank" class='btn-enter cor' onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.LASTLOGIN'})">进入</a></li>
+                    	{/for}
+					 </script>                            
+                </div>
+                <a href="http://1.game.qq.com/user/game/" target="_blank" class="b-arr p-abs">我的游戏</a>
+            </div>
+            <!-- 首页已登录 End-->
+            
+        </div>
+        
+    </div>
+    
+     <div class="gg-box" id="gg-box">
+     	 <div id="do" class="do">
+        	        	<span class="dotItemOn" title="0"></span>
+        	        	<span class="dotItemOn" title="1"></span>
+        	        	<span class="dotItemOn" title="2"></span>
+        	        	<span class="dotItem" title="3"></span>
+        	        </div>
+    	<div id="rollbox">
+	    	<ul class="clr">
+	    			        	<li style="background-image: url(http://shurl.cn/s/FSMtPJ); display: none; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"><a href="http://shurl.cn/s/BYrr9J?qq=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.BANNER.0'})"></a></li>            
+	           	        	<li style="background-image: url(http://shurl.cn/s/3KptPJ); display: none; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"><a href=" http://shurl.cn/s/Yqnr9J?qq=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.BANNER.1'})"></a></li>            
+	           	        	<li style="background-image: url(http://shurl.cn/s/mG9tPJ); display: none; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"><a href="http://shurl.cn/s/s61r9J?qq=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.BANNER.2'})"></a></li>            
+	           	        	<li style="background-image: url(http://shurl.cn/s/roStPJ); display: list-item; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"><a href="http://shurl.cn/s/hNFr9J?qq=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.BANNER.3'})"></a></li>            
+	           	        </ul>
+        </div>
+       
+    </div>
+    
+    
+</div>
+
+<div class="bd">
+	<div class="wrapper clr">
+    
+	<div class="aside">
+		<div class="news_tour">
+			<div class="tit p-rel">
+				<h2>
+					<i class="i-17"></i>
+					推荐新游
+				</h2>
+			</div>
+			
+                <div class="p-rel ctn33" style="display:block">
+                    <a href="http://1.qq.com/help/startgameV2.htm?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000007-1" class="pic" target="_blank">
+     <img src="http://ossweb-img.qq.com/upload/wuspcms/info/v_10001/default/20151105/20151105153252_929734_73806.jpg">
+	 <i class="i-22"></i>
+</a>
+
+<!--[if !IE]>2015-11-05 15:34:15<![endif]-->
+                </div>
+            
+		</div>
+
+
+    	
+        
+        
+        <h2 class="t-s"><i class="i-10"></i>最新开服</h2>
+        <div class="g-ls indshow" id="gameList">
+        	<ul>
+                             		             		     		 	         		  
+           		    
+           		               		  		<li class="hover">
+           		  			<div class="br"><i class="i-11">15</i>
+           		  				<div class="item"><span> 07:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100662078.png">
+           		  					<div class="desc">苍穹变<em>鸡星高照51区</em></div>
+           	  					</div>
+           	  					<div class="layer">
+           	  					<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100662078.png">
+           	  						<p>苍穹变<span>03-15</span></p>
+             						<em>鸡星高照51区</em>
+             						<a href="http://shurl.cn/s/rKADE4
+?iAppid=100662078&amp;iServerid=1515&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+             					</div>
+             				</div>
+             			</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 07:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104451276.png"><div class="desc">斗战三国志<em>不删档541服</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104451276.png">
+                    				<p>斗战三国志<span>03-15</span></p>
+                    				<em>不删档541服</em>
+                    				<!--  
+                    				<a href="javascript:startGame(1104451276,603,0,'http://dou.qq.com',0);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/pGEXO4
+?iAppid=1104451276&amp;iServerid=603&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                       
+                              		             		     		 	         		  
+           		    
+           		               		  		<li class="hover">
+           		  			<div class="br"><i class="i-11">14</i>
+           		  				<div class="item"><span> 18:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png">
+           		  					<div class="desc">传奇霸业<em>天秤19服</em></div>
+           	  					</div>
+           	  					<div class="layer">
+           	  					<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png">
+           	  						<p>传奇霸业<span>03-14</span></p>
+             						<em>天秤19服</em>
+             						<a href="http://shurl.cn/s/Aj0t14
+?iAppid=1104216374&amp;iServerid=3122&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+             					</div>
+             				</div>
+             			</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 10:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104312847.png"><div class="desc">古剑奇谭<em>1078服-圣手织天</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104312847.png">
+                    				<p>古剑奇谭<span>03-14</span></p>
+                    				<em>1078服-圣手织天</em>
+                    				<!--  
+                    				<a href="javascript:startGame(1104312847,1244,0,'http://gjqt.qq.com',0);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/GnBeA4
+?iAppid=1104312847&amp;iServerid=1244&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 09:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100714527.png"><div class="desc">斗破苍穹<em>300</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100714527.png">
+                    				<p>斗破苍穹<span>03-14</span></p>
+                    				<em>300</em>
+                    				<!--  
+                    				<a href="javascript:startGame(100714527,1521,0,'http://cang.qq.com',0);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/wOMRI4
+?iAppid=100714527&amp;iServerid=1521&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 09:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101082222.png"><div class="desc">三国乱世<em>正式2073区</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101082222.png">
+                    				<p>三国乱世<span>03-14</span></p>
+                    				<em>正式2073区</em>
+                    				<!--  
+                    				<a href="javascript:startGame(1101082222,2713,0,'http://3guo.qq.com',0);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/FLS5E4
+?iAppid=1101082222&amp;iServerid=2713&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 09:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101318161.png"><div class="desc">书剑恩仇录<em>双线590区</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101318161.png">
+                    				<p>书剑恩仇录<span>03-14</span></p>
+                    				<em>双线590区</em>
+                    				<!--  
+                    				<a href="javascript:startGame(1101318161,641,0,'',0);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/SggRI4
+?iAppid=1101318161&amp;iServerid=641&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 09:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1103266614.png"><div class="desc">帝王霸业<em>744服</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1103266614.png">
+                    				<p>帝王霸业<span>03-14</span></p>
+                    				<em>744服</em>
+                    				<!--  
+                    				<a href="javascript:startGame(1103266614,821,0,'http://baye.qq.com/',0);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/VQXJE4
+?iAppid=1103266614&amp;iServerid=821&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 09:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png"><div class="desc">传奇霸业<em>联盟556区</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png">
+                    				<p>传奇霸业<span>03-14</span></p>
+                    				<em>联盟556区</em>
+                    				<!--  
+                    				<a href="javascript:startGame(1104216374,3119,0,'http://mirs.qq.com/',1);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/Iumxn4
+?iAppid=1104216374&amp;iServerid=3119&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                        
+           		                        	<li>
+                    		<div class="br">
+                    			<div class="item"><span> 07:00</span><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100662078.png"><div class="desc">苍穹变<em>鸡星高照50区</em></div></div>
+                    			<div class="layer">
+                    				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100662078.png">
+                    				<p>苍穹变<span>03-14</span></p>
+                    				<em>鸡星高照50区</em>
+                    				<!--  
+                    				<a href="javascript:startGame(100662078,1514,0,'http://cqb.qq.com',0);" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    				-->
+                    				<a href="http://shurl.cn/s/zaXw64
+?iAppid=100662078&amp;iServerid=1514&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEW'})">进入</a>
+                    			</div>
+                    		</div>
+                    	</li>
+                                       
+                             </ul>
+        </div>
+        
+        <div class="task-box">
+        		<!--未登录-->
+            <div>
+				<div id="unloginTaskBox" style="display:block">  				 
+                     <div class="tab clr">
+                    	<a href="javascript:;">推荐任务</a>
+	                </div>
+	                  
+	                 <div class="ctn p-rel" id="unloginTaskBox1" style="display:block">
+	                    <a href="http://shurl.cn/s/OTe458" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.NOLOGIN.IMG'})"><img id="rtaskImg" src=""></a>
+	                    <p class="t-c"><a href="http://shurl.cn/s/OTe458" target="_blank" id="rtaskName" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.NOLOGIN.NAME'})"></a></p>
+	                    <a href="http://shurl.cn/s/OTe458" target="_blank" class="b-arr p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.NOLOGIN.MORE'})">更多</a>
+	                </div>
+                </div> 
+			</div>   
+            <!--登录后-->
+        	<div id="taskBox" style="display:none">
+                <div class="tab clr">
+                    <a href="javascript:setTab(1,'taskBox');" class="curr p-rel" onclick="pgvSendClick({hottag:'WUP.INDEX.TASKTAB.MYTASK'})">我的任务<i class="i-cir p-abs" id="iMyTaskNum">3</i></a><span class="f-lt">|</span>
+                    <a href="javascript:setTab(2,'taskBox');" onclick="pgvSendClick({hottag:'WUP.INDEX.TASKTAB.RETASK'})">推荐任务</a>
+                </div>
+            
+                <div class="ctn p-rel ctn1" id="taskBox1" style="display:block">
+                    <ul id="tMyTask_content"> </ul>
+                    <script type="text/html" id="tMyTask_template">
+						{for taskname in login_index.jData.task.list}
+                        	<li><a href="http://1.game.qq.com/user/task/" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.LOGIN.NAME'})">${taskname}</a></li>                      
+						{/for}
+                    </script>
+                    <a href="http://1.game.qq.com/user/task/" class="b-arr p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.LOGIN.MORE'})">更多</a>
+                </div>
+                  
+                <div class="ctn p-rel ctn2" id="taskBox2"></div>
+                <script type="text/html" id="rTask_template2"> 
+                	{for onertask in login_index.jData.r_task}
+	                    <a href="http://shurl.cn/s/OTe458" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.LOGIN.IMG'})"><img src="${onertask.sTaskPic}"></a>
+	                    <p class="t-c"><a href="http://shurl.cn/s/OTe458" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.LOGIN.NAME'})">${onertask.sTaskName}</a></p>
+	                    <a href="http://shurl.cn/s/OTe458" target="_blank" class="b-arr p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.TASK.LOGIN.MORE'})">更多</a>
+					{/for}
+				</script> 
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="main">
+    	<div class="tit p-rel">
+            <h2><i class="i-12"></i>精品游戏</h2>
+            <div class="nav_scrol" id="nav_scrol">
+	            <ul style="margin-top: 0px;"><li><a href="http://1.qq.com/mall/detail.shtml?id=19" target="_blank">龙骑士传礼包新鲜上架啦！</a></li><li><a href="http://1.qq.com/webcms/info/news_version1/42/201508/236.shtml" target="_blank">Q游囧报第二期上架啦，一起来吐槽吧</a></li><li><a href="http://1.qq.com/task_center/list.shtml?type=2" target="_blank">充值回馈老玩家，抢积分啦！</a></li></ul>
+        	</div>
+           
+           
+        </div>
+        <div class="g-ls-jp clr">
+        	<ul>
+        	    <!--  
+            	            	<li>
+                	<div class="g-img">
+                    	<a href="javascript:startGame(1104729180,-1,0,'http://ro.qq.com/');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104729180_1448435856_451.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="">下载微端</a>
+                        	                            <a href="javascript:startGame(1104729180,-1,0,'http://ro.qq.com/');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://ro.qq.com/" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="javascript:startGame(1104729180,-1,0,'http://ro.qq.com/');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">RO仙境物语</a></h3>
+                        <p>《RO仙境物语》是《仙境传说》(简称《RO》)系列的正版续作，通过网页完美再现了RO的五大经典职业和八大核心玩法。</p>
+                        <a href="javascript:startGame(1104729180,-1,0,'http://ro.qq.com/');"  class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                            	<li>
+                	<div class="g-img">
+                    	<a href="javascript:startGame(1104522434,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3641');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104522434_1446517555_973.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="">下载微端</a>
+                        	                            <a href="javascript:startGame(1104522434,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3641');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3641" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="javascript:startGame(1104522434,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3641');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">灵域</a></h3>
+                        <p>玄幻小说《灵域》改编，大型ARPG游戏，采用flash3D引擎，战斗特效绚丽，打击感强烈！</p>
+                        <a href="javascript:startGame(1104522434,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3641');"  class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                            	<li>
+                	<div class="g-img">
+                    	<a href="javascript:startGame(1104655802,-1,0,'http://9y.qq.com');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104655802_1446014060_478.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="http://dldir1.qq.com/box/QQmicrogamebox/release/1104655802/10/JYZJZ_latest.exe">下载微端</a>
+                        	                            <a href="javascript:startGame(1104655802,-1,0,'http://9y.qq.com');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://9y.qq.com" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="javascript:startGame(1104655802,-1,0,'http://9y.qq.com');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">九阴绝学</a></h3>
+                        <p>金庸武侠经典之作，全新技能玩法，激斗武林神话BOSS，登录就送小龙女，领悟九阴真经绝世武学。</p>
+                        <a href="javascript:startGame(1104655802,-1,0,'http://9y.qq.com');"  class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                            	<li>
+                	<div class="g-img">
+                    	<a href="javascript:startGame(1104677891,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3987#groupnav');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104677891_1445241379_307.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="">下载微端</a>
+                        	                            <a href="javascript:startGame(1104677891,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3987#groupnav');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3987#groupnav" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="javascript:startGame(1104677891,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3987#groupnav');" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">捉神记</a></h3>
+                        <p>《捉神记》是纯3D洪荒仙侠网游，采用动态光影及模型实时渲染技术，最新电影式剧情，带您身临其境体验真实战斗!</p>
+                        <a href="javascript:startGame(1104677891,-1,0,'http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3987#groupnav');"  class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                                -->
+                            	<li>
+                	<div class="g-img">
+                    	<a href="http://shurl.cn/s/xvGun4?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104729180_1448435856_451.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="">下载微端</a>
+                        	                            <a href="http://shurl.cn/s/xvGun4?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://ro.qq.com/" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="http://shurl.cn/s/xvGun4?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">RO仙境物语</a></h3>
+                        <p>《RO仙境物语》是《仙境传说》(简称《RO》)系列的正版续作，通过网页完美再现了RO的五大经典职业和八大核心玩法。</p>
+                        <a href="http://shurl.cn/s/xvGun4?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                            	<li>
+                	<div class="g-img">
+                    	<a href="http://shurl.cn/s/8LqF64?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104522434_1446517555_973.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="">下载微端</a>
+                        	                            <a href="http://shurl.cn/s/8LqF64?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3641" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="http://shurl.cn/s/8LqF64?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">灵域</a></h3>
+                        <p>玄幻小说《灵域》改编，大型ARPG游戏，采用flash3D引擎，战斗特效绚丽，打击感强烈！</p>
+                        <a href="http://shurl.cn/s/8LqF64?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                            	<li>
+                	<div class="g-img">
+                    	<a href="http://shurl.cn/s/2RRDZ4?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104655802_1446014060_478.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="http://dldir1.qq.com/box/QQmicrogamebox/release/1104655802/10/JYZJZ_latest.exe">下载微端</a>
+                        	                            <a href="http://shurl.cn/s/2RRDZ4?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://9y.qq.com" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="http://shurl.cn/s/2RRDZ4?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">九阴绝学</a></h3>
+                        <p>金庸武侠经典之作，全新技能玩法，激斗武林神话BOSS，登录就送小龙女，领悟九阴真经绝世武学。</p>
+                        <a href="http://shurl.cn/s/2RRDZ4?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                            	<li>
+                	<div class="g-img">
+                    	<a href="http://shurl.cn/s/zeNiY4?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/game/jp_1104677891_1445241379_307.jpg"></a>
+                        <b></b>
+                        <div class="btn-bar">
+                        	                        		<a href="">下载微端</a>
+                        	                            <a href="http://shurl.cn/s/zeNiY4?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.LIBAO'})">新手礼包</a>
+                            <a href="http://bbs.open.qq.com/forum.php?mod=forumdisplay&amp;action=list&amp;fid=3987#groupnav" target="_Blank" class="col-yl">官网</a>
+                        </div>
+                    </div>
+                    <div class="g-info">
+                    	<h3><a href="http://shurl.cn/s/zeNiY4?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.GAMENAME'})">捉神记</a></h3>
+                        <p>《捉神记》是纯3D洪荒仙侠网游，采用动态光影及模型实时渲染技术，最新电影式剧情，带您身临其境体验真实战斗!</p>
+                        <a href="http://shurl.cn/s/zeNiY4?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="b-gs p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.JINGPIN.BTN'})">开始游戏</a>
+                    </div>
+                </li>
+                            </ul>
+        </div>
+        
+        
+        <div class="tit p-rel">
+            <h2><i class="i-13"></i>最热活动</h2>
+           
+        </div>
+        <div class="g-ls-e clr">
+        	<ul>
+            	 	        	    		                <li>
+		                	<a href="http://shurl.cn/s/c0d944" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.IMG'})"><img src="http://shurl.cn/s/U8fYb2"></a>
+		                	<div class="tit-bar">最热活动<a href="http://shurl.cn/s/c0d944" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.BTN'})">立即参与</a></div>
+		                    <p><a href="http://shurl.cn/s/c0d944" target="_blank">枪林弹雨超级团队登场</a></p>
+		                </li>
+	                                	        	    		                <li>
+		                	<a href=" http://mengx.qq.com " target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/home/hot_1443169276_410.png"></a>
+		                	<div class="tit-bar">最热活动<a href=" http://mengx.qq.com " target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.BTN'})">立即参与</a></div>
+		                    <p><a href=" http://mengx.qq.com " target="_blank">Q萌仙魔战，登录送好礼</a></p>
+		                </li>
+	                                	        	    		                <li>
+		                	<a href="http://xiaoyao.qq.com/" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/home/hot_1445217780_969.jpg"></a>
+		                	<div class="tit-bar">最热活动<a href="http://xiaoyao.qq.com/" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.BTN'})">立即参与</a></div>
+		                    <p><a href="http://xiaoyao.qq.com/" target="_blank">逍遥登录送豪礼</a></p>
+		                </li>
+	                                	        	    		            	<li class="mg-r-0">
+		                	<a href="http://tieji.qq.com/" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/home/hot_1441936527_950.png"></a>
+		                	<div class="tit-bar">最热活动<a href="http://tieji.qq.com/" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.HOTACT.BTN'})">立即参与</a></div>
+		                    <p><a href="http://tieji.qq.com/" target="_blank">三重豪礼大放送</a></p>
+		                </li>
+	                                            </ul>
+        </div>
+        
+        <div id="gameAllBox">
+            <div class="tit p-rel">
+                <h2><i class="i-14"></i>全部游戏</h2>
+                <div class="tab g-type p-abs">
+                	<a href="javascript:setTab(1,'gameAllBox');" class="curr" onclick="pgvSendClick({hottag:'WUP.INDEX.ALLGAME.RECOMMOND'})">推荐游戏</a>
+                    <a href="javascript:setTab(2,'gameAllBox');" onclick="pgvSendClick({hottag:'WUP.INDEX.ALLGAME.JSBY'})">角色扮演</a>
+                    <a href="javascript:setTab(3,'gameAllBox');" onclick="pgvSendClick({hottag:'WUP.INDEX.ALLGAME.ZZCL'})">战争策略</a>
+                    <a href="javascript:setTab(4,'gameAllBox');" onclick="pgvSendClick({hottag:'WUP.INDEX.ALLGAME.XXYL'})">休闲娱乐</a>
+                    <a href="javascript:setTab(5,'gameAllBox');" onclick="pgvSendClick({hottag:'WUP.INDEX.ALLGAME.3D'})">3D游戏</a>
+                </div>
+                <a href="http://1.qq.com/game/gameList.shtml" target="_blank" class="b-arr p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.ALLGAME.MORE'})">更多</a>
+            </div>
+            <div class="g-all clr">
+            
+            	 <ul class="ctn ctn1" style="display:block;">  
+                	           
+                   	 	<li><a href="http://shurl.cn/s/SOEw6N
+?iAppid=1101318161&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101318161.png" title="书剑恩仇录"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/SOEw6N
+?iAppid=1101318161&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">书剑恩仇录</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/tMMk14
+?iAppid=1104472590&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104472590.png" title="九星诀"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/tMMk14
+?iAppid=1104472590&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">九星诀</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/1CUk64
+?iAppid=1104169356&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104169356.png" title="龙啸天下"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/1CUk64
+?iAppid=1104169356&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">龙啸天下</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/85MyRN
+?iAppid=1104312847&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104312847.png" title="古剑奇谭"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/85MyRN
+?iAppid=1104312847&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">古剑奇谭</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/KXSaF4
+?iAppid=100662078&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100662078.png" title="苍穹变"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/KXSaF4
+?iAppid=100662078&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">苍穹变</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/nlveI4
+?iAppid=1103286479&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1103286479.png" title="火影忍者OL"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/nlveI4
+?iAppid=1103286479&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">火影忍者OL</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/VpgJRN
+?iAppid=100698537&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100698537.png" title="英魂之刃"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/VpgJRN
+?iAppid=100698537&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">英魂之刃</a>
+                   	 			<span>
+                   	 			      [
+                   	 					休闲娱乐
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/8SoGkN
+?iAppid=100718846&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100718846.png" title="开心消消乐"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/8SoGkN
+?iAppid=100718846&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">开心消消乐</a>
+                   	 			<span>
+                   	 			      [
+                   	 					休闲娱乐
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/4VIIF4
+?iAppid=1101362849&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101362849.png" title="传奇时代"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/4VIIF4
+?iAppid=1101362849&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">传奇时代</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/irAoK4
+?iAppid=100723464&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100723464.png" title="枪林弹雨"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/irAoK4
+?iAppid=100723464&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">枪林弹雨</a>
+                   	 			<span>
+                   	 			      [
+                   	 					休闲娱乐
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/k5AwFN
+?iAppid=1102562958&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102562958.png" title="暴风王座"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/k5AwFN
+?iAppid=1102562958&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">暴风王座</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/2oGBA4
+?iAppid=100634204&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100634204.png" title="斩仙"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/2oGBA4
+?iAppid=100634204&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">斩仙</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/trmDA4
+?iAppid=100666811&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100666811.png" title="六界仙尊"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/trmDA4
+?iAppid=100666811&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">六界仙尊</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/Ys5BFN
+?iAppid=1101082222&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101082222.png" title="三国乱世"></a>
+                   	 		<p>
+                   	 			<a href="http://shurl.cn/s/Ys5BFN
+?iAppid=1101082222&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">三国乱世</a>
+                   	 			<span>
+                   	 			      [
+                   	 					战争策略
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="?iAppid=1101214027&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101214027.png" title="植物大战僵尸OL"></a>
+                   	 		<p>
+                   	 			<a href="?iAppid=1101214027&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">植物大战僵尸OL</a>
+                   	 			<span>
+                   	 			      [
+                   	 					角色扮演
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                               
+                   	 	<li><a href="?iAppid=381&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})">
+                   	 		<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/381.png" title="七雄争霸"></a>
+                   	 		<p>
+                   	 			<a href="?iAppid=381&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">七雄争霸</a>
+                   	 			<span>
+                   	 			      [
+                   	 					战争策略
+                   	 					                   	 				  ]
+                   	 		    </span>
+                   	 		</p>
+                   	 	</li>                   
+                                    </ul>
+                           
+                <ul class="ctn ctn2">  
+                	           
+                   	 	<li><a href="http://shurl.cn/s/2urcr4
+?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104729180.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/2urcr4
+?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">RO仙境物语</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/jPcARN
+?iAppid=1104815014&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104815014.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/jPcARN
+?iAppid=1104815014&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">怪物猎人开拓记</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/7F3ykN
+?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104522434.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/7F3ykN
+?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">灵域</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/47sE6N
+?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104655802.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/47sE6N
+?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">九阴绝学</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/zHZRK4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104677891.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/zHZRK4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">捉神记</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/ap5Vv4
+?iAppid=1104216374&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/ap5Vv4
+?iAppid=1104216374&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">传奇霸业</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/Ji7qZ4
+?iAppid=1102501967&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102501967.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/Ji7qZ4
+?iAppid=1102501967&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">逍遥</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/Jk84E4
+?iAppid=1104720888&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104720888.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/Jk84E4
+?iAppid=1104720888&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">无上神兵</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/lp3dRN
+?iAppid=1104749895&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104749895.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/lp3dRN
+?iAppid=1104749895&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">琅琊榜</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/7l7Gc4
+?iAppid=1101499437&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101499437.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/7l7Gc4
+?iAppid=1101499437&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">萌仙</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/7nWkj4
+?iAppid=1104769600&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104769600.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/7nWkj4
+?iAppid=1104769600&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">傲世群侠</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/8vGPY4
+?iAppid=1104336830&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104336830.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/8vGPY4
+?iAppid=1104336830&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">魔尊</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/HWJt64
+?iAppid=1104613775&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104613775.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/HWJt64
+?iAppid=1104613775&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">铁骑神兵</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/iGXvF4
+?iAppid=1104692077&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104692077.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/iGXvF4
+?iAppid=1104692077&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">花千骨</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104736166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104736166.png"></a>
+                   	 	<p><a href="?iAppid=1104736166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">三国战纪</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104506100&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104506100.png"></a>
+                   	 	<p><a href="?iAppid=1104506100&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">我欲封天</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104541618&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104541618.png"></a>
+                   	 	<p><a href="?iAppid=1104541618&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">盛世三国2</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100717294&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100717294.png"></a>
+                   	 	<p><a href="?iAppid=100717294&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">轩辕世界</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104435251&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104435251.png"></a>
+                   	 	<p><a href="?iAppid=1104435251&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">奇迹战神</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104452357&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104452357.png"></a>
+                   	 	<p><a href="?iAppid=1104452357&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">王者屠龙</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104362707&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104362707.png"></a>
+                   	 	<p><a href="?iAppid=1104362707&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">赤壁战神</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104332786&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104332786.png"></a>
+                   	 	<p><a href="?iAppid=1104332786&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">莽荒纪</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1103965692&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1103965692.png"></a>
+                   	 	<p><a href="?iAppid=1103965692&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">真无双乱舞</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1101318161&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101318161.png"></a>
+                   	 	<p><a href="?iAppid=1101318161&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">书剑恩仇录</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104472590&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104472590.png"></a>
+                   	 	<p><a href="?iAppid=1104472590&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">九星诀</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104451276&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104451276.png"></a>
+                   	 	<p><a href="?iAppid=1104451276&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">斗战三国志</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100714527&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100714527.png"></a>
+                   	 	<p><a href="?iAppid=100714527&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">斗破苍穹</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104463960&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104463960.png"></a>
+                   	 	<p><a href="?iAppid=1104463960&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">天龙八部</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104169356&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104169356.png"></a>
+                   	 	<p><a href="?iAppid=1104169356&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">龙啸天下</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1104312847&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104312847.png"></a>
+                   	 	<p><a href="?iAppid=1104312847&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">古剑奇谭</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100662078&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100662078.png"></a>
+                   	 	<p><a href="?iAppid=100662078&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">苍穹变</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1103286479&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1103286479.png"></a>
+                   	 	<p><a href="?iAppid=1103286479&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">火影忍者OL</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1101362849&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101362849.png"></a>
+                   	 	<p><a href="?iAppid=1101362849&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">传奇时代</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1102562958&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102562958.png"></a>
+                   	 	<p><a href="?iAppid=1102562958&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">暴风王座</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100634204&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100634204.png"></a>
+                   	 	<p><a href="?iAppid=100634204&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">斩仙</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100646209&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100646209.png"></a>
+                   	 	<p><a href="?iAppid=100646209&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">战龙三国</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100666811&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100666811.png"></a>
+                   	 	<p><a href="?iAppid=100666811&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">六界仙尊</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100700930&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100700930.png"></a>
+                   	 	<p><a href="?iAppid=100700930&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">烈火屠龙</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100715380&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100715380.png"></a>
+                   	 	<p><a href="?iAppid=100715380&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">焚天之怒</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100718848&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100718848.png"></a>
+                   	 	<p><a href="?iAppid=100718848&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">龙骑士传</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100724642&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100724642.png"></a>
+                   	 	<p><a href="?iAppid=100724642&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">梦幻Q仙</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1101214027&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101214027.png"></a>
+                   	 	<p><a href="?iAppid=1101214027&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">植物大战僵尸OL</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=1101987052&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101987052.png"></a>
+                   	 	<p><a href="?iAppid=1101987052&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">称霸天下</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=438&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/438.png"></a>
+                   	 	<p><a href="?iAppid=438&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">QQ九仙</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=27550&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/27550.png"></a>
+                   	 	<p><a href="?iAppid=27550&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">真王</a><span>[角色扮演]</span></p></li>                   
+                               
+                   	 	<li><a href="?iAppid=100621282&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100621282.png"></a>
+                   	 	<p><a href="?iAppid=100621282&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">倚天</a><span>[角色扮演]</span></p></li>                   
+                                    </ul>
+               
+                <ul class="ctn ctn3">	                	
+                               
+                   	 	<li><a href="http://shurl.cn/s/2F6S64
+?iAppid=1103266614&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1103266614.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/2F6S64
+?iAppid=1103266614&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">帝王霸业</a><span>[战争策略]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/wm0RFN
+?iAppid=100635418&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100635418.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/wm0RFN
+?iAppid=100635418&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">部落守卫战</a><span>[战争策略]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/kzNnZ4
+?iAppid=100650683&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100650683.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/kzNnZ4
+?iAppid=100650683&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">勇者之塔</a><span>[战争策略]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/UuutA4
+?iAppid=100709543&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100709543.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/UuutA4
+?iAppid=100709543&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">纵横九州</a><span>[战争策略]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/UiNwv4
+?iAppid=1101082222&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101082222.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/UiNwv4
+?iAppid=1101082222&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">三国乱世</a><span>[战争策略]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/XowIv4
+?iAppid=381&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/381.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/XowIv4
+?iAppid=381&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">七雄争霸</a><span>[战争策略]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/XbnF1Z
+?iAppid=100615799&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100615799.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/XbnF1Z
+?iAppid=100615799&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">塔三之神将觉醒</a><span>[战争策略]</span></p></li>                   
+                                      
+                </ul>
+           
+                <ul class="ctn ctn4">                  
+                                
+                   	 	<li><a href="http://shurl.cn/s/YxleK4
+?iAppid=1102503166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102503166.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/YxleK4
+?iAppid=1102503166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">雷霆反恐</a><span>[休闲娱乐]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/PRAOC4
+?iAppid=100698537&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100698537.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/PRAOC4
+?iAppid=100698537&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">英魂之刃</a><span>[休闲娱乐]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/6LPM6N
+?iAppid=100718846&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100718846.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/6LPM6N
+?iAppid=100718846&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">开心消消乐</a><span>[休闲娱乐]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/ugbMRN
+?iAppid=100723464&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100723464.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/ugbMRN
+?iAppid=100723464&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">枪林弹雨</a><span>[休闲娱乐]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/L48OcZ
+?iAppid=100720340&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100720340.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/L48OcZ
+?iAppid=100720340&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">街机群侠传</a><span>[休闲娱乐]</span></p></li>                   
+                           
+                </ul>
+                 
+                <ul class="ctn ctn5">	                 
+                                
+                   	 	<li><a href="http://shurl.cn/s/LYolK4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104677891.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/LYolK4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">捉神记</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/btYlRN
+?iAppid=1104769600&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104769600.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/btYlRN
+?iAppid=1104769600&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">傲世群侠</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/iih6RN
+?iAppid=1104613775&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104613775.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/iih6RN
+?iAppid=1104613775&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">铁骑神兵</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/bg1IsZ
+?iAppid=100717294&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100717294.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/bg1IsZ
+?iAppid=100717294&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">轩辕世界</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/xN4H1Z
+?iAppid=1104435251&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104435251.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/xN4H1Z
+?iAppid=1104435251&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">奇迹战神</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/VYHx6Z
+?iAppid=1104452357&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104452357.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/VYHx6Z
+?iAppid=1104452357&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">王者屠龙</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/yPNdkZ
+?iAppid=1104362707&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104362707.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/yPNdkZ
+?iAppid=1104362707&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">赤壁战神</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/kLIh1Z
+?iAppid=1103965692&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1103965692.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/kLIh1Z
+?iAppid=1103965692&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">真无双乱舞</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/FIMNrZ
+?iAppid=1104451276&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104451276.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/FIMNrZ
+?iAppid=1104451276&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">斗战三国志</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/46sH1Z
+?iAppid=100662078&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100662078.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/46sH1Z
+?iAppid=100662078&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">苍穹变</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/7fxujZ
+?iAppid=100698537&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100698537.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/7fxujZ
+?iAppid=100698537&amp;iServerid=-1&amp;iWlop=-1&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">英魂之刃</a><span>[3D游戏]</span></p></li>                   
+                               
+                   	 	<li><a href="http://shurl.cn/s/KPHtsZ
+?iAppid=100723464&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.IMG'})"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100723464.png"></a>
+                   	 	<p><a href="http://shurl.cn/s/KPHtsZ
+?iAppid=100723464&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.ALLGAME.GAMENAME'})">枪林弹雨</a><span>[3D游戏]</span></p></li>                   
+                           
+                </ul>
+                            
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="col">
+    	<!--新游专区 开始-->
+    	<div class="tit p-rel">
+            <h2><i class="i-16"></i>新游专区</h2>
+            <a href="http://1.qq.com/game/newtour.shtml" class="b-arr p-abs">更多</a>
+        </div>
+        <div class="g-ls" id="pkgList2">
+        	<ul>
+        		<li><div class="layer"><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104655802.png"></a><p><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank">九阴绝学</a><span>[武侠经典]</span></p><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank" class="btn">进入专区</a></div></li>
+<li><div class="layer"><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104677891.png"></a><p><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank">捉神记</a><span>[角色扮演]</span></p><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank" class="btn">进入专区</a></div></li>
+<li><div class="layer"><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104749895&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104749895.png"></a><p><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104749895&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank">琅琊榜</a><span>[影视正版]</span></p><a href="http://1.qq.com/help/startgameV2.htm?adid=3000010-1&amp;x5pid=10001-1&amp;iAppid=1104749895&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=&amp;x5pid=10001-1&amp;adid=3000200-1" target="_blank" class="btn">进入专区</a></div></li>
+
+<!--[if !IE]>2015-11-05 15:32:13<![endif]-->
+            </ul>
+        </div>
+        <!--新游专区 结束-->
+    	<div class="tit p-rel">
+            <h2><i class="i-15"></i>礼包中心</h2>
+            <a href="http://1.qq.com/mall/list.shtml" target="_blank" class="b-arr p-abs" onclick="pgvSendClick({hottag:'WUP.INDEX.MALL.MORE'})">更多</a>
+        </div>
+        <div class="g-ls" id="pkgList">
+        	<ul>
+            	              		<li>
+            			<div class="layer">
+            				<a href="http://shurl.cn/s/XyLhjc?id=5" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.MALL.DETAIL'})">
+            					<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1101082222.png">
+            				</a>
+            				<p><a href="#">三国乱世</a><span>初级礼包</span></p>
+            				<a href="http://shurl.cn/s/XyLhjc?id=5" target="_blank" class="btn">领取</a>
+            			</div>
+            		</li>
+                              		<li>
+            			<div class="layer">
+            				<a href="http://shurl.cn/s/DENwKc?id=9" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.MALL.DETAIL'})">
+            					<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102562958.png">
+            				</a>
+            				<p><a href="#">暴风王座</a><span>新手礼包</span></p>
+            				<a href="http://shurl.cn/s/DENwKc?id=9" target="_blank" class="btn">领取</a>
+            			</div>
+            		</li>
+                              		<li>
+            			<div class="layer">
+            				<a href="http://shurl.cn/s/HoRQnV?id=14" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.MALL.DETAIL'})">
+            					<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/100723464.png">
+            				</a>
+            				<p><a href="#">枪林弹雨</a><span>VIP1礼包</span></p>
+            				<a href="http://shurl.cn/s/HoRQnV?id=14" target="_blank" class="btn">领取</a>
+            			</div>
+            		</li>
+                              </ul>
+        </div>
+        
+        <div id="gameBox">
+            <div class="tab clr">
+                <a href="javascript:setTab(1,'gameBox');" class="curr" onclick="pgvSendClick({hottag:'WUP.INDEX.TAB.HOTGAME'})">最热游戏</a><span class="f-lt">|</span>
+                <a href="javascript:setTab(2,'gameBox');" onclick="pgvSendClick({hottag:'WUP.INDEX.TAB.NEWGAME'})">最新游戏</a>
+            </div>
+        
+            <div class="ctn g-ls ctn1 hei" style="display:block">
+                <ul>
+                                           
+                     	  <li class="hover"><div class="br"><i>1</i><div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102503166.png" title="雷霆反恐"><div class="desc">雷霆反恐<em>12000万人在线</em></div></div>
+                     	  	<div class="layer">
+                     	  		<a href="http://shurl.cn/s/ZH2T64
+?iAppid=1102503166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.IMG'})">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102503166.png" title="雷霆反恐">
+                       			</a>
+                       			<p><a href="#">雷霆反恐</a><span>12000万人在线</span></p>
+                     	  		<a href="http://shurl.cn/s/ZH2T64
+?iAppid=1102503166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.BTN'})">进入</a>
+                     	  	</div>
+                     	  	</div>
+                     	  	</li>
+                     	                        
+                     	  <li class="hover"><div class="br"><i>2</i><div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104522434.png" title="灵域"><div class="desc">灵域<em>4500万人在线</em></div></div>
+                     	  	<div class="layer">
+                     	  		<a href="http://shurl.cn/s/qRcmr4
+?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.IMG'})">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104522434.png" title="灵域">
+                       			</a>
+                       			<p><a href="#">灵域</a><span>4500万人在线</span></p>
+                     	  		<a href="http://shurl.cn/s/qRcmr4
+?iAppid=1104522434&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.BTN'})">进入</a>
+                     	  	</div>
+                     	  	</div>
+                     	  	</li>
+                     	                        
+                     	  <li class="hover"><div class="br"><i>3</i><div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104749895.png" title="琅琊榜"><div class="desc">琅琊榜<em>3521万人在线</em></div></div>
+                     	  	<div class="layer">
+                     	  		<a href="http://shurl.cn/s/lSNO14
+?iAppid=1104749895&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.IMG'})">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104749895.png" title="琅琊榜">
+                       			</a>
+                       			<p><a href="#">琅琊榜</a><span>3521万人在线</span></p>
+                     	  		<a href="http://shurl.cn/s/lSNO14
+?iAppid=1104749895&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.BTN'})">进入</a>
+                     	  	</div>
+                     	  	</div>
+                     	  	</li>
+                     	                         
+                     
+                                                                                   																																																																											                    
+                     	  <li>
+                     	  	<div class="br"><i>4</i>
+                     	  		<div class="item">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104677891.png" title="捉神记">
+                     	  			<div class="desc"><a href="#">捉神记</a><em>2500万人在线</em></div>
+                     	  		</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104677891.png" title="捉神记">
+                     	  			<div class="desc">
+                     	  				<a href="http://shurl.cn/s/lRdJn4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.GAMENAME'})">捉神记</a>
+                     	  				<a href="http://shurl.cn/s/lRdJn4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                     	</li>                                                                           
+                                                                                        																																																																											                    
+                     	  <li>
+                     	  	<div class="br"><i>5</i>
+                     	  		<div class="item">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png" title="传奇霸业">
+                     	  			<div class="desc"><a href="#">传奇霸业</a><em>1325万人在线</em></div>
+                     	  		</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png" title="传奇霸业">
+                     	  			<div class="desc">
+                     	  				<a href="http://shurl.cn/s/3rb8Y4
+?iAppid=1104216374&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.GAMENAME'})">传奇霸业</a>
+                     	  				<a href="http://shurl.cn/s/3rb8Y4
+?iAppid=1104216374&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                     	</li>                                                                           
+                                                                                        																																																																											                    
+                     	  <li>
+                     	  	<div class="br"><i>6</i>
+                     	  		<div class="item">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104815014.png" title="怪物猎人开拓记">
+                     	  			<div class="desc"><a href="#">怪物猎人开拓记</a><em>1000万人在线</em></div>
+                     	  		</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104815014.png" title="怪物猎人开拓记">
+                     	  			<div class="desc">
+                     	  				<a href="http://shurl.cn/s/9ta8K4
+?iAppid=1104815014&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.GAMENAME'})">怪物猎人开拓记</a>
+                     	  				<a href="http://shurl.cn/s/9ta8K4
+?iAppid=1104815014&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                     	</li>                                                                           
+                                                                                        																																																																											                    
+                     	  <li>
+                     	  	<div class="br"><i>7</i>
+                     	  		<div class="item">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104729180.png" title="RO仙境物语">
+                     	  			<div class="desc"><a href="#">RO仙境物语</a><em>1000万人在线</em></div>
+                     	  		</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104729180.png" title="RO仙境物语">
+                     	  			<div class="desc">
+                     	  				<a href="http://shurl.cn/s/VoT16N
+?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.GAMENAME'})">RO仙境物语</a>
+                     	  				<a href="http://shurl.cn/s/VoT16N
+?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                     	</li>                                                                           
+                                                                                        																																																																											                    
+                     	  <li>
+                     	  	<div class="br"><i>8</i>
+                     	  		<div class="item">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104506100.png" title="我欲封天">
+                     	  			<div class="desc"><a href="#">我欲封天</a><em>1000万人在线</em></div>
+                     	  		</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104506100.png" title="我欲封天">
+                     	  			<div class="desc">
+                     	  				<a href="http://shurl.cn/s/629Rv4
+?iAppid=1104506100&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.GAMENAME'})">我欲封天</a>
+                     	  				<a href="http://shurl.cn/s/629Rv4
+?iAppid=1104506100&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                     	</li>                                                                           
+                                                                                        																																																																											                    
+                     	  <li>
+                     	  	<div class="br"><i>9</i>
+                     	  		<div class="item">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104655802.png" title="九阴绝学">
+                     	  			<div class="desc"><a href="#">九阴绝学</a><em>1000万人在线</em></div>
+                     	  		</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104655802.png" title="九阴绝学">
+                     	  			<div class="desc">
+                     	  				<a href="http://shurl.cn/s/7Mc5C4
+?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.GAMENAME'})">九阴绝学</a>
+                     	  				<a href="http://shurl.cn/s/7Mc5C4
+?iAppid=1104655802&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                     	</li>                                                                           
+                                                                                        																																																																											                    
+                     	  <li>
+                     	  	<div class="br"><i>10</i>
+                     	  		<div class="item">
+                     	  			<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102501967.png" title="逍遥">
+                     	  			<div class="desc"><a href="#">逍遥</a><em>820万人在线</em></div>
+                     	  		</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102501967.png" title="逍遥">
+                     	  			<div class="desc">
+                     	  				<a href="http://shurl.cn/s/ksNgA4
+?iAppid=1102501967&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.HOTGAME.GAMENAME'})">逍遥</a>
+                     	  				<a href="http://shurl.cn/s/ksNgA4
+?iAppid=1102501967&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                     	</li>                                                                           
+                                                 
+                </ul>
+            </div>
+            <div class="ctn g-ls ctn2">
+            	<ul>
+                                           
+                     	  <li class="hover">
+                     	  		<div class="br"><i>1</i>
+                     	  			<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104815014.png" title="怪物猎人开拓记">
+                     	  				<div class="desc">怪物猎人开拓记<em>1000万人在线</em></div>
+                       				</div>
+                     	  			<div class="layer"><a href="http://shurl.cn/s/dhqUA4
+?iAppid=1104815014&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.IMG'})">
+                     	  				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104815014.png" title="怪物猎人开拓记"></a>
+                     	  				<p><a href="#">怪物猎人开拓记</a><span>1000万人在线</span></p>
+                     	  				<a href="http://shurl.cn/s/dhqUA4
+?iAppid=1104815014&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                       			</div>
+                       	 </li>
+                     	                        
+                     	  <li class="hover">
+                     	  		<div class="br"><i>2</i>
+                     	  			<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104729180.png" title="RO仙境物语">
+                     	  				<div class="desc">RO仙境物语<em>1000万人在线</em></div>
+                       				</div>
+                     	  			<div class="layer"><a href="http://shurl.cn/s/r1kNRN
+?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.IMG'})">
+                     	  				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104729180.png" title="RO仙境物语"></a>
+                     	  				<p><a href="#">RO仙境物语</a><span>1000万人在线</span></p>
+                     	  				<a href="http://shurl.cn/s/r1kNRN
+?iAppid=1104729180&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                       			</div>
+                       	 </li>
+                     	                        
+                     	  <li class="hover">
+                     	  		<div class="br"><i>3</i>
+                     	  			<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104362707.png" title="赤壁战神">
+                     	  				<div class="desc">赤壁战神<em>100万人在线</em></div>
+                       				</div>
+                     	  			<div class="layer"><a href="http://shurl.cn/s/pPibF4
+?iAppid=1104362707&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.IMG'})">
+                     	  				<img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104362707.png" title="赤壁战神"></a>
+                     	  				<p><a href="#">赤壁战神</a><span>100万人在线</span></p>
+                     	  				<a href="http://shurl.cn/s/pPibF4
+?iAppid=1104362707&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                       			</div>
+                       	 </li>
+                     	                         
+                     
+                                           
+                     	  <li>
+                     	  	<div class="br"><i>4</i>
+                     	  		<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104613775.png" title="铁骑神兵">
+                     	  			<div class="desc"><a href="#">铁骑神兵</a><em>500万人在线</em></div>
+                       			</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104613775.png" title="铁骑神兵">
+                     	  			<div class="desc"><a href="http://shurl.cn/s/q0jRZ4
+?iAppid=1104613775&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.GAMENAME'})">铁骑神兵</a>
+                     	  				<a href="http://shurl.cn/s/q0jRZ4
+?iAppid=1104613775&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                       </li>  
+                                                
+                     	  <li>
+                     	  	<div class="br"><i>5</i>
+                     	  		<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104336830.png" title="魔尊">
+                     	  			<div class="desc"><a href="#">魔尊</a><em>132万人在线</em></div>
+                       			</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104336830.png" title="魔尊">
+                     	  			<div class="desc"><a href="http://shurl.cn/s/xeP06N
+?iAppid=1104336830&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.GAMENAME'})">魔尊</a>
+                     	  				<a href="http://shurl.cn/s/xeP06N
+?iAppid=1104336830&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                       </li>  
+                                                
+                     	  <li>
+                     	  	<div class="br"><i>6</i>
+                     	  		<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104769600.png" title="傲世群侠">
+                     	  			<div class="desc"><a href="#">傲世群侠</a><em>100万人在线</em></div>
+                       			</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104769600.png" title="傲世群侠">
+                     	  			<div class="desc"><a href="http://shurl.cn/s/b7nfF4
+?iAppid=1104769600&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.GAMENAME'})">傲世群侠</a>
+                     	  				<a href="http://shurl.cn/s/b7nfF4
+?iAppid=1104769600&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                       </li>  
+                                                
+                     	  <li>
+                     	  	<div class="br"><i>7</i>
+                     	  		<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102503166.png" title="雷霆反恐">
+                     	  			<div class="desc"><a href="#">雷霆反恐</a><em>12000万人在线</em></div>
+                       			</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1102503166.png" title="雷霆反恐">
+                     	  			<div class="desc"><a href="http://shurl.cn/s/9WoZFN
+?iAppid=1102503166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.GAMENAME'})">雷霆反恐</a>
+                     	  				<a href="http://shurl.cn/s/9WoZFN
+?iAppid=1102503166&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                       </li>  
+                                                
+                     	  <li>
+                     	  	<div class="br"><i>8</i>
+                     	  		<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104720888.png" title="无上神兵">
+                     	  			<div class="desc"><a href="#">无上神兵</a><em>800万人在线</em></div>
+                       			</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104720888.png" title="无上神兵">
+                     	  			<div class="desc"><a href="http://shurl.cn/s/iJGIr4
+?iAppid=1104720888&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.GAMENAME'})">无上神兵</a>
+                     	  				<a href="http://shurl.cn/s/iJGIr4
+?iAppid=1104720888&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                       </li>  
+                                                
+                     	  <li>
+                     	  	<div class="br"><i>9</i>
+                     	  		<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png" title="传奇霸业">
+                     	  			<div class="desc"><a href="#">传奇霸业</a><em>1325万人在线</em></div>
+                       			</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104216374.png" title="传奇霸业">
+                     	  			<div class="desc"><a href="http://shurl.cn/s/HQ0jO4
+?iAppid=1104216374&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.GAMENAME'})">传奇霸业</a>
+                     	  				<a href="http://shurl.cn/s/HQ0jO4
+?iAppid=1104216374&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                       </li>  
+                                                
+                     	  <li>
+                     	  	<div class="br"><i>10</i>
+                     	  		<div class="item"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104677891.png" title="捉神记">
+                     	  			<div class="desc"><a href="#">捉神记</a><em>2500万人在线</em></div>
+                       			</div>
+                     	  		<div class="layer cell"><img src="http://ossweb-img.qq.com/images/wusp/img/largelogo/1104677891.png" title="捉神记">
+                     	  			<div class="desc"><a href="http://shurl.cn/s/OCYmK4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.GAMENAME'})">捉神记</a>
+                     	  				<a href="http://shurl.cn/s/OCYmK4
+?iAppid=1104677891&amp;iServerid=-1&amp;iWlop=0&amp;iUnion=0&amp;pf=" target="_blank" class="btn" onclick="pgvSendClick({hottag:'WUP.INDEX.STARTGAME.NEWGAME.BTN'})">进入</a>
+                     	  			</div>
+                     	  		</div>
+                     	  </div>
+                       </li>  
+                                                 
+                </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+        
+    </div>
+</div>
+
+<script src="http://ossweb-img.qq.com/images/wusp/js/foot.js"></script><div id="footer_ied"><div class="wrap_ied"><p><a href="http://ieg.tencent.com" target="_blank">腾讯互动娱乐</a> | <a href="http://game.qq.com/contract.shtml" target="_blank">服务条款</a> | <a href="http://adver.qq.com/" target="_blank">广告服务</a> | <a href="http://game.qq.com/hr/" target="_blank">腾讯游戏招聘</a> | <a href="http://service.qq.com/" target="_blank">腾讯游戏客服</a> | <a href="http://game.qq.com/gnav" target="_blank">游戏地图</a> | <a href="http://tgact.qq.com/" target="_blank">游戏活动</a> | <a href="http://game.qq.com/brand/business.htm" target="_blank">商务合作</a> | <a href="http://www.qq.com/map/" target="_blank">网站导航</a> | <a href="http://guanjia.qq.com/product/yxhz/" target="_blank">全民游戏盒子</a></p><p class="e">COPYRIGHT © 1998 – 2015 TENCENT. ALL RIGHTS RESERVED.</p><p><a href="http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm" target="_blank">腾讯公司 版权所有</a></p></div></div><script src="http://ossweb-img.qq.com/images/js/dr/dr.js" type="text/javascript"></script>
+<script>
+
+	function getRecommendTask(){
+		var timestamp = Date.parse(new Date());
+		var url = "http://1.game.qq.com/app/login/index?t=" + timestamp+'&g_tk=' + getCSRFToken();
+		loadScript(url,function(loaded){
+			if(!loaded||!isObject(window["login_index"])){
+				alert("亲爱的玩家，当前网络繁忙，请稍后再试");
+				return;
+			}			
+			if(typeof(login_index.jData.r_task) != "undefined"){//推荐任务
+				$("#rtaskImg").attr("src",login_index.jData.r_task[0].sTaskPic);		
+				$("#rtaskName").html(login_index.jData.r_task[0].sTaskName);
+			}									
+		});		
+	}
+	function fetchLoginData(){
+		var timestamp = Date.parse(new Date());
+		var url = "http://1.game.qq.com/app/login/index?t=" + timestamp+'&g_tk=' + getCSRFToken();
+		loadScript(url,function(loaded){
+				if(!loaded||!isObject(window["login_index"])){
+					alert("亲爱的玩家，当前网络繁忙，请稍后再试");
+					return;
+				}
+				
+				if(typeof(login_index.jData.game) != "undefined"){//我的游戏
+					//console.log(login_index.jData.game);
+					need("util.template",function(template){
+						var t = template.parseDOMTemplate("tRecentGameList_template");
+						g("tRecentGameList_content").innerHTML = t.process(login_index.jData.game);
+					});
+				}	
+
+				if(typeof(login_index.jData.task) != "undefined"){//我的任务
+
+					if(login_index.jData.task.list.length == 0){										
+						$("#taskBox").hide();
+						$("#unloginTaskBox").show();
+						return;
+					}  	
+						
+					need("util.template",function(template){
+						
+						var t = template.parseDOMTemplate("tMyTask_template");
+						g("tMyTask_content").innerHTML = t.process(login_index.jData.task);
+					
+					});	
+
+															
+				}	
+				
+				if(typeof(login_index.jData.r_task) != "undefined"){//推荐任务
+					need("util.template",function(template){						
+
+						var t = template.parseDOMTemplate("rTask_template2");
+						g("taskBox2").innerHTML = t.process(login_index.jData.r_task);
+						
+					});
+				}
+
+				
+				$("#iMyTaskNum").html(login_index.jData.task.count);
+					
+									
+			});
+	}
+	   
+	
+	milo.ready(function() {
+
+		getRecommendTask();
+		
+		need("biz.login",function(LoginManager){
+			LoginManager.init({
+				needReloadPage:true
+			});
+			LoginManager.checkLogin(function(){//已登录
+				LoginManager.getNickName(function(loginInfo){						
+					g("login_nickname_span").innerHTML = filterXSS(loginInfo.nickName);
+					//console.log(LoginManager.getUserUin());				
+				});
+				LoginManager.getUserFace(function(faceInfo){
+					$("#login_qq_face").attr("src",faceInfo.userFace);
+				});
+				fetchLoginData();
+
+				/**Scott added in 2015-06-01**/
+				$("#rollbox ul li a").each(function(){//广告位添加qq号码后缀信息
+					var sHref = $(this).attr("href");
+					var reg = RegExp("qq=","g");
+					var sNewHref = sHref.replace(reg,"qq="+LoginManager.getUserUin());
+					$(this).attr('href',sNewHref);
+				});
+				
+				/**Scott added in 2015-06-01**/
+				//loginDisplayData();              
+			});
+		});	
+
+		milo.addEvent(g("dologin"), "click", function() {
+			need("biz.login",function(LoginManager){
+				LoginManager.init({
+					needReloadPage:true
+				});
+				LoginManager.login();
+			});
+			return false;
+		});
+		
+		
+		milo.addEvent(g("dologout"), "click", function() {
+			need("biz.login",function(LoginManager){
+				
+				LoginManager.logout();
+				unloginDisplayData();
+			});
+			return false;
+		});
+
+		
+	});	
+
+	
+	
+	
+</script>
+
+<script>
+function gameHover(num){
+	var token;
+	$("#gameBox .ctn"+num+" li:gt(2)").hover(function(){
+		$(this).addClass("hover");
+		token = $(this);
+	},function(){
+		$(this).removeClass("hover");
+		if(token!=null){token.removeClass("hover");}
+		token = $(this);
+	});
+}
+gameHover(1);
+
+function setTab(index,name){
+	$("#"+name+" .tab a").removeClass("curr");
+	$("#"+name+" .ctn").hide();
+	$("#"+name+" .tab a:eq("+(index-1)+")").addClass("curr");
+	$("#"+name).find(".ctn"+index).show();
+	if(name=="gameBox"){gameHover(index);}
+}
+
+function hoverEvent(objId){
+	var token = $("#"+objId).find(".hover");
+	$("#"+objId+" li").hover(function(){
+		token.removeClass("hover");
+		$(this).addClass("hover");
+		token = $(this);
+	},function(){
+		$(this).removeClass("hover");
+		if($("#"+objId+" li").find(".hover").length==0){
+			token.addClass("hover");
+		}
+	});
+}
+
+hoverEvent("gameList");
+hoverEvent("pkgList");
+hoverEvent("pkgList2");
+$(".g-ls-jp li").hover(function(){
+	$(this).find("b,.btn-bar").show();
+},function(){
+	$(this).find("b,.btn-bar").hide();
+});
+
+$(".g-ls-e li").hover(function(){
+	$(this).find(".tit-bar").animate({top:'126px'});
+},function(){
+	$(this).find(".tit-bar").animate({top:'84px'});
+});
+
+function TGDialogS(e){
+    need("biz.dialog-min",function(Dialog){
+        Dialog.show({
+            id:e,
+            bgcolor:'#000', //弹出"遮罩"的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+            opacity:50      //弹出"遮罩"的透明度，格式为｛10-100｝，可选
+        });
+    });
+}
+function closeDialog(){
+    need("biz.dialog-min",function(Dialog){
+        Dialog.hide();
+    });
+}
+
+function AutoScroll(obj){
+    $(obj).find("ul:first").animate({
+        marginTop:"-16px"
+    },500,function(){
+        $(this).css({marginTop:"0px"}).find("li:first").appendTo(this);
+    });
+}
+
+$(".menu dl").each(function(i){$(this).hover(function(){$(this).find("dt a").addClass("i-curr");},function(){$(this).find("dt a").removeClass("i-curr");});});
+
+if($("body").width()<=980){
+	$("#gg-box").width(1200);
+	$("#rollbox li").width(1200);
+}
+$(window).resize(function(){
+	var w = $("body").width();
+	$("#gg-box").width(w);
+	$("#rollbox li").width(w);
+	if(w>1200){
+		$("#gg-box").width(w);
+		$("#rollbox li").width(w);
+	}else{
+		$("#gg-box").width(1200);
+		$("#rollbox li").width(1200);
+	}
+	
+});
+</script>
+
+
+<div id="x5PluginContainer"><embed type="application/npqqwebgame" style="width:0px;height:0px;overflow:hidden;position:absolute;" id="plugin"></div><script src="//ossweb-img.qq.com/images/js/eas/eas.js" type="text/javascript"></script><script src="//dr.game.qq.com/dr.php" type="text/javascript"></script><div id="qqappextcontainer"><embed id="qqappPlugin" width="0" height="0" type="application/tencentopenplatform"></div></body></html>

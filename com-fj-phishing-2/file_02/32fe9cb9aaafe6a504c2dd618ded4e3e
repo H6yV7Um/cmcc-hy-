@@ -1,0 +1,255 @@
+<!DOCTYPE html><html class="ui-mobile"><head><base href="http://m.abchina.com/touch/">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="width=device-width,target-densitydpi=device-dpi" name="viewport">
+<meta media="screen and (min-width: 600px)" content="width=device-width,target-densitydpi=240" name="viewport">
+<meta name="WT.cg_abc" content="触屏版手机网站">
+<link href="./images/jquery.mobile-1.1.0.min.css" rel="stylesheet">
+<link href="./images/Site.css" rel="stylesheet">
+<script src="./images/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="./images/jquery.mobile-1.2.0.min.js" type="text/javascript"></script>
+<script src="./images/jquery.slotslider.min.js" type="text/javascript"></script>
+<title>中国农业银行手机版网站</title>
+<script src="http://click.abchina.com/dcss5jphj00000w4xd3d2zyro_7m4p/wtid.js"></script></head>
+<body class="ui-mobile-viewport ui-overlay-c">
+<script type="text/javascript">
+  var widget = require('widget'),util = require('util'),d=document,
+  ORIENTATION_CHANGE = 'onorientationchange' in window ? 'orientationchange' : 'resize';
+  function refreshSlides() {
+    new widget.OrientationReadyDetector(
+      {
+        clientWidth: dWidth,
+        callback:function(){
+          dWidth = $("#clientPage").width();
+          for (var i=0; i<slides.length; i++) {
+              slides[i].refresh({
+                  pageWidth: dWidth
+              });
+          }
+        }
+      }
+    );
+  }
+  window.addEventListener(ORIENTATION_CHANGE, refreshSlides, false);
+
+</script>
+<script type="text/javascript">
+
+     function move(silde , num){
+                slide = new widget.Slide({
+                    id: 'slide_'+num,                    
+                    pageWidth: dWidth,
+                    indicator: {
+                        id: 'slide_'+num+'_slot',
+                        activeClassName: 'msActive',
+                        controllable: true
+                    }
+                });
+                slides.push(slide);  
+            } 
+			var dBody = document.body,
+               // dWidth = dBody.clientWidth,
+                slides = [];
+            var silde_01 ="";
+	 $(document).ready(function(){
+	 dWidth = $("#clientPage").width();
+			move(silde_01,"01");
+	 });
+ window.onunload = function(){};
+</script>
+
+
+<div id="clientPage" data-role="page" tabindex="0" class="ui-page ui-body-c ui-page-active" data-url="clientPage" style="min-height: 768px;">
+    <div class="mHeader">
+       <div class="ui-grid-a ">
+	<div class="ui-block-a">
+		<a href="./" target="_self" class="showShadow  ui-link"><img alt="logo" src="./images/logo.png"></a></div>
+	<div class="ui-block-b">  
+	</div></div>
+        <div class="mMenu ui-grid-c">
+        <div class="ui-block-a">
+            <a class="mActive ui-link" href="./" target="_self">首页</a></div>
+        <div class="ui-block-b">
+            <a href="./cpyfw/" target="_self" class="showShadow  ui-link">产品服务</a></div>
+        <div class="ui-block-c">
+            <a href="./news/" target="_self" class="showShadow  ui-link">农行动态</a></div>
+        <div class="ui-block-d">
+            <a href="http://weibo.com/abchina" target="_self" class="showShadow  ui-link">微博</a></div>
+    </div>
+ </div>
+	<div style="position: relative;margin-top:5px">
+            <!--广告位-->
+	    <div class="mSlotHeader">
+        <img src="./images/tubiao1.png">掌上银行</div>
+		<div class="ui-grid-a mHorizontalLogin">
+		<div class="ui-block-a"><a href="http://wap.abchina.com/3G/logon/Index.aspx" target="_self" class="showShadow ui-link">3G时尚版登录</a></div>
+		<div class="ui-block-b"><a href="http://wap.abchina.com/Portal/logon/Index.aspx" target="_self" class="showShadow ui-link">WAP流畅版登录</a></div>
+	</div>
+    </div>
+    <div class="mSeparateLine">
+    </div>
+    <div class="ui-grid-c mImgSlot">
+	   <div class="ui-block-a">
+            <a href="http://mobile.abchina.com/download/clientDownload/zh_CN/MB_Index.aspx" target="_self" class="showShadow  ui-link">
+			<img alt="" src="./images/bank3.png"><p>客户端下载</p></a>
+	   </div>
+        <div class="ui-block-b">
+		<a href="http://wap.abchina.com/3G/logon/SHCsmApply.aspx" target="_self" class="showShadow  ui-link">
+            <img alt="" src="./images/bank4.png"><p>快捷注册</p></a>
+        </div>
+        <div class="ui-block-c">
+		 <a href="./ywsm/201304/t20130402_374681.htm" target="_self" class="showShadow  ui-link">
+            <img alt="" src="./images/bank6.png"><p>业务说明</p>
+		</a>
+        </div>
+        <div class="ui-block-d">
+            <a href="./ywsm/201304/t20130402_374682.htm" target="_self" class="showShadow  ui-link">
+			<img alt="" src="./images/bank7.png"><p>安全提示</p>
+        	</a>
+		</div>
+    </div>
+    <div class="mSlotHeader">
+        <img src="./images/tubiao2.png">便捷服务</div>
+    <div class="ui-grid-c mImgSlot">
+        <div class="ui-block-a">
+            <a href="http://m.abchina.com/touch/ewealthMobile/fs/" target="_self" class="showShadow  ui-link"><img alt="" src="./images/function1.png"><p>
+                理财</p></a>
+        </div>
+        <div class="ui-block-b">
+            <a href="http://m.abchina.com/touch/ewealthMobile/fund/" target="_self" class="showShadow  ui-link"><img alt="" src="./images/function2.png"><p>
+                基金</p></a>
+        </div>
+        <div class="ui-block-c">
+            <a href="http://app.abchina.com/mobileSite/CreditCard/CreditCard/PreferentialMerchants" target="_self" class="showShadow  ui-link"><img alt="" src="./images/function3.png"><p>
+                信用卡特惠商户</p></a>
+        </div>
+		<div class="ui-block-d">
+            <a href="./dzyhfw/" target="_self" class="showShadow  ui-link"><img alt="" src="./images/function5.png"><p>
+                电子银行</p></a>
+        </div>
+    </div>
+    <!--<div class="mSeparateLine"></div>-->
+    <div class="ui-grid-c mImgSlot">      
+		<div class="ui-block-a">
+            <a href="./utility/" target="_self" class="showShadow  ui-link"><img alt="" src="./images/function4.png"><p>
+                汇率利率</p></a>
+        </div>
+        <div class="ui-block-b">
+            <a href="http://app.abchina.com/mobileSite/KB/KB" target="_self" class="showShadow  ui-link"><img alt="" src="./images/function8.png"><p>
+                自助客服</p></a>
+        </div>
+       <div class="ui-block-c">
+            <a href="http://app.abchina.com/mobileSite/Branch/Branch?channel=5" target="_self" class="showShadow  ui-link"><img alt="" src="./images/function6.png"><p>
+                营业机构查询</p></a>
+        </div>
+        <!--<div class="ui-block-d">
+            <a href='./calc/' target="_self" class="showShadow "><img alt src="./images/function7.png" /><p>
+                计算器</p></a>
+        </div>-->
+<div class="ui-block-d">
+            <a href="https://eapply.abchina.com/onlinebook/?channel=5" target="_self" class="showShadow  ui-link"><img alt="" src="./images/zxpd.png"><p>
+                在线预约</p></a>
+        </div>
+    </div>
+<div id="slide_01_slot" class="mSlotHeader1">
+	<a id="menu1" class="msActive ui-link">优惠活动</a><a id="menu2" class="ui-link">服务公告</a><a id="menu3" class="ui-link">新闻中心</a></div>
+<div class="divContent">
+	<div id="slide_01" class="slider" style="overflow: hidden;"><div style="width: 6144px; -webkit-transform-style: preserve-3d; perspective: 1; -webkit-backface-visibility: hidden; -webkit-transition: 400ms; transition: 400ms; transform: translate3d(0px, 0px, 0px);">
+		<div class="newsList scroll-page" style="float: left; width: 1024px;">
+            <ul id="circle-list-bulletin">
+                
+
+                    <li><a href="./news/Promotions/201602/t20160224_834399.htm" class="ui-link" target="_self">全国——邀您来办卡，好礼等您拿（第一期）</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/Promotions/201602/t20160217_832806.htm" class="ui-link" target="_self">全国——办理金穗悠游世界信用卡 享三重好礼（第二期）</a>  </li>
+
+
+
+                    <li><a href="./news/Promotions/201601/t20160121_825115.htm" class="ui-link" target="_self">新年将至！福利盈门！</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/Promotions/201601/t20160121_825060.htm" class="ui-link" target="_self">全国——“吉祥之旅，乐享起航”2015年10-12月中奖客户公告</a>  </li>
+
+
+
+                    <li><a href="./news/Promotions/201601/t20160114_822690.htm" class="ui-link" target="_self">全国——猴年新气象 账单分期享好礼</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/Promotions/201601/t20160114_822688.htm" class="ui-link" target="_self">全国——“办理金穗悠游世界信用卡 享三重好礼”活动一中奖客户公告（11月、12月）</a>  </li>
+
+
+            </ul>
+<span class="mNewsMore showShadow">
+             <a href="./news/Promotions/" target="_self" class="ui-link">查看更多&gt;&gt;</a></span>	
+        </div>
+        <div class="newsList" style="float: left; width: 1024px;">
+            <ul id="circle-list-bulletin" class="move">
+                
+
+                    <li><a href="./news/SvcBulletin/201606/t20160603_888524.htm" class="ui-link" target="_self">关于6月10日储蓄国债（电子式）网银销售的公告</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/SvcBulletin/201606/t20160601_888043.htm" class="ui-link" target="_self">关于吉林分行暂停自助及第三方业务的公告（6月4日）</a>  </li>
+
+
+
+                    <li><a href="./news/SvcBulletin/201605/t20160531_887758.htm" class="ui-link" target="_self">关于暂停湖南张家界荷花机场贵宾通道服务的公告（6月1日）</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/SvcBulletin/201605/t20160526_886608.htm" class="ui-link" target="_self">关于我行生产系统维护的公告（5月27、28日）</a>  </li>
+
+
+
+                    <li><a href="./news/SvcBulletin/201605/t20160524_885994.htm" class="ui-link" target="_self">关于湖北分行暂停部分电子银行服务的公告（5月29日）</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/SvcBulletin/201605/t20160524_885993.htm" class="ui-link" target="_self">关于吉林分行短暂暂停自助业务的公告（5月29日）</a>  </li>
+
+
+            </ul>
+		<span class="mNewsMore showShadow">
+             <a href="./news/SvcBulletin/" target="_self" class="ui-link">查看更多&gt;&gt;</a></span>				
+        </div>
+        <div class="newsList" style="float: left; width: 1024px;">
+            <ul id="circle-list-bulletin" class="move">
+                
+
+                    <li><a href="./news/zxxx/201606/t20160603_888542.htm" class="ui-link" target="_self">农行升级“超级柜台” 三期功能投产上线</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/zxxx/201606/t20160602_888287.htm" class="ui-link" target="_self">中国农业银行2016年“激情仲夏”零售业务综合营销活动盛大开启</a>  </li>
+
+
+
+                    <li><a href="./news/zxxx/201605/t20160530_887508.htm" class="ui-link" target="_self">农业银行打造“三个圈层”互联网金融服务商品流通市场新模式</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/zxxx/201605/t20160526_886607.htm" class="ui-link" target="_self">周慕冰：全面加强党委领导班子建设  始终成为农行事业领导核心</a>  </li>
+
+
+
+                    <li><a href="./news/zxxx/201605/t20160526_886606.htm" class="ui-link" target="_self">农行投行服务全面助力企业发展</a>  </li>
+
+
+                    <li class="altItem"><a href="./news/zxxx/201605/t20160525_886272.htm" class="ui-link" target="_self">中国农业银行厦航白鹭联名信用卡正式发布</a>  </li>
+
+
+            </ul>
+<span class="mNewsMore showShadow">
+             <a href="./news/zxxx/" target="_self" class="ui-link">查看更多&gt;&gt;</a></span>
+        </div>
+		</div></div>
+    </div>
+<div class="mVersion">
+        <span class="showShadow load_mask"><a href="http://m.abchina.com/me/default.htm" target="_self" class="ui-link">简洁版</a></span><span class="mVersionActive showShadow "><a href="http://m.abchina.com/touch/default.htm" target="_self" class="ui-link">触屏版</a></span><span class="showShadow load_mask"><a href="http://www.abchina.com/cn" class="ui-link">电脑版</a></span>
+    </div>
+    <div class="mFooter">
+        <p>
+            全国统一客户服务热线<a href="tel:95599" class="ui-link"><img src="./images/tel.gif" alt="" border="0"></a></p>
+        <p>
+            中国农业银行版权所有</p>
+    </div>
+<script src="./images/dcs_tag.js" type="text/javascript"></script>
+</div>
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon ui-icon-loading"></span><h1>loading</h1></div></body></html>

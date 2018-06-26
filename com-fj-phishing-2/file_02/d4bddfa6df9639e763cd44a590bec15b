@@ -1,0 +1,2271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" src="http://www.zj.10086.cn/js/public/plugincode/webtrends.hm.js"></script><script src="http://www1.10086.cn/service/sso/checkuserloginstatus.jsp?callback=checkuserloginstatuscallback?t=1515481837907"></script>
+		<meta name="keywords" content="浙江移动网上营业厅,10086网上营业厅,网上营业厅缴费 话费充值,全球通,动感地带,神州行,合约机,移动选号 靓号,流量套餐 流量包,业务办理">
+		<meta name="description" content="浙江移动网上营业厅，隶属于中国移动通信集团。为移动客户提供话费充值、费用查询、业务查询、业务办理、在线客服10086、手机选号、0元购机、投诉咨询及品牌专区等全方位的电子自助服务，主要包含动感地带、神州行、全球通3大品牌，您的满意是我永恒的追求，浙江移动欢迎您！">
+		<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>网上营业厅_中国移动通信</title>
+		
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/style/style.css?t=20180109?t=1515481837907">
+<link rel="stylesheet" type="text/css" href="/style/lystyle.css?t=1515481837907">
+
+	<link href="/style/gotone.css?t=1515481837907" rel="stylesheet" type="text/css">
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/transact_style.css?t=1515481837907">
+<link rel="stylesheet" type="text/css" href="/css/all.css?t=1515481837907">
+<link rel="stylesheet" type="text/css" href="/css/basicSearch.css?t=1515481837907">
+<link rel="stylesheet" type="text/css" href="/style/haoma.css?t=1515481837907">
+<link href="http://www.zj.10086.cn/images/favicon.ico?t=1515481837907" rel="shortcut icon" type="images/x-icon">
+<script async="" src="http://www.zj.10086.cn/js/public/plugincode/webtrends.min.js?t=1515481837907"></script><script src="http://www.zj.10086.cn/js/public/jquery/jquery.js?t=1515481837907" type="text/javascript"></script>
+<script src="/js/public.js?t=20121203?t=1515481837907" type="text/javascript"></script>
+<script type="text/javascript" src="/js/ywcommon.js?t=1515481837907"></script>
+<script type="text/javascript" src="/js/blyw.js?t=1515481837907"></script>
+
+
+
+
+
+		<link rel="stylesheet" type="text/css" href="/style/netbanlv.css?t=1515481837907">
+		<link rel="stylesheet" type="text/css" href="/css/zj-service.css?t=20180109?t=1515481837907">
+		<style type="text/css">
+.orange a,.orange a:visited,.orange a:link {
+	color: orange;
+}
+</style>
+
+		<script type="text/javascript" src="/js/jquery.floatDiv-latest.min.js?t=1515481837907"></script>
+		<script type="text/javascript" src="/js/jquery.SuperSlide.js?t=1515481837907"></script>
+		<script type="text/javascript">
+		function goPayPage(obj){
+			//充值业务立即充值触发插码
+			if(window.WebTrends){
+				WebTrends.multiTrack('WT.si_n','ptcz','WT.si_x','czks');
+			}
+			if(document.getElementById("j-telnum").value == "请输入充值手机号码"){
+				document.getElementById("j-telnum").value = "";
+			}
+			
+			if(document.getElementById("j-charnum").value == "10-500元"){
+				document.getElementById("j-charnum").value = "";
+			}
+			
+			document.getElementById("zxczForm").submit();
+		};
+		function ckje(je){
+			document.getElementById("total").value=je;
+		}	
+</script>
+
+	<link rel="stylesheet" href="/common/screensaver/screenlock.css?t=1515481837907"><link rel="stylesheet" type="text/css" id="cssHead" href="http://www.zj.10086.cn/zj_head/zj_head.css?t=1515481837907"><script type="text/javascript" charset="UTF-8" src="http://search.10086.cn/share/richinfo_search.js?t=1515481837907"></script><link rel="stylesheet" type="text/css" href="http://www.zj.10086.cn/zj_tail/zj_tail.css"></head>
+	<body>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="languageUrl" value="http://www.zj.10086.cn/zjydmh/hdtj/getLanguageUrl.do">
+<input type="hidden" id="billId" value="">
+<input type="hidden" id="basePathabc" value="">
+<input type="hidden" id="ywUrl" value="http://service.zj.10086.cn?bid=">
+<input type="hidden" id="serviceUrl" value="http://service.zj.10086.cn/index.jsp">
+<!-- <script> 
+function stop(){ 
+return false; 
+} 
+document.oncontextmenu=stop; 
+</script> -->
+<script type="text/javascript">
+
+var currentCityName = '杭州';
+
+$(function(){
+	var code = '571';
+	var N_top = $(".N_top");
+	N_top.addClass("N_top"+code);
+})
+
+function share(shareto,type,url){
+	window.open("http://www.zj.10086.cn/zjydmh/hdtj/getTJUrl.do?path="+url+"&shareto="+shareto+"&type="+type+"&billId=","","_blank,toolbar=yes,menubar=yes,scrollbars=yes");
+}
+</script>
+<script type="text/javascript" language="javascript" charset="utf-8" src="http://www.zj.10086.cn/zj_head/zj_head.js?t=20180109"></script>
+<script type="text/javascript" language="javascript" charset="utf-8" src="http://www.zj.10086.cn/zj_tail/zj_tail.js?t=20180109"></script>
+<!-- 顶部登录开始 -->
+<div id="zj_head"><div id="topbar" class="topbar"><div class="topbarcon"><div class="topleft"><a id="tempBar0" href="http://www.chinamobileltd.com/?lang=en" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_ENGLISH');}">ENGLISH</a><a id="tempBar1" href="http://www.zj.10086.cn/power" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_ZQKH');}">政企客户</a></div><div class="topright"><div class="dropdown"><a id="dropdownMenu2" class="t3 dropdown-toggle rose">登录</a><div class="dropdown-menu" id="divLoginfcBar"><a id="loginYDSC" href="https://login.10086.cn/html/login/login.html?channelID=12002&amp;backUrl=http%3A%2F%2Fshop.10086.cn%2Fmall_571_571.html%3Fforcelogin%3D1" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_DL_YDSC_571|571');}">登录移动商城</a><a id="loginYYT" href="https://zj.ac.10086.cn/login" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_DL_YYT_571|571');}">登录网上营业厅</a></div></div><span>|</span><div class="dropdown" id="sjyyt"><a class="t1 dropdown-toggle" id="tempBar2" href="http://www.10086.cn/cmccclient" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_SJYYT');}">中国移动客户端</a><div class="dropdown-menu" id="yytbar"><img src="http://www.zj.10086.cn/zj_head/images/ewm.jpg" style="width: 100px; height: 100px;"><p>扫一扫，随时查话费！</p></div></div><span>|</span><a id="tempBar3" href="http://jf.10086.cn/" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_JFSC');}">积分商城</a><span>|</span><a id="tempBar4" href="http://www.10086.cn/aboutus/" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_GYZGYD');}">关于中国移动</a><span>|</span><a id="tempBar5" href="http://www.10086.cn/web_notice/contact/" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_TOP_LXWM');}">联系我们</a></div></div></div><div class="container" id="container"><div id="middle" class="headcon"><div id="middleLeft" class="logocity"><a class="logo" href="http://www.10086.cn/" onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_ZDH_LOGO');}"><img src="http://www.zj.10086.cn/zj_head/images/logo.png" alt="中国移动欢迎您"></a><div class="dropdown" style="z-index: 9999;">  <div class="topcity" id="dropdownMenu3">杭州</div>  <ul class="dropdown-menu" id="DivCity" style="display:none;">  <li>  <span>全部省份</span>  </li>  <li>  <dl class="clearfix">  <dt><span>A-G</span></dt>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="100" prov_abbr="bj" prov_name="北京">北京 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="551" prov_abbr="ah" prov_name="安徽">安徽 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="230" prov_abbr="cq" prov_name="重庆">重庆 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="591" prov_abbr="fj" prov_name="福建">福建 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="200" prov_abbr="gd" prov_name="广东">广东 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="771" prov_abbr="gx" prov_name="广西">广西 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="931" prov_abbr="gs" prov_name="甘肃">甘肃 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="851" prov_abbr="gz" prov_name="贵州">贵州 &gt;</a></dd>  </dl>  </li>  <li>  <dl class="clearfix">  <dt><span>H-J</span></dt>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="311" prov_abbr="he" prov_name="河北">河北 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="371" prov_abbr="ha" prov_name="河南">河南 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="898" prov_abbr="hi" prov_name="海南">海南 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="270" prov_abbr="hb" prov_name="湖北">湖北 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="731" prov_abbr="hn" prov_name="湖南">湖南 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="451" prov_abbr="hl" prov_name="黑龙江">黑龙江 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="431" prov_abbr="jl" prov_name="吉林">吉林 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="250" prov_abbr="js" prov_name="江苏">江苏 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="791" prov_abbr="jx" prov_name="江西">江西 &gt;</a></dd>  </dl>  </li>  <li>  <dl class="clearfix">  <dt><span>L-S</span></dt>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="240" prov_abbr="ln" prov_name="辽宁">辽宁 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="471" prov_abbr="nm" prov_name="内蒙古">内蒙古 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="951" prov_abbr="nx" prov_name="宁夏">宁夏 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="971" prov_abbr="qh" prov_name="青海">青海 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="210" prov_abbr="sh" prov_name="上海">上海 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="280" prov_abbr="sc" prov_name="四川">四川 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="531" prov_abbr="sd" prov_name="山东">山东 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="351" prov_abbr="sx" prov_name="山西">山西 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="290" prov_abbr="sn" prov_name="陕西">陕西 &gt;</a></dd>  </dl>  </li>  <li>  <dl class="clearfix">  <dt><span>T-Z</span></dt>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="220" prov_abbr="tj" prov_name="天津">天津 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="991" prov_abbr="xj" prov_name="新疆">新疆 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="891" prov_abbr="xz" prov_name="西藏">西藏 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="871" prov_abbr="yn" prov_name="云南">云南 &gt;</a></dd>  <dd><a href="javascript:void(0);" class="ac_show_city" prov_id="571" prov_abbr="zj" prov_name="浙江">浙江 &gt;</a></dd>  </dl>  </li>  </ul>  <ul class="dropdown-menu" id="divdishi" style="display:none;">  <li><span></span>&nbsp;&nbsp;<a href="javascript:void(0);"><span class="blue">[返回全部省份]</span></a></li>  <li>  <dl class="clearfix dishi">  </dl>  </li>  </ul>  </div>  </div><div class="searchdiv"><div class="searchbar input-group"><input value="家庭亲情网" id="skeywords" autocomplete="off" disableautocomplete="" class="form-control" type="form-control" onfocus="javascript:if(this.value==&quot;家庭亲情网&quot;){this.value=&quot;&quot;} this.style.color = &quot;#333333&quot;;" onblur="javascript:if(this.value==&quot;&quot;){this.value=&quot;家庭亲情网&quot;} this.style.color =&quot;#ccc&quot;" title="关键字必须至少有一个汉字或英文字母" name="qt" maxlength="20"><ul id="searchKeyWord1515481838206" class="search_toplist" style="display: none;"></ul><ul id="searchHistory1515481838206" class="search_toplist" style="display: none;"></ul><span class="input-group-btn"> <input id="searchbtn" type="button" onclick="if (typeof(_tag)!= &quot;undefined&quot;){_tag.dcsMultiTrack(&quot;WT.event&quot;,&quot;INDEX_SS&quot;);}" class="btn" value="搜索"></span></div><div class="hot"><a id="hotWord0" href="http://search.10086.cn/web/search?content=%E7%94%B5%E5%AD%90%E5%8F%91%E7%A5%A8&amp;areacode=zj" target="_blank" class="rose">电子发票</a><a id="hotWord1" href="http://search.10086.cn/web/search?content=%E9%80%89%E5%8F%B7%E5%85%A5%E7%BD%91&amp;areacode=zj" target="_blank">选号入网</a><a id="hotWord2" href="http://search.10086.cn/web/search?content=%E9%80%9A%E8%AF%9D%E8%AE%B0%E5%BD%95%E6%9F%A5%E8%AF%A2&amp;areacode=zj" target="_blank">通话记录查询</a><a id="hotWord3" href="http://search.10086.cn/web/search?content=%E5%AE%BD%E5%B8%A6&amp;areacode=zj" target="_blank">宽带</a><a id="hotWord4" href="http://search.10086.cn/web/search?content=%E4%BA%B2%E6%83%85%E7%BD%91&amp;areacode=zj" target="_blank" class="rose">亲情网</a><a id="hotWord5" href="http://search.10086.cn/web/search?content=%E6%B5%81%E9%87%8F%E5%85%B1%E4%BA%AB&amp;areacode=zj" target="_blank" class="rose">流量共享</a></div></div></div><div class="navbar"><div class="navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li class="navindex active" id="navTop4"><a id="topA4" href="http://www.10086.cn/">首页</a></li><li class="dropdown" id="navTop0"><a class="dropdown-toggle" id="topA0" href="http://shop.10086.cn/mall_571_571.html">移动商城<ins></ins></a><div class="dropdown-menu" id="secMenu0" onmouseover="navOver(0)" onmouseout="navOut(0)"><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_YDSC_SEC_0_571|571');}" href="http://shop.10086.cn/list/101_571_571_0_0_0_0.html">买手机</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_YDSC_SEC_1_571|571');}" href="http://shop.10086.cn/list/140_571_571_0_0_0_0.html">办套餐</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_YDSC_SEC_2_571|571');}" href="http://shop.10086.cn/list/146_571_571_0_0_0_0.html">办业务</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_YDSC_SEC_3_571|571');}" href="http://shop.10086.cn/list/128_571_571_0_0_0_0.html">挑配件</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_YDSC_SEC_4_571|571');}" href="http://shop.10086.cn/i/?f=rechargecredit">立即充值</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_YDSC_SEC_5_571|571');}" href="http://shop.10086.cn/i/">个人中心</a></p></div></li><li class="dropdown" id="navTop1"><a class="dropdown-toggle" id="topA1" href="http://www.zj.10086.cn/my/">我的移动<ins></ins></a><div class="dropdown-menu" id="secMenu1" onmouseover="navOver(1)" onmouseout="navOut(1)"><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WDYD_SEC_0_571|571');}" href="http://www.zj.10086.cn/my/userinfo/userYdinfoFirst.jsp">账户管理</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WDYD_SEC_1_571|571');}" href="http://www.zj.10086.cn/my/include/mybill.jsp">我的账单</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WDYD_SEC_2_571|571');}" href="http://www.zj.10086.cn/my/colorMusic/servicezyyw.jsp">我的业务</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WDYD_SEC_3_571|571');}" href="http://www.zj.10086.cn/my/fee/mycz.do">我的充值</a></p></div></li><li class="dropdown" id="navTop2"><a class="dropdown-toggle" id="topA2" href="http://service.zj.10086.cn/">网上营业厅<ins></ins></a><div class="dropdown-menu" id="secMenu2" onmouseover="navOver(2)" onmouseout="navOut(2)"><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WSYYT_SEC_0_571|571');}" href="http://service.zj.10086.cn/busi/goYwQueryPage.do?busi_id=BC5CC0A69BBA0482E044001635842131&amp;0.04663833572757775">查询服务</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WSYYT_SEC_1_571|571');}" href="http://service.zj.10086.cn/busi/goYwTransPage.do?0.46255804713610243">业务办理</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WSYYT_SEC_2_571|571');}" href="http://www.zj.10086.cn/cuxiaoyouhui/index.html">优惠促销</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WSYYT_SEC_3_571|571');}" href="http://service.zj.10086.cn/zxtc_4g/zxtc_4G.do?menuId=6249&amp;AISSO_LOGIN=true">飞享自选套餐</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WSYYT_SEC_4_571|571');}" href="http://service.zj.10086.cn/kdzq/kdNewOrder.do">移动光宽带</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_WSYYT_SEC_5_571|571');}" href="http://service.zj.10086.cn/yw/electronicInvoice/queryInvoiceList.do">电子发票</a></p></div></li><li class="dropdown" id="navTop3"><a class="dropdown-toggle" id="topA3" href="http://www.10086.cn/support/">服务与支持<ins></ins></a><div class="dropdown-menu" id="secMenu3" onmouseover="navOver(3)" onmouseout="navOut(3)"><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_FWYZC_SEC_0_571|571');}" href="http://www.10086.cn/support/servicefee/newbusiness/">产品</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_FWYZC_SEC_1_571|571');}" href="http://www.10086.cn/fee/">资费专区</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_FWYZC_SEC_2_571|571');}" href="http://www.10086.cn/support/terminalapp/terminal/">终端售后点查询</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_FWYZC_SEC_3_571|571');}" href="http://www.10086.cn/roaming/">国际/港澳台</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_FWYZC_SEC_4_571|571');}" href="http://club.10086.cn/">中国移动俱乐部</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_FWYZC_SEC_5_571|571');}" href="http://www.10086.cn/support/channel/Entity1/">实体营业厅</a></p><p><a onclick="javascript:if(typeof(_tag)!= 'undefined'){_tag.dcsMultiTrack('WT.event','INDEX_FWYZC_SEC_6_571|571');}" href="http://service.zj.10086.cn/yw/complain/toComplainQuery.do?menuId=8421&amp;bid=BD399F39E69148CFE044001635842131">投诉工单查询</a></p></div></li></ul></div></div></div></div>
+<div class="clear"></div>
+<script>
+var cookieId = getCookie("searchcookie");
+	// 保存 Cookie
+	function setCookie ( name, value ){
+		expires = new Date();
+		expires.setTime(expires.getTime() + (1000 * 86400 * 365));
+		document.cookie = name + "=" + escape(value) + "; expires=" + expires.toGMTString() + "; path=/";
+	}
+	// 获取 Cookie
+	function getCookie ( name ){
+		cookie_name = name + "=";
+		cookie_length = document.cookie.length;
+		cookie_begin = 0;
+		while (cookie_begin < cookie_length){
+			value_begin = cookie_begin + cookie_name.length;
+			if (document.cookie.substring(cookie_begin, value_begin) == cookie_name){
+				var value_end = document.cookie.indexOf ( ";", value_begin);
+				if (value_end == -1){
+					value_end = cookie_length;
+				}
+				return unescape(document.cookie.substring(value_begin, value_end));
+			}
+			cookie_begin = document.cookie.indexOf ( " ", cookie_begin) + 1;
+			if (cookie_begin == 0){
+				break;
+			}
+		}
+		return null;
+	}
+ 
+	// 清除 Cookie
+	function delCookie ( name ){
+		var expireNow = new Date();
+		document.cookie = name + "=" + "; expires=Thu, 01-Jan-70 00:00:01 GMT" + "; path=/";
+	}
+
+	function init (data) {
+		//业务
+		var siteType = "";
+		if ("business" == data) {
+			siteType = search_conf.BUSINESS;
+		} else if ("activity" == data) {
+			siteType = search_conf.ACTIVITY;
+		} else if ("news" == data) {
+			siteType = search_conf.NEWS;
+		}else if("terminal"==data){
+                           siteType = search_conf.TERMINAL;
+               }
+document.getElementById('siteType').value = siteType;
+		setCookie("searchcookie",data);
+	}
+</script>
+<script type="text/javascript" src="http://www.zj.10086.cn/js/sdc_zj.js"></script>
+		<script type="text/javascript">
+	_tag.trackEvent();
+</script>
+		<script type="text/javascript">
+	$(function() {
+		// 上网伴侣发表意见
+		var netBanlv = function() {
+			//document.domain='10086.cn'; //网上营业厅 上线时需要设置此项解决跨域问题
+			//$("body").append($("#f_banLv")); //使用CMS发布时需要移动层位置
+			var f_banLv = $("#f_banLv"), banLv_btn = $("#banLv_btn"), banLv_infor = $("#banLv_infor"), N_banLv_close = $("#N_banLv_close"), f_banLv_close = $("#f_banLv_close"), f_banLv_fold = $("#f_banLv_fold"), N_tijiao = $("#N_tijiao"), tid, delayTime = 300;
+			// 发表意见按钮鼠标悬停
+			f_banLv.hover(function() {
+				clearTimeout(tid);
+				banLv_infor.slideDown(400);
+			}, function() {
+				tid = setTimeout(function() {
+					banLv_infor.slideUp(150)
+				}, delayTime);
+			});
+			banLv_btn.click(function() {
+				$("#jianyiCon").val("");
+				$("#banLv_pop").floatDiv( {
+					width : 469,
+					height : 423,
+					close : '#N_banLv_close',
+					drag : 'h4',
+					ifScroll : false
+				});
+				if (!$("#newIframe").attr("src")) {
+					document.domain = '10086.cn';
+					var newIframeSrc = $("#newIframe").attr("datasrc");
+					$("#newIframe").attr("src", newIframeSrc);
+				}
+			});
+			// 关闭按钮鼠标悬停
+			N_banLv_close.add('#f_banLv_close').hover(
+					function() {
+						$(this).addClass(
+								this.id == 'N_banLv_close' ? "N_banLv_close_h"
+										: "f_banLv_close_h");
+					},
+					function() {
+						$(this).removeClass(
+								this.id == 'N_banLv_close' ? "N_banLv_close_h"
+										: "f_banLv_close_h");
+					});
+			// 点击折叠
+			f_banLv_close.click(function() {
+				f_banLv.hide();
+				f_banLv_fold.floatDiv( {
+					width : 25,
+					height : 120,
+					cover : false,
+					level : "right",
+					esc : false,
+					blank : false,
+					drag : 'aaa'
+				});
+			});
+
+			f_banLv_fold.mouseover(function() {
+				f_banLv_fold.hide();
+				f_banLv.show();
+			});
+
+			f_banLv.floatDiv( {
+				width : 123,
+				height : 202,
+				cover : false,
+				level : "right",
+				esc : false,
+				blank : false,
+				drag : 'aaa'
+			});
+		};
+
+		if ($("#f_banLv").length) {
+			netBanlv();
+		}
+		;
+
+	});
+	// 提供给框架内调用父层 关闭方法
+	function closeTheDiv() {
+		$("#banLv_pop").floatDiv( {
+			onOff : false
+		});
+	};
+</script>
+
+		<div class="zjser-contain">
+			<div class="zjser-crumb fn-clear">
+				<h3 class="fn-left">
+					网上营业厅
+				</h3>
+				<div class="fn-right">
+					<a href="http://www.zj.10086.cn">首页</a> &gt;
+					<span>网上营业厅</span>
+				</div>
+			</div>
+		</div>
+		<div class="zjser-contain fn-clear">
+			<!--左侧内容开始-->
+			<!--全部分类开始-->
+			
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/zj-service.css">
+<script>if (!cake) {var cake = {}}</script>
+<script src="/js/fix-1.0.1-min.js" type="text/javascript"></script>
+<script src="/js/slide-1.0.0-min.js" type="text/javascript"></script>
+<script src="/js/shouye.js" type="text/javascript"></script>
+
+<form id="allBusiDTO" action="/busi/query.do" method="post">
+	<input type="hidden" id="busiNo" name="busiNo" value="-1">
+	<input type="hidden" id="userType" name="userType" value="-1">
+	<input type="hidden" id="brand" name="brand" value="-1">
+	<input type="hidden" id="firstChar" name="firstChar" value="-1">
+	<input type="hidden" id="busiName" name="busiName" value="">
+	<input type="hidden" id="curpage" name="curpage">
+</form>
+<script type="text/javascript">
+	function goYwQueryPage() {
+		document.getElementById("allBusiDTO").action = '/busi/goYwQueryPage.do';
+		document.getElementById("allBusiDTO").submit();
+	}
+
+	function goYwTransPage() {
+		document.getElementById("allBusiDTO").action = '/busi/goYwTransPage.do';
+		document.getElementById("allBusiDTO").submit();
+	}
+</script>
+
+<div class="zjser-menu">
+	<!--左侧导航 开始-->
+	
+	<div class="zjser-menu-list">
+		<div class="zjser-menu-tree">
+			<i class="out"></i>
+			<span class="menu0"></span>
+			<h2>
+				<a title="查询服务" href="#this" onclick="window.location='/busi/goYwQueryPage.do?busi_id=BC5CC0A69BBA0482E044001635842131&amp;menuId=300&amp;'+Math.random();">查询服务</a>
+			</h2>
+		</div>
+		<div class="menuchild fn-clear" style="display: none;">
+			
+
+
+
+
+
+
+
+
+<div class="menuchild-right fn-right">
+	
+	<dl>
+		<dt>
+			业务推荐
+		</dt>
+		<dd>
+			
+			<div class="ywtj_left">
+				
+
+				<a href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa389a9e2b0138b3792c9e0151&amp;menuId=29634" title="随意玩流量包" target="_blank">随意玩流量包</a>
+				<br>
+				
+
+				<a href="http://service.zj.10086.cn/ywnew/transact/familynet/queryFamilyNets.do?bid=BFA93573C41250FEE044B499BA622A0A&amp;menuId=13303" title="家庭亲情网" target="_blank">家庭亲情网</a>
+				<br>
+				
+
+				<a href="http://service.zj.10086.cn/ywnew/transact/vpmn/list.do?bid=BFA93573C3F150FEE044B499BA622A0A&amp;menuId=25870" title="虚拟网业务" target="_blank">虚拟网业务</a>
+				<br>
+				
+			</div>
+			<div class="leftAdvId1"></div>
+			<div class="leftAdvId2"></div>
+			<div class="leftAdvId3"></div>
+			
+		</dd>
+	</dl>
+	
+
+
+
+	
+	<dl>
+		<dt>
+			促销活动
+		</dt>
+		<dd>
+			
+			<a href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa389a9e2b0138b3792c9e0151&amp;menuId=29634" title="随意玩流量包" target="_blank">随意玩流量包</a>
+			
+			<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do" title="网上选号" target="_blank">网上选号</a>
+			
+			<a href="javascript:void(0);" onclick="down10086Link();" title="添加网上营业厅到桌面">添加网上营业厅到桌面</a>
+		</dd>
+	</dl>
+	
+</div>
+			<div class="menuchild-left fn-left">
+
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/goYwQueryPage.do?busi_id=BC5CC0A69BBA0482E044001635842131&amp;menuId=301" title="更多" target="_blank">更多&gt;&gt;</a>账单查询</h3>
+
+					
+					<a href="/yw/bill/realFee.do?menuId=13004&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13004','WT.si_x','1');}" target="_blank">实时话费和余额查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/myBillAnalysis/myBillAnalysisQuery.do?menuId=13003&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13003','WT.si_x','1');}" target="_blank">历史月账单</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/bill/billDetail.do?month=0&amp;menuId=13104&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13104','WT.si_x','1');}" target="_blank">实时账单</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/flowBill/myFlowStatistics.do?menuId=310&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','310','WT.si_x','1');}" target="_blank">历史流量月账单</a>
+					
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/goYwQueryPage.do?busi_id=BC5CC0A69BBA0482E044001635842131&amp;menuId=302" title="更多" target="_blank">更多&gt;&gt;</a>使用查询</h3>
+
+					
+					<a href="/yw/myBusiness/myBusinessQuery.do?menuId=13337&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13337','WT.si_x','1');}" target="_blank">已订业务查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/usedQuery/beforeHistoryMonthQuery.do?menuId=13336&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13336','WT.si_x','1');}" target="_blank">套餐余量查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/bill/spPayRecordsQuery.do?menuId=13059&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13059','WT.si_x','1');}" target="_blank">SP包月扣费记录查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/familynet/queryFamilyNetsCX.do?menuId=13056&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13056','WT.si_x','1');}" target="_blank">亲情网查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/flowNotCleared/qryFlowNotCleared.do?menuId=13339&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13339','WT.si_x','1');}" target="_blank">流量不清零查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/query/vpmn/listGroup.do?menuId=13055&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13055','WT.si_x','1');}" target="_blank">虚拟网查询</a>
+					
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/goYwQueryPage.do?busi_id=BC5CC0A69BBA0482E044001635842131&amp;menuId=303" title="更多" target="_blank">更多&gt;&gt;</a>信息查询</h3>
+
+					
+					<a href="/yw/info/queryCustomerInfo.do?menuId=13099&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13099','WT.si_x','1');}" target="_blank">基本资料查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/rechargeQuery/searchRecharge.do?menuId=13333&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13333','WT.si_x','1');}" target="_blank">充值记录查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/flow/goQueryBillDetail.do?menuId=13030&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13030','WT.si_x','1');}" target="_blank">流量充值记录查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/paperless/acceptBill.do?menuId=28770&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','28770','WT.si_x','1');}" target="_blank">用户受理单据查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/point/queryMark.do?menuId=13044&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13044','WT.si_x','1');}" target="_blank">积分查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/repairAccept/repairAccept.do?menuId=8401&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','8401','WT.si_x','1');}" target="_blank">终端售后查询</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/complain/toComplainQuery.do?menuId=8421&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','8421','WT.si_x','1');}" target="_blank">投诉工单查询</a>
+					
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/goYwQueryPage.do?busi_id=BC5CC0A69BBA0482E044001635842131&amp;menuId=304" title="更多" target="_blank">更多&gt;&gt;</a>详单查询</h3>
+
+					
+					<a href="/yw/detail/queryHisDetailBill.do?menuId=13009&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13009','WT.si_x','1');}" target="_blank">语音详单</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/detail/queryHisDetailBill.do?menuId=13013&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13013','WT.si_x','1');}" target="_blank">代收费业务扣费记录</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/detail/queryHisDetailBill.do?menuId=13011&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13011','WT.si_x','1');}" target="_blank">短信彩信详单</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/detail/queryHisDetailBill.do?menuId=13015&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13015','WT.si_x','1');}" target="_blank">上网详单</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/detail/queryHisDetailBill.do?menuId=13282&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13282','WT.si_x','1');}" target="_blank">增值业务详单</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/detail/queryHisDetailBill.do?menuId=312&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','312','WT.si_x','1');}" target="_blank">详单下载</a>
+					
+					
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+	
+	<div class="zjser-menu-list">
+		<div class="zjser-menu-tree">
+			<i class="out"></i>
+			<span class="menu1"></span>
+			<h2>
+				<a title="业务办理" href="#this" onclick="window.location='/busi/goYwTransPage.do?menuId=400&amp;'+Math.random();">业务办理</a>
+			</h2>
+		</div>
+		<div class="menuchild fn-clear" style="display: none;">
+			
+
+
+
+
+
+
+
+
+<div class="menuchild-right fn-right">
+	
+	<dl>
+		<dt>
+			业务推荐
+		</dt>
+		<dd>
+			
+			<div class="ywtj_left">
+				
+
+				<a href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa389a9e2b0138b3792c9e0151&amp;menuId=29634" title="随意玩流量包" target="_blank">随意玩流量包</a>
+				<br>
+				
+
+				<a href="http://service.zj.10086.cn/ywnew/transact/familynet/queryFamilyNets.do?bid=BFA93573C41250FEE044B499BA622A0A&amp;menuId=13303" title="家庭亲情网" target="_blank">家庭亲情网</a>
+				<br>
+				
+
+				<a href="http://service.zj.10086.cn/ywnew/transact/vpmn/list.do?bid=BFA93573C3F150FEE044B499BA622A0A&amp;menuId=25870" title="虚拟网业务" target="_blank">虚拟网业务</a>
+				<br>
+				
+			</div>
+			<div class="leftAdvId1"></div>
+			<div class="leftAdvId2"></div>
+			<div class="leftAdvId3"></div>
+			
+		</dd>
+	</dl>
+	
+
+
+
+	
+	<dl>
+		<dt>
+			促销活动
+		</dt>
+		<dd>
+			
+			<a href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa389a9e2b0138b3792c9e0151&amp;menuId=29634" title="随意玩流量包" target="_blank">随意玩流量包</a>
+			
+			<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do" title="网上选号" target="_blank">网上选号</a>
+			
+			<a href="javascript:void(0);" onclick="down10086Link();" title="添加网上营业厅到桌面">添加网上营业厅到桌面</a>
+		</dd>
+	</dl>
+	
+</div>
+			<div class="menuchild-left fn-left">
+
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=401&amp;index=0&amp;menuId=401" title="更多" target="_blank">更多&gt;&gt;</a>服务与设置</h3>
+
+					
+					<a href="/yw/showinfo/show.do?bid=BFA93573C42450FEE044B499BA622A0A&amp;menuId=6404" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6404','WT.si_x','1');}" target="_blank">保密天使</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=BFA93573C3DF50FEE044B499BA622A0A&amp;menuId=6405" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6405','WT.si_x','1');}" target="_blank">余额天天提醒</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BFA93573C3F950FEE044B499BA622A0A&amp;menuId=13070" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13070','WT.si_x','1');}" target="_blank">呼叫转移</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a558b6896d0158b91a3cab3be7&amp;menuId=910042" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910042','WT.si_x','1');}" target="_blank">移动省钱快报</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a559c692a60159cf4784b4572d&amp;menuId=910140" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910140','WT.si_x','1');}" target="_blank">杭州有线宽带包年标准资费</a>
+					&nbsp;|&nbsp;
+					
+					<a href="http://www.hehuiyan.com?bid=8ace47a55cf9d26c015d074c8152426d&amp;menuId=910259" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910259','WT.si_x','1');}" target="_blank">和慧眼</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55d2623e7015d30ab82e05183&amp;menuId=910266" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910266','WT.si_x','1');}" target="_blank">防诈骗来电号码提示服务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BFA93573C41B50FEE044B499BA622A0A&amp;menuId=13069" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13069','WT.si_x','1');}" target="_blank">呼叫等待</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/query/queryMobileOs.do?bid=BD399F39E6DA48CFE044001635842131&amp;menuId=13023" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13023','WT.si_x','1');}" target="_blank">停机（挂失报停）/复机</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/query/queryBillState.do?bid=BD399F39E6DB48CFE044001635842131&amp;menuId=13025" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13025','WT.si_x','1');}" target="_blank">账单服务</a>
+					&nbsp;|&nbsp;
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=402&amp;index=1&amp;menuId=402" title="更多" target="_blank">更多&gt;&gt;</a>基础套餐</h3>
+
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55414be2201542879c7a04bf8&amp;menuId=9795" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','9795','WT.si_x','1');}" target="_blank">移动标准资费</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55e7cc8c9015ea24fbe132f3f&amp;menuId=910316" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910316','WT.si_x','1');}" target="_blank">4G飞悦套餐</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ac64baa42e24cae014303bbd75b026c&amp;menuId=6249" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6249','WT.si_x','1');}" target="_blank">4G飞享套餐</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55cf9d26c015d07646121002c&amp;menuId=910257" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910257','WT.si_x','1');}" target="_blank">流量分享卡</a>
+					
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=403&amp;index=6&amp;menuId=403" title="更多" target="_blank">更多&gt;&gt;</a>集团业务</h3>
+
+					
+					<a href="http://poc.10086.cn?bid=8ace47a55cf0beb2015cf8648030675c&amp;menuId=910261" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910261','WT.si_x','1');}" target="_blank">和对讲</a>
+					
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=404&amp;index=3&amp;menuId=404" title="更多" target="_blank">更多&gt;&gt;</a>精彩生活</h3>
+
+					
+					<a href="/ywnew/transact/common/list.do?bid=BFA93573C39550FEE044B499BA622A0A&amp;menuId=13108" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13108','WT.si_x','1');}" target="_blank">短信助手</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a5522990ce015235be60936d33&amp;menuId=9742" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','9742','WT.si_x','1');}" target="_blank">车友助理</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BF44EE3562E062ECE044B499BA622A0A&amp;menuId=22932" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','22932','WT.si_x','1');}" target="_blank">主叫彩铃</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=BFA93573C3A850FEE044B499BA622A0A&amp;menuId=7502" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','7502','WT.si_x','1');}" target="_blank">咪咕音乐</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ace47a54d76f745014d94a6923500a1&amp;menuId=7509" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','7509','WT.si_x','1');}" target="_blank">和彩印</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ac64baa43bad9c901440a1fc72b7c54&amp;menuId=32507" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','32507','WT.si_x','1');}" target="_blank">和娱乐包</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BFA93573C3AB50FEE044B499BA622A0A&amp;menuId=13074" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13074','WT.si_x','1');}" target="_blank">无线音乐俱乐部</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BF44EE35629162ECE044B499BA622A0A&amp;menuId=22843" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','22843','WT.si_x','1');}" target="_blank">音乐图片下载业务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a558298ee101582d1777e65c55&amp;menuId=910027" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910027','WT.si_x','1');}" target="_blank">咪咕圈圈会员</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BF44EE35630C62ECE044B499BA622A0A&amp;menuId=22828" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','22828','WT.si_x','1');}" target="_blank">无线音乐专辑汇</a>
+					&nbsp;|&nbsp;
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=405&amp;index=7&amp;menuId=405" title="更多" target="_blank">更多&gt;&gt;</a>群组服务</h3>
+
+					
+					<a href="/yw/showinfo/show.do?bid=BFA93573C41750FEE044B499BA622A0A&amp;menuId=6403" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6403','WT.si_x','1');}" target="_blank">一卡多号-香港业务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BFA93573C3E450FEE044B499BA622A0A&amp;menuId=13389" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13389','WT.si_x','1');}" target="_blank">校园虚拟网短信叠加包</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=BF44EE3563F962ECE044B499BA622A0A&amp;menuId=27148" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','27148','WT.si_x','1');}" target="_blank">亲情通</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/unipay/search.do?bid=BFA93573C40F50FEE044B499BA622A0A&amp;menuId=19661" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','19661','WT.si_x','1');}" target="_blank">家庭统一支付</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/familynet/queryFamilyNets.do?bid=BFA93573C41250FEE044B499BA622A0A&amp;menuId=13303" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13303','WT.si_x','1');}" target="_blank">家庭亲情网</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/vpmn/list.do?bid=BFA93573C3F150FEE044B499BA622A0A&amp;menuId=25870" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','25870','WT.si_x','1');}" target="_blank">虚拟网业务</a>
+					
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=406&amp;index=4&amp;menuId=406" title="更多" target="_blank">更多&gt;&gt;</a>上网业务</h3>
+
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a54d066ef7014d092c4b871d86&amp;menuId=6003" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6003','WT.si_x','1');}" target="_blank">宽带提速宝</a>
+					&nbsp;|&nbsp;
+					
+					<a href="http://www.10086.cn/roaming/Outbound/Rec_business/201304/t20130403_42289.htm?bid=8ac64baa3df9aa5f013e20f42e8b7e56&amp;menuId=6852" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6852','WT.si_x','1');}" target="_blank">随e行WLAN国际/港澳台漫游出访</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ac64baa43bad9c90143c1ae35963747&amp;menuId=32695" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','32695','WT.si_x','1');}" target="_blank">国际/港澳台漫游上网资费</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a54e52c283014e6c0f69c70597&amp;menuId=8439" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','8439','WT.si_x','1');}" target="_blank">杭州有线宽带标准资费</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55969fc4c01596d8818fd3fc2&amp;menuId=910082" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910082','WT.si_x','1');}" target="_blank">杭州地铁流量包</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ac64baa458f900c0145b1733ca425b3&amp;menuId=32242" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','32242','WT.si_x','1');}" target="_blank">WLAN上网业务（公众版）</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ac64baa46448eca014646c60f252971&amp;menuId=32251" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','32251','WT.si_x','1');}" target="_blank">流量加油包</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a54d0ae6f2014d1e3253b602a9&amp;menuId=6621" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6621','WT.si_x','1');}" target="_blank">家庭宽带服务承诺</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/transact/sharingTraffic/querySharingTraffic.do?bid=8ac64baa46448eca014655069f516021&amp;menuId=6618" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6618','WT.si_x','1');}" target="_blank">流量共享业务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ac64baa4788667a01478a512f171b52&amp;menuId=6604" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6604','WT.si_x','1');}" target="_blank">WLAN上网卡</a>
+					&nbsp;|&nbsp;
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=407&amp;index=2&amp;menuId=407" title="更多" target="_blank">更多&gt;&gt;</a>通话及短彩信业务</h3>
+
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a64a133d7f014a13f215e90004&amp;menuId=6423" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6423','WT.si_x','1');}" target="_blank">移动安心小号业务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=BFA93573C40450FEE044B499BA622A0A&amp;menuId=13072" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','13072','WT.si_x','1');}" target="_blank">彩信超市</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?menuId=30783&amp;bid=BD399F39E69148CFE044001635842131" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','30783','WT.si_x','1');}" target="_blank">定向国际长途优惠包（ABCE）</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55945858b015948adf3a219e1&amp;menuId=910055" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910055','WT.si_x','1');}" target="_blank">国际短信</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55945858b015948afc975217a&amp;menuId=910056" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910056','WT.si_x','1');}" target="_blank">国际彩信</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a5594f3b670159620732825ca1&amp;menuId=910073" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910073','WT.si_x','1');}" target="_blank">呼死你防护业务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ace47a54f4ba7cf014f64b27fb16ad5&amp;menuId=42034" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','42034','WT.si_x','1');}" target="_blank">4G+高清通话</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55789a1750157b185ca497048&amp;menuId=9990" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','9990','WT.si_x','1');}" target="_blank">139国际漫游回拨业务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ac64b6937a11c8b0137a2407d30005c&amp;menuId=32124" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','32124','WT.si_x','1');}" target="_blank">短信业务</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=BFA93573C40150FEE044B499BA622A0A&amp;menuId=6411" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6411','WT.si_x','1');}" target="_blank">彩信业务</a>
+					&nbsp;|&nbsp;
+					
+				</div>
+				
+				<div>
+					<h3>
+						<a class="fn-right fn-mr10" href="/busi/query.do?busiNo=408&amp;index=5&amp;menuId=408" title="更多" target="_blank">更多&gt;&gt;</a>优惠促销</h3>
+
+					
+					<a href="/ywnew/transact/common/list.do?bid=BF44EE3562E662ECE044B499BA622A0A&amp;menuId=25795" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','25795','WT.si_x','1');}" target="_blank">专属业务可选包</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=BF44EE35631E62ECE044B499BA622A0A&amp;menuId=6807" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6807','WT.si_x','1');}" target="_blank">新业务可选包</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a54c670962014c7e5cd9e27650&amp;menuId=6004" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','6004','WT.si_x','1');}" target="_blank">中国移动积分计划</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/ywnew/transact/common/list.do?bid=8ac64baa4233bc8101426f026b660419&amp;menuId=31439" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','31439','WT.si_x','1');}" target="_blank">实用6元包</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a560748d1a016078104a246251&amp;menuId=910383" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910383','WT.si_x','1');}" target="_blank">2017全省新春假期包、流量大释放活动</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a56098a6390160a1a0f344447b&amp;menuId=910382" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910382','WT.si_x','1');}" target="_blank">杭州“咪咕-Kindle”优惠购</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a55f67f7b3015f705c124f4871&amp;menuId=910388" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910388','WT.si_x','1');}" target="_blank">杭州咪咕爱看首登礼活动</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a5605841fa01606c737093120f&amp;menuId=910371" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910371','WT.si_x','1');}" target="_blank">杭州新入网4G飞享套餐送话费活动</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a560748d1a01607cffa0d55f85&amp;menuId=910372" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910372','WT.si_x','1');}" target="_blank">杭州新入网4G飞悦套餐送话费活动</a>
+					&nbsp;|&nbsp;
+					
+					<a href="/yw/showinfo/show.do?bid=8ace47a56098a6390160ab8fa9967412&amp;menuId=910374" onclick="if(window.WebTrends){WebTrends.multiTrack('WT.si_n','910374','WT.si_x','1');}" target="_blank">浙江移动手机营业厅“玩转新业务，翻牌送好礼”</a>
+					&nbsp;|&nbsp;
+					
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+	
+	
+		<div class="zjser-menu-list">
+			<div class="zjser-menu-tree">
+				<i class="out"></i><span class="menu2"></span>
+				<h2>
+					<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do">选号入网</a>
+				</h2>
+			</div>
+			<div class="menuchild fn-clear" style="display: none;">
+				<div class="menuchild-right fn-right">
+					<dl>
+						<dt></dt>
+						<dd>
+							<a href="javascript:void(0);" onclick="down10086Link();" title="添加网上营业厅到桌面">添加网上营业厅到桌面</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="menuchild-left fn-left">
+					<div>
+						<h3>
+							选号入网
+						</h3>
+						
+						<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do?numRuleId=AAAA&amp;idx=r" title="四连号" target="_blank">四连号</a>
+						
+						<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do?numRuleId=88&amp;idx=r" title="88号" target="_blank">88号</a>
+						
+						<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do?numRuleId=FourNot&amp;idx=r" title="不含4号" target="_blank">不含4号</a>
+						
+						<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do" title="海量选号" target="_blank">海量选号</a>
+						
+						<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do?numRuleId=AAAAA&amp;idx=r" title="五连号" target="_blank">五连号</a>
+						
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="zjser-menu-list">
+			<div class="zjser-menu-tree">
+				<i class="out"></i><span class="menu3"></span>
+				<h2>
+					<a href="http://shop.10086.cn/list/101_571_571_0_0_0_0.html">优惠购机</a>
+				</h2>
+			</div>
+			<div class="menuchild fn-clear" style="display: none;">
+				<div class="menuchild-right fn-right">
+					<dl>
+						<dt></dt>
+						<dd>
+							<a href="javascript:void(0);" onclick="down10086Link();" title="添加网上营业厅到桌面">添加网上营业厅到桌面</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="menuchild-left fn-left">
+					<div>
+						<h3>
+							优惠购机
+						</h3>
+						
+						<a href="http://shop.10086.cn/list/101_571_571_1_0_0_0_0_0_1_2.html" title="热销爆款" target="_blank">热销爆款</a>
+						
+						<a href="http://shop.10086.cn/list/101_571_571_1_0_0_0_0_0_1_5.html" title="拍照神器" target="_blank">拍照神器</a>
+						
+						<a href="http://shop.10086.cn/list/101_571_571_1_0_0_0_0_0_1_7.html" title="双卡双待" target="_blank">双卡双待</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="zjser-menu-list">
+			<div class="zjser-menu-tree">
+				<i class="out"></i><span class="menu4"></span>
+				<h2>
+					<a href="http://www.zj.10086.cn/cuxiaoyouhui/index.html">优惠促销</a>
+				</h2>
+			</div>
+			<div class="menuchild fn-clear" style="display: none;">
+				<div class="menuchild-right fn-right">
+					<dl>
+						<dt></dt>
+						<dd>
+							<a href="">添加网上营业厅到桌面</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="menuchild-left fn-left">
+					<div>
+						<h3>
+							优惠促销
+						</h3>
+						
+						<a href="http://www.zj.10086.cn/first170321/index.html" title="手机营业厅充值特惠" target="_blank">手机营业厅充值特惠</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="zjser-menu-list">
+			<div class="zjser-menu-tree">
+				<i class="out"></i><span class="menu5"></span>
+				<h2>
+					<a href="http://service.zj.10086.cn/jfzq/jfzq_index.jsp?AISSO_LOGIN=true">积分计划</a>
+				</h2>
+			</div>
+			<div class="menuchild fn-clear" style="display: none;">
+				<div class="menuchild-right fn-right">
+					<dl>
+						<dt></dt>
+						<dd>
+							<a href="">添加网上营业厅到桌面</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="menuchild-left fn-left">
+					<div>
+						<h3>
+							积分计划
+						</h3>
+						
+						<a href="http://service.zj.10086.cn/jfzq/jfzq_js.jsp?AISSO_LOGIN=true" title="积分介绍" target="_blank">积分介绍</a>
+						
+						<a href="http://service.zj.10086.cn/yw/point/queryMark.do?menuId=13044" title="积分查询" target="_blank">积分查询</a>
+						
+						<a href="http://jf.10086.cn/" title="积分商城" target="_blank">积分商城</a>
+						
+						<a href="http://www.zj.10086.cn/10086/jfzq/index.html" title="本地服务" target="_blank">本地服务</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	<div class="clear"></div>
+	<!--左侧导航 结束-->
+</div>
+			<!--全部分类结束-->
+			
+			
+			<!--左侧内容结束-->
+			<div class="zjser-bannerwrap">
+				
+					<div id="j-slide" class="zjser-banner">
+						<div class="j-slide-wrap">
+							<ul style="width: 5300px;"><li>
+									<a href="http://service.zj.10086.cn/yw/transact/sharingTraffic/querySharingTraffic.do?bid=8ac64baa46448eca014655069f516021&amp;menuId=6618&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_A" target="_blank"><img src="/zjserviceadminimages/2017/12/27/btj_2017122756788319.png" width="530" height="222" alt="多终端流量共享">
+									</a>
+								</li>
+
+								
+								<li>
+									<a href="http://service.zj.10086.cn/kdzq/kdNewOrder.do?AISSO_LOGIN=true&amp;WT.mc_id=20170101wtkds30C" target="_blank"><img src="/zjserviceadminimages/2017/12/13/btj_2017121328416713.png" width="530" height="222" alt="办宽带送话费">
+									</a>
+								</li>
+								
+								<li>
+									<a href="http://service.zj.10086.cn/zxtc_4g/zxtc_4G.do?menuId=6249&amp;AISSO_LOGIN=true" target="_blank"><img src="/zjserviceadminimages/2017/12/27/btj_2017122755362865.png" width="530" height="222" alt="飞享套餐">
+									</a>
+								</li>
+								
+								<li>
+									<a href="http://www.zj.10086.cn/first170321/index.html? WT.mc_id=20170401stsdswt_B" target="_blank"><img src="/zjserviceadminimages/2017/12/27/btj_2017122757476134.png" width="530" height="222" alt="首登送5元">
+									</a>
+								</li>
+								
+								<li>
+									<a href="http://service.zj.10086.cn/ywnew/transact/iframe/familyNet/familyNetUpdate.jsp?AISSO_LOGIN=true&amp;WT.mc_id=2017wtqqwwt_A" target="_blank"><img src="/zjserviceadminimages/2017/12/27/btj_2017122757725658.jpg" width="530" height="222" alt="亲情网">
+									</a>
+								</li>
+								
+								<li>
+									<a href="http://www.zj.10086.cn/wtldy/200003861351.html?WT.mc_id=20170301stczyjxwt_A" target="_blank"><img src="/zjserviceadminimages/2017/12/27/btj_2017122756672141.png" width="530" height="222" alt="充值有惊喜">
+									</a>
+								</li>
+								
+								<li>
+									<a href="http://www.zj.10086.cn/wtldy/200003857243.html" target="_blank"><img src="/zjserviceadminimages/2017/12/27/btj_2017122756734479.png" width="530" height="222" alt="我要免单">
+									</a>
+								</li>
+								
+								<li>
+									<a href="http://service.zj.10086.cn/yw/electronicInvoice/queryInvoiceList.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_A" target="_blank"><img src="/zjserviceadminimages/2017/11/23/btj_2017112327065223.png" width="530" height="222" alt="电子发票">
+									</a>
+								</li>
+								
+								<li>
+									<a href="http://service.zj.10086.cn/yw/transact/sharingTraffic/querySharingTraffic.do?bid=8ac64baa46448eca014655069f516021&amp;menuId=6618&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_A" target="_blank"><img src="/zjserviceadminimages/2017/12/27/btj_2017122756788319.png" width="530" height="222" alt="多终端流量共享">
+									</a>
+								</li>
+								
+							<li>
+									<a href="http://service.zj.10086.cn/kdzq/kdNewOrder.do?AISSO_LOGIN=true&amp;WT.mc_id=20170101wtkds30C" target="_blank"><img src="/zjserviceadminimages/2017/12/13/btj_2017121328416713.png" width="530" height="222" alt="办宽带送话费">
+									</a>
+								</li></ul>
+						</div>
+					<ul class="j-slide-icon"><li data-index="0" class="current">1</li><li data-index="1">2</li><li data-index="2">3</li><li data-index="3">4</li><li data-index="4">5</li><li data-index="5">6</li><li data-index="6">7</li><li data-index="7">8</li></ul></div>
+					<div class="zjser-moreicon">
+						
+						<div>
+							<a href="http://service.zj.10086.cn/yw/bill/realFee.do?menuId=13004&amp;bid" title="即时话费和余额查询" target="_blank"> <img src="/zjserviceadminimages/2014/08/27/btj_2014082721824288.jpg" alt="即时话费和余额查询">
+								<p>即时话费和余额查询</p> </a>
+						</div>
+						
+						<div>
+							<a href="http://service.zj.10086.cn/yw/myBillAnalysis/myBillAnalysisQuery.do?menuId=13003&amp;bid=BD399F39E69148CFE044001635842131" title="月账单查询" target="_blank"> <img src="/zjserviceadminimages/2014/08/27/btj_2014082721889555.jpg" alt="月账单查询">
+								<p>月账单查询</p> </a>
+						</div>
+						
+						<div>
+							<a href="http://service.zj.10086.cn/yw/detail/queryHisDetailBill.do?menuId=13009&amp;bid" title="当月语音详单" target="_blank"> <img src="/zjserviceadminimages/2014/08/27/btj_2014082722139317.jpg" alt="当月语音详单">
+								<p>当月语音详单</p> </a>
+						</div>
+						
+						<div>
+							<a href="http://service.zj.10086.cn/yw/detail/queryHisDetailBill.do?menuId=13015&amp;bid" title="当月移动数据流量详单" target="_blank"> <img src="/zjserviceadminimages/2014/08/27/btj_2014082722205913.jpg" alt="当月移动数据流量详单">
+								<p>当月移动数据流量详单</p> </a>
+						</div>
+						
+						<div>
+							<a href="http://service.zj.10086.cn/yw/usedQuery/beforeHistoryMonthQuery.do?menuId=13336&amp;bid" title="免费业务使用量查询" target="_blank"> <img src="/zjserviceadminimages/2014/08/27/btj_2014082722258473.jpg" alt="免费业务使用量查询">
+								<p>免费业务使用量查询</p> </a>
+						</div>
+						
+					</div>
+				
+			</div>
+			<script type="text/javascript">
+	function getQueryString(url, name) {
+		// 如果链接没有参数，或者链接中不存在我们要获取的参数，直接返回空 
+		if (url.indexOf("?") == -1 || url.indexOf(name + '=') == -1) {
+			return '';
+		}
+		// 获取链接中参数部分 
+		var queryString = url.substring(url.indexOf("?") + 1);
+		// 分离参数对 ?key=value&key2=value2 
+		var parameters = queryString.split("&");
+		var pos, paraName, paraValue;
+		for ( var i = 0; i < parameters.length; i++) {
+			// 获取等号位置 
+			pos = parameters[i].indexOf('=');
+			if (pos == -1) {
+				continue;
+			}
+
+			// 获取name 和 value 
+			paraName = parameters[i].substring(0, pos);
+			paraValue = parameters[i].substring(pos + 1);
+
+			// 如果查询的name等于当前name，就返回当前值，同时，将链接中的+号还原成空格 
+			if (paraName == name) {
+				return unescape(paraValue.replace(/\+/g, " "));
+			}
+		}
+		return '';
+	};
+
+	$(function() {
+		/*
+		 //下面注释掉的这段是异步后台取cookie中保存的业务信息,并拼接html字符串填充到快捷查询业务区块
+		//if($("#hasXG").val()=='1'){
+		var businessBids = "";
+		var urlArr = new Array();
+		var cookieBusiness = getCookie("cookieBusiness");
+		if(cookieBusiness != null){
+			var businesses = new Array();
+			businesses = cookieBusiness.split("|");
+			var aaa = 0;
+			for(var i = businesses.length-1; i >=0 ; i--){
+				var business = businesses[i].split("^");
+				var businessName = business[0];
+				var businessUrl = business[1];
+				if(businessName!=null && businessUrl!=null){
+					var bid = getQueryString(businessUrl,"bid");
+					businessBids = businessBids + bid + "|";
+					urlArr[aaa] = businessUrl;
+					aaa++;
+				}
+			}
+		}
+		
+		
+		var url = "/getBusiness/getBusi.do";
+		$.ajax({
+				url : url,
+				data : {bids:businessBids},
+				dataType:'JSON',
+				type:'POST',
+				success : function(d){
+					var json = $.parseJSON(d);
+					if(json!=null){
+						var cc=0;
+						var h="";
+						for(var i = 0;i<json.length;i++){
+							var busiName = json[i].businessname;
+							var busiUrl = json[i].businessurl;
+							var busiPic = json[i].businesspic2;
+							var busiDesc = json[i].businessdesc;
+							var busiType=json[i].businesstype;
+							if(busiDesc==undefined){
+								busiDesc = '';
+							}
+							var busiAdd ='__tag_335$20_ __tag_335$25_<img src="'+busiPic+'"/>__tag_335$122_ __tag_335$127_ __tag_335$156_'+busiName+'__tag_335$243_ __tag_335$248_<a target="_blank" title="'+busiDesc+'" href="'+busiUrl+'">'+busiDesc+'__tag_335$322_</p> __tag_335$331_ __tag_335$338_';
+							$("#addBusi").append(busiAdd);
+							
+							if(busiType=='1'){//查询类业务
+								if(cc<5){
+									cc=cc+1;
+									h=h+"__tag_341$13_<a href=\""+busiUrl+"\" title=\""+busiName+
+										"\">__tag_342$13_"+
+		                				"__tag_343$22_</span>__tag_343$87_"+
+			                			busiName+"__tag_344$31_</a>__tag_344$39_";
+		                		}
+							}
+						}
+						
+						if(cc<6){
+							$.each($(".zjser-moreicon div"),function(idx,value){
+								if(idx<5-cc){
+									h=h+value.outerHTML;
+								}else{
+									return false;
+								}
+							});
+						}
+						if(cc>0){
+							$(".zjser-moreicon").html(h);
+						}
+						
+					}
+				}
+			});
+		 */
+	});
+</script>
+			
+
+
+
+
+<meta charset="utf-8">
+<title>网厅充值</title>
+<link href="http://www.zj.10086.cn/zj_head/zj_head.css" id="cssHead" type="text/css" rel="stylesheet">
+<link href="/indexinfo/css/tab.css?t=899" type="text/css" rel="stylesheet">
+<script src="http://service.zj.10086.cn/js/shouye.js" type="text/javascript"></script>
+<script src="http://www.zj.10086.cn/js/public/jquery/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+		function goPayPage(obj){
+			//充值业务立即充值触发插码
+			if(window.WebTrends){
+				WebTrends.multiTrack('WT.si_n','ptcz','WT.si_x','czks');
+			}
+			if(document.getElementById("j-telnum").value == "请输入充值手机号码"){
+				document.getElementById("j-telnum").value = "";
+			}
+			document.getElementById("zxczForm").submit();
+		};
+		function ckje(je){
+			document.getElementById("total").value=je;
+		}	
+		
+		
+		function goPayPage1(obj){
+		
+		if(window.WebTrends){
+		
+				WebTrends.multiTrack('WT.si_n','ptcz','WT.si_x','czks');
+			}
+			var tel =document.getElementById("j-telnum").value;
+			
+			if(document.getElementById("j-telnum").value == "请输入充值手机号码"){
+			
+				document.getElementById("j-telnum").value = "";
+				
+			}
+			var amount=document.getElementById("total").value;
+			
+			window.location.href="http://shop.10086.cn/i/?f=rechargecredit&mobileNo="+tel+"&amount="+amount;
+			
+		
+		}	
+		
+</script>
+<script type="text/javascript">
+$(function(){
+$(".zj-yh-pic").hide();
+$("#loading,#zj-zhezhao").show();
+$.ajax({
+		url:"http://service.zj.10086.cn/index.do",
+		dataType:"json",
+		type:"post",
+		success:function(data){
+		if(data.isLogin==1){
+		$(".zj-yh-pic").show();
+		$("#loading,#zj-zhezhao").hide();
+		}else{
+		$(".zj-yh-xx").html("<p style='font-size:15px;'>欢迎您:"+data.userName+"</p> <p>话费余额:"+data.NowuseAmount+"<span style='color:#fd0172;'>元</span></p>");
+		$("#loading,#zj-zhezhao").hide();
+		$(".zj-ldyh-pic").show();
+		}
+		},
+		error:function() {
+			alert("系统繁忙，请稍后再试");
+		}
+	});
+
+});
+		function ckje(je){
+			document.getElementById("total").value=je;
+		}	
+</script>
+
+
+	
+<div class="zj-recharge">
+	<div class="zj-recharge-title">
+      <!--点击登陆遮罩-->
+       <div id="zj-zhezhao"></div>
+    	 <!--登录前用户名显示-->
+    	<div class="zj-yh-pic" style=" display:none">
+        	<img class="yh-pic" src="/indexinfo/image/yh-pic.png">
+       	 	<div class="zj-yh-xx">
+            	<p class="zj-loding" id="zj-loding" onclick="show('cover1','alertmsg1');return false;">登录</p>
+                <p style="font-size:12px;color:#8c8c8c;">查看个人话费及流量！</p>
+            </div>    
+        </div>
+ <!--加等待载动画-->
+    <img id="loading" alt="加载中。。。。" width="60px" src="http://www.zj.10086.cn/find/images/loading.gif" style="stransform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+        <!--登录后用户名显示-->
+        <div class=" zj-ldyh-pic" style=" display:none">
+            <img class="loding-yh-pic" src="/indexinfo/image/ld-yh-pic.png">
+            <div class="zj-yh-xx">
+            	
+            </div>
+       </div>
+
+	</div>
+    <form id="zxczForm" name="zxczForm" action="http://service.zj.10086.cn/cz/" method="post" target="_blank">
+    <input type="hidden" name="total" id="total" value="100">
+    <div class="recharge-main-title"><span>话费充值</span></div>
+    <div class="recharge-jy-title"><a href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa46448eca014646c60f252971&amp;menuId=32251" style="margin-left:14px" target="_blank">流量加油</a></div>
+    <div class="clear"></div>
+	<div class="zj-recharge-main" style="position:relative;">
+							<input type="hidden" value="" name="mobileNo" id="mobileNo">
+							<input type="hidden" value="" name="amount" id="amount">
+						
+    	<p><input id="j-telnum" name="phoneNo" maxlength="11" style="width:170px; color: rgb(153, 153, 153); line-height:25px;height:28px;" placeholder="请输入充值手机号码" type="text"></p>
+    	<div class="fn-clear" style="height:84px; ">
+        	<div class="zjser-dollar no-clk" onclick="ckje(10)"><em></em>10元</div>
+            <div class="zjser-dollar no-clk" onclick="ckje(30)"><em></em>30元</div>
+            <div class="zjser-dollar no-clk" onclick="ckje(50)"><em></em>50元</div>
+            <div class="zjser-dollar active" onclick="ckje(100)"><em></em>100元</div>
+            <div class="zjser-dollar no-clk" onclick="ckje(300)"><em></em>300元</div>
+            <div class="zjser-dollar no-clk" onclick="ckje(500)"><em></em>500元</div>
+        </div>
+        <div class="zjser-btn cz-btn" onclick="goPayPage1(this);" style="margin:10px auto 14px;">立即充值</div>	 
+         <div style="position:absolute; bottom:15px;right:0;color:red; font-size:11px;">9.95折</div>  
+    </div>  
+    </form>
+</div>
+<script>
+$('.zjser-dollar').bind('click',
+function() {
+  $(this).removeClass("no-clk").addClass("active").siblings().addClass("no-clk").removeClass("active");
+});
+
+</script>
+
+
+
+
+
+
+
+			</div>
+		
+		
+		
+			<div class="zjser-contain fn-mt18">
+				<div class="zjser-quicklink">
+					<ul>
+						
+						<li style="margin-left: 0;">
+							<a href="http://service.zj.10086.cn/yw/query/queryMobileOs.do?bid=BD399F39E6DA48CFE044001635842131&amp;menuId=13023" target="_blank" title="停机/复机"><img src="/zjserviceadminimages/2014/08/27/btj_2014082735280377.png">停机/复机</a>
+						</li>
+						
+						<li>
+							<a href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa389a9e2b0138b3792c9e0151&amp;menuId=29634" target="_blank" title="随意玩流量包"><img src="/zjserviceadminimages/2014/08/27/btj_2014082735295979.png">随意玩流量包</a>
+						</li>
+						
+						<li>
+							<a href="http://service.zj.10086.cn/weixin/hongbao.jsp" target="_blank" title="流量钱包"><img src="/zjserviceadminimages/2015/02/15/btj_2015021570767386.jpg">流量钱包</a>
+						</li>
+						
+						<li>
+							<a href="http://service.zj.10086.cn/cz/?indexTypeOfCZ=3" target="_blank" title="缴费卡充值"><img src="/zjserviceadminimages/2014/08/27/btj_2014082722795693.png">缴费卡充值</a>
+						</li>
+						
+						<li style="margin-left: 0;">
+							<a href="http://service.zj.10086.cn/ywnew/jfmzExchange/list.do?bid=BD399F39E64448CFE044001635842131&amp;menuId=13042" target="_blank" title="积分兑换话费"><img src="/zjserviceadminimages/2014/08/27/btj_2014082722841248.png">积分兑换话费</a>
+						</li>
+						
+						<li>
+							<a href="http://service.zj.10086.cn/ywnew/flowUpshift/list.do?bid=BFA93573C39E50FEE044B499BA622A0A&amp;menuId=1001" target="_blank" title="移动数据流量包"><img src="/zjserviceadminimages/2014/08/27/btj_2014082722892601.png">移动数据流量包</a>
+						</li>
+						
+						<li>
+							<a href="http://service.zj.10086.cn/ywnew/transact/vpmn/list.do?bid=BFA93573C3F150FEE044B499BA622A0A&amp;menuId=25870" target="_blank" title="虚拟网业务"><img src="/zjserviceadminimages/2014/08/27/btj_2014082722947235.png">虚拟网业务</a>
+						</li>
+						
+						<li>
+							<a href="http://service.zj.10086.cn/kdzq/kdNewOrder.do?AISSO_LOGIN=true" target="_blank" title="宽带业务"><img src="/zjserviceadminimages/2017/07/25/btj_2017072585600462.gif">宽带业务</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+
+			<!-- 1F 选号入网 == start -->
+
+			<div class="j-floor zjser-contain fn-mt18">
+				<div class="zjser-title">
+					<div class="wrap fn-clear">
+						<em class="floor">1F</em>
+						<span class="title">流量专区</span>
+						<em class="subtitle">价格更骨感  流量更丰满！</em>
+						<a class="more" href="http://service.zj.10086.cn/flowSpecialArea/toChangeFlowBag.do" target="_blank">点击进入</a>
+					</div>
+				</div>
+				<div class="zjser-contentwrap">
+					<div class="zjser-content">
+					<!-- 
+						<div class="fn-left">
+							<iframe id="numberIframe" name="numberIframe" width="488"
+								height="265" frameborder="0" scrolling="no"
+								style="padding: 0; margin: 0;"
+								src="http://www.zj.10086.cn/shop/shop/goods/indnum/indexnumForCache.do?myMobile=t"></iframe>
+						</div> -->
+						
+						<div class="zjser-numtj">
+							<ul>
+								<li>
+									<a target="_blank" href="http://www.zj.10086.cn/my/login/login.jsp?AISSO_LOGIN=true&amp;jumpurl=http%3A%2F%2Fwww.zj.10086.cn%2Fmy%2Fremind%2FremindBefore.do&amp;WT.mc_id=20170204wtjc_B"><img src="/zjserviceadminimages/2016/02/26/btj_2016022683809279.png">
+									</a>
+								</li>
+								
+						<li>
+							<a target="_blank" href="http://service.zj.10086.cn/flowSpecialArea/toChangeFlowBag.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_C"><img src="/zjserviceadminimages/2015/08/24/btj_2015082480744856.png">
+							</a>
+						</li>
+						</ul>
+					</div>
+					
+					<div class="zjser-numtj">
+							<ul>
+								<li>
+									<a target="_blank" href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa389a9e2b0138b3792c9e0151&amp;menuId=29634&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_D"><img src="/zjserviceadminimages/2015/08/24/btj_2015082480720534.png">
+									</a>
+								</li>
+								
+						<li>
+							<a target="_blank" href="http://service.zj.10086.cn/ywnew/flowUpshift/list.do?bid=BFA93573C39E50FEE044B499BA622A0A&amp;menuId=1001&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_E"><img src="/zjserviceadminimages/2015/08/24/btj_2015082480808792.png">
+							</a>
+						</li>
+						</ul>
+					</div>
+					
+					<div class="zjser-numtj">
+							<ul>
+								<li>
+									<a target="_blank" href="http://service.zj.10086.cn/flowSpecialArea/toChangeFlowBag.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_F"><img src="/zjserviceadminimages/2015/09/29/btj_2015092992232596.png">
+									</a>
+								</li>
+								
+						<li>
+							<a target="_blank" href="http://service.zj.10086.cn/ywnew/flowUpshift/list.do?bid=BFA93573C39E50FEE044B499BA622A0A&amp;menuId=1001&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_S"><img src="/zjserviceadminimages/2015/08/24/btj_2015082480789829.png">
+							</a>
+						</li>
+						</ul>
+					</div>
+					
+					<div class="fn-right">
+						<a target="_blank" href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa46448eca014646c60f252971&amp;menuId=32251&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_G"><img width="218px" height="265px" src="/zjserviceadminimages/2017/12/07/btj_2017120719348789.png">
+						</a>
+					</div>
+					
+				</div>
+			</div>
+			</div>
+		
+		<!-- 1F 选号入网 == end -->
+		<!-- 2F 靓机天地 == start -->
+		
+		
+			<div class="j-floor zjser-contain fn-mt18">
+				<div class="zjser-title">
+					<div class="wrap fn-clear">
+						<em class="floor">2F</em>
+						<span class="title">4G专区</span>
+						<em class="subtitle">加速加量不加价！</em> 
+						<a class="more" target="_blank" href="http://service.zj.10086.cn/area4g/busi4g.do">点击进入</a>
+					</div>
+				</div>
+				<div class="zjser-contentwrap fn-clear" style="_height: 266px; overflow: hidden;">
+					
+					<div class="zjser-gjtd-firstad">
+						<a href="http://service.zj.10086.cn/area4g/busi4g.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_H" target="_blank" title="流量共享">
+							<img width="235px" height="265px" src="/zjserviceadminimages/2017/12/07/btj_2017120717503495.png" alt="流量共享"> </a>
+					</div>
+					
+					<div class="zjser-gjtd-phonelist">
+						<a href="http://service.zj.10086.cn/area4g/busi4g.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_I" target="_blank" title="流量包">
+							<img width="235px" height="265px" src="/zjserviceadminimages/2015/08/24/btj_2015082481075912.png" alt="流量包"> </a>
+					</div>
+					
+					<div class="zjser-gjtd-phonelist">
+						<a href="http://service.zj.10086.cn/area4g/busi4g.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_J" target="_blank" title="自选套餐">
+							<img width="235px" height="265px" src="/zjserviceadminimages/2015/08/24/btj_2015082481089524.png" alt="自选套餐"> </a>
+					</div>
+					<div class="zjser-gjtd-rightad">
+						
+						<span> <a href="http://service.zj.10086.cn/area4g/busi4g.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_K" target="_blank" title="加油包"> <img width="216px" height="132px" src="/zjserviceadminimages/2015/08/24/btj_2015082481126353.png" alt="加油包"> </a> </span>
+						
+					
+					<a href="http://www.zj.10086.cn/shop/shop/sales/listNumberInfos.do?WT.mc_id=20170204wtjc_L" target="_blank" title="4G靓号">
+						<img width="216px" height="132px" src="/zjserviceadminimages/2016/01/05/btj_2016010563009845.png" alt="4G靓号">
+					</a><span></span>
+				</div>
+				
+			</div>
+			</div>
+			<!-- 2F 靓机天地 == end -->
+			<!-- 3F下载中心==start -->
+			<div class="j-floor zjser-contain fn-mt18">
+				<div class="zjser-title">
+					<div class="wrap fn-clear">
+						<h2 class="fn-right">
+							下载中心
+						</h2>
+						<em class="floor">3F</em>
+						<span class="title">移动光宽带</span>
+						<em class="subtitle">资费超省 网速超快！</em>
+						<a class="more" target="_blank" href="http://service.zj.10086.cn/kdzq/">更多精彩</a>
+					</div>
+				</div>
+				<div class="zjser-contentwrap fn-clear" style="_height: 266px; overflow: hidden;">
+					
+					<div class="zjser-gjtd-firstad">
+						<a href="http://service.zj.10086.cn/kdzq/kdNewOrder.do?AISSO_LOGIN=true" target="_blank" title="宽带送30元">
+							<img width="235px" height="265px" src="/zjserviceadminimages/2017/12/07/btj_2017120717361568.png" alt="宽带送30元"> </a>
+					</div>
+					
+					<div class="zjser-gjtd-phonelist">
+						<a href="http://service.zj.10086.cn/kdzq/kdNewOrder.do?AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_M" target="_blank" title="一键安装宽带到家">
+							<img width="235px" height="265px" src="/zjserviceadminimages/2015/08/24/btj_2015082481276746.png" alt="一键安装宽带到家"> </a>
+					</div>
+					
+					<div class="zjser-gjtd-phonelist">
+						<a href="http://www.zj.10086.cn/my/login/login.jsp?AISSO_LOGIN=true&amp;jumpurl=http%3A%2F%2Fservice.zj.10086.cn%2Fkdzq%2FkdConOrder.do&amp;WT.mc_id=20170204wtjc_N" target="_blank" title="续包">
+							<img width="235px" height="265px" src="/zjserviceadminimages/2017/01/04/btj_2017010493176249.png" alt="续包"> </a>
+					</div>
+					<div class="zjser-gjtd-rightad">
+						
+						<span><a href="http://app.m.zj.chinamobile.com/zjweb/download.jsp?WT.mc_id=20170204wtjc_O" target="_blank" title="浙江手机营业厅"> <img width="216px" height="132px" src="/zjserviceadminimages/2017/12/07/btj_2017120720191320.png" alt="浙江手机营业厅"></a></span>
+						
+					
+					<a href="null" target="_blank" title="浙江微信营业厅">
+						<img width="216px" height="132px" src="/zjserviceadminimages/2017/12/07/btj_2017120717309996.jpg" alt="浙江微信营业厅">
+						</a><span></span>
+				</div>
+				
+			</div>
+			</div>
+			<!-- 34F下载中心==end -->
+			<!-- 4F优惠活动==start -->
+			<div class="j-floor zjser-contain fn-mt18">
+				<div class="zjser-title">
+					<div class="wrap fn-clear">
+						<h2 class="fn-right">
+							业务推荐
+						</h2>
+						<em class="floor">4F</em>
+						<span class="title">优惠活动</span>
+						<em class="subtitle">出行省钱，漫游接打都3毛！</em>
+						<a class="more" target="_blank" href="http://www.10086.cn/support/download/">更多精彩</a>
+					</div>
+				</div>
+				<div class="zjser-contentwrap fn-clear">
+					
+					<div class="zjser-gjtd-firstad">
+						<a href="http://www.zj.10086.cn/first170321/index.html? WT.mc_id=20170401stsdswt_D" target="_blank"><img width="235px" height="265px" src="/zjserviceadminimages/2017/12/07/btj_2017120717392544.png" alt="首登送"> </a>
+					</div>
+					
+					<div class="zjser-gjtd-firstad">
+						<a href="http://www.zj.10086.cn/wtldy/200003857243.html" target="_blank"><img width="235px" height="265px" src="/zjserviceadminimages/2017/12/27/btj_2017122756986409.png" alt="终端购机优惠"> </a>
+					</div>
+					
+					<div class="zjser-yewulist fn-left">
+						
+						<div>
+							<a href="http://service.zj.10086.cn/yw/transact/sharingTraffic/querySharingTraffic.do?bid=8ac64baa46448eca014655069f516021&amp;menuId=6618&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_P" target="_blank"><img src="/zjserviceadminimages/2015/05/19/btj_2015051924109486.jpg" width="65px" height="64px">多终端流量共享</a>
+						</div>
+						
+						<div>
+							<a href="http://service.zj.10086.cn/ywnew/transact/iframe/familyNet/familyNetUpdate.jsp?AISSO_LOGIN=true&amp;WT.mc_id=2017wtqqwwt_A" target="_blank"><img src="/zjserviceadminimages/2014/08/27/btj_2014082724250569.png" width="65px" height="64px">亲情网</a>
+						</div>
+						
+						<div>
+							<a href="http://service.zj.10086.cn/yw/electronicInvoice/queryInvoiceList.do?AISSO_LOGIN=true" target="_blank"><img src="/zjserviceadminimages/2014/08/27/btj_2014082724304156.png" width="65px" height="64px">电子发票</a>
+						</div>
+						
+						<div>
+							<a href="http://service.zj.10086.cn/ywnew/transact/common/list.do?bid=8ac64baa46448eca014646c60f252971&amp;menuId=32251&amp;AISSO_LOGIN=true&amp;WT.mc_id=20170204wtjc_R" target="_blank"><img src="/zjserviceadminimages/2014/08/27/btj_2014082724362312.png" width="65px" height="64px">流量加油包</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 4F优惠活动==end -->
+		
+		<iframe charset="gbk" id="iframeid" name="iframe_ggl" frameborder="0" scrolling="no" width="100%" height="62px" src="http://www.zj.10086.cn/aboutus/wtgg/index.html"></iframe>
+		<div class="zjser-contain fn-mt22">
+			<div class="zjser-service fn-clear">
+				<ul>
+					<li>
+						<span class="xsrm">新手入门</span>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/mjbd.jsp" target="_balnk">买家必读</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/index.jsp" target="_balnk">注册方法</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/buy_workflow.jsp" target="_balnk">购买须知</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/yyxz.jsp" target="_balnk">预约须知</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span class="zffs">支付方式</span>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/pay.jsp" target="_balnk">支付方式</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/zfyh.jsp" target="_balnk">支付银行</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/zfyq.jsp" target="_balnk">支付要求</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/pay_program.jsp" target="_balnk">常见支付问题</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span class="pssm">配送说明</span>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/delivery.jsp" target="_balnk">配送方式与范围</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/pscxjsxyq.jsp" target="_balnk">配送查询及时限要求</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/delivery_change.jsp" target="_balnk">配送运费收费标准</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/wpysjqs.jsp" target="_balnk">物品验收及签收</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span class="shfw">售后服务</span>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/after_sales.jsp" target="_balnk">退换货须知</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/after_sales_wlan.jsp" target="_balnk">售后网点查询</a>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/after_sales_knows.jsp" target="_balnk">售后服务知识</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<span class="cjwt">常见问题</span>
+					</li>
+					<li>
+						<a href="http://www.zj.10086.cn/shop/include/help/help.jsp" target="_balnk">常见热点问题</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 新版内容=end -->
+		<!--右侧浮动快捷按钮 开始-->
+		<div id="j-fixlink" class="zjser-flotlink">
+			<ul>
+				<li data-index="1">
+					<span class="zjser-floor">1F</span><span class="zjser-showtxt">流量<br>专区</span>
+				</li>
+				<li data-index="2">
+					<span class="zjser-floor">2F</span><span class="zjser-showtxt">4G<br>专区</span>
+				</li>
+				<li data-index="3">
+					<span class="zjser-floor">3F</span><span class="zjser-showtxt">宽带<br>专区</span>
+				</li>
+				<li data-index="4">
+					<span class="zjser-floor">4F</span><span class="zjser-showtxt">优惠<br>活动</span>
+				</li>
+			</ul>
+			<div class="zjser-downbtn j-zjser-downbtn">
+				<img src="css/images/downstars.jpg" alt="">
+			</div>
+			<div class="zjser-ques mouseout">
+				
+				<a href="http://www.zj.10086.cn/activity/questionnaire/" target="_blank">&nbsp;</a>
+				
+			</div>
+			<div class="zjser-xiaoe mouseout">
+				<a href="http://service.zj.10086.cn/customerService/toCustomerService.do" target="_blank">&nbsp;</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!-- 微信营业厅 start -->
+		<div id="f_banLv" style="margin-top:0px; overflow: hidden;position: fixed;right: 38px;top: 66px;">
+			<div id="f_banLv_close" class="f_banLv_close" title="隐藏 " style="position: relative; top: 0px; float: right; right: 16px;">
+				隐藏
+			</div>
+			<div id="banLv_body" style="border: 0px; background: none; padding: 0px">
+				<img src="http://www.zj.10086.cn/images/service_right_code.png" alt="手机营业厅">
+			</div>
+		</div>
+		<div id="f_banLv_fold" class="f_banLv_fold" style="height: 100px; margin-top: 110px;">
+			<div style="padding: 8px 0px 5px 5px;">
+				手
+				<br>
+				机
+				<br>
+				营
+				<br>
+				业
+				<br>
+				厅
+			</div>
+		</div>
+		<script>
+	if (!cake) {
+		var cake = {}
+	}
+</script>
+		<script src="js/fix-1.0.1-min.js" type="text/javascript"></script>
+		<script src="js/slide-1.0.0-min.js" type="text/javascript"></script>
+		<script>
+	var newFade = new cake['slide-1.0.0']('j-slide');
+</script>
+		<script src="js/shouye.js" type="text/javascript"></script>
+
+		<!--底文件开始-->
+		<!--#include virtual="/include/foot.html" -->
+		
+
+
+
+	<div class="all_download fn-clear">
+		<div class="fn-w950">
+			<div class="fn-clear footer-wtgb">
+			<div class="all_dFloor j-all_dFloor">
+				<span>楼层导航</span>
+				<ul class="all_dFloorList j-all_dFloorList">
+					<li><i class="all_f1"></i><a href="/flowSpecialArea/toChangeFlowBag.do" target="_blank" title="流量专区">流量专区</a></li>
+					<li><i class="all_f2"></i><a href="/area4g/busi4g.do" target="_blank" title="4G专区">4G专区</a></li>
+					<li><i class="all_f3"></i><a href="/kdzq/kdNewOrder.do" target="_blank" title="宽带专区">宽带专区</a></li>
+					<li class="all_floorNone"><i class="all_f4"></i><a href="/index.jsp" target="_blank" title="下载中心">优惠活动</a></li>
+				</ul>
+			</div>
+			<div class="all_dIcon"></div>
+			<div class="all_dApp j-all_dApp">
+				<ul>
+					<li class="fn-bj666"><i class="weixin"></i>微信手机营业厅<span><img src="/kdzq/images/app_wxyyt.png" alt="微信手机营业厅"></span></li>
+					<li class="fn-bj777" style="width:208px;"><i class="jisuanqi"></i>流量计算器<span><img src="/kdzq/images/app_jsq.png" alt="流量计算器下载"></span></li>
+					<li><i class="cmcc"></i>移动营业厅/下载<span><img src="/kdzq/images/app_wx.png" alt="移动营业厅/下载"></span></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+<div class="clear"></div>
+<div id="zj_tail"><div class="footer"><div class="footcon"><p><a href="http://www.10086.cn/aboutus/news/">新闻中心</a><span>&nbsp;|&nbsp;</span><a href="http://job.10086.cn/">诚聘英才</a><span>&nbsp;|&nbsp;</span><a href="http://b2b.10086.cn/">采购信息</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/aboutus/hezuo/">企业合作</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/navigation/">站点导航</a><span>&nbsp;|&nbsp;</span><a href="http://labs.chinamobile.com/" target="_blank">中国移动研究院</a><span>&nbsp;|&nbsp;</span><a href="http://www.cmdi.chinamobile.com/" target="_blank">中国移动设计院</a><span>&nbsp;|&nbsp;</span><a href="http://www.hk.chinamobile.com/sc/">中国移动香港公司</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/cmdha/">数字家庭合作联盟</a><span>&nbsp;|&nbsp;</span><a href="http://www.zj.10086.cn/sitemap/">网站地图</a><span>&nbsp;|&nbsp;</span><a href="http://www.10086.cn/web_notice/links/">友情链接</a></p><p><span>&nbsp;</span><span>掌上营业厅：</span><a href="http://wap.10086.cn">wap.10086.cn</a><span>&nbsp;语音自助服务：10086  短信营业厅：10086&nbsp;</span><a href="http://www.10086.cn/support/channel/self_service/">自助终端</a><span>&nbsp;</span><a href="http://www.10086.cn/support/channel/Entity1/">营业厅</a><span>&nbsp;</span><a href="http://www.10086.cn/cmccclient/index.htm">手机营业厅下载</a></p><p class="xuke">Copyright© 1999-2017&nbsp;&nbsp;中国移动&nbsp;&nbsp;版权所有</p><p class="xuke"><span>中华人民共和国增值电信业务经营许可证&nbsp;&nbsp;经营许可证编号：A2.B1.B2-20100001</span></p></div><div class="footgov"><div id="KXWZ" class="kxyz"><span><a id="urlknet" href="https://ss.knet.cn/verifyseal.dll?sn=e130905110100423008ilb000000&amp;pa=500267" target="_blank"><img alt="&amp;#x53EF;&amp;#x4FE1;&amp;#x7F51;&amp;#x7AD9;" name="KNET_seal" src="http://www.zj.10086.cn/index4/zj_tail/images/knetSealLogo.png" onclick="KNET_change('urlknet')"></a></span></div><div class="govtxt"><p class="gov"><a href="http://www.miibeian.gov.cn/">京ICP备05002571号</a></p></div></div></div></div>
+<script type="text/javascript" src="http://www.zj.10086.cn/uba/js/stat.js"></script><iframe width="100" height="100" style="display:none;" src="http://www.zj.10086.cn/uba/servlet/tracker.cgi?flash=26.0 r0&amp;ref=&amp;spix=24&amp;cd=24&amp;sz=1024x768&amp;siteid=&amp;target=http%3A//zj.10086.cn/&amp;tags=&amp;bid=&amp;title=网上营业厅_中国移动通信"></iframe>
+
+<script type="text/javascript" src="/js/floatDiv.js?t=20121128"></script>
+
+<script type="text/javascript" src="http://www.zj.10086.cn/search/webZJ/js/indexSearch_GBK.js"></script>
+<script src="http://www.zj.10086.cn/search/webZJ/js/conf.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="/js/des.js"></script>
+<!-- 底部js -->
+<script type="text/javascript" src="/js/sidebar.js"></script>
+
+<script src="http://www.10086.cn/images/js/portal/sdc_ZJ.js" type="text/javascript"></script>
+
+<!-- <script src="http://www.zj.10086.cn/js/public/plugincode/sdc_zj.js" type="text/javascript"></script> -->
+
+<script src="http://www.zj.10086.cn/js/public/plugincode/webtrends.load.js" type="text/javascript"></script>
+
+<script type="text/javascript" language="javascript" src="http://www.zj.10086.cn/js/public/util/down10086Link.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		$.ajax({
+			url:'/accurateMarketing.do',
+			type:'get',
+			dataType:'json',
+			data:{"infoType":2,"advId":"10183,10201,10181,10275,10272,10274,10276,10273","random":new Date().getTime()},
+			success:function(data){
+				for(var i=0;i<data.length;i++){
+					if(data[i].adPostionId == 10183){
+						$(data[i].tempCode).insertAfter($('#actLazyLoad'));
+					}
+					if(data[i].adPostionId == 10201){
+						$('#10104').html(data[i].tempCode);
+					}
+					if(data[i].adPostionId == 10181 && $(".yw_ad").size()>0){
+						$(data[i].tempCode).insertBefore($('#loopAd'));
+						/*$(".yw_ad").picFocus({
+							focusContainer : ".yw_ad",
+							focusContainer : ".yw_ad",
+							focusUl : ".yw_ad ul",
+							focusUlLi : ".yw_ad ul li",
+							focusSmallBtnBg : ".yw_ad .btnBg",
+							focusHoverClass : ".hover"
+						});*/
+						setTimeout(function(){$(".yw_ad ul").eq(0).addClass("bd");$(".yw_ad").slide({effect:"leftLoop",titCell:".hd span",titOnClassName:"hover",autoPlay:true});},1000);
+					}
+					if(data[i].adPostionId == 10275){
+						$("#10102").html(data[i].tempCode);
+					}
+					if(data[i].adPostionId == 10272){
+						$("#10100").html(data[i].tempCode);
+					}
+					if(data[i].adPostionId == 10274){
+						$("#10101").html(data[i].tempCode);
+					}
+					if(data[i].adPostionId == 10276){
+						$("#10103").html(data[i].tempCode);
+					}
+					if(data[i].adPostionId == 10273){
+						$("#10220").html(data[i].tempCode);
+					}
+					
+				}
+				
+			}
+		});
+	});
+</script>
+
+<!--引用页面插码-->
+
+
+
+
+
+		<!-- =====基本码===== -->
+		<!-- script src="https://www.10086.cn/images/js/portal/sdc_ZJ.js" type="text/javascript"></script-->
+		
+		<!-- =====业务码===== --> 
+		<meta name="WT.si_n" content="">   <!-- 实际业务代码 -->
+		<meta name="WT.si_x" content="">   <!-- 办理流程代码 -->
+		<meta name="WT.error" content="">   <!--反馈失败信息 -->
+		<meta name="WT.cxmonth" content=""><!--业务时间-->
+		
+		
+		
+		<!-- =====用户信息码===== -->
+		
+			<meta name="WT.mobile" content="">   <!-- 用户手机号 -->
+			<meta name="WT.brand" content="">   <!-- 用户套餐品牌( 全球通:gotone | 动感地带：mzone | 神州行：easyown ) -->
+		
+		
+			<meta name="WT.si_n" content="">
+			<meta name="WT.si_x" content="1">
+			<meta name="WT.mobile" content="">
+			<meta name="WT.brand" content="">
+			
+		
+		
+
+
+
+
+
+<!--**************************************提示登录弹窗开始************************************************ -->
+<div id="cover1"></div>
+<div id="alertmsg1" class="xh-shadow">
+<script type="text/javascript" src="/js/des1.js"></script>
+<script type="text/javascript" src="/js/floatDiv2.js"></script>
+<script type="text/javascript">
+	//关闭登录iframe(右上角关闭按钮)
+	function iframeLoginBoxHide(){
+		hide("cover1","alertmsg1");
+		//document.domain = "service.zj.10086.cn";
+	}
+	
+	//显示登录iframe(验证完成出错先显示iframe,再弹提示窗)
+	function iframeLoginBoxShow(){
+		$("#waitPic").hide();
+		$("#cover1").height($(window).height());
+		$("#cover1").width($(window).width());
+		$("#loginIframe").height(300);
+		$("#loginIframe").width(500);
+		$("#alertmsg1").height(300);
+		$("#alertmsg1").width(500);
+	}
+	
+	//显示登录等待图片(先隐藏iframe,在显示图片等待验证)
+	function iframeLoginPicShow(){
+		$("#loginIframe").height("0");
+		$("#loginIframe").width("0");
+		$("#alertmsg1").height("0");
+		$("#alertmsg1").width("0");
+		$("#waitPic").show();
+	}
+	
+	//登录成功后调用方法
+	function iframeLoginBoxSuccess(){
+		parent.location.reload();
+	}
+	
+	function loginCheck(){
+		var loginForm=document.getElementById("tc_loginForm");
+		var mb=document.getElementById("tc_s_logonName").value;
+		var pw=document.getElementById("tc_s_password").value;
+		var key = document.getElementById("tc_validateKey").value;
+
+		if($.trim(mb).length<1||$.trim(mb).length>15){
+			alert("请输入正确的用户账号!");
+			return;
+		}
+
+		if($.trim(pw)=='' || pw.length !=6){
+		   alert('请输入6位的服务密码！');
+		   return false;
+		}
+		
+		if(!validateKey(key)){
+			alert("请输入正确的验证码");
+			return;
+		}
+	    $.post("/userlogin/checkLoginUser.do",function(data){
+			if(data=="0"){
+		       setLoginCookieValue("ssoUserLoginInfo",enString(mb));
+	           loginForm.submit();
+			}else{
+		    	alert("短时间登陆次数过多，已被限制登录！");
+			} 
+		 });
+	 }
+	 
+   function setLoginCookieValue(name,value){// 两个参数，一个是cookie的名子，一个是值
+	        var exp  = new Date();   
+		    exp.setTime(exp.getTime() +300*1000);
+		    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+"; path=/";
+    }
+   
+</script>
+	<div class="mt10 img_loading2" id="waitPic" style="display:none;width:500px; height:500px;"></div>
+    <iframe id="loginIframe" width="500" height="300" frameborder="0" scrolling="no" style="padding: 0; margin:0;" datasrc="http://www.zj.10086.cn/my/uniformUser/login_box1.jsp?dm=4&amp;loginContinue=http://service.zj.10086.cn/uniformUser/login_success.jsp"></iframe>
+</div>
+<!--**************************************提示登录弹窗结束************************************************ -->
+<!-- ************推荐送E币弹出层start************ -->
+<script type="text/javascript">
+$(function(){
+	$("window").floatLayerShow2({
+		openBtn : $("#shareBtn1"),
+		type:1,
+		closeBtn : $(".new_close"),
+		floatLayerCon : $("#shareEcoinsCon"),
+		floatLayerCon1 : $("#shareEcoinsCon1"),
+		floatLayerBg : $("#shareEcoinsBg")
+	});
+	$("window").floatLayerShow2({
+		openBtn : $("#shareBtn"),
+		type:2,
+		closeBtn : $(".new_close"),
+		floatLayerCon : $("#shareEcoinsCon"),
+		floatLayerCon1 : $("#shareEcoinsCon1"),
+		floatLayerBg : $("#shareEcoinsBg")
+	});
+})
+
+
+function showMe(){
+	if(""==""){
+		alert("请先登录！");
+	}else{
+		var ON_OFF_box = $(".Msg_con_l .ON_OFF_box li span.pic_btn");
+		for(var i=0;i<ON_OFF_box.length;i++){
+			if(i==0){
+				ON_OFF_box.eq(i).addClass("ON_btn").removeClass("OFF_btn");
+				ON_OFF_box.eq(i).attr("checked","checked");
+				$(".Msg_con_r .phone_text").eq(i).show();
+			}else{
+				ON_OFF_box.eq(i).addClass("OFF_btn").removeClass("ON_btn");
+				$(".Msg_con_r .phone_text").eq(i).hide();
+			}
+		}
+
+		$("input[name='recvMobile']").css("color","#ABABAB");
+		$("#prompt_Msg").css("display","none");
+		
+		$.ajax({
+		    type:"post",
+			url: "/recommend/getWebMassageInfo.do",
+			dataType:"json",
+	  		data:{"type":7,"random":new Date().getTime()},
+			success:function(data){
+				
+				for(var i=0;i<data.length;i++){
+					$("#msg_"+i).html(data[i].urlDesc);
+					$("#smsMsg_"+i).html(data[i].urlInfo);
+					$("#smsHref_"+i).html(data[i].url);
+					if(i==0){
+						$("#smsHref").val(data[i].url);
+					}
+				}
+				var recvMobileInput = $("input[name='recvMobile']");
+				for(var i=0;i<recvMobileInput.length;i++){
+					recvMobileInput.eq(i).val("请输入11位浙江移动手机号");
+				}
+				
+				var CH = document.documentElement.clientHeight;
+				var DEH = $(document).scrollTop();
+				DEH = DEH + parseInt(CH/2);
+				$("#Popup").css({"top":DEH+"px"});
+				$("#shade,#Popup").show();
+				
+				$("#Popup .Msg_con_r").height( $("#Popup .Msg_con_l").height() );	
+				$("#Popup").height( $("#Popup .Msg_con_l").height()+37 );
+			},
+			error:function(){
+				alert("加载失败，请稍后重试。谢谢！");
+			}
+		}); 
+
+	}
+}
+
+$(function(){
+/* 弹出层 */
+	var DEH = Math.max(document.documentElement.offsetHeight,document.body.offsetHeight);
+	$("#shade").css({"height":DEH+"px","width":"100%","background":"white","opacity":"0.5","position":"absolute","left":"0","top":"0","z-index":"999"});
+	$("#Popup .close_box").click(function(){
+		    $("#shade,#Popup").hide();
+		});	
+
+	$(".Msg_con_l .ON_OFF_box li span.pic_btn").click(function(){
+			$(this).addClass("ON_btn").removeClass("OFF_btn").parent().siblings("li").find("span.pic_btn").addClass("OFF_btn").removeClass("ON_btn");
+			$(this).siblings("input:radio").attr("checked","checked");
+			$(".Msg_con_r .phone_text").eq( $(this).parent("li").index() ).show().siblings(".phone_text").hide();
+
+		//	$("#smsMsg").val($("#smsMsg_"+$(this).parent("li").index()).html());
+			$("#smsHref").val($("#smsHref_"+$(this).parent("li").index()).html());
+		});
+		//showMe();
+	  /*顶部分享开始*/
+	  	$("#new_tjsyb").hover(function(){
+		$(this).removeClass("new_tjsyb").addClass("new_tjsyb2");
+		$(".new_tjfxbox").show();
+		},function(){
+		$(this).removeClass("new_tjsyb2").addClass("new_tjsyb");
+		$(".new_tjfxbox").hide();	
+		})
+		$(".new_tjfxbox").hover(function(){
+			$(this).show();
+			$("#new_tjsyb").removeClass("new_tjsyb").addClass("new_tjsyb2");
+			},function(){
+			$(this).hide();
+			$("#new_tjsyb").removeClass("new_tjsyb2").addClass("new_tjsyb");	
+				});
+	  /*顶部分享结束*/	
+});
+
+function sendTo(){
+
+    var mbphno=/^(13[4-9])|(182)|(183)|(147)|(15[0-2])|(15[7-9])|(18[7-8])/;
+    var num11=/^\d{11}$/;
+	var recvMobileInput = $("input[name='recvMobile']");
+	var recvMobile="";
+	for(var i=0;i<recvMobileInput.length;i++){
+		if(recvMobileInput.eq(i).val() != "" && recvMobileInput.eq(i).val() !="请输入11位浙江移动手机号"){
+			if(!mbphno.test(recvMobileInput.eq(i).val()) || !num11.test(recvMobileInput.eq(i).val())){
+				alert("请输入正确的浙江移动手机号码，谢谢！");
+				return;
+			}
+			for(var j=i+1;j<recvMobileInput.length;j++){
+				if(recvMobileInput.eq(i).val()==recvMobileInput.eq(j).val()){
+					alert("提交号码有重复，请您核对后再次提交，谢谢！");
+					return;
+				}
+			}
+			if(recvMobile != ""){
+				recvMobile+=";";
+			}
+			recvMobile+=recvMobileInput.eq(i).val();
+		}
+	}
+	if(recvMobile.indexOf("")!=-1){
+		alert("不能发送给自己，请确定发送号码，谢谢！");
+		return;
+	}
+	var path = $("#smsHref").val();
+	$.ajax({
+	    type:"post",
+	    url: "/recommend/messageToShare.do",
+  		data:{"path":path,"type":7,"recvMobile":recvMobile,"random":new Date().getTime()},
+		success:function(data){
+  			if(data=="0"){
+				alert("发送成功，谢谢！");
+				$("#shade,#Popup").hide();
+			}else if(data=="1"){
+				alert("请先登录，谢谢！");
+				$("#shade,#Popup").hide();
+			}else if(data=="2"){
+				alert("对不起，您今天已使用过短信分享，谢谢！");
+				$("#shade,#Popup").hide();
+			}else if(data=="3"){
+				alert("不能将分享短信发送给自己，请重新确定分享手机号，谢谢！");
+			}else if(data=="4"){
+				alert("请输入正确的浙江移动手机号码，谢谢！");
+			}else{
+				alert("发送异常请重试！");
+				$("#shade,#Popup").hide();
+			}
+		},
+		error:function(){
+			alert("加载失败，请稍后重试。谢谢！");
+		}
+	}); 
+}
+
+function prompt_Msg(){
+	var recvMobileInput = $("input[name='recvMobile']");
+	var bool = false;
+	for(var i=0;i<recvMobileInput.length;i++){
+		if(recvMobileInput.eq(i).val() != "" && recvMobileInput.eq(i).val() !="请输入11位浙江移动手机号"){
+			for(var j=i+1;j<recvMobileInput.length;j++){
+				if(recvMobileInput.eq(i).val()==recvMobileInput.eq(j).val()){
+					bool = true;
+				}
+			}
+		}
+	}
+	if(bool){
+		$("#prompt_Msg").css("display","block");
+	}else{
+		$("#prompt_Msg").css("display","none");
+	}
+}
+
+function changeColor(thisObj){
+	if("请输入11位浙江移动手机号"==thisObj.value || ""==thisObj.value){
+		thisObj.style.color="#ABABAB";
+	}else{
+		thisObj.style.color="#000000";
+	}
+}
+
+</script>
+<div id="shareEcoinsBg" class="shareEcoinsBg"></div>
+<div id="shareEcoinsCon" class="shadow" style="">
+        <!-- 此处为内容信息开始可从此处直接布局 -->
+        <div class="new_tcctop"><span class="new_close"></span></div>
+        <div class="new_tcccont">
+        	<div class="fleft new_tccimg">
+            	<p><a href="http://www.zj.10086.cn/my/fee/hdtjgz.do?AISSO_LOGIN=true" target="_blank"><img src="/images/zzcb.jpg" width="130" height="190" title="轻松登录每E天"></a></p>
+                <p class="new_tcctitle"><a href="http://www.zj.10086.cn/my/fee/hdtjgz.do?AISSO_LOGIN=true" target="_blank">轻松登录每E天</a></p>
+            </div>
+        	<div class="fleft new_tccnav">
+            	<textarea id="content" class="new_textarea">上浙江移动门户网站查询办理不出门，推荐送E币
+http://www.zj.10086.cn/</textarea>
+                <div class="new_mt20">
+                	<ul class="fleft new_tjfxul1 mt3">
+	                   	   <li><img src="/images/share_icon_ren.gif" width="16" height="16" class="fleft"><span onclick="share('renren','2',$('#ywUrl').val())">人人网</span></li>
+	                       <li><img src="/images/share_icon_kx.gif" width="16" height="16" class="fleft"><span onclick="share('kaixinurl','2',$('#ywUrl').val())">开心网</span></li>
+	                       <li><img src="/images/share_icon_qq.gif" width="16" height="16" class="fleft"><span onclick="share('qqurl','2',$('#ywUrl').val())">腾讯微博</span></li>
+					</ul>
+                    <a href="###" title="复制推荐链接" class="fl" onclick="copy_clip(document.getElementById('content').value)"><img src="/images/new_btcfz.gif" alt="复制推荐链接"></a>
+                </div>
+            </div>
+        </div>
+        <div class="new_tccbot"></div>
+        <!-- 此处为内容信息结束可从此处直接布局 -->
+    </div>
+    
+    <div id="shareEcoinsCon1" class="shadow">
+        <!-- 此处为内容信息开始可从此处直接布局 -->
+        <div class="new_tcctop"><span class="new_close"></span></div>
+        <div class="new_tcccont">
+        	<div class="fleft new_tccimg">
+            	<p><a href="http://www.zj.10086.cn/my/fee/hdtjgz.do?AISSO_LOGIN=true" target="_blank"><img src="/images/zzcb.jpg" width="130" height="190" title="轻松登录每E天"></a></p>
+                <p class="new_tcctitle"><a href="http://www.zj.10086.cn/my/fee/hdtjgz.do?AISSO_LOGIN=true" target="_blank">轻松登录每E天</a></p>
+            </div>
+        	<div class="fleft new_tccnav">
+            	<textarea id="content1" class="new_textarea">上浙江移动门户网站查询办理不出门，推荐送E币
+http://www.zj.10086.cn/</textarea>
+                <div class="new_mt20">
+                	<ul class="fleft new_tjfxul1 mt3">
+	                   	   <li><img src="/images/share_icon_ren.gif" width="16" height="16" class="fleft"><span onclick="share('renren','1',$('#serviceUrl').val())">人人网</span></li>
+	                       <li><img src="/images/share_icon_kx.gif" width="16" height="16" class="fleft"><span onclick="share('kaixinurl','1',$('#serviceUrl').val())">开心网</span></li>
+	                       <li><img src="/images/share_icon_qq.gif" width="16" height="16" class="fleft"><span onclick="share('qqurl','1',$('#serviceUrl').val())">腾讯微博</span></li>
+					</ul>
+                    <a href="###" title="复制推荐链接" class="fl" onclick="copy_clip(document.getElementById('content1').value)"><img src="/images/new_btcfz.gif" alt="复制推荐链接"></a>
+                </div>
+            </div>
+        </div>
+        <div class="new_tccbot"></div>
+        <!-- 此处为内容信息结束可从此处直接布局 -->
+    </div>
+<!-- ************推荐送E币弹出层end************ -->
+
+
+
+	<!--弹出层-->
+	<div id="shade" style="display: none; height: 2484px; width: 100%; background-color: white; opacity: 0.5; position: absolute; left: 0px; top: 0px; z-index: 999; background-position: initial initial; background-repeat: initial initial;"></div>
+    <div id="Popup" style="display:none;">
+        <span class="close_box" title="关闭"></span>
+        <div class="Msg_top_bg"></div>
+        <div class="Msg_con">
+        	<div class="Msg_con_l">
+            	<ul class="ON_OFF_box">
+                	<li style="border-top:none;"><input type="radio" name="ON_OFF"><span class="pic_btn ON_btn"></span> <div class="ON_OFF_box_txt"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td id="msg_0" style="line-height:24px;">便捷服务，满意100：一部小手机，超多新乐趣！</td></tr></tbody></table></div></li>
+                    <li><input type="radio" name="ON_OFF"><span class="pic_btn OFF_btn"></span> <div class="ON_OFF_box_txt"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td id="msg_1">手机智能化，体验24小时随身优质服务！</td></tr></tbody></table></div></li>
+                    <li><input type="radio" name="ON_OFF"><span class="pic_btn OFF_btn"></span> <div class="ON_OFF_box_txt"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td id="msg_2">手机预约选号，海量号码挑到你手软！</td></tr></tbody></table></div></li>
+                </ul>
+                <div class="share_Send_box">
+                	<p class="me_share_title"><b>我要分享</b></p>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                    	<tbody><tr>
+                        	<td><p><input name="recvMobile" type="text" value="请输入11位浙江移动手机号" maxlength="11" onfocus="if (this.value==defaultValue){this.value=''};this.style.color='#000000';" onblur="if (this.value==''){this.value=this.defaultValue}; changeColor(this);" onchange="prompt_Msg()"></p></td>
+                            <td rowspan="3"><a href="javascript:void(0);" onclick="sendTo();"><img src="/images/sendTo.jpg"></a></td>
+                        </tr>
+                        <tr>
+                        	<td><p><input name="recvMobile" type="text" value="请输入11位浙江移动手机号" maxlength="11" onfocus="if (this.value==defaultValue){this.value=''};this.style.color='#000000';" onblur="if (this.value==''){this.value=this.defaultValue}; changeColor(this);" onchange="prompt_Msg()"></p></td>
+                        </tr>
+                        <tr>
+                        	<td><p><input name="recvMobile" type="text" value="请输入11位浙江移动手机号" maxlength="11" onfocus="if (this.value==defaultValue){this.value=''};this.style.color='#000000';" onblur="if (this.value==''){this.value=this.defaultValue}; changeColor(this);" onchange="prompt_Msg()"></p></td>
+                        </tr>
+                    </tbody></table>
+                    <div style="display: none; margin: 5px;" id="prompt_Msg"><span class="prompt_Msg">提交号码有重复，请您核对后再次提交，谢谢！</span></div>
+                </div>
+            </div>
+            <div class="Msg_con_r">
+            	<div class="phone_text" style="display:block">
+                <p id="smsMsg_0">1小手机，大能量！ 浙江移动掌上营业厅全新改版！</p><span id="smsHref_0">wap.zj.10086.cn</span>
+                </div>
+                <div class="phone_text">
+                <p id="smsMsg_1">2小手机，大能量！ 浙江移动掌上营业厅全新改版！</p><span id="smsHref_1">wap.zj.10086.cn</span>
+                </div>
+                <div class="phone_text">
+                <p id="smsMsg_2">3小手机，大能量！ 浙江移动掌上营业厅全新改版！</p><span id="smsHref_2">wap.zj.10086.cn</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <input id="smsMsg" type="hidden">
+            <input id="smsHref" type="hidden">
+        </div>
+    </div>
+<input id="cookieDto" type="hidden" value="">
+ <!---->
+<div class="clear"></div>
+<!-- 兑奖 start -->
+<div id="djFloatLayer" class="dj_result">
+	<div class="yw_ywbl" style="border:none; margin-top:0;">
+    	<h3><strong class="fleft">兑奖结果</strong><span id="djLayerClose" class="fright cursorpointer mt10"><img src="/images/xh-gban.gif"></span></h3>
+        <p class="dj_resulttext">恭喜您已于xxxx年xx月xx日获得XXXXX（礼品名称）！请您关注下个月网站中奖公告。</p>
+    </div>
+</div>
+<div id="exceptionFloatLayer" class="dj_result">
+	<div class="yw_ywbl" style="border:none; margin-top:0;">
+    	<h3><strong class="fleft">错误提示</strong><span id="exceptionLayerClose" class="fright cursorpointer mt10"><img src="/images/xh-gban.gif"></span></h3>
+        <p class="dj_resulttext">恭喜您已于xxxx年xx月xx日获得XXXXX（礼品名称）！请您关注下个月网站中奖公告。</p>
+    </div>
+</div>
+<div id="alertLogin" class="dj_result">
+	<div class="yw_ywbl" style="border:none; margin-top:0;">
+		<h3><strong class="fleft">温馨提示</strong></h3>
+		<p>参与活动兑奖必须使用手机账号登录！</p>
+		<span style="margin:30px 0 0 170px;" id="phoneConfirm" class="propbtn cursorpointer" onclick="show('cover1','alertmsg1')">确定</span>
+	</div>
+</div>
+<div id="djLayerBg"></div>
+<!--兑奖弹出层 end-->
+<script type="text/javascript">
+if( $.browser.msie && $.browser.version == '6.0' && $.browser.version == '7.0' && $.browser.version == '8.0'){
+}else{
+	$(function(){
+		if($("#cookieDto").val() == 1){
+		var cookieBusiness = GetBusinessCookie ("cookieBusiness");
+		var url = window.location.href;
+		if(cookieBusiness == null){
+			var value = encodeURI("")+"^"+url+"|";
+			setBusinessCookie("cookieBusiness",value);
+		}else{
+			var businesses = new Array();
+			businesses = cookieBusiness.split("|");
+			var flag = 0;
+			if(businesses.length == 0){
+				var value = encodeURI("")+"^"+url+"|";
+				setBusinessCookie("cookieBusiness",value);
+			}else{
+				for(var i = 0; i < businesses.length; i++){
+					var business = businesses[i].split("^");
+					if(encodeURI("") == business[0]){
+						flag = 1;
+					}
+				}
+			}
+			if(flag == 0 && businesses.length<7){
+				var value = cookieBusiness+encodeURI("")+"^"+url+"|";
+				setBusinessCookie("cookieBusiness",value);
+			}else if(flag == 0 && businesses.length>=7){
+				//var cookieBusiness = GetBusinessCookie ("cookieBusiness");
+				//var businesses = new Array();
+				//businesses = cookieBusiness.split("|");
+				var start = cookieBusiness.indexOf("|");
+				var end = cookieBusiness.length;
+				var value = cookieBusiness.substring(start+1,end)+encodeURI("")+"^"+url+"|";
+				setBusinessCookie("cookieBusiness",value);
+			}
+		}}
+			
+			function setBusinessCookie(name,value){
+				expires = new Date();
+				expires.setTime(expires.getTime() + (1000 * 86400 * 365));
+				document.cookie = name + "=" + escape(value) + "; expires=" + expires.toGMTString() + "; path=/ ; domain=10086.cn";
+			}
+			
+			function GetBusinessCookie (name ){
+				cookie_name = name + "=";
+				cookie_length = document.cookie.length;
+				cookie_begin = 0;
+				while (cookie_begin < cookie_length){
+					value_begin = cookie_begin + cookie_name.length;
+					if (document.cookie.substring(cookie_begin, value_begin) == cookie_name){
+						var value_end = document.cookie.indexOf ( ";", value_begin);
+						if (value_end == -1){
+							value_end = cookie_length;
+						}
+						return unescape(document.cookie.substring(value_begin, value_end));
+					}
+					cookie_begin = document.cookie.indexOf ( " ", cookie_begin) + 1;
+					if (cookie_begin == 0){
+						break;
+					}
+				}
+				return null;
+			}
+	});
+}
+</script>
+ 
+<link href="/common/screensaver/screenlock.css" rel="stylesheet" type="text/css">
+<script src="/js/jquery.cookie.js"></script>
+<script src="/common/screensaver/screenlock.js"></script>
+
+		<!--底文件结束-->
+	
+
+<img src="http://xwfx.zj.chinamobile.com/webtrends/dcs.gif?WT.branch=zj&amp;dcssip=zj.10086.cn&amp;wt.host=zj.10086.cn&amp;dcsuri=/&amp;wt.es=http%3a%2f%2fzj.10086.cn%2f&amp;wt.sr=1024x768&amp;wt.si_n=&amp;wt.si_x=1&amp;wt.error=&amp;wt.cxmonth=&amp;wt.mobile=&amp;wt.brand=&amp;wt.co_f=23eac2c61367a7b66041515481837915&amp;dcsdat=1515481837915"></body></html>

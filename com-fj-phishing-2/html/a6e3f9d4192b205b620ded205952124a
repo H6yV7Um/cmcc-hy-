@@ -1,0 +1,957 @@
+<!DOCTYPE html><html class="app js no-touch no-android chrome no-firefox no-iemobile no-ie no-ie10 no-ie11 no-ios ng-scope" ng-app="lucky.admin"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}</style>
+<base href="">
+<title>PC一点通</title>
+
+  <link rel="icon" type="image/x-icon" href="ccs4.ico">
+<meta name="keywords" content="pc一点通,www.pcydt.com">
+<meta name="description" content="pc一点通">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="renderer" content="QQ365884467">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="/1/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/kit.min.css?v=1.6.1" type="text/css">
+<link rel="stylesheet" href="css/admin.min.css?v=1.6.2" type="text/css">
+
+<style>
+.focus{ position:relative; width:1140px; height:250px;float: left; margin:0 auto;}  
+.focus .btn{ position:absolute; bottom:34px; left:510px; overflow:hidden; zoom:1;} 
+.focus .btn a{position:relative; display:inline; width:13px; height:13px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }  
+.focus .btn a:hover,.focus .btn a.current{  cursor:pointer;background:#fc114a;}  
+.focus .fPic{ position:absolute; left:0px; top:0px; display:block; width:100%; height:100%}  
+.focus .D1fBt{ overflow:hidden; zoom:0.6;  height:16px; z-index:10; display:none}  
+
+.focus .fcon{ position:relative; width:100%; float:left; display:none; background:#000  }  
+.focus .fcon img{ display:block; width:100%; height:100% }  
+.focus .fbg{bottom:25px; right:40px; position:absolute; height:21px; text-align:center; z-index: 200; }  
+.focus .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px}    
+.focus .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }    
+.focus .D1fBt .current,.focus .D1fBt a:hover{background:#fc114a;}    
+.focus .D1fBt img{display:none}    
+.focus .D1fBt i{display:none; font-style:normal; }    
+.focus .prev,.focus .next{position:absolute;width:40px;height:74px;background: url(../images/focus_btn.png) no-repeat;}
+.focus .prev{top: 50%;margin-top: -37px; left: 0;background-position:0 -74px; cursor:pointer; }  
+.focus .next{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}  
+.focus .prev:hover{  background-position:0 0; }  
+.focus .next:hover{  background-position:-40px 0;}  
+</style>
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/excanvas.js"></script>
+  <![endif]-->
+</head>
+<body ng-controller="openCtrl" class="ng-scope">
+
+	<section class="vbox">
+	
+	
+	
+<div id="fsD1" class="focus" style="width: 1024px; height: 224.56140350877192px;">  
+    <div id="D1pic1" class="fPic">  
+        <div class="fcon" style="display: block;">
+            <a href="http://www.ascxw.com"><img src="http://www.ascxw.com/open/static/images/IMG_2473.JPG" style="opacity: 0.64;"></a>
+        </div>
+        
+        <div class="fcon" style="display: none;">
+            <a href="https://www-pc28.tt/?m=web&amp;c=user&amp;a=register&amp;pid=76526&amp;type=2"><img src="https://fl3.gtimg.com/flpartition0/7088/631007088/975/1752220031456416665730988883587.gif" style="opacity: 1; "></a>
+        </div>   
+
+        <div class="fcon" style="display: none;">
+            <a href="http://www-pc678.com/?Intr=6225#topics/26"><img src="https://fl2.gtimg.com/flpartition0/7088/631007088/872/6278488750115357346278316008228.gif" style="opacity: 1; "></a>
+        </div>
+        
+        <div class="fcon" style="display: none;">
+            <a href="https://wwwpc28.tw/?m=web&amp;c=user&amp;a=register&amp;pid=612&amp;type=2"><img src="https://fl1.gtimg.com/flpartition0/7088/631007088/582/8683525043069979219282402138145.gif" style="opacity: 1; "></a>
+        </div>
+        
+ 
+
+    </div>
+    <div class="fbg">  
+    <div class="D1fBt" id="D1fBt">  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>1</i></a>  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>2</i></a>  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>3</i></a>  
+        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>4</i></a>  
+    </div>  
+    </div>  
+    <span class="prev"></span>   
+    <span class="next"></span>    
+</div>  	
+	
+	
+	
+	
+	
+	
+	
+	
+    <section class="scrollable" id="msgcontainer">
+    
+      <section class="hbox stretch">
+        <!-- .aside -->
+        <!-- /.aside -->
+        <section id="content">
+          <section class="vbox-nouse">
+          
+            <section class="container container-h bg-white scrollable wrapper wrapper-xxs">
+             <header>
+   			<!--banner-->
+			<div class="banner">
+			<div class="fa fa-spinner fa fa-spin fa ng-isolate-scope fa-2x block center" loading="loading" class-name="fa-2x block center" style="display: none;"></div>
+				<!-- 滚动代码开始-->
+				<div class="sliderContainer fullWidth clearfix">
+				
+					<div id="full-width-slider" class="royalSlider heroSlider rsMinW ng-isolate-scope" w-control-navigation="bullets" w-slide-vertical="ADs" news-type="0" w-slide-orientation="horizontal"><!-- ngRepeat: o in wSlideVertical --></div>
+						
+				</div>
+
+				<!-- 滚动代码结束-->
+			</div>      			
+			
+    </header>
+              <div class="bg-white lot-type clearfix">
+    <!-- ngRepeat: o in lotTypes --><a class="col-lg-1 col-sm-2 col-xs-6 ng-scope ng-binding" ng-repeat="o in lotTypes" ng-class="{'active':o.id===curLotTypeId,'nav-b-r-none nav-lg-b-r-none':lotTypes.length-1===$index}" ng-click="changeLotType(o.id)" href="javascript:;">北京</a><!-- end ngRepeat: o in lotTypes --><a class="col-lg-1 col-sm-2 col-xs-6 ng-scope ng-binding nav-b-r-none nav-lg-b-r-none active" ng-repeat="o in lotTypes" ng-class="{'active':o.id===curLotTypeId,'nav-b-r-none nav-lg-b-r-none':lotTypes.length-1===$index}" ng-click="changeLotType(o.id)" href="javascript:;">加拿大</a><!-- end ngRepeat: o in lotTypes -->
+    <a class="col-lg-1 col-sm-2 nav-b-r-none nav-lg-b-r-none nav-xs-hidden"></a>
+    <a class="col-lg-1 col-sm-2 nav-b-r-none nav-lg-b-r-none nav-xs-hidden"></a>
+    <a class="col-lg-1 col-sm-2 nav-b-r-none nav-lg-b-r-none nav-xs-hidden"></a>
+    <a class="col-lg-1 col-sm-2 nav-xs-hidden nav-lg-b-r-none "></a>
+    <a class="col-lg-1 col-sm-2 nav-md-hidden nav-xs-hidden nav-lg-b-r-none"></a>
+    <a class="col-lg-1 col-sm-2 nav-md-hidden nav-xs-hidden nav-lg-b-r-none"></a>
+    <a class="col-lg-1 col-sm-2 nav-md-hidden nav-xs-hidden nav-lg-b-r-none"></a>
+    <a class="col-lg-1 col-sm-2 nav-md-hidden nav-xs-hidden nav-lg-b-r-none"></a>
+    <a class="col-lg-1 col-sm-2 nav-md-hidden nav-xs-hidden nav-lg-b-r-none"></a>
+    <a class="col-lg-1 col-sm-2 nav-md-hidden nav-xs-hidden nav-lg-b-r-none"></a>
+   
+</div>
+<div class="lot-m clearfix">
+    <div class="col-md-4 col-sm-6 lot-latest text-center">
+    	<div class=" clearfix" style="display:inline-block;">
+    	<div class="pull-left t-logo">
+         <img ng-src="images/canada_logo.png" src="images/canada_logo.png">
+    </div>
+    <div class="lot-section pull-left">
+        <p>最新：<i id="period" class="ng-binding" ng-hide="loadingLatest">2291268</i> <div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingLatest" style="display: none;"></div> 期</p>
+        <div class="lot-section-sel pull-left ng-isolate-scope" mc-section-dropdown-list="" ddl-index="ddlSection.index" model="ddlSections" style="margin-top:-5px;"><div class="btn-group">
+<button type="button" class="btn btn-default btn-sm border-radius0" ng-click="prev()" ng-disabled="ddlIndex===ddlModel.length-1"><i class="fa fa-chevron-left"></i></button>      
+		                <div class="btn-group">
+<button data-toggle="dropdown" class="btn btn-default btn-sm dropdown-toggle border-radius0 ng-binding">
+2291268
+<span class="caret h-caret"></span>
+</button>
+<ul class="dropdown-menu dropdown-select" overflow-y:="" auto;"="">
+<!-- ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope active">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291268</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291267</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291266</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291265</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291264</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291263</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291262</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291261</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291260</a>
+
+</li><!-- end ngRepeat: item in ddlModel --><li ng-repeat="item in ddlModel" ng-click="select($index)" ng-class="{true: 'active', false: ''}[ddlIndex==$index]" class="ng-scope">
+<a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 2291259</a>
+
+</li><!-- end ngRepeat: item in ddlModel -->
+</ul>
+
+</div>
+<button type="button" class="btn btn-default btn-sm border-radius0" ng-click="next()" ng-disabled="ddlIndex===0" disabled="disabled">
+<i class="fa fa-chevron-right"></i>
+</button>
+</div></div>
+    </div>
+    	</div>
+    
+    </div>
+    
+    
+    <div class="col-md-4 col-sm-6 open-cutdown no-padder">
+        <span style="display: none;overflow:hidden;">彩种已关闭</span>
+        <div style="display: none"><i>官网结束</i><br>预计恢复时间：<b></b></div>
+        <div class="opentime ng-isolate-scope" style="display: inline-block;" mc-timer="" ms="tim" end-ms="endplay"><span>下一期:</span><b class="ng-binding ng-hide" ng-show="t.hour&gt;0">--</b><span ng-show="t.hour&gt;0" class="ng-hide">小时</span><b class="ng-binding">--</b><span>分</span><b class="ng-binding">--</b><span>秒</span></div>
+    </div>
+    <div class="col-md-4 col-sm-6 lot-result">
+        <div class="r1" data-state="0" ng-show="!!!opening">
+            <span class="cyanBlue ng-binding">3</span>
+            <label class="">+</label>
+            <span class="cyanBlue ng-binding">7</span>
+             <label class="">+</label>
+            <span class="cyanBlue ng-binding">2</span>
+             <label class="">=</label>
+            <span class="skyBlue ng-binding">12</span>
+        </div>
+        <div class="r2" ng-show="!!!opening">
+           <span class="badge ng-binding blue-info" ng-class="openResultDisplay.openNum|fBigOrSmallPlayColor">小</span>
+           <span class="badge ng-binding red-info" ng-class="openResultDisplay.openNum|fEvenOrOddPlayColor">双</span>
+        </div>
+        <span class="r3 ng-hide" ng-show="!!opening">等待结果 <img src="images/icon-status-status-dots-anim-16.gif"></span>
+    </div>
+</div>
+              <section class="panel panel-default m-b-none ng-isolate-scope" infinite-scroll="getOpenHistory()" infinite-scroll-disabled="busyMsg" infinite-scroll-distance="0" infinite-scroll-container="msgcontainer">
+                <header class="panel-heading">
+                  	<div class="btn-group" data-toggle="buttons" style="width:100%;">
+                  		<span class="arrow bottom h-ab-result" ng-class="{'h-ab-result':displayResult===0,'h-ab-trend':displayResult===1,'h-ab-bp':displayResult===2}"></span>
+		                <button class="col-xs-6 btn btn-sm btn-facebook" ng-class="{'btn-facebook':displayResult===0,'btn-twitter':displayResult!==0}" ng-click="selectResult()">
+		                    <i class="fa fa-key"></i> 结果
+		                </button>
+		                <button class="col-xs-6 btn btn-sm btn-twitter" ng-class="{'btn-facebook':displayResult===1,'btn-twitter':displayResult!==1}" ng-click="selectTrend()">
+		                   <i class="fa fa-bar-chart-o"></i> 走势图
+		                </button>
+		            </div>
+		            
+                </header>
+                
+                <div class="table-responsive" ng-show="displayResult===0" style="overflow-x: hidden;">
+                  <table class="table table-striped b-light">
+                    <thead>
+                      <tr>
+                        <th>期号</th>
+                        <th>时间</th>
+                        <th>号码</th>
+                       
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291268</td>
+                        <td class="ng-binding">06-04 08:15:30</td>
+                        <td class="ng-binding">3+7+2=12 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291267</td>
+                        <td class="ng-binding">06-04 08:12:00</td>
+                        <td class="ng-binding">3+5+8=16 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291266</td>
+                        <td class="ng-binding">06-04 08:08:30</td>
+                        <td class="ng-binding">0+8+9=17 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291265</td>
+                        <td class="ng-binding">06-04 08:05:00</td>
+                        <td class="ng-binding">1+6+7=14 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291264</td>
+                        <td class="ng-binding">06-04 08:01:30</td>
+                        <td class="ng-binding">2+5+1=8 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291263</td>
+                        <td class="ng-binding">06-04 07:58:00</td>
+                        <td class="ng-binding">9+2+5=16 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291262</td>
+                        <td class="ng-binding">06-04 07:54:30</td>
+                        <td class="ng-binding">8+6+5=19 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291261</td>
+                        <td class="ng-binding">06-04 07:51:00</td>
+                        <td class="ng-binding">0+3+9=12 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291260</td>
+                        <td class="ng-binding">06-04 07:47:30</td>
+                        <td class="ng-binding">2+4+1=7 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291259</td>
+                        <td class="ng-binding">06-04 07:44:00</td>
+                        <td class="ng-binding">7+2+9=18 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291258</td>
+                        <td class="ng-binding">06-04 07:40:30</td>
+                        <td class="ng-binding">4+5+0=9 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291257</td>
+                        <td class="ng-binding">06-04 07:37:00</td>
+                        <td class="ng-binding">7+4+7=18 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291256</td>
+                        <td class="ng-binding">06-04 07:33:30</td>
+                        <td class="ng-binding">2+2+7=11 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291255</td>
+                        <td class="ng-binding">06-04 07:30:00</td>
+                        <td class="ng-binding">7+1+3=11 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291254</td>
+                        <td class="ng-binding">06-04 07:26:30</td>
+                        <td class="ng-binding">3+9+1=13 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291253</td>
+                        <td class="ng-binding">06-04 07:23:00</td>
+                        <td class="ng-binding">5+2+6=13 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291252</td>
+                        <td class="ng-binding">06-04 07:19:30</td>
+                        <td class="ng-binding">7+3+1=11 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291251</td>
+                        <td class="ng-binding">06-04 07:16:00</td>
+                        <td class="ng-binding">1+2+7=10 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291250</td>
+                        <td class="ng-binding">06-04 07:12:30</td>
+                        <td class="ng-binding">9+0+5=14 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291249</td>
+                        <td class="ng-binding">06-04 07:09:00</td>
+                        <td class="ng-binding">2+0+8=10 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291248</td>
+                        <td class="ng-binding">06-04 07:05:30</td>
+                        <td class="ng-binding">0+1+5=6 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291247</td>
+                        <td class="ng-binding">06-04 07:02:00</td>
+                        <td class="ng-binding">8+9+3=20 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291246</td>
+                        <td class="ng-binding">06-04 06:58:30</td>
+                        <td class="ng-binding">6+1+8=15 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291245</td>
+                        <td class="ng-binding">06-04 06:55:00</td>
+                        <td class="ng-binding">6+1+1=8 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291244</td>
+                        <td class="ng-binding">06-04 06:51:30</td>
+                        <td class="ng-binding">9+1+4=14 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291243</td>
+                        <td class="ng-binding">06-04 06:48:00</td>
+                        <td class="ng-binding">3+8+9=20 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291242</td>
+                        <td class="ng-binding">06-04 06:44:30</td>
+                        <td class="ng-binding">6+9+6=21 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291241</td>
+                        <td class="ng-binding">06-04 06:41:00</td>
+                        <td class="ng-binding">4+6+3=13 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291240</td>
+                        <td class="ng-binding">06-04 06:37:30</td>
+                        <td class="ng-binding">1+3+6=10 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr class="ng-scope" ng-repeat="v in openHistoryDatas">
+                        <td class="ng-binding">2291239</td>
+                        <td class="ng-binding">06-04 06:34:00</td>
+                        <td class="ng-binding">2+1+2=5 
+                       </td>
+                        
+                      </tr><!-- end ngRepeat: v in openHistoryDatas -->
+                      
+                    </tbody>
+                  </table>
+                </div>
+                <div class="table-responsive ng-hide" ng-show="displayResult===1" style="overflow-x: hidden;">
+                  <table class="table table-striped tbl-trend b-light">
+                    <thead>
+                      <tr>
+                        <th>期号</th>
+                        <th>值</th>
+                        <th>大</th>
+                        <th>小</th>
+                        <th>单</th>
+                        <th>双</th>
+                        <th>大单</th>
+                        <th>大双</th>
+                        <th>小单</th>
+                        <th>小双</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>间隔</td>
+                      <td></td>
+                      <!-- ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">1</td><!-- end ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">0</td><!-- end ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">2</td><!-- end ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">0</td><!-- end ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">2</td><!-- end ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">1</td><!-- end ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">8</td><!-- end ngRepeat: o in gPlays --><td class="font-bold ng-scope ng-binding" ng-repeat="o in gPlays">0</td><!-- end ngRepeat: o in gPlays -->
+                      </tr>
+                      <!-- ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291268</td>
+                        <td class="font-bold ng-binding">
+                        12
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291267</td>
+                        <td class="font-bold ng-binding">
+                        16
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291266</td>
+                        <td class="font-bold ng-binding">
+                        17
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">大单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291265</td>
+                        <td class="font-bold ng-binding">
+                        14
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291264</td>
+                        <td class="font-bold ng-binding">
+                        8
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291263</td>
+                        <td class="font-bold ng-binding">
+                        16
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291262</td>
+                        <td class="font-bold ng-binding">
+                        19
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">大单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291261</td>
+                        <td class="font-bold ng-binding">
+                        12
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291260</td>
+                        <td class="font-bold ng-binding">
+                        7
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291259</td>
+                        <td class="font-bold ng-binding">
+                        18
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291258</td>
+                        <td class="font-bold ng-binding">
+                        9
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291257</td>
+                        <td class="font-bold ng-binding">
+                        18
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291256</td>
+                        <td class="font-bold ng-binding">
+                        11
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291255</td>
+                        <td class="font-bold ng-binding">
+                        11
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291254</td>
+                        <td class="font-bold ng-binding">
+                        13
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291253</td>
+                        <td class="font-bold ng-binding">
+                        13
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291252</td>
+                        <td class="font-bold ng-binding">
+                        11
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291251</td>
+                        <td class="font-bold ng-binding">
+                        10
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291250</td>
+                        <td class="font-bold ng-binding">
+                        14
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291249</td>
+                        <td class="font-bold ng-binding">
+                        10
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291248</td>
+                        <td class="font-bold ng-binding">
+                        6
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291247</td>
+                        <td class="font-bold ng-binding">
+                        20
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291246</td>
+                        <td class="font-bold ng-binding">
+                        15
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">大单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291245</td>
+                        <td class="font-bold ng-binding">
+                        8
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291244</td>
+                        <td class="font-bold ng-binding">
+                        14
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291243</td>
+                        <td class="font-bold ng-binding">
+                        20
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">大双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291242</td>
+                        <td class="font-bold ng-binding">
+                        21
+                        </td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor">大</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">大单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291241</td>
+                        <td class="font-bold ng-binding">
+                        13
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291240</td>
+                        <td class="font-bold ng-binding">
+                        10
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">双</span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding red-info" ng-class="v.copen|fEvenOrOddPlayColor">小双</span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas --><tr ng-repeat="v in openHistoryDatas" class="ng-scope">
+                        <td class="ng-binding">2291239</td>
+                        <td class="font-bold ng-binding">
+                        5
+                        </td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fBigOrSmallPlayColor">小</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor">小单</span></td>
+                        <td><span class="badge blue-info ng-binding" ng-class="v.copen|fEvenOrOddPlayColor"></span></td> 
+                      </tr><!-- end ngRepeat: v in openHistoryDatas -->
+                      
+                    </tbody>
+                  </table>
+                </div>
+								<div class="bp-con ng-hide" ng-show="displayResult===2" style="overflow-x: hidden;">
+									<div style="width:100%;overflow-x:auto;">
+										<div class="clearfix" style="width:1500px;height:130px;padding:5px 5px;">
+											<div ng-hide="loadingBP" class="">
+												<!-- ngRepeat: c in bpAll.bps track by $index -->
+											</div>
+											<div><div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingBP" style="display: none;"></div></div>
+										</div>
+										
+									</div>
+
+
+									<div style="width:100%;overflow-x:auto;">
+										<div class="clearfix" style="width:2100px;height:130px;padding:5px 5px;">
+											<div ng-hide="loadingBP" class="">
+												<!-- ngRepeat: c in bpAll.dl track by $index -->
+											</div>
+											<div><div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingBP" style="display: none;"></div></div>
+										</div>
+										
+									</div>
+
+									<div style="width:100%;overflow-x:auto;">
+										<div class="clearfix" style="width:1500px;height:82px;;padding:5px 5px;">
+											<div ng-hide="loadingBP" class="">
+												<!-- ngRepeat: c in bpAll.dyzl -->
+											</div>
+											<div><div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingBP" style="display: none;"></div></div>
+										</div>
+										
+										
+									</div>
+
+									<div style="width:100%;overflow-x:auto;">
+										<div class="clearfix" style="width:1500px;height:82px;padding:5px 5px;">
+											<div ng-hide="loadingBP" class="">
+												<!-- ngRepeat: c in bpAll.xl track by $index -->
+											</div>
+											<div><div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingBP" style="display: none;"></div></div>
+										</div>
+										
+									</div>
+
+
+									<div style="width:100%;overflow-x:auto;">
+										<div class="clearfix" style="width:1500px;height:82px;;padding:5px 5px;">
+											<div ng-hide="loadingBP" class="">
+												<!-- ngRepeat: c in bpAll.gzl track by $index -->
+											</div>
+											<div><div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingBP" style="display: none;"></div></div>
+										</div>
+										
+									</div>
+
+									<div class="h30 clearfix">
+										<div class="col-xs-6 text-right next">
+											<span class="f-red">B - </span> <i class="fa fa-circle-o small" ng-hide="bpAll.next[0][0]===0" ng-class="{'f-red':bpAll.next[0][0]===1,'f-blue':bpAll.next[0][0]===2}"></i>
+											<i class="fa fa-circle small" ng-hide="bpAll.next[0][1]===0" ng-class="{'f-red':bpAll.next[0][1]===1,'f-blue':bpAll.next[0][1]===2}"></i>
+											<span class="small-xs" ng-hide="bpAll.next[0][2]===0" ng-class="{'f-red':bpAll.next[0][2]===1,'f-blue':bpAll.next[0][2]===2}">/</span>
+										</div>
+										<div class="col-xs-6 text-left next">
+											<span class="f-blue">P - </span> <i class="fa fa-circle-o small" ng-hide="bpAll.next[1][0]===0" ng-class="{'f-red':bpAll.next[1][0]===1,'f-blue':bpAll.next[1][0]===2}"></i>
+											<i class="fa fa-circle small" ng-hide="bpAll.next[1][1]===0" ng-class="{'f-red':bpAll.next[1][1]===1,'f-blue':bpAll.next[1][1]===2}"></i>
+											<span class="small-xs" ng-hide="bpAll.next[1][2]===0" ng-class="{'f-red':bpAll.next[1][2]===1,'f-blue':bpAll.next[1][2]===2}">/</span>
+										</div>
+
+									</div>
+								</div>
+								<footer class="panel-footer text-center"><label ng-show="loadingMsg" class="ng-hide">正在玩命加载</label> <div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingMsg" style="display: none;"></div>
+                  
+                </footer>
+              </section>
+            </section>
+          </section>
+          <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+        </section>
+        
+      </section>
+    </section>
+  </section>
+
+	<script type="text/javascript" src="js/lb2.js" async="true"></script><script src="/1/jquery.min.js"></script>
+	<script src="/1/angular.min.js"></script>
+	<script src="js/kit.min.js?v=1.6.4"></script>
+	<script src="./js/lb.js"></script>
+<script type="text/javascript">
+	Qfast.add('widgets', { path: "js/lb2.js", type: "js", requires: ['fx'] });  
+	Qfast(false, 'widgets', function () {
+		K.tabs({
+			id: 'fsD1',   //焦点图包裹id  
+			conId: "D1pic1",  //** 大图域包裹id  
+			tabId:"D1fBt",  
+			tabTn:"a",
+			conCn: '.fcon', //** 大图域配置class       
+			auto: 1,   //自动播放 1或0
+			effect: 'fade',   //效果配置
+			eType: 'click', //** 鼠标事件
+			pageBt:true,//是否有按钮切换页码
+			bns: ['.prev', '.next'],//** 前后按钮配置class                          
+			interval: 5000  //** 停顿时间  
+		}) 
+	})  
+var browser_width = $(document.body).width();
+$("#fsD1").css("width",browser_width);
+$("#fsD1").css("height",browser_width*250/1140);
+$(window).resize(function() {
+browser_width = $(document.body).width();
+$("#fsD1").css("width",browser_width);
+$("#fsD1").css("height",browser_width*250/1140);
+
+}); 
+</script>
+	<script src="js/open-admin.min.js?v=2.0.0"></script>
+	<script type="text/javascript">﻿var paramsGlobal ={app:"/open",sig:"iC4fbZLLQrXpok79demmi69OYdurm7mQRYAyksD7mpc%3D",se:"1528107004918",appid:"mweb"};</script>
+	
+
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261663105'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261663105%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1261663105"><a href="http://www.cnzz.com/stat/website.php?web_id=1261663105" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></span><script src=" http://s95.cnzz.com/z_stat.php?id=1261663105&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1261663105&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+
+	 
+
+</body></html>

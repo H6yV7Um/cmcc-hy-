@@ -1,0 +1,147 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>快速充值中心</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/Public/Home/css//pc.css?v=2.2">
+    <script type="text/javascript" src="/Public/Home/js//jquery.js?v=2.2"></script>
+    <script type="text/javascript" src="/Public/Home/js//layer/layer.js"></script><link rel="stylesheet" href="http://ctx10.com/Public/Home/js//layer/skin/layer.css" id="layui_layer_skinlayercss" style="">
+    <script>
+      var zuida = 3000          ,zuidi = 10          ,cur_user = ""
+          ,getBankViewUrl = "/index.php/Index/getBankgroupView.html";
+    </script>
+  </head>
+  <body>
+    <noscript>
+        &lt;h1 style="font-size: 50px;color: red;"&gt;
+          访问本网站请开启Javascript
+        &lt;/h1&gt;
+    </noscript>
+    <!--[if lt IE 7]> 
+      <h1 style="font-size: 50px;color: red;">
+          浏览器版本过低，请使用高版本的浏览器带来更好的体验
+      </h1>
+    <![endif]-->
+      <form method="post" id="pay" action="/index.php/Index/send.html">
+        <input type="hidden" name="other" id="other">
+        <input type="hidden" name="bank_code" id="bank_code">
+        <div class="header">
+          <div class="logo">
+            <img src="/Public/Home/images//logo.png?v=2" align="" style=""></div>
+          <div class="online-service">
+            <a href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=82843" target="_blank">
+              <img src="/Public/Home/images//header_04.png" align=""></a>
+          </div>
+        </div>
+        <div class="content">
+          <h2>支持【<span style="color: #ff0000;">手机端</span>】<span style="color:#05a11f">【微信扫码】</span>、<span style="color:#fa00d4">【支付宝】</span>在线支付最高单笔！</h2><p>扫一扫支付，手机也能支付，输入支付网址： <span style="color:#000cff;">localhost </span>一键入款，立即到账!<br>支付流程：输入并确认正确的会员账号→输入存款额度→点击确认支付→付款成功后<span style="color: #ff0000;">1~10秒</span>自动到账；<br>支付宝 /微信 存款金额范围为（<span style="color: rgb(255, 0, 0);">10</span><span style="color: #ff0000;">~5000元</span>）, 需要大额入款可分多次存入或使用其它方式存款；<br></p><p>使用微信扫码（备用）入款时，请您输入整数金额（如10,100,200,300,500）谢谢；</p>          <table class="content-table">
+            <tbody>
+              <tr>
+                <td class="title">会员账号：</td>
+                <td class="inputtd">
+                  <input placeholder="请填写快速充值中心游戏账户（*）" name="username" value="" id="username" type="text" class="table-input" onpaste="return false" onkeyup="value=value.replace(/[^A-Z\a-\z0-9\_]/g,'')"></td>
+                <td align="center" style="color: #e60012;">*必填</td></tr>
+              <tr>
+                <td class="title">确认账号：</td>
+                <td>
+                  <input placeholder="请认真填写快速充值中心游戏账户，否则无法正常充值（*）" name="rusername" value="" id="rusername" type="text" class="table-input" onpaste="return false" onkeyup="value=value.replace(/[^A-Z\a-\z0-9\_]/g,'')"></td>
+                <td align="center" style="color: #e60012;">*必填</td></tr>
+              <tr>
+                <td class="title">支付类型：</td>
+
+                <td id="getNewBackgroup" style="padding: 0px 15px;">      <!-- 微信开始 -->
+              <label class="pay-label">
+              <input type="radio" name="bid" id="bankco" btype="WEIXIN" class="regular-radio" ctrname="Baishengfu" value="7">
+              <label></label>
+              <img src="/Public/Home/images//wx.jpg" alt="" style="height: 40px; width: auto; display: inline-block; position: relative;">
+              <span style="font-size: 20px; height: 36px; display: inline-block; position: relative;">
+                微信扫码
+                              </span>
+            </label><label class="pay-label">
+              <input type="radio" name="bid" id="bankco" btype="WEIXIN" class="regular-radio" ctrname="Xinhuiyin" value="9">
+              <label></label>
+              <img src="/Public/Home/images//wx.jpg" alt="" style="height: 40px; width: auto; display: inline-block; position: relative;">
+              <span style="font-size: 20px; height: 36px; display: inline-block; position: relative;">
+                微信扫码
+                (备用）              </span>
+            </label>      <!-- 微信结束 -->
+
+      <!-- 支付宝开始 -->
+              <label class="pay-label">
+              <input type="radio" name="bid" id="bankco" btype="ALIPAY" class="regular-radio" ctrname="Xinhuiyin" value="9">
+              <label></label>
+              <img src="/Public/Home/images//alipay.jpg" alt="" style="height: 40px; width: auto; display: inline-block; position: relative;">
+              <span style="font-size: 20px; height: 36px; display: inline-block; position: relative;">支付宝</span>
+            </label>      <!-- 支付宝结束 -->
+
+      <!-- QQ钱包开始 -->
+              <label class="pay-label">
+              <input type="radio" name="bid" id="bankco" btype="QQ" class="regular-radio" ctrname="Baishengfu" value="7">
+              <label></label>
+              <img src="/Public/Home/images//qq.png" alt="" style="height: 40px; width: auto; display: inline-block; position: relative;">
+              <span style="font-size: 20px; height: 36px; display: inline-block; position: relative;">QQ扫码</span>
+            </label><label class="pay-label">
+              <input type="radio" name="bid" id="bankco" btype="QQ" class="regular-radio" ctrname="Xinhuiyin" value="9">
+              <label></label>
+              <img src="/Public/Home/images//qq.png" alt="" style="height: 40px; width: auto; display: inline-block; position: relative;">
+              <span style="font-size: 20px; height: 36px; display: inline-block; position: relative;">QQ扫码(备用）</span>
+            </label>      <!-- QQ钱包结束 -->
+      
+
+      <!-- 网银开始 -->
+            <!-- 网银结束 --></td>
+                <td align="center" style="color: #e60012;">*必选</td></tr>
+              <tr id="zhifubaozhanghao" style="display: none;">
+                <td class="title">支付宝昵称：</td>
+                <td>
+                  <input placeholder="请认真填写支付宝昵称，否则财务无法第一时间入款" value="" type="text" class="table-input oclass" onpaste="return false"></td>
+                <td align="center" style="color: #e60012;">*必填</td></tr>
+              <tr id="weixinzhanghao" style="display: none;">
+                <td class="title">微信昵称：</td>
+                <td>
+                  <input placeholder="请认真填写微信昵称，否则财务无法第一时间入款" value="" type="text" class="table-input oclass" onpaste="return false"></td>
+                <td align="center" style="color: #e60012;">*必填</td></tr>
+              <tr>
+              </tr><tr id="qqzhanghao" style="display: none;">
+                <td class="title">QQ帐号：</td>
+                <td>
+                  <input placeholder="请认真填写QQ帐号，否则财务无法第一时间入款" value="" type="text" class="table-input oclass" onpaste="return false"></td>
+                <td align="center" style="color: #e60012;">*必填</td></tr>
+              <tr>
+                <td class="title">确认额度：</td>
+                <td>
+                  <input placeholder="最低存款10元，最高单笔3000元" name="order_amount" type="text" class="table-input" id="coin" onkeyup="value=this.value.replace(/[^\d]+/g,'')">
+                  <p>
+                    <font color="red">温馨提醒:</font>入款时请不要充值整数，例如：501、699等不为整数的金额可提高充值成功率！</p></td>
+                <td align="center" style="color: #e60012;">*必填</td></tr>
+              <tr>
+              </tr><tr>
+                <td class="title">快捷额度：</td>
+                <td>
+                  <a class="kuaijie" href="" val="10.11">10.11元</a><a class="kuaijie" href="" val="50.55">50.55元</a><a class="kuaijie" href="" val="100.2">100.2元</a><a class="kuaijie" href="" val="300.22">300.22元</a><a class="kuaijie" href="" val="400.33">400.33元</a><a class="kuaijie" href="" val="500.44">500.44元</a><a class="kuaijie" href="" val="600.55">600.55元</a><a class="kuaijie" href="" val="800.66">800.66元</a><a class="kuaijie" href="" val="1000.33">1000.33元</a><a class="kuaijie" href="" val="2000.22">2000.22元</a><a class="kuaijie" href="" val="3000.11">3000.11元</a><a class="kuaijie" href="" val="">元</a>                </td>
+                <td align="center" style="color: #e60012;"></td></tr>
+              <tr>
+                <td class="title">存款时间：</td>
+                <td>
+                  <input name="P_Time" id="P_Time" type="text" value="2018-06-04 16:18:46" class="table-input" disabled=""></td>
+                <td align="center">无需填写</td></tr>
+            </tbody>
+          </table>
+          <div class="form-btn">
+            <a href="#" id="querenzhifu" style="background-color: #c59503;">确认支付</a>
+            <a href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=82843" target="_blank">联系客服</a>
+            <a href="http://ctxcp18.com" target="_blank">进入游戏</a></div>
+          <div style="height: 1px;clear: both;"></div>
+            <p class="tips"><span style="color:#f00;">温馨提示：</span>为了避免掉单情况的发生，请您在支付完成后，需等"支付成功"页面跳转出来, 再关闭页面，以免掉单！感谢配合！！！ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>支付成功后，若3分钟内未能及时到达您的会员账号请联系<a href="javascript:void(0);" style="color:#f00">【在线客服】</a>咨询； &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>祝您游戏愉快，盈利多多！O(∩_∩)O　　</p>          </div>
+        <div class="copyright">COPYRIGHT @ 快速充值中心 RESERVED</div></form>
+      
+      <script type="text/javascript" src="/Public/Home/js//app.js?v=2"></script>
+
+            <div id="tong" style="display:none;">
+         <p>公告内容</p>      </div>
+      
+  
+</body></html>

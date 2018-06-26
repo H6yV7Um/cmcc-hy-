@@ -1,0 +1,195 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<title>wm12530-12</title>
+<style type="text/css">
+html,body{ font: 16px/1.5 "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif, Helvetica, Arial;}
+*{padding: 0;margin: 0;}	a { background-color: transparent; text-decoration: none; color: #eee;}
+a:active, a:hover { outline: 0; }	ul,ol,li{ list-style:none}
+img { border: 0; }	h1 { font-size: 2em; margin: 0.67em 0; }	.fl{float: left;}.fr{float: right;}
+
+.cont-wrap{ width: 100%; height: auto; padding-top:20px;  background:url('http://wlanwm.12530.com/newcms/wm12530/index/images/bg03.jpg') left top repeat;}
+.content{ width: 960px; margin:0 auto 20px; position: relative;}
+.footer2{ width: 100%; padding: 20px 0; font-size: 12px; line-height: 20px; color: #888; text-align: center; font-family:'宋体'; background-color: #222222}
+.footer2 div{ margin-bottom:5px;}
+.footer2 a{ color: #888;}
+
+.tab_title li{float: left; width: 960px; height: 390px; position: relative; cursor: pointer; background-position:center top; background-repeat: no-repeat; background-size: cover}
+.tab_title li.tabli_01{ background-image: url('http://wlanwm.12530.com/newcms/wm12530/index/images/images_01.jpg')}
+.tab_title li.tabli_02{ background-image: url('http://wlanwm.12530.com/newcms/wm12530/index/images/images_02.jpg')}
+.tab_title li.tabli_03{ background-image: url('http://wlanwm.12530.com/newcms/wm12530/index/images/images_03.jpg')}
+.tab_title li div{ position: absolute; width: 100%; height: 100%; left: 0; top: 0; color: #fff; font-size:30px; letter-spacing: 5px; text-align: center; background-position: center center; background-repeat: no-repeat; z-index:3;}
+.tab_title li.tabli_01 div{ background-image:url('http://wlanwm.12530.com/newcms/wm12530/index/images/ic_music.png');}
+.tab_title li.tabli_02 div{ background-image:url('http://wlanwm.12530.com/newcms/wm12530/index/images/ic_ring.png');}
+.tab_title li.tabli_03 div{ background-image:url('http://wlanwm.12530.com/newcms/wm12530/index/images/ic_radio.png');}
+.tab_title li em{ opacity: 0; filter:alpha(opacity=0); position: absolute; left:0; top: 0; width: 100%; height: 100%; z-index: 2; background:url('images/images_00.png') left top no-repeat; transition:all .7s ease; background-size: cover;}
+.tab_title li.current em{opacity:1; filter:alpha(opacity=100);}
+
+.tab_cont{ float: left; width: 100%; background-color: #fff;}
+.tab_cont .tabs_item{ display: none; width: 100%; height:380px; overflow: hidden; position:relative }
+
+.cont_txt{ float: left; margin:40px 0 0 90px;}
+.cont_txt h1{ font-weight:normal; font-size: 40px; color: #333;}
+.cont_txt h1 img{ vertical-align: -20px;}
+.cont_txt p{ font-size: 20px; color: #666;}
+.cont_txt .down{ display:inline-block; width:250px; height:60px; margin-top:50px; font:normal 28px/60px '黑体'; color:#FF3368; text-align:center; border:#FF3368 solid 3px;transition:background-color .3s ease,color .3s ease;}
+.cont_txt .down:hover{ background-color:#FF3368; color: #fff; }
+
+.link_dl{width: 100%;}
+.link_dl dl{ float: left; width:100%; }
+.link_dl dl dt{ width:250px; margin-top:25px; font-size: 16px; font-family:'Microsoft YaHei'; height:26px; border-bottom: #ddd solid 2px}
+.link_dl dl dt span{display:inline-block;height:26px; color: #eee;border-bottom:#EB5B7F solid 2px }
+.link_dl dl dd{ display: inline-block; *display: inline; *margin-right:50px; width: 310px; margin-top:5px;position:relative;}
+.link_dl dl dd img{ vertical-align: -5px;}
+.link_dl dl dd a{ color: #999; font-size: 12px; font-family:'宋体'}
+.link_dl dl dd a:hover,.foot a:hover{ color: #ddd;}
+.link_dl dl dd .weima2{ display: none; width: 100px; position: absolute; left:0; bottom:25px;}
+.link_dl dl dd:hover .weima2{ display: block;}
+
+@media only screen and (min-width : 768px) and (max-width : 980px) {
+	.content{ width: 768px;}
+	.tab_title li{ width: 256px; height: 320px}
+	.tab_title li div{ background-size:40%}
+	.cont_txt{ margin:10px 0 0 40px}
+	.img2{margin:20px 20px 0 0}.img3{margin-top:30px}
+	.img1 img{ width: 450px}.img2 img{ width:300px}.img3 img{ width: 420px}
+	.tab_cont .tabs_item{ height:330px;}
+	.link_dl dl dd{ width: 240px}
+}
+
+.cont_txt h1,.cont_txt p{ animation:dragTop 0.6s ease-out 0.2s both; -webkit-animation:dragTop 0.6s ease-out 0.2s both; }
+.cont_txt p{ animation-delay:0.6s; -webkit-animation-delay: 0.6s; }
+.cont_txt .down{ animation:mopacity 1.2s ease-out 1s both; -webkit-animation:mopacity 1.2s ease-out 1s both; }
+.tabs_item .img1{ animation:lbin 0.9s ease-out 1.2s both; -webkit-animation:lbin 0.9s ease-out 1.2s both; }
+.tabs_item .img2{ animation:bottomin 0.9s ease-out 1.2s both; -webkit-animation:bottomin 0.9s ease-out 1.2s both; }
+.tabs_item .img3{ animation:rbin 0.9s ease-out 1.2s both; -webkit-animation:rbin 0.9s ease-out 1.2s both; }
+
+@keyframes dragTop {
+    0%   { opacity:0; transform:translateY(-70px); }
+    60%  { opacity:1; transform:translateY(20px) }
+    90%  { transform:translateY(-5px); }
+    97%  { transform:translateY(-1px); }
+    100% { transform:translateY(0px); }
+}
+@-webkit-keyframes dragTop {
+	0%   { opacity:0; -webkit-transform:translateY(-70px); }
+    60%  { opacity:1; -webkit-transform:translateY(20px) }
+    90%  { -webkit-transform:translateY(-5px); }
+    97%  { -webkit-transform:translateY(-1px); }
+    100% { -webkit-transform:translateY(0px); }
+}
+@keyframes mopacity {  0% { opacity:0; }  100% { opacity:1; } }
+@-webkit-keyframes mopacity { 0% { opacity:0; }   100% { opacity:1; } }
+@keyframes lbin {
+    0%   { opacity:0; transform:translate(-100px,200px); }
+    100% { opacity:1; transform:translate(0px); }
+}
+@-webkit-keyframes lbin {
+	0%   { opacity:0; -webkit-transform:translate(-100px,200px); }
+    100% { opacity:1; -webkit-transform:translate(0px); }
+}
+@keyframes rbin {
+    0%   { opacity:0; transform:translate(100px,200px); }
+    100% { opacity:1; transform:translate(0px); }
+}
+@-webkit-keyframes rbin {
+	0%   { opacity:0; -webkit-transform:translate(100px,200px); }
+    100% { opacity:1; -webkit-transform:translate(0px); }
+}
+@keyframes bottomin {
+    0%   { opacity:0;  transform:translateY(200px); }
+    100% { opacity:1;  transform:translateY(0px); }
+}
+@-webkit-keyframes bottomin {
+	0%   { opacity:0; -webkit-transform:translateY(200px); }
+    100% { opacity:1; -webkit-transform:translateY(0px); }
+}
+</style>
+</head>
+
+<body> 
+
+<div class="cont-wrap">
+<div class="content">
+	<div class="tabs">
+	    <ul class="tab_title">
+	        <li class="tabli_01 current"><em></em><div></div></li>
+	    </ul>
+        <div class="tab_cont">
+            <div class="tabs_item" style="display:block">
+            	<div class="cont_txt">
+            		<h1><img src="http://wlanwm.12530.com/newcms/wm12530/index/images/ic_music2.png"> 咪咕音乐</h1>
+            		<p>听最潮新歌,尽在咪咕音乐</p>
+            		<a href="musicindex.do?cType=sst_client&amp;nodeId=7638&amp;cid=014002C&amp;ucid=" class="down">了解详情</a>
+            	</div>
+            	<div class="fr img1"><img src="http://wlanwm.12530.com/newcms/wm12530/index/images/img_01.png" width="550"></div>
+            </div>
+            <div class="tabs_item">
+            	<div class="cont_txt">
+            		<h1><img src="http://wlanwm.12530.com/newcms/wm12530/index/images/ic_ring2.png"> 咪咕铃声</h1>
+            		<p>最流行的铃声,最方便的彩铃管理工具</p>
+            		<a href="detail.do?cType=ring_client&amp;nodeId=7707&amp;cid=0140014&amp;ucid=" class="down">了解详情</a>
+            	</div>
+            	<div class="fr img2" style="margin:40px 90px 0 0"><img src="http://wlanwm.12530.com/newcms/wm12530/index/images/images_05.jpg"></div>
+            </div>
+        </div>
+	</div>
+
+	<div class="link_dl fl">
+		<dl>
+			<dt><span>应用推荐</span></dt>
+
+			<dd><a name="down" href="http://wm.10086.cn/view/wap/download.do?cid=014002C&amp;cType=sst_client&amp;tid=424067&amp;type=down_d&amp;ucid=mgyy">MM商场</a></dd>
+
+		</dl>
+		<dl>
+			<dt><span>帮助信息</span></dt>
+			<dd><a href="http://m.10086.cn">咪咕音乐有限公司</a></dd>
+			<dd><a href="feedback.do">意见反馈</a></dd>
+			<dd>
+				<img src="http://wlanwm.12530.com/newcms/wm12530/index/images/ma_weibo.png" class="weima2">
+				<a><img src="http://wlanwm.12530.com/newcms/wm12530/index/images/ic_sina.png"> 新浪微博: 咪咕音乐客户端</a>
+			</dd>
+			<dd>
+				<img src="http://wlanwm.12530.com/newcms/wm12530/index/images/ma_weixin.png" class="weima2">
+				<a><img src="http://wlanwm.12530.com/newcms/wm12530/index/images/ic_weixin.png"> 微信: 咪咕音乐</a>
+			</dd>
+			<dd><a><img src="http://wlanwm.12530.com/newcms/wm12530/index/images/ic_qq.png"> 客服QQ群: 162118770</a></dd>
+		</dl>
+	</div>
+
+<div style="clear:both"></div>
+</div>
+<div class="footer2">
+	<div class="content">
+		<div>网络视听许可证0102648号 | 蜀ICP备09015892-4 | 川网文[2012]0762-026| 增值业务许可证A2.B1.B2-20100001</div>
+		<p>Copyright © 1998 - 2015 migu.cn. All Rights Reserved</p>
+	</div>
+</div>
+</div>
+<script type="text/javascript" async="" src="http://t.agrantsem.com/js/ag.js"></script><script src="../../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    //tab切换
+    var $cssTabs = $(".tab_title li");
+    //$(".tab_cont .tabs_item:first").show().siblings().hide();
+    $cssTabs.click(function(){
+        $(this).addClass("current").siblings().removeClass("current");
+        $(this).parent(".tab_title").next('.tab_cont').find(".tabs_item").hide().eq($(this).index()).show();
+    });
+</script>
+
+<script type="text/javascript">
+var _agt=_agt||[];
+_agt.push(['_atscu','AG_168875_MYKQ']);
+_agt.push(['_atsdomain','10086.cn']);
+(function(){
+var ag=document.createElement('script'); 
+ag.type='text/javascript';
+ag.async = true;
+ag.src=(document.location.protocol=='https:'?'https':'http')+'://'+'t.agrantsem.com/js/ag.js';
+var s=document.getElementsByTagName('script')[0]; 
+s.parentNode.insertBefore(ag,s);})();
+</script>
+
+<iframe src="//t.agrantsem.com/html/cmiframe.html?src=pv&amp;r=http%3A//wm.10086.cn/view/wap/index.do" height="0" width="0" style="display: none;"></iframe></body></html>

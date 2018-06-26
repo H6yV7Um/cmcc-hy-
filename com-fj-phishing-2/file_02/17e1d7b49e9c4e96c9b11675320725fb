@@ -1,0 +1,319 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+        <title>手机维修 - 专业的手机、平板维修平台 - 草包网</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" id="viewport">
+        <meta name="Keywords" content="手机维修,平板维修,苹果手机维修,草包网">
+        <meta name="Description" content="国内专业的手机维修、平板维修平台，以地区和官方在线报价并为客户提供快速上门维修、到店维修、邮寄维修服务。手机维修、平板维修首选草包网，统一真实报价、安全可靠、原厂配件。">
+		<meta name="x5-page-mode" content="no-title">
+		<link rel="stylesheet" type="text/css" href="/Public/Mobile/css/same.css">
+        <!-- 自定义CSS文件 部分 -->
+		
+    <link rel="stylesheet" type="text/css" href="/Public/Mobile/css/index.css">
+
+		<!-- 自定义CSS文件 结束 -->
+		
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="/Public/Mobile/js/jquery-1.11.1.min.js"></script>
+		
+		<!-- 自定义顶部js文件 部分 -->
+		
+	<script type="text/javascript" src="/Public/Mobile/js/TouchSlide.1.1.js"></script>
+
+		<!-- 自定义顶部js文件 结束 -->
+		
+		<!-- 顶部JS执行区域 开始 -->
+		
+		<!-- 顶部JS执行区域 结束 -->
+		
+		<!-- 微信分享 小图片 开始 -->
+		</head><body ontouchstart=""><div id="wx_pic" style="margin:0 auto;display:none;">
+			<img src="/Public/Mobile/images/pic300.jpg">
+		</div>
+		<!-- 微信分享 小图片 结束 -->
+	
+	
+		<!-- 头部部分 开始 -->
+		
+		<!-- 头部部分 结束 -->
+
+		
+		<!-- 主体部分 开始 -->
+		
+		
+	<header class="clearfix">
+		<img src="/Public/Mobile/images/logo.png" title="logo" alt="草包网">
+		<a class="systemlogin" rel="nofollow" href="/users/login.html">维修店登录</a>			</header>
+	<div class="con">
+		<!-- 轮播图 -->
+		<div id="focus" class="focus" style="height: 286px;">
+			<div class="hd">
+				<ul><li class="on">1</li><li class="">2</li><li class="">3</li></ul>
+			</div>
+			<div class="bd">
+				<div class="tempWrap" style="overflow:hidden; position:relative;"><ul style="width: 3200px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition: 200ms; -webkit-transition: 200ms; transform: translate(-640px, 0px) translateZ(0px);">
+					<li style="display: table-cell; vertical-align: top; width: 640px;"><a href="http://bbs.caobao.com/"><img _src="/Public/Imgadv/201607/578053e927b83.jpg" src="/Public/Mobile/images/blank.png"></a></li><li style="display: table-cell; vertical-align: top; width: 640px;"><a href="http://m.caobao.com/repair/select.html"><img src="/Public/Imgadv/201607/578053555bddc.jpg"></a></li><li style="display: table-cell; vertical-align: top; width: 640px;"><a href="http://m.caobao.com/index/special.html"><img _src="/Public/Imgadv/201607/578053b0ad9d6.png" src="/Public/Mobile/images/blank.png"></a></li><li style="display: table-cell; vertical-align: top; width: 640px;"><a href="http://bbs.caobao.com/"><img _src="/Public/Imgadv/201607/578053e927b83.jpg" src="/Public/Mobile/images/blank.png"></a></li>				<li style="display: table-cell; vertical-align: top; width: 640px;"><a href="http://m.caobao.com/repair/select.html"><img src="/Public/Imgadv/201607/578053555bddc.jpg"></a></li></ul></div>
+			</div>
+		</div>
+		<!-- 导航 -->
+		<nav class="nav">
+			<div class="nav-top">
+				<ul class="clearfix">
+					<li class="f_left">
+						<a href="http://m.caobao.com/repair/select.html">
+							<img src="/Public/Mobile/images/repair.png" alt="维修">
+							<strong>维修</strong>
+							<p>到店、上门、邮寄</p>
+						</a>
+					</li>
+					<li class="f_right">
+						<a href="http://m.caobao.com/recovery/select.html">
+							<img src="/Public/Mobile/images/recovery.png" alt="回收">
+							<strong>回收</strong>
+							<p>快速换钱</p>
+						</a>
+					</li>
+					<li class="f_right">
+						<a href="http://m.caobao.com/product/">
+							<img src="/Public/Mobile/images/product.png" alt="商城">
+							<strong>商城</strong>
+							<p>优质精品配件</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="nav-bottom clearfix">		
+				<div class="other">
+					<a href="http://bbs.caobao.com/">
+						<div class="nav-pic">
+							<img src="/Public/Mobile/images/forum.png">
+						</div>
+						<div class="nav-text">
+							<strong>问题解答</strong>
+							<p>疑问在线解答</p>
+						</div>
+					</a>
+				</div>
+				<div class="other">
+					<a href="http://m.caobao.com/video_list/">
+						<div class="nav-pic">
+							<img src="/Public/Mobile/images/video.png">
+						</div>
+						<div class="nav-text">
+							<strong>拆机视频</strong>
+							<p>手把手教你拆机</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</nav>
+		<!-- 维修师招募 -->
+		<div class="master clearfix">
+			<a href="/index/special.html">
+				<img src="/Public/Mobile/images/master_03.png" alt="维修师招募">
+				<div class="word">
+					<div class="word_l">
+						<strong>维修店入驻</strong>
+						<span>专业的平台为您免费做广告</span>
+					</div>
+					<img src="/Public/Mobile/images/0504wap1_03.png" alt="维修师招募">
+				</div>
+			</a>
+		</div>
+		<!-- 商城 -->
+		<div class="product-mod">
+			<div class="pro-top clearfix b_bottom">
+				<div class="pro-focus clearfix">
+					<div class="focus-intro f_left">
+						<strong>商品配件</strong>
+						<p class="p-tit">精品配件</p>
+						<p class="p-tit">优品热卖</p>
+					</div>
+					<div id="pro_focus" class="focus f_right">
+						<div class="hd">
+							<ul><li class="on">1</li><li class="">2</li><li class="">3</li><li class="">4</li><li class="">5</li></ul>
+						</div>
+						<div class="bd">
+							<div class="tempWrap" style="overflow:hidden; position:relative;"><ul style="width: 1600px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition: 200ms; -webkit-transition: 200ms; transform: translate(0px, 0px) translateZ(0px);">
+								<li style="display: table-cell; vertical-align: top; width: 320px;"><a href="http://m.caobao.com/detail/188.html" title="苹果6 iPhone6显示屏"><img src="/Public/Product/thumb/201705/59084cbd48996.jpg" alt="苹果6 iPhone6显示屏" title="苹果6 iPhone6显示屏"><p class="p-intro">苹果6 iPhone6显示屏</p></a></li><li style="display: table-cell; vertical-align: top; width: 320px;"><a href="http://m.caobao.com/detail/43.html" title="iPhone系列充电/同步线缆（1米）"><img src="/Public/Product/thumb/201705/5909a141b29bf.jpg" alt="iPhone系列充电/同步线缆（1米）" title="iPhone系列充电/同步线缆（1米）"><p class="p-intro">iPhone系列充电/同步线缆（1米）</p></a></li><li style="display: table-cell; vertical-align: top; width: 320px;"><a href="http://m.caobao.com/detail/250.html" title="苹果6S iPhone 6S 后壳"><img src="/Public/Product/thumb/201705/59082464209c4.jpg" alt="苹果6S iPhone 6S 后壳" title="苹果6S iPhone 6S 后壳"><p class="p-intro">苹果6S iPhone 6S 后壳</p></a></li><li style="display: table-cell; vertical-align: top; width: 320px;"><a href="http://m.caobao.com/detail/276.html" title="苹果6SP iPhone 6S Plus显示屏"><img src="/Public/Product/thumb/201705/5907f98f3458e.jpg" alt="苹果6SP iPhone 6S Plus显示屏" title="苹果6SP iPhone 6S Plus显示屏"><p class="p-intro">苹果6SP iPhone 6S Plus显示屏</p></a></li><li style="display: table-cell; vertical-align: top; width: 320px;"><a href="http://m.caobao.com/detail/34.html" title="具有线控功能和麦克风的 Apple EarPods"><img src="/Public/Product/thumb/201705/5909979dce674.jpg" alt="具有线控功能和麦克风的 Apple EarPods" title="具有线控功能和麦克风的 Apple EarPods"><p class="p-intro">具有线控功能和麦克风的 Apple EarPods</p></a></li>							</ul></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pro-bottom clearfix">
+				<div class="pro-item f_left b_right">
+					<a href="http://m.caobao.com/product/9.html" class="clearfix">
+						<div class="pro-text">
+							<strong>拆机工具</strong>
+							<p class="tool">实用简单</p>
+						</div>
+						<div class="pro-pic">
+							<img src="/Public/Mobile/images/tool.jpg">
+						</div>
+					</a>
+				</div>
+				<div class="pro-item f_left b_right">
+					<a href="http://m.caobao.com/product/6.html" class="clearfix">
+						<div class="pro-text">
+							<strong>手机外配</strong>
+							<p class="on">总能找到你爱的</p>
+						</div>
+						<div class="pro-pic">
+							<img src="/Public/Mobile/images/on.jpg">
+						</div>
+					</a>
+				</div>
+				<div class="pro-item f_left">
+					<a href="http://m.caobao.com/product/5.html" class="clearfix">
+						<div class="pro-text">
+							<strong>手机内配</strong>
+							<p>高品质原厂配件</p>
+						</div>
+						<div class="pro-pic">
+							<img src="/Public/Mobile/images/in.jpg">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		
+		<!-- 主体部分 结束 -->
+		
+		
+		<!-- 页脚部分 开始 -->
+		<link rel="stylesheet" type="text/css" href="/Public/Mobile/css/menu.css">
+
+<footer>
+	<ul class="clearfix">
+		<li class="first current">
+			<a href="http://m.caobao.com">
+				<strong><img src="/Public/Mobile/images/footer1.png"></strong>
+				<span>首页</span>
+			</a>
+		</li>
+		<li class="second">
+			<a href="http://m.caobao.com/repair/select.html">
+				<strong><img src="/Public/Mobile/images/footer4.png"></strong>
+				<span>修手机</span>
+			</a>
+		</li>
+		<li class="five">
+			<a href="http://m.caobao.com/recovery/select.html">
+				<strong><img src="/Public/Mobile/images/footer5.png"></strong>
+				<span>收手机</span>
+			</a>
+		</li>
+		<li class="third">
+			<a href="javascript:void(0);" class="kefu">
+				<strong><img src="/Public/Mobile/images/footer3.png"></strong>
+				<span>客服</span>
+			</a>
+		</li>
+		<li class="four person-center">
+			<a href="http://m.caobao.com/users/index.html">
+				<strong>
+				<img src="/Public/Mobile/images/footer2.png">
+								</strong>
+				<span>我</span>
+			</a>
+		</li>
+	</ul>
+</footer>
+<script>
+	$('footer').delegate('a.kefu','click',function(){
+		var ok = confirm('需要联系在线客服吗？');
+		if(!ok){return false;}
+		window.open('http://p.qiao.baidu.com/im/index?siteid=8982367&ucid=10589340','_blank', 'toolbar=no,scrollbars=no,menubar=no,status=no,resizable=yes,location=no');
+	});
+</script>		<!-- 页脚部分 结束 -->  
+	
+
+		<!-- 全局js文件 -->
+		<script type="text/javascript" src="/Public/Mobile/js/common.js"></script>
+		
+		<!-- js文件部分 开始 -->
+		
+	
+
+		<!-- js文件部分 结束 -->
+			
+		<!-- 底部JS执行区域 开始 -->
+		
+	<script type="text/javascript">
+		/** 主banner **/
+		TouchSlide({ 
+			slideCell:"#focus",
+			titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell:".bd ul", 
+			effect:"leftLoop", 
+			autoPlay:true,//自动播放
+			interTime:3500,
+			autoPage:true, //自动分页
+			switchLoad:"_src" //切换加载，真实图片路径为"_src" 
+		});
+		/** 商城banner **/
+		TouchSlide({ 
+			slideCell:"#pro_focus",
+			titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell:".bd ul", 
+			effect:"left", 
+			autoPlay:true,//自动播放
+			interTime:3500,
+			autoPage:true //自动分页
+		});
+		
+		$(document).ready(function(){
+			auto_size();
+		});
+		
+		$(window).resize(function(){
+			auto_size();
+		});
+		
+		/*
+		* banner图自适应
+		*/
+		function auto_size(){
+			var autoHeight = Math.ceil($(window).width()/2.237762237762238);
+			if(autoHeight<143){autoHeight=143}
+			if(autoHeight>286){autoHeight=286}
+			$("#focus").height(autoHeight);
+		};
+		
+	</script>
+
+		<!-- 底部JS执行区域 结束 -->
+		<script>
+			var _APP_        = "";
+			var _PUBLIC_     = "/Public";
+			var _CONTROLLER_ = "/Index";
+			var _USERS_      = "";
+		</script>
+
+		<script type="text/javascript">
+			// 站长统计
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cspan id='cnzz_stat_icon_1256186537'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1256186537' type='text/javascript'%3E%3C/script%3E"));
+			document.getElementById("cnzz_stat_icon_1256186537").style.display = "none";
+		</script><span id="cnzz_stat_icon_1256186537" style="display: none;"><a href="http://www.cnzz.com/stat/website.php?web_id=1256186537" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s4.cnzz.com/z_stat.php?id=1256186537" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1256186537&amp;t=z" charset="utf-8" type="text/javascript"></script>
+
+		<!--
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				// 百度统计
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?29a1cca7e1b64621484ca52400e2bfb1";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+
+				// 百度站长
+				var bp = document.createElement('script');
+				bp.src = '//push.zhanzhang.baidu.com/push.js';
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(bp, s);
+			})();
+		</script>-->
+	
+</body></html>

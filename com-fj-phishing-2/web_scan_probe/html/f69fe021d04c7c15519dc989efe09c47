@@ -1,0 +1,1142 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<title>个人电子银行_电子银行频道_建设银行</title>
+<meta name="keywords" content="电子银行、网上银行、电话银行、手机银行、短信银行、电子支付、微信银行、自助银行、PAD银行、网银盾、E账户、银医服务、转账、汇款、生活缴费、支付、信用卡、个人贷款、基金、贵金属、理财产品、债券、鑫存管、外汇买卖、银期直通车、充值、查询、挂失、积分查询、网银支付、手机支付、还款、账单分期、在线申请、电子账单、账户、短信通知、特约取款、优惠资讯、情景展示">
+<meta name="description" content="中国建设银行电子银行以情景演示的方式，为客户直观展示通过电子渠道办理转账汇款、缴费支付、投资理财、信用卡、信贷、账户管理等业务的流程与条件，为客户更好的使用电子银行的功能与服务提供便利">
+<link href="common/css/main.css" rel="stylesheet" type="text/css">
+<link href="common/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css">
+<link href="common/css/common.css" rel="stylesheet" type="text/css">
+<!--[if lte IE 6]>
+<link href="common/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="common/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 8]>
+<link href="common/css/ie8.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if gte IE 9]>
+<link href="common/css/ie9.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script src="common/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="common/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<script src="common/js/MMJS.PicSlide.js" type="text/javascript"></script>
+<script src="common/js/MMJS.SlideAlbum.js" type="text/javascript"></script>
+<script src="common/js/mmjs.customize.js" type="text/javascript"></script>
+<!--<script src="common/js/DD_belatedPNG.js" type="text/javascript"></script>-->
+
+<script src="common/js/function.js" type="text/javascript"></script>
+<script>
+	$(function(){
+	$("#navtree").find("li").eq(0).addClass("current");
+	});
+</script>
+<script type="text/javascript">
+	function tiaozhuanV3(){
+	window.location='http://group.ccb.com/cn/home/indexv3.html';
+	}
+</script>
+<script type="text/javascript">
+var pageid = '167C9';
+</script>
+<script type="text/javascript" src="http://www.ccb.com/cn/v3/js/net_gift.js"></script>
+
+</head>
+
+<body>
+<!-- START header_wrap -->
+<script src="http://group.ccb.com/cn/v3/head_noconflict/head_domain_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="/cn/v3/js/center.js" type="text/javascript" charset="utf-8"></script><link href="http://www.ccb.com/cn/v3/head_noconflict/css/header_noconflict.css" rel="stylesheet" type="text/css"><script src="http://www.ccb.com/cn/v3/head_noconflict/js/channel.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/encodeURI.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/js/dataacquisition.header.ccb.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/jquery_cookie_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/city_changer_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/header_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/js/header_box_noconflict.js" type="text/javascript" charset="utf-8"></script><script src="http://www.ccb.com/cn/v3/head_noconflict/header_top_noconflict.js" type="text/javascript" charset="utf-8"></script><div class="header_top_box">    <div class="header_top_main">        <div class="header_top_left">            <ul>                <li class="se"><a href="http://www.ccb.com/cn/home/indexv3.html">个人客户</a></li>                <li><a href="http://privatebank.ccb.com">私人银行</a></li>                <li><a href="http://company.ccb.com/cn/home/company_indexv3.html">公司机构</a></li>                <li><a href="http://scompany.ccb.com/cn/home/s_company_indexv3.html">小微企业</a></li>                <li class="Business_box_noconflict">                    <div class="Business"><a href="javascrpic:void(0)"><img src="http://www.ccb.com/cn/home/v3/images/sr_icon.png"></a>                        <div class="Business_text_noconflict"><a href="http://buy.ccb.com" target="_blank">个人商城</a> <a href="http://mall.ccb.com" target="_blank">企业商城</a></div>                    </div>                </li>            </ul>        </div>        <div class="header_top_right">            <ul>                <li class="padding_13 header_top_right_a">客服热线：95533</li>                <li><a href="#" class="header_top_right_a" id="kefu_noconflict"><img src="http://www.ccb.com/cn/home/v3/images/zx_icon.png">客户服务</a>                    <!--在线客服业务维护部分-->                    <script type="text/javascript" src="http://www.ccb.com/cn/v3/head_content/head_service_noconflict.js" charset="utf-8"></script>                </li>                <li class="padding_13 header_top_right_a">|</li>                <li><a href="#" class="header_top_right_a" id="jhjt_noconflict">建行集团</a>                    <!--建行集团业务维护部分-->                    <script type="text/javascript" src="http://www.ccb.com/cn/v3/head_content/head_ccbgroup_noconflict.js" charset="utf-8"></script><div class="jhjt_noconflict"><div class="zhezhao"><div class="zz_top1"><div class="zz_top_left fl"><ul><li class="zz_top_lii_noconflict hover_noconflict">境外分支机构</li><li class="zz_top_lii_noconflict">境内附属公司</li><div class="clear"></div></ul></div><div class="zz_top_right1 fr"> <a href="#" id="button2_noconflict" class="but2_noconflict"><img src="http://image3.ccb.com/cn/home/v3/images/shutdown.png"></a> </div><div class="clear"></div></div><div class="jhjt_tab_main"><div class="showshow"><div class="showj"><div class="in_s"> <a href="http://www.ccb.com/cn/group/index.html" target="_blank">进入建行集团网站 &gt;</a> </div><div class="showj_in"><img src="http://image4.ccb.com/cn/home/include/20151206_1449369972/jt.jpg"><div class="showj_info"><ul><li class="showj_tit"><a href="http://www.ccb.com/cn/ccbtoday/indexv3.html" target="_blank" onclick="LinkClickFunction(this)">今日建行 &gt;</a></li><script src="http://www.ccb.com/cn/ccbtoday/include/home_newsv3.js" type="text/javascript" charset="utf-8"></script><li class="showj_tit"><a href="http://www.ccb.com/cn/investor/indexv3.html" target="_blank" onclick="LinkClickFunction(this)">投资者关系 &gt;</a></li><script src="http://www.ccb.com/cn/investor/include/home_annov3.js" type="text/javascript" charset="utf-8"></script><li class="showj_tit"><a href="http://job.ccb.com/ccbjob/cn/job/index.jsp" target="_blank" onclick="LinkClickFunction(this)">诚聘英才 &gt;</a></li></ul></div></div><div class="showj_r_noconflict" style="display:block;"><div class="world_map"><img src="http://image4.ccb.com/cn/home/v3/images/map.png" border="0" usemap="#Map"><map name="Map" id="Map_noconflict">                          <area shape="rect" coords="373,81,409,103" href="#">                          <div class="area_city_noconflict" style="left: 265px; top: 101px; display: none;">                                <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">建欧华沙分行</a></li>                            </ul>                                  <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="345,63,413,81" href="#">                          <div class="area_city_noconflict" style="left: 248px; top: 80px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a onclick="LinkClickFunction(this)" target="_blank">建欧阿姆斯特丹分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="306,63,338,81" href="#">                          <div class="area_city_noconflict" style="left: 195px; top: 82px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a onclick="LinkClickFunction(this)" target="_blank" href="http://www.uk.ccb.com">建行伦敦</a></li>							  <li><a onclick="LinkClickFunction(this)" target="_blank" href="http://www.uk.ccb.com">伦敦分行</a></li>                            </ul><div class="area_city_bottom"></div>                          </div><area shape="rect" coords="261,84,306,101" href="#"><div class="area_city_noconflict" style="left: 156px; top: 101px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">建信租赁国际</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="261,109,295,124" href="#"><div class="area_city_noconflict" style="left: 149px; top: 121px; display: none;">                           <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">建欧巴黎分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div><area shape="rect" coords="434,88,478,107" href="#"><div class="area_city_noconflict" style="left: 328px; top: 107px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://ru.ccb.com" target="_blank" onclick="LinkClickFunction(this)">建行俄罗斯</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div>                          <area shape="rect" coords="257,130,302,147" href="#">                          <div class="area_city_noconflict" style="left: 151px; top: 146px; display: none;">                           <div class="area_city_up"></div>                            <ul>                              <li><a onclick="LinkClickFunction(this)" target="_blank" href="http://eu.ccb.com">建行欧洲</a></li>                              <li><a href="http://lu.ccb.com" target="_blank" onclick="LinkClickFunction(this)">卢森堡分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="361,105,414,123" href="#">                          <div class="area_city_noconflict" style="left: 258px; top: 123px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://de.ccb.com/" target="_blank" onclick="LinkClickFunction(this)">法兰克福分行</a></li>                            </ul>                          <div class="area_city_bottom"></div>                          </div>						  <area shape="rect" coords="361,123,403,141" href="#">						  <div class="area_city_noconflict" style="left: 254px; top: 143px; display: none;">                            <div class="area_city_up"></div>                             <ul>                              <li><a href="http://ch.ccb.com/" target="_blank" onclick="LinkClickFunction(this)">苏黎世分行</a></li>                            </ul>                          <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="340,141,372,158" href="#">                          <div class="area_city_noconflict" style="left: 224px; top: 156px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">建欧米兰分行</a></li>                            </ul>                           <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="279,150,335,167" href="#">                          <div class="area_city_noconflict" style="left: 177px; top: 167px; display: none;">                           <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">建欧巴塞罗那分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="185,111,220,130" href="#">                          <div class="area_city_noconflict" style="left: 71px; top: 129px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://us.ccb.com" target="_blank" onclick="LinkClickFunction(this)">纽约分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="154,148,187,167" href="#">                          <div class="area_city_noconflict" style="left: 40px; top: 169px; display: none;">                           <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">建行巴西开曼分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="204,227,248,246" href="#">                          <div class="area_city_noconflict" style="left: 96px; top: 247px; display: none;">                            <div class="area_city_up"></div>                            <ul>							  <li><a href="http://www.br.ccb.com" target="_blank" onclick="LinkClickFunction(this)">建行巴西</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="161,250,219,268" href="#">                          <div class="area_city_noconflict" style="left: 60px; top: 267px; display: none;">                           <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">智利分行</a></li>                            </ul>                           <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="303,261,353,278" href="#">                          <div class="area_city_noconflict" style="left: 197px; top: 278px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">开普敦分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="343,222,413,243" href="#">                          <div class="area_city_noconflict" style="left: 248px; top: 244px; display: none;">                           <div class="area_city_up"></div>                            <ul>                              <li><a href="http://za.ccb.com" target="_blank" onclick="LinkClickFunction(this)">约堡分行</a></li>                            </ul>                           <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="421,180,454,198" href="#">                          <div class="area_city_noconflict" style="left: 311px; top: 199px; display: none;">                           <div class="area_city_up"></div>                            <ul>                              <li><a href="http://ae.ccb.com" target="_blank" onclick="LinkClickFunction(this)">迪拜国际金融中心分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area href="#" coords="460,186,514,203" shape="rect">                          <div class="area_city_noconflict" style="left: 359px; top: 202px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://vn.ccb.com" target="_blank" onclick="LinkClickFunction(this)">胡志明市分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="488,164,525,183" href="#">                          <div class="area_city_noconflict" style="left: 374px; top: 184px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://www.asia.ccb.com/macau/personal/" target="_blank" onclick="LinkClickFunction(this)">澳门分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                          </div>                          <area shape="rect" coords="528,146,558,163" href="#">                          <div class="area_city_noconflict" style="left: 413px; top: 166px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://www.asia.ccb.com" target="_blank" onclick="LinkClickFunction(this)">建行亚洲</a></li><li><a href="http://hk.ccb.com" target="_blank" onclick="LinkClickFunction(this)">香港分行</a></li><li><a href="http://www.ccbintl.com" target="_blank" onclick="LinkClickFunction(this)">建银国际</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="555,105,588,124" href="#"><div class="area_city_noconflict" style="left: 445px; top: 126px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://kr.ccb.com" target="_blank" onclick="LinkClickFunction(this)">首尔分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="592,114,624,132" href="#"><div class="area_city_noconflict" style="left: 479px; top: 133px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://jp.ccb.com" target="_blank" onclick="LinkClickFunction(this)">东京分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="584,154,617,171" href="#"><div class="area_city_noconflict" style="left: 473px; top: 171px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">大阪分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="560,177,590,173" href="#"><div class="area_city_noconflict" style="left: 538px; top: 320px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://nz.ccb.com/" target="_blank" onclick="LinkClickFunction(this)">中国建设银行(新西兰)有限公司</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="533,195,598,213" href="#"><div class="area_city_noconflict" style="left: 440px; top: 213px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">建行马来西亚</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="542,216,590,235" href="#"><div class="area_city_noconflict" style="left: 437px; top: 235px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://sg.ccb.com" target="_blank" onclick="LinkClickFunction(this)">新加坡分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="586,240,646,258" href="#"><div class="area_city_noconflict" style="left: 485px; top: 263px; display: none;">                            <div class="area_city_up"></div>                             <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">布里斯班分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="553,301,598,321" href="#"><div class="area_city_noconflict" style="left: 445px; top: 320px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a target="_blank" onclick="LinkClickFunction(this)">墨尔本分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="617,291,651,311" href="#"><div class="area_city_noconflict" style="left: 507px; top: 311px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://au.ccb.com" target="_blank" onclick="LinkClickFunction(this)">悉尼分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="661,300,705,318" href="#"><div class="area_city_noconflict" style="left: 554px; top: 320px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://nz.ccb.com" target="_blank" onclick="LinkClickFunction(this)">建行新西兰</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="125,101,168,121" href="#"><div class="area_city_noconflict" style="left: 20px; top: 120px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://ca.ccb.com" target="_blank" onclick="LinkClickFunction(this)">多伦多分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div><area shape="rect" coords="560,177,590,193" href="#"><div class="area_city_noconflict" style="left: 450px; top: 195px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://tw.ccb.com" target="_blank" onclick="LinkClickFunction(this)">台北分行</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div>                         <area shape="rect" coords="453，224,523,242" href="#"><div class="area_city_noconflict" style="left: 366px; top: 241px; display: none;">                            <div class="area_city_up"></div>                            <ul>                              <li><a href="http://idn.ccb.com" target="_blank" onclick="LinkClickFunction(this)">建行印度尼西亚</a></li>                            </ul>                            <div class="area_city_bottom"></div>                           </div>                        </map></div></div><div class="showj_r_noconflict"><div class="list_one1 fl"><ul><li class="list_li"><a href="http://group.ccb.com/cn/group/include/20160106_1452056483.html" title="建信基金管理有限责任公司"> 建信基金管理有限责任公司</a></li> <li class="list_li"><a href="http://group.ccb.com/cn/group/include/20160203_1454464973.html" title="建信金融租赁有限公司"> 建信金融租赁有限公司</a></li> <li class="list_li"><a href="http://group.ccb.com/cn/group/include/20160106_1452057278.html" title="建信信托有限责任公司"> 建信信托有限责任公司</a></li> <li class="list_li"><a href="http://group.ccb.com/cn/group/include/20160112_1452577123.html" title="建信人寿保险有限公司"> 建信人寿保险有限公司</a></li> </ul></div><div class="list_one1 fl"><ul><li class="list_li"><a href="http://group.ccb.com/cn/group/include/20160106_1452055545.html" title="建信期货有限责任公司"> 建信期货有限责任公司</a></li> <li class="list_li"><a href="http://group.ccb.com/cn/group/include/20160112_1452576547.html" title="中德住房储蓄银行有限责任公司"> 中德住房储蓄银行有限责任公司</a></li> <li class="list_li"><a href="http://group.ccb.com/cn/group/include/20180211_1518319758.html" title="建信金融资产投资有限公司"> 建信金融资产投资有限公司</a></li> <li class="list_li"><a href="http://group.ccb.com/cn/group/company/company.html?churchyard#none" title="村镇银行"> 村镇银行</a></li> </ul></div><a class="fR_noconflict f_blue" href="http://group.ccb.com/cn/group/company/company.html?churchyard#none" target="_blank">查看更多&gt;</a></div></div></div></div></div><div class="clear"></div></div>                </li>                <li><a href="#" id="white_content3_noconflict" class="header_top_right_a">国内分行</a>                    <!--国内分行业务维护部分-->                    <script type="text/javascript" src="http://www.ccb.com/cn/v3/head_content/head_branch_noon_noconflict.js" charset="utf-8"></script><div id="MyDiv" class="white_content3_noconflict"><div class="zhezhao"><div class="zz_top_noconflict"><div class="zz_top_left fl"><ul><li class="zz_top_li_noconflict hover_noconflict">地图模式</li><li class="zz_top_li_noconflict">列表模式</li><div class="clear"></div></ul></div><div class="zz_top_right1 fr"> <a href="#" id="button2_noconflict" class="btn3_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/shutdown.png"></a> </div><div class="clear"></div></div><div class="tab_jt"><div class="zz_info_noconflict"><div class="map_info"><img src="http://image4.ccb.com/cn/home/v3/images/map/china_map.png"><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/xinjiang.png" style="left:153px; top:75px;"><a href="http://www.ccb.com/xj/index.html" style="left:317px; top:136px;" target="_blank">新疆</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/xizhang.png" style="left:204px; top:256px;"><a href="http://www.ccb.com/xz/index.html" style="left:350px; top:318px;" target="_blank">西藏</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/qinghai.png" style="left:319px; top:221px;"><a href="http://www.ccb.com/qh/index.html" style="left:423px; top:246px;" target="_blank">青海</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/gansu.png" style="left:350px; top:171px;"><a href="http://www.ccb.com/gs/index.html" style="left:464px; top:254px;" target="_blank">甘肃</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/ningxia.png" style="left:476px; top:217px;"><a href="http://www.ccb.com/nx/index.html" style="left:485px; top:215px;" target="_blank">宁夏</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/neimenggu.png" style="left:399px; top:5px;"><a href="http://www.ccb.com/nm/index.html" style="left:537px; top:158px;" target="_blank">内蒙古</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/heilongjiang.png" style="left:652px; top:1px;"><a href="http://www.ccb.com/hl/index.html" style="left:714px; top:97px;" target="_blank">黑龙江</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/jiling.png" style="left:657px; top:119px;"><a href="http://www.ccb.com/jl/index.html" style="left:698px; top:134px;" target="_blank">吉林</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/liaoning.png" style="left:629px; top:161px;"><a href="http://www.ccb.com/ln/index.html" style="left:672px; top:169px;" target="_blank">辽宁</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/dalian.png" style="left:628px; top:160px;"><a href="http://www.ccb.com/dl/index.html" style="left:674px; top:190px;" target="_blank">大连</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/hebei.png" style="left:571px; top:173px;"><a href="http://www.ccb.com/he/index.html" style="left:587px; top:210px;" target="_blank">河北</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/beijing.png" style="left:592px; top:196px;"><a href="http://www.ccb.com/bj/index.html" style="left:608px; top:181px;" target="_blank">北京</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/tianjing.png" style="left:605px; top:207px;"><a href="http://www.ccb.com/tj/index.html" style="left:619px; top:200px;" target="_blank">天津</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/shanxi_right.png" style="left:538px; top:200px;"><a href="http://www.ccb.com/sx/index.html" style="left:546px; top:228px;" target="_blank">山西</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/shanxi_left.png" style="left:488px; top:215px;"><a href="http://www.ccb.com/sn/index.html" style="left:514px; top:253px;" target="_blank">陕西</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/sc.png" style="left:402px; top:284px;"><a href="http://www.ccb.com/sc/index.html" style="left:468px; top:299px;" target="_blank">四川</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/yunnan.png" style="left:404px; top:346px;"><a href="http://www.ccb.com/yn/index.html" style="left:446px; top:385px;" target="_blank">云南</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/guizhou.png" style="left:468px; top:346px;"><a href="http://www.ccb.com/gz/index.html" style="left:497px; top:349px;" target="_blank">贵州</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/chongqin.png" style="left:485px; top:310px;"><a href="http://www.ccb.com/cq/index.html" style="left:506px; top:318px;" target="_blank">重庆</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/guangxi.png" style="left:477px; top:380px;"><a href="http://www.ccb.com/gx/index.html" style="left:528px; top:392px;" target="_blank">广西</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/hunan.png" style="left:522px; top:335px;"><a href="http://www.ccb.com/hn/index.html" style="left:540px; top:344px;" target="_blank">湖南</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/hainan.png" style="left:519px; top:451px;"><a href="http://www.ccb.com/hi/index.html" style="left:546px; top:433px;" target="_blank">海南</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/hubei.png" style="left:517px; top:296px;"><a href="http://www.ccb.com/hb/index.html" style="left:552px; top:300px;" target="_blank">湖北</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/henan.png" style="left:538px; top:258px;"><a href="http://www.ccb.com/ha/index.html" style="left:562px; top:268px;" target="_blank">河南</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/shandong.png" style="left:585px; top:232px;"><a href="http://www.ccb.com/sd/index.html" style="left:624px; top:235px;" target="_blank">山东</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/qingdao.png" style="left:585px; top:232px;"><a href="http://www.ccb.com/qd/index.html" style="left:660px; top:226px;" target="_blank">青岛</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/anhui.png" style="left:585px; top:279px;"><a href="http://www.ccb.com/ah/index.html" style="left:600px; top:304px;" target="_blank">安徽</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/shanghai.png" style="left:649px; top:315px;"><a href="http://www.ccb.com/sh/index.html" style="left:668px; top:301px;" target="_blank">上海</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/jiangshu.png" style="left:601px; top:273px;"><a href="http://www.ccb.com/js/index.html" style="left:623px; top:271px;" target="_blank">江苏</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/shuzhou.png" style="left:601px; top:273px;"><a href="http://www.ccb.com/su/index.html" style="left:654px; top:279px;" target="_blank">苏州</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/jiangxi.png" style="left:572px; top:336px;"><a href="http://www.ccb.com/jx/index.html" style="left:579px; top:345px;" target="_blank">江西</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/zhejiang.png" style="left:619px; top:324px;"><a href="http://www.ccb.com/zj/index.html" style="left:624px; top:325px;" target="_blank">浙江</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/ningbo.png" style="left:619px; top:324px;"><a href="http://www.ccb.com/nb/index.html" style="left:662px; top:330px;" target="_blank">宁波</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/fujian.png" style="left:596px; top:357px;"><a href="http://www.ccb.com/fj/index.html" style="left:603px; top:361px;" target="_blank">福建</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/xiamen.png" style="left:596px; top:357px;"><a href="http://www.ccb.com/xm/index.html" style="left:629px; top:378px;" target="_blank">厦门</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/guangdong.png" style="left:531px; top:390px;"><a href="http://www.ccb.com/gd/index.html" style="left:580px; top:388px;" target="_blank">广东</a></div><div class="map_style_noconflict"><img src="http://image4.ccb.com/cn/home/v3/images/map/shenzhen.png" style="left:531px; top:390px;"><a href="http://www.ccb.com/sz/index.html" style="left:585px; top:411px;" target="_blank">深圳</a></div></div></div><div class="zz_info_noconflict"><ul class="map_list clearfix"><li><div>ABCDF</div><a href="http://www.ccb.com/ah/index.html" target="_blank">安徽省分行</a><a href="http://www.ccb.com/bj/index.html" target="_blank">北京市分行</a><a href="http://www.ccb.com/cq/index.html" target="_blank">重庆市分行</a><a href="http://www.ccb.com/dl/index.html" target="_blank">大连市分行</a><a href="http://www.ccb.com/fj/index.html" target="_blank">福建省分行</a></li><li><div>G</div><a href="http://www.ccb.com/gd/index.html" target="_blank">广东省分行</a><a href="http://www.ccb.com/gx/index.html" target="_blank">广西区分行</a><a href="http://www.ccb.com/gz/index.html" target="_blank">贵州省分行</a><a href="http://www.ccb.com/gs/index.html" target="_blank">甘肃省分行</a></li><li><div>H</div><a href="http://www.ccb.com/ha/index.html" target="_blank">河南省分行</a><a href="http://www.ccb.com/he/index.html" target="_blank">河北省分行</a><a href="http://www.ccb.com/hl/index.html" target="_blank">黑龙江省分行</a><a href="http://www.ccb.com/hb/index.html" target="_blank">湖北省分行</a><a href="http://www.ccb.com/hn/index.html" target="_blank">湖南省分行</a><a href="http://www.ccb.com/hi/index.html" target="_blank">海南省分行</a></li><li><div>JL</div><a href="http://www.ccb.com/ln/index.html" target="_blank">辽宁省分行</a><a href="http://www.ccb.com/jl/index.html" target="_blank">吉林省分行</a><a href="http://www.ccb.com/js/index.html" target="_blank">江苏省分行</a><a href="http://www.ccb.com/jx/index.html" target="_blank">江西省分行</a></li><li><div>NQ</div><a href="http://www.ccb.com/nm/index.html" target="_blank">内蒙古分行</a><a href="http://www.ccb.com/nb/index.html" target="_blank">宁波市分行</a><a href="http://www.ccb.com/nx/index.html" target="_blank">宁夏区分行</a><a href="http://www.ccb.com/qd/index.html" target="_blank">青岛市分行</a><a href="http://www.ccb.com/qh/index.html" target="_blank">青海省分行</a></li><li><div>S</div><a href="http://www.ccb.com/sd/index.html" target="_blank">山东省分行</a><a href="http://www.ccb.com/sn/index.html" target="_blank">陕西省分行</a><a href="http://www.ccb.com/sx/index.html" target="_blank">山西省分行</a><a href="http://www.ccb.com/sh/index.html" target="_blank">上海市分行</a><a href="http://www.ccb.com/sz/index.html" target="_blank">深圳市分行</a><a href="http://www.ccb.com/sc/index.html" target="_blank">四川省分行</a><a href="http://www.ccb.com/su/index.html" target="_blank">苏州分行</a></li><li><div>TXYZ</div><a href="http://www.ccb.com/tj/index.html" target="_blank">天津市分行</a><a href="http://www.ccb.com/xm/index.html" target="_blank">厦门市分行</a><a href="http://www.ccb.com/xj/index.html" target="_blank">新疆区分行</a><a href="http://www.ccb.com/xz/index.html" target="_blank">西藏区分行</a><a href="http://www.ccb.com/yn/index.html" target="_blank">云南省分行</a><a href="http://www.ccb.com/zj/index.html" target="_blank">浙江省分行</a></li></ul></div></div><div class="clear"></div></div></div>                </li>                <li><a href="http://www.ccb.com/cn/home/map/branchSearch.html" class="header_top_right_a" target="_blank">网点及ATM</a></li>            </ul>        </div>    </div></div><script src="http://www.ccb.com/cn/v3/head_noconflict/header_box_nologin_noconflict.js" type="text/javascript" charset="utf-8"></script><div class="header_box"><div class="header_noconflict"><div class="logo"><a href="http://www.ccb.com/cn/home/indexv3.html"><img src="http://image3.ccb.com/cn/v3/images/logo.png" alt="中国建设银行"></a></div><script type="text/javascript" src="http://www.ccb.com/cn/v3/include/headfoot/region_box_noconflict.shtml"></script><div class="chengshixuanze" style="display:none">  <div class="select-city_noconflict"><a href="javascript:void(0)" id="txt_noconflict" class="toggle_btn pointer">北京市</a></div>  <div class="select_hide_noconflict" style="background:#fff;"><div class="place_list"><div id="arrow1" class="toggle_city"><div class="change_city_bg hide"><div class="change_city_box"><div class="change_city_head_noconflict"><div class="beijing_noconflict"><a href="javascript:void(0)" id="shouqi_noconflict">北京市</a></div><div class="city-seach_noconflict"><input type="text" class="abc_input_noconflict" value="快速搜索城市（支持全拼/简拼）"><input type="hidden" id="city_code_id_noconflict" value=""><button type="button">确定</button></div></div><div class="change_city_body_noconflict clearfix"><div class="change_city_tishi"> 请选择省份（按首字拼音排序）：</div><div class="pro_city3_noconflict"><!--省市业务维护部分--><script type="text/javascript" src="http://www.ccb.com/cn/v3/include/headfoot/city_list_noconflict.js" charset="utf-8"></script><div class="pro_city3_list1_noconflict" style="display:none;"><div class="pro_city3_data_noconflict"> <a id="340000" name="安徽省" href="javascript:void(0)">安徽省</a>  <a id="110000" name="北京市" href="javascript:void(0)" class="off">北京市</a>  <a id="500000" name="重庆市" href="javascript:void(0)" class="off">重庆市</a>  <a id="350000" name="福建省" href="javascript:void(0)">福建省</a>  <a id="620000" name="甘肃省" href="javascript:void(0)">甘肃省</a>  <a id="440000" name="广东省" href="javascript:void(0)">广东省</a>  <a id="450000" name="广西区" href="javascript:void(0)">广西区</a>  <a id="520000" name="贵州省" href="javascript:void(0)">贵州省</a> </div><div class="pro_city3_data_noconflict"> <a id="460000" name="海南省" href="javascript:void(0)">海南省</a>  <a id="130000" name="河北省" href="javascript:void(0)">河北省</a>  <a id="410000" name="河南省" href="javascript:void(0)">河南省</a>  <a id="230000" name="黑龙江" href="javascript:void(0)">黑龙江</a>  <a id="420000" name="湖北省" href="javascript:void(0)">湖北省</a>  <a id="430000" name="湖南省" href="javascript:void(0)">湖南省</a>  <a id="220000" name="吉林省" href="javascript:void(0)">吉林省</a>  <a id="320000" name="江苏省" href="javascript:void(0)">江苏省</a> </div><div class="pro_city3_data_noconflict"> <a id="360000" name="江西省" href="javascript:void(0)">江西省</a>  <a id="210000" name="辽宁省" href="javascript:void(0)">辽宁省</a>  <a id="150000" name="内蒙古" href="javascript:void(0)">内蒙古</a>  <a id="640000" name="宁夏区" href="javascript:void(0)">宁夏区</a>  <a id="630000" name="青海省" href="javascript:void(0)">青海省</a>  <a id="370000" name="山东省" href="javascript:void(0)">山东省</a>  <a id="610000" name="陕西省" href="javascript:void(0)">陕西省</a>  <a id="140000" name="山西省" href="javascript:void(0)">山西省</a> </div><div class="pro_city3_data_noconflict"> <a id="310000" name="上海市" href="javascript:void(0)" class="off">上海市</a>  <a id="510000" name="四川省" href="javascript:void(0)">四川省</a>  <a id="120000" name="天津市" href="javascript:void(0)" class="off">天津市</a>  <a id="650000" name="新疆区" href="javascript:void(0)">新疆区</a>  <a id="540000" name="西藏区" href="javascript:void(0)">西藏区</a>  <a id="530000" name="云南省" href="javascript:void(0)">云南省</a>  <a id="330000" name="浙江省" href="javascript:void(0)">浙江省</a> </div><div class="limiter_noconflict"><div class="pro_city3_list2_noconflict hide" id="city340000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="340800">安庆市</span>  <span id="340300">蚌埠市</span>  <span id="341400">巢湖市</span>  <span id="341700">池州市</span>  <span id="341100">滁州市</span>  <span id="341200">阜阳市</span>  <span id="340100">合肥市</span>  <span id="340600">淮北市</span>  <span id="340400">淮南市</span>  <span id="341000">黄山市</span>  <span id="341500">六安市</span>  <span id="340500">马鞍山市</span>  <span id="341300">宿州市</span>  <span id="340700">铜陵市</span>  <span id="340200">芜湖市</span>  <span id="341800">宣城市</span>  <span id="341600">亳州市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city350000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="350100">福州市</span>  <span id="350800">龙岩市</span>  <span id="350700">南平市</span>  <span id="350900">宁德市</span>  <span id="350300">莆田市</span>  <span id="350500">泉州市</span>  <span id="350400">三明市</span>  <span id="350200">厦门市</span>  <span id="350600">漳州市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city620000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="620400">白银市</span>  <span id="621100">定西市</span>  <span id="623000">甘南藏族</span>  <span id="620200">嘉峪关市</span>  <span id="620300">金昌市</span>  <span id="620900">酒泉市</span>  <span id="620100">兰州市</span>  <span id="622900">临夏回族</span>  <span id="622600">陇南地区</span>  <span id="621200">陇南市</span>  <span id="620800">平凉市</span>  <span id="621000">庆阳市</span>  <span id="620500">天水市</span>  <span id="620600">武威市</span>  <span id="620700">张掖市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city440000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="445100">潮州市</span>  <span id="441900">东莞市</span>  <span id="440600">佛山市</span>  <span id="440100">广州市</span>  <span id="441600">河源市</span>  <span id="441300">惠州市</span>  <span id="440700">江门市</span>  <span id="445200">揭阳市</span>  <span id="440900">茂名市</span>  <span id="441400">梅州市</span>  <span id="441800">清远市</span>  <span id="440500">汕头市</span>  <span id="441500">汕尾市</span>  <span id="440200">韶关市</span>  <span id="440300">深圳市</span>  <span id="441700">阳江市</span>  <span id="445300">云浮市</span>  <span id="440800">湛江市</span>  <span id="441200">肇庆市</span>  <span id="442000">中山市</span>  <span id="440400">珠海市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city450000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="451000">百色市</span>  <span id="450500">北海市</span>  <span id="451400">崇左市</span>  <span id="450600">防城港市</span>  <span id="450300">桂林市</span>  <span id="450800">贵港市</span>  <span id="451200">河池市</span>  <span id="451100">贺州市</span>  <span id="451300">来宾市</span>  <span id="450200">柳州市</span>  <span id="450100">南宁市</span>  <span id="450700">钦州市</span>  <span id="450400">梧州市</span>  <span id="450900">玉林市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city520000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="520400">安顺</span>  <span id="522400">毕节</span>  <span id="520100">贵阳</span>  <span id="520200">六盘水</span>  <span id="522600">黔东南</span>  <span id="522700">黔南</span>  <span id="522300">黔西南</span>  <span id="522200">铜仁</span>  <span id="520300">遵义</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city460000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="469030">白沙黎族</span>  <span id="469035">保亭黎族</span>  <span id="469031">昌江黎族</span>  <span id="469027">澄迈县</span>  <span id="469025">定安县</span>  <span id="469007">东方市</span>  <span id="460100">海口市</span>  <span id="469033">乐东黎族</span>  <span id="469028">临高县</span>  <span id="469034">陵水黎族</span>  <span id="469038">南沙群岛</span>  <span id="469002">琼海市</span>  <span id="469036">琼中黎族</span>  <span id="460200">三亚市</span>  <span id="469026">屯昌县</span>  <span id="469006">万宁市</span>  <span id="469005">文昌市</span>  <span id="469001">五指山市</span>  <span id="469037">西沙群岛</span>  <span id="469039">中沙群岛</span>  <span id="469003">儋州市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city130000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="130600">保定市</span>  <span id="130900">沧州市</span>  <span id="130800">承德市</span>  <span id="130400">邯郸市</span>  <span id="131100">衡水市</span>  <span id="131000">廊坊市</span>  <span id="130300">秦皇岛市</span>  <span id="130100">石家庄市</span>  <span id="130200">唐山市</span>  <span id="130500">邢台市</span>  <span id="130700">张家口市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city410000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="410500">安阳市</span>  <span id="410600">鹤壁市</span>  <span id="410800">焦作市</span>  <span id="410200">开封市</span>  <span id="410300">洛阳市</span>  <span id="411300">南阳市</span>  <span id="410400">平顶山市</span>  <span id="411200">三门峡市</span>  <span id="411400">商丘市</span>  <span id="410700">新乡市</span>  <span id="411500">信阳市</span>  <span id="411000">许昌市</span>  <span id="410100">郑州市</span>  <span id="411600">周口市</span>  <span id="411700">驻马店市</span>  <span id="411100">漯河市</span>  <span id="410900">濮阳市</span>  <span id="410881">济源市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city230000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="230600">大庆市</span>  <span id="232700">大兴安岭</span>  <span id="230100">哈尔滨市</span>  <span id="230400">鹤岗市</span>  <span id="231100">黑河市</span>  <span id="230300">鸡西市</span>  <span id="230800">佳木斯市</span>  <span id="231000">牡丹江市</span>  <span id="230900">七台河市</span>  <span id="230200">齐齐哈尔</span>  <span id="230500">双鸭山市</span>  <span id="231200">绥化市</span>  <span id="230700">伊春市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city420000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="420700">鄂州市</span>  <span id="422800">恩施州</span>  <span id="421100">黄冈市</span>  <span id="420200">黄石市</span>  <span id="420800">荆门市</span>  <span id="421000">荆州市</span>  <span id="429005">潜江市</span>  <span id="429021">神农架林区</span>  <span id="420300">十堰市</span>  <span id="421300">随州市</span>  <span id="429006">天门市</span>  <span id="420100">武汉市</span>  <span id="429004">仙桃市</span>  <span id="421200">咸宁市</span>  <span id="420600">襄阳市</span>  <span id="420900">孝感市</span>  <span id="420500">宜昌市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city430000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="430700">常德市</span>  <span id="430100">长沙市</span>  <span id="431000">郴州市</span>  <span id="430400">衡阳市</span>  <span id="431200">怀化市</span>  <span id="431300">娄底市</span>  <span id="430500">邵阳市</span>  <span id="430300">湘潭市</span>  <span id="433100">湘西</span>  <span id="430900">益阳市</span>  <span id="431100">永州市</span>  <span id="430600">岳阳市</span>  <span id="430800">张家界市</span>  <span id="430200">株洲市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city220000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="220800">白城市</span>  <span id="220600">白山市</span>  <span id="220100">长春市</span>  <span id="220200">吉林市</span>  <span id="220400">辽源市</span>  <span id="220300">四平市</span>  <span id="220700">松原市</span>  <span id="220500">通化市</span>  <span id="222400">延边朝鲜</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city320000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="320400">常州市</span>  <span id="320800">淮安市</span>  <span id="320700">连云港市</span>  <span id="320100">南京市</span>  <span id="320600">南通市</span>  <span id="320500">苏州市</span>  <span id="321300">宿迁市</span>  <span id="321200">泰州市</span>  <span id="320200">无锡市</span>  <span id="320300">徐州市</span>  <span id="320900">盐城市</span>  <span id="321000">扬州市</span>  <span id="321100">镇江市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city360000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="361000">抚州市</span>  <span id="360700">赣州市</span>  <span id="360800">吉安市</span>  <span id="360200">景德镇市</span>  <span id="360400">九江市</span>  <span id="360100">南昌市</span>  <span id="360300">萍乡市</span>  <span id="361100">上饶市</span>  <span id="360500">新余市</span>  <span id="360900">宜春市</span>  <span id="360600">鹰潭市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city210000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="210300">鞍山市</span>  <span id="210500">本溪市</span>  <span id="211300">朝阳市</span>  <span id="210600">丹东市</span>  <span id="210400">抚顺市</span>  <span id="210900">阜新市</span>  <span id="211400">葫芦岛市</span>  <span id="210700">锦州市</span>  <span id="211000">辽阳市</span>  <span id="211100">盘锦市</span>  <span id="210100">沈阳市</span>  <span id="211200">铁岭市</span>  <span id="210800">营口市</span>  <span id="210200">大连市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city150000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="152900">阿拉善盟</span>  <span id="150800">巴彦淖尔</span>  <span id="150200">包头市</span>  <span id="150400">赤峰市</span>  <span id="150600">鄂尔多斯</span>  <span id="150100">呼和浩特</span>  <span id="150700">呼伦贝尔</span>  <span id="150500">通辽市</span>  <span id="150300">乌海市</span>  <span id="150900">乌兰察布</span>  <span id="152500">锡林郭勒</span>  <span id="152200">兴安盟</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city640000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="640400">固原市</span>  <span id="640200">石嘴山市</span>  <span id="640300">吴忠市</span>  <span id="640100">银川市</span>  <span id="640500">中卫市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city630000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="632600">果洛藏族</span>  <span id="632200">海北藏族</span>  <span id="632100">海东地区</span>  <span id="632500">海南藏族</span>  <span id="632800">海西蒙古</span>  <span id="632300">黄南藏族</span>  <span id="630100">西宁市</span>  <span id="632700">玉树藏族</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city370000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="371600">滨州市</span>  <span id="371400">德州市</span>  <span id="370500">东营市</span>  <span id="371700">菏泽市</span>  <span id="370100">济南市</span>  <span id="370800">济宁市</span>  <span id="371200">莱芜市</span>  <span id="371500">聊城市</span>  <span id="371300">临沂市</span>  <span id="371100">日照市</span>  <span id="370900">泰安市</span>  <span id="371000">威海市</span>  <span id="370700">潍坊市</span>  <span id="370600">烟台市</span>  <span id="370400">枣庄市</span>  <span id="370300">淄博市</span>  <span id="370200">青岛市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city610000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="610900">安康市</span>  <span id="610300">宝鸡市</span>  <span id="610700">汉中市</span>  <span id="611000">商洛市</span>  <span id="610200">铜川市</span>  <span id="610500">渭南市</span>  <span id="610100">西安市</span>  <span id="610400">咸阳市</span>  <span id="610600">延安市</span>  <span id="610800">榆林市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city140000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="140400">长治市</span>  <span id="140200">大同市</span>  <span id="140500">晋城市</span>  <span id="140700">晋中市</span>  <span id="141000">临汾市</span>  <span id="141100">吕梁市</span>  <span id="140600">朔州市</span>  <span id="140100">太原市</span>  <span id="140900">忻州市</span>  <span id="140300">阳泉市</span>  <span id="140800">运城市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city510000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="513200">阿坝</span>  <span id="511900">巴中市</span>  <span id="510100">成都市</span>  <span id="511700">达州市</span>  <span id="510600">德阳市</span>  <span id="513300">甘孜</span>  <span id="511600">广安市</span>  <span id="510800">广元市</span>  <span id="511100">乐山市</span>  <span id="513400">凉山市</span>  <span id="511400">眉山市</span>  <span id="510700">绵阳市</span>  <span id="511300">南充市</span>  <span id="511000">内江市</span>  <span id="510400">攀枝花市</span>  <span id="510900">遂宁市</span>  <span id="511800">雅安市</span>  <span id="511500">宜宾市</span>  <span id="512000">资阳市</span>  <span id="510300">自贡市</span>  <span id="510500">泸州市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city650000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="652900">阿克苏</span>  <span id="659002">阿拉尔</span>  <span id="654300">阿勒泰</span>  <span id="652800">巴音郭楞</span>  <span id="652700">博尔塔拉</span>  <span id="652300">昌吉回族</span>  <span id="652200">哈密</span>  <span id="653200">和田</span>  <span id="653100">喀什</span>  <span id="650200">克拉玛依</span>  <span id="653000">克孜勒苏</span>  <span id="659001">石河子</span>  <span id="654200">塔城</span>  <span id="659003">图木舒克</span>  <span id="652100">吐鲁番</span>  <span id="650100">乌鲁木齐</span>  <span id="659004">五家渠</span>  <span id="654000">伊犁</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city540000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="542500">阿里</span>  <span id="542100">昌都</span>  <span id="540100">拉萨</span>  <span id="542600">林芝地区</span>  <span id="542400">那曲</span>  <span id="542300">日喀则</span>  <span id="542200">山南</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city530000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="530500">保山市</span>  <span id="532300">楚雄州</span>  <span id="532900">大理州</span>  <span id="533100">德宏州</span>  <span id="533400">迪庆藏族</span>  <span id="532500">红河州</span>  <span id="530100">昆明市</span>  <span id="530700">丽江市</span>  <span id="530900">临沧市</span>  <span id="533300">怒江州</span>  <span id="530300">曲靖市</span>  <span id="530800">思茅市</span>  <span id="532600">文山州</span>  <span id="532800">西双版纳</span>  <span id="530400">玉溪市</span>  <span id="530600">昭通市</span> </div></div> <div class="pro_city3_list2_noconflict hide" id="city330000"><div class="top_arrow_noconflict"></div><div class="top_arrow_noconflict top_arrow1"></div><div class="pro_body_bg_noconflict"> <span id="330100">杭州市</span>  <span id="330200">宁波市</span>  <span id="330500">湖州市</span>  <span id="330400">嘉兴市</span>  <span id="330700">金华市</span>  <span id="331100">丽水市</span>  <span id="330600">绍兴市</span>  <span id="331000">台州市</span>  <span id="330300">温州市</span>  <span id="330900">舟山市</span>  <span id="330800">衢州市</span> </div></div></div></div></div></div><div class="change_city_footer"></div><div class="city1_box_noconflict hide"><div class="city1_box_body_noconflict"><ul class="clearfix"></ul></div></div></div></div></div></div></div></div><script src="http://www.ccb.com/cn/v3/head_noconflict/search_tow_noconflict.shtml" type="text/javascript" charset="utf-8"></script><div class="search_tow"><div class="search_nav_line"></div><a href="javascript:void(0)" class="search_tow_a_noconflict"></a><div class="search_nav_noconflict"><div class="gb_btn"><a href="javascript:void(0);" class="sd_sn_noconflict"><img src="http://image3.ccb.com/cn/home/v3/images/gb.png"></a></div><div class="search_sn"><form name="SearchForm" class="AcqStep" action="http://www.ccb.com/cn/home/search.html" method="GET" target="_blank" accept-charset="utf-8"><table width="100%" style="position: relative;"><tbody><tr><td class="sn_td1"><input type="text" class="search_input" name="keyword"></td><td class="sn_td2"><input class="search_btn " type="submit" value="搜索"></td></tr><tr><td class="hot-words" colspan="2" align="left"><span>热门关键字：</span> <a href="http://www.ccb.com/cn/home/search.html?keyword=电子银行" class="h-words" target="_blank">电子银行</a><a href="http://www.ccb.com/cn/home/search.html?keyword=信用卡" class="h-words" target="_blank">信用卡</a><a href="http://www.ccb.com/cn/home/search.html?keyword=悦生活" class="h-words" target="_blank">悦生活</a><a href="http://www.ccb.com/cn/home/search.html?keyword=贵金属" class="h-words" target="_blank">贵金属</a></td></tr></tbody></table><div class="tixing" style=" width: 160px; height: 36px; float: right; position: absolute; right: 88px; top: 34px; text-align: center; line-height: 36px;display:none;"><span style="color:red;">请输入搜索关键字</span></div></form></div></div></div></div></div>
+<!-- END header_wrap --> 
+
+<!-- START tmn_wrap -->
+
+
+
+
+
+<div class="tmn_wrap"> 
+  <div class="tmn_nav js_tmn">
+    <ul class="ul_lv1" id="navtree">
+      <!-- START lv1 个人电子银行首页 -->
+      <li class="first_home"><a class="first_home" href="http://ebank.ccb.com">个人电子银行首页</a></li>
+	<li class="li_lv1" id="nav052830013"><a class="a_lv1" href="/cn/ebank/personal/tdys/201306071370568393.html">服务介绍</a>
+					<div class="box_lv2_c1 js_box_lv2">
+						<ul class="ul_lv2">
+						
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/tdys/201306071370568393.html">网上银行</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload//20130606182421105232.png" width="200" height="140" alt=""></div>
+									
+												<div class="service_intro">
+                  <div class="service_intro_title"><a href="/cn/ebank/personal/tdys/201306071370568393.html"><span class="i18_drb"></span>网上银行介绍</a></div>
+                  <ul class="service_intro_list">
+		  
+												<li><a href="/cn/ebank/personal/tdys/201306071370568393.html"><span class="i18_drb"></span>特点优势</a></li>
+												
+												<li><a href="/cn/ebank/personal/ktzn/201306071370587451.html"><span class="i18_drb"></span>开通指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/standardcharge/201306081370659812.html"><span class="i18_drb"></span>收费标准</a></li>
+												
+												<li><a href="/cn/ebank/personal/logout/201306081370661593.html"><span class="i18_drb"></span>如何注销</a></li>
+												
+												<li><a href="/cn/ebank/personal/serviceversion/201306081370666404.html"><span class="i18_drb"></span>服务版本</a></li>
+												
+		  </ul>
+                  <div class="clf"></div>
+                </div>
+											
+									<div class="service_others">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/functionhelp/201306061370518659.html"><span class="i18_drb"></span>服务与功能</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201306071370575528.html"><span class="i18_drb"></span>用户登录介绍</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/aqzq/201306071370582684.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=001"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+								
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/tdys/201306071370568804.html">手机银行</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload//20130606183226792662.png" width="200" height="140" alt=""></div>
+									
+												<div class="service_intro">
+                  <div class="service_intro_title"><a href="/cn/ebank/personal/tdys/201306071370568804.html"><span class="i18_drb"></span>手机银行介绍</a></div>
+                  <ul class="service_intro_list">
+		  
+												<li><a href="/cn/ebank/personal/tdys/201306071370568804.html"><span class="i18_drb"></span>特点优势</a></li>
+												
+												<li><a href="/cn/ebank/personal/ktzn/201306071370588760.html"><span class="i18_drb"></span>开通指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/standardcharge/201306081370660812.html"><span class="i18_drb"></span>收费标准</a></li>
+												
+												<li><a href="/cn/ebank/personal/logout/201306081370667491.html"><span class="i18_drb"></span>如何注销</a></li>
+												
+												<li><a href="/cn/ebank/personal/serviceversion/201306081370667047.html"><span class="i18_drb"></span>服务版本</a></li>
+												
+		  </ul>
+                  <div class="clf"></div>
+                </div>
+											
+									<div class="service_others">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/functionhelp/201306061370520681.html"><span class="i18_drb"></span>服务与功能</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201306161371330308.html"><span class="i18_drb"></span>用户登录介绍</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/detail/201306071370584354.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=003"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+								
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/tdys/201306071370568992.html">短信金融</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload//20130606184941372008.png" width="200" height="140" alt=""></div>
+									
+												<div class="service_intro">
+                  <div class="service_intro_title"><a href="/cn/ebank/personal/tdys/201306071370568992.html"><span class="i18_drb"></span>短信金融介绍</a></div>
+                  <ul class="service_intro_list">
+		  
+												<li><a href="/cn/ebank/personal/tdys/201306071370568992.html"><span class="i18_drb"></span>特点优势</a></li>
+												
+												<li><a href="/cn/ebank/personal/ktzn/201306071370589564.html"><span class="i18_drb"></span>开通指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/standardcharge/201306081370660907.html"><span class="i18_drb"></span>收费标准</a></li>
+												
+												<li><a href="/cn/ebank/personal/logout/201306081370673806.html"><span class="i18_drb"></span>如何注销</a></li>
+												
+												<li><a href="/cn/ebank/personal/ktzn/201306171371450582.html"><span class="i18_drb"></span>交易指令指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/detail/201407171405558977.html"><span class="i18_drb"></span>短信银行客户端</a></li>
+												
+		  </ul>
+                  <div class="clf"></div>
+                </div>
+											
+									<div class="service_others">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/functionhelp/201306061370521707.html"><span class="i18_drb"></span>服务与功能</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/detail/201306071370584575.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=010"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+								
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/tdys/201601161452957984.html">Pad银行</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/471399009/20160116231215453590.jpg" width="200" height="140" alt=""></div>
+									
+												<div class="service_intro">
+                  <div class="service_intro_title"><a href="/cn/ebank/personal/tdys/201601161452957984.html"><span class="i18_drb"></span>Pad银行介绍</a></div>
+                  <ul class="service_intro_list">
+		  
+												<li><a href="/cn/ebank/personal/tdys/201601161452957984.html"><span class="i18_drb"></span>特点优势</a></li>
+												
+												<li><a href="/cn/ebank/personal/ktzn/201601161452958849.html"><span class="i18_drb"></span>开通指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/standardcharge/201601171452960792.html"><span class="i18_drb"></span>收费标准</a></li>
+												
+												<li><a href="/cn/ebank/personal/logout/201601171452961152.html"><span class="i18_drb"></span>如何注销</a></li>
+												
+												<li><a href="/cn/ebank/personal/serviceversion/201601171452962187.html"><span class="i18_drb"></span>服务版本</a></li>
+												
+		  </ul>
+                  <div class="clf"></div>
+                </div>
+											
+									<div class="service_others">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/functionhelp/201601171452968635.html"><span class="i18_drb"></span>服务与功能</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201601171452971846.html"><span class="i18_drb"></span>用户登录介绍</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201601171452974951.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=021"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+								
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/tdys/201306071370569179.html">电话银行</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/391756414/20130616174040016401.jpg" width="200" height="140" alt=""></div>
+									
+												<div class="service_intro">
+                  <div class="service_intro_title"><a href="/cn/ebank/personal/tdys/201306071370569179.html"><span class="i18_drb"></span>电话银行介绍</a></div>
+                  <ul class="service_intro_list">
+		  
+												<li><a href="/cn/ebank/personal/tdys/201306071370569179.html"><span class="i18_drb"></span>特点优势</a></li>
+												
+												<li><a href="/cn/ebank/personal/ktzn/201306071370590053.html"><span class="i18_drb"></span>开通指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/standardcharge/201306081370661302.html"><span class="i18_drb"></span>收费标准</a></li>
+												
+		  </ul>
+                  <div class="clf"></div>
+                </div>
+											
+									<div class="service_others">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/functionhelp/201306061370521939.html"><span class="i18_drb"></span>服务与功能</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201306161371330010.html"><span class="i18_drb"></span>自助语音服务功能菜单</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/detail/201306071370584706.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=002"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+								
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/ktzn/201306071370590364.html">家居银行</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload//20130606190230604803.png" width="200" height="140" alt=""></div>
+									
+												<div class="service_intro">
+                  <div class="service_intro_title"><a href="/cn/ebank/personal/ktzn/201306071370590364.html"><span class="i18_drb"></span>家居银行介绍</a></div>
+                  <ul class="service_intro_list">
+		  
+												<li><a href="/cn/ebank/personal/ktzn/201306071370590364.html"><span class="i18_drb"></span>开通指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/standardcharge/201306081370661020.html"><span class="i18_drb"></span>收费标准</a></li>
+												
+		  </ul>
+                  <div class="clf"></div>
+                </div>
+											
+									<div class="service_others">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/functionhelp/201306061370522226.html"><span class="i18_drb"></span>服务与功能</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/detail/201306071370584808.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=012"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+								
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/detail/201306161371323952.html">自助银行</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload//20130607115240894619.png" width="200" height="140" alt=""></div>
+									
+									<div class="service_others_one">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/detail/201306161371323952.html"><span class="i18_drb"></span>自助银行介绍</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201306161371321841.html"><span class="i18_drb"></span>常用自助机</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201306161371323038.html"><span class="i18_drb"></span>乐当家理财卡</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=011"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+									
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/tdys/201306081370664945.html">电子支付</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload//20130607115734551185.png" width="200" height="140" alt=""></div>
+									
+									<div class="service_others_one">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/ktzn/201306071370590656.html"><span class="i18_drb"></span>网银支付</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/ktzn/201306081370653226.html"><span class="i18_drb"></span>账号支付</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/ktzn/201306081370656026.html"><span class="i18_drb"></span>手机支付</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/ktzn/201306081370657670.html"><span class="i18_drb"></span>快捷付</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/detail/201306071370584859.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=013"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+									
+									</div>
+									</li>
+								
+									<li class="li_lv2"><a class="a_lv2" href="/cn/ebank/personal/tdys/201501251422121366.html">微信银行</a>
+									<div class="box_lv3">
+									<div class="feature_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/839985516/20150125000717228218.png" width="200" height="140" alt=""></div>
+									
+												<div class="service_intro">
+                  <div class="service_intro_title"><a href="/cn/ebank/personal/tdys/201501251422121366.html"><span class="i18_drb"></span>微信银行介绍</a></div>
+                  <ul class="service_intro_list">
+		  
+												<li><a href="/cn/ebank/personal/tdys/201501251422121366.html"><span class="i18_drb"></span>特点优势</a></li>
+												
+												<li><a href="/cn/ebank/personal/ktzn/201501251422121681.html"><span class="i18_drb"></span>开通指南</a></li>
+												
+												<li><a href="/cn/ebank/personal/standardcharge/201501251422122451.html"><span class="i18_drb"></span>收费标准</a></li>
+												
+		  </ul>
+                  <div class="clf"></div>
+                </div>
+											
+									<div class="service_others">
+										<ul class="service_others_list">
+										
+										  <li><a href="/cn/ebank/personal/functionhelp/201501251422128785.html"><span class="i18_drb"></span>服务与功能</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/logout/201501251422139198.html"><span class="i18_drb"></span>玩转与攻略</a></li>	
+										
+										  <li><a href="/cn/ebank/personal/detail/201501251422142677.html"><span class="i18_drb"></span>安全与保障</a></li>	
+										
+										  <li><a href="http://ebank.ccb.com/cn/ebank/personal/question/question.html?categoryid=018"><span class="i18_drb"></span>常见问答</a></li>	
+										
+										</ul>
+									</div>
+								
+									</div>
+									</li>
+								
+						 </ul>
+						<div class="clf"></div>
+					</div>
+					</li>
+						<!-- START lv1 优惠资讯 -->
+						<li class="li_lv1" id="nav136590970"><a class="a_lv1" href="/cn/ebank/personal/information/include/news_list.html">优惠资讯</a>
+						<div class="box_lv2_c2 js_box_lv2">
+							<div class="thumb"><span class="pic_frame"><a href="/cn/ebank/personal/information/include/news_list.html"><img src="http://image3.ccb.com/cn/ebank/personal/upload/136590970/20130617112746062778.jpg" width="187" height="127" alt=""></a></span></div>
+							     <!-- START lv1 优惠资讯 -->
+          <div class="promotion_info">
+            
+            
+
+          </div>
+			<script src="/cn/ebank/common/js/jquery.cookie.js" type="text/javascript"></script>
+			<script src="/cn/ebank/common/js/cost_main.js" type="text/javascript"></script>
+		  	<script src="/cn/ebank/common/js/info_dynamic.js" type="text/javascript"></script>
+						</div>
+						</li>
+					<li class="li_lv1" id="nav215761542"><a class="a_lv1" href="http://ebank.ccb.com/cn/ebank/personal/demoCenter/index.html">帮助与反馈</a>
+					<div class="box_lv2 js_box_lv2">
+						<ul class="ul_lv2">
+						
+						<li class="li_lv2"><a href="http://ebank.ccb.com/cn/ebank/personal/demoCenter/index.html" class="a_lv2">演示中心</a></li>
+					     
+									<li class="li_lv2"><a href="/cn/ebank/personal/aqzq/201306071370582684.html" class="a_lv2">安全专区</a></li>
+								
+						<li class="li_lv2"><a href="/cn/ebank/personal/downloadcenter/201306071370593615.html" class="a_lv2">下载中心</a></li>
+					     
+						<li class="li_lv2"><a href="/cn/ebank/personal/knowledge/knowlegdelist_1.html" class="a_lv2">知识学堂</a></li>
+					     
+						<li class="li_lv2"><a href="/cn/ebank/personal/question/answerquestion.html" class="a_lv2">常见问答</a></li>
+					     
+						<li class="li_lv2"><a href="http://echat.ccb.com/rolsvc/vservice.html?userType=17" class="a_lv2">联系我们</a></li>
+					     
+						 </ul>
+					</div>
+					</li>
+						<!-- START lv1 场景展示厅 -->
+						<li class="li_lv1" id="nav391756414"><a class="a_lv1" href="http://www.ccb.com/cn/html1/office/ebank/dzb/subject/center/virtual/index.html">场景展示厅</a>
+							<div class="box_lv2_c3 js_box_lv2">
+								<div class="thumb">
+									<a href="http://www.ccb.com/cn/html1/office/ebank/dzb/subject/center/virtual/index.html" target="_blank">
+										<img src="http://image3.ccb.com/cn/ebank/personal/upload/391756414/20130616174023004084.jpg" width="300" height="175" alt=""></a></div>
+								<div class="con">
+									<div class="info">选择适合您的角色，引导您挑选最方便的业务办理渠道</div>
+									
+							<div class="more"><a href="http://www.ccb.com/cn/html1/office/ebank/dzb/subject/center/virtual/index.html" target="_blank"><span class="i18_drb"></span>立即体验</a></div>
+						
+								</div>
+							</div>
+						</li>
+					<li class="li_lv1" id="nav471399009"><a class="a_lv1" href="/cn/ebank/personal/ebankintro/201306071370581744.html">关于电子银行</a>
+					<div class="box_lv2 js_box_lv2">
+						<ul class="ul_lv2">
+						
+						<li class="li_lv2"><a href="/cn/ebank/personal/ebankintro/201306071370581744.html" class="a_lv2">电子银行介绍</a></li>
+					     
+						<li class="li_lv2"><a href="/cn/ebank/personal/detail/201306071370582541.html" class="a_lv2">发展历程</a></li>
+					     
+						<li class="li_lv2"><a href="/cn/ebank/personal/detail/201306071370582612.html" class="a_lv2">荣誉奖项</a></li>
+					     
+						<li class="li_lv2"><a href="/cn/ebank/personal/news/newslist_1.html" class="a_lv2">新闻与公告</a></li>
+					     
+						 </ul>
+					</div>
+					</li>
+    </ul>
+  </div>
+  <div class="tmn_switch"> <a href="/cn/ebank/homepage_corporate.html"><img src="http://image1.ccb.com/cn/ebank/common/images/tmn_switch_btn_biz.png" width="159" height="37" alt="切换至企业用户"></a> </div>
+</div>
+<script>
+	function getwei(name){
+		$(".ul_lv1").children().each(function(){
+			var getname=$(this).find("a:first").text();
+			if(getname==name){
+				$(this).addClass("current");
+			}
+		})
+	}
+</script>
+
+
+<!-- END tmn_wrap --> 
+ 
+
+<!-- START body_wrap -->
+<div class="body_wrap"> 
+  
+  <!-- START col_left -->
+  <div class="col_left"> 
+    
+    <!-- START cl_loginbox_hp -->
+    <script src="http://www.ccb.com/cn/v3/login_noconflict/login_domain_noconflict.js " type="text/javascript" charset="utf-8"></script><link href="http://www.ccb.com/cn/v3/login_noconflict/css/login_box_noconflict.css" rel="stylesheet" type="text/css"><script type="text/javascript">jQuery(function(){jQuery(".select_list").click(function(){jQuery(this).find(".select_ul").toggle();});jQuery(".select_list").mouseleave(function(){jQuery(this).find(".select_ul").hide();});jQuery(".select_list .select_ul ul li").click(function(){jQuery(this).parents(".select_list").find(".select_value").text(jQuery(this).text());});})</script><script src="http://www.ccb.com/cn/v3/login_noconflict/login_index_noconflict.js" type="text/javascript" charset="utf-8"></script><script type="text/javascript" src="http://www.ccb.com/cn/v3/login_noconflict/login_noconflict.js"></script><style>.hm_bott_noconflict {margin-top:6px; height: 30px; line-height: 30px; background: url(/cn/v3/upload/photo/20151206_1449372202/20160707095318402641.png) no-repeat 10px center;}</style><div class="login_domain"><div class="Quick_Link"><div class="Quick_Link_top"><div class="select"></div><div class="select_list w_160 lfloat"><span class="select_value">个人网上银行</span><div class="select_ul"><ul><li class="choose">个人网上银行</li><li class="choose">商户服务平台</li><li class="choose">网站</li><li class="choose">善融商务</li></ul></div></div><a id="http://www.ccb.com/cn/jump/personal_loginbank.html" style="cursor:pointer" class="Quick_Link_top_button" target="_blank">登录</a><a id="http://www.ccb.com/cn/home/tysh/tysh_index.html" style="cursor:pointer" class="Quick_Link_top_button hide" target="_blank">登录</a><a id="http://login.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&amp;SERVLET_NAME=WCCMainPlatV5&amp;TXCODE=NHY010" style="cursor:pointer" class="Quick_Link_top_button hide" target="_blank">登录</a><a id="http://buy.ccb.com/member/memberBegin.jhtml" style="cursor:pointer" class="Quick_Link_top_button hide" target="_blank">登录</a></div><div class="Quick_Link_m"> <a id="http://ebank.ccb.com/cn/jump/secure.html" class="zhuce" style="cursor:pointer">安全指引</a><a id="http://ebank.ccb.com/cn/ebank/personal/downloadcenter/201306071370593615.html" class="zhuce" style="cursor:pointer">下载中心</a><a id="http://ebank.ccb.com/cn/jump/demo.html" class="zhuce" style="cursor:pointer">功能演示</a><a id="http://www.ccb.com/cn/home/register/kstd_zhuce.html" class="zhuce" style="cursor:pointer">注册开通</a></div><div class="hm_bott_noconflict"><ul><li class="hm_li"><a href="http://www.ccb.com/cn/mycom/user_center.html" target="_blank">进入我的.com</a></li><li class="hm_li1"><a href="http://buy.ccb.com/" target="_blank">善融商务</a></li></ul></div></div><div class="hidemenu" style="height:92px;background: url(http://image3.ccb.com/cn/home/v3/images/loginbg_else.png) no-repeat  left top #fff; padding-top:10px;display:none;"><div class="leftUseimg"><a href="http://www.ccb.com/cn/mycom/xxxg/index_headxg.html" target="_blank"><img src="http://image3.ccb.com/cn/home/v3/images/tx.png" width="73px"></a></div><div class="right_message"><ul><li class="message_img"> <ul><li class="name_widyh"></li></ul></li><li><dl><dd class="m_r_d"><a href="http://www.ccb.com/cn/mycom/xxxg/index_messagexg.html">我的.com</a></dd><dd><a style="cursor:pointer" onclick="out();" class="close_window">安全退出</a></dd> </dl></li></ul></div><div class="down_nemu_login"><ul style="margin-top:3px;"><li><a href="http://www.ccb.com/cn/jump/personal_loginbank.html" target="_blank">进入个人网上银行</a></li></ul></div></div></div>
+    <!-- END cl_loginbox --> 
+    
+    
+
+
+	
+				
+
+
+	
+			<div class="cl_membership"> <a href="http://member.ccb.com" class="abtn_membership" target="_blank" style="background-image: url('http://image1.ccb.com/cn/ebank/personal/upload/member/20130608155806560667.png');"></a> </div>
+			
+
+ 
+			
+				
+
+
+	
+				<!-- START cl_frame_box -->
+				<div class="cl_frame_box">
+					<div class="hd"></div>
+					<div class="bd font_zero"><a href="http://ebank.ccb.com/cn/ebank/personal/ktzn/201306081370653226.html" target="_blank"><img src="http://image1.ccb.com/cn/ebank/personal/upload/zhzf/20130608114023830227.jpg" width="211" height="135" alt="账号支付"></a></div>
+					<div class="bt"></div>
+				</div>
+				<!-- END cl_frame_box --> 
+			
+
+
+			
+				
+
+
+	
+				<!-- START cl_frame_box -->
+				<div class="cl_frame_box">
+					<div class="hd"></div>
+					<div class="bd font_zero"><a href="http://www.ccb.com/cn/html1/office/ebank/dzb/subject/center/virtual/index.html" target="_blank"><img src="http://image1.ccb.com/cn/ebank/personal/upload/xnzst/20130617113055574946.jpg" width="211" height="180" alt="场景展示厅"></a></div>
+					<div class="bt"></div>
+				</div>
+				<!-- END cl_frame_box --> 
+			
+
+
+			
+				
+
+			
+
+			
+
+			
+
+			
+
+
+	
+			<!-- START cl_frame_box -->
+			<div class="cl_frame_box">
+				<div class="hd"></div>
+				<div class="bd gradient_b2t_100">
+					<div class="cl_frame_box_content">
+						<h2><img src="http://image3.ccb.com/cn/ebank/personal/upload/tzlc/20130608114502206273.png" width="74" height="20"></h2>
+						<p>电子银行是您投资理财的最佳助手，为您提供全方位的理财服务。</p>
+						<div class="hr_dot_blue"></div>
+						<div class="list_col2x">
+							<ul>
+							
+		
+				 <li><a href="http://fund.ccb.com/fund/index.html" target="_blank" class="js_tooltip" data-tt_url="/cn/ebank/personal/include/tzlc_0.html">基金产品</a></li>
+			
+				 <li><a href="http://finance.ccb.com/cn/finance/index.html" target="_blank" class="js_tooltip" data-tt_url="/cn/ebank/personal/include/tzlc_1.html">理财产品</a></li>
+			
+				 <li><a href="http://gold.ccb.com/cn/gold/index.html" target="_blank" class="js_tooltip" data-tt_url="/cn/ebank/personal/include/tzlc_2.html">账户贵金属</a></li>
+			
+				 <li><a href="http://forex.ccb.com/cn/forex/index.html" target="_blank" class="js_tooltip" data-tt_url="/cn/ebank/personal/include/tzlc_3.html">外汇产品</a></li>
+			
+						</ul>
+						<div class="clf"></div>
+					</div>
+				</div>
+			</div>
+			<div class="bt"></div>
+		</div>
+		<!-- END cl_frame_box --> 
+		
+
+
+			
+				
+
+
+	
+				<!-- START cl_shadow_box --> 
+				<div class="cl_shadow_box">
+					<div class="hd"></div>
+					<div class="bd cl_slide_hp js_cl_slide_hp">
+						<div class="window js_window"><!--<img src="http://image1.ccb.com/cn/ebank/images/cl_pic_slide_01.jpg" width="225" height="139" alt="" />--></div>
+						<div class="list">
+							<ul class="js_list">
+			
+					<li><a href="http://buy.ccb.com?source_name=628ztxx&amp;source_type=wz_dzyhzc&amp;source_content=zhzt" data-bigimg="http://image3.ccb.com/cn/ebank/personal/upload/moread/20180620101727143329.jpg" target="_blank">0</a></li>
+				
+					<li><a href="http://sale.mall.ccb.com/sale/zh/gylfwyy0615/index.html?source=ccbgrdzyhzxjlb&amp;source_name=srswqysc&amp;source_type=ccbgrdzyhzxjlb&amp;source_content=ccbgrdzyhzxjlb" data-bigimg="http://image3.ccb.com/cn/ebank/personal/upload/moread/20180615135756161182.jpg" target="_blank">1</a></li>
+				
+							</ul>
+						</div>
+					</div>
+					<div class="bt"></div>
+				</div>
+				<!-- END cl_shadow_box --> 
+			
+
+
+			
+
+
+  
+  </div>
+  <!-- END col_left --> 
+  
+  <!-- START col_right -->
+  <div class="col_right"> 
+    
+    <!-- START hp_kv -->
+    <div class="hp_kv"> 
+      <!-- START kv_wrap -->
+		
+
+
+
+	<div class="kv_wrap js_hp_kv">
+        <div class="window js_window"><!--<img src="./images_tmp/tmp_pic_600x280_1.png" alt="" />--></div>
+
+        <div class="list">
+          <ul class="js_list">
+		
+			<li><a href="http://store.ccb.com/cn/html1/office/ebank/dzb/subject/16/0401xbwy/index.html" data-bigimg="http://image3.ccb.com/cn/ebank/personal/upload/syad/20160408113817597879.jpg" target="_blank"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syad/20160408113823688176.jpg" alt="新版网银 全新亮相"></a></li>
+		
+			<li><a href="http://store.ccb.com/cn/html1/office/ebank/dzb/subject/16/0325xfwxty/index.html" data-bigimg="http://image3.ccb.com/cn/ebank/personal/upload/syad/20160408113724794722.jpg" target="_blank"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syad/20160408113731439144.jpg" alt="心服务 新体验"></a></li>
+		
+			<li><a href="http://sale.buy.ccb.com/channel/znqyr_20180620/index.html?source_name=znqyr_20180620&amp;source_type=wz_dzyhlb&amp;source_content=zhzt" data-bigimg="http://image3.ccb.com/cn/ebank/personal/upload/syad/20180620101508799882.jpg" target="_blank"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syad/20180620101523304923.jpg" alt="预热一期"></a></li>
+		
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- END kv_wrap --> 
+      <!-- START helper_box -->
+      <div class="helper_box">
+        <div class="tit_service_helper">服务小助手</div>
+        <div class="btn_online_service"><a href="http://echat.ccb.com/rolsvc/vservice.html?userType=16 " target="_blank">在线客服</a></div>
+        <div class="btn_caculator"><a href="http://www.ccb.com/cn/public/20141027_1414371456.html" target="_blank">费用计算器</a></div>
+        <div class="btn_service_compare"><a class="js_popbox" href="/cn/ebank/personal/include/popbox_function_compare.html">常用服务对比</a></div>
+        <div class="btn_add_favourite"><a href="javascript:;" class="js_add_favo">收藏本频道</a></div>
+        <div class="tit_follow_us" ondblclick="tiaozhuanV3()">关注我们</div>
+        <div class="tit_ccb_forum">建行论坛</div>
+        <div class="btn_weibo"><a href="http://e.weibo.com/elutong" class="js_tooltip" data-tt_text="新浪微博" data-tt_width="50" data-tt_no_delay="1" target="_blank">新浪微博</a></div>
+        <div class="btn_tencent"><a href="http://t.qq.com/elutong/mine" class="js_tooltip" data-tt_text="腾讯微博" data-tt_width="50" data-tt_no_delay="1" target="_blank">腾讯微博</a></div>
+		<style>
+			#u15 {
+				height: 154px;
+				left: 10px;
+				overflow: hidden;
+				position: absolute;
+				top: 88px;
+				width: 133px;
+			}
+			#pd0u15 {
+				height: 154px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 133px;
+			}
+			#u16 {
+				height: 143px;
+				left: 0;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				width: 133px;
+			}
+			#pd0u16 {
+				height: 143px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 133px;
+			}
+			.u17_container {
+				height: 142px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 132px;
+			}
+			#u17_img {
+				height: 142px;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 132px;
+			}
+			.u17_normal {
+				background-image: url("http://image1.ccb.com/cn/ebank/common/images/u17_normal.png");
+			}
+			.u18 {
+				font-family: Arial;
+				height: 16px;
+				left: 2px;
+				position: absolute;
+				text-align: left;
+				top: 63px;
+				width: 128px;
+				word-wrap: break-word;
+			}
+		</style>
+		<div data-label="微信图标" style="visibility: hidden;" id="u15">
+			<div data-label="状态1" style="" id="pd0u15">
+				<div data-label="微信logo" style="visibility: hidden;" id="u16">
+					<div data-label="状态1" style="" id="pd0u16">
+						<div class="u17_container" id="u17">
+							<div class="u17_normal detectCanvas" id="u17_img"></div>
+							<div style="visibility:hidden;" class="u18" id="u18">
+								<div id="u18_rtf"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="btn_sohu"><a href="javascript:void(0);" data-tt_text="微信" data-tt_width="50" data-tt_no_delay="1">微信</a></div>
+        <div class="btn_bbs"><a href="http://bbs.ccb.com/index.fhtml" class="js_tooltip" data-tt_text="建行论坛" data-tt_width="50" data-tt_no_delay="1" target="_blank">建行论坛</a></div>
+</div>
+<script>
+	$(function(){
+		$(".btn_sohu").mousemove(function(){
+			$("#u15").attr('style','');
+			$("#u16").attr('style','');
+		});
+		$(".btn_sohu").mouseout(function(){
+			$("#u15").attr('style','visibility: hidden;');
+			$("#u16").attr('style','visibility: hidden;');
+		});
+	});
+</script>
+
+      <!-- END helper_box --> 
+    </div>
+    <!-- END hp_kv --> 
+    
+    <!-- START hp_notice -->
+     
+<div class="hp_notice">
+      <div class="notice_window">
+        <ul class="js_marquee_notice">
+          
+        </ul>
+      </div>
+  </div>
+
+    <!-- END hp_notice --> 
+    
+    <!-- START hp_business -->
+		
+
+
+
+	<div class="hp_business">
+      <div class="col_l">
+        <dl class="js_hp_biz_accordion">
+          
+		<dt class="active"><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_online_bank">网上银行</span></a></dt>
+		<dd class="active">
+			<div class="frame_box">
+				<div class="frame_bd hp_biz_bg_online_bank js_window">
+					<div class="frame_bd_offset">
+						<div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20130608112046714019.jpg" width="345" height="148" alt=""></div>
+						<div class="intro">开通建行网上银行，便捷易用，让您足不出户即可享受7x24小时金融服务。</div>
+						<div class="links"> 
+							 
+			<a class="abtn_blue" href="https://ibsbjstar.ccb.com.cn/CCBIS/V6/STY1/CN/FB30101_notice.jsp" target="_blank"><span>马上开通</span></a>
+		
+			<a class="abtn_link" href="/cn/ebank/personal/ktzn/201306071370587451.html" target="_blank">开通指南</a> 
+		
+						</div> 
+						<div class="more"><a href="/cn/ebank/personal/tdys/201306071370568393.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+					</div>
+					<div class="frame_hd"></div>
+				</div>
+				<div class="frame_bt"></div>
+			</div>
+		</dd>
+	
+		<dt><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_telephone_bank">电话银行</span></a></dt>
+		<dd>
+			<div class="frame_box">
+				<div class="frame_bd hp_biz_bg_online_bank js_window">
+					<div class="frame_bd_offset">
+						<div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20130608112540815889.jpg" width="345" height="148" alt=""></div>
+						<div class="intro">您只要拥有一部电话机，随时拨打95533进行简单操作，就可以让电话成为您身边的银行。</div>
+						<div class="links"> 
+							
+			<a class="abtn_link" href="http://ebank.ccb.com/cn/ebank/personal/ktzn/201306071370590053.html" target="_blank">开通指南</a> 
+		
+						</div>
+						<div class="more"><a href="http://ebank.ccb.com/cn/ebank/personal/tdys/201306071370569179.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+					</div>
+					<div class="frame_hd"></div>
+				</div>
+				<div class="frame_bt"></div>
+			</div>
+		</dd>
+	
+		<dt><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_newE_bank">电子支付</span></a></dt>
+		<dd>
+		<div class="frame_box">
+			<div class="frame_bd hp_biz_bg_online_bank js_window">
+				<div class="frame_bd_offset">
+				<div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20150124231408087309.jpg" width="345" height="148" alt=""></div>
+				<div class="intro">电子支付是我行为客户提供的网上即时付费服务。您可以足不出户，进行网上购物支付。</div>
+				<div class="links"> 
+					
+				</div>
+				<div class="more"><a href="http://ebank.ccb.com/cn/ebank/personal/tdys/201306081370664945.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+				</div>
+				<div class="frame_hd"></div>
+			</div>
+			<div class="frame_bt"></div>
+		</div>
+		</dd>
+	
+		<dt><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_self_service_bank">自助银行</span></a></dt>
+          <dd>
+            <div class="frame_box">
+              <div class="frame_bd hp_biz_bg_online_bank js_window">
+                <div class="frame_bd_offset">
+                  <div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20130608112806778070.jpg" width="345" height="148" alt=""></div>
+                  <div class="intro">自助银行不受营业时间和空间的限制，为您提供方便、快捷、安全、多功能、全方位的自助服务。</div>
+		  <div class="links"> 
+					
+				</div>
+                  <div class="more"><a href="/cn/ebank/personal/detail/201306161371323952.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+                </div>
+                <div class="frame_hd"></div>
+              </div>
+              <div class="frame_bt"></div>
+            </div>
+          </dd>
+	
+        </dl>
+      </div>
+      <div class="col_2">
+        <dl class="js_hp_biz_accordion">
+          
+		<dt class="active"><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_cellphone_bank">手机银行</span></a></dt>
+          <dd class="active">
+            <div class="frame_box">
+              <div class="frame_bd hp_biz_bg_online_bank js_window">
+                <div class="frame_bd_offset">
+                  <div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20130608112136750302.jpg" width="345" height="148" alt=""></div>
+                  <div class="intro">将手机号与建行账户绑定，让手机成为您随身携带的银行，还能享受手续费3折优惠。</div>
+                  <div class="links">
+			
+			<a class="abtn_blue" href="https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlatP1?CCB_IBSVersion=V6&amp;TXCODE=B50101" target="_blank"><span>马上开通</span></a>
+		
+			<a class="abtn_link" href="http://ebank.ccb.com/cn/ebank/personal/downloadcenter/201306071370593615.html#dc_mobileclient" target="_blank">客户端下载</a> 
+		
+			</div>
+                  <div class="more"><a href="http://ebank.ccb.com/cn/ebank/personal/tdys/201306071370568804.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+                </div>
+                <div class="frame_hd"></div>
+              </div>
+              <div class="frame_bt"></div>
+            </div>
+          </dd>
+	
+		<dt><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_sms_bank">短信金融</span></a></dt>
+          <dd>
+            <div class="frame_box">
+              <div class="frame_bd hp_biz_bg_online_bank js_window">
+                <div class="frame_bd_offset">
+                  <div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20130616010633826894.jpg" width="345" height="148" alt=""></div>
+                  <div class="intro">无需安装客户端，无需花费流量套餐，仅发送短信，您便可享受建行短信金融服务带来的便利。</div>
+                  <div class="links">
+			
+			<a class="abtn_link" href="http://ebank.ccb.com/cn/ebank/personal/ktzn/201306071370589564.html" target="_blank">开通指南</a> 
+		
+			</div>
+                  <div class="more"><a href="http://ebank.ccb.com/cn/ebank/personal/tdys/201306071370568992.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+                </div>
+                <div class="frame_hd"></div>
+              </div>
+              <div class="frame_bt"></div>
+            </div>
+          </dd>
+	
+		<dt><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_newWX_bank">微信银行</span></a></dt>
+		<dd>
+		<div class="frame_box">
+			<div class="frame_bd hp_biz_bg_online_bank js_window">
+				<div class="frame_bd_offset">
+				<div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20150124230235341661.jpg" width="345" height="148" alt=""></div>
+				<div class="intro">关注建行微信银行，实时掌握金融资讯，轻松办理生活缴费，让您体验真正的掌上金融生活。</div>
+				<div class="links"> 
+					
+			<a class="abtn_link" href="http://ebank.ccb.com/cn/ebank/personal/ktzn/201501251422121681.html" target="_blank">开通指南</a> 
+		
+				</div>
+				<div class="more"><a href="http://ebank.ccb.com/cn/ebank/personal/tdys/201501251422121366.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+				</div>
+				<div class="frame_hd"></div>
+			</div>
+			<div class="frame_bt"></div>
+		</div>
+		</dd>
+	
+	<dt><a href="javascript:;" class="js_trigger"><span class="hp_biz_tit_pad_bank">Pad银行</span></a></dt>
+          <dd>
+            <div class="frame_box">
+              <div class="frame_bd hp_biz_bg_online_bank js_window">
+                <div class="frame_bd_offset">
+                  <div class="featured_pic"><img src="http://image3.ccb.com/cn/ebank/personal/upload/syebankservice/20160117022329632870.jpg" width="345" height="148" alt=""></div>
+                  <div class="intro">全新打造Pad银行让您充分享受移动金融的乐趣与便利，是陪伴在您身边的理财生活好帮手。</div>
+		  <div class="links"> 
+					
+			<a class="abtn_link" href="http://ebank.ccb.com/cn/ebank/personal/serviceversion/201601171452962187.html" target="_blank">客户端下载</a> 
+		
+				</div>
+                  <div class="more"><a href="/cn/ebank/personal/tdys/201601161452957984.html" target="_blank"><span class="i18_drb"></span>了解更多</a></div>
+                </div>
+                <div class="frame_hd"></div>
+              </div>
+              <div class="frame_bt"></div>
+            </div>
+          </dd>
+	
+	
+        </dl>
+      </div>
+      <div class="clf"></div>
+      <div class="bg_footer"></div>
+    </div>
+
+
+    <!-- END hp_business --> 
+    
+    <!-- START hp_info -->
+    <div class="hp_info">
+      <div class="col1">
+        <div class="info_box info_tab js_hover_tab">
+          <div class="info_header info_tab_btns js_btns">
+            <ul class="js_list">
+              <li class="active"><a href="javascript:;">最新服务</a></li>
+              <li><a href="javascript:;">特色推荐</a></li>
+            </ul>
+          </div>
+          <div class="info_body info_tab_contents js_contents"> 
+            <!-- START info_tab_content_box -->
+            
+
+									
+		<!-- START info_tab_content_box -->
+            <div class="info_tab_content_box js_content_item"> 
+              
+              <!-- START hp_info_scroll_box -->
+              <div class="hp_info_scroll_box js_hp_info_scroll_box">
+                <div class="window">
+                  <ul class="js_list">
+                    
+			 <li>
+                      <div class="thumb">
+			<a href="/cn/ebank/personal/detail/201306071370606256.html"><img src="http://image3.ccb.com/cn/ebank/personal/upload/201306071370606081/20130616014609501795.png" width="98" height="62" alt=""></a></div>
+                      <div class="tit"><a href="/cn/ebank/personal/detail/201306071370606256.html"><strong>[手机银行]</strong>特约取款</a></div>
+                      <div class="desc">您申请特约取款后，特约取款ID将通过短信发送至您交易通知手机号，凭ID及取款密码即可在我行自助设备提取现金。</div>
+                    </li>
+		
+			 <li>
+                      <div class="thumb">
+			<a href="/cn/ebank/personal/detail/201312181387347747.html"><img src="http://image3.ccb.com/cn/ebank/personal/upload/201312201387532125/20131220173635187215.jpg" width="98" height="62" alt=""></a></div>
+                      <div class="tit"><a href="/cn/ebank/personal/detail/201312181387347747.html"><strong>[微信银行]</strong>生活缴费</a></div>
+                      <div class="desc">话费、宽带费、水电煤气物业费…各种生活缴费，点击微信悦生活菜单，使用微信生活缴费，悦享生活轻松便捷 。</div>
+                    </li>
+		
+			 <li>
+                      <div class="thumb">
+			<a href="http://www.ccb.com/cn/html1/office/ebank/dzb/subject/13/0402yyfw/index.html"><img src="http://image3.ccb.com/cn/ebank/personal/upload/201306071370605394/20130616030714924876.png" width="98" height="62" alt=""></a></div>
+                      <div class="tit"><a href="http://www.ccb.com/cn/html1/office/ebank/dzb/subject/13/0402yyfw/index.html"><strong>[网上银行]</strong>银医服务</a></div>
+                      <div class="desc">我行提供的一项非金融服务，为客户提供银医服务管理、预约挂号、查询预约、撤消预约、查询医疗报告等服务功能。</div>
+                    </li>
+		
+                  </ul>
+                </div>
+                <div class="btn_up"><a href="javascript:;" class="js_btn_up">scroll up</a></div>
+                <div class="btn_down"><a href="javascript:;" class="js_btn_down">scroll down</a></div>
+              </div>
+              <!-- END hp_info_scroll_box --> 
+              
+            </div>
+            <!-- END info_tab_content_box -->
+
+
+            <!-- END info_tab_content_box --> 
+            
+            <!-- START info_tab_content_box -->
+             
+
+									
+	    <div class="info_tab_content_box js_content_item"> 
+              
+              <!-- START hp_info_scroll_box -->
+              <div class="hp_info_scroll_box js_hp_info_scroll_box">
+                <div class="window">
+                  <ul class="js_list">
+			
+			<li>
+                      <div class="thumb">
+			<a href="http://www.ccb.com/cn/html/office/ebank/subject/09/zhj/index.htm" target="_blank"><img src="http://image3.ccb.com/cn/ebank/personal/upload/201306071370605715/20130607195618752973.png" width="98" height="62" alt=""></a></div>
+                      <div class="tit"><a href="http://www.ccb.com/cn/html/office/ebank/subject/09/zhj/index.htm"><strong>[网上银行]</strong>账户贵金属</a></div>
+                      <div class="desc">交易品种包括账户金、账户银、账户铂等，包括人民币及美元交易品种，为您提供账户贵金属查询和交易功能。</div>
+                    </li>
+		
+			<li>
+                      <div class="thumb">
+			<a href="/cn/ebank/personal/detail/201501251422141097.html" target="_blank"><img src="http://image3.ccb.com/cn/ebank/personal/upload/201401281390875111/20150125021404969589.jpg" width="98" height="62" alt=""></a></div>
+                      <div class="tit"><a href="/cn/ebank/personal/detail/201501251422141097.html"><strong>[微信银行]</strong>生活缴费</a></div>
+                      <div class="desc">到银行排队缴费，很烦吧？！“小微”为您提供的掌中缴费支付，免去您奔波之苦、排队之烦，再也不必因无法及时到银行缴费而遭遇欠费的尴尬。</div>
+                    </li>
+		
+			<li>
+                      <div class="thumb">
+			<a href="/cn/ebank/personal/detail/201306071370606877.html" target="_blank"><img src="http://image3.ccb.com/cn/ebank/personal/upload/201306071370606695/20130607200922517045.png" width="98" height="62" alt=""></a></div>
+                      <div class="tit"><a href="/cn/ebank/personal/detail/201306071370606877.html"><strong>[手机银行]</strong>手机到手机转账</a></div>
+                      <div class="desc">您无需知道对方账号，只要输入对方的手机号码和转账金额，无论对方是不是建行手机银行客户，都有办法收取款项！</div>
+                    </li>
+		
+                  </ul>
+                </div>
+                <div class="btn_up"><a href="javascript:;" class="js_btn_up">scroll up</a></div>
+                <div class="btn_down"><a href="javascript:;" class="js_btn_down">scroll down</a></div>
+              </div>
+              <!-- END hp_info_scroll_box --> 
+              
+            </div>
+
+
+            <!-- END info_tab_content_box --> 
+          </div>
+          <div class="info_footer"></div>
+        </div>
+      </div>
+            <div class="col2">
+        <div class="info_box info_tab js_tab">
+          <div class="info_header">
+            <h2><img src="http://image1.ccb.com/cn/ebank/common/images/hp_info_tit_you_hui_zx.png" width="66" height="35" alt="优惠资讯"></h2>
+            <div class="hp_info_dp_branch js_select_branch"> <a href="javascript:" class="select_tit js_trigger">请选择所在分行</a>
+              <div class="popup_branch js_tooltip_branch">
+                <div class="popup_tit">
+                  <h4>国内分行</h4>
+                  <i>按首字拼音排序</i> </div>
+                <ul class="city_list">
+                  <li><a href="javascript:;" id="000000000">全部</a></li>
+                  <li><a href="javascript:;" id="340000000">安徽</a></li>
+                  <li><a href="javascript:;" id="110000000">北京</a></li>
+                  <li><a href="javascript:;" id="500000000">重庆</a></li>
+                  <li><a href="javascript:;" id="212000000">大连</a></li>
+                  <li><a href="javascript:;" id="350000000">福建</a></li>
+                  <li><a href="javascript:;" id="620000000">甘肃</a></li>
+                  <li><a href="javascript:;" id="440000000">广东</a></li>
+                  <li><a href="javascript:;" id="450000000">广西</a></li>
+                  <li><a href="javascript:;" id="520000000">贵州</a></li>
+                  <li><a href="javascript:;" id="460000000">海南</a></li>
+                  <li><a href="javascript:;" id="130000000">河北</a></li>
+                  <li><a href="javascript:;" id="410000000">河南</a></li>
+                  <li><a href="javascript:;" id="230000000">黑龙江</a></li>
+                  <li><a href="javascript:;" id="420000000">湖北</a></li>
+                  <li><a href="javascript:;" id="430000000">湖南</a></li>
+                  <li><a href="javascript:;" id="220000000">吉林</a></li>
+                  <li><a href="javascript:;" id="320000000">江苏</a></li>
+                  <li><a href="javascript:;" id="360000000">江西</a></li>
+                  <li><a href="javascript:;" id="210000000">辽宁</a></li>
+                  <li><a href="javascript:;" id="150000000">内蒙古</a></li>
+                  <li><a href="javascript:;" id="331000000">宁波</a></li>
+                  <li><a href="javascript:;" id="640000000">宁夏</a></li>
+                  <li><a href="javascript:;" id="371000000">青岛</a></li>
+                  <li><a href="javascript:;" id="630000000">青海</a></li>
+                  <li><a href="javascript:;" id="370000000">山东</a></li>
+                  <li><a href="javascript:;" id="610000000">陕西</a></li>
+                  <li><a href="javascript:;" id="140000000">山西</a></li>
+                  <li><a href="javascript:;" id="310000000">上海</a></li>
+                  <li><a href="javascript:;" id="442000000">深圳</a></li>
+                  <li><a href="javascript:;" id="510000000">四川</a></li>
+                  <li><a href="javascript:;" id="322000000">苏州</a></li>
+                  <li><a href="javascript:;" id="120000000">天津</a></li>
+                  <li><a href="javascript:;" id="351000000">厦门</a></li>
+                  <li><a href="javascript:;" id="650000000">新疆</a></li>
+                  <li><a href="javascript:;" id="540000000">西藏</a></li>
+                  <li><a href="javascript:;" id="530000000">云南</a></li>
+                  <li><a href="javascript:;" id="330000000">浙江</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="info_body info_tab_contents js_contents">
+            <div class="hp_info_news_list">
+              <div class="window">
+                <ul>
+                 
+                </ul>
+              </div>
+              <div class="more"><a href="/cn/ebank/personal/information/include/news_list.html"><span class="i18_drb"></span>查看全部</a></div>
+            </div>
+          </div>
+          <div class="info_footer"></div>
+        </div>
+      </div>
+      <div class="clf"></div>
+    </div>
+    <!-- END hp_info --> 
+ 
+
+    <!-- END hp_info --> 
+    
+    <!-- START hp_support -->
+		
+
+
+
+	
+		 <div class="hp_support">
+			<h2><img src="http://image1.ccb.com/cn/ebank/personal/upload/supportfeedback/20130616170027447626.png" width="94" height="23" alt=""></h2>
+			        
+			<div class="hp_support_box" style="background-image: url('http://image1.ccb.com/cn/ebank/personal/upload/supportfeedback/20130608104816072011.png');">
+		
+				<div class="demo">
+					<a href="http://ebank.ccb.com/cn/ebank/personal/demoCenter/index.html" target="_blank">网上银行</a>
+			
+				| 
+				<a href="http://ebank.ccb.com/cn/ebank/personal/demoCenter/index.html?id=002" target="_blank">手机银行</a><br>
+			
+					<a href="http://ebank.ccb.com/cn/ebank/personal/demoCenter/index.html?id=003" target="_blank">电子支付</a>
+			
+				| 
+				<a href="http://ebank.ccb.com/cn/ebank/personal/demoCenter/index.html?id=004" target="_blank">微信银行</a><br>
+			</div>
+				<div class="security">
+					<a href="http://ebank.ccb.com/cn/ebank/personal/aqzq/201306071370582684.html" target="_blank">网上银行</a>
+			
+				| 
+				<a href="http://ebank.ccb.com/cn/ebank/personal/detail/201306071370584354.html" target="_blank">手机银行</a><br>
+			
+			<a href="http://ebank.ccb.com/cn/ebank/personal/aqzq/201306071370582684.html"><span class="i18_drb"></span>更多</a>
+		</div>
+				<div class="download">
+					<a href="http://ebank.ccb.com/cn/ebank/personal/downloadcenter/201306071370593615.html#dc_safe_component" target="_blank">安全组件</a>
+			
+				| 
+				<a href="http://ebank.ccb.com/cn/ebank/personal/downloadcenter/201306071370593615.html#dc_mobileclient" target="_blank">手机客户端下载</a><br>
+			
+			<a href="http://ebank.ccb.com/cn/ebank/personal/downloadcenter/201306071370593615.html" target="_blank"><span class="i18_drb"></span>更多</a>
+		</div>
+			</div>
+		 </div>
+	
+
+
+    <!-- START hp_support --> 
+    
+  </div>
+  <!-- END col_right -->
+  
+  <div class="clf"></div>
+</div>
+<!-- END body_wrap --> 
+
+
+<!-- START footer_wrap -->
+<script src="http://www.ccb.com/cn/v3/head_noconflict/foot_noconflict.js" type="text/javascript" charset="utf-8"></script><div class="footer"><link href="http://www.ccb.com/cn/v3/head_noconflict/css/footer_new.css" rel="stylesheet" type="text/css"><script src="http://www.ccb.com/cn/v3/head_noconflict/js/footer_noconflict.js" type="text/javascript" charset="utf-8"></script></div></body></html>

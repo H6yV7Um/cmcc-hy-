@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="zh-cn"><head><script src="http://jsqmt.qq.com/cdn_djl.js" type="text/javascript" async=""></script><script id="seajsnode" src="http://imgcache.gtimg.cn/ac/club/lianghao/seajs/sea_v1.2.js"></script>
+    <meta charset="UTF-8">
+    <title>QQ会员 - QQ号码站</title>
+    <script>
+        window.AIM_PLATFORM = 'pc';
+    </script>
+    <script>(function(){var i=window.AIM_PLATFORM;if(!i){return}var o="android";if(/appleWebKit.*mobile.*/i.test(navigator.userAgent.toLowerCase())){if(/(ipad|iphone|ipod|itouch)/i.test(navigator.userAgent.toLowerCase())){o="ios"}else if(/(android)/i.test(navigator.userAgent.toLowerCase())){o="android"}}else{o="pc"}if(o!=i){var e="";if("android"==o){e="//haoma.qq.com/m/"}else if("ios"==o){e="//haoma.qq.com/m/ios_index.php?_nav_alpha=0&_wv=4096"}else if("pc"==o){e="//haoma.qq.com"}if(window.isShowWarning){alert("页面暂时不支持该平台,正为您跳转首页...");setTimeout(function(){window.location.href=e},3e3)}else{window.location.href=e}}})();</script>
+    <script>
+        //测速
+        var timePoint={
+            initTime:new Date().getTime(),
+            pointMap:{},
+            //标记需要上报的时间点（注意：时间点标记要求页面加载后会被执行，需要用户触发的时间点将被上报延迟）
+            //@param {string} name 当前时间点名称
+            //@param {int} pointIndex 当前标记的时间点顺序，当pointIndex<0时表示不上报，当pointIndex>0时对应上报时的参数索引
+            //@param {string=“initTime”} startPointName 当前时间点计算时的起始点，默认为initTime
+            mark:function(name,pointIndex,startPointName){
+                //记录当前时间点名称，时间，和比较时间点（默认为初始化时间）
+                startPointName=startPointName || 'initTime';
+                timePoint.pointMap[name]=[name,new Date().getTime(),startPointName,pointIndex];
+            }
+        };
+    </script>
+    <meta name="author" content="Tencent-ISUX-Vip">
+    <meta name="Copyright" content="Tencent">
+    <meta name="Description" content="QQ号码站 QQ靓号站">
+    <meta name="Keywords" content="QQ靓号">
+    <link rel="stylesheet" href="//imgcache.qq.com/vipstyle/vipportal/haoma/v2/css/index_abs.css" media="screen" charset="utf-8">
+    <script>
+        timePoint.mark("loadCss",1);
+    </script>
+    <style>
+        .icon_liang_gray {
+            background: url(//i.gtimg.cn/vipstyle/haoma/v2/center/img/icon.png?max_age=2592000) no-repeat -26px 0;
+            width: 18px;
+            height: 18px;
+            display: inline-block
+        }
+    </style>
+<link charset="utf-8" rel="stylesheet" href="//i.gtimg.cn/vipstyle/global/css/level.css"><script src="//imgcache.qq.com/club/lianghao/adfrom.js"></script><script src="http://jqmt.qq.com/cdn_dianjiliu.js?a=0.4201004361732076"></script></head>
+<body>
+<script type="text/javascript">
+    document.write('<script type="text/javascript" src="//imgcache.gtimg.cn/club/lianghao/navigation.js"><\/script>');
+</script><script type="text/javascript" src="//imgcache.gtimg.cn/club/lianghao/navigation.js"></script><script type="text/javascript" src="http://imgcache.gtimg.cn/ac/club/lianghao/navigation/navigation_v2.0.1.js" charset="utf-8"></script>
+<script type="text/javascript">
+    ;(function (m, o, d, u, l, a, r) {
+        if (m[d]) return;
+        function f(n, t) {
+            return function () {
+                r.push(n, arguments);
+                return t;
+            }
+        }
+
+        m[d] = a = { args:(r = []), config:f(0, a), use:f(1, a) };
+        m.define = f(2);
+        u = o.createElement('script');
+        u.id = d + 'node';
+        u.src = AC.IMG_DOMAIN + '/ac/club/lianghao/seajs/sea_' + AC.SEAJS_VERSION + '.js';
+        l = o.getElementsByTagName('head')[0];
+        l.insertBefore(u, l.firstChild);
+    })(window, document, 'seajs');
+    seajs.config({
+        alias:{
+            'jquery'    : AC.IMG_DOMAIN + '/ac/club/lianghao/jquery' + AC.JQUERY_VERSION,
+            'mustache'  : AC.IMG_DOMAIN + '/ac/club/lianghao/mustache' + AC.MUSTACHE_VERSION,
+            'json'      : AC.HAOMA_DOMAIN + '/json'
+        },
+        base: AC.IMG_DOMAIN + '/club/lianghao/',
+        charset: 'utf-8',
+        timeout: 20000
+    });
+</script>
+<div class="wrapper">
+<script type="text/javascript">
+    writeGlobalHeader('navIndex');
+</script><div class="vip_top">                     <div class="mod_toolbar_gb">                         <div class="mod_toolbar_gb_con">                             <ul>                                 <li class="more_service">                                     <a href="javascript:void(0)" class="lk_vip_service">QQ会员服务<span class="tooltips_misc"></span></a>                                     <div class="pop_vip_service" style="display: none;">                                         <ul>                                             <li class="web_vip">                                                 <h4><a href="http://vip.qq.com/" target="_blank">会员官网</a></h4>                                                 <p><a href="http://vip.qq.com/" target="_blank">QQ会员官网</a></p>                                             </li>                                             <li>                                                 <h4><a href="http://vip.qq.com/qq.html" target="_blank">QQ特权</a></h4>                                                 <p><a href="http://style.qq.com/" target="_blank">QQ风尚</a> <a href="index.html" target="_blank">QQ靓号站</a></p>                                             </li>                                             <li>                                                 <h4><a href="http://vip.qq.com/game.html" target="_blank">游戏特权</a></h4>                                                 <p><a href="http://game.vip.qq.com/huanxing/index.html" target="_blank">道具唤醒</a> <a href="http://act.vip.qq.com/game/hs/index.html" target="_blank">QQ幻想世界</a> <a href="http://act.vip.qq.com/privilege/templates/13800/index.html" target="_blank">Q宠大乐斗</a></p>                                             </li>                                             <li>                                                 <h4><a href="http://vip.qq.com/life/" target="_blank">生活特权</a></h4>                                                 <p><a href="http://dianying.qq.com/" target="_blank">QQ电影票</a> <a href="http://tuan.qq.com" target="_blank">QQ团购</a> <a href="http://go.qq.com/" target="_blank">QQ旅游</a> <a href="http://meishi.qq.com/" target="_blank">QQ美食</a> <a href="http://cb.qq.com/" target="_blank">QQ彩贝</a></p>                                             </li>                                             <li>                                                 <h4><a href="http://vip.qq.com/go/" target="_blank">购物特权</a></h4>                                                 <p><a href="http://fanli.qq.com/" target="_blank">QQ返利</a> <a href="http://shop.qq.com/" target="_blank">QQ商城</a></p>                                             </li>                                         </ul>                                         <p class="lk_all_freedom"><a href="http://vip.qq.com/freedom/freedom.html" target="_blank" class="mod_btn_em"><span>全部60多项会员特权</span></a></p>                                     </div>                                 </li>                                 <li class="open_vip_service"><a href="javascript:void(0);" id="open_minipay" class="mod_vip">开通会员</a></li>                             </ul>                             <div class="lk_extend">                                 <a href="http://kf.qq.com" target="_blank">在线客服</a>                                 <a href="http://kf.qq.com/faq/120313RRj6Bv131009M3m26F.html" target="_blank">常见问题</a>                             </div>                             <div class="mod_userinfo" id="nonLogin" style="display:block;">                                 <p>您还未登录，请<a href="javascript:void(0);" title="登录" class="mod_userinfo_login"><span>登录</span></a></p>                             </div>                             <div class="mod_userinfo" id="loginTips" style="display:none">                             </div>                         </div>                     </div>                 </div>                 <div class="vip_header">                     <div class="spring_flower"></div>                     <div class="hm_mod_logo">                         <h1 class="logo"><a href="http://haoma.qq.com/index.html?ADFROM=index.index" title="QQ靓号站，给你唯一的尊贵！"><img src="//imgcache.gtimg.cn/vipstyle/haoma/v2/img/logo.jpg" alt="QQ靓号站，给你唯一的尊贵！"></a></h1>                     </div>                     <!-- mod_mutinav为有二级导航的样式 -->                     <div class="mod_navs mod_mutinav">                         <div class="mod_navs_content clearfix">                             <ul class="mod_nav clearfix f_l">                                 <li id="navIndex" class="current">                                     <a href="http://haoma.qq.com/index.html?ADFROM=index.index">                                         <span class="front">首页<i class="hm_mod_icon icon_separation"></i></span>                                         <span class="back">首页</span>                                     </a>                                 </li>                                 <li id="navShop">                                     <a href="http://haoma.qq.com/shop.html?ADFROM=index.index">                                         <span class="front" style="top: 0px;">单号<i class="hm_mod_icon icon_separation"></i></span>                                         <span class="back" style="top: -42px;">单号</span>                                     </a>                                 </li>                                 <li id="navDear">								         <span style="background: url(//imgcache.qq.com/vipstyle/haoma/v2/img/sprite_superscript.png);display:block; position: absolute; top: -16px; right:0;width: 30px; height: 16px; background-position: 0 0;"></span>                                     <a href="http://haoma.qq.com/dear.html?ADFROM=index.index">                                         <span class="front" style="top: 0px;">亲密号<i class="hm_mod_icon icon_separation"></i></span>                                         <span class="back" style="top: -42px;">亲密号</span>                                     </a>                                 </li>								<li id="navChild">                                     <a href="http://haoma.qq.com/child.html?ADFROM=index.index">                                         <span class="front" style="top: 0px;">亲子号<i class="hm_mod_icon icon_separation"></i></span>                                         <span class="back" style="top: -42px;">亲子号</span>                                     </a>                                 </li>								<li id="navFriends" style="display:none;">                                     <a href="http://haoma.qq.com/friends.html?ADFROM=index.index">                                         <span class="front" style="top: 0px;">亲友号<i class="hm_mod_icon icon_separation"></i></span>                                         <span class="back" style="top: -42px;">亲友号</span>                                     </a>                                 </li>                                 <!--<li id="navGroup">                                     <a href="http://haoma.qq.com/group.html">                                         <span class="front">团体号<i class="hm_mod_icon icon_separation"></i></span>                                         <span class="back">团体号</span>                                     </a>                                 </li>-->                                 <li id="navACT">                                     <span style="background: url(//imgcache.qq.com/vipstyle/haoma/v2/img/sprite_superscript.png);display:block; position: absolute; top: -16px; right:0;width: 30px; height: 16px; background-position: 0 -16px;"></span>                                     <a href="http://haoma.qq.com/act/index.html?ADFROM=index.index">                                         <span class="front" style="top: 0px;">特惠活动</span>                                         <span class="back" style="top: -42px;">特惠活动</span>                                     </a>                                     <ul class="mod_subnav clearfix" id="subnavAct" style="display:none;">                                         <!--li><a href="http://haoma.qq.com/act/index.html" id="subidAct">主题活动</a></li-->                                         <!--<li><a href="http://haoma.qq.com/qiang.html" id="subidQiang">靓号抢注</a></li>-->                                         <!--li><a href="http://haoma.qq.com/act/lott.html" id="subidLott">摇号专区<i class="hm_mod_icon icon_new"></i></a></li-->                                     </ul>                                 </li>                             </ul>                             <ul class="mod_nav clearfix mod_nav_right f_r">                                 <li id="navUserCenter">                                     <a href="http://haoma.qq.com/usercenter.html?ADFROM=index.index">                                         <span class="front" style="top: 0px;"><i class="hm_mod_icon icon_user_white"></i>个人中心</span>                                         <span class="back" style="top: -42px;"><i class="hm_mod_icon icon_user_orange"></i>个人中心</span>                                     </a>                                 </li>                             </ul>                         </div>                     </div>                 </div>
+<div class="vip_content" id="container">
+    <div class="grid_c2a">
+    <!-- 主要内容 开始 -->
+    <div class="mainbar">
+        <div class="mainbar_wrap">
+            <div class="hm_mod_slider">
+                <div class="slider_list">
+                    <ol class="slide0"><li><a href="http://haoma.qq.com/act/?pos=0&amp;ADFROM=hmz#template0" target="_blank"><img src="http://imgcache.gtimg.cn/ACT/svip_act/act_img/public/201804/1524915175_750x198.jpg" width="733" height="198"></a></li><li><a href="http://haoma.qq.com/act/index.html?ADFROM=index.index#template2" target="_blank"><img src="http://imgcache.gtimg.cn/ACT/svip_act/act_img/public/201804/1523265267_750x198.jpg" width="733" height="198"></a></li><li><a href="http://haoma.qq.com/act/?ADFROM=index.index" target="_blank"><img src="http://imgcache.gtimg.cn/ACT/svip_act/act_img/public/201805/1527650030_750-198.jpg" width="733" height="198"></a></li><li><a href="http://vip.qq.com/clubact/2014/haoma/?ADFROM=hmz" target="_blank"><img src="http://imgcache.gtimg.cn/ACT/svip_act/act_img/v_wfchen/201504/m1427973948_733x198.jpg" width="733" height="198"></a></li></ol>
+                </div>
+                <div class="slider_nav">
+                    <ol><li class="cur"><a href="http://haoma.qq.com/act/?pos=0&amp;ADFROM=hmz#template0" target="_blank">1</a></li><li><a href="http://haoma.qq.com/act/index.html?ADFROM=index.index#template2" target="_blank">2</a></li><li><a href="http://haoma.qq.com/act/?ADFROM=index.index" target="_blank">3</a></li><li><a href="http://vip.qq.com/clubact/2014/haoma/?ADFROM=hmz" target="_blank">4</a></li></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主要内容 结束 -->
+    <!-- 侧栏 开始 -->
+    <div class="sidebar">
+        <div class="hm_login_gb">
+            <div class="mod_userinfo_gb">
+                <!-- 未登录 -->
+                <div class="mod_userinfo_login">
+                    <div id="loginBox"><a href="javascript:void(0)" title="用户登录" class="mod_userinfo_login_entry">用户登录</a></div>
+                    <p>请登录查看您的号码类型和个人信息</p>
+                </div>
+
+                <!-- 已登录 -->
+                <div class="hm_mod_userinfobox">
+                    <div class="mod_userinfo_basic" style="display: none;">
+                    </div>
+                    <div class="hm_mod_userinfo" style="display: none;">
+                    </div>
+                </div>
+                <div class="hm_mod_shadow mod_userinfo_gb_ft"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 侧栏 结束 -->
+</div>
+<div class="grid_c2a">
+    <!-- 主要内容 开始 -->
+    <div class="mainbar">
+        <div class="mainbar_wrap">
+            <div class="sy_mod_num sy_mod_num_single">
+                <div class="sy_mod_num_bd clearfix">
+                    <div class="disc">
+                    	<h3 class="hm_mod_font font_i">单号</h3>
+                        <p>淘专属靓号，享唯一尊贵！</p>
+                        <a href="//haoma.qq.com/shop.html" target="_blank" class="hm_mod_btn btn_e">查看更多</a>
+                    </div>
+                    <div class="sy_mod_numlist clearfix">
+                        <ul id="singleList" class="mod_num_box_list clearfix">                    <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1431<span class="spe">88888</span>4</p>                                <p class="desc">                                    <span class="original-price"><s>原价:1110QB</s></span>                                    <span class="current-price">现价:930QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1431888884&amp;type=10060&amp;month=9&amp;price=75000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>142<span class="spe">88888</span>93</p>                                <p class="desc">                                    <span class="original-price"><s>原价:1110QB</s></span>                                    <span class="current-price">现价:930QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1428888893&amp;type=10060&amp;month=9&amp;price=75000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>142<span class="spe">88888</span>72</p>                                <p class="desc">                                    <span class="original-price"><s>原价:1110QB</s></span>                                    <span class="current-price">现价:930QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1428888872&amp;type=10060&amp;month=9&amp;price=75000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_pu"></i>19<span class="spe">0011</span>2621</p>                                <p class="desc">                                    <span class="original-price"><s>原价:672QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1900112621&amp;type=10062&amp;month=3&amp;price=0&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_pu"></i>19<span class="spe">0011</span>2624</p>                                <p class="desc">                                    <span class="original-price"><s>原价:672QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1900112624&amp;type=10062&amp;month=3&amp;price=0&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_pu"></i>19<span class="spe">0011</span>2615</p>                                <p class="desc">                                    <span class="original-price"><s>原价:672QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1900112615&amp;type=10062&amp;month=3&amp;price=0&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i><span class="spe">156</span>4312345</p>                                <p class="desc">                                    <span class="original-price"><s>原价:802QB</s></span>                                    <span class="current-price">现价:682QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1564312345&amp;type=10061&amp;month=6&amp;price=56200&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i><span class="spe">156</span>4645678</p>                                <p class="desc">                                    <span class="original-price"><s>原价:802QB</s></span>                                    <span class="current-price">现价:682QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1564645678&amp;type=10061&amp;month=6&amp;price=56200&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i><span class="spe">156</span>4434567</p>                                <p class="desc">                                    <span class="original-price"><s>原价:802QB</s></span>                                    <span class="current-price">现价:682QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1564434567&amp;type=10061&amp;month=6&amp;price=56200&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i><span class="spe">199065</span>4323</p>                                <p class="desc">                                    <span class="original-price"><s>原价:522QB</s></span>                                    <span class="current-price">现价:370QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1990654323&amp;type=10061&amp;month=6&amp;price=25000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i><span class="spe">199065</span>6093</p>                                <p class="desc">                                    <span class="original-price"><s>原价:112QB</s></span>                                    <span class="current-price">现价:20QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1990656093&amp;type=10061&amp;month=1&amp;price=0&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i><span class="spe">199065</span>4324</p>                                <p class="desc">                                    <span class="original-price"><s>原价:522QB</s></span>                                    <span class="current-price">现价:370QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1990654324&amp;type=10061&amp;month=6&amp;price=25000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                    </ul>
+                    </div>
+                </div>
+            </div>
+			<div class="sy_mod_num sy_mod_num_child">
+				<div class="sy_mod_num_bd clearfix">
+					<div class="disc">
+						<h3 class="hm_mod_font font_m">亲子号</h3>
+						<p>给宝宝们最特别的礼物陪伴和记录成长中的点滴。</p>
+						<a href="//haoma.qq.com/child.html" target="_blank" class="hm_mod_btn btn_m">查看更多</a>
+					</div>
+					<div class="sy_mod_numlist clearfix">
+						<ul id="childList" class="mod_num_box_list clearfix">                    <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150824</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:515QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150824&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150901</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:465QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150901&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150902</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:465QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150902&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150903</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:465QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150903&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150905</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:465QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150905&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150906</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:465QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150906&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150907</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:465QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150907&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150910</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:515QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150910&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>36<span class="spe">20150913</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:515QB</s></span>                                    <span class="current-price">现价:60QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=3620150913&amp;type=10061&amp;month=3&amp;price=0&amp;actid=3&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                    </ul>
+					</div>
+				</div>
+			</div>
+			<div class="sy_mod_num sy_mod_num_lover">
+                <div class="sy_mod_num_bd clearfix">
+                    <div class="disc">
+                        <h3 class="hm_mod_font font_j">情侣号</h3>
+                        <p class="center">把爱的语言藏在号码里，总给最心爱的TA~</p>
+                        <a href="//haoma.qq.com/shop.html#topic=love" target="_blank" class="hm_mod_btn btn_f">查看更多</a>
+                    </div>
+                    <div class="sy_mod_numlist clearfix">
+                        <ul id="loverList" class="mod_num_box_list clearfix">                    <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1241<span class="spe">520</span>714</p>                                <p class="desc">                                    <span class="original-price"><s>原价:110QB</s></span>                                    <span class="current-price">现价:70QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1241520714&amp;type=10061&amp;month=1&amp;price=5000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1241<span class="spe">520</span>906</p>                                <p class="desc">                                    <span class="original-price"><s>原价:110QB</s></span>                                    <span class="current-price">现价:70QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1241520906&amp;type=10061&amp;month=1&amp;price=5000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1241<span class="spe">520</span>311</p>                                <p class="desc">                                    <span class="original-price"><s>原价:110QB</s></span>                                    <span class="current-price">现价:70QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1241520311&amp;type=10061&amp;month=1&amp;price=5000&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1084766662</p>                                <p class="desc">                                    <span class="original-price"><s>原价:300QB</s></span>                                    <span class="current-price">现价:20QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1084766662&amp;type=10061&amp;month=1&amp;price=0&amp;actid=30001&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1084966662</p>                                <p class="desc">                                    <span class="original-price"><s>原价:300QB</s></span>                                    <span class="current-price">现价:20QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1084966662&amp;type=10061&amp;month=1&amp;price=0&amp;actid=30001&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1084766664</p>                                <p class="desc">                                    <span class="original-price"><s>原价:300QB</s></span>                                    <span class="current-price">现价:20QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1084766664&amp;type=10061&amp;month=1&amp;price=0&amp;actid=30001&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1956789<span class="spe">921</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:677QB</s></span>                                    <span class="current-price">现价:525QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1956789921&amp;type=10061&amp;month=6&amp;price=40500&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>1815678<span class="spe">921</span></p>                                <p class="desc">                                    <span class="original-price"><s>原价:645QB</s></span>                                    <span class="current-price">现价:525QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1815678921&amp;type=10061&amp;month=6&amp;price=40500&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                                        <li class="mod_num_box_d">                        <div class="num">                            <div class="front">                                <p class="haoma"><i class="hm_mod_icon icon_liang"></i>161<span class="spe">921</span>2345</p>                                <p class="desc">                                    <span class="original-price"><s>原价:842QB</s></span>                                    <span class="current-price">现价:702QB</span>                                </p>                            </div>                            <a class="mask" href="/pay_v2.html?num=1619212345&amp;type=10061&amp;month=6&amp;price=58200&amp;actid=0&amp;viptype=1&amp;trackid=10001" target="_blank"></a>                        </div>                    </li>                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sy_mod_num sy_mod_num_family">
+                <div class="sy_mod_num_bd clearfix">
+                    <div class="disc">
+                        <h3 class="hm_mod_font font_k">爱情号</h3>
+                        <p class="center">爱情号，爱情号</p>
+                        <a href="//haoma.qq.com/friends.html" target="_blank" class="hm_mod_btn btn_g">查看更多</a>
+                    </div>
+                    <div class="sy_mod_numlist clearfix">
+                        <ul id="familyList" class="mod_num_box_list clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 主要内容 结束 -->
+
+    <!-- 侧栏 开始 -->
+    <div class="sidebar">
+        <!-- 首页侧栏模块 开始 -->
+        <!-- 首页侧栏模块 结束 -->
+        <div class="search_mod_sidemod">
+            <div class="search_mod_sidemod_hd"><h3>靓号搜索</h3></div>
+            <div class="searchnum">
+                <input type="text" maxlength="10" class="only_number mod_input_c new_searchnum" value="" placeholder="搜 “1989”试试" autocomplete="off">
+                <input type="submit" value="" class="mod_search_btn" autocomplete="off">
+                <!--输入框focus的时候追加类名： mod_input_c_focus-->
+            </div>
+            <div class="search_mod_sidemod_bd">
+                <ol class="search_mod_top10"><li class="hm_mod_numitem"><a href="http://haoma.qq.com/shop.html?ADFROM=index.index#num=1314" class="num"><span class="spe">1314</span></a></li><li class="hm_mod_numitem"><a href="http://haoma.qq.com/shop.html?ADFROM=index.index#num=2018" class="num"><span class="spe">2018</span></a></li><li class="hm_mod_numitem"><a href="http://haoma.qq.com/shop.html?ADFROM=index.index#num=888" class="num"><span class="spe">888</span></a></li><li class="hm_mod_numitem"><a href="http://haoma.qq.com/shop.html?ADFROM=index.index#num=12345" class="num"><span class="spe">12345</span></a></li><li class="hm_mod_numitem"><a href="http://haoma.qq.com/shop.html?ADFROM=index.index#num=666" class="num"><span class="spe">666</span></a></li><li class="hm_mod_numitem"><a href="http://haoma.qq.com/shop.html?ADFROM=index.index#num=999" class="num"><span class="spe">999</span></a></li></ol>
+            </div>
+            <!--div class="hm_mod_shadow search_mod_sidemod_ft"></div-->
+        </div>
+
+        <div class="search_mod_sidemod">
+            <div class="search_mod_sidemod_hd"><h3>资费说明</h3></div>
+            <div class="search_mod_sidemod_bd">
+                <h4 class="clearfix">
+                    <span class="f_l">
+                        <span class="hm_mod_icon icon_liang"></span>精品靓号
+                    </span>
+                    <a class="f_r" href="//haoma.qq.com/shop.html#type=10060">看一看</a>
+                </h4>
+
+                <p>精品靓号只需支付初选费和若干月超级会员即可获得，带有靓字图标。在使用过程中须保持超级会员身份。</p>
+                <h4 class="clearfix">
+                    <span class="f_l">
+                        <span class="hm_mod_icon icon_pu"></span>普通靓号
+                    </span>
+                    <a class="f_r" href="//haoma.qq.com/shop.html#type=10062">看一看</a>
+                </h4>
+
+                <p>普通靓号只需开通3个月超级会员即可获得，后续无需再付费，不带靓字图标。</p>
+            </div>
+        </div>
+
+        <div class="sy_mod_sidemod">
+            <!--div class="sy_mod_sidemod_hd">
+                <h3>最新被抢购靓号</h3>
+            </div-->
+            <div class="sy_mod_sidemod_bd">
+                <div class="ads">
+                    <a href="javascript:void(0)"><img src="//imgcache.gtimg.cn/vipstyle/haoma/pic/ad.png" alt=""></a>
+                </div>
+                <div class="sy_mod_service">
+                    <ul>
+                        <li>
+                            <div class="pic"><img src="//imgcache.gtimg.cn/ac/club/haoma/img/friendClone.png" alt="好友克隆"></div>
+                            <div class="info">
+                                <h5>好友克隆：</h5>
+
+                                <p>把原有QQ好友搬到新号码</p>
+
+                                <p><a href="//vip.qq.com/freedom/freedom_clone.html" target="_blank">详情&gt;&gt;</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic"><img src="//imgcache.gtimg.cn/ac/club/haoma/img/groupClone.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h5>群克隆：</h5>
+
+                                <p>把原有QQ群搬到新号码</p>
+
+                                <p><a href="//vip.qq.com/freedom/freedom_copy_group.html" target="_blank">详情&gt;&gt;</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 常见问题 开始 -->
+        <div class="hm_mod_qa">
+            <div class="hd"><h3>常见问题</h3><a href="http://kf.qq.com/faq/120313RRj6Bv131009M3m26F.html" target="_blank" class="more">更多&gt;</a>
+            </div>
+            <div class="bd">
+                <ul class="hm_list_normal">
+                    <li><a href="http://kf.qq.com/faq/120322fu63YV130422uURVFz.html" target="_blank">如何申请QQ靓号？</a></li>
+                    <li><a href="http://kf.qq.com/faq/120313RRj6Bv131009QFfARV.html" target="_blank">如何申请指定的QQ靓号？</a></li>
+                    <li><a href="http://kf.qq.com/faq/120313RRj6Bv131009f22qMf.html" target="_blank">QQ靓号可以买断吗？</a></li>
+                    <li><a href="http://kf.qq.com/faq/120313RRj6Bv1310092ArUZZ.html" target="_blank">QQ靓号什么情况下会被回收？</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 常见问题 结束 -->
+    </div>
+    <!-- 侧栏 结束 -->
+</div>
+</div>
+
+<!-- 指引性信息 开始 -->
+<script>
+    writeSubFooter();
+</script><div class="vip_footer">        	<div class="grid_c1">            	<div class="mod_help">                    <dl>                        <dt><b class="bg liang">靓</b>靓号特权</dt>                        <dd>                            <ul>                                <li><a>个性号码，与众不同</a></li>                                <li><a>独有“靓”字标识</a></li>                                <li><a>带有价值10Q币/月的QQ会员服务</a></li>                            </ul>                        </dd>                    </dl>                    <dl>                        <dt><b class="bg quan">券</b>靓号抵用券</dt>                        <dd>                            <ul>                                <li><a href="//haoma.qq.com/usercenter.html?tab=vouchers">抵用券大讲堂</a></li>                                <li><a href="//haoma.qq.com/usercenter.html?tab=vouchers">领取本月靓号抵用券</a></li>                            </ul>                        </dd>                    </dl>                </div>            </div>		</div>
+<!-- 指引性信息 结束 -->
+<!-- 侧边滑动提示按钮  二维码-->
+<div class="hm_qrcode_slider" style="display: none;">
+    <div class="slider_close">
+        <img src="//imgcache.qq.com/vipstyle/haoma/v2/img/slider_close.png" alt="">
+    </div>
+    <div class="slider_main">
+        <img src="//imgcache.qq.com/vipstyle/haoma/v2/img/slider_qrcode.png" alt="">
+    </div>
+    <div class="slider_font">
+        <!-- 内容 -->
+        <p>扫一扫，升靓号</p>
+        <p>快速支付享特权</p>
+    </div>
+</div>
+<!-- 底部版权 开始 -->
+<script>
+    writeGlobalFooter();
+</script><div class="vip_subfooter">                     <div class="mod_copyright_gb">                         <p>                             <a target="_blank" href="http://www.tencent.com/">关于腾讯</a> | <a target="_blank" href="http://www.tencent.com/index_e.shtml">About Tencent</a> | <a target="_blank" href="http://www.qq.com/contract.shtml">服务条款</a> | <a target="_blank" href="http://www.tencentmind.com/">广告服务</a> | <a target="_blank" href="http://hr.tencent.com">腾讯招聘</a> | <a target="_blank" href="http://service.qq.com/">客服中心</a> | <a target="_blank" href="http://www.qq.com/map/">网站导航</a>                         </p>                         <p>Copyright © 1998-2017 Tencent. All Rights Reserved.</p>                         <p>腾讯公司 <a target="_blank" href="http://www.tencent.com/zh-cn/le/copyrightstatement.shtml">版权所有</a></p>                     </div>                 </div><script type="text/javascript" src="//imgcache.qq.com/bossweb/ipay/js/api/cashier.js"></script>
+<!-- 底部版权 结束 -->
+</div>
+<script type="text/javascript">
+    seajs.use('init');
+    timePoint.mark("onload",2);
+</script>
+
+
+</body></html>

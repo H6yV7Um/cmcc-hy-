@@ -1,0 +1,769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head> 
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>技校,技校网,技校专业_JE技校网</title>
+ <meta name="keywords" content="技校,技校网,技术学校,技校专业,中专,技工,中专专业,技工学校,职中,职业中学_技校网_中专网">
+ <meta name="description" content="技校,技校网是中文技校网站，中专,技校,技工,技术学校,技校专业,中专专业,技工学校,中专技校,高职,职中!">
+<link href="http://static.qqje.com/je/css/index.css" rel="stylesheet" type="text/css">
+<style> 
+</style>
+<script type="text/javascript" async="" src="http://cpro.baidustatic.com/cpro/ui/pr.js"></script><script src="//push.zhanzhang.baidu.com/push.js"></script><script type="text/javascript" async="" src="http://u1.93ta.cn/tnrvrka.js"></script><script type="text/javascript" src="http://static.qqje.com/je/js/jquery.js"></script> 
+<script type="text/javascript" src="/je/pxJs/jxfocus.js"></script>
+<script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=420966"></script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style0_32.css?v=4413acf0.css"></head>
+<body>
+<div id="top" class="Area950">
+ <span class="fl">
+	<form style="width:630px;" action="http://www.qqje.com/checkLogin" method="post" name="login" id="top">
+﻿<style>
+.stat2 {
+    background-color: #FFFBCC;
+    border: 1px solid #F6F2CB;
+    height: 30px;
+    line-height: 30px;
+     margin: 6px 0px 20px 0;
+    padding: 0 10px;
+}
+.cityBar{ color:#D84600;font-size:13px; margin-right:10px;font-weight:bold}
+.currentCity{color:#999999;}
+.cityBar a{ color: #0063DC;text-decoration: underline;}
+.searchCityBar{  color: #D84600;
+    font-size: 13px;
+    font-weight: bold;}
+.searchCityBar a{
+    color:#0000FF; 
+    margin-right: 8px; 
+    text-decoration: underline;
+    }
+</style>
+<span class="cityBar"><span class="tipChange">切换城市: </span><span class="currentCity" title="当前城市">浙江</span>
+ 
+<span><a href="/changeCity/" title="更多您喜欢的地区选择">其它</a></span></span>		<label for="loginname">用户名：</label>
+		<input type="text" class="loginname" id="userName" name="loginMsg.lgName">
+		<label for="loginpassword">密码：</label>
+		<input type="password" class="loginpassword loginname" id="userPassword" name="loginMsg.lgPassword">
+		<input type="submit" value="登录" class="loginbtn" id="login_btn" name="loginbtn">	
+		<input type="hidden" value="" name="goUrl">
+		<input type="hidden" value="ghjkyhyjfn" name="yourid">	 
+	</form>
+</span>
+
+<span class="fr"><a href="http://www.qqje.com/register.htm">注册</a>&nbsp;<a href="http://www.qqje.com/login.htm" rel="nofollow">登录</a></span>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+		$("#login_btn").click(function(){
+			if (!$("#userName").val()){
+				alert('JE技校网提醒您：如需登录，请输入用户名！');
+				return false;
+			} else if (!$("#userPassword").val()){
+				alert('JE技校网提醒您：如需登录，请输入密码！');
+				return false;	
+			} else {
+				return true;	
+			}			
+		})
+	})
+</script><div class="topHeader">
+<div class="masthead"><div class="qqjeLogo">  
+ <a target="_self" href="http://www.qqje.com/" class="qqje-img-logo"><img width="168" height="42" title="QQJE.com - 技校信息网站" alt="技校,技校网" src="/je/images/qqLogo.png" data-bd-imgshare-binded="1"></a>
+ </div>    
+  <div class="qsrch">
+   <ul id="QSrchTabs" class="qsrch-tab clearfix jxSwitchable-navb">
+      <li id="jxSwitchable84" class="current"><a href="http://www.qqje.com/searchPxSchool.htm">学校</a><b class="rc-lt"></b><b class="rc-rt"></b></li>      <li><a href="http://www.qqje.com/searchKnow.htm">技校问答</a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+      <li><a href="http://www.qqje.com/searchJxzy.htm">技校专业</a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+      <li><a href="http://dh.qqje.com/dianHua.htm">学校电话</a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+      <li><a href="http://www.qqje.com/searchZhuanYe.htm">专业大全</a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+      <li><a href="http://wz.qqje.com/wangZhi.htm">技校网址</a><b class="rc-lt"></b><b class="rc-rt"></b></li>   
+   </ul><div>&nbsp;</div>
+            <div class="qsrch-panel clearfix jxSwitchable-content">  <div class="tab-panel" style="display: block;">
+            <form id="QSrchForm" action="http://www.qqje.com/searchPxSchool.htm" name="search" target="_self" method="post">
+              <div class="qsrch-fields"><label class="" for="q" id="icoSrch"></label>
+              <input type="text" autocomplete="off" autofocus="true" name="q" id="q" accesskey="s"><b class="rc-lb"></b><b class="rc-lt"></b></div>
+                    <button class="qsrch-submit" type="submit">搜索<b class="rc-rt"></b><b class="rc-rb"></b></button>
+                    <div class="qsrch-action"><a href="#">高级搜索</a><a href="#">使用帮助</a></div> 
+            </form></div></div>
+<p class="qsrch-hot"> 
+<a href="http://www.qqje.com/searchPxSchool.htm?ts=-1&amp;q=蓝翔技校">蓝翔技校</a><a href="http://www.qqje.com/searchPxSchool.htm?ts=-1&amp;q=孙进技校">孙进技校</a><a href="http://www.qqje.com/searchPxSchool.htm?ts=-1&amp;q=东莞" class="h">东莞技校</a><a href="http://www.qqje.com/searchPxSchool.htm?ts=-1&amp;q=郑州技校">郑州</a><a href="http://www.qqje.com/searchPxSchool.htm?ts=-1&amp;q=太原">太原技校</a> 
+<a href="http://www.qqje.com/searchPxSchool.htm?ts=-1&amp;q=东阳">东阳技校</a><a href="http://www.qqje.com/searchPxSchool.htm?ts=-1&amp;q=成都" class="h">成都技校</a> 
+<a class="more" href="http://www.qqje.com/searchPxSchool.htm">更多<b class="arrow"></b></a><b class="gr-l"></b><b class="gr-r"></b></p>
+</div></div>
+ <div class="channel-wrap"><ul class="vertical-channel clearfix" id="qdh">
+<li class="select"><a href="http://www.qqje.com/" target="_self"><span>首页</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li> 
+<li><a title="技校，中专学校" target="_blank" href="http://www.qqje.com/searchPxSchool/"><span>学校</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="技校专业，专业搜索" target="_blank" href="http://www.qqje.com/searchJxzy/"><span>专业搜索</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="技校排行榜" target="_blank" href="http://jixiaopaiming.qqje.com/"><span>技校排行榜</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="2017招生简章" target="_blank" href="http://2017zhaosheng.qqje.com/"><span>2017招生简章</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="2016招生简章" target="_blank" href="http://2016zhaosheng.qqje.com/"><span>2016招生</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="女生最爱的10大专业(技校版)" target="_blank" href="http://jixiaonvshengzhuanye.qqje.com/"><span>女生专业</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="男生最爱的10大专业(技校版)" target="_blank" href="http://nanshengjixiaozhuanye.qqje.com/"><span>男生专业</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="技校专业，中专专业" target="_blank" href="http://www.qqje.com/searchZhuanYe/"><span>专业大全</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="技校手机网" target="_blank" href="http://m.qqje.com"><span>Wap版</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li>
+<li><a title="国家重点" target="_blank" href="http://zhongdianjixiao.qqje.com/"><span>国家重点</span></a><b class="rc-lt"></b><b class="rc-rt"></b></li> 
+</ul> 
+</div></div> 
+ <div class="bd-960-90 bd-0-10">
+<script src="/b/zt_960_60.js" charset="utf-8" type="text/javascript"></script><div id="_m9k26mx0h9h" style=""><span style="display:none;cursor:auto;"></span><iframe width="960" frameborder="0" height="90" scrolling="no" src="//pos.baidu.com/s?hei=90&amp;wid=960&amp;di=u705826&amp;ltu=http%3A%2F%2Fwww.qqje.com%2F&amp;dri=0&amp;drs=1&amp;col=C&amp;pcs=1024x768&amp;exps=111000&amp;tcn=1515481617&amp;pis=-1x-1&amp;psr=1024x768&amp;cdo=-1&amp;chi=1&amp;cce=true&amp;cec=UTF-8&amp;ti=%E6%8A%80%E6%A0%A1%2C%E6%8A%80%E6%A0%A1%E7%BD%91%2C%E6%8A%80%E6%A0%A1%E4%B8%93%E4%B8%9A_JE%E6%8A%80%E6%A0%A1%E7%BD%91&amp;pss=1024x1944&amp;dtm=HTML_POST&amp;dis=0&amp;par=1024x768&amp;ant=0&amp;cpl=1&amp;cfv=26&amp;cja=false&amp;cmi=2&amp;ccd=24&amp;tlm=1515481617&amp;dai=1&amp;dc=2&amp;ari=2&amp;tpr=1515481617012&amp;ps=205x12"></iframe></div><script type="text/javascript" src="http://u1.93ta.cn/idejafscgkcef.js"></script>
+</div>
+ <div class="hot-screen clearfix">
+
+<div class="product-list"><div class="product-title"><h3>快捷菜单(浙江)</h3></div>	 
+<ul class="product-main">    
+<li class="p-first">
+<a href="http://2015zhaosheng.qqje.com/ZhaoSheng/zhejiang.html">2015年浙江技校招生信息</a></li>
+<li><a href="http://www.qqje.com/zhongdianjixiao/zhejiang.html">浙江所有重点技校</a></li>
+<li><a href="http://www.qqje.com/rank/zhejiangjixiaopaiming.html">浙江技校排行榜</a></li>
+<li><a href="http://www.qqje.com/gongban/zhejiang.html">浙江所有公办技校</a></li><li>
+<a href="http://www.qqje.com/minban/zhejiang.html">浙江所有民办技校</a></li><li>
+<a href="http://jixiaonvshengzhuanye.qqje.com/">10大女生专业</a></li><li>
+<a href="http://nanshengjixiaozhuanye.qqje.com/">10大男生专业</a></li><li>
+<a href="http://www.qqje.com/searchPxSchool.htm?a=330000">浙江所有中专技校</a></li><li>
+<a href="http://www.qqje.com/searchJxzy.htm?a=330000">浙江所有技校开设的专业</a></li><li>
+<a href="http://www.qqje.com/searchArticle.htm?a=330000">浙江所有招生信息</a></li><li>
+<a href="http://www.qqje.com/searchZhuanYe/">所有专业介绍(专业百科)</a></li><li>
+<a href="http://www.qqje.com/newsView/zhunjixiaoshengbidu_245/">“准”技校生必读</a></li><li>
+<a href="http://zhejiang.qqje.com/">浙江主页</a></li>
+<li class="p-last"> <b>我要<a href="/changeCity/">切换到别的地区</a></b></li>    
+</ul></div>﻿<div class="attraction"><div class="main-promo">
+ <div class="bd">
+  <div style="position:relative;" id="Slide" class="slide-player tb-slide loading-s">
+<div id="focuspics">
+<ol id="ifocus_piclist" style="position:absolute; -moz-transition-property:none; -moz-transition-duration:500ms; -moz-transition-timing-function:cubic-bezier(0.1, 0.5, 0.1, 1); top:-0px;" class="tb-slide-list jxSwitchable-content">
+<li id="dpromo_48" style="display:block;"><a href="http://zhongdianjixiao.qqje.com/"><img width="490px" height="170px" src="http://www.qqje.com/firstPageEdu/logo_1323745998515L91k659WynKFmOHnQ8BqpNg8EKcyk4.gif" data-bd-imgshare-binded="1"></a></li>
+<li style="display:block;"><a target="_blank" href="http://www.qqje.com/newsView/zhunjixiaoshengbidu_245/"><img width="490px" height="170px" src="http://www.qqje.com/firstPageEdu/logo_132374604656225A3S5YvM9wRU1s9mW2Dr57CaQthw1.jpg" data-bd-imgshare-binded="1"></a></li>
+</ol>
+</div>   
+<ul class="tb-slide-triggers" id="ifocus_tx">
+   <li class="ks-active">1</li>
+   <li>2</li>
+</ul>   
+</div>
+ </div></div>
+<div class="mall-interlayer">
+  <div class="text-links"><strong><a href="http://www.qqje.com/">
+   JE技校</a>精选</strong>
+  </div>
+    <div id="RotateList" class="rotate-list">
+   <a title="上一页" class="rotate-prev" id="RotatePrev" hidefocus="true" target="_self" href="javascript:void(0)"></a>
+   <a title="下一页" class="rotate-next" id="RotateNext" hidefocus="true" target="_self" href="javascript:void(0)"></a>
+   <div class="rotate-list-content" style="position:relative;">
+    <ul style="position:absolute; width:1560px; -moz-transition-property:none; -moz-transition-duration:500ms; -moz-transition-timing-function:cubic-bezier(0.9, 0, 0.1, 1); left:-260px;" class="jxSwitchable-content" id="LetterAds">
+<li id="dpromo_225" style="display:block; float:left;"><a href="http://www.qqje.com/q/ShenMeZhuanYeHaoJiuYe_141/" title="什么专业好就业？">什么专业好就业？</a></li> 
+<li style="display:block; float:left;"><a href="http://www.qqje.com/q/NanShengDuShenMeZhuanYeHaoP819GX_247/" title="男生读什么专业好?">男生读什么专业好?</a></li>
+<li style="display:block; float:left;"><a href="http://www.qqje.com/q/NvShengDuShenMeZhuanYeHaoV6150r_223/" title="女生读什么专业好？">女生读什么专业好？</a></li>
+<li style="display:block; float:left;"><a href="http://www.qqje.com/q/JiXiaoDouYouShenMeZhuanYeY489JB_208/" title="技校都有什么专业">技校都有什么专业</a></li>
+<li style="display:block; float:left;"><a href="http://www.qqje.com/q/JiXiaoYouShenMeZhuanYeTi2zLc_286/" title="技校有什么专业">技校有什么专业</a></li>
+<li style="display:block; float:left;"><a href="http://www.qqje.com/q/JiXiaoShengZiWoJianDingFanWen_204/" title="技校生自我鉴定范文">技校生自我鉴定范文</a></li> 
+</ul>
+   </div>
+  </div> </div>
+	 <div data-active-index="1" id="MallSlide" class="mall-slide">
+  <a title="上一页" href="javascript:void(0);" hidefocus="true" class="mall-prev" id="MallPrev"></a>
+  <a title="下一页" href="javascript:void(0);" hidefocus="true" class="mall-next" id="MallNext"></a>
+  <div id="Carousel" class="mall-content clearfix" data-active-index="0" style="position:relative;">
+   <ol style="left:-440px; position:absolute; width:1320px;" class="jxSwitchable-content" id="ImageAdsId">
+   <li class="big-piclist" style="display:block; float:left;">			
+	<span id="dpromo_129"><a href="http://www.qqje.com/jx_ZhanJiangCitySecondTechnicalSchools_20/" style="width:440px;height:137px;"><img src="firstPageEdu/logo_1323745724015LTc2pDwH5hRF90LvTHS1z05Duwm2mR.jpg" alt="湛江第二技工学院" data-bd-imgshare-binded="1"></a></span></li>
+   <li class="big-piclist" style="display:block; float:left;"> 
+	<span id="dpromo_129"><a href="http://www.qqje.com/jx_ShandongWantongMotorRepairSchools_20/" style="width:440px;height:137px;"><img src="firstPageEdu/logo_132374588323434As1kM72DsjAEGPQQt7JfC635K82O.jpg" alt="山东万通汽修学校" data-bd-imgshare-binded="1"></a></span></li>
+	
+   <li class="big-piclist" style="display:block; float:left;"> 
+	<span id="dpromo_129"><a href="http://www.qqje.com/jx_GuangZhouShiGaoJiJiGongXueXiao_21/" style="width:440px;height:137px;"><img src="firstPageEdu/logo_1323745816234k8cQGv7e4A6J76VgtpqjW5fKHdlnus.jpg" alt="广州市高级技工学校" data-bd-imgshare-binded="1"></a></span></li>
+	
+    </ol>
+  </div>
+ </div> 
+	<div class="hot-banner">
+	<div class="hot-banner-wrapper">
+	<a title="南方航空技术学院" target="_blank" href="http://www.qqje.com/jx_ChinaSouthernAirlinesTechnologyInstitute_20/">
+		<img width="70" height="45" src="firstPageEdu/logo_13237493144060r0I5zdC3H73BiX9KFGLJA9M0A1B5p.gif" data-bd-imgshare-binded="1"></a>
+	<a title="上海海运学校" target="_blank" href="http://www.qqje.com/jx_ShangHaiHaiYunXueXiao_21/">
+		<img width="70" height="45" src="firstPageEdu/logo_1323749394781u8IxC0pnfMMkjRPsNfpl1dIq4ptmGU.gif" data-bd-imgshare-binded="1"></a>
+	<a title="桂林市机电工程学校" target="_blank" href="http://www.qqje.com/jx_GuilinMechanicalAndElectricalEngineeringSchool_20/">
+		<img width="70" height="45" src="firstPageEdu/logo_1323749448812k2OP6bei3eikbC0VbD7hR33rawlRbJ.gif" data-bd-imgshare-binded="1"></a>
+	<a title="云南旅游学校" target="_blank" href="http://www.qqje.com/jx_YunNanShengLvYouXueXiao_21/">
+		<img width="70" height="45" src="firstPageEdu/logo_1323877295125n3v062LDw378dgiL1Hv4243evAg5zt.gif" data-bd-imgshare-binded="1"></a>
+	<a title="南充数控工程学校" target="_blank" href="http://www.qqje.com/jx_NanChongShuKongGongChengXueXiao_21/">
+		<img width="70" height="45" src="firstPageEdu/logo_13237559055151s66i5UYyqgD6imyn89m23l4e23Vcy.gif" data-bd-imgshare-binded="1"></a>
+	<a title="郑州幼儿师范学校" target="_blank" href="http://www.qqje.com/jx_ZhengZhouYouShi_21/">
+		<img width="70" height="45" src="firstPageEdu/logo_1323755780515f9mjGAUO5LYUwu999gAhgYxY9pYo42.gif" data-bd-imgshare-binded="1"></a>
+	</div>
+</div>	 
+</div> 
+<div class="expressway"><div id="help" class="help"> 
+			<div><div class="help-guest">
+<a class="help-guest-register" href="http://www.qqje.com/register.htm"><img alt="免费注册" src="http://static.qqje.com/je/images/sprites1.gif" style="margin-left:0px;" data-bd-imgshare-binded="1"></a>
+<a class="help-guest-login" href="http://www.qqje.com/login.htm"><img alt="登录" src="http://static.qqje.com/je/images/sprites1.gif" style="margin-left:-103px;" data-bd-imgshare-binded="1"></a>
+<a class="help-guest-openshop" href="http://www.qqje.com/addStudy.htm"><img alt="求学需求" src="http://static.qqje.com/je/images/sprites1.gif" style="margin-left:-194px;" data-bd-imgshare-binded="1"></a>
+</div>
+</div></div>
+<div id="announce" class="announce">
+		<div class="hd">
+			<ul class="jxSwitchable-nav clearfix" id="rec_tab">
+	<li class="ks-active" style="outline:medium none;"><a href="http://www.qqje.com/searchPxSchool/" title="技校，中专学校">学校</a></li>
+    <li style="outline:medium none;"><a href="http://www.qqje.com/searchKnow/" title="技校问答">问答</a></li>
+    <li style="outline:medium none;"><a href="http://www.qqje.com/searchJxzy/" title="技校专业，专业搜索">资讯</a></li> 
+    <li class="tab-holder-cw" style="outline:medium none;"><a href="http://www.qqje.com/searchJxzy/" title="技校专业，专业搜索">专业</a></li> 
+    <li class="tab-holder-ensure" style="outline:medium none;"><a href="http://www.qqje.com/searchZhuanYe/" title="技校专业，中专专业">专业大全</a></li>
+</ul>
+		</div>
+<div class="bd jxSwitchable-content clearfix">
+  <div style="display:block;" class="tab-panel" id="recList">
+	<ul class="clearfix">
+	<li><a href="http://www.qqje.com/jx_xjnydxkxjsxy_0/">新疆农业大学科学技术学院</a></li><li><a href="http://www.qqje.com/jx_xjdxkxjsxy_0/">新疆大学科学技术学院</a></li><li><a href="http://www.qqje.com/jx_wwwxjvueducn_0/">新疆职业大学</a></li><li><a href="http://www.qqje.com/jx_gdhydxcjxy_0/">广东海洋大学寸金学院</a></li><li><a href="http://www.qqje.com/jx_dglgxycsxy_0/">东莞理工学院城市学院</a></li><li><a href="http://www.qqje.com/jx_dzkjdxzsxy_0/">电子科技大学中山学院</a></li><li><a href="http://www.qqje.com/jx_zjhyxy_0/">浙江海洋学院</a></li><li><a href="http://www.qqje.com/jx_hysfxynyxy_0/">衡阳师范学院南岳学院</a></li><li><a href="http://www.qqje.com/jx_hnzyydxxxxy_0/">湖南中医药大学湘杏学院</a></li><li><a href="http://www.qqje.com/jx_hngcxyyyjsxy_0/">湖南工程学院应用技术学院</a></li><li><a href="http://www.qqje.com/jx_jsdxzjjxy_0/">吉首大学张家界学院</a></li><li><a href="http://www.qqje.com/jx_hnlgxynhxy_0/">湖南理工学院南湖学院</a></li><li><a href="http://www.qqje.com/jx_hnwlxyfrxy_0/">湖南文理学院芙蓉学院</a></li><li><a href="http://www.qqje.com/jx_nhdxcsxy_0/">南华大学船山学院</a></li><li><a href="http://www.qqje.com/jx_xtdxxxxy_0/">湘潭大学兴湘学院</a></li><li><a href="http://www.qqje.com/jx_hngydxkjxy_0/">湖南工业大学科技学院</a></li><li><a href="http://www.qqje.com/jx_hnkjdxxxxy_0/">湖南科技大学潇湘学院</a></li><li><a href="http://www.qqje.com/jx_zgjlxy_0/">中国计量学院</a></li><li><a href="http://www.qqje.com/jx_zslgdxcnxy_0/">长沙理工大学城南学院</a></li><li><a href="http://www.qqje.com/jx_hnnydxdfkjxy_0/">湖南农业大学东方科技学院</a></li>
+   </ul>
+   <ul class="clearfix undisplay">
+   <li><a href="http://www.qqje.com/q/2016ntsggzkcfrq_4015/">2016年天水甘谷中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nbxhrzkcfrq_4015/">2016年本溪桓仁中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nptxyzkcfrq_4015/">2016年莆田仙游中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2016naksbczkcfrq_4015/">2016年阿克苏拜城中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2017xjgkzmcxlqqk_4016/">2017新疆高考怎么查询录取情况</a></li><li><a href="http://www.qqje.com/q/2016nzjkzbzkcfrq_4015/">2016年张家口张北中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2017nhbgkcxcjcxdwz1Wl6P0_4016/">2017年湖北高考查询成绩查询的网址</a></li><li><a href="http://www.qqje.com/q/2017nhngkcjrhcxwzssmOrKulx_4016/">2017年海南高考成绩如何查询，网址是什么</a></li><li><a href="http://www.qqje.com/q/2016nchwwzkcfrq_4015/">2016年巢湖无为中考成绩查询时间</a></li><li><a href="http://www.qqje.com/q/2016nlywszkcfrq_4015/">2016年辽阳文圣中考成绩查询时间</a></li><li><a href="http://www.qqje.com/q/2017hngkcjnlkyceSvhYc_4016/">2017海南高考成绩哪里可以查</a></li><li><a href="http://www.qqje.com/q/2016nbdbdzkcfwz_4015/">2016年保定中考成绩查询时间</a></li><li><a href="http://www.qqje.com/q/2016ndtdtzkcfwz_4015/">2016年大同中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2017ntjgkcjzmcxf484Q5_4015/">2017年天津高考成绩怎么查询？</a></li><li><a href="http://www.qqje.com/q/2017njsgkcxffynx_4016/">2017年江苏高考查询方法有哪些</a></li><li><a href="http://www.qqje.com/q/gsgkcjsmshcl2017_4016/">甘肃高考成绩什么时候出来2017</a></li><li><a href="http://www.qqje.com/q/2016nhtytzkcfrq_4015/">2016年和田于田中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2017nsxgkwcjcxxtwzssm_4015/">2017年山西高考网成绩查询系统网址是什么</a></li><li><a href="http://www.qqje.com/q/2016nszxxzkcfrq_4015/">2016年宿州萧县中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nsgzjzkcfrq_4015/">2016年韶关浈江中考成绩查分时间</a></li>
+   </ul>
+   <ul class="clearfix undisplay">
+   <li><a href="http://www.qqje.com/newsView/2014nahswjjzyxyzszc_275/">2014年安徽涉外经济职业学院招生章程</a></li><li><a href="http://www.qqje.com/newsView/2014nczgxyptbkzsjh_275/">2014年常州工学院普通本科招生计划</a></li><li><a href="http://www.qqje.com/newsView/2014nczgxyzwhzbxbkzsjh_275/">2014年常州工学院中外合作办学本科招生计划</a></li><li><a href="http://www.qqje.com/newsView/2014njsdxbkfsfzyzsjhb_275/">2014年吉首大学本科分省分专业招生计划表</a></li><li><a href="http://www.qqje.com/newsView/2014nhzzyjsxyzszc_275/">2014年汉中职业技术学院招生章程</a></li><li><a href="http://www.qqje.com/newsView/2014nhzzyjsxyymbqhznmfdzjyzsjz_275/">2014年汉中职业技术学院移民搬迁户子女免费大专教育招生简章</a></li><li><a href="http://www.qqje.com/newsView/2014nzjzyxyzszc_275/">2014年长江职业学院（招生章程）</a></li><li><a href="http://www.qqje.com/newsView/2014ncdnykjzyxyzsjztpb_275/">2014年成都农业科技职业学院招生简章图片版</a></li><li><a href="http://www.qqje.com/newsView/2014nyngfgyzyjsxygzzkzszyylb_275/">2014年云南国防工业职业技术学院高职专科招生专业一览表</a></li><li><a href="http://www.qqje.com/newsView/2014njsdxssmzykbzsjhb_275/">2014年吉首大学少数民族预科班招生计划表</a></li><li><a href="http://www.qqje.com/newsView/2014njsdxzkfsfzyzsjhb_275/">2014年吉首大学专科分省分专业招生计划表</a></li><li><a href="http://www.qqje.com/newsView/2014nwnzyjsxywnzgzjzzzsjh_275/">2014年渭南职业技术学院五年制高职及中职招生计划</a></li><li><a href="http://www.qqje.com/newsView/2014nwnzyjsxysnzgzzsjhb_275/">2014年渭南职业技术学院三年制高职招生计划表</a></li><li><a href="http://www.qqje.com/newsView/2014nwnzyjsxyzszc_275/">2014年渭南职业技术学院招生章程</a></li><li><a href="http://www.qqje.com/newsView/2014nwcgxyzszc_275/">2014年武昌工学院招生章程</a></li><li><a href="http://www.qqje.com/newsView/2014nywgszyjsxyzsjh_275/">2014年义乌工商职业技术学院招生计划</a></li><li><a href="http://www.qqje.com/newsView/2014nywgszyjsxyzszc_275/">2014年义乌工商职业技术学院招生章程</a></li><li><a href="http://www.qqje.com/newsView/2014nxzgyzyjsxyzsjh_275/">2014年徐州工业职业技术学院招生计划</a></li><li><a href="http://www.qqje.com/newsView/2014nhbdxzxxyzsxchb_275/">2014年湖北大学知行学院招生宣传海报</a></li><li><a href="http://www.qqje.com/newsView/2014njxjtzyjsxygzdzfsfzyjh_275/">2014年江西交通职业技术学院高招大专分省、分专业计划</a></li>
+   </ul>
+   <ul class="clearfix undisplay">
+   <li><a href="http://www.qqje.com/fanWen/QingNianLvShiZhiYeGuiHuaXinDe_2/">2015年青年律师职业规划心得</a></li><li><a href="http://www.qqje.com/fanWen/zyghscrcxjcgsgcr8oxj11_2/">2015年职业规划三错:入错行，进错公司，跟错人</a></li><li><a href="http://www.qqje.com/fanWen/dxszyghtjtlhkyhsqz_2/">2015年大学生职业规划谈，具体量化考研还是求职</a></li><li><a href="http://www.qqje.com/fanWen/ZhiYeGuiHuaJingDianYuLu_2/">2015年职业规划经典语录</a></li><li><a href="http://www.qqje.com/fanWen/zzzysyqpxszxbyszbhlm_2/">2015年站在职业生涯起跑线上，职校毕业生准备好了吗</a></li><li><a href="http://www.qqje.com/fanWen/LiuWenZhiYeGuiHuaShi_2/">2015年六问职业规划师</a></li><li><a href="http://www.qqje.com/fanWen/ShiFouCunZaiWanMeiDeZhiYeGuiHua_2/">2015年是否存在完美的职业规划</a></li><li><a href="http://www.qqje.com/fanWen/dxxyzyjlsxzyghscdtb_2/">2015年大学校园“职业焦虑”盛行，职业规划市场待填补</a></li><li><a href="http://www.qqje.com/fanWen/2013jyxsyjdxzhzyghsclsy_2/">2013就业形势严峻，大学做好职业规划是出路（双语）</a></li><li><a href="http://www.qqje.com/fanWen/zhygzyghbrpxwrzj_2/">2015年做好员工职业规划，不让培训“为人做嫁”</a></li><li><a href="http://www.qqje.com/fanWen/zyghldsksdyz_2/">2015年职业规划：六点思考，十大原则</a></li><li><a href="http://www.qqje.com/fanWen/zysyghdxswltdgg_2/">2015年职业生涯规划：蹲下，是为了跳得更高</a></li><li><a href="http://www.qqje.com/fanWen/lcyjsssczzjcgjkzygh_2/">2015年六成应届生是“闪辞族”，专家称关键看职业规划</a></li><li><a href="http://www.qqje.com/fanWen/iprzyghzscqcyzbd9JYGBL_2/">2014年IP人职业规划:知识产权从业者必读</a></li><li><a href="http://www.qqje.com/fanWen/dwzysycqynzysy_2/">2015年当外职业生涯超前于内职业生涯</a></li><li><a href="http://www.qqje.com/fanWen/LieTouJiaoNiZuoZhiYeGuiHua_2/">2015年猎头教你做职业规划</a></li><li><a href="http://www.qqje.com/fanWen/yjszyjyggzjjymqzyghvl65SU_2/">2015年研究生遭遇就业尴尬，专家建议明确职业规划</a></li><li><a href="http://www.qqje.com/fanWen/zjlcfxdzyghzzy_2/">2015年专家：“裸辞”风险大，职业规划最重要</a></li><li><a href="http://www.qqje.com/fanWen/gxzyghkclwjl_2/">2015年高校职业规划课程沦为“鸡肋”</a></li><li><a href="http://www.qqje.com/fanWen/zszysyghbzxryzqpx_2/">2015年重视职业生涯规划，帮助新人赢在“起跑线”</a></li>
+   </ul>
+   <ul class="clearfix undisplay">
+   <li><a href="http://www.qqje.com/zhuanYeQianJing/gjjjymygjmyjy/">国际经济与贸易（国际贸易教育）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiJingJiYuMaoYiGuoJiShangWu/">国际经济与贸易（国际商务）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/gjjjymygjswfx/">国际经济与贸易（国际商务方向）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/gjjjymygjswglfx/">国际经济与贸易（国际商务管理方向）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/gjjjymyjjffx/">国际经济与贸易（经济法方向）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/gjjjymymyjjfx/">国际经济与贸易（贸易经济方向）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiJiuDianGuanLi/">国际酒店管理</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiLvYou/">国际旅游</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiMaoYi/">国际贸易</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/gjmygjmygjhydlybgfx/">国际贸易（国际贸易、国际货运代理与报关方向）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiMaoYiShiWu/">国际贸易实务</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiMaoYiShiWuBaoGuan/">国际贸易实务（报关）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiMaoYiShiWuDongNanYaMaoYi/">国际贸易实务（东南亚贸易）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/gjmyswwmywyfx/">国际贸易实务（外贸业务员方向）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiMaoYiXue/">国际贸易学</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiShangFa/">国际商法</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiShangWu/">国际商务</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiShangWuBaoGuanYuBaoJian/">国际商务（报关与报检）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/GuoJiShangWuChuangYeGuanLi/">国际商务（创业管理）</a></li><li><a href="http://www.qqje.com/zhuanYeQianJing/gjswcyglfx/">国际商务（创业管理方向）</a></li>
+   </ul>
+ </div> 
+</div>
+</div>
+ 
+	<div class="katong">
+	<a href="http://www.qqje.com/searchArticle"><img width="298" height="52" alt="2012全国各地招生简章" src="firstPageEdu/logo_1323762243890G4k2H2N5HV7X8iJYGXetkc6Uh22pR9.gif" data-bd-imgshare-binded="1"></a>
+	</div>	 
+</div></div>
+ 
+
+<div class="local-life">
+	<div class="local-head"><h3>本地直通车--<span>浙江地区技校信息</span></h3></div>
+<div class="local-body">
+<ul class="local-items">
+<li style="padding-left: 0px;">
+<a style="float:left;" href="http://www.qqje.com/searchPxSchool.htm?a=330000">
+<h4>中专技校</h4>
+<img width="65" height="65" src="http://static.qqje.com/je/images/fp/xx.gif" data-bd-imgshare-binded="1">
+<h3>浙江地区</h3></a>
+<div class="block" style="margin-left:80px;"> 
+<span><a href="/jx_zjgmzyjsxy_22/">
+<span class="ico_gb" title="公办学校"></span><span class="ico_gz" title="全国重点技校"></span>浙江工贸职业技术学院</a></span>
+<span><a href="/jx_nbdegjjgxx_21/">
+<span class="ico_gb" title="公办学校"></span><span class="ico_gz" title="国家级重点技工学校"></span>宁波第二高级技工学校</a></span>
+<span><a href="/jx_hzsqgjgxx_21/">
+<span class="ico_gb" title="公办学校"></span><span class="ico_gz" title="国家级重点技工学校"></span>杭州市轻工技工学校</a></span>
+<span><a href="/jx_LinanSecondaryVocationalAndTechnicalSchools_20/">
+<span class="ico_gb" title="公办学校"></span><span class="ico_gz" title="临安市唯一一所国家级重点中等职业学校,国家级重点职校"></span>临安中等职业技术学校</a></span>
+<span><a href="/jx_ZhujiCityLightIndustryTechnologySchool_20/">
+<span class="ico_gb" title="公办学校"></span><span class="ico_gz" title="国家级重点中等职业学校"></span>诸暨市轻工技术学校</a></span>
+<span><a href="/jx_sxhsxxgjjsxjd_21/">
+<span class="ico_gb" title="公办学校"></span><span class="ico_gz" title="国家级重点中等职业学校"></span>绍兴护士学校</a></span>
+</div>
+</li> 
+<li> 
+<a style="float:left;" href="http://www.qqje.com/searchJxzy.htm?a=330000">
+ <h4>技校专业</h4>
+<img width="65" height="65" src="http://static.qqje.com/je/images/fp/zy.gif" data-bd-imgshare-binded="1">
+ <h3>浙江地区</h3>
+</a>
+<div class="block" style="margin-left:80px;"> 
+<span><a href="/zyHtml/DianQiZiDongHuaJiShu_ywu_16/">
+<span title="中央财政支持重点建设" class="ico_zgz"></span>电气自动化技术</a></span>
+<span><a href="/zyHtml/HuLi_sxhxorg_14/">
+<span title="省级示范专业,骨干专业" class="ico_zsz"></span>护理</a></span>
+<span><a href="/zyHtml/FuZhuangSheJiYuZhiZuo_hzsqgjgxx_13/">
+<span title="省级示范专业" class="ico_zsz"></span>服装设计与制作</a></span>
+<span><a href="/zyHtml/JiuDianGuanLi_zjitc_16/">
+<span title="省级特色专业" class="ico_zsz"></span>酒店管理</a></span>
+<span><a href="/zyHtml/HuiJi_hzjbzx_14/">
+<span title="浙江省级示范专业" class="ico_zsz"></span>会计</a></span>
+<span><a href="/zyHtml/fzsjpyyyxdhsdjxfsyssjytgcsjsjcadfzsjzzjysycfssjzzdzyrcyqstjkwsmsryzjfzfzzyjsxylb_yjzg_18/">
+<span title="省重点专业" class="ico_zsz"></span>服装设计</a></span>
+</div>
+</li>
+<li style="border-right:0px;padding-right:0px;">
+<a style="float:left;" href="http://2015zhaosheng.qqje.com/ZhaoSheng/zhejiang.html">
+<h4>招生简章</h4>
+<img width="65" height="65" src="http://static.qqje.com/je/images/fp/zs.gif" data-bd-imgshare-binded="1">
+<h3>浙江地区</h3>
+</a>
+<div style="margin-left:80px;" class="block"> 
+<span><a href="/newsView/2017nywgsxygygbnzzzsptgxzylxkkmfwdgg_283/">2017年义乌工商学院关于公布拟在浙招生普通高校专业（类）选考科目范围的公告</a></span><span><a href="/newsView/2015nobgyzyjsxxqjzssc_285/">2015年瓯北工业职业技术学校秋季招生手册</a></span><span><a href="/newsView/2015nzjhczxxycgjnxlzsjz_285/">2015年浙江华川专修学院筹高级能+学历招生简章</a></span><span><a href="/newsView/2015nzjkjgcxxzsjh_285/">2015年浙江科技工程学校招生计划</a></span><span><a href="/newsView/2015njxsjzgyxxzsjz_285/">2015年嘉兴市建筑工业学校招生简章</a></span><span><a href="/newsView/2015nwzszyzzzstk_285/">2015年温州市职业中专招生特刊</a></span>	
+</div>
+</li>
+</ul>	
+</div><b class="gr-l"></b>
+<b class="gr-r"></b>
+</div><div class="category clearfix">	<div class="category-wrap"> 
+<div class="category-main" id="CategoryHover">
+<div class="category-item cat-virtual">
+        <h4><a href="javascript:void(0);" style="cursor:default" target="_self">地区分类</a></h4>
+        <span class="category-pop"><s class="pop-l"></s><a href="http://www.qqje.com/searchPxSchool">JE ！这里还有更多地区技校哦！</a><s class="pop-r"></s></span>
+<ul class="clearfix category-bottom">
+<li><h5><a href="http://beijing.qqje.com/">北京</a></h5><span>
+<a class="h" href="http://tianjin.qqje.com/">天津</a><a class="h" href="http://shanghai.qqje.com/">上海</a><a class="h" href="http://zhongqing.qqje.com/">重庆</a></span></li>
+<li><h5><a href="http://guangdong.qqje.com/">广东</a></h5><span>
+<a class="h" href="http://guangzhou.qqje.com/">广州</a><a href="http://shaoguan.qqje.com/">韶关</a><a class="h" href="http://shenzhen.qqje.com/">深圳</a><a class="h" href="http://zhuhai.qqje.com/">珠海</a></span></li>
+<li><span>
+<a class="h" href="http://dongguan.qqje.com/">东莞</a><a href="http://foshan.qqje.com/">佛山</a><a href="http://jiangmen.qqje.com/">江门</a><a class="h" href="http://zhanjiang.qqje.com/">湛江</a><a href="http://maoming.qqje.com/">茂名</a></span></li>
+<li><span>
+<a href="http://zhaoqing.qqje.com/">肇庆</a> 
+<a class="h" href="http://huizhou.qqje.com/">惠州</a><a href="http://meizhou.qqje.com/">梅州</a><a href="http://shanwei.qqje.com/">汕尾</a><a href="http://heyuan.qqje.com/">河源</a></span></li>
+<li><span>
+<a href="http://zhongshan.qqje.com/">中山</a><a href="http://qingyuan.qqje.com/">清远</a><a class="h" href="http://shantou.qqje.com/">汕头</a><a href="http://yangjiang.qqje.com/">阳江</a><a href="http://chaozhou.qqje.com/">潮州</a></span></li>
+<li><span>
+<a href="http://jieyang.qqje.com/">揭阳</a><a href="http://yunfu.qqje.com/">云浮</a></span></li>
+<li><h5><a href="http://hebei.qqje.com/">河北</a></h5><span>
+<a class="h" href="http://shijiazhuang.qqje.com/">石家庄</a><a class="h" href="http://tangshan.qqje.com/">唐山</a><a href="http://qinhuangdao.qqje.com/">秦皇岛</a><a href="http://handan.qqje.com/">邯郸</a></span></li>
+<li><h5><a href="http://xingtai.qqje.com/">邢台</a></h5><span>
+<a href="http://baoding.qqje.com/">保定</a><a href="http://shanxi.qqje.com/">山西</a><a class="h" href="http://taiyuan.qqje.com/">太原</a><a href="http://datong.qqje.com/">大同</a>  </span></li>
+<li><h5><a href="http://neimenggu.qqje.com/">内蒙古</a></h5></li>
+<li><h5><a href="http://liaoning.qqje.com/">辽宁</a></h5><span>
+<a href="http://shenyang.qqje.com/">沈阳</a><a class="h" href="http://dalian.qqje.com/">大连</a></span></li>
+<li><h5><a href="http://jilin.qqje.com/">吉林</a></h5><span>
+<a class="h" href="http://zhangchun.qqje.com/">长春</a><a class="h" href="http://jilin2.qqje.com/">吉林</a></span></li>
+<li><h5><a href="http://heilongjiang.qqje.com/">黑龙江</a></h5><span>
+<a class="h" href="http://haerbin.qqje.com/">哈尔滨</a><a href="http://qiqihaer.qqje.com/">齐齐哈尔</a></span></li>
+<li><h5><a href="http://jiangsu.qqje.com/">江苏</a></h5><span>
+<a class="h" href="http://nanjing.qqje.com/">南京</a><a href="http://wuxi.qqje.com/">无锡</a><a class="h" href="http://xuzhou.qqje.com/">徐州</a><a href="http://changzhou.qqje.com/">常州</a><a href="http://suzhou.qqje.com/">苏州</a></span></li>
+<li><h5><a href="http://zhejiang.qqje.com/">浙江</a></h5><span>
+<a class="h" href="http://hangzhou.qqje.com/">杭州</a><a href="http://ningbo.qqje.com/">宁波</a><a href="http://wenzhou.qqje.com/">温州</a><a href="http://jiaxing.qqje.com/">嘉兴</a><a href="http://shaoxing.qqje.com/">绍兴</a><a href="http://jinhua.qqje.com/">金华</a></span></li>
+<li><h5><a href="http://anhui.qqje.com/">安徽</a></h5><span>
+<a class="h" href="http://hefei.qqje.com/">合肥</a><a href="http://wuhu.qqje.com/">芜湖</a></span></li>
+<li><h5><a href="http://fujian.qqje.com/">福建</a></h5><span>
+<a href="http://fuzhou.qqje.com/">福州</a><a class="h" href="http://shamen.qqje.com/">厦门</a></span></li>
+<li><h5><a href="http://jiangxi.qqje.com/">江西</a></h5><span>
+<a href="http://nanchang.qqje.com/">南昌</a><a href="http://jingdezhen.qqje.com/">景德镇</a></span></li>
+<li><h5><a href="http://shandong.qqje.com/">山东</a></h5><span>
+<a href="http://jinan.qqje.com/">济南</a><a href="http://qingdao.qqje.com/">青岛</a><a href="http://zibo.qqje.com/">淄博</a></span></li>
+<li><h5><a href="http://henan.qqje.com/">河南</a></h5><span>
+<a class="h" href="http://zhengzhou.qqje.com/">郑州</a><a href="http://kaifeng.qqje.com/">开封</a><a href="http://luoyang.qqje.com/">洛阳</a></span></li>
+<li><h5><a href="http://hubei.qqje.com/">湖北</a></h5><span>
+<a href="http://wuhan.qqje.com/">武汉</a><a href="http://huangshi.qqje.com/">黄石</a><a href="http://shiyan.qqje.com/">十堰</a><a href="http://yichang.qqje.com/">宜昌</a></span></li>
+<li><h5><a href="http://hunan.qqje.com/">湖南</a></h5><span>
+<a href="http://zhangsha.qqje.com/">长沙</a><a href="http://zhuzhou.qqje.com/">株洲</a></span></li>
+<li><h5><a href="http://guangxi.qqje.com/">广西</a></h5><span>
+<a class="h" href="http://nanning.qqje.com/">南宁</a><a href="http://liuzhou.qqje.com/">柳州</a><a href="http://guilin.qqje.com/">桂林</a></span></li>
+<li><h5><a href="http://hainan.qqje.com/">海南</a></h5><span>
+<a class="h" href="http://haikou.qqje.com/">海口</a><a href="http://sanya.qqje.com/">三亚</a></span></li>
+<li><h5><a href="http://sichuan.qqje.com/">四川</a></h5><span>
+<a href="http://chengdou.qqje.com/">成都</a></span></li>
+<li><h5><a href="http://guizhou.qqje.com/">贵州</a></h5><span>
+<a href="http://guiyang.qqje.com/">贵阳</a><a href="http://liupanshui.qqje.com/">六盘水</a><a href="http://zunyi.qqje.com/">遵义</a></span></li>
+<li><h5><a href="http://yunnan.qqje.com/">云南</a></h5><span>
+<a href="http://kunming.qqje.com/">昆明</a><a href="http://qujing.qqje.com/">曲靖</a><a href="http://yuxi.qqje.com/">玉溪</a></span></li>
+<li><h5><a href="http://xizang.qqje.com/">西藏</a></h5><span>
+<a href="http://lasa.qqje.com/">拉萨</a></span></li>
+<li><h5><a href="http://shanxi.qqje.com/">陕西</a></h5><span>
+<a href="http://xian.qqje.com/">西安</a><a href="http://tongchuan.qqje.com/">铜川</a><a href="http://baoji.qqje.com/">宝鸡</a> 
+<a href="http://yanan.qqje.com/">延安</a></span></li>
+<li><h5><a href="http://gansu.qqje.com/">甘肃</a></h5><span>
+<a href="http://lanzhou.qqje.com/">兰州</a>  
+<a href="http://qinghai.qqje.com/">青海</a><span>
+<a href="http://xining.qqje.com/">西宁</a>  </span></span></li>
+<li><h5><a href="http://ningxia.qqje.com/">宁夏</a></h5><span>
+<a href="http://yinchuan.qqje.com/">银川</a></span></li>
+<li><h5><a href="http://xinjiang.qqje.com/">新疆</a></h5></li>
+<li><h5> </h5><span> 
+</span></li></ul>      
+</div>
+
+<div class="category-item cat-baldric">
+ <h4><a href="http://www.qqje.com/">专业类型</a></h4>
+<span class="category-pop"><s class="pop-l"></s><a href="http://www.qqje.com/">哇！技校专业类型好齐全哦！^_^</a><s class="pop-r"></s></span>
+<ul class="clearfix">
+<li><h5><a href="http://www.qqje.com/zhuanYe/CaiHuiZhuanYe/">财会</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/HuiJiDianSuanHua/">会计电算化</a><a href="http://www.qqje.com/zhuanYe/WenMi/">文秘</a><a href="http://www.qqje.com/zhuanYe/BaoGuan/">报关</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JinRongBaoXian/">金融保险</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/GuoJiMaoYi/">国际贸易</a><a href="http://www.qqje.com/zhuanYe/JiXie/">机械</a><a href="http://www.qqje.com/zhuanYe/MoJu/">模具</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/MoJuSheJiYuZhiZao/">模具设计与制造</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/TaDiao/">塔吊</a><a href="http://www.qqje.com/zhuanYe/WaJueJi/">挖掘机</a><a href="http://www.qqje.com/zhuanYe/JiDianYiTiHua/">机电一体化</a><a href="http://www.qqje.com/zhuanYe/ZhuangZaiJi/">装载机</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/ShuKong/">数控</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/BanJinPenQi/">钣金喷漆</a><a href="http://www.qqje.com/zhuanYe/QianGong/">钳工</a><a href="http://www.qqje.com/zhuanYe/CheGong/">车工</a><a href="http://www.qqje.com/zhuanYe/MaoGong/">铆工</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JiSuanJi/">计算机</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DianZiShangWu/">电子商务</a><a href="http://www.qqje.com/zhuanYe/TongXunJiShu/">通讯技术</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/RuanJianKaiFa/">软件开发</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/WangLuoGongCheng/">网络工程</a><a href="http://www.qqje.com/zhuanYe/YingShiDongHua/">影视动画</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/DuoMeiTiJiShu/">多媒体技术</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/BanGongZiDongHua/">办公自动化</a><a href="http://www.qqje.com/zhuanYe/DianNaoWeiXiu/">电脑维修</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/NongXiao/">农校</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ChuMuShouYi/">畜牧兽医</a><a href="http://www.qqje.com/zhuanYe/YuanYi/">园艺</a><a href="http://www.qqje.com/zhuanYe/LinYe/">林业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/YouErJiaoShi/">幼儿教师/幼师</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/FuZhuangZhuanYe/">服装</a><a href="http://www.qqje.com/zhuanYe/FangZhiHuaXian/">纺织化纤</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/FuZhuangCaiJian/">服装裁剪</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/FuZhuangSheJi/">服装设计</a><a href="http://www.qqje.com/zhuanYe/JiaDianWeiXiu/">家电维修</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/ShouJiWeiXiu/">手机维修</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DianDongCheWeiXiu/">电动车维修</a><a href="http://www.qqje.com/zhuanYe/WuXianDian/">无线电</a><a href="http://www.qqje.com/zhuanYe/ZhiLeng/">制冷</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JiaoTongLei/">交通类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/TieLu/">铁路</a><a href="http://www.qqje.com/zhuanYe/DiTie/">地铁</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/QiChe/">汽车</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/QiCheMeiRong/">美容</a><a href="http://www.qqje.com/zhuanYe/QiCheWeiXiu/">维修</a><a href="http://www.qqje.com/zhuanYe/QiCheYingXiao/">营销</a><a href="http://www.qqje.com/zhuanYe/QiCheZhuangShi/">装饰</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/DianZiDianGong/">电子电工</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DianQi/">电气</a><a href="http://www.qqje.com/zhuanYe/DianHan/">电焊</a><a href="http://www.qqje.com/zhuanYe/DianQiZiDongHua/" title="电气自动化">电气自动</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/GongYeLei/">工业类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/GangTieYeLian/">钢铁冶炼</a><a href="http://www.qqje.com/zhuanYe/HuaGong/">化工</a><a href="http://www.qqje.com/zhuanYe/ShiYouHuaGong/">石油化工</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/FuWuLei/">服务类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ChuShi/">厨师</a><a href="http://www.qqje.com/zhuanYe/XiShiGaoDian/">西式糕点</a><a href="http://www.qqje.com/zhuanYe/DiaoJiuShi/">调酒师</a><a href="http://www.qqje.com/zhuanYe/ZhongShiMianDian/">中式面点</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/LvYou/">旅游</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DaoYou/">导游</a><a href="http://www.qqje.com/zhuanYe/JiuDianGuanLi/">酒店管理</a><a href="http://www.qqje.com/zhuanYe/CanYinFuWu/">餐饮服务</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JianZhuLei/">建筑类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/GongChengZaoJia/">工程造价</a><a href="http://www.qqje.com/zhuanYe/TuMuGongCheng/">土木工程</a><a href="http://www.qqje.com/zhuanYe/JianZhuSheJi/">建筑设计</a><a href="http://www.qqje.com/zhuanYe/ShiNeiSheJi/">室内设计</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/YiXueLei/">医学类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/HuShi/">护士</a><a href="http://www.qqje.com/zhuanYe/HuLi/">护理</a><a href="http://www.qqje.com/zhuanYe/LinChuangYiXue/">临床医学</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/KouQiangYiXue/">口腔医学</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/AnMo/">按摩</a><a href="http://www.qqje.com/zhuanYe/YiXueYingXiang/">医学影像</a><a href="http://www.qqje.com/zhuanYe/ShengWuZhiYao/">生物制药</a><a href="http://www.qqje.com/zhuanYe/ZhongXiYiJieHe/">中西医结合</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/WaiYu/">外语</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/YingYu/">英语</a><a href="http://www.qqje.com/zhuanYe/ShangWuYingYu/">商务英语</a><a href="http://www.qqje.com/zhuanYe/WaiMaoYingYu/">外贸英语</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/GuanLi/">管理</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/WuYeGuanLi/">物业管理</a><a href="http://www.qqje.com/zhuanYe/QiYeGuanLi/">企业管理</a><a href="http://www.qqje.com/zhuanYe/ShiChangYingXiao/">市场营销</a><a href="http://www.qqje.com/zhuanYe/YingXiaoYuCeHua/">营销与策划</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/GongYi/">工艺</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ZhuBaoJianDing/">珠宝鉴定</a><a href="http://www.qqje.com/zhuanYe/YinShua/">印刷</a><a href="http://www.qqje.com/zhuanYe/DiaoSu/">雕塑</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/CaiYi/">才艺</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/MeiShu/">美术</a><a href="http://www.qqje.com/zhuanYe/ChaHuaTengYi/">插花藤艺</a><a href="http://www.qqje.com/zhuanYe/SheJi/">设计</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/GongYeSheJi/">工业设计</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ShiNeiZhuangHuang/">室内装潢</a><a href="http://www.qqje.com/zhuanYe/PingMianSheJi/">平面设计</a><a href="http://www.qqje.com/zhuanYe/GuangGaoSheJi/">广告设计</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/MeiRongMeiFa/">美容美发</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/SheYingHuaZhuang/">摄影化妆</a><a href="http://www.qqje.com/zhuanYe/TiYu/">体育</a><a href="http://www.qqje.com/zhuanYe/BaoAn/">保安</a><a href="http://www.qqje.com/zhuanYe/WuShu/">武术</a></span></li> 
+</ul></div>
+<div class="category-item cat-digital">
+    <h4><a href="http://www.qqje.com/">专业大全</a></h4>
+     <span class="category-pop"><s class="pop-l"></s><a href="http://www.qqje.com/"> 主要有专业介绍、就业方向、就业前景、专业开设等！</a><s class="pop-r"></s></span>
+<ul class="clearfix">
+    <li><h5><a href="http://www.qqje.com/zhuanYe/CaiHuiZhuanYe/" target="_blank">财会专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/HuiJiDianSuanHua/" target="_blank">会计电算化</a><a href="http://www.qqje.com/zhuanYe/WenMi/" target="_blank">文秘专业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/BaoGuan/" target="_blank">报关专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/JinRongBaoXian/" target="_blank">金融保险</a><a href="http://www.qqje.com/zhuanYe/GuoJiMaoYi/" target="_blank">国际贸易</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JiXie/" target="_blank">机械专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/MoJu/" target="_blank">模具</a><a href="http://www.qqje.com/zhuanYe/MoJuSheJiYuZhiZao/" target="_blank">模具设计与制造</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/TaDiao/" target="_blank">塔吊专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/WaJueJi/" target="_blank">挖掘机专业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JiDianYiTiHua/" target="_blank">机电一体化</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ZhuangZaiJi/" target="_blank">装载机</a><a href="http://www.qqje.com/zhuanYe/ShuKong/" target="_blank">数控专业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JiSuanJi/" target="_blank">计算机专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DianZiShangWu/" target="_blank">电子商务</a><a href="http://www.qqje.com/zhuanYe/TongXunJiShu/" target="_blank">通讯技术</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/RuanJianKaiFa/" target="_blank">软件开发</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/WangLuoGongCheng/" target="_blank">网络工程</a><a href="http://www.qqje.com/zhuanYe/BanGongZiDongHua/" target="_blank">办公自动化</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/DuoMeiTiJiShu/" target="_blank">多媒体技术</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DianNaoWeiXiu/" target="_blank">电脑维修</a><a href="http://www.qqje.com/zhuanYe/YingShiDongHua/" target="_blank">影视动业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/NongXiao/" target="_blank">农校</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ChuMuShouYi/" target="_blank">畜牧兽医</a><a href="http://www.qqje.com/zhuanYe/YuanYi/" target="_blank">园业</a><a href="http://www.qqje.com/zhuanYe/LinYe/" target="_blank">林业</a></span></li>
+<li><span>
+<a href="http://www.qqje.com/zhuanYe/YouErJiaoShi/" target="_blank">幼儿教师（幼师）专业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/FuZhuangZhuanYe/" target="_blank">服装</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/FangZhiHuaXian/" target="_blank">纺织化纤</a><a href="http://www.qqje.com/zhuanYe/FuZhuangCaiJian/" target="_blank">裁剪</a><a href="http://www.qqje.com/zhuanYe/FuZhuangSheJi/" target="_blank">服装设计</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JiaDianWeiXiu/" target="_blank">家电维修</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ShouJiWeiXiu/" target="_blank">手机维修</a><a href="http://www.qqje.com/zhuanYe/DianDongCheWeiXiu/" target="_blank">电动车维修</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/WuXianDian/" target="_blank">无线电专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ZhiLeng/" target="_blank">制冷专业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JiaoTongLei/" target="_blank">交通类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/TieLu/" target="_blank">铁路专业</a><a href="http://www.qqje.com/zhuanYe/DiTie/" target="_blank">地铁专业</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/QiChe/" target="_blank">汽车专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/QiCheMeiRong/" target="_blank">美容</a><a href="http://www.qqje.com/zhuanYe/QiCheWeiXiu/" target="_blank">维修</a><a href="http://www.qqje.com/zhuanYe/QiCheYingXiao/" target="_blank">营销</a><a href="http://www.qqje.com/zhuanYe/QiCheZhuangShi/" target="_blank">装饰</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/DianZiDianGong/" target="_blank">电子电工</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DianQi/" target="_blank">电气</a><a href="http://www.qqje.com/zhuanYe/DianHan/" target="_blank">电焊</a><a href="http://www.qqje.com/zhuanYe/BanJinPenQi/" target="_blank">钣金喷漆</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/QianGong/" target="_blank">钳工专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/CheGong/" target="_blank">车工</a><a href="http://www.qqje.com/zhuanYe/MaoGong/" target="_blank">铆工</a><a href="http://www.qqje.com/zhuanYe/DianQiZiDongHua/" target="_blank">电气自动化</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/GongYeLei/" target="_blank">工业类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/GangTieYeLian/" target="_blank">钢铁冶炼</a><a href="http://www.qqje.com/zhuanYe/HuaGong/" target="_blank">化工</a><a href="http://www.qqje.com/zhuanYe/ShiYouHuaGong/" target="_blank">石油化工</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/FuWuLei/" target="_blank">服务</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ChuShi/" target="_blank">厨师</a><a href="http://www.qqje.com/zhuanYe/XiShiGaoDian/" target="_blank">糕点</a><a href="http://www.qqje.com/zhuanYe/DiaoJiuShi/" target="_blank">调酒师</a><a href="http://www.qqje.com/zhuanYe/ZhongShiMianDian/" target="_blank">面点</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/LvYou/" target="_blank">旅游</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/DaoYou/" target="_blank">导游</a><a href="http://www.qqje.com/zhuanYe/JiuDianGuanLi/" target="_blank">酒店管理</a><a href="http://www.qqje.com/zhuanYe/CanYinFuWu/" target="_blank">餐饮服务</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JianZhuLei/" target="_blank">建筑类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/GongChengZaoJia/" target="_blank">工程造价</a><a href="http://www.qqje.com/zhuanYe/TuMuGongCheng/" target="_blank">土木工程</a>/span&gt;</span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/JianZhuSheJi/" target="_blank">建筑设计</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ShiNeiSheJi/" target="_blank">室内设计</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/YiXueLei/" target="_blank">医学类</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/HuShi/" target="_blank">护士</a><a href="http://www.qqje.com/zhuanYe/HuLi/" target="_blank">护理</a><a href="http://www.qqje.com/zhuanYe/LinChuangYiXue/" target="_blank">临床医学</a><a href="http://www.qqje.com/zhuanYe/KouQiangYiXue/" target="_blank">口腔医学</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/AnMo/" target="_blank">按摩</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/YiXueYingXiang/" target="_blank">医学影像</a><a href="http://www.qqje.com/zhuanYe/ShengWuZhiYao/" target="_blank">生物制药</a><a href="http://www.qqje.com/zhuanYe/ZhongXiYiJieHe/" target="_blank">中西医</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/WaiYu/" target="_blank">外语</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/YingYu/" target="_blank">英语</a><a href="http://www.qqje.com/zhuanYe/ShangWuYingYu/" target="_blank">商务英语</a><a href="http://www.qqje.com/zhuanYe/WaiMaoYingYu/" target="_blank">外贸英语</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/GuanLi/" target="_blank">管理</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/WuYeGuanLi/" target="_blank">物业管理</a><a href="http://www.qqje.com/zhuanYe/QiYeGuanLi/" target="_blank">企业管理</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/ShiChangYingXiao/" target="_blank">市场营销</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/YingXiaoYuCeHua/" target="_blank">营销与策划</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/GongYi/" target="_blank">工艺</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/ZhuBaoJianDing/" target="_blank">珠宝鉴定</a><a href="http://www.qqje.com/zhuanYe/YinShua/" target="_blank">印刷</a><a href="http://www.qqje.com/zhuanYe/DiaoSu/" target="_blank">雕塑</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/CaiYi/" target="_blank">才艺专业</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/MeiShu/" target="_blank">美术</a><a href="http://www.qqje.com/zhuanYe/ChaHuaTengYi/" target="_blank">插花藤艺</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/SheJi/" target="_blank">设计</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/GongYeSheJi/" target="_blank">工业设计</a><a href="http://www.qqje.com/zhuanYe/ShiNeiZhuangHuang/" target="_blank">室内装潢</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/PingMianSheJi/" target="_blank">平面设计</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/GuangGaoSheJi/" target="_blank">广告设计</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/MeiRongMeiFa/" target="_blank">美容美发</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/SheYingHuaZhuang/" target="_blank">摄影化妆</a><a href="http://www.qqje.com/zhuanYe/TiYu/" target="_blank">体育</a><a href="http://www.qqje.com/zhuanYe/BaoAn/" target="_blank">保安</a></span></li>
+<li><h5><a href="http://www.qqje.com/zhuanYe/WuShu/" target="_blank">武术</a></h5><span>
+<a href="http://www.qqje.com/zhuanYe/HuanKong/" target="_blank">航空</a><a href="http://www.qqje.com/zhuanYe/WuLu/" target="_blank">物流管理</a></span></li> 
+</ul></div>
+</div> 
+</div>	 <div class="category-aside"> 
+<div class="category-sub clearfix">
+   <div id="recom" class="category-sub-recom" data-active-index="0">
+        <div class="hd">
+            <ul id="questionTab" class="jxSwitchable-nav clearfix">
+<li class="tab-holder-actively ks-active"><a class="no-hover">最新(今)</a></li>
+<li class="ks-switchable57"><a class="no-hover">最新(昨)</a></li>
+<li class="ks-switchable57"><a class="no-hover">解决</a></li>
+<li class="tab-holder-hotsale"><a class="no-hover">未解决</a></li>  
+            </ul>
+        </div>
+        <div class="bd jxSwitchable-content">
+<div style="display:block;" class="tab-panel" id="questionList">
+<ul class="clearfix">
+<li><a href="http://www.qqje.com/newsView/2018ncjshdxACCAgjxmzskszytz_324/" target="_blank">2018年春季上海大学ACCA国际项目招生考试重要通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsctpxxjszyxyddzszyhjh_324/" target="_blank">2018年四川托普信息技术职业学院单独招生专业和计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njxsfjgzyxyddzsgzfa_324/" target="_blank">2017年江西司法警官职业学院单独招生工作方案</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njxsfjgzyxydzxsrxxzNd5HHV_324/" target="_blank">2017年江西司法警官职业学院单招新生入学须知</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njxsfjgzyxyzsmshtncsgzdtz_324/" target="_blank">2017年江西司法警官职业学院招生面试和体能测试工作的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njxsfjgzyxygkzsjh_324/" target="_blank">2017年江西司法警官职业学院高考招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2016njxsfjgzyxygszdlqfsx_324/" target="_blank">2016年江西司法警官职业学院各省最低录取分数线</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njxsfjgzyxyxsrxxzwnygz_324/" target="_blank">2017年江西司法警官职业学院新生入学须知（五年一贯制）</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njxsfjgzyxydzxsrxxz_324/" target="_blank">2017年江西司法警官职业学院大专新生入学须知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzycjdxmszstwxsjz_324/" target="_blank">2018年中央财经大学免试招收台湾学生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjlydxgspyddzsjz_324/" target="_blank">2018年北京林业大学高水平运动队招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxnxyyslzyzsjz_324/" target="_blank">2018年湘南学院艺术类专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxalgdxgspyddzsjz_324/" target="_blank">2018年西安理工大学高水平运动队招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nyxsfxybysxfhgjzxdkdccsgztz_324/" target="_blank">2017年玉溪师范学院毕业生学费和国家助学贷款代偿初审工作通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjlydxgspystzsjz_324/" target="_blank">2018年北京林业大学高水平艺术团招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjlydxsjxlzyzsjz_324/" target="_blank">2018年北京林业大学设计学类专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nfjsfdxydxlzyzsjz_324/" target="_blank">2018年福建师范大学运动训练专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjdyxybsyjszsjz_324/" target="_blank">2018年北京电影学院博士研究生招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjdyxybsyjszsjh_324/" target="_blank">2018年北京电影学院博士研究生招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzgnydxgspyddzsjz_324/" target="_blank">2018年中国农业大学高水平运动队招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nycxywdbyzyzsjzt_324/" target="_blank">2018年宜春学院舞蹈表演专业招生简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nycxyzsjz_324/" target="_blank">2018年宜春学院招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nnchkdxkjxyyslzyxkjxszsjz_324/" target="_blank">2018年南昌航空大学科技学院艺术类专业（校考）江西省招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nszkjdxzzbzszc_324/" target="_blank">2018年苏州科技大学“专转本”招生章程</a></li>
+<li><a href="http://www.qqje.com/newsView/2018njxnydxwynxsybxbzsjz_324/" target="_blank">2018年江西农业大学“惟义农学实验班”选拔招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nnmgdxjstjmsgdssxwyjsfsgzbf_324/" target="_blank">2018年内蒙古大学接收推荐免试攻读硕士学位研究生复试工作办法</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nnmgdxbmdxcqrxz_324/" target="_blank">2018年内蒙古大学报名点现场确认须知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ncslgxyzzbzzzsjh_324/" target="_blank">2018年常熟理工学院“专转本”自主招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjyddxsjxyyslzsjzwzb_324/" target="_blank">2018年北京邮电大学世纪学院艺术类招生简章（文字版）</a></li>
+<li><a href="http://www.qqje.com/newsView/2016nscsgdjyzxkswtjd_324/" target="_blank">2016年四川省高等教育自学考试问题解答</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nshsfdxgybyyjsblzgyxgjzxdkhkqrsxdtz_324/" target="_blank">2017年上海师范大学关于毕业研究生办理中国银行国家助学贷款还款确认手续的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ncdhxlyswxxtszyzs_324/" target="_blank">2018年成都华夏旅游商务学校特色专业招生</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ngdsdzxxjgxxqjzsjh_324/" target="_blank">2018年广东省电子信息技工学校秋季招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nqddxyslbkzsjz_324/" target="_blank">2018年青岛大学艺术类本科招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nycxysfysxyzsjz_324/" target="_blank">2018年宜春学院书法艺术学院招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzjcmxyzsjz_324/" target="_blank">2018年浙江传媒学院招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nshzyydxgjzxdkjbzxzjsyglbfsx_324/" target="_blank">2017年上海中医药大学国家助学贷款奖补专项资金使用管理办法(试行)</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nshdegydxbkd3106gg_324/" target="_blank">2017年上海第二工业大学报考点（3106）公告</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nshzyydxgjzxdkssbf_324/" target="_blank">2017年上海中医药大学国家助学贷款实施办法</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nzbdxgyffbslqtzsdtz_324/" target="_blank">2017年中北大学关于发放博士录取通知书的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzbdxgyjstjmsgdssyjsdssbf_324/" target="_blank">2018年中北大学关于接收推荐免试攻读硕士研究生的实施办法</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxnykdxbkddm5109ssyjsrxksxcqrgzgg_324/" target="_blank">2018年西南医科大学报考点（代码：5109）硕士研究生入学考试现场确认工作公告</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nzbszyjsxyzsjz_324/" target="_blank">2017年长白山职业技术学院招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2017ngszfxypgzslqfsxtjb_324/" target="_blank">2017年甘肃政法学院普高招生录取分数线统计表</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ngdsyskdgzbmwzjbmjfxz_324/" target="_blank">2018年广东省艺术考点(广州)报名网址及报名缴费须知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbhdxyxydymsrxygsydtz_324/" target="_blank">2018年北华大学优秀运动员免试入学有关事宜的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbhdxyslzyzsjz_324/" target="_blank">2018年北华大学艺术类专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nyncjdxgspyddzsjzt_324/" target="_blank">2018年云南财经大学高水平运动队招生简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhbsptgzddksbkxz_324/" target="_blank">2018年河北省普通高职单独考试报考须知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018njskjdxszlgxyzzbzsjz_324/" target="_blank">2018年江苏科技大学苏州理工学院“专转本”招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njskjdxszlgxyzszccjssw_324/" target="_blank">2017年江苏科技大学苏州理工学院招生章程（除江苏省外）</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njskjdxszlgxyzszcjss_324/" target="_blank">2017年江苏科技大学苏州理工学院招生章程（江苏省）</a></li>
+<li><a href="http://www.qqje.com/newsView/2016njskjdxszlgxyzszcjss_324/" target="_blank">2016年江苏科技大学苏州理工学院招生章程（江苏省）</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njndxqcxylzsblqfsx_324/" target="_blank">2017年济南大学泉城学院历专升本录取分数线</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhdjtdxyszyzsjz_324/" target="_blank">2018年华东交通大学艺术专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ntjjdzyjsxyzszyjs_324/" target="_blank">2018年天津机电职业技术学院招生专业介绍</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ntjjdzyjsxycjkszsptgzbyszc_324/" target="_blank">2018年天津机电职业技术学院春季考试招收普通高中毕业生章程</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ntjjdzyjsxycjkszszzbyszc_324/" target="_blank">2018年天津机电职业技术学院春季考试招收中职毕业生章程</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzzxyyslzyzsjzsw_324/" target="_blank">2018年长治学院艺术类专业招生简章（省外）</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nfsskwjgjjgxxzsjzt_324/" target="_blank">2018年抚顺市矿务局高级技工学校招生简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018njskjdxszlgxyzzbzsjh_324/" target="_blank">2018年江苏科技大学苏州理工学院“专转本”招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017njskjdxszlgxyqgzsjht_324/" target="_blank">2017年江苏科技大学苏州理工学院全国招生计划(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2016njskjdxszlgxyzszccjssw_324/" target="_blank">2016年江苏科技大学苏州理工学院招生章程（除江苏省外）</a></li>
+<li><a href="http://www.qqje.com/newsView/2016njskjdxszlgxyqgzsjht_324/" target="_blank">2016年江苏科技大学苏州理工学院全国招生计划(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2016njskjdxszlgxyfzylqfsqkt_324/" target="_blank">2016年江苏科技大学苏州理工学院分专业录取分数情况(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2016njskjdxszlgxylqfsxjsst_324/" target="_blank">2016年江苏科技大学苏州理工学院录取分数线（江苏省）(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsdtyxyyslzyzsjz_324/" target="_blank">2018年山东体育学院艺术类专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzgnydxgspystzsjz_324/" target="_blank">2018年中国农业大学高水平艺术团招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhnnydxyslxkzyzsjz_324/" target="_blank">2018年华南农业大学艺术类(校考专业)招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018njssptgxdkdzhmxzzxszcrxbmgzdtz_324/" target="_blank">2018年江苏省普通高校对口单招和面向中职学生注册入学报名工作的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsbnkmddzypxxxzsxm_324/" target="_blank">2018年上半年昆明滇大职业培训学校招生项目</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nscdxcrjxjyxymszyjsxycjzsjz_324/" target="_blank">2018年四川大学成人继续教育学院-眉山职业技术学院春季招生简章</a></li>
+</ul><ul class="clearfix undisplay">
+<li><a href="http://www.qqje.com/newsView/2018nnjxzyjsjyzxcjzsjzt_324/" target="_blank">2018年宁晋县职业技术教育中心春季招生简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018njzzyjsxynzszyylb_324/" target="_blank">2018年荆州职业技术学院拟招生专业一览表</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsxdlzyxyddzsgzfa_324/" target="_blank">2018年三峡电力职业学院单独招生工作方案</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsdszksbkzsksbmgzdtz_324/" target="_blank">2018年山东省专科升本科招生考试报名工作的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsqzyjsxytqzsjz_324/" target="_blank">2018年宿迁职业技术学院提前招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjjjjszyxyzszyzsjzt_324/" target="_blank">2018年北京经济技术职业学院自设专业招生简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhljgbdsdxcjzsjzt_324/" target="_blank">2018年黑龙江广播电视大学春季招生简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhnlgdxgyzhdjbsyjsfslqgzdtz_324/" target="_blank">2018年河南理工大学关于做好冬季博士研究生复试录取工作的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nccysgbdsdxzsjzt_324/" target="_blank">2018年春朝阳市广播电视大学招生简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsmxzyjsxyddzsjz_324/" target="_blank">2018年三门峡职业技术学院单独招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nakxyyslzsjz_324/" target="_blank">2018年安康学院艺术类招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsxsptgxyslzszyktkcj_324/" target="_blank">2018年陕西省普通高校艺术类招生专业课统考成绩</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhhxyzjxsyllwdlzyzsjj_324/" target="_blank">2018年怀化学院在江西省音乐类、舞蹈类专业招生简介</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhbgtzyzyxyddzsgzfa_324/" target="_blank">2018年湖北国土资源职业学院单独招生工作方案</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nylzyjsxydzjzt_324/" target="_blank">2018年杨凌职业技术学院单招简章(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzzqgyxynzzzxksftfjh_324/" target="_blank">2018年郑州轻工业学院拟在组织校考省份投放计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ngssptgzzksbkzsjhgb_324/" target="_blank">2018年甘肃省普通高职（专科）升本科招生计划公布</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ndndxgspyddzsjz_324/" target="_blank">2018年东南大学高水平运动队招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhhxyzynsyslzyzsjj_324/" target="_blank">2018年怀化学院在云南省艺术类专业招生简介</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzgdzdxwhbsszsjz_324/" target="_blank">2018年中国地质大学（武汉）保送生招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhhxyzhbswdlzyzsjj_324/" target="_blank">2018年怀化学院在河北省舞蹈类专业招生简介</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhhxyzhbsmslzyzsjj_324/" target="_blank">2018年怀化学院在河北省美术类专业招生简介</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhhxyzhbsylxzyzsjj_324/" target="_blank">2018年怀化学院在河北省音乐学专业招生简介</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nynsfdxsxyzslqjggshn_324/" target="_blank">2017年云南师范大学商学院招生录取结果公示（湖南）</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzgdzdxwhgspystzsjz_324/" target="_blank">2018年中国地质大学（武汉）高水平艺术团招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsdjzdxyslzyzszc_324/" target="_blank">2018年山东建筑大学艺术类专业招生章程</a></li>
+<li><a href="http://www.qqje.com/newsView/2018njssptgxdkdzzyjnkskdysjapb_324/" target="_blank">2018年江苏省普通高校对口单招专业技能考试考点与时间安排表</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nnmgjdjsxyddzskskdzxdhylb_324/" target="_blank">2018年内蒙古机电技师学院单独招生考试考点咨询电话一览表</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nynsfdxsxyzslqjggsaht_324/" target="_blank">2017年云南师范大学商学院招生录取结果公示（安徽）(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhnsfdxyslxkzsjhkskmjqfz_324/" target="_blank">2018年海南师范大学艺术类校考招生计划、考试科目及其分值</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nycxyyslzyzsjz_324/" target="_blank">2018年宜春学院艺术类专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxbgydxgylqcjrxbslqtzsdtz_324/" target="_blank">2018年西北工业大学关于领取春季入学博士录取通知书的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxbgydxcjrxbsyjsbdxz_324/" target="_blank">2018年西北工业大学春季入学博士研究生报到须知</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhfzgkjdxycjyzsjz_324/" target="_blank">2018年合肥职工科技大学远程教育招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxndxmslfzyfssjyszybkzsjz_324/" target="_blank">2018年西南大学美术类、服装与服饰设计艺术专业本科招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nlyslgxxcjzssc_324/" target="_blank">2018年临沂市理工学校春季招生手册</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ngdcjdxbkcbszsksybmzysxhxcbmqrlc_324/" target="_blank">2018年广东财经大学本科插班生招生考试预报名注意事项和现场报名确认流程</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ndndxcxxyzzbzsjh_324/" target="_blank">2018年东南大学成贤学院“专转本”招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzgsydxgyyzgspyddzsbmsjdtz_324/" target="_blank">2018年中国石油大学关于延长高水平运动队招生报名时间的通知</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nsdlgzyxyzszyszt_324/" target="_blank">2017年山东理工职业学院招生专业设置(图)</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzdzyjsxygzyxtqzszc_324/" target="_blank">2018年正德职业技术学院高职院校提前招生章程</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nsxwlxysfxsfbkzyzsjz_324/" target="_blank">2018年绍兴文理学院书法学（师范）本科专业招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ndlhsdxbsszsjz_324/" target="_blank">2018年大连海事大学保送生招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nbjgsdxyslmslzsjk_324/" target="_blank">2018年北京工商大学艺术类(美术类)招生简况</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nzgnydxbsszsjz_324/" target="_blank">2018年中国农业大学保送生招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxajtdxgspyddzsjz_324/" target="_blank">2018年西安交通大学高水平运动队招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nxndxyllwdxyszybkzsjz_324/" target="_blank">2018年西南大学音乐类、舞蹈学艺术专业本科招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018ndzxyyslzsjz_324/" target="_blank">2018年德州学院艺术类招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nwhzyxyptgdjyyslzszc_324/" target="_blank">2018年威海职业学院普通高等教育艺术类招生章程</a></li>
+<li><a href="http://www.qqje.com/newsView/2018nhnyszyxycrjxjyzyylxyzsbzsjz_324/" target="_blank">2018年湖南艺术职业学院成人继续教育中央音乐学院专升本招生简章</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyhnzsjhscpqUa_324/" target="_blank">2017年湖南文理学院湖南招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxygdzsjh_324/" target="_blank">2017年湖南文理学院广东招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxygxzsjh_324/" target="_blank">2017年湖南文理学院广西招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxysczsjh_324/" target="_blank">2017年湖南文理学院四川招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyzqzsjh_324/" target="_blank">2017年湖南文理学院重庆招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyhnzsjhUM4h8U_324/" target="_blank">2017年湖南文理学院海南招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyynzsjh_324/" target="_blank">2017年湖南文理学院云南招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyxzzsjh_324/" target="_blank">2017年湖南文理学院西藏招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxysxzsjh031G95_324/" target="_blank">2017年湖南文理学院陕西招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxygszsjh_324/" target="_blank">2017年湖南文理学院甘肃招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyxjzsjh_324/" target="_blank">2017年湖南文理学院新疆招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxytjzsjh_324/" target="_blank">2017年湖南文理学院天津招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyhbzsjh9XYIGb_324/" target="_blank">2017年湖南文理学院河北招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxysxzsjh_324/" target="_blank">2017年湖南文理学院山西招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyhljzsjh_324/" target="_blank">2017年湖南文理学院黑龙江招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyjlzsjh_324/" target="_blank">2017年湖南文理学院吉林招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxylnzsjh_324/" target="_blank">2017年湖南文理学院辽宁招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxynmgzsjh_324/" target="_blank">2017年湖南文理学院内蒙古招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyshzsjh_324/" target="_blank">2017年湖南文理学院上海招生计划</a></li>
+<li><a href="http://www.qqje.com/newsView/2017nhnwlxyjszsjh_324/" target="_blank">2017年湖南文理学院江苏招生计划</a></li>
+</ul><ul class="clearfix undisplay">
+<li><a href="http://www.qqje.com/q/2017nnlzxfsx8g2Wj9_2964/">2017年宁鲁中学录取分数</a></li><li><a href="http://www.qqje.com/q/2017nbzsydyzxfsx_2964/">2017年巴州石油第一中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nwwsezfsx_2964/">2017年武威十二中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017ntzszfsxN8GQ7h_2964/">2017年天祝三中分数线</a></li><li><a href="http://www.qqje.com/q/2017nwlmqtlfjsstzfsx_2964/">2017年乌鲁木齐铁路分局鄯善铁中多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nhyzxfsxDW8CW1_2964/">2017年海原中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017ntlzlzxfsx_2964/">2017年铁路自立中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nszzxfsxIvJ3Jy_2964/">2017年肃州中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nkelszfsxMMU53H_2964/">2017年库尔勒三中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nclmsgzfsx_2964/">2017年春玲美术高中录取分数</a></li><li><a href="http://www.qqje.com/q/2017njcjcjtgsyzfsx_2964/">2017年金昌金川集团公司一中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nssxqktzszfsx_2964/">2017年鄯善县七克台镇三中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nxczxfsxW9Wfwo_2964/">2017年西城中学录取分数</a></li><li><a href="http://www.qqje.com/q/2017nqtszfsx_2964/">2017年奇台三中多少分能上</a></li><li><a href="http://www.qqje.com/q/2017ndsxxfsx4yXYRe_2964/">2017年大升学校多少分能上</a></li><li><a href="http://www.qqje.com/q/2017naltezfsx_2964/">2017年阿勒泰二中录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nhxwzfsxoeART2_2964/">2017年徽县五中多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nywstzxfsx_2964/">2017年英吾斯坦中学录取分数</a></li><li><a href="http://www.qqje.com/q/2017ngxszfsxKH96SL_2964/">2017年高新三中 录取分数</a></li><li><a href="http://www.qqje.com/q/2017nmhxgszxfsx_2964/">2017年民和县古鄯中学分数线</a></li><li><a href="http://www.qqje.com/q/2017nmyyzfsxE3PK0l_2964/">2017年墨玉一中分数线</a></li><li><a href="http://www.qqje.com/q/2017njsszfsx2C9HVX_2964/">2017年建水三中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nypzxfsxfysXpM_2964/">2017年永坪中学分数线</a></li><li><a href="http://www.qqje.com/q/2017nbjejzxfsx_2964/">2017年宝鸡二建子校分数线</a></li><li><a href="http://www.qqje.com/q/2017nmgezfsx5BdGDH_2964/">2017年马关二中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nssxdkexyzkzxfsx_2964/">2017年鄯善县迪坎尔乡也扎坎中学多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nymezfsxrdn5Ij_2964/">2017年裕民二中分数线</a></li><li><a href="http://www.qqje.com/q/2017ntskegxzxfsx_2964/">2017年塔什库尔干县中学录取分数</a></li><li><a href="http://www.qqje.com/q/2017nlczxfsxaEEG18_2964/">2017年洛川中学多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nbszxfsxs6xJwe_2964/">2017年白水中学多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nmkjxczdzxfsx_2964/">2017年煤矿机械厂子弟中学分数线</a></li><li><a href="http://www.qqje.com/q/2017nlzllyzfsx_2964/">2017年兰州兰炼一中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nztxxzxbfsx_2964/">2017年中铁学校中学部分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nglbyzxfsx_2964/">2017年郭勒布衣中学录取分数</a></li><li><a href="http://www.qqje.com/q/2017ntlfsptxyszxfsx_2964/">2017年吐鲁番市葡萄乡洋沙中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nzlzxfsx2fjxrI_2964/">2017年周陵中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nxnwzfsx_2964/">2017年西宁五中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017njsyzfsxDxAw4H_2964/">2017年建水一中分数线</a></li><li><a href="http://www.qqje.com/q/2017nxrzxfsxkq870D_2964/">2017年兴仁中学分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017ndwmzzxfsx_2964/">2017年大武民族中学分数线</a></li><li><a href="http://www.qqje.com/q/2017ntgzxfsxvr23b6_2964/">2017年潼关中学分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nhsyzfsxXA8E7C_2964/">2017年合水一中分数线</a></li><li><a href="http://www.qqje.com/q/2017nqztlhyxxfsx_2964/">2017年青藏铁路花园学校录取分数</a></li><li><a href="http://www.qqje.com/q/2017nwlmqqzfsx_2964/">2017年乌鲁木齐七中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nwlmqesszfsx_2964/">2017年乌鲁木齐二十三中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nlszxfsx0X906N_2964/">2017年两水中学多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nqlszxfsx_2964/">2017年祁连山中学多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nbyyzxxfsx_2964/">2017年白银育正学校分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nwsszfsxt3hwE7_2964/">2017年温宿三中录取分数线</a></li><li><a href="http://www.qqje.com/q/2017ndmzzzxfsx_2964/">2017年墩麻扎镇中学录取分数</a></li><li><a href="http://www.qqje.com/q/2017nxjhmzxfsx_2964/">2017年西吉回民中学录取分数</a></li><li><a href="http://www.qqje.com/q/2017nhnzzxfsx_2964/">2017年黄南州中学分数线</a></li><li><a href="http://www.qqje.com/q/2017nhmsyzxfsx_2964/">2017年哈密实验中学分数线</a></li><li><a href="http://www.qqje.com/q/2017nldszfsxtP4n26_2964/">2017年隆德三中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nrqxzxfsx_2964/">2017年若羌县中学多少分能上</a></li><li><a href="http://www.qqje.com/q/2017nzjsmzxfsx_2964/">2017年张家上磨中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nhzmzzxfsx_2964/">2017年互助民族中学录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nxndyslgzfsx_2964/">2017年西宁第一私立高中 录取分数线</a></li><li><a href="http://www.qqje.com/q/2017njygwzfsx_2964/">2017年嘉峪关五中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nxawsyzfsx_2964/">2017年西安五十一中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nwlmqszfsxQIb4Dh_2964/">2017年乌鲁木齐三中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nymzxfsxElKKX9_2964/">2017年岳庙中学分数线</a></li><li><a href="http://www.qqje.com/q/2017nwlmqsyxxfsx_2964/">2017年乌鲁木齐实验学校分数线</a></li><li><a href="http://www.qqje.com/q/2017nlzlhgszxxszfsx_2964/">2017年兰州兰化公司中小学三中分数线</a></li><li><a href="http://www.qqje.com/q/2017ncxyzfsxBOgaoG_2964/">2017年成县一中录取分数线</a></li><li><a href="http://www.qqje.com/q/2017nwwszfsxES2Mcd_2964/">2017年武威四中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nwlzxfsxAj9hVe_2964/">2017年尉犁中学分数线</a></li><li><a href="http://www.qqje.com/q/2017nrkzezfsx_2964/">2017年日喀则二中录取分数</a></li><li><a href="http://www.qqje.com/q/2017nxatlyzfsx_2964/">2017年西安铁路一中多少分能上</a></li><li><a href="http://www.qqje.com/q/2017ntehzxfsx_2964/">2017年吐尔洪中学分数线</a></li><li><a href="http://www.qqje.com/q/2017ncjzdyzfsx_2964/">2017年昌吉州第一中分数线是多少</a></li><li><a href="http://www.qqje.com/q/2017nsrslzxfsx_2964/">2017年树人私立中学录取分数</a></li>
+</ul>
+<ul class="clearfix undisplay">
+<li><a href="http://www.qqje.com/q/2016nkssfzkcfrq_4015/">2016年喀什疏附中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nqyzyzkcfrq_4015/">2016年庆阳镇原中考查分日期</a></li><li><a href="http://www.qqje.com/q/2016nsgqjzkcfrq_4015/">2016年韶关曲江中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2017zqgkcjnlkyc_4016/">2017重庆高考成绩哪里可以查</a></li><li><a href="http://www.qqje.com/q/2017nxzgklqjgsmshclzmcx_4016/">2017年西藏高考录取结果什么时候出来？怎么查询</a></li><li><a href="http://www.qqje.com/q/xjgkcjsmshcl2017_4016/">新疆高考成绩什么时候出来2017</a></li><li><a href="http://www.qqje.com/q/2017ngdgksmshccj_4016/">2017年广东高考什么时候出成绩</a></li><li><a href="http://www.qqje.com/q/2016nrzrzzkcfwz_4015/">2016年日照中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2017sxgkcfdwzssm_4015/">2017山西高考查分的网址是什么</a></li><li><a href="http://www.qqje.com/q/2017nahgkcjgbsj_4016/">2017年安徽高考成绩公布时间？</a></li><li><a href="http://www.qqje.com/q/2017nngwzkcxzjgkcj_4016/">2017年那个网站可查询浙江高考成绩</a></li><li><a href="http://www.qqje.com/q/2016npthjzkcfrq_4015/">2016年莆田涵江中考查分日期</a></li><li><a href="http://www.qqje.com/q/2017nzqgkcjzmcx_4016/">2017年重庆高考成绩怎么查询</a></li><li><a href="http://www.qqje.com/q/2016nqdnklzkcfrq_4015/">2016年黔东南凯里中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2016njlsslzkcfrq_4015/">2016年吉林市舒兰中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nbdxxzkcfrq_4015/">2016年保定雄县中考查分日期</a></li><li><a href="http://www.qqje.com/q/2016nhldxczkcfrq_4015/">2016年葫芦岛兴城中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nbdbyzkcfrq_4015/">2016年保定博野中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2017nngwzkcxhbgkcj_4015/">2017年那个网站可查询河北高考成绩</a></li><li><a href="http://www.qqje.com/q/2017nnmggkcxrkssm_4015/">2017年内蒙古高考查询入口是什么</a></li><li><a href="http://www.qqje.com/q/2016nylylzkcfwz_4015/">2016年榆林中考成绩查询时间</a></li><li><a href="http://www.qqje.com/q/2017njnxjgkznlcfs_4016/">2017年今年新疆高考在哪里查分数？？？</a></li><li><a href="http://www.qqje.com/q/2017njlgkwcjcxxtwzssm_4015/">2017年吉林高考网成绩查询系统网址是什么</a></li><li><a href="http://www.qqje.com/q/2016njxjxzkcfwz_4015/">2016年鸡西中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2016ndxdxzkcfwz_4015/">2016年定西中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2016nshmxzkcfrq_4015/">2016年上海闵行中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016ngzbtzkcfrq_4015/">2016年甘孜巴塘中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2016nbdspzkcfrq_4015/">2016年保定顺平中考查分日期</a></li><li><a href="http://www.qqje.com/q/2017ngsgklqjgsmshclzmcx_4016/">2017年甘肃高考录取结果什么时候出来？怎么查询</a></li><li><a href="http://www.qqje.com/q/2017jlgksmshccj_4015/">2017吉林高考什么时候出成绩</a></li><li><a href="http://www.qqje.com/q/2016nlsxdzkcfrq_4015/">2016年凉山喜德中考查分日期</a></li><li><a href="http://www.qqje.com/q/2016ncztzzkcfrq_4015/">2016年滁州天长中考成绩查询时间</a></li><li><a href="http://www.qqje.com/q/2017nhngkcjzmcxLyaXI9_4016/">2017年海南高考成绩怎么查询？</a></li><li><a href="http://www.qqje.com/q/2016nwwmqzkcfrq_4015/">2016年武威民勤中考成绩查询时间</a></li><li><a href="http://www.qqje.com/q/2016ngzsdzkcfrq_4015/">2016年甘孜色达中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2016ncycyzkcfwz_4015/">2016年朝阳中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2016ngzkdzkcfrq_4015/">2016年甘孜康定中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2016njnjnzkcfwz_4015/">2016年济南中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2017nhbgkcjzmcxdl5N3p_4016/">2017年湖北高考成绩怎么查询？</a></li><li><a href="http://www.qqje.com/q/2016nwlcbmcheyyhqzkcfrq_4015/">2016年乌兰察布盟察哈尔右翼后旗中考查分日期</a></li><li><a href="http://www.qqje.com/q/2016nyayazkcfwz_4015/">2016年雅安中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2016nbctnzkcfrq_4015/">2016年白城洮南中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2016njjdazkcfrq_4015/">2016年九江德安中考成绩查询时间</a></li><li><a href="http://www.qqje.com/q/2016nfxzwzkcfrq_4015/">2016年阜新彰武中考查分日期</a></li><li><a href="http://www.qqje.com/q/2017hngkcjcxsjszwhswsEjWXJk_4016/">2017海南高考成绩查询时间是中午还是晚上</a></li><li><a href="http://www.qqje.com/q/2016nyjjcqzkcfrq_4015/">2016年阳江江城区中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2016nqhdhgzkcfrq_4015/">2016年秦皇岛海港中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nhdfxzkcfrq_4015/">2016年邯郸肥乡中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2017nngwzkcxxjgkcj_4016/">2017年那个网站可查询新疆高考成绩</a></li><li><a href="http://www.qqje.com/q/2016nbhbhzkcfwz_4015/">2016年北海中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016ntslnzkcfrq_4015/">2016年唐山路南中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016naqaqzkcfwz_4015/">2016年安庆中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nabrtzkcfrq_4015/">2016年阿坝壤塘中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nsykpzkcfrq_4015/">2016年沈阳康平中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nhyhyzkcfwz_4015/">2016年河源中考成绩查询日期</a></li><li><a href="http://www.qqje.com/q/2017njnbjgkznlcfs_4015/">2017年今年北京高考在哪里查分数？？？</a></li><li><a href="http://www.qqje.com/q/2016nlzlzzkcfrq_4015/">2016年柳州鹿寨中考查分日期</a></li><li><a href="http://www.qqje.com/q/2016ngygyzkcfwz_4015/">2016年固原中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nzjkyxzkcfrq_4015/">2016年张家口蔚县中考查分日期</a></li><li><a href="http://www.qqje.com/q/2017sxgkzmcxlqqk_4015/">2017山西高考怎么查询录取情况</a></li><li><a href="http://www.qqje.com/q/2016nsjzwjzkcfrq_4015/">2016年石家庄无极中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016nlfaczkcfrq_4015/">2016年廊坊安次中考查分日期</a></li><li><a href="http://www.qqje.com/q/2017bjgkzmcxlqqk_4015/">2017北京高考怎么查询录取情况</a></li><li><a href="http://www.qqje.com/q/2016nlyzpzkcfrq_4015/">2016年龙岩漳平中考查分日期</a></li><li><a href="http://www.qqje.com/q/2017gzgkcjcxsjszwhsws_4016/">2017贵州高考成绩查询时间是中午还是晚上</a></li><li><a href="http://www.qqje.com/q/2016nwzcwzkcfrq_4015/">2016年梧州苍梧中考成绩什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2017njngdgkznlcfs_4016/">2017年今年广东高考在哪里查分数？？？</a></li><li><a href="http://www.qqje.com/q/2016nsrsrzkcfwz_4015/">2016年上饶中考查分日期</a></li><li><a href="http://www.qqje.com/q/2016nlywpzkcfrq_4015/">2016年龙岩武平中考查分日期</a></li><li><a href="http://www.qqje.com/q/2016nsmtnzkcfrq_4015/">2016年三明泰宁中考成绩查分什么时候可以查询</a></li><li><a href="http://www.qqje.com/q/2016ncyjpzkcfrq_4015/">2016年朝阳建平中考成绩查分时间</a></li><li><a href="http://www.qqje.com/q/2017njxgkcjgbsj_4016/">2017年江西高考成绩公布时间？</a></li>
+</ul></div></div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="bottom" class="bottom clearfix"> 
+<style>
+ 
+.qr_code_pc {
+    background-color: #fff;
+    border: 1px solid #d9dadc;
+    padding: 16px;
+    position: absolute; 
+    top: 0;
+}
+.qr_code_pc p{width:100px;
+}
+.qr_code_pc_outer { 
+    bottom: 150px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    color: #8c8c8c;
+    font-size: 12px; 
+    padding-bottom: 3px;
+    padding-top: 1px;
+    position: fixed;
+    text-align: center;
+    height:60px;
+    z-index: 9999;
+    left:0px;
+}
+.qr_code_pc_inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+}
+</style>
+<div style="display: block;" class="qr_code_pc_outer">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img class="qr_code_pc_img" id="js_pc_qr_code_img" src="http://www.qqje.com/ewm.jpg" width="102" height="102" data-bd-imgshare-binded="1">
+                        <p>微信扫一扫<br>咨询技校问题</p>
+                       </div>
+                </div>
+            </div>
+<p><a href="http://www.qqje.com/JEHtml/aboutUs/" rel="nofollow">关于我们</a><a href="http://www.qqje.com/JEHtml/contactUs/" rel="nofollow">联系我们</a>
+ <a href="http://www.qqje.com/JEHtml/sm/" target="_self">网站申明</a>  
+<a target="_blank" href="http://www.miitbeian.gov.cn" rel="nofollow">粤ICP备07056364号-2</a> 
+
+</p><div style="width:300px;margin:0 auto; padding:20px 0;">
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44088202000001" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.qqje.com/gaba.png" style="float:left;" data-bd-imgshare-binded="1"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤公网安备 44088202000001号</p></a>
+</div>
+<style>.bottom jixiao1 , .bottom jixiao2 { font-size:13px;display: inline;}  #bottom a { padding:0 2px;!important} .bottom .link{ float:left;}</style>
+
+ &nbsp;本站QQ官方微博:@jixiaoJE &nbsp; 
+ <a href="tencent://message/?uin=1248057706&amp;Site=JE技校&amp;Menu=yes" target="blank"><img border="0" alt="QQ:1248057706" src="http://wpa.qq.com/pa?p=1:1248057706:10" data-bd-imgshare-binded="1">1248057706</a><p></p>
+<p>&nbsp;Copyright ©2009-2015&nbsp;&nbsp;www.qqje.com&nbsp;&nbsp;All Rights Reserved.</p> 
+ <p><jixiao1>JE技校网 , 中国技校品牌网！</jixiao1><jixiao1><a title="中专" href="http://www.qqje.com/">中专</a></jixiao1><jixiao1><a title="技校" href="http://www.qqje.com/">技校</a></jixiao1><jixiao2><a title="技术学校" href="http://www.qqje.com/">技术学校</a></jixiao2><jixiao2><a title="职业技术学校" href="http://www.qqje.com/">职业技术学校</a></jixiao2></p>
+ <p class="link"><b>友情链接:</b> 
+ <a title="北京技校" href="http://beijing.qqje.com">北京技校</a>
+<a title="上海技校" href="http://shanghai.qqje.com">上海技校</a>
+<a title="天津技校" href="http://tianjin.qqje.com">天津技校</a>
+<a title="重庆技校" href="http://zhongqing.qqje.com">重庆技校</a>
+<a title="深圳技校" href="http://shenzhen.qqje.com">深圳技校</a>
+<a title="广州技校" href="http://guangzhou.qqje.com">广州技校</a>
+<a title="郑州技校" href="http://zhengzhou.qqje.com">郑州技校</a> 
+</p> &nbsp;
+</div>  
+<br><br>
+﻿<div id="share-container" class="clearfix">
+<div class="bottom-share-rec">
+ <div id="left"><div class="bdsharebuttonbox bdshare-button-style0-32" data-bd-bind="1515481617130"><span id="shareText" class="changecolor1">分享</span><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到一键分享" href="#" class="bds_mshare" data-cmd="mshare"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到百度新首页" href="#" class="bds_bdhome" data-cmd="bdhome"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a><a title="分享到百度云收藏" href="#" class="bds_bdysc" data-cmd="bdysc"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{},"image":{"viewList":["mshare","qzone","tsina","tqq","bdhome","renren","weixin","bdysc","hi"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["mshare","qzone","tsina","tqq","bdhome","renren","weixin","bdysc","hi"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    </div>
+<div id="right">  
+<div class="jx-rec">
+<span id="remaincolor" class="changecolor1">JE技校:</span> <a href="http://zhejiang.qqje.com/" target="浙江技校网">浙江技校网</a>
+ <a target="浙江技校排名" href="http://www.qqje.com/rank/zhejiangjixiaopaiming.html">浙江技校排名</a>
+ <a target="浙江技校招生信息" href="http://2017zhaosheng.qqje.com/ZhaoSheng2017/zhejiang.html">浙江技校招生</a>
+ <a target="浙江所有国家重点技校" href="http://www.qqje.com/zhongdianjixiao/zhejiang.html">浙江重点技校</a>
+ <a href="http://www.qqje.com/gongban/zhejiang.html" target="浙江所有公办技校">浙江公办技校</a>
+<br> 更 多 :<a target="全国技校排行榜" href="http://jixiaopaiming.qqje.com/">全国技校排名</a>
+ <a title="2017年全国各地技校招生简章" href="http://2017zhaosheng.qqje.com/">2017技校招生</a>
+ <a title="女生技校专业" href="http://jixiaonvshengzhuanye.qqje.com/">10大女生专业</a>
+ <a title="男生技校专业" href="http://nanshengjixiaozhuanye.qqje.com/">10大男生专业</a>
+ <a target="2016年浙江技校招生信息" href="http://2016zhaosheng.qqje.com/ZhaoSheng2016/zhejiang.html">2016招生</a> 
+ <a title="广州技校" href="http://guangzhou.qqje.com">广州</a>
+</div></div>
+</div>
+</div> 
+<script type="text/javascript">
+	var i=0;
+	function blink(){
+		document.getElementById("remaincolor").className="changecolor"+i%2;
+		document.getElementById("shareText").className="changecolor"+i%2;
+		i++;
+	}
+	setInterval(blink, 500);
+</script><div class="hidden"><script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe9140309497b2315fe5d9bd385357a97' type='text/javascript'%3E%3C/script%3E"));
+</script><script src=" http://hm.baidu.com/h.js?e9140309497b2315fe5d9bd385357a97" type="text/javascript"></script>
+</div>
+<iframe frameborder="0" id="bdSharePopup_selectshare1515481617140bg" class="bdselect_share_bg" style="display:none;"></iframe><div id="bdSharePopup_selectshare1515481617140box" style="display:none;" share-type="selectshare" class="bdselect_share_box" data-bd-bind="1515481617140"><div class="selectshare-mod-triangle"><div class="triangle-border"></div><div class="triangle-inset"></div></div><div class="bdselect_share_head"><span>分享到</span><a href="http://www.baidu.com/s?wd=&amp;tn=SE_hldp08010_vurs2xrp" class="bdselect_share_dialog_search" target="_blank"><i class="bdselect_share_dialog_search_i"></i><span class="bdselect_share_dialog_search_span">百度一下</span></a><a class="bdselect_share_dialog_close"></a></div><div class="bdselect_share_content"><ul class="bdselect_share_list bdshare-button-style0-32"><div class="bdselect_share_partners"></div><a href="#" class="bds_more" data-cmd="more"></a></ul></div></div><div id="bdimgshare_1515481617145" class="sr-bdimgshare sr-bdimgshare-list sr-bdimgshare-16 sr-bdimgshare-black" style="height:36px;line-height:26px;font-size:12px;width:autopx;display:none;" data-bd-bind="1515481617145"><div class="bdimgshare-bg"></div><div class="bdimgshare-content bdsharebuttonbox bdshare-button-style0-16"><label class="bdimgshare-lbl">分享到：</label><a href="#" onclick="return false;" class="bds_mshare" data-cmd="mshare" hidefocus=""></a><a href="#" onclick="return false;" class="bds_qzone" data-cmd="qzone" hidefocus=""></a><a href="#" onclick="return false;" class="bds_tsina" data-cmd="tsina" hidefocus=""></a><a href="#" onclick="return false;" class="bds_tqq" data-cmd="tqq" hidefocus=""></a><a href="#" onclick="return false;" class="bds_bdhome" data-cmd="bdhome" hidefocus=""></a><a href="#" onclick="return false;" class="bds_renren" data-cmd="renren" hidefocus=""></a><a href="#" onclick="return false;" class="bds_weixin" data-cmd="weixin" hidefocus=""></a><a href="#" onclick="return false;" class="bds_bdysc" data-cmd="bdysc" hidefocus=""></a><a href="#" onclick="return false;" class="bds_hi" data-cmd="hi" hidefocus=""></a><a href="#" onclick="return false;" class="bds_more" data-cmd="more" hidefocus=""></a></div></div></body></html>

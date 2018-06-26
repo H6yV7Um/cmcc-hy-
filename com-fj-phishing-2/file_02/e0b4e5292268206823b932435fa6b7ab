@@ -1,0 +1,1269 @@
+<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="zh-CN">
+<meta name="author" content="POWEREC">
+<meta name="Description" content="国家开发投资公司电子采购平台">
+<meta name="Copyright" content="国家开发投资公司电子采购平台 版权所有，请勿转载">
+<meta name="KeyWords" content="国家开发投资公司电子采购平台, 电子商务平台，招标采购，电子招标，电子采购">
+<meta name="revisit-after" content="7 days">
+<meta name="robots" content="all">
+<title>国家开发投资公司电子采购平台</title>
+<link rel="stylesheet" type="text/css" href="/r/cms/www/default/css/base.css">
+<script type="text/javascript" language="javascript" src="/r/cms/www/default/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" language="javascript" src="/r/cms/www/default/js/jQuery.blockUI.js"></script>
+<script type="text/javascript" language="javascript" src="/r/cms/www/default/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" language="javascript" src="/r/cms/www/default/js/tipswindown.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript">
+/*
+*弹出本页指定ID的内容于窗口
+*id 指定的元素的id
+*title:	window弹出窗的标题
+*width:	窗口的宽,height:窗口的高
+*/
+function showTipsWindown(title,id,width,height){
+	tipsWindown(title,"id:"+id,width,height,"true","","true",id);
+}
+
+function confirmTerm(s) {
+	parent.closeWindown();
+	if(s == 1) {
+		parent.document.getElementById("isread").checked = true;
+	}
+}
+
+//弹出层调用
+function popTips(){
+	showTipsWindown("联系方式", 'simTestContent', 800, 200);
+	$("#isread").attr("checked", false);
+}
+
+$(document).ready(function(){
+	
+	$("#isread").click(popTips);
+	$("#isread-text").click(popTips);
+	$("#isread22").click(popTips);
+	
+});
+   </script>
+
+
+
+<script type="text/javascript">
+// 设置为主页
+function SetHome(obj,vrl){
+try{
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+}
+catch(e){
+if(window.netscape) {
+try {
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+}
+catch (e) {
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+}
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+prefs.setCharPref('browser.startup.homepage',vrl);
+}else{
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+}
+}
+}
+// 加入收藏 兼容360和IE6
+function shoucang(sTitle,sURL)
+{
+try
+{
+window.external.addFavorite(sURL, sTitle);
+}
+catch (e)
+{
+try
+{
+window.sidebar.addPanel(sTitle, sURL, "");
+}
+catch (e)
+{
+alert("加入收藏失败，请使用Ctrl+D进行添加");
+}
+}
+}
+</script> 
+<div id="header" class="header">
+    <div class="top-bg">
+    	<div class="top-nav">
+            <!--------用户登录前-------->
+            <div class="tn-login">
+                <div class="tn-link">您好，欢迎来到国家开发投资公司电子采购平台!</div>
+                <div class="tn-link"><a target="_blank" style="margin-top:8px;" href="/ebidding"><img border="0" src="/r/cms/www/default/images/login.png"></a></div>
+                 <div class="tn-link"><a target="_blank" style="margin-top:8px;margin-left:8px;" href="/ebidding/SysRegAction.do?&amp;method=register&amp;no_sitemesh&amp;sid=zmzb"><img border="0" src="/r/cms/www/default/images/regist.png"></a></div>
+            </div>
+            <!--------用户登录后-------->
+            <!--
+            <div class="tn-login">
+                <div class="tn-link">欢迎您</div>
+                <div class="tn-link"><a href="###"><span>国家开发投资公司电子采购平台!</span></a></div>
+                <div class="tn-link"><a href="###"><span>退出</span></a></div>
+            </div>
+            -->
+            <div class="tn-items">
+              <!--------   <div class="tn-link"><a href="javascript:void(0)" onclick="SetHome(this,window.location)"><span>设为首页</span></a></div>-------->
+              <!--------    <div class="tn-link"><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"><span>加入收藏</span></a></div> -------->
+                <div class="tn-link"><a href="/zlxzt/index.jhtml"><span>帮助中心</span></a></div>
+            </div>
+        </div>
+    </div>
+    <!--  banner  -->
+    <div class="banner">
+    	<!--  logo  -->
+    	<div class="logo"><a href="###" title="国家开发投资招标有限责任公司"><h1>国家开发投资招标有限责任公司</h1></a></div>
+        
+        
+
+    </div>
+    
+    <!--  导航菜单  -->
+    <div class="navigate">
+    	<ul class="menu">
+		
+		 
+                <li class="m1cur2"><a href="http://eps.sdic.com.cn/"><span>网站首页</span><!--span class="en">Home</span--></a></li>
+				<li class="mline" style="width:2px; height:44px; "></li>
+		
+              <li onmouseover="document.getElementById('bidMenu181').style.display='block';" onmouseout="document.getElementById('bidMenu181').style.display='none';">
+                <a href="/gsjj/index.jhtml"><span>公司信息</span><!--span class="en"></span--></a>
+                  
+                <ul class="subMenu" id="bidMenu181">
+
+                    <li><a href="http://eps.sdic.com.cn:80/gsjj/index.jhtml">集团公司简介</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/zzjg/index.jhtml">平台运营机构简介</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/cwjj/index.jhtml">国投财务公司简介</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/ztb/index.jhtml">中投保公司简介</a></li>
+                </ul>
+            </li>
+		
+              <li onmouseover="document.getElementById('bidMenu104').style.display='block';" onmouseout="document.getElementById('bidMenu104').style.display='none';">
+                <a href="/zbgg/index.jhtml"><span>采购公告</span><!--span class="en"></span--></a>
+                  
+                <ul class="subMenu" id="bidMenu104">
+
+                    <li><a href="http://eps.sdic.com.cn:80/zbgg/index.jhtml">招标公告</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/zgysgg/index.jhtml">资格预审公告</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/bggg/index.jhtml">变更公告</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/zbgs/index.jhtml">评标结果公示</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/cggg/index.jhtml">采购公告</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/cgjggg/index.jhtml">采购结果公告</a></li>
+                </ul>
+            </li>
+		
+              <li onmouseover="document.getElementById('bidMenu101').style.display='block';" onmouseout="document.getElementById('bidMenu101').style.display='none';">
+                <a href="/ztbf/index.jhtml"><span>法规中心</span><!--span class="en"></span--></a>
+                  
+                <ul class="subMenu" id="bidMenu101">
+
+                    <li><a href="http://eps.sdic.com.cn:80/ztbf/index.jhtml">法律</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/fgwgz/index.jhtml">国务院行政法规</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/zjbgz/index.jhtml">地方性法规</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/czbgz/index.jhtml">部门规章</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/swbgz/index.jhtml">地方性政府规章</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/bmgz/index.jhtml">规范性文件</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/zdgf/index.jhtml">制度规范</a></li>
+                </ul>
+            </li>
+		
+              <li onmouseover="document.getElementById('bidMenu242').style.display='block';" onmouseout="document.getElementById('bidMenu242').style.display='none';">
+                <a href="http://eps.sdic.com.cn:80/xmtj/index.jhtml"><span>项目推介</span><!--span class="en"></span--></a>
+            </li>
+		
+              <li onmouseover="document.getElementById('bidMenu115').style.display='block';" onmouseout="document.getElementById('bidMenu115').style.display='none';">
+                <a href="/zlxzt/index.jhtml"><span>帮助中心</span><!--span class="en"></span--></a>
+                  
+                <ul class="subMenu" id="bidMenu115">
+
+                    <li><a href="http://eps.sdic.com.cn:80/zlxzt/index.jhtml">资料下载</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/czzn/index.jhtml">操作指南</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/wtjd/index.jhtml">常见问题解答</a></li>
+
+                    <li><a href="http://eps.sdic.com.cn:80/tzgg/index.jhtml">通知公告</a></li>
+                </ul>
+            </li>
+		
+		<!--搜索结果-->
+        <li class="bn-search" style="width:220px; height:30px; margin-right:21px; float:right; background-image:none;">
+            <form action="/search.jspx" target="_blank">
+			<div class="sea-left"></div>
+			
+             <div class="sea-input">
+            	<input type="text" id="txtKey" name="q" value="" class="inp-txt" maxlength="40" autocomplete="off">
+            </div>
+            <div class="sea-btn"><button type="submit" onclick="if(document.getElementById('txtKey').value=='') return false;" id="btnSearch" class="submit-btn"></button></div>
+          </form>
+            </li>
+    </ul></div>
+</div><!--  主体内容  -->
+<div id="main">
+  <div class="index wrap">
+         <div class="wrap01">
+            <!--  左侧版块  --> 
+         	<div class="wrapleft">
+               <!--招标公告-->
+               <div class="mbox slideTxt notice" style="margin-top:0px;">
+                	<div class="m-hd3">
+                    	<h2><a href="http://eps.sdic.com.cn:80/zbgg/index.jhtml">招标公告</a></h2>
+                    	<ul>
+                            <li class="on"><span>货物</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/gghw/index.jhtml">+ 更多</a></div></li>
+                            <li><span>工程</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/gggc/index.jhtml">+ 更多</a></div></li>
+                            <li><span>服务</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/ggjg/index.jhtml">+ 更多</a></div></li>
+					  </ul>
+                    </div>
+                    <div class="mnotice_line2">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:706px"><div class="m-bd" style="width: 2118px; height: 220px; overflow: hidden; position: relative; padding: 0px; margin: 0px; left: 0px;">
+                    	<ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gghw/17312.jhtml" title="国投交通控股有限公司托辊注册供应商集中采购项目（标段二）招标公告(中投咨询)">
+                                     <span class="bidLink timeb" thetime="2018-01-08">国投交通控股有限公司托辊注册供应商集中采购项目（标段二）招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="gghw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gghw/17311.jhtml" title="国投交通控股有限公司托辊注册供应商集中采购项目（标段一）招标公告(中投咨询)">
+                                     <span class="bidLink timeb" thetime="2018-01-08">国投交通控股有限公司托辊注册供应商集中采购项目（标段一）招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="gghw-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gghw/17310.jhtml" title="国投交通控股有限公司滚筒注册供应商集中采购项目（标段二）招标公告(中投咨询)">
+                                     <span class="bidLink timeb" thetime="2018-01-08">国投交通控股有限公司滚筒注册供应商集中采购项目（标段二）招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="gghw-2-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gghw/17309.jhtml" title="国投交通控股有限公司滚筒注册供应商集中采购项目（标段一）招标公告(中投咨询)">
+                                     <span class="bidLink timeb" thetime="2018-01-08">国投交通控股有限公司滚筒注册供应商集中采购项目（标段一）招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="gghw-3-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gghw/17238.jhtml" title="国投罗钾公司工业用缝纫机线采购【二次招标】招标公告(中投咨询)">
+                                     <span class="bidLink timeb" thetime="2018-01-05">国投罗钾公司工业用缝纫机线采购【二次招标】招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="gghw-4-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gghw/17237.jhtml" title="国投罗钾公司轴承采购【二次招标】招标公告(中投咨询)">
+                                     <span class="bidLink timeb" thetime="2018-01-05">国投罗钾公司轴承采购【二次招标】招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="gghw-5-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+                            
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gggc/17241.jhtml" title="国投宣城2018年度#2机组C级检修项目招标公告(中投咨询)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投宣城2018年度#2机组C级检修项目招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="gggc-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gggc/17165.jhtml" title="四川雅砻江锦屏二级水电站排水洞清淤、二次加固及检修通道设置施工招标公告(雅砻江水电)">
+                                    <span class="bidLink timeb" thetime="2018-01-04">四川雅砻江锦屏二级水电站排水洞清淤、二次加固及检修通道设置施工招标公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r now" id="gggc-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gggc/17010.jhtml" title="雅砻江官地水电站2018年坝前漂浮物清理（重新招标）招标公告(雅砻江水电)">
+                                    <span class="bidLink timeb" thetime="2017-12-29">雅砻江官地水电站2018年坝前漂浮物清理（重新招标）招标公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r" id="gggc-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-29</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gggc/17009.jhtml" title="四川雅砻江两河口水电站550kV SF6气体绝缘封闭开关设备(GIS)及其附属设备采购招标公告(雅砻江水电)">
+                                    <span class="bidLink timeb" thetime="2017-12-29">四川雅砻江两河口水电站550kV SF6气体绝缘封闭开关设备(GIS)及其附属设备采购招标公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r" id="gggc-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-29</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gggc/17008.jhtml" title="四川雅砻江杨房沟水电站550kV SF6气体绝缘金属封闭开关设备（GIS）及其附属设备采购招标公告(雅砻江水电)">
+                                    <span class="bidLink timeb" thetime="2017-12-29">四川雅砻江杨房沟水电站550kV SF6气体绝缘金属封闭开关设备（GIS）及其附属设备采购招标公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r" id="gggc-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-29</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/gggc/16861.jhtml" title="国投宣城封闭煤场改造项目招标公告(中投咨询)">
+                                    <span class="bidLink timeb" thetime="2017-12-27">国投宣城封闭煤场改造项目招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r" id="gggc-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-27</span>
+                                
+                            </li>
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/ggjg/17236.jhtml" title="国投罗钾公司硫酸钾浮选尾盐管道溶钾回收利用工业性试验项目招标公告(中投咨询)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投罗钾公司硫酸钾浮选尾盐管道溶钾回收利用工业性试验项目招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="ggjg-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/ggjg/17235.jhtml" title="国投罗钾公司罗布泊盐湖老卤卤水提锂技术研究项目招标公告(中投咨询)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投罗钾公司罗布泊盐湖老卤卤水提锂技术研究项目招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="ggjg-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/ggjg/17176.jhtml" title="国投孚宝成品油储罐、交换站及管线系统清洗项目招标公告(中投咨询)">
+                                    <span class="bidLink timeb" thetime="2018-01-04">国投孚宝成品油储罐、交换站及管线系统清洗项目招标公告(中投咨询)</span></a>
+                                    <span class="bidStatus ft-r now" id="ggjg-2-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/ggjg/17166.jhtml" title="雅砻江桐子林水电站4号机组坝段振动测试分析研究招标公告(雅砻江水电)">
+                                    <span class="bidLink timeb" thetime="2018-01-04">雅砻江桐子林水电站4号机组坝段振动测试分析研究招标公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r now" id="ggjg-3-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/ggjg/17158.jhtml" title="雅砻江二滩、桐子林、官地、锦屏一二级水电站 计量器具及仪器仪表校验招标公告(雅砻江水电)">
+                                    <span class="bidLink timeb" thetime="2018-01-04">雅砻江二滩、桐子林、官地、锦屏一二级水电站 计量器具及仪器仪表校验招标公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r now" id="ggjg-4-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/ggjg/17110.jhtml" title="雅砻江二滩、桐子林、官地、锦屏一二级水电站金属结构无损检测服务【重新招标】招标公告(雅砻江水电)">
+                                    <span class="bidLink timeb" thetime="2018-01-03">雅砻江二滩、桐子林、官地、锦屏一二级水电站金属结构无损检测服务【重新招标】招标公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r now" id="ggjg-5-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-03</span>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div></div>
+                    </div>
+                </div>
+               <!--招标公告结束--> 
+			     <!--采购公告-->
+               <div class="mbox slideTxt notice">
+                	<div class="m-hd3">
+                    	<h2><a href="http://eps.sdic.com.cn:80/cggg/index.jhtml">采购公告</a></h2>
+                    	<ul>
+                            <li class="on"><span>货物</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/cghw/index.jhtml">+ 更多</a></div></li>
+                            <li><span>工程</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/cggc/index.jhtml">+ 更多</a></div></li>
+                            <li><span>服务</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/cgfw/index.jhtml">+ 更多</a></div></li>
+					  </ul>
+                    </div>
+                    <div class="mnotice_line2">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:706px"><div class="m-bd" style="width: 2118px; height: 220px; overflow: hidden; position: relative; padding: 0px; margin: 0px; left: 0px;">
+                    	<ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cghw/17407.jhtml" title="彩条布等 采购公告(国投伊犁)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">彩条布等 采购公告(国投伊犁)</span></a>
+                                    <span class="bidStatus ft-r now" id="cghw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cghw/17406.jhtml" title="消防沟槽卡箍等采购公告(国投伊犁)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">消防沟槽卡箍等采购公告(国投伊犁)</span></a>
+                                    <span class="bidStatus ft-r now" id="cghw-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cghw/17404.jhtml" title="国投伊犁能源开发有限公司水库闸阀采购公告(国投伊犁)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">国投伊犁能源开发有限公司水库闸阀采购公告(国投伊犁)</span></a>
+                                    <span class="bidStatus ft-r now" id="cghw-2-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cghw/17361.jhtml" title="急件：0#柴油 采购采购公告(国投钦电)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">急件：0#柴油 采购采购公告(国投钦电)</span></a>
+                                    <span class="bidStatus ft-r now" id="cghw-3-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cghw/17338.jhtml" title="国投伊犁能源开发有限公司康阀填料第三次公告采购公告(国投伊犁)">
+                                    <span class="bidLink timeb" thetime="2018-01-08">国投伊犁能源开发有限公司康阀填料第三次公告采购公告(国投伊犁)</span></a>
+                                    <span class="bidStatus ft-r now" id="cghw-4-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cghw/17337.jhtml" title="国投伊犁能源开发有限公司防溢裙板第三次公告采购公告(国投伊犁)">
+                                    <span class="bidLink timeb" thetime="2018-01-08">国投伊犁能源开发有限公司防溢裙板第三次公告采购公告(国投伊犁)</span></a>
+                                    <span class="bidStatus ft-r now" id="cghw-5-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+                            
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cggc/17308.jhtml" title="油缸维修采购公告(国投曹妃甸)"> 
+                                    <span class="bidLink timeb" thetime="2018-01-08">油缸维修采购公告(国投曹妃甸)</span></a>
+                                    <span class="bidStatus ft-r now" id="cggc-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cggc/17305.jhtml" title="2018年热能公司供热管线及附属设备维护项目采购公告(华夏电力)"> 
+                                    <span class="bidLink timeb" thetime="2018-01-08">2018年热能公司供热管线及附属设备维护项目采购公告(华夏电力)</span></a>
+                                    <span class="bidStatus ft-r now" id="cggc-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cggc/17276.jhtml" title="T24加压泵改造项目采购公告(湄洲湾港)"> 
+                                    <span class="bidLink timeb" thetime="2018-01-08">T24加压泵改造项目采购公告(湄洲湾港)</span></a>
+                                    <span class="bidStatus ft-r now" id="cggc-2-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cggc/17250.jhtml" title="码头应急疏散通道项目采购公告(国投钦电)"> 
+                                    <span class="bidLink timeb" thetime="2018-01-05">码头应急疏散通道项目采购公告(国投钦电)</span></a>
+                                    <span class="bidStatus ft-r" id="cggc-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cggc/17243.jhtml" title="国投湄洲湾煤炭码头皮带机沿线、转接塔内安全整改项目采购公告(湄洲湾港)"> 
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投湄洲湾煤炭码头皮带机沿线、转接塔内安全整改项目采购公告(湄洲湾港)</span></a>
+                                    <span class="bidStatus ft-r now" id="cggc-4-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cggc/17171.jhtml" title="雅砻江桐子林水电站溢流闸油缸检修专用盖板采购公告(雅砻江水电)"> 
+                                    <span class="bidLink timeb" thetime="2018-01-04">雅砻江桐子林水电站溢流闸油缸检修专用盖板采购公告(雅砻江水电)</span></a>
+                                    <span class="bidStatus ft-r now" id="cggc-5-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cgfw/17366.jhtml" title="腾讯云的云数据库和云服务器配置和租用采购公告(华夏电力)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">腾讯云的云数据库和云服务器配置和租用采购公告(华夏电力)</span></a>
+                                    <span class="bidStatus ft-r now" id="cgfw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cgfw/17330.jhtml" title="企业文化标识及宣传广告设计制安采购采购公告(国投大朝山)">
+                                    <span class="bidLink timeb" thetime="2018-01-08">企业文化标识及宣传广告设计制安采购采购公告(国投大朝山)</span></a>
+                                    <span class="bidStatus ft-r now" id="cgfw-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cgfw/17240.jhtml" title="国投湄洲湾煤炭码头一期工程运营期粉尘噪声监测项目采购公告(湄洲湾港)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投湄洲湾煤炭码头一期工程运营期粉尘噪声监测项目采购公告(湄洲湾港)</span></a>
+                                    <span class="bidStatus ft-r now" id="cgfw-2-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cgfw/17225.jhtml" title="二期供热改造低温蒸汽联箱勘察设计项目采购公告(国投钦电)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">二期供热改造低温蒸汽联箱勘察设计项目采购公告(国投钦电)</span></a>
+                                    <span class="bidStatus ft-r now" id="cgfw-3-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cgfw/17220.jhtml" title="国投钦州发电有限公司供热管道设计可行性研究采购公告(国投钦电)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投钦州发电有限公司供热管道设计可行性研究采购公告(国投钦电)</span></a>
+                                    <span class="bidStatus ft-r" id="cgfw-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/cgfw/17198.jhtml" title="维护人员宿舍楼、办公楼窗帘制作、安装采购公告(北海电厂)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">维护人员宿舍楼、办公楼窗帘制作、安装采购公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="cgfw-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div></div>
+                    </div>
+                </div>
+               <!--采购公告结束--> 
+			     <!--评标结果公示-->
+               <div class="mbox slideTxt notice">
+                	<div class="m-hd3">
+                    	<h2><a href="http://eps.sdic.com.cn:80/zbgs/index.jhtml">评标结果公示</a></h2>
+                    	<ul>
+                            <li class="on"><span>货物</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/zbhw/index.jhtml">+ 更多</a></div></li>
+                            <li><span>工程</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/zbgc/index.jhtml">+ 更多</a></div></li>
+                            <li><span>服务</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/zbfw/index.jhtml">+ 更多</a></div></li>
+					  </ul>
+                    </div>
+                    <div class="mnotice_line2">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:706px"><div class="m-bd" style="width: 2118px; height: 220px; overflow: hidden; position: relative; padding: 0px; margin: 0px; left: 0px;">
+                    	<ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbhw/17335.jhtml" title="国投罗钾公司试验厂钾镁肥颗粒编织袋采购招标项目中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-08">国投罗钾公司试验厂钾镁肥颗粒编织袋采购招标项目中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r now" id="zbhw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbhw/17251.jhtml" title="国投北部湾粉煤灰、炉渣综合利用中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-06">国投北部湾粉煤灰、炉渣综合利用中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r now" id="zbhw-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-06</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbhw/17219.jhtml" title="国投生物（铁岭）辽宁省铁岭市年产30万吨燃料乙醇项目非标列管换热器设备采购中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投生物（铁岭）辽宁省铁岭市年产30万吨燃料乙醇项目非标列管换热器设备采购中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbhw-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbhw/17161.jhtml" title="国投伊犁能源2018年度脱硝液氨采购中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-04">国投伊犁能源2018年度脱硝液氨采购中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbhw-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbhw/17106.jhtml" title="#2机组供热改造用阀门中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-03">#2机组供热改造用阀门中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbhw-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-03</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbhw/17004.jhtml" title="国投罗钾公司硫酸钾厂过滤机上胶带支撑辊采购中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2017-12-29">国投罗钾公司硫酸钾厂过滤机上胶带支撑辊采购中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbhw-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-29</span>
+                                
+                            </li>
+                            
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbgc/17192.jhtml" title="国投曹妃甸港高杆灯照明系统智能化改造项目一期工程中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投曹妃甸港高杆灯照明系统智能化改造项目一期工程中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbgc-0-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbgc/17175.jhtml" title="国投钦州发电二期至一期供热蒸汽联络管道施工项目中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-04">国投钦州发电二期至一期供热蒸汽联络管道施工项目中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbgc-1-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbgc/16817.jhtml" title="国投曹妃甸港综合管理平台建设项目中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2017-12-26">国投曹妃甸港综合管理平台建设项目中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbgc-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-26</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbgc/16816.jhtml" title="国投曹妃甸港现场智能监测感知系统中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2017-12-26">国投曹妃甸港现场智能监测感知系统中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbgc-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-26</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbgc/16815.jhtml" title="国投曹妃甸港CD1翻车机靠车板改造项目中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2017-12-26">国投曹妃甸港CD1翻车机靠车板改造项目中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbgc-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-26</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbgc/16776.jhtml" title="四川雅砻江杨房沟水电站液压式启闭机设备采购中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2017-12-25">四川雅砻江杨房沟水电站液压式启闭机设备采购中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbgc-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-25</span>
+                                
+                            </li>
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbfw/17336.jhtml" title="国投罗钾公司动力厂外围零星检修及专项整改委托施工中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-08">国投罗钾公司动力厂外围零星检修及专项整改委托施工中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r now" id="zbfw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbfw/17298.jhtml" title="乙烷制乙烯项目配套码头工程可行性研究报告编制及可研阶段勘察服务委托单中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-08">乙烷制乙烯项目配套码头工程可行性研究报告编制及可研阶段勘察服务委托单中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r now" id="zbfw-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbfw/17218.jhtml" title="国投罗钾公司主数据管理系统建设与实施项目 中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-05">国投罗钾公司主数据管理系统建设与实施项目 中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbfw-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbfw/17139.jhtml" title="国投罗钾公司动力厂卸煤、上煤及灰渣拉运承包服务中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2018-01-04">国投罗钾公司动力厂卸煤、上煤及灰渣拉运承包服务中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbfw-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbfw/16870.jhtml" title="国投交通数据库软件采购中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2017-12-27">国投交通数据库软件采购中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbfw-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-27</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/zbfw/16767.jhtml" title="国投京唐港物业服务项目中标候选人公示">
+                                    <span class="bidLink timeb" thetime="2017-12-25">国投京唐港物业服务项目中标候选人公示</span></a>
+                                    <span class="bidStatus ft-r" id="zbfw-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-25</span>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div></div>
+                    </div>
+                </div>
+               <!--评标结果公示结束--> 
+			     <!--采购结果公告-->
+               <div class="mbox slideTxt notice">
+                	<div class="m-hd3">
+                    	<h2><a href="http://eps.sdic.com.cn:80/cgjggg/index.jhtml">采购结果公告</a></h2>
+                    	<ul>
+                            <li class="on"><span>货物</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/kzjhw/index.jhtml">+ 更多</a></div></li>
+                            <li><span>工程</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/kzjgc/index.jhtml">+ 更多</a></div></li>
+                            <li><span>服务</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/kzjfw/index.jhtml">+ 更多</a></div></li>
+					  </ul>
+                    </div>
+                    <div class="mnotice_line2">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:706px"><div class="m-bd" style="width: 2118px; height: 220px; overflow: hidden; position: relative; padding: 0px; margin: 0px; left: 0px;">
+                    	<ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjhw/17418.jhtml" title="等离子火焰电视采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">等离子火焰电视采购结果公告</span></a>
+                                    <span class="bidStatus ft-r now" id="kzjhw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjhw/17416.jhtml" title="储运部用办公设备采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">储运部用办公设备采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjhw-1-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjhw/17415.jhtml" title="动力厂用防火门采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">动力厂用防火门采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjhw-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjhw/17414.jhtml" title="硫酸钾厂、动力厂用电暖气采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">硫酸钾厂、动力厂用电暖气采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjhw-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjhw/17413.jhtml" title="硫酸钾厂、动力厂等部门用水泵采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">硫酸钾厂、动力厂等部门用水泵采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjhw-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjhw/17412.jhtml" title="设备管理部补库用昆仑润滑油采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">设备管理部补库用昆仑润滑油采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjhw-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+                            
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjgc/17306.jhtml" title=" 	#2炉左侧冷再逆止阀阀盖密封面泄漏带压堵漏采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08"> 	#2炉左侧冷再逆止阀阀盖密封面泄漏带压堵漏采购结果公告</span></a>
+                                    <span class="bidStatus ft-r now" id="kzjgc-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjgc/17261.jhtml" title="2018年度公司安防智能化系统维护采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08">2018年度公司安防智能化系统维护采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjgc-1-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjgc/17258.jhtml" title="生产区域电气照明装置检修维护项目采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08">生产区域电气照明装置检修维护项目采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjgc-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjgc/17255.jhtml" title="生产区域工业监控设备检修维护采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08">生产区域工业监控设备检修维护采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjgc-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjgc/17169.jhtml" title="雅砻江流域水电开发有限公司电厂人员定位管理系统现场应用实施项目采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-04">雅砻江流域水电开发有限公司电厂人员定位管理系统现场应用实施项目采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjgc-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjgc/17152.jhtml" title="厦门华夏电力公司电梯维护保养采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-04">厦门华夏电力公司电梯维护保养采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjgc-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-04</span>
+                                
+                            </li>
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjfw/17419.jhtml" title="国投京唐港管理中心地砖维修项目采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">国投京唐港管理中心地砖维修项目采购结果公告</span></a>
+                                    <span class="bidStatus ft-r now" id="kzjfw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjfw/17339.jhtml" title="小峡水电站3#、4#机励磁参数实测及PSS试验采购结果公告">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">小峡水电站3#、4#机励磁参数实测及PSS试验采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjfw-1-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjfw/17260.jhtml" title="2018-2020年度厦门华夏电力公司码头防污染应急服务采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08">2018-2020年度厦门华夏电力公司码头防污染应急服务采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjfw-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjfw/17259.jhtml" title="2018-2020年度全厂生产设备零星防腐油漆维护项目采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08">2018-2020年度全厂生产设备零星防腐油漆维护项目采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjfw-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjfw/17257.jhtml" title="复印机维护采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08">复印机维护采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjfw-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/kzjfw/17256.jhtml" title="吊车租赁协议采购结果公告">
+                                    <span class="bidLink timeb" thetime="2018-01-08">吊车租赁协议采购结果公告</span></a>
+                                    <span class="bidStatus ft-r" id="kzjfw-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div></div>
+                    </div>
+                </div>
+               <!--采购结果公告结束--> 
+			     <!--变更公告-->
+               <div class="mbox slideTxt notice">
+                	<div class="m-hd3">
+                    	<h2><a href="http://eps.sdic.com.cn:80/bggg/index.jhtml">变更公告</a></h2>
+                    	<ul>
+                            <li class="on"><span>货物</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/bghw/index.jhtml">+ 更多</a></div></li>
+                            <li><span>工程</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/bggc/index.jhtml">+ 更多</a></div></li>
+                            <li><span>服务</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/bgfw/index.jhtml">+ 更多</a></div></li>
+					  </ul>
+                    </div>
+                    <div class="mnotice_line2">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:706px"><div class="m-bd" style="width: 2118px; height: 220px; overflow: hidden; position: relative; padding: 0px; margin: 0px; left: 0px;">
+                    	<ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bghw/17420.jhtml" title="国投京唐港P60轨道采购项目变更公告(国投京唐港)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">国投京唐港P60轨道采购项目变更公告(国投京唐港)</span></a>
+                                    <span class="bidStatus ft-r now" id="bghw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bghw/17411.jhtml" title="硫酸钾厂用SEW减速机及配件变更公告(国投新疆罗布泊钾盐)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">硫酸钾厂用SEW减速机及配件变更公告(国投新疆罗布泊钾盐)</span></a>
+                                    <span class="bidStatus ft-r now" id="bghw-1-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bghw/17405.jhtml" title="国投伊犁能源开发有限公司防溢裙板第三次公告变更公告(国投伊犁)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">国投伊犁能源开发有限公司防溢裙板第三次公告变更公告(国投伊犁)</span></a>
+                                    <span class="bidStatus ft-r now" id="bghw-2-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bghw/17365.jhtml" title="国投曹妃甸港口有限公司水泵及配件采购变更公告(国投曹妃甸)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">国投曹妃甸港口有限公司水泵及配件采购变更公告(国投曹妃甸)</span></a>
+                                    <span class="bidStatus ft-r now" id="bghw-3-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bghw/17364.jhtml" title="国投曹妃甸港口有限公司油漆采购项目变更公告(国投曹妃甸)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">国投曹妃甸港口有限公司油漆采购项目变更公告(国投曹妃甸)</span></a>
+                                    <span class="bidStatus ft-r now" id="bghw-4-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bghw/17360.jhtml" title="国投曹妃甸港口有限公司车辆备件采购项目变更公告(国投曹妃甸)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">国投曹妃甸港口有限公司车辆备件采购项目变更公告(国投曹妃甸)</span></a>
+                                    <span class="bidStatus ft-r now" id="bghw-5-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+                            
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow" title="北海市鑫源热电有限公司2018年供热管网维护招标文件（第二次）变更公告(北海电厂)"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bggc/16791.jhtml">
+                                    <span class="bidLink timeb" thetime="2017-12-26">北海市鑫源热电有限公司2018年供热管网维护招标文件（第二次）变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bggc-0-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-26</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow" title="北海市鑫源热电有限公司2018年供热管网维护招标文件（第二次）变更公告(北海电厂)"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bggc/16712.jhtml">
+                                    <span class="bidLink timeb" thetime="2017-12-25">北海市鑫源热电有限公司2018年供热管网维护招标文件（第二次）变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bggc-1-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-25</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow" title="北海市鑫源热电有限公司2018年供热管网维护招标文件（第二次）变更公告(北海电厂)"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bggc/16711.jhtml">
+                                    <span class="bidLink timeb" thetime="2017-12-25">北海市鑫源热电有限公司2018年供热管网维护招标文件（第二次）变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bggc-2-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-25</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow" title="北海市鑫源热电有限公司2018年供热管网维护变更公告(北海电厂)"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bggc/16305.jhtml">
+                                    <span class="bidLink timeb" thetime="2017-12-18">北海市鑫源热电有限公司2018年供热管网维护变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bggc-3-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-18</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow" title="北海市鑫源热电有限公司2018年供热管网维护变更公告(北海电厂)"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bggc/16276.jhtml">
+                                    <span class="bidLink timeb" thetime="2017-12-18">北海市鑫源热电有限公司2018年供热管网维护变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bggc-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-18</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow" title="北海市鑫源热电有限公司2018年供热管网维护变更公告(北海电厂)"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bggc/16275.jhtml">
+                                    <span class="bidLink timeb" thetime="2017-12-18">北海市鑫源热电有限公司2018年供热管网维护变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bggc-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2017-12-18</span>
+                                
+                            </li>
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bgfw/17417.jhtml" title="二期供热改造低温蒸汽联箱勘察设计项目变更公告(国投钦电)">
+                                    <span class="bidLink timeb on" thetime="2018-01-09">二期供热改造低温蒸汽联箱勘察设计项目变更公告(国投钦电)</span></a>
+                                    <span class="bidStatus ft-r now" id="bgfw-0-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-09</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bgfw/17331.jhtml" title="国投钦州发电有限公司供热管道设计可行性研究变更公告(国投钦电)">
+                                    <span class="bidLink timeb" thetime="2018-01-08">国投钦州发电有限公司供热管道设计可行性研究变更公告(国投钦电)</span></a>
+                                    <span class="bidStatus ft-r" id="bgfw-1-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bgfw/17265.jhtml" title="大朝山电站现场生活区数字电视收视服务采购变更公告(国投大朝山)">
+                                    <span class="bidLink timeb" thetime="2018-01-08">大朝山电站现场生活区数字电视收视服务采购变更公告(国投大朝山)</span></a>
+                                    <span class="bidStatus ft-r now" id="bgfw-2-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-08</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bgfw/17233.jhtml" title="厦门京闽中心酒店海信液晶电视采购及安装变更公告(京闽能源)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">厦门京闽中心酒店海信液晶电视采购及安装变更公告(京闽能源)</span></a>
+                                    <span class="bidStatus ft-r now" id="bgfw-3-time">进行中</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bgfw/17191.jhtml" title="2018年-2020年度花卉租摆变更公告(北海电厂)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">2018年-2020年度花卉租摆变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bgfw-4-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+							<li>
+                                <span class="arrow"></span>    
+                                <a href="http://eps.sdic.com.cn:80/bgfw/17190.jhtml" title="维护人员宿舍楼、办公楼窗帘制作、安装变更公告(北海电厂)">
+                                    <span class="bidLink timeb" thetime="2018-01-05">维护人员宿舍楼、办公楼窗帘制作、安装变更公告(北海电厂)</span></a>
+                                    <span class="bidStatus ft-r" id="bgfw-5-time">已结束</span>
+                                    <span class="bidDate biddleft">2018-01-05</span>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div></div>
+                    </div>
+                </div>
+               <!--变更公告结束--> 
+			     <!--资格预审公告-->
+               <div class="mbox slideTxt notice">
+                	<div class="m-hd3">
+                    	<h2><a href="http://eps.sdic.com.cn:80/zgysgg/index.jhtml">资格预审公告</a></h2>
+                    	<ul>
+                            <li class="on"><span>货物</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/yshw/index.jhtml">+ 更多</a></div></li>
+                            <li><span>工程</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/ysgc/index.jhtml">+ 更多</a></div></li>
+                            <li><span>服务</span><div class="more" style="right:-382px;"><div class="more_icon"></div><a href="http://eps.sdic.com.cn:80/ysfw/index.jhtml">+ 更多</a></div></li>
+					  </ul>
+                    </div>
+                    <div class="mnotice_line2">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:706px"><div class="m-bd" style="width: 2118px; height: 220px; overflow: hidden; position: relative; padding: 0px; margin: 0px; left: 0px;">
+                    	<ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+                            
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+                        </ul>
+                      
+                           <ul class="txtList" style="margin: 20px; width: 666px; height: 220px; float: left;">
+                            
+                        </ul>
+                    </div></div>
+                    </div>
+                </div>
+               <!--招标公告结束--> 
+            </div>   
+            <!--  右侧版块  --> 
+            <div class="wrapright">
+            		<!--  登录框  -->
+                <div class=" slideTxtMq mlogin">
+                                    <div class="m-hd4">
+                                            <div class="m-title">登录/注册</div>
+                                    </div>
+                                    <div class="mlogin_block">
+                                       <div class="m-bd" style=" height:97px; width:auto;">
+                                        <ul class="txtList" style="background-image:none; width:268px;">
+                                          <a href="/ebidding" class="txt_button"><span>登录</span></a>
+                                          <a href="/ebidding/SysRegAction.do?&amp;method=register&amp;no_sitemesh&amp;sid=zmzb" class="txt_button2"><span>注册</span></a>
+                                          <span style="float:left; width:268px; margin-top:12px;color: #2c73d3;text-align: center;"><a href="http://eps.sdic.com.cn/wtjd/index.jhtml" class="txt_word">常见问题解答</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://eps.sdic.com.cn/czzn/2949.jhtml" class="txt_word">投标人/供应商须知</a></span>
+                                        </ul>
+                                        
+                                        
+                                       </div>
+                                    </div>
+                          </div>
+          
+                <!-- 登录框结束 -->
+                
+                <!-- 通知公告 -->
+                <div class="slideTxtMq mlogin t20" style="height:167px;">
+                	<div class="m-hd4">
+                    		<div class="m-title">通知公告</div>
+                            <div class="m-more"><a href="http://eps.sdic.com.cn:80/tzgg/index.jhtml" target="_blank">+ 更多</a></div>
+					
+                    		
+                    </div>
+                    
+                    <div class="mlogin_block m-bd" style=" height:134px; ">
+                    
+                    	<div class="tempWrap" style="overflow:hidden; position:relative; height:128px"><ul style="height: 768px; position: relative; padding: 0px; margin: 0px; top: -262px;"><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/17095.jhtml" title="关于国投电子采购平台内部企业名称变更相关事宜的通知">关于国投电子采购平台内部企业名称变...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/16581.jhtml" title="关于12月21日保证金支付及状态查看故障恢复的通知">关于12月21日保证金支付及状态查看故...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/16553.jhtml" title="关于12月21日保证金支付及状态查看故障的紧急通知">关于12月21日保证金支付及状态查看故...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/15220.jhtml" title="关于平台正式环境进行性能优化的通知">关于平台正式环境进行性能优化的通知</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/15131.jhtml" title="关于办理CA数字证书《单位数字证书申请表》 内容更新的通知">关于办理CA数字证书《单位数字证书申...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14627.jhtml" title="关于平台投标文件编制客户端版本更新的通知">关于平台投标文件编制客户端版本更新...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14602.jhtml" title="关于11月20日银联在线支付的紧急通知">关于11月20日银联在线支付的紧急通知</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14579.jhtml" title="关于平台升级后登陆失败情况处理的通知">关于平台升级后登陆失败情况处理的通知</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/17095.jhtml" title="关于国投电子采购平台内部企业名称变更相关事宜的通知">关于国投电子采购平台内部企业名称变...</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/16581.jhtml" title="关于12月21日保证金支付及状态查看故障恢复的通知">关于12月21日保证金支付及状态查看故...</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/16553.jhtml" title="关于12月21日保证金支付及状态查看故障的紧急通知">关于12月21日保证金支付及状态查看故...</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/15220.jhtml" title="关于平台正式环境进行性能优化的通知">关于平台正式环境进行性能优化的通知</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/15131.jhtml" title="关于办理CA数字证书《单位数字证书申请表》 内容更新的通知">关于办理CA数字证书《单位数字证书申...</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14627.jhtml" title="关于平台投标文件编制客户端版本更新的通知">关于平台投标文件编制客户端版本更新...</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14602.jhtml" title="关于11月20日银联在线支付的紧急通知">关于11月20日银联在线支付的紧急通知</a></span></li>
+                          <li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14579.jhtml" title="关于平台升级后登陆失败情况处理的通知">关于平台升级后登陆失败情况处理的通知</a></span></li>
+						<li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/17095.jhtml" title="关于国投电子采购平台内部企业名称变更相关事宜的通知">关于国投电子采购平台内部企业名称变...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/16581.jhtml" title="关于12月21日保证金支付及状态查看故障恢复的通知">关于12月21日保证金支付及状态查看故...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/16553.jhtml" title="关于12月21日保证金支付及状态查看故障的紧急通知">关于12月21日保证金支付及状态查看故...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/15220.jhtml" title="关于平台正式环境进行性能优化的通知">关于平台正式环境进行性能优化的通知</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/15131.jhtml" title="关于办理CA数字证书《单位数字证书申请表》 内容更新的通知">关于办理CA数字证书《单位数字证书申...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14627.jhtml" title="关于平台投标文件编制客户端版本更新的通知">关于平台投标文件编制客户端版本更新...</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14602.jhtml" title="关于11月20日银联在线支付的紧急通知">关于11月20日银联在线支付的紧急通知</a></span></li><li class="mnot_li3" style="height: 24px;"><span class="mnot_text"><a href="http://eps.sdic.com.cn:80/tzgg/14579.jhtml" title="关于平台升级后登陆失败情况处理的通知">关于平台升级后登陆失败情况处理的通知</a></span></li></ul></div>
+                    </div>
+          </div>
+                <!-- 通知公告结束 -->
+            
+            
+            		<!-- 联系我们-->
+                    <div class="slideTxt contact t20">
+                	<div class="m-hd4">
+                    		<div class="m-title">联系我们</div>
+                            <!--div class="m-more"><a href="/lxwm/index.jhtml">+ 更多</a></div-->
+                    </div>
+                    <div class="mlogin_block" style=" height:325px; ">
+                    	<ul class="contactCon">
+                    	<li style=" margin-top:-28px;">
+                        	<!--span style=" font-size:14px; color:#0f5dc5; margin-top:-5px; line-height:26px;">联系详情：</span-->
+                            <br><span>地&nbsp;&nbsp;&nbsp;&nbsp;址：北京市西城区阜成门北大街6号<br><span style="padding-left:60px;">-6国际投资大厦A座</span></span>
+                            <br><span>CA办理：北京市西城区西直门南大街6号<br><span style="padding-left:60px;">国二招宾馆南楼三层5315室</span></span>                            
+                            <br><span>邮&nbsp;&nbsp;&nbsp;&nbsp;编：100035</span>
+                            <br><span>电&nbsp;&nbsp;&nbsp;&nbsp;话：010-83325315
+                                    <span style="padding-left:60px;">010-83325316</span>
+                                    <span style="padding-left:60px;">010-83325317</span>
+                                 </span>
+                      <!--      </br><span>传&nbsp;&nbsp;&nbsp;&nbsp;真：010-66579002</span> -->
+                            <br><span>电&nbsp;&nbsp;&nbsp;&nbsp;邮：epsservice@sdic.com.cn</span>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                    </div>
+          </div>
+                    <!-- 联系我们结束 -->
+          
+                    
+                    <!--投标指南等-->
+               <div class="mbox bidding slideTxtHy">
+                    <div class="line"></div>
+                    <div style=" margin-left:25px; float:left ">
+                    	<div class="title"><span class="t1"></span>投标指南</div>
+                        <div class="mnot_li4" style=" height:28px; "><a href="/wtjd/2912.jhtml">常见问题解答</a></div>
+                        <!--div class="mnot_li4"><a href="#">投标质疑须知</a></div-->
+                        <div class="mnot_li4" style=" height:28px; "><a href="/czzn/2949.jhtml">投标人须知</a></div>
+                        <!--div class="mnot_li4"><a href="#">财务支付须知</a></div-->
+                        <!--div class="mnot_li4"><a href="#">供应商手册</a></div-->
+                        <div class="line2"></div>
+                        <!--div class="title"><span class="t2"></span>专家指南</div-->
+                        <!--div class="mnot_li4"><a href="#">评标专家手册</a></div-->
+                        <div class="line2"></div>
+                        <div class="title"><span class="t3"></span>项目推介</div>
+                        <div class="text">
+                         <ul>
+                                			<!--a class="bidLink" title="电子采购平台 "  href="###"  >1电子采购平台</a>
+                                            <a class="bidLink" title="电子采购平台 "  href="###"  >2电子采购平台</a-->
+                                            
+                         </ul>
+                        </div>
+                    </div>
+               </div>
+               <!--投标指南等结束-->
+               
+               <img src="r/cms/www/default/images/index-banner.png" width="270" height="111" alt="" style="margin-top:20px;float: left;">              
+               
+               
+               <!-- 友情链接 -->
+                    <div class="slideTxt contact t20" style=" height:auto;">
+                            <div class="m-hd4">
+                                    <div class="m-title">友情链接</div>
+                                    <!--div class="m-more"><a href="/yqlj/index.jhtml">+ 更多</a></div-->
+                            </div>
+                            <div class="mlogin_block" style=" height: 304px;">
+                            <div class="linkbg"><a href="http://www.sdic.com.cn/cn/index.htm"><img src="r/cms/www/default/images/link01.png" width="150" height="32"></a></div>
+							<!-- mark20180105：加入中投保友情链接 -->
+							<div class="linkbg"><a href="http://www.eguaranty.com.cn"><img src="r/cms/www/default/images/link06.png" width="150" height="32"></a></div>
+                            <div class="linkbg"><a href="http://www.chinabidding.com/"><img src="r/cms/www/default/images/link02.png" width="150" height="32"></a></div>
+                            <span class="linkbg"><a href="http://www.chinabidding.com.cn/"><img src="r/cms/www/default/images/link03.png" width="150" height="32"></a></span>
+                            </div>
+                    </div>
+                    
+                    <!-- 友情链接结束 -->
+            </div>
+            <!--  右侧版块结束  --> 
+         </div>
+         
+  </div>            
+</div>
+       
+                
+<!--  底部  -->
+<div class="footer">
+        <p>
+            <!--  <span><a href="###">国家开发投资公司</a></span>  -->
+            <span>版权所有：国家开发投资公司 © Copyright 2007-2013 京ICP备05051033号</span>
+            <span>技术支持：<a href="http://www.ebidding.com.cn " target="_blank">上海汇招信息技术有限公司（易招标）</a></span>
+        </p>
+        <p>
+            <span>地址：北京市西城区阜成门北大街6号-6国际投资大厦A座 邮编：100034  电邮：sdic@sdic.com.cn </span>
+        </p>
+    </div>
+<!--banner滚动-->    
+<script type="text/javascript">
+			jQuery(".slide").slide( { mainCell:".m-bd ul",effect:"fade",autoPlay:true} );
+			
+			jQuery(".slide2").slide( { mainCell:".m-bd ul",effect:"left",autoPlay:true} );
+			jQuery(".slideTxt").slide({effect:"left",autoPlay:true,vis:1,scroll:1,interTime:4000});
+			jQuery(".slideTxtMq").slide({ mainCell:".m-bd ul",effect:"topMarquee",autoPlay:true,vis:4,scroll:1,interTime:100});
+			jQuery(".slideTxtHy").slide({ mainCell:".text ul",effect:"topMarquee",autoPlay:true,vis:5,scroll:1,interTime:100});
+			jQuery(".slideTxtDx").slide({ mainCell:".list ul",effect:"leftMarquee",autoPlay:true,vis:4,scroll:1,interTime:30});
+			 
+</script>
+
+<!--jQuery(".slideTxt").slide({effect:"left",mainCell:".m-bd ul",autoPlay:true,vis:1,scroll:1,interTime:4000});
+jQuery(".slideList").slide({effect:"left",defaultIndex:"1",mainCell:".m-bd.purchaseBox",autoPlay:true,vis:1,scroll:1,interTime:4000})；
+             jQuery(".slide").slide({mainCell:".m-bd ul",effect:"left",autoPlay:true,vis:1,scroll:1,interTime:4000})；
+              $(window).resize(function(){
+            jQuery(".slide").slide({mainCell:".m-bd ul",effect:"left",autoPlay:true,resize:true,vis:1,scroll:1,interTime:4000})；
+               });
+-->
+ 
+
+
+
+</body></html>

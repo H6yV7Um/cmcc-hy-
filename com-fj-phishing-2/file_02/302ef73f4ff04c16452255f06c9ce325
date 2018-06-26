@@ -1,0 +1,146 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8&quot;/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="author" content="">
+    <title>农银e管家</title>
+    <link href="../../css/reg.css" rel="stylesheet" type="text/css">
+    <link href="../../css/icon.css" rel="stylesheet" type="text/css">
+    <link href="../../css/public.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="../../lib/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<object style="WIDTH: 0px; HEIGHT: 0px" id="Com11Store" name="Com11Store" codebase="../../../ABCCECom.cab#version=1,0,11,222" classid="clsid:1086BE51-00F5-4371-A449-9A2DECE1B138"></object>
+<object style="WIDTH: 0px; HEIGHT: 0px" id="InfoSecNetSign1" name="InfoSecNetSign1" classid="clsid:62B938C4-4190-4F37-8CF0-A92B0A91CC77" data="data:application/x-oleobject;base64,xDi5YpBBN0+M8KkrCpHMdwADAADYEwAA2BMAAA==" viewastext=""></object>
+<div class="container header clearfix">
+    <div class="logo fl">
+        <a title="中国农业银行 企业商城" href="/" target="_self">
+            <img src="../../images/logo.png">
+        </a>
+        <img style="padding: 0;border: none;height: 36px;width: 155px;" src="../../images/elogo.png">
+        <!--<span class="mall-name">企业商城</span>-->
+    </div>
+    <div class="qr-code fr">
+        <img class="payShop" src="../../images/qr_code.png"><br>
+        <span style="font-size: 14px;font-family: 微软雅黑">扫一扫下载<br>手机农银e管家</span>
+    </div>
+    <a class="t-45 pay-shop" target="_blank" href="http://e.abchina.com/js/EBizPaymentMallWeb/zhpayshop/index">缴费商城</a>
+</div>
+<div class="main">
+    <!-- 滚动图 -->
+    <div class="banner">
+        <div class="bd bannerb">
+            <div class="tempWrap">
+                <ul id="loginAd" style="position: relative; width: 1920px; height: 470px;">
+                    <!--<li><a href="#" alt="" class="border-t border-b"><img src="../../images/banner/banner0.jpg"/></a></li>-->
+                    <!--<li><a href="#" alt="" class="border-t border-b"><img src="../../images/banner/banner1.jpg"/></a></li>-->
+                <li style="position: absolute; width: 1920px; left: 0px; top: 0px; opacity: 0.274096;"><a href="#" alt="" class="border-t border-b"><img src="https://e.abchina.com/site/Image/Read/51d3177f00274a24813bf52e3a9320e199000013"></a></li><li style="position: absolute; width: 1920px; left: 0px; top: 0px; display: none;"><a href="#" alt="" class="border-t border-b"><img src="https://e.abchina.com/site/Image/Read/47c8bc07f28a4bb7aff1ad0a30624aeb99000013"></a></li><li style="position: absolute; width: 1920px; left: 0px; top: 0px; display: none;"><a href="#" alt="" class="border-t border-b"><img src="https://e.abchina.com/site/Image/Read/7313f19a7b4641e28b05ba9bb34f65d89900001320170913"></a></li></ul>
+            </div>
+        </div>
+        <div class="hd bannerh">
+            <ul id="loginAdCount"><li class="on">1</li><li>2</li><li>3</li></ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="login-rbox">
+            <div class="login-r">
+                <div class="hd login-rh bg-gainsboro">
+                    <ul>
+                        <li id="normal" class="on"> 账户密码登录</li>
+                        <li id="key"> K宝登录</li>
+                    </ul>
+                </div>
+                <div class="bd login-rb bg-white">
+                    <ul id="normalLogin" class="login-mode">
+                        <form>
+                            <b class="error-tip">
+                                <div class="error"><p><span></span></p></div>
+                            </b>
+                            <b class="border-d9">
+                                <em class="icon-1"></em><input type="text" name="user" placeholder="用户名/手机号" class="font-lightgray login-info focus-blur">
+                            </b>
+                            <b class="border-d9">
+                                <em class="icon-2"></em><input type="password" name="password" value="" class="font-lightgray login-info focus-blur">
+                            </b>
+                            <b class="code">
+                                <input id="verifyCode" type="text" name="yzm" maxlength="6" value="" class="font-lightgray login-info focus-blur verify-code">
+                                <img id="validateCode" src="https://e.abchina.com/site/Account/ValidateCode" class="validate-pic change-validate">
+                                <div class="fl change-tip">
+                                    看不清
+                                    <a class="change-validate">换一张</a>
+                                </div>
+                            </b>
+                            <b>
+                                <a href="retrievePwd.html" class="fl font-darkgrey font-orange-h button-0"> 忘记密码? </a>
+                                <a href="companyRegister.html" class="fr font-darkgrey font-orange-h button-0">
+                                    免费注册 </a>
+                            </b>
+                        </form>
+                        <a id="login-submit" class="button-1 bg-orange font-white"> 登 录 </a>
+                    </ul>
+                    <ul id="keyLogin" class="login-mode">
+                        <form>
+                            <b><span class="fl t-15"> 1.请您插入K宝 </span> <span class="fr t-15"> 2.请选择证书 </span></b>
+                            <select id="CertDN" class="k-select" name="CertDN"></select>
+                            <input type="hidden" name="hidDate" id="hidDate" value="2018-01-09 6:28:4">
+                            <input type="hidden" name="INFOSEC_netsign_data" id="INFOSEC_netsign_data" value="">
+                            <input type="hidden" id="Seed" name="Seed" value="2128162498">
+                            <input type="hidden" name="hidCertDN" id="hidCertDN" value="">
+                            <input type="hidden" name="hidSignFields" id="hidSignFields" value="">
+                        </form>
+                        <a class="button-1 bg-orange font-white t-40" id="LjyKeyLogin"> 登 录 </a>
+                        <a href="companyRegister.html" class="fr font-darkgrey font-orange-h button-0 t-25"> 免费注册 </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-box">
+        <section>
+            <div class="fl prompt-box t-15">
+                <span class="fl"></span>
+                <b class="fl font-darkgrey">
+                    1、请确认您正在使用的浏览器为IE9.0及以上版本或360浏览器的兼容模式
+                </b>
+                <b class="fl font-darkgrey" style="width:440px;">
+                    2、选择K宝方式登录，插入K宝后，若您电脑无法读取到证书，请单击<a href="http://www.abchina.com/ebhelper/ebhelper.exe" class="font-orange uline">此处下载</a>检测修复工具。 您也可点击<a target="_blank" href="http://www.95599.cn/cn/wydl/grwydl/kbzs/kbdlzsdyb/" class="font-orange uline">帮助</a>获得检测修复的操作文档
+                </b>
+                <b class="fl font-darkgrey" style="width:180px;">
+                    3、确认并完成以上操作后，请您<a class="refresh-page font-orange uline">刷新</a>页面后进行登录
+                </b>
+            </div>
+        </section>
+    </div>
+</div>
+<footer class="fl">
+    <section>
+        <b class="footer-t t-40">
+            <a href="#" class="font-darkgrey font-orange-h"> 网站声明 </a> |
+            <a href="#" class="font-darkgrey font-orange-h"> 免责声明 </a> |
+            <a href="#" class="font-darkgrey font-orange-h"> 联系我们 </a> |
+            <a href="#" class="font-darkgrey font-orange-h"> 客服热线：95599 </a>
+        </b>
+
+        <p class="font-darkgrey p-text">
+            中国农业银行版权所有 | 京ICP备05049539
+        </p>
+    </section>
+    <div class="clear"></div>
+</footer>
+<script type="text/javascript" src="../../lib/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../../lib/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="../../config/config.js"></script>
+<script type="text/javascript" src="../../config/data.js"></script>
+<script type="text/javascript" src="../../js/server/infra.js"></script>
+<script type="text/javascript" src="../../js/server/server.js"></script>
+<script type="text/javascript" src="../../js/widget/widget.js"></script>
+<script type="text/javascript" src="../../lib/cert.js"></script>
+<script type="text/javascript" src="../../js/widget/simplepop.js"></script>
+<script type="text/javascript" src="../../js/login/login.js"></script>
+<script type="text/javascript" src="../../js/login/KeyLogin.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../../lib/jquery.placeholder.js"></script>
+<![endif]-->
+
+</body></html>

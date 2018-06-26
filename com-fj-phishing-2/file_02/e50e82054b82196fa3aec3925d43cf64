@@ -1,0 +1,934 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="gbk">
+    <meta name="robots" content="all">
+    <meta name="author" content="Tencent-CP">
+    <meta name="Copyright" content="Tencent">
+    <meta name="Keywords" content="征途、征途手机版、征途手游、国战、国战手游、国战缔造者、第一国战、手游">
+    <meta name="Description" content="《征途手机版》国战缔造者，由征途团队原班人马打造，腾讯游戏独家代理，最原始的征途版本，原汁原味还原征途端游系列产品的唯一正版手游年度大作。">
+    <title>征途-官方网站-腾讯游戏-征途唯一正版手游</title>
+    <script>
+        (function(){var a=navigator.userAgent;if(-1!=a.indexOf("iPhone")||-1!=a.indexOf("iPad")||-1!=a.indexOf("iPod")||-1!=a.indexOf("Android")){a=document.referrer;if(-1<a.indexOf("baidu.com")||-1<a.indexOf("sogou.com")||-1<a.indexOf("haosou.com")||-1<a.indexOf("hao76.com"))if(a=void 0,window.sessionStorage)sessionStorage.setItem("channel","seo");else{var a=a||0,b="";0!=a&&(b=new Date,b.setTime(b.getTime()+1E3*a),b="; expires="+b.toGMTString());document.cookie="channel="+escape("seo")+b+"; path=/"}self.location="/m/"}})();
+    </script>
+    <!-- 页面设计：cp | 页面制作：cp | 创建：2017-11-16-->
+    <link rel="stylesheet" type="text/css" href="http://zt.qq.com/web201711/css/global.css">
+    <link rel="stylesheet" type="text/css" href="http://zt.qq.com/web201711/css/main.css">
+<link href="//game.gtimg.cn/images/js/topfiles/ost1410/ost.min.css?ran=0.43097051983572987" rel="stylesheet" type="text/css"><script src="//game.qq.com/time/qqadv/Info_new_15077.js?v=1515481868291"></script></head>
+<body style="padding-top: 42px;">
+
+<div class="wrapper">
+    <div class="header">
+	<!--<li><a onclick="pgvSendClick({hottag:'gwpc.index.nav.kf'});" href="javascript:DialogS('kf_tc')" class="kf">联系客服<span>CONTACT US</span></a></li>-->
+	<div class="nav_out">
+		<div class="nav">
+			<ul>
+				<li><a href="http://zt.qq.com/index.shtml" target="_blank">首页<span>INDEX</span></a></li>
+				<li><a onclick="pgvSendClick({hottag:'gwpc.index.nav.gamedata'});" href="http://zt.qq.com/gamedata/data.html" target="_blank">游戏资料<span>DATE</span></a></li>
+				<li><a onclick="pgvSendClick({hottag:'gwpc.index.nav.news'});" href="http://zt.qq.com/webplat/info/news_version3/22262/22647/m14861/list_1.shtml" target="_blank">资讯中心<span>EVENTS</span></a></li>
+				<li class="logo"><a href="javascript:;" target="_blank"></a></li>
+				<li><a onclick="pgvSendClick({hottag:'gwpc.index.nav.gonglve'});" href="http://zt.qq.com/webplat/info/news_version3/22262/22584/m14862/list_1.shtml" target="_blank">游戏攻略<span>GUIDES</span></a></li>
+				<li><a onclick="pgvSendClick({hottag:'gwpc.index.nav.kf'});" href="javascript:DialogS('kf_tc')" class="kf">联系客服<span>CONTACT US</span></a></li>
+				<li><a onclick="pgvSendClick({hottag:'gwpc.index.nav.bbs'});" href="http://bbs.g.qq.com/forum-57374-1-1-0.html" target="_blank">论坛<span>FORUM</span></a></li>
+			</ul>
+		</div>
+		<h1 class="hidden">征途团队原班人马打造,国战缔造者</h1>
+		<div class="kf_tc" style="display: none;"><img src="http://game.gtimg.cn/images/zht/web201604/kf.png"><a href="javascript:void(0)" class="close"></a></div>
+	</div>
+	<div class="popup-video" id="popup" style="display: none;">
+		<div class="popup-close" onclick="document.getElementById('popupVideo').innerText = '';showDialog.hide();"><span>✕</span></div>
+		<div class="popup-bd" id="popupVideo"></div>
+	</div>
+	<div class="kf_tc" id="kf_tc"><img src="http://game.gtimg.cn/images/zht/web201604/kf.png"><a href="javascript:showDialog.hide();"></a></div>
+	<!--nav include end-->
+	<a href="javascript:;" id="btn_video" class="btn_video alp" style="display: none;"></a>
+</div>
+    <!--banner大图-->
+    <div class="banner">
+        <img width="1920" height="288" src="//game.gtimg.cn/images/zht/web201711/banner1.jpg" alt="征途">
+        <img width="1920" height="288" src="//game.gtimg.cn/images/zht/web201711/banner2.jpg" alt="征途">
+        <img width="1920" height="288" src="//game.gtimg.cn/images/zht/web201711/banner3.jpg" alt="征途">
+    </div>
+    <!--新闻下载-->
+    <div class="pr con1">
+        <div class="pa info1">
+            <div class="pr tip-info"><i class="pa bg"></i><i class="pa sp tip">新服推荐:</i><div class="scoll-text"><p style="left: -24px;">安卓QQ92区【风云再起】 安卓微信87区【争霸天下】 iOSQQ73区【傲世九州】 iOS微信79区【鹊桥相会】</p></div></div>
+            <!--下载专区-->
+            <div class="fl dl c">
+                <div class="fl dl-qr">
+                    <img src="//game.gtimg.cn/images/zht/web201711/wx.jpg" width="122" height="122" alt="wx">
+                </div>
+                <a class="fl dl-ios" href="/d/?device=iphone" target="_blank" onclick="PTTSendClick('btn','btn-ios','ios下载');" title="IOS客户端下载">ios下载</a>
+                <a class="fl dl-android" href="/d/?device=android" target="_blank" onclick="PTTSendClick('btn','btn-android','Android客户端下载');" title="Android客户端下载">安卓下载</a>
+                <a class="fl dl-pc" href="//zt.qq.com/cp/a20160520pc/index.htm" target="_blank" onclick="PTTSendClick('btn','btn-pc','PC模拟器下载');" title="PC模拟器下载">PC模拟器下载</a>
+            </div>
+            <!--轮播图 750*330-->
+            <div class="pr fr rotate" id="tabBigAd">
+                <ul class="pa hd c">
+                    <li class="fl on">官 方</li>
+                    <li class="fl">合 作</li>
+                </ul>
+               <div class="bd">
+                   <!--750*300-->
+                   <div class="ad-box dis"><div id="roll_ggs" class="ggBox"><div class="adPic"><a title="双流派觉醒" href="http://zt.qq.com/webplat/info/news_version3/22262/22647/22650/m17478/201712/670039.shtml?atm_cl=ad&amp;atm_pos=14899&amp;e_code=377597" target="_blank" onclick="PTTSendClick('adRoll','index.ggs.list1','轮播广告1');" style="left: 0px;"><img src="//ossweb-img.qq.com/upload/adw/image/201712/1513222629564457164.jpg"></a><a title="第三届6V6冠军公布" href="http://zt.qq.com/webplat/info/news_version3/22262/22647/22650/m17478/201712/669183.shtml?atm_cl=ad&amp;atm_pos=14900&amp;e_code=377598" target="_blank" onclick="PTTSendClick('adRoll','index.ggs.list2','轮播广告2');" style="left: 100%;"><img src="//ossweb-img.qq.com/upload/adw/image/201712/1513037465929142273.jpg"></a><a title="加开新服公告" href="http://zt.qq.com/webplat/info/news_version3/22262/22647/22652/m17478/201801/678322.shtml?atm_cl=ad&amp;atm_pos=14901&amp;e_code=383332" target="_blank" onclick="PTTSendClick('adRoll','index.ggs.list3','轮播广告3');" style="left: 100%;"><p><span class="loadI">正在加载中……</span></p><img rel="//ossweb-img.qq.com/upload/adw/image/201801/1515105554870154855.jpg"></a></div><div class="adBtn"><a title="双流派觉醒" href="javascript:void(0)" class="on">双流派觉醒</a><a title="第三届6V6冠军公布" href="javascript:void(0)">第三届6V6冠军公布</a><a title="加开新服公告" href="javascript:void(0)">加开新服公告</a></div></div></div>
+                   <div class="ad-box"><div id="roll_ggs2" class="ggBox"><div class="adPic"><a title="测试广告" href="http://x5.qq.com/cp/a20171025holidy/index.htm?ADTAG=media.free.gameweblunbo.zht&amp;atm_cl=ad&amp;atm_pos=20140&amp;e_code=374050" target="_blank" onclick="PTTSendClick('adRoll','index.ggs.list21','轮播广告1');" style="left: 0px;"><img src="//ossweb-img.qq.com/upload/adw/image/201711/1511911453034364461.jpg"></a><a title="斗战神" href="http://dzs.qq.com/cp/a20171212jyjyzt/index.html?ADTAG=media.free.gameweblunbo.zht&amp;atm_cl=ad&amp;atm_pos=20141&amp;e_code=382356" target="_blank" onclick="PTTSendClick('adRoll','index.ggs.list22','轮播广告2');" style="left: 100%;"><img src="//ossweb-img.qq.com/upload/adw/image/201712/1514534843249490045new.jpg"></a></div><div class="adBtn"><a title="测试广告" href="javascript:void(0)" class="on">测试广告</a><a title="斗战神" href="javascript:void(0)">斗战神</a></div></div></div>
+               </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="info2">
+               <!--广告图4张 293x140-->
+               <div class="ad-four">
+                    <ul class="c">
+                        <li><a href="http://zt.qq.com/cp/a20171214decpc/index.htm?atm_cl=ad&amp;atm_pos=20150&amp;e_code=383348" target="_blank" onclick="PTTSendClick('ad','single','新闻下单帧1');"><img src="//ossweb-img.qq.com/upload/adw/image/201801/1515110172361760953.jpg" alt="双流派加点" width="293" height="140"></a></li>
+                        <li><a href="http://zt.qq.com//cp/a20170901ver/?atm_cl=ad&amp;atm_pos=20151&amp;e_code=374324" target="_blank" onclick="PTTSendClick('ad','single','新闻下单帧2');"><img src="//ossweb-img.qq.com/upload/adw/image/201711/1511910649986669109.jpg" alt="测试广告" width="293" height="140"></a></li>
+                        <li><a href="http://zt.qq.com/webplat/info/news_version3/22262/22584/22585/m17483/list_1.shtml?atm_cl=ad&amp;atm_pos=20152&amp;e_code=374325" target="_blank" onclick="PTTSendClick('ad','single','新闻下单帧3');"><img src="//ossweb-img.qq.com/upload/adw/image/201711/1511910663002945011.jpg" alt="测试广告" width="293" height="140"></a></li>
+                        <li><a href="http://zt.qq.com/act/a20160509banben/index.htm?atm_cl=ad&amp;atm_pos=20153&amp;e_code=374334" target="_blank" onclick="PTTSendClick('ad','single','新闻下单帧4');"><img src="//ossweb-img.qq.com/upload/adw/image/201711/1511910677677236491.jpg" alt="测试广告" width="293" height="140"></a></li>
+                    </ul>
+                </div>
+               <div class="info2-list c">
+                   <!--新闻列表-->
+                   <div class="fl news-list news " id="tabNews">
+                       <div class="pr tab-tit">
+                           <ul class="hd c">
+                               <li class=" on"><a href="//zt.qq.com/webplat/info/news_version3/22262/22647/m17477/list_1.shtml" onclick="PTTSendClick('btn','btn-list-zh','综合');" target="_blank">综合</a></li>
+                               <li><a href="//zt.qq.com/webplat/info/news_version3/22262/22647/22651/m17477/list_1.shtml" onclick="PTTSendClick('btn','btn-list-hd','活动');" target="_blank">活动</a></li>
+                               <li><a href="//zt.qq.com/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" onclick="PTTSendClick('btnw','btn-list-ne','新闻');" target="_blank">新闻</a></li>
+                               <li><a href="//zt.qq.com/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" onclick="PTTSendClick('btn','btn-list-gg','公告');" target="_blank">公告</a></li>
+                           </ul>
+                           <p class="pa btn-more"><a href="http://zt.qq.com/webplat/info/news_version3/22262/22647/m14861/list_1.shtml" target="_blank" onclick="PTTSendClick('btn','btn-list','更多');">查看更多</a><i class="pa sp m1"></i></p>
+                       </div>
+                       <div class="bd">
+                           <ul class="list dis">
+                               <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201801/678322.shtml" target="_blank" title="1月4日10:00加开新服公告" style="color:#FF0000">1月4日10:00加开新服公告</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/677258.shtml" target="_blank" title="元旦活动乐无边 2018开门领好礼" style="color:#FF0000">元旦活动乐无边 2018开门领好礼</a>
+	<em>12/29</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/674302.shtml" target="_blank" title="畅享冰雪大作战 圣诞节活动全新登场" style="color:">畅享冰雪大作战 圣诞节活动全新登场</a>
+	<em>12/25</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201712/673811.shtml" target="_blank" title="12月25日6:00-9:00全区停服更新公告" style="color:">12月25日6:00-9:00全区停服更新公告</a>
+	<em>12/22</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/672791.shtml" target="_blank" title="欢歌满载 大理线下玩家见面会圆满结束" style="color:">欢歌满载 大理线下玩家见面会圆满结束</a>
+	<em>12/21</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201712/670631.shtml" target="_blank" title="12月18日6:00-9:00全区停服更新公告" style="color:">12月18日6:00-9:00全区停服更新公告</a>
+	<em>12/15</em>
+</li>
+
+                           </ul>
+                           <ul class="list">
+                               <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22651/m17477/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22651/m17478/201711/654430.shtml" target="_blank" title="十一来袭好礼巨献 买卖优惠一刻不停" style="color:">十一来袭好礼巨献 买卖优惠一刻不停</a>
+	<em>11/09</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22651/m17477/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22651/m17478/201710/644752.shtml" target="_blank" title="缉拿山贼赢宝藏 极品道具领回家" style="color:">缉拿山贼赢宝藏 极品道具领回家</a>
+	<em>10/13</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22651/m17477/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22651/m17478/201710/643138.shtml" target="_blank" title="积分排名赢取豪礼 限定版单车获奖名单公布" style="color:">积分排名赢取豪礼 限定版单车获奖名单公布</a>
+	<em>10/10</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22651/m17477/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22651/m17478/201709/640766.shtml" target="_blank" title="国庆中秋天天乐 多重活动享好礼" style="color:">国庆中秋天天乐 多重活动享好礼</a>
+	<em>09/29</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22651/m17477/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22651/m17478/201709/640207.shtml" target="_blank" title="九月人人领大奖 全民狂欢迎国庆" style="color:">九月人人领大奖 全民狂欢迎国庆</a>
+	<em>09/28</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22651/m17477/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22651/m17478/201709/639232.shtml" target="_blank" title="来点实际的，九月狂欢人人有奖" style="color:">来点实际的，九月狂欢人人有奖</a>
+	<em>09/26</em>
+</li>
+
+                           </ul>
+                           <ul class="list">
+                               <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/677258.shtml" target="_blank" title="元旦活动乐无边 2018开门领好礼" style="color:#FF0000">元旦活动乐无边 2018开门领好礼</a>
+	<em>12/29</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/674302.shtml" target="_blank" title="畅享冰雪大作战 圣诞节活动全新登场" style="color:">畅享冰雪大作战 圣诞节活动全新登场</a>
+	<em>12/25</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/672791.shtml" target="_blank" title="欢歌满载 大理线下玩家见面会圆满结束" style="color:">欢歌满载 大理线下玩家见面会圆满结束</a>
+	<em>12/21</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/670241.shtml" target="_blank" title="200级真龙套装震撼降世 龙王称号傲视群雄" style="color:">200级真龙套装震撼降世 龙王称号傲视群雄</a>
+	<em>12/14</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/670039.shtml" target="_blank" title="一键换装技能可切换 双生流派驰骋战场" style="color:">一键换装技能可切换 双生流派驰骋战场</a>
+	<em>12/14</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22650/m17477/list_1.shtml" target="_blank">新闻</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22650/m17478/201712/669183.shtml" target="_blank" title="第三届6V6跨服争霸赛冠军诞生 八大战区缔造辉煌荣耀" style="color:">第三届6V6跨服争霸赛冠军诞生 八大战区缔造辉煌荣耀</a>
+	<em>12/12</em>
+</li>
+
+                           </ul>
+                           <ul class="list">
+                               <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201801/678322.shtml" target="_blank" title="1月4日10:00加开新服公告" style="color:#FF0000">1月4日10:00加开新服公告</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201712/673811.shtml" target="_blank" title="12月25日6:00-9:00全区停服更新公告" style="color:">12月25日6:00-9:00全区停服更新公告</a>
+	<em>12/22</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201712/670631.shtml" target="_blank" title="12月18日6:00-9:00全区停服更新公告" style="color:">12月18日6:00-9:00全区停服更新公告</a>
+	<em>12/15</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201712/670608.shtml" target="_blank" title="（已开服）12月20日10:00加开新服公告（延期）" style="color:">（已开服）12月20日10:00加开新服公告（延期）</a>
+	<em>12/15</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201712/667939.shtml" target="_blank" title="12月11日6:00-9:00全区停服更新公告" style="color:">12月11日6:00-9:00全区停服更新公告</a>
+	<em>12/08</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22647/22652/m17477/list_1.shtml" target="_blank">公告</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22647/22652/m17478/201712/665044.shtml" target="_blank" title="12月7日第八批合服公告" style="color:">12月7日第八批合服公告</a>
+	<em>12/01</em>
+</li>
+
+                           </ul>
+                       </div>
+                   </div>
+                   <!--自助服务-->
+                   <div class="fr pr service">
+                       <h3 class="hide">自助服务</h3>
+                       <div class="info">自助回档、官方微信，礼包兑换更多自助尽收囊中自助尽收囊中</div>
+                       <a href="http://zt.qq.com/web201711/service.shtml" target="_blank" class="pa btn-zz" onclick="PTTSendClick('btn','more','自助服务');"><p class="pa">点击进入</p></a>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!--新手成长-->
+    <div class="con2">
+        <div class="mid">
+            <h2 class="tit2">新手成长</h2>
+            <div class="conbox c">
+                <!-- 英雄简介-->
+                <div class="fl pr heroes" id="tabHeroes">
+                    <ul class="pr hd">
+                        <li class=" on"><a href="javascript:;" onclick="PTTSendClick('btn','hero','法师');">法师</a></li>
+                        <li><a href="javascript:;" onclick="PTTSendClick('btn','hero','战士');">战士</a></li>
+                        <li><a href="javascript:;" onclick="PTTSendClick('btn','hero','弓手');">弓手</a></li>
+                        <li><a href="javascript:;" onclick="PTTSendClick('btn','hero','召唤');">召唤</a></li>
+                        <li><a href="javascript:;" onclick="PTTSendClick('btn','hero','仙术');">仙术</a></li>
+                        <li><a href="javascript:;" onclick="PTTSendClick('btn','hero','刺客');">刺客</a></li>
+                    </ul>
+                    <div class="pa bd">
+                        <div class="pr list dis">
+                            <img class="pa bg-pic" src="//game.gtimg.cn/images/zht/web201711/c2_heroe1.jpg" width="595" height="370" alt="法师">
+                            <div class="pr info">
+                                <h3>法师</h3>
+                                <p class="t1">远程法术高输出职业</p>
+                                <p class="t2">擅长使用元素之力，拥有极高的伤害能力，冰火雷交织下的绚丽技能将是战场上一道恐怖的风景线！</p>
+                                <div class="star">
+                                    <span>操作难度</span>
+                                    <p class="pr sp star1"><i class="pa sp star2" style="width:80%;"></i></p>
+                                </div>
+                                <a href="http://zt.qq.com/gamedata/guide.html#floatNav2" target="_blank" class="btn-more">点击查看详情 &gt;</a>
+                            </div>
+                        </div>
+                        <div class="pr list">
+                            <img class="pa bg-pic" src="//game.gtimg.cn/images/zht/web201711/c2_heroe2.jpg" width="595" height="370" alt="战士">
+                            <div class="pr info">
+                                <h3>战士</h3>
+                                <p class="t1">近战物理高爆发职业</p>
+                                <p class="t2">最为骁勇善战的勇士，性格坚韧而骄傲。战斗中一直冲锋在前，是团队的中流砥柱，被誉为团队之坚盾！</p>
+                                <div class="star">
+                                    <span>操作难度</span>
+                                    <p class="pr sp star1"><i class="pa sp star2" style="width:40%;"></i></p>
+                                </div>
+                                <a href="http://zt.qq.com/gamedata/guide.html#floatNav2" target="_blank" class="btn-more">点击查看详情 &gt;</a>
+                            </div>
+                        </div>
+                        <div class="pr list">
+                            <img class="pa bg-pic" src="//game.gtimg.cn/images/zht/web201711/c2_heroe3.jpg" width="595" height="370" alt="弓手">
+                            <div class="pr info">
+                                <h3>弓手</h3>
+                                <p class="t1">远程物理高暴击职业</p>
+                                <p class="t2">继承羿之神力，远可放矢击敌，进可携宠探敌，退可陷阱诱敌，绝对的箭神传人！</p>
+                                <div class="star">
+                                    <span>操作难度</span>
+                                    <p class="pr sp star1"><i class="pa sp star2" style="width:60%;"></i></p>
+                                </div>
+                                <a href="http://zt.qq.com/gamedata/guide.html#floatNav2" target="_blank" class="btn-more">点击查看详情 &gt;</a>
+                            </div>
+                        </div>
+                        <div class="pr list">
+                            <img class="pa bg-pic" src="//game.gtimg.cn/images/zht/web201711/c2_heroe4.jpg" width="595" height="370" alt="召唤">
+                            <div class="pr info">
+                                <h3>召唤</h3>
+                                <p class="t1">召唤类职业</p>
+                                <p class="t2">作为资深的召唤师深深沉迷于收集各系魔宠神兽，身边时常围绕有众多召唤兽，让敌人无法轻易靠近！</p>
+                                <div class="star">
+                                    <span>操作难度</span>
+                                    <p class="pr sp star1"><i class="pa sp star2" style="width:40%;"></i></p>
+                                </div>
+                                <a href="http://zt.qq.com/gamedata/guide.html#floatNav2" target="_blank" class="btn-more">点击查看详情 &gt;</a>
+                            </div>
+                        </div>
+                        <div class="pr list">
+                            <img class="pa bg-pic" src="//game.gtimg.cn/images/zht/web201711/c2_heroe5.jpg" width="595" height="370" alt="仙术">
+                            <div class="pr info">
+                                <h3>仙术</h3>
+                                <p class="t1">状态法术控制类职业</p>
+                                <p class="t2">拥有丰富的治疗手段，亦有多样的诅咒控制。他将是一个贴心战友，或者是一个麻烦对手！</p>
+                                <div class="star">
+                                    <span>操作难度</span>
+                                    <p class="pr sp star1"><i class="pa sp star2" style="width:40%;"></i></p>
+                                </div>
+                                <a href="http://zt.qq.com/gamedata/guide.html#floatNav2" target="_blank" class="btn-more">点击查看详情 &gt;</a>
+                            </div>
+                        </div>
+                        <div class="pr list">
+                            <img class="pa bg-pic" src="//game.gtimg.cn/images/zht/web201711/c2_heroe6.jpg" width="595" height="370" alt="刺客">
+                            <div class="pr info">
+                                <h3>刺客</h3>
+                                <p class="t1">近战物理高爆发职业</p>
+                                <p class="t2">潜伏于阴影之中，行走于刀尖之上；杀人无形，来去无踪，随时准备对敌人发起致命一击！</p>
+                                <div class="star">
+                                    <span>操作难度</span>
+                                    <p class="pr sp star1"><i class="pa sp star2" style="width:80%;"></i></p>
+                                </div>
+                                <a href="http://zt.qq.com/gamedata/guide.html#floatNav2" target="_blank" class="btn-more">点击查看详情 &gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 新手职业玩法战报-->
+                <div class="fr job news-list" id="tabJob">
+                    <div class="pr tab-tit">
+                        <ul class="hd c">
+                            <li class=" on"><a href="//zt.qq.com/webplat/info/news_version3/22262/22584/22585/m17483/list_1.shtml" target="_blank" onclick="PTTSendClick('btn','gonglve','新手');">新手</a></li>
+                            <li><a href="//zt.qq.com/webplat/info/news_version3/22262/22584/22586/m17483/list_1.shtml" target="_blank" onclick="PTTSendClick('btn','gonglve','职业');">职业</a></li>
+                            <li><a href="//zt.qq.com/webplat/info/news_version3/22262/22584/22587/m17483/list_1.shtml" target="_blank" onclick="PTTSendClick('btn','gonglve','活动');">活动</a></li>
+                            <li><a href="//zt.qq.com/webplat/info/news_version3/22262/22584/22588/m17483/list_1.shtml" target="_blank" onclick="PTTSendClick('btn','gonglve','战报');">战报</a></li>
+                        </ul>
+                        <p class="pa btn-more"><a href="//zt.qq.com/webplat/info/news_version3/22262/22584/m14862/list_1.shtml" onclick="PTTSendClick('btn','gonglve','更多');" target="_blank">查看更多</a><i class="pa sp m1"></i></p>
+                    </div>
+                    <div class="bd">
+                        <div class="img c"><a href="http://zt.qq.com/webplat/info/news_version3/22262/22584/22586/m14860/201712/675197.shtml?atm_cl=ad&amp;atm_pos=20145&amp;e_code=382769" target="_blank" onclick="PTTSendClick('ad','single','攻略单帧1');"><img src="//ossweb-img.qq.com/upload/adw/image/201711/1511910699720503162.jpg" alt="职业进阶" width="274" height="118"></a><a href="http://zt.qq.com/webplat/info/news_version3/22262/22584/22587/m14860/201712/676258.shtml?atm_cl=ad&amp;atm_pos=20146&amp;e_code=382770" target="_blank" onclick="PTTSendClick('ad','single','攻略单帧2');"><img src="//ossweb-img.qq.com/upload/adw/image/201711/1511910712728411329.jpg" alt="活动玩法" width="274" height="118"></a></div>
+                        <div class="list dis">
+                            <ul class="list-link">
+                                <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22585/m17483/list_1.shtml" target="_blank">新手</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22585/m17484/201712/677083.shtml" target="_blank" title="单挑技巧 野外PK技巧详解">单挑技巧 野外PK技巧详解</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22585/m17483/list_1.shtml" target="_blank">新手</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22585/m17484/201712/677080.shtml" target="_blank" title="平民必看 每日必做任务详解">平民必看 每日必做任务详解</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22585/m17483/list_1.shtml" target="_blank">新手</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22585/m17484/201712/675562.shtml" target="_blank" title="真龙降世 真龙装备打造条件你达到了么">真龙降世 真龙装备打造条件你达到了么</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22585/m17483/list_1.shtml" target="_blank">新手</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22585/m17484/201711/664120.shtml" target="_blank" title="还觉得这些道具一无是处么 看似无用的珍贵物品详解">还觉得这些道具一无是处么 看似无用的珍贵物品详解</a>
+	<em>12/08</em>
+</li>
+
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul class="list-link">
+                                <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22586/m17483/list_1.shtml" target="_blank">职业</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22586/m17484/201712/675559.shtml" target="_blank" title="一个好汉三个帮 召唤系职业双流派搭配推荐">一个好汉三个帮 召唤系职业双流派搭配推荐</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22586/m17483/list_1.shtml" target="_blank">职业</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22586/m17484/201712/675197.shtml" target="_blank" title="远程爆发 《征途》手机版射术系职业双流派搭配推荐">远程爆发 《征途》手机版射术系职业双流派搭配推荐</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22586/m17483/list_1.shtml" target="_blank">职业</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22586/m17484/201712/675558.shtml" target="_blank" title="杀人无形 刺客系职业双流派搭配推荐">杀人无形 刺客系职业双流派搭配推荐</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22586/m17483/list_1.shtml" target="_blank">职业</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22586/m17484/201712/675198.shtml" target="_blank" title="状态加持 仙术系职业双流派搭配推荐">状态加持 仙术系职业双流派搭配推荐</a>
+	<em>01/03</em>
+</li>
+
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul class="list-link">
+                                <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22587/m17483/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22587/m17484/201712/676258.shtml" target="_blank" title="真龙套装显神威 真龙套装能否撼动紫装地位">真龙套装显神威 真龙套装能否撼动紫装地位</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22587/m17483/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22587/m17484/201712/675557.shtml" target="_blank" title="200级套装震撼来袭 真龙装备究竟多强">200级套装震撼来袭 真龙装备究竟多强</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22587/m17483/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22587/m17484/201712/677061.shtml" target="_blank" title="人多力量大 家族福利有哪些">人多力量大 家族福利有哪些</a>
+	<em>01/03</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22587/m17483/list_1.shtml" target="_blank">活动</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22587/m17484/201712/671301.shtml" target="_blank" title="魂魄属性轻松转换 魂魄石兑换优势详解">魂魄属性轻松转换 魂魄石兑换优势详解</a>
+	<em>12/21</em>
+</li>
+
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul class="list-link">
+                                <li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22588/m17483/list_1.shtml" target="_blank">战报</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22588/m17484/201712/677054.shtml" target="_blank" title="【12.28家族战战报】皇城相府VS恶棍天使：势均力敌的战斗">【12.28家族战战报】皇城相府VS恶棍天使：势均力敌的战斗</a>
+	<em>01/02</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22588/m17483/list_1.shtml" target="_blank">战报</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22588/m17484/201712/677086.shtml" target="_blank" title="【12.27荒都鬼城】：天生君王极限翻盘">【12.27荒都鬼城】：天生君王极限翻盘</a>
+	<em>01/02</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22588/m17483/list_1.shtml" target="_blank">战报</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22588/m17484/201712/676257.shtml" target="_blank" title="【12.26家族战战报】 皇城相府VS清风NB无悔战场指挥重要性">【12.26家族战战报】 皇城相府VS清风NB无悔战场指挥重要性</a>
+	<em>01/02</em>
+</li>
+<li>
+	<a class="news-chl" href="/webplat/info/news_version3/22262/22584/22588/m17483/list_1.shtml" target="_blank">战报</a>
+	<a class="news-tit" href="/webplat/info/news_version3/22262/22584/22588/m17484/201712/675187.shtml" target="_blank" title="【12.24荒都鬼城】：家族联手 势不可当">【12.24荒都鬼城】：家族联手 势不可当</a>
+	<em>01/02</em>
+</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--成长列表-->
+            </div>
+            <div class="conbox2 c">
+                <div class="fl pr link link1">
+                    <h3 class="hide">新手入门</h3>
+                    <div class="box c">
+                        <a href="//zt.qq.com/gamedata/guide.html#floatNav2" target="_blank" onclick="PTTSendClick('link','xinshou','选择武功');">选择武功</a>
+                        <a href="//zt.qq.com/gamedata/guide.html#floatNav3" target="_blank" onclick="PTTSendClick('link','xinshou','了解世界');">了解世界</a>
+                        <a href="//zt.qq.com/gamedata/guide.html#floatNav4" target="_blank" onclick="PTTSendClick('link','xinshou','基本操作');">基本操作</a>
+                        <a href="//zt.qq.com/gamedata/guide.html#floatNav4" target="_blank" class="pr" onclick="PTTSendClick('link','xinshou','自动打怪');">自动打怪<i class="sp hot"></i></a>
+                        <a href="//zt.qq.com/gamedata/guide.html#floatNav4" target="_blank" onclick="PTTSendClick('link','xinshou','如何聊天');">如何聊天</a>
+                        <a href="//zt.qq.com/gamedata/guide.html#floatNav4" target="_blank" onclick="PTTSendClick('link','xinshou','如何赚钱');">如何赚钱</a>
+                        <a href="javascript:alert('敬请期待！')">藏宝图</a>
+                    </div>
+                    <a class="pa btn-more" href="//zt.qq.com/gamedata/guide.html" onclick="PTTSendClick('btn','xinshou','新手入门查看更多');" target="_blank">查看更多</a>
+                </div>
+                <!-- 进阶玩法-->
+                <div class="fl pr link link2">
+                    <h3 class="hide">进阶玩法</h3>
+                    <div class="box c">
+                        <a href="//zt.qq.com/gamedata/data.html" target="_blank" onclick="PTTSendClick('link','xinshou','职业进阶');">职业进阶</a>
+                        <a href="//zt.qq.com/gamedata/contact.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','家族活动');">家族活动</a>
+                        <a href="//zt.qq.com/gamedata/contact.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','帮派活动');">帮派活动</a>
+                        <a href="//zt.qq.com/gamedata/contact.html#two" class="pr" target="_blank" onclick="PTTSendClick('link','xinshou','国家活动');">国家活动<i class="sp hot"></i></a>
+                        <a href="//zt.qq.com/gamedata/equi.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','装备坐骑');">装备坐骑</a>
+                        <a href="javascript:alert('敬请期待！');" onclick="PTTSendClick('link','xinshou','场景地图');">场景地图</a>
+                        <a href="javascript:alert('敬请期待！');" onclick="PTTSendClick('link','xinshou','藏宝图');">藏宝图</a>
+                    </div>
+                    <a class="pa btn-more" href="//zt.qq.com/gamedata/data.html" onclick="PTTSendClick('btn','xinshou','进阶玩法查看更多');" target="_blank">查看更多</a>
+                </div>
+                <!--日常活动-->
+                <div class="fr pr link link3">
+                    <h3 class="hide">日常活动</h3>
+                    <div class="box c">
+                        <a href="//zt.qq.com/gamedata/day.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','培训令牌');">培训令牌</a>
+                        <a href="//zt.qq.com/gamedata/day.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','藏宝图');">藏宝图</a>
+                        <a href="//zt.qq.com/gamedata/day.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','侠客岛');">侠客岛</a>
+                        <a href="//zt.qq.com/gamedata/day.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','场景地图');">智力答题</a>
+                        <a href="//zt.qq.com/gamedata/day.html#two" class="pr" target="_blank" onclick="PTTSendClick('link','xinshou','魔幻迷宫');">魔幻迷宫<i class="sp hot"></i></a>
+                        <a href="//zt.qq.com/gamedata/task.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','种植养殖');">种植养殖</a>
+                        <a href="//zt.qq.com/gamedata/task.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','周游列国');">周游列国</a>
+                        <a href="//zt.qq.com/gamedata/task.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','骆驼商队');">骆驼商队</a>
+                        <a href="//zt.qq.com/gamedata/day.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','四大疑案');">四大疑案</a>
+                        <a href="//zt.qq.com/gamedata/day.html#two" target="_blank" onclick="PTTSendClick('link','xinshou','自行车比赛');">自行车比赛</a>
+                    </div>
+                    <a class="pa btn-more" href="//zt.qq.com/gamedata/day.html#two" onclick="PTTSendClick('btn','xinshou','日常活动查看更多');" target="_blank">查看更多</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--荣誉炫耀-->
+    <div class="con3">
+        <div class="mid">
+            <h2 class="tit3">荣誉炫耀</h2>
+            <!--选择服务器-->
+            <div class="pr choose">
+                <div class="pr sp choose-in">选择服务器<i class="pa"></i></div>
+                <div class="pa choose-info" id="tabChoose">
+                    <ul class="hd c">
+                        <li class=" on">ios-微信<span><i class="sp ios"></i></span></li>
+                        <li>ios-QQ<span><i class="sp ios"></i></span></li>
+                        <li>安卓-微信<span><i class="sp andior"></i></span></li>
+                        <li>安卓-QQ<span><i class="sp andior"></i></span></li>
+                    </ul>
+                    <div class="bd">
+                        <div class="list c dis"><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a></div>
+                        <div class="list c"><a href="javascript:;">71-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a></div>
+                        <div class="list c"><a href="javascript:;">73-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a></div>
+                        <div class="list c"><a href="javascript:;">71-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-横扫天下</a><a href="javascript:;">78-009横扫天下</a><a href="javascript:;">78-横扫天下</a></div>
+                    </div>
+                </div>
+            </div>
+            <!--排名列表-->
+            <div class="box c">
+                <div class="fl pr rank" id="tabRank">
+                    <div class="pa tit" id="rank-scroll">
+                        <div class="scroll-box">
+                            <div class="tempWrap" style="overflow:hidden; position:relative; height:390px"><ul class="hd" style="top: 0px; position: relative; padding: 0px; margin: 0px;">
+                                <li class=" on" style="height: 78px;">战力榜</li>
+                                <li style="height: 78px;">鲜花榜</li>
+                                <li style="height: 78px;">国战</li>
+                                <li style="height: 78px;">家族战</li>
+                                <li style="height: 78px;">战6V6</li>
+                                <li style="height: 78px;">家族战</li>
+                                <li style="height: 78px;">战6V6</li>
+                                <li style="height: 78px;">家族战</li>
+                                <li style="height: 78px;">战6V6</li>
+                            </ul></div>
+                        </div>
+                        <div class="pa more rnkknext"><i class="sp m2"></i></div>
+                    </div>
+                    <div class="pr bd">
+                        <i class="pa bg-contrust"></i>
+                        <div class="rank-list dis">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rank-list">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>0002永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rank-list">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>002永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rank-list">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rank-list">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rank-list">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rank-list">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rank-list">
+                            <table>
+                                <thead><tr><td width="33%">名 次</td><td width="33%">玩家名字</td><td>战斗力</td></tr></thead>
+                                <tbody>
+                                <tr><td>1</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>2</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>3</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>4</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>5</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>6</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>7</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>8</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>9</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                <tr><td>10</td><td>永恒哥哥</td><td>12360050</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- 名人堂-->
+                <div class="fr person">
+                    <h3 class="person-tit">名人堂</h3>
+                    <div class="person-img"><a href="http://zt.qq.com/cp/a20170504fame/index.htm" target="_blank"><img src="//game.gtimg.cn/images/zht/web201711/c3_ad.jpg" width="280" height="396" alt="名人堂"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--社区交流-->
+    <div class="con4">
+        <div class="mid">
+            <h2 class="tit4">社区交流</h2>
+            <div class="box c">
+                <div class="fl card" id="tabCard">
+                    <div class="hd">
+					   <ul class="c">
+                        <li class=" on"><a href="//bbs.g.qq.com/forum-57372-1-1-0.html;" target="_blank" onclick="PTTSendClick('btn','bbs','最新热帖');">最新热帖<i class="sp i1"></i></a></li>
+                        <li><a href="//bbs.g.qq.com/forum.php?mod=forumdisplay&amp;fid=57471" target="_blank" onclick="PTTSendClick('btn','bbs','玩家故事');">玩家故事<i class="sp i1"></i></a></li>
+                        <li><a href="//bbs.g.qq.com/forum-57376-1-1-0.html" target="_blank" onclick="PTTSendClick('btn','bbs','论坛活动');">论坛活动<i class="sp i1"></i></a></li>
+                      </ul>	
+					</div>
+                    <div class="bd">
+                        <ul class="note-list dis">
+                            <li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201702/552057.shtml" target="_blank">都过完年了，老玩家要出手了</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201702/552049.shtml" target="_blank">我也来发几张图</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201702/552048.shtml" target="_blank">10区马腾飞兔详解紫装</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201701/545568.shtml" target="_blank">六区 紫气寰宇</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201701/544555.shtml" target="_blank">年终奖来了！登录就领5000元大礼，年兽坐骑！</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201701/543421.shtml" target="_blank">征途手游17区 楚国 滕王阁家族2016年度宣传片</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201701/541726.shtml" target="_blank">征途宝贝给玩家的一封信</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201612/540377.shtml" target="_blank">我和霸主的战斗历程</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201612/535257.shtml" target="_blank">那些舍不得删的游戏——“游戏家”（第5届）选拔赛</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201612/535132.shtml" target="_blank">66我们的纪念</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/23717/m17489/201612/535125.shtml" target="_blank">感谢彼此陪伴路过征途世界</a><i class="sp d"></i></li>
+
+                        </ul>
+                        <ul class="note-list">
+                            <li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201702/552058.shtml" target="_blank">漫漫征途路，一路有你风雨也温柔</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201701/544934.shtml" target="_blank">明俊感谢你的一路相伴</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201701/542372.shtml" target="_blank">情，不知所起，一网而深！</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/540379.shtml" target="_blank">好朋友，好兄弟，还有我最亲爱的她</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/533076.shtml" target="_blank">感谢彼此陪伴路过征途世界</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/532412.shtml" target="_blank">走自己的路，让别人打的士去吧！</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/532410.shtml" target="_blank">愉快的周末哈！</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/532409.shtml" target="_blank">对你说“早安”的人，一定很爱你</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/532407.shtml" target="_blank">沫沫酱的征途心情日记</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/532405.shtml" target="_blank">粉色小甜心丶的征途心情日记！</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/26891/m17489/201612/532403.shtml" target="_blank">鸢儿灬不负卿</a><i class="sp d"></i></li>
+
+                        </ul>
+                        <ul class="note-list">
+                            <li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201701/544066.shtml" target="_blank">【论坛活动】我们是城主</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/540146.shtml" target="_blank">【论坛活动】寻找最美圣诞树</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534818.shtml" target="_blank">【论坛活动】6V6跨服争霸赛精彩时刻征集，赢取升星石</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534580.shtml" target="_blank">【论坛活动】坐骑新品，陪我一起共暖冬</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534579.shtml" target="_blank">【有奖竞猜】谁将代表本服去竞争跨服的荣耀？</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534577.shtml" target="_blank">【论坛活动】跨服赛参与有奖</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534576.shtml" target="_blank">【论坛活动】我和征途不得不说的故事</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534575.shtml" target="_blank">【论坛活动】 谁是预言帝</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534574.shtml" target="_blank">【论坛活动】战力不是决定一切</a><i class="sp d"></i></li>
+<li><a href="/webplat/info/news_version3/22262/23407/23716/27024/m17489/201612/534573.shtml" target="_blank">【论坛活动】3V3精彩时刻记录</a><i class="sp d"></i></li>
+
+                        </ul>
+                    </div>
+                    <a href="//bbs.g.qq.com/forum/index/zt" class="sp btn-note-more" onclick="PTTSendClick('btn','btn-jrlt','进入论坛');" target="_blank">进入论坛，查看更多</a>
+                </div>
+                <div class="fr ad-list">
+                    <ul>
+                        <li><a href="javascript:alert('敬请期待');" class="sp tip2" onclick="PTTSendClick('btn','rukou','策划直通车');">策划直通车</a><a href="javascript:alert('敬请期待');"><img src="//game.gtimg.cn/images/zht/web201711/c4_ad1.jpg" width="538" height="166" alt="策划直通车"></a></li>
+                        <li><a href="javascript:alert('敬请期待');" class="sp tip2" onclick="PTTSendClick('btn','rukou','你提我改');">你提我改</a><a href="javascript:alert('敬请期待');"><img src="//game.gtimg.cn/images/zht/web201711/c4_ad2.jpg" width="538" height="166" alt="你提我改"></a></li>
+                        <li><a href="http://bbs.g.qq.com/forum-57374-1-1-0.html" target="_blank" class="sp tip2" onclick="PTTSendClick('btn','rukou','论坛入口');">论坛入口</a><a href="http://bbs.g.qq.com/forum-57374-1-1-0.html" target="_blank"><img src="//game.gtimg.cn/images/zht/web201711/c4_ad3.jpg" width="538" height="206" alt="论坛入口"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--游戏特色-->
+    <div class="con5">
+        <div class="mid">
+            <h2 class="tit5">游戏特色</h2>
+            <div class="pr scorll-box">
+                <div class="list" id="game-feature" style="width: 980px; overflow: hidden;"><div style="overflow: hidden; width: 35000px;"><div style="float: left;">
+                   <ul>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad1.jpg" alt="游戏特色"></a></li>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad2.jpg" alt="游戏特色"></a></li>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad3.jpg" alt="游戏特色"></a></li>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad4.jpg" alt="游戏特色"></a></li>
+                   </ul>
+                </div><div style="float: left;">
+                   <ul>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad1.jpg" alt="游戏特色"></a></li>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad2.jpg" alt="游戏特色"></a></li>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad3.jpg" alt="游戏特色"></a></li>
+                       <li><a href="javascript:;"><img src="//game.gtimg.cn/images/zht/web201711/c5_ad4.jpg" alt="游戏特色"></a></li>
+                   </ul>
+                </div></div></div>
+                <i class="pa sp prev" id="btn-prev"></i>
+                <i class="pa sp next" id="btn-next"></i>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footerBox">
+        <div class="footer-zht">
+            <div class="footer_bottom">
+                <div class="set_wid clearfix">
+                    <div class="fl footer_Logo"></div>
+                    <div class="fl">
+                        <div class="footer_sign">本网络游戏适合年满17岁(含)以上的用户使用；为了您的健康，请合理控制游戏时间。</div>
+                        <div class="footer_sign">抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</div>
+                        <ul class="clearfix">
+                            <li class="fl">
+                                <a href="http://ieg.tencent.com/" target="_blank">腾讯互动娱乐</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://game.qq.com/contract.shtml" target="_blank">服务条款</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://adver.qq.com/" target="_blank">广告服务</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://game.qq.com/hr/" target="_blank">腾讯招聘</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://service.qq.com/" target="_blank">腾讯游戏客服</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://game.qq.com/gnav" target="_blank">游戏地图</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://tgact.qq.com/" target="_blank">游戏活动</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://game.qq.com/brand/business.htm" target="_blank">游戏活动</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://www.qq.com/" target="_blank">腾讯网</a>
+                            </li>
+
+                            <li class="fl">
+                                <a href="http://www.qq.com/map/" target="_blank">网站导航</a>
+                            </li>
+                        </ul>
+                        <div class="footer_sign clearfix">
+                            <div class="fl">COPYRIGHT ©  2016 TENCENT. ALL RIGHTS RESERVED.</div>
+                            <div class="fr">腾讯公司版权所有</div>
+                        </div>
+                        <div class="footer_sign">
+                            <a href="http://www.qq.com/culture.shtml" target="_blank" style="padding-right:20px; display:inline-block; color:#a8abad">粤网文[2014]0633-233号</a>
+                            <a href="http://game.qq.com/culture2.htm" target="_blank" style="display:inline-block; color:#a8abad">新出网证(粤)字010号</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/milo/milo.js"></script>
+<script src="//ossweb-img.qq.com/images/js/title.js"></script><div class="ost_box ost_bg" id="ost_box" style="position: absolute;"><ul class="ost_inner ost_lsn"><li class="ost_logo ost_h40 ost_fl ost_bg"><a href="//game.qq.com/?ADTAG=IED.InnerCop.gameWeb.topNav target=" _blank"="" class="ost_blnk ost_hdn" title="腾讯游戏logo">腾讯游戏logo</a></li><li id="ost_g" class="ost_ad ost_h40 ost_fl"><img class="ost_nb" id="ost_go" src="http://itea-cdn.qq.com/file/o2/20180102/13312318281895722095151487820123040.1514878203.c1ac01d774539544516aa81c48d2f8db.230x40_7478.jpg" alt=""></li><li class="ost_total ost_ml10 ost_fr"><h3 class="ost_czsh ost_h40"><a target="_blank" href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbanner">成长守护平台</a></h3><h3 class="ost_title ost_h40" id="ost_t">腾讯游戏排行榜<i class="ost_icon_arrow ost_bg"></i><sup class="ost_icon_reddot" id="ost_rank_v"></sup></h3><div class="ost_pop" id="ost_p"></div></li><li class="ost_fr ost_log ost_bg" id="ost_log"></li></ul><div id="ost_d" class="ost_big"></div></div>
+<script src="//zt.qq.com/web201711/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="//ossweb-img.qq.com/images/js/comm/tgAds.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/comm/showDialog.min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/comm/tgadshow.min.js"></script><script>
+    function DialogS(id) {
+        showDialog.show({ id: id, bgcolor: "#000", opacity: 60 });
+    }
+    //新服文字滚动
+    var scrollText = (function(){
+        var left = 0;
+        setInterval(function(){
+            left++;
+           if(left>=320) { left=0;}
+            $('.scoll-text p').css('left',-left+'px');
+        },30);
+    })()
+    //服务器下拉
+    $('.choose').on('mouseover mouseout',function(e){
+        if(e.type == 'mouseover'){
+             $('.choose-info').show();
+        }else if(e.type == 'mouseout'){
+            $('.choose-info').hide();
+        }
+    })
+    //ggs
+    var ads1=new tgAds({
+        ggID:'15077'
+        ,info:'160428'
+        ,box:'roll_ggs'
+        ,pgv:'index.ggs.list'
+    });
+    var ads2=new tgAds({
+        ggID:'15077'
+        ,info:'20171122'
+        ,box:'roll_ggs2'
+        ,pgv:'index.ggs.list2'
+    });
+    //切换
+    need("biz.tabs", function (tabs) {
+        tabs.init("tabBigAd","ad-box");
+        tabs.init("tabNews", "list");
+        tabs.init("tabHeroes", "list");
+        tabs.init("tabJob", "list");
+        tabs.init("tabRank", "rank-list");
+        tabs.init("tabCard", "note-list");
+        tabs.init("tabChoose", "list");
+    })
+   //排行版滚动
+    jQuery("#rank-scroll").slide({titCell:".hd ul", mainCell:".scroll-box ul",autoPage:true,effect:"top",vis:5,nextCell:'.rnkknext'});
+   //图片滚动
+    need("biz.scroll",function(s){
+        //游戏特色图片滚动
+        s.init({
+            conId:'game-feature',//内容容器ID
+            leftId:'btn-prev',//左箭头ID
+            rightId:'btn-next',//右箭头ID
+            frameWidth:980,//显示框宽度
+            pageSpace:980,//翻页宽度或高度
+            autoPlay:false,//自动播放
+            position:'left',//播放方向 left为向左，up为向上,设置为up时必须加上翻页高度pageHeight值
+            autoPlayTime:5//自动播放间隔时间(秒)
+        });
+    })
+
+</script><script src="//game.qq.com/time/qqadv/Info_new_15077.js" type="text/javascript"></script><script src="//game.qq.com/time/qqadv/Info_new_15077.js" type="text/javascript"></script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script>
+    //此段代码不能放到外链JS中，
+    var setSite = { //设置网站属性
+        siteType: "os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+        pageType: "main", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+        pageName: "首页", //必填项:页面中文名
+        osact: 0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+        ingame: 0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+        stayTime: 0 //选填项:是否需要统计停留时长boolean；默认是0
+    }
+    if (typeof (pgvMain) == 'function') pgvMain();//千万不能忘记！
+</script>
+
+
+<!--[if !IE]>|xGv00|a1e381012f55308040b19a0091952c58<![endif]--></body></html><!--[if !IE]>|xGv00|d860b1212061721bdeb4ffe9d1cfbce2<![endif]-->
